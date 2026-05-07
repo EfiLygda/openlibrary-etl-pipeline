@@ -1,8 +1,13 @@
-from time import sleep
+import os
 import math
-
 import pandas as pd
 import requests
+from time import sleep
+from dataset_initilize import DATA_DIR
+
+# Genre as 'romance' is too broad and returns noise
+# 'romance fiction' doesn't return all authors
+# Result: Will have to extract romance works first -> find authors -> then extract their metadata
 
 GENRE = 'romance'
 LIMIT = 100
@@ -37,13 +42,21 @@ AUTHOR_FIELDS = (
 author_data = []
 
 for page in range(1, total_pages+1):
+
+    print(f'({page}/{total_pages}) Extracting {GENRE} authors\' data...', end='\r')
+
     request_params = {'q': GENRE, 'page': page, 'limit': LIMIT}
     response = requests.get(base_url, params=request_params)
 
     result = response.json()
 
     author_data += result['docs']
-    print(f'{page}/{total_pages} author pages done!')
     sleep(0.5)
 
-author_data = pd.DataFrame(author_data).loc[:, AUTHOR_FIELDS]
+df = pd.DataFrame(author_data).loc[:, AUTHOR_FIELDS]
+
+filename = 'authors.csv'
+
+df.to_csv(os.path.join(DATA_DIR, filename), index=False)
+
+print(f'Exported {GENRE} authors\' data!')
