@@ -1,9 +1,9 @@
 import os
 import json
-import requests
 from time import sleep
 from dataset_initilize import RAW_PAGES_DIR
 from random import uniform
+from open_library_searches import OpenLibraryClient
 
 # ----------------------------------------------------------------------------------
 # --- 1. Setting up the genre directories ---
@@ -24,18 +24,16 @@ if not os.path.exists(GENRE_DIR):
 # Final record number: 2000
 LIMIT = 100
 MAX_PAGES = 20
-
-# Setting the connection and reading timeouts
-CONNECT_TIMEOUT = 15
-READ_TIMEOUT = 15
 # ----------------------------------------------------------------------------------
 
 # ----------------------------------------------------------------------------------
 # --- 3. Querying Open Library API ---
 
-# Setting the base url for querying works
-# Source: https://openlibrary.org/dev/docs/api/search
-base_url = 'https://openlibrary.org/search.json'
+# Setting up an Open Library Client for querying the API
+client = OpenLibraryClient()
+
+# Setting the page limit
+client.LIMIT = LIMIT
 
 # For each page in the results save the records in JSON format
 for page in range(1, MAX_PAGES+1):
@@ -43,21 +41,8 @@ for page in range(1, MAX_PAGES+1):
     # Print a message to show progress
     print(f'({page}/{MAX_PAGES}) Extracting {GENRE} works\' metadata...', end='\r')
 
-    # Setting the parameters for each request
-    request_params = {'subject': GENRE, 'page': page, 'limit': LIMIT}
-
-    # Try to request the records and print the error message in case of error
-    try:
-        response = requests.get(
-            base_url,
-            params=request_params,
-            timeout=(CONNECT_TIMEOUT, READ_TIMEOUT)
-        )
-    except Exception as e:
-        print(e)
-
-    # Convert the response to JSON format
-    result = response.json()
+    # Query the API and return the results as a dictionary
+    result = client.search(subject=GENRE, page=page)
 
     # Set up the file name for saving the response
     filename = f'works_p{page}.json'
