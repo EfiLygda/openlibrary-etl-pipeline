@@ -1,24 +1,8 @@
 """
 Contains client class for querying Open Library API
 """
-
+import json
 import requests
-
-# ---------------------------------------------------------------------------------------------------------
-# --- Open Library API - IDs small explanation ---
-# Work ID    -> OLxxxxW (the abstract work, e.g. Pride and Prejudice)
-# Edition ID -> OLxxxxM (specific edition)
-# Author ID  -> OLxxxxA (specific author)
-# ---------------------------------------------------------------------------------------------------------
-class OpenLibraryKeys:
-
-    # TODO: Add a way to convert keys to their normalized keys
-
-    # Example: 'OL7412785A' -> '/authors/OL7412785A'
-
-    def __init__(self):
-        pass
-
 
 class OpenLibraryClient:
 
@@ -38,6 +22,29 @@ class OpenLibraryClient:
         # Current query
         self.last_url = ''
 
+    @staticmethod
+    def normalize_key(key: str) -> str:
+
+        # ------------------------------------------------------------------------
+        # --- Open Library API - IDs small explanation ---
+        # Work ID    -> OLxxxxW (the abstract work, e.g. Pride and Prejudice)
+        # Edition ID -> OLxxxxM (specific edition)
+        # Author ID  -> OLxxxxA (specific author)
+        # -----------------------------------------------------------------------
+
+        if key.startswith("OL") and key.endswith("A"):
+            return f"/authors/{key}"
+        elif key.startswith("OL") and key.endswith("W"):
+            return f"/works/{key}"
+        elif key.startswith("OL") and key.endswith("M"):
+            return f"/books/{key}"
+        else:
+            return key
+
+    @staticmethod
+    def key_list_2_str(lst: list[str]):
+        return json.dumps(lst)
+
     def request(
             self,
             url: str,
@@ -46,7 +53,6 @@ class OpenLibraryClient:
         """
         Basic wrapper for requests with error handling
 
-        :param self:
         :param url : str, the base url for the request
         :param request_params: dict, dictionary containing the parameters of the request
         :return: dict | None, returns JSON response or None in case there was an error
@@ -74,8 +80,7 @@ class OpenLibraryClient:
             print(f"Request failed: {e}")
             return None
 
-
-    def search(self, **kwargs):
+    def search(self, **kwargs) -> dict | None :
         """
         Function for quering Open Library API to retrieve book data
         :param kwargs:  dict, dictionary containing additional parameters for the query (Read more: https://openlibrary.org/dev/docs/api/search)
@@ -94,8 +99,7 @@ class OpenLibraryClient:
         # Request and return the JSON response
         return self.request(SEARCH_BASE_URL, request_params)
 
-
-    def get_author(self, author_key: str):
+    def get_author(self, author_key: str) -> dict | None :
         """
         Function for quering Open Library API to retrieve book data
         :param author_key: str, OLxxxxA like string of an authors key
@@ -103,13 +107,12 @@ class OpenLibraryClient:
         """
 
         # Setting the base url for searching the API
-        AUTHOR_BASE_URL = f'{self.BASE_URL}/authors/{author_key}.json'
+        author_url = f'{self.BASE_URL}/authors/{author_key}.json'
 
         # Request and return the JSON response
-        return self.request(AUTHOR_BASE_URL)
+        return self.request(author_url)
 
-
-    def get_work(self, work_key: str):
+    def get_work(self, work_key: str) -> dict | None :
         """
         Function for quering Open Library API to retrieve book data
         :param work_key: str, OLxxxxW like string of a work's key
@@ -117,13 +120,12 @@ class OpenLibraryClient:
         """
 
         # Setting the base url for searching the API
-        WORK_BASE_URL = f'{self.BASE_URL}/works/{work_key}.json'
+        work_url = f'{self.BASE_URL}/works/{work_key}.json'
 
         # Request and return the JSON response
-        return self.request(WORK_BASE_URL)
+        return self.request(work_url)
 
-
-    def get_edition(self, edition_key):
+    def get_edition(self, edition_key: str) -> dict | None :
         """
         Function for quering Open Library API to retrieve book data
         :param edition_key: str, OLxxxxM like string of a work's key
@@ -131,27 +133,26 @@ class OpenLibraryClient:
         """
 
         # Setting the base url for searching the API
-        EDITION_BASE_URL = f'{self.BASE_URL}/books/{edition_key}.json'
+        edition_url = f'{self.BASE_URL}/books/{edition_key}.json'
 
         # Request and return the JSON response
-        return self.request(EDITION_BASE_URL)
+        return self.request(edition_url)
 
+    def get_many(self, key_list: list[str]) -> dict | None :
+        """
+        Function for quering Open Library API to retrieve book data
+        :param key_list: list[str], list of keys for records to fetch
+        :return: dict | None, returns JSON response or None in case there was an error
+        """
 
-    def get_many(self, **kwargs):
-        pass
+        # Setting the base url for searching the API
+        get_many_url = f'{self.BASE_URL}/api/get_many'
 
+        # Normalize keys
+        normalized_key_list = [self.normalize_key(k) for k in key_list]
 
-# ---------------------------------------------------------------------------------------------------------
+        # Set up the parameters for the query
+        request_params = {'keys': self.key_list_2_str(normalized_key_list)}
 
-# ---------------------------------------------------------------------------------------------------------
-# TODO: https://openlibrary.org/books/OL45650119M.json
-#       OL45650119M is the edition_key and it returns info
-
-# TODO: https://openlibrary.org/search/authors.json?q=romance&limit=1
-#       this searches for romance authors
-
-# TODO: https://openlibrary.org/authors/OL7412785A.json
-#       this searches for specific author data
-
-# TODO: https://openlibrary.org/api/get_many?keys=%5B%22/authors/OL7412785A%22,%22/authors/OL7300387A%22%5D
-#       this returns many authors or books
+        # Request and return the JSON response
+        return self.request(get_many_url, request_params)
