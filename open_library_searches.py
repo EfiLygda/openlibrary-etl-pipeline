@@ -23,14 +23,17 @@ class OpenLibraryClient:
         self.last_url = ''
 
     @staticmethod
-    def normalize_key(key: str) -> str:
+    def detect_record(key: str) -> str | None:
+        if key.startswith("/authors/") or (key.startswith("OL") and key.endswith("A")):
+            return "author"
+        elif key.startswith("/works/") or (key.startswith("OL") and key.endswith("W")):
+            return "work"
+        elif key.startswith("/books/") or (key.startswith("OL") and key.endswith("M")):
+            return "edition"
+        return None
 
-        # ------------------------------------------------------------------------
-        # --- Open Library API - IDs small explanation ---
-        # Work ID    -> OLxxxxW (the abstract work, e.g. Pride and Prejudice)
-        # Edition ID -> OLxxxxM (specific edition)
-        # Author ID  -> OLxxxxA (specific author)
-        # -----------------------------------------------------------------------
+    @staticmethod
+    def normalize_key(key: str) -> str:
 
         if key.startswith("OL") and key.endswith("A"):
             return f"/authors/{key}"
@@ -42,7 +45,7 @@ class OpenLibraryClient:
             return key
 
     @staticmethod
-    def key_list_2_str(lst: list[str]):
+    def key_list_2_str(lst: list[str]) -> str:
         return json.dumps(lst)
 
     def request(
@@ -128,7 +131,7 @@ class OpenLibraryClient:
     def get_edition(self, edition_key: str) -> dict | None :
         """
         Function for quering Open Library API to retrieve book data
-        :param edition_key: str, OLxxxxM like string of a work's key
+        :param edition_key: str, OLxxxxM like string of an edition's key
         :return: dict | None, returns JSON response or None in case there was an error
         """
 
@@ -138,9 +141,22 @@ class OpenLibraryClient:
         # Request and return the JSON response
         return self.request(edition_url)
 
+    def get(self, key: str) -> dict | None :
+        """
+        Function for quering Open Library API to retrieve a records data
+        :param key: str, string of a record's key
+        :return: dict | None, returns JSON response or None in case there was an error
+        """
+
+        # Setting the base url for searching the API
+        url = f'{self.BASE_URL}{self.normalize_key(key)}.json'
+
+        # Request and return the JSON response
+        return self.request(url)
+
     def get_many(self, key_list: list[str]) -> dict | None :
         """
-        Function for quering Open Library API to retrieve book data
+        Function for quering Open Library API to retrieve many records at the same time
         :param key_list: list[str], list of keys for records to fetch
         :return: dict | None, returns JSON response or None in case there was an error
         """
