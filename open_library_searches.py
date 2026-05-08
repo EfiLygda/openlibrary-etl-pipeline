@@ -10,6 +10,15 @@ import requests
 # Edition ID -> OLxxxxM (specific edition)
 # Author ID  -> OLxxxxA (specific author)
 # ---------------------------------------------------------------------------------------------------------
+class OpenLibraryKeys:
+
+    # TODO: Add a way to convert keys to their normalized keys
+
+    # Example: 'OL7412785A' -> '/authors/OL7412785A'
+
+    def __init__(self):
+        pass
+
 
 class OpenLibraryClient:
 
@@ -17,7 +26,7 @@ class OpenLibraryClient:
         self.session = requests.Session()
 
         # Base urls for Open Library API
-        self.BASE_URL = 'https://openlibrary.org/'
+        self.BASE_URL = 'https://openlibrary.org'
 
         # Limiting to 100 records per page
         self.LIMIT = 100
@@ -26,13 +35,13 @@ class OpenLibraryClient:
         self.CONNECT_TIMEOUT = 15
         self.READ_TIMEOUT = 15
 
-        # Current URL
-        self.query = ''
+        # Current query
+        self.last_url = ''
 
     def request(
             self,
             url: str,
-            request_params: dict
+            request_params: dict | None = None
     ) -> dict | None :
         """
         Basic wrapper for requests with error handling
@@ -55,7 +64,7 @@ class OpenLibraryClient:
             response.raise_for_status()
 
             # Change the object's current url to the last requested
-            self.query = response.url
+            self.last_url = response.url
 
             # Returns the JSON response as a dictionary
             return response.json()
@@ -64,6 +73,7 @@ class OpenLibraryClient:
             # Print error message and return None
             print(f"Request failed: {e}")
             return None
+
 
     def search(self, **kwargs):
         """
@@ -84,16 +94,50 @@ class OpenLibraryClient:
         # Request and return the JSON response
         return self.request(SEARCH_BASE_URL, request_params)
 
-    def get_author(self):
-        pass
 
-    def get_work(self):
-        pass
+    def get_author(self, author_key: str):
+        """
+        Function for quering Open Library API to retrieve book data
+        :param author_key: str, OLxxxxA like string of an authors key
+        :return: dict | None, returns JSON response or None in case there was an error
+        """
 
-    def get_edition(self):
-        pass
+        # Setting the base url for searching the API
+        AUTHOR_BASE_URL = f'{self.BASE_URL}/authors/{author_key}.json'
 
-    def get_many(self):
+        # Request and return the JSON response
+        return self.request(AUTHOR_BASE_URL)
+
+
+    def get_work(self, work_key: str):
+        """
+        Function for quering Open Library API to retrieve book data
+        :param work_key: str, OLxxxxW like string of a work's key
+        :return: dict | None, returns JSON response or None in case there was an error
+        """
+
+        # Setting the base url for searching the API
+        WORK_BASE_URL = f'{self.BASE_URL}/works/{work_key}.json'
+
+        # Request and return the JSON response
+        return self.request(WORK_BASE_URL)
+
+
+    def get_edition(self, edition_key):
+        """
+        Function for quering Open Library API to retrieve book data
+        :param edition_key: str, OLxxxxM like string of a work's key
+        :return: dict | None, returns JSON response or None in case there was an error
+        """
+
+        # Setting the base url for searching the API
+        EDITION_BASE_URL = f'{self.BASE_URL}/books/{edition_key}.json'
+
+        # Request and return the JSON response
+        return self.request(EDITION_BASE_URL)
+
+
+    def get_many(self, **kwargs):
         pass
 
 
