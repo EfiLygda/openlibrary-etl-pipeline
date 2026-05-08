@@ -42,7 +42,10 @@ class OpenLibraryClient:
         elif key.startswith("OL") and key.endswith("M"):
             return f"/books/{key}"
         else:
-            return key
+            if not key.startswith('/'):
+                return '/' + key
+            else:
+                return key
 
     @staticmethod
     def key_list_2_str(lst: list[str]) -> str:
