@@ -5,7 +5,7 @@ Contains the fields that will be used, classified
 FIELDS = [
     # Identity
     "key",
-    "ia", # Internet Archive ID
+    # "ia", # Internet Archive ID
 
     # Work
     "title",
@@ -63,3 +63,54 @@ FIELDS = [
     "already_read_count", # Users who finished it
 
 ]
+
+SEARCH_FIELDS_CLASSIFIED = {
+    'identity': [
+        'key'  # General work key
+    ],
+
+    'work': [
+        'title',
+        'subtitle',
+        'first_publish_year'
+    ],
+
+    'editions_general': [
+        'edition_count',
+        'language'
+    ],
+
+    'series': [
+        'series_key',
+        'series_name',
+        'series_position'
+    ],
+
+    'author': [
+        'author_key',
+        'author_name'
+    ],
+
+    'accessibility': [
+        'ebook_access',
+        'has_fulltext',
+        'public_scan_b'  # at least one publicly available scanned copy in the Internet Archive
+    ]
+}
+
+SEARCH_FIELDS = {
+    'key',
+    'title',
+    'subtitle',
+    'first_publish_year',
+    'edition_count',
+    'language',
+    'series_key',
+    'series_name',
+    'series_position',
+    'author_key',
+    'author_name',
+    'ebook_access',
+    'has_fulltext',
+    'public_scan_b'
+}
