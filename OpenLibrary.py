@@ -72,11 +72,12 @@ class OpenLibraryClient:
                 timeout=(self.CONNECT_TIMEOUT, self.READ_TIMEOUT)
             )
 
-            # If the URL is invalid or returns a 4xx/5xx status code, it raises an HTTPError.
-            response.raise_for_status()
-
             # Change the object's current url to the last requested
             self.last_url = response.url
+
+            # If the URL is invalid or returns a 4xx/5xx status code, it raises an HTTPError.
+            # None will be returned if it is raised
+            response.raise_for_status()
 
             # Returns the JSON response as a dictionary
             return response.json()
@@ -157,7 +158,7 @@ class OpenLibraryClient:
         # Request and return the JSON response
         return self.request(url)
 
-    def get_many(self, key_list: list[str] | tuple[str,...]) -> dict | None :
+    def get_many(self, key_list: list[str] | tuple[str, ...]) -> dict | None :
         """
         Function for quering Open Library API to retrieve many records at the same time
         :param key_list: list[str], list of keys for records to fetch
@@ -179,18 +180,17 @@ class OpenLibraryClient:
     def save_json(self, data: dict | None, filename: str) -> None:
 
         if data is None:
-            raise ValueError(f'No data was returned for query: {self.last_url}')
-        else:
-            if filename.endswith('.json'):
-                with open(filename, mode='w', encoding='utf-8') as json_file:
-                    json.dump(data, json_file, indent=4, ensure_ascii=False)
-            else:
-                raise ValueError("File must be a JSON file")
+            raise ValueError(f'No data was returned for query {self.last_url}')
 
+        if not filename.endswith('.json'):
+            raise ValueError("File must be a JSON file")
+
+        with open(filename, mode='w', encoding='utf-8') as json_file:
+            json.dump(data, json_file, indent=4, ensure_ascii=False)
 
     def save(
             self,
-            key: str | list[str] | tuple[str,...],
+            key: str | list[str] | tuple[str, ...],
             filename: str
     ) -> None:
 
@@ -198,8 +198,16 @@ class OpenLibraryClient:
             data = self.get(key)
 
         elif isinstance(key, list) or isinstance(key, tuple):
+
+            if not all(isinstance(k, str) for k in key):
+                raise ValueError('\'key\' argument must be string or list/tuple of strings.')
+
             data = self.get_many(key)
         else:
-            raise ValueError('\'key\' argument must be string, list or tuple.')
+            raise ValueError('\'key\' argument must be string or list/tuple of strings.')
 
+        self.save_json(data, filename)
+
+    def save_search(self, filename: str, **kwargs) -> None:
+        data = self.search(**kwargs)
         self.save_json(data, filename)
