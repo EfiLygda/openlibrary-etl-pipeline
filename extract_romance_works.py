@@ -1,9 +1,8 @@
 import os
-import json
 from time import sleep
 from dataset_initilize import RAW_PAGES_DIR
 from random import uniform
-from open_library_searches import OpenLibraryClient
+from OpenLibrary import OpenLibraryClient
 
 # ----------------------------------------------------------------------------------
 # --- 1. Setting up the genre directories ---
@@ -41,15 +40,12 @@ for page in range(1, MAX_PAGES+1):
     # Print a message to show progress
     print(f'({page}/{MAX_PAGES}) Extracting {GENRE} works\' metadata...', end='\r')
 
-    # Query the API and return the results as a dictionary
-    result = client.search(subject=GENRE, page=page)
-
     # Set up the file name for saving the response
     filename = f'works_p{page}.json'
+    filepath = os.path.join(GENRE_DIR, filename)
 
-    # Save the response by pretty printing it with indent 4, for readability
-    with open(os.path.join(GENRE_DIR, filename), mode='w') as j:
-        json.dump(result, j, indent=4)
+    # Save the response as a JSON file
+    client.save_search(filename=filepath, subject=GENRE, page=page)
 
     # Politely wait more than 3 seconds for each request
     # Adding a random seconds between 0 and 1.5 to the 3, in order to simulate human behavior
