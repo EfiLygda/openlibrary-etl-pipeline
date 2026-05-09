@@ -178,13 +178,22 @@ class OpenLibraryClient:
         return self.request(get_many_url, request_params)
 
     def save_json(self, data: dict | None, filename: str) -> None:
+        """
+        Helper function for saving response as JSON files
+        :param data: dict | None, containing the response from the API
+        :param filename: str, the file name or path for saving the file
+        :return: None
+        """
 
+        # In case no data was returned then a ValueError is raised
         if data is None:
             raise ValueError(f'No data was returned for query {self.last_url}')
 
+        # Is case the another type is used for saving the data ValueError is raised
         if not filename.endswith('.json'):
             raise ValueError("File must be a JSON file")
 
+        # Saving the data as a JSON file with pretty print (intent: 4 space)
         with open(filename, mode='w', encoding='utf-8') as json_file:
             json.dump(data, json_file, indent=4, ensure_ascii=False)
 
@@ -193,21 +202,44 @@ class OpenLibraryClient:
             key: str | list[str] | tuple[str, ...],
             filename: str
     ) -> None:
+        """
+        Function for saving the responses of the API.
+        :param key: str | list[str] | tuple[str, ...], a single or more keys can be passed for querying the API
+        :param filename: str, the file name or path for saving the file
+        :return: None
+        """
 
+        # If a single key was passed the 'get' method is used that automatically
+        # uses thr right query
         if isinstance(key, str):
             data = self.get(key)
 
+        # In case a list or tuple is passes the 'get_many' method is used
         elif isinstance(key, list) or isinstance(key, tuple):
 
+            # In case not all keys are strings in the 'key' argument a ValueError is raised
             if not all(isinstance(k, str) for k in key):
                 raise ValueError('\'key\' argument must be string or list/tuple of strings.')
 
             data = self.get_many(key)
         else:
+
+            # In case of wrong type for 'key' argument a ValueError is raised
             raise ValueError('\'key\' argument must be string or list/tuple of strings.')
 
+        # Save the response as a JSON file
         self.save_json(data, filename)
 
     def save_search(self, filename: str, **kwargs) -> None:
+        """
+        Function for saving the result of a SEARCH query via the API
+        :param filename: str, the file name or path for saving the file
+        :param kwargs: additional arguments to be passed (More: https://openlibrary.org/dev/docs/api/search)
+        :return: None
+        """
+
+        # Query the API via SEARCH
         data = self.search(**kwargs)
+
+        # Save the response as a JSON file
         self.save_json(data, filename)
