@@ -94,7 +94,7 @@ class OpenLibraryClient:
         """
 
         # Setting the base url for searching the API
-        SEARCH_BASE_URL = f'{self.BASE_URL}/search.json'
+        search_base_url = f'{self.BASE_URL}/search.json'
 
         # Set up the parameters for the query
         request_params = {'limit': self.LIMIT}
@@ -103,7 +103,7 @@ class OpenLibraryClient:
         request_params.update(kwargs)
 
         # Request and return the JSON response
-        return self.request(SEARCH_BASE_URL, request_params)
+        return self.request(search_base_url, request_params)
 
     def get_author(self, author_key: str) -> dict | None :
         """
@@ -157,7 +157,7 @@ class OpenLibraryClient:
         # Request and return the JSON response
         return self.request(url)
 
-    def get_many(self, key_list: list[str]) -> dict | None :
+    def get_many(self, key_list: list[str] | tuple[str,...]) -> dict | None :
         """
         Function for quering Open Library API to retrieve many records at the same time
         :param key_list: list[str], list of keys for records to fetch
@@ -175,3 +175,31 @@ class OpenLibraryClient:
 
         # Request and return the JSON response
         return self.request(get_many_url, request_params)
+
+    def save_json(self, data: dict | None, filename: str) -> None:
+
+        if data is None:
+            raise ValueError(f'No data was returned for query: {self.last_url}')
+        else:
+            if filename.endswith('.json'):
+                with open(filename, mode='w', encoding='utf-8') as json_file:
+                    json.dump(data, json_file, indent=4, ensure_ascii=False)
+            else:
+                raise ValueError("File must be a JSON file")
+
+
+    def save(
+            self,
+            key: str | list[str] | tuple[str,...],
+            filename: str
+    ) -> None:
+
+        if isinstance(key, str):
+            data = self.get(key)
+
+        elif isinstance(key, list) or isinstance(key, tuple):
+            data = self.get_many(key)
+        else:
+            raise ValueError('\'key\' argument must be string, list or tuple.')
+
+        self.save_json(data, filename)
