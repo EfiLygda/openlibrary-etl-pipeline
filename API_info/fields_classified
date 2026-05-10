@@ -1,6 +1,6 @@
-WORK_FIELDS = [
+FIELDS = [
     # Identity
-    "key",                          # from: SEARCH, WORKS
+    "work_key",                     # from: SEARCH (og tag: key), # Probably mistake -> WORKS (og tag: works -> key)
 
     # Work
     "title",                        # from: SEARCH, WORKS
@@ -28,8 +28,8 @@ WORK_FIELDS = [
     "series_position",              # from: SEARCH
 
     # Author
-    "author_key",                   # from: SEARCH, AUTHORS (og tag: key)
-    "author_name",                  # from: SEARCH, AUTHORS (og tag: name, personal_name)
+    "author_key",                   # from: SEARCH, AUTHORS (og tag: key), SEARCH_AUTHORS (og tag: key)
+    "author_name",                  # from: SEARCH, AUTHORS (og tag: name, personal_name), WORKS (og tag: 'authors' -> 'author' -> 'key'), SEARCH_AUTHORS (og tag: name)
     "author_alternative_name",      # from: AUTHORS (og tag: alternate_names)
     "bio",                          # from: AUTHORS (og tag: 'bio' -> 'value')
     "type", # Type of author        # from: WORKS (og tag: 'authors' -> 'type' -> 'key')
@@ -43,19 +43,19 @@ WORK_FIELDS = [
     # Content metadata
     "subject_key",                  # from: SUBJECTS (og tag: key)
     "subject",                      # from: WORKS (og tag: subjects)
+    "subject_work_count",           # from: SUBJECTS (og tag: work_count)
     "person_key",                   # from: PERSONS (og tag: key)
-    "person",                       # from: WORKS (og tag: subject_people)
+    "person",                       # from: WORKS (og tag: subject_people), PERSONS (og tag: name)
+    "person_work_count",            # from: PERSONS (og tag: work_count)
     "place",                        # from: WORKS (og tag: subject_places)
     "time",                         # from: WORKS (og tag: subject_times)
 
     # Accessibility
     "ebook_access",                 # from: SEARCH
     "has_fulltext",                 # from: SEARCH
-    "public_scan_b", # at least one publicly available scanned copy in the Internet Archive
-                                    # from: SEARCH
 
     # Statistics for authors
-    # "ratings_count", # Number of ratings                        # from: SEARCH_AUTHORS
+    # "ratings_count", # Number of ratings                      # from: SEARCH_AUTHORS
     "ratings_count_1", # No of 1 stars                          # from: SEARCH_AUTHORS
     "ratings_count_2", # No of 2 stars                          # from: SEARCH_AUTHORS
     "ratings_count_3",                                          # from: SEARCH_AUTHORS
