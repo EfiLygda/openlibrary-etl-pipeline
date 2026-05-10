@@ -19,9 +19,22 @@ class OpenLibraryClient:
         self.CONNECT_TIMEOUT = 15
         self.READ_TIMEOUT = 15
 
+        # Normalized Open Library keys prefixes
+        self.OL_KEYS_NORMALIZED_PREFIXES = [
+            "/authors/",
+            "/works/",
+            "/books/",
+            "/subjects/time:",
+            "/subjects/person:",
+            "/subjects/",
+            "/publishers/"
+        ]
+
         # Current query
         self.last_url = ''
 
+    # -----------------------------------------------------------------------------------
+    # --- Helper Methods ---
     @staticmethod
     def detect_record(key: str) -> str | None:
         if key.startswith("/authors/") or (key.startswith("OL") and key.endswith("A")):
@@ -30,6 +43,14 @@ class OpenLibraryClient:
             return "work"
         elif key.startswith("/books/") or (key.startswith("OL") and key.endswith("M")):
             return "edition"
+        elif key.startswith("/subjects/time:"):
+            return "subject_time"
+        elif key.startswith("/subjects/person:"):
+            return "subject_person"
+        elif key.startswith("/subjects/"):
+            return "subject"
+        elif key.startswith("/publishers/"):
+            return "publisher"
         return None
 
     @staticmethod
@@ -50,7 +71,11 @@ class OpenLibraryClient:
     @staticmethod
     def key_list_2_str(lst: list[str]) -> str:
         return json.dumps(lst)
+    # -----------------------------------------------------------------------------------
 
+
+    # -----------------------------------------------------------------------------------
+    # --- Main Request Method ---
     def request(
             self,
             url: str,
@@ -86,7 +111,11 @@ class OpenLibraryClient:
             # Print error message and return None
             print(f"Request failed: {e}")
             return None
+    # -----------------------------------------------------------------------------------
 
+
+    # -----------------------------------------------------------------------------------
+    # --- Fetch Methods ---
     def search(self, **kwargs) -> dict | None :
         """
         Function for quering Open Library API to retrieve book data
@@ -158,7 +187,10 @@ class OpenLibraryClient:
         # Request and return the JSON response
         return self.request(url)
 
-    def get_many(self, key_list: list[str] | tuple[str, ...]) -> dict | None :
+    def get_many(
+            self,
+            key_list: list[str] | tuple[str, ...]
+    ) -> dict | None :
         """
         Function for quering Open Library API to retrieve many records at the same time
         :param key_list: list[str], list of keys for records to fetch
@@ -176,8 +208,16 @@ class OpenLibraryClient:
 
         # Request and return the JSON response
         return self.request(get_many_url, request_params)
+    # -----------------------------------------------------------------------------------
 
-    def save_json(self, data: dict | None, filename: str) -> None:
+
+    # -----------------------------------------------------------------------------------
+    # --- Export Methods ---
+    def save_json(
+            self,
+            data: dict | None,
+            filename: str
+    ) -> None:
         """
         Helper function for saving response as JSON files
         :param data: dict | None, containing the response from the API
@@ -230,7 +270,11 @@ class OpenLibraryClient:
         # Save the response as a JSON file
         self.save_json(data, filename)
 
-    def save_search(self, filename: str, **kwargs) -> None:
+    def save_search(
+            self,
+            filename: str,
+            **kwargs
+    ) -> None:
         """
         Function for saving the result of a SEARCH query via the API
         :param filename: str, the file name or path for saving the file
@@ -243,3 +287,5 @@ class OpenLibraryClient:
 
         # Save the response as a JSON file
         self.save_json(data, filename)
+    # -----------------------------------------------------------------------------------
+
