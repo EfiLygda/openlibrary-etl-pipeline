@@ -1,0 +1,104 @@
+https://dbdiagram.io/d/Open-Library-DB-69ff5ae754a51d93d3dc5901
+
+Table works {
+  work_key varchar [pk]
+  title varchar
+  subtitle varchar
+  first_publish_date date
+  edition_count int
+  description TEXT
+  ebook_access varchar
+  has_fulltext bool
+}
+
+Table authors {
+  author_key varchar [pk]
+  author_name varchar
+  bio varchar
+}
+
+Table editions {
+  edition_key varchar [pk]
+  work_key varchar [ref: > works.work_key]
+  physical_format varchar
+  publisher_name varchar [ref: > publishers.publisher_name]
+  publish_date date
+  language varchar
+  isbn_10 varchar [unique]
+  isbn_13 varchar [unique]
+}
+
+Table series {
+  series_key varchar [pk]
+  series_name varchar
+}
+
+Table publishers {
+  publisher_name varchar [pk]
+  work_count int
+}
+
+Table subjects {
+  subject_key varchar [pk]
+  subject varchar
+}
+
+Table persons {
+  person_key varchar [pk]
+  person varchar
+}
+
+Table works.authors {
+  work_key varchar [pk, ref: > works.work_key]
+  author_key varchar [pk, ref: > authors.author_key]
+}
+
+table works.subjects{
+  work_key varchar [pk, ref: > works.work_key]
+  subject_key varchar [pk, ref: > subjects.subject_key]
+}
+
+table works.persons{
+  work_key varchar [pk, ref: > works.work_key]
+  person_key varchar [pk, ref: > persons.person_key]
+}
+
+table works.places{
+  work_key varchar [pk, ref: > works.work_key]
+  place varchar [pk]
+}
+
+table works.times{
+  work_key varchar [pk, ref: > works.work_key]
+  time varchar [pk]
+}
+
+table works.series{
+  work_key varchar [primary key, ref: > works.work_key]
+  series_key varchar [primary key, ref: > series.series_key]
+  series_position int
+}
+
+table author.statistics{
+  author_key varchar [primary key, ref: > authors.author_key]
+  ratings_count_1 int
+  ratings_count_2 int
+  ratings_count_3 int
+  ratings_count_4 int
+  ratings_count_5 int
+  readinglog_count int
+  want_to_read_count int
+  currently_reading_count int
+  already_read_count int
+}
+
+Table authors.alternative_names {
+  author_key varchar [pk, ref: > authors.author_key]
+  author_alternative_name varchar [pk]
+}
+
+table editions.contributors {
+  edition_key varchar [pk, ref: > editions.edition_key]
+  contributor_name varchar [pk]
+  contributor_role varchar [pk]
+}
