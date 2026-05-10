@@ -19,28 +19,63 @@ class OpenLibraryClient:
         self.CONNECT_TIMEOUT = 15
         self.READ_TIMEOUT = 15
 
+        # Normalized Open Library keys prefixes
+        self.OL_KEYS_NORMALIZED_PREFIXES = [
+            "/authors/",
+            "/works/",
+            "/books/",
+            "/subjects/time:",
+            "/subjects/person:",
+            "/subjects/",
+            "/publishers/"
+        ]
+
         # Current query
         self.last_url = ''
 
+    # -----------------------------------------------------------------------------------
+    # --- Helper Methods ---
     @staticmethod
-    def detect_record(key: str) -> str | None:
+    def detect_key(key: str) -> str | None:
+
+        if not key.startswith('/') and not key.startswith('OL'):
+            key = '/' + key
+
         if key.startswith("/authors/") or (key.startswith("OL") and key.endswith("A")):
             return "author"
         elif key.startswith("/works/") or (key.startswith("OL") and key.endswith("W")):
             return "work"
         elif key.startswith("/books/") or (key.startswith("OL") and key.endswith("M")):
             return "edition"
+        elif key.startswith("/subjects/time:"):
+            return "subject_time"
+        elif key.startswith("/subjects/person:"):
+            return "subject_person"
+        elif key.startswith("/subjects/"):
+            return "subject"
+        elif key.startswith("/publishers/"):
+            return "publisher"
+
         return None
 
     @staticmethod
     def normalize_key(key: str) -> str:
 
-        if key.startswith("OL") and key.endswith("A"):
-            return f"/authors/{key}"
-        elif key.startswith("OL") and key.endswith("W"):
-            return f"/works/{key}"
-        elif key.startswith("OL") and key.endswith("M"):
-            return f"/books/{key}"
+        if (key.startswith("OL") or key.startswith("author:OL")) and key.endswith("A"):
+            return f"/authors/{key.replace('author:', '')}"
+        elif (key.startswith("OL") or key.startswith("work:OL")) and key.endswith("W"):
+            return f"/works/{key.replace('work:', '')}"
+        elif (key.startswith("OL") or key.startswith("book:OL")) and key.endswith("M"):
+            return f"/books/{key.replace('book:', '')}"
+        elif key.startswith("publisher:"):
+            return f"/publishers/{key.replace('publisher:', '')}"
+        elif key.startswith("subject:"):
+            return f"/subjects/{key.replace('subject:', '')}"
+        elif key.startswith("time:"):
+            return f"/subjects/{key}"
+        elif key.startswith("person:"):
+            return f"/subjects/{key}"
+
         else:
             if not key.startswith('/'):
                 return '/' + key
@@ -50,7 +85,11 @@ class OpenLibraryClient:
     @staticmethod
     def key_list_2_str(lst: list[str]) -> str:
         return json.dumps(lst)
+    # -----------------------------------------------------------------------------------
 
+
+    # -----------------------------------------------------------------------------------
+    # --- Main Request Method ---
     def request(
             self,
             url: str,
@@ -86,7 +125,11 @@ class OpenLibraryClient:
             # Print error message and return None
             print(f"Request failed: {e}")
             return None
+    # -----------------------------------------------------------------------------------
 
+
+    # -----------------------------------------------------------------------------------
+    # --- Fetch Methods ---
     def search(self, **kwargs) -> dict | None :
         """
         Function for quering Open Library API to retrieve book data
@@ -145,10 +188,54 @@ class OpenLibraryClient:
         # Request and return the JSON response
         return self.request(edition_url)
 
-    def get(self, key: str) -> dict | None :
+    def get_publisher(self, publisher: str, **kwargs) -> dict | None :
+        """
+        Function for quering Open Library API to retrieve publisher data
+        :param publisher: str, publisher name
+        :param kwargs: additional arguments for query
+        :return: dict | None, returns JSON response or None in case there was an error
+        """
+        # Setting the base url for searching the API
+        publisher_url = f'{self.BASE_URL}/publishers/{publisher}.json'
+
+        # Request and return the JSON response
+        return self.request(publisher_url, kwargs)
+
+    def get_subject(
+            self,
+            subject: str,
+            subject_type: str | None = None,
+            **kwargs
+    ) -> dict | None :
+        """
+        Function for quering Open Library API to retrieve subject data
+        :param subject: str, subject name
+        :param subject_type: str | None, must be either 'time' or 'person', else an ValueError raised
+        :param kwargs: additional arguments for query
+        :return: dict | None, returns JSON response or None in case there was an error
+        """
+        # Setting the base url for searching the API
+        if not subject_type:
+            subject_url = f'{self.BASE_URL}/subjects/{subject}.json'
+        elif subject_type.lower() in ['time', 'person']:
+            subject_url = f'{self.BASE_URL}/subjects/{subject_type.lower()}:{subject}.json'
+        else:
+            raise ValueError(f'\'subject_type\' argument must be either \'time\' or \'person\'')
+
+        # Request and return the JSON response
+        return self.request(subject_url, kwargs)
+
+    def get(self, key: str, **kwargs) -> dict | None :
         """
         Function for quering Open Library API to retrieve a records data
-        :param key: str, string of a record's key
+        :param key: str, string of a record's key.
+                         Must be valid Open Library key:
+                         1. Work:       'OLxxxxW', 'work:{OLxxxxW}', '/works/OLxxxxW' or 'works/OLxxxxW'
+                         2. Author:     'OLxxxxA', 'author:{OLxxxxA}', '/authors/OLxxxxA' or 'authors/OLxxxxA'
+                         3. Edition:    'OLxxxxM', 'book:{OLxxxxM}', '/books/OLxxxxM'or 'books/OLxxxxM'
+                         4. Subject:    subject:{name_of_subject}
+                         5. Person:     person:{name_of_person}
+                         6. Time:       time:{time_period_name}
         :return: dict | None, returns JSON response or None in case there was an error
         """
 
@@ -156,9 +243,12 @@ class OpenLibraryClient:
         url = f'{self.BASE_URL}{self.normalize_key(key)}.json'
 
         # Request and return the JSON response
-        return self.request(url)
+        return self.request(url, **kwargs)
 
-    def get_many(self, key_list: list[str] | tuple[str, ...]) -> dict | None :
+    def get_many(
+            self,
+            key_list: list[str] | tuple[str, ...]
+    ) -> dict | None :
         """
         Function for quering Open Library API to retrieve many records at the same time
         :param key_list: list[str], list of keys for records to fetch
@@ -176,8 +266,16 @@ class OpenLibraryClient:
 
         # Request and return the JSON response
         return self.request(get_many_url, request_params)
+    # -----------------------------------------------------------------------------------
 
-    def save_json(self, data: dict | None, filename: str) -> None:
+
+    # -----------------------------------------------------------------------------------
+    # --- Export Methods ---
+    def save_json(
+            self,
+            data: dict | None,
+            filename: str
+    ) -> None:
         """
         Helper function for saving response as JSON files
         :param data: dict | None, containing the response from the API
@@ -230,7 +328,11 @@ class OpenLibraryClient:
         # Save the response as a JSON file
         self.save_json(data, filename)
 
-    def save_search(self, filename: str, **kwargs) -> None:
+    def save_search(
+            self,
+            filename: str,
+            **kwargs
+    ) -> None:
         """
         Function for saving the result of a SEARCH query via the API
         :param filename: str, the file name or path for saving the file
@@ -243,3 +345,5 @@ class OpenLibraryClient:
 
         # Save the response as a JSON file
         self.save_json(data, filename)
+    # -----------------------------------------------------------------------------------
+
