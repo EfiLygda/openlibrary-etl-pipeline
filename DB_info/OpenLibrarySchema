@@ -41,11 +41,13 @@ Table publishers {
 Table subjects {
   subject_key varchar [pk]
   subject varchar
+  work_count int
 }
 
 Table persons {
   person_key varchar [pk]
   person varchar
+  work_count int
 }
 
 Table works.authors {
@@ -102,3 +104,5 @@ table editions.contributors {
   contributor_name varchar [pk]
   contributor_role varchar [pk]
 }
+
+
