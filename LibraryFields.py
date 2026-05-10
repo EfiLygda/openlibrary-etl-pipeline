@@ -78,21 +78,21 @@ SEARCH_AUTHORS_FIELDS = {
 
 # --- Publishers ---
 PUBLISHERS_FIELDS = {
-    'key',              # str       | Publisher's key
-    'name',             # str       | Publisher's name
-    'work_count',       # int       | Number of works under the publisher
+    'key',              # str   | Publisher's key
+    'name',             # str   | Publisher's name
+    'work_count',       # int   | Number of works under the publisher
 }
 
 # --- Subjects ---
 SUBJECTS_FIELDS = {
-    'key',              # str       | Subjects's key
-    'name',             # str       | Subjects's name
-    'work_count',       # int       | Number of works under the subject
+    'key',              # str   | Subjects's key
+    'name',             # str   | Subjects's name
+    'work_count',       # int   | Number of works under the subject
 }
 
 # --- Subjects ---
 PERSONS_FIELDS = {
-    'key',              # str       | Person's key
-    'name',             # str       | Person's name
-    'work_count',       # int       | Number of works under the person
+    'key',              # str   | Person's key
+    'name',             # str   | Person's name
+    'work_count',       # int   | Number of works under the person
 }
