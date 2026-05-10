@@ -1,0 +1,69 @@
+WORK_FIELDS = [
+    # Identity
+    "key",                          # from: SEARCH, WORKS
+
+    # Work
+    "title",                        # from: SEARCH, WORKS
+    "subtitle",                     # from: SEARCH, BOOKS
+    "first_publish_date",           # from: WORKS
+    "description",                  # from: WORKS
+    "edition_count",                # from: SEARCH
+
+    # Edition
+    "edition_key",                  # from: BOOKS (og tag: key)
+    "contributor_name",             # from: BOOKS (og tag: contributors -> name)
+    "contributor_role",             # from: BOOKS (og tag: contributors -> role)
+    "number_of_pages",              # from: BOOKS
+    "physical_format",              # from: BOOKS
+    "publish_date",                 # from: BOOKS
+    "publish_places",               # from: BOOKS
+    "publisher",                    # from: BOOKS (og tag: publishers)
+    "language"                      # from: BOOKS (og tag: languages)
+    "isbn_10",                      # from: BOOKS
+    "isbn_13",                      # from: BOOKS
+
+    # Series
+    "series_key",                   # from: SEARCH
+    "series_name",                  # from: SEARCH
+    "series_position",              # from: SEARCH
+
+    # Author
+    "author_key",                   # from: SEARCH, AUTHORS (og tag: key)
+    "author_name",                  # from: SEARCH, AUTHORS (og tag: name, personal_name)
+    "author_alternative_name",      # from: AUTHORS (og tag: alternate_names)
+    "bio",                          # from: AUTHORS (og tag: 'bio' -> 'value')
+    "type", # Type of author        # from: WORKS (og tag: 'authors' -> 'type' -> 'key')
+    "top_work",                     # from: SEARCH_AUTHORS
+
+    # Publisher
+    "publisher_key",                # from: PUBLISHERS (og tag: key)
+    "publisher_name",               # from: BOOKS (og tag: publishers), PUBLISHERS (og tag: name)
+    "work_count",                   # from: PUBLISHERS
+
+    # Content metadata
+    "subject_key",                  # from: SUBJECTS (og tag: key)
+    "subject",                      # from: WORKS (og tag: subjects)
+    "person_key",                   # from: PERSONS (og tag: key)
+    "person",                       # from: WORKS (og tag: subject_people)
+    "place",                        # from: WORKS (og tag: subject_places)
+    "time",                         # from: WORKS (og tag: subject_times)
+
+    # Accessibility
+    "ebook_access",                 # from: SEARCH
+    "has_fulltext",                 # from: SEARCH
+    "public_scan_b", # at least one publicly available scanned copy in the Internet Archive
+                                    # from: SEARCH
+
+    # Statistics for authors
+    # "ratings_count", # Number of ratings                        # from: SEARCH_AUTHORS
+    "ratings_count_1", # No of 1 stars                          # from: SEARCH_AUTHORS
+    "ratings_count_2", # No of 2 stars                          # from: SEARCH_AUTHORS
+    "ratings_count_3",                                          # from: SEARCH_AUTHORS
+    "ratings_count_4",                                          # from: SEARCH_AUTHORS
+    "ratings_count_5",                                          # from: SEARCH_AUTHORS
+    "readinglog_count", # Total reading log entries             # from: SEARCH_AUTHORS
+    "want_to_read_count", # Users who want to read it           # from: SEARCH_AUTHORS
+    "currently_reading_count", # Users currently reading it     # from: SEARCH_AUTHORS
+    "already_read_count", # Users who finished it               # from: SEARCH_AUTHORS
+
+]
