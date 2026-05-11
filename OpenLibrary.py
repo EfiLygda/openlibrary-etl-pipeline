@@ -30,6 +30,12 @@ class OpenLibraryClient:
             "/publishers/"
         ]
 
+        # Basic Open Library IDs regex
+        self.WORK_ID_PATTERN = r'OL\d+W'
+        self.AUTHOR_ID_PATTERN = r'OL\d+A'
+        self.BOOK_ID_PATTERN = r'OL\d+M'
+        self.SERIES_ID_PATTERN = r'OL\d+L'
+
         # Current query
         self.last_url = ''
 
@@ -273,12 +279,12 @@ class OpenLibraryClient:
     # --- Export Methods ---
     def save_json(
             self,
-            data: dict | None,
+            data: dict | list[str] | None,
             filename: str
     ) -> None:
         """
         Helper function for saving response as JSON files
-        :param data: dict | None, containing the response from the API
+        :param data: dict | list[str] | None, containing the response from the API
         :param filename: str, the file name or path for saving the file
         :return: None
         """
