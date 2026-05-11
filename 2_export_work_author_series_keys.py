@@ -3,9 +3,6 @@ import json
 from config import GENRE_facet, KEYS_DIR, WORKS_DIR
 from OpenLibrary import OpenLibraryClient
 
-# Setting an Open Library Client in order to use OpenLibraryClient.save_json
-client = OpenLibraryClient()
-
 # Define list that will contain all work, author and series keys
 WORKS_KEYS = []
 AUTHOR_KEYS = []
@@ -50,6 +47,6 @@ for key_list, key_type in zip(key_lists, key_types):
     filename = os.path.join(KEYS_DIR, f'{GENRE_facet}_{key_type}.json')
 
     # Save each JSON file
-    client.save_json(unique_keys, filename)
+    OpenLibraryClient.save_json(unique_keys, filename)
 
 print(f'Extracted {len(WORKS_KEYS)} general works, {len(AUTHOR_KEYS)} authors and {len(SERIES_KEYS)} series!')
