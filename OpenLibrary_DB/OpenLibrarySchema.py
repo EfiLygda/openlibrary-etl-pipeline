@@ -7,8 +7,8 @@ Contains the field names for each table in the schema
 #  ADD in OpenLibraryClient a way to use the SEARCH_AUTHORS and SEARCH_EDITIONS_VIA_WORK_KEY query
 
 # --- A. Strategy for Extraction of Data ---
-# STEP 1: Extract all works under the genre via SEARCH (CHECK)
-# STEP 2: Extract all work keys, author keys, series keys,
+# STEP 1: Extract all works under the genre via SEARCH (DONE)
+# STEP 2: Extract all work keys, author keys, series keys, (DONE)
 # STEP 3: Use OpenLibraryClient.get_many to extract via keys all WORKS, AUTHORS, SERIES
 
 # STEP 4: Use SEARCH_EDITIONS_VIA_WORK_KEY to find all editions in a work
