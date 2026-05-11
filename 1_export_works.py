@@ -2,7 +2,7 @@ import os
 from time import sleep
 from random import uniform
 from OpenLibrary import OpenLibraryClient
-from config import GENRE_DIR, GENRE, GENRE_facet
+from config import WORKS_DIR, GENRE, GENRE_facet
 
 # ----------------------------------------------------------------------------------
 # --- Parameters for quering the API ---
@@ -28,8 +28,8 @@ for page in range(1, MAX_PAGES+1):
     print(f'({page}/{MAX_PAGES}) Extracting {GENRE} works\' metadata...', end='\r')
 
     # Set up the file name for saving the response
-    filename = f'search_p{page}.json'
-    filepath = os.path.join(GENRE_DIR, filename)
+    filename = f'SEARCH_p{page}.json'
+    filepath = os.path.join(WORKS_DIR, filename)
 
     # Save the response as a JSON file
     client.save_search(filename=filepath, subject=GENRE_facet, page=page)

@@ -1,65 +1,72 @@
 # ---------------------------------------------------------------------------------------
 # FROM: SEARCH
-# TODO: https://openlibrary.org/search.json?subject=romance+fiction&page=20&limit=100
+# NOTE: https://openlibrary.org/search.json?subject=romance+fiction&page=20&limit=100
 #       this searched for works with subject: romance fiction
+
+# FROM: SEARCH_EDITIONS_VIA_WORK_KEY -> This can be used to get the same data as EDITIONS but by batches of a work
+# NOTE: https://openlibrary.org/works/OL18020194W/editions.json
+#       this returns editions via a work's id
+
+# NOTE: https://openlibrary.org/works/OL18020194W/editions.json?&offset=50
+#       this moves to next page from th previous query
 # ---------------------------------------------------------------------------------------
 
 # ---------------------------------------------------------------------------------------
 # FROM: WORKS (general work)
-# TODO: https://openlibrary.org/works/OL77775W.json
+# NOTE: https://openlibrary.org/works/OL77775W.json
 #       this searches for specific work data
 # ---------------------------------------------------------------------------------------
 
 # ---------------------------------------------------------------------------------------
 # FROM: BOOKS (specific edition)
-# TODO: https://openlibrary.org/books/OL45650119M.json
+# NOTE: https://openlibrary.org/books/OL45650119M.json
 #       OL45650119M is the edition_key and it returns info
 # ---------------------------------------------------------------------------------------
 
 # ---------------------------------------------------------------------------------------
 # FROM: AUTHORS
-# TODO: https://openlibrary.org/authors/OL7412785A.json
+# NOTE: https://openlibrary.org/authors/OL7412785A.json
 #       this searches for specific author data
 
 # FROM: SEARCH_AUTHORS (contains enriched data)
-# TODO: https://openlibrary.org/search/authors.json?q=kelly%20bowen
+# NOTE: https://openlibrary.org/search/authors.json?q=kelly%20bowen
 #       this searches for authors by name and contains enriched data
 
 # FROM: SEARCH_AUTHORS_SUBJECT
-# TODO: https://openlibrary.org/search/authors.json?q=romance&limit=1
+# NOTE: https://openlibrary.org/search/authors.json?q=romance&limit=1
 #       this searches for romance authors
 # ---------------------------------------------------------------------------------------
 
 # ---------------------------------------------------------------------------------------
 # FROM: SUBJECTS
-# TODO: https://openlibrary.org/subjects/romance.json
+# NOTE: https://openlibrary.org/subjects/romance.json
 #       this searches for specific subjects' metadata, here the key is romance
 
 # FROM: SEARCH_SUBJECTS
-# TODO: https://openlibrary.org/search/subjects.json?q=romance
+# NOTE: https://openlibrary.org/search/subjects.json?q=romance
 #       this searches for subjects with romance in their name
 # ---------------------------------------------------------------------------------------
 
 # ---------------------------------------------------------------------------------------
 # FROM: PERSONS
-# TODO: https://openlibrary.org/subjects/person:jesus_christ.json
+# NOTE: https://openlibrary.org/subjects/person:jesus_christ.json
 #       this searches for specific persons' metadata, here the key is romance
 # ---------------------------------------------------------------------------------------
 
 # ---------------------------------------------------------------------------------------
 # FROM: PUBLISHERS
-# TODO: https://openlibrary.org/publishers/HarperCollins_Publishers.json
+# NOTE: https://openlibrary.org/publishers/HarperCollins_Publishers.json
 #       this searches publishers
 # ---------------------------------------------------------------------------------------
 
 # ---------------------------------------------------------------------------------------
 # FROM: TIMES
-# TODO: https://openlibrary.org/subjects/time:20th_century.json
+# NOTE: https://openlibrary.org/subjects/time:20th_century.json
 #       this searches times
 # ---------------------------------------------------------------------------------------
 
 # ---------------------------------------------------------------------------------------
 # FROM: GET_MANY
-# TODO: https://openlibrary.org/api/get_many?keys=%5B%22/authors/OL7412785A%22,%22/authors/OL7300387A%22%5D
+# NOTE: https://openlibrary.org/api/get_many?keys=%5B%22/authors/OL7412785A%22,%22/authors/OL7300387A%22%5D
 #       this returns many authors or books
 # ---------------------------------------------------------------------------------------

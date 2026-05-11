@@ -10,7 +10,7 @@ FIELDS = [
     "edition_count",                # from: SEARCH
 
     # Edition
-    "edition_key",                  # from: BOOKS (og tag: key)
+    "edition_key",                  # from: BOOKS (og tag: key), SEARCH_EDITIONS_VIA_WORK_KEY (og tag: key)
     "contributor_name",             # from: BOOKS (og tag: contributors -> name)
     "contributor_role",             # from: BOOKS (og tag: contributors -> role)
     "number_of_pages",              # from: BOOKS
@@ -28,7 +28,7 @@ FIELDS = [
     "series_position",              # from: SEARCH
 
     # Author
-    "author_key",                   # from: SEARCH, AUTHORS (og tag: key), SEARCH_AUTHORS (og tag: key)
+    "author_key",                   # from: SEARCH, AUTHORS (og tag: key), SEARCH_AUTHORS (og tag: key), SEARCH_EDITIONS_VIA_WORK_KEY (og key: authors -> key)
     "author_name",                  # from: SEARCH, AUTHORS (og tag: name, personal_name), WORKS (og tag: 'authors' -> 'author' -> 'key'), SEARCH_AUTHORS (og tag: name)
     "author_alternative_name",      # from: AUTHORS (og tag: alternate_names)
     "bio",                          # from: AUTHORS (og tag: 'bio' -> 'value')
