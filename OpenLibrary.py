@@ -277,8 +277,8 @@ class OpenLibraryClient:
 
     # -----------------------------------------------------------------------------------
     # --- Export Methods ---
+    @staticmethod
     def save_json(
-            self,
             data: dict | list[str] | None,
             filename: str
     ) -> None:
@@ -291,7 +291,7 @@ class OpenLibraryClient:
 
         # In case no data was returned then a ValueError is raised
         if data is None:
-            raise ValueError(f'No data was returned for query {self.last_url}')
+            raise ValueError(f'No data was returned for query!')
 
         # Is case the another type is used for saving the data ValueError is raised
         if not filename.endswith('.json'):
