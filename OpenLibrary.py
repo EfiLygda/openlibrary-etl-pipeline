@@ -141,18 +141,34 @@ class OpenLibraryClient:
 
     # -----------------------------------------------------------------------------------
     # --- Fetch Methods ---
-    def search(self, **kwargs) -> dict | None :
+    def search(
+            self,
+            query: str = '',
+            mode: str = 'works',
+            **kwargs
+    ) -> dict | None :
         """
-        Function for quering Open Library API to retrieve book data
+        Function for quering Open Library API to retrieve book data or author's enriched data
+        :param query:str, the query used for the API
+        :param mode: str, the mode used for querying the API, 'works' returns general works data, 'authors' enriched data
         :param kwargs:  dict, dictionary containing additional parameters for the query (Read more: https://openlibrary.org/dev/docs/api/search)
         :return: dict | None, returns JSON response or None in case there was an error
         """
 
-        # Setting the base url for searching the API
-        search_base_url = f'{self.BASE_URL}/search.json'
-
         # Set up the parameters for the query
         request_params = {'limit': self.LIMIT}
+
+        # Setting the base url for searching the API
+        if mode == 'works':
+            search_base_url = f'{self.BASE_URL}/search.json'
+        elif mode == 'authors':
+            search_base_url = f'{self.BASE_URL}/search/authors.json'
+        else:
+            raise ValueError(f'\'mode\' argument must be either \'works\' or \'authors\'')
+
+        # Setting up the query used, if it is passed
+        if query:
+            request_params['q'] = query
 
         # Add the new parameters as passed
         request_params.update(kwargs)
@@ -162,7 +178,7 @@ class OpenLibraryClient:
 
     def get_author(self, author_key: str) -> dict | None :
         """
-        Function for quering Open Library API to retrieve book data
+        Function for quering Open Library API to retrieve author data
         :param author_key: str, OLxxxxA like string of an authors key
         :return: dict | None, returns JSON response or None in case there was an error
         """
@@ -173,18 +189,27 @@ class OpenLibraryClient:
         # Request and return the JSON response
         return self.request(author_url)
 
-    def get_work(self, work_key: str) -> dict | None :
+    def get_work(
+            self,
+            work_key: str,
+            editions: bool = False,
+            **kwargs
+    ) -> dict | None :
         """
         Function for quering Open Library API to retrieve book data
         :param work_key: str, OLxxxxW like string of a work's key
+        :param editions: bool, whether to return all editions related to the work
         :return: dict | None, returns JSON response or None in case there was an error
         """
 
         # Setting the base url for searching the API
-        work_url = f'{self.BASE_URL}/works/{work_key}.json'
+        if editions:
+            work_url = f'{self.BASE_URL}/works/{work_key}/editions.json'
+        else:
+            work_url = f'{self.BASE_URL}/works/{work_key}.json'
 
         # Request and return the JSON response
-        return self.request(work_url)
+        return self.request(work_url, kwargs)
 
     def get_edition(self, edition_key: str) -> dict | None :
         """

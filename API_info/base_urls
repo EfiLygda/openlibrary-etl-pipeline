@@ -35,6 +35,10 @@
 # FROM: SEARCH_AUTHORS_SUBJECT
 # NOTE: https://openlibrary.org/search/authors.json?q=romance&limit=1
 #       this searches for romance authors
+
+# FROM: AUTHORS_ALL_WORKS
+# NOTE: https://openlibrary.org/authors/OL7412785A/works.json
+#       this returns an authors all works via author_key
 # ---------------------------------------------------------------------------------------
 
 # ---------------------------------------------------------------------------------------
