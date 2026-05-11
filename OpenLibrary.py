@@ -24,6 +24,7 @@ class OpenLibraryClient:
             "/authors/",
             "/works/",
             "/books/",
+            "/series/",
             "/subjects/time:",
             "/subjects/person:",
             "/subjects/",
@@ -51,6 +52,8 @@ class OpenLibraryClient:
             return "author"
         elif key.startswith("/works/") or (key.startswith("OL") and key.endswith("W")):
             return "work"
+        elif key.startswith("/series/") or (key.startswith("OL") and key.endswith("L")):
+            return "series"
         elif key.startswith("/books/") or (key.startswith("OL") and key.endswith("M")):
             return "edition"
         elif key.startswith("/subjects/time:"):
@@ -71,6 +74,8 @@ class OpenLibraryClient:
             return f"/authors/{key.replace('author:', '')}"
         elif (key.startswith("OL") or key.startswith("work:OL")) and key.endswith("W"):
             return f"/works/{key.replace('work:', '')}"
+        elif (key.startswith("OL") or key.startswith("series:OL")) and key.endswith("L"):
+            return f"/series/{key.replace('series:', '')}"
         elif (key.startswith("OL") or key.startswith("book:OL")) and key.endswith("M"):
             return f"/books/{key.replace('book:', '')}"
         elif key.startswith("publisher:"):
