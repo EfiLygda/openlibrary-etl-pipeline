@@ -1,6 +1,6 @@
 import os
 import json
-from config import GENRE_facet, KEYS_DIR, WORKS_DIR
+from config import GENRE_facet, KEYS_DIR, SEARCH_DIR
 from OpenLibrary import OpenLibraryClient
 
 # Define list that will contain all work, author and series keys
@@ -10,10 +10,10 @@ SERIES_KEYS = []
 
 # For each file all general works, authors and series keys will be extracted
 # from the pages of records returned via SEARCH
-for current_page in os.listdir(WORKS_DIR):
+for current_page in os.listdir(SEARCH_DIR):
 
     # Define current files path (each file is a page of records)
-    filename = os.path.join(WORKS_DIR, current_page)
+    filename = os.path.join(SEARCH_DIR, current_page)
 
     # Load each works record returned via SEARCH
     with open(filename, mode='r', encoding='utf-8') as j:
