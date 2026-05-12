@@ -11,14 +11,14 @@ DETAILS:
 import os
 from time import sleep
 from random import uniform
-from OpenLibrary import OpenLibraryClient
+from open_library import Client
 from config import LIMIT, MAX_PAGES, SEARCH_DIR, GENRE, GENRE_facet
 
 # ----------------------------------------------------------------------------------
 # --- Querying Open Library API ---
 
 # Setting up an Open Library Client for querying the API
-client = OpenLibraryClient()
+client = Client()
 
 # Setting the page limit
 client.LIMIT = LIMIT
