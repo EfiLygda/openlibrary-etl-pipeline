@@ -44,7 +44,8 @@ for key_file_name in os.listdir(KEYS_DIR):
 
     # If a match is not made a ValueError is raised
     if not key_type_match:
-        raise ValueError(f'Key type was not found in filename: {key_file_name}')
+        print(f'Key type was not found in filename: {key_file_name}')
+        continue
 
     # Extracting the key type from the file name
     key_file_type = key_type_match.group(1)
