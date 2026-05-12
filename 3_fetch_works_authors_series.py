@@ -16,10 +16,10 @@ import os
 import re
 import json
 from config import GENRE, KEYS_DIR, WORKS_DIR, AUTHORS_DIR, SERIES_DIR
-from OpenLibrary import OpenLibraryClient
+from open_library import Client, JSONFileHandler
 
 # Setting up thw Open Library client for querying the API
-client = OpenLibraryClient()
+client = Client()
 
 # The regex used for later extracting the type of keys in the JSON
 # keys files extracted from 2_export_keys.py
@@ -83,7 +83,7 @@ for key_file_name in os.listdir(KEYS_DIR):
         batch_filepath = os.path.join(key_type_dir, batch_filename)
 
         # Saving the current batch
-        client.save_json(records, batch_filepath)
+        JSONFileHandler.save_json(records, batch_filepath)
 
         # Setting up the progress message for each key types
         # New line when the type changes, same row for batches in the same key type
