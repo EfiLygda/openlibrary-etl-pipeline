@@ -11,10 +11,10 @@ DETAILS:
 import os
 import json
 from config import GENRE_facet, AUTHORS_DIR, KEYS_DIR
-from OpenLibrary import OpenLibraryClient
+from open_library import Client, JSONFileHandler
 
 # Setting up thw Open Library client for querying the API
-client = OpenLibraryClient()
+client = Client()
 
 # Setting up the dictionary that will contain the final author key, name pairs
 author_key_names = dict()
@@ -27,8 +27,7 @@ for filename in os.listdir(AUTHORS_DIR):
     filepath = os.path.join(AUTHORS_DIR, filename)
 
     # Opening the current JSON file
-    with open(filepath, mode='r', encoding='utf-8') as j:
-        data = json.load(j)
+    data = JSONFileHandler.load_json(filepath)
 
     # Extracting the author records
     records = data['result']
@@ -40,6 +39,9 @@ for filename in os.listdir(AUTHORS_DIR):
         # If the record is a redirect then the author's right record is fetched
         if client.is_redirect(record):
             record = client.get_redirected_record(record)
+            print(
+                f'Key \'{key}\' redirects to \'{record['key']}\'. Corrected the record but raw page stay as is.'
+            )
 
         # The current record's author name is extracted
         new_name = record['name']
@@ -66,4 +68,4 @@ result_filename = f'{GENRE_facet}_authors_key_name.json'
 result_filepath = os.path.join(KEYS_DIR, result_filename)
 
 # Save the final JSON file with the pairs
-client.save_json(author_key_names, result_filepath)
+JSONFileHandler.save_json(author_key_names, result_filepath)
