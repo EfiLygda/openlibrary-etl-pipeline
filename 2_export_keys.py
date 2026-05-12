@@ -10,7 +10,7 @@ DETAILS:
 import os
 import json
 from config import GENRE_facet, KEYS_DIR, SEARCH_DIR
-from OpenLibrary import OpenLibraryClient
+from open_library import JSONFileHandler
 
 # Define list that will contain all work, author and series keys
 WORKS_KEYS = []
@@ -60,7 +60,7 @@ for key_list, key_type in zip(key_lists, key_types):
     filename = os.path.join(KEYS_DIR, f'{GENRE_facet}_{key_type}.json')
 
     # Save each JSON file
-    OpenLibraryClient.save_json(unique_keys, filename)
+    JSONFileHandler.save_json(unique_keys, filename)
 
 # Print results counts
 print(
