@@ -1,3 +1,17 @@
+"""
+STEP 3: Use OpenLibraryClient.get_many to extract via keys all WORKS_ENRICHED, AUTHORS, SERIES
+
+DETAILS:
+1. WORKS_ENRICHED contains enriched data not returned from SEARCH in STEP 1
+2. The queries used for each object is:
+    2.1 WORKS_ENRICHED: WORKS @ API_info/base_urls
+    2.2 AUTHORS:        AUTHORS @ API_info/base_urls
+    2.3 SERIES:         SERIES @ API_info/base_urls
+3. The results are saved as JSON files @ :
+    3.1 WORKS_ENRICHED: data/raw_pages/romance_fiction/works_enriched
+    3.2 AUTHORS:        data/raw_pages/romance_fiction/authors
+    3.3 SERIES:         data/raw_pages/romance_fiction/series
+"""
 import os
 import re
 import json
@@ -8,7 +22,7 @@ from OpenLibrary import OpenLibraryClient
 client = OpenLibraryClient()
 
 # The regex used for later extracting the type of keys in the JSON
-# keys files extracted from 2_export_work_author_series_keys.py
+# keys files extracted from 2_export_keys.py
 key_type_pattern = r'.+_(work|author|series)_.+\.json$'
 
 # Connecting the type of keys with their respective saved directories
