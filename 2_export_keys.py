@@ -25,8 +25,7 @@ for current_page in os.listdir(SEARCH_DIR):
     filename = os.path.join(SEARCH_DIR, current_page)
 
     # Load each works record returned via SEARCH
-    with open(filename, mode='r', encoding='utf-8') as j:
-        data = json.load(j)
+    data = JSONFileHandler.load_json(filename)
 
     # For each record/general work in current page add in the list
     # its work, author and series key is added to the lists

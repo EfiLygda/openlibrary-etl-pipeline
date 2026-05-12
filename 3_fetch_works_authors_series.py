@@ -51,8 +51,7 @@ for key_file_name in os.listdir(KEYS_DIR):
     key_file_type = key_type_match.group(1)
 
     # Loading the current key list
-    with open(key_file_path, mode='r', encoding='utf-8') as j:
-        keys_list = json.load(j)
+    keys_list = JSONFileHandler.load_json(key_file_path)
 
     # Setting the batch size for querying
     batch_size = client.LIMIT
