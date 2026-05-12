@@ -189,6 +189,27 @@ class OpenLibraryClient:
         # Request and return the JSON response
         return self.request(author_url)
 
+    def get_series(
+            self,
+            series_key: str,
+            works: bool = False
+    ) -> dict | None :
+        """
+        Function for quering Open Library API to retrieve series data
+        :param series_key: str, OLxxxxL like string of a series key
+        :param works: book, if True all general works that are in the series are returned
+        :return: dict | None, returns JSON response or None in case there was an error
+        """
+
+        # Setting the base url for searching the API
+        if works:
+            series_url = f'{self.BASE_URL}/series/{series_key}/seeds.json'
+        else:
+            series_url = f'{self.BASE_URL}/series/{series_key}.json'
+
+        # Request and return the JSON response
+        return self.request(series_url)
+
     def get_work(
             self,
             work_key: str,
