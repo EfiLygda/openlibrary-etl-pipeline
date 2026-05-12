@@ -325,6 +325,31 @@ class OpenLibraryClient:
         return self.request(get_many_url, request_params)
     # -----------------------------------------------------------------------------------
 
+    # -----------------------------------------------------------------------------------
+    @staticmethod
+    def is_redirect(record: dict) -> bool:
+        """
+        Function for checking if a record redirects, USED only for one record responses
+        like in WORKS, AUTHORS and BOOKS
+        :param record: dict, a record (NOT a response)
+        :return: book, True is it redirects, False if it is the original record
+        """
+        return 'redirect' in record['type']['key']
+
+    def get_redirected_record(self, record: dict) -> dict | None:
+        """
+        Function for getting the original record from a redirect, USED only for one record responses
+        like in WORKS, AUTHORS and BOOKS
+        :param record: : dict, a record (NOT a response)
+        :return: dict, the record that redirects to, or None if it doesn't redirect anywhere
+        """
+        if self.is_redirect(record):
+            redirect_key = record['location'] # The key that it redirects to
+            return self.get(redirect_key)
+        else:
+            return None
+    # -----------------------------------------------------------------------------------
+
 
     # -----------------------------------------------------------------------------------
     # --- Export Methods ---
