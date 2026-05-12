@@ -2,10 +2,6 @@
 Contains the field names for each table in the schema
 """
 
-# NOTE: SEARCH_EDITIONS_VIA_WORK_KEY can be used for batch searching BOOKS (see STEP 4)
-# TODO: IMPORTANT!!!
-#  ADD in OpenLibraryClient a way to use the SEARCH_AUTHORS and SEARCH_EDITIONS_VIA_WORK_KEY query
-
 WORKS_TABLE = {
     'work_key',             # FROM: SEARCH.key
     'title',                # FROM: SEARCH.title

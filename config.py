@@ -9,6 +9,9 @@ GENRE_facet = GENRE.replace(' ', '_')
 # Maximum number of records for every query
 LIMIT = 100
 
+# Maximum number of pages to extract from search queries
+MAX_PAGES = 20
+
 # Setting up the directories
 ROOT_DIR = './'
 DATA_DIR = os.path.join(ROOT_DIR, 'data')

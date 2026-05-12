@@ -42,6 +42,16 @@
 # ---------------------------------------------------------------------------------------
 
 # ---------------------------------------------------------------------------------------
+# FROM: SERIES
+# NOTE: https://openlibrary.org/series/OL331100L
+#       this returns a series' data (seed_count is the number of books in the series in OL)
+
+# FROM: SERIES_WORKS
+# NOTE: https://openlibrary.org/series/OL331100L/seeds.json
+#       this returns a series' works data (all general works associated with the series)
+# ---------------------------------------------------------------------------------------
+
+# ---------------------------------------------------------------------------------------
 # FROM: SUBJECTS
 # NOTE: https://openlibrary.org/subjects/romance.json
 #       this searches for specific subjects' metadata, here the key is romance

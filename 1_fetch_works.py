@@ -1,16 +1,18 @@
+"""
+STEP 1: Fetch and extract general works under the GERNE via Open Library API's SEARCH
+
+DETAILS:
+1. Not all works are extracted, config.LIMIT, config.MAX_PAGES are used as to not overload the API
+2. GERNE refers to config.GENRE
+3. The query uses the SEARCH basic url (See example SEARCH @ API_info/base_urls)
+4. All pages of records are saved as JSON files @ data/raw_pages/{GERNE}/works
+"""
+
 import os
 from time import sleep
 from random import uniform
 from OpenLibrary import OpenLibraryClient
-from config import SEARCH_DIR, GENRE, GENRE_facet
-
-# ----------------------------------------------------------------------------------
-# --- Parameters for quering the API ---
-# Limiting to 100 records per page and maximum 20 pages
-# Final record number: 2000
-LIMIT = 100
-MAX_PAGES = 20
-# ----------------------------------------------------------------------------------
+from config import LIMIT, MAX_PAGES, SEARCH_DIR, GENRE, GENRE_facet
 
 # ----------------------------------------------------------------------------------
 # --- Querying Open Library API ---
