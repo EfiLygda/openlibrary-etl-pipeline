@@ -8,7 +8,6 @@ DETAILS:
 """
 
 import os
-import json
 from config import GENRE_facet, KEYS_DIR, SEARCH_DIR
 from open_library import JSONFileHandler
 

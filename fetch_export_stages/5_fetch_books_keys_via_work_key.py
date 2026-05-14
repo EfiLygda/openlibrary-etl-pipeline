@@ -5,8 +5,6 @@ DETAILS:
 1. Data are saved in a JSON file @ data/keys
 """
 import os
-from time import sleep
-from random import uniform
 from config import KEYS_DIR, GENRE_facet
 from open_library import Client, JSONFileHandler
 from utilities import wait
