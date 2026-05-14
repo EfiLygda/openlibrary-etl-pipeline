@@ -1,6 +1,7 @@
 import os
 
 from LibraryFields import SUBJECTS_FIELDS
+from OpenLibrary_DB.OpenLibrarySchema import AUTHORS_STATISTICS_TABLE
 
 # Setting up the genre
 GENRE = 'romance fiction'
@@ -28,6 +29,7 @@ SERIES_DIR = os.path.join(GENRE_DIR, 'series')
 BOOKS_DIR = os.path.join(GENRE_DIR, 'books')
 # PUBLISHERS_DIR = os.path.join(KEYS_DIR, 'publishers')
 # SUBJECTS_DIR = os.path.join(KEYS_DIR, 'subjects')
+AUTHORS_STATISTICS_DIR = os.path.join(GENRE_DIR, 'author_statistics')
 
 # List containing all new directories
 NEW_DIRS = [
@@ -43,6 +45,7 @@ NEW_DIRS = [
     BOOKS_DIR,
     # PUBLISHERS_DIR,
     # SUBJECTS_DIR,
+    AUTHORS_STATISTICS_DIR,
 ]
 
 # Creating new directories, if they do not already exist
