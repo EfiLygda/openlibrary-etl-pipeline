@@ -11,6 +11,7 @@ DETAILS:
 import os
 from time import sleep
 from random import uniform
+from utilities import wait
 from open_library import Client
 from config import LIMIT, MAX_PAGES, SEARCH_DIR, GENRE, GENRE_facet
 
@@ -38,5 +39,5 @@ for page in range(1, MAX_PAGES+1):
 
     # Politely wait more than 3 seconds for each request
     # Adding a random seconds between 0 and 1.5 to the 3, in order to simulate human behavior
-    sleep(3 + uniform(0, 1.5))
+    wait(3)
 # ----------------------------------------------------------------------------------

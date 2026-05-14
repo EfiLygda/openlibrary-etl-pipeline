@@ -14,9 +14,9 @@ DETAILS:
 """
 import os
 import re
-import json
 from config import GENRE, KEYS_DIR, WORKS_DIR, AUTHORS_DIR, SERIES_DIR
 from open_library import Client, JSONFileHandler
+from utilities import make_batches
 
 # Setting up thw Open Library client for querying the API
 client = Client()
@@ -57,10 +57,7 @@ for key_file_name in os.listdir(KEYS_DIR):
     batch_size = client.LIMIT
 
     # Creating the batches from the key list
-    key_batches = [
-        keys_list[i: i+batch_size]
-        for i in range(0, len(keys_list), batch_size)
-    ]
+    key_batches = make_batches(keys_list, batch_size)
 
     # For each batch the API is queried and the results are saved
     for i, key_batch in enumerate(key_batches):

@@ -9,6 +9,7 @@ from time import sleep
 from random import uniform
 from config import KEYS_DIR, GENRE_facet
 from open_library import Client, JSONFileHandler
+from utilities import wait
 
 # Setting up thw Open Library client for querying the API
 client = Client()
@@ -47,7 +48,7 @@ for i, work_key in enumerate(work_keys):
 
     # Politely wait more than 5 seconds for each request
     # Adding a random seconds between 0 and 1.5 to the 3, in order to simulate human behavior
-    sleep(5 + uniform(0, 1.5))
+    wait(5)
 
 # Setting up the result's filepath
 result_filename = f'{GENRE_facet}_works_books_keys.json'
