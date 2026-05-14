@@ -1,8 +1,5 @@
 import os
 
-from LibraryFields import SUBJECTS_FIELDS
-from OpenLibrary_DB.OpenLibrarySchema import AUTHORS_STATISTICS_TABLE
-
 # Setting up the genre
 GENRE = 'romance fiction'
 
@@ -17,7 +14,8 @@ MAX_PAGES = 20
 
 # Setting up the directories
 ROOT_DIR = './'
-DATA_DIR = os.path.join(ROOT_DIR, 'data')
+DATA_ROOT_DIR = '../'
+DATA_DIR = os.path.join(DATA_ROOT_DIR, 'data')
 CSV_DIR = os.path.join(DATA_DIR, 'csv')
 RAW_PAGES_DIR = os.path.join(DATA_DIR, 'raw_pages')
 GENRE_DIR = os.path.join(RAW_PAGES_DIR, GENRE_facet)
