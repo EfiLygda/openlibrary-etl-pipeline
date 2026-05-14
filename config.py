@@ -23,6 +23,7 @@ KEYS_DIR = os.path.join(DATA_DIR, 'keys')
 WORKS_DIR = os.path.join(GENRE_DIR, 'works_enriched')
 AUTHORS_DIR = os.path.join(GENRE_DIR, 'authors')
 SERIES_DIR = os.path.join(GENRE_DIR, 'series')
+BOOKS_DIR = os.path.join(GENRE_DIR, 'books')
 
 # List containing all new directories
 NEW_DIRS = [
@@ -35,6 +36,7 @@ NEW_DIRS = [
     WORKS_DIR,
     AUTHORS_DIR,
     SERIES_DIR,
+    BOOKS_DIR,
 ]
 
 # Creating new directories, if they do not already exist
