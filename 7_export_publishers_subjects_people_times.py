@@ -1,5 +1,5 @@
 """
-STEP 7: Export all publishers' names
+STEP 7: Export all publishers, subjects, people and times' names
 
 DETAILS:
 1. Data are saved in a JSON file @ data/keys
@@ -17,8 +17,13 @@ books_filepaths = [
     for filename in os.listdir(BOOKS_DIR)
 ]
 
-# List that will contain all publisher names
-publisher_names = []
+# Dictionary that will contain all names for each field
+fields = {
+    'publishers': [],
+    'subjects': [],
+    'subject_people': [],
+    'subject_times': []
+}
 
 # For each file that contain books' data the publisher name
 # from each book is extracted and added to the list
@@ -31,18 +36,24 @@ for i, page in enumerate(books_filepaths):
     # publishers' names are added to the list
     for book_key, book in data['result'].items():
 
-        # Checking if the 'publishers' field is available for the current book
-        if 'publishers' in book.keys():
-            publisher_names += book['publishers']
-        else:
-            print(f'No publishers were found for book with key \'{book_key}\'')
+        # For each field, the current book's data are extracted
+        for field, names in fields.items():
 
-# Remove duplicates from publishers' names
-unique_publishers = tuple(publisher_names)
+            # Checking if the field is available for the current book
+            # and if it is the data is extracted, else a message is displayed
+            if field in book.keys():
+                fields[field] += book[field]
+            else:
+                print(f'No {field} were found for book with key \'{book_key}\'')
+
+
+# Remove duplicates from each field
+for field, names in fields.items():
+    fields[field] = list(set(names))
 
 # Setting up the final file's path
-filename = f'publishers.json'
+filename = f'{"__".join(fields.keys())}.json'
 filepath = os.path.join(KEYS_DIR, filename)
 
 # Exporting all publishers' names as a JSON file
-JSONFileHandler.save_json(unique_publishers, filepath)
+JSONFileHandler.save_json(fields, filepath)
