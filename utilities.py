@@ -1,3 +1,5 @@
+import re
+import numpy as np
 from time import sleep
 from random import uniform
 
@@ -25,3 +27,22 @@ def make_batches(lst: list[str], batch_size: int) -> list[list[str]]:
     ]
 
     return  batches
+
+def find_year(date: str) -> int | float:
+    """
+    Export the year from a date string using a regex
+    :param date: str, the date string
+    :return: int | float, the year or np.nan if it is not available
+    """
+    year_pattern = r'\d{4}'
+
+    if isinstance(date, str):
+
+        matches = re.findall(year_pattern, date)
+
+        if matches:
+            return int(matches[0])
+        else:
+            return np.nan
+    else:
+        return np.nan
