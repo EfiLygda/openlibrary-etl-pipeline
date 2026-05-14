@@ -42,3 +42,6 @@ authors_table['death_year'] = df.death_date.apply(find_year)
 # ---------------------
 
 # ---------------------
+# AUTHORS_ALTERNATIVE_NAMES_TABLE
+authors_alternative_names_table = df[['author_key', 'alternate_names']].explode('alternate_names')
+# ---------------------
