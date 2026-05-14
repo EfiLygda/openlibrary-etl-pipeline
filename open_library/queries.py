@@ -33,28 +33,28 @@ class Client:
         :return: dict | None, returns JSON response or None in case there was an error
         """
 
-        try:
-            # Querying the API
-            response = self.session.get(
-                url,
-                params=request_params,
-                timeout=(self.CONNECT_TIMEOUT, self.READ_TIMEOUT)
-            )
+        # try:
+        # Querying the API
+        response = self.session.get(
+            url,
+            params=request_params,
+            timeout=(self.CONNECT_TIMEOUT, self.READ_TIMEOUT)
+        )
 
-            # Change the object's current url to the last requested
-            self.last_url = response.url
+        # Change the object's current url to the last requested
+        self.last_url = response.url
 
-            # If the URL is invalid or returns a 4xx/5xx status code, it raises an HTTPError.
-            # None will be returned if it is raised
-            response.raise_for_status()
+        # If the URL is invalid or returns a 4xx/5xx status code, it raises an HTTPError.
+        # None will be returned if it is raised
+        response.raise_for_status()
 
-            # Returns the JSON response as a dictionary
-            return response.json()
+        # Returns the JSON response as a dictionary
+        return response.json()
 
-        except requests.exceptions.RequestException as e:
-            # Print error message and return None
-            print(f"Request failed: {e}")
-            return None
+        # except requests.exceptions.RequestException as e:
+        #     # Print error message and return None
+        #     print(f"Request failed: {e}")
+        #     return None
     # -----------------------------------------------------------------------------------
 
 
