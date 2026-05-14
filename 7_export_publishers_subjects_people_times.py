@@ -5,7 +5,7 @@ DETAILS:
 1. Data are saved in a JSON file @ data/keys
 """
 import os
-from config import  BOOKS_DIR, KEYS_DIR
+from config import BOOKS_DIR, KEYS_DIR, GENRE_facet
 from open_library import Client, JSONFileHandler
 
 # Setting up thw Open Library client for querying the API
@@ -52,7 +52,7 @@ for field, names in fields.items():
     fields[field] = list(set(names))
 
 # Setting up the final file's path
-filename = f'{"__".join(fields.keys())}.json'
+filename = f'{GENRE_facet}_{"__".join(fields.keys())}.json'
 filepath = os.path.join(KEYS_DIR, filename)
 
 # Exporting all publishers' names as a JSON file
