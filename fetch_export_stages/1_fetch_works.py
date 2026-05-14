@@ -9,8 +9,6 @@ DETAILS:
 """
 
 import os
-from time import sleep
-from random import uniform
 from utilities import wait
 from open_library import Client
 from config import LIMIT, MAX_PAGES, SEARCH_DIR, GENRE, GENRE_facet
