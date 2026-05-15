@@ -1,4 +1,5 @@
 import re
+import pandas as pd
 import numpy as np
 from time import sleep
 from random import uniform
@@ -28,6 +29,9 @@ def make_batches(lst: list[str], batch_size: int) -> list[list[str]]:
 
     return  batches
 
+def sep():
+    print(100 * '-')
+
 def find_year(date: str) -> int | float:
     """
     Export the year from a date string using a regex
@@ -46,3 +50,61 @@ def find_year(date: str) -> int | float:
             return np.nan
     else:
         return np.nan
+
+def strip_columns(df: pd.DataFrame) -> pd.DataFrame:
+
+    for col_name in df.columns:
+        if df[col_name].dtype == 'string':
+            df[col_name] = df[col_name].str.strip()
+
+    return df
+
+def is_primary_key(values: pd.Series | pd.DataFrame) -> bool:
+
+    if isinstance(values, pd.Series):
+        has_na = values.isna().any()
+        is_unique = values.is_unique
+
+    elif isinstance(values, pd.DataFrame):
+        has_na = values.isna().any().any()
+        is_unique = ( len(values) == len(values.drop_duplicates()) )
+
+    if not has_na and is_unique:
+        return True
+    else:
+        return False
+
+def prepare_table(
+        df: pd.DataFrame,
+        dtypes: dict = None,
+        primary_key: str | list[str] = None,
+        table_name: str = ''
+) -> pd.DataFrame:
+    """
+    Prepare tables:
+    1. Strip string columns
+    2. Check if the suggested primary key is indeed a primary key (unique value and no NaN)
+    3. Recast dtypes as given
+
+    :param df: pandas.DataFrame, the dataframe to prepare
+    :param dtypes: dict | None, dictionary with the column names and their new data types
+    :param primary_key: str, name of the suggested column to be used a primary key
+    :param table_name: str, the name of the table
+    :return: pandas.DataFrame, the dataframe prepared
+    """
+
+    # Strip string columns
+    df = strip_columns(df)
+
+    # Check if  suggested column can be used as a primary key
+    if primary_key:
+        if not is_primary_key(df[primary_key]):
+            raise ValueError(f'\'{primary_key}\' is not primary key for \'{table_name}\' table.')
+        else:
+            print(f'\'{table_name}\' Primary Key: \'{primary_key}\'')
+
+    # Cast the new data types, if given
+    if dtypes:
+        df = df.astype(dtypes)
+
+    return df

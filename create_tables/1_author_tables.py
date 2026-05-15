@@ -6,15 +6,13 @@ DETAILS:
 """
 
 import os
-from unittest.mock import inplace
-
 import numpy as np
 import pandas as pd
 from config import AUTHORS_DIR, AUTHORS_STATISTICS_DIR, GENRE_facet, WORKS_DIR, CSV_DIR
-from utilities import find_year
+import utilities as util
 from open_library import JSONFileHandler, KeyHandler
 
-# ---------------------------------------------
+# ------------------------------------------------------------------------------
 # --- Authors Table ---
 
 # Fetching all authors JSON filenames
@@ -78,8 +76,8 @@ authors_table_columns_to_keep = [
 authors_table = df_authors[authors_table_columns_to_keep]
 
 # Extract birth and death year for authors
-authors_table['birth_year'] = df_authors.birth_date.apply(find_year)
-authors_table['death_year'] = df_authors.death_date.apply(find_year)
+authors_table['birth_year'] = df_authors.birth_date.apply(util.find_year)
+authors_table['death_year'] = df_authors.death_date.apply(util.find_year)
 
 # Extract authors' bio
 authors_table['bio'] = authors_table.bio.apply(
@@ -99,22 +97,62 @@ authors_dtypes = {
     'death_year': 'Int64'
 }
 
-authors_table = authors_table.astype(authors_dtypes)
+# Prepare tables for exporting
+authors_table = util.prepare_table(
+    authors_table,
+    dtypes=authors_dtypes,
+    primary_key='author_key',
+    table_name='authors'
+)
 
-# Export authors' table as a CSV file
+# Export table as a CSV file
+# Primary key: 'author_key'
 authors_table.to_csv(
     os.path.join(CSV_DIR, 'authors.csv'),
     index=False,
-
 )
-# ---------------------
 
-# ---------------------
-# AUTHORS_ALTERNATIVE_NAMES_TABLE
+# Print a separator for current table
+util.sep()
+# ------------------------------------------------------------------------------
+
+# ------------------------------------------------------------------------------
+# --- Authors Alternative Names Table ---
+
+# Convert 'alternate_names' column that contains list of names to different rows in the dataframe
+# Note: An author can have more than one alternative names
 authors_alternative_names_table = df_authors[['author_key', 'alternate_names']].explode('alternate_names')
-# ---------------------
 
-# ---------------------
+# Remove any rows tha have NaN values
+# This basically refers only to 'alternate_names', in case an author does not have any 'alternate_names'
+authors_alternative_names_table = authors_alternative_names_table.dropna(how='any')
+
+# Set data types for each column
+authors_alternative_names_dtypes = {
+    'author_key': 'string',
+    'alternate_names': 'string',
+}
+
+# Prepare tables for exporting
+authors_alternative_names_table = util.prepare_table(
+    df=authors_alternative_names_table,
+    dtypes=authors_alternative_names_dtypes,
+    primary_key=['author_key', 'alternate_names'],
+    table_name='authors_alternative_names'
+)
+
+# Export table as a CSV file
+# Primary key: ['author_key', 'alternate_names']
+authors_alternative_names_table.to_csv(
+    os.path.join(CSV_DIR, 'authors_alternative_names.csv'),
+    index=False,
+)
+
+# Print a separator for current table
+util.sep()
+# ------------------------------------------------------------------------------
+
+# ------------------------------------------------------------------------------
 # AUTHORS_STATISTICS_TABLE
 
 author_statistics = JSONFileHandler.load_json(
@@ -140,9 +178,12 @@ statistics_columns_to_keep = [
 ]
 
 author_statistics_table = df_stats[statistics_columns_to_keep]
-# ---------------------
 
-# ---------------------
+# Print a separator for current table
+util.sep()
+# ------------------------------------------------------------------------------
+
+# ------------------------------------------------------------------------------
 # WORKS_AUTHORS_TABLE
 
 work_files = [
@@ -175,5 +216,7 @@ works_authors_table['author_key'] = works_authors_table.authors.apply(
     else np.nan
 )
 works_authors_table.drop('authors', inplace=True, axis=1)
-# ---------------------
 
+# Print a separator for current table
+util.sep()
+# ------------------------------------------------------------------------------
