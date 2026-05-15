@@ -1,8 +1,5 @@
 """
-STEP 1:
-
-DETAILS:
-1.
+STEP 1: Create tables `authors`, `authors_alternative_names`, `authors_statistics` and `works_authors`
 """
 
 import os
@@ -224,7 +221,7 @@ author_statistics_table = util.prepare_table(
 # Export table as a CSV file
 # Primary key: 'author_key'
 author_statistics_table.to_csv(
-    os.path.join(CSV_DIR, 'author_statistics.csv'),
+    os.path.join(CSV_DIR, 'authors_statistics.csv'),
     index=False,
 )
 
