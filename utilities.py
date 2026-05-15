@@ -59,17 +59,24 @@ def strip_columns(df: pd.DataFrame) -> pd.DataFrame:
 
     return df
 
-def is_primary_key(values: pd.Series | pd.DataFrame) -> bool:
-
+def has_na(values: pd.Series | pd.DataFrame) -> np.bool | None:
     if isinstance(values, pd.Series):
-        has_na = values.isna().any()
-        is_unique = values.is_unique
-
+        return values.isna().any()
     elif isinstance(values, pd.DataFrame):
-        has_na = values.isna().any().any()
-        is_unique = ( len(values) == len(values.drop_duplicates()) )
+        return values.isna().any().any()
+    else:
+        return None
 
-    if not has_na and is_unique:
+def is_unique(values: pd.Series | pd.DataFrame) -> np.bool | None:
+    if isinstance(values, pd.Series):
+        return values.is_unique
+    elif isinstance(values, pd.DataFrame):
+        return len(values) == len(values.drop_duplicates())
+    else:
+        return None
+
+def is_primary_key(values: pd.Series | pd.DataFrame) -> bool:
+    if not has_na(values) and is_unique(values):
         return True
     else:
         return False
