@@ -12,6 +12,7 @@ from config import AUTHORS_DIR, AUTHORS_STATISTICS_DIR, GENRE_facet, WORKS_DIR, 
 import utilities as util
 from open_library import JSONFileHandler, KeyHandler
 
+# region fold
 # ------------------------------------------------------------------------------
 # --- Authors Table ---
 
@@ -151,17 +152,35 @@ authors_alternative_names_table.to_csv(
 # Print a separator for current table
 util.sep()
 # ------------------------------------------------------------------------------
+# endregion
 
 # ------------------------------------------------------------------------------
-# AUTHORS_STATISTICS_TABLE
+# --- Authors Statistics Table ---
 
+# Load JSON file with authors' statistics
 author_statistics = JSONFileHandler.load_json(
     os.path.join(AUTHORS_STATISTICS_DIR, f'{GENRE_facet}_author_statistics.json')
 )
 
+# Convert the statistics' data dictionary to a dataframe and transpose in order
+# to have the author keys as index
+# Notes:
+# 1. the current index has values as 'OLxxxxA'
+# 2. column 'key' also contains each author's keys
 df_stats = pd.DataFrame(author_statistics).T
+
+# Check if any of the keys are wrong
+keys_are_right = (df_stats.index == df_stats.key).all()
+
+if keys_are_right:
+    print('All authors\' records were checked and author keys are right.')
+else:
+    print('All authors\' records were checked and some author keys are wrong.')
+
+# Reset index as to now be a new column, and rename the column to 'author_key'
 df_stats.reset_index(names='author_key', inplace=True)
 
+# Column names to keep
 statistics_columns_to_keep = [
     'author_key',
     'top_work',
@@ -177,7 +196,39 @@ statistics_columns_to_keep = [
     'already_read_count',
 ]
 
+# Keep only wanted columns
 author_statistics_table = df_stats[statistics_columns_to_keep]
+
+# Set data types for each column
+author_statistics_dtypes = {
+    'author_key': 'string',
+    'top_work': 'string',
+    'work_count': 'Int64',
+    'ratings_count_1': 'Int64',
+    'ratings_count_2': 'Int64',
+    'ratings_count_3': 'Int64',
+    'ratings_count_4': 'Int64',
+    'ratings_count_5': 'Int64',
+    'readinglog_count': 'Int64',
+    'want_to_read_count': 'Int64',
+    'currently_reading_count': 'Int64',
+    'already_read_count': 'Int64',
+}
+
+# Prepare tables for exporting
+author_statistics_table = util.prepare_table(
+    author_statistics_table,
+    dtypes=author_statistics_dtypes,
+    primary_key='author_key',
+    table_name='author_statistics'
+)
+
+# Export table as a CSV file
+# Primary key: 'author_key'
+author_statistics_table.to_csv(
+    os.path.join(CSV_DIR, 'author_statistics.csv'),
+    index=False,
+)
 
 # Print a separator for current table
 util.sep()
