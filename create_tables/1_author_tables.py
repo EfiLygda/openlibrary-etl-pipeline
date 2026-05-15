@@ -12,7 +12,6 @@ from config import AUTHORS_DIR, AUTHORS_STATISTICS_DIR, GENRE_facet, WORKS_DIR, 
 import utilities as util
 from open_library import JSONFileHandler, KeyHandler
 
-# region fold
 # ------------------------------------------------------------------------------
 # --- Authors Table ---
 
@@ -152,7 +151,6 @@ authors_alternative_names_table.to_csv(
 # Print a separator for current table
 util.sep()
 # ------------------------------------------------------------------------------
-# endregion
 
 # ------------------------------------------------------------------------------
 # --- Authors Statistics Table ---
@@ -235,23 +233,51 @@ util.sep()
 # ------------------------------------------------------------------------------
 
 # ------------------------------------------------------------------------------
-# WORKS_AUTHORS_TABLE
+# --- Works Authors Table ---
 
+# Fetching all works JSON filenames
 work_files = [
     os.path.join(WORKS_DIR, filename)
     for filename in os.listdir(WORKS_DIR)
 ]
 
+# Dictionary that will contain all works' data
+# Keys: author keys (i.e. '/authors/OLxxxxW')
+# Values: an author's record as returned via an SEARCH query
 all_works_records = dict()
 
+# For each file all works' data are loaded and updated in the dictionary
 for filename in work_files:
+
+    # Load JSON works' data
     data = JSONFileHandler.load_json(filename)
+
+    # Update the dictionary
     all_works_records.update(data['result'])
 
+# Convert the works' data dictionary to a dataframe and transpose in order
+# to have the work keys as index
+# Notes:
+# 1. the current index has values as '/authors/OLxxxxW' -> the keys are going to be denormalized
+# 2. column 'key' also contains each work's keys
 df_works = pd.DataFrame(all_works_records).T
 
+# Check if any of the keys are wrong
+keys_are_right = (df_works.index == df_works.key).all()
+
+if keys_are_right:
+    print('All works\' records were checked and works keys are right.')
+else:
+    print('All works\' records were checked and some works keys are wrong.')
+
+# Reset index as to add it as a column
+# Denormalize index as to extract pure authors' key
 new_index = [KeyHandler.get_key(i) for i in df_works.index]
+
+# Set the new denormalized index as the current index
 df_works.index = new_index
+
+# Reset index as to now be a new column, and rename the column to 'work_key'
 df_works.reset_index(inplace=True, names='work_key')
 
 # Extract the description when needed
@@ -259,14 +285,52 @@ df_works.description = df_works.description.apply(
     lambda x: x['value'] if isinstance(x, dict) else x
 )
 
-works_authors_table = df_works[['work_key', 'authors']].explode('authors')
+# Column names to keep for the final table
+works_authors_table_columns_to_keep = [
+    'work_key',
+    'authors',
+]
 
+# Keep only wanted columns
+works_authors_table = df_works[works_authors_table_columns_to_keep]
+
+# Convert 'authors' column that contains list of names to different rows in the dataframe
+# Note: A work can have more than one author
+works_authors_table = works_authors_table.explode('authors')
+
+# Denormalize author key (remove '/authors/')
 works_authors_table['author_key'] = works_authors_table.authors.apply(
     lambda x: KeyHandler.get_key(x['author']['key'])
     if isinstance(x, dict) and 'author' in x.keys()
     else np.nan
 )
+
+# Drop the authors column with the normalized author keys
 works_authors_table.drop('authors', inplace=True, axis=1)
+
+# Remove any rows with any NaN value (from the primary key)
+works_authors_table.dropna(how='any', inplace=True)
+
+# Set data types for each column
+works_authors_dtypes = {
+    'work_key': 'string',
+    'author_key': 'string',
+}
+
+# Prepare tables for exporting
+works_authors_table = util.prepare_table(
+    works_authors_table,
+    dtypes=works_authors_dtypes,
+    primary_key=['work_key', 'author_key'],
+    table_name='works_authors'
+)
+
+# Export table as a CSV file
+# Primary key: 'author_key'
+works_authors_table.to_csv(
+    os.path.join(CSV_DIR, 'works_authors.csv'),
+    index=False,
+)
 
 # Print a separator for current table
 util.sep()
