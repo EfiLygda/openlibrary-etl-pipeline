@@ -130,22 +130,55 @@ def is_primary_key(values: pd.Series | pd.DataFrame) -> bool:
     else:
         return False
 
+def drop_rows_with_only_pk(
+        df: pd.DataFrame,
+        primary_key: str | list[str]
+) -> pd.DataFrame:
+    """
+    Function for removing rows where all fields are none except rhe primary key
+    :param df: pd.DataFrame, the dataframe to be used
+    :param primary_key: str | list[str], the name or names of the column/s to be used as primary key
+    :return: pd.DataFrame, the dataframe after removing rows where all fields are none except rhe primary key
+    """
+
+    # Convert column names to list
+    column_names = list(df.columns)
+
+    # If primary key is multivalue then remove each column name from the list
+    # else just remove the primary key name from the columns
+    if isinstance(primary_key, list):
+        for col_name in primary_key:
+            column_names.remove(col_name)
+    else:
+        column_names.remove(primary_key)
+
+    # Remove rows where all columns have missing values except of the primary key
+    df = df.dropna(subset=column_names, how='all')
+
+    return df
+
 def prepare_table(
         df: pd.DataFrame,
         dtypes: dict = None,
         primary_key: str | list[str] = None,
-        table_name: str = ''
+        table_name: str = '',
+        drop_na_except: str | list[str] = None,
+        drop_duplicates: bool = True,
 ) -> pd.DataFrame:
     """
-    Prepare tables:
+    Prepare tables pipeline:
     1. Strip string columns
-    2. Check if the suggested primary key is indeed a primary key (unique value and no NaN)
-    3. Recast dtypes as given
+    2. Check if the suggested primary key is indeed a primary key (unique values and no missing values)
+    3. Remove rows where, except the primary key, all the other fields have missing values
+    4. Drop duplicate rows
+    5. Recast dtypes as given
 
     :param df: pandas.DataFrame, the dataframe to prepare
     :param dtypes: dict | None, dictionary with the column names and their new data types
     :param primary_key: str, name of the suggested column to be used a primary key
     :param table_name: str, the name of the table
+    :param drop_duplicates: bool, True if to drop duplicates, False if not to
+    :param drop_na_except: str, the name of the column to exclude when searching for rows with all missing rows
     :return: pandas.DataFrame, the dataframe prepared
     """
 
@@ -159,8 +192,33 @@ def prepare_table(
         else:
             print(f'\'{table_name}\' Primary Key: \'{primary_key}\'')
 
+    # Drop rows where, except the selected column, all the other fields have missing value
+    if drop_na_except:
+        df = drop_rows_with_only_pk(df, drop_na_except)
+
+    # Drop duplicate rows
+    if drop_duplicates:
+        df = df.drop_duplicates()
+
     # Cast the new data types, if given
     if dtypes:
         df = df.astype(dtypes)
 
     return df
+
+def any_multivalue_list(col: pd.Series) -> np.bool:
+    """
+    Function that detects whether a column has at least one list that has more than one value
+    :param col: pd.Series, the column to be used
+    :return: np.bool, np.True_ if column has at least one list that has more than one value,
+                      np.True_ if not
+    """
+    return (col.dropna().apply(len) != 1).any()
+
+def get_language(value: str) -> str:
+    """
+    Function for extracting the language name from strings like '/languages/{language}'
+    :param value: str, the string from which the language name is extracted
+    :return: str, the extracted language name
+    """
+    return value.strip().replace('/languages/', '')

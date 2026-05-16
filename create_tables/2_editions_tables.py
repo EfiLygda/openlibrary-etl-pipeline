@@ -117,9 +117,13 @@ details_table = df_books[details_fields]
 # --- Editions Table ---
 
 # Extract work keys for each edition
+# Check if more than one works referred to an edition -> Answer: FALSE
+if util.any_multivalue_list(editions_table.works):
+    print(f'Column \'works\' of table \'editions\' has at least one multivalue list.')
+else:
+    print(f'Column \'works\' of table \'editions\' does not have multivalue lists.')
+
 # Work keys are stored denormalized (i.e. OLxxxxW)
-# Also checked if more than one works referred to an edition -> Answer: FALSE
-# Check: (editions_table.works.apply(len) != 1).any() -> Returns np.False_ -> all lists have only one object
 editions_table['works'] = editions_table.works.apply(
     lambda x: KeyHandler.get_key(x[0]['key'])
 )
@@ -141,11 +145,13 @@ editions_table = util.prepare_table(
     editions_table,
     dtypes=editions_dtypes,
     primary_key='edition_key',
-    table_name='editions'
+    table_name='editions',
+    drop_na_except = 'edition_key',
+    drop_duplicates = True,
 )
 
 # Export table as a CSV file
-# Primary key: 'author_key'
+# Primary key: 'edition_key'
 editions_table.to_csv(
     os.path.join(CSV_DIR, 'editions.csv'),
     index=False,
@@ -156,5 +162,84 @@ util.sep()
 # ------------------------------------------------------------------------------
 # endregion
 
+# region
 # ------------------------------------------------------------------------------
+# --- Contributors Table ---
+
+# Check if any row in 'contributors' has more than one contributor -> Answer: True
+if util.any_multivalue_list(contributors_table.contributors):
+    print(f'Column \'contributors\' of table \'contributors\' has at least one multivalue list.')
+else:
+    print(f'Column \'contributors\' of table \'contributors\' does not have multivalue lists.')
+
+# 'contributors' is exploded as to have one contributor per row and then some editions can use more than one row
+contributors_table = contributors_table.explode(column='contributors')
+
+# Extract contributor name and role to two separate columns
+contributors_table[['contributor_name', 'contributor_role']] = contributors_table.contributors.apply(
+    lambda x: pd.Series([x['name'], x['role']])
+    if isinstance(x, dict) and 'name' in x.keys() and 'role' in x.keys()
+    else pd.Series([np.nan, np.nan])
+)
+
+# Drop 'contributors' column from table
+contributors_table.drop('contributors', inplace=True, axis=1)
+
+# Check if any row in 'translated_from' has more than one contributor -> Answer: False
+if util.any_multivalue_list(contributors_table.translated_from):
+    print(f'Column \'translated_from\' of table \'contributors\' has at least one multivalue list.')
+else:
+    print(f'Column \'translated_from\' of table \'contributors\' does not have multivalue lists.')
+
+# Extract the language from 'translated_from'
+contributors_table['translated_from'] = contributors_table.translated_from.apply(
+    lambda x: util.get_language(x[0]['key'])
+    if isinstance(x, list)
+    else np.nan
+)
+
+# Reorder columns
+contributors_table = contributors_table[
+    [
+        'edition_key',
+        'contributor_name',
+        'contributor_role',
+        'by_statement',
+        'translated_from',
+        'translation_of',
+
+    ]
+]
+
+# Set data types for each column
+contributors_dtypes = {
+    'edition_key': 'string',
+    "contributor_name": 'string',
+    "contributor_role": 'string',
+    "by_statement": 'string',
+    "translation_of": 'string',
+    "translated_from": 'string',
+}
+
+# Prepare tables for exporting
+contributors_table = util.prepare_table(
+    contributors_table,
+    dtypes=contributors_dtypes,
+    primary_key=None,
+    table_name='contributors',
+    drop_na_except='edition_key',
+    drop_duplicates=True,
+)
+
+# Export table as a CSV file
+# Primary key: None
+contributors_table.to_csv(
+    os.path.join(CSV_DIR, 'contributors.csv'),
+    index=False,
+)
+
+# Print a separator for current table
+util.sep()
+# ------------------------------------------------------------------------------
+# endregion
 

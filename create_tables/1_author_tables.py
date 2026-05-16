@@ -99,7 +99,9 @@ authors_table = util.prepare_table(
     authors_table,
     dtypes=authors_dtypes,
     primary_key='author_key',
-    table_name='authors'
+    table_name='authors',
+    drop_na_except='author_key',
+    drop_duplicates=True,
 )
 
 # Export table as a CSV file
@@ -135,7 +137,8 @@ authors_alternative_names_table = util.prepare_table(
     df=authors_alternative_names_table,
     dtypes=authors_alternative_names_dtypes,
     primary_key=['author_key', 'alternate_names'],
-    table_name='authors_alternative_names'
+    table_name='authors_alternative_names',
+    drop_duplicates=True,
 )
 
 # Export table as a CSV file
@@ -215,7 +218,9 @@ author_statistics_table = util.prepare_table(
     author_statistics_table,
     dtypes=author_statistics_dtypes,
     primary_key='author_key',
-    table_name='author_statistics'
+    table_name='author_statistics',
+    drop_na_except='author_key',
+    drop_duplicates=True,
 )
 
 # Export table as a CSV file
@@ -319,7 +324,8 @@ works_authors_table = util.prepare_table(
     works_authors_table,
     dtypes=works_authors_dtypes,
     primary_key=['work_key', 'author_key'],
-    table_name='works_authors'
+    table_name='works_authors',
+    drop_duplicates=True,
 )
 
 # Export table as a CSV file
