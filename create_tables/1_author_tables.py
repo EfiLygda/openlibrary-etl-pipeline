@@ -1,5 +1,5 @@
 """
-STEP 1: Create tables `authors`, `authors_alternative_names`, `authors_statistics` and `works_authors`
+STEP 1: Create tables `authors`, `authors_alternative_names`, `authors_statistics` and `authors_works`
 """
 
 import os
@@ -282,50 +282,58 @@ df_works.reset_index(inplace=True, names='work_key')
 df_works.description = df_works.description.apply(util.extract_text)
 
 # Column names to keep for the final table
-works_authors_table_columns_to_keep = [
-    'work_key',
+authors_works_table_columns_to_keep = [
     'authors',
+    'work_key',
 ]
 
 # Keep only wanted columns
-works_authors_table = df_works[works_authors_table_columns_to_keep]
+authors_works_table = df_works[authors_works_table_columns_to_keep]
 
 # Convert 'authors' column that contains list of names to different rows in the dataframe
 # Note: A work can have more than one author
-works_authors_table = works_authors_table.explode('authors')
+authors_works_table = authors_works_table.explode('authors')
 
 # Denormalize author key (remove '/authors/')
-works_authors_table['author_key'] = works_authors_table.authors.apply(
+authors_works_table['author_key'] = authors_works_table.authors.apply(
     lambda x: KeyHandler.get_key(x['author']['key'])
     if isinstance(x, dict) and 'author' in x.keys()
     else np.nan
 )
 
 # Drop the authors column with the normalized author keys
-works_authors_table.drop('authors', inplace=True, axis=1)
+authors_works_table.drop('authors', inplace=True, axis=1)
 
 # Remove any rows with any NaN value (from the primary key)
-works_authors_table.dropna(how='any', inplace=True)
+authors_works_table.dropna(how='any', inplace=True)
+
+# Reorder columns
+authors_works_table = authors_works_table[
+    [
+        'author_key',
+        'work_key'
+    ]
+]
 
 # Set data types for each column
-works_authors_dtypes = {
+authors_works_dtypes = {
     'work_key': 'string',
     'author_key': 'string',
 }
 
 # Prepare tables for exporting
-works_authors_table = util.prepare_table(
-    works_authors_table,
-    dtypes=works_authors_dtypes,
+authors_works_table = util.prepare_table(
+    authors_works_table,
+    dtypes=authors_works_dtypes,
     primary_key=['work_key', 'author_key'],
-    table_name='works_authors',
+    table_name='authors_works',
     drop_duplicates=True,
 )
 
 # Export table as a CSV file
-# Primary key: 'author_key'
-works_authors_table.to_csv(
-    os.path.join(CSV_DIR, 'works_authors.csv'),
+# Primary key: ['work_key', 'author_key']
+authors_works_table.to_csv(
+    os.path.join(CSV_DIR, 'authors_works.csv'),
     index=False,
 )
 

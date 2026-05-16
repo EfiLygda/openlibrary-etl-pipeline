@@ -6,14 +6,11 @@ STEP 2: Create tables `editions`, `editions_contributors`, `editions_publishing`
 import os
 import numpy as np
 import pandas as pd
-from config import AUTHORS_DIR, AUTHORS_STATISTICS_DIR, GENRE_facet, WORKS_DIR, CSV_DIR, BOOKS_DIR
+from config import CSV_DIR, BOOKS_DIR
 import utilities as util
 from open_library import JSONFileHandler, KeyHandler
 
-# region
 # ------------------------------------------------------------------------------
-# --- Editions Table ---
-
 # Fetching all editions/books JSON filenames
 books_files = [
     os.path.join(BOOKS_DIR, filename)
@@ -102,8 +99,6 @@ details_fields = [
     "languages",
 ]
 
-# endregion
-
 # Keep only wanted columns for each table
 editions_table = df_books[editions_fields]
 contributors_table = df_books[contributors_fields]
@@ -114,7 +109,7 @@ details_table = df_books[details_fields]
 
 # ------------------------------------------------------------------------------
 # --- Editions Table ---
-# region
+
 # Extract work keys for each edition
 # Check if more than one works referred to an edition -> Answer: FALSE
 util.check_explode(
@@ -159,12 +154,10 @@ editions_table.to_csv(
 # Print a separator for current table
 util.sep()
 # ------------------------------------------------------------------------------
-# endregion
-
 
 # ------------------------------------------------------------------------------
 # --- Contributors Table ---
-# region
+
 # Check if any row in 'contributors' has more than one contributor -> Answer: True
 util.check_explode(
     col=contributors_table.contributors,
@@ -233,18 +226,16 @@ contributors_table = util.prepare_table(
 # Export table as a CSV file
 # Primary key: None
 contributors_table.to_csv(
-    os.path.join(CSV_DIR, 'contributors.csv'),
+    os.path.join(CSV_DIR, 'editions_contributors.csv'),
     index=False,
 )
 
 # Print a separator for current table
 util.sep()
 # ------------------------------------------------------------------------------
-# endregion
 
 # ------------------------------------------------------------------------------
 # --- Publishing Table ---
-# region
 
 # Extract the publishing year form publish_date
 publishing_table['publish_year'] = publishing_table.publish_date.apply(util.find_year)
@@ -282,6 +273,19 @@ util.check_explode(
 # 'publish_places' is exploded as to have one publish place per row for some editions
 publishing_table = publishing_table.explode('series')
 
+# Reorder columns
+publishing_table = publishing_table[
+    [
+        'edition_key',
+        'publish_date',
+        'publish_year',
+        'publisher',
+        'publish_place',
+        'publish_country',
+        'series',
+    ]
+]
+
 # Set data types for each column
 publishing_dtypes = {
     'edition_key': 'string',
@@ -306,18 +310,16 @@ publishing_table = util.prepare_table(
 # Export table as a CSV file
 # Primary key: 'edition_key'
 publishing_table.to_csv(
-    os.path.join(CSV_DIR, 'publishing.csv'),
+    os.path.join(CSV_DIR, 'editions_publishing.csv'),
     index=False,
 )
 
 # Print a separator for current table
 util.sep()
 # ------------------------------------------------------------------------------
-# endregion
 
 # ------------------------------------------------------------------------------
 # --- Contents Table ---
-# region
 
 # Extract description
 contents_table['description'] = contents_table.description.apply(util.extract_text)
@@ -327,7 +329,6 @@ contents_table['notes'] = contents_table.notes.apply(util.extract_text)
 
 # Extract first sentence
 contents_table['first_sentence'] = contents_table.first_sentence.apply(util.extract_text)
-
 
 # Set data types for each column
 contents_dtypes = {
@@ -350,11 +351,63 @@ contents_table = util.prepare_table(
 # Export table as a CSV file
 # Primary key: 'edition_key'
 contents_table.to_csv(
-    os.path.join(CSV_DIR, 'contents.csv'),
+    os.path.join(CSV_DIR, 'editions_contents.csv'),
     index=False,
 )
 
 # Print a separator for current table
 util.sep()
 # ------------------------------------------------------------------------------
-# endregion
+
+# ------------------------------------------------------------------------------
+# --- Editions Table ---
+
+# Check if more than one language referred to an edition -> Answer: FALSE
+util.check_explode(
+    col=details_table.languages,
+    table_name='details'
+)
+
+# 'languages' is exploded as to have one language per row for some editions
+details_table = details_table.explode('languages')
+
+# Extract languages
+details_table['languages'] = details_table.languages.apply(
+    lambda x: util.get_language(x[0]['key'])
+    if isinstance(x, list)
+    else np.nan
+)
+
+# Rename 'languages' column
+details_table.rename(columns={'languages': 'language'}, inplace=True)
+
+# Set data types for each column
+details_dtypes = {
+    'edition_key': 'string',
+    "number_of_pages": 'Int64',
+    "physical_format": 'string',
+    "physical_dimensions": 'string',
+    "weight": 'string',
+    "language": 'string',
+}
+
+# Prepare tables for exporting
+details_table = util.prepare_table(
+    details_table,
+    dtypes=details_dtypes,
+    # primary_key='edition_key',
+    table_name='details',
+    drop_na_except = 'edition_key',
+    drop_duplicates = True,
+)
+
+# Export table as a CSV file
+# Primary key: 'edition_key'
+details_table.to_csv(
+    os.path.join(CSV_DIR, 'editions_details.csv'),
+    index=False,
+)
+
+# Print a separator for current table
+util.sep()
+# ------------------------------------------------------------------------------
