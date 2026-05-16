@@ -112,10 +112,9 @@ content_table = df_books[content_fields]
 details_table = df_books[details_fields]
 # ------------------------------------------------------------------------------
 
-# region
 # ------------------------------------------------------------------------------
 # --- Editions Table ---
-
+# region
 # Extract work keys for each edition
 # Check if more than one works referred to an edition -> Answer: FALSE
 if util.any_multivalue_list(editions_table.works):
@@ -162,17 +161,17 @@ util.sep()
 # ------------------------------------------------------------------------------
 # endregion
 
-# region
+
 # ------------------------------------------------------------------------------
 # --- Contributors Table ---
-
+# region
 # Check if any row in 'contributors' has more than one contributor -> Answer: True
 if util.any_multivalue_list(contributors_table.contributors):
     print(f'Column \'contributors\' of table \'contributors\' has at least one multivalue list.')
 else:
     print(f'Column \'contributors\' of table \'contributors\' does not have multivalue lists.')
 
-# 'contributors' is exploded as to have one contributor per row and then some editions can use more than one row
+# 'contributors' is exploded as to have one contributor per row for some editions
 contributors_table = contributors_table.explode(column='contributors')
 
 # Extract contributor name and role to two separate columns
@@ -243,3 +242,75 @@ util.sep()
 # ------------------------------------------------------------------------------
 # endregion
 
+# ------------------------------------------------------------------------------
+# --- Publishing Table ---
+# region
+
+# Extract the publishing year form publish_date
+publishing_table['publish_year'] = publishing_table.publish_date.apply(util.find_year)
+
+# Check if more than one publisher name is referred to an edition -> Answer: TRUE
+if util.any_multivalue_list(publishing_table.publishers):
+    print(f'Column \'publishers\' of table \'publishing\' has at least one multivalue list.')
+else:
+    print(f'Column \'publishers\' of table \'publishing\' does not have multivalue lists.')
+
+# 'publishers' is exploded as to have one publisher per row for some editions
+publishing_table = publishing_table.explode('publishers')
+
+# Rename 'publishers'
+publishing_table.rename(columns={'publishers': 'publisher'}, inplace=True)
+
+# Check if more than one publish_places name is referred to an edition -> Answer: TRUE
+if util.any_multivalue_list(publishing_table.publish_places):
+    print(f'Column \'publish_places\' of table \'publishing\' has at least one multivalue list.')
+else:
+    print(f'Column \'publish_places\' of table \'publishing\' does not have multivalue lists.')
+
+# 'publish_places' is exploded as to have one publish place per row for some editions
+publishing_table = publishing_table.explode('publish_places')
+
+# Rename 'publish_places'
+publishing_table.rename(columns={'publish_places': 'publish_place'}, inplace=True)
+
+# Check if more than one publish_places name is referred to an edition -> Answer: TRUE
+if util.any_multivalue_list(publishing_table.series):
+    print(f'Column \'series\' of table \'publishing\' has at least one multivalue list.')
+else:
+    print(f'Column \'series\' of table \'publishing\' does not have multivalue lists.')
+
+# 'publish_places' is exploded as to have one publish place per row for some editions
+publishing_table = publishing_table.explode('series')
+
+# Set data types for each column
+publishing_dtypes = {
+    'edition_key': 'string',
+    "publish_date": 'string',
+    "publisher": 'string',
+    "publish_place": 'string',
+    "publish_country": 'string',
+    "series": 'string',
+    "publish_year": "Int64"
+}
+
+# Prepare tables for exporting
+publishing_table = util.prepare_table(
+    publishing_table,
+    dtypes=publishing_dtypes,
+    primary_key=None,
+    table_name='publishing',
+    drop_na_except = 'edition_key',
+    drop_duplicates = True,
+)
+
+# Export table as a CSV file
+# Primary key: 'edition_key'
+publishing_table.to_csv(
+    os.path.join(CSV_DIR, 'publishing.csv'),
+    index=False,
+)
+
+# Print a separator for current table
+util.sep()
+# ------------------------------------------------------------------------------
+# endregion
