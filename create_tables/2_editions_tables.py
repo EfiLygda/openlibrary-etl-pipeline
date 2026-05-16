@@ -320,50 +320,37 @@ util.sep()
 # region
 
 # Extract description
-contents_table.description = contents_table.description.apply(util.extract_text)
+contents_table['description'] = contents_table.description.apply(util.extract_text)
 
 # Extract notes
-contents_table.notes = contents_table.notes.apply(util.extract_text)
+contents_table['notes'] = contents_table.notes.apply(util.extract_text)
 
+# Extract first sentence
+contents_table['first_sentence'] = contents_table.first_sentence.apply(util.extract_text)
 
-# Extract work keys for each edition
-# Check if more than one works referred to an edition -> Answer: FALSE
-util.check_explode(
-    col=editions_table.works,
-    table_name='editions'
-)
-
-# Work keys are stored denormalized (i.e. OLxxxxW)
-editions_table['works'] = editions_table.works.apply(
-    lambda x: KeyHandler.get_key(x[0]['key'])
-)
-
-# Remove 'works' column
-editions_table.rename(columns={'works': 'work_key'}, inplace=True)
 
 # Set data types for each column
-editions_dtypes = {
+contents_dtypes = {
     'edition_key': 'string',
-    "work_key": 'string',
-    "title": 'string',
-    "subtitle": 'string',
-    "edition_name": 'string',
+    "description": 'string',
+    "notes": 'string',
+    "first_sentence": 'string',
 }
 
 # Prepare tables for exporting
-editions_table = util.prepare_table(
-    editions_table,
-    dtypes=editions_dtypes,
+contents_table = util.prepare_table(
+    contents_table,
+    dtypes=contents_dtypes,
     primary_key='edition_key',
-    table_name='editions',
+    table_name='contents',
     drop_na_except = 'edition_key',
     drop_duplicates = True,
 )
 
 # Export table as a CSV file
 # Primary key: 'edition_key'
-editions_table.to_csv(
-    os.path.join(CSV_DIR, 'editions.csv'),
+contents_table.to_csv(
+    os.path.join(CSV_DIR, 'contents.csv'),
     index=False,
 )
 
