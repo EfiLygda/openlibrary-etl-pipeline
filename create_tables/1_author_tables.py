@@ -77,11 +77,7 @@ authors_table['birth_year'] = df_authors.birth_date.apply(util.find_year)
 authors_table['death_year'] = df_authors.death_date.apply(util.find_year)
 
 # Extract authors' bio
-authors_table['bio'] = authors_table.bio.apply(
-    lambda x: x['value']
-    if isinstance(x, dict) and 'value' in x.keys()
-    else np.nan
-)
+authors_table['bio'] = authors_table.bio.apply(util.extract_text)
 
 # Set data types for each column
 authors_dtypes = {
@@ -283,9 +279,7 @@ df_works.index = new_index
 df_works.reset_index(inplace=True, names='work_key')
 
 # Extract the description when needed
-df_works.description = df_works.description.apply(
-    lambda x: x['value'] if isinstance(x, dict) else x
-)
+df_works.description = df_works.description.apply(util.extract_text)
 
 # Column names to keep for the final table
 works_authors_table_columns_to_keep = [

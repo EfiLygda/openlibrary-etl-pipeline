@@ -108,7 +108,7 @@ details_fields = [
 editions_table = df_books[editions_fields]
 contributors_table = df_books[contributors_fields]
 publishing_table = df_books[publishing_fields]
-content_table = df_books[content_fields]
+contents_table = df_books[content_fields]
 details_table = df_books[details_fields]
 # ------------------------------------------------------------------------------
 
@@ -307,6 +307,63 @@ publishing_table = util.prepare_table(
 # Primary key: 'edition_key'
 publishing_table.to_csv(
     os.path.join(CSV_DIR, 'publishing.csv'),
+    index=False,
+)
+
+# Print a separator for current table
+util.sep()
+# ------------------------------------------------------------------------------
+# endregion
+
+# ------------------------------------------------------------------------------
+# --- Contents Table ---
+# region
+
+# Extract description
+contents_table.description = contents_table.description.apply(util.extract_text)
+
+# Extract notes
+contents_table.notes = contents_table.notes.apply(util.extract_text)
+
+
+# Extract work keys for each edition
+# Check if more than one works referred to an edition -> Answer: FALSE
+util.check_explode(
+    col=editions_table.works,
+    table_name='editions'
+)
+
+# Work keys are stored denormalized (i.e. OLxxxxW)
+editions_table['works'] = editions_table.works.apply(
+    lambda x: KeyHandler.get_key(x[0]['key'])
+)
+
+# Remove 'works' column
+editions_table.rename(columns={'works': 'work_key'}, inplace=True)
+
+# Set data types for each column
+editions_dtypes = {
+    'edition_key': 'string',
+    "work_key": 'string',
+    "title": 'string',
+    "subtitle": 'string',
+    "edition_name": 'string',
+}
+
+# Prepare tables for exporting
+editions_table = util.prepare_table(
+    editions_table,
+    dtypes=editions_dtypes,
+    primary_key='edition_key',
+    table_name='editions',
+    drop_na_except = 'edition_key',
+    drop_duplicates = True,
+)
+
+# Export table as a CSV file
+# Primary key: 'edition_key'
+editions_table.to_csv(
+    os.path.join(CSV_DIR, 'editions.csv'),
     index=False,
 )
 

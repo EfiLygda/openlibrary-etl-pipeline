@@ -242,3 +242,16 @@ def get_language(value: str) -> str:
     :return: str, the extracted language name
     """
     return value.strip().replace('/languages/', '')
+
+def extract_text(x: dict) -> str | float:
+    """
+    Function for extracting the text from rows with text as dictionary
+    :param x: dict, the dictionary with the text
+    :return: str | float: the string with the text or np.nan if it is missing
+    """
+    if isinstance(x, dict) and 'value' in x.keys():
+        return x['value']
+    elif isinstance(x, str):
+        return x
+    else:
+        return np.nan
