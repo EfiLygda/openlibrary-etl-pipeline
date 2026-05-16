@@ -43,10 +43,10 @@ df_authors = pd.DataFrame(all_author_records).T
 df_authors.rename(columns={'name': 'author_name'}, inplace=True)
 
 # Check if any of the keys are wrong
-keys_are_right = (df_authors.index == df_authors.key).all()
+keys_are_correct = (df_authors.index == df_authors.key).all()
 
-if keys_are_right:
-    print('All authors\' records were checked and author keys are right.')
+if keys_are_correct:
+    print('All authors\' records were checked and author keys are correct.')
 else:
     print('All authors\' records were checked and some author keys are wrong.')
 
@@ -165,10 +165,10 @@ author_statistics = JSONFileHandler.load_json(
 df_stats = pd.DataFrame(author_statistics).T
 
 # Check if any of the keys are wrong
-keys_are_right = (df_stats.index == df_stats.key).all()
+keys_are_correct = (df_stats.index == df_stats.key).all()
 
-if keys_are_right:
-    print('All authors\' records were checked and author keys are right.')
+if keys_are_correct:
+    print('All authors\' records were checked and author keys are correct.')
 else:
     print('All authors\' records were checked and some author keys are wrong.')
 
@@ -260,10 +260,10 @@ for filename in work_files:
 df_works = pd.DataFrame(all_works_records).T
 
 # Check if any of the keys are wrong
-keys_are_right = (df_works.index == df_works.key).all()
+keys_are_correct = (df_works.index == df_works.key).all()
 
-if keys_are_right:
-    print('All works\' records were checked and works keys are right.')
+if keys_are_correct:
+    print('All works\' records were checked and works keys are correct.')
 else:
     print('All works\' records were checked and some works keys are wrong.')
 
