@@ -215,6 +215,26 @@ def any_multivalue_list(col: pd.Series) -> np.bool:
     """
     return (col.dropna().apply(len) != 1).any()
 
+def check_explode(
+        col: pd.Series,
+        table_name: str
+) -> None:
+    """
+    Helper function for printing a message of whether to explode or not a column depending on if it has
+    at least one multivalue list or not
+    :param col: pd.Series, the column to use for the check
+    :param table_name: str, name of the table
+    :return: None
+    """
+    if any_multivalue_list(col):
+        print(
+            f'Column \'{col.name}\' of table \'{table_name}\' has at least one multivalue list -> explode \'{col.name}\''
+        )
+    else:
+        print(
+            f'Column \'{col.name}\' of table \'{table_name}\' does not have multivalue lists -> do not explode \'{col.name}\''
+        )
+
 def get_language(value: str) -> str:
     """
     Function for extracting the language name from strings like '/languages/{language}'

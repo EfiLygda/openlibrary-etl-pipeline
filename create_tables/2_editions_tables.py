@@ -117,10 +117,10 @@ details_table = df_books[details_fields]
 # region
 # Extract work keys for each edition
 # Check if more than one works referred to an edition -> Answer: FALSE
-if util.any_multivalue_list(editions_table.works):
-    print(f'Column \'works\' of table \'editions\' has at least one multivalue list.')
-else:
-    print(f'Column \'works\' of table \'editions\' does not have multivalue lists.')
+util.check_explode(
+    col=editions_table.works,
+    table_name='editions'
+)
 
 # Work keys are stored denormalized (i.e. OLxxxxW)
 editions_table['works'] = editions_table.works.apply(
@@ -166,10 +166,10 @@ util.sep()
 # --- Contributors Table ---
 # region
 # Check if any row in 'contributors' has more than one contributor -> Answer: True
-if util.any_multivalue_list(contributors_table.contributors):
-    print(f'Column \'contributors\' of table \'contributors\' has at least one multivalue list.')
-else:
-    print(f'Column \'contributors\' of table \'contributors\' does not have multivalue lists.')
+util.check_explode(
+    col=contributors_table.contributors,
+    table_name='contributors'
+)
 
 # 'contributors' is exploded as to have one contributor per row for some editions
 contributors_table = contributors_table.explode(column='contributors')
@@ -185,10 +185,10 @@ contributors_table[['contributor_name', 'contributor_role']] = contributors_tabl
 contributors_table.drop('contributors', inplace=True, axis=1)
 
 # Check if any row in 'translated_from' has more than one contributor -> Answer: False
-if util.any_multivalue_list(contributors_table.translated_from):
-    print(f'Column \'translated_from\' of table \'contributors\' has at least one multivalue list.')
-else:
-    print(f'Column \'translated_from\' of table \'contributors\' does not have multivalue lists.')
+util.check_explode(
+    col=contributors_table.translated_from,
+    table_name='translated_from'
+)
 
 # Extract the language from 'translated_from'
 contributors_table['translated_from'] = contributors_table.translated_from.apply(
@@ -250,10 +250,10 @@ util.sep()
 publishing_table['publish_year'] = publishing_table.publish_date.apply(util.find_year)
 
 # Check if more than one publisher name is referred to an edition -> Answer: TRUE
-if util.any_multivalue_list(publishing_table.publishers):
-    print(f'Column \'publishers\' of table \'publishing\' has at least one multivalue list.')
-else:
-    print(f'Column \'publishers\' of table \'publishing\' does not have multivalue lists.')
+util.check_explode(
+    col=publishing_table.publishers,
+    table_name='publishing'
+)
 
 # 'publishers' is exploded as to have one publisher per row for some editions
 publishing_table = publishing_table.explode('publishers')
@@ -262,10 +262,10 @@ publishing_table = publishing_table.explode('publishers')
 publishing_table.rename(columns={'publishers': 'publisher'}, inplace=True)
 
 # Check if more than one publish_places name is referred to an edition -> Answer: TRUE
-if util.any_multivalue_list(publishing_table.publish_places):
-    print(f'Column \'publish_places\' of table \'publishing\' has at least one multivalue list.')
-else:
-    print(f'Column \'publish_places\' of table \'publishing\' does not have multivalue lists.')
+util.check_explode(
+    col=publishing_table.publish_places,
+    table_name='publish_places'
+)
 
 # 'publish_places' is exploded as to have one publish place per row for some editions
 publishing_table = publishing_table.explode('publish_places')
@@ -274,10 +274,10 @@ publishing_table = publishing_table.explode('publish_places')
 publishing_table.rename(columns={'publish_places': 'publish_place'}, inplace=True)
 
 # Check if more than one publish_places name is referred to an edition -> Answer: TRUE
-if util.any_multivalue_list(publishing_table.series):
-    print(f'Column \'series\' of table \'publishing\' has at least one multivalue list.')
-else:
-    print(f'Column \'series\' of table \'publishing\' does not have multivalue lists.')
+util.check_explode(
+    col=publishing_table.series,
+    table_name='series'
+)
 
 # 'publish_places' is exploded as to have one publish place per row for some editions
 publishing_table = publishing_table.explode('series')
