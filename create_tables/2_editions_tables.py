@@ -67,8 +67,6 @@ editions_fields = [
     "title",
     "subtitle",
     "edition_name",
-    "isbn_10",
-    "isbn_13",
 ]
 
 contributors_fields = [
@@ -112,15 +110,51 @@ contributors_table = df_books[contributors_fields]
 publishing_table = df_books[publishing_fields]
 content_table = df_books[content_fields]
 details_table = df_books[details_fields]
+# ------------------------------------------------------------------------------
 
-
-
-
+# region
 # ------------------------------------------------------------------------------
 # --- Editions Table ---
 
+# Extract work keys for each edition
+# Work keys are stored denormalized (i.e. OLxxxxW)
+# Also checked if more than one works referred to an edition -> Answer: FALSE
+# Check: (editions_table.works.apply(len) != 1).any() -> Returns np.False_ -> all lists have only one object
+editions_table['works'] = editions_table.works.apply(
+    lambda x: KeyHandler.get_key(x[0]['key'])
+)
 
+# Remove 'works' column
+editions_table.rename(columns={'works': 'work_key'}, inplace=True)
 
+# Set data types for each column
+editions_dtypes = {
+    'edition_key': 'string',
+    "work_key": 'string',
+    "title": 'string',
+    "subtitle": 'string',
+    "edition_name": 'string',
+}
+
+# Prepare tables for exporting
+editions_table = util.prepare_table(
+    editions_table,
+    dtypes=editions_dtypes,
+    primary_key='edition_key',
+    table_name='editions'
+)
+
+# Export table as a CSV file
+# Primary key: 'author_key'
+editions_table.to_csv(
+    os.path.join(CSV_DIR, 'editions.csv'),
+    index=False,
+)
+
+# Print a separator for current table
+util.sep()
+# ------------------------------------------------------------------------------
+# endregion
 
 # ------------------------------------------------------------------------------
 
