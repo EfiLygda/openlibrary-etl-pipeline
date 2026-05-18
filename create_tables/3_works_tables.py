@@ -1,19 +1,18 @@
 """
-STEP 3: Create tables `works`, `works_series` and `series` tables
+STEP 3: Create tables `works`, `works_series`, `works_availability`, `works_subjects`,
+ `works_people`, `works_places`  and `works_time_periods` tables
 """
 
 import os
-from unittest.mock import inplace
-
 import numpy as np
 import pandas as pd
-from config import CSV_DIR, BOOKS_DIR, WORKS_DIR, SEARCH_DIR, SERIES_DIR
+from config import CSV_DIR, WORKS_DIR, SEARCH_DIR, SERIES_DIR
 import utilities as util
 from open_library import JSONFileHandler, KeyHandler
 
 # ------------------------------------------------------------------------------
 # --- Import and convert to dictionaries all works, enriched works' and series data ---
-# region
+
 # Fetching all works, works enriched and series JSON filenames
 works_files = [
     os.path.join(SEARCH_DIR, filename)
@@ -79,11 +78,10 @@ for filename in series_files:
 # Print a separator
 util.sep()
 # ------------------------------------------------------------------------------
-# endregion
 
 # ------------------------------------------------------------------------------
 # --- Convert dictionaries to dataframes and merge ---
-# region
+
 # Convert the works' data dictionary to a dataframe and transpose in order
 # to have the author keys as index
 # Notes:
@@ -97,12 +95,10 @@ df_works_all = df_works.merge(df_works_enriched, how='left', on='key', suffixes=
 
 # Convert the series' data dictionary to a dataframe and transpose in order
 df_series = pd.DataFrame(all_series_records).T
-
-# endregion
+# ------------------------------------------------------------------------------
 
 # ------------------------------------------------------------------------------
 # --- Change column names and drop columns ---
-# region
 
 # Rename works 'key' to 'work_key'
 df_works_all.rename(columns={'key': 'work_key'}, inplace=True)
@@ -127,12 +123,10 @@ df_series.rename(columns={'key': 'series_key'}, inplace=True)
 
 # Denormalize 'series_key'
 df_series['series_key'] = df_series.series_key.apply(KeyHandler.get_key)
-
-# endregion
+# ------------------------------------------------------------------------------
 
 # ------------------------------------------------------------------------------
 # --- Separate to different tables ---
-# region
 
 # Set the different fields for each table
 works_fields = [
@@ -179,8 +173,6 @@ times_fields = [
     'subject_times',
 ]
 
-# endregion
-
 # Keep only wanted columns for each table
 works_table = df_works_all[works_fields]
 series_table = df_works_all[series_fields]
@@ -189,10 +181,11 @@ subjects_table = df_works_all[subjects_fields]
 people_table = df_works_all[people_fields]
 places_table = df_works_all[places_fields]
 times_table = df_works_all[times_fields]
+# ------------------------------------------------------------------------------
 
 # ------------------------------------------------------------------------------
 # --- Works Table ---
-# region
+
 # Extract 'description' text
 works_table['description'] = works_table.description.apply(util.extract_text)
 
@@ -231,11 +224,9 @@ works_table.to_csv(
 # Print a separator for current table
 util.sep()
 # ------------------------------------------------------------------------------
-# endregion
 
 # ------------------------------------------------------------------------------
 # --- Series Table ---
-# region
 
 # Check if more than one series_key referred to a work -> Answer: FALSE
 util.check_explode(
@@ -298,15 +289,12 @@ series_table.to_csv(
 # Print a separator for current table
 util.sep()
 # ------------------------------------------------------------------------------
-# endregion
 
 # ------------------------------------------------------------------------------
 # --- Availability Table ---
-# region
 
 # Rename 'public_scan_b' to 'has_public_scan'
 availability_table.rename(columns={'public_scan_b': 'has_public_scan'}, inplace=True)
-
 
 # Set data types for each column
 availability_dtypes = {
@@ -336,11 +324,9 @@ availability_table.to_csv(
 # Print a separator for current table
 util.sep()
 # ------------------------------------------------------------------------------
-# endregion
 
 # ------------------------------------------------------------------------------
 # --- Subjects Table ---
-# region
 
 # Check if more than one 'subjects' referred to a work -> Answer: TRUE
 util.check_explode(
@@ -380,11 +366,9 @@ subjects_table.to_csv(
 # Print a separator for current table
 util.sep()
 # ------------------------------------------------------------------------------
-# endregion
 
 # ------------------------------------------------------------------------------
 # --- People Table ---
-# region
 
 # Check if more than one 'subject_people' referred to a work -> Answer: TRUE
 util.check_explode(
@@ -424,4 +408,87 @@ people_table.to_csv(
 # Print a separator for current table
 util.sep()
 # ------------------------------------------------------------------------------
-# endregion
+
+# ------------------------------------------------------------------------------
+# --- Places Table ---
+
+# Check if more than one 'subject_places' referred to a work -> Answer: TRUE
+util.check_explode(
+    col=places_table.subject_places,
+    table_name='places'
+)
+
+# Explode 'subject_places'
+places_table = places_table.explode(column='subject_places')
+
+# Rename 'subject_places' to 'place'
+places_table.rename(columns={'subject_places': 'place'}, inplace=True)
+
+# Set data types for each column
+places_dtypes = {
+    'work_key': 'string',
+    "place": 'string',
+}
+
+# Prepare tables for exporting
+places_table = util.prepare_table(
+    places_table,
+    dtypes=places_dtypes,
+    primary_key=['work_key','place'],
+    table_name='places',
+    drop_na_except = 'work_key',
+    drop_duplicates = True,
+)
+
+# Export table as a CSV file
+# Primary key: 'work_key','person'
+places_table.to_csv(
+    os.path.join(CSV_DIR, 'works_places.csv'),
+    index=False,
+)
+
+# Print a separator for current table
+util.sep()
+# ------------------------------------------------------------------------------
+
+# ------------------------------------------------------------------------------
+# --- Times Table ---
+
+# Check if more than one 'subject_times' referred to a work -> Answer: TRUE
+util.check_explode(
+    col=times_table.subject_times,
+    table_name='times'
+)
+
+# Explode 'subject_times'
+times_table = times_table.explode(column='subject_times')
+
+# Rename 'subject_times' to 'time_period'
+times_table.rename(columns={'subject_times': 'time_period'}, inplace=True)
+
+# Set data types for each column
+times_dtypes = {
+    'work_key': 'string',
+    "time_period": 'string',
+}
+
+# Prepare tables for exporting
+times_table = util.prepare_table(
+    times_table,
+    dtypes=times_dtypes,
+    primary_key=['work_key','time_period'],
+    table_name='times',
+    drop_na_except = 'work_key',
+    drop_duplicates = True,
+)
+
+# Export table as a CSV file
+# Primary key: 'work_key','time_period'
+times_table.to_csv(
+    os.path.join(CSV_DIR, 'works_time_periods.csv'),
+    index=False,
+)
+
+# Print a separator for current table
+util.sep()
+# ------------------------------------------------------------------------------
