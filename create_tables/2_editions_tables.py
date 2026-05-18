@@ -1,6 +1,6 @@
 """
 STEP 2: Create tables `editions`, `editions_contributors`, `editions_publishing`,
-        `content_publishing` and `content_details`
+        `editions_publishing` and `editions_details`
 """
 
 import os
@@ -373,8 +373,8 @@ details_table = details_table.explode('languages')
 
 # Extract languages
 details_table['languages'] = details_table.languages.apply(
-    lambda x: util.get_language(x[0]['key'])
-    if isinstance(x, list)
+    lambda x: util.get_language(x['key'])
+    if isinstance(x, dict) and 'key' in x.keys()
     else np.nan
 )
 
