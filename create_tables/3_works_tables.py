@@ -188,8 +188,6 @@ people_table = df_works_all[people_fields]
 places_table = df_works_all[places_fields]
 times_table = df_works_all[times_fields]
 
-# TODO: Add series name to series_table
-
 # ------------------------------------------------------------------------------
 # --- Works Table ---
 # region
@@ -300,3 +298,40 @@ util.sep()
 # ------------------------------------------------------------------------------
 # endregion
 
+# ------------------------------------------------------------------------------
+# --- Availability Table ---
+# region
+
+# Rename 'public_scan_b' to 'has_public_scan'
+availability_table.rename(columns={'public_scan_b': 'has_public_scan'}, inplace=True)
+
+
+# Set data types for each column
+availability_dtypes = {
+    'work_key': 'string',
+    "ebook_access": 'string',
+    "has_fulltext": 'bool',
+    "has_public_scan": 'bool',
+}
+
+# Prepare tables for exporting
+availability_table = util.prepare_table(
+    availability_table,
+    dtypes=availability_dtypes,
+    primary_key='work_key',
+    table_name='availability',
+    drop_na_except = 'work_key',
+    drop_duplicates = True,
+)
+
+# Export table as a CSV file
+# Primary key: 'work_key'
+availability_table.to_csv(
+    os.path.join(CSV_DIR, 'works_availability.csv'),
+    index=False,
+)
+
+# Print a separator for current table
+util.sep()
+# ------------------------------------------------------------------------------
+# endregion
