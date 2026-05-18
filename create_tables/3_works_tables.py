@@ -3,6 +3,8 @@ STEP 3: Create tables `works`, `works_series` and `series` tables
 """
 
 import os
+from unittest.mock import inplace
+
 import numpy as np
 import pandas as pd
 from config import CSV_DIR, BOOKS_DIR, WORKS_DIR, SEARCH_DIR, SERIES_DIR
@@ -328,6 +330,50 @@ availability_table = util.prepare_table(
 # Primary key: 'work_key'
 availability_table.to_csv(
     os.path.join(CSV_DIR, 'works_availability.csv'),
+    index=False,
+)
+
+# Print a separator for current table
+util.sep()
+# ------------------------------------------------------------------------------
+# endregion
+
+# ------------------------------------------------------------------------------
+# --- Subjects Table ---
+# region
+
+# Check if more than one 'subjects' referred to a work -> Answer: TRUE
+util.check_explode(
+    col=subjects_table.subjects,
+    table_name='subjects'
+)
+
+# Explode 'subjects'
+subjects_table = subjects_table.explode(column='subjects')
+
+# Rename 'subjects' to 'subject'
+subjects_table.rename(columns={'subjects': 'subject'}, inplace=True)
+
+# Set data types for each column
+subjects_dtypes = {
+    'work_key': 'string',
+    "subject": 'string',
+}
+
+# Prepare tables for exporting
+subjects_table = util.prepare_table(
+    subjects_table,
+    dtypes=subjects_dtypes,
+    primary_key=['work_key','subject'],
+    table_name='subjects',
+    drop_na_except = 'work_key',
+    drop_duplicates = True,
+)
+
+# Export table as a CSV file
+# Primary key: 'work_key','subject'
+subjects_table.to_csv(
+    os.path.join(CSV_DIR, 'works_subjects.csv'),
     index=False,
 )
 
