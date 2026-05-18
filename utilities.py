@@ -168,9 +168,9 @@ def prepare_table(
     """
     Prepare tables pipeline:
     1. Strip string columns
-    2. Check if the suggested primary key is indeed a primary key (unique values and no missing values)
+    2. Drop duplicate rows
     3. Remove rows where, except the primary key, all the other fields have missing values
-    4. Drop duplicate rows
+    4. Check if the suggested primary key is indeed a primary key (unique values and no missing values)
     5. Recast dtypes as given
 
     :param df: pandas.DataFrame, the dataframe to prepare
@@ -185,20 +185,20 @@ def prepare_table(
     # Strip string columns
     df = strip_columns(df)
 
+    # Drop duplicate rows
+    if drop_duplicates:
+        df = df.drop_duplicates()
+
+    # Drop rows where, except the selected column, all the other fields have missing value
+    if drop_na_except:
+        df = drop_rows_with_only_pk(df, drop_na_except)
+
     # Check if  suggested column can be used as a primary key
     if primary_key:
         if not is_primary_key(df[primary_key]):
             raise ValueError(f'\'{primary_key}\' is not primary key for \'{table_name}\' table.')
         else:
             print(f'\'{table_name}\' Primary Key: \'{primary_key}\'')
-
-    # Drop rows where, except the selected column, all the other fields have missing value
-    if drop_na_except:
-        df = drop_rows_with_only_pk(df, drop_na_except)
-
-    # Drop duplicate rows
-    if drop_duplicates:
-        df = df.drop_duplicates()
 
     # Cast the new data types, if given
     if dtypes:

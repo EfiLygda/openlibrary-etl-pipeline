@@ -381,3 +381,47 @@ subjects_table.to_csv(
 util.sep()
 # ------------------------------------------------------------------------------
 # endregion
+
+# ------------------------------------------------------------------------------
+# --- People Table ---
+# region
+
+# Check if more than one 'subject_people' referred to a work -> Answer: TRUE
+util.check_explode(
+    col=people_table.subject_people,
+    table_name='people'
+)
+
+# Explode 'subject_people'
+people_table = people_table.explode(column='subject_people')
+
+# Rename 'subject_people' to 'person'
+people_table.rename(columns={'subject_people': 'person'}, inplace=True)
+
+# Set data types for each column
+people_dtypes = {
+    'work_key': 'string',
+    "person": 'string',
+}
+
+# Prepare tables for exporting
+people_table = util.prepare_table(
+    people_table,
+    dtypes=people_dtypes,
+    primary_key=['work_key','person'],
+    table_name='people',
+    drop_na_except = 'work_key',
+    drop_duplicates = True,
+)
+
+# Export table as a CSV file
+# Primary key: 'work_key','person'
+people_table.to_csv(
+    os.path.join(CSV_DIR, 'works_people.csv'),
+    index=False,
+)
+
+# Print a separator for current table
+util.sep()
+# ------------------------------------------------------------------------------
+# endregion
