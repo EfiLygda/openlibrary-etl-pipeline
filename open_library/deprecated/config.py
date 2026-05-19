@@ -14,12 +14,12 @@ MAX_PAGES = 20
 
 # --- Setting up the directories ---
 # Project directory
-ROOT_DIR = os.path.abspath('./')
+ROOT_DIR = os.path.abspath('../../')
 
 # Data directory
 # DATA_ROOT_DIR = os.path.abspath('../')
 # DATA_DIR = os.path.join(DATA_ROOT_DIR, 'data')
-DATA_DIR = os.path.join(ROOT_DIR, 'data')
+DATA_DIR = os.path.join(ROOT_DIR, '../../data')
 
 # Raw JSON files directory root directory
 RAW_PAGES_DIR = os.path.join(DATA_DIR, 'raw_pages')
