@@ -6,7 +6,7 @@ STEP 2: Create tables `editions`, `editions_contributors`, `editions_publishing`
 import os
 import numpy as np
 import pandas as pd
-from config import CSV_DIR, BOOKS_DIR
+from config.paths import CSV_DIR, BOOKS_DIR
 import utilities as util
 from open_library import JSONFileHandler, KeyHandler
 

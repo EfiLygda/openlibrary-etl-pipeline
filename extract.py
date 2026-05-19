@@ -19,7 +19,7 @@ Step 8: Extract all SEARCH_AUTHORS fields from SEARCH_AUTHORS
 import os
 import subprocess
 import sys
-from config import ROOT_DIR
+from config.paths import ROOT_DIR
 
 # Set up directory containing the pipeline py files
 tasks_dir = os.path.join(ROOT_DIR, 'ingestion')

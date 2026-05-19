@@ -6,7 +6,7 @@ STEP 3: Create tables `works`, `works_series`, `works_availability`, `works_subj
 import os
 import numpy as np
 import pandas as pd
-from config import CSV_DIR, WORKS_DIR, SEARCH_DIR, SERIES_DIR
+from config.paths import CSV_DIR, WORKS_DIR, SEARCH_DIR, SERIES_DIR
 import utilities as util
 from open_library import JSONFileHandler, KeyHandler
 

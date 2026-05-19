@@ -5,7 +5,8 @@ STEP 1: Create tables `authors`, `authors_alternative_names`, `authors_statistic
 import os
 import numpy as np
 import pandas as pd
-from config import AUTHORS_DIR, AUTHORS_STATISTICS_DIR, GENRE_facet, WORKS_DIR, CSV_DIR
+from config.paths import AUTHORS_DIR, AUTHORS_STATISTICS_DIR, WORKS_DIR, CSV_DIR
+from config.api import GENRE_facet
 import utilities as util
 from open_library import JSONFileHandler, KeyHandler
 
