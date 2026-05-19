@@ -7,8 +7,10 @@ import numpy as np
 import pandas as pd
 from config.paths import AUTHORS_DIR, AUTHORS_STATISTICS_DIR, WORKS_DIR, CSV_DIR
 from config.api import GENRE_facet
-import utilities as util
 from utilities.io import load_json
+from utilities.logging import sep
+from utilities.parsing import find_year, extract_text
+from utilities.table_prep import prepare_table
 from open_library import KeyHandler
 
 # ------------------------------------------------------------------------------
@@ -75,11 +77,11 @@ authors_table_columns_to_keep = [
 authors_table = df_authors[authors_table_columns_to_keep]
 
 # Extract birth and death year for authors
-authors_table['birth_year'] = df_authors.birth_date.apply(util.find_year)
-authors_table['death_year'] = df_authors.death_date.apply(util.find_year)
+authors_table['birth_year'] = df_authors.birth_date.apply(find_year)
+authors_table['death_year'] = df_authors.death_date.apply(find_year)
 
 # Extract authors' bio
-authors_table['bio'] = authors_table.bio.apply(util.extract_text)
+authors_table['bio'] = authors_table.bio.apply(extract_text)
 
 # Set data types for each column
 authors_dtypes = {
@@ -93,7 +95,7 @@ authors_dtypes = {
 }
 
 # Prepare tables for exporting
-authors_table = util.prepare_table(
+authors_table = prepare_table(
     authors_table,
     dtypes=authors_dtypes,
     primary_key='author_key',
@@ -110,7 +112,7 @@ authors_table.to_csv(
 )
 
 # Print a separator for current table
-util.sep()
+sep()
 # ------------------------------------------------------------------------------
 
 # ------------------------------------------------------------------------------
@@ -131,7 +133,7 @@ authors_alternative_names_dtypes = {
 }
 
 # Prepare tables for exporting
-authors_alternative_names_table = util.prepare_table(
+authors_alternative_names_table = prepare_table(
     df=authors_alternative_names_table,
     dtypes=authors_alternative_names_dtypes,
     primary_key=['author_key', 'alternate_names'],
@@ -147,7 +149,7 @@ authors_alternative_names_table.to_csv(
 )
 
 # Print a separator for current table
-util.sep()
+sep()
 # ------------------------------------------------------------------------------
 
 # ------------------------------------------------------------------------------
@@ -212,7 +214,7 @@ author_statistics_dtypes = {
 }
 
 # Prepare tables for exporting
-author_statistics_table = util.prepare_table(
+author_statistics_table = prepare_table(
     author_statistics_table,
     dtypes=author_statistics_dtypes,
     primary_key='author_key',
@@ -229,7 +231,7 @@ author_statistics_table.to_csv(
 )
 
 # Print a separator for current table
-util.sep()
+sep()
 # ------------------------------------------------------------------------------
 
 # ------------------------------------------------------------------------------
@@ -281,7 +283,7 @@ df_works.index = new_index
 df_works.reset_index(inplace=True, names='work_key')
 
 # Extract the description when needed
-df_works.description = df_works.description.apply(util.extract_text)
+df_works.description = df_works.description.apply(extract_text)
 
 # Column names to keep for the final table
 authors_works_table_columns_to_keep = [
@@ -324,7 +326,7 @@ authors_works_dtypes = {
 }
 
 # Prepare tables for exporting
-authors_works_table = util.prepare_table(
+authors_works_table = prepare_table(
     authors_works_table,
     dtypes=authors_works_dtypes,
     primary_key=['work_key', 'author_key'],
@@ -340,5 +342,5 @@ authors_works_table.to_csv(
 )
 
 # Print a separator for current table
-util.sep()
+sep()
 # ------------------------------------------------------------------------------

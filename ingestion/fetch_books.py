@@ -9,7 +9,8 @@ from config.paths import KEYS_DIR, BOOKS_DIR
 from config.api import GENRE_facet
 from open_library import Client
 from utilities.io import load_json, save_json
-from utilities import make_batches, wait
+from utilities.batching import make_batches
+from utilities.rate_limit import  wait
 
 # Setting up thw Open Library client for querying the API
 client = Client()

@@ -7,8 +7,11 @@ import os
 import numpy as np
 import pandas as pd
 from config.paths import CSV_DIR, BOOKS_DIR
-import utilities as util
 from utilities.io import load_json
+from utilities.logging import sep
+from utilities.validation import check_explode
+from utilities.parsing import get_language, find_year, extract_text
+from utilities.table_prep import prepare_table
 from open_library import KeyHandler
 
 # ------------------------------------------------------------------------------
@@ -113,7 +116,7 @@ details_table = df_books[details_fields]
 
 # Extract work keys for each edition
 # Check if more than one works referred to an edition -> Answer: FALSE
-util.check_explode(
+check_explode(
     col=editions_table.works,
     table_name='editions'
 )
@@ -136,7 +139,7 @@ editions_dtypes = {
 }
 
 # Prepare tables for exporting
-editions_table = util.prepare_table(
+editions_table = prepare_table(
     editions_table,
     dtypes=editions_dtypes,
     primary_key='edition_key',
@@ -153,14 +156,14 @@ editions_table.to_csv(
 )
 
 # Print a separator for current table
-util.sep()
+sep()
 # ------------------------------------------------------------------------------
 
 # ------------------------------------------------------------------------------
 # --- Contributors Table ---
 
 # Check if any row in 'contributors' has more than one contributor -> Answer: True
-util.check_explode(
+check_explode(
     col=contributors_table.contributors,
     table_name='contributors'
 )
@@ -179,14 +182,14 @@ contributors_table[['contributor_name', 'contributor_role']] = contributors_tabl
 contributors_table.drop('contributors', inplace=True, axis=1)
 
 # Check if any row in 'translated_from' has more than one contributor -> Answer: False
-util.check_explode(
+check_explode(
     col=contributors_table.translated_from,
     table_name='translated_from'
 )
 
 # Extract the language from 'translated_from'
 contributors_table['translated_from'] = contributors_table.translated_from.apply(
-    lambda x: util.get_language(x[0]['key'])
+    lambda x: get_language(x[0]['key'])
     if isinstance(x, list)
     else np.nan
 )
@@ -215,7 +218,7 @@ contributors_dtypes = {
 }
 
 # Prepare tables for exporting
-contributors_table = util.prepare_table(
+contributors_table = prepare_table(
     contributors_table,
     dtypes=contributors_dtypes,
     primary_key=None,
@@ -232,17 +235,17 @@ contributors_table.to_csv(
 )
 
 # Print a separator for current table
-util.sep()
+sep()
 # ------------------------------------------------------------------------------
 
 # ------------------------------------------------------------------------------
 # --- Publishing Table ---
 
 # Extract the publishing year form publish_date
-publishing_table['publish_year'] = publishing_table.publish_date.apply(util.find_year)
+publishing_table['publish_year'] = publishing_table.publish_date.apply(find_year)
 
 # Check if more than one publisher name is referred to an edition -> Answer: TRUE
-util.check_explode(
+check_explode(
     col=publishing_table.publishers,
     table_name='publishing'
 )
@@ -254,7 +257,7 @@ publishing_table = publishing_table.explode('publishers')
 publishing_table.rename(columns={'publishers': 'publisher'}, inplace=True)
 
 # Check if more than one publish_places name is referred to an edition -> Answer: TRUE
-util.check_explode(
+check_explode(
     col=publishing_table.publish_places,
     table_name='publish_places'
 )
@@ -266,7 +269,7 @@ publishing_table = publishing_table.explode('publish_places')
 publishing_table.rename(columns={'publish_places': 'publish_place'}, inplace=True)
 
 # Check if more than one publish_places name is referred to an edition -> Answer: TRUE
-util.check_explode(
+check_explode(
     col=publishing_table.series,
     table_name='series'
 )
@@ -299,7 +302,7 @@ publishing_dtypes = {
 }
 
 # Prepare tables for exporting
-publishing_table = util.prepare_table(
+publishing_table = prepare_table(
     publishing_table,
     dtypes=publishing_dtypes,
     primary_key=None,
@@ -316,20 +319,20 @@ publishing_table.to_csv(
 )
 
 # Print a separator for current table
-util.sep()
+sep()
 # ------------------------------------------------------------------------------
 
 # ------------------------------------------------------------------------------
 # --- Contents Table ---
 
 # Extract description
-contents_table['description'] = contents_table.description.apply(util.extract_text)
+contents_table['description'] = contents_table.description.apply(extract_text)
 
 # Extract notes
-contents_table['notes'] = contents_table.notes.apply(util.extract_text)
+contents_table['notes'] = contents_table.notes.apply(extract_text)
 
 # Extract first sentence
-contents_table['first_sentence'] = contents_table.first_sentence.apply(util.extract_text)
+contents_table['first_sentence'] = contents_table.first_sentence.apply(extract_text)
 
 # Set data types for each column
 contents_dtypes = {
@@ -340,7 +343,7 @@ contents_dtypes = {
 }
 
 # Prepare tables for exporting
-contents_table = util.prepare_table(
+contents_table = prepare_table(
     contents_table,
     dtypes=contents_dtypes,
     primary_key='edition_key',
@@ -357,14 +360,14 @@ contents_table.to_csv(
 )
 
 # Print a separator for current table
-util.sep()
+sep()
 # ------------------------------------------------------------------------------
 
 # ------------------------------------------------------------------------------
 # --- Editions Table ---
 
 # Check if more than one language referred to an edition -> Answer: FALSE
-util.check_explode(
+check_explode(
     col=details_table.languages,
     table_name='details'
 )
@@ -374,7 +377,7 @@ details_table = details_table.explode('languages')
 
 # Extract languages
 details_table['languages'] = details_table.languages.apply(
-    lambda x: util.get_language(x['key'])
+    lambda x: get_language(x['key'])
     if isinstance(x, dict) and 'key' in x.keys()
     else np.nan
 )
@@ -393,7 +396,7 @@ details_dtypes = {
 }
 
 # Prepare tables for exporting
-details_table = util.prepare_table(
+details_table = prepare_table(
     details_table,
     dtypes=details_dtypes,
     # primary_key='edition_key',
@@ -410,5 +413,5 @@ details_table.to_csv(
 )
 
 # Print a separator for current table
-util.sep()
+sep()
 # ------------------------------------------------------------------------------

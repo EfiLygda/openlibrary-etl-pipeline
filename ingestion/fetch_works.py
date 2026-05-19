@@ -9,7 +9,7 @@ DETAILS:
 """
 
 import os
-from utilities import wait
+from utilities.rate_limit import wait
 from open_library import Client
 from config.paths import SEARCH_DIR
 from config.api import LIMIT, MAX_PAGES, GENRE, GENRE_facet

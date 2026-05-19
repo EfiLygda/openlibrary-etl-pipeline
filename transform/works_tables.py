@@ -7,8 +7,11 @@ import os
 import numpy as np
 import pandas as pd
 from config.paths import CSV_DIR, WORKS_DIR, SEARCH_DIR, SERIES_DIR
-import utilities as util
 from utilities.io import load_json
+from utilities.logging import sep
+from utilities.parsing import extract_text
+from utilities.validation import check_explode
+from utilities.table_prep import prepare_table
 from open_library import KeyHandler
 
 # ------------------------------------------------------------------------------
@@ -77,7 +80,7 @@ for filename in series_files:
     all_series_records.update(data['result'])
 
 # Print a separator
-util.sep()
+sep()
 # ------------------------------------------------------------------------------
 
 # ------------------------------------------------------------------------------
@@ -188,10 +191,10 @@ times_table = df_works_all[times_fields]
 # --- Works Table ---
 
 # Extract 'description' text
-works_table['description'] = works_table.description.apply(util.extract_text)
+works_table['description'] = works_table.description.apply(extract_text)
 
 # Extract 'first_sentence' text
-works_table['first_sentence'] = works_table.first_sentence.apply(util.extract_text)
+works_table['first_sentence'] = works_table.first_sentence.apply(extract_text)
 
 # Set data types for each column
 works_dtypes = {
@@ -206,7 +209,7 @@ works_dtypes = {
 }
 
 # Prepare tables for exporting
-works_table = util.prepare_table(
+works_table = prepare_table(
     works_table,
     dtypes=works_dtypes,
     primary_key='work_key',
@@ -223,14 +226,14 @@ works_table.to_csv(
 )
 
 # Print a separator for current table
-util.sep()
+sep()
 # ------------------------------------------------------------------------------
 
 # ------------------------------------------------------------------------------
 # --- Series Table ---
 
 # Check if more than one series_key referred to a work -> Answer: FALSE
-util.check_explode(
+check_explode(
     col=series_table.series_key,
     table_name='series'
 )
@@ -243,7 +246,7 @@ series_table['series_key'] = series_table.series_key.apply(
 )
 
 # Check if more than one series_position referred to a work -> Answer: FALSE
-util.check_explode(
+check_explode(
     col=series_table.series_position,
     table_name='series'
 )
@@ -271,7 +274,7 @@ series_dtypes = {
 }
 
 # Prepare tables for exporting
-series_table = util.prepare_table(
+series_table = prepare_table(
     series_table,
     dtypes=series_dtypes,
     primary_key='work_key',
@@ -288,7 +291,7 @@ series_table.to_csv(
 )
 
 # Print a separator for current table
-util.sep()
+sep()
 # ------------------------------------------------------------------------------
 
 # ------------------------------------------------------------------------------
@@ -306,7 +309,7 @@ availability_dtypes = {
 }
 
 # Prepare tables for exporting
-availability_table = util.prepare_table(
+availability_table = prepare_table(
     availability_table,
     dtypes=availability_dtypes,
     primary_key='work_key',
@@ -323,14 +326,14 @@ availability_table.to_csv(
 )
 
 # Print a separator for current table
-util.sep()
+sep()
 # ------------------------------------------------------------------------------
 
 # ------------------------------------------------------------------------------
 # --- Subjects Table ---
 
 # Check if more than one 'subjects' referred to a work -> Answer: TRUE
-util.check_explode(
+check_explode(
     col=subjects_table.subjects,
     table_name='subjects'
 )
@@ -348,7 +351,7 @@ subjects_dtypes = {
 }
 
 # Prepare tables for exporting
-subjects_table = util.prepare_table(
+subjects_table = prepare_table(
     subjects_table,
     dtypes=subjects_dtypes,
     primary_key=['work_key','subject'],
@@ -365,14 +368,14 @@ subjects_table.to_csv(
 )
 
 # Print a separator for current table
-util.sep()
+sep()
 # ------------------------------------------------------------------------------
 
 # ------------------------------------------------------------------------------
 # --- People Table ---
 
 # Check if more than one 'subject_people' referred to a work -> Answer: TRUE
-util.check_explode(
+check_explode(
     col=people_table.subject_people,
     table_name='people'
 )
@@ -390,7 +393,7 @@ people_dtypes = {
 }
 
 # Prepare tables for exporting
-people_table = util.prepare_table(
+people_table = prepare_table(
     people_table,
     dtypes=people_dtypes,
     primary_key=['work_key','person'],
@@ -407,14 +410,14 @@ people_table.to_csv(
 )
 
 # Print a separator for current table
-util.sep()
+sep()
 # ------------------------------------------------------------------------------
 
 # ------------------------------------------------------------------------------
 # --- Places Table ---
 
 # Check if more than one 'subject_places' referred to a work -> Answer: TRUE
-util.check_explode(
+check_explode(
     col=places_table.subject_places,
     table_name='places'
 )
@@ -432,7 +435,7 @@ places_dtypes = {
 }
 
 # Prepare tables for exporting
-places_table = util.prepare_table(
+places_table = prepare_table(
     places_table,
     dtypes=places_dtypes,
     primary_key=['work_key','place'],
@@ -449,14 +452,14 @@ places_table.to_csv(
 )
 
 # Print a separator for current table
-util.sep()
+sep()
 # ------------------------------------------------------------------------------
 
 # ------------------------------------------------------------------------------
 # --- Times Table ---
 
 # Check if more than one 'subject_times' referred to a work -> Answer: TRUE
-util.check_explode(
+check_explode(
     col=times_table.subject_times,
     table_name='times'
 )
@@ -474,7 +477,7 @@ times_dtypes = {
 }
 
 # Prepare tables for exporting
-times_table = util.prepare_table(
+times_table = prepare_table(
     times_table,
     dtypes=times_dtypes,
     primary_key=['work_key','time_period'],
@@ -491,5 +494,5 @@ times_table.to_csv(
 )
 
 # Print a separator for current table
-util.sep()
+sep()
 # ------------------------------------------------------------------------------
