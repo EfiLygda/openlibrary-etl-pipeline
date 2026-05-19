@@ -20,6 +20,9 @@ client = Client()
 # Setting up the dictionary that will contain the final author key, name pairs
 author_key_names = dict()
 
+# Count how many redirected records will be
+redirected_records = 0
+
 # For each raw pages that were returned for authors all author key and names
 # are extracted
 for filename in os.listdir(AUTHORS_DIR):
@@ -39,9 +42,22 @@ for filename in os.listdir(AUTHORS_DIR):
 
         # If the record is a redirect then the author's right record is fetched
         if client.is_redirect(record):
+
+            # Add to rediricted records counter
+            redirected_records += 1
+
+            # Fetch the record that the original redirects to
             record = client.get_redirected_record(record)
+
+            # Export it to the right format
+            record_to_export = {'result': {record['key']: record}}
+            save_json(
+                record_to_export,
+                os.path.join(AUTHORS_DIR, f'redirected_{redirected_records}.json')
+            )
+
             print(
-                f'Key \'{key}\' redirects to \'{record['key']}\'. Corrected the record but raw page stay as is.'
+                f'Key \'{key}\' redirects to \'{record['key']}\'. Added new raw page but original stays as is.'
             )
 
         # The current record's author name is extracted
