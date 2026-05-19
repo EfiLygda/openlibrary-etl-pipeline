@@ -1,8 +1,13 @@
 import os
 import pandas as pd
 
-def read_csv():
-    pass
+def read_csv(filepath: str) -> pd.DataFrame:
+    """
+
+    :param filepath:
+    :return:
+    """
+    return pd.read_csv(filepath)
 
 def save_csv(df: pd.DataFrame, filename: str, directory: str) -> None:
     """
