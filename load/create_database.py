@@ -1,5 +1,5 @@
 """
-
+STEP 1: Create `romance_fiction` database
 """
 
 from utilities.database import db_connection

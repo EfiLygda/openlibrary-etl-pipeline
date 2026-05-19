@@ -317,7 +317,7 @@ publishing_table = prepare_table(
 # Primary key: 'edition_key'
 save_csv(
     df=publishing_table,
-    filename='authors.csv',
+    filename='editions_publishing.csv',
     directory=CSV_DIR
 )
 
