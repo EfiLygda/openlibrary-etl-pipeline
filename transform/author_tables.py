@@ -100,7 +100,7 @@ authors_table = prepare_table(
     dtypes=authors_dtypes,
     primary_key='author_key',
     table_name='authors',
-    drop_na_except='author_key',
+    # drop_na_except='author_key',
     drop_duplicates=True,
 )
 
@@ -123,6 +123,9 @@ sep()
 # Note: An author can have more than one alternative names
 authors_alternative_names_table = df_authors[['author_key', 'alternate_names']].explode('alternate_names')
 
+# Rename 'alternate_names' to 'author_alternative_name'
+authors_alternative_names_table.rename(columns={'alternate_names': 'author_alternative_name'}, inplace=True)
+
 # Remove any rows tha have NaN values
 # This basically refers only to 'alternate_names', in case an author does not have any 'alternate_names'
 authors_alternative_names_table = authors_alternative_names_table.dropna(how='any')
@@ -130,20 +133,20 @@ authors_alternative_names_table = authors_alternative_names_table.dropna(how='an
 # Set data types for each column
 authors_alternative_names_dtypes = {
     'author_key': 'string',
-    'alternate_names': 'string',
+    'author_alternative_name': 'string',
 }
 
 # Prepare tables for exporting
 authors_alternative_names_table = prepare_table(
     df=authors_alternative_names_table,
     dtypes=authors_alternative_names_dtypes,
-    primary_key=['author_key', 'alternate_names'],
+    primary_key=['author_key', 'author_alternative_name'],
     table_name='authors_alternative_names',
     drop_duplicates=True,
 )
 
 # Export table as a CSV file
-# Primary key: ['author_key', 'alternate_names']
+# Primary key: ['author_key', 'author_alternative_name']
 save_csv(
     df=authors_alternative_names_table,
     filename='authors_alternative_names.csv',
