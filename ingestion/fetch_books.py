@@ -5,7 +5,8 @@ DETAILS:
 1. Data are saved in a JSON file @ data/raw_pages/{GENRE_facet}/books
 """
 import os
-from config import GENRE_facet, KEYS_DIR, BOOKS_DIR
+from config.paths import KEYS_DIR, BOOKS_DIR
+from config.api import GENRE_facet
 from open_library import Client, JSONFileHandler
 from utilities import make_batches, wait
 

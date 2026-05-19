@@ -14,7 +14,8 @@ DETAILS:
 """
 import os
 import re
-from config import GENRE, KEYS_DIR, WORKS_DIR, AUTHORS_DIR, SERIES_DIR
+from config.paths import KEYS_DIR, WORKS_DIR, AUTHORS_DIR, SERIES_DIR
+from config.api import GENRE
 from open_library import Client, JSONFileHandler
 from utilities import make_batches
 
@@ -22,7 +23,7 @@ from utilities import make_batches
 client = Client()
 
 # The regex used for later extracting the type of keys in the JSON
-# keys files extracted from 2_export_keys.py
+# keys files extracted from export_keys.py
 key_type_pattern = r'.+_(work|author|series)_.+\.json$'
 
 # Connecting the type of keys with their respective saved directories

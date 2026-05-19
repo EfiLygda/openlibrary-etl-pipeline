@@ -8,7 +8,8 @@ DETAILS:
 """
 
 import os
-from config import GENRE_facet, KEYS_DIR, SEARCH_DIR
+from config.paths import KEYS_DIR, SEARCH_DIR
+from config.api import GENRE_facet
 from open_library import JSONFileHandler
 
 # Define list that will contain all work, author and series keys

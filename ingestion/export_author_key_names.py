@@ -9,7 +9,8 @@ DETAILS:
 """
 
 import os
-from config import GENRE_facet, AUTHORS_DIR, KEYS_DIR
+from config.paths import AUTHORS_DIR, KEYS_DIR
+from config.api import GENRE_facet
 from open_library import Client, JSONFileHandler
 
 # Setting up thw Open Library client for querying the API

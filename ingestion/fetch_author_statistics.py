@@ -6,7 +6,8 @@ DETAILS:
 """
 import os
 import requests
-from config import GENRE_facet, KEYS_DIR, AUTHORS_STATISTICS_DIR
+from config.paths import KEYS_DIR, AUTHORS_STATISTICS_DIR
+from config.api import GENRE_facet
 from open_library import Client, JSONFileHandler, KeyHandler
 from utilities import wait
 

@@ -5,7 +5,8 @@ DETAILS:
 1. Data are saved in a JSON file @ data/keys
 """
 import os
-from config import BOOKS_DIR, KEYS_DIR, GENRE_facet
+from config.paths import BOOKS_DIR, KEYS_DIR
+from config.api import  GENRE_facet
 from open_library import Client, JSONFileHandler
 
 # Setting up thw Open Library client for querying the API
