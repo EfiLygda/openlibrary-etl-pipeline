@@ -17,9 +17,8 @@ Step 8: Extract all SEARCH_AUTHORS fields from SEARCH_AUTHORS
 """
 
 import os
-import subprocess
-import sys
 from config.paths import ROOT_DIR
+from utilities.pipeline import run_pipeline
 
 # Set up directory containing the pipeline py files
 tasks_dir = os.path.join(ROOT_DIR, 'ingestion')
@@ -36,13 +35,8 @@ tasks = [
     'fetch_author_statistics.py',
 ]
 
-# The filepaths for each file
-filepaths = [
-    os.path.join(tasks_dir, task)
-    for task in tasks
-]
-
-# Running the pipeline
-for task, filename in zip(tasks, filepaths):
-    print(f"{task.removesuffix('.py').replace('_', " ").title()}...")
-    subprocess.run([sys.executable, filename], check=True)
+# Run the pipeline
+run_pipeline(
+    tasks_dir=tasks_dir,
+    tasks=tasks
+)
