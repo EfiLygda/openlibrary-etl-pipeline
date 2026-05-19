@@ -7,7 +7,7 @@ import numpy as np
 import pandas as pd
 from config.paths import AUTHORS_DIR, AUTHORS_STATISTICS_DIR, WORKS_DIR, CSV_DIR
 from config.api import GENRE_facet
-from utilities.io import load_json
+from utilities.io import load_json, save_csv
 from utilities.logging import sep
 from utilities.parsing import find_year, extract_text
 from utilities.table_prep import prepare_table
@@ -106,9 +106,10 @@ authors_table = prepare_table(
 
 # Export table as a CSV file
 # Primary key: 'author_key'
-authors_table.to_csv(
-    os.path.join(CSV_DIR, 'authors.csv'),
-    index=False,
+save_csv(
+    df=authors_table,
+    filename='authors.csv',
+    directory=CSV_DIR
 )
 
 # Print a separator for current table
@@ -143,9 +144,10 @@ authors_alternative_names_table = prepare_table(
 
 # Export table as a CSV file
 # Primary key: ['author_key', 'alternate_names']
-authors_alternative_names_table.to_csv(
-    os.path.join(CSV_DIR, 'authors_alternative_names.csv'),
-    index=False,
+save_csv(
+    df=authors_alternative_names_table,
+    filename='authors_alternative_names.csv',
+    directory=CSV_DIR
 )
 
 # Print a separator for current table
@@ -225,9 +227,10 @@ author_statistics_table = prepare_table(
 
 # Export table as a CSV file
 # Primary key: 'author_key'
-author_statistics_table.to_csv(
-    os.path.join(CSV_DIR, 'authors_statistics.csv'),
-    index=False,
+save_csv(
+    df=author_statistics_table,
+    filename='authors_statistics.csv',
+    directory=CSV_DIR
 )
 
 # Print a separator for current table
@@ -336,9 +339,10 @@ authors_works_table = prepare_table(
 
 # Export table as a CSV file
 # Primary key: ['work_key', 'author_key']
-authors_works_table.to_csv(
-    os.path.join(CSV_DIR, 'authors_works.csv'),
-    index=False,
+save_csv(
+    df=authors_works_table,
+    filename='authors_works.csv',
+    directory=CSV_DIR
 )
 
 # Print a separator for current table

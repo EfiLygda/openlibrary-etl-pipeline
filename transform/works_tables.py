@@ -7,7 +7,7 @@ import os
 import numpy as np
 import pandas as pd
 from config.paths import CSV_DIR, WORKS_DIR, SEARCH_DIR, SERIES_DIR
-from utilities.io import load_json
+from utilities.io import load_json, save_csv
 from utilities.logging import sep
 from utilities.parsing import extract_text
 from utilities.validation import check_explode
@@ -220,9 +220,10 @@ works_table = prepare_table(
 
 # Export table as a CSV file
 # Primary key: 'work_key'
-works_table.to_csv(
-    os.path.join(CSV_DIR, 'works.csv'),
-    index=False,
+save_csv(
+    df=works_table,
+    filename='works.csv',
+    directory=CSV_DIR
 )
 
 # Print a separator for current table
@@ -285,9 +286,10 @@ series_table = prepare_table(
 
 # Export table as a CSV file
 # Primary key: 'work_key'
-series_table.to_csv(
-    os.path.join(CSV_DIR, 'works_series.csv'),
-    index=False,
+save_csv(
+    df=series_table,
+    filename='works_series.csv',
+    directory=CSV_DIR
 )
 
 # Print a separator for current table
@@ -320,9 +322,10 @@ availability_table = prepare_table(
 
 # Export table as a CSV file
 # Primary key: 'work_key'
-availability_table.to_csv(
-    os.path.join(CSV_DIR, 'works_availability.csv'),
-    index=False,
+save_csv(
+    df=availability_table,
+    filename='works_availability.csv',
+    directory=CSV_DIR
 )
 
 # Print a separator for current table
@@ -362,9 +365,10 @@ subjects_table = prepare_table(
 
 # Export table as a CSV file
 # Primary key: 'work_key','subject'
-subjects_table.to_csv(
-    os.path.join(CSV_DIR, 'works_subjects.csv'),
-    index=False,
+save_csv(
+    df=subjects_table,
+    filename='works_subjects.csv',
+    directory=CSV_DIR
 )
 
 # Print a separator for current table
@@ -404,9 +408,10 @@ people_table = prepare_table(
 
 # Export table as a CSV file
 # Primary key: 'work_key','person'
-people_table.to_csv(
-    os.path.join(CSV_DIR, 'works_people.csv'),
-    index=False,
+save_csv(
+    df=people_table,
+    filename='works_people.csv',
+    directory=CSV_DIR
 )
 
 # Print a separator for current table
@@ -446,9 +451,10 @@ places_table = prepare_table(
 
 # Export table as a CSV file
 # Primary key: 'work_key','person'
-places_table.to_csv(
-    os.path.join(CSV_DIR, 'works_places.csv'),
-    index=False,
+save_csv(
+    df=places_table,
+    filename='works_places.csv',
+    directory=CSV_DIR
 )
 
 # Print a separator for current table
@@ -488,9 +494,10 @@ times_table = prepare_table(
 
 # Export table as a CSV file
 # Primary key: 'work_key','time_period'
-times_table.to_csv(
-    os.path.join(CSV_DIR, 'works_time_periods.csv'),
-    index=False,
+save_csv(
+    df=times_table,
+    filename='works_time_periods.csv',
+    directory=CSV_DIR
 )
 
 # Print a separator for current table

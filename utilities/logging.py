@@ -5,3 +5,5 @@ def sep() -> None:
     :return: None
     """
     print(100 * '-')
+
+# TODO: Add logging

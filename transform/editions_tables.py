@@ -7,7 +7,7 @@ import os
 import numpy as np
 import pandas as pd
 from config.paths import CSV_DIR, BOOKS_DIR
-from utilities.io import load_json
+from utilities.io import load_json, save_csv
 from utilities.logging import sep
 from utilities.validation import check_explode
 from utilities.parsing import get_language, find_year, extract_text
@@ -150,9 +150,10 @@ editions_table = prepare_table(
 
 # Export table as a CSV file
 # Primary key: 'edition_key'
-editions_table.to_csv(
-    os.path.join(CSV_DIR, 'editions.csv'),
-    index=False,
+save_csv(
+    df=editions_table,
+    filename='editions.csv',
+    directory=CSV_DIR
 )
 
 # Print a separator for current table
@@ -229,9 +230,10 @@ contributors_table = prepare_table(
 
 # Export table as a CSV file
 # Primary key: None
-contributors_table.to_csv(
-    os.path.join(CSV_DIR, 'editions_contributors.csv'),
-    index=False,
+save_csv(
+    df=contributors_table,
+    filename='editions_contributors.csv',
+    directory=CSV_DIR
 )
 
 # Print a separator for current table
@@ -313,9 +315,10 @@ publishing_table = prepare_table(
 
 # Export table as a CSV file
 # Primary key: 'edition_key'
-publishing_table.to_csv(
-    os.path.join(CSV_DIR, 'editions_publishing.csv'),
-    index=False,
+save_csv(
+    df=publishing_table,
+    filename='authors.csv',
+    directory=CSV_DIR
 )
 
 # Print a separator for current table
@@ -354,9 +357,10 @@ contents_table = prepare_table(
 
 # Export table as a CSV file
 # Primary key: 'edition_key'
-contents_table.to_csv(
-    os.path.join(CSV_DIR, 'editions_contents.csv'),
-    index=False,
+save_csv(
+    df=contents_table,
+    filename='editions_contents.csv',
+    directory=CSV_DIR
 )
 
 # Print a separator for current table
@@ -407,9 +411,10 @@ details_table = prepare_table(
 
 # Export table as a CSV file
 # Primary key: 'edition_key'
-details_table.to_csv(
-    os.path.join(CSV_DIR, 'editions_details.csv'),
-    index=False,
+save_csv(
+    df=details_table,
+    filename='editions_details.csv',
+    directory=CSV_DIR
 )
 
 # Print a separator for current table
