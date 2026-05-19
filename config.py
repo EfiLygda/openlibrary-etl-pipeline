@@ -12,13 +12,19 @@ LIMIT = 100
 # Maximum number of pages to extract from search queries
 MAX_PAGES = 20
 
-# Setting up the directories
-ROOT_DIR = './'
-DATA_ROOT_DIR = '../'
+# --- Setting up the directories ---
+# Project directory
+ROOT_DIR = os.path.abspath('./')
+
+# Data directory
+DATA_ROOT_DIR = os.path.abspath('../')
 DATA_DIR = os.path.join(DATA_ROOT_DIR, 'data')
-CSV_DIR = os.path.join(DATA_DIR, 'csv')
+
+# Raw JSON files directory root directory
 RAW_PAGES_DIR = os.path.join(DATA_DIR, 'raw_pages')
 GENRE_DIR = os.path.join(RAW_PAGES_DIR, GENRE_facet)
+
+# Raw JSON files directories
 SEARCH_DIR = os.path.join(GENRE_DIR, 'works')
 KEYS_DIR = os.path.join(DATA_DIR, 'keys')
 WORKS_DIR = os.path.join(GENRE_DIR, 'works_enriched')
@@ -28,6 +34,9 @@ BOOKS_DIR = os.path.join(GENRE_DIR, 'books')
 # PUBLISHERS_DIR = os.path.join(KEYS_DIR, 'publishers')
 # SUBJECTS_DIR = os.path.join(KEYS_DIR, 'subjects')
 AUTHORS_STATISTICS_DIR = os.path.join(GENRE_DIR, 'author_statistics')
+
+# Processed CSV files directory
+CSV_DIR = os.path.join(DATA_DIR, 'csv')
 
 # List containing all new directories
 NEW_DIRS = [
