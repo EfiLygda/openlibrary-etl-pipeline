@@ -1,6 +1,6 @@
 import requests
-
-from open_library import JSONFileHandler, KeyHandler
+from utilities.io import load_json, save_json
+from open_library import KeyHandler
 
 class Client:
 
@@ -301,7 +301,7 @@ class Client:
             raise ValueError('\'key\' argument must be string or list/tuple of strings.')
 
         # Save the response as a JSON file
-        JSONFileHandler.save_json(data, filename)
+        save_json(data, filename)
 
     def save_search(
             self,
@@ -319,5 +319,5 @@ class Client:
         data = self.search(**kwargs)
 
         # Save the response as a JSON file
-        JSONFileHandler.save_json(data, filename)
+        save_json(data, filename)
     # -----------------------------------------------------------------------------------

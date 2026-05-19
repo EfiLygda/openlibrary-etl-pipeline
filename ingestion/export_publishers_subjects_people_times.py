@@ -7,7 +7,8 @@ DETAILS:
 import os
 from config.paths import BOOKS_DIR, KEYS_DIR
 from config.api import  GENRE_facet
-from open_library import Client, JSONFileHandler
+from open_library import Client
+from utilities.io import load_json, save_json
 
 # Setting up thw Open Library client for querying the API
 client = Client()
@@ -31,7 +32,7 @@ fields = {
 for i, page in enumerate(books_filepaths):
 
     # Load the JSON file containing the response page with books' data
-    data = JSONFileHandler.load_json(page)
+    data = load_json(page)
 
     # For each book, if the 'publishers' field is available the
     # publishers' names are added to the list
@@ -57,4 +58,4 @@ filename = f'{GENRE_facet}_{"__".join(fields.keys())}.json'
 filepath = os.path.join(KEYS_DIR, filename)
 
 # Exporting all publishers' names as a JSON file
-JSONFileHandler.save_json(fields, filepath)
+save_json(fields, filepath)

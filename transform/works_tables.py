@@ -8,7 +8,8 @@ import numpy as np
 import pandas as pd
 from config.paths import CSV_DIR, WORKS_DIR, SEARCH_DIR, SERIES_DIR
 import utilities as util
-from open_library import JSONFileHandler, KeyHandler
+from utilities.io import load_json
+from open_library import KeyHandler
 
 # ------------------------------------------------------------------------------
 # --- Import and convert to dictionaries all works, enriched works' and series data ---
@@ -38,7 +39,7 @@ all_works_records = dict()
 for filename in works_files:
 
     # Load JSON books' data
-    data = JSONFileHandler.load_json(filename)
+    data = load_json(filename)
 
     records = data['docs']
 
@@ -57,7 +58,7 @@ all_works_enriched_records = dict()
 for filename in works_enriched_files:
 
     # Load JSON books' data
-    data = JSONFileHandler.load_json(filename)
+    data = load_json(filename)
 
     # Update the dictionary
     all_works_enriched_records.update(data['result'])
@@ -70,7 +71,7 @@ all_series_records = dict()
 for filename in series_files:
 
     # Load JSON books' data
-    data = JSONFileHandler.load_json(filename)
+    data = load_json(filename)
 
     # Update the dictionary
     all_series_records.update(data['result'])

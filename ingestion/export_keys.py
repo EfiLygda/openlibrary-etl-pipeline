@@ -10,7 +10,7 @@ DETAILS:
 import os
 from config.paths import KEYS_DIR, SEARCH_DIR
 from config.api import GENRE_facet
-from open_library import JSONFileHandler
+from utilities.io import load_json, save_json
 
 # Define list that will contain all work, author and series keys
 WORKS_KEYS = []
@@ -25,7 +25,7 @@ for current_page in os.listdir(SEARCH_DIR):
     filename = os.path.join(SEARCH_DIR, current_page)
 
     # Load each works record returned via SEARCH
-    data = JSONFileHandler.load_json(filename)
+    data = load_json(filename)
 
     # For each record/general work in current page add in the list
     # its work, author and series key is added to the lists
@@ -59,7 +59,7 @@ for key_list, key_type in zip(key_lists, key_types):
     filename = os.path.join(KEYS_DIR, f'{GENRE_facet}_{key_type}.json')
 
     # Save each JSON file
-    JSONFileHandler.save_json(unique_keys, filename)
+    save_json(unique_keys, filename)
 
 # Print results counts
 print(

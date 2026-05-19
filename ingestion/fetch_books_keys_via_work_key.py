@@ -7,7 +7,8 @@ DETAILS:
 import os
 from config.paths import KEYS_DIR
 from config.api import GENRE_facet
-from open_library import Client, JSONFileHandler
+from open_library import Client
+from utilities.io import load_json, save_json
 from utilities import wait
 
 # Setting up thw Open Library client for querying the API
@@ -15,7 +16,7 @@ client = Client()
 
 # Loading the file containing the general work keys
 work_keys_filepath = os.path.join(KEYS_DIR, f'{GENRE_facet}_work_keys.json')
-work_keys = JSONFileHandler.load_json(work_keys_filepath)
+work_keys = load_json(work_keys_filepath)
 
 # Setting up the dictionary that will contain the work keys and book keys
 work_books_keys = dict()
@@ -54,4 +55,4 @@ result_filename = f'{GENRE_facet}_works_books_keys.json'
 result_filepath = os.path.join(KEYS_DIR, result_filename)
 
 # Save the result as a JSON file
-JSONFileHandler.save_json(work_books_keys, result_filepath)
+save_json(work_books_keys, result_filepath)

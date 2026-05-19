@@ -8,7 +8,8 @@ import numpy as np
 import pandas as pd
 from config.paths import CSV_DIR, BOOKS_DIR
 import utilities as util
-from open_library import JSONFileHandler, KeyHandler
+from utilities.io import load_json
+from open_library import KeyHandler
 
 # ------------------------------------------------------------------------------
 # Fetching all editions/books JSON filenames
@@ -26,7 +27,7 @@ all_books_records = dict()
 for filename in books_files:
 
     # Load JSON books' data
-    data = JSONFileHandler.load_json(filename)
+    data = load_json(filename)
 
     # Update the dictionary
     all_books_records.update(data['result'])

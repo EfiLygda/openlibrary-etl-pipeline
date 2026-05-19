@@ -8,14 +8,15 @@ import os
 import requests
 from config.paths import KEYS_DIR, AUTHORS_STATISTICS_DIR
 from config.api import GENRE_facet
-from open_library import Client, JSONFileHandler, KeyHandler
+from open_library import Client, KeyHandler
+from utilities.io import load_json, save_json
 from utilities import wait
 
 # Setting up thw Open Library client for querying the API
 client = Client()
 
 # Loading the general work keys and book keys file
-authors = JSONFileHandler.load_json(
+authors = load_json(
     os.path.join(KEYS_DIR, f'{GENRE_facet}_authors_key_name.json')
 )
 
@@ -93,4 +94,4 @@ filename = f'{GENRE_facet}_author_statistics.json'
 filepath = os.path.join(AUTHORS_STATISTICS_DIR, filename)
 
 # Exporting all authors' statistics as a JSON file
-JSONFileHandler.save_json(authors_statistics, filepath)
+save_json(authors_statistics, filepath)

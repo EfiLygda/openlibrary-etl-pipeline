@@ -11,7 +11,8 @@ DETAILS:
 import os
 from config.paths import AUTHORS_DIR, KEYS_DIR
 from config.api import GENRE_facet
-from open_library import Client, JSONFileHandler
+from open_library import Client
+from utilities.io import load_json, save_json
 
 # Setting up thw Open Library client for querying the API
 client = Client()
@@ -27,7 +28,7 @@ for filename in os.listdir(AUTHORS_DIR):
     filepath = os.path.join(AUTHORS_DIR, filename)
 
     # Opening the current JSON file
-    data = JSONFileHandler.load_json(filepath)
+    data = load_json(filepath)
 
     # Extracting the author records
     records = data['result']
@@ -68,4 +69,4 @@ result_filename = f'{GENRE_facet}_authors_key_name.json'
 result_filepath = os.path.join(KEYS_DIR, result_filename)
 
 # Save the final JSON file with the pairs
-JSONFileHandler.save_json(author_key_names, result_filepath)
+save_json(author_key_names, result_filepath)

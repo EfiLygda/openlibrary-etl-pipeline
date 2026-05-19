@@ -7,7 +7,8 @@ DETAILS:
 import os
 from config.paths import KEYS_DIR, BOOKS_DIR
 from config.api import GENRE_facet
-from open_library import Client, JSONFileHandler
+from open_library import Client
+from utilities.io import load_json, save_json
 from utilities import make_batches, wait
 
 # Setting up thw Open Library client for querying the API
@@ -15,7 +16,7 @@ client = Client()
 
 # Loading the general work keys and book keys file
 work_book_keys_filepath = os.path.join(KEYS_DIR, f'{GENRE_facet}_works_books_keys.json')
-work_book_keys = JSONFileHandler.load_json(work_book_keys_filepath)
+work_book_keys = load_json(work_book_keys_filepath)
 
 # Extracting all book keys from the file
 book_keys = [
@@ -44,7 +45,7 @@ for i, key_batch in enumerate(key_batches):
     filepath = os.path.join(BOOKS_DIR, filename)
 
     # Save the book data
-    JSONFileHandler.save_json(books, filepath)
+    save_json(books, filepath)
 
     # Politely wait more than 5 seconds for each request
     wait(5)

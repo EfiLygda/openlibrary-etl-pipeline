@@ -8,7 +8,8 @@ import pandas as pd
 from config.paths import AUTHORS_DIR, AUTHORS_STATISTICS_DIR, WORKS_DIR, CSV_DIR
 from config.api import GENRE_facet
 import utilities as util
-from open_library import JSONFileHandler, KeyHandler
+from utilities.io import load_json
+from open_library import KeyHandler
 
 # ------------------------------------------------------------------------------
 # --- Authors Table ---
@@ -28,7 +29,7 @@ all_author_records = dict()
 for filename in author_files:
 
     # Load JSON authors' data
-    data = JSONFileHandler.load_json(filename)
+    data = load_json(filename)
 
     # Update the dictionary
     all_author_records.update(data['result'])
@@ -153,7 +154,7 @@ util.sep()
 # --- Authors Statistics Table ---
 
 # Load JSON file with authors' statistics
-author_statistics = JSONFileHandler.load_json(
+author_statistics = load_json(
     os.path.join(AUTHORS_STATISTICS_DIR, f'{GENRE_facet}_author_statistics.json')
 )
 
@@ -249,7 +250,7 @@ all_works_records = dict()
 for filename in work_files:
 
     # Load JSON works' data
-    data = JSONFileHandler.load_json(filename)
+    data = load_json(filename)
 
     # Update the dictionary
     all_works_records.update(data['result'])

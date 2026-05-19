@@ -16,7 +16,8 @@ import os
 import re
 from config.paths import KEYS_DIR, WORKS_DIR, AUTHORS_DIR, SERIES_DIR
 from config.api import GENRE
-from open_library import Client, JSONFileHandler
+from open_library import Client
+from utilities.io import load_json, save_json
 from utilities import make_batches
 
 # Setting up thw Open Library client for querying the API
@@ -52,7 +53,7 @@ for key_file_name in os.listdir(KEYS_DIR):
     key_file_type = key_type_match.group(1)
 
     # Loading the current key list
-    keys_list = JSONFileHandler.load_json(key_file_path)
+    keys_list = load_json(key_file_path)
 
     # Setting the batch size for querying
     batch_size = client.LIMIT
@@ -80,7 +81,7 @@ for key_file_name in os.listdir(KEYS_DIR):
         batch_filepath = os.path.join(key_type_dir, batch_filename)
 
         # Saving the current batch
-        JSONFileHandler.save_json(records, batch_filepath)
+        save_json(records, batch_filepath)
 
         # Setting up the progress message for each key types
         # New line when the type changes, same row for batches in the same key type
