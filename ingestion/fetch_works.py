@@ -10,33 +10,43 @@ DETAILS:
 
 import os
 from utilities.rate_limit import wait
+from utilities.logging import set_logger
 from open_library import Client
 from config.paths import SEARCH_DIR
 from config.api import LIMIT, MAX_PAGES, GENRE, GENRE_facet
 
-# ----------------------------------------------------------------------------------
-# --- Querying Open Library API ---
+logger = set_logger('FETCH_WORKS')
 
-# Setting up an Open Library Client for querying the API
-client = Client()
+def run():
+    # ----------------------------------------------------------------------------------
+    # --- Querying Open Library API ---
 
-# Setting the page limit
-client.LIMIT = LIMIT
+    logger.info(f'Starting extraction of first {MAX_PAGES} pages via SEARCH query')
 
-# For each page in the results save the records in JSON format
-for page in range(1, MAX_PAGES+1):
+    # Setting up an Open Library Client for querying the API
+    client = Client()
 
-    # Print a message to show progress
-    print(f'({page}/{MAX_PAGES}) Extracting {GENRE} works\' metadata...', end='\r')
+    # Setting the page limit
+    client.LIMIT = LIMIT
 
-    # Set up the file name for saving the response
-    filename = f'SEARCH_p{page}.json'
-    filepath = os.path.join(SEARCH_DIR, filename)
+    # For each page in the results save the records in JSON format
+    for page in range(1, MAX_PAGES+1):
 
-    # Save the response as a JSON file
-    client.save_search(filename=filepath, subject=GENRE_facet, page=page)
+        # Print a message to show progress
+        # print(f'({page}/{MAX_PAGES}) Extracting {GENRE} works\' metadata...', end='\r')
 
-    # Politely wait more than 3 seconds for each request
-    # Adding a random seconds between 0 and 1.5 to the 3, in order to simulate human behavior
-    wait(3)
-# ----------------------------------------------------------------------------------
+        # Set up the file name for saving the response
+        filename = f'SEARCH_p{page}.json'
+        filepath = os.path.join(SEARCH_DIR, filename)
+
+        # Save the response as a JSON file
+        client.save_search(filename=filepath, subject=GENRE_facet, page=page)
+
+        # Politely wait more than 3 seconds for each request
+        # Adding a random seconds between 0 and 1.5 to the 3, in order to simulate human behavior
+        wait(3)
+
+        logger.info(f'Finished extraction of page {page}/{MAX_PAGES} to file {filename}')
+
+    logger.info('Finished extraction of all pages via SEARCH query')
+    # ----------------------------------------------------------------------------------

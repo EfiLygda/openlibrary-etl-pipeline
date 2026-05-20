@@ -65,6 +65,7 @@ def config_logger(filepath: str | None = None, level='debug') -> None:
         # Setting up a logging file handler for given 'filename'
         file_handler = logging.FileHandler(
             filepath,
+            mode='w',
             encoding="utf-8"
         )
 

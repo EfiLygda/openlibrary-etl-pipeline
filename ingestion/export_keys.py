@@ -8,62 +8,78 @@ DETAILS:
 """
 
 import os
+from config.api import MAX_PAGES
 from config.paths import KEYS_DIR, SEARCH_DIR
 from config.api import GENRE_facet
 from utilities.io import load_json, save_json
+from utilities.logging import set_logger
 
-# Define list that will contain all work, author and series keys
-WORKS_KEYS = []
-AUTHOR_KEYS = []
-SERIES_KEYS = []
+logger = set_logger('EXPORT_KEYS')
 
-# For each file all general works, authors and series keys will be extracted
-# from the pages of records returned via SEARCH
-for current_page in os.listdir(SEARCH_DIR):
+def run():
 
-    # Define current files path (each file is a page of records)
-    filename = os.path.join(SEARCH_DIR, current_page)
+    logger.info(
+        f'Starting extraction of all work, author and series keys available in the first {MAX_PAGES} pages via SEARCH query'
+    )
 
-    # Load each works record returned via SEARCH
-    data = load_json(filename)
+    # Define list that will contain all work, author and series keys
+    WORKS_KEYS = []
+    AUTHOR_KEYS = []
+    SERIES_KEYS = []
 
-    # For each record/general work in current page add in the list
-    # its work, author and series key is added to the lists
-    for record in data['docs']:
+    # For each file all general works, authors and series keys will be extracted
+    # from the pages of records returned via SEARCH
+    for current_page in os.listdir(SEARCH_DIR):
 
-        if 'key' in record.keys():
-            WORKS_KEYS += [record['key'].replace('/works/', '')]
+        # Define current files path (each file is a page of records)
+        filename = os.path.join(SEARCH_DIR, current_page)
 
-        if 'author_key' in record.keys():
-            AUTHOR_KEYS += record['author_key']
+        # Load each works record returned via SEARCH
+        data = load_json(filename)
 
-        if 'series_key' in record.keys():
-            SERIES_KEYS += record['series_key']
+        # For each record/general work in current page add in the list
+        # its work, author and series key is added to the lists
+        for record in data['docs']:
 
-# Setting up lists to be zipped for iterating at the same time
-# in order to save their contents
-key_lists = [WORKS_KEYS, AUTHOR_KEYS, SERIES_KEYS]
-key_types = ['work_keys', 'author_keys', 'series_keys']
-unique_key_counts = dict()
+            if 'key' in record.keys():
+                WORKS_KEYS += [record['key'].replace('/works/', '')]
 
-# For each key list and key type pair the unique keys are saved as JSON files
-for key_list, key_type in zip(key_lists, key_types):
+            if 'author_key' in record.keys():
+                AUTHOR_KEYS += record['author_key']
 
-    # Remove duplicates from each key list
-    unique_keys = list(set(key_list))
+            if 'series_key' in record.keys():
+                SERIES_KEYS += record['series_key']
 
-    # Keep the unique count of keys
-    unique_key_counts[key_type] = len(unique_keys)
+    # Setting up lists to be zipped for iterating at the same time
+    # in order to save their contents
+    key_lists = [WORKS_KEYS, AUTHOR_KEYS, SERIES_KEYS]
+    key_types = ['work_keys', 'author_keys', 'series_keys']
+    unique_key_counts = dict()
 
-    # Define each JSON file's path
-    filename = os.path.join(KEYS_DIR, f'{GENRE_facet}_{key_type}.json')
+    # For each key list and key type pair the unique keys are saved as JSON files
+    for key_list, key_type in zip(key_lists, key_types):
 
-    # Save each JSON file
-    save_json(unique_keys, filename)
+        # Remove duplicates from each key list
+        unique_keys = list(set(key_list))
 
-# Print results counts
-print(
-    f'Extracted {unique_key_counts['work_keys']} general works,'
-    f' {unique_key_counts['author_keys']} authors'
-    f' and {unique_key_counts['series_keys']} series!'
-)
+        # Keep the unique count of keys
+        unique_key_counts[key_type] = len(unique_keys)
+
+        # Define each JSON file's path
+        filename = os.path.join(KEYS_DIR, f'{GENRE_facet}_{key_type}.json')
+
+        # Save each JSON file
+        save_json(unique_keys, filename)
+
+    # Print results counts
+    # print(
+    #     f'Extracted {unique_key_counts['work_keys']} general works,'
+    #     f' {unique_key_counts['author_keys']} authors'
+    #     f' and {unique_key_counts['series_keys']} series!'
+    # )
+
+    logger.info(
+        f'Finished extraction of {unique_key_counts['work_keys']} general works,'
+        f' {unique_key_counts['author_keys']} authors '
+        f'and {unique_key_counts['series_keys']} series'
+    )
