@@ -260,15 +260,14 @@ CREATE TABLE IF NOT EXISTS editions
 cursor.execute("""
 CREATE TABLE IF NOT EXISTS editions_contributors
     (
-        edition_key VARCHAR NOT NULL,
-        contributor_name VARCHAR NOT NULL,
-        contributor_role VARCHAR NOT NULL,
+        contribution_id SERIAL PRIMARY KEY,
+        edition_key VARCHAR,
+        contributor_name VARCHAR,
+        contributor_role VARCHAR,
         by_statement VARCHAR,
         translated_from VARCHAR,
         translation_of VARCHAR,
-        
-        PRIMARY KEY (edition_key, contributor_name, contributor_role),
-        
+                
         CONSTRAINT fk_editions_contributors_edition_key
             FOREIGN KEY (edition_key)
             REFERENCES editions(edition_key)
@@ -279,12 +278,14 @@ CREATE TABLE IF NOT EXISTS editions_contributors
 cursor.execute("""
 CREATE TABLE IF NOT EXISTS editions_publishing
     (
-        edition_key VARCHAR PRIMARY KEY,
+        publishing_id SERIAL PRIMARY KEY,
+        edition_key VARCHAR,
         publish_date VARCHAR,
-        publisher_name VARCHAR,
+        publish_year INT,
+        publisher VARCHAR,
         publish_place VARCHAR,
         publish_country VARCHAR,
-        series_title VARCHAR,
+        series VARCHAR,
 
         CONSTRAINT fk_editions_publishing_edition_key
             FOREIGN KEY (edition_key)
@@ -311,7 +312,8 @@ CREATE TABLE IF NOT EXISTS editions_contents
 cursor.execute("""
 CREATE TABLE IF NOT EXISTS editions_details
     (
-        edition_key VARCHAR PRIMARY KEY,
+        details_id SERIAL PRIMARY KEY,
+        edition_key VARCHAR,
         number_of_pages INT,
         physical_format VARCHAR,
         physical_dimensions VARCHAR,
