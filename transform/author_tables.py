@@ -5,7 +5,7 @@ STEP 1: Create tables `authors`, `authors_alternative_names`, `authors_statistic
 import os
 import numpy as np
 import pandas as pd
-from config.paths import AUTHORS_DIR, AUTHORS_STATISTICS_DIR, WORKS_DIR, CSV_DIR
+from config.paths import AUTHORS_DIR, AUTHORS_STATISTICS_DIR, WORKS_DIR, CSV_DIR, KEYS_DIR
 from config.api import GENRE_facet
 from utilities.io import load_json, save_csv
 from utilities.logging import sep
@@ -316,6 +316,12 @@ authors_works_table.drop('authors', inplace=True, axis=1)
 
 # Remove any rows with any NaN value (from the primary key)
 authors_works_table.dropna(how='any', inplace=True)
+
+# Filter works not returned from SEARCH
+valid_work_keys = load_json(
+    os.path.join(KEYS_DIR, 'romance_fiction_work_keys.json')
+)
+authors_works_table = authors_works_table[authors_works_table.work_key.isin(valid_work_keys)]
 
 # Reorder columns
 authors_works_table = authors_works_table[
