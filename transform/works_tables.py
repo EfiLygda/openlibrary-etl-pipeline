@@ -214,7 +214,7 @@ works_table = prepare_table(
     dtypes=works_dtypes,
     primary_key='work_key',
     table_name='works',
-    drop_na_except = 'work_key',
+    # drop_na_except = 'work_key',
     drop_duplicates = True,
 )
 
