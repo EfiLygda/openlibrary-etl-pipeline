@@ -6,7 +6,7 @@ STEP 2: Create tables `editions`, `editions_contributors`, `editions_publishing`
 import os
 import numpy as np
 import pandas as pd
-from config.paths import CSV_DIR, BOOKS_DIR
+from config.paths import CSV_DIR, BOOKS_DIR, KEYS_DIR
 from utilities.io import load_json, save_csv
 from utilities.logging import sep
 from utilities.validation import check_explode
@@ -60,11 +60,32 @@ df_books.index = new_index
 # Reset index as to now be a new column, and rename the column to 'edition_key'
 df_books.reset_index(inplace=True, names='edition_key')
 
+# Extract work keys for each edition
+# Check if more than one works referred to an edition -> Answer: FALSE
+check_explode(
+    col=df_books.works,
+    table_name='df_books'
+)
+
+# Work keys are stored denormalized (i.e. OLxxxxW)
+df_books['works'] = df_books.works.apply(
+    lambda x: KeyHandler.get_key(x[0]['key'])
+)
+
+# Remove 'works' column
+df_books.rename(columns={'works': 'work_key'}, inplace=True)
+
+# Filter works not returned from SEARCH
+valid_work_keys = load_json(
+    os.path.join(KEYS_DIR, 'romance_fiction_work_keys.json')
+)
+df_books = df_books[df_books.work_key.isin(valid_work_keys)]
+
 # Separate for each of the final editions tables fields and data
 # Column names to keep for each of the final tables
 editions_fields = [
     'edition_key', # 'key', # edition key
-    "works", # contains work key -> normalize and rename to work_key
+    "work_key", # contains work key -> normalize
     "title",
     "subtitle",
     "edition_name",
@@ -113,21 +134,6 @@ details_table = df_books[details_fields]
 
 # ------------------------------------------------------------------------------
 # --- Editions Table ---
-
-# Extract work keys for each edition
-# Check if more than one works referred to an edition -> Answer: FALSE
-check_explode(
-    col=editions_table.works,
-    table_name='editions'
-)
-
-# Work keys are stored denormalized (i.e. OLxxxxW)
-editions_table['works'] = editions_table.works.apply(
-    lambda x: KeyHandler.get_key(x[0]['key'])
-)
-
-# Remove 'works' column
-editions_table.rename(columns={'works': 'work_key'}, inplace=True)
 
 # Set data types for each column
 editions_dtypes = {
