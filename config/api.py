@@ -13,3 +13,6 @@ LIMIT = 100
 
 # Maximum number of pages to extract from search queries
 MAX_PAGES = 20
+
+# Maximum number of retries for a query
+MAX_ATTEMPTS = 5
