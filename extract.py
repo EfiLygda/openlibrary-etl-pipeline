@@ -16,6 +16,9 @@ Step 7: Extract all publishers, subjects, subject_people and subject_times via S
 Step 8: Extract all SEARCH_AUTHORS fields from SEARCH_AUTHORS
 """
 import logging
+import os.path
+
+from config.paths import LOG_DIR
 
 from utilities.logging import config_logger, set_logger
 
@@ -31,8 +34,11 @@ from ingestion.fetch_author_statistics import run as fetch_author_statistics
 # ----------------------------------------------------------------------------------
 # --- Setting up logging ---
 
+# Log filepath
+log_filepath = os.path.join(LOG_DIR, 'logs/extract.log')
+
 # Configure the logger (uses console and file for log records)
-config_logger(filepath='extract.log', level='info')
+config_logger(filepath=log_filepath, level='info')
 
 # Set up the logger with stage 'EXTRACT'
 logger = set_logger(stage='EXTRACT')

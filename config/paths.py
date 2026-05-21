@@ -31,6 +31,9 @@ AUTHORS_STATISTICS_DIR = os.path.join(GENRE_DIR, 'author_statistics')
 # Processed CSV files directory
 CSV_DIR = os.path.join(DATA_DIR, 'csv')
 
+# Log messages directories
+LOG_DIR = os.path.join(ROOT_DIR, 'logs')
+
 # List containing all new directories
 NEW_DIRS = [
     DATA_DIR,
@@ -46,6 +49,7 @@ NEW_DIRS = [
     # PUBLISHERS_DIR,
     # SUBJECTS_DIR,
     AUTHORS_STATISTICS_DIR,
+    LOG_DIR
 ]
 
 # Creating new directories, if they do not already exist
