@@ -15,12 +15,10 @@ STEP 6: Use OpenLibraryClient.get_many to extract via keys all BOOKS
 Step 7: Extract all publishers, subjects, subject_people and subject_times via SEARCH_EDITIONS_VIA_WORK_KEY
 Step 8: Extract all SEARCH_AUTHORS fields from SEARCH_AUTHORS
 """
+import logging
 
-import os
-from config.paths import ROOT_DIR
-from utilities.pipeline import run_pipeline
-from utilities.logging import LOGGING_FORMAT, DATE_FORMAT
 from utilities.logging import config_logger, set_logger
+
 from ingestion.fetch_works import run as fetch_works
 from ingestion.export_keys import run as export_keys
 from ingestion.fetch_works_authors_series import run as fetch_works_authors_series
@@ -29,7 +27,6 @@ from ingestion.fetch_books_keys_via_work_key import run as fetch_books_keys_via_
 from ingestion.fetch_books import run as fetch_books
 from ingestion.export_publishers_subjects_people_times import run as export_publishers_subjects_people_times
 from ingestion.fetch_author_statistics import run as fetch_author_statistics
-import logging
 
 # ----------------------------------------------------------------------------------
 # --- Setting up logging ---
@@ -42,7 +39,7 @@ logger = set_logger(stage='EXTRACT')
 # ----------------------------------------------------------------------------------
 
 # ----------------------------------------------------------------------------------
-# --- Run Pipeline ---
+# --- Run Pipeline (with logging) ---
 
 logger.info('Started extraction of data from OpenLibrary API to JSON files')
 
@@ -61,6 +58,14 @@ logger.info('Finished extraction of data from OpenLibrary API to JSON files')
 # Shutting down logging
 logging.shutdown()
 # ----------------------------------------------------------------------------------
+
+# ----------------------------------------------------------------------------------
+# --- Run Pipeline (without logging) ---
+
+# import os
+# from config.paths import ROOT_DIR
+# from utilities.pipeline import run_pipeline
+# from utilities.logging import LOGGING_FORMAT, DATE_FORMAT
 
 # # Set up directory containing the pipeline py files
 # tasks_dir = os.path.join(ROOT_DIR, 'ingestion')
@@ -82,3 +87,4 @@ logging.shutdown()
 #     tasks_dir=tasks_dir,
 #     tasks=tasks
 # )
+# ----------------------------------------------------------------------------------
