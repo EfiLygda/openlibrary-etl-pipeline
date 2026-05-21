@@ -14,11 +14,15 @@ DETAILS:
 """
 import os
 import re
-from config.paths import KEYS_DIR, WORKS_DIR, AUTHORS_DIR, SERIES_DIR
-from config.api import GENRE
-from utilities.rate_limit import wait
+import requests
+
 from open_library import Client
+
+from config.paths import KEYS_DIR, WORKS_DIR, AUTHORS_DIR, SERIES_DIR
+from config.api import GENRE, MAX_ATTEMPTS
+
 from utilities.io import load_json, save_json
+from utilities.rate_limit import wait
 from utilities.batching import make_batches
 from utilities.logging import set_logger
 
@@ -56,7 +60,7 @@ def run():
 
         # If a match is not made a ValueError is raised
         if not key_type_match:
-            logger.info(f'Key type was not found in filename: {key_file_name}')
+            logger.warning(f'Key type was not found in filename: {key_file_name}')
             continue
 
         # Extracting the key type from the file name
@@ -74,34 +78,57 @@ def run():
         # For each batch the API is queried and the results are saved
         for i, key_batch in enumerate(key_batches):
 
-            # Querying the API for the current batch
-            records = client.get_many(key_batch)
+            # Set up the maximum number of attempts to fetch the data
+            for _ in range(MAX_ATTEMPTS):
 
-            # If no records are returned a ValueError is returned
-            if not records['result']:
-                raise ValueError(f'No results were returned from {client.last_url}')
+                # Try to extract the data during these attempts
+                # Possible errors:
+                # 1. connection errors: requests.exceptions.ReadTimeout, requests.exceptions.ConnectTimeout
+                # 2. no data available: requests.exceptions.HTTPError
+                try:
 
-            # The file name for the current batch
-            batch_filename = f'{key_file_type.upper()}_p{i+1}.json'
+                    # Querying the API for the current batch
+                    records = client.get_many(key_batch)
 
-            # Finding the current key type directory to save the records
-            key_type_dir = dirs[key_file_type]
+                    # If no records are returned a ValueError is returned
+                    if not records['result']:
+                        raise ValueError(f'No results were returned from {client.last_url}')
 
-            # The file path for the current batch
-            batch_filepath = os.path.join(key_type_dir, batch_filename)
+                    break
 
-            # Saving the current batch
-            save_json(records, batch_filepath)
+                except (
+                        requests.exceptions.HTTPError,
+                        requests.exceptions.ReadTimeout,
+                        requests.exceptions.ConnectTimeout,
+                        ValueError
+                ) as e:
 
-            # Setting up the progress message for each key types
-            # New line when the type changes, same row for batches in the same key type
-            # if i + 1 == len(key_batches):
-            #     end_str = '\n'
-            # else:
-            #     end_str = '\r'
+                    # In case of an error print a message
+                    logger.error(f'Did not connect or found data for \'{client.last_url}\'. Trying again...')
 
-            # Progress message
-            # print(f'({i+1}/{len(key_batches)}) Extracting {GENRE} {key_file_type}\'s metadata...', end=end_str)
+                    wait(5)
+
+                # The file name for the current batch
+                batch_filename = f'{key_file_type.upper()}_p{i+1}.json'
+
+                # Finding the current key type directory to save the records
+                key_type_dir = dirs[key_file_type]
+
+                # The file path for the current batch
+                batch_filepath = os.path.join(key_type_dir, batch_filename)
+
+                # Saving the current batch
+                save_json(records, batch_filepath)
+
+                # Setting up the progress message for each key types
+                # New line when the type changes, same row for batches in the same key type
+                # if i + 1 == len(key_batches):
+                #     end_str = '\n'
+                # else:
+                #     end_str = '\r'
+
+                # Progress message
+                # print(f'({i+1}/{len(key_batches)}) Extracting {GENRE} {key_file_type}\'s metadata...', end=end_str)
 
             logger.info(f'({i+1}/{len(key_batches)}) Extracted {GENRE} {key_file_type}\'s metadata')
 

@@ -19,24 +19,66 @@ Step 8: Extract all SEARCH_AUTHORS fields from SEARCH_AUTHORS
 import os
 from config.paths import ROOT_DIR
 from utilities.pipeline import run_pipeline
+from utilities.logging import LOGGING_FORMAT, DATE_FORMAT
+from utilities.logging import config_logger, set_logger
+from ingestion.fetch_works import run as fetch_works
+from ingestion.export_keys import run as export_keys
+from ingestion.fetch_works_authors_series import run as fetch_works_authors_series
+from ingestion.export_author_key_names import run as export_author_key_names
+from ingestion.fetch_books_keys_via_work_key import run as fetch_books_keys_via_work_key
+from ingestion.fetch_books import run as fetch_books
+from ingestion.export_publishers_subjects_people_times import run as export_publishers_subjects_people_times
+from ingestion.fetch_author_statistics import run as fetch_author_statistics
+import logging
 
-# Set up directory containing the pipeline py files
-tasks_dir = os.path.join(ROOT_DIR, 'ingestion')
+# ----------------------------------------------------------------------------------
+# --- Setting up logging ---
 
-# The pipeline's py filenames for extracting JSON files via the API
-tasks = [
-    'fetch_works.py',
-    'export_keys.py',
-    'fetch_works_authors_series.py',
-    'export_author_key_names.py',
-    'fetch_books_keys_via_work_key.py',
-    'fetch_books.py',
-    'export_publishers_subjects_people_times.py',
-    'fetch_author_statistics.py',
-]
+# Configure the logger (uses console and file for log records)
+config_logger(filepath='extract.log', level='info')
 
-# Run the pipeline
-run_pipeline(
-    tasks_dir=tasks_dir,
-    tasks=tasks
-)
+# Set up the logger with stage 'EXTRACT'
+logger = set_logger(stage='EXTRACT')
+# ----------------------------------------------------------------------------------
+
+# ----------------------------------------------------------------------------------
+# --- Run Pipeline ---
+
+logger.info('Started extraction of data from OpenLibrary API to JSON files')
+
+# The pipeline
+fetch_works()
+export_keys()
+fetch_works_authors_series()
+export_author_key_names()
+fetch_books_keys_via_work_key()
+fetch_books()
+export_publishers_subjects_people_times()
+fetch_author_statistics()
+
+logger.info('Finished extraction of data from OpenLibrary API to JSON files')
+
+# Shutting down logging
+logging.shutdown()
+# ----------------------------------------------------------------------------------
+
+# # Set up directory containing the pipeline py files
+# tasks_dir = os.path.join(ROOT_DIR, 'ingestion')
+#
+# # The pipeline's py filenames for extracting JSON files via the API
+# tasks = [
+#     # 'fetch_works.py',
+#     # 'export_keys.py',
+#     # 'fetch_works_authors_series.py',
+#     # 'export_author_key_names.py',
+#     # 'fetch_books_keys_via_work_key.py',
+#     # 'fetch_books.py',
+#     # 'export_publishers_subjects_people_times.py',
+#     # 'fetch_author_statistics.py',
+# ]
+#
+# # Run the pipeline
+# run_pipeline(
+#     tasks_dir=tasks_dir,
+#     tasks=tasks
+# )

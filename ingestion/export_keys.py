@@ -6,11 +6,11 @@ DETAILS:
 2. Work, author and series keys as well as author key and name pairs are saved
    as JSON files @ data/keys
 """
-
 import os
-from config.api import MAX_PAGES
+
+from config.api import GENRE_facet, MAX_PAGES
 from config.paths import KEYS_DIR, SEARCH_DIR
-from config.api import GENRE_facet
+
 from utilities.io import load_json, save_json
 from utilities.logging import set_logger
 

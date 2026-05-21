@@ -9,11 +9,15 @@ DETAILS:
 """
 
 import os
+import requests
+
+from open_library import Client
+
 from utilities.rate_limit import wait
 from utilities.logging import set_logger
-from open_library import Client
+
 from config.paths import SEARCH_DIR
-from config.api import LIMIT, MAX_PAGES, GENRE, GENRE_facet
+from config.api import LIMIT, MAX_PAGES, GENRE, GENRE_facet, MAX_ATTEMPTS
 
 logger = set_logger('FETCH_WORKS')
 
@@ -39,8 +43,31 @@ def run():
         filename = f'SEARCH_p{page}.json'
         filepath = os.path.join(SEARCH_DIR, filename)
 
-        # Save the response as a JSON file
-        client.save_search(filename=filepath, subject=GENRE_facet, page=page)
+        for _ in range(MAX_ATTEMPTS):
+
+            # Try to extract the data during these attempts
+            # Possible errors:
+            # 1. connection errors: requests.exceptions.ReadTimeout, requests.exceptions.ConnectTimeout
+            # 2. no data available: requests.exceptions.HTTPError
+            try:
+
+                # Save the response as a JSON file
+                client.save_search(filename=filepath, subject=GENRE_facet, page=page)
+
+                break
+
+            except (
+                requests.exceptions.HTTPError,
+                requests.exceptions.ReadTimeout,
+                requests.exceptions.ConnectTimeout
+            ) as e:
+
+                # In case of an error print a message
+                # print(f'\nDid not connect or found data for \'{author_name}\'. Trying again...', end='\n')
+                logger.error(f'Did not connect or found data for page \'{page}\'. Trying again...')
+
+                # Politely wait more than 5 seconds, especially of a connection error
+                wait(5)
 
         # Politely wait more than 3 seconds for each request
         # Adding a random seconds between 0 and 1.5 to the 3, in order to simulate human behavior

@@ -7,11 +7,12 @@ DETAILS:
    In such cases OpenLibraryClient.get_redirected_record is used to find the right record and
    the final data were added to the final data. As such no data is lost.
 """
-
 import os
+from open_library import Client
+
 from config.paths import AUTHORS_DIR, KEYS_DIR
 from config.api import GENRE_facet
-from open_library import Client
+
 from utilities.io import load_json, save_json
 from utilities.logging import set_logger
 
