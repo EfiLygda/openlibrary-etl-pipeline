@@ -23,9 +23,9 @@ import os
 from config.paths import LOG_DIR
 from utilities.logging import config_logger, set_logger
 
-from to_tables.author_tables import run as author_tables
-from to_tables.editions_tables import run as editions_tables
-from to_tables.works_tables import run as works_tables
+from to_CSV.author_tables import run as author_tables
+from to_CSV.editions_tables import run as editions_tables
+from to_CSV.works_tables import run as works_tables
 
 # ----------------------------------------------------------------------------------
 # --- Setting up logging ---
@@ -61,7 +61,7 @@ logger.info('Finished transformation of data from JSON files to CSV files')
 # from utilities.pipeline import run_pipeline
 #
 # # Set up directory containing the pipeline py files
-# tasks_dir = os.path.join(ROOT_DIR, 'to_tables')
+# tasks_dir = os.path.join(ROOT_DIR, 'to_CSV')
 #
 # # The pipeline's py filenames for preprocessing and saving to CSV tables
 # tasks = [

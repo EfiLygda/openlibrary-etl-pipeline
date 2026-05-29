@@ -22,14 +22,14 @@ from config.paths import LOG_DIR
 
 from utilities.logging import config_logger, set_logger
 
-from ingestion.fetch_works import run as fetch_works
-from ingestion.export_keys import run as export_keys
-from ingestion.fetch_works_authors_series import run as fetch_works_authors_series
-from ingestion.export_author_key_names import run as export_author_key_names
-from ingestion.fetch_books_keys_via_work_key import run as fetch_books_keys_via_work_key
-from ingestion.fetch_books import run as fetch_books
-from ingestion.export_publishers_subjects_people_times import run as export_publishers_subjects_people_times
-from ingestion.fetch_author_statistics import run as fetch_author_statistics
+from to_JSON.fetch_works import run as fetch_works
+from to_JSON.export_keys import run as export_keys
+from to_JSON.fetch_works_authors_series import run as fetch_works_authors_series
+from to_JSON.export_author_key_names import run as export_author_key_names
+from to_JSON.fetch_books_keys_via_work_key import run as fetch_books_keys_via_work_key
+from to_JSON.fetch_books import run as fetch_books
+from to_JSON.export_publishers_subjects_people_times import run as export_publishers_subjects_people_times
+from to_JSON.fetch_author_statistics import run as fetch_author_statistics
 
 # ----------------------------------------------------------------------------------
 # --- Setting up logging ---
@@ -74,7 +74,7 @@ logging.shutdown()
 # from utilities.logging import LOGGING_FORMAT, DATE_FORMAT
 
 # # Set up directory containing the pipeline py files
-# tasks_dir = os.path.join(ROOT_DIR, 'ingestion')
+# tasks_dir = os.path.join(ROOT_DIR, 'to_JSON')
 #
 # # The pipeline's py filenames for extracting JSON files via the API
 # tasks = [
