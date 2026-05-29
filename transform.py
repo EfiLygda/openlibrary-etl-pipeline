@@ -19,21 +19,60 @@ Transform JSON files to tables (CSV files)
 """
 
 import os
-from config.paths import ROOT_DIR
-from utilities.pipeline import run_pipeline
 
-# Set up directory containing the pipeline py files
-tasks_dir = os.path.join(ROOT_DIR, 'transform')
+from config.paths import LOG_DIR
+from utilities.logging import config_logger, set_logger
 
-# The pipeline's py filenames for preprocessing and saving to CSV tables
-tasks = [
-    "author_tables.py",
-    "editions_tables.py",
-    "works_tables.py",
-]
+from to_tables.author_tables import run as author_tables
+from to_tables.editions_tables import run as editions_tables
+from to_tables.works_tables import run as works_tables
 
-# Run the pipeline
-run_pipeline(
-    tasks_dir=tasks_dir,
-    tasks=tasks
-)
+# ----------------------------------------------------------------------------------
+# --- Setting up logging ---
+
+# Log filepath
+log_filepath = os.path.join(LOG_DIR, 'transform.log')
+
+# Configure the logger (uses console and file for log records)
+config_logger(filepath=log_filepath, level='info')
+
+# Set up the logger with stage 'EXTRACT'
+logger = set_logger(stage='TRANSFORM')
+# ----------------------------------------------------------------------------------
+
+# ----------------------------------------------------------------------------------
+# --- Run Pipeline (with logging) ---
+
+logger.info('Started transformation of data from JSON files to CSV files')
+
+# The pipeline
+author_tables()
+editions_tables()
+works_tables()
+
+logger.info('Finished transformation of data from JSON files to CSV files')
+# ----------------------------------------------------------------------------------
+
+
+# ----------------------------------------------------------------------------------
+# --- Run Pipeline (without logging) ---
+#
+# from config.paths import ROOT_DIR
+# from utilities.pipeline import run_pipeline
+#
+# # Set up directory containing the pipeline py files
+# tasks_dir = os.path.join(ROOT_DIR, 'to_tables')
+#
+# # The pipeline's py filenames for preprocessing and saving to CSV tables
+# tasks = [
+#     "author_tables.py",
+#     "editions_tables.py",
+#     "works_tables.py",
+# ]
+#
+# # Run the pipeline
+# run_pipeline(
+#     tasks_dir=tasks_dir,
+#     tasks=tasks
+# )
+# ----------------------------------------------------------------------------------
