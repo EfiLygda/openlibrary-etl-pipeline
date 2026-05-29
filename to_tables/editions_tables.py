@@ -21,6 +21,17 @@ from utilities.logging import set_logger
 logger = set_logger('TRANSFORM_TO_EDITIONS_TABLES')
 
 def import_editions_data() -> list[pd.DataFrame]:
+    """
+    Function for importing all editions' data and splitting them to 5 dataframes:
+
+    1. editions table,
+    2. contributors table,
+    3. publishing table,
+    4. contents table,
+    5. details table
+
+    :return: list[pd.DataFrame], list with the 5 dataframes
+    """
     # ------------------------------------------------------------------------------
     # Fetching all editions/books JSON filenames
     books_files = [
@@ -147,6 +158,10 @@ def import_editions_data() -> list[pd.DataFrame]:
     ]
 
 def editions_table(editions_df: pd.DataFrame) -> None:
+    """
+    Function for saving to csv the 'editions' table
+    :param editions_df: pd.DataFrame, containing the editions data as returned from import_editions_data
+    """
     # ------------------------------------------------------------------------------
     # --- Editions Table ---
 
@@ -183,6 +198,10 @@ def editions_table(editions_df: pd.DataFrame) -> None:
     # ------------------------------------------------------------------------------
 
 def editions_contributors_table(contributors_df: pd.DataFrame) -> None:
+    """
+    Function for saving to csv the 'editions_contributors' table
+    :param contributors_df: pd.DataFrame, containing the contributors data as returned from import_editions_data
+    """
     # ------------------------------------------------------------------------------
     # --- Contributors Table ---
 
@@ -267,6 +286,10 @@ def editions_contributors_table(contributors_df: pd.DataFrame) -> None:
     # ------------------------------------------------------------------------------
 
 def editions_publishing_table(publishing_df: pd.DataFrame) -> None:
+    """
+    Function for saving to csv the 'editions_publishing' table
+    :param publishing_df: pd.DataFrame, containing the publishing data as returned from import_editions_data
+    """
     # ------------------------------------------------------------------------------
     # --- Publishing Table ---
 
@@ -357,6 +380,10 @@ def editions_publishing_table(publishing_df: pd.DataFrame) -> None:
     # ------------------------------------------------------------------------------
 
 def editions_contents_table(contents_df: pd.DataFrame) -> None:
+    """
+    Function for saving to csv the 'editions_contents' table
+    :param contents_df: pd.DataFrame, containing the content data as returned from import_editions_data
+    """
     # ------------------------------------------------------------------------------
     # --- Contents Table ---
 
@@ -401,6 +428,10 @@ def editions_contents_table(contents_df: pd.DataFrame) -> None:
     # ------------------------------------------------------------------------------
 
 def editions_details_table(details_df: pd.DataFrame) -> None:
+    """
+    Function for saving to csv the 'editions_details' table
+    :param details_df: pd.DataFrame, containing the details data as returned from import_editions_data
+    """
     # ------------------------------------------------------------------------------
     # --- Editions Details Table ---
 
@@ -464,4 +495,3 @@ def run() -> None:
     editions_publishing_table(publishing)
     editions_contents_table(contents)
     editions_details_table(details)
-
