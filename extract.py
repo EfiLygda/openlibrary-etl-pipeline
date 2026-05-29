@@ -35,7 +35,7 @@ from ingestion.fetch_author_statistics import run as fetch_author_statistics
 # --- Setting up logging ---
 
 # Log filepath
-log_filepath = os.path.join(LOG_DIR, 'logs/extract.log')
+log_filepath = os.path.join(LOG_DIR, 'extract.log')
 
 # Configure the logger (uses console and file for log records)
 config_logger(filepath=log_filepath, level='info')
