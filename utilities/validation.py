@@ -1,5 +1,7 @@
 import numpy as np
 import pandas as pd
+
+import psycopg2
 from logging import Logger, LoggerAdapter
 
 def has_na(values: pd.Series | pd.DataFrame) -> np.bool | None:
@@ -85,5 +87,46 @@ def check_explode(
     # Check if a logger is used or else print the message
     if logger:
         logger.info(message)
+    else:
+        print(message)
+
+def check_if_table_exists(
+        cursor: psycopg2.extensions.cursor,
+        table_name: str,
+        schema: str = 'public',
+        logger: Logger | LoggerAdapter[Logger] | None = None
+) -> None:
+    """
+    Function for validating if a table exists in a schema
+    :param cursor: psycopg2.extensions.cursor, cursor object for the current database
+    :param table_name: str, the name of the table
+    :param schema: str, the name of the schema to check
+    :param logger: Logger | LoggerAdapter[Logger] | None, the logger to be used
+    :return: None
+    """
+
+    query = """
+        SELECT EXISTS (
+            SELECT 1
+            FROM information_schema.tables
+            WHERE table_schema = %s
+              AND table_name = %s
+        );
+    """
+
+    cursor.execute(query, (schema, table_name))
+
+    table_exists = cursor.fetchone()[0]
+
+    exists_msg = f'Table \'{table_name}\' already exists'
+    not_exists_msg = f'Table \'{table_name}\' does not exist'
+
+    if table_exists:
+        message = exists_msg
+    else:
+        message = not_exists_msg
+
+    if logger:
+        logger.warning(message)
     else:
         print(message)
