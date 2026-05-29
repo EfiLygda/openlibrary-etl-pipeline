@@ -19,10 +19,10 @@ from utilities.logging import set_logger
 
 logger = set_logger('TRANSFORM_TO_AUTHORS_TABLES')
 
-def import_authors_to_df():
+def import_authors_to_df() -> pd.DataFrame:
     """
-
-    :return:
+    Function for converting authors' data dictionary to a dataframe
+    :return: pd.DataFrame, the dataframe
     """
     # Fetching all authors JSON filenames
     author_files = [
@@ -73,7 +73,10 @@ def import_authors_to_df():
 
     return df_authors
 
-def authors_table():
+def authors_table() -> None:
+    """
+    Function for saving to csv the 'authors' table
+    """
     # ------------------------------------------------------------------------------
     # --- Authors Table ---
 
@@ -132,7 +135,10 @@ def authors_table():
     # sep()
     # ------------------------------------------------------------------------------
 
-def authors_alternative_names_table():
+def authors_alternative_names_table() -> None:
+    """
+    Function for saving to csv the 'authors_alternative_names' table
+    """
     # ------------------------------------------------------------------------------
     # --- Authors Alternative Names Table ---
 
@@ -177,7 +183,10 @@ def authors_alternative_names_table():
     # sep()
     # ------------------------------------------------------------------------------
 
-def author_statistics_table():
+def author_statistics_table() -> None:
+    """
+    Function for saving to csv the 'author_statistics' table
+    """
     # ------------------------------------------------------------------------------
     # --- Authors Statistics Table ---
 
@@ -262,8 +271,11 @@ def author_statistics_table():
     # sep()
     # ------------------------------------------------------------------------------
 
-def import_works_to_df():
-
+def import_works_to_df() -> pd.DataFrame:
+    """
+    Function for converting the works' data to a dataframe
+    :return: pd.DataFrame, the dataframe
+    """
     # Fetching all works JSON filenames
     work_files = [
         os.path.join(WORKS_DIR, filename)
@@ -313,7 +325,10 @@ def import_works_to_df():
 
     return df_works
 
-def authors_works_table():
+def authors_works_table() -> None:
+    """
+    Function for saving to csv the 'authors_works' table
+    """
     # ------------------------------------------------------------------------------
     # --- Works Authors Table ---
 
@@ -388,7 +403,7 @@ def authors_works_table():
     # ------------------------------------------------------------------------------
 
 
-def run():
+def run() -> None:
     authors_table()
     authors_alternative_names_table()
     author_statistics_table()
