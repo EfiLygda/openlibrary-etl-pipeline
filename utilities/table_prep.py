@@ -1,4 +1,5 @@
 import pandas as pd
+from logging import Logger, LoggerAdapter
 from .validation import is_primary_key
 
 def strip_columns(df: pd.DataFrame) -> pd.DataFrame:
@@ -49,6 +50,7 @@ def prepare_table(
         table_name: str = '',
         drop_na_except: str | list[str] = None,
         drop_duplicates: bool = True,
+        logger: Logger | LoggerAdapter[Logger] | None = None
 ) -> pd.DataFrame:
     """
     Prepare tables pipeline:
@@ -64,6 +66,7 @@ def prepare_table(
     :param table_name: str, the name of the table
     :param drop_duplicates: bool, True if to drop duplicates, False if not to
     :param drop_na_except: str, the name of the column to exclude when searching for rows with all missing rows
+    :param logger: Logger | LoggerAdapter[Logger] | None, the logger to be used
     :return: pandas.DataFrame, the dataframe prepared
     """
 
@@ -80,10 +83,16 @@ def prepare_table(
 
     # Check if  suggested column can be used as a primary key
     if primary_key:
-        if not is_primary_key(df[primary_key]):
-            raise ValueError(f'\'{primary_key}\' is not primary key for \'{table_name}\' table.')
+        if logger:
+            if not is_primary_key(df[primary_key]):
+                logger.error(f'\'{primary_key}\' is not primary key for \'{table_name}\' table.')
+            else:
+                logger.info(f'\'{table_name}\' primary key is \'{primary_key}\'')
         else:
-            print(f'\'{table_name}\' Primary Key: \'{primary_key}\'')
+            if not is_primary_key(df[primary_key]):
+                raise ValueError(f'\'{primary_key}\' is not primary key for \'{table_name}\' table.')
+            else:
+                print(f'\'{table_name}\' primary key is \'{primary_key}\'')
 
     # Cast the new data types, if given
     if dtypes:
