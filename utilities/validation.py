@@ -1,5 +1,6 @@
-import pandas as pd
 import numpy as np
+import pandas as pd
+from logging import Logger, LoggerAdapter
 
 def has_na(values: pd.Series | pd.DataFrame) -> np.bool | None:
     """
@@ -59,20 +60,30 @@ def any_multivalue_list(col: pd.Series) -> np.bool:
 
 def check_explode(
         col: pd.Series,
-        table_name: str
+        table_name: str,
+        logger: Logger | LoggerAdapter[Logger] | None = None
 ) -> None:
     """
     Helper function for printing a message of whether to explode or not a column depending on if it has
     at least one multivalue list or not
     :param col: pd.Series, the column to use for the check
     :param table_name: str, name of the table
+    :param logger: Logger | LoggerAdapter[Logger] | None, the logger used
     :return: None
     """
+
+    # The messages used in case there is a need or not to explode a column
+    explode_msg =  f'Column \'{col.name}\' of table \'{table_name}\' has at least one multivalue list -> explode \'{col.name}\''
+    do_not_explode_msg = f'Column \'{col.name}\' of table \'{table_name}\' does not have multivalue lists -> do not explode \'{col.name}\''
+
+    # Find the right message to be displayed
     if any_multivalue_list(col):
-        print(
-            f'Column \'{col.name}\' of table \'{table_name}\' has at least one multivalue list -> explode \'{col.name}\''
-        )
+        message = explode_msg
     else:
-        print(
-            f'Column \'{col.name}\' of table \'{table_name}\' does not have multivalue lists -> do not explode \'{col.name}\''
-        )
+        message = do_not_explode_msg
+
+    # Check if a logger is used or else print the message
+    if logger:
+        logger.info(message)
+    else:
+        print(message)
