@@ -8,9 +8,9 @@ DETAILS:
     2.2 AUTHORS:        AUTHORS @ etl/extract/docs/api_documentation.md
     2.3 SERIES:         SERIES @ etl/extract/docs/api_documentation.md
 3. The results are saved as JSON files @ :
-    3.1 WORKS_ENRICHED: data/raw_pages/romance_fiction/works_enriched
-    3.2 AUTHORS:        data/raw_pages/romance_fiction/authors
-    3.3 SERIES:         data/raw_pages/romance_fiction/series
+    3.1 WORKS_ENRICHED: data/raw/romance_fiction/works_enriched
+    3.2 AUTHORS:        data/raw/romance_fiction/authors
+    3.3 SERIES:         data/raw/romance_fiction/series
 """
 import os
 import re
@@ -84,7 +84,7 @@ def run():
                 # Try to extract the data during these attempts
                 # Possible errors:
                 # 1. connection errors: requests.exceptions.ReadTimeout, requests.exceptions.ConnectTimeout
-                # 2. no data available: requests.exceptions.HTTPError
+                # 2. no data available: requests.exceptions.HTTPError, ValueError
                 try:
 
                     # Querying the API for the current batch
@@ -108,27 +108,27 @@ def run():
 
                     wait(5)
 
-                # The file name for the current batch
-                batch_filename = f'{key_file_type.upper()}_p{i+1}.json'
+            # The file name for the current batch
+            batch_filename = f'{key_file_type.upper()}_p{i+1}.json'
 
-                # Finding the current key type directory to save the records
-                key_type_dir = dirs[key_file_type]
+            # Finding the current key type directory to save the records
+            key_type_dir = dirs[key_file_type]
 
-                # The file path for the current batch
-                batch_filepath = os.path.join(key_type_dir, batch_filename)
+            # The file path for the current batch
+            batch_filepath = os.path.join(key_type_dir, batch_filename)
 
-                # Saving the current batch
-                save_json(records, batch_filepath)
+            # Saving the current batch
+            save_json(records, batch_filepath)
 
-                # Setting up the progress message for each key types
-                # New line when the type changes, same row for batches in the same key type
-                # if i + 1 == len(key_batches):
-                #     end_str = '\n'
-                # else:
-                #     end_str = '\r'
+            # Setting up the progress message for each key types
+            # New line when the type changes, same row for batches in the same key type
+            # if i + 1 == len(key_batches):
+            #     end_str = '\n'
+            # else:
+            #     end_str = '\r'
 
-                # Progress message
-                # print(f'({i+1}/{len(key_batches)}) Extracting {GENRE} {key_file_type}\'s metadata...', end=end_str)
+            # Progress message
+            # print(f'({i+1}/{len(key_batches)}) Extracting {GENRE} {key_file_type}\'s metadata...', end=end_str)
 
             logger.info(f'({i+1}/{len(key_batches)}) Extracted {GENRE} {key_file_type}\'s metadata')
 

@@ -45,7 +45,6 @@ def run():
             try:
                 # Fetch all editions associated with the current work key
                 data = client.get_work(work_key, editions=True)
-
                 break
 
             except (
