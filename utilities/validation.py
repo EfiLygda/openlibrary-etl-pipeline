@@ -95,14 +95,14 @@ def check_if_table_exists(
         table_name: str,
         schema: str = 'public',
         logger: Logger | LoggerAdapter[Logger] | None = None
-) -> None:
+) -> bool:
     """
     Function for validating if a table exists in a schema
     :param cursor: psycopg2.extensions.cursor, cursor object for the current database
     :param table_name: str, the name of the table
     :param schema: str, the name of the schema to check
     :param logger: Logger | LoggerAdapter[Logger] | None, the logger to be used
-    :return: None
+    :return: bool
     """
 
     query = """
@@ -130,3 +130,5 @@ def check_if_table_exists(
         logger.warning(message)
     else:
         print(message)
+
+    return table_exists

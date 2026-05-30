@@ -1,41 +1,41 @@
-05/29/2026 09:00:26 PM | [INFO] | load.py | [LOAD] Started loading data to database
-05/29/2026 09:00:26 PM | [INFO] | create_database.py | [CREATE_DATABASE] Started creation of database
-05/29/2026 09:00:26 PM | [WARNING] | create_database.py | [CREATE_DATABASE] Database 'romance_fiction' already exists
-05/29/2026 09:00:26 PM | [INFO] | create_database.py | [CREATE_DATABASE] Finished creation of database
-05/29/2026 09:00:26 PM | [INFO] | create_tables.py | [CREATE_TABLES_AT_DATABASE] Starting creation of tables at 'romance_fiction' database
-05/29/2026 09:00:26 PM | [WARNING] | validation.py | [CREATE_TABLES_AT_DATABASE] Table 'authors' already exists
-05/29/2026 09:00:26 PM | [WARNING] | validation.py | [CREATE_TABLES_AT_DATABASE] Table 'authors_alternative_names' already exists
-05/29/2026 09:00:26 PM | [WARNING] | validation.py | [CREATE_TABLES_AT_DATABASE] Table 'authors_statistics' already exists
-05/29/2026 09:00:26 PM | [WARNING] | validation.py | [CREATE_TABLES_AT_DATABASE] Table 'works' already exists
-05/29/2026 09:00:26 PM | [WARNING] | validation.py | [CREATE_TABLES_AT_DATABASE] Table 'authors_works' already exists
-05/29/2026 09:00:26 PM | [WARNING] | validation.py | [CREATE_TABLES_AT_DATABASE] Table 'works_series' already exists
-05/29/2026 09:00:26 PM | [WARNING] | validation.py | [CREATE_TABLES_AT_DATABASE] Table 'works_availability' already exists
-05/29/2026 09:00:26 PM | [WARNING] | validation.py | [CREATE_TABLES_AT_DATABASE] Table 'works_subjects' already exists
-05/29/2026 09:00:26 PM | [WARNING] | validation.py | [CREATE_TABLES_AT_DATABASE] Table 'works_people' already exists
-05/29/2026 09:00:26 PM | [WARNING] | validation.py | [CREATE_TABLES_AT_DATABASE] Table 'works_places' already exists
-05/29/2026 09:00:26 PM | [WARNING] | validation.py | [CREATE_TABLES_AT_DATABASE] Table 'works_time_periods' already exists
-05/29/2026 09:00:26 PM | [WARNING] | validation.py | [CREATE_TABLES_AT_DATABASE] Table 'editions' already exists
-05/29/2026 09:00:26 PM | [WARNING] | validation.py | [CREATE_TABLES_AT_DATABASE] Table 'editions_contributors' already exists
-05/29/2026 09:00:26 PM | [WARNING] | validation.py | [CREATE_TABLES_AT_DATABASE] Table 'editions_publishing' already exists
-05/29/2026 09:00:26 PM | [WARNING] | validation.py | [CREATE_TABLES_AT_DATABASE] Table 'editions_contents' already exists
-05/29/2026 09:00:26 PM | [WARNING] | validation.py | [CREATE_TABLES_AT_DATABASE] Table 'editions_details' already exists
-05/29/2026 09:00:26 PM | [INFO] | create_tables.py | [CREATE_TABLES_AT_DATABASE] Finished creation of tables at 'romance_fiction' database
-05/29/2026 09:00:26 PM | [INFO] | load_tables.py | [LOAD_TABLES_AT_DATABASE] Starting loading of tables to 'romance_fiction' database
-05/29/2026 09:00:26 PM | [INFO] | load_tables.py | [LOAD_TABLES_AT_DATABASE] Loaded 'authors' table
-05/29/2026 09:00:26 PM | [INFO] | load_tables.py | [LOAD_TABLES_AT_DATABASE] Loaded 'authors_alternative_names' table
-05/29/2026 09:00:26 PM | [INFO] | load_tables.py | [LOAD_TABLES_AT_DATABASE] Loaded 'authors_statistics' table
-05/29/2026 09:00:27 PM | [INFO] | load_tables.py | [LOAD_TABLES_AT_DATABASE] Loaded 'works' table
-05/29/2026 09:00:27 PM | [INFO] | load_tables.py | [LOAD_TABLES_AT_DATABASE] Loaded 'authors_works' table
-05/29/2026 09:00:27 PM | [INFO] | load_tables.py | [LOAD_TABLES_AT_DATABASE] Loaded 'works_series' table
-05/29/2026 09:00:27 PM | [INFO] | load_tables.py | [LOAD_TABLES_AT_DATABASE] Loaded 'works_availability' table
-05/29/2026 09:00:27 PM | [INFO] | load_tables.py | [LOAD_TABLES_AT_DATABASE] Loaded 'works_subjects' table
-05/29/2026 09:00:27 PM | [INFO] | load_tables.py | [LOAD_TABLES_AT_DATABASE] Loaded 'works_people' table
-05/29/2026 09:00:27 PM | [INFO] | load_tables.py | [LOAD_TABLES_AT_DATABASE] Loaded 'works_places' table
-05/29/2026 09:00:27 PM | [INFO] | load_tables.py | [LOAD_TABLES_AT_DATABASE] Loaded 'works_time_periods' table
-05/29/2026 09:00:27 PM | [INFO] | load_tables.py | [LOAD_TABLES_AT_DATABASE] Loaded 'editions' table
-05/29/2026 09:00:27 PM | [INFO] | load_tables.py | [LOAD_TABLES_AT_DATABASE] Loaded 'editions_contributors' table
-05/29/2026 09:00:28 PM | [INFO] | load_tables.py | [LOAD_TABLES_AT_DATABASE] Loaded 'editions_publishing' table
-05/29/2026 09:00:28 PM | [INFO] | load_tables.py | [LOAD_TABLES_AT_DATABASE] Loaded 'editions_contents' table
-05/29/2026 09:00:28 PM | [INFO] | load_tables.py | [LOAD_TABLES_AT_DATABASE] Loaded 'editions_details' table
-05/29/2026 09:00:28 PM | [INFO] | load_tables.py | [LOAD_TABLES_AT_DATABASE] Finished loading of tables to 'romance_fiction' database
-05/29/2026 09:00:28 PM | [INFO] | load.py | [LOAD] Finished loading data to database
+05/30/2026 04:43:04 PM | [INFO] | load.py | [LOAD] Started loading data to database
+05/30/2026 04:43:04 PM | [INFO] | create_database.py | [CREATE_DATABASE] Started creation of database
+05/30/2026 04:43:04 PM | [INFO] | create_database.py | [CREATE_DATABASE] Database 'romance_fiction' already exists -> using existing
+05/30/2026 04:43:04 PM | [INFO] | create_database.py | [CREATE_DATABASE] Finished creation of database
+05/30/2026 04:43:04 PM | [INFO] | create_tables.py | [CREATE_TABLES_AT_DATABASE] Starting creation of tables at 'romance_fiction' database
+05/30/2026 04:43:04 PM | [WARNING] | validation.py | [CREATE_TABLES_AT_DATABASE] Table 'authors' does not exist -> will be created
+05/30/2026 04:43:04 PM | [WARNING] | validation.py | [CREATE_TABLES_AT_DATABASE] Table 'authors_alternative_names' does not exist -> will be created
+05/30/2026 04:43:04 PM | [WARNING] | validation.py | [CREATE_TABLES_AT_DATABASE] Table 'authors_statistics' does not exist -> will be created
+05/30/2026 04:43:04 PM | [WARNING] | validation.py | [CREATE_TABLES_AT_DATABASE] Table 'works' does not exist -> will be created
+05/30/2026 04:43:04 PM | [WARNING] | validation.py | [CREATE_TABLES_AT_DATABASE] Table 'authors_works' does not exist -> will be created
+05/30/2026 04:43:04 PM | [WARNING] | validation.py | [CREATE_TABLES_AT_DATABASE] Table 'works_series' does not exist -> will be created
+05/30/2026 04:43:04 PM | [WARNING] | validation.py | [CREATE_TABLES_AT_DATABASE] Table 'works_availability' does not exist -> will be created
+05/30/2026 04:43:04 PM | [WARNING] | validation.py | [CREATE_TABLES_AT_DATABASE] Table 'works_subjects' does not exist -> will be created
+05/30/2026 04:43:04 PM | [WARNING] | validation.py | [CREATE_TABLES_AT_DATABASE] Table 'works_people' does not exist -> will be created
+05/30/2026 04:43:04 PM | [WARNING] | validation.py | [CREATE_TABLES_AT_DATABASE] Table 'works_places' does not exist -> will be created
+05/30/2026 04:43:04 PM | [WARNING] | validation.py | [CREATE_TABLES_AT_DATABASE] Table 'works_time_periods' does not exist -> will be created
+05/30/2026 04:43:04 PM | [WARNING] | validation.py | [CREATE_TABLES_AT_DATABASE] Table 'editions' does not exist -> will be created
+05/30/2026 04:43:04 PM | [WARNING] | validation.py | [CREATE_TABLES_AT_DATABASE] Table 'editions_contributors' does not exist -> will be created
+05/30/2026 04:43:04 PM | [WARNING] | validation.py | [CREATE_TABLES_AT_DATABASE] Table 'editions_publishing' does not exist -> will be created
+05/30/2026 04:43:04 PM | [WARNING] | validation.py | [CREATE_TABLES_AT_DATABASE] Table 'editions_contents' does not exist -> will be created
+05/30/2026 04:43:04 PM | [WARNING] | validation.py | [CREATE_TABLES_AT_DATABASE] Table 'editions_details' does not exist -> will be created
+05/30/2026 04:43:04 PM | [INFO] | create_tables.py | [CREATE_TABLES_AT_DATABASE] Finished creation of tables at 'romance_fiction' database
+05/30/2026 04:43:04 PM | [INFO] | load_tables.py | [LOAD_TABLES_AT_DATABASE] Starting loading of tables to 'romance_fiction' database
+05/30/2026 04:43:04 PM | [INFO] | load_tables.py | [LOAD_TABLES_AT_DATABASE] Loaded 'authors' table
+05/30/2026 04:43:04 PM | [INFO] | load_tables.py | [LOAD_TABLES_AT_DATABASE] Loaded 'authors_alternative_names' table
+05/30/2026 04:43:04 PM | [INFO] | load_tables.py | [LOAD_TABLES_AT_DATABASE] Loaded 'authors_statistics' table
+05/30/2026 04:43:04 PM | [INFO] | load_tables.py | [LOAD_TABLES_AT_DATABASE] Loaded 'works' table
+05/30/2026 04:43:04 PM | [INFO] | load_tables.py | [LOAD_TABLES_AT_DATABASE] Loaded 'authors_works' table
+05/30/2026 04:43:04 PM | [INFO] | load_tables.py | [LOAD_TABLES_AT_DATABASE] Loaded 'works_series' table
+05/30/2026 04:43:05 PM | [INFO] | load_tables.py | [LOAD_TABLES_AT_DATABASE] Loaded 'works_availability' table
+05/30/2026 04:43:05 PM | [INFO] | load_tables.py | [LOAD_TABLES_AT_DATABASE] Loaded 'works_subjects' table
+05/30/2026 04:43:05 PM | [INFO] | load_tables.py | [LOAD_TABLES_AT_DATABASE] Loaded 'works_people' table
+05/30/2026 04:43:05 PM | [INFO] | load_tables.py | [LOAD_TABLES_AT_DATABASE] Loaded 'works_places' table
+05/30/2026 04:43:05 PM | [INFO] | load_tables.py | [LOAD_TABLES_AT_DATABASE] Loaded 'works_time_periods' table
+05/30/2026 04:43:06 PM | [INFO] | load_tables.py | [LOAD_TABLES_AT_DATABASE] Loaded 'editions' table
+05/30/2026 04:43:06 PM | [INFO] | load_tables.py | [LOAD_TABLES_AT_DATABASE] Loaded 'editions_contributors' table
+05/30/2026 04:43:06 PM | [INFO] | load_tables.py | [LOAD_TABLES_AT_DATABASE] Loaded 'editions_publishing' table
+05/30/2026 04:43:07 PM | [INFO] | load_tables.py | [LOAD_TABLES_AT_DATABASE] Loaded 'editions_contents' table
+05/30/2026 04:43:07 PM | [INFO] | load_tables.py | [LOAD_TABLES_AT_DATABASE] Loaded 'editions_details' table
+05/30/2026 04:43:07 PM | [INFO] | load_tables.py | [LOAD_TABLES_AT_DATABASE] Finished loading of tables to 'romance_fiction' database
+05/30/2026 04:43:07 PM | [INFO] | load.py | [LOAD] Finished loading data to database

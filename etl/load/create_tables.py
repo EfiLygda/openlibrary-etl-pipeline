@@ -19,6 +19,9 @@ Details: Tables are created with this sequence:
 15. editions_contents
 16. editions_details
 """
+import os
+
+from config.paths import SCHEMA_DIR
 
 from utilities.database import DB_NAME, db_connection
 from utilities.validation import check_if_table_exists
@@ -73,362 +76,29 @@ def run():
     # ---------------------------------------------------------------------------------------
     # --- Create Tables ---
 
-    # Step 1: Create `authors` table
-    cursor.execute("""
-    CREATE TABLE IF NOT EXISTS authors
-        (
-            author_key VARCHAR PRIMARY KEY,
-            author_name VARCHAR,
-            bio VARCHAR,
-            birth_date VARCHAR,
-            death_date VARCHAR,
-            birth_year INT,
-            death_year INT
-        );
-    """)
+    # List with the right sequence of sql files containing the CREATE command for each table
+    table_sql_paths = [
+        os.path.join(SCHEMA_DIR, filename)
+        for filename in sorted(os.listdir(SCHEMA_DIR))
+    ]
 
-    check_if_table_exists(
-        cursor,
-        table_name='authors',
-        logger=logger
-    )
+    # For each table sql CREATE file create the table if it does not already exist
+    for table_path in table_sql_paths:
 
-    # Step 2: Create `authors_alternative_names` table
-    cursor.execute("""
-    CREATE TABLE IF NOT EXISTS authors_alternative_names
-        (
-            author_key VARCHAR NOT NULL,
-            author_alternative_name VARCHAR NOT NULL,
-    
-            PRIMARY KEY (author_key, author_alternative_name),
-    
-            CONSTRAINT fk_authors_alternative_names_author_key
-                FOREIGN KEY (author_key)
-                REFERENCES authors(author_key)
-        );
-    """)
+        # Extract the table name from the filepath
+        table_name = os.path.basename(table_path).replace('.sql', '')[3:]
 
-    check_if_table_exists(
-        cursor,
-        table_name='authors_alternative_names',
-        logger=logger
-    )
+        # Check if the table already exists (this is mainly for logging)
+        check_if_table_exists(
+            cursor,
+            table_name=table_name,
+            logger=logger
+        )
 
-    # Step 3: Create `authors_statistics` table
-    cursor.execute("""
-    CREATE TABLE IF NOT EXISTS authors_statistics
-        (
-            author_key VARCHAR PRIMARY KEY,
-            top_work VARCHAR,
-            work_count INT,
-            ratings_count_1 INT,
-            ratings_count_2 INT,
-            ratings_count_3 INT,
-            ratings_count_4 INT,
-            ratings_count_5 INT,
-            readinglog_count INT,
-            want_to_read_count INT,
-            currently_reading_count INT,
-            already_read_count INT,
-    
-            CONSTRAINT fk_authors_statistics_author_key
-                FOREIGN KEY (author_key)
-                REFERENCES authors(author_key)
-        );
-    """)
-
-    check_if_table_exists(
-        cursor,
-        table_name='authors_statistics',
-        logger=logger
-    )
-
-    # Step 4: Create `works` table
-    cursor.execute("""
-    CREATE TABLE IF NOT EXISTS works
-        (
-            work_key VARCHAR PRIMARY KEY,
-            title VARCHAR,
-            subtitle VARCHAR,
-            description TEXT,
-            first_sentence TEXT,
-            edition_count INT,
-            first_publish_year INT,
-            first_publish_date VARCHAR
-        );
-    """)
-
-    check_if_table_exists(
-        cursor,
-        table_name='works',
-        logger=logger
-    )
-
-    # Step 5: Create `authors_works` table
-    cursor.execute("""
-    CREATE TABLE IF NOT EXISTS authors_works
-        (
-            author_key VARCHAR NOT NULL,
-            work_key VARCHAR NOT NULL,
-            
-            PRIMARY KEY (author_key, work_key),
-            
-            CONSTRAINT fk_authors_works_author_key
-                FOREIGN KEY (author_key)
-                REFERENCES authors(author_key),
-            CONSTRAINT fk_authors_works_work_key
-                FOREIGN KEY (work_key)
-                REFERENCES works(work_key)
-        );
-    """)
-
-    check_if_table_exists(
-        cursor,
-        table_name='authors_works',
-        logger=logger
-    )
-
-    # Step 6: Create `works_series` table
-    cursor.execute("""
-    CREATE TABLE IF NOT EXISTS works_series
-        (
-            work_key VARCHAR PRIMARY KEY,
-            series_key VARCHAR,
-            series_position VARCHAR,
-            name VARCHAR,
-    
-            CONSTRAINT fk_works_series_work_key
-                FOREIGN KEY (work_key)
-                REFERENCES works(work_key)
-        );
-    """)
-
-    check_if_table_exists(
-        cursor,
-        table_name='works_series',
-        logger=logger
-    )
-
-    # Step 7: Create `works_availability` table
-    cursor.execute("""
-    CREATE TABLE IF NOT EXISTS works_availability
-        (
-            work_key VARCHAR PRIMARY KEY,
-            ebook_access VARCHAR,
-            has_fulltext BOOL,
-            has_public_scan BOOL,
-    
-            CONSTRAINT fk_works_availability_work_key
-                FOREIGN KEY (work_key)
-                REFERENCES works(work_key)
-        );
-    """)
-
-    check_if_table_exists(
-        cursor,
-        table_name='works_availability',
-        logger=logger
-    )
-
-    # Step 8: Create `works_subjects` table
-    cursor.execute("""
-    CREATE TABLE IF NOT EXISTS works_subjects
-        (
-            work_key VARCHAR NOT NULL,
-            subject VARCHAR NOT NULL,
-            
-            PRIMARY KEY (work_key, subject),
-            
-            CONSTRAINT fk_works_subjects_work_key
-                FOREIGN KEY (work_key)
-                REFERENCES works(work_key)
-        );
-    """)
-
-    check_if_table_exists(
-        cursor,
-        table_name='works_subjects',
-        logger=logger
-    )
-
-    # Step 9: Create `works_people` table
-    cursor.execute("""
-    CREATE TABLE IF NOT EXISTS works_people
-        (
-            work_key VARCHAR NOT NULL,
-            person VARCHAR NOT NULL,
-    
-            PRIMARY KEY (work_key, person),
-    
-            CONSTRAINT fk_works_people_work_key
-                FOREIGN KEY (work_key)
-                REFERENCES works(work_key)
-        );
-    """)
-
-    check_if_table_exists(
-        cursor,
-        table_name='works_people',
-        logger=logger
-    )
-
-    # Step 10: Create `works_places` table
-    cursor.execute("""
-    CREATE TABLE IF NOT EXISTS works_places
-        (
-            work_key VARCHAR NOT NULL,
-            place VARCHAR NOT NULL,
-    
-            PRIMARY KEY (work_key, place),
-    
-            CONSTRAINT fk_works_places_work_key
-                FOREIGN KEY (work_key)
-                REFERENCES works(work_key)
-        );
-    """)
-
-    check_if_table_exists(
-        cursor,
-        table_name='works_places',
-        logger=logger
-    )
-
-    # Step 11: Create `works_time_periods` table
-    cursor.execute("""
-    CREATE TABLE IF NOT EXISTS works_time_periods
-        (
-            work_key VARCHAR NOT NULL,
-            time_period VARCHAR NOT NULL,
-    
-            PRIMARY KEY (work_key, time_period),
-    
-            CONSTRAINT fk_works_time_periods_work_key
-                FOREIGN KEY (work_key)
-                REFERENCES works(work_key)
-        );
-    """)
-
-    check_if_table_exists(
-        cursor,
-        table_name='works_time_periods',
-        logger=logger
-    )
-
-    # Step 12: Create `editions` table
-    cursor.execute("""
-    CREATE TABLE IF NOT EXISTS editions
-        (
-            edition_key VARCHAR PRIMARY KEY,
-            work_key VARCHAR,
-            title VARCHAR,
-            subtitle VARCHAR,
-            edition_name VARCHAR,
-    
-            CONSTRAINT fk_editions_work_key
-                FOREIGN KEY (work_key)
-                REFERENCES works(work_key)
-        );
-    """)
-
-    check_if_table_exists(
-        cursor,
-        table_name='editions',
-        logger=logger
-    )
-
-    # Step 13: Create `editions_contributors` table
-    cursor.execute("""
-    CREATE TABLE IF NOT EXISTS editions_contributors
-        (
-            contribution_id SERIAL PRIMARY KEY,
-            edition_key VARCHAR,
-            contributor_name VARCHAR,
-            contributor_role VARCHAR,
-            by_statement VARCHAR,
-            translated_from VARCHAR,
-            translation_of VARCHAR,
-                    
-            CONSTRAINT fk_editions_contributors_edition_key
-                FOREIGN KEY (edition_key)
-                REFERENCES editions(edition_key)
-        );
-    """)
-
-    check_if_table_exists(
-        cursor,
-        table_name='editions_contributors',
-        logger=logger
-    )
-
-    # Step 14: Create `editions_publishing` table
-    cursor.execute("""
-    CREATE TABLE IF NOT EXISTS editions_publishing
-        (
-            publishing_id SERIAL PRIMARY KEY,
-            edition_key VARCHAR,
-            publish_date VARCHAR,
-            publish_year INT,
-            publisher VARCHAR,
-            publish_place VARCHAR,
-            publish_country VARCHAR,
-            series VARCHAR,
-    
-            CONSTRAINT fk_editions_publishing_edition_key
-                FOREIGN KEY (edition_key)
-                REFERENCES editions(edition_key)
-        );
-    """)
-
-    check_if_table_exists(
-        cursor,
-        table_name='editions_publishing',
-        logger=logger
-    )
-
-    # Step 15: Create `editions_contents` table
-    cursor.execute("""
-    CREATE TABLE IF NOT EXISTS editions_contents
-        (
-            edition_key VARCHAR PRIMARY KEY,
-            description VARCHAR,
-            notes VARCHAR,
-            first_sentence VARCHAR,
-    
-            CONSTRAINT fk_editions_contents_edition_key
-                FOREIGN KEY (edition_key)
-                REFERENCES editions(edition_key)
-        );
-    """)
-
-    check_if_table_exists(
-        cursor,
-        table_name='editions_contents',
-        logger=logger
-    )
-
-    # Step 16: Create `editions_details` table
-    cursor.execute("""
-    CREATE TABLE IF NOT EXISTS editions_details
-        (
-            details_id SERIAL PRIMARY KEY,
-            edition_key VARCHAR,
-            number_of_pages INT,
-            physical_format VARCHAR,
-            physical_dimensions VARCHAR,
-            weight VARCHAR,
-            language VARCHAR,
-    
-            CONSTRAINT fk_editions_details_edition_key
-                FOREIGN KEY (edition_key)
-                REFERENCES editions(edition_key)
-        );
-    """)
-
-    check_if_table_exists(
-        cursor,
-        table_name='editions_details',
-        logger=logger
-    )
+        # Read the SQL command and execute it
+        with open(table_path, encoding='utf-8', mode='r') as f:
+            sql = f.read()
+            cursor.execute(sql)
 
     # Close the cursor
     cursor.close()

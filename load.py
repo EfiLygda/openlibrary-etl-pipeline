@@ -2,7 +2,6 @@
 Load tables to romance_fiction PostgreSQL database
 """
 
-
 import os
 
 from config.paths import LOG_DIR
