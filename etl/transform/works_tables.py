@@ -14,7 +14,7 @@ from config.paths import CSV_DIR, WORKS_DIR, SEARCH_DIR, SERIES_DIR
 from utilities.io import load_json, save_csv
 from utilities.parsing import extract_text
 from utilities.validation import check_explode
-from etl.transform.schemas import (works_dtypes,
+from etl.transform.dtypes import (works_dtypes,
                                    series_dtypes,
                                    availability_dtypes,
                                    subjects_dtypes,

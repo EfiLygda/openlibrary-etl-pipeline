@@ -14,7 +14,7 @@ from config.paths import CSV_DIR, BOOKS_DIR, KEYS_DIR
 from utilities.io import load_json, save_csv
 from utilities.validation import check_explode
 from utilities.parsing import get_language, find_year, extract_text
-from etl.transform.schemas import (editions_dtypes,
+from etl.transform.dtypes import (editions_dtypes,
                                    contributors_dtypes,
                                    publishing_dtypes,
                                    contents_dtypes,
