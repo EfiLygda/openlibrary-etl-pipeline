@@ -28,7 +28,7 @@ SERIES_DIR = os.path.join(RAW_PAGES_DIR, 'series')
 BOOKS_DIR = os.path.join(RAW_PAGES_DIR, 'books')
 # PUBLISHERS_DIR = os.path.join(KEYS_DIR, 'publishers')
 # SUBJECTS_DIR = os.path.join(KEYS_DIR, 'subjects')
-AUTHORS_STATISTICS_DIR = os.path.join(RAW_PAGES_DIR, 'author_statistics')
+AUTHORS_STATISTICS_DIR = os.path.join(RAW_PAGES_DIR, 'authors_statistics')
 
 # Schema directory
 SCHEMA_DIR = os.path.join(ROOT_DIR, 'database', 'schema')
