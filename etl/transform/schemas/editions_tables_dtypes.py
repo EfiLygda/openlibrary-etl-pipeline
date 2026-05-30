@@ -1,7 +1,7 @@
 """
-Contains dtypes for each editions table and their respective original field from the API
+Contains schemas for each editions table and their respective original field from the API
 
-See utilities/dtypes/base_urls for 'SEARCH', 'AUTHORS', 'SEARCH_AUTHORS', 'BOOKS' and 'WORKS'
+See utilities/schemas/base_urls for 'SEARCH', 'AUTHORS', 'SEARCH_AUTHORS', 'BOOKS' and 'WORKS'
 """
 
 # ------------------------------------------------------------------------------
