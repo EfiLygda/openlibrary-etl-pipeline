@@ -145,8 +145,6 @@ class Client:
         # Setting the base url for searching the API
         if editions:
             work_url = f'{self.BASE_URL}/works/{work_key}/editions.json'
-            # TODO: returns first 50 only needs offset=50 to get next, or
-            #       use the 'next' from the record returned
         else:
             work_url = f'{self.BASE_URL}/works/{work_key}.json'
 

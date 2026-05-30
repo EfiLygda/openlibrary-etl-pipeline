@@ -45,6 +45,34 @@ def run():
             try:
                 # Fetch all editions associated with the current work key
                 data = client.get_work(work_key, editions=True)
+
+                # Total editions for current general work
+                total_editions = data['size']
+
+                # Check if there is a next page
+                # Note: The query only returns 50 records, but more can be available via the offset parameter
+                has_next_page = True if total_editions > 50 else False
+
+                # Setting up possible offset
+                offset = 0
+
+                # While there is a next page with 50 more editions extract them
+                while has_next_page:
+
+                    # Add to the offset 50 more records for next page
+                    offset += 50
+
+                    # Query the next page with next 50 editions
+                    data_offset = client.get_work(work_key, editions=True, offset=offset)
+
+                    # Add new edition data to previous records
+                    data['entries'] += data_offset['entries']
+
+                    # Check if current page has 50 more records
+                    has_next_page = True if 'next' in data_offset['links'] else False
+
+                    wait(3)
+
                 break
 
             except (
@@ -57,9 +85,6 @@ def run():
                 logger.error(f"Failed to fetch work {work_key}: {e}")
 
                 wait(5)
-
-        # Keep the number of editions
-        # total_books = data['size']
 
         # Extract the book entries from the result of the query
         books = data['entries']
@@ -76,7 +101,16 @@ def run():
 
         # Progress message
         # print(f'({i+1}/{len(work_keys)}) Extracting edition keys for each general work...', end='\r')
-        logger.info(f'({i+1}/{len(work_keys)}) Extracting edition keys for each general work')
+        # logger.info(f'({i+1}/{len(work_keys)}) Extracting {total_editions} edition keys for {work_key} general work')
+
+        # Logging possible missing data
+        if total_editions == len(data['entries']):
+            logger.info(
+                f'({i+1}/{len(work_keys)}) Total of {total_editions} edition keys were extracted for work \'{work_key}\''
+            )
+        else:
+            logger.error(f'({i+1}/{len(work_keys)}) Not all edition keys were extracted for work \'{work_key}\'')
+
 
         # Politely wait more than 5 seconds for each request
         # Adding a random seconds between 0 and 1.5 to the 3, in order to simulate human behavior
