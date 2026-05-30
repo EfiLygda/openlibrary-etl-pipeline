@@ -13,6 +13,10 @@ from config.api import GENRE_facet
 
 from utilities.io import load_json, save_csv
 from utilities.logging import sep
+from utilities.dtypes import (authors_dtypes,
+                              authors_alternative_names_dtypes,
+                              author_statistics_dtypes,
+                              authors_works_dtypes)
 from utilities.parsing import find_year, extract_text
 from utilities.table_prep import prepare_table
 from utilities.logging import set_logger
@@ -102,15 +106,15 @@ def authors_table() -> None:
     authors_table['bio'] = authors_table.bio.apply(extract_text)
 
     # Set data types for each column
-    authors_dtypes = {
-        'author_key': 'string',
-        'author_name': 'string',
-        'bio': 'string',
-        'birth_date': 'string',
-        'death_date': 'string',
-        'birth_year': 'Int64',
-        'death_year': 'Int64'
-    }
+    # authors_dtypes = {
+    #     'author_key': 'string',
+    #     'author_name': 'string',
+    #     'bio': 'string',
+    #     'birth_date': 'string',
+    #     'death_date': 'string',
+    #     'birth_year': 'Int64',
+    #     'death_year': 'Int64'
+    # }
 
     # Prepare tables for exporting
     authors_table = prepare_table(
@@ -156,10 +160,10 @@ def authors_alternative_names_table() -> None:
     authors_alternative_names_table = authors_alternative_names_table.dropna(how='any')
 
     # Set data types for each column
-    authors_alternative_names_dtypes = {
-        'author_key': 'string',
-        'author_alternative_name': 'string',
-    }
+    # authors_alternative_names_dtypes = {
+    #     'author_key': 'string',
+    #     'author_alternative_name': 'string',
+    # }
 
     # Prepare tables for exporting
     authors_alternative_names_table = prepare_table(
@@ -233,20 +237,20 @@ def author_statistics_table() -> None:
     author_statistics_table = df_stats[statistics_columns_to_keep]
 
     # Set data types for each column
-    author_statistics_dtypes = {
-        'author_key': 'string',
-        'top_work': 'string',
-        'work_count': 'Int64',
-        'ratings_count_1': 'Int64',
-        'ratings_count_2': 'Int64',
-        'ratings_count_3': 'Int64',
-        'ratings_count_4': 'Int64',
-        'ratings_count_5': 'Int64',
-        'readinglog_count': 'Int64',
-        'want_to_read_count': 'Int64',
-        'currently_reading_count': 'Int64',
-        'already_read_count': 'Int64',
-    }
+    # author_statistics_dtypes = {
+    #     'author_key': 'string',
+    #     'top_work': 'string',
+    #     'work_count': 'Int64',
+    #     'ratings_count_1': 'Int64',
+    #     'ratings_count_2': 'Int64',
+    #     'ratings_count_3': 'Int64',
+    #     'ratings_count_4': 'Int64',
+    #     'ratings_count_5': 'Int64',
+    #     'readinglog_count': 'Int64',
+    #     'want_to_read_count': 'Int64',
+    #     'currently_reading_count': 'Int64',
+    #     'already_read_count': 'Int64',
+    # }
 
     # Prepare tables for exporting
     author_statistics_table = prepare_table(
@@ -375,10 +379,10 @@ def authors_works_table() -> None:
     ]
 
     # Set data types for each column
-    authors_works_dtypes = {
-        'work_key': 'string',
-        'author_key': 'string',
-    }
+    # authors_works_dtypes = {
+    #     'work_key': 'string',
+    #     'author_key': 'string',
+    # }
 
     # Prepare tables for exporting
     authors_works_table = prepare_table(

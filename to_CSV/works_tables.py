@@ -16,6 +16,13 @@ from utilities.io import load_json, save_csv
 from utilities.logging import sep
 from utilities.parsing import extract_text
 from utilities.validation import check_explode
+from utilities.dtypes import (works_dtypes,
+                              series_dtypes,
+                              availability_dtypes,
+                              subjects_dtypes,
+                              people_dtypes,
+                              places_dtypes,
+                              times_dtypes)
 from utilities.table_prep import prepare_table
 from utilities.logging import set_logger
 
@@ -198,16 +205,16 @@ def works_table(works_df: pd.DataFrame) -> None:
     works_df['first_sentence'] = works_df.first_sentence.apply(extract_text)
 
     # Set data types for each column
-    works_dtypes = {
-        'work_key': 'string',
-        "title": 'string',
-        "subtitle": 'string',
-        "description": 'string',
-        "first_sentence": 'string',
-        "edition_count": 'Int64',
-        "first_publish_year": 'Int64',
-        "first_publish_date": 'string',
-    }
+    # works_dtypes = {
+    #     'work_key': 'string',
+    #     "title": 'string',
+    #     "subtitle": 'string',
+    #     "description": 'string',
+    #     "first_sentence": 'string',
+    #     "edition_count": 'Int64',
+    #     "first_publish_year": 'Int64',
+    #     "first_publish_date": 'string',
+    # }
 
     # Prepare tables for exporting
     works_df = prepare_table(
@@ -330,12 +337,12 @@ def works_series_table(series_df: pd.DataFrame) -> None:
     )
 
     # Set data types for each column
-    series_dtypes = {
-        'work_key': 'string',
-        "series_key": 'string',
-        "series_position": 'string',
-        "name": 'string',
-    }
+    # series_dtypes = {
+    #     'work_key': 'string',
+    #     "series_key": 'string',
+    #     "series_position": 'string',
+    #     "name": 'string',
+    # }
 
     # Prepare tables for exporting
     series_df = prepare_table(
@@ -372,12 +379,12 @@ def works_availability_table(availability_df: pd.DataFrame) -> None:
     availability_df.rename(columns={'public_scan_b': 'has_public_scan'}, inplace=True)
 
     # Set data types for each column
-    availability_dtypes = {
-        'work_key': 'string',
-        "ebook_access": 'string',
-        "has_fulltext": 'bool',
-        "has_public_scan": 'bool',
-    }
+    # availability_dtypes = {
+    #     'work_key': 'string',
+    #     "ebook_access": 'string',
+    #     "has_fulltext": 'bool',
+    #     "has_public_scan": 'bool',
+    # }
 
     # Prepare tables for exporting
     availability_df = prepare_table(
@@ -424,10 +431,10 @@ def works_subjects_table(subjects_df: pd.DataFrame) -> None:
     subjects_df.rename(columns={'subjects': 'subject'}, inplace=True)
 
     # Set data types for each column
-    subjects_dtypes = {
-        'work_key': 'string',
-        "subject": 'string',
-    }
+    # subjects_dtypes = {
+    #     'work_key': 'string',
+    #     "subject": 'string',
+    # }
 
     # Prepare tables for exporting
     subjects_df = prepare_table(
@@ -474,10 +481,10 @@ def works_people_table(people_df: pd.DataFrame) -> None:
     people_df.rename(columns={'subject_people': 'person'}, inplace=True)
 
     # Set data types for each column
-    people_dtypes = {
-        'work_key': 'string',
-        "person": 'string',
-    }
+    # people_dtypes = {
+    #     'work_key': 'string',
+    #     "person": 'string',
+    # }
 
     # Prepare tables for exporting
     people_df = prepare_table(
@@ -524,10 +531,10 @@ def works_places_table(places_df: pd.DataFrame) -> None:
     places_df.rename(columns={'subject_places': 'place'}, inplace=True)
 
     # Set data types for each column
-    places_dtypes = {
-        'work_key': 'string',
-        "place": 'string',
-    }
+    # places_dtypes = {
+    #     'work_key': 'string',
+    #     "place": 'string',
+    # }
 
     # Prepare tables for exporting
     places_df = prepare_table(
@@ -574,10 +581,10 @@ def works_times_table(times_df: pd.DataFrame) -> None:
     times_df.rename(columns={'subject_times': 'time_period'}, inplace=True)
 
     # Set data types for each column
-    times_dtypes = {
-        'work_key': 'string',
-        "time_period": 'string',
-    }
+    # times_dtypes = {
+    #     'work_key': 'string',
+    #     "time_period": 'string',
+    # }
 
     # Prepare tables for exporting
     times_df = prepare_table(

@@ -15,6 +15,11 @@ from utilities.io import load_json, save_csv
 from utilities.logging import sep
 from utilities.validation import check_explode
 from utilities.parsing import get_language, find_year, extract_text
+from utilities.dtypes import (editions_dtypes,
+                              contributors_dtypes,
+                              publishing_dtypes,
+                              contents_dtypes,
+                              details_dtypes)
 from utilities.table_prep import prepare_table
 from utilities.logging import set_logger
 
@@ -166,13 +171,13 @@ def editions_table(editions_df: pd.DataFrame) -> None:
     # --- Editions Table ---
 
     # Set data types for each column
-    editions_dtypes = {
-        'edition_key': 'string',
-        "work_key": 'string',
-        "title": 'string',
-        "subtitle": 'string',
-        "edition_name": 'string',
-    }
+    # editions_dtypes = {
+    #     'edition_key': 'string',
+    #     "work_key": 'string',
+    #     "title": 'string',
+    #     "subtitle": 'string',
+    #     "edition_name": 'string',
+    # }
 
     # Prepare tables for exporting
     editions_df = prepare_table(
@@ -253,14 +258,14 @@ def editions_contributors_table(contributors_df: pd.DataFrame) -> None:
     ]
 
     # Set data types for each column
-    contributors_dtypes = {
-        'edition_key': 'string',
-        "contributor_name": 'string',
-        "contributor_role": 'string',
-        "by_statement": 'string',
-        "translation_of": 'string',
-        "translated_from": 'string',
-    }
+    # contributors_dtypes = {
+    #     'edition_key': 'string',
+    #     "contributor_name": 'string',
+    #     "contributor_role": 'string',
+    #     "by_statement": 'string',
+    #     "translation_of": 'string',
+    #     "translated_from": 'string',
+    # }
 
     # Prepare tables for exporting
     contributors_df = prepare_table(
@@ -346,15 +351,15 @@ def editions_publishing_table(publishing_df: pd.DataFrame) -> None:
     ]
 
     # Set data types for each column
-    publishing_dtypes = {
-        'edition_key': 'string',
-        "publish_date": 'string',
-        "publisher": 'string',
-        "publish_place": 'string',
-        "publish_country": 'string',
-        "series": 'string',
-        "publish_year": "Int64"
-    }
+    # publishing_dtypes = {
+    #     'edition_key': 'string',
+    #     "publish_date": 'string',
+    #     "publisher": 'string',
+    #     "publish_place": 'string',
+    #     "publish_country": 'string',
+    #     "series": 'string',
+    #     "publish_year": "Int64"
+    # }
 
     # Prepare tables for exporting
     publishing_df = prepare_table(
@@ -397,12 +402,12 @@ def editions_contents_table(contents_df: pd.DataFrame) -> None:
     contents_df['first_sentence'] = contents_df.first_sentence.apply(extract_text)
 
     # Set data types for each column
-    contents_dtypes = {
-        'edition_key': 'string',
-        "description": 'string',
-        "notes": 'string',
-        "first_sentence": 'string',
-    }
+    # contents_dtypes = {
+    #     'edition_key': 'string',
+    #     "description": 'string',
+    #     "notes": 'string',
+    #     "first_sentence": 'string',
+    # }
 
     # Prepare tables for exporting
     contents_df = prepare_table(
@@ -456,14 +461,14 @@ def editions_details_table(details_df: pd.DataFrame) -> None:
     details_df.rename(columns={'languages': 'language'}, inplace=True)
 
     # Set data types for each column
-    details_dtypes = {
-        'edition_key': 'string',
-        "number_of_pages": 'Int64',
-        "physical_format": 'string',
-        "physical_dimensions": 'string',
-        "weight": 'string',
-        "language": 'string',
-    }
+    # details_dtypes = {
+    #     'edition_key': 'string',
+    #     "number_of_pages": 'Int64',
+    #     "physical_format": 'string',
+    #     "physical_dimensions": 'string',
+    #     "weight": 'string',
+    #     "language": 'string',
+    # }
 
     # Prepare tables for exporting
     details_df = prepare_table(
