@@ -1,34 +1,34 @@
-05/30/2026 11:49:25 AM | [INFO] | transform.py | [TRANSFORM] Started transformation of data from JSON files to CSV files
-05/30/2026 11:49:25 AM | [INFO] | author_tables.py | [TRANSFORM_TO_AUTHORS_TABLES] All authors' records were checked and author keys are correct.
-05/30/2026 11:49:25 AM | [INFO] | table_prep.py | [TRANSFORM_TO_AUTHORS_TABLES] 'authors' primary key is 'author_key'
-05/30/2026 11:49:25 AM | [INFO] | author_tables.py | [TRANSFORM_TO_AUTHORS_TABLES] All authors' records were checked and author keys are correct.
-05/30/2026 11:49:25 AM | [INFO] | table_prep.py | [TRANSFORM_TO_AUTHORS_TABLES] 'authors_alternative_names' primary key is '['author_key', 'author_alternative_name']'
-05/30/2026 11:49:25 AM | [INFO] | author_tables.py | [TRANSFORM_TO_AUTHORS_TABLES] All authors' records were checked and author keys are correct.
-05/30/2026 11:49:25 AM | [INFO] | table_prep.py | [TRANSFORM_TO_AUTHORS_TABLES] 'author_statistics' primary key is 'author_key'
-05/30/2026 11:49:25 AM | [INFO] | author_tables.py | [TRANSFORM_TO_AUTHORS_TABLES] All works' records were checked and works keys are correct.
-05/30/2026 11:49:25 AM | [INFO] | table_prep.py | [TRANSFORM_TO_AUTHORS_TABLES] 'authors_works' primary key is '['work_key', 'author_key']'
-05/30/2026 11:49:27 AM | [INFO] | editions_tables.py | [TRANSFORM_TO_EDITIONS_TABLES] All editions' records were checked and edition keys are correct.
-05/30/2026 11:49:27 AM | [INFO] | validation.py | [TRANSFORM_TO_EDITIONS_TABLES] Column 'works' of table 'df_books' does not have multivalue lists -> do not explode 'works'
-05/30/2026 11:49:27 AM | [INFO] | table_prep.py | [TRANSFORM_TO_EDITIONS_TABLES] 'editions' primary key is 'edition_key'
-05/30/2026 11:49:27 AM | [INFO] | validation.py | [TRANSFORM_TO_EDITIONS_TABLES] Column 'contributors' of table 'contributors' has at least one multivalue list -> explode 'contributors'
-05/30/2026 11:49:29 AM | [INFO] | validation.py | [TRANSFORM_TO_EDITIONS_TABLES] Column 'translated_from' of table 'translated_from' does not have multivalue lists -> do not explode 'translated_from'
-05/30/2026 11:49:29 AM | [INFO] | validation.py | [TRANSFORM_TO_EDITIONS_TABLES] Column 'publishers' of table 'publishing' has at least one multivalue list -> explode 'publishers'
-05/30/2026 11:49:29 AM | [INFO] | validation.py | [TRANSFORM_TO_EDITIONS_TABLES] Column 'publish_places' of table 'publish_places' has at least one multivalue list -> explode 'publish_places'
-05/30/2026 11:49:29 AM | [INFO] | validation.py | [TRANSFORM_TO_EDITIONS_TABLES] Column 'series' of table 'series' has at least one multivalue list -> explode 'series'
-05/30/2026 11:49:29 AM | [INFO] | table_prep.py | [TRANSFORM_TO_EDITIONS_TABLES] 'contents' primary key is 'edition_key'
-05/30/2026 11:49:29 AM | [INFO] | validation.py | [TRANSFORM_TO_EDITIONS_TABLES] Column 'languages' of table 'details' has at least one multivalue list -> explode 'languages'
-05/30/2026 11:49:30 AM | [WARNING] | works_tables.py | [TRANSFORM_TO_WORKS_TABLES] 'subtitle' and 'subtitle__enriched' have the same values -> 'subtitle__enriched' will be dropped
-05/30/2026 11:49:30 AM | [INFO] | table_prep.py | [TRANSFORM_TO_WORKS_TABLES] 'works' primary key is 'work_key'
-05/30/2026 11:49:30 AM | [INFO] | validation.py | [TRANSFORM_TO_WORKS_TABLES] Column 'series_key' of table 'series' does not have multivalue lists -> do not explode 'series_key'
-05/30/2026 11:49:30 AM | [INFO] | validation.py | [TRANSFORM_TO_WORKS_TABLES] Column 'series_position' of table 'series' does not have multivalue lists -> do not explode 'series_position'
-05/30/2026 11:49:30 AM | [INFO] | table_prep.py | [TRANSFORM_TO_WORKS_TABLES] 'series' primary key is 'work_key'
-05/30/2026 11:49:30 AM | [INFO] | table_prep.py | [TRANSFORM_TO_WORKS_TABLES] 'availability' primary key is 'work_key'
-05/30/2026 11:49:30 AM | [INFO] | validation.py | [TRANSFORM_TO_WORKS_TABLES] Column 'subjects' of table 'subjects' has at least one multivalue list -> explode 'subjects'
-05/30/2026 11:49:30 AM | [INFO] | table_prep.py | [TRANSFORM_TO_WORKS_TABLES] 'subjects' primary key is '['work_key', 'subject']'
-05/30/2026 11:49:30 AM | [INFO] | validation.py | [TRANSFORM_TO_WORKS_TABLES] Column 'subject_people' of table 'people' has at least one multivalue list -> explode 'subject_people'
-05/30/2026 11:49:30 AM | [INFO] | table_prep.py | [TRANSFORM_TO_WORKS_TABLES] 'people' primary key is '['work_key', 'person']'
-05/30/2026 11:49:30 AM | [INFO] | validation.py | [TRANSFORM_TO_WORKS_TABLES] Column 'subject_places' of table 'places' has at least one multivalue list -> explode 'subject_places'
-05/30/2026 11:49:30 AM | [INFO] | table_prep.py | [TRANSFORM_TO_WORKS_TABLES] 'places' primary key is '['work_key', 'place']'
-05/30/2026 11:49:30 AM | [INFO] | validation.py | [TRANSFORM_TO_WORKS_TABLES] Column 'subject_times' of table 'times' has at least one multivalue list -> explode 'subject_times'
-05/30/2026 11:49:30 AM | [INFO] | table_prep.py | [TRANSFORM_TO_WORKS_TABLES] 'times' primary key is '['work_key', 'time_period']'
-05/30/2026 11:49:30 AM | [INFO] | transform.py | [TRANSFORM] Finished transformation of data from JSON files to CSV files
+05/30/2026 01:24:08 PM | [INFO] | transform.py | [TRANSFORM] Started transformation of data from JSON files to CSV files
+05/30/2026 01:24:08 PM | [INFO] | author_tables.py | [TRANSFORM_TO_AUTHORS_TABLES] All authors' records were checked and author keys are correct.
+05/30/2026 01:24:08 PM | [INFO] | table_prep.py | [TRANSFORM_TO_AUTHORS_TABLES] 'authors' primary key is 'author_key'
+05/30/2026 01:24:08 PM | [INFO] | author_tables.py | [TRANSFORM_TO_AUTHORS_TABLES] All authors' records were checked and author keys are correct.
+05/30/2026 01:24:08 PM | [INFO] | table_prep.py | [TRANSFORM_TO_AUTHORS_TABLES] 'authors_alternative_names' primary key is '['author_key', 'author_alternative_name']'
+05/30/2026 01:24:08 PM | [INFO] | author_tables.py | [TRANSFORM_TO_AUTHORS_TABLES] All authors' records were checked and author keys are correct.
+05/30/2026 01:24:08 PM | [INFO] | table_prep.py | [TRANSFORM_TO_AUTHORS_TABLES] 'author_statistics' primary key is 'author_key'
+05/30/2026 01:24:08 PM | [INFO] | author_tables.py | [TRANSFORM_TO_AUTHORS_TABLES] All works' records were checked and works keys are correct.
+05/30/2026 01:24:08 PM | [INFO] | table_prep.py | [TRANSFORM_TO_AUTHORS_TABLES] 'authors_works' primary key is '['work_key', 'author_key']'
+05/30/2026 01:24:10 PM | [INFO] | editions_tables.py | [TRANSFORM_TO_EDITIONS_TABLES] All editions' records were checked and edition keys are correct.
+05/30/2026 01:24:10 PM | [INFO] | validation.py | [TRANSFORM_TO_EDITIONS_TABLES] Column 'works' of table 'df_books' does not have multivalue lists -> do not explode 'works'
+05/30/2026 01:24:10 PM | [INFO] | table_prep.py | [TRANSFORM_TO_EDITIONS_TABLES] 'editions' primary key is 'edition_key'
+05/30/2026 01:24:10 PM | [INFO] | validation.py | [TRANSFORM_TO_EDITIONS_TABLES] Column 'contributors' of table 'contributors' has at least one multivalue list -> explode 'contributors'
+05/30/2026 01:24:12 PM | [INFO] | validation.py | [TRANSFORM_TO_EDITIONS_TABLES] Column 'translated_from' of table 'translated_from' does not have multivalue lists -> do not explode 'translated_from'
+05/30/2026 01:24:12 PM | [INFO] | validation.py | [TRANSFORM_TO_EDITIONS_TABLES] Column 'publishers' of table 'publishing' has at least one multivalue list -> explode 'publishers'
+05/30/2026 01:24:12 PM | [INFO] | validation.py | [TRANSFORM_TO_EDITIONS_TABLES] Column 'publish_places' of table 'publish_places' has at least one multivalue list -> explode 'publish_places'
+05/30/2026 01:24:12 PM | [INFO] | validation.py | [TRANSFORM_TO_EDITIONS_TABLES] Column 'series' of table 'series' has at least one multivalue list -> explode 'series'
+05/30/2026 01:24:12 PM | [INFO] | table_prep.py | [TRANSFORM_TO_EDITIONS_TABLES] 'contents' primary key is 'edition_key'
+05/30/2026 01:24:12 PM | [INFO] | validation.py | [TRANSFORM_TO_EDITIONS_TABLES] Column 'languages' of table 'details' has at least one multivalue list -> explode 'languages'
+05/30/2026 01:24:13 PM | [WARNING] | works_tables.py | [TRANSFORM_TO_WORKS_TABLES] 'subtitle' and 'subtitle__enriched' have the same values -> 'subtitle__enriched' will be dropped
+05/30/2026 01:24:13 PM | [INFO] | table_prep.py | [TRANSFORM_TO_WORKS_TABLES] 'works' primary key is 'work_key'
+05/30/2026 01:24:13 PM | [INFO] | validation.py | [TRANSFORM_TO_WORKS_TABLES] Column 'series_key' of table 'series' does not have multivalue lists -> do not explode 'series_key'
+05/30/2026 01:24:13 PM | [INFO] | validation.py | [TRANSFORM_TO_WORKS_TABLES] Column 'series_position' of table 'series' does not have multivalue lists -> do not explode 'series_position'
+05/30/2026 01:24:13 PM | [INFO] | table_prep.py | [TRANSFORM_TO_WORKS_TABLES] 'series' primary key is 'work_key'
+05/30/2026 01:24:13 PM | [INFO] | table_prep.py | [TRANSFORM_TO_WORKS_TABLES] 'availability' primary key is 'work_key'
+05/30/2026 01:24:13 PM | [INFO] | validation.py | [TRANSFORM_TO_WORKS_TABLES] Column 'subjects' of table 'subjects' has at least one multivalue list -> explode 'subjects'
+05/30/2026 01:24:13 PM | [INFO] | table_prep.py | [TRANSFORM_TO_WORKS_TABLES] 'subjects' primary key is '['work_key', 'subject']'
+05/30/2026 01:24:13 PM | [INFO] | validation.py | [TRANSFORM_TO_WORKS_TABLES] Column 'subject_people' of table 'people' has at least one multivalue list -> explode 'subject_people'
+05/30/2026 01:24:13 PM | [INFO] | table_prep.py | [TRANSFORM_TO_WORKS_TABLES] 'people' primary key is '['work_key', 'person']'
+05/30/2026 01:24:13 PM | [INFO] | validation.py | [TRANSFORM_TO_WORKS_TABLES] Column 'subject_places' of table 'places' has at least one multivalue list -> explode 'subject_places'
+05/30/2026 01:24:13 PM | [INFO] | table_prep.py | [TRANSFORM_TO_WORKS_TABLES] 'places' primary key is '['work_key', 'place']'
+05/30/2026 01:24:13 PM | [INFO] | validation.py | [TRANSFORM_TO_WORKS_TABLES] Column 'subject_times' of table 'times' has at least one multivalue list -> explode 'subject_times'
+05/30/2026 01:24:13 PM | [INFO] | table_prep.py | [TRANSFORM_TO_WORKS_TABLES] 'times' primary key is '['work_key', 'time_period']'
+05/30/2026 01:24:13 PM | [INFO] | transform.py | [TRANSFORM] Finished transformation of data from JSON files to CSV files
