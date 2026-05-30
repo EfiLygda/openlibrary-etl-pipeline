@@ -8,9 +8,9 @@ import os
 from config.paths import LOG_DIR
 from utilities.logging import config_logger, set_logger
 
-from to_database.create_database import run as create_database
-from to_database.create_tables import run as create_tables
-from to_database.load_tables import run as load_tables
+from etl.load.create_database import run as create_database
+from etl.load.create_tables import run as create_tables
+from etl.load.load_tables import run as load_tables
 
 # ----------------------------------------------------------------------------------
 # --- Setting up logging ---
