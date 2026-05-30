@@ -118,8 +118,8 @@ def check_if_table_exists(
 
     table_exists = cursor.fetchone()[0]
 
-    exists_msg = f'Table \'{table_name}\' already exists'
-    not_exists_msg = f'Table \'{table_name}\' does not exist'
+    exists_msg = f'Table \'{table_name}\' already exists -> using existing'
+    not_exists_msg = f'Table \'{table_name}\' does not exist -> will be created'
 
     if table_exists:
         message = exists_msg

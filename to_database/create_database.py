@@ -32,7 +32,7 @@ def run():
         logger.warning(f'Database \'{GENRE_facet}\' does not exist -> it will be created')
         cursor.execute('CREATE DATABASE romance_fiction;') # Did not inject GENRE_facet to SQL
     else:
-        logger.warning(f'Database \'{GENRE_facet}\' already exists')
+        logger.info(f'Database \'{GENRE_facet}\' already exists -> using existing')
 
     # Close the cursor
     cursor.close()
