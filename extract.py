@@ -31,66 +31,67 @@ from etl.extract.fetch_books import run as fetch_books
 from etl.extract.export_publishers_subjects_people_times import run as export_publishers_subjects_people_times
 from etl.extract.fetch_author_statistics import run as fetch_author_statistics
 
-# ----------------------------------------------------------------------------------
-# --- Setting up logging ---
+def run():
+    # ----------------------------------------------------------------------------------
+    # --- Setting up logging ---
 
-# Log filepath
-log_filepath = os.path.join(LOG_DIR, 'extract.log')
+    # Log filepath
+    log_filepath = os.path.join(LOG_DIR, 'extract.log')
 
-# Configure the logger (uses console and file for log records)
-config_logger(filepath=log_filepath, level='info')
+    # Configure the logger (uses console and file for log records)
+    config_logger(filepath=log_filepath, level='info')
 
-# Set up the logger with stage 'EXTRACT'
-logger = set_logger(stage='EXTRACT')
-# ----------------------------------------------------------------------------------
+    # Set up the logger with stage 'EXTRACT'
+    logger = set_logger(stage='EXTRACT')
+    # ----------------------------------------------------------------------------------
 
-# ----------------------------------------------------------------------------------
-# --- Run Pipeline (with logging) ---
+    # ----------------------------------------------------------------------------------
+    # --- Run Pipeline (with logging) ---
 
-logger.info('Started extraction of data from OpenLibrary API to JSON files')
+    logger.info('Started extraction of data from OpenLibrary API to JSON files')
 
-# The pipeline
-fetch_works()
-export_keys()
-fetch_works_authors_series()
-export_author_key_names()
-fetch_books_keys_via_work_key()
-fetch_books()
-export_publishers_subjects_people_times()
-fetch_author_statistics()
+    # The pipeline
+    fetch_works()
+    export_keys()
+    fetch_works_authors_series()
+    export_author_key_names()
+    fetch_books_keys_via_work_key()
+    fetch_books()
+    export_publishers_subjects_people_times()
+    fetch_author_statistics()
 
-logger.info('Finished extraction of data from OpenLibrary API to JSON files')
+    logger.info('Finished extraction of data from OpenLibrary API to JSON files')
 
-# Shutting down logging
-logging.shutdown()
-# ----------------------------------------------------------------------------------
+    # Shutting down logging
+    logging.shutdown()
+    # ----------------------------------------------------------------------------------
 
-# ----------------------------------------------------------------------------------
-# --- Run Pipeline (without logging) ---
+    # ----------------------------------------------------------------------------------
+    # --- Run Pipeline (without logging) ---
 
-# import os
-# from config.paths import ROOT_DIR
-# from utilities.pipeline import run_pipeline
-# from utilities.logging import LOGGING_FORMAT, DATE_FORMAT
+    # import os
+    # from config.paths import ROOT_DIR
+    # from utilities.pipeline import run_pipeline
+    # from utilities.logging import LOGGING_FORMAT, DATE_FORMAT
 
-# # Set up directory containing the pipeline py files
-# tasks_dir = os.path.join(ROOT_DIR, 'to_JSON')
-#
-# # The pipeline's py filenames for extracting JSON files via the API
-# tasks = [
-#     # 'fetch_works.py',
-#     # 'export_keys.py',
-#     # 'fetch_works_authors_series.py',
-#     # 'export_author_key_names.py',
-#     # 'fetch_books_keys_via_work_key.py',
-#     # 'fetch_books.py',
-#     # 'export_publishers_subjects_people_times.py',
-#     # 'fetch_author_statistics.py',
-# ]
-#
-# # Run the pipeline
-# run_pipeline(
-#     tasks_dir=tasks_dir,
-#     tasks=tasks
-# )
-# ----------------------------------------------------------------------------------
+    # # Set up directory containing the pipeline py files
+    # tasks_dir = os.path.join(ROOT_DIR, 'to_JSON')
+    #
+    # # The pipeline's py filenames for extracting JSON files via the API
+    # tasks = [
+    #     # 'fetch_works.py',
+    #     # 'export_keys.py',
+    #     # 'fetch_works_authors_series.py',
+    #     # 'export_author_key_names.py',
+    #     # 'fetch_books_keys_via_work_key.py',
+    #     # 'fetch_books.py',
+    #     # 'export_publishers_subjects_people_times.py',
+    #     # 'fetch_author_statistics.py',
+    # ]
+    #
+    # # Run the pipeline
+    # run_pipeline(
+    #     tasks_dir=tasks_dir,
+    #     tasks=tasks
+    # )
+    # ----------------------------------------------------------------------------------

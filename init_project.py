@@ -22,7 +22,8 @@ NEW_DIRS = [
     LOG_DIR
 ]
 
-# Creating new directories, if they do not already exist
-for directory in NEW_DIRS:
-    if not os.path.exists(directory):
-        os.makedirs(directory)
+def run():
+    # Creating new directories, if they do not already exist
+    for directory in NEW_DIRS:
+        if not os.path.exists(directory):
+            os.makedirs(directory)

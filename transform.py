@@ -27,52 +27,53 @@ from etl.transform.author_tables import run as author_tables
 from etl.transform.editions_tables import run as editions_tables
 from etl.transform.works_tables import run as works_tables
 
-# ----------------------------------------------------------------------------------
-# --- Setting up logging ---
+def run():
+    # ----------------------------------------------------------------------------------
+    # --- Setting up logging ---
 
-# Log filepath
-log_filepath = os.path.join(LOG_DIR, 'transform.log')
+    # Log filepath
+    log_filepath = os.path.join(LOG_DIR, 'transform.log')
 
-# Configure the logger (uses console and file for log records)
-config_logger(filepath=log_filepath, level='info')
+    # Configure the logger (uses console and file for log records)
+    config_logger(filepath=log_filepath, level='info')
 
-# Set up the logger with stage 'EXTRACT'
-logger = set_logger(stage='TRANSFORM')
-# ----------------------------------------------------------------------------------
+    # Set up the logger with stage 'EXTRACT'
+    logger = set_logger(stage='TRANSFORM')
+    # ----------------------------------------------------------------------------------
 
-# ----------------------------------------------------------------------------------
-# --- Run Pipeline (with logging) ---
+    # ----------------------------------------------------------------------------------
+    # --- Run Pipeline (with logging) ---
 
-logger.info('Started transformation of data from JSON files to CSV files')
+    logger.info('Started transformation of data from JSON files to CSV files')
 
-# The pipeline
-author_tables()
-editions_tables()
-works_tables()
+    # The pipeline
+    author_tables()
+    editions_tables()
+    works_tables()
 
-logger.info('Finished transformation of data from JSON files to CSV files')
-# ----------------------------------------------------------------------------------
+    logger.info('Finished transformation of data from JSON files to CSV files')
+    # ----------------------------------------------------------------------------------
 
 
-# ----------------------------------------------------------------------------------
-# --- Run Pipeline (without logging) ---
-#
-# from config.paths import ROOT_DIR
-# from utilities.pipeline import run_pipeline
-#
-# # Set up directory containing the pipeline py files
-# tasks_dir = os.path.join(ROOT_DIR, 'to_CSV')
-#
-# # The pipeline's py filenames for preprocessing and saving to CSV tables
-# tasks = [
-#     "author_tables.py",
-#     "editions_tables.py",
-#     "works_tables.py",
-# ]
-#
-# # Run the pipeline
-# run_pipeline(
-#     tasks_dir=tasks_dir,
-#     tasks=tasks
-# )
-# ----------------------------------------------------------------------------------
+    # ----------------------------------------------------------------------------------
+    # --- Run Pipeline (without logging) ---
+    #
+    # from config.paths import ROOT_DIR
+    # from utilities.pipeline import run_pipeline
+    #
+    # # Set up directory containing the pipeline py files
+    # tasks_dir = os.path.join(ROOT_DIR, 'to_CSV')
+    #
+    # # The pipeline's py filenames for preprocessing and saving to CSV tables
+    # tasks = [
+    #     "author_tables.py",
+    #     "editions_tables.py",
+    #     "works_tables.py",
+    # ]
+    #
+    # # Run the pipeline
+    # run_pipeline(
+    #     tasks_dir=tasks_dir,
+    #     tasks=tasks
+    # )
+    # ----------------------------------------------------------------------------------
