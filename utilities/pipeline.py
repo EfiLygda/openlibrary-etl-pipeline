@@ -4,7 +4,7 @@ import sys
 
 def run_pipeline(tasks_dir: str, tasks: list[str]) -> None:
     """
-    Function for running a pipeline
+    Function for running a pipeline without logging
     :param tasks_dir: str, the directory containing the task py files
     :param tasks: list[str], the list/sequency of py task files
     :return: None
