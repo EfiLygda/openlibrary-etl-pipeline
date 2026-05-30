@@ -12,14 +12,13 @@ from open_library import KeyHandler
 from config.paths import CSV_DIR, BOOKS_DIR, KEYS_DIR
 
 from utilities.io import load_json, save_csv
-from utilities.logging import sep
 from utilities.validation import check_explode
 from utilities.parsing import get_language, find_year, extract_text
-from utilities.dtypes import (editions_dtypes,
-                              contributors_dtypes,
-                              publishing_dtypes,
-                              contents_dtypes,
-                              details_dtypes)
+from etl.transform.schemas import (editions_dtypes,
+                                   contributors_dtypes,
+                                   publishing_dtypes,
+                                   contents_dtypes,
+                                   details_dtypes)
 from utilities.table_prep import prepare_table
 from utilities.logging import set_logger
 

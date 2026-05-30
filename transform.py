@@ -23,9 +23,9 @@ import os
 from config.paths import LOG_DIR
 from utilities.logging import config_logger, set_logger
 
-from to_CSV.author_tables import run as author_tables
-from to_CSV.editions_tables import run as editions_tables
-from to_CSV.works_tables import run as works_tables
+from etl.transform.author_tables import run as author_tables
+from etl.transform.editions_tables import run as editions_tables
+from etl.transform.works_tables import run as works_tables
 
 # ----------------------------------------------------------------------------------
 # --- Setting up logging ---

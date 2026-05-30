@@ -6,23 +6,21 @@ STEP 3: Create tables `works`, `works_series`, `works_availability`, `works_subj
 import os
 import numpy as np
 import pandas as pd
-from pandas import DataFrame
 
 from open_library import KeyHandler
 
 from config.paths import CSV_DIR, WORKS_DIR, SEARCH_DIR, SERIES_DIR
 
 from utilities.io import load_json, save_csv
-from utilities.logging import sep
 from utilities.parsing import extract_text
 from utilities.validation import check_explode
-from utilities.dtypes import (works_dtypes,
-                              series_dtypes,
-                              availability_dtypes,
-                              subjects_dtypes,
-                              people_dtypes,
-                              places_dtypes,
-                              times_dtypes)
+from etl.transform.schemas import (works_dtypes,
+                                   series_dtypes,
+                                   availability_dtypes,
+                                   subjects_dtypes,
+                                   people_dtypes,
+                                   places_dtypes,
+                                   times_dtypes)
 from utilities.table_prep import prepare_table
 from utilities.logging import set_logger
 
