@@ -1,7 +1,7 @@
 """
 Contains schemas for each works table and their respective original field from the API
 
-See etl/extract/docs/base_urls for 'SEARCH', 'AUTHORS', 'SEARCH_AUTHORS', 'BOOKS' and 'WORKS'
+See etl/extract/docs/api_documentation.md for 'SEARCH', 'AUTHORS', 'SEARCH_AUTHORS', 'BOOKS' and 'WORKS'
 """
 
 # ------------------------------------------------------------------------------

@@ -4,9 +4,9 @@ STEP 3: Use OpenLibraryClient.get_many to extract via keys all WORKS_ENRICHED, A
 DETAILS:
 1. WORKS_ENRICHED contains enriched data not returned from SEARCH in STEP 1
 2. The queries used for each object is:
-    2.1 WORKS_ENRICHED: WORKS @ API_info/base_urls
-    2.2 AUTHORS:        AUTHORS @ API_info/base_urls
-    2.3 SERIES:         SERIES @ API_info/base_urls
+    2.1 WORKS_ENRICHED: WORKS @ etl/extract/docs/api_documentation.md
+    2.2 AUTHORS:        AUTHORS @ etl/extract/docs/api_documentation.md
+    2.3 SERIES:         SERIES @ etl/extract/docs/api_documentation.md
 3. The results are saved as JSON files @ :
     3.1 WORKS_ENRICHED: data/raw_pages/romance_fiction/works_enriched
     3.2 AUTHORS:        data/raw_pages/romance_fiction/authors

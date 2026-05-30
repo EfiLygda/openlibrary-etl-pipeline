@@ -4,7 +4,7 @@ STEP 1: Fetch and extract general works under the GERNE via Open Library API's S
 DETAILS:
 1. Not all works are extracted, config.LIMIT, config.MAX_PAGES are used as to not overload the API
 2. GERNE refers to config.api.GENRE
-3. The query uses the SEARCH basic url (See example SEARCH @ API_info/base_urls)
+3. The query uses the SEARCH basic url (See example SEARCH @ etl/extract/docs/api_documentation.md)
 4. All pages of records are saved as JSON files @ data/raw_pages/{GERNE}/works
 """
 
