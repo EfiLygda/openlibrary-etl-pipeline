@@ -22,14 +22,14 @@ from config.paths import LOG_DIR
 
 from utilities.logging import config_logger, set_logger
 
-from to_JSON.fetch_works import run as fetch_works
-from to_JSON.export_keys import run as export_keys
-from to_JSON.fetch_works_authors_series import run as fetch_works_authors_series
-from to_JSON.export_author_key_names import run as export_author_key_names
-from to_JSON.fetch_books_keys_via_work_key import run as fetch_books_keys_via_work_key
-from to_JSON.fetch_books import run as fetch_books
-from to_JSON.export_publishers_subjects_people_times import run as export_publishers_subjects_people_times
-from to_JSON.fetch_author_statistics import run as fetch_author_statistics
+from etl.extract.fetch_works import run as fetch_works
+from etl.extract.export_keys import run as export_keys
+from etl.extract.fetch_works_authors_series import run as fetch_works_authors_series
+from etl.extract.export_author_key_names import run as export_author_key_names
+from etl.extract.fetch_books_keys_via_work_key import run as fetch_books_keys_via_work_key
+from etl.extract.fetch_books import run as fetch_books
+from etl.extract.export_publishers_subjects_people_times import run as export_publishers_subjects_people_times
+from etl.extract.fetch_author_statistics import run as fetch_author_statistics
 
 # ----------------------------------------------------------------------------------
 # --- Setting up logging ---
