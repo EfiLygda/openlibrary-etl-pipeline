@@ -1,7 +1,7 @@
 """
 Contains dtypes for each authors table and their respective original field from the API
 
-See /API_info/base_urls for 'SEARCH', 'AUTHORS', 'SEARCH_AUTHORS', 'BOOKS' and 'WORKS'
+See utilities/dtypes/base_urls for 'SEARCH', 'AUTHORS', 'SEARCH_AUTHORS', 'BOOKS' and 'WORKS'
 """
 
 # ------------------------------------------------------------------------------
