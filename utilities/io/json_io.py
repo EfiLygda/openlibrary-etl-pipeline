@@ -1,3 +1,7 @@
+"""
+JSON input/output utilities.
+"""
+
 import json
 
 def load_json(filename: str):
