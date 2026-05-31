@@ -16,10 +16,10 @@ def run():
     # --- Setting up logging ---
 
     # Log filepath
-    log_filepath = os.path.join(LOG_DIR, 'load.log')
+    # log_filepath = os.path.join(LOG_DIR, 'load.log')
 
     # Configure the logger (uses console and file for log records)
-    config_logger(filepath=log_filepath, level='info')
+    # config_logger(filepath=log_filepath, level='info')
 
     # Set up the logger with stage 'EXTRACT'
     logger = set_logger(stage='LOAD')
