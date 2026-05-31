@@ -12,11 +12,3 @@ What the project is trying to achieve:
 - Load processed data into a PostgreSQL database
 - Ensure reproducibility and modular ETL design
 
-## Data Source
-
-OpenLibrary API was used for data ingestion.
-See [api_documentation.md](etl/extract/docs/api_documentation.md) for more information on API endpoints used.
-
-## Database Schema
-
-![MainDiagram.svg](database/docs/MainDiagram.svg)
