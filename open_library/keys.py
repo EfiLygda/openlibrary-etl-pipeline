@@ -1,3 +1,14 @@
+"""
+Utilities for working with Open Library identifiers and keys.
+
+This module provides the KeyHandler class, which contains helper methods for:
+
+- Detecting the type of Open Library key.
+- Normalizing keys into a consistent path format.
+- Extracting Open Library IDs from text.
+- Converting lists of keys into a serializable string representation.
+"""
+
 import re
 import json
 

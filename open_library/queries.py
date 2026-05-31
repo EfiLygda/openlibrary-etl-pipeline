@@ -1,3 +1,19 @@
+"""
+Open Library API client.
+
+Provides a wrapper around the Open Library API for retrieving,
+saving, and managing records such as works, authors, editions,
+series, publishers, and subjects.
+
+The client supports:
+
+- Search queries
+- Single-record retrieval
+- Batch record retrieval
+- Redirect handling
+- JSON export of API responses
+"""
+
 import requests
 from utilities.io import load_json, save_json
 from open_library import KeyHandler
