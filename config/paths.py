@@ -1,5 +1,5 @@
 """
-The directories' definitions
+Centralized project paths
 """
 
 import os

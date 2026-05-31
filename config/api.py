@@ -1,5 +1,5 @@
 """
-Setting up the API configuration for searching
+API configuration and request settings
 """
 
 # Setting up the genre
