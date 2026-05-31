@@ -1,3 +1,10 @@
+"""
+PostgreSQL database connection utilities.
+
+Handles environment-based configuration loading and provides
+a helper function for establishing database connections using psycopg2.
+"""
+
 import os
 import psycopg2
 from dotenv import load_dotenv

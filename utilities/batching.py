@@ -1,3 +1,6 @@
+"""
+Utility for splitting lists into fixed-size batches.
+"""
 
 def make_batches(lst: list[str], batch_size: int) -> list[list[str]]:
     """

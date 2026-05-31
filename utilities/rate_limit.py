@@ -1,3 +1,10 @@
+"""
+Request throttling utility.
+
+Provides a helper function for introducing randomized delays
+to simulate polite API request pacing and reduce rate limiting.
+"""
+
 from time import sleep
 from random import uniform
 

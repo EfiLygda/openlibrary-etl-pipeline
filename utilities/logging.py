@@ -1,3 +1,10 @@
+"""
+Logging utilities for the ETL pipeline.
+
+Provides standardized logging configuration, formatting, and
+context-aware loggers with support for pipeline stage tagging.
+"""
+
 import logging
 from logging import Logger, LoggerAdapter
 

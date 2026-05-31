@@ -1,3 +1,10 @@
+"""
+Data parsing and extraction utilities.
+
+Provides helper functions for extracting structured values from raw
+Open Library API responses, including dates, languages, and nested text fields.
+"""
+
 import re
 import numpy as np
 

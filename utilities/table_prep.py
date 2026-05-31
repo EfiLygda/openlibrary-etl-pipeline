@@ -1,3 +1,13 @@
+"""
+DataFrame cleaning and preparation utilities.
+
+Provides functions for:
+- String cleanup and normalization
+- Row filtering based on missing values
+- Primary key validation
+- Table preprocessing pipeline with optional dtype casting
+"""
+
 import pandas as pd
 from logging import Logger, LoggerAdapter
 from .validation import is_primary_key

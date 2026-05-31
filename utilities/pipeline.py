@@ -1,3 +1,10 @@
+"""
+Simple pipeline execution utility.
+
+Runs a sequence of Python task scripts in order using subprocess execution,
+allowing lightweight orchestration of ETL stages without integrated logging.
+"""
+
 import os
 import subprocess
 import sys

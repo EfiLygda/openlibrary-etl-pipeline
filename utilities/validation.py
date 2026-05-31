@@ -1,3 +1,13 @@
+"""
+Validation and integrity-check utilities for ETL processing.
+
+Provides helper functions for:
+- Detecting missing values and uniqueness
+- Validating primary keys
+- Handling multi-value fields
+- Checking database table existence
+"""
+
 import numpy as np
 import pandas as pd
 
