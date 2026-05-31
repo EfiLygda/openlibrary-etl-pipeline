@@ -37,12 +37,29 @@ What the project is trying to achieve:
 3. `Load`: create PostgreSQL database and create tables from SQL schema files in order to load processed CSVs into database `romance_fiction`
 
 ### Project Structure
-    etl/
-    database/
-    data/
-    utilities/
-    config/
-    main.py
+
+    .
+    ├── config/           # API configuration and project paths
+    ├── data/
+    │   └── romance_fiction/
+    │       ├── raw/      # Raw OpenLibrary API responses
+    │       ├── staging/  # Intermediate files used between ETL stages
+    │       └── processed/# Final normalized tables
+    ├── database/
+    │   ├── schema/       # SQL table definitions
+    │   └── docs/         # Database schema diagrams and documentation
+    ├── etl/
+    │   ├── extract/      # Data extraction scripts
+    │   ├── transform/    # Data transformation scripts
+    │   └── load/         # PostgreSQL database loading scripts
+    ├── logs/             # Pipeline execution logs
+    ├── open_library/     # Core package for Open Library API access and record management
+    ├── utilities/        # Reusable helper functions for ETL operations (I/O, logging, validation, DB, and pipeline utilities)
+    │   └───io            # Input/output utilities for handling CSV and JSON data files
+    │── extract.py        # Extracts raw data from Open Library API
+    │── transform.py      # Cleans, validates, and transforms raw data into tables
+    │── load.py           # Loads processed data into database
+    └── main.py           # ETL pipeline entry point (orchestrates extract → transform → load)
 
 ## Tools
     
