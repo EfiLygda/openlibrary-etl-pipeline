@@ -32,9 +32,11 @@ What the project is trying to achieve:
 
 ### Pipeline Steps
 
-1. `Extract`: fetch data from OpenLibrary API and store raw JSON in `data/romance_fiction/raw/`
-2. `Transform`: normalize nested JSON and apply validation rules in order to generate structured tables in `data/romance_fiction/staging/`
-3. `Load`: create PostgreSQL database and create tables from SQL schema files in order to load processed CSVs into database `romance_fiction`
+1. `Extract`: fetch data from OpenLibrary API and store raw JSON responses in `data/romance_fiction/raw/`, preserving original structure for reproducibility and reprocessing.
+
+2. `Transform`: normalize nested OpenLibrary JSON into flat relational structures, standardize identifiers and key formats, clean and preprocess text fields (e.g. stripping, handling missing values), resolve and expand multi-value fields, validate primary keys and data integrity rules, and generate structured tables saved in `data/romance_fiction/staging/`.
+
+3. `Load`: initialize PostgreSQL database, create schema and tables from SQL definition files, and load processed CSV files into the `romance_fiction` database while enforcing relational constraints.
 
 ### Project Structure
 
