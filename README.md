@@ -17,3 +17,6 @@ What the project is trying to achieve:
 OpenLibrary API was used for data ingestion.
 See [api_documentation.md](https://github.com/EfiLygda/openlibrary-etl-pipeline/blob/Romance_Works/etl/extract/docs/api_documentation.md) for more information on API endpoints.
 
+## Database Schema
+
+![MainDiagram.svg](database/docs/MainDiagram.svg)
