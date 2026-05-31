@@ -1,0 +1,742 @@
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'   width='1425' height='1425' viewBox='0 0 1425 1425' >
+  <script type='text/ecmascript'>
+  <![CDATA[
+  function hghl(el) { for ( var i in el ){ var elem = document.getElementById(el[i]); if ( elem != null ) elem.setAttribute('class','highlight');  }  }
+  function uhghl(el) { for ( var i in el ){ var elem = document.getElementById(el[i]); if ( elem != null ) elem.setAttribute('class','unhighlight'); }  } 
+  ]]>
+  </script> 
+
+<style type='text/css'>
+  text                { fill:#6e798a; font-weight:normal;stroke:#2a2b2c;stroke-width:.1px; font-family: Segoe UI, 'Segoe UI', Dialog; font-size:13.5px; }
+  text.tableHeader    { fill:#576b57; font-weight:normal;stroke:#2a2b2c;stroke-width:.1px; font-family: Segoe UI, 'Segoe UI', Dialog; font-size:13.5px;  font-weight: Regular; }
+  a text:hover        { font-weight:500; }
+  text.highlight      { font-weight:500; }
+  text.white          { fill:#ffffff; }
+  text.colType        { fill:#bac1cb; }
+  text.relName        { fill:#9c9a9a; stroke-width:0; }
+  text.dataType       { stroke:0; font-size:12px; text-anchor: end;}
+  text.legendTitle    { fill:#2b3b64; font-weight:500; }
+  text.legendSubTitle { fill:#616161; font-size:12px; }
+  path, circle        { stroke:#b2b3b4; stroke-width:1.5; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+  .filled             { fill:#7f7971; }
+  path.virtual        { stroke:#6f70bb; }
+  path.logo           { fill:#fbeac0;fill-opacity:1;stroke-width:0.3;stroke:#222222; }
+  path.dotted         { stroke-dasharray:3,3; }
+  path.unhighlight    { stroke-width:12; opacity:0; pointer-events:all; }
+  path.highlight      { stroke-width:2; stroke:#061e3f; opacity:1; pointer-events:all; }
+  path.line           { stroke-width:10; stroke-linecap:round; stroke-linejoin:round; }
+  rect.entity         { fill:#fafafb; stroke-width:1; shape-rendering:crispEdges; filter:url(#shadow); }
+  line.delim          { stroke-width:1px; shape-rendering:crispEdges; }
+  text.callout        { fill:#201a10; font-family: Segoe UI, 'Segoe UI', Dialog; font-size:14.0px; }
+  rect.callout        { fill:url(#calloutGradient); stroke-width:1px; stroke:#d0cec3; }
+  rect.shape          { stroke:#bebdbd; stroke-width:0.5; }
+  rect.legend         { fill:url(#legendGradient); stroke-width:1px; stroke:#d6dbe4; }
+  text.grp            { fill:#b1b1b1; }
+  rect.grp            { stroke:#aee1ab; stroke-width:1; opacity:0.7; }
+  path.bgPattern      { fill:none;stroke-width:0.6;stroke:#e5e9ee; }
+  path.eval           { fill:#efefef;fill-opacity:1;stroke-width:0.6;stroke:#e9e9e9; }
+  rect.palpable       { fill:#fffbe5; }
+  a, a:visited, a:hover, a:active { text-decoration: none; }
+</style>
+<defs>
+  <pattern id="layoutBgA" width="60" height="34.64" patternUnits="userSpaceOnUse">
+    <rect x="0" y="0"  width="60" height="34.64" fill="#eaecf1" />
+  </pattern>
+  <pattern id='layoutBgEval'  width='300' height='300' x='0' y='0' patternUnits="userSpaceOnUse">
+    <g transform='scale(1.5)'>
+    <path class='eval' d='m 62.011835,91.267143 c 3.536475,3.175214 2.262669,8.705999 -1.637711,11.015197 -3.594697,5.8423 -6.34682,-2.892623 -9.715478,-4.653898 -5.609222,-2.838926 2.050802,-6.680123 4.77004,-8.319046 2.334696,-0.724067 4.935143,0.312302 6.583149,1.957747 z m -2.720492,2.538595 c -2.698397,-3.517732 -9.282815,1.269287 -3.69635,3.568637 2.765331,5.605665 7.052809,-0.56184 3.69635,-3.568637 z' />
+    <path class='eval' d='m 72.25864,84.624638 c 4.108046,3.143003 -0.737059,6.895259 -1.994918,8.323564 -3.586718,5.561143 -6.495079,-4.197379 -10.07759,-5.582178 -4.443422,-1.088878 1.349298,-7.249213 2.503526,-2.503449 2.464639,4.517161 2.304019,-3.70697 6.291113,-1.995914 1.280083,0.137865 2.410691,0.864819 3.277869,1.757977 z m -2.646109,2.323242 c -4.797162,-3.078383 -2.810517,6.305507 0.515161,1.990646 0.296432,-0.688582 0.01209,-1.493412 -0.515161,-1.990646 z' />
+    <path class='eval' d='m 78.230641,79.436735 c 4.142121,3.027466 -2.020102,10.435276 -3.450543,5.477315 3.306312,-5.248112 -9.186019,-2.220094 -5.805994,-8.77679 -0.544141,-3.93011 6.797826,-2.102227 3.386015,0.245477 -0.181085,2.915838 4.637371,1.019311 5.870522,3.053982 z' />
+    <path class='eval' d='m 82.744502,72.597397 c -4.901605,1.926521 1.146497,6.285555 2.559694,2.225783 6.21817,3.539297 -6.640186,8.416664 -7.590325,1.997457 -2.24365,-2.914883 4.026676,-10.148618 5.030631,-4.22324 z' />
+    <path class='eval' d='m 90.727458,64.259158 c 1.583987,1.690029 3.321317,3.2696 4.81267,5.026353 -2.535706,6.849794 -6.445583,-5.918773 -8.388458,-0.167017 0.782768,2.03426 5.877405,3.752079 2.670979,5.711199 -3.315119,1.519161 -5.782422,-5.157931 -8.858893,-6.780537 -4.229842,-1.139816 1.510134,-7.074128 2.586227,-2.385939 3.141198,5.495193 1.840537,-5.598295 7.177489,-1.404062 z' />
+    <path class='eval' d='m 99.622027,58.374253 c 1.493293,1.9548 -6.281936,7.024659 -0.885258,4.740447 0.386238,-4.434477 6.131941,-1.133173 2.175851,1.618005 -4.421491,6.12739 -13.666659,-3.151506 -7.058299,-7.136537 1.785129,-1.119329 4.348209,-0.743179 5.767706,0.778085 z m -2.900824,1.89746 c -3.608188,-2.208543 -2.280489,5.00803 -0.12563,0.329531 z' />
+    <path class='eval' d='m 115.18023,50.570441 c -1.61703,5.201678 -4.6204,-0.364502 -7.01598,-1.749619 -4.40977,2.122562 4.89641,4.913939 1.89606,7.018157 -2.48061,3.877635 -4.11404,-4.060614 -7.01192,-2.6391 -1.76318,3.107252 7.28394,6.252304 0.87346,7.876177 -1.74515,-2.956649 -9.055498,-5.610518 -3.950378,-8.66062 1.696478,1.897023 1.770418,-5.43503 5.347308,-3.072411 -0.44014,-5.474701 6.11995,-4.950882 7.7846,-0.815355 0.69076,0.682329 1.39587,1.351469 2.07685,2.042771 z' />
+    <path class='eval' d='m 120.54891,39.417125 c 2.50681,1.334124 4.80466,4.941837 0.75044,5.297362 -0.46414,1.89865 -5.25369,5.602652 -8.01742,1.815475 -3.87345,-2.809139 -0.0676,-7.603869 2.3036,-8.133924 1.6795,-3.853018 3.16703,-1.199465 4.96338,1.021087 z m -2.2464,2.175828 c -4.8049,-2.992167 -3.08987,6.380358 0.42374,2.036159 0.33052,-0.677508 0.12099,-1.525836 -0.42374,-2.036159 z' />
+    <path class='eval' d='m 128.50836,24.06821 c -5.10403,3.035506 3.20535,6.383175 5.05938,9.450276 -0.91853,2.95886 -4.06493,3.650723 -5.34691,0.265618 -2.25715,-2.089033 -4.65672,-6.948595 -7.07024,-2.584686 -4.71758,-3.764394 3.81217,-5.812054 5.12382,-9.226328 0.75738,0.677487 1.38637,1.498638 2.23389,2.095175 z' />
+    <path class='eval' d='m 137.14366,22.299812 c -3.09615,2.259885 0.71537,4.412454 1.99042,6.435866 -3.08975,5.080354 -5.91384,-2.98648 -8.92144,-4.094939 1.44369,-3.219573 3.3497,-1.335928 4.27156,-4.41058 0.97822,-0.894325 1.75044,1.871047 2.65946,2.069653 z' />
+    <path class='eval' d='m 136.85093,14.890174 c 2.31562,5.283511 -7.17975,1.771993 -1.29675,-0.475107 l 0.7108,0.08973 z m 4.867,5.317354 c 2.56912,1.439678 4.26517,4.725219 0.30678,5.233637 -1.56592,-3.098864 -9.51683,-5.749448 -3.64502,-8.633714 1.17746,0.325095 2.15375,2.591149 3.33824,3.400077 z' />
+    <path class='eval' d='m 149.95578,11.976423 c 2.50679,1.334142 4.80455,4.94192 0.75041,5.297394 -0.4641,1.898604 -5.25368,5.602645 -8.0174,1.81545 -3.87347,-2.80918 -0.0676,-7.603844 2.30366,-8.133968 1.67949,-3.8530525 3.16695,-1.1993573 4.96333,1.021124 z m -2.24641,2.175828 c -4.80489,-2.992177 -3.08986,6.380343 0.42374,2.036167 0.33055,-0.677518 0.121,-1.52585 -0.42374,-2.036167 z' />
+    <path class='eval' d='m 153.26135,7.538431 c 2.60497,1.5799548 6.03999,5.944272 1.08117,6.050232 -2.53319,-3.231828 -7.20316,-6.4304525 -8.84748,-9.4582682 1.89121,-2.8664883 3.78452,-2.247699 5.38514,0.8929426 0.78017,0.8503859 1.57195,1.6911437 2.38118,2.5150667 z' />
+    </g>
+  </pattern>
+  <linearGradient id='legendGradient' x1='0%' y1='0%' x2='100%' y2='0%'>
+    <stop offset='0%' stop-color='#eef5fc' />
+    <stop offset='100%' stop-color='#f7fafe' />
+  </linearGradient>
+  <!-- https://norbat.de/svg-pattern-3d-webmuster/ -->
+  <linearGradient id='calloutGradient' x1='0%' y1='0%' x2='100%' y2='0%'>
+    <stop offset='0%' stop-color='#efeae1dd' />
+    <stop offset='100%' stop-color='#e8e9eadd' />
+  </linearGradient>
+  <filter id="shadow">
+    <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#a0a0a0" flood-opacity="0.4" />
+  </filter>
+  <!--
+  <filter id='shadow2' width='120%' height='120%'>
+    <feOffset result='offOut' in='SourceGraphic' dx='0' dy='0' />
+    <feColorMatrix result='matrixOut' in='offOut'
+                   values='0.5 0 0 0 0 0 0.5 0 0 0 0 0 0.5 0 0 0 0 0 0.5 0' />
+    <feGaussianBlur result='blurOut' in='matrixOut' stdDeviation='3' />
+    <feBlend in='SourceGraphic' in2='blurOut' />
+  </filter>
+  -->
+  <filter id='fkShadow' height='130%'>
+    <feGaussianBlur in='SourceAlpha' stdDeviation='1.5'/> <!-- stdDeviation is how much to blur -->
+    <feOffset dx='1.2' dy='1.2' result='offsetblur'/> <!-- how much to offset -->
+    <feMerge>
+      <feMergeNode/> <!-- this contains the offset blurred image -->
+      <feMergeNode in='SourceGraphic'/> <!-- this contains the element that the filter is applied to -->
+    </feMerge>
+  </filter>
+  <symbol id='calloutArrowDown' >
+    <path d='M 0,0 L 8,12 L 16,0 z' style='fill:#f8f6d1;stroke:none; filter: url(#shadow);' />
+    <path d='M 0,0 L 8,12 L 16,0' style='stroke:#bebdbd; stroke-width:0.5;' />
+  </symbol>
+  <symbol id='calloutArrowUp' >
+    <path d='M 0,16 L 8,4 L 16,16 z' style='fill:#ffffff; stroke:none; filter: url(#shadow);' />
+    <path d='M 0,16 L 8,4 L 16,16' style='stroke:#bebdbd; stroke-width:0.5;' />
+  </symbol>
+  <symbol id='pk' width="13" height="13">
+    <g>
+      <path style='fill:#bfaf00;stroke:#bfaf00;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;'
+            d='M 9.3678877,3.5695485 C 9.1030218,3.2729386 9.0796382,2.7628519 9.3396185,2.4517097 9.5449651,2.1956495 9.9040386,2.0980533 10.199638,2.2169415 10.533525,2.3415459 10.775153,2.706942 10.750675,3.0842709 10.737029,3.3980003 10.541153,3.699122 10.258248,3.8066067 9.966649,3.9250429 9.6169668,3.8418805 9.4008073,3.6062324 9.3894892,3.5943518 9.3785264,3.582104 9.3678886,3.5695487 z M 11.226617,6.9916004 C 11.888137,6.3548946 12.293488,5.4172188 12.311087,4.442353 12.378144,2.7379364 11.248678,1.0541269 9.7322318,0.44767357 8.3887112,-0.1280313 6.7865012,0.26822889 5.8918395,1.4007929 5.080823,2.3839145 4.9336815,3.8452096 5.3635544,5.101615 L 4.3670905,5.315913 C 4.0664984,5.3682645 4.0967703,5.6316724 4.2574957,5.8208829 L 4.9124,6.5655244 4.1543436,7.2512357 3.2136002,7.2163506 3.1674775,8.5586827 2.0406832,8.5086512 1.5965306,8.9299953 1.5471661,10.179833 0.75616674,10.195223 0.2112857,10.758575 0.15354288,11.735988 0.07199052,12.765553 c 0.36440953,0.238225 0.79006967,0.195492 1.44938278,-0.02675 L 6.3033562,8.1282037 6.8217102,8.6765688 C 6.9985465,8.8799427 7.3003699,8.7497574 7.358381,8.5016252 L 7.4938877,7.5084164 c 0.8537488,0.3985387 1.8303125,0.4711541 2.6851793,0.1427713 0.393927,-0.1407258 0.746858,-0.3701772 1.04755,-0.6595873 z'/>
+      <path d='M 6.8014948,6.3102123 0.15369063,13.024481 0.21560535,12.141962 6.0062342,6.2683782 z'
+            style='fill:#bfaf00;fill-opacity:1;stroke:#bfaf00;stroke-width:0.06912433;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:3.00300009'/>
+    </g>
+  </symbol>
+  <symbol id='idx1' width="13" height="13">
+    <g transform='scale(0.99)'>
+      <rect width='4' height='4' x='7' y='1' style='fill:#ffff3f;stroke:#b48333;stroke-width:0.6;' ry='0.83'/>
+      <rect width='4' height='4' x='1' y='7' style='fill:#ffff3f;stroke:#b48333;stroke-width:0.6;' ry='0.832'/>
+      <rect width='4' height='4' x='7' y='7' style='fill:#ffff3f;stroke:#b48333;stroke-width:0.6;' ry='0.832'/>
+    </g>
+  </symbol>
+  <symbol id='idx2' width="13" height="13">
+    <g transform='scale(0.99)'>
+      <rect width='4' height='3' x='6' y='1' style='fill:#7fc8e9;stroke:#2f6f8c;stroke-width:0.6;' ry='0.83'/>
+      <rect width='7' height='3' x='3' y='6' style='fill:#7fc8e9;stroke:#2f6f8c;stroke-width:0.6;' ry='0.832'/>
+    </g>
+  </symbol>
+  <symbol id='unq' width="13" height="13">
+    <g transform='scale(0.75)'>
+      <path style="fill:#999999;stroke:none;" d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+      <text x='4' y='9' style='font-size:8px;fill:#999999;'>1</text>
+    </g>
+  </symbol>
+  <symbol id='idx' width="13" height="13">
+    <g transform='scale(0.75)'>
+      <path style="fill:#999999;stroke:none;" d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+    </g>
+  </symbol>
+  <symbol id='fk' width="13" height="13">
+    <g transform='scale(0.87)'>
+      <path style='fill:none;stroke:#5a72a8;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;'
+            d='M 1.1,11 1,5.3 C 1,3.6 1.6,3.3 2.9,3.3 l 7.9,0' />
+      <path style='fill:#5a72a8;stroke:#5a72a8;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;'
+            d='M 6.3,0.8 11.3,3.4 6.3,5.6 Z' />
+    </g>
+  </symbol>
+  <symbol id='ref' width="13" height="13">
+    <g transform='scale(0.87)'>
+      <path style='fill:none;stroke:#b4a717;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;'
+            d='m 10.9,11.2 0,-5.8 C 10,3.7 10,3 9,3 l -7.9,0'/>
+      <path style='fill:#b4a717;stroke:#b4a717;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;'
+            d='M 5.7,0.8 0.7,3.4 5.7,5.6 Z'/>
+    </g>
+  </symbol>
+  <symbol id='flagBlue' width="16" height="16">
+    <g transform='scale(0.75)'>
+      <path style="fill:#b7d0f6;stroke:none;" d="M14.778.085A.5.5 0 0 1 15 .5V8a.5.5 0 0 1-.314.464L14.5 8l.186.464-.003.001-.006.003-.023.009a12 12 0 0 1-.397.15c-.264.095-.631.223-1.047.35-.816.252-1.879.523-2.71.523-.847 0-1.548-.28-2.158-.525l-.028-.01C7.68 8.71 7.14 8.5 6.5 8.5c-.7 0-1.638.23-2.437.477A20 20 0 0 0 3 9.342V15.5a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 1 0v.282c.226-.079.496-.17.79-.26C4.606.272 5.67 0 6.5 0c.84 0 1.524.277 2.121.519l.043.018C9.286.788 9.828 1 10.5 1c.7 0 1.638-.23 2.437-.477a20 20 0 0 0 1.349-.476l.019-.007.004-.002h.001"/>
+    </g>
+  </symbol>
+  <symbol id='flagRed' width="16" height="16">
+    <g transform='scale(0.75)'>
+      <path style="fill:#f4a393;stroke:none;" d="M14.778.085A.5.5 0 0 1 15 .5V8a.5.5 0 0 1-.314.464L14.5 8l.186.464-.003.001-.006.003-.023.009a12 12 0 0 1-.397.15c-.264.095-.631.223-1.047.35-.816.252-1.879.523-2.71.523-.847 0-1.548-.28-2.158-.525l-.028-.01C7.68 8.71 7.14 8.5 6.5 8.5c-.7 0-1.638.23-2.437.477A20 20 0 0 0 3 9.342V15.5a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 1 0v.282c.226-.079.496-.17.79-.26C4.606.272 5.67 0 6.5 0c.84 0 1.524.277 2.121.519l.043.018C9.286.788 9.828 1 10.5 1c.7 0 1.638-.23 2.437-.477a20 20 0 0 0 1.349-.476l.019-.007.004-.002h.001"/>
+    </g>
+  </symbol>
+  <symbol id='flagGreen' width="16" height="16">
+    <g transform='scale(0.75)'>
+      <path style="fill:#77ec8b;stroke:none;" d="M14.778.085A.5.5 0 0 1 15 .5V8a.5.5 0 0 1-.314.464L14.5 8l.186.464-.003.001-.006.003-.023.009a12 12 0 0 1-.397.15c-.264.095-.631.223-1.047.35-.816.252-1.879.523-2.71.523-.847 0-1.548-.28-2.158-.525l-.028-.01C7.68 8.71 7.14 8.5 6.5 8.5c-.7 0-1.638.23-2.437.477A20 20 0 0 0 3 9.342V15.5a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 1 0v.282c.226-.079.496-.17.79-.26C4.606.272 5.67 0 6.5 0c.84 0 1.524.277 2.121.519l.043.018C9.286.788 9.828 1 10.5 1c.7 0 1.638-.23 2.437-.477a20 20 0 0 0 1.349-.476l.019-.007.004-.002h.001"/>
+    </g>
+  </symbol>
+  <symbol id='nn' width="3" height="3">
+    <path style='stroke:#da897b;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;'
+          d='M 0,0 3,3 M 0,3 3,0 z'/>
+  </symbol>
+  <symbol id='virtual' width="16" height="16">
+    <g transform='scale(0.99)'>
+      <path style='stroke:#5394b8;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;' d="M13.359 11.238C15.06 9.72 16 8 16 8s-3-5.5-8-5.5a7 7 0 0 0-2.79.588l.77.771A6 6 0 0 1 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13 13 0 0 1 14.828 8q-.086.13-.195.288c-.335.48-.83 1.12-1.465 1.755q-.247.248-.517.486z"/>
+      <path style='stroke:#5394b8;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;' d="M11.297 9.176a3.5 3.5 0 0 0-4.474-4.474l.823.823a2.5 2.5 0 0 1 2.829 2.829zm-2.943 1.299.822.822a3.5 3.5 0 0 1-4.474-4.474l.823.823a2.5 2.5 0 0 0 2.829 2.829"/>
+      <path style='stroke:#5394b8;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;' d="M3.35 5.47q-.27.24-.518.487A13 13 0 0 0 1.172 8l.195.288c.335.48.83 1.12 1.465 1.755C4.121 11.332 5.881 12.5 8 12.5c.716 0 1.39-.133 2.02-.36l.77.772A7 7 0 0 1 8 13.5C3 13.5 0 8 0 8s.939-1.721 2.641-3.238l.708.709zm10.296 8.884-12-12 .708-.708 12 12z"/>
+    </g>
+  </symbol>
+  <symbol id='shield' width="16" height="16">
+    <g transform='scale(0.99)'>
+      <path style='stroke:#5394b8;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;'
+            d="M5.338 1.59a61 61 0 0 0-2.837.856.48.48 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.7 10.7 0 0 0 2.287 2.233c.346.244.652.42.893.533q.18.085.293.118a1 1 0 0 0 .101.025 1 1 0 0 0 .1-.025q.114-.034.294-.118c.24-.113.547-.29.893-.533a10.7 10.7 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.8 11.8 0 0 1-2.517 2.453 7 7 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7 7 0 0 1-1.048-.625 11.8 11.8 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 63 63 0 0 1 5.072.56"/>
+      <path style='stroke:#5394b8;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;'
+            d="M10.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0"/>
+    </g>
+  </symbol>
+  <symbol id='shield-slash' width="16" height="16">
+    <g transform='scale(0.99)'>
+      <path style='stroke:#5394b8;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;'
+            d="M1.093 3.093c-.465 4.275.885 7.46 2.513 9.589a11.8 11.8 0 0 0 2.517 2.453c.386.273.744.482 1.048.625.28.132.581.24.829.24s.548-.108.829-.24a7 7 0 0 0 1.048-.625 11.3 11.3 0 0 0 1.733-1.525l-.745-.745a10.3 10.3 0 0 1-1.578 1.392c-.346.244-.652.42-.893.533q-.18.085-.293.118a1 1 0 0 1-.101.025 1 1 0 0 1-.1-.025 2 2 0 0 1-.294-.118 6 6 0 0 1-.893-.533 10.7 10.7 0 0 1-2.287-2.233C3.053 10.228 1.879 7.594 2.06 4.06zM3.98 1.98l-.852-.852A59 59 0 0 1 5.072.559C6.157.266 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.483 3.626-.332 6.491-1.551 8.616l-.77-.77c1.042-1.915 1.72-4.469 1.29-7.702a.48.48 0 0 0-.33-.39c-.65-.213-1.75-.56-2.836-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524a50 50 0 0 0-1.357.39zm9.666 12.374-13-13 .708-.708 13 13z"/>
+    </g>
+  </symbol>
+  <symbol id='view' width="13" height="13">
+    <g transform='scale(0.81)'>
+      <path style="fill:#999999;stroke:none;" d="M3 2.5A1.5 1.5 0 0 1 4.5 1h1A1.5 1.5 0 0 1 7 2.5V5h2V2.5A1.5 1.5 0 0 1 10.5 1h1A1.5 1.5 0 0 1 13 2.5v2.382a.5.5 0 0 0 .276.447l.895.447A1.5 1.5 0 0 1 15 7.118V14.5a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 14.5v-3a.5.5 0 0 1 .146-.354l.854-.853V9.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v.793l.854.853A.5.5 0 0 1 7 11.5v3A1.5 1.5 0 0 1 5.5 16h-3A1.5 1.5 0 0 1 1 14.5V7.118a1.5 1.5 0 0 1 .83-1.342l.894-.447A.5.5 0 0 0 3 4.882zM4.5 2a.5.5 0 0 0-.5.5V3h2v-.5a.5.5 0 0 0-.5-.5zM6 4H4v.882a1.5 1.5 0 0 1-.83 1.342l-.894.447A.5.5 0 0 0 2 7.118V13h4v-1.293l-.854-.853A.5.5 0 0 1 5 10.5v-1A1.5 1.5 0 0 1 6.5 8h3A1.5 1.5 0 0 1 11 9.5v1a.5.5 0 0 1-.146.354l-.854.853V13h4V7.118a.5.5 0 0 0-.276-.447l-.895-.447A1.5 1.5 0 0 1 12 4.882V4h-2v1.5a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5zm4-1h2v-.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5zm4 11h-4v.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5zm-8 0H2v.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5z"/>
+    </g>
+  </symbol>
+  <symbol id='logo' width="100" height="100" style="filter:url(#shadow);">
+    <path style='stroke:none;fill:#5d5d5d' d='M2.41,6.80 17.39,0.35 26.83,7.21 28.32,24.45 12.62,29.77 1.74,23.96'/>
+    <path style='stroke:none;fill:#efefef' d='M 2.21, 6.45  9.36, 3.49  9.42,11.63  2.04,14.42'/>
+    <path style='stroke:none;fill:#efefef' d='M10.23, 3.14 17.39, 0.17 17.68, 8.59 10.29,11.28'/>
+    <path style='stroke:none;fill:#d2d2d2' d='M17.44, 0.17 21.59, 3.55 22.36,11.43 17.76,8.63'/>
+    <path style='stroke:none;fill:#d2d2d2' d='M22.67, 4.33 26.98, 7.06 27.65,14.77 23.20,11.77'/>
+    <path style='stroke:none;fill:#efefef' d='M1.89,15.58  9.39,12.65  9.48,21.14  1.57,24.10'/>
+    <path style='stroke:none;fill:#17afde' d='M10.38,12.36 17.70, 9.51 18.11,18.37 10.32 20.96'/>
+    <path style='stroke:none;fill:#1389ad' d='M17.73, 9.59 22.41,12.47 22.82,21.14 18.05,18.34'/>
+    <path style='stroke:none;fill:#d2d2d2' d='M23.26,12.94 27.62,15.70 28.42,24.54 23.69,21.60'/>
+    <path style='stroke:none;fill:#828282' d='M1.57,24.19  9.45,21.22 14.30,24.40  6.80,26.80'/>
+    <path style='stroke:none;fill:#0c485c' d='M10.47,20.90 18.11,18.32 22.82,21.19 15.20,23.81'/>
+    <path style='stroke:none;fill:#828282' d='M23.69,21.63 28.32,24.65 20.87,27.07 15.84,24.30'/>
+    <path style='stroke:none;fill:#828282' d='M14.94,24.68 19.80,27.41 12.59,29.97  7.73,27.21'/>
+  </symbol>
+</defs>
+
+<defs>  <marker id='ZeroMore' viewBox='0 0 9.50 9.50' refX='4.75' refY='4.75' markerWidth='9.50' markerHeight='9.50' orient='auto-start-reverse'>
+    <circle cx='2.38' cy='4.75' r='2.38' style='stroke-width:1;' />
+    <path d='M 9.50,0.00 L 4.75,4.75 L 9.50,9.50' style='stroke-width:1;'/>
+    <path d='M 0.00,4.75 L 9.50,4.75 z' style='stroke-width:1;'/>
+  </marker>
+  <marker id='ZeroOne' viewBox='0 0 9.50 9.50' refX='4.75' refY='4.75' markerWidth='9.50' markerHeight='9.50' orient='auto-start-reverse'>
+    <path d='M 0.00,4.75 L 9.50,4.75 z' style='stroke-width:1;'/>
+    <circle cx='2.38' cy='4.75' r='2.38' style='stroke-width:1;' />
+    <path d='M 4.75,0.00 L 4.75, 9.50 z' style='stroke-width:1;'/>
+  </marker>
+  <marker id='OneMore' viewBox='0 0 9.50 9.50' refX='4.75' refY='4.75' markerWidth='9.50' markerHeight='9.50' orient='auto-start-reverse'>
+    <path d='M 0.00,4.75 L 9.50,4.75 z' style='stroke-width:1;'/>
+    <path d='M 4.75,0.00 L 4.75, 9.50 z' style='stroke-width:1;'/>
+    <path d='M 9.50,0.00 L 4.75,4.75 L 9.50,9.50' style='stroke-width:1;'/>
+    <path d='M 0.00,4.75 L 9.50,4.75 z' style='stroke-width:1;'/>
+  </marker>
+  <marker id='One' viewBox='0 0 9.50 9.50' refX='4.75' refY='4.75' markerWidth='9.50' markerHeight='9.50' orient='auto-start-reverse'>
+    <path d='M 0.00,4.75 L 9.50,4.75 z' style='stroke-width:1;'/>
+    <path d='M 4.75,0.00 L 4.75, 9.50 z' style='stroke-width:1;'/>
+  </marker>
+  <marker id='Range' viewBox='0 0 9.50 9.50' refX='4.75' refY='4.75' markerWidth='9.50' markerHeight='9.50' orient='auto-start-reverse'>
+    <path d='M 0.00,4.75 L 9.50,4.75 z' style='stroke-width:1;'/>
+  </marker>
+  <marker id='Arrow' viewBox='0 0 9.50 9.50' refX='4.75' refY='4.75' markerWidth='9.50' markerHeight='9.50' orient='auto-start-reverse'>
+    <path d='M 4.750,2.375 L 9.500,4.750 L 4.750,7.125 z' style='stroke-width:1;' class='filled'/>
+  </marker>
+  <linearGradient id='ttl_C7F4BE' x1='0%' y1='0%' x2='100%' y2='0%' >
+     <stop offset='0%' stop-color='#7FDE6C' /> 
+     <stop offset='100%' stop-color='#AADDA0' /> 
+  </linearGradient>
+  <linearGradient id='tbg_C7F4BE' x1='0%' y1='0%' x2='100%' y2='0%' >
+     <stop offset='0%' stop-color='#E3E5E3' /> 
+     <stop offset='100%' stop-color='#F4F7F4' /> 
+  </linearGradient>
+  <linearGradient id='ttl_F4DDBE' x1='0%' y1='0%' x2='100%' y2='0%' >
+     <stop offset='0%' stop-color='#DEAC6C' /> 
+     <stop offset='100%' stop-color='#DDC2A0' /> 
+  </linearGradient>
+  <linearGradient id='tbg_F4DDBE' x1='0%' y1='0%' x2='100%' y2='0%' >
+     <stop offset='0%' stop-color='#E5E4E3' /> 
+     <stop offset='100%' stop-color='#F7F5F4' /> 
+  </linearGradient>
+  <linearGradient id='ttl_BED3F4' x1='0%' y1='0%' x2='100%' y2='0%' >
+     <stop offset='0%' stop-color='#6C97DE' /> 
+     <stop offset='100%' stop-color='#A0B7DD' /> 
+  </linearGradient>
+  <linearGradient id='tbg_BED3F4' x1='0%' y1='0%' x2='100%' y2='0%' >
+     <stop offset='0%' stop-color='#E3E3E5' /> 
+     <stop offset='100%' stop-color='#F4F5F7' /> 
+  </linearGradient>
+</defs>
+
+<!-- == Shape Colors == -->
+<!-- == Desktop == -->
+<rect x='0' y='0' width='1425' height='1425' rx='10' ry='10' style='fill:url(#layoutBgA); stroke:#ccc; stroke-width:.7px; cursor:move;' />
+<rect x='1' y='1' width='1423' height='1423' rx='10' ry='10' style='fill:url(#layoutBgEval);' />
+
+<!-- == Legend == -->
+<g transform='translate(10,10)'>
+</g>
+
+<g transform='translate(0,0)'>
+<!-- == Group 'authors' == -->
+<rect class='grp' style='fill:#FDFFFD;stroke:#B6E2AE' x='41' y='31' width='545' height='593' rx='8' ry='8' />
+<text x='55' y='50' style='fill:#98C590;'>authors</text>
+<!-- == Group 'editions' == -->
+<rect class='grp' style='fill:#FFFEFD;stroke:#E2CBAE' x='668' y='31' width='716' height='593' rx='8' ry='8' />
+<text x='682' y='50' style='fill:#C5AE90;'>editions</text>
+<!-- == Group 'works' == -->
+<rect class='grp' style='fill:#FDFDFF;stroke:#AEC1E2' x='345' y='677' width='678' height='669' rx='8' ry='8' />
+<text x='359' y='696' style='fill:#90A4C5;'>works</text>
+<!-- == Fk 'authors_alternative_names_fk_authors_alternative_names_author_key' == -->
+<path id='authors_alternative_names_fk_authors_alternative_names_author_key'  onmouseover="hghl(['authors_alternative_names_fk_authors_alternative_names_author_key','public.authors_alternative_names.author_key','public.authors.author_key'])" onmouseout="uhghl(['authors_alternative_names_fk_authors_alternative_names_author_key','public.authors_alternative_names.author_key','public.authors.author_key'])" transform='translate(10,0)' class='unhighlight' d='M 152,190L 152,285' >
+	<title>&#x1F517;  Foreign Key fk_authors_alternative_names_author_key
+authors_alternative_names &#10132; authors ( author_key )
+</title>
+</path>
+<path transform='translate(10,0)' marker-start='url(#OneMore)' marker-end='url(#Arrow)'    d='M 152,190L 152,285' ><title>&#x1F517;  Foreign Key fk_authors_alternative_names_author_key
+authors_alternative_names &#10132; authors ( author_key )
+</title></path>
+<text x='164' y='190' transform='rotate(90 164,190)' class='relName'>author&#95;key</text>
+<!-- == Fk 'authors_statistics_fk_authors_statistics_author_key' == -->
+<path id='authors_statistics_fk_authors_statistics_author_key'  onmouseover="hghl(['authors_statistics_fk_authors_statistics_author_key','public.authors_statistics.author_key','public.authors.author_key'])" onmouseout="uhghl(['authors_statistics_fk_authors_statistics_author_key','public.authors_statistics.author_key','public.authors.author_key'])" transform='translate(10,0)' class='unhighlight' d='M 342,323L 266,323' >
+	<title>&#x1F517;  Foreign Key fk_authors_statistics_author_key
+authors_statistics &#10132; authors ( author_key )
+</title>
+</path>
+<path transform='translate(10,0)' marker-start='url(#One)' marker-end='url(#Arrow)'    d='M 342,323L 266,323' ><title>&#x1F517;  Foreign Key fk_authors_statistics_author_key
+authors_statistics &#10132; authors ( author_key )
+</title></path>
+<text x='286' y='317' transform='rotate(0 286,317)' class='relName'>author&#95;key</text>
+<!-- == Fk 'editions_contents_fk_editions_contents_edition_key' == -->
+<path id='editions_contents_fk_editions_contents_edition_key'  onmouseover="hghl(['editions_contents_fk_editions_contents_edition_key','public.editions_contents.edition_key','public.editions.edition_key'])" onmouseout="uhghl(['editions_contents_fk_editions_contents_edition_key','public.editions_contents.edition_key','public.editions.edition_key'])" transform='translate(10,0)' class='unhighlight' d='M 1235,228L 1235,371Q 1235,380 1226,380L 1150,380Q 1140,380 1140,390L 1140,390Q 1140,399 1131,399L 884,399Q 874,399 874,409L 874,418' >
+	<title>&#x1F517;  Foreign Key fk_editions_contents_edition_key
+editions_contents &#10132; editions ( edition_key )
+</title>
+</path>
+<path transform='translate(10,0)' marker-start='url(#One)' marker-end='url(#Arrow)'    d='M 1235,228L 1235,371Q 1235,380 1226,380L 1150,380Q 1140,380 1140,390L 1140,390Q 1140,399 1131,399L 884,399Q 874,399 874,409L 874,418' ><title>&#x1F517;  Foreign Key fk_editions_contents_edition_key
+editions_contents &#10132; editions ( edition_key )
+</title></path>
+<text x='1247' y='228' transform='rotate(90 1247,228)' class='relName'>edition&#95;key</text>
+<!-- == Fk 'editions_details_fk_editions_details_edition_key' == -->
+<path id='editions_details_fk_editions_details_edition_key'  onmouseover="hghl(['editions_details_fk_editions_details_edition_key','public.editions_details.edition_key','public.editions.edition_key'])" onmouseout="uhghl(['editions_details_fk_editions_details_edition_key','public.editions_details.edition_key','public.editions.edition_key'])" transform='translate(10,0)' class='unhighlight' d='M 779,285L 779,418' >
+	<title>&#x1F517;  Foreign Key fk_editions_details_edition_key
+editions_details &#10132; editions ( edition_key )
+</title>
+</path>
+<path transform='translate(10,0)' marker-start='url(#ZeroMore)' marker-end='url(#Arrow)'  class='dotted '  d='M 779,285L 779,418' ><title>&#x1F517;  Foreign Key fk_editions_details_edition_key
+editions_details &#10132; editions ( edition_key )
+</title></path>
+<text x='791' y='285' transform='rotate(90 791,285)' class='relName'>edition&#95;key</text>
+<!-- == Fk 'editions_publishing_fk_editions_publishing_edition_key' == -->
+<path id='editions_publishing_fk_editions_publishing_edition_key'  onmouseover="hghl(['editions_publishing_fk_editions_publishing_edition_key','public.editions_publishing.edition_key','public.editions.edition_key'])" onmouseout="uhghl(['editions_publishing_fk_editions_publishing_edition_key','public.editions_publishing.edition_key','public.editions.edition_key'])" transform='translate(10,0)' class='unhighlight' d='M 988,304L 988,466Q 988,475 979,475L 893,475' >
+	<title>&#x1F517;  Foreign Key fk_editions_publishing_edition_key
+editions_publishing &#10132; editions ( edition_key )
+</title>
+</path>
+<path transform='translate(10,0)' marker-start='url(#ZeroMore)' marker-end='url(#Arrow)'  class='dotted '  d='M 988,304L 988,466Q 988,475 979,475L 893,475' ><title>&#x1F517;  Foreign Key fk_editions_publishing_edition_key
+editions_publishing &#10132; editions ( edition_key )
+</title></path>
+<text x='1000' y='304' transform='rotate(90 1000,304)' class='relName'>edition&#95;key</text>
+<!-- == Fk 'editions_fk_editions_work_key' == -->
+<path id='editions_fk_editions_work_key'  onmouseover="hghl(['editions_fk_editions_work_key','public.editions.work_key','public.works.work_key'])" onmouseout="uhghl(['editions_fk_editions_work_key','public.editions.work_key','public.works.work_key'])" transform='translate(10,0)' class='unhighlight' d='M 779,589L 779,722' >
+	<title>&#x1F517;  Foreign Key fk_editions_work_key
+editions &#10132; works ( work_key )
+</title>
+</path>
+<path transform='translate(10,0)' marker-start='url(#ZeroMore)' marker-end='url(#Arrow)'  class='dotted '  d='M 779,589L 779,722' ><title>&#x1F517;  Foreign Key fk_editions_work_key
+editions &#10132; works ( work_key )
+</title></path>
+<text x='791' y='589' transform='rotate(90 791,589)' class='relName'>work&#95;key</text>
+<!-- == Fk 'editions_contributors_fk_editions_contributors_edition_key' == -->
+<path id='editions_contributors_fk_editions_contributors_edition_key'  onmouseover="hghl(['editions_contributors_fk_editions_contributors_edition_key','public.editions_contributors.edition_key','public.editions.edition_key'])" onmouseout="uhghl(['editions_contributors_fk_editions_contributors_edition_key','public.editions_contributors.edition_key','public.editions.edition_key'])" transform='translate(10,0)' class='unhighlight' d='M 1178,456L 893,456' >
+	<title>&#x1F517;  Foreign Key fk_editions_contributors_edition_key
+editions_contributors &#10132; editions ( edition_key )
+</title>
+</path>
+<path transform='translate(10,0)' marker-start='url(#ZeroMore)' marker-end='url(#Arrow)'  class='dotted '  d='M 1178,456L 893,456' ><title>&#x1F517;  Foreign Key fk_editions_contributors_edition_key
+editions_contributors &#10132; editions ( edition_key )
+</title></path>
+<text x='1119' y='450' transform='rotate(0 1119,450)' class='relName'>edition&#95;key</text>
+<!-- == Fk 'authors_works_fk_authors_works_work_key' == -->
+<path id='authors_works_fk_authors_works_work_key'  onmouseover="hghl(['authors_works_fk_authors_works_work_key','public.authors_works.work_key','public.works.work_key'])" onmouseout="uhghl(['authors_works_fk_authors_works_work_key','public.authors_works.work_key','public.works.work_key'])" transform='translate(10,0)' class='unhighlight' d='M 513,608L 513,732Q 513,741 523,741L 608,741' >
+	<title>&#x1F517;  Foreign Key fk_authors_works_work_key
+authors_works &#10132; works ( work_key )
+</title>
+</path>
+<path transform='translate(10,0)' marker-start='url(#OneMore)' marker-end='url(#Arrow)'    d='M 513,608L 513,732Q 513,741 523,741L 608,741' ><title>&#x1F517;  Foreign Key fk_authors_works_work_key
+authors_works &#10132; works ( work_key )
+</title></path>
+<text x='525' y='608' transform='rotate(90 525,608)' class='relName'>work&#95;key</text>
+<!-- == Fk 'authors_works_fk_authors_works_author_key' == -->
+<path id='authors_works_fk_authors_works_author_key'  onmouseover="hghl(['authors_works_fk_authors_works_author_key','public.authors_works.author_key','public.authors.author_key'])" onmouseout="uhghl(['authors_works_fk_authors_works_author_key','public.authors_works.author_key','public.authors.author_key'])" transform='translate(10,0)' class='unhighlight' d='M 380,513L 257,513Q 247,513 247,504L 247,494' >
+	<title>&#x1F517;  Foreign Key fk_authors_works_author_key
+authors_works &#10132; authors ( author_key )
+</title>
+</path>
+<path transform='translate(10,0)' marker-start='url(#OneMore)' marker-end='url(#Arrow)'    d='M 380,513L 257,513Q 247,513 247,504L 247,494' ><title>&#x1F517;  Foreign Key fk_authors_works_author_key
+authors_works &#10132; authors ( author_key )
+</title></path>
+<text x='324' y='507' transform='rotate(0 324,507)' class='relName'>author&#95;key</text>
+<!-- == Fk 'works_subjects_fk_works_subjects_work_key' == -->
+<path id='works_subjects_fk_works_subjects_work_key'  onmouseover="hghl(['works_subjects_fk_works_subjects_work_key','public.works_subjects.work_key','public.works.work_key'])" onmouseout="uhghl(['works_subjects_fk_works_subjects_work_key','public.works_subjects.work_key','public.works.work_key'])" transform='translate(10,0)' class='unhighlight' d='M 494,1216L 494,1188Q 494,1178 504,1178L 808,1178Q 817,1178 817,1169L 817,941Q 817,931 808,931L 798,931' >
+	<title>&#x1F517;  Foreign Key fk_works_subjects_work_key
+works_subjects &#10132; works ( work_key )
+</title>
+</path>
+<path transform='translate(10,0)' marker-start='url(#OneMore)' marker-end='url(#Arrow)'    d='M 494,1216L 494,1188Q 494,1178 504,1178L 808,1178Q 817,1178 817,1169L 817,941Q 817,931 808,931L 798,931' ><title>&#x1F517;  Foreign Key fk_works_subjects_work_key
+works_subjects &#10132; works ( work_key )
+</title></path>
+<text x='497' y='1213' transform='rotate(270 497,1213)' class='relName'>work&#95;key</text>
+<!-- == Fk 'works_people_fk_works_people_work_key' == -->
+<path id='works_people_fk_works_people_work_key'  onmouseover="hghl(['works_people_fk_works_people_work_key','public.works_people.work_key','public.works.work_key'])" onmouseout="uhghl(['works_people_fk_works_people_work_key','public.works_people.work_key','public.works.work_key'])" transform='translate(10,0)' class='unhighlight' d='M 570,1216L 570,903Q 570,893 580,893L 608,893' >
+	<title>&#x1F517;  Foreign Key fk_works_people_work_key
+works_people &#10132; works ( work_key )
+</title>
+</path>
+<path transform='translate(10,0)' marker-start='url(#OneMore)' marker-end='url(#Arrow)'    d='M 570,1216L 570,903Q 570,893 580,893L 608,893' ><title>&#x1F517;  Foreign Key fk_works_people_work_key
+works_people &#10132; works ( work_key )
+</title></path>
+<text x='573' y='1213' transform='rotate(270 573,1213)' class='relName'>work&#95;key</text>
+<!-- == Fk 'works_places_fk_works_places_work_key' == -->
+<path id='works_places_fk_works_places_work_key'  onmouseover="hghl(['works_places_fk_works_places_work_key','public.works_places.work_key','public.works.work_key'])" onmouseout="uhghl(['works_places_fk_works_places_work_key','public.works_places.work_key','public.works.work_key'])" transform='translate(10,0)' class='unhighlight' d='M 779,1216L 779,950' >
+	<title>&#x1F517;  Foreign Key fk_works_places_work_key
+works_places &#10132; works ( work_key )
+</title>
+</path>
+<path transform='translate(10,0)' marker-start='url(#OneMore)' marker-end='url(#Arrow)'    d='M 779,1216L 779,950' ><title>&#x1F517;  Foreign Key fk_works_places_work_key
+works_places &#10132; works ( work_key )
+</title></path>
+<text x='782' y='1213' transform='rotate(270 782,1213)' class='relName'>work&#95;key</text>
+<!-- == Fk 'works_time_periods_fk_works_time_periods_work_key' == -->
+<path id='works_time_periods_fk_works_time_periods_work_key'  onmouseover="hghl(['works_time_periods_fk_works_time_periods_work_key','public.works_time_periods.work_key','public.works.work_key'])" onmouseout="uhghl(['works_time_periods_fk_works_time_periods_work_key','public.works_time_periods.work_key','public.works.work_key'])" transform='translate(10,0)' class='unhighlight' d='M 874,1216L 874,922Q 874,912 865,912L 798,912' >
+	<title>&#x1F517;  Foreign Key fk_works_time_periods_work_key
+works_time_periods &#10132; works ( work_key )
+</title>
+</path>
+<path transform='translate(10,0)' marker-start='url(#OneMore)' marker-end='url(#Arrow)'    d='M 874,1216L 874,922Q 874,912 865,912L 798,912' ><title>&#x1F517;  Foreign Key fk_works_time_periods_work_key
+works_time_periods &#10132; works ( work_key )
+</title></path>
+<text x='877' y='1213' transform='rotate(270 877,1213)' class='relName'>work&#95;key</text>
+<!-- == Fk 'works_series_fk_works_series_work_key' == -->
+<path id='works_series_fk_works_series_work_key'  onmouseover="hghl(['works_series_fk_works_series_work_key','public.works_series.work_key','public.works.work_key'])" onmouseout="uhghl(['works_series_fk_works_series_work_key','public.works_series.work_key','public.works.work_key'])" transform='translate(10,0)' class='unhighlight' d='M 646,1007L 646,950' >
+	<title>&#x1F517;  Foreign Key fk_works_series_work_key
+works_series &#10132; works ( work_key )
+</title>
+</path>
+<path transform='translate(10,0)' marker-start='url(#One)' marker-end='url(#Arrow)'    d='M 646,1007L 646,950' ><title>&#x1F517;  Foreign Key fk_works_series_work_key
+works_series &#10132; works ( work_key )
+</title></path>
+<text x='649' y='1004' transform='rotate(270 649,1004)' class='relName'>work&#95;key</text>
+<!-- == Fk 'works_availability_fk_works_availability_work_key' == -->
+<path id='works_availability_fk_works_availability_work_key'  onmouseover="hghl(['works_availability_fk_works_availability_work_key','public.works_availability.work_key','public.works.work_key'])" onmouseout="uhghl(['works_availability_fk_works_availability_work_key','public.works_availability.work_key','public.works.work_key'])" transform='translate(10,0)' class='unhighlight' d='M 494,1007L 494,922Q 494,912 504,912L 608,912' >
+	<title>&#x1F517;  Foreign Key fk_works_availability_work_key
+works_availability &#10132; works ( work_key )
+</title>
+</path>
+<path transform='translate(10,0)' marker-start='url(#One)' marker-end='url(#Arrow)'    d='M 494,1007L 494,922Q 494,912 504,912L 608,912' ><title>&#x1F517;  Foreign Key fk_works_availability_work_key
+works_availability &#10132; works ( work_key )
+</title></path>
+<text x='497' y='1004' transform='rotate(270 497,1004)' class='relName'>work&#95;key</text>
+<!-- == Table 'authors_alternative_names' == -->
+<rect id='depict_public&#46;authors&#95;alternative&#95;names' class='entity' style='stroke:#F9FCF9' x='57' y='86' width='209' height='95' rx='4' ry='4' />
+<rect x='57' y='86' width='209' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_C7F4BE);'/>
+<rect x='57' y='90' width='209' height='29' style='stroke-width:0;fill:url(#tbg_C7F4BE);'/>
+<a href='#public.authors_alternative_names'><g><title>Table public.authors_alternative_names</title><text id='depict&#45;public&#46;authors&#95;alternative&#95;names' x='78' y='108' class='tableHeader' style='fill:#424841;'>authors&#95;alternative&#95;names</text></g></a>
+  <use x='58' y='129' href='#nn'/><g><title>&#x1F511;  Pk authors_alternative_names_pkey ( author_key, author_alternative_name ) </title><use x='59' y='128' href='#pk'/></g><a href='#public.authors_alternative_names.author_key'><g><title>&#10697;  author_key
+     * varchar
+ &#8599; authors( author_key )</title><text id='public&#46;authors&#95;alternative&#95;names&#46;author&#95;key' x='80' y='142' onmouseover="hghl(['authors_alternative_names_fk_authors_alternative_names_author_key','public.authors.author_key'])" onmouseout="uhghl(['authors_alternative_names_fk_authors_alternative_names_author_key','public.authors.author_key'])" class='colPk'>author&#95;key</text></g></a>
+<a href='#public.authors_alternative_names.author_key'><g><title>&#x1F517;  References authors ( author_key ) </title><use x='252' y='128' href='#fk'/></g></a>
+  <use x='58' y='148' href='#nn'/><g><title>&#x1F511;  Pk authors_alternative_names_pkey ( author_key, author_alternative_name ) </title><use x='59' y='147' href='#pk'/></g><a href='#public.authors_alternative_names.author_alternative_name'><g><title>&#10697;  author_alternative_name
+     * varchar</title><text id='public&#46;authors&#95;alternative&#95;names&#46;author&#95;alternative&#95;name' x='80' y='161' class='colPk'>author&#95;alternative&#95;name</text></g></a>
+<text x='262' y='157' text-anchor='end' class='colType'>t</text>
+<!-- == Table 'authors_statistics' == -->
+<rect id='depict_public&#46;authors&#95;statistics' class='entity' style='stroke:#F9FCF9' x='361' y='86' width='209' height='285' rx='4' ry='4' />
+<rect x='361' y='86' width='209' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_C7F4BE);'/>
+<rect x='361' y='90' width='209' height='29' style='stroke-width:0;fill:url(#tbg_C7F4BE);'/>
+<a href='#public.authors_statistics'><g><title>Table public.authors_statistics</title><text id='depict&#45;public&#46;authors&#95;statistics' x='410' y='108' class='tableHeader' style='fill:#424841;'>authors&#95;statistics</text></g></a>
+  <use x='362' y='129' href='#nn'/><g><title>&#x1F511;  Pk authors_statistics_pkey ( author_key ) </title><use x='363' y='128' href='#pk'/></g><a href='#public.authors_statistics.author_key'><g><title>&#10697;  author_key
+     * varchar
+ &#8599; authors( author_key )</title><text id='public&#46;authors&#95;statistics&#46;author&#95;key' x='384' y='142' onmouseover="hghl(['authors_statistics_fk_authors_statistics_author_key','public.authors.author_key'])" onmouseout="uhghl(['authors_statistics_fk_authors_statistics_author_key','public.authors.author_key'])" class='colPk'>author&#95;key</text></g></a>
+<a href='#public.authors_statistics.author_key'><g><title>&#x1F517;  References authors ( author_key ) </title><use x='556' y='128' href='#fk'/></g></a>
+  <a href='#public.authors_statistics.top_work'><g><title>&#10697;  top_work
+     varchar</title><text id='public&#46;authors&#95;statistics&#46;top&#95;work' x='384' y='161'>top&#95;work</text></g></a>
+<text x='566' y='157' text-anchor='end' class='colType'>t</text>  <a href='#public.authors_statistics.work_count'><g><title>&#10697;  work_count
+     integer</title><text id='public&#46;authors&#95;statistics&#46;work&#95;count' x='384' y='180'>work&#95;count</text></g></a>
+<text x='566' y='176' text-anchor='end' class='colType'>&#35;</text>  <a href='#public.authors_statistics.ratings_count_1'><g><title>&#10697;  ratings_count_1
+     integer</title><text id='public&#46;authors&#95;statistics&#46;ratings&#95;count&#95;1' x='384' y='199'>ratings&#95;count&#95;1</text></g></a>
+<text x='566' y='195' text-anchor='end' class='colType'>&#35;</text>  <a href='#public.authors_statistics.ratings_count_2'><g><title>&#10697;  ratings_count_2
+     integer</title><text id='public&#46;authors&#95;statistics&#46;ratings&#95;count&#95;2' x='384' y='218'>ratings&#95;count&#95;2</text></g></a>
+<text x='566' y='214' text-anchor='end' class='colType'>&#35;</text>  <a href='#public.authors_statistics.ratings_count_3'><g><title>&#10697;  ratings_count_3
+     integer</title><text id='public&#46;authors&#95;statistics&#46;ratings&#95;count&#95;3' x='384' y='237'>ratings&#95;count&#95;3</text></g></a>
+<text x='566' y='233' text-anchor='end' class='colType'>&#35;</text>  <a href='#public.authors_statistics.ratings_count_4'><g><title>&#10697;  ratings_count_4
+     integer</title><text id='public&#46;authors&#95;statistics&#46;ratings&#95;count&#95;4' x='384' y='256'>ratings&#95;count&#95;4</text></g></a>
+<text x='566' y='252' text-anchor='end' class='colType'>&#35;</text>  <a href='#public.authors_statistics.ratings_count_5'><g><title>&#10697;  ratings_count_5
+     integer</title><text id='public&#46;authors&#95;statistics&#46;ratings&#95;count&#95;5' x='384' y='275'>ratings&#95;count&#95;5</text></g></a>
+<text x='566' y='271' text-anchor='end' class='colType'>&#35;</text>  <a href='#public.authors_statistics.readinglog_count'><g><title>&#10697;  readinglog_count
+     integer</title><text id='public&#46;authors&#95;statistics&#46;readinglog&#95;count' x='384' y='294'>readinglog&#95;count</text></g></a>
+<text x='566' y='290' text-anchor='end' class='colType'>&#35;</text>  <a href='#public.authors_statistics.want_to_read_count'><g><title>&#10697;  want_to_read_count
+     integer</title><text id='public&#46;authors&#95;statistics&#46;want&#95;to&#95;read&#95;count' x='384' y='313'>want&#95;to&#95;read&#95;count</text></g></a>
+<text x='566' y='309' text-anchor='end' class='colType'>&#35;</text>  <a href='#public.authors_statistics.currently_reading_count'><g><title>&#10697;  currently_reading_count
+     integer</title><text id='public&#46;authors&#95;statistics&#46;currently&#95;reading&#95;count' x='384' y='332'>currently&#95;reading&#95;count</text></g></a>
+<text x='566' y='328' text-anchor='end' class='colType'>&#35;</text>  <a href='#public.authors_statistics.already_read_count'><g><title>&#10697;  already_read_count
+     integer</title><text id='public&#46;authors&#95;statistics&#46;already&#95;read&#95;count' x='384' y='351'>already&#95;read&#95;count</text></g></a>
+<text x='566' y='347' text-anchor='end' class='colType'>&#35;</text>
+<!-- == Table 'editions_contents' == -->
+<rect id='depict_public&#46;editions&#95;contents' class='entity' style='stroke:#FCFAF9' x='1216' y='86' width='133' height='133' rx='4' ry='4' />
+<rect x='1216' y='86' width='133' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_F4DDBE);'/>
+<rect x='1216' y='90' width='133' height='29' style='stroke-width:0;fill:url(#tbg_F4DDBE);'/>
+<a href='#public.editions_contents'><g><title>Table public.editions_contents</title><text id='depict&#45;public&#46;editions&#95;contents' x='1226' y='108' class='tableHeader' style='fill:#484441;'>editions&#95;contents</text></g></a>
+  <use x='1217' y='129' href='#nn'/><g><title>&#x1F511;  Pk editions_contents_pkey ( edition_key ) </title><use x='1218' y='128' href='#pk'/></g><a href='#public.editions_contents.edition_key'><g><title>&#10697;  edition_key
+     * varchar
+ &#8599; editions( edition_key )</title><text id='public&#46;editions&#95;contents&#46;edition&#95;key' x='1239' y='142' onmouseover="hghl(['editions_contents_fk_editions_contents_edition_key','public.editions.edition_key'])" onmouseout="uhghl(['editions_contents_fk_editions_contents_edition_key','public.editions.edition_key'])" class='colPk'>edition&#95;key</text></g></a>
+<a href='#public.editions_contents.edition_key'><g><title>&#x1F517;  References editions ( edition_key ) </title><use x='1335' y='128' href='#fk'/></g></a>
+  <a href='#public.editions_contents.description'><g><title>&#10697;  description
+     varchar</title><text id='public&#46;editions&#95;contents&#46;description' x='1239' y='161'>description</text></g></a>
+<text x='1345' y='157' text-anchor='end' class='colType'>t</text>  <a href='#public.editions_contents.notes'><g><title>&#10697;  notes
+     varchar</title><text id='public&#46;editions&#95;contents&#46;notes' x='1239' y='180'>notes</text></g></a>
+<text x='1345' y='176' text-anchor='end' class='colType'>t</text>  <a href='#public.editions_contents.first_sentence'><g><title>&#10697;  first_sentence
+     varchar</title><text id='public&#46;editions&#95;contents&#46;first&#95;sentence' x='1239' y='199'>first&#95;sentence</text></g></a>
+<text x='1345' y='195' text-anchor='end' class='colType'>t</text>
+<!-- == Table 'editions_details' == -->
+<rect id='depict_public&#46;editions&#95;details' class='entity' style='stroke:#FCFAF9' x='684' y='86' width='190' height='190' rx='4' ry='4' />
+<rect x='684' y='86' width='190' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_F4DDBE);'/>
+<rect x='684' y='90' width='190' height='29' style='stroke-width:0;fill:url(#tbg_F4DDBE);'/>
+<a href='#public.editions_details'><g><title>Table public.editions_details</title><text id='depict&#45;public&#46;editions&#95;details' x='728' y='108' class='tableHeader' style='fill:#484441;'>editions&#95;details</text></g></a>
+  <use x='685' y='129' href='#nn'/><g><title>&#x1F511;  Pk editions_details_pkey ( details_id ) </title><use x='686' y='128' href='#pk'/></g><a href='#public.editions_details.details_id'><g><title>&#10697;  details_id
+     * integer default nextval(&apos;editions_details_details_id_seq&apos;::regclass)</title><text id='public&#46;editions&#95;details&#46;details&#95;id' x='707' y='142' class='colPk'>details&#95;id</text></g></a>
+<text x='870' y='138' text-anchor='end' class='colType'>&#35;</text>  <a href='#public.editions_details.edition_key'><g><title>&#10697;  edition_key
+     varchar
+ &#8599; editions( edition_key )</title><text id='public&#46;editions&#95;details&#46;edition&#95;key' x='707' y='161' onmouseover="hghl(['editions_details_fk_editions_details_edition_key','public.editions.edition_key'])" onmouseout="uhghl(['editions_details_fk_editions_details_edition_key','public.editions.edition_key'])">edition&#95;key</text></g></a>
+<a href='#public.editions_details.edition_key'><g><title>&#x1F517;  References editions ( edition_key ) </title><use x='860' y='147' href='#fk'/></g></a>
+  <a href='#public.editions_details.number_of_pages'><g><title>&#10697;  number_of_pages
+     integer</title><text id='public&#46;editions&#95;details&#46;number&#95;of&#95;pages' x='707' y='180'>number&#95;of&#95;pages</text></g></a>
+<text x='870' y='176' text-anchor='end' class='colType'>&#35;</text>  <a href='#public.editions_details.physical_format'><g><title>&#10697;  physical_format
+     varchar</title><text id='public&#46;editions&#95;details&#46;physical&#95;format' x='707' y='199'>physical&#95;format</text></g></a>
+<text x='870' y='195' text-anchor='end' class='colType'>t</text>  <a href='#public.editions_details.physical_dimensions'><g><title>&#10697;  physical_dimensions
+     varchar</title><text id='public&#46;editions&#95;details&#46;physical&#95;dimensions' x='707' y='218'>physical&#95;dimensions</text></g></a>
+<text x='870' y='214' text-anchor='end' class='colType'>t</text>  <a href='#public.editions_details.weight'><g><title>&#10697;  weight
+     varchar</title><text id='public&#46;editions&#95;details&#46;weight' x='707' y='237'>weight</text></g></a>
+<text x='870' y='233' text-anchor='end' class='colType'>t</text>  <a href='#public.editions_details.language'><g><title>&#10697;  language
+     varchar</title><text id='public&#46;editions&#95;details&#46;language' x='707' y='256'>language</text></g></a>
+<text x='870' y='252' text-anchor='end' class='colType'>t</text>
+<!-- == Table 'editions_publishing' == -->
+<rect id='depict_public&#46;editions&#95;publishing' class='entity' style='stroke:#FCFAF9' x='969' y='86' width='152' height='209' rx='4' ry='4' />
+<rect x='969' y='86' width='152' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_F4DDBE);'/>
+<rect x='969' y='90' width='152' height='29' style='stroke-width:0;fill:url(#tbg_F4DDBE);'/>
+<a href='#public.editions_publishing'><g><title>Table public.editions_publishing</title><text id='depict&#45;public&#46;editions&#95;publishing' x='983' y='108' class='tableHeader' style='fill:#484441;'>editions&#95;publishing</text></g></a>
+  <use x='970' y='129' href='#nn'/><g><title>&#x1F511;  Pk editions_publishing_pkey ( publishing_id ) </title><use x='971' y='128' href='#pk'/></g><a href='#public.editions_publishing.publishing_id'><g><title>&#10697;  publishing_id
+     * integer default nextval(&apos;editions_publishing_publishing_id_seq&apos;::regclass)</title><text id='public&#46;editions&#95;publishing&#46;publishing&#95;id' x='992' y='142' class='colPk'>publishing&#95;id</text></g></a>
+<text x='1117' y='138' text-anchor='end' class='colType'>&#35;</text>  <a href='#public.editions_publishing.edition_key'><g><title>&#10697;  edition_key
+     varchar
+ &#8599; editions( edition_key )</title><text id='public&#46;editions&#95;publishing&#46;edition&#95;key' x='992' y='161' onmouseover="hghl(['editions_publishing_fk_editions_publishing_edition_key','public.editions.edition_key'])" onmouseout="uhghl(['editions_publishing_fk_editions_publishing_edition_key','public.editions.edition_key'])">edition&#95;key</text></g></a>
+<a href='#public.editions_publishing.edition_key'><g><title>&#x1F517;  References editions ( edition_key ) </title><use x='1107' y='147' href='#fk'/></g></a>
+  <a href='#public.editions_publishing.publish_date'><g><title>&#10697;  publish_date
+     varchar</title><text id='public&#46;editions&#95;publishing&#46;publish&#95;date' x='992' y='180'>publish&#95;date</text></g></a>
+<text x='1117' y='176' text-anchor='end' class='colType'>t</text>  <a href='#public.editions_publishing.publish_year'><g><title>&#10697;  publish_year
+     integer</title><text id='public&#46;editions&#95;publishing&#46;publish&#95;year' x='992' y='199'>publish&#95;year</text></g></a>
+<text x='1117' y='195' text-anchor='end' class='colType'>&#35;</text>  <a href='#public.editions_publishing.publisher'><g><title>&#10697;  publisher
+     varchar</title><text id='public&#46;editions&#95;publishing&#46;publisher' x='992' y='218'>publisher</text></g></a>
+<text x='1117' y='214' text-anchor='end' class='colType'>t</text>  <a href='#public.editions_publishing.publish_place'><g><title>&#10697;  publish_place
+     varchar</title><text id='public&#46;editions&#95;publishing&#46;publish&#95;place' x='992' y='237'>publish&#95;place</text></g></a>
+<text x='1117' y='233' text-anchor='end' class='colType'>t</text>  <a href='#public.editions_publishing.publish_country'><g><title>&#10697;  publish_country
+     varchar</title><text id='public&#46;editions&#95;publishing&#46;publish&#95;country' x='992' y='256'>publish&#95;country</text></g></a>
+<text x='1117' y='252' text-anchor='end' class='colType'>t</text>  <a href='#public.editions_publishing.series'><g><title>&#10697;  series
+     varchar</title><text id='public&#46;editions&#95;publishing&#46;series' x='992' y='275'>series</text></g></a>
+<text x='1117' y='271' text-anchor='end' class='colType'>t</text>
+<!-- == Table 'works' == -->
+<rect id='depict_public&#46;works' class='entity' style='stroke:#F9FAFC' x='627' y='732' width='171' height='209' rx='4' ry='4' />
+<rect x='627' y='732' width='171' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_BED3F4);'/>
+<rect x='627' y='736' width='171' height='29' style='stroke-width:0;fill:url(#tbg_BED3F4);'/>
+<a href='#public.works'><g><title>Table public.works</title><text id='depict&#45;public&#46;works' x='690' y='754' class='tableHeader' style='fill:#414348;'>works</text></g></a>
+  <use x='628' y='775' href='#nn'/><g><title>&#x1F511;  Pk works_pkey ( work_key ) </title><use x='629' y='774' href='#pk'/></g><a href='#public.works.work_key'><g><title>&#10697;  work_key
+     * varchar
+ &#8601; works_availability( work_key )
+ &#8601; authors_works( work_key )
+ &#8601; works_series( work_key )
+ &#8601; works_subjects( work_key )
+ &#8601; works_people( work_key )
+ &#8601; works_places( work_key )
+ &#8601; works_time_periods( work_key )
+ &#8601; editions( work_key )</title><text id='public&#46;works&#46;work&#95;key' x='650' y='788' onmouseover="hghl(['works_availability_fk_works_availability_work_key','public.works_availability.work_key','authors_works_fk_authors_works_work_key','public.authors_works.work_key','works_series_fk_works_series_work_key','public.works_series.work_key','works_subjects_fk_works_subjects_work_key','public.works_subjects.work_key','works_people_fk_works_people_work_key','public.works_people.work_key','works_places_fk_works_places_work_key','public.works_places.work_key','works_time_periods_fk_works_time_periods_work_key','public.works_time_periods.work_key','editions_fk_editions_work_key','public.editions.work_key'])" onmouseout="uhghl(['works_availability_fk_works_availability_work_key','public.works_availability.work_key','authors_works_fk_authors_works_work_key','public.authors_works.work_key','works_series_fk_works_series_work_key','public.works_series.work_key','works_subjects_fk_works_subjects_work_key','public.works_subjects.work_key','works_people_fk_works_people_work_key','public.works_people.work_key','works_places_fk_works_places_work_key','public.works_places.work_key','works_time_periods_fk_works_time_periods_work_key','public.works_time_periods.work_key','editions_fk_editions_work_key','public.editions.work_key'])" class='colPk'>work&#95;key</text></g></a>
+<a href='#public.works.work_key'><g><title>&#x1F517;  Referred by works_availability ( work_key ) 
+Referred by authors_works ( work_key ) 
+Referred by works_series ( work_key ) 
+Referred by works_subjects ( work_key ) 
+Referred by works_people ( work_key ) 
+Referred by works_places ( work_key ) 
+Referred by works_time_periods ( work_key ) 
+Referred by editions ( work_key ) </title><use x='784' y='774' href='#ref'/></g></a>
+  <a href='#public.works.title'><g><title>&#10697;  title
+     varchar</title><text id='public&#46;works&#46;title' x='650' y='807'>title</text></g></a>
+<text x='794' y='803' text-anchor='end' class='colType'>t</text>  <a href='#public.works.subtitle'><g><title>&#10697;  subtitle
+     varchar</title><text id='public&#46;works&#46;subtitle' x='650' y='826'>subtitle</text></g></a>
+<text x='794' y='822' text-anchor='end' class='colType'>t</text>  <a href='#public.works.description'><g><title>&#10697;  description
+     text</title><text id='public&#46;works&#46;description' x='650' y='845'>description</text></g></a>
+<text x='794' y='841' text-anchor='end' class='colType'>t</text>  <a href='#public.works.first_sentence'><g><title>&#10697;  first_sentence
+     text</title><text id='public&#46;works&#46;first&#95;sentence' x='650' y='864'>first&#95;sentence</text></g></a>
+<text x='794' y='860' text-anchor='end' class='colType'>t</text>  <a href='#public.works.edition_count'><g><title>&#10697;  edition_count
+     integer</title><text id='public&#46;works&#46;edition&#95;count' x='650' y='883'>edition&#95;count</text></g></a>
+<text x='794' y='879' text-anchor='end' class='colType'>&#35;</text>  <a href='#public.works.first_publish_year'><g><title>&#10697;  first_publish_year
+     integer</title><text id='public&#46;works&#46;first&#95;publish&#95;year' x='650' y='902'>first&#95;publish&#95;year</text></g></a>
+<text x='794' y='898' text-anchor='end' class='colType'>&#35;</text>  <a href='#public.works.first_publish_date'><g><title>&#10697;  first_publish_date
+     varchar</title><text id='public&#46;works&#46;first&#95;publish&#95;date' x='650' y='921'>first&#95;publish&#95;date</text></g></a>
+<text x='794' y='917' text-anchor='end' class='colType'>t</text>
+<!-- == Table 'authors' == -->
+<rect id='depict_public&#46;authors' class='entity' style='stroke:#F9FCF9' x='133' y='295' width='133' height='190' rx='4' ry='4' />
+<rect x='133' y='295' width='133' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_C7F4BE);'/>
+<rect x='133' y='299' width='133' height='29' style='stroke-width:0;fill:url(#tbg_C7F4BE);'/>
+<a href='#public.authors'><g><title>Table public.authors</title><text id='depict&#45;public&#46;authors' x='172' y='317' class='tableHeader' style='fill:#424841;'>authors</text></g></a>
+  <use x='134' y='338' href='#nn'/><g><title>&#x1F511;  Pk authors_pkey ( author_key ) </title><use x='135' y='337' href='#pk'/></g><a href='#public.authors.author_key'><g><title>&#10697;  author_key
+     * varchar
+ &#8601; authors_alternative_names( author_key )
+ &#8601; authors_statistics( author_key )
+ &#8601; authors_works( author_key )</title><text id='public&#46;authors&#46;author&#95;key' x='156' y='351' onmouseover="hghl(['authors_alternative_names_fk_authors_alternative_names_author_key','public.authors_alternative_names.author_key','authors_statistics_fk_authors_statistics_author_key','public.authors_statistics.author_key','authors_works_fk_authors_works_author_key','public.authors_works.author_key'])" onmouseout="uhghl(['authors_alternative_names_fk_authors_alternative_names_author_key','public.authors_alternative_names.author_key','authors_statistics_fk_authors_statistics_author_key','public.authors_statistics.author_key','authors_works_fk_authors_works_author_key','public.authors_works.author_key'])" class='colPk'>author&#95;key</text></g></a>
+<a href='#public.authors.author_key'><g><title>&#x1F517;  Referred by authors_alternative_names ( author_key ) 
+Referred by authors_statistics ( author_key ) 
+Referred by authors_works ( author_key ) </title><use x='252' y='337' href='#ref'/></g></a>
+  <a href='#public.authors.author_name'><g><title>&#10697;  author_name
+     varchar</title><text id='public&#46;authors&#46;author&#95;name' x='156' y='370'>author&#95;name</text></g></a>
+<text x='262' y='366' text-anchor='end' class='colType'>t</text>  <a href='#public.authors.bio'><g><title>&#10697;  bio
+     varchar</title><text id='public&#46;authors&#46;bio' x='156' y='389'>bio</text></g></a>
+<text x='262' y='385' text-anchor='end' class='colType'>t</text>  <a href='#public.authors.birth_date'><g><title>&#10697;  birth_date
+     varchar</title><text id='public&#46;authors&#46;birth&#95;date' x='156' y='408'>birth&#95;date</text></g></a>
+<text x='262' y='404' text-anchor='end' class='colType'>t</text>  <a href='#public.authors.death_date'><g><title>&#10697;  death_date
+     varchar</title><text id='public&#46;authors&#46;death&#95;date' x='156' y='427'>death&#95;date</text></g></a>
+<text x='262' y='423' text-anchor='end' class='colType'>t</text>  <a href='#public.authors.birth_year'><g><title>&#10697;  birth_year
+     integer</title><text id='public&#46;authors&#46;birth&#95;year' x='156' y='446'>birth&#95;year</text></g></a>
+<text x='262' y='442' text-anchor='end' class='colType'>&#35;</text>  <a href='#public.authors.death_year'><g><title>&#10697;  death_year
+     integer</title><text id='public&#46;authors&#46;death&#95;year' x='156' y='465'>death&#95;year</text></g></a>
+<text x='262' y='461' text-anchor='end' class='colType'>&#35;</text>
+<!-- == Table 'editions' == -->
+<rect id='depict_public&#46;editions' class='entity' style='stroke:#FCFAF9' x='760' y='428' width='133' height='152' rx='4' ry='4' />
+<rect x='760' y='428' width='133' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_F4DDBE);'/>
+<rect x='760' y='432' width='133' height='29' style='stroke-width:0;fill:url(#tbg_F4DDBE);'/>
+<a href='#public.editions'><g><title>Table public.editions</title><text id='depict&#45;public&#46;editions' x='798' y='450' class='tableHeader' style='fill:#484441;'>editions</text></g></a>
+  <use x='761' y='471' href='#nn'/><g><title>&#x1F511;  Pk editions_pkey ( edition_key ) </title><use x='762' y='470' href='#pk'/></g><a href='#public.editions.edition_key'><g><title>&#10697;  edition_key
+     * varchar
+ &#8601; editions_contributors( edition_key )
+ &#8601; editions_publishing( edition_key )
+ &#8601; editions_contents( edition_key )
+ &#8601; editions_details( edition_key )</title><text id='public&#46;editions&#46;edition&#95;key' x='783' y='484' onmouseover="hghl(['editions_contributors_fk_editions_contributors_edition_key','public.editions_contributors.edition_key','editions_publishing_fk_editions_publishing_edition_key','public.editions_publishing.edition_key','editions_contents_fk_editions_contents_edition_key','public.editions_contents.edition_key','editions_details_fk_editions_details_edition_key','public.editions_details.edition_key'])" onmouseout="uhghl(['editions_contributors_fk_editions_contributors_edition_key','public.editions_contributors.edition_key','editions_publishing_fk_editions_publishing_edition_key','public.editions_publishing.edition_key','editions_contents_fk_editions_contents_edition_key','public.editions_contents.edition_key','editions_details_fk_editions_details_edition_key','public.editions_details.edition_key'])" class='colPk'>edition&#95;key</text></g></a>
+<a href='#public.editions.edition_key'><g><title>&#x1F517;  Referred by editions_contributors ( edition_key ) 
+Referred by editions_publishing ( edition_key ) 
+Referred by editions_contents ( edition_key ) 
+Referred by editions_details ( edition_key ) </title><use x='879' y='470' href='#ref'/></g></a>
+  <a href='#public.editions.work_key'><g><title>&#10697;  work_key
+     varchar
+ &#8599; works( work_key )</title><text id='public&#46;editions&#46;work&#95;key' x='783' y='503' onmouseover="hghl(['editions_fk_editions_work_key','public.works.work_key'])" onmouseout="uhghl(['editions_fk_editions_work_key','public.works.work_key'])">work&#95;key</text></g></a>
+<a href='#public.editions.work_key'><g><title>&#x1F517;  References works ( work_key ) </title><use x='879' y='489' href='#fk'/></g></a>
+  <a href='#public.editions.title'><g><title>&#10697;  title
+     varchar</title><text id='public&#46;editions&#46;title' x='783' y='522'>title</text></g></a>
+<text x='889' y='518' text-anchor='end' class='colType'>t</text>  <a href='#public.editions.subtitle'><g><title>&#10697;  subtitle
+     varchar</title><text id='public&#46;editions&#46;subtitle' x='783' y='541'>subtitle</text></g></a>
+<text x='889' y='537' text-anchor='end' class='colType'>t</text>  <a href='#public.editions.edition_name'><g><title>&#10697;  edition_name
+     varchar</title><text id='public&#46;editions&#46;edition&#95;name' x='783' y='560'>edition&#95;name</text></g></a>
+<text x='889' y='556' text-anchor='end' class='colType'>t</text>
+<!-- == Table 'editions_contributors' == -->
+<rect id='depict_public&#46;editions&#95;contributors' class='entity' style='stroke:#FCFAF9' x='1197' y='409' width='171' height='190' rx='4' ry='4' />
+<rect x='1197' y='409' width='171' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_F4DDBE);'/>
+<rect x='1197' y='413' width='171' height='29' style='stroke-width:0;fill:url(#tbg_F4DDBE);'/>
+<a href='#public.editions_contributors'><g><title>Table public.editions_contributors</title><text id='depict&#45;public&#46;editions&#95;contributors' x='1215' y='431' class='tableHeader' style='fill:#484441;'>editions&#95;contributors</text></g></a>
+  <use x='1198' y='452' href='#nn'/><g><title>&#x1F511;  Pk editions_contributors_pkey ( contribution_id ) </title><use x='1199' y='451' href='#pk'/></g><a href='#public.editions_contributors.contribution_id'><g><title>&#10697;  contribution_id
+     * integer default nextval(&apos;editions_contributors_contribution_id_seq&apos;::regclass)</title><text id='public&#46;editions&#95;contributors&#46;contribution&#95;id' x='1220' y='465' class='colPk'>contribution&#95;id</text></g></a>
+<text x='1364' y='461' text-anchor='end' class='colType'>&#35;</text>  <a href='#public.editions_contributors.edition_key'><g><title>&#10697;  edition_key
+     varchar
+ &#8599; editions( edition_key )</title><text id='public&#46;editions&#95;contributors&#46;edition&#95;key' x='1220' y='484' onmouseover="hghl(['editions_contributors_fk_editions_contributors_edition_key','public.editions.edition_key'])" onmouseout="uhghl(['editions_contributors_fk_editions_contributors_edition_key','public.editions.edition_key'])">edition&#95;key</text></g></a>
+<a href='#public.editions_contributors.edition_key'><g><title>&#x1F517;  References editions ( edition_key ) </title><use x='1354' y='470' href='#fk'/></g></a>
+  <a href='#public.editions_contributors.contributor_name'><g><title>&#10697;  contributor_name
+     varchar</title><text id='public&#46;editions&#95;contributors&#46;contributor&#95;name' x='1220' y='503'>contributor&#95;name</text></g></a>
+<text x='1364' y='499' text-anchor='end' class='colType'>t</text>  <a href='#public.editions_contributors.contributor_role'><g><title>&#10697;  contributor_role
+     varchar</title><text id='public&#46;editions&#95;contributors&#46;contributor&#95;role' x='1220' y='522'>contributor&#95;role</text></g></a>
+<text x='1364' y='518' text-anchor='end' class='colType'>t</text>  <a href='#public.editions_contributors.by_statement'><g><title>&#10697;  by_statement
+     varchar</title><text id='public&#46;editions&#95;contributors&#46;by&#95;statement' x='1220' y='541'>by&#95;statement</text></g></a>
+<text x='1364' y='537' text-anchor='end' class='colType'>t</text>  <a href='#public.editions_contributors.translated_from'><g><title>&#10697;  translated_from
+     varchar</title><text id='public&#46;editions&#95;contributors&#46;translated&#95;from' x='1220' y='560'>translated&#95;from</text></g></a>
+<text x='1364' y='556' text-anchor='end' class='colType'>t</text>  <a href='#public.editions_contributors.translation_of'><g><title>&#10697;  translation_of
+     varchar</title><text id='public&#46;editions&#95;contributors&#46;translation&#95;of' x='1220' y='579'>translation&#95;of</text></g></a>
+<text x='1364' y='575' text-anchor='end' class='colType'>t</text>
+<!-- == Table 'authors_works' == -->
+<rect id='depict_public&#46;authors&#95;works' class='entity' style='stroke:#F9FCF9' x='399' y='504' width='133' height='95' rx='4' ry='4' />
+<rect x='399' y='504' width='133' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_C7F4BE);'/>
+<rect x='399' y='508' width='133' height='29' style='stroke-width:0;fill:url(#tbg_C7F4BE);'/>
+<a href='#public.authors_works'><g><title>Table public.authors_works</title><text id='depict&#45;public&#46;authors&#95;works' x='418' y='526' class='tableHeader' style='fill:#424841;'>authors&#95;works</text></g></a>
+  <use x='400' y='547' href='#nn'/><g><title>&#x1F511;  Pk authors_works_pkey ( author_key, work_key ) </title><use x='401' y='546' href='#pk'/></g><a href='#public.authors_works.author_key'><g><title>&#10697;  author_key
+     * varchar
+ &#8599; authors( author_key )</title><text id='public&#46;authors&#95;works&#46;author&#95;key' x='422' y='560' onmouseover="hghl(['authors_works_fk_authors_works_author_key','public.authors.author_key'])" onmouseout="uhghl(['authors_works_fk_authors_works_author_key','public.authors.author_key'])" class='colPk'>author&#95;key</text></g></a>
+<a href='#public.authors_works.author_key'><g><title>&#x1F517;  References authors ( author_key ) </title><use x='518' y='546' href='#fk'/></g></a>
+  <use x='400' y='566' href='#nn'/><g><title>&#x1F511;  Pk authors_works_pkey ( author_key, work_key ) </title><use x='401' y='565' href='#pk'/></g><a href='#public.authors_works.work_key'><g><title>&#10697;  work_key
+     * varchar
+ &#8599; works( work_key )</title><text id='public&#46;authors&#95;works&#46;work&#95;key' x='422' y='579' onmouseover="hghl(['authors_works_fk_authors_works_work_key','public.works.work_key'])" onmouseout="uhghl(['authors_works_fk_authors_works_work_key','public.works.work_key'])" class='colPk'>work&#95;key</text></g></a>
+<a href='#public.authors_works.work_key'><g><title>&#x1F517;  References works ( work_key ) </title><use x='518' y='565' href='#fk'/></g></a>
+
+<!-- == Table 'works_subjects' == -->
+<rect id='depict_public&#46;works&#95;subjects' class='entity' style='stroke:#F9FAFC' x='380' y='1226' width='133' height='95' rx='4' ry='4' />
+<rect x='380' y='1226' width='133' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_BED3F4);'/>
+<rect x='380' y='1230' width='133' height='29' style='stroke-width:0;fill:url(#tbg_BED3F4);'/>
+<a href='#public.works_subjects'><g><title>Table public.works_subjects</title><text id='depict&#45;public&#46;works&#95;subjects' x='397' y='1248' class='tableHeader' style='fill:#414348;'>works&#95;subjects</text></g></a>
+  <use x='381' y='1269' href='#nn'/><g><title>&#x1F511;  Pk works_subjects_pkey ( work_key, subject ) </title><use x='382' y='1268' href='#pk'/></g><a href='#public.works_subjects.work_key'><g><title>&#10697;  work_key
+     * varchar
+ &#8599; works( work_key )</title><text id='public&#46;works&#95;subjects&#46;work&#95;key' x='403' y='1282' onmouseover="hghl(['works_subjects_fk_works_subjects_work_key','public.works.work_key'])" onmouseout="uhghl(['works_subjects_fk_works_subjects_work_key','public.works.work_key'])" class='colPk'>work&#95;key</text></g></a>
+<a href='#public.works_subjects.work_key'><g><title>&#x1F517;  References works ( work_key ) </title><use x='499' y='1268' href='#fk'/></g></a>
+  <use x='381' y='1288' href='#nn'/><g><title>&#x1F511;  Pk works_subjects_pkey ( work_key, subject ) </title><use x='382' y='1287' href='#pk'/></g><a href='#public.works_subjects.subject'><g><title>&#10697;  subject
+     * varchar</title><text id='public&#46;works&#95;subjects&#46;subject' x='403' y='1301' class='colPk'>subject</text></g></a>
+<text x='509' y='1297' text-anchor='end' class='colType'>t</text>
+<!-- == Table 'works_people' == -->
+<rect id='depict_public&#46;works&#95;people' class='entity' style='stroke:#F9FAFC' x='551' y='1226' width='114' height='95' rx='4' ry='4' />
+<rect x='551' y='1226' width='114' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_BED3F4);'/>
+<rect x='551' y='1230' width='114' height='29' style='stroke-width:0;fill:url(#tbg_BED3F4);'/>
+<a href='#public.works_people'><g><title>Table public.works_people</title><text id='depict&#45;public&#46;works&#95;people' x='562' y='1248' class='tableHeader' style='fill:#414348;'>works&#95;people</text></g></a>
+  <use x='552' y='1269' href='#nn'/><g><title>&#x1F511;  Pk works_people_pkey ( work_key, person ) </title><use x='553' y='1268' href='#pk'/></g><a href='#public.works_people.work_key'><g><title>&#10697;  work_key
+     * varchar
+ &#8599; works( work_key )</title><text id='public&#46;works&#95;people&#46;work&#95;key' x='574' y='1282' onmouseover="hghl(['works_people_fk_works_people_work_key','public.works.work_key'])" onmouseout="uhghl(['works_people_fk_works_people_work_key','public.works.work_key'])" class='colPk'>work&#95;key</text></g></a>
+<a href='#public.works_people.work_key'><g><title>&#x1F517;  References works ( work_key ) </title><use x='651' y='1268' href='#fk'/></g></a>
+  <use x='552' y='1288' href='#nn'/><g><title>&#x1F511;  Pk works_people_pkey ( work_key, person ) </title><use x='553' y='1287' href='#pk'/></g><a href='#public.works_people.person'><g><title>&#10697;  person
+     * varchar</title><text id='public&#46;works&#95;people&#46;person' x='574' y='1301' class='colPk'>person</text></g></a>
+<text x='661' y='1297' text-anchor='end' class='colType'>t</text>
+<!-- == Table 'works_places' == -->
+<rect id='depict_public&#46;works&#95;places' class='entity' style='stroke:#F9FAFC' x='703' y='1226' width='114' height='95' rx='4' ry='4' />
+<rect x='703' y='1226' width='114' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_BED3F4);'/>
+<rect x='703' y='1230' width='114' height='29' style='stroke-width:0;fill:url(#tbg_BED3F4);'/>
+<a href='#public.works_places'><g><title>Table public.works_places</title><text id='depict&#45;public&#46;works&#95;places' x='717' y='1248' class='tableHeader' style='fill:#414348;'>works&#95;places</text></g></a>
+  <use x='704' y='1269' href='#nn'/><g><title>&#x1F511;  Pk works_places_pkey ( work_key, place ) </title><use x='705' y='1268' href='#pk'/></g><a href='#public.works_places.work_key'><g><title>&#10697;  work_key
+     * varchar
+ &#8599; works( work_key )</title><text id='public&#46;works&#95;places&#46;work&#95;key' x='726' y='1282' onmouseover="hghl(['works_places_fk_works_places_work_key','public.works.work_key'])" onmouseout="uhghl(['works_places_fk_works_places_work_key','public.works.work_key'])" class='colPk'>work&#95;key</text></g></a>
+<a href='#public.works_places.work_key'><g><title>&#x1F517;  References works ( work_key ) </title><use x='803' y='1268' href='#fk'/></g></a>
+  <use x='704' y='1288' href='#nn'/><g><title>&#x1F511;  Pk works_places_pkey ( work_key, place ) </title><use x='705' y='1287' href='#pk'/></g><a href='#public.works_places.place'><g><title>&#10697;  place
+     * varchar</title><text id='public&#46;works&#95;places&#46;place' x='726' y='1301' class='colPk'>place</text></g></a>
+<text x='813' y='1297' text-anchor='end' class='colType'>t</text>
+<!-- == Table 'works_time_periods' == -->
+<rect id='depict_public&#46;works&#95;time&#95;periods' class='entity' style='stroke:#F9FAFC' x='855' y='1226' width='152' height='95' rx='4' ry='4' />
+<rect x='855' y='1226' width='152' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_BED3F4);'/>
+<rect x='855' y='1230' width='152' height='29' style='stroke-width:0;fill:url(#tbg_BED3F4);'/>
+<a href='#public.works_time_periods'><g><title>Table public.works_time_periods</title><text id='depict&#45;public&#46;works&#95;time&#95;periods' x='868' y='1248' class='tableHeader' style='fill:#414348;'>works&#95;time&#95;periods</text></g></a>
+  <use x='856' y='1269' href='#nn'/><g><title>&#x1F511;  Pk works_time_periods_pkey ( work_key, time_period ) </title><use x='857' y='1268' href='#pk'/></g><a href='#public.works_time_periods.work_key'><g><title>&#10697;  work_key
+     * varchar
+ &#8599; works( work_key )</title><text id='public&#46;works&#95;time&#95;periods&#46;work&#95;key' x='878' y='1282' onmouseover="hghl(['works_time_periods_fk_works_time_periods_work_key','public.works.work_key'])" onmouseout="uhghl(['works_time_periods_fk_works_time_periods_work_key','public.works.work_key'])" class='colPk'>work&#95;key</text></g></a>
+<a href='#public.works_time_periods.work_key'><g><title>&#x1F517;  References works ( work_key ) </title><use x='993' y='1268' href='#fk'/></g></a>
+  <use x='856' y='1288' href='#nn'/><g><title>&#x1F511;  Pk works_time_periods_pkey ( work_key, time_period ) </title><use x='857' y='1287' href='#pk'/></g><a href='#public.works_time_periods.time_period'><g><title>&#10697;  time_period
+     * varchar</title><text id='public&#46;works&#95;time&#95;periods&#46;time&#95;period' x='878' y='1301' class='colPk'>time&#95;period</text></g></a>
+<text x='1003' y='1297' text-anchor='end' class='colType'>t</text>
+<!-- == Table 'works_series' == -->
+<rect id='depict_public&#46;works&#95;series' class='entity' style='stroke:#F9FAFC' x='608' y='1017' width='152' height='133' rx='4' ry='4' />
+<rect x='608' y='1017' width='152' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_BED3F4);'/>
+<rect x='608' y='1021' width='152' height='29' style='stroke-width:0;fill:url(#tbg_BED3F4);'/>
+<a href='#public.works_series'><g><title>Table public.works_series</title><text id='depict&#45;public&#46;works&#95;series' x='642' y='1039' class='tableHeader' style='fill:#414348;'>works&#95;series</text></g></a>
+  <use x='609' y='1060' href='#nn'/><g><title>&#x1F511;  Pk works_series_pkey ( work_key ) </title><use x='610' y='1059' href='#pk'/></g><a href='#public.works_series.work_key'><g><title>&#10697;  work_key
+     * varchar
+ &#8599; works( work_key )</title><text id='public&#46;works&#95;series&#46;work&#95;key' x='631' y='1073' onmouseover="hghl(['works_series_fk_works_series_work_key','public.works.work_key'])" onmouseout="uhghl(['works_series_fk_works_series_work_key','public.works.work_key'])" class='colPk'>work&#95;key</text></g></a>
+<a href='#public.works_series.work_key'><g><title>&#x1F517;  References works ( work_key ) </title><use x='746' y='1059' href='#fk'/></g></a>
+  <a href='#public.works_series.series_key'><g><title>&#10697;  series_key
+     varchar</title><text id='public&#46;works&#95;series&#46;series&#95;key' x='631' y='1092'>series&#95;key</text></g></a>
+<text x='756' y='1088' text-anchor='end' class='colType'>t</text>  <a href='#public.works_series.series_position'><g><title>&#10697;  series_position
+     varchar</title><text id='public&#46;works&#95;series&#46;series&#95;position' x='631' y='1111'>series&#95;position</text></g></a>
+<text x='756' y='1107' text-anchor='end' class='colType'>t</text>  <a href='#public.works_series.name'><g><title>&#10697;  name
+     varchar</title><text id='public&#46;works&#95;series&#46;name' x='631' y='1130'>name</text></g></a>
+<text x='756' y='1126' text-anchor='end' class='colType'>t</text>
+<!-- == Table 'works_availability' == -->
+<rect id='depict_public&#46;works&#95;availability' class='entity' style='stroke:#F9FAFC' x='361' y='1017' width='152' height='133' rx='4' ry='4' />
+<rect x='361' y='1017' width='152' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_BED3F4);'/>
+<rect x='361' y='1021' width='152' height='29' style='stroke-width:0;fill:url(#tbg_BED3F4);'/>
+<a href='#public.works_availability'><g><title>Table public.works_availability</title><text id='depict&#45;public&#46;works&#95;availability' x='381' y='1039' class='tableHeader' style='fill:#414348;'>works&#95;availability</text></g></a>
+  <use x='362' y='1060' href='#nn'/><g><title>&#x1F511;  Pk works_availability_pkey ( work_key ) </title><use x='363' y='1059' href='#pk'/></g><a href='#public.works_availability.work_key'><g><title>&#10697;  work_key
+     * varchar
+ &#8599; works( work_key )</title><text id='public&#46;works&#95;availability&#46;work&#95;key' x='384' y='1073' onmouseover="hghl(['works_availability_fk_works_availability_work_key','public.works.work_key'])" onmouseout="uhghl(['works_availability_fk_works_availability_work_key','public.works.work_key'])" class='colPk'>work&#95;key</text></g></a>
+<a href='#public.works_availability.work_key'><g><title>&#x1F517;  References works ( work_key ) </title><use x='499' y='1059' href='#fk'/></g></a>
+  <a href='#public.works_availability.ebook_access'><g><title>&#10697;  ebook_access
+     varchar</title><text id='public&#46;works&#95;availability&#46;ebook&#95;access' x='384' y='1092'>ebook&#95;access</text></g></a>
+<text x='509' y='1088' text-anchor='end' class='colType'>t</text>  <a href='#public.works_availability.has_fulltext'><g><title>&#10697;  has_fulltext
+     boolean</title><text id='public&#46;works&#95;availability&#46;has&#95;fulltext' x='384' y='1111'>has&#95;fulltext</text></g></a>
+<text x='509' y='1107' text-anchor='end' class='colType'>b</text>  <a href='#public.works_availability.has_public_scan'><g><title>&#10697;  has_public_scan
+     boolean</title><text id='public&#46;works&#95;availability&#46;has&#95;public&#95;scan' x='384' y='1130'>has&#95;public&#95;scan</text></g></a>
+<text x='509' y='1126' text-anchor='end' class='colType'>b</text>
+</g></svg>
