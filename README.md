@@ -12,3 +12,7 @@ What the project is trying to achieve:
 - Load processed data into a PostgreSQL database
 - Ensure reproducibility and modular ETL design
 
+## Data Source
+
+OpenLibrary API was used for data ingestion.
+See `[etl/extract/docs](https://github.com/EfiLygda/openlibrary-etl-pipeline/blob/Romance_Works/etl/extract/docs/api_documentation.md)` for more information on API endpoints.
