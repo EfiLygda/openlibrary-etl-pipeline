@@ -2,6 +2,12 @@
 
 An end-to-end ETL pipeline that extracts data from the Open Library API, transforms it into structured datasets, and loads it into a relational database using a schema-driven design.
 
+This repository contains only sample data for demonstration and testing purposes. 
+Full source data can be obtained directly from Open Library.
+
+Open Library metadata is provided by the Internet Archive. 
+This project is an independent work and is not affiliated with or endorsed by Open Library or the Internet Archive.
+
 ## Table of Contents
 
 <!-- TOC -->
