@@ -92,9 +92,24 @@ The following tools were used for the implementation of this project:
 
 ## How to Run
 
-In order to run this project only the following command can be used in order to run the pipeline:
+**STEP 1**: Set up the API settings
+
+In [api.py](config/api.py) the api settings can be changed with options:
+- `GENRE`: the genre for querying general works
+- `LIMIT`: how many records to be returned via the `SEARCH` query for each page
+- `MAX_PAGES`: the maximum number fo pages to be returned via the `SEARCH` query (i.e. `LIMIT` $\times$ `MAX_PAGES` is the total number of works to be returned)
+- `MAX_ATTEMPTS`: maximum number of retries for a query, in case an error arises
+
+**STEP 2**: Set up database 
+
+Create an `.env` file and add PostgreSQL configuration like in [.env.example](.env.example).
+
+**STEP 3**: Run the pipeline
+
+Run this project using only the following command:
 
     python main.py
+
 
 ## Data
 
