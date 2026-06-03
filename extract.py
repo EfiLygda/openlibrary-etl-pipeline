@@ -1,7 +1,7 @@
 """
 Extract General Works, Editions and Authors' data using the OpenLibrary API to JSON files
 
-Note: Refer to etl/extract/docs/api_documentation.md for keywords SEARCH, WORKS, AUTHORS, SERIES,
+Note: Refer to etl/extract/docs/entrypoints.md for keywords SEARCH, WORKS, AUTHORS, SERIES,
       SEARCH_EDITIONS_VIA_WORK_KEY, SEARCH_AUTHORS
 
 Pipeline:

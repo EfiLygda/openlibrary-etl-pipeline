@@ -79,6 +79,10 @@ https://openlibrary.org/works/{WORK_KEY}.json
  - *Description*: Returns a general works data
  - *Example*: https://openlibrary.org/works/OL77775W.json
 
+#### `WORKS_RATINGS`
+https://openlibrary.org/works/{WORK_KEY}/ratings.json
+ - *Description*: Returns a general works ratings
+ - *Example*: https://openlibrary.org/works/OL17824318W/ratings.json
 
 ### Editions of Works
 

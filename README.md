@@ -146,7 +146,7 @@ The processed tables are located at `data/romance_fiction/processed` and loaded 
 
 In the following image the database's diagram is presented, by grouping the 16 tables in 3 groups:
 
-![MainDiagram.svg](database/docs/MainDiagram.svg)
+![MainDiagram.svg](docs/database/diagrams/MainDiagram.svg)
 
 ### Cardinality
 
