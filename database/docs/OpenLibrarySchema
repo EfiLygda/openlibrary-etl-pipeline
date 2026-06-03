@@ -142,3 +142,12 @@ table editions.details {
   weight varchar
   language varchar
 }
+
+table works.ratings {
+  work_key varchar [pk, ref: > works.work_key]
+  ratings_count_1 int
+  ratings_count_2 int
+  ratings_count_3 int
+  ratings_count_4 int
+  ratings_count_5 int
+}
