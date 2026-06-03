@@ -48,7 +48,7 @@ def run():
 
         # Progress message
         # print(f'({i+1}/{len(key_batches)}) Extracting books\'/editions\' data...', end='\r')
-        logger.info(f'({i+1}/{len(key_batches)}) Extracting books\'/editions\' data')
+        logger.info(f'({i+1}/{len(key_batches)}) Extracting books editions\' data')
 
         for _ in range(MAX_ATTEMPTS):
 
