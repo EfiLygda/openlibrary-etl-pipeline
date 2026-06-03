@@ -7,17 +7,18 @@ Details: Tables are created with this sequence:
 3. authors_statistics
 4. works
 5. authors_works
-6. works_series
-7. works_availability
-8. works_subjects
-9. works_people
-10. works_places
-11. works_time_periods
-12. editions
-13. editions_contributors
-14. editions_publishing
-15. editions_contents
-16. editions_details
+6. works_ratings
+7. works_series
+8. works_availability
+9. works_subjects
+10. works_people
+11. works_places
+12. works_time_periods
+13. editions
+14. editions_contributors
+15. editions_publishing
+16. editions_contents
+17. editions_details
 """
 import os
 
@@ -53,6 +54,7 @@ def run():
 
         'authors',
 
+        'works_ratings',
         'works_series',
         'works_availability',
         'works_subjects',
