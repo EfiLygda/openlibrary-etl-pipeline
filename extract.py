@@ -30,6 +30,7 @@ from etl.extract.fetch_books_keys_via_work_key import run as fetch_books_keys_vi
 from etl.extract.fetch_books import run as fetch_books
 from etl.extract.export_publishers_subjects_people_times import run as export_publishers_subjects_people_times
 from etl.extract.fetch_author_statistics import run as fetch_author_statistics
+from etl.extract.fetch_works_ratings import run as fetch_works_ratings
 
 def run():
     # ----------------------------------------------------------------------------------
@@ -51,14 +52,15 @@ def run():
     logger.info('Started extraction of data from OpenLibrary API to JSON files')
 
     # The pipeline
-    fetch_works()
-    export_keys()
-    fetch_works_authors_series()
-    export_author_key_names()
-    fetch_books_keys_via_work_key()
-    fetch_books()
-    export_publishers_subjects_people_times()
-    fetch_author_statistics()
+    # fetch_works()
+    # export_keys()
+    # fetch_works_authors_series()
+    # export_author_key_names()
+    # fetch_books_keys_via_work_key()
+    # fetch_books()
+    # export_publishers_subjects_people_times()
+    # fetch_author_statistics()
+    fetch_works_ratings()
 
     logger.info('Finished extraction of data from OpenLibrary API to JSON files')
 
