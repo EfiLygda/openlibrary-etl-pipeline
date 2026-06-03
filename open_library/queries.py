@@ -149,18 +149,22 @@ class Client:
             self,
             work_key: str,
             editions: bool = False,
+            ratings: bool = False,
             **kwargs
     ) -> dict | None :
         """
         Function for quering Open Library API to retrieve book data
         :param work_key: str, OLxxxxW like string of a work's key
         :param editions: bool, whether to return all editions related to the work
+        :param ratings: bool, whether to return user ratings related to the work
         :return: dict | None, returns JSON response or None in case there was an error
         """
 
         # Setting the base url for searching the API
         if editions:
             work_url = f'{self.BASE_URL}/works/{work_key}/editions.json'
+        elif ratings:
+            work_url = f'{self.BASE_URL}/works/{work_key}/ratings.json'
         else:
             work_url = f'{self.BASE_URL}/works/{work_key}.json'
 
