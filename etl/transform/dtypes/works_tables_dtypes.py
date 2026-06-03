@@ -19,6 +19,15 @@ works_dtypes = {
     "first_publish_date": 'string',     # FROM: WORKS.first_publish_date
 }
 
+ratings_dtypes = {
+    'work_key': 'string',               # FROM: SEARCH.key
+    "ratings_count_1": 'Int64',         # FROM: RATINGS.counts.1
+    "ratings_count_2": 'Int64',         # FROM: RATINGS.counts.2
+    "ratings_count_3": 'Int64',         # FROM: RATINGS.counts.3
+    "ratings_count_4": 'Int64',         # FROM: RATINGS.counts.4
+    "ratings_count_5": 'Int64',         # FROM: RATINGS.counts.5
+}
+
 series_dtypes = {
     'work_key': 'string',               # FROM: SEARCH.key
     "series_key": 'string',             # FROM: SEARCH.series_key
