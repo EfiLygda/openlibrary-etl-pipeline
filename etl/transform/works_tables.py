@@ -9,18 +9,19 @@ import pandas as pd
 
 from open_library import KeyHandler
 
-from config.paths import CSV_DIR, WORKS_DIR, SEARCH_DIR, SERIES_DIR
+from config.paths import CSV_DIR, WORKS_DIR, SEARCH_DIR, SERIES_DIR, WORKS_RATINGS_DIR
 
 from utilities.io import load_json, save_csv
 from utilities.parsing import extract_text
 from utilities.validation import check_explode
 from etl.transform.dtypes import (works_dtypes,
-                                   series_dtypes,
-                                   availability_dtypes,
-                                   subjects_dtypes,
-                                   people_dtypes,
-                                   places_dtypes,
-                                   times_dtypes)
+                                  ratings_dtypes,
+                                  series_dtypes,
+                                  availability_dtypes,
+                                  subjects_dtypes,
+                                  people_dtypes,
+                                  places_dtypes,
+                                  times_dtypes)
 from utilities.table_prep import prepare_table
 from utilities.logging import set_logger
 
@@ -43,7 +44,7 @@ def import_works_data() -> list[pd.DataFrame]:
     # ------------------------------------------------------------------------------
     # --- Import and convert to dictionaries all works and enriched works' data ---
 
-    # Fetching all works, works enriched and series JSON filenames
+    # Fetching all works, works enriched and ratings JSON filenames
     works_files = [
         os.path.join(SEARCH_DIR, filename)
         for filename in os.listdir(SEARCH_DIR)
@@ -52,6 +53,11 @@ def import_works_data() -> list[pd.DataFrame]:
     works_enriched_files = [
         os.path.join(WORKS_DIR, filename)
         for filename in os.listdir(WORKS_DIR)
+    ]
+
+    works_ratings_files = [
+        os.path.join(WORKS_RATINGS_DIR, filename)
+        for filename in os.listdir(WORKS_RATINGS_DIR)
     ]
 
     # Dictionaries that will contain all works' data
@@ -83,6 +89,18 @@ def import_works_data() -> list[pd.DataFrame]:
         # Update the dictionary
         all_works_enriched_records.update(data['result'])
 
+    # Keys: works keys (i.e. '/books/OLxxxxW')
+    # Values: a work's record as returned via an RATINGS query
+    all_works_ratings_records = dict()
+
+    # For each file all enriched works' ratings are loaded and updated in the dictionary
+    for filename in works_ratings_files:
+        # Load JSON books' data
+        data = load_json(filename)
+
+        # Update the dictionary
+        all_works_ratings_records.update(data)
+
     # Print a separator
     # sep()
     # ------------------------------------------------------------------------------
@@ -98,8 +116,13 @@ def import_works_data() -> list[pd.DataFrame]:
     df_works = pd.DataFrame(all_works_records).T
     df_works_enriched = pd.DataFrame(all_works_enriched_records).T
 
-    # Join the two dataframes on the 'key' column
+    # Reset index and name it 'key'
+    df_works_ratings = pd.DataFrame(all_works_ratings_records).T
+    df_works_ratings.reset_index(inplace=True, names='key')
+
+    # Join the three dataframes on the 'key' column
     df_works_all = df_works.merge(df_works_enriched, how='left', on='key', suffixes=('', '__enriched'))
+    df_works_all = df_works_all.merge(df_works_ratings, how='left', on='key')
     # ------------------------------------------------------------------------------
 
     # ------------------------------------------------------------------------------
@@ -134,6 +157,15 @@ def import_works_data() -> list[pd.DataFrame]:
         'edition_count',
         'first_publish_year',
         'first_publish_date',
+    ]
+
+    ratings_fields = [
+        'work_key',
+        '1',
+        '2',
+        '3',
+        '4',
+        '5'
     ]
 
     series_fields = [
@@ -171,6 +203,7 @@ def import_works_data() -> list[pd.DataFrame]:
 
     # Keep only wanted columns for each table
     works_table = df_works_all[works_fields]
+    works_ratings_table = df_works_all[ratings_fields]
     series_table = df_works_all[series_fields]
     availability_table = df_works_all[availability_fields]
     subjects_table = df_works_all[subjects_fields]
@@ -180,6 +213,7 @@ def import_works_data() -> list[pd.DataFrame]:
 
     return [
         works_table,
+        works_ratings_table,
         series_table,
         availability_table,
         subjects_table,
@@ -236,6 +270,44 @@ def works_table(works_df: pd.DataFrame) -> None:
     # Print a separator for current table
     # sep()
     # ------------------------------------------------------------------------------
+
+def works_ratings_table(works_ratings_df: pd.DataFrame) -> None:
+    """
+    Function for saving to csv the 'works_ratings' table
+    :param works_ratings_df: pd.DataFrame, containing the works data as returned from import_works_data
+    """
+
+    # ------------------------------------------------------------------------------
+    # --- Works Ratings Table ---
+    works_ratings_df.rename(
+        columns={
+            "1": 'ratings_count_1',
+            "2": 'ratings_count_2',
+            "3": 'ratings_count_3',
+            "4": 'ratings_count_4',
+            "5": 'ratings_count_5',
+        },
+        inplace=True
+    )
+
+    # Prepare tables for exporting
+    works_ratings_df = prepare_table(
+        works_ratings_df,
+        dtypes=ratings_dtypes,
+        primary_key='work_key',
+        table_name='works_ratings',
+        drop_na_except = 'work_key',
+        drop_duplicates=True,
+        logger=logger
+    )
+
+    # Export table as a CSV file
+    # Primary key: 'work_key'
+    save_csv(
+        df=works_ratings_df,
+        filename='works_ratings.csv',
+        directory=CSV_DIR
+    )
 
 def import_series_data() -> pd.DataFrame:
     """
@@ -608,8 +680,9 @@ def works_times_table(times_df: pd.DataFrame) -> None:
     # ------------------------------------------------------------------------------
 
 def run():
-    works_df, series_df, availability_df, subjects_df, people_df, places_df, times_df = import_works_data()
+    works_df, works_ratings_df, series_df, availability_df, subjects_df, people_df, places_df, times_df = import_works_data()
     works_table(works_df)
+    works_ratings_table(works_ratings_df)
     works_series_table(series_df)
     works_availability_table(availability_df)
     works_subjects_table(subjects_df)
