@@ -52,14 +52,14 @@ def run():
     logger.info('Started extraction of data from OpenLibrary API to JSON files')
 
     # The pipeline
-    # fetch_works()
-    # export_keys()
-    # fetch_works_authors_series()
-    # export_author_key_names()
-    # fetch_books_keys_via_work_key()
-    # fetch_books()
-    # export_publishers_subjects_people_times()
-    # fetch_author_statistics()
+    fetch_works()
+    export_keys()
+    fetch_works_authors_series()
+    export_author_key_names()
+    fetch_books_keys_via_work_key()
+    fetch_books()
+    export_publishers_subjects_people_times()
+    fetch_author_statistics()
     fetch_works_ratings()
 
     logger.info('Finished extraction of data from OpenLibrary API to JSON files')
