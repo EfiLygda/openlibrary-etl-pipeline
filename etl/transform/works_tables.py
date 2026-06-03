@@ -32,12 +32,13 @@ def import_works_data() -> list[pd.DataFrame]:
     Function for importing all general works' data and splitting them to 7 dataframes:
 
     1. works_table,
-    2. series_table,
-    3. availability_table,
-    4. subjects_table,
-    5. people_table,
-    6. places_table,
-    7. times_table
+    2. works_ratings_table,
+    3. series_table,
+    4. availability_table,
+    5. subjects_table,
+    6. people_table,
+    7. places_table,
+    8. times_table
 
     :return: list[pd.DataFrame], list with the 7 dataframes
     """
@@ -406,12 +407,20 @@ def works_series_table(series_df: pd.DataFrame) -> None:
         how='left'
     )
 
+    # Rename 'name' column to 'series_name'
+    series_df.rename(
+        columns={
+            'name': 'series_name'
+        },
+        inplace=True
+    )
+
     # Set data types for each column
     # series_dtypes = {
     #     'work_key': 'string',
     #     "series_key": 'string',
     #     "series_position": 'string',
-    #     "name": 'string',
+    #     "series_name": 'string',
     # }
 
     # Prepare tables for exporting

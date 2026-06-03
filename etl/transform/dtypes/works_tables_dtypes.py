@@ -32,7 +32,7 @@ series_dtypes = {
     'work_key': 'string',               # FROM: SEARCH.key
     "series_key": 'string',             # FROM: SEARCH.series_key
     "series_position": 'string',        # FROM: SEARCH.series_position
-    "name": 'string',                   # FROM: SEARCH.series_name
+    "series_name": 'string',            # FROM: SEARCH.series_name
 }
 
 availability_dtypes = {
