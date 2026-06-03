@@ -55,7 +55,10 @@ What the project is trying to achieve:
     │       └── processed/# Final normalized tables
     ├── database/
     │   ├── schema/       # SQL table definitions
-    │   └── docs/         # Database schema diagrams and documentation
+    ├───docs              # Project documentation
+    │   ├───api           # API documentation (endpoints, usage, examples)
+    │   └───database      # Database-related documentation
+    │       └───diagrams  # ER diagrams
     ├── etl/
     │   ├── extract/      # Data extraction scripts
     │   ├── transform/    # Data transformation scripts
