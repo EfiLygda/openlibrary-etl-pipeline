@@ -7,7 +7,7 @@ DETAILS:
 import os
 import requests
 
-from open_library import Client
+from open_library import Client, KeyHandler
 
 from config.paths import KEYS_DIR, WORKS_RATINGS_DIR
 from config.api import GENRE_facet, MAX_ATTEMPTS
@@ -49,7 +49,7 @@ def run():
                 # Ratings' counts for current general work
                 ratings = data['counts']
 
-                works_ratings[work_key] = ratings
+                works_ratings[KeyHandler.normalize_key(work_key)] = ratings
 
                 break
 
