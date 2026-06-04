@@ -34,6 +34,7 @@ def run():
         'authors_statistics',
         'works',
         'authors_works',
+        'works_ratings',
         'works_series',
         'works_availability',
         'works_subjects',
