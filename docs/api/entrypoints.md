@@ -14,6 +14,7 @@
     * [General Works](#general-works)
       * [`SEARCH`](#search)
       * [`WORKS`](#works)
+      * [`WORKS_RATINGS`](#works_ratings)
     * [Editions of Works](#editions-of-works)
       * [`BOOKS`](#books)
       * [`SEARCH_EDITIONS_VIA_WORK_KEY`](#search_editions_via_work_key)
