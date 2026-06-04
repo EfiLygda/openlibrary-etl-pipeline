@@ -91,7 +91,7 @@ def import_works_data() -> list[pd.DataFrame]:
         all_works_enriched_records.update(data['result'])
 
     # Keys: works keys (i.e. '/books/OLxxxxW')
-    # Values: a work's record as returned via an RATINGS query
+    # Values: a work's record as returned via a WORKS_RATINGS query
     all_works_ratings_records = dict()
 
     # For each file all enriched works' ratings are loaded and updated in the dictionary

@@ -119,19 +119,20 @@ Run this project using only the following command:
 ### Source
 
 OpenLibrary API was used for data ingestion.
-See [api_documentation.md](https://github.com/EfiLygda/openlibrary-etl-pipeline/blob/Romance_Works/etl/extract/docs/api_documentation.md) for more information on API endpoints.
+See [entrypoints.md](docs/api/entrypoints.md) for more information on API endpoints.
 
 ### Output
 
 The processed tables are located at `data/romance_fiction/processed` and loaded in the database with the following sequence:
 
 | Table                         | Rows | Description                                                                                                                                    |
-| ----------------------------- |------| ---------------------------------------------------------------------------------------------------------------------------------------------- |
+|-------------------------------|------| ---------------------------------------------------------------------------------------------------------------------------------------------- |
 | **authors**                   | 501  | Core author records including names, biography, birth/death dates, and lifespan information.                                                   |
 | **authors_alternative_names** | 2808 | Alternative names, pseudonyms, aliases, pen names, and name variations associated with authors.                                                |
 | **authors_statistics**        | 500  | Aggregated author-level statistics including work counts, ratings distribution, reading activity, and most popular work.                       |
 | **works**                     | 2000 | Canonical literary works (abstract titles) containing work-level metadata such as title, description, publication history, and edition counts. |
 | **authors_works**             | 2091  | Many-to-many relationship linking authors to the works they created or contributed to.                                                         |
+| **works_ratings**             | 2000 | Work-level rating distribution data, including the number of 1-star, 2-star, 3-star, 4-star, and 5-star ratings received by each work. |
 | **works_series**              | 82  | Series membership information for works, including series identifier, series name, and position within the series.                             |
 | **works_availability**        | 2000  | Availability and access information for works, including ebook access status, public scans, and full-text availability.                        |
 | **works_subjects**            | 14034  | Subject classifications and thematic categories assigned to works.                                                                             |
@@ -154,9 +155,10 @@ In the following image the database's diagram is presented, by grouping the 16 t
 ### Cardinality
 
 | Relationship                 | Cardinality                    |
-| ---------------------------- | ------------------------------ |
+|------------------------------|--------------------------------|
 | Author ↔ Work                | Many-to-many (`authors_works`) |
 | Work ↔ Edition               | One-to-many                    |
+| Work ↔ Ratings               | One-to-one                     |
 | Work ↔ Subject               | One-to-many                    |
 | Work ↔ Person                | One-to-many                    |
 | Work ↔ Place                 | One-to-many                    |
