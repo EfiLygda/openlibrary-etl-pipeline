@@ -67,9 +67,9 @@ What the project is trying to achieve:
     ├── open_library/     # Core package for Open Library API access and record management
     ├── utilities/        # Reusable helper functions for ETL operations (I/O, logging, validation, DB, and pipeline utilities)
     │   └───io            # Input/output utilities for handling CSV and JSON data files
-    │── extract.py        # Extracts raw data from Open Library API
-    │── transform.py      # Cleans, validates, and transforms raw data into tables
-    │── load.py           # Loads processed data into database
+    │── extract.py        # Entry point for extraction stage
+    │── transform.py      # Entry point for transformation stage
+    │── load.py           # Entry point for loading stage
     └── main.py           # ETL pipeline entry point (orchestrates extract → transform → load)
 
 ## Tools
