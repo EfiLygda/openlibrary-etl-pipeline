@@ -1,18 +1,24 @@
 """
 API configuration and request settings
 """
+import os
+from dotenv import load_dotenv
+
+# --- Load Environment Variables ---
+# Load variables from the .env file to the environment
+load_dotenv()
 
 # Setting up the genre
-GENRE = 'romance fiction'
+GENRE = os.getenv("GENRE")
 
 # A normalized version of the genre used for filenames and directories
 GENRE_facet = GENRE.replace(' ', '_')
 
 # Maximum number of records for every query
-LIMIT = 100
+LIMIT = int(os.getenv("LIMIT"))
 
 # Maximum number of pages to extract from search queries
-MAX_PAGES = 20
+MAX_PAGES = int(os.getenv("MAX_PAGES"))
 
 # Maximum number of retries for a query
-MAX_ATTEMPTS = 5
+MAX_ATTEMPTS = int(os.getenv("MAX_ATTEMPTS"))
