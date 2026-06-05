@@ -15,6 +15,7 @@ The client supports:
 """
 
 import requests
+import config
 from utilities.io import load_json, save_json
 from open_library import KeyHandler
 
@@ -27,11 +28,11 @@ class Client:
         self.session = requests.Session()
 
         # Limiting to 100 records per page
-        self.LIMIT = 100
+        self.LIMIT = config.api.LIMIT
 
         # Setting the connection and reading timeouts
-        self.CONNECT_TIMEOUT = 15
-        self.READ_TIMEOUT = 15
+        self.CONNECT_TIMEOUT = config.api.CONNECT_TIMEOUT
+        self.READ_TIMEOUT = config.api.READ_TIMEOUT
 
         # Current successful query
         self.last_url = ''
@@ -72,7 +73,6 @@ class Client:
         #     print(f"Request failed: {e}")
         #     return None
     # -----------------------------------------------------------------------------------
-
 
     # -----------------------------------------------------------------------------------
     # --- Fetch Methods ---

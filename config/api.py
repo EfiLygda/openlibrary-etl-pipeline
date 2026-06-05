@@ -22,3 +22,7 @@ MAX_PAGES = int(os.getenv("MAX_PAGES"))
 
 # Maximum number of retries for a query
 MAX_ATTEMPTS = int(os.getenv("MAX_ATTEMPTS"))
+
+# Connection and reading request times
+CONNECT_TIMEOUT = int(os.getenv("CONNECT_TIMEOUT"))
+READ_TIMEOUT = int(os.getenv("READ_TIMEOUT"))
