@@ -78,13 +78,13 @@ def run():
             if key in author_key_names:
 
                 # Save the original name that was saved in a previous iteration
-                old_name = author_key_names[key]['name']
+                old_name = author_key_names[key]
 
                 # In case the previous name and the current new are different
                 # a ValueError is raised
                 if old_name != new_name:
-                    raise ValueError(
-                        f'Two different names \'{old_name}\' and \'{new_name}\' for author key \'{key}\'.'
+                    logger.error(
+                        f'Two different names \'{old_name}\' and \'{new_name}\' for author key \'{key}\' -> last name \'{new_name}\' is used.'
                     )
 
             # Add the author's key, name pair to the dictionary
