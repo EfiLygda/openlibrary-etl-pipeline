@@ -71,7 +71,7 @@ def run():
                     # Check if current page has 50 more records
                     has_next_page = True if 'next' in data_offset['links'] else False
 
-                    wait(3)
+                    wait()
 
                 break
 
@@ -84,7 +84,7 @@ def run():
 
                 logger.error(f"Failed to fetch work {work_key}: {e}")
 
-                wait(5)
+                wait()
 
         # Extract the book entries from the result of the query
         books = data['entries']
@@ -112,9 +112,8 @@ def run():
             logger.error(f'({i+1}/{len(work_keys)}) Not all edition keys were extracted for work \'{work_key}\'')
 
 
-        # Politely wait more than 5 seconds for each request
-        # Adding a random seconds between 0 and 1.5 to the 3, in order to simulate human behavior
-        wait(5)
+        # Politely wait more than 1 seconds for each request
+        wait()
 
     # Setting up the result's filepath
     result_filename = f'{GENRE_facet}_works_books_keys.json'

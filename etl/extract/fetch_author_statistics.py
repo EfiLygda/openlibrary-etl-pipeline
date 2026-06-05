@@ -93,11 +93,11 @@ def run():
                 # print(f'\nDid not connect or found data for \'{author_name}\'. Trying again...', end='\n')
                 logger.error(f'Did not connect or found data for \'{author_name}\'. Trying again...')
 
-                # Politely wait more than 5 seconds, especially of a connection error
-                wait(5)
+                # Politely wait more than 1 seconds, especially of a connection error
+                wait()
 
-        # Politely wait more than 3 seconds for the next author
-        wait(3)
+        # Politely wait more than 1 seconds for the next author
+        wait()
 
     # Setting up the final file's path
     filename = f'{GENRE_facet}_author_statistics.json'

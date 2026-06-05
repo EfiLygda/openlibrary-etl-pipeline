@@ -66,12 +66,11 @@ def run():
                 # print(f'\nDid not connect or found data for \'{author_name}\'. Trying again...', end='\n')
                 logger.error(f'Did not connect or found data for page \'{page}\'. Trying again...')
 
-                # Politely wait more than 5 seconds, especially of a connection error
-                wait(5)
+                # Politely wait more than 1 seconds, especially of a connection error
+                wait()
 
-        # Politely wait more than 3 seconds for each request
-        # Adding a random seconds between 0 and 1.5 to the 3, in order to simulate human behavior
-        wait(3)
+        # Politely wait more than 1 seconds for each request
+        wait()
 
         logger.info(f'Finished extraction of page {page}/{MAX_PAGES} to file {filename}')
 

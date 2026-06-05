@@ -75,12 +75,12 @@ def run():
 
                 # In case of an error print a message
                 # print(f'\nDid not connect or found data for \'{author_name}\'. Trying again...', end='\n')
-                logger.error(f'Did not connect or found data for \'{author_name}\'. Trying again...')
+                logger.error(f'Did not connect or found data for \'{key_batch}\'. Trying again...')
 
-                # Politely wait more than 5 seconds, especially of a connection error
-                wait(5)
+                # Politely wait more than 1 seconds, especially of a connection error
+                wait()
 
-        # Politely wait more than 5 seconds for each request
-        wait(5)
+        # Politely wait more than 1 seconds for each request
+        wait()
 
-    logger.info('Finished extraction of books\'/editions\' data')
+    logger.info('Finished extraction of book editions\' data')

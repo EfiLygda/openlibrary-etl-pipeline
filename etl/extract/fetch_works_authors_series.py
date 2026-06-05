@@ -106,7 +106,7 @@ def run():
                     # In case of an error print a message
                     logger.error(f'Did not connect or found data for \'{client.last_url}\'. Trying again...')
 
-                    wait(5)
+                    wait()
 
             # The file name for the current batch
             batch_filename = f'{key_file_type.upper()}_p{i+1}.json'
@@ -132,7 +132,7 @@ def run():
 
             logger.info(f'({i+1}/{len(key_batches)}) Extracted {GENRE} {key_file_type}\'s metadata')
 
-            wait(3)
+            wait()
 
     # Success message
     # print(f'Finished extracting {GENRE} works\', authors\' and series\' metadata.')
