@@ -126,6 +126,9 @@ Run this project using only the following command:
 OpenLibrary API was used for data ingestion.
 See [entrypoints.md](docs/api/entrypoints.md) for more information on API endpoints.
 
+> **Note**:
+> Open Library uses the LOC maintained ISO 693-2 codes: https://www.loc.gov/standards/iso639-2/php/code_list.php
+
 ### Output
 
 The processed tables are located at `data/romance_fiction/processed` and loaded in the database with the following sequence:
