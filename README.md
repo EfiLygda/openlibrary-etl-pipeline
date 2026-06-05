@@ -109,6 +109,8 @@ In the same file api settings can be changed with options:
 - `LIMIT`: how many records to be returned via the `SEARCH` query for each page
 - `MAX_PAGES`: the maximum number fo pages to be returned via the `SEARCH` query (i.e. `LIMIT` $\times$ `MAX_PAGES` is the total number of works to be returned)
 - `MAX_ATTEMPTS`: maximum number of retries for a query, in case an error arises
+- `CONNECT_TIMEOUT`: timeout (in seconds) for establishing a connection to the API
+- `READ_TIMEOUT`: timeout (in seconds) for reading a response from the API
 
 **STEP 2**: Run the pipeline
 
