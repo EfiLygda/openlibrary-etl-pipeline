@@ -8,9 +8,9 @@ to simulate polite API request pacing and reduce rate limiting.
 from time import sleep
 from random import uniform
 
-def wait(seconds: float = 3) -> None:
+def wait(seconds: float = 1) -> None:
     """
-    Function for politely waiting more than 3 seconds for each request
+    Function for politely waiting more than 1 seconds for each request
     :param seconds: float, the minimum seconds to wait
     :return: None
     """
