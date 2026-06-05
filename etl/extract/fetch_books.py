@@ -37,9 +37,6 @@ def run():
         for book_key in book_keys
     ]
 
-    # Setting up the limit of querying to 100 keys by page
-    client.LIMIT = 100
-
     # Make batches of keys
     key_batches = make_batches(book_keys, client.LIMIT)
 
