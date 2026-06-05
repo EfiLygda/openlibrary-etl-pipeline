@@ -27,7 +27,7 @@ def db_connection(
     """
     Function for establishing a PostgreSQL server connection
     :param database:
-    :param autocommit: bool, whether or not to be able to autocommit via the connection
+    :param autocommit: bool, whether to be able to autocommit via the connection
     :return: psycopg2.extensions.connection, the connection object
     """
 
