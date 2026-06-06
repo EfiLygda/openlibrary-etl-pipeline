@@ -8,12 +8,15 @@ DETAILS:
    the final data were added to the final data. As such no data is lost.
 """
 import os
+import requests
+
 from open_library import Client
 
 from config.paths import AUTHORS_DIR, KEYS_DIR
-from config.api import GENRE_facet
+from config.api import GENRE_facet, MAX_ATTEMPTS
 
 from utilities.io import load_json, save_json
+from utilities.rate_limit import wait
 from utilities.logging import set_logger
 
 logger = set_logger('EXPORT_AUTHOR_KEY_NAMES')
@@ -53,8 +56,31 @@ def run():
                 # Add to redirected records counter
                 redirected_records += 1
 
-                # Fetch the record that the original redirects to
-                record = client.get_redirected_record(record)
+                # Set up the maximum number of attempts to fetch the data
+                for _ in range(MAX_ATTEMPTS):
+
+                    # Try to extract the data during these attempts
+                    # Possible errors:
+                    # 1. connection errors: requests.exceptions.ReadTimeout, requests.exceptions.ConnectTimeout
+                    # 2. no data available: requests.exceptions.HTTPError, ValueError
+                    try:
+
+                        # Fetch the record that the original redirects to
+                        record = client.get_redirected_record(record)
+
+                        break
+
+                    except (
+                        requests.exceptions.HTTPError,
+                        requests.exceptions.ReadTimeout,
+                        requests.exceptions.ConnectTimeout,
+                        ValueError
+                    ) as e:
+
+                        # In case of an error print a message
+                        logger.error(f'Did not connect or found data for \'{client.last_url}\'. Trying again...')
+
+                        wait()
 
                 # Export it to the right format
                 record_to_export = {'result': {record['key']: record}}
