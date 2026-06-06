@@ -62,13 +62,12 @@ def run():
 
                 logger.error(f"Failed to fetch work {work_key}: {e}")
 
-                wait(5)
+                wait()
 
         logger.info(f'({i+1}/{len(work_keys)}) Extracted \'{work_key}\' ratings')
 
-        # Politely wait more than 5 seconds for each request
-        # Adding a random seconds between 0 and 1.5 to the 3, in order to simulate human behavior
-        wait(5)
+        # Politely wait more than 1 seconds for each request
+        wait()
 
     # Setting up the result's filepath
     result_filename = f'{GENRE_facet}_works_ratings.json'
