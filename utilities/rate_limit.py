@@ -14,4 +14,4 @@ def wait(seconds: float = 1) -> None:
     :param seconds: float, the minimum seconds to wait
     :return: None
     """
-    sleep(seconds + uniform(0, 1.5))
+    sleep(seconds + uniform(0, 0.2))
