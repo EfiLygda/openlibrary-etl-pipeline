@@ -41,7 +41,7 @@ def run():
 
         # For each book, if the 'publishers' field is available the
         # publishers' names are added to the list
-        for book_key, book in data['result'].items():
+        for book_key, book in data.items():
 
             # For each field, the current book's data are extracted
             for field, names in fields.items():

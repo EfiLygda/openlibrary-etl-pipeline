@@ -120,17 +120,8 @@ def run():
             # Saving the current batch
             save_json(records, batch_filepath)
 
-            # Setting up the progress message for each key types
-            # New line when the type changes, same row for batches in the same key type
-            # if i + 1 == len(key_batches):
-            #     end_str = '\n'
-            # else:
-            #     end_str = '\r'
-
-            # Progress message
-            # print(f'({i+1}/{len(key_batches)}) Extracting {GENRE} {key_file_type}\'s metadata...', end=end_str)
-
-            logger.info(f'({i+1}/{len(key_batches)}) Extracted {GENRE} {key_file_type}\'s metadata')
+            # Logginh progress
+            logger.info(f'({i+1}/{len(key_batches)}) Extracted {GENRE} {key_file_type}\'s metadata at {batch_filename}')
 
             wait()
 
