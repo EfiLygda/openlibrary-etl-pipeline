@@ -11,7 +11,6 @@ DETAILS:
 import os
 
 import open_library
-from open_library import Client
 
 from utilities.rate_limit import wait
 from utilities.logging import set_logger, log_result
@@ -22,7 +21,7 @@ from config.api import LIMIT, MAX_PAGES, GENRE_facet, MAX_ATTEMPTS
 
 logger = set_logger('FETCH_WORKS')
 
-@retry(logger, failure_msg='SEARCH_FAILED')
+@retry(logger, failure_msg='ATTEMPT_FAILED')
 def save_search_page(
         client: open_library.Client,
         filepath: str,
@@ -52,7 +51,7 @@ def run():
     logger.info(f'Starting extraction of first {MAX_PAGES} pages via SEARCH query')
 
     # Setting up an Open Library Client for querying the API
-    client = Client()
+    client = open_library.Client()
 
     # Setting the page limit
     client.LIMIT = LIMIT
@@ -78,14 +77,14 @@ def run():
 
         # Log messages to be used
         success_msg = (
-            f'SUCCESS page={page}/{MAX_PAGES} '
+            f'SEARCH_SUCCESS page={page}/{MAX_PAGES} '
             f'file={filename} '
             f'attempt={total_attempts}/{MAX_ATTEMPTS} '
             f'duration={duration:.2f}s'
         )
 
         error_msg = (
-            f'PAGE_FAILED page={page}/{MAX_PAGES} '
+            f'SEARCH_FAILED page={page}/{MAX_PAGES} '
             f'file={filename} '
             f'attempt={total_attempts}/{MAX_ATTEMPTS} '
             f'duration={duration:.2f}s'
