@@ -125,3 +125,32 @@ def set_logger(stage: str | None = None) -> Logger | LoggerAdapter[Logger]:
         logger = logging.LoggerAdapter(logger, {"stage": stage})
 
     return logger
+
+def log_result(
+        logger: Logger | LoggerAdapter[Logger],
+        is_successful: bool,
+        success_msg: str,
+        error_msg: str
+):
+    """
+    Log a success or failure message based on an operation's outcome.
+
+    The success message is logged at INFO level when the operation
+    succeeds, while the error message is logged at ERROR level when
+    the operation fails.
+
+    :param logger: Logger | LoggerAdapter[Logger], used for logging
+    :param is_successful: bool, indicates whether the operation succeeded
+    :param success_msg: str, message to log when the operation succeeds
+    :param error_msg: str, message to log when the operation fails
+    :return: None
+    """
+
+    # Choose proper message to log
+    msg = success_msg if is_successful else error_msg
+
+    # Choose proper log level
+    log_level = logger.info if is_successful else logger.error
+
+    # Log the message for the proper level
+    log_level(msg)
