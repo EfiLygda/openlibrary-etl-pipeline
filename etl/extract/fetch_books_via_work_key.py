@@ -98,7 +98,7 @@ def run():
     work_counter = 0
 
     # For each work keys batch fetch all editions/book data
-    for i, work_keys_batch in enumerate(work_keys_batches[:1]):
+    for i, work_keys_batch in enumerate(work_keys_batches):
 
         # Setting up the dictionary that will contain the book data for current batch
         books_data_batch = dict()
@@ -109,7 +109,7 @@ def run():
 
         # For each work key in the current batch
         # all book keys that are associated with it and data are extracted
-        for work_key in work_keys_batch[:5]:
+        for work_key in work_keys_batch:
 
             # Add to work counter
             work_counter += 1
