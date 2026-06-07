@@ -66,29 +66,24 @@ def run():
         # Save current page with built-in retries in case of errors
         results = save_search_page(client, filepath, page)
 
-        # Total attempts
-        total_attempts = results['attempts']
-
-        # Success flag
-        is_successful = results['success']
-
-        # Operation duration
-        duration = results['duration']
-
         # Log messages to be used
         success_msg = (
             f'SEARCH_SUCCESS page={page}/{MAX_PAGES} '
             f'file={filename} '
-            f'attempt={total_attempts}/{MAX_ATTEMPTS} '
-            f'duration={duration:.2f}s'
+            f'attempt={results['attempts']}/{MAX_ATTEMPTS} '
+            f'duration={results['duration']:.2f}s'
         )
 
         error_msg = (
             f'SEARCH_FAILED page={page}/{MAX_PAGES} '
+            f'error_type={results['error']} '
             f'file={filename} '
-            f'attempt={total_attempts}/{MAX_ATTEMPTS} '
-            f'duration={duration:.2f}s'
+            f'attempt={results['attempts']}/{MAX_ATTEMPTS} '
+            f'duration={results['duration']:.2f}s'
         )
+
+        # Success flag
+        is_successful = results['success']
 
         # Log the result using the proper message and level
         log_result(
