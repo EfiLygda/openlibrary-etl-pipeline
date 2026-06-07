@@ -57,7 +57,6 @@ def run():
     fetch_works_authors_series()
     export_author_key_names()
     fetch_books_via_work_key()
-    # fetch_books() # Removed 
     export_publishers_subjects_people_times()
     fetch_author_statistics()
     fetch_works_ratings()
