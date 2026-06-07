@@ -7,28 +7,58 @@ DETAILS:
 import os
 import requests
 
-from open_library import Client, KeyHandler
+import open_library
 
 from config.paths import KEYS_DIR, AUTHORS_STATISTICS_DIR
 from config.api import GENRE_facet, MAX_ATTEMPTS
 
 from utilities.io import load_json, save_json
 from utilities.rate_limit import wait
-from utilities.logging import set_logger
+from utilities.retry import retry
+from utilities.logging import set_logger, log_result
 
 logger = set_logger('FETCH_AUTHOR_STATISTICS')
+
+@retry(logger, failure_msg='ATTEMPT_FAILED')
+def fetch_author_stats(
+        client: open_library.Client,
+        author_name: str
+) -> None:
+    """
+    Fetch author statistics from the OpenLibrary API using a search query.
+
+    This operation is wrapped with a retry decorator that automatically
+    handles API failures (timeouts, connection errors, HTTP errors)
+    and retries the request before failing.
+
+    The function performs an author search using the provided author name and
+    returns the raw API response containing matching author records and metadata.
+
+    :param client: open_library.Client, OpenLibrary API client
+    :param author_name: str, name of the author to search for
+
+    :return: dict containing the API response with author search results
+    """
+    # Fetch authors' statistics
+    data = client.search(query=author_name, mode='authors')
+
+    return data
 
 def run():
 
     logger.info('Started extraction of author statistics')
 
     # Setting up thw Open Library client for querying the API
-    client = Client()
+    client = open_library.Client()
 
     # Loading the general work keys and book keys file
     authors = load_json(
         os.path.join(KEYS_DIR, f'{GENRE_facet}_authors_key_name.json')
     )
+
+    # Setting up the final file's path
+    filename = f'{GENRE_facet}_author_statistics.json'
+    filepath = os.path.join(AUTHORS_STATISTICS_DIR, filename)
 
     # Setting up the dictionary that will contain the data
     authors_statistics = dict()
@@ -36,72 +66,71 @@ def run():
     # For each author name the data will be fetched
     for i, (author_key, author_name) in enumerate(authors.items()):
 
-        # Progress message
-        # print(f'({i+1}/{len(authors.items())}) Extracting authors\' statistics...', end='\r')
-        logger.info(f'({i+1}/{len(authors.items())}) Extracting authors\' statistics')
-
         # Get the key from the normalized key (basically remove '\authors\' from the key)
-        denormalized_key = KeyHandler.get_key(author_key)
+        denormalized_key = open_library.KeyHandler.get_key(author_key)
 
-        # Set up the maximum number of attempts to fetch the data
-        for _ in range(MAX_ATTEMPTS):
+        # Fetch author statistics via author name with built-in retries in case of errors
+        results = fetch_author_stats(client, author_name)
 
-            # Try to extract the data during these attempts
-            # Possible errors:
-            # 1. connection errors: requests.exceptions.ReadTimeout, requests.exceptions.ConnectTimeout
-            # 2. no data available: requests.exceptions.HTTPError
-            try:
+        # Log messages to be used
+        success_msg = (
+            f'AUTHORS_SUCCESS author={i + 1}/{len(authors.items())} '
+            f'file={filename} '
+            f'attempt={results['attempts']}/{MAX_ATTEMPTS} '
+            f'duration={results['duration']:.2f}s'
+        )
 
-                # Fetch authors' statistics
-                data = client.search(query=author_name, mode='authors')
+        error_msg = (
+            f'AUTHORS_FAILED author={i + 1}/{len(authors.items())} '
+            f'error_type={results['error']} '
+            f'file={filename} '
+            f'attempt={results['attempts']}/{MAX_ATTEMPTS} '
+            f'duration={results['duration']:.2f}s'
+        )
 
-                # The response can contain more than one author's data, so there is a need
-                # to search by key in the results, in order to keep the right record
-                found_key = False
+        # Success flag
+        is_successful = results['success']
 
-                # Search in the response, in order to find the right record for the curren author
-                # via his/her respective author key
-                for author in data['docs']:
+        # Log the result using the proper message and level
+        log_result(
+            logger=logger,
+            is_successful=is_successful,
+            success_msg=success_msg,
+            error_msg=error_msg
+        )
 
-                    # Checking if the current record refers to the current author
-                    if author['key'] == denormalized_key:
+        # Move to next author if there was no success in fetching the editions
+        if not is_successful:
+            continue
 
-                        # Change fount_key to True
-                        found_key = True
+        # Get only data from results
+        data = results['results']
 
-                        # Add the record to the dictionary that will contain the final data
-                        authors_statistics[denormalized_key] = author
+        # The response can contain more than one author's data, so there is a need
+        # to search by key in the results, in order to keep the right record
+        found_key = False
 
-                        # Break the search for the right record
-                        break
+        # Search in the response, in order to find the right record for the curren author
+        # via his/her respective author key
+        for author in data['docs']:
 
-                # If none of the records refer to the current author then a message is displayed
-                if not found_key:
-                    # print(f'\nNo data was found for author \'{author_name}\' with key \'{author_key}\'.', end='\n')
-                    logger.error(f'No data was found for author \'{author_name}\' with key \'{author_key}\'.')
-                else:
-                    # If the right record is found break the loop with the attempts to query the API
-                    break
+            # Checking if the current record refers to the current author
+            if author['key'] == denormalized_key:
+                # Change fount_key to True
+                found_key = True
 
-            except (
-                requests.exceptions.HTTPError,
-                requests.exceptions.ReadTimeout,
-                requests.exceptions.ConnectTimeout
-            ) as e:
+                # Add the record to the dictionary that will contain the final data
+                authors_statistics[denormalized_key] = author
 
-                # In case of an error print a message
-                # print(f'\nDid not connect or found data for \'{author_name}\'. Trying again...', end='\n')
-                logger.error(f'Did not connect or found data for \'{author_name}\'. Trying again...')
+                # Break the search for the right record
+                break
 
-                # Politely wait more than 1 seconds, especially of a connection error
-                wait()
+        # If none of the records refer to the current author then a message is displayed
+        if not found_key:
+            logger.error(f'AUTHORS_FAILED no data was found for author \'{author_name}\' with key \'{author_key}\'')
 
         # Politely wait more than 1 seconds for the next author
         wait()
-
-    # Setting up the final file's path
-    filename = f'{GENRE_facet}_author_statistics.json'
-    filepath = os.path.join(AUTHORS_STATISTICS_DIR, filename)
 
     # Exporting all authors' statistics as a JSON file
     save_json(authors_statistics, filepath)
