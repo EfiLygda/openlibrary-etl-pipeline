@@ -14,9 +14,8 @@ DETAILS:
 """
 import os
 import re
-import requests
 
-from open_library import Client
+import open_library
 
 from config.paths import KEYS_DIR, WORKS_DIR, AUTHORS_DIR, SERIES_DIR
 from config.api import GENRE, MAX_ATTEMPTS
@@ -24,9 +23,39 @@ from config.api import GENRE, MAX_ATTEMPTS
 from utilities.io import load_json, save_json
 from utilities.rate_limit import wait
 from utilities.batching import make_batches
-from utilities.logging import set_logger
+from utilities.retry import retry
+from utilities.logging import set_logger, log_result
 
 logger = set_logger('FETCH_WORKS_AUTHORS_SERIES')
+
+@retry(logger, failure_msg='ATTEMPT_FAILED')
+def fetch_records_batch(
+        client: open_library.Client,
+        key_batch: list[str]
+) -> dict:
+    """
+    Fetch a batch of records from the OpenLibrary API.
+
+    This operation is wrapped with a retry decorator that automatically
+    handles API failures (timeouts, connection errors, HTTP errors)
+    and retries the request before failing.
+
+    :param client: open_library.Client, OpenLibrary API client
+    :param key_batch: list[str], list of record keys to fetch in a single request
+
+    :return: dict, API response containing fetched records
+
+    :raises ValueError: if the API returns no results for the requested batch
+    """
+    # Querying the API for the current batch
+    records = client.get_many(key_batch)
+
+    # If no records are returned a ValueError is returned
+    if not records['result']:
+        raise ValueError(f'No results were returned from {client.last_url}')
+
+    return records
+
 
 def run():
 
@@ -35,7 +64,7 @@ def run():
     )
 
     # Setting up thw Open Library client for querying the API
-    client = Client()
+    client = open_library.Client()
 
     # The regex used for later extracting the type of keys in the JSON
     # keys files extracted from export_keys.py
@@ -78,35 +107,8 @@ def run():
         # For each batch the API is queried and the results are saved
         for i, key_batch in enumerate(key_batches):
 
-            # Set up the maximum number of attempts to fetch the data
-            for _ in range(MAX_ATTEMPTS):
-
-                # Try to extract the data during these attempts
-                # Possible errors:
-                # 1. connection errors: requests.exceptions.ReadTimeout, requests.exceptions.ConnectTimeout
-                # 2. no data available: requests.exceptions.HTTPError, ValueError
-                try:
-
-                    # Querying the API for the current batch
-                    records = client.get_many(key_batch)
-
-                    # If no records are returned a ValueError is returned
-                    if not records['result']:
-                        raise ValueError(f'No results were returned from {client.last_url}')
-
-                    break
-
-                except (
-                        requests.exceptions.HTTPError,
-                        requests.exceptions.ReadTimeout,
-                        requests.exceptions.ConnectTimeout,
-                        ValueError
-                ) as e:
-
-                    # In case of an error print a message
-                    logger.error(f'Did not connect or found data for \'{client.last_url}\'. Trying again...')
-
-                    wait()
+            # Fetch current batch's records with built-in retries in case of errors
+            records = fetch_records_batch(client, key_batch)
 
             # The file name for the current batch
             batch_filename = f'{key_file_type.upper()}_p{i+1}.json'
@@ -118,14 +120,39 @@ def run():
             batch_filepath = os.path.join(key_type_dir, batch_filename)
 
             # Saving the current batch
-            save_json(records, batch_filepath)
+            save_json(records['results'], batch_filepath)
 
-            # Logginh progress
-            logger.info(f'({i+1}/{len(key_batches)}) Extracted {GENRE} {key_file_type}\'s metadata at {batch_filename}')
+            # Add final 's' to entrypoint name in case it doesn't exist
+            # (expected values: author, work, series)
+            entrypoint_name = key_file_type + 's' if not key_file_type.endswith('s') else key_file_type
+
+            # Log messages to be used
+            success_msg = (
+                f'{entrypoint_name.upper()}_SUCCESS batch={i + 1}/{len(key_batches)} '
+                f'file={batch_filename} '
+                f'attempt={records['attempts']}/{MAX_ATTEMPTS} '
+                f'duration={records['duration']:.2f}s'
+            )
+
+            error_msg = (
+                f'{entrypoint_name.upper()}_FAILED batch={i + 1}/{len(key_batches)} '
+                f'error_type={records['error']} '
+                f'file={batch_filename} '
+                f'attempt={records['attempts']}/{MAX_ATTEMPTS} '
+                f'duration={records['duration']:.2f}s'
+            )
+
+            # Success flag
+            is_successful = records['success']
+
+            # Log the result using the proper message and level
+            log_result(
+                logger=logger,
+                is_successful=is_successful,
+                success_msg=success_msg,
+                error_msg=error_msg
+            )
 
             wait()
-
-    # Success message
-    # print(f'Finished extracting {GENRE} works\', authors\' and series\' metadata.')
 
     logger.info(f'Finished extracting {GENRE} works\', authors\' and series\' metadata.')
