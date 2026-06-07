@@ -123,9 +123,16 @@ def run():
             # Success flag
             is_successful = results['success']
 
+            # Check for successful extraction and in any case return the total editions
+            if is_successful:
+                total_editions = results['results']['total_editions']
+            else:
+                total_editions = 'no_data'
+
             # Log messages to be used
             success_msg = (
                 f'SEARCH_EDITIONS_VIA_WORK_KEY_SUCCESS work={work_counter}/{len(work_keys)} '
+                f'total_editions={total_editions} '
                 f'batch_file={work_batch_filename} '
                 f'attempt={results['attempts']}/{MAX_ATTEMPTS} '
                 f'duration={results['duration']:.2f}s'
@@ -134,6 +141,7 @@ def run():
             error_msg = (
                 f'SEARCH_EDITIONS_VIA_WORK_KEY_FAILED work={work_counter}/{len(work_keys)} '
                 f'error_type={results['error']} '
+                f'total_editions={total_editions} '
                 f'batch_file={work_batch_filename} '
                 f'attempt={results['attempts']}/{MAX_ATTEMPTS} '
                 f'duration={results['duration']:.2f}s'
@@ -151,8 +159,8 @@ def run():
             if not is_successful:
                 continue
 
-            # Get only data and total editions from results
-            data, total_editions = results['results']['data'], results['results']['total_editions']
+            # Get only data from results
+            data = results['results']['data']
 
             # Extract the book entries from the result of the query
             books = data['entries']
