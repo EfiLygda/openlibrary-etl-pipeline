@@ -15,6 +15,7 @@ returns a structured dictionary containing:
 - attempts: number of attempts used
 - success: whether the operation succeeded
 - results: function output (if successful)
+- duration: duration of operation
 - error: error message (if failed)
 
 
@@ -61,6 +62,7 @@ DETAILS: Explanation for type hinting
         arguments and return type dictionary)
 """
 
+from time import time
 import requests
 from typing import Callable, Any, TypeVar
 from logging import Logger, LoggerAdapter
@@ -92,12 +94,14 @@ def retry(
         - number of attempts used
         - success status
         - function result (if successful)
+        - duration of operation
         - error message (if failed)
 
     :param logger: Logger | LoggerAdapter[Logger], the logger used for logging,
     :param failure_msg: str, base message in case of error during the attempts
     :return: Callable[..., Any], a function that can take any arguments and returns anything
     """
+
     def decorator(func: F) ->  Callable[..., dict]:
         """
         Wraps a function with retry logic.
@@ -124,15 +128,27 @@ def retry(
             :return: Dictionary containing execution metadata and result
             """
 
+            # Set up start time of operation
+            start_time = time()
+
+            # Set up exception
             last_exception = None
 
             for attempt in range(1, MAX_ATTEMPTS+1):
 
                 try:
+
+                    # Fetch the results
+                    results = func(*args, **kwargs)
+
+                    # Calculate duration of operation, in case of success
+                    duration = time() - start_time
+
                     return {
                         'attempts': attempt,
                         'success': True,
-                        'results': func(*args, **kwargs),
+                        'results': results,
+                        'duration': duration,
                         'error': None
                     }
 
@@ -140,15 +156,19 @@ def retry(
                     last_exception = e
 
                     # In case of an error print a message
-                    logger.error(f'{failure_msg} (attempt {attempt}/{MAX_ATTEMPTS}): {str(e)}')
+                    logger.error(f'{failure_msg} (attempt={attempt}/{MAX_ATTEMPTS}): {str(e)}')
 
                     # Politely wait more than 1 seconds and try again
                     wait()
+
+            # Calculate duration of operation, in case of failure
+            duration = time() - start_time
 
             return {
                 'attempts': MAX_ATTEMPTS,
                 'success': False,
                 'results': None,
+                'duration': duration,
                 'error': str(last_exception) if last_exception else None
             }
 
