@@ -9,17 +9,41 @@ DETAILS:
 """
 
 import os
-import requests
 
+import open_library
 from open_library import Client
 
 from utilities.rate_limit import wait
-from utilities.logging import set_logger
+from utilities.logging import set_logger, log_result
+from utilities.retry import retry
 
 from config.paths import SEARCH_DIR
-from config.api import LIMIT, MAX_PAGES, GENRE, GENRE_facet, MAX_ATTEMPTS
+from config.api import LIMIT, MAX_PAGES, GENRE_facet, MAX_ATTEMPTS
 
 logger = set_logger('FETCH_WORKS')
+
+@retry(logger, failure_msg='Failed fetching search page')
+def save_search_page(
+        client: open_library.Client,
+        filepath: str,
+        page: int
+) -> None:
+    """
+    Save a single search page to a JSON file.
+
+    This operation is wrapped with a retry decorator that automatically
+    handles API failures (timeouts, connection errors, HTTP errors)
+    and retries the request before failing.
+
+    :param client: open_library.Client, OpenLibrary API client
+    :param filepath: str, file path for JSON output
+    :param page: int, page number of search results to fetch
+
+    :return: None
+    """
+    # Save the current page's data in JSON format
+    client.save_search(filename=filepath, subject=GENRE_facet, page=page)
+
 
 def run():
     # ----------------------------------------------------------------------------------
@@ -36,43 +60,42 @@ def run():
     # For each page in the results save the records in JSON format
     for page in range(1, MAX_PAGES+1):
 
-        # Print a message to show progress
-        # print(f'({page}/{MAX_PAGES}) Extracting {GENRE} works\' metadata...', end='\r')
-
         # Set up the file name for saving the response
         filename = f'SEARCH_p{page}.json'
         filepath = os.path.join(SEARCH_DIR, filename)
 
-        for _ in range(MAX_ATTEMPTS):
+        # Save current page with built-in retries in case of errors
+        results = save_search_page(client, filepath, page)
 
-            # Try to extract the data during these attempts
-            # Possible errors:
-            # 1. connection errors: requests.exceptions.ReadTimeout, requests.exceptions.ConnectTimeout
-            # 2. no data available: requests.exceptions.HTTPError
-            try:
+        # Total attempts
+        total_attempts = results['attempts']
 
-                # Save the response as a JSON file
-                client.save_search(filename=filepath, subject=GENRE_facet, page=page)
+        # Success flag
+        is_successful = results['success']
 
-                break
+        # Log messages to be used
+        success_msg = (
+            f'Finished extraction of page {page}/{MAX_PAGES} '
+            f'to file {filename} '
+            f'(total attempts {total_attempts}/{MAX_ATTEMPTS})'
+        )
 
-            except (
-                requests.exceptions.HTTPError,
-                requests.exceptions.ReadTimeout,
-                requests.exceptions.ConnectTimeout
-            ) as e:
+        error_msg = (
+            f'Failed to extract page {page}/{MAX_PAGES} '
+            f'to file {filename} '
+            f'(total attempts {total_attempts}/{MAX_ATTEMPTS})'
+        )
 
-                # In case of an error print a message
-                # print(f'\nDid not connect or found data for \'{author_name}\'. Trying again...', end='\n')
-                logger.error(f'Did not connect or found data for page \'{page}\'. Trying again...')
-
-                # Politely wait more than 1 seconds, especially of a connection error
-                wait()
+        # Log the result using the proper message and level
+        log_result(
+            logger=logger,
+            is_successful=is_successful,
+            success_msg=success_msg,
+            error_msg=error_msg
+        )
 
         # Politely wait more than 1 seconds for each request
         wait()
-
-        logger.info(f'Finished extraction of page {page}/{MAX_PAGES} to file {filename}')
 
     logger.info('Finished extraction of all pages via SEARCH query')
     # ----------------------------------------------------------------------------------
