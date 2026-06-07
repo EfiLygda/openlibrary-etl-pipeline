@@ -92,7 +92,15 @@ EXCEPTION_MAP = {
 
 def classify_exception(exception: Exception) -> str:
     """
+    Classify an exception into a predefined error category.
 
+    This function checks the given exception against a mapping of known
+    exception types and returns a corresponding label. If the exception
+    type is not recognized, it returns a default category.
+
+    :param exception: Exception, the exception instance to classify
+
+    :return: str, a string label representing the exception category
     """
     for exc_type, label in EXCEPTION_MAP.items():
         if isinstance(exception, exc_type):
