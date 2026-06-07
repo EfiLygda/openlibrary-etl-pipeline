@@ -22,7 +22,7 @@ from config.api import LIMIT, MAX_PAGES, GENRE_facet, MAX_ATTEMPTS
 
 logger = set_logger('FETCH_WORKS')
 
-@retry(logger, failure_msg='Failed fetching search page')
+@retry(logger, failure_msg='SEARCH_FAILED')
 def save_search_page(
         client: open_library.Client,
         filepath: str,
@@ -73,17 +73,22 @@ def run():
         # Success flag
         is_successful = results['success']
 
+        # Operation duration
+        duration = results['duration']
+
         # Log messages to be used
         success_msg = (
-            f'Finished extraction of page {page}/{MAX_PAGES} '
-            f'to file {filename} '
-            f'(total attempts {total_attempts}/{MAX_ATTEMPTS})'
+            f'SUCCESS page={page}/{MAX_PAGES} '
+            f'file={filename} '
+            f'attempt={total_attempts}/{MAX_ATTEMPTS} '
+            f'duration={duration:.2f}s'
         )
 
         error_msg = (
-            f'Failed to extract page {page}/{MAX_PAGES} '
-            f'to file {filename} '
-            f'(total attempts {total_attempts}/{MAX_ATTEMPTS})'
+            f'PAGE_FAILED page={page}/{MAX_PAGES} '
+            f'file={filename} '
+            f'attempt={total_attempts}/{MAX_ATTEMPTS} '
+            f'duration={duration:.2f}s'
         )
 
         # Log the result using the proper message and level

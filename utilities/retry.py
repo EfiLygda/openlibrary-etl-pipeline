@@ -156,7 +156,7 @@ def retry(
                     last_exception = e
 
                     # In case of an error print a message
-                    logger.error(f'{failure_msg} (attempt={attempt}/{MAX_ATTEMPTS}): {str(e)}')
+                    logger.error(f'{failure_msg} attempt={attempt}/{MAX_ATTEMPTS}: {str(e)}')
 
                     # Politely wait more than 1 seconds and try again
                     wait()
