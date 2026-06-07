@@ -77,8 +77,28 @@ DEFAULT_EXCEPTIONS = (
     requests.exceptions.ReadTimeout,  # connection error
     requests.exceptions.ConnectTimeout,  # connection error
     requests.exceptions.HTTPError,  # no data available
-    requests.exceptions.ConnectionError,  # no data available
+    requests.exceptions.ConnectionError,  # connection error
+    ValueError, # no data
 )
+
+# Classification of expected exceptions
+EXCEPTION_MAP = {
+    requests.exceptions.ReadTimeout: 'read_timeout',
+    requests.exceptions.ConnectTimeout: 'connect_timeout',
+    requests.exceptions.HTTPError: 'http_error',
+    requests.exceptions.ConnectionError: 'connection_error',
+    ValueError: 'no_data'
+}
+
+def classify_exception(exception: Exception) -> str:
+    """
+
+    """
+    for exc_type, label in EXCEPTION_MAP.items():
+        if isinstance(exception, exc_type):
+            return label
+
+    return "unknown_error"
 
 def retry(
         logger: Logger | LoggerAdapter[Logger],
@@ -153,10 +173,15 @@ def retry(
                     }
 
                 except DEFAULT_EXCEPTIONS as e:
+
+                    # keep last exception
                     last_exception = e
 
-                    # In case of an error print a message
-                    logger.error(f'{failure_msg} attempt={attempt}/{MAX_ATTEMPTS}: {str(e)}')
+                    # Classify the error
+                    error_type = classify_exception(last_exception)
+
+                    # In case of an error log a debug message
+                    logger.debug(f'{failure_msg} attempt={attempt} error_type={error_type}')
 
                     # Politely wait more than 1 seconds and try again
                     wait()
@@ -169,7 +194,7 @@ def retry(
                 'success': False,
                 'results': None,
                 'duration': duration,
-                'error': str(last_exception) if last_exception else None
+                'error': error_type if last_exception else None
             }
 
         return wrapper
