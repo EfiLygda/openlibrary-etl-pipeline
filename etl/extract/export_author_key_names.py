@@ -8,24 +8,63 @@ DETAILS:
    the final data were added to the final data. As such no data is lost.
 """
 import os
-import requests
 
-from open_library import Client
+import open_library
 
 from config.paths import AUTHORS_DIR, KEYS_DIR
 from config.api import GENRE_facet, MAX_ATTEMPTS
 
 from utilities.io import load_json, save_json
-from utilities.rate_limit import wait
-from utilities.logging import set_logger
+from utilities.retry import retry
+from utilities.logging import set_logger, log_result
 
 logger = set_logger('EXPORT_AUTHOR_KEY_NAMES')
+
+@retry(logger, failure_msg='ATTEMPT_FAILED')
+def fetch_redirected_record(
+        client: open_library.Client,
+        record: dict,
+        original_key: str,
+        filepath: str
+) -> dict:
+    """
+    Fetch a redirected record from the OpenLibrary API and export it.
+
+    This operation is wrapped with a retry decorator that automatically
+    handles API failures (timeouts, connection errors, HTTP errors)
+    and retries the request before failing.
+
+    Some OpenLibrary records act as redirects to a canonical record.
+    This function resolves such redirects and returns the final record.
+
+    :param client: open_library.Client, OpenLibrary API client
+    :param record: dict, original record which may contain a redirect reference
+    :param original_key: str, original record's key for logging purposes
+    :param filepath: str, destination path for record
+
+    :return: dict, the redirected record
+    """
+
+    # Fetch the record that the original redirects to
+    redirect_key, record = client.get_redirected_record(record)
+
+    # Export it to the right format
+    record_to_export = {'result': {record['key']: record}}
+    save_json(record_to_export, filepath)
+
+    # Log the redirection
+    logger.info(
+        f'Key \'{original_key}\' redirects to \'{record['key']}\' -> added new raw page but original stays as is'
+    )
+
+    return record
+
 
 def run():
     logger.info(f'Starting exporting of all authors\' keys and names')
 
     # Setting up thw Open Library client for querying the API
-    client = Client()
+    client = open_library.Client()
 
     # Setting up the dictionary that will contain the final author key, name pairs
     author_key_names = dict()
@@ -56,45 +95,51 @@ def run():
                 # Add to redirected records counter
                 redirected_records += 1
 
-                # Set up the maximum number of attempts to fetch the data
-                for _ in range(MAX_ATTEMPTS):
+                # Set up records filepath
+                redirected_record_filename = f'redirected_{redirected_records}.json'
+                redirected_record_filepath = os.path.join(AUTHORS_DIR, redirected_record_filename)
 
-                    # Try to extract the data during these attempts
-                    # Possible errors:
-                    # 1. connection errors: requests.exceptions.ReadTimeout, requests.exceptions.ConnectTimeout
-                    # 2. no data available: requests.exceptions.HTTPError, ValueError
-                    try:
-
-                        # Fetch the record that the original redirects to
-                        record = client.get_redirected_record(record)
-
-                        break
-
-                    except (
-                        requests.exceptions.HTTPError,
-                        requests.exceptions.ReadTimeout,
-                        requests.exceptions.ConnectTimeout,
-                        ValueError
-                    ) as e:
-
-                        # In case of an error print a message
-                        logger.error(f'Did not connect or found data for \'{client.last_url}\'. Trying again...')
-
-                        wait()
-
-                # Export it to the right format
-                record_to_export = {'result': {record['key']: record}}
-                save_json(
-                    record_to_export,
-                    os.path.join(AUTHORS_DIR, f'redirected_{redirected_records}.json')
+                # Fetch redirected record with built-in retries in case of errors
+                results = fetch_redirected_record(
+                    client=client,
+                    record=record,
+                    original_key=key,
+                    filepath=redirected_record_filepath
                 )
 
-                # print(
-                #     f'Key \'{key}\' redirects to \'{record['key']}\'. Added new raw page but original stays as is.'
-                # )
-                logger.info(
-                    f'Key \'{key}\' redirects to \'{record['key']}\'. Added new raw page but original stays as is.'
+                # Get just the redirected record
+                record = results['results']
+
+                # Log messages to be used
+                success_msg = (
+                    f'AUTHORS_REDIRECTION_SUCCESS '
+                    f'file={redirected_record_filename} '
+                    f'attempt={results['attempts']}/{MAX_ATTEMPTS} '
+                    f'duration={results['duration']:.2f}s'
                 )
+
+                error_msg = (
+                    f'AUTHORS_REDIRECTION_FAILED '
+                    f'error_type={results['error']} '
+                    f'file={redirected_record_filename} '
+                    f'attempt={results['attempts']}/{MAX_ATTEMPTS} '
+                    f'duration={results['duration']:.2f}s'
+                )
+
+                # Success flag
+                is_successful = results['success']
+
+                # Log the result using the proper message and level
+                log_result(
+                    logger=logger,
+                    is_successful=is_successful,
+                    success_msg=success_msg,
+                    error_msg=error_msg
+                )
+
+                # Continue to next record in case redirection failed
+                if not is_successful:
+                    continue
 
             # The current record's author name is extracted
             new_name = record['name']
