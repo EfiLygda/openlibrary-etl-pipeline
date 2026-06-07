@@ -107,9 +107,6 @@ def run():
         # For each batch the API is queried and the results are saved
         for i, key_batch in enumerate(key_batches):
 
-            # Fetch current batch's records with built-in retries in case of errors
-            records = fetch_records_batch(client, key_batch)
-
             # The file name for the current batch
             batch_filename = f'{key_file_type.upper()}_p{i+1}.json'
 
@@ -119,8 +116,8 @@ def run():
             # The file path for the current batch
             batch_filepath = os.path.join(key_type_dir, batch_filename)
 
-            # Saving the current batch
-            save_json(records['results'], batch_filepath)
+            # Fetch current batch's records with built-in retries in case of errors
+            records = fetch_records_batch(client, key_batch)
 
             # Add final 's' to entrypoint name in case it doesn't exist
             # (expected values: author, work, series)
@@ -152,6 +149,13 @@ def run():
                 success_msg=success_msg,
                 error_msg=error_msg
             )
+
+            # Continue to next batch if no data is available
+            if not is_successful:
+                continue
+
+            # Saving the current batch
+            save_json(records['results'], batch_filepath)
 
             wait()
 
