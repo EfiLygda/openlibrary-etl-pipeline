@@ -7,24 +7,54 @@ DETAILS:
 import os
 import requests
 
-from open_library import Client
+import open_library
 
 from config.paths import KEYS_DIR, BOOKS_DIR
 from config.api import GENRE_facet, MAX_ATTEMPTS
 
 from utilities.io import load_json, save_json
 from utilities.batching import make_batches
+from utilities.retry import retry
 from utilities.rate_limit import  wait
-from utilities.logging import set_logger
+from utilities.logging import set_logger, log_result
 
 logger = set_logger('FETCH_BOOKS')
+
+@retry(logger, failure_msg='ATTEMPT_FAILED')
+def save_edition_data(
+        client: open_library.Client,
+        key_batch: list[str],
+        filepath: str
+) -> None:
+    """
+    Fetch and save a batch of edition (book) records from the OpenLibrary API.
+
+    This operation is wrapped with a retry decorator that automatically
+    handles API failures (timeouts, connection errors, HTTP errors)
+    and retries the request before failing.
+
+    The function retrieves multiple book records in a single request using a
+    batch of OpenLibrary keys and persists the resulting data to a JSON file.
+
+    :param client: open_library.Client, OpenLibrary API client
+    :param key_batch: list[str], list of OpenLibrary edition/book keys to fetch
+    :param filepath: str, file path where the JSON output will be saved
+
+    :return: None
+    """
+
+    # Fetch the book data
+    books = client.get_many(key_batch)
+
+    # Save the book data
+    save_json(books, filepath)
 
 def run():
 
     logger.info('Starting extraction of books \'editions\' data')
 
     # Setting up thw Open Library client for querying the API
-    client = Client()
+    client = open_library.Client()
 
     # Loading the general work keys and book keys file
     work_book_keys_filepath = os.path.join(KEYS_DIR, f'{GENRE_facet}_works_books_keys.json')
@@ -47,38 +77,43 @@ def run():
         # print(f'({i+1}/{len(key_batches)}) Extracting books\'/editions\' data...', end='\r')
         logger.info(f'({i+1}/{len(key_batches)}) Extracting books editions\' data')
 
-        for _ in range(MAX_ATTEMPTS):
+        # Setting up the path for the file that will contain the data
+        filename = f'BOOKS_p{i + 1}.json'
+        filepath = os.path.join(BOOKS_DIR, filename)
 
-            # Try to extract the data during these attempts
-            # Possible errors:
-            # 1. connection errors: requests.exceptions.ReadTimeout, requests.exceptions.ConnectTimeout
-            # 2. no data available: requests.exceptions.HTTPError
-            try:
+        # Save current batch's edition data with built-in retries in case of errors
+        results = save_edition_data(
+            client=client,
+            key_batch=key_batch,
+            filepath=filepath
+        )
 
-                # Fetch the book data
-                books = client.get_many(key_batch)
+        # Log messages to be used
+        success_msg = (
+            f'GET_MANY_SUCCESS batch={i+1}/{len(key_batches)} '
+            f'file={filename} '
+            f'attempt={results['attempts']}/{MAX_ATTEMPTS} '
+            f'duration={results['duration']:.2f}s'
+        )
 
-                # Setting up the path for the file that will contain the data
-                filename = f'BOOKS_p{i+1}.json'
-                filepath = os.path.join(BOOKS_DIR, filename)
+        error_msg = (
+            f'GET_MANY_FAILED batch={i+1}/{len(key_batches)} '
+            f'error_type={results['error']} '
+            f'file={filename} '
+            f'attempt={results['attempts']}/{MAX_ATTEMPTS} '
+            f'duration={results['duration']:.2f}s'
+        )
 
-                # Save the book data
-                save_json(books, filepath)
+        # Success flag
+        is_successful = results['success']
 
-                break
-
-            except (
-                requests.exceptions.HTTPError,
-                requests.exceptions.ReadTimeout,
-                requests.exceptions.ConnectTimeout
-            ) as e:
-
-                # In case of an error print a message
-                # print(f'\nDid not connect or found data for \'{author_name}\'. Trying again...', end='\n')
-                logger.error(f'Did not connect or found data for \'{key_batch}\'. Trying again...')
-
-                # Politely wait more than 1 seconds, especially of a connection error
-                wait()
+        # Log the result using the proper message and level
+        log_result(
+            logger=logger,
+            is_successful=is_successful,
+            success_msg=success_msg,
+            error_msg=error_msg
+        )
 
         # Politely wait more than 1 seconds for each request
         wait()
