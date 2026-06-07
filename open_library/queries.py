@@ -13,6 +13,7 @@ The client supports:
 - Redirect handling
 - JSON export of API responses
 """
+from typing import Any
 
 import requests
 import config
@@ -275,16 +276,17 @@ class Client:
         """
         return 'redirect' in record['type']['key']
 
-    def get_redirected_record(self, record: dict) -> dict | None:
+    def get_redirected_record(self, record: dict) -> tuple[str, dict | None] | None:
         """
         Function for getting the original record from a redirect, USED only for one record responses
         like in WORKS, AUTHORS and BOOKS
         :param record: : dict, a record (NOT a response)
-        :return: dict, the record that redirects to, or None if it doesn't redirect anywhere
+        :return: tuple[str,dict | None] | None, the record's key and the record that redirects to,
+                                 or None if it doesn't redirect anywhere
         """
         if self.is_redirect(record):
             redirect_key = record['location'] # The key that it redirects to
-            return self.get(redirect_key)
+            return redirect_key, self.get(redirect_key)
         else:
             return None
     # -----------------------------------------------------------------------------------
