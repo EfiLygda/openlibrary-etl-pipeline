@@ -60,9 +60,9 @@ def import_authors_to_df() -> pd.DataFrame:
     keys_are_correct = (df_authors.index == df_authors.key).all()
 
     if keys_are_correct:
-        logger.info('All authors\' records were checked and author keys are correct.')
+        logger.info('AUTHOR_KEYS_VALIDATION_SUCCESS')
     else:
-        logger.error('All authors\' records were checked and some author keys are wrong.')
+        logger.error('AUTHOR_KEYS_VALIDATION_FAILED')
 
     # Reset index as to add it as a column
     # Denormalize index as to extract pure authors' key
@@ -203,9 +203,9 @@ def author_statistics_table() -> None:
     keys_are_correct = (df_stats.index == df_stats.key).all()
 
     if keys_are_correct:
-        logger.info('All authors\' records were checked and author keys are correct.')
+        logger.info('AUTHOR_STATS_KEYS_VALIDATION_SUCCESS')
     else:
-        logger.warning('All authors\' records were checked and some author keys are wrong.')
+        logger.error('AUTHOR_STATS_KEYS_VALIDATION_FAILED')
 
     # Reset index as to now be a new column, and rename the column to 'author_key'
     df_stats.reset_index(names='author_key', inplace=True)
@@ -300,9 +300,9 @@ def import_works_to_df() -> pd.DataFrame:
     keys_are_correct = (df_works.index == df_works.key).all()
 
     if keys_are_correct:
-        logger.info('All works\' records were checked and works keys are correct.')
+        logger.info('WORKS_KEYS_VALIDATION_SUCCESS')
     else:
-        logger.error('All works\' records were checked and some works keys are wrong.')
+        logger.error('WORKS_KEYS_VALIDATION_FAILED')
 
     # Reset index as to add it as a column
     # Denormalize index as to extract pure authors' key

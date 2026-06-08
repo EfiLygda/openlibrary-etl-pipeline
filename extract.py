@@ -49,7 +49,7 @@ def run():
     # ----------------------------------------------------------------------------------
     # --- Run Pipeline (with logging) ---
 
-    logger.info('Started extraction of data from OpenLibrary API to JSON files')
+    logger.info('PHASE_START')
 
     # The pipeline
     fetch_works()
@@ -61,7 +61,7 @@ def run():
     fetch_author_statistics()
     fetch_works_ratings()
 
-    logger.info('Finished extraction of data from OpenLibrary API to JSON files')
+    logger.info('PHASE_COMPLETE')
 
     # Shutting down logging
     logging.shutdown()

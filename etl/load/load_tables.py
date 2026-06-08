@@ -12,7 +12,7 @@ logger = set_logger('LOAD_TABLES_AT_DATABASE')
 
 def run():
 
-    logger.info(f'Starting loading of tables to \'{DB_NAME}\' database')
+    logger.info('STAGE_START')
 
     # ---------------------------------------------------------------------------------------
     # --- Set up Connection to Database ---
@@ -72,7 +72,7 @@ def run():
                 file
             )
 
-        logger.info(f'Loaded \'{table_name}\' table')
+        logger.info(f'TABLE_LOAD_SUCCESS table={table_name}')
     # ---------------------------------------------------------------------------------------
 
     # Close the cursor
@@ -81,4 +81,4 @@ def run():
     # Close the connection
     connection.close()
 
-    logger.info(f'Finished loading of tables to \'{DB_NAME}\' database')
+    logger.info('STAGE_COMPLETE')

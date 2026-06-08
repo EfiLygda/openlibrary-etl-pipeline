@@ -95,9 +95,17 @@ def prepare_table(
     if primary_key:
         if logger:
             if not is_primary_key(df[primary_key]):
-                logger.error(f'\'{primary_key}\' is not primary key for \'{table_name}\' table.')
+                logger.error(
+                    f'PRIMARY_KEY_VALIDATION_FAILED '
+                    f'table={table_name} '
+                    f'primary_key={primary_key}'
+                )
             else:
-                logger.info(f'\'{table_name}\' primary key is \'{primary_key}\'')
+                logger.info(
+                    f'PRIMARY_KEY_VALIDATION_SUCCESS '
+                    f'table={table_name} '
+                    f'primary_key={primary_key}'
+                )
         else:
             if not is_primary_key(df[primary_key]):
                 raise ValueError(f'\'{primary_key}\' is not primary key for \'{table_name}\' table.')

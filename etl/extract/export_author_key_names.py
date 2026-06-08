@@ -52,16 +52,16 @@ def fetch_redirected_record(
     record_to_export = {'result': {record['key']: record}}
     save_json(record_to_export, filepath)
 
-    # Log the redirection
-    logger.info(
-        f'Key \'{original_key}\' redirects to \'{record['key']}\' -> added new raw page but original stays as is'
-    )
-
-    return record
+    return {
+        'original_key': original_key,
+        'redirection_key': record['key'],
+        'record': record
+    }
 
 
 def run():
-    logger.info(f'Starting exporting of all authors\' keys and names')
+
+    logger.info('STAGE_START')
 
     # Setting up thw Open Library client for querying the API
     client = open_library.Client()
@@ -108,11 +108,13 @@ def run():
                 )
 
                 # Get just the redirected record
-                record = results['results']
+                record = results['results']['record']
 
                 # Log messages to be used
                 success_msg = (
                     f'AUTHORS_REDIRECTION_SUCCESS '
+                    f'from={results['results']['original_key']} '
+                    f'to={results['results']['redirection_key']} '
                     f'file={redirected_record_filename} '
                     f'attempt={results['attempts']}/{MAX_ATTEMPTS} '
                     f'duration={results['duration']:.2f}s'
@@ -120,6 +122,8 @@ def run():
 
                 error_msg = (
                     f'AUTHORS_REDIRECTION_FAILED '
+                    f'from={results['results']['original_key']} '
+                    f'to={results['results']['redirection_key']} '
                     f'error_type={results['error']} '
                     f'file={redirected_record_filename} '
                     f'attempt={results['attempts']}/{MAX_ATTEMPTS} '
@@ -154,8 +158,11 @@ def run():
                 # In case the previous name and the current new are different
                 # a ValueError is raised
                 if old_name != new_name:
-                    logger.error(
-                        f'Two different names \'{old_name}\' and \'{new_name}\' for author key \'{key}\' -> last name \'{new_name}\' is used.'
+                    logger.warning(
+                        f'AUTHOR_NAME_CONFLICT author_key={key} '
+                        f'old_name={old_name} '
+                        f'new_name={new_name} '
+                        f'resolution=use_new_name'
                     )
 
             # Add the author's key, name pair to the dictionary
@@ -168,4 +175,4 @@ def run():
     # Save the final JSON file with the pairs
     save_json(author_key_names, result_filepath)
 
-    logger.info(f'Finished exporting all authors\' keys and names')
+    logger.info('STAGE_COMPLETE')

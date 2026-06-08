@@ -18,9 +18,7 @@ logger = set_logger('EXPORT_KEYS')
 
 def run():
 
-    logger.info(
-        f'Starting extraction of all work, author and series keys available in the first {MAX_PAGES} pages via SEARCH query'
-    )
+    logger.info('STAGE_START')
 
     # Define list that will contain all work, author and series keys
     WORKS_KEYS = []
@@ -71,9 +69,9 @@ def run():
         # Save each JSON file
         save_json(unique_keys, filename)
 
-
-    logger.info(
-        f'Finished extraction of {unique_key_counts['work_keys']} general works,'
-        f' {unique_key_counts['author_keys']} authors '
-        f'and {unique_key_counts['series_keys']} series'
-    )
+    logger.info('STAGE_COMPLETE')
+    # logger.info(
+    #     f'Finished extraction of {unique_key_counts['work_keys']} general works,'
+    #     f' {unique_key_counts['author_keys']} authors '
+    #     f'and {unique_key_counts['series_keys']} series'
+    # )

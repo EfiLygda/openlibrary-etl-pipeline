@@ -28,14 +28,14 @@ def run():
     # ----------------------------------------------------------------------------------
     # --- Run Pipeline (with logging) ---
 
-    logger.info('Started loading data to database')
+    logger.info('PHASE_START')
 
     # The pipeline
     create_database()
     create_tables()
     load_tables()
 
-    logger.info('Finished loading data to database')
+    logger.info('PHASE_COMPLETE')
     # ----------------------------------------------------------------------------------
 
     # ----------------------------------------------------------------------------------

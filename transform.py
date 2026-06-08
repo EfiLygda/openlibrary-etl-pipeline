@@ -44,14 +44,14 @@ def run():
     # ----------------------------------------------------------------------------------
     # --- Run Pipeline (with logging) ---
 
-    logger.info('Started transformation of data from JSON files to CSV files')
+    logger.info('PHASE_START')
 
     # The pipeline
     author_tables()
     editions_tables()
     works_tables()
 
-    logger.info('Finished transformation of data from JSON files to CSV files')
+    logger.info('PHASE_COMPLETE')
     # ----------------------------------------------------------------------------------
 
 

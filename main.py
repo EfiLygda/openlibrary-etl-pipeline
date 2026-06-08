@@ -42,13 +42,13 @@ logger = set_logger(stage='ETL')
 # ----------------------------------------------------------------------------------
 # --- Run Pipeline (with logging) ---
 
-logger.info('Started ETL process')
-
+logger.info('PIPELINE_START')
+# TODO: Add summaries to logs
 # The pipeline
 init_project()
 run_extract()
 run_transform()
 run_load()
 
-logger.info('Finished ETL process')
+logger.info('PIPELINE_COMPLETE')
 # ----------------------------------------------------------------------------------

@@ -45,7 +45,7 @@ def fetch_author_stats(
 
 def run():
 
-    logger.info('Started extraction of author statistics')
+    logger.info('STAGE_START')
 
     # Setting up thw Open Library client for querying the API
     client = open_library.Client()
@@ -126,7 +126,7 @@ def run():
 
         # If none of the records refer to the current author then a message is displayed
         if not found_key:
-            logger.error(f'AUTHORS_FAILED no data was found for author \'{author_name}\' with key \'{author_key}\'')
+            logger.error(f'AUTHOR_RECORD_NOT_FOUND author_name={author_name} author_key={author_key}')
 
         # Politely wait more than 1 seconds for the next author
         wait()
@@ -134,4 +134,4 @@ def run():
     # Exporting all authors' statistics as a JSON file
     save_json(authors_statistics, filepath)
 
-    logger.info('Finished extraction of author statistics')
+    logger.info('STAGE_COMPLETE')

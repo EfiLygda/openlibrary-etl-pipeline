@@ -1,5 +1,5 @@
 """
-STEP 5: Extract all editions' keys associated with a work
+STEP 5: Extract all editions' keys associated with a work via SEARCH_EDITIONS_VIA_WORK_KEY
 
 DETAILS:
 1. Data are saved in a JSON file @ data/keys
@@ -78,7 +78,7 @@ def fetch_editions_via_work_key(
 
 def run():
 
-    logger.info('Starting extraction of edition keys and data for each general work')
+    logger.info('STAGE_START')
 
     # Setting up thw Open Library client for querying the API
     client = open_library.Client()
@@ -180,8 +180,7 @@ def run():
 
             # Logging possible missing data
             if total_editions != len(data['entries']):
-                logger.warning(f'EDITIONS_FAILED work={work_counter}/{len(work_keys)} '
-                               f'not all edition keys were extracted for work \'{work_key}\'')
+                logger.warning(f'EDITION_KEYS_EXTRACTION_INCOMPLETE work_key={work_key}')
 
             # Politely wait more than 1 seconds for each request
             wait()
@@ -197,4 +196,4 @@ def run():
     # Save the result as a JSON file
     save_json(work_books_keys, work_book_keys_filepath)
 
-    logger.info('Finished extraction of edition keys and data for each general work')
+    logger.info('STAGE_COMPLETE')

@@ -59,9 +59,7 @@ def fetch_records_batch(
 
 def run():
 
-    logger.info(
-        f'Starting extraction of all work, author and series keys via WORKS_ENRICHED, AUTHORS and SERIES queries'
-    )
+    logger.info('STAGE_START')
 
     # Setting up thw Open Library client for querying the API
     client = open_library.Client()
@@ -89,7 +87,7 @@ def run():
 
         # If a match is not made a ValueError is raised
         if not key_type_match:
-            logger.warning(f'Key type was not found in filename: {key_file_name}')
+            logger.warning(f'KEY_TYPE_PARSE_FAILED filename={key_file_name} expected_types=work,author,series')
             continue
 
         # Extracting the key type from the file name
@@ -122,6 +120,10 @@ def run():
             # Add final 's' to entrypoint name in case it doesn't exist
             # (expected values: author, work, series)
             entrypoint_name = key_file_type + 's' if not key_file_type.endswith('s') else key_file_type
+
+            # Add enriched suffix to works
+            # if 'work' in entrypoint_name.lower():
+            #     entrypoint_name += '_enriched'
 
             # Log messages to be used
             success_msg = (
@@ -159,4 +161,4 @@ def run():
 
             wait()
 
-    logger.info(f'Finished extracting {GENRE} works\', authors\' and series\' metadata.')
+    logger.info('STAGE_COMPLETE')

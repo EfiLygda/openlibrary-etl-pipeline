@@ -9,7 +9,7 @@ logger = set_logger('CREATE_DATABASE')
 
 def run():
 
-    logger.info('Started creation of database')
+    logger.info('STAGE_START')
 
     # ---------------------------------------------------------------------------------------
     # --- Set up Connection to Database ---
@@ -29,10 +29,11 @@ def run():
     cursor.execute("SELECT 1 FROM pg_catalog.pg_database WHERE datname = 'romance_fiction';")
     exists = cursor.fetchone()
     if not exists:
-        logger.warning(f'Database \'{GENRE_facet}\' does not exist -> it will be created')
-        cursor.execute('CREATE DATABASE romance_fiction;') # Did not inject GENRE_facet to SQL
+        logger.warning(f'DATABASE_NOT_FOUND database={GENRE_facet}')
+        cursor.execute('CREATE DATABASE romance_fiction;') # Did not inject GENRE_facet to SQL # TODO: Fix db name to be dynamic
+        logger.info(f'DATABASE_CREATE_SUCCESS database={GENRE_facet}')
     else:
-        logger.info(f'Database \'{GENRE_facet}\' already exists -> using existing')
+        logger.info(f'DATABASE_EXISTS database={GENRE_facet}')
 
     # Close the cursor
     cursor.close()
@@ -40,5 +41,5 @@ def run():
     # Close the connection
     connection.close()
 
-    logger.info('Finished creation of database')
+    logger.info('STAGE_COMPLETE')
     # ---------------------------------------------------------------------------------------

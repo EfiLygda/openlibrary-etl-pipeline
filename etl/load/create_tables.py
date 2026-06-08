@@ -32,7 +32,7 @@ logger = set_logger('CREATE_TABLES_AT_DATABASE')
 
 def run():
 
-    logger.info(f'Starting creation of tables at \'{DB_NAME}\' database')
+    logger.info('STAGE_START')
 
     # ---------------------------------------------------------------------------------------
     # --- Set up Connection to Database ---
@@ -91,7 +91,7 @@ def run():
         table_name = os.path.basename(table_path).replace('.sql', '')[3:]
 
         # Check if the table already exists (this is mainly for logging)
-        check_if_table_exists(
+        table_exists = check_if_table_exists(
             cursor,
             table_name=table_name,
             logger=logger
@@ -102,10 +102,13 @@ def run():
             sql = f.read()
             cursor.execute(sql)
 
+            if not table_exists:
+                logger.info(f'TABLE_CREATE_SUCCESS table={table_name}')
+
     # Close the cursor
     cursor.close()
 
     # Close the connection
     connection.close()
 
-    logger.info(f'Finished creation of tables at \'{DB_NAME}\' database')
+    logger.info('STAGE_COMPLETE')

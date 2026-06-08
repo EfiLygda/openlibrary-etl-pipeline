@@ -85,8 +85,23 @@ def check_explode(
     """
 
     # The messages used in case there is a need or not to explode a column
-    explode_msg =  f'Column \'{col.name}\' of table \'{table_name}\' has at least one multivalue list -> explode \'{col.name}\''
-    do_not_explode_msg = f'Column \'{col.name}\' of table \'{table_name}\' does not have multivalue lists -> do not explode \'{col.name}\''
+    # explode_msg = f'Column \'{col.name}\' of table \'{table_name}\' has at least one multivalue list -> explode \'{col.name}\''
+    # do_not_explode_msg = f'Column \'{col.name}\' of table \'{table_name}\' does not have multivalue lists -> do not explode \'{col.name}\''
+    explode_msg = (
+        f'COLUMN_EXPLODE_DECISION '
+        f'column={col.name} '
+        f'table={table_name} '
+        f'action=explode '
+        f'reason=multivalue_detected'
+    )
+
+    do_not_explode_msg = (
+        f'COLUMN_EXPLODE_DECISION '
+        f'column={col.name} '
+        f'table={table_name} '
+        f'action=do_not_explode '
+        f'reason=single_value_per_row'
+    )
 
     # Find the right message to be displayed
     if any_multivalue_list(col):
@@ -128,8 +143,8 @@ def check_if_table_exists(
 
     table_exists = cursor.fetchone()[0]
 
-    exists_msg = f'Table \'{table_name}\' already exists -> using existing'
-    not_exists_msg = f'Table \'{table_name}\' does not exist -> will be created'
+    exists_msg = f'TABLE_EXISTS table={table_name}'
+    not_exists_msg = f'TABLE_CREATE_REQUIRED table={table_name}'
 
     if table_exists:
         message = exists_msg

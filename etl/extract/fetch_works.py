@@ -48,7 +48,7 @@ def run():
     # ----------------------------------------------------------------------------------
     # --- Querying Open Library API ---
 
-    logger.info(f'Starting extraction of first {MAX_PAGES} pages via SEARCH query')
+    logger.info('STAGE_START')
 
     # Setting up an Open Library Client for querying the API
     client = open_library.Client()
@@ -96,5 +96,5 @@ def run():
         # Politely wait more than 1 seconds for each request
         wait()
 
-    logger.info('Finished extraction of all pages via SEARCH query')
+    logger.info('STAGE_COMPLETE')
     # ----------------------------------------------------------------------------------

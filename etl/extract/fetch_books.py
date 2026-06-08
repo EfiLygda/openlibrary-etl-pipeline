@@ -50,7 +50,7 @@ def save_edition_data(
 
 def run():
 
-    logger.info('Starting extraction of books \'editions\' data')
+    logger.info('STAGE_START')
 
     # Setting up thw Open Library client for querying the API
     client = open_library.Client()
@@ -116,4 +116,4 @@ def run():
         # Politely wait more than 1 seconds for each request
         wait()
 
-    logger.info('Finished extraction of book editions\' data')
+    logger.info('STAGE_COMPLETE')

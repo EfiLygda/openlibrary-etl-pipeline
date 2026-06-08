@@ -67,9 +67,9 @@ def import_editions_data() -> list[pd.DataFrame]:
     keys_are_correct = (df_books.index == df_books.key).all()
 
     if keys_are_correct:
-        logger.info('All editions\' records were checked and edition keys are correct.')
+        logger.info('EDITION_KEYS_VALIDATION_SUCCESS')
     else:
-        logger.warning('All editions\' records were checked and some editions\' keys are wrong.')
+        logger.error('EDITION_KEYS_VALIDATION_FAILED')
 
     # Reset index as to add it as a column
     # Denormalize index as to extract pure books' key

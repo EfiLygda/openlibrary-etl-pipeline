@@ -47,7 +47,7 @@ def fetch_work_ratings(
 
 def run():
 
-    logger.info('Starting extraction of ratings for each general work')
+    logger.info('STAGE_START')
 
     # Setting up thw Open Library client for querying the API
     client = open_library.Client()
@@ -118,4 +118,4 @@ def run():
     # Save the result as a JSON file
     save_json(works_ratings, result_filepath)
 
-    logger.info('Finished extraction of ratings for each general work')
+    logger.info('STAGE_COMPLETE')

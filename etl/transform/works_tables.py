@@ -74,7 +74,7 @@ def import_works_data() -> list[pd.DataFrame]:
 
         for record in data['docs']:
             if record['key'] in all_works_records.keys():
-                logger.warning(f'{record['key']} is duplicate.')
+                logger.warning(f'WORK_DUPLICATE_FOUND work_key={record["key"]}')
             else:
                 all_works_records[record['key']] = record
 
@@ -134,11 +134,11 @@ def import_works_data() -> list[pd.DataFrame]:
 
     # Check if 'title' == 'title__enriched' and 'subtitle' == 'subtitle__enriched' -> Answer: TRUE
     if (df_works_all.title == df_works_all.title__enriched).all():
-        logger.warning('\'title\' and \'title__enriched\' have the same values -> \'title__enriched\' will be dropped')
+        logger.warning('REDUNDANT_COLUMN_DROPPED column=title__enriched duplicate_of=title')
         df_works_all.drop('title__enriched', inplace=True, axis=1)
 
     if (df_works_all.dropna().subtitle == df_works_all.dropna().subtitle__enriched).all():
-        logger.warning('\'subtitle\' and \'subtitle__enriched\' have the same values -> \'subtitle__enriched\' will be dropped')
+        logger.warning('REDUNDANT_COLUMN_DROPPED column=subtitle__enriched duplicate_of=subtitle')
         df_works_all.drop('subtitle__enriched', inplace=True, axis=1)
     # ------------------------------------------------------------------------------
 

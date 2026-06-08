@@ -16,7 +16,7 @@ logger = set_logger('EXPORT_PUBLISHERS_SUBJECTS_PEOPLE_TIMES')
 
 def run():
 
-    logger.info('Starting export of publishers, subjects, people and time periods')
+    logger.info('STAGE_START')
 
     # Loading the general work keys and book keys file
     books_filepaths = [
@@ -50,8 +50,6 @@ def run():
                 # and if it is the data is extracted, else a message is displayed
                 if field in book.keys():
                     fields[field] += book[field]
-                else:
-                    logger.info(f'No {field} were found for book with key \'{book_key}\'')
 
     # Remove duplicates from each field
     for field, names in fields.items():
@@ -64,4 +62,4 @@ def run():
     # Exporting all publishers' names as a JSON file
     save_json(fields, filepath)
 
-    logger.info('Finished export of publishers, subjects, people and time periods')
+    logger.info('STAGE_COMPLETE')
