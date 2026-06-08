@@ -73,7 +73,6 @@ def run():
     for i, key_batch in enumerate(key_batches):
 
         # Progress message
-        # print(f'({i+1}/{len(key_batches)}) Extracting books\'/editions\' data...', end='\r')
         logger.info(f'({i+1}/{len(key_batches)}) Extracting books editions\' data')
 
         # Setting up the path for the file that will contain the data

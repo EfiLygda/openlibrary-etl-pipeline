@@ -71,12 +71,6 @@ def run():
         # Save each JSON file
         save_json(unique_keys, filename)
 
-    # Print results counts
-    # print(
-    #     f'Extracted {unique_key_counts['work_keys']} general works,'
-    #     f' {unique_key_counts['author_keys']} authors'
-    #     f' and {unique_key_counts['series_keys']} series!'
-    # )
 
     logger.info(
         f'Finished extraction of {unique_key_counts['work_keys']} general works,'

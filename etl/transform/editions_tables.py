@@ -196,9 +196,6 @@ def editions_table(editions_df: pd.DataFrame) -> None:
         filename='editions.csv',
         directory=CSV_DIR
     )
-
-    # Print a separator for current table
-    # sep()
     # ------------------------------------------------------------------------------
 
 def editions_contributors_table(contributors_df: pd.DataFrame) -> None:
@@ -284,9 +281,6 @@ def editions_contributors_table(contributors_df: pd.DataFrame) -> None:
         filename='editions_contributors.csv',
         directory=CSV_DIR
     )
-
-    # Print a separator for current table
-    # sep()
     # ------------------------------------------------------------------------------
 
 def editions_publishing_table(publishing_df: pd.DataFrame) -> None:
@@ -378,9 +372,6 @@ def editions_publishing_table(publishing_df: pd.DataFrame) -> None:
         filename='editions_publishing.csv',
         directory=CSV_DIR
     )
-
-    # Print a separator for current table
-    # sep()
     # ------------------------------------------------------------------------------
 
 def editions_contents_table(contents_df: pd.DataFrame) -> None:
@@ -426,9 +417,6 @@ def editions_contents_table(contents_df: pd.DataFrame) -> None:
         filename='editions_contents.csv',
         directory=CSV_DIR
     )
-
-    # Print a separator for current table
-    # sep()
     # ------------------------------------------------------------------------------
 
 def editions_details_table(details_df: pd.DataFrame) -> None:
@@ -487,9 +475,6 @@ def editions_details_table(details_df: pd.DataFrame) -> None:
         filename='editions_details.csv',
         directory=CSV_DIR
     )
-
-    # Print a separator for current table
-    # sep()
     # ------------------------------------------------------------------------------
 
 def run() -> None:

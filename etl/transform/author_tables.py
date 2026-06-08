@@ -133,9 +133,6 @@ def authors_table() -> None:
         filename='authors.csv',
         directory=CSV_DIR
     )
-
-    # Print a separator for current table
-    # sep()
     # ------------------------------------------------------------------------------
 
 def authors_alternative_names_table() -> None:
@@ -181,9 +178,6 @@ def authors_alternative_names_table() -> None:
         filename='authors_alternative_names.csv',
         directory=CSV_DIR
     )
-
-    # Print a separator for current table
-    # sep()
     # ------------------------------------------------------------------------------
 
 def author_statistics_table() -> None:
@@ -269,9 +263,6 @@ def author_statistics_table() -> None:
         filename='authors_statistics.csv',
         directory=CSV_DIR
     )
-
-    # Print a separator for current table
-    # sep()
     # ------------------------------------------------------------------------------
 
 def import_works_to_df() -> pd.DataFrame:
@@ -400,9 +391,6 @@ def authors_works_table() -> None:
         filename='authors_works.csv',
         directory=CSV_DIR
     )
-
-    # Print a separator for current table
-    # sep()
     # ------------------------------------------------------------------------------
 
 

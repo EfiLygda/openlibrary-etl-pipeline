@@ -101,9 +101,6 @@ def import_works_data() -> list[pd.DataFrame]:
 
         # Update the dictionary
         all_works_ratings_records.update(data)
-
-    # Print a separator
-    # sep()
     # ------------------------------------------------------------------------------
 
     # ------------------------------------------------------------------------------
@@ -267,9 +264,6 @@ def works_table(works_df: pd.DataFrame) -> None:
         filename='works.csv',
         directory=CSV_DIR
     )
-
-    # Print a separator for current table
-    # sep()
     # ------------------------------------------------------------------------------
 
 def works_ratings_table(works_ratings_df: pd.DataFrame) -> None:
@@ -335,9 +329,6 @@ def import_series_data() -> pd.DataFrame:
 
         # Update the dictionary
         all_series_records.update(data['result'])
-
-    # Print a separator
-    # sep()
     # ------------------------------------------------------------------------------
 
     # ------------------------------------------------------------------------------
@@ -441,9 +432,6 @@ def works_series_table(series_df: pd.DataFrame) -> None:
         filename='works_series.csv',
         directory=CSV_DIR
     )
-
-    # Print a separator for current table
-    # sep()
     # ------------------------------------------------------------------------------
 
 def works_availability_table(availability_df: pd.DataFrame) -> None:
@@ -483,9 +471,6 @@ def works_availability_table(availability_df: pd.DataFrame) -> None:
         filename='works_availability.csv',
         directory=CSV_DIR
     )
-
-    # Print a separator for current table
-    # sep()
     # ------------------------------------------------------------------------------
 
 def works_subjects_table(subjects_df: pd.DataFrame) -> None:
@@ -533,9 +518,6 @@ def works_subjects_table(subjects_df: pd.DataFrame) -> None:
         filename='works_subjects.csv',
         directory=CSV_DIR
     )
-
-    # Print a separator for current table
-    # sep()
     # ------------------------------------------------------------------------------
 
 def works_people_table(people_df: pd.DataFrame) -> None:
@@ -583,9 +565,6 @@ def works_people_table(people_df: pd.DataFrame) -> None:
         filename='works_people.csv',
         directory=CSV_DIR
     )
-
-    # Print a separator for current table
-    # sep()
     # ------------------------------------------------------------------------------
 
 def works_places_table(places_df: pd.DataFrame) -> None:
@@ -633,9 +612,6 @@ def works_places_table(places_df: pd.DataFrame) -> None:
         filename='works_places.csv',
         directory=CSV_DIR
     )
-
-    # Print a separator for current table
-    # sep()
     # ------------------------------------------------------------------------------
 
 def works_times_table(times_df: pd.DataFrame) -> None:
@@ -683,9 +659,6 @@ def works_times_table(times_df: pd.DataFrame) -> None:
         filename='works_time_periods.csv',
         directory=CSV_DIR
     )
-
-    # Print a separator for current table
-    # sep()
     # ------------------------------------------------------------------------------
 
 def run():

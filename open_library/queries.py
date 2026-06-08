@@ -51,7 +51,6 @@ class Client:
         :return: dict | None, returns JSON response or None in case there was an error
         """
 
-        # try:
         # Querying the API
         response = self.session.get(
             url,
@@ -68,11 +67,6 @@ class Client:
 
         # Returns the JSON response as a dictionary
         return response.json()
-
-        # except requests.exceptions.RequestException as e:
-        #     # Print error message and return None
-        #     print(f"Request failed: {e}")
-        #     return None
     # -----------------------------------------------------------------------------------
 
     # -----------------------------------------------------------------------------------

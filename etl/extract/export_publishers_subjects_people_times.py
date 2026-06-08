@@ -51,7 +51,6 @@ def run():
                 if field in book.keys():
                     fields[field] += book[field]
                 else:
-                    # print(f'No {field} were found for book with key \'{book_key}\'')
                     logger.info(f'No {field} were found for book with key \'{book_key}\'')
 
     # Remove duplicates from each field
