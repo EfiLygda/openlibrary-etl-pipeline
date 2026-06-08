@@ -5,7 +5,6 @@ DETAILS:
 1. Data are saved in a JSON file @ data/raw_pages/{GENRE_facet}/author_statistics
 """
 import os
-import requests
 
 import open_library
 
@@ -74,14 +73,14 @@ def run():
 
         # Log messages to be used
         success_msg = (
-            f'AUTHORS_SUCCESS author={i + 1}/{len(authors.items())} '
+            f'SEARCH_AUTHORS_SUCCESS author={i + 1}/{len(authors.items())} '
             f'file={filename} '
             f'attempt={results['attempts']}/{MAX_ATTEMPTS} '
             f'duration={results['duration']:.2f}s'
         )
 
         error_msg = (
-            f'AUTHORS_FAILED author={i + 1}/{len(authors.items())} '
+            f'SEARCH_AUTHORS_FAILED author={i + 1}/{len(authors.items())} '
             f'error_type={results['error']} '
             f'file={filename} '
             f'attempt={results['attempts']}/{MAX_ATTEMPTS} '

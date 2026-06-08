@@ -5,7 +5,6 @@ DETAILS:
 1. Data are saved in a JSON file @ data/raw_pages/{GENRE_facet}/books
 """
 import os
-import requests
 
 import open_library
 

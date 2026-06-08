@@ -74,14 +74,14 @@ def run():
 
         # Log messages to be used
         success_msg = (
-            f'WORKS_SUCCESS work={i+1}/{len(work_keys)} '
+            f'WORKS_RATINGS_SUCCESS work={i+1}/{len(work_keys)} '
             f'file={result_filename} '
             f'attempt={results['attempts']}/{MAX_ATTEMPTS} '
             f'duration={results['duration']:.2f}s'
         )
 
         error_msg = (
-            f'WORKS_SUCCESS work={i+1}/{len(work_keys)} '
+            f'WORKS_RATINGS_SUCCESS work={i+1}/{len(work_keys)} '
             f'error_type={results['error']} '
             f'file={result_filename} '
             f'attempt={results['attempts']}/{MAX_ATTEMPTS} '

@@ -125,14 +125,14 @@ def run():
 
             # Log messages to be used
             success_msg = (
-                f'{entrypoint_name.upper()}_SUCCESS batch={i + 1}/{len(key_batches)} '
+                f'{entrypoint_name.upper()}_GET_MANY_SUCCESS batch={i + 1}/{len(key_batches)} '
                 f'file={batch_filename} '
                 f'attempt={records['attempts']}/{MAX_ATTEMPTS} '
                 f'duration={records['duration']:.2f}s'
             )
 
             error_msg = (
-                f'{entrypoint_name.upper()}_FAILED batch={i + 1}/{len(key_batches)} '
+                f'{entrypoint_name.upper()}_GET_MANY_FAILED batch={i + 1}/{len(key_batches)} '
                 f'error_type={records['error']} '
                 f'file={batch_filename} '
                 f'attempt={records['attempts']}/{MAX_ATTEMPTS} '
