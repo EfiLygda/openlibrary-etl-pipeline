@@ -5,6 +5,7 @@ Run the ETL pipeline
 import os
 
 from config.paths import LOG_DIR
+import logging
 from utilities.logging import config_logger, set_logger
 
 from init_project import run as init_project
@@ -15,11 +16,14 @@ from load import run as run_load
 # ----------------------------------------------------------------------------------
 # --- Setting up logging ---
 
+# Silencing 'urllib3' logging to level warning
+logging.getLogger("urllib3").setLevel(logging.WARNING)
+
 # Log filepath
 log_filepath = os.path.join(LOG_DIR, 'etl.log')
 
 # Configure the logger (uses console and file for log records)
-config_logger(filepath=log_filepath, level='info')
+config_logger(filepath=log_filepath, level='debug')
 
 # Set up the logger with stage 'ETL'
 logger = set_logger(stage='ETL')
