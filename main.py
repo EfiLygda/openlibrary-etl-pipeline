@@ -3,15 +3,25 @@ Run the ETL pipeline
 """
 
 import os
+import logging
+from dotenv import load_dotenv
 
 from config.paths import LOG_DIR
-import logging
 from utilities.logging import config_logger, set_logger
 
 from init_project import run as init_project
 from extract import run as run_extract
 from transform import run as run_transform
 from load import run as run_load
+
+# ----------------------------------------------------------------------------------
+# --- Load Environment Variables ---
+# Load variables from the .env file to the environment
+load_dotenv()
+
+# Setting up the genre
+LOG_LEVEL = os.getenv("LOG_LEVEL")
+# ----------------------------------------------------------------------------------
 
 # ----------------------------------------------------------------------------------
 # --- Setting up logging ---
@@ -23,7 +33,7 @@ logging.getLogger("urllib3").setLevel(logging.WARNING)
 log_filepath = os.path.join(LOG_DIR, 'etl.log')
 
 # Configure the logger (uses console and file for log records)
-config_logger(filepath=log_filepath, level='debug')
+config_logger(filepath=log_filepath, level=LOG_LEVEL)
 
 # Set up the logger with stage 'ETL'
 logger = set_logger(stage='ETL')
