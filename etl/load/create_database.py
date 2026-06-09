@@ -30,7 +30,7 @@ def run():
     exists = cursor.fetchone()
     if not exists:
         logger.warning(f'DATABASE_NOT_FOUND database={GENRE_facet}')
-        cursor.execute('CREATE DATABASE romance_fiction;') # Did not inject GENRE_facet to SQL # TODO: Fix db name to be dynamic
+        cursor.execute('CREATE DATABASE open_library_db;')
         logger.info(f'DATABASE_CREATE_SUCCESS database={GENRE_facet}')
     else:
         logger.info(f'DATABASE_EXISTS database={GENRE_facet}')
