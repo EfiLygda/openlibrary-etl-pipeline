@@ -10,15 +10,13 @@ This project is an independent work and is not affiliated with or endorsed by Op
 
 ---
 
----
-
 ## Table of Contents
 
 <!-- TOC -->
 * [OpenLibrary ETL Pipeline](#openlibrary-etl-pipeline)
   * [Table of Contents](#table-of-contents)
   * [Overview](#overview)
-    * [Pipeline Steps](#pipeline-steps)
+    * [Pipeline Phases](#pipeline-phases)
     * [Project Structure](#project-structure)
   * [Tools](#tools)
     * [Requirements](#requirements)
@@ -28,6 +26,7 @@ This project is an independent work and is not affiliated with or endorsed by Op
     * [Output](#output)
     * [Database Schema](#database-schema)
     * [Cardinality](#cardinality)
+  * [Logging](#logging)
 <!-- TOC -->
 
 ---
