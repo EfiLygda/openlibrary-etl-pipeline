@@ -43,7 +43,7 @@ logger = set_logger(stage='ETL')
 # --- Run Pipeline (with logging) ---
 
 logger.info('PIPELINE_START')
-# TODO: Add summaries to logs
+
 # The pipeline
 init_project()
 run_extract()
