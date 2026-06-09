@@ -7,6 +7,7 @@ Full source data can be obtained directly from Open Library.
 
 Open Library metadata is provided by the Internet Archive. 
 This project is an independent work and is not affiliated with or endorsed by Open Library or the Internet Archive.
+---
 
 ## Table of Contents
 
@@ -26,6 +27,8 @@ This project is an independent work and is not affiliated with or endorsed by Op
     * [Cardinality](#cardinality)
 <!-- TOC -->
 
+---
+
 ## Overview
 
 What the project is trying to achieve:
@@ -36,13 +39,18 @@ What the project is trying to achieve:
 - Load processed data into a PostgreSQL database
 - Ensure reproducibility and modular ETL design
 
-### Pipeline Steps
+---
+
+### Pipeline Phases
 
 1. `Extract`: fetch data from OpenLibrary API and store raw JSON responses in `data/romance_fiction/raw/`, preserving original structure for reproducibility and reprocessing.
 
 2. `Transform`: normalize nested OpenLibrary JSON into flat relational structures, standardize identifiers and key formats, clean and preprocess text fields (e.g. stripping, handling missing values), resolve and expand multi-value fields, validate primary keys and data integrity rules, and generate structured tables saved in `data/romance_fiction/staging/`.
 
 3. `Load`: initialize PostgreSQL database, create schema and tables from SQL definition files, and load processed CSV files into the `romance_fiction` database while enforcing relational constraints.
+
+> **Note:** See [phases_stages.md](docs/logging/phases_stages.md) for more information on the phases and their respective steps.
+---
 
 ### Project Structure
 
@@ -54,11 +62,12 @@ What the project is trying to achieve:
     │       ├── staging/  # Intermediate files used between ETL stages
     │       └── processed/# Final normalized tables
     ├── database/
-    │   ├── schema/       # SQL table definitions
+    │   └── schema/       # SQL table definitions
     ├───docs              # Project documentation
     │   ├───api           # API documentation (endpoints, usage, examples)
-    │   └───database      # Database-related documentation
-    │       └───diagrams  # ER diagrams
+    │   ├───database      # Database-related documentation
+    │   │    └───diagrams # ER diagrams
+    │   └───logging       # Logging documentation (event taxonomy, naming conventions, log levels, and examples)
     ├── etl/
     │   ├── extract/      # Data extraction scripts
     │   ├── transform/    # Data transformation scripts
@@ -72,6 +81,8 @@ What the project is trying to achieve:
     │── load.py           # Entry point for loading stage
     └── main.py           # ETL pipeline entry point (orchestrates extract → transform → load)
 
+---
+
 ## Tools
     
 The following tools were used for the implementation of this project:
@@ -80,6 +91,8 @@ The following tools were used for the implementation of this project:
     Python
     Pandas
     PostgreSQL
+
+---
 
 ### Requirements
 
@@ -92,6 +105,8 @@ The following tools were used for the implementation of this project:
     SQLAlchemy==2.0.48
     typing_extensions==4.15.0
     tzdata==2025.3
+
+---
 
 ## How to Run
 
@@ -118,6 +133,7 @@ Run this project using only the following command:
 
     python main.py
 
+---
 
 ## Data
 
@@ -128,6 +144,8 @@ See [entrypoints.md](docs/api/entrypoints.md) for more information on API endpoi
 
 > **Note**:
 > Open Library uses the LOC maintained ISO 693-2 codes: https://www.loc.gov/standards/iso639-2/php/code_list.php
+
+---
 
 ### Output
 
@@ -153,12 +171,15 @@ The processed tables are located at `data/romance_fiction/processed` and loaded 
 | **editions_contents**         | 9567  | Edition-specific content information such as descriptions, notes, and opening text.                                                            |
 | **editions_details**          | 52656  | Physical and bibliographic details of editions, including page count, format, dimensions, weight, and language.                                |
 
+---
 
 ### Database Schema
 
 In the following image the database's diagram is presented, by grouping the 16 tables in 3 groups:
 
 ![MainDiagram.svg](docs/database/diagrams/MainDiagram.svg)
+
+---
 
 ### Cardinality
 
@@ -180,5 +201,8 @@ In the following image the database's diagram is presented, by grouping the 16 t
 | Edition ↔ Contents           | One-to-one                     |
 | Edition ↔ Details            | One-to-one                     |
 
+## Logging
 
+The pipeline uses structured event-based logging for execution tracking, validation, error reporting and monitoring.
 
+For the complete logging specification, see [events.md](docs/logging/events.md).
