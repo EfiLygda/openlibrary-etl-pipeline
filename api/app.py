@@ -9,29 +9,31 @@ PUT: to update data.
 DELETE: to delete data.
 """
 import os
-from itertools import count
 
 import psycopg2
 
 from dotenv import load_dotenv
-from fastapi import FastAPI, Depends
+from fastapi import FastAPI
 
-from utilities.database import database_dependency
+from api.dependencies import DB_DEPENDENCY
 from api.service import format_response
 from api.repository.works import get_work_by_key
+
+# TODO: add parameters when needed
 
 # Load variables from the .env file to the environment
 load_dotenv()
 DB_NAME = os.getenv("DB_NAME")
 
-# FastAPI dependency for obtaining a database connection
-DB_DEPENDENCY = Depends(database_dependency)
-
 # Main FastAPI application instance.
 app = FastAPI()
 
+# ---------------------------------------------------------------------------------
+# Works Endpoints
+# ---------------------------------------------------------------------------------
+
 @app.get("/works/{work_key}")
-async def read_work(
+async def get_work(
         work_key: str,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ):
@@ -60,5 +62,24 @@ async def read_work(
     )
 
 
+@app.get("/works/{work_key}/editions")
+async def get_work_editions(
+        work_key: str,
+        connection: psycopg2.extensions.connection = DB_DEPENDENCY
+):
+
+    pass
+
+# ---------------------------------------------------------------------------------
+# Authors Endpoints TODO
+# ---------------------------------------------------------------------------------
 
 
+# ---------------------------------------------------------------------------------
+# Editions Endpoints TODO
+# ---------------------------------------------------------------------------------
+
+
+# ---------------------------------------------------------------------------------
+# Search Endpoints TODO
+# ---------------------------------------------------------------------------------
