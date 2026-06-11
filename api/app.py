@@ -9,41 +9,16 @@ PUT: to update data.
 DELETE: to delete data.
 """
 import os
-
-from fastapi import FastAPI, Depends
 from dotenv import load_dotenv
-from utilities.database import db_connection
+
+import psycopg2
+from fastapi import FastAPI, Depends
+
+from utilities.database import database_dependency
 
 # Load variables from the .env file to the environment
 load_dotenv()
 DB_NAME = os.getenv("DB_NAME")
-
-# ---
-app = FastAPI()
-
-def get_db_connection():
-    """
-    FastAPI dependency that provides a PostgreSQL database connection per request.
-
-    :return: generator, yields psycopg2.extensions.connection (active DB connection)
-    """
-
-    # Set up connection object
-    connection = None
-
-    # Try to make the connection with the database and return it as a generator
-    # Source: https://fastapi.tiangolo.com/tutorial/sql-databases/#create-a-session-dependency
-    try:
-
-        # Make the connectio and return it as a generator
-        connection = db_connection(database=DB_NAME)
-        yield connection
-
-    finally:
-
-        # If the connection was made is not used anymore then close it
-        if connection:
-            connection.close()
 
 def format_records(records: list, fields: list[str]):
 
@@ -61,8 +36,15 @@ def format_records(records: list, fields: list[str]):
 
     return results
 
+DB_DEPENDENCY = Depends(database_dependency)
+
+app = FastAPI()
+
 @app.get("/works/{work_key}")
-async def read_work(work_key: str, connection = Depends(get_db_connection)):
+async def read_work(
+        work_key: str,
+        connection: psycopg2.extensions.connection = DB_DEPENDENCY
+):
 
     with connection.cursor() as cursor:
 

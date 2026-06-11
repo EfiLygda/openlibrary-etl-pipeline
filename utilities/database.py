@@ -8,6 +8,7 @@ a helper function for establishing database connections using psycopg2.
 import os
 import psycopg2
 from dotenv import load_dotenv
+from typing import Generator
 
 # --- Load Environment Variables ---
 # Load variables from the .env file to the environment
@@ -52,3 +53,28 @@ def db_connection(
     connection.autocommit = autocommit
 
     return connection
+
+def database_dependency() -> Generator[psycopg2.extensions.connection, None, None]:
+    """
+    FastAPI dependency that provides a PostgreSQL database connection per request.
+
+    :return: generator, `yields` psycopg2.extensions.connection (active DB connection),
+                        `sent` into the generator None, generator `returns` when finished when
+    """
+
+    # Set up connection object
+    connection = None
+
+    # Try to make the connection with the database and return it as a generator
+    # Source: https://fastapi.tiangolo.com/tutorial/sql-databases/#create-a-session-dependency
+    try:
+
+        # Make the connectio and return it as a generator
+        connection = db_connection(database=DB_NAME)
+        yield connection
+
+    finally:
+
+        # If the connection was made is not used anymore then close it
+        if connection:
+            connection.close()
