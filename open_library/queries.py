@@ -29,11 +29,11 @@ class Client:
         self.session = requests.Session()
 
         # Limiting to 100 records per page
-        self.LIMIT = config.api.LIMIT
+        self.LIMIT = config.openlibrary_api.LIMIT
 
         # Setting the connection and reading timeouts
-        self.CONNECT_TIMEOUT = config.api.CONNECT_TIMEOUT
-        self.READ_TIMEOUT = config.api.READ_TIMEOUT
+        self.CONNECT_TIMEOUT = config.openlibrary_api.CONNECT_TIMEOUT
+        self.READ_TIMEOUT = config.openlibrary_api.READ_TIMEOUT
 
         # Current successful query
         self.last_url = ''
