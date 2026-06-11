@@ -3,7 +3,7 @@ Centralized project paths
 """
 
 import os
-from config.api import GENRE_facet
+from config.openlibrary_api import GENRE_facet
 
 # Project directory
 ROOT_DIR = os.path.abspath('./')

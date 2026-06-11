@@ -8,7 +8,7 @@ DETAILS:
 """
 import os
 
-from config.api import GENRE_facet, MAX_PAGES
+from config.openlibrary_api import GENRE_facet, MAX_PAGES
 from config.paths import KEYS_DIR, SEARCH_DIR
 
 from utilities.io import load_json, save_json

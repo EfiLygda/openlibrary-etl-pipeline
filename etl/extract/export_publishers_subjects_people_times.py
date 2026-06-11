@@ -7,7 +7,7 @@ DETAILS:
 import os
 
 from config.paths import BOOKS_DIR, KEYS_DIR
-from config.api import  GENRE_facet
+from config.openlibrary_api import  GENRE_facet
 
 from utilities.io import load_json, save_json
 from utilities.logging import set_logger

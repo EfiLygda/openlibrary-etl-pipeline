@@ -66,7 +66,7 @@ from time import time
 import requests
 from typing import Callable, Any, TypeVar
 from logging import Logger, LoggerAdapter
-from config.api import MAX_ATTEMPTS
+from config.openlibrary_api import MAX_ATTEMPTS
 from utilities.rate_limit import wait
 
 # Type variable representing any callable function with any signature and return type

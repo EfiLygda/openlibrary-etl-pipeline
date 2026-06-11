@@ -1,2 +1,2 @@
-from .api import *
+from .openlibrary_api import *
 from .paths import *

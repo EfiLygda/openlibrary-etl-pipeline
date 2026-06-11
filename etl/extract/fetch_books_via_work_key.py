@@ -9,7 +9,7 @@ import os
 import open_library
 
 from config.paths import KEYS_DIR, BOOKS_DIR
-from config.api import GENRE_facet, MAX_ATTEMPTS
+from config.openlibrary_api import GENRE_facet, MAX_ATTEMPTS
 
 from utilities.io import load_json, save_json
 from utilities.batching import make_batches

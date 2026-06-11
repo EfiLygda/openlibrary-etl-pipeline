@@ -18,7 +18,7 @@ import re
 import open_library
 
 from config.paths import KEYS_DIR, WORKS_DIR, AUTHORS_DIR, SERIES_DIR
-from config.api import GENRE, MAX_ATTEMPTS
+from config.openlibrary_api import GENRE, MAX_ATTEMPTS
 
 from utilities.io import load_json, save_json
 from utilities.rate_limit import wait

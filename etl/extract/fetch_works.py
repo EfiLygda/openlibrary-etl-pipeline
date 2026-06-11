@@ -17,7 +17,7 @@ from utilities.logging import set_logger, log_result
 from utilities.retry import retry
 
 from config.paths import SEARCH_DIR
-from config.api import LIMIT, MAX_PAGES, GENRE_facet, MAX_ATTEMPTS
+from config.openlibrary_api import LIMIT, MAX_PAGES, GENRE_facet, MAX_ATTEMPTS
 
 logger = set_logger('FETCH_WORKS')
 

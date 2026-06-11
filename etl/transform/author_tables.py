@@ -9,7 +9,7 @@ import pandas as pd
 from open_library import KeyHandler
 
 from config.paths import AUTHORS_DIR, AUTHORS_STATISTICS_DIR, WORKS_DIR, CSV_DIR, KEYS_DIR
-from config.api import GENRE_facet
+from config.openlibrary_api import GENRE_facet
 
 from utilities.io import load_json, save_csv
 from etl.transform.dtypes import (authors_dtypes,
