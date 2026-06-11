@@ -78,3 +78,13 @@ def database_dependency() -> Generator[psycopg2.extensions.connection, None, Non
         # If the connection was made is not used anymore then close it
         if connection:
             connection.close()
+
+def get_column_names(cursor: psycopg2.extensions.cursor) -> list:
+    """
+    Fetches the column names of the last query used by the cursor
+
+    :param cursor: psycopg2.extensions.cursor, the cursor to be used
+    :return: list, list of string names or empty list if no records were available
+    """
+
+    return [d[0] for d in cursor.description] if cursor.description else []
