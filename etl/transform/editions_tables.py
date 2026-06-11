@@ -54,7 +54,7 @@ def import_editions_data() -> list[pd.DataFrame]:
         data = load_json(filename)
 
         # Update the dictionary
-        all_books_records.update(data)
+        all_books_records.update(data['result'])
 
     # Convert the books' data dictionary to a dataframe and transpose in order
     # to have the author keys as index
