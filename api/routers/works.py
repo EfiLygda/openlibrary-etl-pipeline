@@ -45,10 +45,74 @@ async def get_work(
     )
 
 
+@router.get("/{work_key}/authors")
+async def get_work_authors(
+        work_key: str,
+        connection: psycopg2.extensions.connection = DB_DEPENDENCY
+):
+
+    pass
+
 @router.get("/{work_key}/editions")
 async def get_work_editions(
         work_key: str,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ):
 
+    pass
+
+@router.get("/{work_key}/series")
+async def get_work_series(
+        work_key: str,
+        connection: psycopg2.extensions.connection = DB_DEPENDENCY
+):
+
+    pass
+
+@router.get("/{work_key}/availability")
+async def get_work_availability(
+        work_key: str,
+        connection: psycopg2.extensions.connection = DB_DEPENDENCY
+):
+
+    pass
+
+@router.get("/{work_key}/subjects")
+async def get_work_availability(
+        work_key: str,
+        connection: psycopg2.extensions.connection = DB_DEPENDENCY
+):
+
+    pass
+
+
+@router.get("/{work_key}/people")
+async def get_work_availability(
+        work_key: str,
+        connection: psycopg2.extensions.connection = DB_DEPENDENCY
+):
+    pass
+
+
+@router.get("/{work_key}/places")
+async def get_work_availability(
+        work_key: str,
+        connection: psycopg2.extensions.connection = DB_DEPENDENCY
+):
+    pass
+
+
+@router.get("/{work_key}/time_periods")
+async def get_work_availability(
+        work_key: str,
+        connection: psycopg2.extensions.connection = DB_DEPENDENCY
+):
+    pass
+
+@router.get("/{work_key}/facets")
+async def get_work_availability(
+        work_key: str,
+        connection: psycopg2.extensions.connection = DB_DEPENDENCY
+):
+    # Add subjects, people,... to the same
     pass

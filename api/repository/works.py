@@ -6,7 +6,7 @@ to fetch work-related data
 """
 
 import psycopg2
-from api.core.entities import get_by_entity_key
+from api.repository.base import get_by_entity_key
 
 def get_work_by_key(
     connection: psycopg2.extensions.connection,
@@ -20,4 +20,6 @@ def get_work_by_key(
         entity='works',
         key=work_key
     )
+
+
 
