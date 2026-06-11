@@ -16,8 +16,8 @@ from etl.transform.dtypes import (authors_dtypes,
                                    authors_alternative_names_dtypes,
                                    author_statistics_dtypes,
                                    authors_works_dtypes)
-from utilities.parsing import find_year, extract_text
-from utilities.table_prep import prepare_table
+from utilities.data.parsing import find_year, extract_text
+from utilities.data.table_prep import prepare_table
 from utilities.logging import set_logger
 
 logger = set_logger('TRANSFORM_TO_AUTHORS_TABLES')
