@@ -23,7 +23,9 @@ def format_records(
     # Validate if columns with duplicate names have the same values across all records
     if not all_rows_have_identical_values_in_duplicate_columns(records, fields):
         raise ValueError(
-            f'Some values in duplicate columns {duplicate_column_names(fields)} do not have identical value'
+            f'Some values in at least one of duplicate columns '
+            f'between {duplicate_column_names(fields)} '
+            f'does not have identical value'
         )
 
     # Set up results list

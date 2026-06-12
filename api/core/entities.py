@@ -1,8 +1,7 @@
 """
 Table names grouping by entities works, authors and editions, internal validation/get functions
 
-Note: 'entity key' is not primary key for each table but only for the three main
-tables `works`, `authors` and `editions`
+Note: 'entity key' is not primary key for each table but a key column (foreign or not) in a table
 """
 
 # Table grouping by entities 'works', 'authors' and 'editions'
@@ -12,14 +11,14 @@ ENTITY_MAP = {
         'key': 'work_key',
         'tables': [
             'works',
-            'authors_works',
             'works_ratings',
             'works_series',
             'works_availability',
             'works_subjects',
             'works_people',
             'works_places',
-            'works_time_periods'
+            'works_time_periods',
+            'authors_works'
         ]
     },
     'authors': {
@@ -27,7 +26,8 @@ ENTITY_MAP = {
         'tables': [
             'authors',
             'authors_alternative_names',
-            'authors_statistics'
+            'authors_statistics',
+            'authors_works'
         ]
     },
     'editions': {
