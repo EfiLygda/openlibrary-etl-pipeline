@@ -1,8 +1,6 @@
 """
 Transformation utilities for formatting database query results
 """
-from api.core.validation import (duplicate_column_names,
-                                 all_rows_have_identical_values_in_duplicate_columns)
 
 def format_records(
         records: list | None,
@@ -20,14 +18,6 @@ def format_records(
     if not records or not fields:
         return []
 
-    # Validate if columns with duplicate names have the same values across all records
-    if not all_rows_have_identical_values_in_duplicate_columns(records, fields):
-        raise ValueError(
-            f'Some values in at least one of duplicate columns '
-            f'between {duplicate_column_names(fields)} '
-            f'does not have identical value'
-        )
-
     # Set up results list
     results = []
 
@@ -42,6 +32,7 @@ def format_records(
         # Add to the results list the zip
         results.append(dict(zip(fields, record)))
 
+    # return results
     return results
 
 def format_response(
@@ -65,10 +56,12 @@ def format_response(
     if records is None:
         records = []
 
+    formatted_records = format_records(records, column_names)
+
     return {
         'query': query,
         'endpoint': endpoint,
         'method': method,
-        'count': len(records),
-        'records': format_records(records, column_names)
+        'count': len(formatted_records),
+        'results': formatted_records
     }
