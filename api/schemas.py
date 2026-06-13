@@ -26,7 +26,13 @@ class Work(BaseModel):
     first_publish_date: Optional[str] = None
 
 class Author(BaseModel):
-    pass
+    author_key: str
+    author_name: str
+    bio: Optional[str] = None
+    birth_date: Optional[str] = None
+    death_date: Optional[str] = None
+    birth_year: Optional[int] = None
+    death_year: Optional[int] = None
 
 class Edition(BaseModel):
     pass
@@ -57,6 +63,9 @@ class WorksOverview(BaseModel):
     places: Optional[list[str]]
     time_periods: Optional[list[str]]
 
+# - AUTHORS -
+
+
 # --------------------------------------------------------------------
 # Grouped Results
 # --------------------------------------------------------------------
@@ -65,9 +74,22 @@ class WorkGroup(BaseModel, Generic[T]):
     record_count: int
     records: list[T]
 
+class AuthorGroup(BaseModel, Generic[T]):
+    author_key: str
+    record_count: int
+    records: list[T]
+
 # --------------------------------------------------------------------
 # Entity Summaries
 # --------------------------------------------------------------------
+
+class WorkSummary(BaseModel):
+    work_key: str
+    title: str
+    subtitle: Optional[str] = None
+    edition_count: Optional[int] = None
+    first_publish_year: Optional[int] = None
+
 class AuthorSummary(BaseModel):
     author_key: str
     author_name: str
@@ -90,11 +112,12 @@ class APIResponse(BaseModel, Generic[T]):
     count: int
     results: list[T]
 
-
 # --------------------------------------------------------------------
 # Aliasing Types
 # --------------------------------------------------------------------
 # Note: Avoid nesting in routers
+
+# - WORKS -
 WorkAuthors: TypeAlias = WorkGroup[AuthorSummary]
 WorkEditions: TypeAlias = WorkGroup[EditionSummary]
 WorkSeries: TypeAlias = WorkGroup[WorksSeries]
@@ -102,3 +125,5 @@ WorkAvailability: TypeAlias = WorkGroup[WorksAvailability]
 WorkOverview: TypeAlias = WorkGroup[WorksOverview]
 WorkRatings: TypeAlias = WorkGroup[WorksRatings]
 
+# - AUTHORS -
+AuthorsWorks: TypeAlias = AuthorGroup[WorkSummary]
