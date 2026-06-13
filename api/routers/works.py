@@ -1,27 +1,50 @@
 """
-/works router
+Works Router
+
+This module defines API endpoints related to "works", including retrieval of
+work details and associated data such as authors, editions, series, availability,
+overview, and ratings
+
+Endpoints:
+- GET /works/{work_key}
+  Retrieve full work details and all related metadata
+
+- GET /works/{work_key}/authors
+  Retrieve summarized authors' data associated with a work
+
+- GET /works/{work_key}/editions
+  Retrieve available editions summarized data of a work
+
+- GET /works/{work_key}/series
+  Retrieve series information for a work
+
+- GET /works/{work_key}/availability
+  Retrieve availability information for a work
+
+- GET /works/{work_key}/overview
+  Retrieve a high-level overview of a work (subjects, people, places and time periods asociated with the work)
+
+- GET /works/{work_key}/ratings
+  Retrieve 5-star ratings counts for a work
+
 """
 import psycopg2
 
 from fastapi import APIRouter
 
 from api.dependencies import DB_DEPENDENCY
+import api.repository.works as works_repo
+from api.service import format_response
 from api.schemas import (
     Work,
     WorkAuthors,
     WorkEditions,
-    APIResponse,
     WorkSeries,
-    WorkAvailability, WorkOverview, WorkRatings
+    WorkAvailability,
+    WorkOverview,
+    WorkRatings,
+    APIResponse,
 )
-from api.repository.works import (
-    get_works_by_work_key,
-    get_authors_by_work_key,
-    get_editions_by_work_key,
-    get_series_by_work_key, get_availability_by_work_key, get_overview_by_work_key, get_ratings_by_work_key
-)
-from api.service import format_response
-
 
 # Defining the works router
 router = APIRouter(
@@ -47,7 +70,7 @@ async def get_work(
     """
 
     # Fetch data
-    data, column_names = get_works_by_work_key(connection, work_key)
+    data, column_names = works_repo.get_works_by_work_key(connection, work_key)
 
     # Format and return consistent API response structure
     return format_response(
@@ -65,10 +88,19 @@ async def get_work_authors(
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> APIResponse[WorkAuthors]:
     """
+    Retrieve a work's authors' summarized records by **work_key**.
 
+    Returns a standardized response dictionary containing:
+
+    - **query**: the provided work_key
+    - **endpoint**: API endpoint called
+    - **method**: HTTP method used
+    - **count**: number of records found
+    - **records**: formatted database rows
     """
+
     # Fetch data
-    data, column_names = get_authors_by_work_key(connection, work_key)
+    data, column_names = works_repo.get_authors_by_work_key(connection, work_key)
 
     # Format and return consistent API response structure
     return format_response(
@@ -86,10 +118,18 @@ async def get_work_editions(
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> APIResponse[WorkEditions]:
     """
+    Retrieve a work's editions' summarized records by **work_key**.
 
+    Returns a standardized response dictionary containing:
+
+    - **query**: the provided work_key
+    - **endpoint**: API endpoint called
+    - **method**: HTTP method used
+    - **count**: number of records found
+    - **records**: formatted database rows
     """
     # Fetch data
-    data, column_names = get_editions_by_work_key(connection, work_key)
+    data, column_names = works_repo.get_editions_by_work_key(connection, work_key)
 
     # Format and return consistent API response structure
     return format_response(
@@ -107,10 +147,19 @@ async def get_work_series(
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> APIResponse[WorkSeries]:
     """
+    Retrieve a work's series records by **work_key**.
 
+    Returns a standardized response dictionary containing:
+
+    - **query**: the provided work_key
+    - **endpoint**: API endpoint called
+    - **method**: HTTP method used
+    - **count**: number of records found
+    - **records**: formatted database rows
     """
+
     # Fetch data
-    data, column_names = get_series_by_work_key(connection, work_key)
+    data, column_names = works_repo.get_series_by_work_key(connection, work_key)
 
     # Format and return consistent API response structure
     return format_response(
@@ -128,10 +177,19 @@ async def get_work_availability(
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> APIResponse[WorkAvailability]:
     """
+    Retrieve a work's availability records by **work_key**.
 
+    Returns a standardized response dictionary containing:
+
+    - **query**: the provided work_key
+    - **endpoint**: API endpoint called
+    - **method**: HTTP method used
+    - **count**: number of records found
+    - **records**: formatted database rows
     """
+
     # Fetch data
-    data, column_names = get_availability_by_work_key(connection, work_key)
+    data, column_names = works_repo.get_availability_by_work_key(connection, work_key)
 
     # Format and return consistent API response structure
     return format_response(
@@ -149,10 +207,18 @@ async def get_work_subjects(
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> APIResponse[WorkRatings]:
     """
+    Retrieve a work's ratings records by **work_key**.
 
+    Returns a standardized response dictionary containing:
+
+    - **query**: the provided work_key
+    - **endpoint**: API endpoint called
+    - **method**: HTTP method used
+    - **count**: number of records found
+    - **records**: formatted database rows
     """
     # Fetch data
-    data, column_names = get_ratings_by_work_key(connection, work_key)
+    data, column_names = works_repo.get_ratings_by_work_key(connection, work_key)
 
     # Format and return consistent API response structure
     return format_response(
@@ -170,10 +236,19 @@ async def get_work_overview(
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> APIResponse[WorkOverview]:
     """
+    Retrieve a work's overview records (subjects, people, places, time periods) by **work_key**.
 
+    Returns a standardized response dictionary containing:
+
+    - **query**: the provided work_key
+    - **endpoint**: API endpoint called
+    - **method**: HTTP method used
+    - **count**: number of records found
+    - **records**: formatted database rows
     """
+
     # Fetch data
-    data, column_names = get_overview_by_work_key(connection, work_key)
+    data, column_names = works_repo.get_overview_by_work_key(connection, work_key)
 
     # Format and return consistent API response structure
     return format_response(
