@@ -10,7 +10,11 @@ from pydantic import BaseModel
 # Define a flexible variable type to be used as generic placeholder
 T = TypeVar('T')
 
-# --- Entity types in the database ---
+# --------------------------------------------------------------------
+# Primary Entities
+# --------------------------------------------------------------------
+
+# --- LEVEL 1: Entities (Works, Authors, Editions) ---
 class Work(BaseModel):
     work_key: str
     title: str
@@ -27,20 +31,31 @@ class Author(BaseModel):
 class Edition(BaseModel):
     pass
 
-class Series(BaseModel):
+# --- LEVEL 2: Extensions ---
+
+# - WORKS -
+class WorksSeries(BaseModel):
     series_key: Optional[str] = None
     series_position: Optional[int] = None
     series_name: Optional[str] = None
 
+class WorksAvailability(BaseModel):
+    ebook_access: Optional[str] = None
+    has_fulltext: Optional[bool] = None
+    has_public_scan: Optional[bool] = None
 
-# --- Grouped Results ---
+
+# --------------------------------------------------------------------
+# Grouped Results
+# --------------------------------------------------------------------
 class WorkGroup(BaseModel, Generic[T]):
     work_key: str
     record_count: int
     records: list[T]
 
-
-# --- Entity Summaries ---
+# --------------------------------------------------------------------
+# Entity Summaries
+# --------------------------------------------------------------------
 class AuthorSummary(BaseModel):
     author_key: str
     author_name: str
@@ -53,8 +68,9 @@ class EditionSummary(BaseModel):
     subtitle: Optional[str] = None
     name: Optional[str] = None
 
-
-# --- Final API response ---
+# --------------------------------------------------------------------
+# Final API response
+# --------------------------------------------------------------------
 class APIResponse(BaseModel, Generic[T]):
     query: str
     endpoint: str
@@ -63,9 +79,12 @@ class APIResponse(BaseModel, Generic[T]):
     results: list[T]
 
 
-# --- Aliasing Types ---
+# --------------------------------------------------------------------
+# Aliasing Types
+# --------------------------------------------------------------------
 # Note: Avoid nesting in routers
 WorkAuthors: TypeAlias = WorkGroup[AuthorSummary]
 WorkEditions: TypeAlias = WorkGroup[EditionSummary]
-WorkSeries: TypeAlias = WorkGroup[Series]
+WorkSeries: TypeAlias = WorkGroup[WorksSeries]
+WorkAvailability: TypeAlias = WorkGroup[WorksAvailability]
 

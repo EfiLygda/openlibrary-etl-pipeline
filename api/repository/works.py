@@ -179,7 +179,7 @@ def get_series_by_work_key(
     work_key: str
 ) -> tuple:
     """
-    Retrieve edition information associated with a given work key
+    Retrieve series information associated with a given work key
 
     :param connection: active PostgreSQL database connection
     :param work_key: unique identifier of the work whose editions are to
@@ -222,3 +222,49 @@ def get_series_by_work_key(
     return series_data, series_column_names
 
 
+def get_availability_by_work_key(
+    connection: psycopg2.extensions.connection,
+    work_key: str
+) -> tuple:
+    """
+    Retrieve availability information associated with a given work key
+
+    :param connection: active PostgreSQL database connection
+    :param work_key: unique identifier of the work whose editions are to
+        be retrieved
+    :returns: A tuple containing:
+
+        * `availability_data` - aggregated availability records for the work
+        * `availability_column_names` - column names corresponding to the query result
+    """
+    # Construction of the query
+    query = """
+    SELECT 
+        w.work_key,
+        w.title,
+        COUNT(*) AS record_count,
+        json_agg(
+            json_build_object(
+                'ebook_access', wa.ebook_access,
+                'has_fulltext', wa.has_fulltext,
+                'has_public_scan', wa.has_public_scan
+            )
+        ) AS records
+    FROM 
+        works AS w
+        INNER JOIN works_availability AS wa
+        ON w.work_key = wa.work_key 
+    WHERE
+        w.work_key = %s
+    GROUP BY 
+        w.work_key
+    """
+
+    # Fetch the records
+    availability_data, availability_column_names = get_with_filter_key(
+        connection=connection,
+        filter_key=work_key,
+        query=query
+    )
+
+    return availability_data, availability_column_names
