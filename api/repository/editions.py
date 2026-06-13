@@ -75,3 +75,37 @@ def get_details_by_edition_key(
     )
 
     return details_data, details_column_names
+
+def get_contents_by_edition_key(
+    connection: psycopg2.extensions.connection,
+    edition_key: str,
+) -> tuple:
+    """
+    Retrieve edition content information associated with a given edition key
+
+    :param connection: psycopg2.extensions.connection, active PostgreSQL database connection
+    :param edition_key: str, unique identifier of the edition whose details are to
+        be retrieved
+    :returns: A tuple containing:
+
+        * `content_data` - aggregated work records for the author
+        * `content_column_names` - column names corresponding to the query result
+    """
+    # Construction of the query
+    query = """
+    SELECT
+        *
+    FROM
+        editions_contents
+    WHERE
+        edition_key = %s
+    """
+
+    # Fetch the records
+    content_data, content_column_names = get_with_filter_key(
+        connection=connection,
+        filter_key=edition_key,
+        query=query
+    )
+
+    return content_data, content_column_names

@@ -12,7 +12,7 @@ from api.service import format_response
 from api.schemas import (
     Edition,
 
-    APIResponse, EditionDetails,
+    APIResponse, EditionDetails, EditionContents,
 )
 
 # Defining the works router
@@ -31,7 +31,7 @@ async def get_author(
 
     Returns a standardized response dictionary containing:
 
-    - **query**: the provided author_key
+    - **query**: the provided edition_key
     - **endpoint**: API endpoint called
     - **method**: HTTP method used
     - **count**: number of records found
@@ -61,7 +61,7 @@ async def get_editions_details(
 
     Returns a standardized response dictionary containing:
 
-    - **query**: the provided author_key
+    - **query**: the provided edition_key
     - **endpoint**: API endpoint called
     - **method**: HTTP method used
     - **count**: number of records found
@@ -79,4 +79,34 @@ async def get_editions_details(
         records=data,
         column_names=column_names,
         model=EditionDetails
+    )
+
+@router.get("/{edition_key}/contents", response_model=APIResponse[EditionContents])
+async def get_editions_details(
+        edition_key: str,
+        connection: psycopg2.extensions.connection = DB_DEPENDENCY
+) -> APIResponse[EditionContents]:
+    """
+    Retrieve edition contents records by **edition_key**.
+
+    Returns a standardized response dictionary containing:
+
+    - **query**: the provided edition_key
+    - **endpoint**: API endpoint called
+    - **method**: HTTP method used
+    - **count**: number of records found
+    - **records**: formatted database rows
+    """
+
+    # Fetch data
+    data, column_names = editions_repo.get_contents_by_edition_key(connection, edition_key)
+
+    # Format and return consistent API response structure
+    return format_response(
+        query=edition_key,
+        endpoint=f'/editions/{edition_key}/contents',
+        method='GET',
+        records=data,
+        column_names=column_names,
+        model=EditionContents
     )

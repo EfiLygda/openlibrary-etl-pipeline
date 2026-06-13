@@ -91,7 +91,13 @@ class EditionDetails(BaseModel):
     physical_dimensions: Optional[str] = None
     weight: Optional[str] = None
     language: Optional[str] = None
-    
+
+class EditionContents(BaseModel):
+    edition_key: str
+    description: Optional[str] = None
+    notes: Optional[str] = None
+    first_sentence: Optional[str] = None
+
 # --------------------------------------------------------------------
 # Grouped Results
 # --------------------------------------------------------------------

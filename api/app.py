@@ -11,6 +11,7 @@ from api.dependencies import DB_DEPENDENCY
 from api.routers import works, authors, editions
 
 # TODO: add parameters when needed
+# TODO: fix documentation in routers, repositories
 
 # Load variables from the .env file to the environment
 load_dotenv()
