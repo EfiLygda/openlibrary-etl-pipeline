@@ -12,7 +12,7 @@ from api.service import format_response
 from api.schemas import (
     Author,
 
-    APIResponse, AuthorsWorks,
+    APIResponse, AuthorWorks, AuthorStatistics,
 )
 
 # Defining the works router
@@ -51,11 +51,11 @@ async def get_author(
         model=Author
     )
 
-@router.get("/{author_key}/works", response_model=APIResponse[AuthorsWorks])
+@router.get("/{author_key}/works", response_model=APIResponse[AuthorWorks])
 async def get_authors_works(
         author_key: str,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
-) -> APIResponse[AuthorsWorks]:
+) -> APIResponse[AuthorWorks]:
     """
     Retrieve work records by **author_key**.
 
@@ -78,5 +78,35 @@ async def get_authors_works(
         method='GET',
         records=data,
         column_names=column_names,
-        model=AuthorsWorks
+        model=AuthorWorks
+    )
+
+@router.get("/{author_key}/statistics", response_model=APIResponse[AuthorStatistics])
+async def get_authors_statistics(
+        author_key: str,
+        connection: psycopg2.extensions.connection = DB_DEPENDENCY
+) -> APIResponse[AuthorStatistics]:
+    """
+    Retrieve statistic records by **author_key**.
+
+    Returns a standardized response dictionary containing:
+
+    - **query**: the provided author_key
+    - **endpoint**: API endpoint called
+    - **method**: HTTP method used
+    - **count**: number of records found
+    - **records**: formatted database rows
+    """
+
+    # Fetch data
+    data, column_names = authors_repo.get_author_statistics_by_author_key(connection, author_key)
+
+    # Format and return consistent API response structure
+    return format_response(
+        query=author_key,
+        endpoint=f'/authors/{author_key}/works',
+        method='GET',
+        records=data,
+        column_names=column_names,
+        model=AuthorStatistics
     )

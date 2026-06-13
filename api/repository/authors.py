@@ -54,7 +54,7 @@ def get_works_by_author_key(
         be retrieved
     :returns: A tuple containing:
 
-        * `work_data` - aggregated author records for the work
+        * `work_data` - aggregated work records for the author
         * `work_column_names` - column names corresponding to the query result
     """
 
@@ -93,3 +93,60 @@ def get_works_by_author_key(
     )
 
     return work_data, work_column_names
+
+def get_author_statistics_by_author_key(
+    connection: psycopg2.extensions.connection,
+    author_key: str,
+) -> tuple:
+    """
+    Retrieve author statistics information associated with a given author key
+
+    :param connection: psycopg2.extensions.connection, active PostgreSQL database connection
+    :param author_key: str, unique identifier of the work whose authors are to
+        be retrieved
+    :returns: A tuple containing:
+
+        * `statistics_data` - statistic records for the author
+        * `statistics_column_names` - column names corresponding to the query result
+    """
+
+    # Construction of the query
+    query = """
+    SELECT
+        a.author_key,
+        COUNT(*) AS record_count,
+        json_agg(
+            json_build_object(
+                'top_work', astat.top_work,
+                'work_count', astat.work_count,
+                
+                'ratings_count_1', astat.ratings_count_1,
+                'ratings_count_2', astat.ratings_count_2,
+                'ratings_count_3', astat.ratings_count_3,
+                'ratings_count_4', astat.ratings_count_4,
+                'ratings_count_5', astat.ratings_count_5,
+                
+                'readinglog_count', astat.readinglog_count,
+                'want_to_read_count', astat.want_to_read_count,
+                'currently_reading_count', astat.currently_reading_count,
+                'already_read_count', astat.already_read_count
+            )
+        ) AS records
+    FROM
+        authors AS a
+        INNER JOIN authors_statistics AS astat
+        ON a.author_key = astat.author_key
+    WHERE
+        a.author_key = %s
+    GROUP BY
+        a.author_key
+    """
+
+    # Fetch the records
+    statistics_data, statistics_column_names = get_with_filter_key(
+        connection=connection,
+        filter_key=author_key,
+        query=query
+    )
+
+    return statistics_data, statistics_column_names

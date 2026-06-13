@@ -64,7 +64,20 @@ class WorksOverview(BaseModel):
     time_periods: Optional[list[str]]
 
 # - AUTHORS -
+class AuthorsStatistics(BaseModel):
+    top_work: Optional[str] = None
+    work_count: int
 
+    ratings_count_1: int
+    ratings_count_2: int
+    ratings_count_3: int
+    ratings_count_4: int
+    ratings_count_5: int
+
+    readinglog_count: int
+    want_to_read_count: int
+    currently_reading_count: int
+    already_read_count: int
 
 # --------------------------------------------------------------------
 # Grouped Results
@@ -126,4 +139,5 @@ WorkOverview: TypeAlias = WorkGroup[WorksOverview]
 WorkRatings: TypeAlias = WorkGroup[WorksRatings]
 
 # - AUTHORS -
-AuthorsWorks: TypeAlias = AuthorGroup[WorkSummary]
+AuthorWorks: TypeAlias = AuthorGroup[WorkSummary]
+AuthorStatistics: TypeAlias = AuthorGroup[AuthorsStatistics]
