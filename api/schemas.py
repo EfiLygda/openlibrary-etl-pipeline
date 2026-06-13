@@ -141,3 +141,4 @@ WorkRatings: TypeAlias = WorkGroup[WorksRatings]
 # - AUTHORS -
 AuthorWorks: TypeAlias = AuthorGroup[WorkSummary]
 AuthorStatistics: TypeAlias = AuthorGroup[AuthorsStatistics]
+AuthorAlternativeNames: TypeAlias = AuthorGroup[str]

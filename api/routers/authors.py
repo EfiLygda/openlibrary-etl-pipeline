@@ -12,7 +12,7 @@ from api.service import format_response
 from api.schemas import (
     Author,
 
-    APIResponse, AuthorWorks, AuthorStatistics,
+    APIResponse, AuthorWorks, AuthorStatistics, AuthorAlternativeNames,
 )
 
 # Defining the works router
@@ -104,9 +104,39 @@ async def get_authors_statistics(
     # Format and return consistent API response structure
     return format_response(
         query=author_key,
-        endpoint=f'/authors/{author_key}/works',
+        endpoint=f'/authors/{author_key}/statistics',
         method='GET',
         records=data,
         column_names=column_names,
         model=AuthorStatistics
+    )
+
+@router.get("/{author_key}/alternative_names", response_model=APIResponse[AuthorAlternativeNames])
+async def get_authors_alternative_names(
+        author_key: str,
+        connection: psycopg2.extensions.connection = DB_DEPENDENCY
+) -> APIResponse[AuthorAlternativeNames]:
+    """
+    Retrieve alternative name records by **author_key**.
+
+    Returns a standardized response dictionary containing:
+
+    - **query**: the provided author_key
+    - **endpoint**: API endpoint called
+    - **method**: HTTP method used
+    - **count**: number of records found
+    - **records**: formatted database rows
+    """
+
+    # Fetch data
+    data, column_names = authors_repo.get_author_alternative_names_by_author_key(connection, author_key)
+
+    # Format and return consistent API response structure
+    return format_response(
+        query=author_key,
+        endpoint=f'/authors/{author_key}/alternative_names',
+        method='GET',
+        records=data,
+        column_names=column_names,
+        model=AuthorAlternativeNames
     )
