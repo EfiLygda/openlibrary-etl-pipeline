@@ -44,6 +44,11 @@ class WorksAvailability(BaseModel):
     has_fulltext: Optional[bool] = None
     has_public_scan: Optional[bool] = None
 
+class WorksSubjects(BaseModel):
+    subjects: Optional[list[str]]
+    people: Optional[list[str]]
+    places: Optional[list[str]]
+    time_periods: Optional[list[str]]
 
 # --------------------------------------------------------------------
 # Grouped Results
@@ -87,4 +92,5 @@ WorkAuthors: TypeAlias = WorkGroup[AuthorSummary]
 WorkEditions: TypeAlias = WorkGroup[EditionSummary]
 WorkSeries: TypeAlias = WorkGroup[WorksSeries]
 WorkAvailability: TypeAlias = WorkGroup[WorksAvailability]
+WorkSubjects: TypeAlias = WorkGroup[WorksSubjects]
 

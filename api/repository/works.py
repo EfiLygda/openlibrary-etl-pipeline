@@ -268,3 +268,71 @@ def get_availability_by_work_key(
     )
 
     return availability_data, availability_column_names
+
+def get_subjects_by_work_key(
+    connection: psycopg2.extensions.connection,
+    work_key: str
+) -> tuple:
+    """
+    Retrieve all subject information associated with a given work key
+
+    :param connection: active PostgreSQL database connection
+    :param work_key: unique identifier of the work whose editions are to
+        be retrieved
+    :returns: A tuple containing:
+
+        * `subject_data` - aggregated subject records for the work
+        * `subject_column_names` - column names corresponding to the query result
+    """
+    # Construction of the query
+    query = """
+    SELECT 
+        w.work_key,
+        w.title,
+        COUNT(*) AS record_count,
+        json_agg(
+            json_build_object(
+                'subjects', ws.subjects,
+                'people', wpl.people,
+                'places', wpc.places,
+                'time_periods', wtp.time_periods
+            )
+        ) AS records
+    FROM 
+        works w
+        LEFT JOIN 
+        (
+            SELECT work_key, array_agg(subject) AS subjects
+            FROM works_subjects
+            GROUP BY work_key
+        ) ws ON w.work_key = ws.work_key
+        LEFT JOIN 
+        (
+            SELECT work_key, array_agg(person) AS people
+            FROM works_people
+            GROUP BY work_key
+        ) wpl ON w.work_key = wpl.work_key
+        LEFT JOIN (
+            SELECT work_key, array_agg(place) AS places
+            FROM works_places
+            GROUP BY work_key
+        ) wpc ON w.work_key = wpc.work_key
+        LEFT JOIN (
+            SELECT work_key, array_agg(time_period) AS time_periods
+            FROM works_time_periods
+            GROUP BY work_key 
+        ) wtp ON w.work_key = wtp.work_key
+    WHERE
+        w.work_key = %s
+    GROUP BY 
+        w.work_key
+    """
+
+    # Fetch the records
+    subject_data, subject_column_names = get_with_filter_key(
+        connection=connection,
+        filter_key=work_key,
+        query=query
+    )
+
+    return subject_data, subject_column_names
