@@ -12,13 +12,13 @@ from api.schemas import (
     WorkEditions,
     APIResponse,
     WorkSeries,
-    WorkAvailability, WorkSubjects
+    WorkAvailability, WorkOverview, WorkRatings
 )
 from api.repository.works import (
     get_works_by_work_key,
     get_authors_by_work_key,
     get_editions_by_work_key,
-    get_series_by_work_key, get_availability_by_work_key, get_subjects_by_work_key
+    get_series_by_work_key, get_availability_by_work_key, get_overview_by_work_key, get_ratings_by_work_key
 )
 from api.service import format_response
 
@@ -143,55 +143,44 @@ async def get_work_availability(
         model=WorkAvailability
     )
 
-@router.get("/{work_key}/subjects", response_model=APIResponse[WorkSubjects])
+@router.get("/{work_key}/ratings", response_model=APIResponse[WorkRatings])
 async def get_work_subjects(
         work_key: str,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
-) -> APIResponse[WorkSubjects]:
+) -> APIResponse[WorkRatings]:
     """
 
     """
     # Fetch data
-    data, column_names = get_subjects_by_work_key(connection, work_key)
+    data, column_names = get_ratings_by_work_key(connection, work_key)
 
     # Format and return consistent API response structure
     return format_response(
         query=work_key,
-        endpoint=f'/works/{work_key}/subjects',
+        endpoint=f'/works/{work_key}/ratings',
         method='GET',
         records=data,
         column_names=column_names,
-        model=WorkSubjects
+        model=WorkRatings
     )
 
+@router.get("/{work_key}/overview", response_model=APIResponse[WorkOverview])
+async def get_work_overview(
+        work_key: str,
+        connection: psycopg2.extensions.connection = DB_DEPENDENCY
+) -> APIResponse[WorkOverview]:
+    """
 
-# @router.get("/{work_key}/people")
-# async def get_work_availability(
-#         work_key: str,
-#         connection: psycopg2.extensions.connection = DB_DEPENDENCY
-# ):
-#     pass
-#
-#
-# @router.get("/{work_key}/places")
-# async def get_work_availability(
-#         work_key: str,
-#         connection: psycopg2.extensions.connection = DB_DEPENDENCY
-# ):
-#     pass
-#
-#
-# @router.get("/{work_key}/time_periods")
-# async def get_work_availability(
-#         work_key: str,
-#         connection: psycopg2.extensions.connection = DB_DEPENDENCY
-# ):
-#     pass
-#
-# @router.get("/{work_key}/facets")
-# async def get_work_availability(
-#         work_key: str,
-#         connection: psycopg2.extensions.connection = DB_DEPENDENCY
-# ):
-#     # Add subjects, people,... to the same
-#     pass
+    """
+    # Fetch data
+    data, column_names = get_overview_by_work_key(connection, work_key)
+
+    # Format and return consistent API response structure
+    return format_response(
+        query=work_key,
+        endpoint=f'/works/{work_key}/overview',
+        method='GET',
+        records=data,
+        column_names=column_names,
+        model=WorkOverview
+    )

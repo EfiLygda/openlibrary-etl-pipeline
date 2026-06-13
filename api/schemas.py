@@ -44,7 +44,14 @@ class WorksAvailability(BaseModel):
     has_fulltext: Optional[bool] = None
     has_public_scan: Optional[bool] = None
 
-class WorksSubjects(BaseModel):
+class WorksRatings(BaseModel):
+    ratings_count_1: Optional[int]
+    ratings_count_2: Optional[int]
+    ratings_count_3: Optional[int]
+    ratings_count_4: Optional[int]
+    ratings_count_5: Optional[int]
+
+class WorksOverview(BaseModel):
     subjects: Optional[list[str]]
     people: Optional[list[str]]
     places: Optional[list[str]]
@@ -92,5 +99,6 @@ WorkAuthors: TypeAlias = WorkGroup[AuthorSummary]
 WorkEditions: TypeAlias = WorkGroup[EditionSummary]
 WorkSeries: TypeAlias = WorkGroup[WorksSeries]
 WorkAvailability: TypeAlias = WorkGroup[WorksAvailability]
-WorkSubjects: TypeAlias = WorkGroup[WorksSubjects]
+WorkOverview: TypeAlias = WorkGroup[WorksOverview]
+WorkRatings: TypeAlias = WorkGroup[WorksRatings]
 
