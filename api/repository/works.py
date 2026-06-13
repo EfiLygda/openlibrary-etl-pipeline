@@ -7,7 +7,6 @@ to fetch work-related data
 
 import psycopg2
 from psycopg2.sql import SQL
-import pandas as pd
 from utilities.database import get_column_names
 
 def get_works_by_work_key(
@@ -75,15 +74,11 @@ def get_authors_by_work_key(
             """
             SELECT 
                 aw.work_key,
-                -- aw.author_key,
                 COUNT(*) AS record_count,
                 json_agg(
                     json_build_object(
                         'author_key', a.author_key,
                         'author_name', a.author_name,
-                        'bio', a.bio,
-                        'birth_date', a.birth_date,
-                        'death_date', a.death_date,
                         'birth_year', a.birth_year,
                         'death_year', a.death_year
                     )

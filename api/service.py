@@ -2,18 +2,29 @@
 Transformation utilities for formatting database query results
 """
 
+from typing import TypeVar, Type
+from pydantic import BaseModel
+from api.schemas import APIResponse
+
+T = TypeVar('T', bound=BaseModel)
+
 def format_records(
         records: list | None,
-        fields: list[str] | None
-) -> list:
+        fields: list[str] | None,
+        model: Type[T]
+) -> list[T]:
     """
     Formats list of records into a list of dictionaries
 
     :param records: list, list of records containing values
     :param fields: list[str], list of field names corresponding to each value in a record
+    :param model: Type[T], pydantic model class used to transform each record into a typed object
     :return: list, list of dictionaries mapping field names to record values
                    Returns an empty list if the input is invalid
     """
+    if not model:
+        raise TypeError('\'model\' is required')
+
     # In case no records or fields were passed then return empty list
     if not records or not fields:
         return []
@@ -29,8 +40,11 @@ def format_records(
         if len(record) != len(fields):
             return []
 
-        # Add to the results list the zip
-        results.append(dict(zip(fields, record)))
+        # Convert data to dictionary
+        data = dict(zip(fields, record))
+
+        # Convert the dictionary to the model and append to the list of results
+        results.append(model(**data))
 
     # return results
     return results
@@ -39,29 +53,34 @@ def format_response(
         query: str,
         endpoint: str,
         method: str,
-        records: list | None = None,
-        column_names: list[str] | None = None
-) -> dict:
+        records: list,
+        column_names: list[str],
+        model: Type[T],
+) -> APIResponse[T]:
     """
     Formats the API's final response
 
     :param query: str, the query used for the API
-    :param endpoint: str, the endpoing used for quering the API
+    :param endpoint: str, the endpoint used for quering the API
     :param method: str, HTTP method used (GET, POST, PUT, DELETE, PATCH, OPTIONS, and HEAD)
     :param records: list, list of records containing values
     :param column_names: list[str], list of column names corresponding to each value in a record
+    :param model: Type[T], pydantic model class used to transform each record into a typed object
 
-    :return: dict, dictionary mapping the API's responce
+    :return: dict, dictionary mapping the API's response
     """
-    if records is None:
-        records = []
 
-    formatted_records = format_records(records, column_names)
+    # Format the records
+    formatted_records = format_records(
+        records=records,
+        fields=column_names,
+        model=model
+    )
 
-    return {
-        'query': query,
-        'endpoint': endpoint,
-        'method': method,
-        'count': len(formatted_records),
-        'results': formatted_records
-    }
+    return APIResponse(
+        query=query,
+        endpoint=endpoint,
+        method=method,
+        count=len(formatted_records),
+        results=formatted_records
+    )
