@@ -83,6 +83,15 @@ class AuthorsStatistics(BaseModel):
     currently_reading_count: int
     already_read_count: int
 
+# - EDITIONS -
+class EditionDetails(BaseModel):
+    edition_key: str
+    number_of_pages: Optional[int] = None
+    physical_format: Optional[str] = None
+    physical_dimensions: Optional[str] = None
+    weight: Optional[str] = None
+    language: Optional[str] = None
+    
 # --------------------------------------------------------------------
 # Grouped Results
 # --------------------------------------------------------------------
@@ -93,6 +102,11 @@ class WorkGroup(BaseModel, Generic[T]):
 
 class AuthorGroup(BaseModel, Generic[T]):
     author_key: str
+    record_count: int
+    records: list[T]
+
+class EditionGroup(BaseModel, Generic[T]):
+    edition_key: str
     record_count: int
     records: list[T]
 
@@ -147,3 +161,5 @@ AuthorWorks: TypeAlias = AuthorGroup[WorkSummary]
 AuthorStatistics: TypeAlias = AuthorGroup[AuthorsStatistics]
 AuthorAlternativeNames: TypeAlias = AuthorGroup[str]
 AuthorEditions: TypeAlias = AuthorGroup[EditionSummary]
+
+# - EDITIONS -

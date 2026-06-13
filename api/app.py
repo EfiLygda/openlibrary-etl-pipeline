@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 from fastapi import FastAPI
 
 from api.dependencies import DB_DEPENDENCY
-from api.routers import works, authors
+from api.routers import works, authors, editions
 
 # TODO: add parameters when needed
 
@@ -42,3 +42,4 @@ app = FastAPI(
 # Include routers as defined in api.routers
 app.include_router(works.router)
 app.include_router(authors.router)
+app.include_router(editions.router)
