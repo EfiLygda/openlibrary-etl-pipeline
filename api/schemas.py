@@ -35,7 +35,11 @@ class Author(BaseModel):
     death_year: Optional[int] = None
 
 class Edition(BaseModel):
-    pass
+    edition_key: str
+    work_key: str
+    title: Optional[str] = None
+    subtitle: Optional[str] = None
+    edition_name: Optional[str] = None
 
 # --- LEVEL 2: Extensions ---
 
@@ -113,7 +117,7 @@ class EditionSummary(BaseModel):
     edition_key: str
     title: str
     subtitle: Optional[str] = None
-    name: Optional[str] = None
+    edition_name: Optional[str] = None
 
 # --------------------------------------------------------------------
 # Final API response
@@ -142,3 +146,4 @@ WorkRatings: TypeAlias = WorkGroup[WorksRatings]
 AuthorWorks: TypeAlias = AuthorGroup[WorkSummary]
 AuthorStatistics: TypeAlias = AuthorGroup[AuthorsStatistics]
 AuthorAlternativeNames: TypeAlias = AuthorGroup[str]
+AuthorEditions: TypeAlias = AuthorGroup[EditionSummary]

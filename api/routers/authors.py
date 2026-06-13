@@ -1,5 +1,30 @@
 """
 Authors Router
+
+This module defines API endpoints related to "authors", including retrieval of
+author details and associated data such as works, editions, statistics, and
+alternative names
+
+The router acts as an orchestration layer that retrieves and aggregates author
+data from multiple related tables while keeping endpoints focused and consistent
+
+Endpoints:
+
+- GET /authors/{author_key}
+  Retrieve full author profile including core metadata and optional enriched fields
+
+- GET /authors/{author_key}/works
+  Retrieve summarized works associated with an author
+
+- GET /authors/{author_key}/editions
+  Retrieve summarized editions associated with an author
+
+- GET /authors/{author_key}/statistics
+  Retrieve aggregated statistics for an author including ratings distribution,
+  reading activity, and work counts
+
+- GET /authors/{author_key}/alternative_names
+  Retrieve alternative names, aliases, and variations for an author
 """
 
 import psycopg2
@@ -11,8 +36,11 @@ import api.repository.authors as authors_repo
 from api.service import format_response
 from api.schemas import (
     Author,
-
-    APIResponse, AuthorWorks, AuthorStatistics, AuthorAlternativeNames,
+    AuthorWorks,
+    AuthorEditions,
+    AuthorStatistics,
+    AuthorAlternativeNames,
+    APIResponse
 )
 
 # Defining the works router
@@ -79,6 +107,36 @@ async def get_authors_works(
         records=data,
         column_names=column_names,
         model=AuthorWorks
+    )
+
+@router.get("/{author_key}/editions", response_model=APIResponse[AuthorEditions])
+async def get_authors_alternative_names(
+        author_key: str,
+        connection: psycopg2.extensions.connection = DB_DEPENDENCY
+) -> APIResponse[AuthorEditions]:
+    """
+    Retrieve edition records by **author_key**.
+
+    Returns a standardized response dictionary containing:
+
+    - **query**: the provided author_key
+    - **endpoint**: API endpoint called
+    - **method**: HTTP method used
+    - **count**: number of records found
+    - **records**: formatted database rows
+    """
+
+    # Fetch data
+    data, column_names = authors_repo.get_editions_by_author_key(connection, author_key)
+
+    # Format and return consistent API response structure
+    return format_response(
+        query=author_key,
+        endpoint=f'/authors/{author_key}/alternative_names',
+        method='GET',
+        records=data,
+        column_names=column_names,
+        model=AuthorEditions
     )
 
 @router.get("/{author_key}/statistics", response_model=APIResponse[AuthorStatistics])

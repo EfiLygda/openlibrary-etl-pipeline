@@ -94,6 +94,54 @@ def get_works_by_author_key(
 
     return work_data, work_column_names
 
+def get_editions_by_author_key(
+    connection: psycopg2.extensions.connection,
+    author_key: str,
+) -> tuple:
+    """
+    Retrieve edition information associated with a given author key
+
+    :param connection: psycopg2.extensions.connection, active PostgreSQL database connection
+    :param author_key: str, unique identifier of the work whose authors are to
+        be retrieved
+    :returns: A tuple containing:
+
+        * `edition_data` - aggregated work records for the author
+        * `edition_column_names` - column names corresponding to the query result
+    """
+    query = """
+    SELECT
+        a.author_key,
+        COUNT(*) AS record_count,
+        json_agg(
+            json_build_object(
+                'edition_key', e.edition_key,
+                'title', e.title,
+                'subtitle', e.subtitle,
+                'name', e.edition_name
+            )
+        ) AS records
+    FROM
+        authors AS a
+        INNER JOIN authors_works AS aw
+        ON a.author_key = aw.author_key
+        INNER JOIN editions AS e
+        ON aw.work_key = e.work_key
+    WHERE
+        a.author_key = %s
+    GROUP BY
+        a.author_key
+    """
+
+    # Fetch the records
+    edition_data, edition_column_names = get_with_filter_key(
+        connection=connection,
+        filter_key=author_key,
+        query=query
+    )
+
+    return edition_data, edition_column_names
+
 def get_author_statistics_by_author_key(
     connection: psycopg2.extensions.connection,
     author_key: str,
