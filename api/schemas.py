@@ -27,11 +27,18 @@ class Author(BaseModel):
 class Edition(BaseModel):
     pass
 
+class Series(BaseModel):
+    series_key: Optional[str] = None
+    series_position: Optional[int] = None
+    series_name: Optional[str] = None
+
+
 # --- Grouped Results ---
 class WorkGroup(BaseModel, Generic[T]):
     work_key: str
     record_count: int
     records: list[T]
+
 
 # --- Entity Summaries ---
 class AuthorSummary(BaseModel):
@@ -46,6 +53,7 @@ class EditionSummary(BaseModel):
     subtitle: Optional[str] = None
     name: Optional[str] = None
 
+
 # --- Final API response ---
 class APIResponse(BaseModel, Generic[T]):
     query: str
@@ -54,8 +62,10 @@ class APIResponse(BaseModel, Generic[T]):
     count: int
     results: list[T]
 
+
 # --- Aliasing Types ---
 # Note: Avoid nesting in routers
 WorkAuthors: TypeAlias = WorkGroup[AuthorSummary]
 WorkEditions: TypeAlias = WorkGroup[EditionSummary]
+WorkSeries: TypeAlias = WorkGroup[Series]
 

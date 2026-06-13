@@ -6,11 +6,22 @@ import psycopg2
 from fastapi import APIRouter
 
 from api.dependencies import DB_DEPENDENCY
-from api.schemas import Work, WorkAuthors, WorkEditions, APIResponse
+from api.schemas import (
+    Work,
+    WorkAuthors,
+    WorkEditions,
+    APIResponse,
+    WorkSeries,
+    Series
+)
+from api.repository.works import (
+    get_works_by_work_key,
+    get_authors_by_work_key,
+    get_editions_by_work_key,
+    get_series_by_work_key
+)
 from api.service import format_response
-from api.repository.works import (get_works_by_work_key,
-                                  get_authors_by_work_key,
-                                  get_editions_by_work_key)
+
 
 # Defining the works router
 router = APIRouter(
@@ -90,14 +101,27 @@ async def get_work_editions(
         model=WorkEditions
     )
 
-# @router.get("/{work_key}/series")
-# async def get_work_series(
-#         work_key: str,
-#         connection: psycopg2.extensions.connection = DB_DEPENDENCY
-# ):
-#
-#     pass
-#
+@router.get("/{work_key}/series", response_model=APIResponse[WorkSeries])
+async def get_work_series(
+        work_key: str,
+        connection: psycopg2.extensions.connection = DB_DEPENDENCY
+) -> APIResponse[WorkSeries]:
+    """
+
+    """
+    # Fetch data
+    data, column_names = get_series_by_work_key(connection, work_key)
+
+    # Format and return consistent API response structure
+    return format_response(
+        query=work_key,
+        endpoint=f'/works/{work_key}/series',
+        method='GET',
+        records=data,
+        column_names=column_names,
+        model=WorkSeries
+    )
+
 # @router.get("/{work_key}/availability")
 # async def get_work_availability(
 #         work_key: str,
