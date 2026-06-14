@@ -360,6 +360,13 @@ def authors_works_table() -> None:
     )
     authors_works_table = authors_works_table[authors_works_table.work_key.isin(valid_work_keys)]
 
+    # Filter works not in authors table
+    valid_author_keys = load_json(
+        os.path.join(KEYS_DIR, 'romance_fiction_author_keys.json')
+    )
+    authors_works_table = authors_works_table[authors_works_table.author_key.isin(valid_author_keys)]
+
+
     # Reorder columns
     authors_works_table = authors_works_table[
         [
