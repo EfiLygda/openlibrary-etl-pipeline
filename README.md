@@ -241,7 +241,7 @@ cd your-project-name
 **STEP 2**: Start the FastAPI server using Uvicorn
 
 ```console
-uvicorn app.main:app --reload
+uvicorn api.app:app --reload
 ```
 
 **STEP 3**: Locate the Base URL
