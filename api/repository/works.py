@@ -214,18 +214,20 @@ def get_availability_by_work_key(
     query = """
     SELECT 
         w.work_key,
-        w.title,
-        COUNT(*) AS record_count,
-        json_agg(
-            json_build_object(
-                'ebook_access', wa.ebook_access,
-                'has_fulltext', wa.has_fulltext,
-                'has_public_scan', wa.has_public_scan
-            )
+        COUNT(wa.work_key) AS record_count,
+        COALESCE(
+            json_agg(
+                json_build_object(
+                    'ebook_access', wa.ebook_access,
+                    'has_fulltext', wa.has_fulltext,
+                    'has_public_scan', wa.has_public_scan
+                )
+            ) FILTER (WHERE wa.work_key IS NOT NULL),
+            '[]'::json
         ) AS records
     FROM 
         works AS w
-        INNER JOIN works_availability AS wa
+        LEFT JOIN works_availability AS wa
         ON w.work_key = wa.work_key 
     WHERE
         w.work_key = %s
