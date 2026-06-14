@@ -19,7 +19,7 @@ def get_works_by_work_key(
     :param work_key: str, unique identifier of the work to retrieve
     :returns: A tuple containing:
 
-        * `works` - list of matching records returned by the query
+        * `works` - list of matching work records returned by the query
         * `works_column_names` - column names corresponding to the records
     """
 
@@ -145,7 +145,7 @@ def get_series_by_work_key(
     Retrieve series information associated with a given work key
 
     :param connection: active PostgreSQL database connection
-    :param work_key: unique identifier of the work whose editions are to
+    :param work_key: unique identifier of the work whose series are to
         be retrieved
     :returns: A tuple containing:
 
@@ -193,7 +193,7 @@ def get_availability_by_work_key(
     Retrieve availability information associated with a given work key
 
     :param connection: active PostgreSQL database connection
-    :param work_key: unique identifier of the work whose editions are to
+    :param work_key: unique identifier of the work whose availability are to
         be retrieved
     :returns: A tuple containing:
 
@@ -240,11 +240,11 @@ def get_ratings_by_work_key(
     Retrieve rating information associated with a given work key
 
     :param connection: active PostgreSQL database connection
-    :param work_key: unique identifier of the work whose editions are to
+    :param work_key: unique identifier of the work whose ratings are to
         be retrieved
     :returns: A tuple containing:
 
-        * `ratings_data` - aggregated availability records for the work
+        * `ratings_data` - aggregated ratings records for the work
         * `ratings_column_names` - column names corresponding to the query result
     """
     # Construction of the query
@@ -286,14 +286,14 @@ def get_overview_by_work_key(
     work_key: str
 ) -> tuple:
     """
-    Retrieve all subject information associated with a given work key
+    Retrieve all subject, people, places and time periods information associated with a given work key
 
     :param connection: active PostgreSQL database connection
     :param work_key: unique identifier of the work whose editions are to
         be retrieved
     :returns: A tuple containing:
 
-        * `subject_data` - aggregated subject records for the work
+        * `subject_data` - aggregated subject, people, places and time periods records for the work
         * `subject_column_names` - column names corresponding to the query result
     """
     # Construction of the query

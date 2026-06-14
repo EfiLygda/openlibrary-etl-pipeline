@@ -50,7 +50,7 @@ def get_works_by_author_key(
     Retrieve work information associated with a given author key
 
     :param connection: psycopg2.extensions.connection, active PostgreSQL database connection
-    :param author_key: str, unique identifier of the work whose authors are to
+    :param author_key: str, unique identifier of the work whose works are to
         be retrieved
     :returns: A tuple containing:
 
@@ -102,11 +102,11 @@ def get_editions_by_author_key(
     Retrieve edition information associated with a given author key
 
     :param connection: psycopg2.extensions.connection, active PostgreSQL database connection
-    :param author_key: str, unique identifier of the work whose authors are to
+    :param author_key: str, unique identifier of the author whose editions are to
         be retrieved
     :returns: A tuple containing:
 
-        * `edition_data` - aggregated work records for the author
+        * `edition_data` - aggregated edition records for the author
         * `edition_column_names` - column names corresponding to the query result
     """
     query = """
@@ -150,7 +150,7 @@ def get_author_statistics_by_author_key(
     Retrieve author statistics information associated with a given author key
 
     :param connection: psycopg2.extensions.connection, active PostgreSQL database connection
-    :param author_key: str, unique identifier of the work whose authors are to
+    :param author_key: str, unique identifier of the author whose statistics are to
         be retrieved
     :returns: A tuple containing:
 
@@ -207,11 +207,11 @@ def get_author_alternative_names_by_author_key(
     Retrieve author alternative names information associated with a given author key
 
     :param connection: psycopg2.extensions.connection, active PostgreSQL database connection
-    :param author_key: str, unique identifier of the work whose authors are to
+    :param author_key: str, unique identifier of the author whose alternative names are to
         be retrieved
     :returns: A tuple containing:
 
-        * `alternative_names_data` - statistic records for the author
+        * `alternative_names_data` - alternative names records for the author
         * `alternative_names_column_names` - column names corresponding to the query result
     """
 

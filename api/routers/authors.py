@@ -55,7 +55,7 @@ async def get_author(
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> APIResponse[Author]:
     """
-    Retrieve work records by **author_key**.
+    Retrieve an author's records by **author_key**.
 
     Returns a standardized response dictionary containing:
 
@@ -85,7 +85,7 @@ async def get_authors_works(
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> APIResponse[AuthorsWorks]:
     """
-    Retrieve work records by **author_key**.
+    Retrieve an author's work records by **author_key**.
 
     Returns a standardized response dictionary containing:
 
@@ -115,7 +115,7 @@ async def get_authors_alternative_names(
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> APIResponse[AuthorsEditions]:
     """
-    Retrieve edition records by **author_key**.
+    Retrieve an author's edition records by **author_key**.
 
     Returns a standardized response dictionary containing:
 
@@ -145,7 +145,7 @@ async def get_authors_statistics(
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> APIResponse[AuthorsStatistics]:
     """
-    Retrieve statistic records by **author_key**.
+    Retrieve an author's statistic records by **author_key**.
 
     Returns a standardized response dictionary containing:
 
@@ -175,7 +175,7 @@ async def get_authors_alternative_names(
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> APIResponse[AuthorsAlternativeNames]:
     """
-    Retrieve alternative name records by **author_key**.
+    Retrieve an author's alternative name records by **author_key**.
 
     Returns a standardized response dictionary containing:
 

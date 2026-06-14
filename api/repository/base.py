@@ -15,7 +15,7 @@ def get_with_filter_key(
     Retrieve all records associated with a given key using a structured query
 
     :param connection: psycopg2.extensions.connection, active PostgreSQL database connection
-    :param filter_key: str, unique identifier of the work to retrieve
+    :param filter_key: str, unique identifier of the record to retrieve
     :param query: str, the filtering query used
 
     :returns: A tuple containing:

@@ -1,5 +1,25 @@
 """
 Editions Router
+
+This module defines API endpoints related to "editions", including retrieval of
+edition records and associated metadata such as detailed information, contents,
+publishing data, and contributors.
+
+Endpoints:
+- GET /editions/{edition_key}
+  Retrieve edition records by edition_key
+
+- GET /editions/{edition_key}/details
+  Retrieve detailed edition metadata by edition_key, including structured descriptive fields
+
+- GET /editions/{edition_key}/contents
+  Retrieve edition contents by edition_key, such as table of contents or structured content data
+
+- GET /editions/{edition_key}/publishing
+  Retrieve publishing information for an edition, including publication metadata and related records
+
+- GET /editions/{edition_key}/contributors
+  Retrieve contributors associated with an edition, such as authors, editors, and other collaborators
 """
 
 import psycopg2
@@ -30,7 +50,7 @@ async def get_author(
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> APIResponse[Edition]:
     """
-    Retrieve edition records by **edition_key**.
+    Retrieve an edition's records by **edition_key**.
 
     Returns a standardized response dictionary containing:
 
@@ -60,7 +80,7 @@ async def get_editions_details(
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> APIResponse[EditionDetails]:
     """
-    Retrieve edition details records by **edition_key**.
+    Retrieve an edition's details records by **edition_key**.
 
     Returns a standardized response dictionary containing:
 
@@ -90,7 +110,7 @@ async def get_editions_details(
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> APIResponse[EditionContents]:
     """
-    Retrieve edition contents records by **edition_key**.
+    Retrieve an edition's contents records by **edition_key**.
 
     Returns a standardized response dictionary containing:
 
@@ -120,7 +140,7 @@ async def get_editions_publishing(
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> APIResponse[EditionsPublishing]:
     """
-    Retrieve edition publishing records by **edition_key**.
+    Retrieve an edition's publishing records by **edition_key**.
 
     Returns a standardized response dictionary containing:
 
@@ -150,7 +170,7 @@ async def get_editions_contributors(
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> APIResponse[EditionsContributors]:
     """
-    Retrieve edition publishing records by **edition_key**.
+    Retrieve an edition's publishing records by **edition_key**.
 
     Returns a standardized response dictionary containing:
 

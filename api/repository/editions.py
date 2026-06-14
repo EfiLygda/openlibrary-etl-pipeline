@@ -13,7 +13,7 @@ def get_edition_by_edition_key(
     edition_key: str,
 ) -> tuple:
     """
-    Retrieve all edition records associated with a given author key
+    Retrieve all edition records associated with a given edition key
 
     :param connection: psycopg2.extensions.connection, active PostgreSQL database connection
     :param edition_key: str, unique identifier of the edition to retrieve
@@ -54,7 +54,7 @@ def get_details_by_edition_key(
         be retrieved
     :returns: A tuple containing:
 
-        * `details_data` - aggregated work records for the author
+        * `details_data` - details records for the edition
         * `details_column_names` - column names corresponding to the query result
     """
     # Construction of the query
@@ -84,11 +84,11 @@ def get_contents_by_edition_key(
     Retrieve edition content information associated with a given edition key
 
     :param connection: psycopg2.extensions.connection, active PostgreSQL database connection
-    :param edition_key: str, unique identifier of the edition whose details are to
+    :param edition_key: str, unique identifier of the edition whose contents are to
         be retrieved
     :returns: A tuple containing:
 
-        * `content_data` - aggregated work records for the author
+        * `content_data` - content records for the edition
         * `content_column_names` - column names corresponding to the query result
     """
     # Construction of the query
@@ -118,7 +118,7 @@ def get_publishing_by_edition_key(
     Retrieve edition publishing information associated with a given edition key
 
     :param connection: psycopg2.extensions.connection, active PostgreSQL database connection
-    :param edition_key: str, unique identifier of the edition whose details are to
+    :param edition_key: str, unique identifier of the edition whose publishing details are to
         be retrieved
     :returns: A tuple containing:
 
@@ -166,7 +166,7 @@ def get_contributors_by_edition_key(
     Retrieve edition contributors information associated with a given edition key
 
     :param connection: psycopg2.extensions.connection, active PostgreSQL database connection
-    :param edition_key: str, unique identifier of the edition whose details are to
+    :param edition_key: str, unique identifier of the edition whose contributors are to
         be retrieved
     :returns: A tuple containing:
 

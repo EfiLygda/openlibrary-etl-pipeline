@@ -58,7 +58,7 @@ async def get_work(
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> APIResponse[Work]:
     """
-    Retrieve work records by **work_key**.
+    Retrieve a work's records by **work_key**.
 
     Returns a standardized response dictionary containing:
 
