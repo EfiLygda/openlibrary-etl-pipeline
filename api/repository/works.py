@@ -314,16 +314,31 @@ def get_overview_by_work_key(
     query = """
     SELECT 
         w.work_key,
-        w.title,
-        COUNT(*) AS record_count,
-        json_agg(
-            json_build_object(
-                'subjects', ws.subjects,
-                'people', wpl.people,
-                'places', wpc.places,
-                'time_periods', wtp.time_periods
+    
+        CASE 
+            WHEN ws.subjects IS NULL
+             AND wpl.people IS NULL
+             AND wpc.places IS NULL
+             AND wtp.time_periods IS NULL
+            THEN 0
+            ELSE 1
+        END AS record_count,
+    
+        CASE 
+            WHEN ws.subjects IS NULL
+             AND wpl.people IS NULL
+             AND wpc.places IS NULL
+             AND wtp.time_periods IS NULL
+            THEN '[]'::json
+            ELSE json_agg(
+                json_build_object(
+                    'subjects', ws.subjects,
+                    'people', wpl.people,
+                    'places', wpc.places,
+                    'time_periods', wtp.time_periods
+                )
             )
-        ) AS records
+        END AS records
     FROM 
         works w
         LEFT JOIN 
@@ -351,7 +366,11 @@ def get_overview_by_work_key(
     WHERE
         w.work_key = %s
     GROUP BY 
-        w.work_key
+        w.work_key,
+        ws.subjects,
+        wpl.people,
+        wpc.places,
+        wtp.time_periods;
     """
 
     # Fetch the records
