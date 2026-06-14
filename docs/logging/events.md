@@ -58,7 +58,7 @@ Used for operations originating from API entrypoints or data retrieval steps suc
 #### Naming convention
 `<ENTRYPOINT>[_GET_MANY]_<STATUS>`
 
-- `ENTRYPOINT`: the originating operation (see [`entrypoints.md`](../api/entrypoints.md))
+- `ENTRYPOINT`: the originating operation (see [`entrypoints.md`](../open_library_api/entrypoints.md))
 - `GET_MANY`: optional batching mode for bulk operations
 - `STATUS`: `SUCCESS` or `FAILED`
 
