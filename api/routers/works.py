@@ -6,6 +6,9 @@ work details and associated data such as authors, editions, series, availability
 overview, and ratings
 
 Endpoints:
+- GET /works/
+  Retrieve all work's related metadata (Not Supported)
+
 - GET /works/{work_key}
   Retrieve full work details and all related metadata
 
@@ -28,9 +31,13 @@ Endpoints:
   Retrieve 5-star ratings counts for a work
 
 """
+
 import psycopg2
 
 from fastapi import APIRouter
+from fastapi.responses import JSONResponse
+
+from open_library import KeyHandler
 
 from api.dependencies import DB_DEPENDENCY
 import api.repository.works as works_repo
@@ -45,14 +52,45 @@ from api.schemas import (
     WorksRatings,
     APIResponse,
 )
+from api.exceptions import (
+    LISTING_NOT_SUPPORTED,
+    WORK_NOT_FOUND_ERROR,
+    INVALID_WORK_KEY_ERROR
+)
 
-# Defining the works router
+from api.responses import (
+    WORK_NOT_FOUND_RESPONSE,
+    INVALID_WORK_KEY_RESPONSE,
+    LISTING_NOT_SUPPORTED_RESPONSE
+)
+
+# --- Defining the works router ---
 router = APIRouter(
     prefix="/works",
     tags=["Works"]
 )
 
-@router.get("/{work_key}", response_model=APIResponse[Work])
+# --- Defining all endpoints ---
+@router.get("/",  responses={'405': LISTING_NOT_SUPPORTED_RESPONSE})
+async def works_root() -> None:
+    """
+    Root endpoint for the works collection
+
+    This endpoint is intentionally not supported for listing operations
+
+    It exists to explicitly reject requests made to `/works/` without a
+    valid `work_key`, and returns a standardized error response
+    """
+    raise LISTING_NOT_SUPPORTED(query="/works/")
+
+@router.get(
+    "/{work_key}",
+    response_model=APIResponse[Work],
+    responses={
+        '404': WORK_NOT_FOUND_RESPONSE,
+        '422': INVALID_WORK_KEY_RESPONSE
+    }
+)
 async def get_work(
         work_key: str,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
@@ -68,14 +106,24 @@ async def get_work(
     - **count**: number of records found
     - **records**: formatted database rows
     """
+    # Current query
+    query = f'/works/{work_key}'
+
+    # Validate if the key is a valid work key
+    if KeyHandler.detect_key(work_key) != 'work':
+        raise INVALID_WORK_KEY_ERROR(query, work_key)
 
     # Fetch data
     data, column_names = works_repo.get_works_by_work_key(connection, work_key)
 
+    # If no data is returned then error is raised
+    if not data:
+        raise WORK_NOT_FOUND_ERROR(query)
+
     # Format and return consistent API response structure
     return format_response(
         query=work_key,
-        endpoint=f'/works/{work_key}',
+        endpoint=query,
         method='GET',
         records=data,
         column_names=column_names,
