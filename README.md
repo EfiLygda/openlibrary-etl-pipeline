@@ -134,7 +134,7 @@ Create an `.env` file and add PostgreSQL configuration like in [.env.example](.e
 - `DB_PORT`: port on which PostgreSQL is running
 - `DB_NAME`: name of the database to connect to
 
-In the same file api settings can be changed with options:
+In the same file Open Library's API settings can be changed with options:
 - `GENRE`: the genre for querying general works
 - `LIMIT`: how many records to be returned via the `SEARCH` query for each page
 - `MAX_PAGES`: the maximum number fo pages to be returned via the `SEARCH` query (i.e. `LIMIT` $\times$ `MAX_PAGES` is the total number of works to be returned)
