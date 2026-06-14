@@ -61,6 +61,9 @@ What the project is trying to achieve:
 ### Project Structure
 
     .
+    ├── api/
+    │   ├── repository/   # Data access layer (DB queries)
+    │   └── routers/      # FastAPI route definitions (endpoint controllers)
     ├── config/           # API configuration and project paths
     ├── data/
     │   └── romance_fiction/
