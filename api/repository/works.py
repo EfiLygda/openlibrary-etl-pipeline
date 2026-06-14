@@ -263,20 +263,22 @@ def get_ratings_by_work_key(
     query = """
     SELECT 
         w.work_key,
-        w.title,
-        COUNT(*) AS record_count,
-        json_agg(
-            json_build_object(
-                'ratings_count_1', wr.ratings_count_1,
-                'ratings_count_2', wr.ratings_count_2,
-                'ratings_count_3', wr.ratings_count_3,
-                'ratings_count_4', wr.ratings_count_4,
-                'ratings_count_5', wr.ratings_count_5
-            )
+        COUNT(wr.work_key) AS record_count,
+        COALESCE(
+            json_agg(
+                json_build_object(
+                    'ratings_count_1', wr.ratings_count_1,
+                    'ratings_count_2', wr.ratings_count_2,
+                    'ratings_count_3', wr.ratings_count_3,
+                    'ratings_count_4', wr.ratings_count_4,
+                    'ratings_count_5', wr.ratings_count_5
+                )
+            ) FILTER (WHERE wr.work_key IS NOT NULL),
+            '[]'::json
         ) AS records
     FROM 
         works AS w
-        INNER JOIN works_ratings AS wr
+        LEFT JOIN works_ratings AS wr
         ON w.work_key = wr.work_key 
     WHERE
         w.work_key = %s
