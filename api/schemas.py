@@ -162,7 +162,7 @@ class APIResponse(BaseModel, Generic[T]):
     query: str
     endpoint: str
     method: str
-    count: int
+    entity_count: int
     results: list[T]
 
 # --------------------------------------------------------------------

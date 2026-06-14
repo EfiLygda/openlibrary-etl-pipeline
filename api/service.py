@@ -81,6 +81,6 @@ def format_response(
         query=query,
         endpoint=endpoint,
         method=method,
-        count=len(formatted_records),
+        entity_count=len(formatted_records),
         results=formatted_records
     )
