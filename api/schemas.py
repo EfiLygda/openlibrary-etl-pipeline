@@ -44,31 +44,31 @@ class Edition(BaseModel):
 # --- LEVEL 2: Extensions ---
 
 # - WORKS -
-class WorksSeries(BaseModel):
+class WorkSeries(BaseModel):
     series_key: Optional[str] = None
     series_position: Optional[int] = None
     series_name: Optional[str] = None
 
-class WorksAvailability(BaseModel):
+class WorkAvailability(BaseModel):
     ebook_access: Optional[str] = None
     has_fulltext: Optional[bool] = None
     has_public_scan: Optional[bool] = None
 
-class WorksRatings(BaseModel):
+class WorkRatings(BaseModel):
     ratings_count_1: Optional[int]
     ratings_count_2: Optional[int]
     ratings_count_3: Optional[int]
     ratings_count_4: Optional[int]
     ratings_count_5: Optional[int]
 
-class WorksOverview(BaseModel):
+class WorkOverview(BaseModel):
     subjects: Optional[list[str]]
     people: Optional[list[str]]
     places: Optional[list[str]]
     time_periods: Optional[list[str]]
 
 # - AUTHORS -
-class AuthorsStatistics(BaseModel):
+class AuthorStatistics(BaseModel):
     top_work: Optional[str] = None
     work_count: int
 
@@ -98,7 +98,7 @@ class EditionContents(BaseModel):
     notes: Optional[str] = None
     first_sentence: Optional[str] = None
 
-class EditionsPublishing(BaseModel):
+class EditionPublishing(BaseModel):
     publish_date: Optional[str] = None
     publish_year: Optional[int] = None
     publisher: Optional[str] = None
@@ -106,7 +106,7 @@ class EditionsPublishing(BaseModel):
     publish_country: Optional[str] = None
     series_title: Optional[str] = None
 
-class EditionsContributor(BaseModel):
+class EditionContributor(BaseModel):
     contributor_name: Optional[str] = None
     contributor_role: Optional[str] = None
     by_statement: Optional[str] = None
@@ -170,19 +170,19 @@ class APIResponse(BaseModel, Generic[T]):
 # Note: Avoid nesting in routers
 
 # - WORKS -
-WorkAuthors: TypeAlias = WorkGroup[AuthorSummary]
-WorkEditions: TypeAlias = WorkGroup[EditionSummary]
-WorkSeries: TypeAlias = WorkGroup[WorksSeries]
-WorkAvailability: TypeAlias = WorkGroup[WorksAvailability]
-WorkOverview: TypeAlias = WorkGroup[WorksOverview]
-WorkRatings: TypeAlias = WorkGroup[WorksRatings]
+WorksAuthors: TypeAlias = WorkGroup[AuthorSummary]
+WorksEditions: TypeAlias = WorkGroup[EditionSummary]
+WorksSeries: TypeAlias = WorkGroup[WorkSeries]
+WorksAvailability: TypeAlias = WorkGroup[WorkAvailability]
+WorksOverview: TypeAlias = WorkGroup[WorkOverview]
+WorksRatings: TypeAlias = WorkGroup[WorkRatings]
 
 # - AUTHORS -
-AuthorWorks: TypeAlias = AuthorGroup[WorkSummary]
-AuthorStatistics: TypeAlias = AuthorGroup[AuthorsStatistics]
-AuthorAlternativeNames: TypeAlias = AuthorGroup[str]
-AuthorEditions: TypeAlias = AuthorGroup[EditionSummary]
+AuthorsWorks: TypeAlias = AuthorGroup[WorkSummary]
+AuthorsStatistics: TypeAlias = AuthorGroup[AuthorStatistics]
+AuthorsAlternativeNames: TypeAlias = AuthorGroup[str]
+AuthorsEditions: TypeAlias = AuthorGroup[EditionSummary]
 
 # - EDITIONS -
-EditionPublishing: TypeAlias = EditionGroup[EditionsPublishing]
-EditionContributors: TypeAlias = EditionGroup[EditionsContributor]
+EditionsPublishing: TypeAlias = EditionGroup[EditionPublishing]
+EditionsContributors: TypeAlias = EditionGroup[EditionContributor]

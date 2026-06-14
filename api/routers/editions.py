@@ -13,8 +13,8 @@ from api.schemas import (
     Edition,
     EditionDetails,
     EditionContents,
-    EditionPublishing,
-    EditionContributors,
+    EditionsPublishing,
+    EditionsContributors,
     APIResponse,
 )
 
@@ -114,11 +114,11 @@ async def get_editions_details(
         model=EditionContents
     )
 
-@router.get("/{edition_key}/publishing", response_model=APIResponse[EditionPublishing])
+@router.get("/{edition_key}/publishing", response_model=APIResponse[EditionsPublishing])
 async def get_editions_publishing(
         edition_key: str,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
-) -> APIResponse[EditionPublishing]:
+) -> APIResponse[EditionsPublishing]:
     """
     Retrieve edition publishing records by **edition_key**.
 
@@ -141,14 +141,14 @@ async def get_editions_publishing(
         method='GET',
         records=data,
         column_names=column_names,
-        model=EditionPublishing
+        model=EditionsPublishing
     )
 
-@router.get("/{edition_key}/contributors", response_model=APIResponse[EditionContributors])
+@router.get("/{edition_key}/contributors", response_model=APIResponse[EditionsContributors])
 async def get_editions_contributors(
         edition_key: str,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
-) -> APIResponse[EditionContributors]:
+) -> APIResponse[EditionsContributors]:
     """
     Retrieve edition publishing records by **edition_key**.
 
@@ -171,5 +171,5 @@ async def get_editions_contributors(
         method='GET',
         records=data,
         column_names=column_names,
-        model=EditionContributors
+        model=EditionsContributors
     )

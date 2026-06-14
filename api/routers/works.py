@@ -37,12 +37,12 @@ import api.repository.works as works_repo
 from api.service import format_response
 from api.schemas import (
     Work,
-    WorkAuthors,
-    WorkEditions,
-    WorkSeries,
-    WorkAvailability,
-    WorkOverview,
-    WorkRatings,
+    WorksAuthors,
+    WorksEditions,
+    WorksSeries,
+    WorksAvailability,
+    WorksOverview,
+    WorksRatings,
     APIResponse,
 )
 
@@ -82,11 +82,11 @@ async def get_work(
         model=Work
     )
 
-@router.get("/{work_key}/authors", response_model=APIResponse[WorkAuthors])
+@router.get("/{work_key}/authors", response_model=APIResponse[WorksAuthors])
 async def get_work_authors(
         work_key: str,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
-) -> APIResponse[WorkAuthors]:
+) -> APIResponse[WorksAuthors]:
     """
     Retrieve a work's authors' summarized records by **work_key**.
 
@@ -109,14 +109,14 @@ async def get_work_authors(
         method='GET',
         records=data,
         column_names=column_names,
-        model=WorkAuthors
+        model=WorksAuthors
     )
 
-@router.get("/{work_key}/editions", response_model=APIResponse[WorkEditions])
+@router.get("/{work_key}/editions", response_model=APIResponse[WorksEditions])
 async def get_work_editions(
         work_key: str,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
-) -> APIResponse[WorkEditions]:
+) -> APIResponse[WorksEditions]:
     """
     Retrieve a work's editions' summarized records by **work_key**.
 
@@ -138,14 +138,14 @@ async def get_work_editions(
         method='GET',
         records=data,
         column_names=column_names,
-        model=WorkEditions
+        model=WorksEditions
     )
 
-@router.get("/{work_key}/series", response_model=APIResponse[WorkSeries])
+@router.get("/{work_key}/series", response_model=APIResponse[WorksSeries])
 async def get_work_series(
         work_key: str,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
-) -> APIResponse[WorkSeries]:
+) -> APIResponse[WorksSeries]:
     """
     Retrieve a work's series records by **work_key**.
 
@@ -168,14 +168,14 @@ async def get_work_series(
         method='GET',
         records=data,
         column_names=column_names,
-        model=WorkSeries
+        model=WorksSeries
     )
 
-@router.get("/{work_key}/availability", response_model=APIResponse[WorkAvailability])
+@router.get("/{work_key}/availability", response_model=APIResponse[WorksAvailability])
 async def get_work_availability(
         work_key: str,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
-) -> APIResponse[WorkAvailability]:
+) -> APIResponse[WorksAvailability]:
     """
     Retrieve a work's availability records by **work_key**.
 
@@ -198,14 +198,14 @@ async def get_work_availability(
         method='GET',
         records=data,
         column_names=column_names,
-        model=WorkAvailability
+        model=WorksAvailability
     )
 
-@router.get("/{work_key}/ratings", response_model=APIResponse[WorkRatings])
+@router.get("/{work_key}/ratings", response_model=APIResponse[WorksRatings])
 async def get_work_subjects(
         work_key: str,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
-) -> APIResponse[WorkRatings]:
+) -> APIResponse[WorksRatings]:
     """
     Retrieve a work's ratings records by **work_key**.
 
@@ -227,14 +227,14 @@ async def get_work_subjects(
         method='GET',
         records=data,
         column_names=column_names,
-        model=WorkRatings
+        model=WorksRatings
     )
 
-@router.get("/{work_key}/overview", response_model=APIResponse[WorkOverview])
+@router.get("/{work_key}/overview", response_model=APIResponse[WorksOverview])
 async def get_work_overview(
         work_key: str,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
-) -> APIResponse[WorkOverview]:
+) -> APIResponse[WorksOverview]:
     """
     Retrieve a work's overview records (subjects, people, places, time periods) by **work_key**.
 
@@ -257,5 +257,5 @@ async def get_work_overview(
         method='GET',
         records=data,
         column_names=column_names,
-        model=WorkOverview
+        model=WorksOverview
     )

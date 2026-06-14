@@ -36,10 +36,10 @@ import api.repository.authors as authors_repo
 from api.service import format_response
 from api.schemas import (
     Author,
-    AuthorWorks,
-    AuthorEditions,
-    AuthorStatistics,
-    AuthorAlternativeNames,
+    AuthorsWorks,
+    AuthorsEditions,
+    AuthorsStatistics,
+    AuthorsAlternativeNames,
     APIResponse
 )
 
@@ -79,11 +79,11 @@ async def get_author(
         model=Author
     )
 
-@router.get("/{author_key}/works", response_model=APIResponse[AuthorWorks])
+@router.get("/{author_key}/works", response_model=APIResponse[AuthorsWorks])
 async def get_authors_works(
         author_key: str,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
-) -> APIResponse[AuthorWorks]:
+) -> APIResponse[AuthorsWorks]:
     """
     Retrieve work records by **author_key**.
 
@@ -106,14 +106,14 @@ async def get_authors_works(
         method='GET',
         records=data,
         column_names=column_names,
-        model=AuthorWorks
+        model=AuthorsWorks
     )
 
-@router.get("/{author_key}/editions", response_model=APIResponse[AuthorEditions])
+@router.get("/{author_key}/editions", response_model=APIResponse[AuthorsEditions])
 async def get_authors_alternative_names(
         author_key: str,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
-) -> APIResponse[AuthorEditions]:
+) -> APIResponse[AuthorsEditions]:
     """
     Retrieve edition records by **author_key**.
 
@@ -136,14 +136,14 @@ async def get_authors_alternative_names(
         method='GET',
         records=data,
         column_names=column_names,
-        model=AuthorEditions
+        model=AuthorsEditions
     )
 
-@router.get("/{author_key}/statistics", response_model=APIResponse[AuthorStatistics])
+@router.get("/{author_key}/statistics", response_model=APIResponse[AuthorsStatistics])
 async def get_authors_statistics(
         author_key: str,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
-) -> APIResponse[AuthorStatistics]:
+) -> APIResponse[AuthorsStatistics]:
     """
     Retrieve statistic records by **author_key**.
 
@@ -166,14 +166,14 @@ async def get_authors_statistics(
         method='GET',
         records=data,
         column_names=column_names,
-        model=AuthorStatistics
+        model=AuthorsStatistics
     )
 
-@router.get("/{author_key}/alternative_names", response_model=APIResponse[AuthorAlternativeNames])
+@router.get("/{author_key}/alternative_names", response_model=APIResponse[AuthorsAlternativeNames])
 async def get_authors_alternative_names(
         author_key: str,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
-) -> APIResponse[AuthorAlternativeNames]:
+) -> APIResponse[AuthorsAlternativeNames]:
     """
     Retrieve alternative name records by **author_key**.
 
@@ -196,5 +196,5 @@ async def get_authors_alternative_names(
         method='GET',
         records=data,
         column_names=column_names,
-        model=AuthorAlternativeNames
+        model=AuthorsAlternativeNames
     )
