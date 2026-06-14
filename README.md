@@ -27,6 +27,9 @@ This project is an independent work and is not affiliated with or endorsed by Op
     * [Database Schema](#database-schema)
     * [Cardinality](#cardinality)
   * [Logging](#logging)
+  * [API Overview](#api-overview)
+    * [How to Run](#how-to-run-1)
+    * [API Documentation](#api-documentation)
 <!-- TOC -->
 
 ---
@@ -203,8 +206,52 @@ In the following image the database's diagram is presented, by grouping the 16 t
 | Edition ↔ Contents           | One-to-one                     |
 | Edition ↔ Details            | One-to-one                     |
 
+---
+
 ## Logging
 
 The pipeline uses structured event-based logging for execution tracking, validation, error reporting and monitoring.
 
 For the complete logging specification, see [events.md](docs/logging/events.md).
+
+---
+
+## API Overview
+
+This project provides a RESTful API built with FastAPI that exposes structured access to works, authors, editions, ratings, availability, and related metadata stored in a relational database derived from Open Library data.
+
+### How to Run
+
+**STEP 1**: Navigate to the project's directory
+
+```console
+cd your-project-name
+```
+
+**STEP 2**: Start the FastAPI server using Uvicorn
+
+```console
+uvicorn app.main:app --reload
+```
+
+**STEP 3**: Locate the Base URL
+
+Once the server starts, Uvicorn will display output similar to:
+
+```
+INFO:   Uvicorn running on {BASE_URL} (Press CTRL+C to quit)
+```
+
+`BASE_URL` is your Base URL for accessing the API.
+
+### API Documentation
+
+FastAPI provides interactive documentation out of the box.
+
+You can access it via:
+
+- Swagger UI: `{BASE_URL}/docs`
+- ReDoc: `{BASE_URL}/redoc`
+
+These interfaces allow you to explore and test all API endpoints directly in the browser.
+
