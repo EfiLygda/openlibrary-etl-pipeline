@@ -1,4 +1,10 @@
 """
+A RESTful API for querying romance fiction metadata derived from Open Library data
+
+The Romance Fiction API is a RESTful API built with FastAPI that provides
+structured access to works, authors, editions, ratings, availability,
+and related metadata stored in a relational database derived from Open Library
+
 Run:
 uvicorn api.app:app --reload
 """
