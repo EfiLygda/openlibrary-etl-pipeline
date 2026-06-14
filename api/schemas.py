@@ -98,6 +98,22 @@ class EditionContents(BaseModel):
     notes: Optional[str] = None
     first_sentence: Optional[str] = None
 
+class EditionsPublishing(BaseModel):
+    publish_date: Optional[str] = None
+    publish_year: Optional[int] = None
+    publisher: Optional[str] = None
+    publish_place: Optional[str] = None
+    publish_country: Optional[str] = None
+    series_title: Optional[str] = None
+
+# class EditionContributor(BaseModel):
+#     edition_key: str
+#     contributor_name: str
+#     contributor_role: str
+#     by_statement: Optional[str] = None
+#     translated_from: Optional[str] = None
+#     translation_of: Optional[str] = None
+
 # --------------------------------------------------------------------
 # Grouped Results
 # --------------------------------------------------------------------
@@ -169,3 +185,4 @@ AuthorAlternativeNames: TypeAlias = AuthorGroup[str]
 AuthorEditions: TypeAlias = AuthorGroup[EditionSummary]
 
 # - EDITIONS -
+EditionPublishing: TypeAlias = EditionGroup[EditionsPublishing]

@@ -12,7 +12,7 @@ from api.service import format_response
 from api.schemas import (
     Edition,
 
-    APIResponse, EditionDetails, EditionContents,
+    APIResponse, EditionDetails, EditionContents, EditionsPublishing, EditionPublishing,
 )
 
 # Defining the works router
@@ -109,4 +109,34 @@ async def get_editions_details(
         records=data,
         column_names=column_names,
         model=EditionContents
+    )
+
+@router.get("/{edition_key}/publishing", response_model=APIResponse[EditionPublishing])
+async def get_editions_publishing(
+        edition_key: str,
+        connection: psycopg2.extensions.connection = DB_DEPENDENCY
+) -> APIResponse[EditionPublishing]:
+    """
+    Retrieve edition publishing records by **edition_key**.
+
+    Returns a standardized response dictionary containing:
+
+    - **query**: the provided edition_key
+    - **endpoint**: API endpoint called
+    - **method**: HTTP method used
+    - **count**: number of records found
+    - **records**: formatted database rows
+    """
+
+    # Fetch data
+    data, column_names = editions_repo.get_publishing_by_edition_key(connection, edition_key)
+
+    # Format and return consistent API response structure
+    return format_response(
+        query=edition_key,
+        endpoint=f'/editions/{edition_key}/publishing',
+        method='GET',
+        records=data,
+        column_names=column_names,
+        model=EditionPublishing
     )
