@@ -43,6 +43,7 @@ What the project is trying to achieve:
 - Clean and transform raw JSON into normalized tables
 - Load processed data into a PostgreSQL database
 - Ensure reproducibility and modular ETL design
+- Expose processed data through a RESTful API built with FastAPI
 
 ---
 
@@ -90,26 +91,32 @@ What the project is trying to achieve:
 
 ## Tools
     
-The following tools were used for the implementation of this project:
+This project leverages the following technologies across the ETL and API layers:
 
-    OpenLibrary API
-    Python
-    Pandas
-    PostgreSQL
+- `OpenLibrary API`: external data source for books, authors, editions, and metadata
+- `Python`: primary language used for ETL pipeline and backend services
+- `Pandas`: data cleaning, transformation, and normalization
+- `PostgreSQL`: relational database used for structured storage and querying of processed data
+- `FastAPI`: RESTful API framework for exposing structured data
+- `Uvicorn`: ASGI server used to run and serve the FastAPI application
 
 ---
 
 ### Requirements
 
-    greenlet==3.3.2
-    numpy==2.4.4
+    fastapi==0.136.3
+    uvicorn==0.49.0
+    sqlalchemy==2.0.48
+    psycopg2==2.9.12
     pandas==3.0.2
-    PyMySQL==1.1.2
+    numpy==2.4.4
+    requests==2.33.1
+    python-dotenv==1.2.2
+    pydantic==2.13.4
+    langdetect==1.0.9
     python-dateutil==2.9.0.post0
+    tzdata==2026.2
     six==1.17.0
-    SQLAlchemy==2.0.48
-    typing_extensions==4.15.0
-    tzdata==2025.3
 
 ---
 
