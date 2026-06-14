@@ -11,8 +11,11 @@ import api.repository.editions as editions_repo
 from api.service import format_response
 from api.schemas import (
     Edition,
-
-    APIResponse, EditionDetails, EditionContents, EditionsPublishing, EditionPublishing,
+    EditionDetails,
+    EditionContents,
+    EditionPublishing,
+    EditionContributors,
+    APIResponse,
 )
 
 # Defining the works router
@@ -139,4 +142,34 @@ async def get_editions_publishing(
         records=data,
         column_names=column_names,
         model=EditionPublishing
+    )
+
+@router.get("/{edition_key}/contributors", response_model=APIResponse[EditionContributors])
+async def get_editions_contributors(
+        edition_key: str,
+        connection: psycopg2.extensions.connection = DB_DEPENDENCY
+) -> APIResponse[EditionContributors]:
+    """
+    Retrieve edition publishing records by **edition_key**.
+
+    Returns a standardized response dictionary containing:
+
+    - **query**: the provided edition_key
+    - **endpoint**: API endpoint called
+    - **method**: HTTP method used
+    - **count**: number of records found
+    - **records**: formatted database rows
+    """
+
+    # Fetch data
+    data, column_names = editions_repo.get_contributors_by_edition_key(connection, edition_key)
+
+    # Format and return consistent API response structure
+    return format_response(
+        query=edition_key,
+        endpoint=f'/editions/{edition_key}/contributors',
+        method='GET',
+        records=data,
+        column_names=column_names,
+        model=EditionContributors
     )

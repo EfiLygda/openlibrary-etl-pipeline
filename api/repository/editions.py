@@ -157,3 +157,50 @@ def get_publishing_by_edition_key(
     )
 
     return publishing_data, publishing_column_names
+
+def get_contributors_by_edition_key(
+    connection: psycopg2.extensions.connection,
+    edition_key: str,
+) -> tuple:
+    """
+    Retrieve edition contributors information associated with a given edition key
+
+    :param connection: psycopg2.extensions.connection, active PostgreSQL database connection
+    :param edition_key: str, unique identifier of the edition whose details are to
+        be retrieved
+    :returns: A tuple containing:
+
+        * `contributors_data` - aggregated contributors records for the edition
+        * `contributors_column_names` - column names corresponding to the query result
+    """
+
+    # Construction of the query
+    query = """
+    SELECT
+        edition_key,
+        COUNT(*) AS record_count,
+        json_agg(
+            json_build_object(
+                'contributor_name', contributor_name,
+                'contributor_role', contributor_role,
+                'by_statement', by_statement,
+                'translated_from', translated_from,
+                'translation_of', translation_of
+            )
+        ) AS records
+    FROM
+        editions_contributors
+    WHERE
+        edition_key = %s
+    GROUP BY
+        edition_key
+    """
+
+    # Fetch the records
+    contributors_data, contributors_column_names = get_with_filter_key(
+        connection=connection,
+        filter_key=edition_key,
+        query=query
+    )
+
+    return contributors_data, contributors_column_names
