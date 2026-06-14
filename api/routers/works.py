@@ -35,13 +35,13 @@ Endpoints:
 import psycopg2
 
 from fastapi import APIRouter
-from fastapi.responses import JSONResponse
 
 from open_library import KeyHandler
 
 from api.dependencies import DB_DEPENDENCY
 import api.repository.works as works_repo
 from api.service import format_response
+
 from api.schemas import (
     Work,
     WorksAuthors,
@@ -52,6 +52,7 @@ from api.schemas import (
     WorksRatings,
     APIResponse,
 )
+
 from api.exceptions import (
     LISTING_NOT_SUPPORTED,
     WORK_NOT_FOUND_ERROR,
@@ -84,7 +85,7 @@ async def works_root() -> None:
     raise LISTING_NOT_SUPPORTED(query="/works/")
 
 @router.get(
-    "/{work_key}",
+    path="/{work_key}",
     response_model=APIResponse[Work],
     responses={
         '404': WORK_NOT_FOUND_RESPONSE,
@@ -130,7 +131,14 @@ async def get_work(
         model=Work
     )
 
-@router.get("/{work_key}/authors", response_model=APIResponse[WorksAuthors])
+@router.get(
+    path="/{work_key}/authors",
+    response_model=APIResponse[WorksAuthors],
+    responses={
+        '404': WORK_NOT_FOUND_RESPONSE,
+        '422': INVALID_WORK_KEY_RESPONSE
+    }
+)
 async def get_work_authors(
         work_key: str,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
@@ -147,20 +155,38 @@ async def get_work_authors(
     - **records**: formatted database rows
     """
 
+    # Current query
+    query = f'/works/{work_key}/authors'
+
+    # Validate if the key is a valid work key
+    if KeyHandler.detect_key(work_key) != 'work':
+        raise INVALID_WORK_KEY_ERROR(query, work_key)
+
     # Fetch data
     data, column_names = works_repo.get_authors_by_work_key(connection, work_key)
+
+    # If no data is returned then error is raised
+    if not data:
+        raise WORK_NOT_FOUND_ERROR(query)
 
     # Format and return consistent API response structure
     return format_response(
         query=work_key,
-        endpoint=f'/works/{work_key}/authors',
+        endpoint=query,
         method='GET',
         records=data,
         column_names=column_names,
         model=WorksAuthors
     )
 
-@router.get("/{work_key}/editions", response_model=APIResponse[WorksEditions])
+@router.get(
+    path="/{work_key}/editions",
+    response_model=APIResponse[WorksEditions],
+    responses={
+        '404': WORK_NOT_FOUND_RESPONSE,
+        '422': INVALID_WORK_KEY_RESPONSE
+    }
+)
 async def get_work_editions(
         work_key: str,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
@@ -176,20 +202,39 @@ async def get_work_editions(
     - **count**: number of records found
     - **records**: formatted database rows
     """
+
+    # Current query
+    query = f'/works/{work_key}/editions'
+
+    # Validate if the key is a valid work key
+    if KeyHandler.detect_key(work_key) != 'work':
+        raise INVALID_WORK_KEY_ERROR(query, work_key)
+
     # Fetch data
     data, column_names = works_repo.get_editions_by_work_key(connection, work_key)
+
+    # If no data is returned then error is raised
+    if not data:
+        raise WORK_NOT_FOUND_ERROR(query)
 
     # Format and return consistent API response structure
     return format_response(
         query=work_key,
-        endpoint=f'/works/{work_key}/editions',
+        endpoint=query,
         method='GET',
         records=data,
         column_names=column_names,
         model=WorksEditions
     )
 
-@router.get("/{work_key}/series", response_model=APIResponse[WorksSeries])
+@router.get(
+    path="/{work_key}/series",
+    response_model=APIResponse[WorksSeries],
+    responses={
+        '404': WORK_NOT_FOUND_RESPONSE,
+        '422': INVALID_WORK_KEY_RESPONSE
+    }
+)
 async def get_work_series(
         work_key: str,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
@@ -206,20 +251,38 @@ async def get_work_series(
     - **records**: formatted database rows
     """
 
+    # Current query
+    query = f'/works/{work_key}/series'
+
+    # Validate if the key is a valid work key
+    if KeyHandler.detect_key(work_key) != 'work':
+        raise INVALID_WORK_KEY_ERROR(query, work_key)
+
     # Fetch data
     data, column_names = works_repo.get_series_by_work_key(connection, work_key)
+
+    # If no data is returned then error is raised
+    if not data:
+        raise WORK_NOT_FOUND_ERROR(query)
 
     # Format and return consistent API response structure
     return format_response(
         query=work_key,
-        endpoint=f'/works/{work_key}/series',
+        endpoint=query,
         method='GET',
         records=data,
         column_names=column_names,
         model=WorksSeries
     )
 
-@router.get("/{work_key}/availability", response_model=APIResponse[WorksAvailability])
+@router.get(
+    path="/{work_key}/availability",
+    response_model=APIResponse[WorksAvailability],
+    responses={
+        '404': WORK_NOT_FOUND_RESPONSE,
+        '422': INVALID_WORK_KEY_RESPONSE
+    }
+)
 async def get_work_availability(
         work_key: str,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
@@ -235,21 +298,38 @@ async def get_work_availability(
     - **count**: number of records found
     - **records**: formatted database rows
     """
+    # Current query
+    query = f'/works/{work_key}/availability'
+
+    # Validate if the key is a valid work key
+    if KeyHandler.detect_key(work_key) != 'work':
+        raise INVALID_WORK_KEY_ERROR(query, work_key)
 
     # Fetch data
     data, column_names = works_repo.get_availability_by_work_key(connection, work_key)
 
+    # If no data is returned then error is raised
+    if not data:
+        raise WORK_NOT_FOUND_ERROR(query)
+
     # Format and return consistent API response structure
     return format_response(
         query=work_key,
-        endpoint=f'/works/{work_key}/availability',
+        endpoint=query,
         method='GET',
         records=data,
         column_names=column_names,
         model=WorksAvailability
     )
 
-@router.get("/{work_key}/ratings", response_model=APIResponse[WorksRatings])
+@router.get(
+    path="/{work_key}/ratings",
+    response_model=APIResponse[WorksRatings],
+    responses={
+        '404': WORK_NOT_FOUND_RESPONSE,
+        '422': INVALID_WORK_KEY_RESPONSE
+    }
+)
 async def get_work_subjects(
         work_key: str,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
@@ -265,20 +345,39 @@ async def get_work_subjects(
     - **count**: number of records found
     - **records**: formatted database rows
     """
+
+    # Current query
+    query = f'/works/{work_key}/ratings'
+
+    # Validate if the key is a valid work key
+    if KeyHandler.detect_key(work_key) != 'work':
+        raise INVALID_WORK_KEY_ERROR(query, work_key)
+
     # Fetch data
     data, column_names = works_repo.get_ratings_by_work_key(connection, work_key)
+
+    # If no data is returned then error is raised
+    if not data:
+        raise WORK_NOT_FOUND_ERROR(query)
 
     # Format and return consistent API response structure
     return format_response(
         query=work_key,
-        endpoint=f'/works/{work_key}/ratings',
+        endpoint=query,
         method='GET',
         records=data,
         column_names=column_names,
         model=WorksRatings
     )
 
-@router.get("/{work_key}/overview", response_model=APIResponse[WorksOverview])
+@router.get(
+    path="/{work_key}/overview",
+    response_model=APIResponse[WorksOverview],
+    responses={
+        '404': WORK_NOT_FOUND_RESPONSE,
+        '422': INVALID_WORK_KEY_RESPONSE
+    }
+)
 async def get_work_overview(
         work_key: str,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
@@ -295,13 +394,24 @@ async def get_work_overview(
     - **records**: formatted database rows
     """
 
+    # Current query
+    query = f'/works/{work_key}/overview'
+
+    # Validate if the key is a valid work key
+    if KeyHandler.detect_key(work_key) != 'work':
+        raise INVALID_WORK_KEY_ERROR(query, work_key)
+
     # Fetch data
     data, column_names = works_repo.get_overview_by_work_key(connection, work_key)
+
+    # If no data is returned then error is raised
+    if not data:
+        raise WORK_NOT_FOUND_ERROR(query)
 
     # Format and return consistent API response structure
     return format_response(
         query=work_key,
-        endpoint=f'/works/{work_key}/overview',
+        endpoint=query,
         method='GET',
         records=data,
         column_names=column_names,
