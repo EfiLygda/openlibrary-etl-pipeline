@@ -61,24 +61,29 @@ def get_authors_by_work_key(
     # Construction of the query
     query = """
     SELECT 
-        aw.work_key,
-        COUNT(*) AS record_count,
-        json_agg(
-            json_build_object(
-                'author_key', a.author_key,
-                'author_name', a.author_name,
-                'birth_year', a.birth_year,
-                'death_year', a.death_year
-            )
+        w.work_key,
+        COUNT(a.author_key) AS record_count,
+        COALESCE(
+            json_agg(
+                json_build_object(
+                    'author_key', a.author_key,
+                    'author_name', a.author_name,
+                    'birth_year', a.birth_year,
+                    'death_year', a.death_year
+                )
+            ) FILTER (WHERE a.author_key IS NOT NULL),
+            '[]'::json
         ) AS records
     FROM 
-        authors_works AS aw
+        works AS w
+        LEFT JOIN authors_works AS aw
+        ON w.work_key = aw.work_key
         LEFT JOIN authors AS a
         ON aw.author_key = a.author_key 
     WHERE 
-        aw.work_key = %s
+        w.work_key = %s
     GROUP BY
-        aw.work_key
+        w.work_key
     """
 
     # Fetch the records
