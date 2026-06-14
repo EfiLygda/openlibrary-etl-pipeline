@@ -137,21 +137,21 @@ class EditionGroup(BaseModel, Generic[T]):
 # --------------------------------------------------------------------
 
 class WorkSummary(BaseModel):
-    work_key: str
-    title: str
+    work_key: Optional[str] = None
+    title: Optional[str] = None
     subtitle: Optional[str] = None
     edition_count: Optional[int] = None
     first_publish_year: Optional[int] = None
 
 class AuthorSummary(BaseModel):
-    author_key: str
-    author_name: str
+    author_key: Optional[str] = None
+    author_name: Optional[str] = None
     birth_year: Optional[int] = None
     death_year: Optional[int] = None
 
 class EditionSummary(BaseModel):
-    edition_key: str
-    title: str
+    edition_key: Optional[str] = None
+    title: Optional[str] = None
     subtitle: Optional[str] = None
     edition_name: Optional[str] = None
 
