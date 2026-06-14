@@ -164,18 +164,20 @@ def get_series_by_work_key(
     query = """
     SELECT 
         w.work_key,
-        w.title,
-        COUNT(*) AS record_count,
-        json_agg(
-            json_build_object(
-                'series_key', ws.series_key,
-                'series_position', ws.series_position,
-                'series_name', ws.series_name
-            )
+        COUNT(ws.series_key) AS record_count,
+        COALESCE(
+            json_agg(
+                json_build_object(
+                    'series_key', ws.series_key,
+                    'series_position', ws.series_position,
+                    'series_name', ws.series_name
+                )
+            ) FILTER (WHERE ws.series_key IS NOT NULL),
+            '[]'::json
         ) AS records
     FROM 
         works AS w
-        INNER JOIN works_series AS ws
+        LEFT JOIN works_series AS ws
         ON w.work_key = ws.work_key 
     WHERE
         w.work_key = %s
