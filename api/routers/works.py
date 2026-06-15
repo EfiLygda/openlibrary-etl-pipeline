@@ -42,9 +42,9 @@ from api.dependencies import DB_DEPENDENCY
 import api.repository.works as works_repo
 from api.service import format_response
 
+from api.errors import BaseErrors, WorksErrors
 from api.schemas.responses import APIResponse
 from api.schemas.entities.core import Work
-
 from api.schemas.entities.relationships import (
     WorksAuthors,
     WorksEditions,
@@ -54,18 +54,6 @@ from api.schemas.entities.relationships import (
     WorksRatings
 )
 
-from api.exceptions import (
-    LISTING_NOT_SUPPORTED,
-    WORK_NOT_FOUND_ERROR,
-    INVALID_WORK_KEY_ERROR
-)
-
-from api.responses import (
-    WORK_NOT_FOUND_RESPONSE,
-    INVALID_WORK_KEY_RESPONSE,
-    LISTING_NOT_SUPPORTED_RESPONSE
-)
-
 # --- Defining the works router ---
 router = APIRouter(
     prefix="/works",
@@ -73,7 +61,7 @@ router = APIRouter(
 )
 
 # --- Defining all endpoints ---
-@router.get("/",  responses={'405': LISTING_NOT_SUPPORTED_RESPONSE})
+@router.get("/",  responses={'405': BaseErrors.ListingNotSupported.response})
 async def works_root() -> None:
     """
     Root endpoint for the works collection
@@ -83,14 +71,14 @@ async def works_root() -> None:
     It exists to explicitly reject requests made to `/works/` without a
     valid `work_key`, and returns a standardized error response
     """
-    raise LISTING_NOT_SUPPORTED(query="/works/")
+    raise BaseErrors.ListingNotSupported(query="/works/")
 
 @router.get(
     path="/{work_key}",
     response_model=APIResponse[Work],
     responses={
-        '404': WORK_NOT_FOUND_RESPONSE,
-        '422': INVALID_WORK_KEY_RESPONSE
+        '404': WorksErrors.NotFound.response,
+        '422': WorksErrors.InvalidKey.response
     }
 )
 async def get_work(
@@ -113,14 +101,14 @@ async def get_work(
 
     # Validate if the key is a valid work key
     if KeyHandler.detect_key(work_key) != 'work':
-        raise INVALID_WORK_KEY_ERROR(query, work_key)
+        raise WorksErrors.InvalidKey(query)
 
     # Fetch data
     data, column_names = works_repo.get_works_by_work_key(connection, work_key)
 
     # If no data is returned then error is raised
     if not data:
-        raise WORK_NOT_FOUND_ERROR(query)
+        raise WorksErrors.NotFound(query)
 
     # Format and return consistent API response structure
     return format_response(
@@ -136,8 +124,8 @@ async def get_work(
     path="/{work_key}/authors",
     response_model=APIResponse[WorksAuthors],
     responses={
-        '404': WORK_NOT_FOUND_RESPONSE,
-        '422': INVALID_WORK_KEY_RESPONSE
+        '404': WorksErrors.NotFound.response,
+        '422': WorksErrors.InvalidKey.response
     }
 )
 async def get_work_authors(
@@ -161,14 +149,14 @@ async def get_work_authors(
 
     # Validate if the key is a valid work key
     if KeyHandler.detect_key(work_key) != 'work':
-        raise INVALID_WORK_KEY_ERROR(query, work_key)
+        raise WorksErrors.InvalidKey(query)
 
     # Fetch data
     data, column_names = works_repo.get_authors_by_work_key(connection, work_key)
 
     # If no data is returned then error is raised
     if not data:
-        raise WORK_NOT_FOUND_ERROR(query)
+        raise WorksErrors.NotFound(query)
 
     # Format and return consistent API response structure
     return format_response(
@@ -184,8 +172,8 @@ async def get_work_authors(
     path="/{work_key}/editions",
     response_model=APIResponse[WorksEditions],
     responses={
-        '404': WORK_NOT_FOUND_RESPONSE,
-        '422': INVALID_WORK_KEY_RESPONSE
+        '404': WorksErrors.NotFound.response,
+        '422': WorksErrors.InvalidKey.response
     }
 )
 async def get_work_editions(
@@ -209,14 +197,14 @@ async def get_work_editions(
 
     # Validate if the key is a valid work key
     if KeyHandler.detect_key(work_key) != 'work':
-        raise INVALID_WORK_KEY_ERROR(query, work_key)
+        raise WorksErrors.InvalidKey(query)
 
     # Fetch data
     data, column_names = works_repo.get_editions_by_work_key(connection, work_key)
 
     # If no data is returned then error is raised
     if not data:
-        raise WORK_NOT_FOUND_ERROR(query)
+        raise WorksErrors.NotFound(query)
 
     # Format and return consistent API response structure
     return format_response(
@@ -232,8 +220,8 @@ async def get_work_editions(
     path="/{work_key}/series",
     response_model=APIResponse[WorksSeries],
     responses={
-        '404': WORK_NOT_FOUND_RESPONSE,
-        '422': INVALID_WORK_KEY_RESPONSE
+        '404': WorksErrors.NotFound.response,
+        '422': WorksErrors.InvalidKey.response
     }
 )
 async def get_work_series(
@@ -257,14 +245,14 @@ async def get_work_series(
 
     # Validate if the key is a valid work key
     if KeyHandler.detect_key(work_key) != 'work':
-        raise INVALID_WORK_KEY_ERROR(query, work_key)
+        raise WorksErrors.InvalidKey(query)
 
     # Fetch data
     data, column_names = works_repo.get_series_by_work_key(connection, work_key)
 
     # If no data is returned then error is raised
     if not data:
-        raise WORK_NOT_FOUND_ERROR(query)
+        raise WorksErrors.NotFound(query)
 
     # Format and return consistent API response structure
     return format_response(
@@ -280,8 +268,8 @@ async def get_work_series(
     path="/{work_key}/availability",
     response_model=APIResponse[WorksAvailability],
     responses={
-        '404': WORK_NOT_FOUND_RESPONSE,
-        '422': INVALID_WORK_KEY_RESPONSE
+        '404': WorksErrors.NotFound.response,
+        '422': WorksErrors.InvalidKey.response
     }
 )
 async def get_work_availability(
@@ -304,14 +292,14 @@ async def get_work_availability(
 
     # Validate if the key is a valid work key
     if KeyHandler.detect_key(work_key) != 'work':
-        raise INVALID_WORK_KEY_ERROR(query, work_key)
+        raise WorksErrors.InvalidKey(query)
 
     # Fetch data
     data, column_names = works_repo.get_availability_by_work_key(connection, work_key)
 
     # If no data is returned then error is raised
     if not data:
-        raise WORK_NOT_FOUND_ERROR(query)
+        raise WorksErrors.NotFound(query)
 
     # Format and return consistent API response structure
     return format_response(
@@ -327,8 +315,8 @@ async def get_work_availability(
     path="/{work_key}/ratings",
     response_model=APIResponse[WorksRatings],
     responses={
-        '404': WORK_NOT_FOUND_RESPONSE,
-        '422': INVALID_WORK_KEY_RESPONSE
+        '404': WorksErrors.NotFound.response,
+        '422': WorksErrors.InvalidKey.response
     }
 )
 async def get_work_ratings(
@@ -352,14 +340,14 @@ async def get_work_ratings(
 
     # Validate if the key is a valid work key
     if KeyHandler.detect_key(work_key) != 'work':
-        raise INVALID_WORK_KEY_ERROR(query, work_key)
+        raise WorksErrors.InvalidKey(query)
 
     # Fetch data
     data, column_names = works_repo.get_ratings_by_work_key(connection, work_key)
 
     # If no data is returned then error is raised
     if not data:
-        raise WORK_NOT_FOUND_ERROR(query)
+        raise WorksErrors.NotFound(query)
 
     # Format and return consistent API response structure
     return format_response(
@@ -375,8 +363,8 @@ async def get_work_ratings(
     path="/{work_key}/overview",
     response_model=APIResponse[WorksOverview],
     responses={
-        '404': WORK_NOT_FOUND_RESPONSE,
-        '422': INVALID_WORK_KEY_RESPONSE
+        '404': WorksErrors.NotFound.response,
+        '422': WorksErrors.InvalidKey.response
     }
 )
 async def get_work_overview(
@@ -400,14 +388,14 @@ async def get_work_overview(
 
     # Validate if the key is a valid work key
     if KeyHandler.detect_key(work_key) != 'work':
-        raise INVALID_WORK_KEY_ERROR(query, work_key)
+        raise WorksErrors.InvalidKey(query)
 
     # Fetch data
     data, column_names = works_repo.get_overview_by_work_key(connection, work_key)
 
     # If no data is returned then error is raised
     if not data:
-        raise WORK_NOT_FOUND_ERROR(query)
+        raise WorksErrors.NotFound(query)
 
     # Format and return consistent API response structure
     return format_response(
