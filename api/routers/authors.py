@@ -170,7 +170,7 @@ async def get_authors_works(
         '422': INVALID_AUTHOR_KEY_RESPONSE
     }
 )
-async def get_authors_alternative_names(
+async def get_authors_editions(
         author_key: str,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> APIResponse[AuthorsEditions]:
@@ -186,13 +186,24 @@ async def get_authors_alternative_names(
     - **records**: formatted database rows
     """
 
+    # Current query
+    query = f'/authors/{author_key}/editions'
+
+    # Validate if the key is a valid work key
+    if KeyHandler.detect_key(author_key) != 'author':
+        raise INVALID_AUTHOR_KEY_ERROR(query, author_key)
+
     # Fetch data
     data, column_names = authors_repo.get_editions_by_author_key(connection, author_key)
+
+    # If no data is returned then error is raised
+    if not data:
+        raise AUTHOR_NOT_FOUND_ERROR(query)
 
     # Format and return consistent API response structure
     return format_response(
         query=author_key,
-        endpoint=f'/authors/{author_key}/alternative_names',
+        endpoint=query,
         method='GET',
         records=data,
         column_names=column_names,

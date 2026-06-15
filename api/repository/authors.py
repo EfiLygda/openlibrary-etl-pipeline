@@ -115,20 +115,23 @@ def get_editions_by_author_key(
     query = """
     SELECT
         a.author_key,
-        COUNT(*) AS record_count,
-        json_agg(
-            json_build_object(
-                'edition_key', e.edition_key,
-                'title', e.title,
-                'subtitle', e.subtitle,
-                'name', e.edition_name
-            )
+        COUNT(e.edition_key) AS record_count,
+        COALESCE(
+            json_agg(
+                json_build_object(
+                    'edition_key', e.edition_key,
+                    'title', e.title,
+                    'subtitle', e.subtitle,
+                    'name', e.edition_name
+                )
+            ) FILTER (WHERE e.edition_key IS NOT NULL),
+            '[]'::json
         ) AS records
     FROM
         authors AS a
-        INNER JOIN authors_works AS aw
+        LEFT JOIN authors_works AS aw
         ON a.author_key = aw.author_key
-        INNER JOIN editions AS e
+        LEFT JOIN editions AS e
         ON aw.work_key = e.work_key
     WHERE
         a.author_key = %s
