@@ -26,26 +26,61 @@ import psycopg2
 
 from fastapi import APIRouter
 
+from open_library import KeyHandler
+
 from api.dependencies import DB_DEPENDENCY
 import api.repository.editions as editions_repo
 from api.service import format_response
+
 from api.schemas import (
     Edition,
     EditionDetails,
     EditionContents,
     EditionsPublishing,
     EditionsContributors,
-    APIResponse,
+    APIResponse, EditionsDetails,
 )
 
-# Defining the works router
+from api.exceptions import (
+    LISTING_NOT_SUPPORTED,
+    INVALID_EDITION_KEY_ERROR,
+    EDITION_NOT_FOUND_ERROR
+)
+
+from api.responses import (
+    LISTING_NOT_SUPPORTED_RESPONSE,
+    EDITION_NOT_FOUND_RESPONSE,
+    INVALID_EDITION_KEY_RESPONSE
+)
+
+# --- Defining the editions router ---
 router = APIRouter(
     prefix="/editions",
     tags=["Editions"]
 )
 
-@router.get("/{edition_key}", response_model=APIResponse[Edition])
-async def get_author(
+# --- Defining all endpoints ---
+@router.get("/",  responses={'405': LISTING_NOT_SUPPORTED_RESPONSE})
+async def works_root() -> None:
+    """
+    Root endpoint for the editions collection
+
+    This endpoint is intentionally not supported for listing operations
+
+    It exists to explicitly reject requests made to `/editions/` without a
+    valid `edition_key`, and returns a standardized error response
+    """
+    raise LISTING_NOT_SUPPORTED(query="/editions/")
+
+@router.get(
+    path="/{edition_key}",
+    response_model=APIResponse[Edition],
+    responses={
+        '404': EDITION_NOT_FOUND_RESPONSE,
+        '422': INVALID_EDITION_KEY_RESPONSE
+    }
+)
+async def get_edition(
         edition_key: str,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> APIResponse[Edition]:
@@ -61,24 +96,42 @@ async def get_author(
     - **records**: formatted database rows
     """
 
+    # Current query
+    query = f'/editions/{edition_key}'
+
+    # Validate if the key is a valid work key
+    if KeyHandler.detect_key(edition_key) != 'edition':
+        raise INVALID_EDITION_KEY_ERROR(query, edition_key)
+
     # Fetch data
     data, column_names = editions_repo.get_edition_by_edition_key(connection, edition_key)
+
+    # If no data is returned then error is raised
+    if not data:
+        raise EDITION_NOT_FOUND_ERROR(query)
 
     # Format and return consistent API response structure
     return format_response(
         query=edition_key,
-        endpoint=f'/editions/{edition_key}',
+        endpoint=query,
         method='GET',
         records=data,
         column_names=column_names,
         model=Edition
     )
 
-@router.get("/{edition_key}/details", response_model=APIResponse[EditionDetails])
+@router.get(
+    path="/{edition_key}/details",
+    response_model=APIResponse[EditionsDetails],
+    responses={
+        '404': EDITION_NOT_FOUND_RESPONSE,
+        '422': INVALID_EDITION_KEY_RESPONSE
+    }
+)
 async def get_editions_details(
         edition_key: str,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
-) -> APIResponse[EditionDetails]:
+) -> APIResponse[EditionsDetails]:
     """
     Retrieve an edition's details records by **edition_key**.
 
@@ -91,20 +144,38 @@ async def get_editions_details(
     - **records**: formatted database rows
     """
 
+    # Current query
+    query = f'/editions/{edition_key}/details'
+
+    # Validate if the key is a valid work key
+    if KeyHandler.detect_key(edition_key) != 'edition':
+        raise INVALID_EDITION_KEY_ERROR(query, edition_key)
+
     # Fetch data
     data, column_names = editions_repo.get_details_by_edition_key(connection, edition_key)
+
+    # If no data is returned then error is raised
+    if not data:
+        raise EDITION_NOT_FOUND_ERROR(query)
 
     # Format and return consistent API response structure
     return format_response(
         query=edition_key,
-        endpoint=f'/editions/{edition_key}/details',
+        endpoint=query,
         method='GET',
         records=data,
         column_names=column_names,
-        model=EditionDetails
+        model=EditionsDetails
     )
 
-@router.get("/{edition_key}/contents", response_model=APIResponse[EditionContents])
+@router.get(
+    path="/{edition_key}/contents",
+    response_model=APIResponse[EditionContents],
+    responses={
+        '404': EDITION_NOT_FOUND_RESPONSE,
+        '422': INVALID_EDITION_KEY_RESPONSE
+    }
+)
 async def get_editions_details(
         edition_key: str,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
@@ -134,7 +205,14 @@ async def get_editions_details(
         model=EditionContents
     )
 
-@router.get("/{edition_key}/publishing", response_model=APIResponse[EditionsPublishing])
+@router.get(
+    path="/{edition_key}/publishing",
+    response_model=APIResponse[EditionsPublishing],
+    responses={
+        '404': EDITION_NOT_FOUND_RESPONSE,
+        '422': INVALID_EDITION_KEY_RESPONSE
+    }
+)
 async def get_editions_publishing(
         edition_key: str,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
@@ -164,7 +242,14 @@ async def get_editions_publishing(
         model=EditionsPublishing
     )
 
-@router.get("/{edition_key}/contributors", response_model=APIResponse[EditionsContributors])
+@router.get(
+    path="/{edition_key}/contributors",
+    response_model=APIResponse[EditionsContributors],
+    responses={
+        '404': EDITION_NOT_FOUND_RESPONSE,
+        '422': INVALID_EDITION_KEY_RESPONSE
+    }
+)
 async def get_editions_contributors(
         edition_key: str,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
