@@ -52,15 +52,13 @@ async def get_links_by_key(
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> LinksResponse[Link]:
     """
-    Retrieve an edition's records by **edition_key**.
+    Retrieve a record's links by **key**.
 
     Returns a standardized response dictionary containing:
 
-    - **query**: the provided edition_key
-    - **endpoint**: API endpoint called
-    - **method**: HTTP method used
-    - **count**: number of records found
-    - **records**: formatted database rows
+    - **key**: the provided key
+    - **type**: the provided key's entity (work, author or edition)
+    - **links**: dictionary with the records API's navigation links
     """
 
     # Current query

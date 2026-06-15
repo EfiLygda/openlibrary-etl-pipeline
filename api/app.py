@@ -14,10 +14,14 @@ from dotenv import load_dotenv
 from fastapi import FastAPI
 
 from api.dependencies import DB_DEPENDENCY
-from api.routers import works, authors, editions
+from api.routers import (
+    navigation,
+    works,
+    authors,
+    editions
+)
 
 # TODO: add parameters when needed
-# TODO: add navigation endpoint named profile
 
 # Load variables from the .env file to the environment
 load_dotenv()
@@ -50,3 +54,4 @@ app = FastAPI(
 app.include_router(works.router)
 app.include_router(authors.router)
 app.include_router(editions.router)
+app.include_router(navigation.router)
