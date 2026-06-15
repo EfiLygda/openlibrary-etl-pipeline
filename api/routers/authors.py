@@ -31,8 +31,12 @@ import psycopg2
 
 from fastapi import APIRouter
 
+from open_library import KeyHandler
+
 from api.dependencies import DB_DEPENDENCY
 import api.repository.authors as authors_repo
+from api.exceptions import LISTING_NOT_SUPPORTED, INVALID_AUTHOR_KEY_ERROR, AUTHOR_NOT_FOUND_ERROR
+from api.responses import LISTING_NOT_SUPPORTED_RESPONSE, AUTHOR_NOT_FOUND_RESPONSE, INVALID_AUTHOR_KEY_RESPONSE
 from api.service import format_response
 from api.schemas import (
     Author,
@@ -49,7 +53,27 @@ router = APIRouter(
     tags=["Authors"]
 )
 
-@router.get("/{author_key}", response_model=APIResponse[Author])
+# --- Defining all endpoints ---
+@router.get("/",  responses={'405': LISTING_NOT_SUPPORTED_RESPONSE})
+async def works_root() -> None:
+    """
+    Root endpoint for the authors collection
+
+    This endpoint is intentionally not supported for listing operations
+
+    It exists to explicitly reject requests made to `/authors/` without a
+    valid `author_key`, and returns a standardized error response
+    """
+    raise LISTING_NOT_SUPPORTED(query="/authors/")
+
+@router.get(
+    path="/{author_key}",
+    response_model=APIResponse[Author],
+    responses={
+        '404': AUTHOR_NOT_FOUND_RESPONSE,
+        '422': INVALID_AUTHOR_KEY_RESPONSE
+    }
+)
 async def get_author(
         author_key: str,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
@@ -66,20 +90,38 @@ async def get_author(
     - **records**: formatted database rows
     """
 
+    # Current query
+    query = f'/authors/{author_key}'
+
+    # Validate if the key is a valid work key
+    if KeyHandler.detect_key(author_key) != 'author':
+        raise INVALID_AUTHOR_KEY_ERROR(query, author_key)
+
     # Fetch data
     data, column_names = authors_repo.get_author_by_author_key(connection, author_key)
+
+    # If no data is returned then error is raised
+    if not data:
+        raise AUTHOR_NOT_FOUND_ERROR(query)
 
     # Format and return consistent API response structure
     return format_response(
         query=author_key,
-        endpoint=f'/authors/{author_key}',
+        endpoint=query,
         method='GET',
         records=data,
         column_names=column_names,
         model=Author
     )
 
-@router.get("/{author_key}/works", response_model=APIResponse[AuthorsWorks])
+@router.get(
+    path="/{author_key}/works",
+    response_model=APIResponse[AuthorsWorks],
+    responses={
+        '404': AUTHOR_NOT_FOUND_RESPONSE,
+        '422': INVALID_AUTHOR_KEY_RESPONSE
+    }
+)
 async def get_authors_works(
         author_key: str,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
@@ -109,7 +151,14 @@ async def get_authors_works(
         model=AuthorsWorks
     )
 
-@router.get("/{author_key}/editions", response_model=APIResponse[AuthorsEditions])
+@router.get(
+    path="/{author_key}/editions",
+    response_model=APIResponse[AuthorsEditions],
+    responses={
+        '404': AUTHOR_NOT_FOUND_RESPONSE,
+        '422': INVALID_AUTHOR_KEY_RESPONSE
+    }
+)
 async def get_authors_alternative_names(
         author_key: str,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
@@ -139,7 +188,14 @@ async def get_authors_alternative_names(
         model=AuthorsEditions
     )
 
-@router.get("/{author_key}/statistics", response_model=APIResponse[AuthorsStatistics])
+@router.get(
+    path="/{author_key}/statistics",
+    response_model=APIResponse[AuthorsStatistics],
+    responses={
+        '404': AUTHOR_NOT_FOUND_RESPONSE,
+        '422': INVALID_AUTHOR_KEY_RESPONSE
+    }
+)
 async def get_authors_statistics(
         author_key: str,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
@@ -169,7 +225,14 @@ async def get_authors_statistics(
         model=AuthorsStatistics
     )
 
-@router.get("/{author_key}/alternative_names", response_model=APIResponse[AuthorsAlternativeNames])
+@router.get(
+    path="/{author_key}/alternative_names",
+    response_model=APIResponse[AuthorsAlternativeNames],
+    responses={
+        '404': AUTHOR_NOT_FOUND_RESPONSE,
+        '422': INVALID_AUTHOR_KEY_RESPONSE
+    }
+)
 async def get_authors_alternative_names(
         author_key: str,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
