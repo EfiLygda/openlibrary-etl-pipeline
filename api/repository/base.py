@@ -10,7 +10,7 @@ def get_with_filter_key(
         connection: psycopg2.extensions.connection,
         filter_key: str,
         query: str
-):
+) -> tuple:
     """
     Retrieve all records associated with a given key using a structured query
 

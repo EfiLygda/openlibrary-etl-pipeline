@@ -25,7 +25,7 @@ class APIResponse(BaseModel, Generic[T]):
     results: list[T]
 
 # --- Navigation API response ---
-class LinksResponse(BaseModel):
+class LinksResponse(BaseModel, Generic[T]):
     key: str
-    type: Optional[EntityType]
-    links: Optional[dict[str, str]]
+    type: Optional[EntityType] = None
+    links: Optional[T] = None
