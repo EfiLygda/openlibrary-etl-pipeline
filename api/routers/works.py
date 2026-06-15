@@ -35,6 +35,7 @@ Endpoints:
 import psycopg2
 
 from fastapi import APIRouter
+from fastapi import Request
 
 from open_library import KeyHandler
 
@@ -91,7 +92,7 @@ async def get_work(
     Returns a standardized response dictionary containing:
 
     - **query**: the provided work_key
-    - **endpoint**: API endpoint called
+    - **self**: API endpoint called
     - **method**: HTTP method used
     - **count**: number of records found
     - **records**: formatted database rows
@@ -113,7 +114,7 @@ async def get_work(
     # Format and return consistent API response structure
     return format_response(
         query=work_key,
-        endpoint=query,
+        self=query,
         method='GET',
         records=data,
         column_names=column_names,
@@ -138,7 +139,7 @@ async def get_work_authors(
     Returns a standardized response dictionary containing:
 
     - **query**: the provided work_key
-    - **endpoint**: API endpoint called
+    - **self**: API endpoint called
     - **method**: HTTP method used
     - **count**: number of records found
     - **records**: formatted database rows
@@ -161,7 +162,7 @@ async def get_work_authors(
     # Format and return consistent API response structure
     return format_response(
         query=work_key,
-        endpoint=query,
+        self=query,
         method='GET',
         records=data,
         column_names=column_names,
@@ -186,7 +187,7 @@ async def get_work_editions(
     Returns a standardized response dictionary containing:
 
     - **query**: the provided work_key
-    - **endpoint**: API endpoint called
+    - **self**: API endpoint called
     - **method**: HTTP method used
     - **count**: number of records found
     - **records**: formatted database rows
@@ -209,7 +210,7 @@ async def get_work_editions(
     # Format and return consistent API response structure
     return format_response(
         query=work_key,
-        endpoint=query,
+        self=query,
         method='GET',
         records=data,
         column_names=column_names,
@@ -234,7 +235,7 @@ async def get_work_series(
     Returns a standardized response dictionary containing:
 
     - **query**: the provided work_key
-    - **endpoint**: API endpoint called
+    - **self**: API endpoint called
     - **method**: HTTP method used
     - **count**: number of records found
     - **records**: formatted database rows
@@ -257,7 +258,7 @@ async def get_work_series(
     # Format and return consistent API response structure
     return format_response(
         query=work_key,
-        endpoint=query,
+        self=query,
         method='GET',
         records=data,
         column_names=column_names,
@@ -282,7 +283,7 @@ async def get_work_availability(
     Returns a standardized response dictionary containing:
 
     - **query**: the provided work_key
-    - **endpoint**: API endpoint called
+    - **self**: API endpoint called
     - **method**: HTTP method used
     - **count**: number of records found
     - **records**: formatted database rows
@@ -304,7 +305,7 @@ async def get_work_availability(
     # Format and return consistent API response structure
     return format_response(
         query=work_key,
-        endpoint=query,
+        self=query,
         method='GET',
         records=data,
         column_names=column_names,
@@ -329,7 +330,7 @@ async def get_work_ratings(
     Returns a standardized response dictionary containing:
 
     - **query**: the provided work_key
-    - **endpoint**: API endpoint called
+    - **self**: API endpoint called
     - **method**: HTTP method used
     - **count**: number of records found
     - **records**: formatted database rows
@@ -352,7 +353,7 @@ async def get_work_ratings(
     # Format and return consistent API response structure
     return format_response(
         query=work_key,
-        endpoint=query,
+        self=query,
         method='GET',
         records=data,
         column_names=column_names,
@@ -377,7 +378,7 @@ async def get_work_overview(
     Returns a standardized response dictionary containing:
 
     - **query**: the provided work_key
-    - **endpoint**: API endpoint called
+    - **self**: API endpoint called
     - **method**: HTTP method used
     - **count**: number of records found
     - **records**: formatted database rows
@@ -400,7 +401,7 @@ async def get_work_overview(
     # Format and return consistent API response structure
     return format_response(
         query=work_key,
-        endpoint=query,
+        self=query,
         method='GET',
         records=data,
         column_names=column_names,

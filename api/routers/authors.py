@@ -87,7 +87,7 @@ async def get_author(
     Returns a standardized response dictionary containing:
 
     - **query**: the provided author_key
-    - **endpoint**: API endpoint called
+    - **self**: API endpoint called
     - **method**: HTTP method used
     - **count**: number of records found
     - **records**: formatted database rows
@@ -110,7 +110,7 @@ async def get_author(
     # Format and return consistent API response structure
     return format_response(
         query=author_key,
-        endpoint=query,
+        self=query,
         method='GET',
         records=data,
         column_names=column_names,
@@ -135,7 +135,7 @@ async def get_authors_works(
     Returns a standardized response dictionary containing:
 
     - **query**: the provided author_key
-    - **endpoint**: API endpoint called
+    - **self**: API endpoint called
     - **method**: HTTP method used
     - **count**: number of records found
     - **records**: formatted database rows
@@ -158,7 +158,7 @@ async def get_authors_works(
     # Format and return consistent API response structure
     return format_response(
         query=author_key,
-        endpoint=query,
+        self=query,
         method='GET',
         records=data,
         column_names=column_names,
@@ -183,7 +183,7 @@ async def get_authors_editions(
     Returns a standardized response dictionary containing:
 
     - **query**: the provided author_key
-    - **endpoint**: API endpoint called
+    - **self**: API endpoint called
     - **method**: HTTP method used
     - **count**: number of records found
     - **records**: formatted database rows
@@ -206,7 +206,7 @@ async def get_authors_editions(
     # Format and return consistent API response structure
     return format_response(
         query=author_key,
-        endpoint=query,
+        self=query,
         method='GET',
         records=data,
         column_names=column_names,
@@ -231,7 +231,7 @@ async def get_authors_statistics(
     Returns a standardized response dictionary containing:
 
     - **query**: the provided author_key
-    - **endpoint**: API endpoint called
+    - **self**: API endpoint called
     - **method**: HTTP method used
     - **count**: number of records found
     - **records**: formatted database rows
@@ -254,7 +254,7 @@ async def get_authors_statistics(
     # Format and return consistent API response structure
     return format_response(
         query=author_key,
-        endpoint=query,
+        self=query,
         method='GET',
         records=data,
         column_names=column_names,
@@ -279,7 +279,7 @@ async def get_authors_alternative_names(
     Returns a standardized response dictionary containing:
 
     - **query**: the provided author_key
-    - **endpoint**: API endpoint called
+    - **self**: API endpoint called
     - **method**: HTTP method used
     - **count**: number of records found
     - **records**: formatted database rows
@@ -302,7 +302,7 @@ async def get_authors_alternative_names(
     # Format and return consistent API response structure
     return format_response(
         query=author_key,
-        endpoint=query,
+        self=query,
         method='GET',
         records=data,
         column_names=column_names,

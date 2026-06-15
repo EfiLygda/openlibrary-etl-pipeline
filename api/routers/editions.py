@@ -82,7 +82,7 @@ async def get_edition(
     Returns a standardized response dictionary containing:
 
     - **query**: the provided edition_key
-    - **endpoint**: API endpoint called
+    - **self**: API endpoint called
     - **method**: HTTP method used
     - **count**: number of records found
     - **records**: formatted database rows
@@ -105,7 +105,7 @@ async def get_edition(
     # Format and return consistent API response structure
     return format_response(
         query=edition_key,
-        endpoint=query,
+        self=query,
         method='GET',
         records=data,
         column_names=column_names,
@@ -130,7 +130,7 @@ async def get_editions_details(
     Returns a standardized response dictionary containing:
 
     - **query**: the provided edition_key
-    - **endpoint**: API endpoint called
+    - **self**: API endpoint called
     - **method**: HTTP method used
     - **count**: number of records found
     - **records**: formatted database rows
@@ -153,7 +153,7 @@ async def get_editions_details(
     # Format and return consistent API response structure
     return format_response(
         query=edition_key,
-        endpoint=query,
+        self=query,
         method='GET',
         records=data,
         column_names=column_names,
@@ -178,7 +178,7 @@ async def get_editions_contents(
     Returns a standardized response dictionary containing:
 
     - **query**: the provided edition_key
-    - **endpoint**: API endpoint called
+    - **self**: API endpoint called
     - **method**: HTTP method used
     - **count**: number of records found
     - **records**: formatted database rows
@@ -201,7 +201,7 @@ async def get_editions_contents(
     # Format and return consistent API response structure
     return format_response(
         query=edition_key,
-        endpoint=query,
+        self=query,
         method='GET',
         records=data,
         column_names=column_names,
@@ -226,7 +226,7 @@ async def get_editions_publishing(
     Returns a standardized response dictionary containing:
 
     - **query**: the provided edition_key
-    - **endpoint**: API endpoint called
+    - **self**: API endpoint called
     - **method**: HTTP method used
     - **count**: number of records found
     - **records**: formatted database rows
@@ -249,7 +249,7 @@ async def get_editions_publishing(
     # Format and return consistent API response structure
     return format_response(
         query=edition_key,
-        endpoint=query,
+        self=query,
         method='GET',
         records=data,
         column_names=column_names,
@@ -274,7 +274,7 @@ async def get_editions_contributors(
     Returns a standardized response dictionary containing:
 
     - **query**: the provided edition_key
-    - **endpoint**: API endpoint called
+    - **self**: API endpoint called
     - **method**: HTTP method used
     - **count**: number of records found
     - **records**: formatted database rows
@@ -297,7 +297,7 @@ async def get_editions_contributors(
     # Format and return consistent API response structure
     return format_response(
         query=edition_key,
-        endpoint=query,
+        self=query,
         method='GET',
         records=data,
         column_names=column_names,

@@ -57,7 +57,7 @@ def format_records(
 
 def format_response(
         query: str,
-        endpoint: str,
+        self: str,
         method: str,
         records: list,
         column_names: list[str],
@@ -67,7 +67,7 @@ def format_response(
     Formats the API's final response
 
     :param query: str, the query used for the API
-    :param endpoint: str, the endpoint used for quering the API
+    :param self: str, the endpoint used for quering the API
     :param method: str, HTTP method used (GET, POST, PUT, DELETE, PATCH, OPTIONS, and HEAD)
     :param records: list, list of records containing values
     :param column_names: list[str], list of column names corresponding to each value in a record
@@ -85,7 +85,7 @@ def format_response(
 
     return APIResponse(
         query=query,
-        endpoint=endpoint,
+        self=self,
         method=method,
         entity_count=len(formatted_records),
         results=formatted_records
@@ -162,4 +162,8 @@ def format_link_response(
         type=key_type,
         links=links
     )
+
+# -------------------------------------------------------------------
+# Search API Response
+# -------------------------------------------------------------------
 

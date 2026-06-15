@@ -19,7 +19,7 @@ T = TypeVar('T')
 # --- Basic API response ---
 class APIResponse(BaseModel, Generic[T]):
     query: str
-    endpoint: str
+    self: str
     method: str
     entity_count: int
     results: list[T]
