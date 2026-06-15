@@ -6,6 +6,9 @@ edition records and associated metadata such as detailed information, contents,
 publishing data, and contributors.
 
 Endpoints:
+- GET /editions/
+  Retrieve all editions' related metadata (Not Supported)
+
 - GET /editions/{edition_key}
   Retrieve edition records by edition_key
 
@@ -34,11 +37,11 @@ from api.service import format_response
 
 from api.schemas import (
     Edition,
-    EditionDetails,
-    EditionContents,
+    EditionsDetails,
+    EditionsContents,
     EditionsPublishing,
     EditionsContributors,
-    APIResponse, EditionsDetails, EditionsContents,
+    APIResponse,
 )
 
 from api.exceptions import (
@@ -288,13 +291,24 @@ async def get_editions_contributors(
     - **records**: formatted database rows
     """
 
+    # Current query
+    query = f'/editions/{edition_key}/contributors'
+
+    # Validate if the key is a valid work key
+    if KeyHandler.detect_key(edition_key) != 'edition':
+        raise INVALID_EDITION_KEY_ERROR(query, edition_key)
+
     # Fetch data
     data, column_names = editions_repo.get_contributors_by_edition_key(connection, edition_key)
+
+    # If no data is returned then error is raised
+    if not data:
+        raise EDITION_NOT_FOUND_ERROR(query)
 
     # Format and return consistent API response structure
     return format_response(
         query=edition_key,
-        endpoint=f'/editions/{edition_key}/contributors',
+        endpoint=query,
         method='GET',
         records=data,
         column_names=column_names,
