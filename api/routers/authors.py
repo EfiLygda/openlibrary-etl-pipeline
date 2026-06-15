@@ -186,24 +186,13 @@ async def get_authors_alternative_names(
     - **records**: formatted database rows
     """
 
-    # Current query
-    query = f'/authors/{author_key}/alternative_names'
-
-    # Validate if the key is a valid work key
-    if KeyHandler.detect_key(author_key) != 'author':
-        raise INVALID_AUTHOR_KEY_ERROR(query, author_key)
-
     # Fetch data
-    data, column_names = authors_repo.get_author_alternative_names_by_author_key(connection, author_key)
-
-    # If no data is returned then error is raised
-    if not data:
-        raise AUTHOR_NOT_FOUND_ERROR(query)
+    data, column_names = authors_repo.get_editions_by_author_key(connection, author_key)
 
     # Format and return consistent API response structure
     return format_response(
         query=author_key,
-        endpoint=query,
+        endpoint=f'/authors/{author_key}/alternative_names',
         method='GET',
         records=data,
         column_names=column_names,

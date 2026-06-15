@@ -97,53 +97,6 @@ def get_works_by_author_key(
 
     return work_data, work_column_names
 
-
-def get_author_alternative_names_by_author_key(
-        connection: psycopg2.extensions.connection,
-        author_key: str,
-) -> tuple:
-    """
-    Retrieve author alternative names information associated with a given author key
-
-    :param connection: psycopg2.extensions.connection, active PostgreSQL database connection
-    :param author_key: str, unique identifier of the author whose alternative names are to
-        be retrieved
-    :returns: A tuple containing:
-
-        * `alternative_names_data` - alternative names records for the author
-        * `alternative_names_column_names` - column names corresponding to the query result
-    """
-
-    # Construction of the query
-    query = """
-    SELECT
-        a.author_key,
-        COUNT(altnames.author_alternative_name) AS record_count,
-        COALESCE(
-            array_agg(altnames.author_alternative_name)
-                FILTER (WHERE altnames.author_alternative_name IS NOT NULL),
-            ARRAY[]::text[]
-        ) AS records
-    FROM
-        authors AS a
-        LEFT JOIN 
-        authors_alternative_names AS altnames 
-        ON a.author_key = altnames.author_key
-    WHERE
-        a.author_key = %s
-    GROUP BY
-        a.author_key
-    """
-
-    # Fetch the records
-    alternative_names_data, alternative_names_column_names = get_with_filter_key(
-        connection=connection,
-        filter_key=author_key,
-        query=query
-    )
-
-    return alternative_names_data, alternative_names_column_names
-
 def get_editions_by_author_key(
     connection: psycopg2.extensions.connection,
     author_key: str,
@@ -248,3 +201,45 @@ def get_author_statistics_by_author_key(
     )
 
     return statistics_data, statistics_column_names
+
+def get_author_alternative_names_by_author_key(
+        connection: psycopg2.extensions.connection,
+        author_key: str,
+) -> tuple:
+    """
+    Retrieve author alternative names information associated with a given author key
+
+    :param connection: psycopg2.extensions.connection, active PostgreSQL database connection
+    :param author_key: str, unique identifier of the author whose alternative names are to
+        be retrieved
+    :returns: A tuple containing:
+
+        * `alternative_names_data` - alternative names records for the author
+        * `alternative_names_column_names` - column names corresponding to the query result
+    """
+
+    # Construction of the query
+    query = """
+    SELECT
+        a.author_key,
+        COUNT(*) AS record_count,
+        array_agg(author_alternative_name) AS records
+    FROM
+        authors AS a
+        INNER JOIN 
+        authors_alternative_names AS altnames 
+        ON a.author_key = altnames.author_key
+    WHERE
+        a.author_key = %s
+    GROUP BY
+        a.author_key
+    """
+
+    # Fetch the records
+    alternative_names_data, alternative_names_column_names = get_with_filter_key(
+        connection=connection,
+        filter_key=author_key,
+        query=query
+    )
+
+    return alternative_names_data, alternative_names_column_names
