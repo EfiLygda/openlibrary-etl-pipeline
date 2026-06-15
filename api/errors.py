@@ -143,3 +143,20 @@ class EditionsErrors:
         error_code='INVALID_EDITION_KEY',
         description='Edition key is invalid'
     )
+
+class LinksErrors:
+    """
+    Links navigation definitions
+    """
+
+    NotFound = _APIErrorDefinition(
+        status_code=404,
+        error_code='ENTITY_NOT_FOUND',
+        description='Entity not found'
+    )
+
+    InvalidKey = _APIErrorDefinition(
+        status_code=422,
+        error_code='INVALID_KEY',
+        description='Key is invalid'
+    )
