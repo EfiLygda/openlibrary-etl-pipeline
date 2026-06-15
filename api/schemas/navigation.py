@@ -38,3 +38,9 @@ class EditionLinks(BaseModel):
     publishing: Optional[str]
     contributors: Optional[str]
     work: Optional[str]
+
+# --------------------------------------------------------------------
+# Aliasing Types
+# --------------------------------------------------------------------
+
+Link: TypeAlias = WorkLinks | AuthorLinks | EditionLinks
