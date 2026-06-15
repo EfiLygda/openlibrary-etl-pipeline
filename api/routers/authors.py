@@ -10,6 +10,9 @@ data from multiple related tables while keeping endpoints focused and consistent
 
 Endpoints:
 
+- GET /authors/
+  Retrieve all authors' related metadata (Not Supported)
+
 - GET /authors/{author_key}
   Retrieve full author profile including core metadata and optional enriched fields
 
@@ -35,9 +38,8 @@ from open_library import KeyHandler
 
 from api.dependencies import DB_DEPENDENCY
 import api.repository.authors as authors_repo
-from api.exceptions import LISTING_NOT_SUPPORTED, INVALID_AUTHOR_KEY_ERROR, AUTHOR_NOT_FOUND_ERROR
-from api.responses import LISTING_NOT_SUPPORTED_RESPONSE, AUTHOR_NOT_FOUND_RESPONSE, INVALID_AUTHOR_KEY_RESPONSE
 from api.service import format_response
+
 from api.schemas import (
     Author,
     AuthorsWorks,
@@ -47,7 +49,19 @@ from api.schemas import (
     APIResponse
 )
 
-# Defining the works router
+from api.exceptions import (
+    LISTING_NOT_SUPPORTED,
+    INVALID_AUTHOR_KEY_ERROR,
+    AUTHOR_NOT_FOUND_ERROR
+)
+
+from api.responses import (
+    LISTING_NOT_SUPPORTED_RESPONSE,
+    AUTHOR_NOT_FOUND_RESPONSE,
+    INVALID_AUTHOR_KEY_RESPONSE
+)
+
+# --- Defining the authors router ---
 router = APIRouter(
     prefix="/authors",
     tags=["Authors"]
