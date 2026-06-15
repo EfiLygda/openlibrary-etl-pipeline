@@ -35,25 +35,14 @@ from api.dependencies import DB_DEPENDENCY
 import api.repository.editions as editions_repo
 from api.service import format_response
 
-from api.schemas import (
-    Edition,
+from api.errors import BaseErrors, EditionsErrors
+from api.schemas.responses import APIResponse
+from api.schemas.entities.core import Edition
+from api.schemas.entities.relationships import (
     EditionsDetails,
     EditionsContents,
     EditionsPublishing,
-    EditionsContributors,
-    APIResponse,
-)
-
-from api.exceptions import (
-    LISTING_NOT_SUPPORTED,
-    INVALID_EDITION_KEY_ERROR,
-    EDITION_NOT_FOUND_ERROR
-)
-
-from api.responses import (
-    LISTING_NOT_SUPPORTED_RESPONSE,
-    EDITION_NOT_FOUND_RESPONSE,
-    INVALID_EDITION_KEY_RESPONSE
+    EditionsContributors
 )
 
 # --- Defining the editions router ---
@@ -63,7 +52,7 @@ router = APIRouter(
 )
 
 # --- Defining all endpoints ---
-@router.get("/",  responses={'405': LISTING_NOT_SUPPORTED_RESPONSE})
+@router.get("/",  responses={'405': BaseErrors.ListingNotSupported.response})
 async def editions_root() -> None:
     """
     Root endpoint for the editions collection
@@ -73,14 +62,14 @@ async def editions_root() -> None:
     It exists to explicitly reject requests made to `/editions/` without a
     valid `edition_key`, and returns a standardized error response
     """
-    raise LISTING_NOT_SUPPORTED(query="/editions/")
+    raise BaseErrors.ListingNotSupported(query="/editions/")
 
 @router.get(
     path="/{edition_key}",
     response_model=APIResponse[Edition],
     responses={
-        '404': EDITION_NOT_FOUND_RESPONSE,
-        '422': INVALID_EDITION_KEY_RESPONSE
+        '404': EditionsErrors.NotFound.response,
+        '422': EditionsErrors.InvalidKey.response
     }
 )
 async def get_edition(
@@ -104,14 +93,14 @@ async def get_edition(
 
     # Validate if the key is a valid work key
     if KeyHandler.detect_key(edition_key) != 'edition':
-        raise INVALID_EDITION_KEY_ERROR(query, edition_key)
+        raise EditionsErrors.InvalidKey(query)
 
     # Fetch data
     data, column_names = editions_repo.get_edition_by_edition_key(connection, edition_key)
 
     # If no data is returned then error is raised
     if not data:
-        raise EDITION_NOT_FOUND_ERROR(query)
+        raise EditionsErrors.NotFound(query)
 
     # Format and return consistent API response structure
     return format_response(
@@ -127,8 +116,8 @@ async def get_edition(
     path="/{edition_key}/details",
     response_model=APIResponse[EditionsDetails],
     responses={
-        '404': EDITION_NOT_FOUND_RESPONSE,
-        '422': INVALID_EDITION_KEY_RESPONSE
+        '404': EditionsErrors.NotFound.response,
+        '422': EditionsErrors.InvalidKey.response
     }
 )
 async def get_editions_details(
@@ -152,14 +141,14 @@ async def get_editions_details(
 
     # Validate if the key is a valid work key
     if KeyHandler.detect_key(edition_key) != 'edition':
-        raise INVALID_EDITION_KEY_ERROR(query, edition_key)
+        raise EditionsErrors.InvalidKey(query)
 
     # Fetch data
     data, column_names = editions_repo.get_details_by_edition_key(connection, edition_key)
 
     # If no data is returned then error is raised
     if not data:
-        raise EDITION_NOT_FOUND_ERROR(query)
+        raise EditionsErrors.NotFound(query)
 
     # Format and return consistent API response structure
     return format_response(
@@ -175,8 +164,8 @@ async def get_editions_details(
     path="/{edition_key}/contents",
     response_model=APIResponse[EditionsContents],
     responses={
-        '404': EDITION_NOT_FOUND_RESPONSE,
-        '422': INVALID_EDITION_KEY_RESPONSE
+        '404': EditionsErrors.NotFound.response,
+        '422': EditionsErrors.InvalidKey.response
     }
 )
 async def get_editions_contents(
@@ -200,14 +189,14 @@ async def get_editions_contents(
 
     # Validate if the key is a valid work key
     if KeyHandler.detect_key(edition_key) != 'edition':
-        raise INVALID_EDITION_KEY_ERROR(query, edition_key)
+        raise EditionsErrors.InvalidKey(query)
 
     # Fetch data
     data, column_names = editions_repo.get_contents_by_edition_key(connection, edition_key)
 
     # If no data is returned then error is raised
     if not data:
-        raise EDITION_NOT_FOUND_ERROR(query)
+        raise EditionsErrors.NotFound(query)
 
     # Format and return consistent API response structure
     return format_response(
@@ -223,8 +212,8 @@ async def get_editions_contents(
     path="/{edition_key}/publishing",
     response_model=APIResponse[EditionsPublishing],
     responses={
-        '404': EDITION_NOT_FOUND_RESPONSE,
-        '422': INVALID_EDITION_KEY_RESPONSE
+        '404': EditionsErrors.NotFound.response,
+        '422': EditionsErrors.InvalidKey.response
     }
 )
 async def get_editions_publishing(
@@ -248,14 +237,14 @@ async def get_editions_publishing(
 
     # Validate if the key is a valid work key
     if KeyHandler.detect_key(edition_key) != 'edition':
-        raise INVALID_EDITION_KEY_ERROR(query, edition_key)
+        raise EditionsErrors.InvalidKey(query)
 
     # Fetch data
     data, column_names = editions_repo.get_publishing_by_edition_key(connection, edition_key)
 
     # If no data is returned then error is raised
     if not data:
-        raise EDITION_NOT_FOUND_ERROR(query)
+        raise EditionsErrors.NotFound(query)
 
     # Format and return consistent API response structure
     return format_response(
@@ -271,8 +260,8 @@ async def get_editions_publishing(
     path="/{edition_key}/contributors",
     response_model=APIResponse[EditionsContributors],
     responses={
-        '404': EDITION_NOT_FOUND_RESPONSE,
-        '422': INVALID_EDITION_KEY_RESPONSE
+        '404': EditionsErrors.NotFound.response,
+        '422': EditionsErrors.InvalidKey.response
     }
 )
 async def get_editions_contributors(
@@ -296,14 +285,14 @@ async def get_editions_contributors(
 
     # Validate if the key is a valid work key
     if KeyHandler.detect_key(edition_key) != 'edition':
-        raise INVALID_EDITION_KEY_ERROR(query, edition_key)
+        raise EditionsErrors.InvalidKey(query)
 
     # Fetch data
     data, column_names = editions_repo.get_contributors_by_edition_key(connection, edition_key)
 
     # If no data is returned then error is raised
     if not data:
-        raise EDITION_NOT_FOUND_ERROR(query)
+        raise EditionsErrors.NotFound(query)
 
     # Format and return consistent API response structure
     return format_response(

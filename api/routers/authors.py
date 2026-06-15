@@ -40,25 +40,14 @@ from api.dependencies import DB_DEPENDENCY
 import api.repository.authors as authors_repo
 from api.service import format_response
 
-from api.schemas import (
-    Author,
+from api.errors import BaseErrors, AuthorsErrors
+from api.schemas.responses import APIResponse
+from api.schemas.entities.core import Author
+from api.schemas.entities.relationships import (
     AuthorsWorks,
     AuthorsEditions,
     AuthorsStatistics,
-    AuthorsAlternativeNames,
-    APIResponse
-)
-
-from api.exceptions import (
-    LISTING_NOT_SUPPORTED,
-    INVALID_AUTHOR_KEY_ERROR,
-    AUTHOR_NOT_FOUND_ERROR
-)
-
-from api.responses import (
-    LISTING_NOT_SUPPORTED_RESPONSE,
-    AUTHOR_NOT_FOUND_RESPONSE,
-    INVALID_AUTHOR_KEY_RESPONSE
+    AuthorsAlternativeNames
 )
 
 # --- Defining the authors router ---
@@ -68,7 +57,7 @@ router = APIRouter(
 )
 
 # --- Defining all endpoints ---
-@router.get("/",  responses={'405': LISTING_NOT_SUPPORTED_RESPONSE})
+@router.get("/",  responses={'405': BaseErrors.ListingNotSupported.response})
 async def authors_root() -> None:
     """
     Root endpoint for the authors collection
@@ -78,14 +67,14 @@ async def authors_root() -> None:
     It exists to explicitly reject requests made to `/authors/` without a
     valid `author_key`, and returns a standardized error response
     """
-    raise LISTING_NOT_SUPPORTED(query="/authors/")
+    raise BaseErrors.ListingNotSupported(query="/authors/")
 
 @router.get(
     path="/{author_key}",
     response_model=APIResponse[Author],
     responses={
-        '404': AUTHOR_NOT_FOUND_RESPONSE,
-        '422': INVALID_AUTHOR_KEY_RESPONSE
+        '404': AuthorsErrors.NotFound.response,
+        '422': AuthorsErrors.InvalidKey.response
     }
 )
 async def get_author(
@@ -109,14 +98,14 @@ async def get_author(
 
     # Validate if the key is a valid work key
     if KeyHandler.detect_key(author_key) != 'author':
-        raise INVALID_AUTHOR_KEY_ERROR(query, author_key)
+        raise AuthorsErrors.InvalidKey(query)
 
     # Fetch data
     data, column_names = authors_repo.get_author_by_author_key(connection, author_key)
 
     # If no data is returned then error is raised
     if not data:
-        raise AUTHOR_NOT_FOUND_ERROR(query)
+        raise AuthorsErrors.NotFound(query)
 
     # Format and return consistent API response structure
     return format_response(
@@ -132,8 +121,8 @@ async def get_author(
     path="/{author_key}/works",
     response_model=APIResponse[AuthorsWorks],
     responses={
-        '404': AUTHOR_NOT_FOUND_RESPONSE,
-        '422': INVALID_AUTHOR_KEY_RESPONSE
+        '404': AuthorsErrors.NotFound.response,
+        '422': AuthorsErrors.InvalidKey.response
     }
 )
 async def get_authors_works(
@@ -157,14 +146,14 @@ async def get_authors_works(
 
     # Validate if the key is a valid work key
     if KeyHandler.detect_key(author_key) != 'author':
-        raise INVALID_AUTHOR_KEY_ERROR(query, author_key)
+        raise AuthorsErrors.InvalidKey(query)
 
     # Fetch data
     data, column_names = authors_repo.get_works_by_author_key(connection, author_key)
 
     # If no data is returned then error is raised
     if not data:
-        raise AUTHOR_NOT_FOUND_ERROR(query)
+        raise AuthorsErrors.NotFound(query)
 
     # Format and return consistent API response structure
     return format_response(
@@ -180,8 +169,8 @@ async def get_authors_works(
     path="/{author_key}/editions",
     response_model=APIResponse[AuthorsEditions],
     responses={
-        '404': AUTHOR_NOT_FOUND_RESPONSE,
-        '422': INVALID_AUTHOR_KEY_RESPONSE
+        '404': AuthorsErrors.NotFound.response,
+        '422': AuthorsErrors.InvalidKey.response
     }
 )
 async def get_authors_editions(
@@ -205,14 +194,14 @@ async def get_authors_editions(
 
     # Validate if the key is a valid work key
     if KeyHandler.detect_key(author_key) != 'author':
-        raise INVALID_AUTHOR_KEY_ERROR(query, author_key)
+        raise AuthorsErrors.InvalidKey(query)
 
     # Fetch data
     data, column_names = authors_repo.get_editions_by_author_key(connection, author_key)
 
     # If no data is returned then error is raised
     if not data:
-        raise AUTHOR_NOT_FOUND_ERROR(query)
+        raise AuthorsErrors.NotFound(query)
 
     # Format and return consistent API response structure
     return format_response(
@@ -228,8 +217,8 @@ async def get_authors_editions(
     path="/{author_key}/statistics",
     response_model=APIResponse[AuthorsStatistics],
     responses={
-        '404': AUTHOR_NOT_FOUND_RESPONSE,
-        '422': INVALID_AUTHOR_KEY_RESPONSE
+        '404': AuthorsErrors.NotFound.response,
+        '422': AuthorsErrors.InvalidKey.response
     }
 )
 async def get_authors_statistics(
@@ -253,14 +242,14 @@ async def get_authors_statistics(
 
     # Validate if the key is a valid work key
     if KeyHandler.detect_key(author_key) != 'author':
-        raise INVALID_AUTHOR_KEY_ERROR(query, author_key)
+        raise AuthorsErrors.InvalidKey(query)
 
     # Fetch data
     data, column_names = authors_repo.get_author_statistics_by_author_key(connection, author_key)
 
     # If no data is returned then error is raised
     if not data:
-        raise AUTHOR_NOT_FOUND_ERROR(query)
+        raise AuthorsErrors.NotFound(query)
 
     # Format and return consistent API response structure
     return format_response(
@@ -276,8 +265,8 @@ async def get_authors_statistics(
     path="/{author_key}/alternative_names",
     response_model=APIResponse[AuthorsAlternativeNames],
     responses={
-        '404': AUTHOR_NOT_FOUND_RESPONSE,
-        '422': INVALID_AUTHOR_KEY_RESPONSE
+        '404': AuthorsErrors.NotFound.response,
+        '422': AuthorsErrors.InvalidKey.response
     }
 )
 async def get_authors_alternative_names(
@@ -301,14 +290,14 @@ async def get_authors_alternative_names(
 
     # Validate if the key is a valid work key
     if KeyHandler.detect_key(author_key) != 'author':
-        raise INVALID_AUTHOR_KEY_ERROR(query, author_key)
+        raise AuthorsErrors.InvalidKey(query)
 
     # Fetch data
     data, column_names = authors_repo.get_author_alternative_names_by_author_key(connection, author_key)
 
     # If no data is returned then error is raised
     if not data:
-        raise AUTHOR_NOT_FOUND_ERROR(query)
+        raise AuthorsErrors.NotFound(query)
 
     # Format and return consistent API response structure
     return format_response(
