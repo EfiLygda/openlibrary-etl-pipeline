@@ -62,22 +62,25 @@ def get_works_by_author_key(
     query = """
     SELECT
         a.author_key,
-        COUNT(*) AS record_count,
-        json_agg(
-            json_build_object(
-                'work_key', w.work_key,
-                'title', w.title,
-                'subtitle', w.subtitle,
-                'edition_count', w.edition_count,
-                'first_publish_year', w.first_publish_year
-            )
-            ORDER BY w.first_publish_year DESC NULLS LAST
+        COUNT(w.work_key) AS record_count,
+        COALESCE(
+            json_agg(
+                json_build_object(
+                    'work_key', w.work_key,
+                    'title', w.title,
+                    'subtitle', w.subtitle,
+                    'edition_count', w.edition_count,
+                    'first_publish_year', w.first_publish_year
+                )
+                ORDER BY w.first_publish_year DESC NULLS LAST
+            ) FILTER (WHERE w.work_key IS NOT NULL),
+            '[]'::json
         ) AS records
     FROM
         authors AS a
-        INNER JOIN authors_works AS aw
+        LEFT JOIN authors_works AS aw
         ON a.author_key = aw.author_key
-        INNER JOIN works AS w
+        LEFT JOIN works AS w
         ON aw.work_key = w.work_key
     WHERE
         a.author_key = %s
