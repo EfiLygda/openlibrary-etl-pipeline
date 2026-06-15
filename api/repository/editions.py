@@ -162,24 +162,29 @@ def get_publishing_by_edition_key(
     # Construction of the query
     query = """
     SELECT
-        edition_key,
-        COUNT(*) AS record_count,
-        json_agg(
-            json_build_object(
-                'publish_date', publish_date,
-                'publish_year', publish_year,
-                'publisher', publisher,
-                'publish_place', publish_place,
-                'publish_country', publish_country,
-                'series_title', series
-            )
+        e.edition_key,
+        COUNT(ep.edition_key) AS record_count,
+        COALESCE(
+            json_agg(
+                json_build_object(
+                    'publish_date', ep.publish_date,
+                    'publish_year', ep.publish_year,
+                    'publisher', ep.publisher,
+                    'publish_place', ep.publish_place,
+                    'publish_country', ep.publish_country,
+                    'series_title', ep.series
+                )
+            ) FILTER (WHERE ep.edition_key IS NOT NULL),
+            '[]'::json
         ) AS records
-    FROM
-        editions_publishing
+    FROM 
+        editions AS e
+        LEFT JOIN editions_publishing AS ep
+        ON e.edition_key = ep.edition_key
     WHERE
-        edition_key = %s
+        e.edition_key = %s
     GROUP BY
-        edition_key
+        e.edition_key
     """
 
     # Fetch the records

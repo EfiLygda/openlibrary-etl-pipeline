@@ -240,13 +240,24 @@ async def get_editions_publishing(
     - **records**: formatted database rows
     """
 
+    # Current query
+    query = f'/editions/{edition_key}/publishing'
+
+    # Validate if the key is a valid work key
+    if KeyHandler.detect_key(edition_key) != 'edition':
+        raise INVALID_EDITION_KEY_ERROR(query, edition_key)
+
     # Fetch data
     data, column_names = editions_repo.get_publishing_by_edition_key(connection, edition_key)
+
+    # If no data is returned then error is raised
+    if not data:
+        raise EDITION_NOT_FOUND_ERROR(query)
 
     # Format and return consistent API response structure
     return format_response(
         query=edition_key,
-        endpoint=f'/editions/{edition_key}/publishing',
+        endpoint=query,
         method='GET',
         records=data,
         column_names=column_names,
