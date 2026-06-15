@@ -86,7 +86,7 @@ class AuthorStatistics(BaseModel):
 
 # - EDITIONS -
 class EditionDetails(BaseModel):
-    edition_key: str
+    # edition_key: str
     number_of_pages: Optional[int] = None
     physical_format: Optional[str] = None
     physical_dimensions: Optional[str] = None
@@ -206,5 +206,7 @@ AuthorsAlternativeNames: TypeAlias = AuthorGroup[str]
 AuthorsEditions: TypeAlias = AuthorGroup[EditionSummary]
 
 # - EDITIONS -
+EditionsDetails: TypeAlias = EditionGroup[EditionDetails]
+EditionsContents: TypeAlias = EditionGroup[EditionContents]
 EditionsPublishing: TypeAlias = EditionGroup[EditionPublishing]
 EditionsContributors: TypeAlias = EditionGroup[EditionContributor]
