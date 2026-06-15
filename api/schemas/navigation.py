@@ -43,4 +43,4 @@ class EditionLinks(BaseModel):
 # Aliasing Types
 # --------------------------------------------------------------------
 
-Link: TypeAlias = WorkLinks | AuthorLinks | EditionLinks
+Link: TypeAlias = WorkLinks | AuthorLinks | EditionLinks | None
