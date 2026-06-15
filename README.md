@@ -231,7 +231,7 @@ For the complete logging specification, see [events.md](docs/logging/events.md).
 
 ## API Overview
 
-This project provides a RESTful API built with FastAPI that exposes structured access to works, authors, editions, ratings, availability, and related metadata stored in a relational database derived from Open Library data.
+This project provides a REST-style API built with FastAPI that exposes structured access to works, authors, editions, ratings, availability, and related metadata stored in a relational database derived from Open Library data.
 
 ### How to Run
 
