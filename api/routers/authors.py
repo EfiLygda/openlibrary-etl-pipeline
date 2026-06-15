@@ -40,13 +40,14 @@ from api.dependencies import DB_DEPENDENCY
 import api.repository.authors as authors_repo
 from api.service import format_response
 
-from api.schemas import (
-    Author,
+from api.schemas.responses import APIResponse
+from api.schemas.entities.core import Author
+
+from api.schemas.entities.relationships import (
     AuthorsWorks,
     AuthorsEditions,
     AuthorsStatistics,
-    AuthorsAlternativeNames,
-    APIResponse
+    AuthorsAlternativeNames
 )
 
 from api.exceptions import (

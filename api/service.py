@@ -4,7 +4,7 @@ Transformation utilities for formatting database query results
 
 from typing import TypeVar, Type
 from pydantic import BaseModel
-from api.schemas import APIResponse
+from api.schemas.responses import APIResponse
 
 T = TypeVar('T', bound=BaseModel)
 

@@ -7,7 +7,7 @@ Module containing constructing all the exceptions' responses objects as dictiona
 and displaying the right error code in the documentation
 """
 
-from api.schemas import APIError
+from api.schemas.errors import APIError
 
 def error_response(description: str, code: str) -> dict:
     """

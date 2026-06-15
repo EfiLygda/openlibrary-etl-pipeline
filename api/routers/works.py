@@ -42,15 +42,16 @@ from api.dependencies import DB_DEPENDENCY
 import api.repository.works as works_repo
 from api.service import format_response
 
-from api.schemas import (
-    Work,
+from api.schemas.responses import APIResponse
+from api.schemas.entities.core import Work
+
+from api.schemas.entities.relationships import (
     WorksAuthors,
     WorksEditions,
     WorksSeries,
     WorksAvailability,
     WorksOverview,
-    WorksRatings,
-    APIResponse,
+    WorksRatings
 )
 
 from api.exceptions import (
