@@ -30,6 +30,9 @@ This project is an independent work and is not affiliated with or endorsed by Op
   * [API Overview](#api-overview)
     * [How to Run](#how-to-run-1)
     * [API Documentation](#api-documentation)
+    * [Error Handling](#error-handling)
+      * [HTTP Status Codes](#http-status-codes)
+      * [Error Types](#error-types)
 <!-- TOC -->
 
 ---
@@ -265,3 +268,24 @@ You can access it via:
 
 These interfaces allow you to explore and test all API endpoints directly in the browser.
 
+### Error Handling
+
+The API uses consistent HTTP status codes and structured error identifiers to make failures predictable and machine-readable.
+
+#### HTTP Status Codes
+
+    - 400 Bad Request
+    - 404 Not Found
+    - 405 Method Not Allowed
+    - 422 Unprocessable Content
+
+#### Error Types
+
+Each error response includes a domain-specific identifier:
+
+| Status Code   | Description                                                                         | Error Codes                                                                       |
+|---------------|-------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| `400`         | Bad Request - The request is invalid or malformed                                   | `INVALID_INPUT_ERROR`                                                             |
+| `404`         | Not Found - The requested resource does not exist                                   | `WORK_NOT_FOUND_ERROR`, `AUTHOR_NOT_FOUND_ERROR`, `EDITION_NOT_FOUND_ERROR`       |
+| `405`         | Method Not Allowed - The HTTP method is not supported for this endpoint             | `LISTING_NOT_SUPPORTED`                                                           |
+| `422`         | Unprocessable Content - The request is syntactically valid but semantically invalid | `INVALID_WORK_KEY_ERROR`, `INVALID_AUTHOR_KEY_ERROR`, `INVALID_EDITION_KEY_ERROR` |
