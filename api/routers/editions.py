@@ -64,7 +64,7 @@ router = APIRouter(
 
 # --- Defining all endpoints ---
 @router.get("/",  responses={'405': LISTING_NOT_SUPPORTED_RESPONSE})
-async def works_root() -> None:
+async def editions_root() -> None:
     """
     Root endpoint for the editions collection
 

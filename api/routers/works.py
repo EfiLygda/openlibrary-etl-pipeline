@@ -330,7 +330,7 @@ async def get_work_availability(
         '422': INVALID_WORK_KEY_RESPONSE
     }
 )
-async def get_work_subjects(
+async def get_work_ratings(
         work_key: str,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> APIResponse[WorksRatings]:

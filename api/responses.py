@@ -70,7 +70,7 @@ AUTHOR_NOT_FOUND_RESPONSE = error_response(
 
 INVALID_AUTHOR_KEY_RESPONSE = error_response(
     description='Invalid author key',
-    code='INVALID_AUTHOR_KEYERROR'
+    code='INVALID_AUTHOR_KEY_ERROR'
 )
 
 # --- Edition Responses ---
@@ -81,5 +81,5 @@ EDITION_NOT_FOUND_RESPONSE = error_response(
 
 INVALID_EDITION_KEY_RESPONSE = error_response(
     description='Invalid edition key',
-    code='INVALID_EDITION_KEYERROR'
+    code='INVALID_EDITION_KEY_ERROR'
 )

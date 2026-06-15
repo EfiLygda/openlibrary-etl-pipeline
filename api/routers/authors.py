@@ -69,7 +69,7 @@ router = APIRouter(
 
 # --- Defining all endpoints ---
 @router.get("/",  responses={'405': LISTING_NOT_SUPPORTED_RESPONSE})
-async def works_root() -> None:
+async def authors_root() -> None:
     """
     Root endpoint for the authors collection
 
