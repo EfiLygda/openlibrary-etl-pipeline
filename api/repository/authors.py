@@ -228,11 +228,15 @@ def get_author_alternative_names_by_author_key(
     query = """
     SELECT
         a.author_key,
-        COUNT(*) AS record_count,
-        array_agg(author_alternative_name) AS records
+        COUNT(altnames.author_alternative_name) AS record_count,
+        COALESCE(
+            array_agg(altnames.author_alternative_name)
+                FILTER (WHERE altnames.author_alternative_name IS NOT NULL),
+            ARRAY[]::text[]
+        ) AS records
     FROM
         authors AS a
-        INNER JOIN 
+        LEFT JOIN 
         authors_alternative_names AS altnames 
         ON a.author_key = altnames.author_key
     WHERE
