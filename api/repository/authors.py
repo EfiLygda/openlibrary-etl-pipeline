@@ -168,27 +168,30 @@ def get_author_statistics_by_author_key(
     query = """
     SELECT
         a.author_key,
-        COUNT(*) AS record_count,
-        json_agg(
-            json_build_object(
-                'top_work', astat.top_work,
-                'work_count', astat.work_count,
-                
-                'ratings_count_1', astat.ratings_count_1,
-                'ratings_count_2', astat.ratings_count_2,
-                'ratings_count_3', astat.ratings_count_3,
-                'ratings_count_4', astat.ratings_count_4,
-                'ratings_count_5', astat.ratings_count_5,
-                
-                'readinglog_count', astat.readinglog_count,
-                'want_to_read_count', astat.want_to_read_count,
-                'currently_reading_count', astat.currently_reading_count,
-                'already_read_count', astat.already_read_count
-            )
+        COUNT(astat.author_key) AS record_count,
+        COALESCE(
+            json_agg(
+                json_build_object(
+                    'top_work', astat.top_work,
+                    'work_count', astat.work_count,
+    
+                    'ratings_count_1', astat.ratings_count_1,
+                    'ratings_count_2', astat.ratings_count_2,
+                    'ratings_count_3', astat.ratings_count_3,
+                    'ratings_count_4', astat.ratings_count_4,
+                    'ratings_count_5', astat.ratings_count_5,
+    
+                    'readinglog_count', astat.readinglog_count,
+                    'want_to_read_count', astat.want_to_read_count,
+                    'currently_reading_count', astat.currently_reading_count,
+                    'already_read_count', astat.already_read_count
+                )
+            ) FILTER (WHERE astat.author_key IS NOT NULL),
+            '[]'::json
         ) AS records
     FROM
         authors AS a
-        INNER JOIN authors_statistics AS astat
+        LEFT JOIN authors_statistics AS astat
         ON a.author_key = astat.author_key
     WHERE
         a.author_key = %s
