@@ -38,7 +38,7 @@ from api.schemas import (
     EditionContents,
     EditionsPublishing,
     EditionsContributors,
-    APIResponse, EditionsDetails,
+    APIResponse, EditionsDetails, EditionsContents,
 )
 
 from api.exceptions import (
@@ -170,16 +170,16 @@ async def get_editions_details(
 
 @router.get(
     path="/{edition_key}/contents",
-    response_model=APIResponse[EditionContents],
+    response_model=APIResponse[EditionsContents],
     responses={
         '404': EDITION_NOT_FOUND_RESPONSE,
         '422': INVALID_EDITION_KEY_RESPONSE
     }
 )
-async def get_editions_details(
+async def get_editions_contents(
         edition_key: str,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
-) -> APIResponse[EditionContents]:
+) -> APIResponse[EditionsContents]:
     """
     Retrieve an edition's contents records by **edition_key**.
 
@@ -192,17 +192,28 @@ async def get_editions_details(
     - **records**: formatted database rows
     """
 
+    # Current query
+    query = f'/editions/{edition_key}/contents'
+
+    # Validate if the key is a valid work key
+    if KeyHandler.detect_key(edition_key) != 'edition':
+        raise INVALID_EDITION_KEY_ERROR(query, edition_key)
+
     # Fetch data
     data, column_names = editions_repo.get_contents_by_edition_key(connection, edition_key)
+
+    # If no data is returned then error is raised
+    if not data:
+        raise EDITION_NOT_FOUND_ERROR(query)
 
     # Format and return consistent API response structure
     return format_response(
         query=edition_key,
-        endpoint=f'/editions/{edition_key}/contents',
+        endpoint=query,
         method='GET',
         records=data,
         column_names=column_names,
-        model=EditionContents
+        model=EditionsContents
     )
 
 @router.get(

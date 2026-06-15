@@ -86,7 +86,6 @@ class AuthorStatistics(BaseModel):
 
 # - EDITIONS -
 class EditionDetails(BaseModel):
-    # edition_key: str
     number_of_pages: Optional[int] = None
     physical_format: Optional[str] = None
     physical_dimensions: Optional[str] = None
@@ -94,7 +93,6 @@ class EditionDetails(BaseModel):
     language: Optional[str] = None
 
 class EditionContents(BaseModel):
-    edition_key: str
     description: Optional[str] = None
     notes: Optional[str] = None
     first_sentence: Optional[str] = None
