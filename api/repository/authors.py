@@ -6,7 +6,7 @@ to fetch author-related data
 """
 
 import psycopg2
-from api.repository.base import get_with_filter_key
+from api.repository.base import execute_query
 
 def get_author_by_author_key(
     connection: psycopg2.extensions.connection,
@@ -34,7 +34,7 @@ def get_author_by_author_key(
     """
 
     # Fetch the records
-    authors, authors_column_names = get_with_filter_key(
+    authors, authors_column_names = execute_query(
         connection=connection,
         filter_key=author_key,
         query=query
@@ -89,7 +89,7 @@ def get_works_by_author_key(
     """
 
     # Fetch the records
-    work_data, work_column_names = get_with_filter_key(
+    work_data, work_column_names = execute_query(
         connection=connection,
         filter_key=author_key,
         query=query
@@ -140,7 +140,7 @@ def get_editions_by_author_key(
     """
 
     # Fetch the records
-    edition_data, edition_column_names = get_with_filter_key(
+    edition_data, edition_column_names = execute_query(
         connection=connection,
         filter_key=author_key,
         query=query
@@ -200,7 +200,7 @@ def get_author_statistics_by_author_key(
     """
 
     # Fetch the records
-    statistics_data, statistics_column_names = get_with_filter_key(
+    statistics_data, statistics_column_names = execute_query(
         connection=connection,
         filter_key=author_key,
         query=query
@@ -246,7 +246,7 @@ def get_author_alternative_names_by_author_key(
     """
 
     # Fetch the records
-    alternative_names_data, alternative_names_column_names = get_with_filter_key(
+    alternative_names_data, alternative_names_column_names = execute_query(
         connection=connection,
         filter_key=author_key,
         query=query

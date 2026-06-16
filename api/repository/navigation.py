@@ -6,7 +6,6 @@ to fetch navigation-related data
 """
 
 import psycopg2
-from api.repository.base import get_with_filter_key
 
 def exists_with_filter_key_by_entity_type(
         connection: psycopg2.extensions.connection,

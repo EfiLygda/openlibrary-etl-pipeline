@@ -6,7 +6,7 @@ to fetch work-related data
 """
 
 import psycopg2
-from api.repository.base import get_with_filter_key, read_query
+from api.repository.base import execute_query
 
 
 def get_works_by_work_key(
@@ -24,21 +24,17 @@ def get_works_by_work_key(
         * `works_column_names` - column names corresponding to the records
     """
 
-    # Construction of the query
-    query = """
-    SELECT
-        *
-    FROM 
-        works 
-    WHERE 
-        work_key = %(filter_key)s
-    """
+    # Set up the query parameters
+    params = {
+        'filter_key': work_key
+    }
 
     # Fetch the records
-    works, works_column_names = get_with_filter_key(
+    works, works_column_names = execute_query(
         connection=connection,
-        filter_key=work_key,
-        query=query
+        params=params,
+        query_module='works',
+        query_filename='get_work.sql'
     )
 
     return works, works_column_names
@@ -46,8 +42,8 @@ def get_works_by_work_key(
 def get_authors_by_work_key(
         connection: psycopg2.extensions.connection,
         work_key: str,
-        limit: int,
-        offset: int
+        limit: int | None = None,
+        offset: int | None = None
 ) -> tuple:
     """
     Retrieve author information associated with a given work key
@@ -61,16 +57,23 @@ def get_authors_by_work_key(
         * `author_column_names` - column names corresponding to the query result
     """
 
-    # Construction of the query
-    query = read_query(router='works', filename='get_authors.sql')
+    # Set up the query parameters
+    params = {
+        'filter_key': work_key,
+    }
+
+    if not limit is None:
+        params['limit'] = limit
+
+    if not offset is None:
+        params['offset'] = offset
 
     # Fetch the records
-    author_data, author_column_names = get_with_filter_key(
+    author_data, author_column_names = execute_query(
         connection=connection,
-        filter_key=work_key,
-        limit=limit,
-        offset=offset,
-        query=query
+        params=params,
+        query_module='works',
+        query_filename='get_authors.sql'
     )
 
     return author_data, author_column_names
@@ -119,7 +122,7 @@ def get_editions_by_work_key(
     """
 
     # Fetch the records
-    editions_data, editions_column_names = get_with_filter_key(
+    editions_data, editions_column_names = execute_query(
         connection=connection,
         filter_key=work_key,
         limit=limit,
@@ -172,7 +175,7 @@ def get_series_by_work_key(
     """
 
     # Fetch the records
-    series_data, series_column_names = get_with_filter_key(
+    series_data, series_column_names = execute_query(
         connection=connection,
         filter_key=work_key,
         limit=limit,
@@ -226,7 +229,7 @@ def get_availability_by_work_key(
     """
 
     # Fetch the records
-    availability_data, availability_column_names = get_with_filter_key(
+    availability_data, availability_column_names = execute_query(
         connection=connection,
         filter_key=work_key,
         limit=limit,
@@ -281,7 +284,7 @@ def get_ratings_by_work_key(
     """
 
     # Fetch the records
-    ratings_data, ratings_column_names = get_with_filter_key(
+    ratings_data, ratings_column_names = execute_query(
         connection=connection,
         filter_key=work_key,
         limit=limit,
@@ -372,7 +375,7 @@ def get_overview_by_work_key(
     """
 
     # Fetch the records
-    subject_data, subject_column_names = get_with_filter_key(
+    subject_data, subject_column_names = execute_query(
         connection=connection,
         filter_key=work_key,
         limit=limit,

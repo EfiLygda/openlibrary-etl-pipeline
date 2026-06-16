@@ -6,7 +6,7 @@ to fetch edition-related data
 """
 
 import psycopg2
-from api.repository.base import get_with_filter_key
+from api.repository.base import execute_query
 
 def get_edition_by_edition_key(
     connection: psycopg2.extensions.connection,
@@ -34,7 +34,7 @@ def get_edition_by_edition_key(
     """
 
     # Fetch the records
-    editions, editions_column_names = get_with_filter_key(
+    editions, editions_column_names = execute_query(
         connection=connection,
         filter_key=edition_key,
         query=query
@@ -85,7 +85,7 @@ def get_details_by_edition_key(
     """
 
     # Fetch the records
-    details_data, details_column_names = get_with_filter_key(
+    details_data, details_column_names = execute_query(
         connection=connection,
         filter_key=edition_key,
         query=query
@@ -135,7 +135,7 @@ def get_contents_by_edition_key(
     """
 
     # Fetch the records
-    content_data, content_column_names = get_with_filter_key(
+    content_data, content_column_names = execute_query(
         connection=connection,
         filter_key=edition_key,
         query=query
@@ -188,7 +188,7 @@ def get_publishing_by_edition_key(
     """
 
     # Fetch the records
-    publishing_data, publishing_column_names = get_with_filter_key(
+    publishing_data, publishing_column_names = execute_query(
         connection=connection,
         filter_key=edition_key,
         query=query
@@ -240,7 +240,7 @@ def get_contributors_by_edition_key(
     """
 
     # Fetch the records
-    contributors_data, contributors_column_names = get_with_filter_key(
+    contributors_data, contributors_column_names = execute_query(
         connection=connection,
         filter_key=edition_key,
         query=query
