@@ -185,32 +185,23 @@ def get_author_alternative_names_by_author_key(
         * `alternative_names_column_names` - column names corresponding to the query result
     """
 
-    # Construction of the query
-    query = """
-    SELECT
-        a.author_key,
-        COUNT(altnames.author_alternative_name) AS record_count,
-        COALESCE(
-            array_agg(altnames.author_alternative_name)
-                FILTER (WHERE altnames.author_alternative_name IS NOT NULL),
-            ARRAY[]::text[]
-        ) AS records
-    FROM
-        authors AS a
-        LEFT JOIN 
-        authors_alternative_names AS altnames 
-        ON a.author_key = altnames.author_key
-    WHERE
-        a.author_key = %(filter_key)s
-    GROUP BY
-        a.author_key
-    """
+    # Set up the query parameters
+    params = {
+        'filter_key': author_key
+    }
+
+    if not limit is None:
+        params['limit'] = limit
+
+    if not offset is None:
+        params['offset'] = offset
 
     # Fetch the records
     alternative_names_data, alternative_names_column_names = execute_query(
         connection=connection,
-        filter_key=author_key,
-        query=query
+        params=params,
+        query_module='authors',
+        query_filename='get_alternative_names.sql'
     )
 
     return alternative_names_data, alternative_names_column_names
