@@ -123,7 +123,6 @@ async def get_author(
     return format_response(
         query=author_key,
         self=query,
-        method='GET',
         records=data,
         column_names=column_names,
         model=Author
@@ -178,7 +177,6 @@ async def get_authors_works(
     return format_response(
         query=author_key,
         self=query,
-        method='GET',
         records=data,
         column_names=column_names,
         model=AuthorsWorks
@@ -233,7 +231,6 @@ async def get_authors_editions(
     return format_response(
         query=author_key,
         self=query,
-        method='GET',
         records=data,
         column_names=column_names,
         model=AuthorsEditions
@@ -288,7 +285,6 @@ async def get_authors_statistics(
     return format_response(
         query=author_key,
         self=query,
-        method='GET',
         records=data,
         column_names=column_names,
         model=AuthorsStatistics
@@ -343,7 +339,6 @@ async def get_authors_alternative_names(
     return format_response(
         query=author_key,
         self=query,
-        method='GET',
         records=data,
         column_names=column_names,
         model=AuthorsAlternativeNames

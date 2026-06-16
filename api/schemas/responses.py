@@ -20,7 +20,6 @@ T = TypeVar('T')
 class APIResponse(BaseModel, Generic[T]):
     query: str
     self: str
-    method: str
     entity_count: int
     results: list[T]
 

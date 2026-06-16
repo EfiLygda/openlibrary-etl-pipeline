@@ -115,7 +115,6 @@ async def get_edition(
     return format_response(
         query=edition_key,
         self=query,
-        method='GET',
         records=data,
         column_names=column_names,
         model=Edition
@@ -163,7 +162,6 @@ async def get_editions_details(
     return format_response(
         query=edition_key,
         self=query,
-        method='GET',
         records=data,
         column_names=column_names,
         model=EditionsDetails
@@ -211,7 +209,6 @@ async def get_editions_contents(
     return format_response(
         query=edition_key,
         self=query,
-        method='GET',
         records=data,
         column_names=column_names,
         model=EditionsContents
@@ -259,7 +256,6 @@ async def get_editions_publishing(
     return format_response(
         query=edition_key,
         self=query,
-        method='GET',
         records=data,
         column_names=column_names,
         model=EditionsPublishing
@@ -307,7 +303,6 @@ async def get_editions_contributors(
     return format_response(
         query=edition_key,
         self=query,
-        method='GET',
         records=data,
         column_names=column_names,
         model=EditionsContributors

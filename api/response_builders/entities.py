@@ -58,7 +58,6 @@ def format_records(
 def format_response(
         query: str,
         self: str,
-        method: str,
         records: list,
         column_names: list[str],
         model: Type[T],
@@ -68,7 +67,6 @@ def format_response(
 
     :param query: str, the query used for the API
     :param self: str, the endpoint used for quering the API
-    :param method: str, HTTP method used (GET, POST, PUT, DELETE, PATCH, OPTIONS, and HEAD)
     :param records: list, list of records containing values
     :param column_names: list[str], list of column names corresponding to each value in a record
     :param model: Type[T], pydantic model class used to transform each record into a typed object
@@ -86,7 +84,6 @@ def format_response(
     return APIResponse(
         query=query,
         self=self,
-        method=method,
         entity_count=len(formatted_records),
         results=formatted_records
     )

@@ -126,7 +126,6 @@ async def get_work(
     return format_response(
         query=work_key,
         self=query,
-        method='GET',
         records=data,
         column_names=column_names,
         model=Work
@@ -181,7 +180,6 @@ async def get_work_authors(
     return format_response(
         query=work_key,
         self=query,
-        method='GET',
         records=data,
         column_names=column_names,
         model=WorksAuthors
@@ -236,7 +234,6 @@ async def get_work_editions(
     return format_response(
         query=work_key,
         self=query,
-        method='GET',
         records=data,
         column_names=column_names,
         model=WorksEditions
@@ -291,7 +288,6 @@ async def get_work_series(
     return format_response(
         query=work_key,
         self=query,
-        method='GET',
         records=data,
         column_names=column_names,
         model=WorksSeries
@@ -345,7 +341,6 @@ async def get_work_availability(
     return format_response(
         query=work_key,
         self=query,
-        method='GET',
         records=data,
         column_names=column_names,
         model=WorksAvailability
@@ -400,7 +395,6 @@ async def get_work_ratings(
     return format_response(
         query=work_key,
         self=query,
-        method='GET',
         records=data,
         column_names=column_names,
         model=WorksRatings
@@ -455,7 +449,6 @@ async def get_work_overview(
     return format_response(
         query=work_key,
         self=query,
-        method='GET',
         records=data,
         column_names=column_names,
         model=WorksOverview
