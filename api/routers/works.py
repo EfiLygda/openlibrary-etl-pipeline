@@ -104,7 +104,10 @@ async def get_work(
         raise WorksErrors.InvalidKey(query)
 
     # Fetch data
-    data, column_names = works_repo.get_works_by_work_key(connection, work_key)
+    data, column_names = works_repo.get_works_by_work_key(
+        connection=connection,
+        work_key=work_key
+    )
 
     # If no data is returned then error is raised
     if not data:
@@ -130,6 +133,8 @@ async def get_work(
 )
 async def get_work_authors(
         work_key: str,
+        limit: int = 20,
+        offset: int = 0,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> APIResponse[WorksAuthors]:
     """
@@ -152,7 +157,12 @@ async def get_work_authors(
         raise WorksErrors.InvalidKey(query)
 
     # Fetch data
-    data, column_names = works_repo.get_authors_by_work_key(connection, work_key)
+    data, column_names = works_repo.get_authors_by_work_key(
+        connection=connection,
+        work_key=work_key,
+        limit=limit,
+        offset=offset
+    )
 
     # If no data is returned then error is raised
     if not data:
@@ -178,6 +188,8 @@ async def get_work_authors(
 )
 async def get_work_editions(
         work_key: str,
+        limit: int = 20,
+        offset: int = 0,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> APIResponse[WorksEditions]:
     """
@@ -200,7 +212,12 @@ async def get_work_editions(
         raise WorksErrors.InvalidKey(query)
 
     # Fetch data
-    data, column_names = works_repo.get_editions_by_work_key(connection, work_key)
+    data, column_names = works_repo.get_editions_by_work_key(
+        connection=connection,
+        work_key=work_key,
+        limit=limit,
+        offset=offset
+    )
 
     # If no data is returned then error is raised
     if not data:
@@ -226,6 +243,8 @@ async def get_work_editions(
 )
 async def get_work_series(
         work_key: str,
+        limit: int = 20,
+        offset: int = 0,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> APIResponse[WorksSeries]:
     """
@@ -248,7 +267,12 @@ async def get_work_series(
         raise WorksErrors.InvalidKey(query)
 
     # Fetch data
-    data, column_names = works_repo.get_series_by_work_key(connection, work_key)
+    data, column_names = works_repo.get_series_by_work_key(
+        connection=connection,
+        work_key=work_key,
+        limit=limit,
+        offset=offset
+    )
 
     # If no data is returned then error is raised
     if not data:
@@ -274,6 +298,8 @@ async def get_work_series(
 )
 async def get_work_availability(
         work_key: str,
+        limit: int = 20,
+        offset: int = 0,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> APIResponse[WorksAvailability]:
     """
@@ -295,7 +321,12 @@ async def get_work_availability(
         raise WorksErrors.InvalidKey(query)
 
     # Fetch data
-    data, column_names = works_repo.get_availability_by_work_key(connection, work_key)
+    data, column_names = works_repo.get_availability_by_work_key(
+        connection=connection,
+        work_key=work_key,
+        limit=limit,
+        offset=offset
+    )
 
     # If no data is returned then error is raised
     if not data:
@@ -321,6 +352,8 @@ async def get_work_availability(
 )
 async def get_work_ratings(
         work_key: str,
+        limit: int = 20,
+        offset: int = 0,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> APIResponse[WorksRatings]:
     """
@@ -343,7 +376,12 @@ async def get_work_ratings(
         raise WorksErrors.InvalidKey(query)
 
     # Fetch data
-    data, column_names = works_repo.get_ratings_by_work_key(connection, work_key)
+    data, column_names = works_repo.get_ratings_by_work_key(
+        connection=connection,
+        work_key=work_key,
+        limit=limit,
+        offset=offset
+    )
 
     # If no data is returned then error is raised
     if not data:
@@ -369,6 +407,8 @@ async def get_work_ratings(
 )
 async def get_work_overview(
         work_key: str,
+        limit: int = 20,
+        offset: int = 0,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> APIResponse[WorksOverview]:
     """
@@ -391,7 +431,12 @@ async def get_work_overview(
         raise WorksErrors.InvalidKey(query)
 
     # Fetch data
-    data, column_names = works_repo.get_overview_by_work_key(connection, work_key)
+    data, column_names = works_repo.get_overview_by_work_key(
+        connection=connection,
+        work_key=work_key,
+        limit=limit,
+        offset=offset
+    )
 
     # If no data is returned then error is raised
     if not data:
