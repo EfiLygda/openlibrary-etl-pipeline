@@ -8,7 +8,6 @@ to fetch work-related data
 import psycopg2
 from api.repository.base import execute_query
 
-
 def get_works_by_work_key(
     connection: psycopg2.extensions.connection,
     work_key: str
@@ -51,6 +50,9 @@ def get_authors_by_work_key(
     :param connection: psycopg2.extensions.connection, active PostgreSQL database connection
     :param work_key: str, unique identifier of the work whose authors are to
         be retrieved
+    :param limit: int, maximum number of records to return (used for pagination)
+    :param offset: int, number of records to skip before starting to return results
+
     :returns: A tuple containing:
 
         * `author_data` - aggregated author records for the work
@@ -90,44 +92,32 @@ def get_editions_by_work_key(
     :param connection: active PostgreSQL database connection
     :param work_key: unique identifier of the work whose editions are to
         be retrieved
+    :param limit: int, maximum number of records to return (used for pagination)
+    :param offset: int, number of records to skip before starting to return results
+
     :returns: A tuple containing:
 
         * `editions_data` - aggregated edition records for the work
         * `editions_column_names` - column names corresponding to the query result
     """
-    # Construction of the query
-    query = """
-    SELECT 
-        w.work_key,
-        COUNT(e.edition_key) AS record_count,
-        COALESCE(
-            json_agg(
-                json_build_object(
-                    'edition_key', e.edition_key,
-                    'title', e.title,
-                    'subtitle', e.subtitle,
-                    'name', e.edition_name
-                )
-            ) FILTER (WHERE e.edition_key IS NOT NULL),
-            '[]'::json
-        ) AS records
-    FROM 
-        works AS w
-        LEFT JOIN editions AS e
-        ON w.work_key = e.work_key 
-    WHERE
-        w.work_key = %(filter_key)s
-    GROUP BY 
-        w.work_key
-    """
+
+    # Set up the query parameters
+    params = {
+        'filter_key': work_key,
+    }
+
+    if not limit is None:
+        params['limit'] = limit
+
+    if not offset is None:
+        params['offset'] = offset
 
     # Fetch the records
     editions_data, editions_column_names = execute_query(
         connection=connection,
-        filter_key=work_key,
-        limit=limit,
-        offset=offset,
-        query=query
+        params=params,
+        query_module='works',
+        query_filename='get_editions.sql'
     )
 
     return editions_data, editions_column_names
@@ -144,6 +134,9 @@ def get_series_by_work_key(
     :param connection: active PostgreSQL database connection
     :param work_key: unique identifier of the work whose series are to
         be retrieved
+    :param limit: int, maximum number of records to return (used for pagination)
+    :param offset: int, number of records to skip before starting to return results
+
     :returns: A tuple containing:
 
         * `series_data` - aggregated series records for the work
@@ -198,6 +191,9 @@ def get_availability_by_work_key(
     :param connection: active PostgreSQL database connection
     :param work_key: unique identifier of the work whose availability are to
         be retrieved
+    :param limit: int, maximum number of records to return (used for pagination)
+    :param offset: int, number of records to skip before starting to return results
+
     :returns: A tuple containing:
 
         * `availability_data` - aggregated availability records for the work
@@ -251,6 +247,9 @@ def get_ratings_by_work_key(
     :param connection: active PostgreSQL database connection
     :param work_key: unique identifier of the work whose ratings are to
         be retrieved
+    :param limit: int, maximum number of records to return (used for pagination)
+    :param offset: int, number of records to skip before starting to return results
+
     :returns: A tuple containing:
 
         * `ratings_data` - aggregated ratings records for the work
@@ -306,6 +305,9 @@ def get_overview_by_work_key(
     :param connection: active PostgreSQL database connection
     :param work_key: unique identifier of the work whose editions are to
         be retrieved
+    :param limit: int, maximum number of records to return (used for pagination)
+    :param offset: int, number of records to skip before starting to return results
+
     :returns: A tuple containing:
 
         * `subject_data` - aggregated subject, people, places and time periods records for the work
