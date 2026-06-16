@@ -6,11 +6,12 @@ to fetch work-related data
 """
 
 import psycopg2
-from api.repository.base import get_with_filter_key
+from api.repository.base import get_with_filter_key, read_query
+
 
 def get_works_by_work_key(
     connection: psycopg2.extensions.connection,
-    work_key: str,
+    work_key: str
 ) -> tuple:
     """
     Retrieve all work records associated with a given work key
@@ -30,7 +31,7 @@ def get_works_by_work_key(
     FROM 
         works 
     WHERE 
-        work_key = %s
+        work_key = %(filter_key)s
     """
 
     # Fetch the records
@@ -43,8 +44,10 @@ def get_works_by_work_key(
     return works, works_column_names
 
 def get_authors_by_work_key(
-    connection: psycopg2.extensions.connection,
-    work_key: str,
+        connection: psycopg2.extensions.connection,
+        work_key: str,
+        limit: int,
+        offset: int
 ) -> tuple:
     """
     Retrieve author information associated with a given work key
@@ -59,37 +62,14 @@ def get_authors_by_work_key(
     """
 
     # Construction of the query
-    query = """
-    SELECT 
-        w.work_key,
-        COUNT(a.author_key) AS record_count,
-        COALESCE(
-            json_agg(
-                json_build_object(
-                    'author_key', a.author_key,
-                    'author_name', a.author_name,
-                    'birth_year', a.birth_year,
-                    'death_year', a.death_year
-                )
-            ) FILTER (WHERE a.author_key IS NOT NULL),
-            '[]'::json
-        ) AS records
-    FROM 
-        works AS w
-        LEFT JOIN authors_works AS aw
-        ON w.work_key = aw.work_key
-        LEFT JOIN authors AS a
-        ON aw.author_key = a.author_key 
-    WHERE 
-        w.work_key = %(filter_key)s
-    GROUP BY
-        w.work_key
-    """
+    query = read_query(router='works', filename='get_authors.sql')
 
     # Fetch the records
     author_data, author_column_names = get_with_filter_key(
         connection=connection,
         filter_key=work_key,
+        limit=limit,
+        offset=offset,
         query=query
     )
 
@@ -97,7 +77,9 @@ def get_authors_by_work_key(
 
 def get_editions_by_work_key(
     connection: psycopg2.extensions.connection,
-    work_key: str
+    work_key: str,
+    limit: int,
+    offset: int
 ) -> tuple:
     """
     Retrieve edition information associated with a given work key
@@ -140,6 +122,8 @@ def get_editions_by_work_key(
     editions_data, editions_column_names = get_with_filter_key(
         connection=connection,
         filter_key=work_key,
+        limit=limit,
+        offset=offset,
         query=query
     )
 
@@ -147,7 +131,9 @@ def get_editions_by_work_key(
 
 def get_series_by_work_key(
     connection: psycopg2.extensions.connection,
-    work_key: str
+    work_key: str,
+    limit: int,
+    offset: int
 ) -> tuple:
     """
     Retrieve series information associated with a given work key
@@ -189,6 +175,8 @@ def get_series_by_work_key(
     series_data, series_column_names = get_with_filter_key(
         connection=connection,
         filter_key=work_key,
+        limit=limit,
+        offset=offset,
         query=query
     )
 
@@ -197,7 +185,9 @@ def get_series_by_work_key(
 
 def get_availability_by_work_key(
     connection: psycopg2.extensions.connection,
-    work_key: str
+    work_key: str,
+    limit: int,
+    offset: int
 ) -> tuple:
     """
     Retrieve availability information associated with a given work key
@@ -239,6 +229,8 @@ def get_availability_by_work_key(
     availability_data, availability_column_names = get_with_filter_key(
         connection=connection,
         filter_key=work_key,
+        limit=limit,
+        offset=offset,
         query=query
     )
 
@@ -246,7 +238,9 @@ def get_availability_by_work_key(
 
 def get_ratings_by_work_key(
     connection: psycopg2.extensions.connection,
-    work_key: str
+    work_key: str,
+    limit: int,
+    offset: int
 ) -> tuple:
     """
     Retrieve rating information associated with a given work key
@@ -290,6 +284,8 @@ def get_ratings_by_work_key(
     ratings_data, ratings_column_names = get_with_filter_key(
         connection=connection,
         filter_key=work_key,
+        limit=limit,
+        offset=offset,
         query=query
     )
 
@@ -297,7 +293,9 @@ def get_ratings_by_work_key(
 
 def get_overview_by_work_key(
     connection: psycopg2.extensions.connection,
-    work_key: str
+    work_key: str,
+    limit: int,
+    offset: int
 ) -> tuple:
     """
     Retrieve all subject, people, places and time periods information associated with a given work key
@@ -377,6 +375,8 @@ def get_overview_by_work_key(
     subject_data, subject_column_names = get_with_filter_key(
         connection=connection,
         filter_key=work_key,
+        limit=limit,
+        offset=offset,
         query=query
     )
 
