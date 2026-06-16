@@ -83,8 +83,8 @@ def get_authors_by_work_key(
 def get_editions_by_work_key(
     connection: psycopg2.extensions.connection,
     work_key: str,
-    limit: int,
-    offset: int
+    limit: int | None = None,
+    offset: int | None = None
 ) -> tuple:
     """
     Retrieve edition information associated with a given work key
@@ -125,8 +125,8 @@ def get_editions_by_work_key(
 def get_series_by_work_key(
     connection: psycopg2.extensions.connection,
     work_key: str,
-    limit: int,
-    offset: int
+    limit: int | None = None,
+    offset: int | None = None
 ) -> tuple:
     """
     Retrieve series information associated with a given work key
@@ -142,38 +142,24 @@ def get_series_by_work_key(
         * `series_data` - aggregated series records for the work
         * `series_column_names` - column names corresponding to the query result
     """
-    # Construction of the query
-    query = """
-    SELECT 
-        w.work_key,
-        COUNT(ws.series_key) AS record_count,
-        COALESCE(
-            json_agg(
-                json_build_object(
-                    'series_key', ws.series_key,
-                    'series_position', ws.series_position,
-                    'series_name', ws.series_name
-                )
-            ) FILTER (WHERE ws.series_key IS NOT NULL),
-            '[]'::json
-        ) AS records
-    FROM 
-        works AS w
-        LEFT JOIN works_series AS ws
-        ON w.work_key = ws.work_key 
-    WHERE
-        w.work_key = %(filter_key)s
-    GROUP BY 
-        w.work_key
-    """
+
+    # Set up the query parameters
+    params = {
+        'filter_key': work_key,
+    }
+
+    if not limit is None:
+        params['limit'] = limit
+
+    if not offset is None:
+        params['offset'] = offset
 
     # Fetch the records
     series_data, series_column_names = execute_query(
         connection=connection,
-        filter_key=work_key,
-        limit=limit,
-        offset=offset,
-        query=query
+        params=params,
+        query_module='works',
+        query_filename='get_series.sql'
     )
 
     return series_data, series_column_names
