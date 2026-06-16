@@ -185,38 +185,24 @@ def get_availability_by_work_key(
         * `availability_data` - aggregated availability records for the work
         * `availability_column_names` - column names corresponding to the query result
     """
-    # Construction of the query
-    query = """
-    SELECT 
-        w.work_key,
-        COUNT(wa.work_key) AS record_count,
-        COALESCE(
-            json_agg(
-                json_build_object(
-                    'ebook_access', wa.ebook_access,
-                    'has_fulltext', wa.has_fulltext,
-                    'has_public_scan', wa.has_public_scan
-                )
-            ) FILTER (WHERE wa.work_key IS NOT NULL),
-            '[]'::json
-        ) AS records
-    FROM 
-        works AS w
-        LEFT JOIN works_availability AS wa
-        ON w.work_key = wa.work_key 
-    WHERE
-        w.work_key = %(filter_key)s
-    GROUP BY 
-        w.work_key
-    """
+
+    # Set up the query parameters
+    params = {
+        'filter_key': work_key,
+    }
+
+    if not limit is None:
+        params['limit'] = limit
+
+    if not offset is None:
+        params['offset'] = offset
 
     # Fetch the records
     availability_data, availability_column_names = execute_query(
         connection=connection,
-        filter_key=work_key,
-        limit=limit,
-        offset=offset,
-        query=query
+        params=params,
+        query_module='works',
+        query_filename='get_availability.sql'
     )
 
     return availability_data, availability_column_names
