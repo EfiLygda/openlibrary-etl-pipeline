@@ -25,6 +25,9 @@ Endpoints:
   Retrieve contributors associated with an edition, such as authors, editors, and other collaborators
 """
 
+import os
+from dotenv import load_dotenv
+
 import psycopg2
 
 from fastapi import APIRouter
@@ -43,6 +46,13 @@ from api.schemas.entities.relationships import (
     EditionsPublishing,
     EditionsContributors
 )
+
+# Load variables from the .env file to the environment
+load_dotenv()
+
+# Save the hidden info to variables
+GENRE = os.getenv("API_LIMIT")
+API_LIMIT = int(os.getenv("API_LIMIT"))
 
 # --- Defining the editions router ---
 router = APIRouter(
