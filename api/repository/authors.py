@@ -23,21 +23,17 @@ def get_author_by_author_key(
         * `authors_column_names` - column names corresponding to the records
     """
 
-    # Construction of the query
-    query = """
-    SELECT
-        *
-    FROM 
-        authors 
-    WHERE 
-        author_key = %(filter_key)s
-    """
+    # Set up the query parameters
+    params = {
+        'filter_key': author_key
+    }
 
     # Fetch the records
     authors, authors_column_names = execute_query(
         connection=connection,
-        filter_key=author_key,
-        query=query
+        params=params,
+        query_module='authors',
+        query_filename='get_author.sql'
     )
 
     return authors, authors_column_names
