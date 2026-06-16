@@ -143,46 +143,23 @@ def get_author_statistics_by_author_key(
         * `statistics_column_names` - column names corresponding to the query result
     """
 
-    # Construction of the query
-    query = """
-    SELECT
-        a.author_key,
-        COUNT(astat.author_key) AS record_count,
-        COALESCE(
-            json_agg(
-                json_build_object(
-                    'top_work', astat.top_work,
-                    'work_count', astat.work_count,
-    
-                    'ratings_count_1', astat.ratings_count_1,
-                    'ratings_count_2', astat.ratings_count_2,
-                    'ratings_count_3', astat.ratings_count_3,
-                    'ratings_count_4', astat.ratings_count_4,
-                    'ratings_count_5', astat.ratings_count_5,
-    
-                    'readinglog_count', astat.readinglog_count,
-                    'want_to_read_count', astat.want_to_read_count,
-                    'currently_reading_count', astat.currently_reading_count,
-                    'already_read_count', astat.already_read_count
-                )
-            ) FILTER (WHERE astat.author_key IS NOT NULL),
-            '[]'::json
-        ) AS records
-    FROM
-        authors AS a
-        LEFT JOIN authors_statistics AS astat
-        ON a.author_key = astat.author_key
-    WHERE
-        a.author_key = %(filter_key)s
-    GROUP BY
-        a.author_key
-    """
+    # Set up the query parameters
+    params = {
+        'filter_key': author_key
+    }
+
+    if not limit is None:
+        params['limit'] = limit
+
+    if not offset is None:
+        params['offset'] = offset
 
     # Fetch the records
     statistics_data, statistics_column_names = execute_query(
         connection=connection,
-        filter_key=author_key,
-        query=query
+        params=params,
+        query_module='authors',
+        query_filename='get_statistics.sql'
     )
 
     return statistics_data, statistics_column_names
