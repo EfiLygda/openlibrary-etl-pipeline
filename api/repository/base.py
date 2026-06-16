@@ -2,9 +2,39 @@
 Contains main function for retrieving records associated with a given key using a structured query
 """
 
+import os
 import psycopg2
 from psycopg2.sql import SQL
+
+from config import ROOT_DIR
 from utilities.database import get_column_names
+
+def read_query(
+        router: str,
+        filename: str
+):
+    """
+    Load a SQL query from the repository SQL directory
+
+    This function reads a `.sql` file from the structured SQL folder
+    api/repository/sql/<router>/<filename>.sql and returns its raw
+    SQL content as a string
+
+    :param router: str, the domain or module name (e.g. "authors", "works", "editions")
+                        used to locate the correct SQL subfolder
+    :param filename: str, name of the SQL file to load
+
+    :returns: str, the raw SQL query string read from the file
+    """
+
+    # Build absolute path to SQL file inside repository structure
+    filepath = os.path.join(ROOT_DIR, 'api', 'repository', 'sql', router, filename)
+
+    # Read SQL file
+    with open(filepath, encoding='utf-8', mode='r') as f:
+        sql = f.read()
+
+    return sql
 
 def get_with_filter_key(
         connection: psycopg2.extensions.connection,
