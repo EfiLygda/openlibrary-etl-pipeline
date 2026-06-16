@@ -164,7 +164,6 @@ def get_series_by_work_key(
 
     return series_data, series_column_names
 
-
 def get_availability_by_work_key(
     connection: psycopg2.extensions.connection,
     work_key: str,
@@ -227,40 +226,24 @@ def get_ratings_by_work_key(
         * `ratings_data` - aggregated ratings records for the work
         * `ratings_column_names` - column names corresponding to the query result
     """
-    # Construction of the query
-    query = """
-    SELECT 
-        w.work_key,
-        COUNT(wr.work_key) AS record_count,
-        COALESCE(
-            json_agg(
-                json_build_object(
-                    'ratings_count_1', wr.ratings_count_1,
-                    'ratings_count_2', wr.ratings_count_2,
-                    'ratings_count_3', wr.ratings_count_3,
-                    'ratings_count_4', wr.ratings_count_4,
-                    'ratings_count_5', wr.ratings_count_5
-                )
-            ) FILTER (WHERE wr.work_key IS NOT NULL),
-            '[]'::json
-        ) AS records
-    FROM 
-        works AS w
-        LEFT JOIN works_ratings AS wr
-        ON w.work_key = wr.work_key 
-    WHERE
-        w.work_key = %(filter_key)s
-    GROUP BY 
-        w.work_key
-    """
+
+    # Set up the query parameters
+    params = {
+        'filter_key': work_key,
+    }
+
+    if not limit is None:
+        params['limit'] = limit
+
+    if not offset is None:
+        params['offset'] = offset
 
     # Fetch the records
     ratings_data, ratings_column_names = execute_query(
         connection=connection,
-        filter_key=work_key,
-        limit=limit,
-        offset=offset,
-        query=query
+        params=params,
+        query_module='works',
+        query_filename='get_ratings.sql'
     )
 
     return ratings_data, ratings_column_names
