@@ -13,7 +13,7 @@ from open_library import KeyHandler
 
 from api.dependencies import DB_DEPENDENCY
 import api.repository.navigation as navigation_repo
-from api.service import format_link_response
+from api.response_builders.links import format_response
 from api.errors import BaseErrors, LinksErrors
 from api.schemas.entities.core import EntityType
 from api.schemas.links import Link
@@ -83,7 +83,7 @@ async def get_links_by_key(
         raise LinksErrors.NotFound(query)
 
     # Format and return consistent Links response structure
-    return format_link_response(
+    return format_response(
         key=key,
         key_type=key_type
     )

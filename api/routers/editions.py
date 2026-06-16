@@ -33,8 +33,7 @@ from open_library import KeyHandler
 
 from api.dependencies import DB_DEPENDENCY
 import api.repository.editions as editions_repo
-from api.service import format_response
-
+from api.response_builders.entities import format_response
 from api.errors import BaseErrors, EditionsErrors
 from api.schemas.responses import APIResponse
 from api.schemas.entities.core import Edition

@@ -38,8 +38,7 @@ from open_library import KeyHandler
 
 from api.dependencies import DB_DEPENDENCY
 import api.repository.authors as authors_repo
-from api.service import format_response
-
+from api.response_builders.entities import format_response
 from api.errors import BaseErrors, AuthorsErrors
 from api.schemas.responses import APIResponse
 from api.schemas.entities.core import Author
