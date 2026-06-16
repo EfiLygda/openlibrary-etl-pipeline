@@ -9,8 +9,8 @@ import psycopg2
 from api.repository.base import execute_query
 
 def get_author_by_author_key(
-    connection: psycopg2.extensions.connection,
-    author_key: str,
+        connection: psycopg2.extensions.connection,
+        author_key: str,
 ) -> tuple:
     """
     Retrieve all author records associated with a given author key
@@ -39,8 +39,10 @@ def get_author_by_author_key(
     return authors, authors_column_names
 
 def get_works_by_author_key(
-    connection: psycopg2.extensions.connection,
-    author_key: str,
+        connection: psycopg2.extensions.connection,
+        author_key: str,
+        limit: int | None = None,
+        offset: int | None = None
 ) -> tuple:
     """
     Retrieve work information associated with a given author key
@@ -48,47 +50,32 @@ def get_works_by_author_key(
     :param connection: psycopg2.extensions.connection, active PostgreSQL database connection
     :param author_key: str, unique identifier of the work whose works are to
         be retrieved
+    :param limit: int, maximum number of records to return (used for pagination)
+    :param offset: int, number of records to skip before starting to return results
+
     :returns: A tuple containing:
 
         * `work_data` - aggregated work records for the author
         * `work_column_names` - column names corresponding to the query result
     """
 
-    # Construction of the query
-    query = """
-    SELECT
-        a.author_key,
-        COUNT(w.work_key) AS record_count,
-        COALESCE(
-            json_agg(
-                json_build_object(
-                    'work_key', w.work_key,
-                    'title', w.title,
-                    'subtitle', w.subtitle,
-                    'edition_count', w.edition_count,
-                    'first_publish_year', w.first_publish_year
-                )
-                ORDER BY w.first_publish_year DESC NULLS LAST
-            ) FILTER (WHERE w.work_key IS NOT NULL),
-            '[]'::json
-        ) AS records
-    FROM
-        authors AS a
-        LEFT JOIN authors_works AS aw
-        ON a.author_key = aw.author_key
-        LEFT JOIN works AS w
-        ON aw.work_key = w.work_key
-    WHERE
-        a.author_key = %(filter_key)s
-    GROUP BY
-        a.author_key
-    """
+    # Set up the query parameters
+    params = {
+        'filter_key': author_key
+    }
+
+    if not limit is None:
+        params['limit'] = limit
+
+    if not offset is None:
+        params['offset'] = offset
 
     # Fetch the records
     work_data, work_column_names = execute_query(
         connection=connection,
-        filter_key=author_key,
-        query=query
+        params=params,
+        query_module='authors',
+        query_filename='get_works.sql'
     )
 
     return work_data, work_column_names
