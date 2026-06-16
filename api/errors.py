@@ -46,7 +46,7 @@ class _APIErrorDefinition:
             detail={
                 'error_code': self.error_code,
                 'message': self.description,
-                'query': query
+                'self': query
             }
         )
 
