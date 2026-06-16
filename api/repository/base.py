@@ -30,7 +30,12 @@ def get_with_filter_key(
         query_to_execute = SQL(query)
 
         # Execute the query
-        cursor.execute(query_to_execute, (filter_key,))
+        cursor.execute(
+            query_to_execute,
+            vars={
+                'filter_key': filter_key
+            }
+        )
 
         # Fetch all records as returned
         data = cursor.fetchall()

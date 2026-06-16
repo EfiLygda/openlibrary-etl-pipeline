@@ -30,7 +30,7 @@ def get_edition_by_edition_key(
     FROM 
         editions 
     WHERE 
-        edition_key = %s
+        edition_key = %(filter_key)s
     """
 
     # Fetch the records
@@ -79,7 +79,7 @@ def get_details_by_edition_key(
         LEFT JOIN editions_details AS ed
         ON e.edition_key = ed.edition_key
     WHERE 
-        e.edition_key = %s
+        e.edition_key = %(filter_key)s
     GROUP BY 
         e.edition_key;
     """
@@ -129,7 +129,7 @@ def get_contents_by_edition_key(
         editions_contents AS ec
         ON e.edition_key = ec.edition_key
     WHERE 
-        e.edition_key = %s
+        e.edition_key = %(filter_key)s
     GROUP BY 
         e.edition_key;
     """
@@ -182,7 +182,7 @@ def get_publishing_by_edition_key(
         LEFT JOIN editions_publishing AS ep
         ON e.edition_key = ep.edition_key
     WHERE
-        e.edition_key = %s
+        e.edition_key = %(filter_key)s
     GROUP BY
         e.edition_key
     """
@@ -234,7 +234,7 @@ def get_contributors_by_edition_key(
         LEFT JOIN editions_contributors AS ec
         ON e.edition_key = ec.edition_key
     WHERE 
-        e.edition_key = %s
+        e.edition_key = %(filter_key)s
     GROUP BY
         e.edition_key;
     """

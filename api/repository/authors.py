@@ -30,7 +30,7 @@ def get_author_by_author_key(
     FROM 
         authors 
     WHERE 
-        author_key = %s
+        author_key = %(filter_key)s
     """
 
     # Fetch the records
@@ -83,7 +83,7 @@ def get_works_by_author_key(
         LEFT JOIN works AS w
         ON aw.work_key = w.work_key
     WHERE
-        a.author_key = %s
+        a.author_key = %(filter_key)s
     GROUP BY
         a.author_key
     """
@@ -134,7 +134,7 @@ def get_editions_by_author_key(
         LEFT JOIN editions AS e
         ON aw.work_key = e.work_key
     WHERE
-        a.author_key = %s
+        a.author_key = %(filter_key)s
     GROUP BY
         a.author_key
     """
@@ -194,7 +194,7 @@ def get_author_statistics_by_author_key(
         LEFT JOIN authors_statistics AS astat
         ON a.author_key = astat.author_key
     WHERE
-        a.author_key = %s
+        a.author_key = %(filter_key)s
     GROUP BY
         a.author_key
     """
@@ -240,7 +240,7 @@ def get_author_alternative_names_by_author_key(
         authors_alternative_names AS altnames 
         ON a.author_key = altnames.author_key
     WHERE
-        a.author_key = %s
+        a.author_key = %(filter_key)s
     GROUP BY
         a.author_key
     """

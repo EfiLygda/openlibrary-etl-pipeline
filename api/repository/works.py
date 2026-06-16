@@ -81,7 +81,7 @@ def get_authors_by_work_key(
         LEFT JOIN authors AS a
         ON aw.author_key = a.author_key 
     WHERE 
-        w.work_key = %s
+        w.work_key = %(filter_key)s
     GROUP BY
         w.work_key
     """
@@ -131,7 +131,7 @@ def get_editions_by_work_key(
         LEFT JOIN editions AS e
         ON w.work_key = e.work_key 
     WHERE
-        w.work_key = %s
+        w.work_key = %(filter_key)s
     GROUP BY 
         w.work_key
     """
@@ -180,7 +180,7 @@ def get_series_by_work_key(
         LEFT JOIN works_series AS ws
         ON w.work_key = ws.work_key 
     WHERE
-        w.work_key = %s
+        w.work_key = %(filter_key)s
     GROUP BY 
         w.work_key
     """
@@ -230,7 +230,7 @@ def get_availability_by_work_key(
         LEFT JOIN works_availability AS wa
         ON w.work_key = wa.work_key 
     WHERE
-        w.work_key = %s
+        w.work_key = %(filter_key)s
     GROUP BY 
         w.work_key
     """
@@ -281,7 +281,7 @@ def get_ratings_by_work_key(
         LEFT JOIN works_ratings AS wr
         ON w.work_key = wr.work_key 
     WHERE
-        w.work_key = %s
+        w.work_key = %(filter_key)s
     GROUP BY 
         w.work_key
     """
@@ -364,7 +364,7 @@ def get_overview_by_work_key(
             GROUP BY work_key 
         ) wtp ON w.work_key = wtp.work_key
     WHERE
-        w.work_key = %s
+        w.work_key = %(filter_key)s
     GROUP BY 
         w.work_key,
         ws.subjects,
