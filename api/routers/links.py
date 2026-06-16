@@ -16,7 +16,7 @@ import api.repository.navigation as navigation_repo
 from api.service import format_link_response
 from api.errors import BaseErrors, LinksErrors
 from api.schemas.entities.core import EntityType
-from api.schemas.navigation import Link
+from api.schemas.links import Link
 from api.schemas.responses import LinksResponse
 
 # --- Defining the editions router ---

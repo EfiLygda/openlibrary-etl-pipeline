@@ -15,7 +15,7 @@ from fastapi import FastAPI
 
 from api.dependencies import DB_DEPENDENCY
 from api.routers import (
-    navigation,
+    links,
     works,
     authors,
     editions
@@ -54,4 +54,4 @@ app = FastAPI(
 app.include_router(works.router)
 app.include_router(authors.router)
 app.include_router(editions.router)
-app.include_router(navigation.router)
+app.include_router(links.router)
