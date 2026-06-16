@@ -31,6 +31,8 @@ Endpoints:
   Retrieve 5-star ratings counts for a work
 
 """
+import os
+from dotenv import load_dotenv
 
 import psycopg2
 
@@ -53,6 +55,13 @@ from api.schemas.entities.relationships import (
     WorksOverview,
     WorksRatings
 )
+
+# Load variables from the .env file to the environment
+load_dotenv()
+
+# Save the hidden info to variables
+GENRE = os.getenv("API_LIMIT")
+API_LIMIT = int(os.getenv("API_LIMIT"))
 
 # --- Defining the works router ---
 router = APIRouter(
@@ -133,7 +142,7 @@ async def get_work(
 )
 async def get_work_authors(
         work_key: str,
-        limit: int = 20,
+        limit: int = API_LIMIT,
         offset: int = 0,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> APIResponse[WorksAuthors]:
@@ -188,7 +197,7 @@ async def get_work_authors(
 )
 async def get_work_editions(
         work_key: str,
-        limit: int = 20,
+        limit: int = API_LIMIT,
         offset: int = 0,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> APIResponse[WorksEditions]:
@@ -243,7 +252,7 @@ async def get_work_editions(
 )
 async def get_work_series(
         work_key: str,
-        limit: int = 20,
+        limit: int = API_LIMIT,
         offset: int = 0,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> APIResponse[WorksSeries]:
@@ -298,7 +307,7 @@ async def get_work_series(
 )
 async def get_work_availability(
         work_key: str,
-        limit: int = 20,
+        limit: int = API_LIMIT,
         offset: int = 0,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> APIResponse[WorksAvailability]:
@@ -352,7 +361,7 @@ async def get_work_availability(
 )
 async def get_work_ratings(
         work_key: str,
-        limit: int = 20,
+        limit: int = API_LIMIT,
         offset: int = 0,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> APIResponse[WorksRatings]:
@@ -407,7 +416,7 @@ async def get_work_ratings(
 )
 async def get_work_overview(
         work_key: str,
-        limit: int = 20,
+        limit: int = API_LIMIT,
         offset: int = 0,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> APIResponse[WorksOverview]:
