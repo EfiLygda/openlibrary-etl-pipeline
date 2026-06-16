@@ -29,10 +29,13 @@ Endpoints:
 - GET /authors/{author_key}/alternative_names
   Retrieve alternative names, aliases, and variations for an author
 """
+import os
+from dotenv import load_dotenv
 
 import psycopg2
 
 from fastapi import APIRouter
+from fastapi import Request
 
 from open_library import KeyHandler
 
@@ -48,6 +51,13 @@ from api.schemas.entities.relationships import (
     AuthorsStatistics,
     AuthorsAlternativeNames
 )
+
+# Load variables from the .env file to the environment
+load_dotenv()
+
+# Save the hidden info to variables
+GENRE = os.getenv("API_LIMIT")
+API_LIMIT = int(os.getenv("API_LIMIT"))
 
 # --- Defining the authors router ---
 router = APIRouter(
@@ -100,7 +110,10 @@ async def get_author(
         raise AuthorsErrors.InvalidKey(query)
 
     # Fetch data
-    data, column_names = authors_repo.get_author_by_author_key(connection, author_key)
+    data, column_names = authors_repo.get_author_by_author_key(
+        connection=connection,
+        author_key=author_key
+    )
 
     # If no data is returned then error is raised
     if not data:
@@ -126,6 +139,8 @@ async def get_author(
 )
 async def get_authors_works(
         author_key: str,
+        limit: int = API_LIMIT,
+        offset: int = 0,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> APIResponse[AuthorsWorks]:
     """
@@ -148,7 +163,12 @@ async def get_authors_works(
         raise AuthorsErrors.InvalidKey(query)
 
     # Fetch data
-    data, column_names = authors_repo.get_works_by_author_key(connection, author_key)
+    data, column_names = authors_repo.get_works_by_author_key(
+        connection=connection,
+        author_key=author_key,
+        limit=limit,
+        offset=offset
+    )
 
     # If no data is returned then error is raised
     if not data:
@@ -174,6 +194,8 @@ async def get_authors_works(
 )
 async def get_authors_editions(
         author_key: str,
+        limit: int = API_LIMIT,
+        offset: int = 0,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> APIResponse[AuthorsEditions]:
     """
@@ -196,7 +218,12 @@ async def get_authors_editions(
         raise AuthorsErrors.InvalidKey(query)
 
     # Fetch data
-    data, column_names = authors_repo.get_editions_by_author_key(connection, author_key)
+    data, column_names = authors_repo.get_editions_by_author_key(
+        connection=connection,
+        author_key=author_key,
+        limit=limit,
+        offset=offset
+    )
 
     # If no data is returned then error is raised
     if not data:
@@ -222,6 +249,8 @@ async def get_authors_editions(
 )
 async def get_authors_statistics(
         author_key: str,
+        limit: int = API_LIMIT,
+        offset: int = 0,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> APIResponse[AuthorsStatistics]:
     """
@@ -244,7 +273,12 @@ async def get_authors_statistics(
         raise AuthorsErrors.InvalidKey(query)
 
     # Fetch data
-    data, column_names = authors_repo.get_author_statistics_by_author_key(connection, author_key)
+    data, column_names = authors_repo.get_author_statistics_by_author_key(
+        connection=connection,
+        author_key=author_key,
+        limit=limit,
+        offset=offset
+    )
 
     # If no data is returned then error is raised
     if not data:
@@ -270,6 +304,8 @@ async def get_authors_statistics(
 )
 async def get_authors_alternative_names(
         author_key: str,
+        limit: int = API_LIMIT,
+        offset: int = 0,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> APIResponse[AuthorsAlternativeNames]:
     """
@@ -292,7 +328,12 @@ async def get_authors_alternative_names(
         raise AuthorsErrors.InvalidKey(query)
 
     # Fetch data
-    data, column_names = authors_repo.get_author_alternative_names_by_author_key(connection, author_key)
+    data, column_names = authors_repo.get_author_alternative_names_by_author_key(
+        connection=connection,
+        author_key=author_key,
+        limit=limit,
+        offset=offset
+    )
 
     # If no data is returned then error is raised
     if not data:
