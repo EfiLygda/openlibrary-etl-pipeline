@@ -81,8 +81,10 @@ def get_works_by_author_key(
     return work_data, work_column_names
 
 def get_editions_by_author_key(
-    connection: psycopg2.extensions.connection,
-    author_key: str,
+        connection: psycopg2.extensions.connection,
+        author_key: str,
+        limit: int | None = None,
+        offset: int | None = None
 ) -> tuple:
     """
     Retrieve edition information associated with a given author key
@@ -90,50 +92,41 @@ def get_editions_by_author_key(
     :param connection: psycopg2.extensions.connection, active PostgreSQL database connection
     :param author_key: str, unique identifier of the author whose editions are to
         be retrieved
+    :param limit: int, maximum number of records to return (used for pagination)
+    :param offset: int, number of records to skip before starting to return results
+
     :returns: A tuple containing:
 
         * `edition_data` - aggregated edition records for the author
         * `edition_column_names` - column names corresponding to the query result
     """
-    query = """
-    SELECT
-        a.author_key,
-        COUNT(e.edition_key) AS record_count,
-        COALESCE(
-            json_agg(
-                json_build_object(
-                    'edition_key', e.edition_key,
-                    'title', e.title,
-                    'subtitle', e.subtitle,
-                    'name', e.edition_name
-                )
-            ) FILTER (WHERE e.edition_key IS NOT NULL),
-            '[]'::json
-        ) AS records
-    FROM
-        authors AS a
-        LEFT JOIN authors_works AS aw
-        ON a.author_key = aw.author_key
-        LEFT JOIN editions AS e
-        ON aw.work_key = e.work_key
-    WHERE
-        a.author_key = %(filter_key)s
-    GROUP BY
-        a.author_key
-    """
+
+    # Set up the query parameters
+    params = {
+        'filter_key': author_key
+    }
+
+    if not limit is None:
+        params['limit'] = limit
+
+    if not offset is None:
+        params['offset'] = offset
 
     # Fetch the records
     edition_data, edition_column_names = execute_query(
         connection=connection,
-        filter_key=author_key,
-        query=query
+        params=params,
+        query_module='authors',
+        query_filename='get_editions.sql'
     )
 
     return edition_data, edition_column_names
 
 def get_author_statistics_by_author_key(
-    connection: psycopg2.extensions.connection,
-    author_key: str,
+        connection: psycopg2.extensions.connection,
+        author_key: str,
+        limit: int | None = None,
+        offset: int | None = None
 ) -> tuple:
     """
     Retrieve author statistics information associated with a given author key
@@ -141,6 +134,9 @@ def get_author_statistics_by_author_key(
     :param connection: psycopg2.extensions.connection, active PostgreSQL database connection
     :param author_key: str, unique identifier of the author whose statistics are to
         be retrieved
+    :param limit: int, maximum number of records to return (used for pagination)
+    :param offset: int, number of records to skip before starting to return results
+
     :returns: A tuple containing:
 
         * `statistics_data` - statistic records for the author
@@ -194,6 +190,8 @@ def get_author_statistics_by_author_key(
 def get_author_alternative_names_by_author_key(
         connection: psycopg2.extensions.connection,
         author_key: str,
+        limit: int | None = None,
+        offset: int | None = None
 ) -> tuple:
     """
     Retrieve author alternative names information associated with a given author key
@@ -201,6 +199,9 @@ def get_author_alternative_names_by_author_key(
     :param connection: psycopg2.extensions.connection, active PostgreSQL database connection
     :param author_key: str, unique identifier of the author whose alternative names are to
         be retrieved
+    :param limit: int, maximum number of records to return (used for pagination)
+    :param offset: int, number of records to skip before starting to return results
+
     :returns: A tuple containing:
 
         * `alternative_names_data` - alternative names records for the author
