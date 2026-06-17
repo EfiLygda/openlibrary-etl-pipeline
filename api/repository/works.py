@@ -70,6 +70,7 @@ def get_authors_by_work_key(
     if not offset is None:
         params['offset'] = offset
 
+    # Calculate total authors before pagination
     total_authors, _ = execute_query(
         connection=connection,
         params=params,
@@ -119,6 +120,14 @@ def get_editions_by_work_key(
     if not offset is None:
         params['offset'] = offset
 
+    # Calculate total editions before pagination
+    total_editions, _ = execute_query(
+        connection=connection,
+        params=params,
+        query_module='works',
+        query_filename='total_editions.sql'
+    )
+
     # Fetch the records
     editions_data, editions_column_names = execute_query(
         connection=connection,
@@ -127,7 +136,7 @@ def get_editions_by_work_key(
         query_filename='get_editions.sql'
     )
 
-    return editions_data, editions_column_names
+    return total_editions[0][0], editions_data, editions_column_names
 
 def get_series_by_work_key(
     connection: psycopg2.extensions.connection,
