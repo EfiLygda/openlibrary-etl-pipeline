@@ -1,4 +1,5 @@
 """
+Module for the type definitions of extensions of basic entity types (i.e. a work's series -> WorkSeries)
 
 Note:
     1. typing.Optional[X] is Union[X,None] == X | None

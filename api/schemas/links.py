@@ -1,15 +1,29 @@
 """
+Module for the type definitions of API links fields
 
 Note:
     1. typing.Optional[X] is Union[X,None] == X | None
 """
 
-from enum import Enum
 from pydantic import BaseModel
-from typing import Generic, TypeVar, Optional, TypeAlias
+from typing import TypeVar, Optional, TypeAlias
 
 # Define a flexible variable type to be used as generic placeholder
 T = TypeVar('T')
+
+# --------------------------------------------------------------------
+# Response Links
+# --------------------------------------------------------------------
+
+# --- Entity Response Links ---
+class EntityLinks(BaseModel):
+    self: str
+
+# --- Entity Response Links ---
+class RelationshipLinks(BaseModel):
+    self: str
+    next: Optional[str]
+    prev: Optional[str]
 
 # --------------------------------------------------------------------
 # Entity Navigation

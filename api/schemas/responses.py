@@ -1,12 +1,16 @@
 """
+Module for the type definitions of API responses
 
 Note:
     1. typing.Optional[X] is Union[X,None] == X | None
+    2. APIResponse is deprecated
 """
 
 from pydantic import BaseModel
 from typing import Generic, TypeVar, Optional
 from api.schemas.entities.core import EntityType
+from api.schemas.links import EntityLinks, RelationshipLinks
+from api.schemas.metadata import EntityMeta, RelationshipMeta
 
 # Define a flexible variable type to be used as generic placeholder
 T = TypeVar('T')
@@ -31,11 +35,11 @@ class LinksResponse(BaseModel, Generic[T]):
 # --- Entity Response ---
 class EntityResponse(BaseModel, Generic[T]):
     data: list[T]
-    meta: dict[str, EntityType]
-    links: dict[str, str]
+    meta: EntityMeta # dict[str, EntityType]
+    links: EntityLinks # dict[str, str]
 
 # --- Relationship Response ---
 class RelationshipResponse(BaseModel, Generic[T]):
     data: list[T]
-    meta: dict[str, int]
-    links: dict[str, Optional[str]]
+    meta: RelationshipMeta # dict[str, int]
+    links: RelationshipLinks # dict[str, Optional[str]]

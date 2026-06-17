@@ -1,4 +1,5 @@
 """
+Module for the type aliases of API types (deprecated)
 
 Note:
     1. typing.Optional[X] is Union[X,None] == X | None
