@@ -11,16 +11,16 @@ from api.repository.base import execute_query
 def get_works_by_work_key(
     connection: psycopg2.extensions.connection,
     work_key: str
-) -> tuple:
+) -> dict:
     """
     Retrieve all work records associated with a given work key
 
     :param connection: psycopg2.extensions.connection, active PostgreSQL database connection
     :param work_key: str, unique identifier of the work to retrieve
-    :returns: A tuple containing:
+    :returns: A dictionary containing:
 
-        * `works` - list of matching work records returned by the query
-        * `works_column_names` - column names corresponding to the records
+        * `data` - list of matching work records returned by the query
+        * `column_names` - column names corresponding to the records
     """
 
     # Set up the query parameters
@@ -36,7 +36,10 @@ def get_works_by_work_key(
         query_filename='get_work.sql'
     )
 
-    return works, works_column_names
+    return {
+        'data': works,
+        'column_names': works_column_names
+    }
 
 def get_authors_by_work_key(
         connection: psycopg2.extensions.connection,
@@ -110,7 +113,7 @@ def get_editions_by_work_key(
     :param limit: int, maximum number of records to return (used for pagination)
     :param offset: int, number of records to skip before starting to return results
 
-    :returns: A tuple containing:
+    :returns: A dictionary containing:
 
         * `total_works` - total works (used for error handling)
         * `total_editions` - total editions before pagination
@@ -167,7 +170,7 @@ def get_series_by_work_key(
     :param limit: int, maximum number of records to return (used for pagination)
     :param offset: int, number of records to skip before starting to return results
 
-    :returns: A tuple containing:
+    :returns: A dictionary containing:
 
         * `total_works` - total works (used for error handling)
         * `total_editions` - total editions before pagination
@@ -214,7 +217,7 @@ def get_availability_by_work_key(
     work_key: str,
     limit: int | None = None,
     offset: int | None = None
-) -> tuple:
+) -> dict:
     """
     Retrieve availability information associated with a given work key
 
@@ -224,10 +227,10 @@ def get_availability_by_work_key(
     :param limit: int, maximum number of records to return (used for pagination)
     :param offset: int, number of records to skip before starting to return results
 
-    :returns: A tuple containing:
+    :returns: A dictionary containing:
 
-        * `availability_data` - aggregated availability records for the work
-        * `availability_column_names` - column names corresponding to the query result
+        * `data` - aggregated availability records for the work
+        * `column_names` - column names corresponding to the query result
     """
 
     # Set up the query parameters
@@ -249,14 +252,17 @@ def get_availability_by_work_key(
         query_filename='get_availability.sql'
     )
 
-    return availability_data, availability_column_names
+    return {
+        'data': availability_data,
+        'column_names': availability_column_names
+    }
 
 def get_ratings_by_work_key(
     connection: psycopg2.extensions.connection,
     work_key: str,
     limit: int | None = None,
     offset: int | None = None
-) -> tuple:
+) -> dict:
     """
     Retrieve rating information associated with a given work key
 
@@ -266,10 +272,10 @@ def get_ratings_by_work_key(
     :param limit: int, maximum number of records to return (used for pagination)
     :param offset: int, number of records to skip before starting to return results
 
-    :returns: A tuple containing:
+    :returns: A dictionary containing:
 
-        * `ratings_data` - aggregated ratings records for the work
-        * `ratings_column_names` - column names corresponding to the query result
+        * `data` - aggregated ratings records for the work
+        * `column_names` - column names corresponding to the query result
     """
 
     # Set up the query parameters
@@ -291,14 +297,17 @@ def get_ratings_by_work_key(
         query_filename='get_ratings.sql'
     )
 
-    return ratings_data, ratings_column_names
+    return {
+        'data': ratings_data,
+        'column_names': ratings_column_names
+    }
 
 def get_overview_by_work_key(
     connection: psycopg2.extensions.connection,
     work_key: str,
     limit: int | None = None,
     offset: int | None = None
-) -> tuple:
+) -> dict:
     """
     Retrieve all subject, people, places and time periods information associated with a given work key
 
@@ -308,7 +317,7 @@ def get_overview_by_work_key(
     :param limit: int, maximum number of records to return (used for pagination)
     :param offset: int, number of records to skip before starting to return results
 
-    :returns: A tuple containing:
+    :returns: A dictionary containing:
 
         * `subject_data` - aggregated subject, people, places and time periods records for the work
         * `subject_column_names` - column names corresponding to the query result
@@ -333,4 +342,7 @@ def get_overview_by_work_key(
         query_filename='get_overview.sql'
     )
 
-    return subject_data, subject_column_names
+    return {
+        'data': subject_data,
+        'column_names': subject_column_names
+    }
