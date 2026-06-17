@@ -70,6 +70,13 @@ def get_authors_by_work_key(
     if not offset is None:
         params['offset'] = offset
 
+    total_authors, _ = execute_query(
+        connection=connection,
+        params=params,
+        query_module='works',
+        query_filename='total_authors.sql'
+    )
+
     # Fetch the records
     author_data, author_column_names = execute_query(
         connection=connection,
@@ -78,7 +85,7 @@ def get_authors_by_work_key(
         query_filename='get_authors.sql'
     )
 
-    return author_data, author_column_names
+    return total_authors[0][0], author_data, author_column_names
 
 def get_editions_by_work_key(
     connection: psycopg2.extensions.connection,
