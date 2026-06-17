@@ -5,8 +5,7 @@ Transformation utilities for formatting database entity query results
 from typing import TypeVar, Type
 from pydantic import BaseModel
 
-from api.schemas.entities.core import EntityType
-from api.schemas.responses import APIResponse, LinksResponse
+from api.schemas.responses import EntityResponse, RelationshipResponse
 
 T = TypeVar('T', bound=BaseModel)
 
@@ -14,7 +13,7 @@ T = TypeVar('T', bound=BaseModel)
 # Basic API Response
 # -------------------------------------------------------------------
 
-def format_records(
+def _format_records(
         records: list | None,
         fields: list[str] | None,
         model: Type[T]
@@ -55,35 +54,64 @@ def format_records(
     # return results
     return results
 
-def format_response(
-        query: str,
-        self: str,
+def format_response_entity(
         records: list,
         column_names: list[str],
+        meta: dict,
+        links: dict,
         model: Type[T],
-) -> APIResponse[T]:
+) -> EntityResponse[T]:
     """
     Formats the API's final response
 
-    :param query: str, the query used for the API
-    :param self: str, the endpoint used for quering the API
     :param records: list, list of records containing values
     :param column_names: list[str], list of column names corresponding to each value in a record
+    :param meta: dict, dictionary with the metadata for the entity query (has 'type')
+    :param links: dict, dictionary with the pagination links for the query (has 'self')
     :param model: Type[T], pydantic model class used to transform each record into a typed object
 
     :return: dict, dictionary mapping the API's response
     """
 
-    # Format the records
-    formatted_records = format_records(
-        records=records,
-        fields=column_names,
-        model=model
+    return EntityResponse(
+
+        data = _format_records(
+            records=records,
+            fields=column_names,
+            model=model
+        ),
+
+        meta = meta,
+        links = links
     )
 
-    return APIResponse(
-        query=query,
-        self=self,
-        entity_count=len(formatted_records),
-        results=formatted_records
+def format_response_relationship(
+        records: list,
+        column_names: list[str],
+        meta: dict,
+        links: dict,
+        model: Type[T],
+) -> RelationshipResponse[T]:
+    """
+    Formats the API's final response
+
+    :param records: list, list of records containing values
+    :param column_names: list[str], list of column names corresponding to each value in a record
+    :param meta: dict, dictionary with the metadata for the relationship query (has 'total', 'limit' ,'offset')
+    :param links: dict, dictionary with the pagination links for the query (has 'self', 'next' ,'prev')
+    :param model: Type[T], pydantic model class used to transform each record into a typed object
+
+    :return: dict, dictionary mapping the API's response
+    """
+
+    return RelationshipResponse(
+
+        data = _format_records(
+            records=records,
+            fields=column_names,
+            model=model
+        ),
+
+        meta = meta,
+        links = links
     )
