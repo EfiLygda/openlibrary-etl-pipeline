@@ -1,31 +1,8 @@
-
 SELECT
-    w.work_key,
-
-    CASE
-        WHEN ws.subjects IS NULL
-         AND wpl.people IS NULL
-         AND wpc.places IS NULL
-         AND wtp.time_periods IS NULL
-        THEN 0
-        ELSE 1
-    END AS record_count,
-
-    CASE
-        WHEN ws.subjects IS NULL
-         AND wpl.people IS NULL
-         AND wpc.places IS NULL
-         AND wtp.time_periods IS NULL
-        THEN '[]'::json
-        ELSE json_agg(
-            json_build_object(
-                'subjects', ws.subjects,
-                'people', wpl.people,
-                'places', wpc.places,
-                'time_periods', wtp.time_periods
-            )
-        )
-    END AS records
+    ws.subjects,
+    wpl.people,
+    wpc.places,
+    wtp.time_periods
 FROM
     works w
     LEFT JOIN
@@ -51,10 +28,4 @@ FROM
         GROUP BY work_key
     ) wtp ON w.work_key = wtp.work_key
 WHERE
-    w.work_key = %(filter_key)s
-GROUP BY
-    w.work_key,
-    ws.subjects,
-    wpl.people,
-    wpc.places,
-    wtp.time_periods;
+    w.work_key = %(filter_key)s;

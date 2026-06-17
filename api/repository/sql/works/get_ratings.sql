@@ -1,110 +1,120 @@
-
-WITH
-
--- Calculates total ratings for current work key
--- Returns only one row since ratings does not have duplicates
-
-total_ratings_for_work AS (
-    SELECT
-        work_key,
-        COUNT(work_key) AS record_count
-    FROM
-        works_ratings
-    WHERE
-        work_key = %(filter_key)s
-    GROUP BY
-        work_key
-),
-
--- Filters current work key's ratings data with options
--- to limit and offset
--- Records are ordered by ascending ratings key in order
--- for limit and offset to be deterministic
--- Returns one or more rows depending if the work has
--- one or ratings
-
-filtered_ratings_records AS (
-    SELECT
-        work_key,
-        ratings_count_1,
-        ratings_count_2,
-        ratings_count_3,
-        ratings_count_4,
-        ratings_count_5
-    FROM
-        works_ratings
-    WHERE
-        work_key = %(filter_key)s
-    ORDER BY
-        work_key ASC
-    LIMIT
-        %(limit)s
-    OFFSET
-        %(offset)s
-),
-
--- Aggregates all ratings data for current work key
--- in a json object
--- Returns only one row since filtered_ratings_records
--- has only one work key
-
-json_aggregated_ratings AS (
-    SELECT
-        work_key,
-        COALESCE(
-            json_agg(
-                json_build_object(
-                    'ratings_count_1', ratings_count_1,
-                    'ratings_count_2', ratings_count_2,
-                    'ratings_count_3', ratings_count_3,
-                    'ratings_count_4', ratings_count_4,
-                    'ratings_count_5', ratings_count_5
-                )
-            ) FILTER (WHERE work_key IS NOT NULL),
-            '[]'::json
-        ) AS records
-    FROM
-        filtered_ratings_records
-    GROUP BY
-        work_key
-)
-
--- Join the json aggregated ratings data with the
--- total number of ratings via the work key
--- Returns only one row since both tables have
--- only one work key
-
 SELECT
-   jaa.work_key,
-   ta.record_count,
-   jaa.records
+    ratings_count_1,
+    ratings_count_2,
+    ratings_count_3,
+    ratings_count_4,
+    ratings_count_5
 FROM
-    json_aggregated_ratings AS jaa
-    INNER JOIN total_ratings_for_work AS ta
-    ON jaa.work_key = ta.work_key;
-
-
-
+    works_ratings
+WHERE
+    work_key = %(filter_key)s
+--
+--WITH
+--
+---- Calculates total ratings for current work key
+---- Returns only one row since ratings does not have duplicates
+--
+--total_ratings_for_work AS (
+--    SELECT
+--        work_key,
+--        COUNT(work_key) AS record_count
+--    FROM
+--        works_ratings
+--    WHERE
+--        work_key = %(filter_key)s
+--    GROUP BY
+--        work_key
+--),
+--
+---- Filters current work key's ratings data with options
+---- to limit and offset
+---- Records are ordered by ascending ratings key in order
+---- for limit and offset to be deterministic
+---- Returns one or more rows depending if the work has
+---- one or ratings
+--
+--filtered_ratings_records AS (
+--    SELECT
+--        work_key,
+--        ratings_count_1,
+--        ratings_count_2,
+--        ratings_count_3,
+--        ratings_count_4,
+--        ratings_count_5
+--    FROM
+--        works_ratings
+--    WHERE
+--        work_key = %(filter_key)s
+--    ORDER BY
+--        work_key ASC
+--    LIMIT
+--        %(limit)s
+--    OFFSET
+--        %(offset)s
+--),
+--
+---- Aggregates all ratings data for current work key
+---- in a json object
+---- Returns only one row since filtered_ratings_records
+---- has only one work key
+--
+--json_aggregated_ratings AS (
+--    SELECT
+--        work_key,
+--        COALESCE(
+--            json_agg(
+--                json_build_object(
+--                    'ratings_count_1', ratings_count_1,
+--                    'ratings_count_2', ratings_count_2,
+--                    'ratings_count_3', ratings_count_3,
+--                    'ratings_count_4', ratings_count_4,
+--                    'ratings_count_5', ratings_count_5
+--                )
+--            ) FILTER (WHERE work_key IS NOT NULL),
+--            '[]'::json
+--        ) AS records
+--    FROM
+--        filtered_ratings_records
+--    GROUP BY
+--        work_key
+--)
+--
+---- Join the json aggregated ratings data with the
+---- total number of ratings via the work key
+---- Returns only one row since both tables have
+---- only one work key
+--
 --SELECT
---    w.work_key,
---    COUNT(wr.work_key) AS record_count,
---    COALESCE(
---        json_agg(
---            json_build_object(
---                'ratings_count_1', wr.ratings_count_1,
---                'ratings_count_2', wr.ratings_count_2,
---                'ratings_count_3', wr.ratings_count_3,
---                'ratings_count_4', wr.ratings_count_4,
---                'ratings_count_5', wr.ratings_count_5
---            )
---        ) FILTER (WHERE wr.work_key IS NOT NULL),
---        '[]'::json
---    ) AS records
+--   jaa.work_key,
+--   ta.record_count,
+--   jaa.records
 --FROM
---    works AS w
---    LEFT JOIN works_ratings AS wr
---    ON w.work_key = wr.work_key
---WHERE
---    w.work_key = %(filter_key)s
---GROUP BY
---    w.work_key
+--    json_aggregated_ratings AS jaa
+--    INNER JOIN total_ratings_for_work AS ta
+--    ON jaa.work_key = ta.work_key;
+--
+--
+--
+----SELECT
+----    w.work_key,
+----    COUNT(wr.work_key) AS record_count,
+----    COALESCE(
+----        json_agg(
+----            json_build_object(
+----                'ratings_count_1', wr.ratings_count_1,
+----                'ratings_count_2', wr.ratings_count_2,
+----                'ratings_count_3', wr.ratings_count_3,
+----                'ratings_count_4', wr.ratings_count_4,
+----                'ratings_count_5', wr.ratings_count_5
+----            )
+----        ) FILTER (WHERE wr.work_key IS NOT NULL),
+----        '[]'::json
+----    ) AS records
+----FROM
+----    works AS w
+----    LEFT JOIN works_ratings AS wr
+----    ON w.work_key = wr.work_key
+----WHERE
+----    w.work_key = %(filter_key)s
+----GROUP BY
+----    w.work_key
