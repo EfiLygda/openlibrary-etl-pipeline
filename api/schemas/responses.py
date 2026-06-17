@@ -31,8 +31,8 @@ class LinksResponse(BaseModel, Generic[T]):
 # --- Entity Response ---
 class EntityResponse(BaseModel, Generic[T]):
     data: list[T]
-    meta: dict[str,EntityType]
-    links: dict[str,str]
+    meta: dict[str, EntityType]
+    links: dict[str, str]
 
 # --- Relationship Response ---
 class RelationshipResponse(BaseModel, Generic[T]):

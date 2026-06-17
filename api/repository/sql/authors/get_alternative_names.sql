@@ -3,13 +3,11 @@
 -- and aggregates the names in an array
 
 SELECT
-    a.author_key,
-    COUNT(altnames.author_alternative_name) AS record_count,
     COALESCE(
         array_agg(altnames.author_alternative_name)
             FILTER (WHERE altnames.author_alternative_name IS NOT NULL),
         ARRAY[]::text[]
-    ) AS records
+    ) AS author_alternative_names
 FROM
     authors AS a
     LEFT JOIN

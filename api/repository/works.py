@@ -173,7 +173,7 @@ def get_series_by_work_key(
     :returns: A dictionary containing:
 
         * `total_works` - total works (used for error handling)
-        * `total_editions` - total editions before pagination
+        * `total_series` - total series before pagination
         * `series_data` - aggregated series records for the work
         * `series_column_names` - column names corresponding to the query result
     """

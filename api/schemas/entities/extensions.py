@@ -52,6 +52,9 @@ class AuthorStatistics(BaseModel):
     currently_reading_count: int
     already_read_count: int
 
+class AuthorAlternativeNames(BaseModel):
+    author_alternative_names: Optional[list[str]]
+
 # - EDITIONS -
 class EditionDetails(BaseModel):
     number_of_pages: Optional[int] = None

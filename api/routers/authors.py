@@ -41,16 +41,16 @@ from open_library import KeyHandler
 
 from api.dependencies import DB_DEPENDENCY
 import api.repository.authors as authors_repo
-from api.response_builders.entities import format_response
+
+from api.utils.pagination import build_pagination_links
 from api.errors import BaseErrors, AuthorsErrors
-from api.schemas.responses import APIResponse
+
 from api.schemas.entities.core import Author
-from api.schemas.entities.relationships import (
-    AuthorsWorks,
-    AuthorsEditions,
-    AuthorsStatistics,
-    AuthorsAlternativeNames
-)
+from api.schemas.entities.summaries import WorkSummary, EditionSummary
+from api.schemas.entities.extensions import AuthorStatistics, AuthorAlternativeNames
+from api.schemas.responses import EntityResponse, RelationshipResponse
+
+from api.response_builders.entities import format_response_entity, format_response_relationship
 
 # Load variables from the .env file to the environment
 load_dotenv()
@@ -80,16 +80,17 @@ async def authors_root() -> None:
 
 @router.get(
     path="/{author_key}",
-    response_model=APIResponse[Author],
+    response_model=EntityResponse[Author],
     responses={
         '404': AuthorsErrors.NotFound.response,
         '422': AuthorsErrors.InvalidKey.response
     }
 )
 async def get_author(
+        request: Request,
         author_key: str,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
-) -> APIResponse[Author]:
+) -> EntityResponse[Author]:
     """
     Retrieve an author's records by **author_key**.
 
@@ -102,46 +103,51 @@ async def get_author(
     - **records**: formatted database rows
     """
 
+    # Fetch current request's path and parameters query
+    path_url = request.url.path
+    query_url = request.url.query
+
     # Current query
-    query = f'/authors/{author_key}'
+    query = f'{path_url}?{query_url}' if query_url else path_url
 
     # Validate if the key is a valid work key
     if KeyHandler.detect_key(author_key) != 'author':
         raise AuthorsErrors.InvalidKey(query)
 
     # Fetch data
-    data, column_names = authors_repo.get_author_by_author_key(
+    results = authors_repo.get_author_by_author_key(
         connection=connection,
         author_key=author_key
     )
 
     # If no data is returned then error is raised
-    if not data:
+    if len(results['data']) == 0:
         raise AuthorsErrors.NotFound(query)
 
     # Format and return consistent API response structure
-    return format_response(
-        query=author_key,
-        self=query,
-        records=data,
-        column_names=column_names,
+    return format_response_entity(
+        records=results['data'],
+        column_names=results['column_names'],
+        meta={'type': 'author'},
+        links={'self': query},
         model=Author
     )
 
 @router.get(
     path="/{author_key}/works",
-    response_model=APIResponse[AuthorsWorks],
+    response_model=RelationshipResponse[WorkSummary],
     responses={
         '404': AuthorsErrors.NotFound.response,
         '422': AuthorsErrors.InvalidKey.response
     }
 )
 async def get_authors_works(
+        request: Request,
         author_key: str,
         limit: int = API_LIMIT,
         offset: int = 0,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
-) -> APIResponse[AuthorsWorks]:
+) -> RelationshipResponse[WorkSummary]:
     """
     Retrieve an author's work records by **author_key**.
 
@@ -154,15 +160,19 @@ async def get_authors_works(
     - **records**: formatted database rows
     """
 
+    # Fetch current request's path and parameters query
+    path_url = request.url.path
+    query_url = request.url.query
+
     # Current query
-    query = f'/authors/{author_key}/works'
+    query = f'{path_url}?{query_url}' if query_url else path_url
 
     # Validate if the key is a valid work key
     if KeyHandler.detect_key(author_key) != 'author':
         raise AuthorsErrors.InvalidKey(query)
 
     # Fetch data
-    data, column_names = authors_repo.get_works_by_author_key(
+    results = authors_repo.get_works_by_author_key(
         connection=connection,
         author_key=author_key,
         limit=limit,
@@ -170,32 +180,46 @@ async def get_authors_works(
     )
 
     # If no data is returned then error is raised
-    if not data:
+    if results['total_authors'] == 0:
         raise AuthorsErrors.NotFound(query)
 
+    # Build links
+    links = build_pagination_links(
+        query=query,
+        path_url=path_url,
+        total=results['total_works'],
+        limit=limit,
+        offset=offset
+    )
+
     # Format and return consistent API response structure
-    return format_response(
-        query=author_key,
-        self=query,
-        records=data,
-        column_names=column_names,
-        model=AuthorsWorks
+    return format_response_relationship(
+        records=results['data'],
+        column_names=results['column_names'],
+        meta={
+            'total': results['total_works'],
+            'limit': limit,
+            'offset': offset
+        },
+        links=links,
+        model=WorkSummary,
     )
 
 @router.get(
     path="/{author_key}/editions",
-    response_model=APIResponse[AuthorsEditions],
+    response_model=RelationshipResponse[EditionSummary],
     responses={
         '404': AuthorsErrors.NotFound.response,
         '422': AuthorsErrors.InvalidKey.response
     }
 )
 async def get_authors_editions(
+        request: Request,
         author_key: str,
         limit: int = API_LIMIT,
         offset: int = 0,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
-) -> APIResponse[AuthorsEditions]:
+) -> RelationshipResponse[EditionSummary]:
     """
     Retrieve an author's edition records by **author_key**.
 
@@ -208,15 +232,19 @@ async def get_authors_editions(
     - **records**: formatted database rows
     """
 
+    # Fetch current request's path and parameters query
+    path_url = request.url.path
+    query_url = request.url.query
+
     # Current query
-    query = f'/authors/{author_key}/editions'
+    query = f'{path_url}?{query_url}' if query_url else path_url
 
     # Validate if the key is a valid work key
     if KeyHandler.detect_key(author_key) != 'author':
         raise AuthorsErrors.InvalidKey(query)
 
     # Fetch data
-    data, column_names = authors_repo.get_editions_by_author_key(
+    results = authors_repo.get_editions_by_author_key(
         connection=connection,
         author_key=author_key,
         limit=limit,
@@ -224,32 +252,46 @@ async def get_authors_editions(
     )
 
     # If no data is returned then error is raised
-    if not data:
+    if results['total_authors'] == 0:
         raise AuthorsErrors.NotFound(query)
 
+    # Build links
+    links = build_pagination_links(
+        query=query,
+        path_url=path_url,
+        total=results['total_editions'],
+        limit=limit,
+        offset=offset
+    )
+
     # Format and return consistent API response structure
-    return format_response(
-        query=author_key,
-        self=query,
-        records=data,
-        column_names=column_names,
-        model=AuthorsEditions
+    return format_response_relationship(
+        records=results['data'],
+        column_names=results['column_names'],
+        meta={
+            'total': results['total_editions'],
+            'limit': limit,
+            'offset': offset
+        },
+        links=links,
+        model=EditionSummary,
     )
 
 @router.get(
     path="/{author_key}/statistics",
-    response_model=APIResponse[AuthorsStatistics],
+    response_model=EntityResponse[AuthorStatistics],
     responses={
         '404': AuthorsErrors.NotFound.response,
         '422': AuthorsErrors.InvalidKey.response
     }
 )
 async def get_authors_statistics(
+        request: Request,
         author_key: str,
         limit: int = API_LIMIT,
         offset: int = 0,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
-) -> APIResponse[AuthorsStatistics]:
+) -> EntityResponse[AuthorStatistics]:
     """
     Retrieve an author's statistic records by **author_key**.
 
@@ -262,15 +304,19 @@ async def get_authors_statistics(
     - **records**: formatted database rows
     """
 
+    # Fetch current request's path and parameters query
+    path_url = request.url.path
+    query_url = request.url.query
+
     # Current query
-    query = f'/authors/{author_key}/statistics'
+    query = f'{path_url}?{query_url}' if query_url else path_url
 
     # Validate if the key is a valid work key
     if KeyHandler.detect_key(author_key) != 'author':
         raise AuthorsErrors.InvalidKey(query)
 
     # Fetch data
-    data, column_names = authors_repo.get_author_statistics_by_author_key(
+    results = authors_repo.get_author_statistics_by_author_key(
         connection=connection,
         author_key=author_key,
         limit=limit,
@@ -278,32 +324,33 @@ async def get_authors_statistics(
     )
 
     # If no data is returned then error is raised
-    if not data:
+    if len(results['data']) == 0:
         raise AuthorsErrors.NotFound(query)
 
     # Format and return consistent API response structure
-    return format_response(
-        query=author_key,
-        self=query,
-        records=data,
-        column_names=column_names,
-        model=AuthorsStatistics
+    return format_response_entity(
+        records=results['data'],
+        column_names=results['column_names'],
+        meta={'type': 'author'},
+        links={'self': query},
+        model=AuthorStatistics
     )
 
 @router.get(
     path="/{author_key}/alternative_names",
-    response_model=APIResponse[AuthorsAlternativeNames],
+    response_model=EntityResponse[AuthorAlternativeNames],
     responses={
         '404': AuthorsErrors.NotFound.response,
         '422': AuthorsErrors.InvalidKey.response
     }
 )
 async def get_authors_alternative_names(
+        request: Request,
         author_key: str,
         limit: int = API_LIMIT,
         offset: int = 0,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
-) -> APIResponse[AuthorsAlternativeNames]:
+) -> EntityResponse[AuthorAlternativeNames]:
     """
     Retrieve an author's alternative name records by **author_key**.
 
@@ -316,15 +363,19 @@ async def get_authors_alternative_names(
     - **records**: formatted database rows
     """
 
+    # Fetch current request's path and parameters query
+    path_url = request.url.path
+    query_url = request.url.query
+
     # Current query
-    query = f'/authors/{author_key}/alternative_names'
+    query = f'{path_url}?{query_url}' if query_url else path_url
 
     # Validate if the key is a valid work key
     if KeyHandler.detect_key(author_key) != 'author':
         raise AuthorsErrors.InvalidKey(query)
 
     # Fetch data
-    data, column_names = authors_repo.get_author_alternative_names_by_author_key(
+    results = authors_repo.get_author_alternative_names_by_author_key(
         connection=connection,
         author_key=author_key,
         limit=limit,
@@ -332,14 +383,14 @@ async def get_authors_alternative_names(
     )
 
     # If no data is returned then error is raised
-    if not data:
+    if len(results['data']) == 0:
         raise AuthorsErrors.NotFound(query)
 
     # Format and return consistent API response structure
-    return format_response(
-        query=author_key,
-        self=query,
-        records=data,
-        column_names=column_names,
-        model=AuthorsAlternativeNames
+    return format_response_entity(
+        records=results['data'],
+        column_names=results['column_names'],
+        meta={'type': 'author'},
+        links={'self': query},
+        model=AuthorAlternativeNames
     )
