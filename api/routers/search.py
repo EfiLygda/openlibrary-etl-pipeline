@@ -65,15 +65,13 @@ async def search(
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> RelationshipResponse[SearchWork]:
     """
-    Retrieve a work's records by **work_key**.
+    Retrieve works via a **query**.
 
     Returns a standardized response dictionary containing:
 
-    - **query**: the provided work_key
-    - **self**: API endpoint called
-    - **method**: HTTP method used
-    - **count**: number of records found
-    - **records**: formatted database rows
+    - **data**: the works returned ranked by descending text relevance score
+    - **meta**: pagination metadata for the query (total results, limit and offset)
+    - **links**: pagination links for navigation
     """
 
     # Fetch current request's path and parameters query

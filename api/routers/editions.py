@@ -91,11 +91,9 @@ async def get_edition(
 
     Returns a standardized response dictionary containing:
 
-    - **query**: the provided edition_key
-    - **self**: API endpoint called
-    - **method**: HTTP method used
-    - **count**: number of records found
-    - **records**: formatted database rows
+    - **data**: the edition returned
+    - **meta**: metadata for the query (entity type)
+    - **links**: current link used
     """
 
     # Fetch current request's path and parameters query
@@ -145,11 +143,9 @@ async def get_editions_details(
 
     Returns a standardized response dictionary containing:
 
-    - **query**: the provided edition_key
-    - **self**: API endpoint called
-    - **method**: HTTP method used
-    - **count**: number of records found
-    - **records**: formatted database rows
+    - **data**: the editions' details returned ranked by ascending edition key
+    - **meta**: pagination metadata for the query (total results, limit and offset)
+    - **links**: pagination links for navigation
     """
 
     # Fetch current request's path and parameters query
@@ -211,11 +207,9 @@ async def get_editions_contents(
 
     Returns a standardized response dictionary containing:
 
-    - **query**: the provided edition_key
-    - **self**: API endpoint called
-    - **method**: HTTP method used
-    - **count**: number of records found
-    - **records**: formatted database rows
+    - **data**: the editions' contents returned ranked by ascending edition key
+    - **meta**: pagination metadata for the query (total results, limit and offset)
+    - **links**: pagination links for navigation
     """
 
     # Fetch current request's path and parameters query
@@ -277,11 +271,9 @@ async def get_editions_publishing(
 
     Returns a standardized response dictionary containing:
 
-    - **query**: the provided edition_key
-    - **self**: API endpoint called
-    - **method**: HTTP method used
-    - **count**: number of records found
-    - **records**: formatted database rows
+    - **data**: the editions' publishing details returned ranked by ascending edition key
+    - **meta**: pagination metadata for the query (total results, limit and offset)
+    - **links**: pagination links for navigation
     """
 
     # Fetch current request's path and parameters query
@@ -343,11 +335,9 @@ async def get_editions_contributors(
 
     Returns a standardized response dictionary containing:
 
-    - **query**: the provided edition_key
-    - **self**: API endpoint called
-    - **method**: HTTP method used
-    - **count**: number of records found
-    - **records**: formatted database rows
+    - **data**: the editions' contributors returned ranked by ascending edition key
+    - **meta**: pagination metadata for the query (total results, limit and offset)
+    - **links**: pagination links for navigation
     """
 
     # Fetch current request's path and parameters query

@@ -98,11 +98,9 @@ async def get_work(
 
     Returns a standardized response dictionary containing:
 
-    - **query**: the provided work_key
-    - **self**: API endpoint called
-    - **method**: HTTP method used
-    - **count**: number of records found
-    - **records**: formatted database rows
+    - **data**: the work
+    - **meta**: metadata for the query (entity type)
+    - **links**: current link used
     """
 
     # Fetch current request's path and parameters query
@@ -155,11 +153,9 @@ async def get_work_authors(
 
     Returns a standardized response dictionary containing:
 
-    - **query**: the provided work_key
-    - **self**: API endpoint called
-    - **method**: HTTP method used
-    - **count**: number of records found
-    - **records**: formatted database rows
+    - **data**: the authors returned ranked by ascending work key
+    - **meta**: pagination metadata for the query (total results, limit and offset)
+    - **links**: pagination links for navigation
     """
 
     # Fetch current request's path and parameters query
@@ -226,11 +222,9 @@ async def get_work_editions(
 
     Returns a standardized response dictionary containing:
 
-    - **query**: the provided work_key
-    - **self**: API endpoint called
-    - **method**: HTTP method used
-    - **count**: number of records found
-    - **records**: formatted database rows
+    - **data**: the editions returned ranked by ascending edition key
+    - **meta**: pagination metadata for the query (total results, limit and offset)
+    - **links**: pagination links for navigation
     """
 
     # Fetch current request's path and parameters query
@@ -297,11 +291,9 @@ async def get_work_series(
 
     Returns a standardized response dictionary containing:
 
-    - **query**: the provided work_key
-    - **self**: API endpoint called
-    - **method**: HTTP method used
-    - **count**: number of records found
-    - **records**: formatted database rows
+    - **data**: the series returned ranked by ascending series key
+    - **meta**: pagination metadata for the query (total results, limit and offset)
+    - **links**: pagination links for navigation
     """
 
     # Fetch current request's path and parameters query
@@ -368,11 +360,9 @@ async def get_work_availability(
 
     Returns a standardized response dictionary containing:
 
-    - **query**: the provided work_key
-    - **self**: API endpoint called
-    - **method**: HTTP method used
-    - **count**: number of records found
-    - **records**: formatted database rows
+    - **data**: the availability returned
+    - **meta**: metadata for the query (entity type)
+    - **links**: current link used
     """
 
     # Fetch current request's path and parameters query
@@ -427,11 +417,9 @@ async def get_work_ratings(
 
     Returns a standardized response dictionary containing:
 
-    - **query**: the provided work_key
-    - **self**: API endpoint called
-    - **method**: HTTP method used
-    - **count**: number of records found
-    - **records**: formatted database rows
+    - **data**: the ratings returned
+    - **meta**: metadata for the query (entity type)
+    - **links**: current link used
     """
 
     # Fetch current request's path and parameters query
@@ -486,11 +474,9 @@ async def get_work_overview(
 
     Returns a standardized response dictionary containing:
 
-    - **query**: the provided work_key
-    - **self**: API endpoint called
-    - **method**: HTTP method used
-    - **count**: number of records found
-    - **records**: formatted database rows
+    - **data**: dictionary of lists for subjects, people, places and time periods for the work
+    - **meta**: metadata for the query (entity type)
+    - **links**: current link used
     """
 
     # Fetch current request's path and parameters query

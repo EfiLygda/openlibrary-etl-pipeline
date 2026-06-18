@@ -96,11 +96,9 @@ async def get_author(
 
     Returns a standardized response dictionary containing:
 
-    - **query**: the provided author_key
-    - **self**: API endpoint called
-    - **method**: HTTP method used
-    - **count**: number of records found
-    - **records**: formatted database rows
+    - **data**: the author returned
+    - **meta**: metadata for the query (entity type)
+    - **links**: current link used
     """
 
     # Fetch current request's path and parameters query
@@ -153,11 +151,9 @@ async def get_authors_works(
 
     Returns a standardized response dictionary containing:
 
-    - **query**: the provided author_key
-    - **self**: API endpoint called
-    - **method**: HTTP method used
-    - **count**: number of records found
-    - **records**: formatted database rows
+    - **data**: the works returned ranked by ascending work key
+    - **meta**: pagination metadata for the query (total results, limit and offset)
+    - **links**: pagination links for navigation
     """
 
     # Fetch current request's path and parameters query
@@ -224,11 +220,9 @@ async def get_authors_editions(
 
     Returns a standardized response dictionary containing:
 
-    - **query**: the provided author_key
-    - **self**: API endpoint called
-    - **method**: HTTP method used
-    - **count**: number of records found
-    - **records**: formatted database rows
+    - **data**: the editions returned ranked by ascending edition key
+    - **meta**: pagination metadata for the query (total results, limit and offset)
+    - **links**: pagination links for navigation
     """
 
     # Fetch current request's path and parameters query
@@ -295,11 +289,9 @@ async def get_authors_statistics(
 
     Returns a standardized response dictionary containing:
 
-    - **query**: the provided author_key
-    - **self**: API endpoint called
-    - **method**: HTTP method used
-    - **count**: number of records found
-    - **records**: formatted database rows
+    - **data**: the statistics returned
+    - **meta**: metadata for the query (entity type)
+    - **links**: current link used
     """
 
     # Fetch current request's path and parameters query
@@ -354,11 +346,9 @@ async def get_authors_alternative_names(
 
     Returns a standardized response dictionary containing:
 
-    - **query**: the provided author_key
-    - **self**: API endpoint called
-    - **method**: HTTP method used
-    - **count**: number of records found
-    - **records**: formatted database rows
+    - **data**: dictionary with a list of the alternative names
+    - **meta**: metadata for the query (entity type)
+    - **links**: current link used
     """
 
     # Fetch current request's path and parameters query
