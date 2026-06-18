@@ -20,6 +20,8 @@ from dotenv import load_dotenv
 
 import psycopg2
 
+from urllib.parse import urlparse, parse_qs
+
 from fastapi import APIRouter
 from fastapi import Request
 
@@ -52,7 +54,7 @@ router = APIRouter(
     response_model=RelationshipResponse[SearchWork],
     responses={
         '404': WorksErrors.NotFound.response,
-        # '422': WorksErrors.InvalidKey.response
+        '422': WorksErrors.QueryConflict.response
     }
 )
 async def search(
@@ -80,6 +82,16 @@ async def search(
 
     # Current query
     query = f'{path_url}?{query_url}' if query_url else path_url
+
+    # Check if other params were given except 'q', 'limit', 'offset'
+    # Parse url to components (here we need 'query' for parameters)
+    url_parts = urlparse(str(request.url))
+
+    # Convert parameters to dictionary like {'q' = ['...'], 'limit' = ['20'], 'offset' = ['0']}
+    current_query = parse_qs(url_parts.query)
+
+    if not all([param_name in ['q', 'limit', 'offset'] for param_name in current_query.keys()]):
+        raise WorksErrors.QueryConflict(query)
 
     # Fetch data
     results = search_repo.search(

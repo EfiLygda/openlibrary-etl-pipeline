@@ -110,6 +110,12 @@ class WorksErrors:
         description='Work key is invalid'
     )
 
+    QueryConflict = _APIErrorDefinition(
+        status_code=422,
+        error_code='INVALID_QUERY_COMBINATION',
+        description='Only fields \'q\', \'limit\' and \'offset\' can be used for search'
+    )
+
 class AuthorsErrors:
     """
     Error definitions related to author entities
