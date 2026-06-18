@@ -6,8 +6,6 @@ This module provides functions for querying the PostgreSQL database
 
 import psycopg2
 from api.repository.base import execute_query
-from api.utils.pagination import build_pagination_links
-
 
 def search(
         connection: psycopg2.extensions.connection,
@@ -15,13 +13,10 @@ def search(
         limit: int | None = None,
         offset: int | None = None
 ):
-    # TODO: Fix pattern recognition and scoring of results
-    #       maybe use ratings? work or author ratings
-    q = f'%{q}%'
 
     # Set up the query parameters
     params = {
-        'pattern': q
+        'query': q
     }
 
     if not limit is None:
@@ -35,7 +30,7 @@ def search(
         connection=connection,
         params=params,
         query_module='search',
-        query_filename='search_total.sql'
+        query_filename='search_works_total.sql'
     )
 
     # Fetch the records
@@ -43,7 +38,7 @@ def search(
         connection=connection,
         params=params,
         query_module='search',
-        query_filename='search.sql'
+        query_filename='search_works.sql'
     )
 
     return {
