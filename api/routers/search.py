@@ -95,8 +95,7 @@ async def search(
 
     # Build links
     links = build_pagination_links(
-        query=query,
-        path_url=path_url,
+        url=query,
         total=results['total_results'],
         limit=limit,
         offset=offset

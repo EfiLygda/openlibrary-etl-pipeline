@@ -185,8 +185,7 @@ async def get_authors_works(
 
     # Build links
     links = build_pagination_links(
-        query=query,
-        path_url=path_url,
+        url=query,
         total=results['total_works'],
         limit=limit,
         offset=offset
@@ -257,8 +256,7 @@ async def get_authors_editions(
 
     # Build links
     links = build_pagination_links(
-        query=query,
-        path_url=path_url,
+        url=query,
         total=results['total_editions'],
         limit=limit,
         offset=offset

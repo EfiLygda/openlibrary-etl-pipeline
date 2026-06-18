@@ -172,8 +172,7 @@ async def get_editions_details(
 
     # Build links
     links = build_pagination_links(
-        query=query,
-        path_url=path_url,
+        url=query,
         total=results['total_details'],
         limit=limit,
         offset=offset
@@ -239,8 +238,7 @@ async def get_editions_contents(
 
     # Build links
     links = build_pagination_links(
-        query=query,
-        path_url=path_url,
+        url=query,
         total=results['total_contents'],
         limit=limit,
         offset=offset
@@ -306,8 +304,7 @@ async def get_editions_publishing(
 
     # Build links
     links = build_pagination_links(
-        query=query,
-        path_url=path_url,
+        url=query,
         total=results['total_publishing'],
         limit=limit,
         offset=offset
@@ -373,8 +370,7 @@ async def get_editions_contributors(
 
     # Build links
     links = build_pagination_links(
-        query=query,
-        path_url=path_url,
+        url=query,
         total=results['total_contributors'],
         limit=limit,
         offset=offset
