@@ -1,4 +1,5 @@
 """
+Module for the type definitions of grouped API responses (deprecated)
 
 Note:
     1. typing.Optional[X] is Union[X,None] == X | None

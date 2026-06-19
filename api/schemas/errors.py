@@ -1,5 +1,5 @@
-
 """
+Module for the type definitions of API errors
 
 Note:
     1. typing.Optional[X] is Union[X,None] == X | None
@@ -26,6 +26,7 @@ class ErrorCode(str, Enum):
     INVALID_AUTHOR_KEY = 'INVALID_AUTHOR_KEY'
     EDITION_NOT_FOUND = 'EDITION_NOT_FOUND'
     INVALID_EDITION_KEY = 'INVALID_EDITION_KEY'
+    INVALID_QUERY_COMBINATION = 'INVALID_QUERY_COMBINATION' # for search queries when q is used with other fields
 
 # - BASIC API ERROR RESPONSE -
 class APIError(BaseModel):

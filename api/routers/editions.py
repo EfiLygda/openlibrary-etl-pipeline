@@ -25,25 +25,35 @@ Endpoints:
   Retrieve contributors associated with an edition, such as authors, editors, and other collaborators
 """
 
+import os
+from dotenv import load_dotenv
+
 import psycopg2
 
 from fastapi import APIRouter
+from fastapi import Request
 
+from api.utils.pagination import build_pagination_links
 from open_library import KeyHandler
 
 from api.dependencies import DB_DEPENDENCY
 import api.repository.editions as editions_repo
-from api.service import format_response
 
 from api.errors import BaseErrors, EditionsErrors
-from api.schemas.responses import APIResponse
+
 from api.schemas.entities.core import Edition
-from api.schemas.entities.relationships import (
-    EditionsDetails,
-    EditionsContents,
-    EditionsPublishing,
-    EditionsContributors
-)
+from api.schemas.entities.summaries import WorkSummary
+from api.schemas.entities.extensions import EditionDetails, EditionContents, EditionPublishing, EditionContributor
+from api.schemas.responses import EntityResponse, RelationshipResponse
+
+from api.response_builders.entities import format_response_entity, format_response_relationship
+
+# Load variables from the .env file to the environment
+load_dotenv()
+
+# Save the hidden info to variables
+GENRE = os.getenv("API_LIMIT")
+API_LIMIT = int(os.getenv("API_LIMIT"))
 
 # --- Defining the editions router ---
 router = APIRouter(
@@ -66,240 +76,370 @@ async def editions_root() -> None:
 
 @router.get(
     path="/{edition_key}",
-    response_model=APIResponse[Edition],
+    response_model=EntityResponse[Edition],
     responses={
         '404': EditionsErrors.NotFound.response,
         '422': EditionsErrors.InvalidKey.response
     }
 )
 async def get_edition(
+        request: Request,
         edition_key: str,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
-) -> APIResponse[Edition]:
+) -> EntityResponse[Edition]:
     """
     Retrieve an edition's records by **edition_key**.
 
     Returns a standardized response dictionary containing:
 
-    - **query**: the provided edition_key
-    - **endpoint**: API endpoint called
-    - **method**: HTTP method used
-    - **count**: number of records found
-    - **records**: formatted database rows
+    - **data**: the edition returned
+    - **meta**: metadata for the query (entity type)
+    - **links**: current link used
     """
 
+    # Fetch current request's path and parameters query
+    path_url = request.url.path
+    query_url = request.url.query
+
     # Current query
-    query = f'/editions/{edition_key}'
+    query = f'{path_url}?{query_url}' if query_url else path_url
 
     # Validate if the key is a valid work key
     if KeyHandler.detect_key(edition_key) != 'edition':
         raise EditionsErrors.InvalidKey(query)
 
     # Fetch data
-    data, column_names = editions_repo.get_edition_by_edition_key(connection, edition_key)
+    results = editions_repo.get_edition_by_edition_key(connection, edition_key)
 
     # If no data is returned then error is raised
-    if not data:
+    if len(results['data']) == 0:
         raise EditionsErrors.NotFound(query)
 
     # Format and return consistent API response structure
-    return format_response(
-        query=edition_key,
-        endpoint=query,
-        method='GET',
-        records=data,
-        column_names=column_names,
+    return format_response_entity(
+        records=results['data'],
+        column_names=results['column_names'],
+        meta={'type': 'edition'},
+        links={'self': query},
         model=Edition
     )
 
 @router.get(
+    path="/{edition_key}/works",
+    response_model=RelationshipResponse[WorkSummary],
+    responses={
+        '404': EditionsErrors.NotFound.response,
+        '422': EditionsErrors.InvalidKey.response
+    }
+)
+async def get_editions_work(
+        request: Request,
+        edition_key: str,
+        limit: int = API_LIMIT,
+        offset: int = 0,
+        connection: psycopg2.extensions.connection = DB_DEPENDENCY
+) -> RelationshipResponse[WorkSummary]:
+    """
+    Retrieve an edition's work details records by **edition_key**.
+
+    Returns a standardized response dictionary containing:
+
+    - **data**: the editions' work returned ranked by ascending edition key
+    - **meta**: pagination metadata for the query (total results, limit and offset)
+    - **links**: pagination links for navigation
+    """
+
+    # Fetch current request's path and parameters query
+    path_url = request.url.path
+    query_url = request.url.query
+
+    # Current query
+    query = f'{path_url}?{query_url}' if query_url else path_url
+
+    # Validate if the key is a valid work key
+    if KeyHandler.detect_key(edition_key) != 'edition':
+        raise EditionsErrors.InvalidKey(query)
+
+    # Fetch data
+    results = editions_repo.get_works_by_edition_key(connection, edition_key)
+
+    # If no data is returned then error is raised
+    if results['total_editions'] == 0:
+        raise EditionsErrors.NotFound(query)
+
+    # Build links
+    links = build_pagination_links(
+        url=query,
+        total=results['total_works'],
+        limit=limit,
+        offset=offset
+    )
+
+    # Format and return consistent API response structure
+    return format_response_relationship(
+        records=results['data'],
+        column_names=results['column_names'],
+        meta={
+            'total': results['total_works'],
+            'limit': limit,
+            'offset': offset
+        },
+        links=links,
+        model=WorkSummary,
+    )
+
+@router.get(
     path="/{edition_key}/details",
-    response_model=APIResponse[EditionsDetails],
+    response_model=RelationshipResponse[EditionDetails],
     responses={
         '404': EditionsErrors.NotFound.response,
         '422': EditionsErrors.InvalidKey.response
     }
 )
 async def get_editions_details(
+        request: Request,
         edition_key: str,
+        limit: int = API_LIMIT,
+        offset: int = 0,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
-) -> APIResponse[EditionsDetails]:
+) -> RelationshipResponse[EditionDetails]:
     """
     Retrieve an edition's details records by **edition_key**.
 
     Returns a standardized response dictionary containing:
 
-    - **query**: the provided edition_key
-    - **endpoint**: API endpoint called
-    - **method**: HTTP method used
-    - **count**: number of records found
-    - **records**: formatted database rows
+    - **data**: the editions' details returned ranked by ascending edition key
+    - **meta**: pagination metadata for the query (total results, limit and offset)
+    - **links**: pagination links for navigation
     """
 
+    # Fetch current request's path and parameters query
+    path_url = request.url.path
+    query_url = request.url.query
+
     # Current query
-    query = f'/editions/{edition_key}/details'
+    query = f'{path_url}?{query_url}' if query_url else path_url
 
     # Validate if the key is a valid work key
     if KeyHandler.detect_key(edition_key) != 'edition':
         raise EditionsErrors.InvalidKey(query)
 
     # Fetch data
-    data, column_names = editions_repo.get_details_by_edition_key(connection, edition_key)
+    results = editions_repo.get_details_by_edition_key(connection, edition_key)
 
     # If no data is returned then error is raised
-    if not data:
+    if results['total_editions'] == 0:
         raise EditionsErrors.NotFound(query)
 
+    # Build links
+    links = build_pagination_links(
+        url=query,
+        total=results['total_details'],
+        limit=limit,
+        offset=offset
+    )
+
     # Format and return consistent API response structure
-    return format_response(
-        query=edition_key,
-        endpoint=query,
-        method='GET',
-        records=data,
-        column_names=column_names,
-        model=EditionsDetails
+    return format_response_relationship(
+        records=results['data'],
+        column_names=results['column_names'],
+        meta={
+            'total': results['total_details'],
+            'limit': limit,
+            'offset': offset
+        },
+        links=links,
+        model=EditionDetails,
     )
 
 @router.get(
     path="/{edition_key}/contents",
-    response_model=APIResponse[EditionsContents],
+    response_model=RelationshipResponse[EditionContents],
     responses={
         '404': EditionsErrors.NotFound.response,
         '422': EditionsErrors.InvalidKey.response
     }
 )
 async def get_editions_contents(
+        request: Request,
         edition_key: str,
+        limit: int = API_LIMIT,
+        offset: int = 0,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
-) -> APIResponse[EditionsContents]:
+) -> RelationshipResponse[EditionContents]:
     """
     Retrieve an edition's contents records by **edition_key**.
 
     Returns a standardized response dictionary containing:
 
-    - **query**: the provided edition_key
-    - **endpoint**: API endpoint called
-    - **method**: HTTP method used
-    - **count**: number of records found
-    - **records**: formatted database rows
+    - **data**: the editions' contents returned ranked by ascending edition key
+    - **meta**: pagination metadata for the query (total results, limit and offset)
+    - **links**: pagination links for navigation
     """
 
+    # Fetch current request's path and parameters query
+    path_url = request.url.path
+    query_url = request.url.query
+
     # Current query
-    query = f'/editions/{edition_key}/contents'
+    query = f'{path_url}?{query_url}' if query_url else path_url
 
     # Validate if the key is a valid work key
     if KeyHandler.detect_key(edition_key) != 'edition':
         raise EditionsErrors.InvalidKey(query)
 
     # Fetch data
-    data, column_names = editions_repo.get_contents_by_edition_key(connection, edition_key)
+    results = editions_repo.get_contents_by_edition_key(connection, edition_key)
 
     # If no data is returned then error is raised
-    if not data:
+    if results['total_editions'] == 0:
         raise EditionsErrors.NotFound(query)
 
+    # Build links
+    links = build_pagination_links(
+        url=query,
+        total=results['total_contents'],
+        limit=limit,
+        offset=offset
+    )
+
     # Format and return consistent API response structure
-    return format_response(
-        query=edition_key,
-        endpoint=query,
-        method='GET',
-        records=data,
-        column_names=column_names,
-        model=EditionsContents
+    return format_response_relationship(
+        records=results['data'],
+        column_names=results['column_names'],
+        meta={
+            'total': results['total_contents'],
+            'limit': limit,
+            'offset': offset
+        },
+        links=links,
+        model=EditionContents,
     )
 
 @router.get(
     path="/{edition_key}/publishing",
-    response_model=APIResponse[EditionsPublishing],
+    response_model=RelationshipResponse[EditionPublishing],
     responses={
         '404': EditionsErrors.NotFound.response,
         '422': EditionsErrors.InvalidKey.response
     }
 )
 async def get_editions_publishing(
+        request: Request,
         edition_key: str,
+        limit: int = API_LIMIT,
+        offset: int = 0,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
-) -> APIResponse[EditionsPublishing]:
+) -> RelationshipResponse[EditionPublishing]:
     """
     Retrieve an edition's publishing records by **edition_key**.
 
     Returns a standardized response dictionary containing:
 
-    - **query**: the provided edition_key
-    - **endpoint**: API endpoint called
-    - **method**: HTTP method used
-    - **count**: number of records found
-    - **records**: formatted database rows
+    - **data**: the editions' publishing details returned ranked by ascending edition key
+    - **meta**: pagination metadata for the query (total results, limit and offset)
+    - **links**: pagination links for navigation
     """
 
+    # Fetch current request's path and parameters query
+    path_url = request.url.path
+    query_url = request.url.query
+
     # Current query
-    query = f'/editions/{edition_key}/publishing'
+    query = f'{path_url}?{query_url}' if query_url else path_url
 
     # Validate if the key is a valid work key
     if KeyHandler.detect_key(edition_key) != 'edition':
         raise EditionsErrors.InvalidKey(query)
 
     # Fetch data
-    data, column_names = editions_repo.get_publishing_by_edition_key(connection, edition_key)
+    results = editions_repo.get_publishing_by_edition_key(connection, edition_key)
 
     # If no data is returned then error is raised
-    if not data:
+    if results['total_editions'] == 0:
         raise EditionsErrors.NotFound(query)
 
+    # Build links
+    links = build_pagination_links(
+        url=query,
+        total=results['total_publishing'],
+        limit=limit,
+        offset=offset
+    )
+
     # Format and return consistent API response structure
-    return format_response(
-        query=edition_key,
-        endpoint=query,
-        method='GET',
-        records=data,
-        column_names=column_names,
-        model=EditionsPublishing
+    return format_response_relationship(
+        records=results['data'],
+        column_names=results['column_names'],
+        meta={
+            'total': results['total_publishing'],
+            'limit': limit,
+            'offset': offset
+        },
+        links=links,
+        model=EditionPublishing,
     )
 
 @router.get(
     path="/{edition_key}/contributors",
-    response_model=APIResponse[EditionsContributors],
+    response_model=RelationshipResponse[EditionContributor],
     responses={
         '404': EditionsErrors.NotFound.response,
         '422': EditionsErrors.InvalidKey.response
     }
 )
 async def get_editions_contributors(
+        request: Request,
         edition_key: str,
+        limit: int = API_LIMIT,
+        offset: int = 0,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
-) -> APIResponse[EditionsContributors]:
+) -> RelationshipResponse[EditionContributor]:
     """
     Retrieve an edition's publishing records by **edition_key**.
 
     Returns a standardized response dictionary containing:
 
-    - **query**: the provided edition_key
-    - **endpoint**: API endpoint called
-    - **method**: HTTP method used
-    - **count**: number of records found
-    - **records**: formatted database rows
+    - **data**: the editions' contributors returned ranked by ascending edition key
+    - **meta**: pagination metadata for the query (total results, limit and offset)
+    - **links**: pagination links for navigation
     """
 
+    # Fetch current request's path and parameters query
+    path_url = request.url.path
+    query_url = request.url.query
+
     # Current query
-    query = f'/editions/{edition_key}/contributors'
+    query = f'{path_url}?{query_url}' if query_url else path_url
 
     # Validate if the key is a valid work key
     if KeyHandler.detect_key(edition_key) != 'edition':
         raise EditionsErrors.InvalidKey(query)
 
     # Fetch data
-    data, column_names = editions_repo.get_contributors_by_edition_key(connection, edition_key)
+    results = editions_repo.get_contributors_by_edition_key(connection, edition_key)
 
     # If no data is returned then error is raised
-    if not data:
+    if results['total_editions'] == 0:
         raise EditionsErrors.NotFound(query)
 
+    # Build links
+    links = build_pagination_links(
+        url=query,
+        total=results['total_contributors'],
+        limit=limit,
+        offset=offset
+    )
+
     # Format and return consistent API response structure
-    return format_response(
-        query=edition_key,
-        endpoint=query,
-        method='GET',
-        records=data,
-        column_names=column_names,
-        model=EditionsContributors
+    return format_response_relationship(
+        records=results['data'],
+        column_names=results['column_names'],
+        meta={
+            'total': results['total_contributors'],
+            'limit': limit,
+            'offset': offset
+        },
+        links=links,
+        model=EditionContributor,
     )

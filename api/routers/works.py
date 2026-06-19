@@ -31,28 +31,35 @@ Endpoints:
   Retrieve 5-star ratings counts for a work
 
 """
+import os
+from dotenv import load_dotenv
 
 import psycopg2
 
 from fastapi import APIRouter
+from fastapi import Request
 
 from open_library import KeyHandler
 
 from api.dependencies import DB_DEPENDENCY
 import api.repository.works as works_repo
-from api.service import format_response
 
+from api.utils.pagination import build_pagination_links
 from api.errors import BaseErrors, WorksErrors
-from api.schemas.responses import APIResponse
+
 from api.schemas.entities.core import Work
-from api.schemas.entities.relationships import (
-    WorksAuthors,
-    WorksEditions,
-    WorksSeries,
-    WorksAvailability,
-    WorksOverview,
-    WorksRatings
-)
+from api.schemas.entities.summaries import AuthorSummary, EditionSummary
+from api.schemas.entities.extensions import WorkSeries, WorkAvailability, WorkRatings, WorkOverview
+from api.schemas.responses import EntityResponse, RelationshipResponse
+
+from api.response_builders.entities import format_response_entity, format_response_relationship
+
+# Load variables from the .env file to the environment
+load_dotenv()
+
+# Save the hidden info to variables
+GENRE = os.getenv("API_LIMIT")
+API_LIMIT = int(os.getenv("API_LIMIT"))
 
 # --- Defining the works router ---
 router = APIRouter(
@@ -75,334 +82,431 @@ async def works_root() -> None:
 
 @router.get(
     path="/{work_key}",
-    response_model=APIResponse[Work],
+    response_model=EntityResponse[Work],
     responses={
         '404': WorksErrors.NotFound.response,
         '422': WorksErrors.InvalidKey.response
     }
 )
 async def get_work(
+        request: Request,
         work_key: str,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
-) -> APIResponse[Work]:
+) -> EntityResponse[Work]:
     """
     Retrieve a work's records by **work_key**.
 
     Returns a standardized response dictionary containing:
 
-    - **query**: the provided work_key
-    - **endpoint**: API endpoint called
-    - **method**: HTTP method used
-    - **count**: number of records found
-    - **records**: formatted database rows
+    - **data**: the work
+    - **meta**: metadata for the query (entity type)
+    - **links**: current link used
     """
+
+    # Fetch current request's path and parameters query
+    path_url = request.url.path
+    query_url = request.url.query
+
     # Current query
-    query = f'/works/{work_key}'
+    query = f'{path_url}?{query_url}' if query_url else path_url
 
     # Validate if the key is a valid work key
     if KeyHandler.detect_key(work_key) != 'work':
         raise WorksErrors.InvalidKey(query)
 
     # Fetch data
-    data, column_names = works_repo.get_works_by_work_key(connection, work_key)
+    results = works_repo.get_works_by_work_key(
+        connection=connection,
+        work_key=work_key
+    )
 
     # If no data is returned then error is raised
-    if not data:
+    if len(results['data']) == 0:
         raise WorksErrors.NotFound(query)
 
     # Format and return consistent API response structure
-    return format_response(
-        query=work_key,
-        endpoint=query,
-        method='GET',
-        records=data,
-        column_names=column_names,
+    return format_response_entity(
+        records=results['data'],
+        column_names=results['column_names'],
+        meta={'type': 'work'},
+        links={'self': query},
         model=Work
     )
 
 @router.get(
     path="/{work_key}/authors",
-    response_model=APIResponse[WorksAuthors],
+    response_model=RelationshipResponse[AuthorSummary],
     responses={
         '404': WorksErrors.NotFound.response,
         '422': WorksErrors.InvalidKey.response
     }
 )
 async def get_work_authors(
+        request: Request,
         work_key: str,
+        limit: int = API_LIMIT,
+        offset: int = 0,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
-) -> APIResponse[WorksAuthors]:
+) -> RelationshipResponse[AuthorSummary]:
     """
     Retrieve a work's authors' summarized records by **work_key**.
 
     Returns a standardized response dictionary containing:
 
-    - **query**: the provided work_key
-    - **endpoint**: API endpoint called
-    - **method**: HTTP method used
-    - **count**: number of records found
-    - **records**: formatted database rows
+    - **data**: the authors returned ranked by ascending work key
+    - **meta**: pagination metadata for the query (total results, limit and offset)
+    - **links**: pagination links for navigation
     """
 
+    # Fetch current request's path and parameters query
+    path_url = request.url.path
+    query_url = request.url.query
+
     # Current query
-    query = f'/works/{work_key}/authors'
+    query = f'{path_url}?{query_url}' if query_url else path_url
 
     # Validate if the key is a valid work key
     if KeyHandler.detect_key(work_key) != 'work':
         raise WorksErrors.InvalidKey(query)
 
     # Fetch data
-    data, column_names = works_repo.get_authors_by_work_key(connection, work_key)
+    results = works_repo.get_authors_by_work_key(
+        connection=connection,
+        work_key=work_key,
+        limit=limit,
+        offset=offset
+    )
 
     # If no data is returned then error is raised
-    if not data:
+    if results['total_works'] == 0:
         raise WorksErrors.NotFound(query)
 
+    # Build links
+    links = build_pagination_links(
+        url=query,
+        total=results['total_authors'],
+        limit=limit,
+        offset=offset
+    )
+
     # Format and return consistent API response structure
-    return format_response(
-        query=work_key,
-        endpoint=query,
-        method='GET',
-        records=data,
-        column_names=column_names,
-        model=WorksAuthors
+    return format_response_relationship(
+        records=results['data'],
+        column_names=results['column_names'],
+        meta={
+            'total': results['total_authors'],
+            'limit': limit,
+            'offset': offset
+        },
+        links=links,
+        model=AuthorSummary,
     )
 
 @router.get(
     path="/{work_key}/editions",
-    response_model=APIResponse[WorksEditions],
+    response_model=RelationshipResponse[EditionSummary],
     responses={
         '404': WorksErrors.NotFound.response,
         '422': WorksErrors.InvalidKey.response
     }
 )
 async def get_work_editions(
+        request: Request,
         work_key: str,
+        limit: int = API_LIMIT,
+        offset: int = 0,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
-) -> APIResponse[WorksEditions]:
+) -> RelationshipResponse[EditionSummary]:
     """
     Retrieve a work's editions' summarized records by **work_key**.
 
     Returns a standardized response dictionary containing:
 
-    - **query**: the provided work_key
-    - **endpoint**: API endpoint called
-    - **method**: HTTP method used
-    - **count**: number of records found
-    - **records**: formatted database rows
+    - **data**: the editions returned ranked by ascending edition key
+    - **meta**: pagination metadata for the query (total results, limit and offset)
+    - **links**: pagination links for navigation
     """
 
+    # Fetch current request's path and parameters query
+    path_url = request.url.path
+    query_url = request.url.query
+
     # Current query
-    query = f'/works/{work_key}/editions'
+    query = f'{path_url}?{query_url}' if query_url else path_url
 
     # Validate if the key is a valid work key
     if KeyHandler.detect_key(work_key) != 'work':
         raise WorksErrors.InvalidKey(query)
 
     # Fetch data
-    data, column_names = works_repo.get_editions_by_work_key(connection, work_key)
+    results = works_repo.get_editions_by_work_key(
+        connection=connection,
+        work_key=work_key,
+        limit=limit,
+        offset=offset
+    )
 
     # If no data is returned then error is raised
-    if not data:
+    if results['total_works'] == 0:
         raise WorksErrors.NotFound(query)
 
+    # Build links
+    links = build_pagination_links(
+        url=query,
+        total=results['total_editions'],
+        limit=limit,
+        offset=offset
+    )
+
     # Format and return consistent API response structure
-    return format_response(
-        query=work_key,
-        endpoint=query,
-        method='GET',
-        records=data,
-        column_names=column_names,
-        model=WorksEditions
+    return format_response_relationship(
+        records=results['data'],
+        column_names=results['column_names'],
+        meta={
+            'total': results['total_editions'],
+            'limit': limit,
+            'offset': offset
+        },
+        links=links,
+        model=EditionSummary,
     )
 
 @router.get(
     path="/{work_key}/series",
-    response_model=APIResponse[WorksSeries],
+    response_model=RelationshipResponse[WorkSeries],
     responses={
         '404': WorksErrors.NotFound.response,
         '422': WorksErrors.InvalidKey.response
     }
 )
 async def get_work_series(
+        request: Request,
         work_key: str,
+        limit: int = API_LIMIT,
+        offset: int = 0,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
-) -> APIResponse[WorksSeries]:
+) -> RelationshipResponse[WorkSeries]:
     """
     Retrieve a work's series records by **work_key**.
 
     Returns a standardized response dictionary containing:
 
-    - **query**: the provided work_key
-    - **endpoint**: API endpoint called
-    - **method**: HTTP method used
-    - **count**: number of records found
-    - **records**: formatted database rows
+    - **data**: the series returned ranked by ascending series key
+    - **meta**: pagination metadata for the query (total results, limit and offset)
+    - **links**: pagination links for navigation
     """
 
+    # Fetch current request's path and parameters query
+    path_url = request.url.path
+    query_url = request.url.query
+
     # Current query
-    query = f'/works/{work_key}/series'
+    query = f'{path_url}?{query_url}' if query_url else path_url
 
     # Validate if the key is a valid work key
     if KeyHandler.detect_key(work_key) != 'work':
         raise WorksErrors.InvalidKey(query)
 
     # Fetch data
-    data, column_names = works_repo.get_series_by_work_key(connection, work_key)
+    results = works_repo.get_series_by_work_key(
+        connection=connection,
+        work_key=work_key,
+        limit=limit,
+        offset=offset
+    )
 
     # If no data is returned then error is raised
-    if not data:
+    if results['total_works'] == 0:
         raise WorksErrors.NotFound(query)
 
+    # Build links
+    links = build_pagination_links(
+        url=query,
+        total=results['total_series'],
+        limit=limit,
+        offset=offset
+    )
+
     # Format and return consistent API response structure
-    return format_response(
-        query=work_key,
-        endpoint=query,
-        method='GET',
-        records=data,
-        column_names=column_names,
-        model=WorksSeries
+    return format_response_relationship(
+        records=results['data'],
+        column_names=results['column_names'],
+        meta={
+            'total': results['total_series'],
+            'limit': limit,
+            'offset': offset
+        },
+        links=links,
+        model=WorkSeries,
     )
 
 @router.get(
     path="/{work_key}/availability",
-    response_model=APIResponse[WorksAvailability],
+    response_model=EntityResponse[WorkAvailability],
     responses={
         '404': WorksErrors.NotFound.response,
         '422': WorksErrors.InvalidKey.response
     }
 )
 async def get_work_availability(
+        request: Request,
         work_key: str,
+        limit: int = API_LIMIT,
+        offset: int = 0,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
-) -> APIResponse[WorksAvailability]:
+) -> EntityResponse[WorkAvailability]:
     """
     Retrieve a work's availability records by **work_key**.
 
     Returns a standardized response dictionary containing:
 
-    - **query**: the provided work_key
-    - **endpoint**: API endpoint called
-    - **method**: HTTP method used
-    - **count**: number of records found
-    - **records**: formatted database rows
+    - **data**: the availability returned
+    - **meta**: metadata for the query (entity type)
+    - **links**: current link used
     """
+
+    # Fetch current request's path and parameters query
+    path_url = request.url.path
+    query_url = request.url.query
+
     # Current query
-    query = f'/works/{work_key}/availability'
+    query = f'{path_url}?{query_url}' if query_url else path_url
 
     # Validate if the key is a valid work key
     if KeyHandler.detect_key(work_key) != 'work':
         raise WorksErrors.InvalidKey(query)
 
     # Fetch data
-    data, column_names = works_repo.get_availability_by_work_key(connection, work_key)
+    results = works_repo.get_availability_by_work_key(
+        connection=connection,
+        work_key=work_key,
+        limit=limit,
+        offset=offset
+    )
 
     # If no data is returned then error is raised
-    if not data:
+    if len(results['data']) == 0:
         raise WorksErrors.NotFound(query)
 
     # Format and return consistent API response structure
-    return format_response(
-        query=work_key,
-        endpoint=query,
-        method='GET',
-        records=data,
-        column_names=column_names,
-        model=WorksAvailability
+    return format_response_entity(
+        records=results['data'],
+        column_names=results['column_names'],
+        meta={'type': 'work'},
+        links={'self': query},
+        model=WorkAvailability
     )
 
 @router.get(
     path="/{work_key}/ratings",
-    response_model=APIResponse[WorksRatings],
+    response_model=EntityResponse[WorkRatings],
     responses={
         '404': WorksErrors.NotFound.response,
         '422': WorksErrors.InvalidKey.response
     }
 )
 async def get_work_ratings(
+        request: Request,
         work_key: str,
+        limit: int = API_LIMIT,
+        offset: int = 0,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
-) -> APIResponse[WorksRatings]:
+) -> EntityResponse[WorkRatings]:
     """
     Retrieve a work's ratings records by **work_key**.
 
     Returns a standardized response dictionary containing:
 
-    - **query**: the provided work_key
-    - **endpoint**: API endpoint called
-    - **method**: HTTP method used
-    - **count**: number of records found
-    - **records**: formatted database rows
+    - **data**: the ratings returned
+    - **meta**: metadata for the query (entity type)
+    - **links**: current link used
     """
 
+    # Fetch current request's path and parameters query
+    path_url = request.url.path
+    query_url = request.url.query
+
     # Current query
-    query = f'/works/{work_key}/ratings'
+    query = f'{path_url}?{query_url}' if query_url else path_url
 
     # Validate if the key is a valid work key
     if KeyHandler.detect_key(work_key) != 'work':
         raise WorksErrors.InvalidKey(query)
 
     # Fetch data
-    data, column_names = works_repo.get_ratings_by_work_key(connection, work_key)
+    results = works_repo.get_ratings_by_work_key(
+        connection=connection,
+        work_key=work_key,
+        limit=limit,
+        offset=offset
+    )
 
     # If no data is returned then error is raised
-    if not data:
+    if len(results['data']) == 0:
         raise WorksErrors.NotFound(query)
 
     # Format and return consistent API response structure
-    return format_response(
-        query=work_key,
-        endpoint=query,
-        method='GET',
-        records=data,
-        column_names=column_names,
-        model=WorksRatings
+    return format_response_entity(
+        records=results['data'],
+        column_names=results['column_names'],
+        meta={'type': 'work'},
+        links={'self': query},
+        model=WorkRatings
     )
 
 @router.get(
     path="/{work_key}/overview",
-    response_model=APIResponse[WorksOverview],
+    response_model=EntityResponse[WorkOverview],
     responses={
         '404': WorksErrors.NotFound.response,
         '422': WorksErrors.InvalidKey.response
     }
 )
 async def get_work_overview(
+        request: Request,
         work_key: str,
+        limit: int = API_LIMIT,
+        offset: int = 0,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
-) -> APIResponse[WorksOverview]:
+) -> EntityResponse[WorkOverview]:
     """
     Retrieve a work's overview records (subjects, people, places, time periods) by **work_key**.
 
     Returns a standardized response dictionary containing:
 
-    - **query**: the provided work_key
-    - **endpoint**: API endpoint called
-    - **method**: HTTP method used
-    - **count**: number of records found
-    - **records**: formatted database rows
+    - **data**: dictionary of lists for subjects, people, places and time periods for the work
+    - **meta**: metadata for the query (entity type)
+    - **links**: current link used
     """
 
+    # Fetch current request's path and parameters query
+    path_url = request.url.path
+    query_url = request.url.query
+
     # Current query
-    query = f'/works/{work_key}/overview'
+    query = f'{path_url}?{query_url}' if query_url else path_url
 
     # Validate if the key is a valid work key
     if KeyHandler.detect_key(work_key) != 'work':
         raise WorksErrors.InvalidKey(query)
 
     # Fetch data
-    data, column_names = works_repo.get_overview_by_work_key(connection, work_key)
+    results = works_repo.get_overview_by_work_key(
+        connection=connection,
+        work_key=work_key,
+        limit=limit,
+        offset=offset
+    )
 
     # If no data is returned then error is raised
-    if not data:
+    if len(results['data']) == 0:
         raise WorksErrors.NotFound(query)
 
     # Format and return consistent API response structure
-    return format_response(
-        query=work_key,
-        endpoint=query,
-        method='GET',
-        records=data,
-        column_names=column_names,
-        model=WorksOverview
+    return format_response_entity(
+        records=results['data'],
+        column_names=results['column_names'],
+        meta={'type': 'work'},
+        links={'self': query},
+        model=WorkOverview
     )

@@ -46,7 +46,7 @@ class _APIErrorDefinition:
             detail={
                 'error_code': self.error_code,
                 'message': self.description,
-                'query': query
+                'self': query
             }
         )
 
@@ -108,6 +108,12 @@ class WorksErrors:
         status_code=422,
         error_code='INVALID_WORK_KEY',
         description='Work key is invalid'
+    )
+
+    QueryConflict = _APIErrorDefinition(
+        status_code=422,
+        error_code='INVALID_QUERY_COMBINATION',
+        description='Only fields \'q\', \'limit\' and \'offset\' can be used for search'
     )
 
 class AuthorsErrors:

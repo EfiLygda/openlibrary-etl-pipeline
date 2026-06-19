@@ -1,4 +1,5 @@
 """
+Module for the type definitions of extensions of basic entity types (i.e. a work's series -> WorkSeries)
 
 Note:
     1. typing.Optional[X] is Union[X,None] == X | None
@@ -51,6 +52,9 @@ class AuthorStatistics(BaseModel):
     want_to_read_count: int
     currently_reading_count: int
     already_read_count: int
+
+class AuthorAlternativeNames(BaseModel):
+    author_alternative_names: Optional[list[str]]
 
 # - EDITIONS -
 class EditionDetails(BaseModel):
