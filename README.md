@@ -30,6 +30,7 @@ This project is an independent work and is not affiliated with or endorsed by Op
   * [API Overview](#api-overview)
     * [How to Run](#how-to-run-1)
     * [API Documentation](#api-documentation)
+    * [Suggested Usage Flow](#suggested-usage-flow)
     * [Error Handling](#error-handling)
       * [HTTP Status Codes](#http-status-codes)
       * [Error Types](#error-types)
@@ -65,33 +66,51 @@ What the project is trying to achieve:
 
     .
     ├── api/
-    │   ├── repository/   # Data access layer (DB queries)
-    │   └── routers/      # FastAPI route definitions (endpoint controllers)
-    ├── config/           # API configuration and project paths
+    │   ├── repository/           # Data access layer (DB queries)
+    │   │   └── sql/              # SQL query modules organized by entity
+    │   │       ├── authors/      # Authors-related queries
+    │   │       ├── editions/     # Editions-related queries
+    │   │       ├── search/       # Search-related queries
+    │   │       └── works/        # Works-related queries
+    │   ├── response_builders/    # API responses builders
+    │   ├── routers/              # FastAPI route definitions (endpoint controllers)
+    │   ├── schemas/              # Pydantic response models
+    │   │   └── entities/         # Entity schemas
+    │   └── utils/                # Pagination utility functions
+    │
+    ├── config/                   # OpenLibrary API configuration and project paths
+    │  
     ├── data/
     │   └── romance_fiction/
-    │       ├── raw/      # Raw OpenLibrary API responses
-    │       ├── staging/  # Intermediate files used between ETL stages
-    │       └── processed/# Final normalized tables
+    │       ├── raw/              # Raw OpenLibrary API responses
+    │       ├── staging/          # Intermediate files used between ETL stages
+    │       └── processed/        # Final normalized tables
+    │ 
     ├── database/
-    │   └── schema/       # SQL table definitions
-    ├───docs              # Project documentation
-    │   ├───api           # API documentation (endpoints, usage, examples)
-    │   ├───database      # Database-related documentation
-    │   │    └───diagrams # ER diagrams
-    │   └───logging       # Logging documentation (event taxonomy, naming conventions, log levels, and examples)
+    │   └── schema/               # SQL table definitions
+    │ 
+    ├───docs                      # Project documentation
+    │   ├───api                   # API documentation (endpoints, usage, examples)
+    │   ├───database              # Database-related documentation
+    │   │    └───diagrams         # ER diagrams
+    │   └───logging               # Logging documentation (event taxonomy, naming conventions, log levels, and examples)
+    │ 
     ├── etl/
-    │   ├── extract/      # Data extraction scripts
-    │   ├── transform/    # Data transformation scripts
-    │   └── load/         # PostgreSQL database loading scripts
-    ├── logs/             # Pipeline execution logs
-    ├── open_library/     # Core package for Open Library API access and record management
-    ├── utilities/        # Reusable helper functions for ETL operations (I/O, logging, validation, DB, and pipeline utilities)
-    │   └───io            # Input/output utilities for handling CSV and JSON data files
-    │── extract.py        # Entry point for extraction stage
-    │── transform.py      # Entry point for transformation stage
-    │── load.py           # Entry point for loading stage
-    └── main.py           # ETL pipeline entry point (orchestrates extract → transform → load)
+    │   ├── extract/              # Data extraction scripts
+    │   ├── transform/            # Data transformation scripts
+    │   └── load/                 # PostgreSQL database loading scripts
+    │ 
+    ├── logs/                     # Pipeline execution logs
+    │
+    ├── open_library/             # Core package for Open Library API access and record management
+    │
+    ├── utilities/                # Reusable helper functions for ETL operations (I/O, logging, validation, DB, and pipeline utilities)
+    │   └───io                    # Input/output utilities for handling CSV and JSON data files
+    │
+    │── extract.py                # Entry point for extraction stage
+    │── transform.py              # Entry point for transformation stage
+    │── load.py                   # Entry point for loading stage
+    └── main.py                   # ETL pipeline entry point (orchestrates extract → transform → load)
 
 ---
 
@@ -268,6 +287,10 @@ You can access it via:
 
 These interfaces allow you to explore and test all API endpoints directly in the browser.
 
+### Suggested Usage Flow
+
+In [examples.md](docs/api/examples.md) a suggested usage flow is presented and some response examples.
+
 ### Error Handling
 
 The API uses consistent HTTP status codes and structured error identifiers to make failures predictable and machine-readable.
@@ -283,9 +306,9 @@ The API uses consistent HTTP status codes and structured error identifiers to ma
 
 Each error response includes a domain-specific identifier:
 
-| Status Code   | Description                                                                         | Error Codes                                                                       |
-|---------------|-------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| `400`         | Bad Request - The request is invalid or malformed                                   | `INVALID_INPUT_ERROR`                                                             |
-| `404`         | Not Found - The requested resource does not exist                                   | `WORK_NOT_FOUND_ERROR`, `AUTHOR_NOT_FOUND_ERROR`, `EDITION_NOT_FOUND_ERROR`       |
-| `405`         | Method Not Allowed - The HTTP method is not supported for this endpoint             | `LISTING_NOT_SUPPORTED`                                                           |
-| `422`         | Unprocessable Content - The request is syntactically valid but semantically invalid | `INVALID_WORK_KEY_ERROR`, `INVALID_AUTHOR_KEY_ERROR`, `INVALID_EDITION_KEY_ERROR` |
+| Status Code    | Description                                                                         | Error Codes                                                                                                    |
+|----------------|-------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
+| `400`          | Bad Request - The request is invalid or malformed                                   | `INVALID_INPUT_ERROR`                                                                                          |
+| `404`          | Not Found - The requested resource does not exist                                   | `WORK_NOT_FOUND_ERROR`, `AUTHOR_NOT_FOUND_ERROR`, `EDITION_NOT_FOUND_ERROR`                                    |
+| `405`          | Method Not Allowed - The HTTP method is not supported for this endpoint             | `LISTING_NOT_SUPPORTED`                                                                                        |
+| `422`          | Unprocessable Content - The request is syntactically valid but semantically invalid | `INVALID_WORK_KEY_ERROR`, `INVALID_AUTHOR_KEY_ERROR`, `INVALID_EDITION_KEY_ERROR`, `INVALID_QUERY_COMBINATION` |
