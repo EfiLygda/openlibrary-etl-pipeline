@@ -42,6 +42,7 @@ import api.repository.editions as editions_repo
 from api.errors import BaseErrors, EditionsErrors
 
 from api.schemas.entities.core import Edition
+from api.schemas.entities.summaries import WorkSummary
 from api.schemas.entities.extensions import EditionDetails, EditionContents, EditionPublishing, EditionContributor
 from api.schemas.responses import EntityResponse, RelationshipResponse
 
@@ -121,6 +122,70 @@ async def get_edition(
         meta={'type': 'edition'},
         links={'self': query},
         model=Edition
+    )
+
+@router.get(
+    path="/{edition_key}/works",
+    response_model=RelationshipResponse[WorkSummary],
+    responses={
+        '404': EditionsErrors.NotFound.response,
+        '422': EditionsErrors.InvalidKey.response
+    }
+)
+async def get_editions_work(
+        request: Request,
+        edition_key: str,
+        limit: int = API_LIMIT,
+        offset: int = 0,
+        connection: psycopg2.extensions.connection = DB_DEPENDENCY
+) -> RelationshipResponse[WorkSummary]:
+    """
+    Retrieve an edition's work details records by **edition_key**.
+
+    Returns a standardized response dictionary containing:
+
+    - **data**: the editions' work returned ranked by ascending edition key
+    - **meta**: pagination metadata for the query (total results, limit and offset)
+    - **links**: pagination links for navigation
+    """
+
+    # Fetch current request's path and parameters query
+    path_url = request.url.path
+    query_url = request.url.query
+
+    # Current query
+    query = f'{path_url}?{query_url}' if query_url else path_url
+
+    # Validate if the key is a valid work key
+    if KeyHandler.detect_key(edition_key) != 'edition':
+        raise EditionsErrors.InvalidKey(query)
+
+    # Fetch data
+    results = editions_repo.get_works_by_edition_key(connection, edition_key)
+
+    # If no data is returned then error is raised
+    if results['total_editions'] == 0:
+        raise EditionsErrors.NotFound(query)
+
+    # Build links
+    links = build_pagination_links(
+        url=query,
+        total=results['total_works'],
+        limit=limit,
+        offset=offset
+    )
+
+    # Format and return consistent API response structure
+    return format_response_relationship(
+        records=results['data'],
+        column_names=results['column_names'],
+        meta={
+            'total': results['total_works'],
+            'limit': limit,
+            'offset': offset
+        },
+        links=links,
+        model=WorkSummary,
     )
 
 @router.get(

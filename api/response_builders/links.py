@@ -40,10 +40,10 @@ make_edition_links = lambda key: {
     'contents': f'/editions/{key}/contents',
     'publishing': f'/editions/{key}/publishing',
     'contributors': f'/editions/{key}/contributors',
-    'work': f'/works/123', # TODO: Add endpoint /editions/key/work
+    'works': f'/editions/{key}/works',
 }
 
-def format_response(
+def format_links_response(
         key: str,
         key_type: EntityType
 ) -> LinksResponse[T]:

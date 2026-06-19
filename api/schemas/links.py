@@ -51,7 +51,7 @@ class EditionLinks(BaseModel):
     contents: Optional[str]
     publishing: Optional[str]
     contributors: Optional[str]
-    work: Optional[str]
+    works: Optional[str]
 
 # --------------------------------------------------------------------
 # Aliasing Types

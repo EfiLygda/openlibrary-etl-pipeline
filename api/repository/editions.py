@@ -41,6 +41,52 @@ def get_edition_by_edition_key(
         'column_names': editions_column_names
     }
 
+def get_works_by_edition_key(
+    connection: psycopg2.extensions.connection,
+    edition_key: str,
+) -> dict:
+    """
+    Retrieve edition work associated with a given edition key
+
+    :param connection: psycopg2.extensions.connection, active PostgreSQL database connection
+    :param edition_key: str, unique identifier of the edition whose details are to
+        be retrieved
+    :returns: A dictionary containing:
+
+        * `total_editions` - total editions (used for error handling)
+        * `total_works` - total works before pagination
+        * `details_data` - details records for the edition
+        * `details_column_names` - column names corresponding to the query result
+    """
+
+    # Set up the query parameters
+    params = {
+        'filter_key': edition_key
+    }
+
+    # Calculate total works before pagination
+    totals, _ = execute_query(
+        connection=connection,
+        params=params,
+        query_module='editions',
+        query_filename='total_works.sql'
+    )
+
+    # Fetch the records
+    works_data, works_column_names = execute_query(
+        connection=connection,
+        params=params,
+        query_module='editions',
+        query_filename='get_works.sql'
+    )
+
+    return {
+        'total_editions': totals[0][0],
+        'total_works': totals[0][1],
+        'data': works_data,
+        'column_names': works_column_names
+    }
+
 def get_details_by_edition_key(
     connection: psycopg2.extensions.connection,
     edition_key: str,
