@@ -18,10 +18,9 @@ from api.routers import (
     links,
     works,
     authors,
-    editions
+    editions,
+    search
 )
-
-# TODO: add parameters when needed
 
 # Load variables from the .env file to the environment
 load_dotenv()
@@ -36,7 +35,7 @@ API_description = ('A FastAPI-based API for searching and retrieving '
                    'structured book metadata stored in a relational '
                    'database derived from Open Library data.')
 
-license = {
+api_license = {
         "name": "Apache 2.0",
         "url": "https://www.apache.org/licenses/LICENSE-2.0.html",
     }
@@ -47,10 +46,11 @@ app = FastAPI(
     summary=API_description,
     version=API_VERSION,
     docs_url='/docs',
-    license_info=license,
+    license_info=api_license,
 )
 
 # Include routers as defined in api.routers
+app.include_router(search.router)
 app.include_router(works.router)
 app.include_router(authors.router)
 app.include_router(editions.router)
