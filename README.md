@@ -47,7 +47,7 @@ What the project is trying to achieve:
 - Clean and transform raw JSON into normalized tables
 - Load processed data into a PostgreSQL database
 - Ensure reproducibility and modular ETL design
-- Expose processed data through a RESTful API built with FastAPI
+- Expose processed data through a REST-style API built with FastAPI
 
 ---
 
@@ -55,9 +55,9 @@ What the project is trying to achieve:
 
 1. `Extract`: fetch data from OpenLibrary API and store raw JSON responses in `data/romance_fiction/raw/`, preserving original structure for reproducibility and reprocessing.
 
-2. `Transform`: normalize nested OpenLibrary JSON into flat relational structures, standardize identifiers and key formats, clean and preprocess text fields (e.g. stripping, handling missing values), resolve and expand multi-value fields, validate primary keys and data integrity rules, and generate structured tables saved in `data/romance_fiction/staging/`.
+2. `Transform`: normalize nested OpenLibrary JSON into flat relational structures, standardize identifiers and key formats, clean and preprocess text fields (e.g. stripping, handling missing values), resolve and expand multi-value fields, validate primary keys and data integrity rules, and generate structured tables saved in `data/romance_fiction/processed/`.
 
-3. `Load`: initialize PostgreSQL database, create schema and tables from SQL definition files, and load processed CSV files into the `romance_fiction` database while enforcing relational constraints.
+3. `Load`: initialize PostgreSQL database, create schema and tables from SQL definition files, create indexes, and load processed CSV files into the romance_fiction database while enforcing relational constraints.
 
 > **Note:** See [phases_stages.md](docs/logging/phases_stages.md) for more information on the phases and their respective steps.
 ---
@@ -87,6 +87,7 @@ What the project is trying to achieve:
     │       └── processed/        # Final normalized tables
     │ 
     ├── database/
+    │   ├── indexes/              # SQL index definitions
     │   └── schema/               # SQL table definitions
     │ 
     ├───docs                      # Project documentation
@@ -188,24 +189,24 @@ See [entrypoints.md](docs/open_library_api/entrypoints.md) for more information 
 
 The processed tables are located at `data/romance_fiction/processed` and loaded in the database with the following sequence:
 
-| Table                         | Rows | Description                                                                                                                                    |
-|-------------------------------|------| ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| **authors**                   | 501  | Core author records including names, biography, birth/death dates, and lifespan information.                                                   |
-| **authors_alternative_names** | 2808 | Alternative names, pseudonyms, aliases, pen names, and name variations associated with authors.                                                |
-| **authors_statistics**        | 500  | Aggregated author-level statistics including work counts, ratings distribution, reading activity, and most popular work.                       |
-| **works**                     | 2000 | Canonical literary works (abstract titles) containing work-level metadata such as title, description, publication history, and edition counts. |
-| **authors_works**             | 2091  | Many-to-many relationship linking authors to the works they created or contributed to.                                                         |
-| **works_ratings**             | 2000 | Work-level rating distribution data, including the number of 1-star, 2-star, 3-star, 4-star, and 5-star ratings received by each work. |
-| **works_series**              | 82  | Series membership information for works, including series identifier, series name, and position within the series.                             |
-| **works_availability**        | 2000  | Availability and access information for works, including ebook access status, public scans, and full-text availability.                        |
+| Table                         | Rows   | Description                                                                                                                                    |
+|-------------------------------|--------|------------------------------------------------------------------------------------------------------------------------------------------------|
+| **authors**                   | 501    | Core author records including names, biography, birth/death dates, and lifespan information.                                                   |
+| **authors_alternative_names** | 2808   | Alternative names, pseudonyms, aliases, pen names, and name variations associated with authors.                                                |
+| **authors_statistics**        | 500    | Aggregated author-level statistics including work counts, ratings distribution, reading activity, and most popular work.                       |
+| **works**                     | 2000   | Canonical literary works (abstract titles) containing work-level metadata such as title, description, publication history, and edition counts. |
+| **authors_works**             | 2091   | Many-to-many relationship linking authors to the works they created or contributed to.                                                         |
+| **works_ratings**             | 2000   | Work-level rating distribution data, including the number of 1-star, 2-star, 3-star, 4-star, and 5-star ratings received by each work.         |
+| **works_series**              | 82     | Series membership information for works, including series identifier, series name, and position within the series.                             |
+| **works_availability**        | 2000   | Availability and access information for works, including ebook access status, public scans, and full-text availability.                        |
 | **works_subjects**            | 14034  | Subject classifications and thematic categories assigned to works.                                                                             |
-| **works_people**              | 3844  | People, characters, or notable individuals referenced, discussed, or featured in works.                                                        |
-| **works_places**              | 1689  | Geographic locations, settings, or places associated with works.                                                                               |
-| **works_time_periods**        | 604  | Historical eras, time periods, or chronological settings associated with works.                                                                |
+| **works_people**              | 3844   | People, characters, or notable individuals referenced, discussed, or featured in works.                                                        |
+| **works_places**              | 1689   | Geographic locations, settings, or places associated with works.                                                                               |
+| **works_time_periods**        | 604    | Historical eras, time periods, or chronological settings associated with works.                                                                |
 | **editions**                  | 54589  | Specific published editions of works, including edition titles, subtitles, and edition-specific identifiers.                                   |
 | **editions_contributors**     | 11288  | Contributors to editions (e.g., translators, editors, illustrators, foreword writers) and their roles.                                         |
 | **editions_publishing**       | 59020  | Publication metadata for editions, including publisher, publication date, publication place, country, and series information.                  |
-| **editions_contents**         | 9567  | Edition-specific content information such as descriptions, notes, and opening text.                                                            |
+| **editions_contents**         | 9567   | Edition-specific content information such as descriptions, notes, and opening text.                                                            |
 | **editions_details**          | 52656  | Physical and bibliographic details of editions, including page count, format, dimensions, weight, and language.                                |
 
 ---
