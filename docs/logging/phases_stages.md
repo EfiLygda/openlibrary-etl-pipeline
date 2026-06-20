@@ -32,6 +32,7 @@ Each pipeline is divided into `PHASES`, and each phase contains multiple `STAGES
     - [`CREATE_DATABASE`](../../etl/load/create_database.py)
     - [`CREATE_TABLES_AT_DATABASE`](../../etl/load/create_tables.py)
     - [`LOAD_TABLES_AT_DATABASE`](../../etl/load/load_tables.py)
+    - [`CREATE_INDEXES_AT_DATABASE`](../../etl/load/create_indexes.py)
 
 ---
 
@@ -74,8 +75,9 @@ Each pipeline is divided into `PHASES`, and each phase contains multiple `STAGES
 
 ### `LOAD` 
 
-| Stage                       | Description                     |
-|-----------------------------|---------------------------------|
-| `CREATE_DATABASE`           | Create target database          |
-| `CREATE_TABLES_AT_DATABASE` | Create database schema          |
-| `LOAD_TABLES_AT_DATABASE`   | Load data into database tables  |
+| Stage                        | Description                                  |
+|------------------------------|----------------------------------------------|
+| `CREATE_DATABASE`            | Create target database                       |
+| `CREATE_TABLES_AT_DATABASE`  | Create database schema                       |
+| `LOAD_TABLES_AT_DATABASE`    | Load data into database tables               |
+| `CREATE_INDEXES_AT_DATABASE` | Create database indexes (filter and trigram) |
