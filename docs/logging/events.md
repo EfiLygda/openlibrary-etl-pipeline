@@ -129,7 +129,12 @@ Used for infrastructure-level operations such as database and table lifecycle ma
 |---------------------------|------------------------------------|------------|------------------------|
 | `DATABASE_CREATE_SUCCESS` | A database is created successfully | `INFO`     | `database`             |
 | `DATABASE_EXISTS`         | A database already exists          | `INFO`     | `database`             |
+| `TABLE_EXISTS`            | A table already exists             | `INFO`     | `table`                |
+| `TABLE_CREATE_REQUIRED`   | Table creation is required         | `INFO`     | `table`                |
 | `TABLE_CREATE_SUCCESS`    | A table is created successfully    | `INFO`     | `table`                |
+| `INDEX_EXISTS`            | Index already exists               | `INFO`     | `table`, `index`       |
+| `INDEX_CREATE_REQUIRED`   | Index creation is required         | `INFO`     | `table`, `index`       |
+| `INDEXES_CREATE_SUCCESS`  | Indexes are created successfully   | `INFO`     | `table`, `index`       |
 | `TABLE_LOAD_SUCCESS`      | Table data is loaded successfully  | `INFO`     | `table`, `rows_loaded` |
 
 ---
