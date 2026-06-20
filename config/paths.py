@@ -33,3 +33,6 @@ WORKS_RATINGS_DIR = os.path.join(RAW_PAGES_DIR, 'works_ratings')
 
 # Schema directory
 SCHEMA_DIR = os.path.join(ROOT_DIR, 'database', 'schema')
+
+# Indexes directory
+INDEXES_DIR = os.path.join(ROOT_DIR, 'database', 'indexes')

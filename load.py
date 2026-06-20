@@ -10,6 +10,7 @@ from utilities.logging import config_logger, set_logger
 from etl.load.create_database import run as create_database
 from etl.load.create_tables import run as create_tables
 from etl.load.load_tables import run as load_tables
+from etl.load.create_indexes import run as create_indexes
 
 def run():
     # ----------------------------------------------------------------------------------
@@ -34,6 +35,7 @@ def run():
     create_database()
     create_tables()
     load_tables()
+    create_indexes()
 
     logger.info('PHASE_COMPLETE')
     # ----------------------------------------------------------------------------------
