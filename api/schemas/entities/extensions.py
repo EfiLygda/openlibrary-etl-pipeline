@@ -40,18 +40,18 @@ class WorkOverview(BaseModel):
 # - AUTHORS -
 class AuthorStatistics(BaseModel):
     top_work: Optional[str] = None
-    work_count: int
+    work_count: Optional[int]
 
-    ratings_count_1: int
-    ratings_count_2: int
-    ratings_count_3: int
-    ratings_count_4: int
-    ratings_count_5: int
+    ratings_count_1: Optional[int]
+    ratings_count_2: Optional[int]
+    ratings_count_3: Optional[int]
+    ratings_count_4: Optional[int]
+    ratings_count_5: Optional[int]
 
-    readinglog_count: int
-    want_to_read_count: int
-    currently_reading_count: int
-    already_read_count: int
+    readinglog_count: Optional[int]
+    want_to_read_count: Optional[int]
+    currently_reading_count: Optional[int]
+    already_read_count: Optional[int]
 
 class AuthorAlternativeNames(BaseModel):
     author_alternative_names: Optional[list[str]]
