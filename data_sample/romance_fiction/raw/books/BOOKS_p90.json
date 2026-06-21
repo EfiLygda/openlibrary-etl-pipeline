@@ -1,0 +1,6252 @@
+{
+    "status": "ok",
+    "result": {
+        "/books/OL35310447M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Yaz Hep Bizimle Olacak",
+            "authors": [
+                {
+                    "key": "/authors/OL1425972A"
+                }
+            ],
+            "publish_date": "Jul 02, 2018",
+            "source_records": [
+                "amazon:6053043575"
+            ],
+            "number_of_pages": 290,
+            "publishers": [
+                "Artemis Yaynlar",
+                "Artemis Yayınları"
+            ],
+            "isbn_10": [
+                "6053043575"
+            ],
+            "isbn_13": [
+                "9786053043577"
+            ],
+            "physical_format": "paperback",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Yaz Hep Bizimle Olacak (Turkish Edition)"
+            },
+            "covers": [
+                12121333
+            ],
+            "works": [
+                {
+                    "key": "/works/OL16211977W"
+                }
+            ],
+            "key": "/books/OL35310447M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-19T10:33:03.139807"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-06-12T04:02:02.588670"
+            }
+        },
+        "/books/OL27600072M": {
+            "publishers": [
+                "Hanser, Carl GmbH + Co."
+            ],
+            "source_records": [
+                "amazon:3446240101",
+                "ia:dersommerdernuru0000hanj",
+                "promise:bwb_daily_pallets_2022-08-13"
+            ],
+            "title": "Der Sommer, der nur uns gehörte",
+            "identifiers": {
+                "amazon": [
+                    "3446240101"
+                ],
+                "dnb": [
+                    "1022502425"
+                ]
+            },
+            "isbn_13": [
+                "9783446240100"
+            ],
+            "covers": [
+                13298782,
+                9051293
+            ],
+            "physical_format": "perfect paperback",
+            "isbn_10": [
+                "3446240101"
+            ],
+            "publish_date": "Jul 30, 2012",
+            "key": "/books/OL27600072M",
+            "authors": [
+                {
+                    "key": "/authors/OL1425972A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL16211977W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "dersommerdernuru0000hanj",
+            "oclc_numbers": [
+                "808666620"
+            ],
+            "local_id": [
+                "urn:bwbsku:O8-DCI-685"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/ger"
+                }
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "Immer schon gab nur es zwei Jungs, die Bellys Herz erobern konnten: Conrad und Jeremiah. In diesem Sommer muss Belly sich entscheiden. Seit zwei Jahren ist sie mit Jeremiah zusammen, als er ihr plötzlich einen Heiratsantrag macht. Belly ist überglücklich und stürzt sich in die Hochzeitsvorbereitungen. Doch ihre Eltern halten die Hochzeit für völlig verfrüht, und nach einem Streit mit ihrer Mutter bricht Belly auf nach Cousins Beach: zu dem Ort, an dem sie so viele glückliche Sommer verbracht hat. Im Strandhaus trifft sie Conrad, und der begreift allmählich, dass er sie für immer verlieren wird - und gesteht ihr seine Liebe."
+            },
+            "number_of_pages": 268,
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-11-01T06:31:23.693450"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-07-27T10:49:28.579014"
+            }
+        },
+        "/books/OL25074912M": {
+            "description": "The summer after her first year of college, Isobel \"Belly\" Conklin is faced with a choice between Jeremiah and Conrad Fisher, brothers she has always loved, when Jeremiah proposes marriage and Conrad confesses that he still loves her.",
+            "notes": "Book 3",
+            "title": "We'll Always Have Summer",
+            "authors": [
+                {
+                    "key": "/authors/OL1425972A"
+                }
+            ],
+            "publish_date": "2011",
+            "publishers": [
+                "Simon & Schuster BFYR"
+            ],
+            "covers": [
+                15112274,
+                14851661,
+                14392886,
+                13298770,
+                7118107
+            ],
+            "local_id": [
+                "urn:sfpl:31223127433564",
+                "urn:sfpl:31223097258728",
+                "urn:sfpl:31223117515404",
+                "urn:sfpl:31223117515388",
+                "urn:sfpl:31223127433622",
+                "urn:sfpl:31223127433598",
+                "urn:sfpl:31223097258751",
+                "urn:sfpl:31223127433630",
+                "urn:sfpl:31223117515354",
+                "urn:sfpl:31223097258827",
+                "urn:sfpl:31223127433655",
+                "urn:sfpl:31223117515412",
+                "urn:sfpl:31223117515438",
+                "urn:sfpl:31223097258769",
+                "urn:sfpl:31223127433580",
+                "urn:sfpl:31223117515420",
+                "urn:sfpl:31223117515362",
+                "urn:sfpl:31223117515339",
+                "urn:sfpl:31223097258785",
+                "urn:sfpl:31223097258793",
+                "urn:sfpl:31223127433606",
+                "urn:sfpl:31223127433572",
+                "urn:sfpl:31223097258801",
+                "urn:sfpl:31223097258819",
+                "urn:sfpl:31223127433614",
+                "urn:sfpl:31223117515396",
+                "urn:sfpl:31223127433648",
+                "urn:bwbsku:O8-BXP-040"
+            ],
+            "full_title": "We'll always have summer a Summer novel",
+            "publish_places": [
+                "New York"
+            ],
+            "edition_name": "1st ed.",
+            "pagination": "p. cm.",
+            "source_records": [
+                "marc:marc_loc_updates/v39.i43.records.utf8:5460720:1171",
+                "marc:marc_loc_updates/v40.i09.records.utf8:5182859:1175",
+                "ia:wellalwayshavesu00hanj",
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run04.mrc:163812629:7320",
+                "marc:marc_loc_2016/BooksAll.2016.part37.utf8:168969229:1175",
+                "ia:wellalwayshavesu0000hanj",
+                "bwb:9781416995586",
+                "bwb:9781416995609",
+                "amazon:1416995587",
+                "promise:bwb_daily_pallets_2022-08-30",
+                "midcolumbia:1779199"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Interpersonal relations",
+                "Love",
+                "Brothers",
+                "Vacation homes",
+                "Beaches",
+                "Fiction"
+            ],
+            "publish_country": "nyu",
+            "by_statement": "Jenny Han",
+            "type": {
+                "key": "/type/edition"
+            },
+            "series": [
+                "The Summer I Turned Pretty Trilogy"
+            ],
+            "lexile": "570",
+            "key": "/books/OL25074912M",
+            "works": [
+                {
+                    "key": "/works/OL16211977W"
+                }
+            ],
+            "identifiers": {},
+            "ocaid": "wellalwayshavesu00hanj",
+            "isbn_13": [
+                "9781416995586",
+                "9781416995609"
+            ],
+            "lccn": [
+                "2010046670"
+            ],
+            "dewey_decimal_class": [
+                "[Fic]"
+            ],
+            "lc_classifications": [
+                "PZ7.H18944 We 2011",
+                "PZ7.H18944We 2011"
+            ],
+            "latest_revision": 23,
+            "revision": 23,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2011-10-27T08:57:42.596976"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-09T20:56:45.059021"
+            }
+        },
+        "/books/OL29243000M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781408998465"
+            ],
+            "title": "Past Passion",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781408998465"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Past Passion",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2013",
+            "key": "/books/OL29243000M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3759349W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-23T19:25:13.901735"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-03T00:06:17.611638"
+            }
+        },
+        "/books/OL21272914M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "pagination": "219p. ;",
+            "source_records": [
+                "bwb:9780263808681"
+            ],
+            "title": "Past Passion",
+            "number_of_pages": 219,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1998",
+            "publish_country": "xxk",
+            "key": "/books/OL21272914M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "publish_places": [
+                "Richmond"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3759349W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_10": [
+                "0263808688"
+            ],
+            "classifications": {},
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-01T14:38:53.520640"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-10-01T09:28:40.491744"
+            }
+        },
+        "/books/OL9749242M": {
+            "identifiers": {
+                "goodreads": [
+                    "1947741"
+                ]
+            },
+            "title": "Past Passion",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "publish_date": "August 1992",
+            "publishers": [
+                "MacMillan Publishing Company"
+            ],
+            "weight": "14.4 ounces",
+            "physical_format": "Hardcover",
+            "subjects": [
+                "Romance",
+                "General",
+                "Fiction - General",
+                "Large Print"
+            ],
+            "edition_name": "Large Pr edition",
+            "isbn_13": [
+                "9780263130362"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263130363"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.8 x 5.8 x 1 inches",
+            "source_records": [
+                "amazon:0263130363"
+            ],
+            "key": "/books/OL9749242M",
+            "number_of_pages": 288,
+            "works": [
+                {
+                    "key": "/works/OL3759349W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-08T12:02:44.718447"
+            }
+        },
+        "/books/OL9746686M": {
+            "identifiers": {
+                "goodreads": [
+                    "1947741"
+                ]
+            },
+            "title": "Past Passion",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "publish_date": "August 1992",
+            "publishers": [
+                "MacMillan Publishing Company"
+            ],
+            "weight": "14.4 ounces",
+            "physical_format": "Hardcover",
+            "subjects": [
+                "Romance",
+                "General",
+                "Fiction - General",
+                "Large Print"
+            ],
+            "edition_name": "Large Pr edition",
+            "isbn_13": [
+                "9780263130362"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263130363"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.8 x 5.8 x 1 inches",
+            "source_records": [
+                "amazon:0263130363"
+            ],
+            "key": "/books/OL9746686M",
+            "number_of_pages": 288,
+            "works": [
+                {
+                    "key": "/works/OL3759349W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-19T10:30:15.064634"
+            }
+        },
+        "/books/OL10239676M": {
+            "publishers": [
+                "Chivers North Amer"
+            ],
+            "physical_format": "Hardcover",
+            "source_records": [
+                "bwb:9780263133431",
+                "amazon:0263133435"
+            ],
+            "title": "Bittersweet Honeymoon (Large Print Classics)",
+            "number_of_pages": 288,
+            "isbn_13": [
+                "9780263133431"
+            ],
+            "edition_name": "Large Prnt edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263133435"
+            ],
+            "publish_date": "September 1992",
+            "key": "/books/OL10239676M",
+            "authors": [
+                {
+                    "key": "/authors/OL194979A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL11327404W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Romance",
+                "Romance - General",
+                "Fiction - Romance",
+                "Large Print"
+            ],
+            "covers": [
+                13789832
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-04-01T13:48:15.976877"
+            }
+        },
+        "/books/OL10691660M": {
+            "identifiers": {
+                "librarything": [
+                    "3171335"
+                ],
+                "goodreads": [
+                    "1084222"
+                ]
+            },
+            "title": "Bittersweet Honeymoon",
+            "authors": [
+                {
+                    "key": "/authors/OL194979A"
+                }
+            ],
+            "publish_date": "May 1, 1989",
+            "publishers": [
+                "harlequin",
+                "Harlequin"
+            ],
+            "series": [
+                "Harlequin Romance, No 2985"
+            ],
+            "covers": [
+                5071615
+            ],
+            "physical_format": "Paperback",
+            "subjects": [
+                "General",
+                "Non-Classifiable",
+                "Romance - General",
+                "Fiction",
+                "Fiction - General",
+                "Romance: Regency"
+            ],
+            "isbn_13": [
+                "9780373029853"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-03-17:W7-ALV-522",
+                "amazon:0373029853",
+                "marc:marc_loc_updates/v35.i23.records.utf8:24102449:809",
+                "bwb:9780373029853",
+                "marc:marc_loc_2016/BooksAll.2016.part35.utf8:67461036:809",
+                "promise:bwb_daily_pallets_2020-12-16:O7-BKG-982"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373029853"
+            ],
+            "oclc_numbers": [
+                "19805940"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "lccn": [
+                "2007577793"
+            ],
+            "lc_classifications": [
+                "CPB Box no. 2555 vol. 1",
+                "CPB"
+            ],
+            "local_id": [
+                "urn:bwbsku:W7-ALV-522",
+                "urn:bwbsku:O7-BKG-982"
+            ],
+            "key": "/books/OL10691660M",
+            "works": [
+                {
+                    "key": "/works/OL11327404W"
+                }
+            ],
+            "latest_revision": 18,
+            "revision": 18,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T16:11:34.442018"
+            }
+        },
+        "/books/OL28953728M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263153170"
+            ],
+            "title": "Courting Trouble",
+            "number_of_pages": 186,
+            "isbn_13": [
+                "9780263153170"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Courting Trouble",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "1997",
+            "key": "/books/OL28953728M",
+            "authors": [
+                {
+                    "key": "/authors/OL7575681A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL8315345W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T06:11:17.001264"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-03T14:20:48.636184"
+            }
+        },
+        "/books/OL10240846M": {
+            "identifiers": {
+                "goodreads": [
+                    "876367"
+                ]
+            },
+            "title": "Courting Trouble",
+            "authors": [
+                {
+                    "key": "/authors/OL2763201A"
+                }
+            ],
+            "publish_date": "January 1998",
+            "publishers": [
+                "Thorndike Pr"
+            ],
+            "weight": "13.6 ounces",
+            "covers": [
+                2342997
+            ],
+            "physical_format": "Hardcover",
+            "subjects": [
+                "Romance",
+                "Romance - General",
+                "Fiction - Romance",
+                "Large Print"
+            ],
+            "edition_name": "Largeprint edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_13": [
+                "9780263153255"
+            ],
+            "isbn_10": [
+                "0263153258"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.5 x 5.5 x 1.2 inches",
+            "source_records": [
+                "amazon:0263153258"
+            ],
+            "key": "/books/OL10240846M",
+            "number_of_pages": 288,
+            "works": [
+                {
+                    "key": "/works/OL8315345W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-11T19:49:38.995594"
+            }
+        },
+        "/books/OL29700765M": {
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "source_records": [
+                "bwb:9781460366172"
+            ],
+            "title": "Spanish Honeymoon",
+            "number_of_pages": 256,
+            "isbn_13": [
+                "9781460366172"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Spanish Honeymoon",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2014",
+            "key": "/books/OL29700765M",
+            "authors": [
+                {
+                    "key": "/authors/OL659964A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3754780W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-30T04:25:10.683330"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-15T23:35:58.099650"
+            }
+        },
+        "/books/OL10741347M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "number_of_pages": 256,
+            "weight": "4 ounces",
+            "covers": [
+                2407995
+            ],
+            "physical_format": "Mass Market Paperback",
+            "key": "/books/OL10741347M",
+            "authors": [
+                {
+                    "key": "/authors/OL1386196A"
+                }
+            ],
+            "subjects": [
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern",
+                "Romance - General",
+                "Fiction / Romance / General",
+                "Romance - Contemporary"
+            ],
+            "edition_name": "Larger Pri edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "classifications": {},
+            "source_records": [
+                "amazon:0373182422",
+                "marc:marc_loc_updates/v37.i29.records.utf8:6649958:837",
+                "bwb:9780373182428",
+                "marc:marc_loc_2016/BooksAll.2016.part35.utf8:68239964:837"
+            ],
+            "title": "The Doctor's Proposal",
+            "notes": {
+                "type": "/type/text",
+                "value": "Larger Print Romance"
+            },
+            "identifiers": {
+                "librarything": [
+                    "2751311"
+                ]
+            },
+            "isbn_13": [
+                "9780373182428"
+            ],
+            "isbn_10": [
+                "0373182422"
+            ],
+            "publish_date": "June 1, 2006",
+            "works": [
+                {
+                    "key": "/works/OL3754780W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.6 x 4.2 x 0.9 inches",
+            "lccn": [
+                "2007581085"
+            ],
+            "lc_classifications": [
+                "CPB Box no. 2584 vol. 7"
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-15T23:35:58.099650"
+            }
+        },
+        "/books/OL10692336M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Harlequin Romance"
+            },
+            "identifiers": {
+                "goodreads": [
+                    "1043344"
+                ],
+                "librarything": [
+                    "2751311"
+                ]
+            },
+            "title": "A Spanish Honeymoon",
+            "authors": [
+                {
+                    "key": "/authors/OL1386196A"
+                }
+            ],
+            "publish_date": "June 1, 2006",
+            "publishers": [
+                "Harlequin"
+            ],
+            "table_of_contents": [
+                {
+                    "level": 0,
+                    "title": "wrong book here. It is Spanish Honeymoon from Anne Weale",
+                    "type": {
+                        "key": "/type/toc_item"
+                    }
+                }
+            ],
+            "weight": "3.2 ounces",
+            "isbn_10": [
+                "0373038968"
+            ],
+            "covers": [
+                8221257,
+                -1
+            ],
+            "physical_format": "Mass Market Paperback",
+            "ocaid": "doctorsproposal00mari",
+            "isbn_13": [
+                "9780373038961"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-06-01:T2-DEA-253",
+                "bwb:9780373038961",
+                "marc:marc_loc_2016/BooksAll.2016.part34.utf8:80432374:833",
+                "promise:bwb_daily_pallets_2021-06-28:O7-CIP-721"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Romance - General",
+                "Fiction / Romance / General",
+                "Romance - Contemporary",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern"
+            ],
+            "oclc_numbers": [
+                "69919163"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.5 x 4.1 x 0.6 inches",
+            "lccn": [
+                "2006590255"
+            ],
+            "lc_classifications": [
+                "CPB Box no. 2490 vol. 17",
+                "CPB"
+            ],
+            "local_id": [
+                "urn:bwbsku:T2-DEA-253",
+                "urn:bwbsku:O7-CIP-721"
+            ],
+            "key": "/books/OL10692336M",
+            "number_of_pages": 192,
+            "works": [
+                {
+                    "key": "/works/OL3754780W"
+                }
+            ],
+            "latest_revision": 22,
+            "revision": 22,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-15T23:35:58.099650"
+            }
+        },
+        "/books/OL38007284M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL3752315A"
+                }
+            ],
+            "isbn_13": [
+                "9781405954426"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lc_classifications": [
+                "PS3616.A337846"
+            ],
+            "pagination": "352",
+            "publish_date": "2022",
+            "publishers": [
+                "Penguin Books, Limited"
+            ],
+            "source_records": [
+                "bwb:9781405954426"
+            ],
+            "subjects": [
+                "American literature"
+            ],
+            "title": "Mr Wrong Number",
+            "works": [
+                {
+                    "key": "/works/OL25920096W"
+                }
+            ],
+            "key": "/books/OL38007284M",
+            "latest_revision": 1,
+            "revision": 1,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-05-25T20:20:31.599352"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-05-25T20:20:31.599352"
+            }
+        },
+        "/books/OL8552968M": {
+            "identifiers": {
+                "goodreads": [
+                    "334421"
+                ],
+                "librarything": [
+                    "78214"
+                ]
+            },
+            "title": "Friends and Lovers",
+            "publish_date": "November 1, 1995",
+            "publishers": [
+                "Mira"
+            ],
+            "weight": "2.4 ounces",
+            "covers": [
+                771154
+            ],
+            "physical_format": "Paperback",
+            "subjects": [
+                "Romance: Modern",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance - Contemporary",
+                "Non-Classifiable"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-09-01:O8-CGU-065",
+                "ia:friendslovers00dian_0",
+                "bwb:9781551660769",
+                "ia:friendslovers00palm",
+                "amazon:1551660768",
+                "promise:bwb_daily_pallets_2020-11-12:O7-AJS-722"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.6 x 4 x 0.7 inches",
+            "ocaid": "friendslovers00dian_0",
+            "isbn_10": [
+                "1551660768"
+            ],
+            "isbn_13": [
+                "9781551660769"
+            ],
+            "local_id": [
+                "urn:bwbsku:O8-CGU-065",
+                "urn:bwbsku:O7-AJS-722"
+            ],
+            "key": "/books/OL8552968M",
+            "number_of_pages": 251,
+            "works": [
+                {
+                    "key": "/works/OL1902282W"
+                }
+            ],
+            "latest_revision": 24,
+            "revision": 24,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T06:33:27.187047"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-03T12:53:58.379177"
+            }
+        },
+        "/books/OL38289972M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL227751A"
+                }
+            ],
+            "isbn_13": [
+                "9781322046518"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2014",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781322046518"
+            ],
+            "subjects": [
+                "Fiction, romance, contemporary"
+            ],
+            "title": "Friends and Lovers",
+            "full_title": "Friends and Lovers",
+            "works": [
+                {
+                    "key": "/works/OL1902282W"
+                }
+            ],
+            "key": "/books/OL38289972M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-17T16:28:42.737129"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-03T12:53:58.379177"
+            }
+        },
+        "/books/OL29254894M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781474013055"
+            ],
+            "title": "Friends and Lovers",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781474013055"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Friends and Lovers",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2014",
+            "key": "/books/OL29254894M",
+            "authors": [
+                {
+                    "key": "/authors/OL227751A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL1902282W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, contemporary"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-23T22:20:09.633556"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-03T12:53:58.379177"
+            }
+        },
+        "/books/OL15007439M": {
+            "identifiers": {
+                "librarything": [
+                    "78214"
+                ]
+            },
+            "title": "Friendsand lovers.",
+            "publish_date": "1983",
+            "publishers": [
+                "Hodder & Stoughton"
+            ],
+            "series": [
+                "Silhouette desire"
+            ],
+            "lc_classifications": [
+                "PS3566.A/"
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "(192)p.",
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0340341718"
+            ],
+            "publish_country": "xxk",
+            "oclc_numbers": [
+                "85062766"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:550801093:609"
+            ],
+            "key": "/books/OL15007439M",
+            "number_of_pages": 192,
+            "works": [
+                {
+                    "key": "/works/OL1902282W"
+                }
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-17T04:15:27.025835"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-02-06T14:43:24.842712"
+            }
+        },
+        "/books/OL29729604M": {
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "source_records": [
+                "bwb:9781459291652"
+            ],
+            "title": "Forbidden Surrender",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781459291652"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Forbidden Surrender",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2015",
+            "key": "/books/OL29729604M",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3775425W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, general"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-30T12:14:10.183961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-29T03:01:31.217232"
+            }
+        },
+        "/books/OL26897377M": {
+            "publishers": [
+                "Mills & Boon",
+                "Harlequin Mills & Boon"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "30901108"
+                ]
+            },
+            "subtitle": "Mills & Boon #1962",
+            "weight": "1 ounces",
+            "covers": [
+                8575260
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL26897377M",
+            "publish_places": [
+                "England"
+            ],
+            "pagination": "192",
+            "classifications": {},
+            "title": "Forbidden Surrender",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9780263739183"
+            ],
+            "isbn_10": [
+                "026373918X"
+            ],
+            "publish_date": "1982",
+            "works": [
+                {
+                    "key": "/works/OL3775425W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "0 x 0 x 0 inches",
+            "local_id": [
+                "urn:bwbsku:KQ-366-758"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-03-17",
+                "amazon:026373918X"
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-05-18T09:15:58.927634"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-04-17T23:03:49.668391"
+            }
+        },
+        "/books/OL14977528M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "1931198"
+                ]
+            },
+            "covers": [
+                8575218,
+                8262859
+            ],
+            "physical_format": "Hardcover",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T22:12:04.120476"
+            },
+            "latest_revision": 10,
+            "key": "/books/OL14977528M",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "publish_places": [
+                "UK"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "192p. ;",
+            "classifications": {},
+            "source_records": [
+                "bwb:9780263101003"
+            ],
+            "title": "Forbidden Surrender",
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9780263101003"
+            ],
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T23:01:43.828990"
+            },
+            "edition_name": "First Edition",
+            "isbn_10": [
+                "0263101002"
+            ],
+            "publish_date": "July 1982",
+            "publish_country": "xxk",
+            "copyright_date": "1982",
+            "works": [
+                {
+                    "key": "/works/OL3775425W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 10
+        },
+        "/books/OL9563555M": {
+            "notes": "Photo is of actual book.",
+            "identifiers": {
+                "goodreads": [
+                    "695292"
+                ],
+                "librarything": [
+                    "1931198"
+                ]
+            },
+            "title": "Forbidden Surrender",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "publish_date": "November 1982",
+            "publishers": [
+                "Harlequin Books",
+                "Harlequin Books (Mm)"
+            ],
+            "covers": [
+                9284920,
+                9284918,
+                7064156
+            ],
+            "physical_format": "Paperback",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-08-29:O8-DFL-992",
+                "bwb:9780373105472",
+                "promise:bwb_daily_pallets_2021-09-08:P7-EAM-641",
+                "promise:bwb_daily_pallets_2021-06-28:P7-CHJ-823"
+            ],
+            "edition_name": "Harlequin Presents #547",
+            "subjects": [
+                "Romance - General",
+                "Fiction",
+                "Romance: Regency"
+            ],
+            "copyright_date": "1982 Mills & Boon",
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:O8-DFL-992",
+                "urn:bwbsku:P7-EAM-641",
+                "urn:bwbsku:P7-CHJ-823"
+            ],
+            "key": "/books/OL9563555M",
+            "number_of_pages": 186,
+            "works": [
+                {
+                    "key": "/works/OL3775425W"
+                }
+            ],
+            "ocaid": "forbiddensurrend00caro",
+            "isbn_10": [
+                "0373105479"
+            ],
+            "isbn_13": [
+                "9780373105472"
+            ],
+            "oclc_numbers": [
+                "8718830"
+            ],
+            "classifications": {},
+            "latest_revision": 26,
+            "revision": 26,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-22T21:55:03.845356"
+            }
+        },
+        "/books/OL14976856M": {
+            "publishers": [
+                "Mills and Boon"
+            ],
+            "isbn_10": [
+                "0263095886"
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T22:07:41.061557"
+            },
+            "latest_revision": 5,
+            "key": "/books/OL14976856M",
+            "authors": [
+                {
+                    "key": "/authors/OL687900A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "189p. ;",
+            "source_records": [
+                "bwb:9780263095883"
+            ],
+            "title": "Hostage to dishonour",
+            "dewey_decimal_class": [
+                "823/.9/1F"
+            ],
+            "number_of_pages": 189,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T22:55:59.319278"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Fiction in English."
+            ],
+            "publish_date": "1979",
+            "publish_country": "xxk",
+            "by_statement": "by Jessica Steele.",
+            "oclc_numbers": [
+                "6338950"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3845133W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 5
+        },
+        "/books/OL16522105M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "number_of_pages": 190,
+            "key": "/books/OL16522105M",
+            "authors": [
+                {
+                    "key": "/authors/OL687900A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "[190]p. ;",
+            "title": "Hostage to dishonour",
+            "identifiers": {
+                "librarything": [
+                    "3298288"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263736954"
+            ],
+            "publish_date": "1981",
+            "publish_country": "enk",
+            "by_statement": "Jessica Steele.",
+            "oclc_numbers": [
+                "655403358"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3845133W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:KO-266-908"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2020-11-19",
+                "amazon:0263736954"
+            ],
+            "covers": [
+                14002923
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-24T13:13:53.475629"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-04-15T06:55:13.035413"
+            }
+        },
+        "/books/OL10239850M": {
+            "publishers": [
+                "Harlequin Mills & Boon"
+            ],
+            "number_of_pages": 192,
+            "title": "A True Marriage",
+            "physical_format": "Hardcover",
+            "identifiers": {
+                "librarything": [
+                    "2010113"
+                ],
+                "goodreads": [
+                    "6816885"
+                ]
+            },
+            "publish_date": "July 9, 1993",
+            "key": "/books/OL10239850M",
+            "authors": [
+                {
+                    "key": "/authors/OL756213A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL15920208W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Romance"
+            ],
+            "covers": [
+                10602725
+            ],
+            "source_records": [
+                "ia:truemarriage0000gord_q7z5"
+            ],
+            "ocaid": "truemarriage0000gord_q7z5",
+            "isbn_10": [
+                "026313623X"
+            ],
+            "isbn_13": [
+                "9780263136234"
+            ],
+            "oclc_numbers": [
+                "28687625"
+            ],
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T10:17:32.114026"
+            }
+        },
+        "/books/OL11073440M": {
+            "identifiers": {
+                "librarything": [
+                    "1921814"
+                ],
+                "goodreads": [
+                    "3366684"
+                ]
+            },
+            "title": "Terms of Surrender",
+            "authors": [
+                {
+                    "key": "/authors/OL21059A"
+                }
+            ],
+            "publish_date": "June 1, 1985",
+            "publishers": [
+                "Pocket"
+            ],
+            "ia_box_id": [
+                "IA108112"
+            ],
+            "covers": [
+                6989429
+            ],
+            "physical_format": "Paperback",
+            "ia_loaded_id": [
+                "termsofsurrender00dail"
+            ],
+            "subjects": [
+                "Romance - General",
+                "Fiction / General",
+                "Fiction - Romance"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-03-08:372-BAC-466",
+                "ia:termsofsurrender00dail",
+                "promise:bwb_daily_pallets_2021-01-11:O7-AVO-380"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "first_sentence": "The state highway started its scenic curve around the Ski Basin, its waters calm and reflecting the blue of a Texas sky.",
+            "ocaid": "termsofsurrender00dail",
+            "isbn_10": [
+                "0671557955"
+            ],
+            "isbn_13": [
+                "9780671557959"
+            ],
+            "oclc_numbers": [
+                "12205121"
+            ],
+            "local_id": [
+                "urn:bwbsku:372-BAC-466",
+                "urn:bwbsku:O7-AVO-380"
+            ],
+            "key": "/books/OL11073440M",
+            "works": [
+                {
+                    "key": "/works/OL14862505W"
+                }
+            ],
+            "latest_revision": 15,
+            "revision": 15,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T15:56:00.821519"
+            }
+        },
+        "/books/OL9637648M": {
+            "title": "Terms of Surrender",
+            "authors": [
+                {
+                    "key": "/authors/OL21059A"
+                }
+            ],
+            "publish_date": "February 1, 1989",
+            "publishers": [
+                "Pocket"
+            ],
+            "physical_format": "Paperback",
+            "isbn_13": [
+                "9780671684426"
+            ],
+            "covers": [
+                9635455
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0671684426"
+            ],
+            "ocaid": "termsofsurrender00jane",
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Romance - General",
+                "Fiction / General",
+                "Fiction - Romance"
+            ],
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "The state highway started its scenic curve around the Ski Basin, its waters calm and reflecting the blue of a Texas sky."
+            },
+            "source_records": [
+                "amazon:0671684426"
+            ],
+            "key": "/books/OL9637648M",
+            "works": [
+                {
+                    "key": "/works/OL14862505W"
+                }
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-02-04T23:52:33.669909"
+            }
+        },
+        "/books/OL15006773M": {
+            "publishers": [
+                "Hodder & Stouhgton"
+            ],
+            "series": [
+                "Silhouette special edition"
+            ],
+            "lc_classifications": [
+                "PR6054.A36"
+            ],
+            "key": "/books/OL15006773M",
+            "authors": [
+                {
+                    "key": "/authors/OL21059A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "(256)p.",
+            "title": "Terms of surrender.",
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "number_of_pages": 256,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0340285796"
+            ],
+            "publish_date": "1982",
+            "publish_country": "xxk",
+            "oclc_numbers": [
+                "220034441"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL14862505W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                13173027
+            ],
+            "source_records": [
+                "amazon:0340285796"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-17T04:10:21.045655"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-31T13:47:57.622813"
+            }
+        },
+        "/books/OL9866044M": {
+            "publishers": [
+                "Silhouette"
+            ],
+            "series": [
+                "Silhouette Special Edition, No 1"
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL9866044M",
+            "authors": [
+                {
+                    "key": "/authors/OL21059A"
+                }
+            ],
+            "subjects": [
+                "Fiction",
+                "General",
+                "Non-Classifiable"
+            ],
+            "isbn_13": [
+                "9780373535019"
+            ],
+            "classifications": {},
+            "title": "Terms of Surrender",
+            "identifiers": {
+                "goodreads": [
+                    "2776895"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373535015"
+            ],
+            "publish_date": "January 1, 1982",
+            "works": [
+                {
+                    "key": "/works/OL14862505W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "The state highway started its scenic curve around the Ski Basin, its waters calm and reflecting the blue of a Texas sky."
+            },
+            "source_records": [
+                "amazon:0373535015"
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-11-15T01:21:26.803575"
+            }
+        },
+        "/books/OL29110495M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781408929858"
+            ],
+            "title": "Lawman",
+            "number_of_pages": 288,
+            "isbn_13": [
+                "9781408929858"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Lawman",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2010",
+            "key": "/books/OL29110495M",
+            "authors": [
+                {
+                    "key": "/authors/OL227751A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL1902314W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-22T04:58:26.248537"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-04T07:42:13.405795"
+            }
+        },
+        "/books/OL24212169M": {
+            "lc_classifications": [
+                "PS3566.A513 L396 2007c"
+            ],
+            "ocaid": "lawmanpa00palm",
+            "genres": [
+                "Fiction."
+            ],
+            "source_records": [
+                "ia:lawmanpa00palm"
+            ],
+            "title": "Lawman",
+            "subjects": [
+                "Government investigators -- Fiction.",
+                "Ranch life -- Texas -- Fiction.",
+                "Serial murder investigation -- Texas -- Fiction.",
+                "Texas -- Fiction."
+            ],
+            "publish_country": "onc",
+            "by_statement": "Diana Palmer.",
+            "oclc_numbers": [
+                "181602257"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "publishers": [
+                "HQN"
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "FBI agent Garon Grier and Grace Carver join forces to hunt down the escaped child predator who once held her captive."
+            },
+            "key": "/books/OL24212169M",
+            "authors": [
+                {
+                    "key": "/authors/OL227751A"
+                }
+            ],
+            "publish_places": [
+                "Don Mills, Ontario, Canada"
+            ],
+            "pagination": "362 p. ;",
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "number_of_pages": 362,
+            "isbn_13": [
+                "9780373772834"
+            ],
+            "isbn_10": [
+                "0373772831"
+            ],
+            "publish_date": "2007",
+            "works": [
+                {
+                    "key": "/works/OL1902314W"
+                }
+            ],
+            "covers": [
+                13051078
+            ],
+            "latest_revision": 14,
+            "revision": 14,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-05-05T11:27:09.992919"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-04T07:42:13.405795"
+            }
+        },
+        "/books/OL10749636M": {
+            "publishers": [
+                "HQN Books"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "2920371"
+                ],
+                "goodreads": [
+                    "4688675"
+                ]
+            },
+            "physical_format": "Mass Market Paperback",
+            "key": "/books/OL10749636M",
+            "subjects": [
+                "Romance - Contemporary",
+                "Fiction / Romance / General",
+                "Romance - General",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern"
+            ],
+            "isbn_13": [
+                "9780373772834"
+            ],
+            "classifications": {},
+            "source_records": [
+                "bwb:9780373772834",
+                "ia:lawman0000palm_l6p1",
+                "amazon:0373772831",
+                "promise:bwb_daily_pallets_2020-11-13"
+            ],
+            "title": "Lawman",
+            "number_of_pages": 384,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373772831"
+            ],
+            "publish_date": "May 1, 2008",
+            "oclc_numbers": [
+                "181602257"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL1902314W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                11002835
+            ],
+            "ocaid": "lawman0000palm_l6p1",
+            "lc_classifications": [
+                "PS3566.A513 L396 2007c"
+            ],
+            "local_id": [
+                "urn:bwbsku:W6-BTW-920"
+            ],
+            "latest_revision": 15,
+            "revision": 15,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-04T07:42:13.405795"
+            }
+        },
+        "/books/OL8905562M": {
+            "publishers": [
+                "Center Point Large Print"
+            ],
+            "number_of_pages": 400,
+            "weight": "1 pounds",
+            "series": [
+                "Platinum Romance Series"
+            ],
+            "covers": [
+                2010913
+            ],
+            "physical_format": "Hardcover",
+            "key": "/books/OL8905562M",
+            "ocaid": "isbn_9781602850002",
+            "subjects": [
+                "American Light Romantic Fiction",
+                "American Mystery & Suspense Fiction",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern",
+                "Romance - Contemporary",
+                "Mystery & Detective - General",
+                "Romance - General",
+                "Government investigators",
+                "Large type books",
+                "Ranch life"
+            ],
+            "edition_name": "Lrg edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "classifications": {},
+            "source_records": [
+                "ia:isbn_9781602850002",
+                "marc:marc_loc_2016/BooksAll.2016.part34.utf8:108502642:807"
+            ],
+            "title": "Lawman",
+            "identifiers": {
+                "librarything": [
+                    "2920371"
+                ],
+                "goodreads": [
+                    "1137886"
+                ]
+            },
+            "isbn_13": [
+                "9781602850002"
+            ],
+            "isbn_10": [
+                "1602850003"
+            ],
+            "publish_date": "July 2007",
+            "works": [
+                {
+                    "key": "/works/OL1902314W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.5 x 5.6 x 1.1 inches",
+            "lccn": [
+                "2007006757"
+            ],
+            "lc_classifications": [
+                "PS3566.A513 L396 2007"
+            ],
+            "latest_revision": 12,
+            "revision": 12,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-12-17T05:56:58.519332"
+            }
+        },
+        "/books/OL29042694M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "subtitle": "His Perfect Wife",
+            "source_records": [
+                "bwb:9780263864656",
+                "promise:bwb_daily_pallets_2021-01-22"
+            ],
+            "title": "Purchased",
+            "number_of_pages": 186,
+            "isbn_13": [
+                "9780263864656"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Purchased His Perfect Wife",
+            "lc_classifications": [
+                "PR6052.I17"
+            ],
+            "publish_date": "2008",
+            "key": "/books/OL29042694M",
+            "authors": [
+                {
+                    "key": "/authors/OL3292941A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3498590W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general",
+                "Married people, fiction",
+                "Man-woman relationships, fiction"
+            ],
+            "local_id": [
+                "urn:bwbsku:KP-088-825"
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-21T06:40:27.755471"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-17T22:54:34.379141"
+            }
+        },
+        "/books/OL23214813M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "number_of_pages": 187,
+            "ia_box_id": [
+                "IA131102"
+            ],
+            "series": [
+                "Wedlocked!"
+            ],
+            "pagination": "187 p. ;",
+            "covers": [
+                6887853,
+                -1
+            ],
+            "key": "/books/OL23214813M",
+            "authors": [
+                {
+                    "key": "/authors/OL3292941A"
+                }
+            ],
+            "publish_places": [
+                "Toronto",
+                "New York"
+            ],
+            "contributions": [
+                "Copyright Paperback Collection (Library of Congress)"
+            ],
+            "genres": [
+                "Fiction"
+            ],
+            "classifications": {},
+            "source_records": [
+                "marc:marc_loc_updates/v37.i17.records.utf8:15218062:1013",
+                "ia:purchasedhisperf00bian",
+                "bwb:9780373127634",
+                "marc:marc_loc_2016/BooksAll.2016.part36.utf8:246163520:1013"
+            ],
+            "title": "Purchased: His Perfect Wife",
+            "oclc_number": [
+                "226356556"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "5754351"
+                ],
+                "goodreads": [
+                    "3814741"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Restaurateurs -- Fiction",
+                "Stepbrothers -- Fiction",
+                "Arranged marriage -- Fiction",
+                "Australia -- Fiction"
+            ],
+            "publish_date": "2008",
+            "publish_country": "onc",
+            "by_statement": "Helen Bianchin.",
+            "works": [
+                {
+                    "key": "/works/OL3498590W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "purchasedhisperf00bian",
+            "isbn_10": [
+                "0373127634"
+            ],
+            "isbn_13": [
+                "9780373127634"
+            ],
+            "lccn": [
+                "2009389428"
+            ],
+            "lc_classifications": [
+                "CPB Box no. 2839 vol. 12"
+            ],
+            "latest_revision": 20,
+            "revision": 20,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-05-16T02:10:06.795297"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-03T22:28:20.487976"
+            }
+        },
+        "/books/OL35664974M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Por Lugares Incriveis - Edicao especial",
+            "authors": [
+                {
+                    "key": "/authors/OL2875767A"
+                }
+            ],
+            "publish_date": "Nov 13, 2019",
+            "source_records": [
+                "amazon:8555340985"
+            ],
+            "publishers": [
+                "Seguinte"
+            ],
+            "isbn_10": [
+                "8555340985"
+            ],
+            "isbn_13": [
+                "9788555340987"
+            ],
+            "physical_format": "hardcover",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Por Lugares Incriveis - Edicao especial (Em Portugues do Brasil)"
+            },
+            "covers": [
+                12370582
+            ],
+            "works": [
+                {
+                    "key": "/works/OL17323489W"
+                }
+            ],
+            "key": "/books/OL35664974M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-14T00:14:53.463102"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-02T04:00:51.122496"
+            }
+        },
+        "/books/OL32751100M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "All die verdammt perfekten Tage",
+            "authors": [
+                {
+                    "key": "/authors/OL2875767A"
+                }
+            ],
+            "publish_date": "Aug 21, 2017",
+            "source_records": [
+                "amazon:3734104653"
+            ],
+            "publishers": [
+                "Blanvalet Taschenbuch Verlag"
+            ],
+            "isbn_10": [
+                "3734104653"
+            ],
+            "isbn_13": [
+                "9783734104657"
+            ],
+            "physical_format": "paperback",
+            "full_title": "All die verdammt perfekten Tage : Roman",
+            "subtitle": "Roman",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: All die verdammt perfekten Tage: Roman"
+            },
+            "covers": [
+                11377631
+            ],
+            "works": [
+                {
+                    "key": "/works/OL17323489W"
+                }
+            ],
+            "key": "/books/OL32751100M",
+            "languages": [
+                {
+                    "key": "/languages/ger"
+                }
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-07-07T08:09:04.082374"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-02T03:57:57.447472"
+            }
+        },
+        "/books/OL30687676M": {
+            "publishers": [
+                "Bukowy Las"
+            ],
+            "number_of_pages": 424,
+            "source_records": [
+                "amazon:8380742575"
+            ],
+            "title": "Wszystkie jasne miejsca",
+            "physical_format": "paperback",
+            "identifiers": {},
+            "covers": [
+                10486589
+            ],
+            "publish_date": "Oct 22, 2020",
+            "key": "/books/OL30687676M",
+            "authors": [
+                {
+                    "key": "/authors/OL3850984A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL17323489W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_10": [
+                "8380742575"
+            ],
+            "isbn_13": [
+                "9788380742574"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/pol"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-10-22T10:50:05.416949"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-02T03:39:19.940635"
+            }
+        },
+        "/books/OL26106393M": {
+            "publishers": [
+                "Puffin Books"
+            ],
+            "source_records": [
+                "bwb:9780141330563",
+                "promise:bwb_daily_pallets_2021-01-08"
+            ],
+            "title": "Well Always Have Summer Jenny Han",
+            "identifiers": {},
+            "covers": [
+                7737017
+            ],
+            "isbn_13": [
+                "9780141330563"
+            ],
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2012",
+            "key": "/books/OL26106393M",
+            "works": [
+                {
+                    "key": "/works/OL16211977W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:KO-998-082"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2016-10-14T16:32:34.847863"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-09T03:46:50.387677"
+            }
+        },
+        "/books/OL9750450M": {
+            "identifiers": {
+                "goodreads": [
+                    "1947742"
+                ],
+                "librarything": [
+                    "833671"
+                ]
+            },
+            "title": "Past Passion",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "publish_date": "1992",
+            "publishers": [
+                "Mills and Boon"
+            ],
+            "physical_format": "Paperback",
+            "isbn_13": [
+                "9780263774252"
+            ],
+            "isbn_10": [
+                "0263774252"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:0263774252"
+            ],
+            "key": "/books/OL9750450M",
+            "number_of_pages": 192,
+            "works": [
+                {
+                    "key": "/works/OL3759349W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-20T12:20:24.672257"
+            }
+        },
+        "/books/OL9747758M": {
+            "identifiers": {
+                "goodreads": [
+                    "1947742"
+                ],
+                "librarything": [
+                    "833671"
+                ]
+            },
+            "title": "Past Passion",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "publish_date": "1992",
+            "publishers": [
+                "Mills and Boon"
+            ],
+            "physical_format": "Paperback",
+            "isbn_13": [
+                "9780263774252"
+            ],
+            "isbn_10": [
+                "0263774252"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:0263774252"
+            ],
+            "key": "/books/OL9747758M",
+            "number_of_pages": 192,
+            "works": [
+                {
+                    "key": "/works/OL3759349W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-24T21:08:00.005417"
+            }
+        },
+        "/books/OL9749741M": {
+            "identifiers": {
+                "goodreads": [
+                    "1947741"
+                ]
+            },
+            "title": "Past Passion",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "publish_date": "August 1992",
+            "publishers": [
+                "MacMillan Publishing Company"
+            ],
+            "weight": "14.4 ounces",
+            "physical_format": "Hardcover",
+            "subjects": [
+                "Romance",
+                "General",
+                "Fiction - General",
+                "Large Print"
+            ],
+            "edition_name": "Large Pr edition",
+            "isbn_13": [
+                "9780263130362"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263130363"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.8 x 5.8 x 1 inches",
+            "source_records": [
+                "amazon:0263130363"
+            ],
+            "key": "/books/OL9749741M",
+            "number_of_pages": 288,
+            "works": [
+                {
+                    "key": "/works/OL3759349W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-02-16T13:24:00.046475"
+            }
+        },
+        "/books/OL9737071M": {
+            "identifiers": {
+                "goodreads": [
+                    "1947743"
+                ],
+                "librarything": [
+                    "833671"
+                ],
+                "amazon": [
+                    ""
+                ]
+            },
+            "title": "Past Passion",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "publish_date": "May 1, 1994",
+            "publishers": [
+                "Harlequin"
+            ],
+            "weight": "3.2 ounces",
+            "series": [
+                "Harlequin Presents Plus, No 1655"
+            ],
+            "covers": [
+                7377760
+            ],
+            "physical_format": "Paperback",
+            "ocaid": "pastpassion00penn",
+            "subjects": [
+                "Non-Classifiable",
+                "Romance - General",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Regency"
+            ],
+            "isbn_13": [
+                "9780373116553"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-11-22:948-BAC-762",
+                "ia:pastpassion00penn",
+                "bwb:9780373116553",
+                "promise:bwb_daily_pallets_2021-09-03:O7-DQQ-896",
+                "promise:bwb_daily_pallets_2021-05-24:W6-CQU-225",
+                "promise:bwb_daily_pallets_2020-04-30:O6-CIC-342"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373116551"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.8 x 4.2 x 0.5 inches",
+            "local_id": [
+                "urn:bwbsku:948-BAC-762",
+                "urn:bwbsku:O7-DQQ-896",
+                "urn:bwbsku:W6-CQU-225",
+                "urn:bwbsku:O6-CIC-342"
+            ],
+            "key": "/books/OL9737071M",
+            "works": [
+                {
+                    "key": "/works/OL3759349W"
+                }
+            ],
+            "latest_revision": 17,
+            "revision": 17,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T18:26:46.479360"
+            }
+        },
+        "/books/OL14981568M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "pagination": "17cm.192. n.e.",
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:517845641:407",
+                "bwb:9780263761719",
+                "ia:bittersweethoney0000lewt"
+            ],
+            "title": "Bittersweet honeymoon.",
+            "number_of_pages": 192,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263761711"
+            ],
+            "publish_date": "1989",
+            "publish_country": "xxk",
+            "key": "/books/OL14981568M",
+            "authors": [
+                {
+                    "key": "/authors/OL194979A"
+                }
+            ],
+            "oclc_numbers": [
+                "20015307"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL11327404W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                11384762
+            ],
+            "ocaid": "bittersweethoney0000lewt",
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T23:29:56.072012"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-07-08T07:37:24.780917"
+            }
+        },
+        "/books/OL10741184M": {
+            "identifiers": {
+                "goodreads": [
+                    "2012203"
+                ]
+            },
+            "title": "Courting Trouble",
+            "authors": [
+                {
+                    "key": "/authors/OL2763201A"
+                }
+            ],
+            "publish_date": "May 1999",
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "physical_format": "Mass Market Paperback",
+            "source_records": [
+                "bwb:9780373174256"
+            ],
+            "isbn_13": [
+                "9780373174256"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "037317425X"
+            ],
+            "oclc_numbers": [
+                "41939912"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Romance - General",
+                "Fiction - Romance"
+            ],
+            "ocaid": "courtingtrouble0000patr",
+            "key": "/books/OL10741184M",
+            "works": [
+                {
+                    "key": "/works/OL8315345W"
+                }
+            ],
+            "covers": [
+                15119489
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-04T12:29:11.528306"
+            }
+        },
+        "/books/OL28953110M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263174458",
+                "promise:bwb_daily_pallets_2022-03-17"
+            ],
+            "title": "Spanish Honeymoon",
+            "number_of_pages": 182,
+            "isbn_13": [
+                "9780263174458"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Spanish Honeymoon",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2002",
+            "key": "/books/OL28953110M",
+            "authors": [
+                {
+                    "key": "/authors/OL659964A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3754780W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "local_id": [
+                "urn:bwbsku:KQ-330-046"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T05:52:16.134193"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-15T23:35:58.099650"
+            }
+        },
+        "/books/OL10741294M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "number_of_pages": 256,
+            "weight": "4.2 ounces",
+            "series": [
+                "Harlequin Romance March 635"
+            ],
+            "covers": [
+                2407967
+            ],
+            "physical_format": "Mass Market Paperback",
+            "key": "/books/OL10741294M",
+            "authors": [
+                {
+                    "key": "/authors/OL659964A"
+                }
+            ],
+            "subjects": [
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern",
+                "Romance - General",
+                "Fiction / Romance / Adult",
+                "Romance - Contemporary"
+            ],
+            "edition_name": "Larger Pri edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "classifications": {},
+            "source_records": [
+                "bwb:9780373181353"
+            ],
+            "title": "A Spanish Honeymoon",
+            "identifiers": {},
+            "isbn_13": [
+                "9780373181353"
+            ],
+            "isbn_10": [
+                "0373181353"
+            ],
+            "publish_date": "March 1, 2004",
+            "works": [
+                {
+                    "key": "/works/OL3754780W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.6 x 4.2 x 0.7 inches",
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-15T23:35:58.099650"
+            }
+        },
+        "/books/OL34984769M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL3752315A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2022",
+            "publishers": [
+                "Penguin Publishing Group"
+            ],
+            "source_records": [
+                "bwb:9780593437261",
+                "amazon:0593437268",
+                "promise:bwb_daily_pallets_2023-07-26:T3-CEW-686"
+            ],
+            "subjects": [
+                "American literature"
+            ],
+            "title": "Mr. Wrong Number",
+            "weight": "0.319 ",
+            "pagination": "352",
+            "works": [
+                {
+                    "key": "/works/OL25920096W"
+                }
+            ],
+            "key": "/books/OL34984769M",
+            "covers": [
+                12649262
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9780593437261"
+            ],
+            "isbn_10": [
+                "0593437268"
+            ],
+            "classifications": {},
+            "lc_classifications": [
+                "PS3616.A337846M7"
+            ],
+            "edition_name": "First Edition",
+            "physical_format": "Paperback",
+            "local_id": [
+                "urn:bwbsku:T3-CEW-686"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-09T17:42:15.519895"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-07-28T01:03:22.368189"
+            }
+        },
+        "/books/OL29971184M": {
+            "publishers": [
+                "Éditions J'ai lu"
+            ],
+            "links": [
+                {
+                    "url": "http://catalogue.bnf.fr/ark:/12148/cb347554203",
+                    "title": "Notice et cote du catalogue de la Bibliothèque nationale de France"
+                }
+            ],
+            "series": [
+                "Duo, Série Désir -- 34"
+            ],
+            "covers": [
+                10413861
+            ],
+            "key": "/books/OL29971184M",
+            "authors": [
+                {
+                    "key": "/authors/OL227751A"
+                }
+            ],
+            "publish_places": [
+                "Paris"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "154 p.",
+            "source_records": [
+                "ia:amisamants0000palm"
+            ],
+            "title": "Amis, amants",
+            "number_of_pages": 154,
+            "publish_date": "1984",
+            "publish_country": "fr",
+            "by_statement": "Diana Palmer",
+            "works": [
+                {
+                    "key": "/works/OL1902282W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {
+                "goodreads": [
+                    "122717634"
+                ]
+            },
+            "ocaid": "amisamants0000palm",
+            "isbn_10": [
+                "2277850349"
+            ],
+            "isbn_13": [
+                "9782277850342"
+            ],
+            "oclc_numbers": [
+                "461672814"
+            ],
+            "contributors": [
+                {
+                    "role": "Translator",
+                    "name": "T. Querilhac"
+                }
+            ],
+            "translation_of": "Friends And Lovers",
+            "translated_from": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "Ce soir là, le regard que Maud Vigny posa sur John Durango était tout différent. Quelque chose d’indéfinissable venait de se passer en elle. Pour ne pas gâcher l’amitié qui les lie, la jeune femme tente de lui cacher ses nouveaux sentiments.De plus, elle ne se sent pas prête à sacrifier sa liberté. Mais comment empêcher son coeur battre plus vite dès qu’elle l’aperçoit ?\r\n\r\nMaud sait qu’une décision s’impose. Va-telle choisir la fuite ou franchir cette timide frontière qui va de l’amitié à l’amour ?"
+            },
+            "physical_format": "Paperback",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-02T04:43:59.900608"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-21T18:31:46.661087"
+            }
+        },
+        "/books/OL7648182M": {
+            "publishers": [
+                "SILHOUETTE BOOKS"
+            ],
+            "physical_format": "Mass Market Paperback",
+            "classifications": {},
+            "source_records": [
+                "amazon:0671462954",
+                "marc:marc_loc_updates/v37.i31.records.utf8:6837079:697",
+                "bwb:9780671462956",
+                "marc:marc_loc_2016/BooksAll.2016.part34.utf8:81316433:697"
+            ],
+            "title": "Friends and Lovers",
+            "series": [
+                "Silhouette Desire # 50"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "78214"
+                ],
+                "goodreads": [
+                    "1137801"
+                ]
+            },
+            "isbn_13": [
+                "9780671462956"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0671462954"
+            ],
+            "publish_date": "March 1, 1983",
+            "key": "/books/OL7648182M",
+            "oclc_numbers": [
+                "11800078"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL1902282W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "lccn": [
+                "2006594295"
+            ],
+            "lc_classifications": [
+                "CPB Box no. 2515 vol. 2",
+                "CPB"
+            ],
+            "latest_revision": 15,
+            "revision": 15,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-03T12:53:58.379177"
+            }
+        },
+        "/books/OL38367927M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL227751A"
+                }
+            ],
+            "isbn_13": [
+                "9781460345351"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2014",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781460345351"
+            ],
+            "subjects": [
+                "Fiction, romance, contemporary"
+            ],
+            "title": "Friends and Lovers",
+            "full_title": "Friends and Lovers",
+            "works": [
+                {
+                    "key": "/works/OL1902282W"
+                }
+            ],
+            "key": "/books/OL38367927M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-18T14:00:49.657219"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-03T12:53:58.379177"
+            }
+        },
+        "/books/OL24303829M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "physical_format": "eBook",
+            "source_records": [
+                "marc:marc_overdrive/InternetArchiveCrMarc-2010-06-11c.mrc:3405453:2059",
+                "bwb:9781426852046"
+            ],
+            "title": "Taken by the Pirate Tycoon",
+            "identifiers": {
+                "overdrive": [
+                    "CEC2A054-2352-42D3-8629-1FEBAB45C90F"
+                ]
+            },
+            "covers": [
+                6429711
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2010",
+            "publish_country": "nyu",
+            "key": "/books/OL24303829M",
+            "publish_places": [
+                "Toronto, Ontario"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL15449069W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781426852046"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-06-30T02:36:03.385124"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-03T08:15:15.988534"
+            }
+        },
+        "/books/OL10691166M": {
+            "identifiers": {
+                "librarything": [
+                    "3298288"
+                ],
+                "goodreads": [
+                    "144368"
+                ]
+            },
+            "title": "Hostage to Dishonour",
+            "authors": [
+                {
+                    "key": "/authors/OL687900A"
+                }
+            ],
+            "publish_date": "1979",
+            "publishers": [
+                "Harlequin"
+            ],
+            "covers": [
+                9750918
+            ],
+            "physical_format": "Paperback",
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-06-28:P6-CEA-602",
+                "bwb:9780373023523",
+                "promise:bwb_daily_pallets_2021-05-12:P7-AGT-126"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "hostagetodishono00jess",
+            "isbn_10": [
+                "0373023529"
+            ],
+            "isbn_13": [
+                "9780373023523"
+            ],
+            "oclc_numbers": [
+                "6542518"
+            ],
+            "local_id": [
+                "urn:bwbsku:P6-CEA-602",
+                "urn:bwbsku:P7-AGT-126"
+            ],
+            "key": "/books/OL10691166M",
+            "works": [
+                {
+                    "key": "/works/OL3845133W"
+                }
+            ],
+            "latest_revision": 15,
+            "revision": 15,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T13:51:17.198248"
+            }
+        },
+        "/books/OL43575996M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL756213A"
+                }
+            ],
+            "local_id": [
+                "urn:bwbsku:KO-266-995"
+            ],
+            "publish_date": "1993-01-01",
+            "publishers": [
+                "Mills and Boon"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2020-11-19"
+            ],
+            "title": "A True Marriage",
+            "full_title": "True Marriage",
+            "works": [
+                {
+                    "key": "/works/OL15920208W"
+                }
+            ],
+            "key": "/books/OL43575996M",
+            "identifiers": {},
+            "isbn_10": [
+                "0263782298"
+            ],
+            "isbn_13": [
+                "9780263782295"
+            ],
+            "classifications": {},
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-09T14:41:14.256600"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-09-02T12:47:52.809342"
+            }
+        },
+        "/books/OL24826607M": {
+            "publishers": [
+                "Silhouette Books"
+            ],
+            "series": [
+                "Silhouette romance -- 639"
+            ],
+            "full_title": "A true marriage",
+            "key": "/books/OL24826607M",
+            "authors": [
+                {
+                    "key": "/authors/OL756213A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "contributions": [
+                "Copyright Paperback Collection (Library of Congress)"
+            ],
+            "pagination": "187 p. ;",
+            "source_records": [
+                "marc:marc_loc_updates/v39.i11.records.utf8:12013936:855"
+            ],
+            "title": "A True Marriage",
+            "notes": "America's Publisher of Contemporary Romance.",
+            "number_of_pages": 187,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1989",
+            "publish_country": "nyu",
+            "by_statement": "Lucy Gordon",
+            "works": [
+                {
+                    "key": "/works/OL15920208W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_10": [
+                "0373086393"
+            ],
+            "isbn_13": [
+                "9780373086399"
+            ],
+            "lccn": [
+                "2010714402"
+            ],
+            "oclc_numbers": [
+                "19279763"
+            ],
+            "classifications": {},
+            "lc_classifications": [
+                "CPB Box no. 42 vol. 27"
+            ],
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2011-07-25T17:30:57.158082"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-31T00:08:44.753483"
+            }
+        },
+        "/books/OL10737078M": {
+            "identifiers": {
+                "librarything": [
+                    "2010113"
+                ]
+            },
+            "title": "A True Marriage",
+            "authors": [
+                {
+                    "key": "/authors/OL756213A"
+                }
+            ],
+            "publish_date": "February 1, 1989",
+            "publishers": [
+                "silhouette",
+                "Silhouette"
+            ],
+            "isbn_10": [
+                "0373086393"
+            ],
+            "series": [
+                "Silhouette Romance, No. 639"
+            ],
+            "covers": [
+                9550664
+            ],
+            "physical_format": "Paperback",
+            "lc_classifications": [
+                "CPB Box no. 42 vol. 27",
+                "CPB Box no.42 vol.27"
+            ],
+            "ocaid": "truemarriage0000gord",
+            "isbn_13": [
+                "9780373086399"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-03-17:P7-EOZ-498",
+                "ia:truemarriage0000gord",
+                "bwb:9780373086399",
+                "marc:marc_loc_2016/BooksAll.2016.part38.utf8:141671587:855",
+                "amazon:0373086393",
+                "promise:bwb_daily_pallets_2021-09-08:P7-EQF-974",
+                "promise:bwb_daily_pallets_2021-06-28:O7-CDR-898",
+                "promise:bwb_daily_pallets_2020-12-16:386-BAC-874"
+            ],
+            "lccn": [
+                "2010714402"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "General",
+                "Non-Classifiable",
+                "Fiction - General",
+                "Romance: Regency"
+            ],
+            "oclc_numbers": [
+                "19279763"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:P7-EOZ-498",
+                "urn:bwbsku:P7-EQF-974",
+                "urn:bwbsku:O7-CDR-898",
+                "urn:bwbsku:386-BAC-874"
+            ],
+            "key": "/books/OL10737078M",
+            "works": [
+                {
+                    "key": "/works/OL15920208W"
+                }
+            ],
+            "latest_revision": 21,
+            "revision": 21,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T16:12:07.376867"
+            }
+        },
+        "/books/OL24808127M": {
+            "publishers": [
+                "Silhouette Books"
+            ],
+            "series": [
+                "Silhouette romance -- 639"
+            ],
+            "full_title": "A true marriage",
+            "key": "/books/OL24808127M",
+            "authors": [
+                {
+                    "key": "/authors/OL756213A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "contributions": [
+                "Copyright Paperback Collection (Library of Congress)"
+            ],
+            "pagination": "187 p. ;",
+            "source_records": [
+                "marc:marc_loc_updates/v39.i09.records.utf8:12449771:855"
+            ],
+            "title": "A True Marriage",
+            "notes": "America's Publisher of Contemporary Romance.",
+            "number_of_pages": 187,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1989",
+            "publish_country": "nyu",
+            "by_statement": "Lucy Gordon",
+            "works": [
+                {
+                    "key": "/works/OL15920208W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_10": [
+                "0373086393"
+            ],
+            "isbn_13": [
+                "9780373086399"
+            ],
+            "lccn": [
+                "2010714402"
+            ],
+            "oclc_numbers": [
+                "19279763"
+            ],
+            "classifications": {},
+            "lc_classifications": [
+                "CPB Box no. 42 vol. 27"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2011-07-22T20:47:13.681873"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-31T00:09:24.790401"
+            }
+        },
+        "/books/OL7667185M": {
+            "publishers": [
+                "Pocket"
+            ],
+            "number_of_pages": 256,
+            "weight": "5.8 ounces",
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "The state highway started its scenic curve around the Ski Basin, its waters calm and reflecting the blue of a Texas sky."
+            },
+            "covers": [
+                409430
+            ],
+            "physical_format": "Mass Market Paperback",
+            "key": "/books/OL7667185M",
+            "authors": [
+                {
+                    "key": "/authors/OL21059A"
+                }
+            ],
+            "subjects": [
+                "Romance - General",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern",
+                "Fiction / General",
+                "Romance - Contemporary"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "classifications": {},
+            "title": "Terms Of Surrender",
+            "identifiers": {
+                "goodreads": [
+                    "1771994"
+                ],
+                "librarything": [
+                    "1921814"
+                ]
+            },
+            "isbn_13": [
+                "9780671875190"
+            ],
+            "isbn_10": [
+                "0671875191"
+            ],
+            "publish_date": "1 July 1993",
+            "works": [
+                {
+                    "key": "/works/OL14862505W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.8 x 4.2 x 0.6 inches",
+            "source_records": [
+                "amazon:0671875191",
+                "promise:bwb_daily_pallets_2020-10-08"
+            ],
+            "local_id": [
+                "urn:bwbsku:455-BAB-666"
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-09T21:33:32.794068"
+            }
+        },
+        "/books/OL10750219M": {
+            "title": "Terms of Surrender",
+            "authors": [
+                {
+                    "key": "/authors/OL21059A"
+                }
+            ],
+            "publish_date": "November 1, 1990",
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "physical_format": "Paperback",
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-10-12:O8-CPN-629",
+                "bwb:9780373832415"
+            ],
+            "isbn_13": [
+                "9780373832415"
+            ],
+            "isbn_10": [
+                "0373832419"
+            ],
+            "oclc_numbers": [
+                "25079996"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction",
+                "General"
+            ],
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "The state highway started its scenic curve around the Ski Basin, its waters calm and reflecting the blue of a Texas sky."
+            },
+            "local_id": [
+                "urn:bwbsku:O8-CPN-629"
+            ],
+            "key": "/books/OL10750219M",
+            "works": [
+                {
+                    "key": "/works/OL14862505W"
+                }
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-10T02:12:54.796589"
+            }
+        },
+        "/books/OL19997941M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Originally published, London , Hodder & Stoughton, 1982."
+            },
+            "title": "Terms of surrender",
+            "authors": [
+                {
+                    "key": "/authors/OL21059A"
+                }
+            ],
+            "publish_date": "1985",
+            "publishers": [
+                "Firecrest"
+            ],
+            "publish_places": [
+                "Bath"
+            ],
+            "pagination": "(256)p. ;",
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0859976068"
+            ],
+            "publish_country": "xxk",
+            "by_statement": "Janet Dailey.",
+            "oclc_numbers": [
+                "12584671"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:3403024445:649"
+            ],
+            "key": "/books/OL19997941M",
+            "number_of_pages": 256,
+            "works": [
+                {
+                    "key": "/works/OL14862505W"
+                }
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-25T04:38:26.745081"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-06T17:28:22.710326"
+            }
+        },
+        "/books/OL17305259M": {
+            "publishers": [
+                "Chivers"
+            ],
+            "series": [
+                "A Lythway book"
+            ],
+            "lc_classifications": [
+                "PS3554.A2/"
+            ],
+            "key": "/books/OL17305259M",
+            "authors": [
+                {
+                    "key": "/authors/OL21059A"
+                }
+            ],
+            "publish_places": [
+                "Bath"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "(288)p. ;",
+            "title": "Terms of surrender",
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Originally published, London , Hodder and Stoughton, 1982."
+            },
+            "number_of_pages": 288,
+            "edition_name": "Large print ed.",
+            "isbn_10": [
+                "0745101682"
+            ],
+            "publish_date": "1985",
+            "publish_country": "xxk",
+            "by_statement": "Janet Dailey.",
+            "oclc_numbers": [
+                "12518081"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL14862505W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                13173012
+            ],
+            "source_records": [
+                "amazon:0745101682"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-28T08:19:43.955561"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-31T13:47:10.363022"
+            }
+        },
+        "/books/OL38270761M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL227751A"
+                }
+            ],
+            "isbn_13": [
+                "9781283686754"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2013",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781283686754"
+            ],
+            "title": "Lawman",
+            "full_title": "Lawman",
+            "works": [
+                {
+                    "key": "/works/OL1902314W"
+                }
+            ],
+            "key": "/books/OL38270761M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-17T11:43:27.184113"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-04T07:42:13.405795"
+            }
+        },
+        "/books/OL29016104M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263865851",
+                "promise:bwb_daily_pallets_2020-11-19"
+            ],
+            "title": "Lawman",
+            "number_of_pages": 320,
+            "isbn_13": [
+                "9780263865851"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Lawman",
+            "lc_classifications": [
+                "PS3566.A513"
+            ],
+            "publish_date": "2008",
+            "key": "/books/OL29016104M",
+            "authors": [
+                {
+                    "key": "/authors/OL227751A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL1902314W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "local_id": [
+                "urn:bwbsku:KO-447-546"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-20T20:16:51.588879"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-04T07:42:13.405795"
+            }
+        },
+        "/books/OL24382016M": {
+            "publishers": [
+                "HQN"
+            ],
+            "number_of_pages": 362,
+            "ia_box_id": [
+                "IA126702"
+            ],
+            "covers": [
+                6633035
+            ],
+            "lc_classifications": [
+                "PS3566.A513 L396 2007c"
+            ],
+            "key": "/books/OL24382016M",
+            "ocaid": "lawman00palm",
+            "publish_places": [
+                "Don Mills, Ontario, Canada"
+            ],
+            "description": "FBI agent Garon Grier and Grace Carver join forces to hunt down the escaped child predator who once held her captive.",
+            "isbn_13": [
+                "9780373772834"
+            ],
+            "pagination": "362 p. ;",
+            "classifications": {},
+            "source_records": [
+                "ia:lawman00palm"
+            ],
+            "title": "Lawman",
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "notes": "\"This edition published by arrangement with Harlequin Books S.A.\"--T.p. verso.",
+            "identifiers": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373772831"
+            ],
+            "publish_date": "2007",
+            "publish_country": "onc",
+            "by_statement": "Diana Palmer",
+            "oclc_numbers": [
+                "181602257"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL1902314W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-10-21T08:59:42.947539"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-04T07:42:13.405795"
+            }
+        },
+        "/books/OL9406037M": {
+            "identifiers": {
+                "goodreads": [
+                    "3105284"
+                ],
+                "librarything": [
+                    "2920371"
+                ]
+            },
+            "title": "Lawman",
+            "publish_date": "August 1, 2007",
+            "publishers": [
+                "Tantor Media"
+            ],
+            "weight": "7.2 ounces",
+            "covers": [
+                1726517
+            ],
+            "physical_format": "Audio CD",
+            "contributions": [
+                "Todd McLaren (Narrator)"
+            ],
+            "subjects": [
+                "Romance - Contemporary",
+                "Fiction / Romance / Contemporary",
+                "Unabridged Audio / Fiction/Romance",
+                "Romance - General",
+                "Suspense",
+                "Fiction",
+                "Unabridged Audio - Fiction/Romance",
+                "Romance: Modern"
+            ],
+            "edition_name": "Unabridged edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_13": [
+                "9781400104956"
+            ],
+            "isbn_10": [
+                "1400104955"
+            ],
+            "oclc_numbers": [
+                "154769269"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.4 x 5.9 x 1 inches",
+            "source_records": [
+                "amazon:1400104955"
+            ],
+            "key": "/books/OL9406037M",
+            "works": [
+                {
+                    "key": "/works/OL1902314W"
+                }
+            ],
+            "latest_revision": 13,
+            "revision": 13,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-27T14:03:25.156074"
+            }
+        },
+        "/books/OL32076940M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "2009",
+            "copyright_date": "2008",
+            "publish_country": "sp",
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL3292941A"
+                }
+            ],
+            "oclc_numbers": [
+                "277205565"
+            ],
+            "lc_classifications": [
+                "PR6052.I17 P8718 2009"
+            ],
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "work_titles": [
+                "Purchased: his perfect wife"
+            ],
+            "series": [
+                "Harlequin Bianca -- 637",
+                "Harlequin Bianca -- 637."
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Título original: Purchased: his perfect wife."
+            },
+            "subjects": [
+                "Man-woman relationships",
+                "Fiction",
+                "Relaciones hombre-mujer",
+                "Novela",
+                "Cuentos de amor"
+            ],
+            "title": "Amor o dinero?",
+            "by_statement": "Helen Bianchin",
+            "publishers": [
+                "Harlequin Ibérica"
+            ],
+            "publish_places": [
+                "Madrid"
+            ],
+            "isbn_13": [
+                "9780373339877"
+            ],
+            "isbn_10": [
+                "0373339879"
+            ],
+            "pagination": "156 pages",
+            "number_of_pages": 156,
+            "ocaid": "amorodinero0000bian",
+            "source_records": [
+                "ia:amorodinero0000bian",
+                "bwb:9780373339877",
+                "amazon:0373339879"
+            ],
+            "covers": [
+                10729200
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3498590W"
+                }
+            ],
+            "key": "/books/OL32076940M",
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-03-26T05:13:07.938735"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-17T22:54:34.379141"
+            }
+        },
+        "/books/OL29578825M": {
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "subtitle": "His Perfect Wife",
+            "source_records": [
+                "bwb:9780373235278",
+                "promise:bwb_daily_pallets_2021-03-10"
+            ],
+            "title": "Purchased",
+            "number_of_pages": 256,
+            "isbn_13": [
+                "9780373235278"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Purchased His Perfect Wife",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2008",
+            "key": "/books/OL29578825M",
+            "authors": [
+                {
+                    "key": "/authors/OL3292941A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3498590W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "local_id": [
+                "urn:bwbsku:O7-AZQ-673"
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-28T10:38:15.391776"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-17T22:54:34.379141"
+            }
+        },
+        "/books/OL29026235M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263203356",
+                "ia:purchasedhisperf0000bian",
+                "promise:bwb_daily_pallets_2020-09-09"
+            ],
+            "title": "Purchased - His Perfect Wife",
+            "number_of_pages": 186,
+            "isbn_13": [
+                "9780263203356"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lc_classifications": [
+                "PR6052.I17"
+            ],
+            "publish_date": "2008",
+            "key": "/books/OL29026235M",
+            "authors": [
+                {
+                    "key": "/authors/OL3292941A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3498590W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general",
+                "Married people, fiction",
+                "Man-woman relationships, fiction"
+            ],
+            "covers": [
+                11700513
+            ],
+            "ocaid": "purchasedhisperf0000bian",
+            "local_id": [
+                "urn:bwbsku:KO-133-384"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-21T00:24:26.963674"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-17T22:54:34.379141"
+            }
+        },
+        "/books/OL28995325M": {
+            "title": "Purchased",
+            "subtitle": "His Perfect Wife",
+            "authors": [
+                {
+                    "key": "/authors/OL3292941A"
+                }
+            ],
+            "publish_date": "2009",
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263205633",
+                "ia:purchasedhisperf0000bian_i4g3"
+            ],
+            "isbn_13": [
+                "9780263205633"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lc_classifications": [
+                ""
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general",
+                "Married people, fiction",
+                "Man-woman relationships, fiction"
+            ],
+            "ocaid": "purchasedhisperf0000bian_i4g3",
+            "key": "/books/OL28995325M",
+            "number_of_pages": 288,
+            "works": [
+                {
+                    "key": "/works/OL3498590W"
+                }
+            ],
+            "covers": [
+                13095029
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-20T09:40:11.641051"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-17T22:54:34.379141"
+            }
+        },
+        "/books/OL27932417M": {
+            "publishers": [
+                "Wydawnictwo Bukowy Las"
+            ],
+            "title": "Wszystkie jasne miejsca",
+            "covers": [
+                9318527
+            ],
+            "isbn_13": [
+                "9788364481710"
+            ],
+            "publish_date": "2015",
+            "key": "/books/OL27932417M",
+            "publish_places": [
+                "Wrocław, Poland"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL17323489W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:8364481711"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/pol"
+                }
+            ],
+            "number_of_pages": 424,
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-03-26T17:54:54.274371"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-02T03:56:28.035860"
+            }
+        },
+        "/books/OL35310058M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Hayatin Kiyisinda",
+            "authors": [
+                {
+                    "key": "/authors/OL2875767A"
+                }
+            ],
+            "publish_date": "Oct 17, 2016",
+            "source_records": [
+                "amazon:605299021X"
+            ],
+            "publishers": [
+                "Pegasus"
+            ],
+            "isbn_10": [
+                "605299021X"
+            ],
+            "isbn_13": [
+                "9786052990216"
+            ],
+            "physical_format": "hardcover",
+            "covers": [
+                12120957
+            ],
+            "works": [
+                {
+                    "key": "/works/OL17323489W"
+                }
+            ],
+            "key": "/books/OL35310058M",
+            "languages": [
+                {
+                    "key": "/languages/tur"
+                }
+            ],
+            "number_of_pages": 384,
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-19T10:21:04.347770"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-02T03:49:08.072977"
+            }
+        },
+        "/books/OL25311484M": {
+            "publishers": [
+                "Simon & Schuster"
+            ],
+            "classifications": {},
+            "title": "We'll Always Have Summer",
+            "identifiers": {
+                "amazon": [
+                    ""
+                ]
+            },
+            "covers": [
+                7118110
+            ],
+            "isbn_13": [
+                "9781416995593"
+            ],
+            "publish_date": "2012",
+            "key": "/books/OL25311484M",
+            "works": [
+                {
+                    "key": "/works/OL16211977W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "bwb:9781416995593",
+                "promise:bwb_daily_pallets_2020-04-09"
+            ],
+            "local_id": [
+                "urn:bwbsku:W3-CYI-655"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2012-05-11T15:29:25.173737"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-10T11:19:32.199056"
+            }
+        },
+        "/books/OL32132143M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "2010",
+            "publish_country": "enk",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "title": "Past Passion",
+            "by_statement": "Penny Jordan",
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "publish_places": [
+                "Richmond"
+            ],
+            "pagination": "pages cm",
+            "source_records": [
+                "ia:pastpassion0000jord",
+                "ia:pastpassion0000jord_z5o6",
+                "promise:bwb_daily_pallets_2020-07-30",
+                "bwb:9780263216844"
+            ],
+            "full_title": "Past passion",
+            "covers": [
+                10794837
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3759349W"
+                }
+            ],
+            "key": "/books/OL32132143M",
+            "local_id": [
+                "urn:bwbsku:KN-731-913"
+            ],
+            "identifiers": {},
+            "classifications": {},
+            "ocaid": "pastpassion0000jord",
+            "isbn_10": [
+                "0263216845"
+            ],
+            "isbn_13": [
+                "9780263216844"
+            ],
+            "oclc_numbers": [
+                "645699141"
+            ],
+            "dewey_decimal_class": [
+                "823.914"
+            ],
+            "edition_name": "Large Print Edition",
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-03-27T19:11:58.557324"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-28T12:03:53.735126"
+            }
+        },
+        "/books/OL9745567M": {
+            "publishers": [
+                "Mills and Boon"
+            ],
+            "number_of_pages": 192,
+            "source_records": [
+                "bwb:9780263774252",
+                "ia:pastpassion0000jord_f5c8",
+                "promise:bwb_daily_pallets_2020-09-09"
+            ],
+            "title": "Past Passion",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {
+                "librarything": [
+                    "833671"
+                ],
+                "goodreads": [
+                    "1947742"
+                ]
+            },
+            "publish_date": "1992",
+            "key": "/books/OL9745567M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3759349W"
+                }
+            ],
+            "physical_format": "Paperback",
+            "covers": [
+                11692915
+            ],
+            "ocaid": "pastpassion0000jord_f5c8",
+            "isbn_10": [
+                "0263774252"
+            ],
+            "isbn_13": [
+                "9780263774252"
+            ],
+            "classifications": {},
+            "local_id": [
+                "urn:bwbsku:KN-870-923"
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-10T01:04:59.716284"
+            }
+        },
+        "/books/OL24201789M": {
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "ia_box_id": [
+                "IA115218"
+            ],
+            "series": [
+                "Harlequin Romance -- 2985"
+            ],
+            "covers": [
+                6473256
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2011-11-05T00:59:24.430016"
+            },
+            "latest_revision": 6,
+            "key": "/books/OL24201789M",
+            "authors": [
+                {
+                    "key": "/authors/OL194979A"
+                }
+            ],
+            "ocaid": "bittersweethoney00lewt",
+            "publish_places": [
+                "Toronto",
+                "New York"
+            ],
+            "isbn_13": [
+                "9780373029853"
+            ],
+            "pagination": "188 p. ;",
+            "source_records": [
+                "ia:bittersweethoney00lewt"
+            ],
+            "title": "Bittersweet honeymoon",
+            "lccn": [
+                "2007577793"
+            ],
+            "number_of_pages": 188,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-05-05T05:21:38.294100"
+            },
+            "edition_name": "Harlequin Romance 1st ed.",
+            "isbn_10": [
+                "0373029853"
+            ],
+            "publish_date": "1989",
+            "publish_country": "onc",
+            "by_statement": "Marjorie Lewty.",
+            "oclc_numbers": [
+                "19805940"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL11327404W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 6
+        },
+        "/books/OL38344716M": {
+            "title": "Ami d'Enfance",
+            "authors": [
+                {
+                    "key": "/authors/OL7575681A"
+                }
+            ],
+            "publish_date": "2000",
+            "type": {
+                "key": "/type/edition"
+            },
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9780373348756",
+                "ia:amidenfance0000patr",
+                "promise:bwb_daily_pallets_2022-08-13"
+            ],
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "full_title": "Ami d'Enfance",
+            "key": "/books/OL38344716M",
+            "works": [
+                {
+                    "key": "/works/OL8315345W"
+                }
+            ],
+            "identifiers": {
+                "bibliothèque_nationale_de_france": [
+                    "cb371981028"
+                ]
+            },
+            "ocaid": "amidenfance0000patr",
+            "isbn_13": [
+                "9780373348756"
+            ],
+            "classifications": {},
+            "translation_of": "Courting trouble",
+            "translated_from": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_places": [
+                "Paris, France"
+            ],
+            "series": [
+                "Collection Azur"
+            ],
+            "local_id": [
+                "urn:bwbsku:O8-ADW-109"
+            ],
+            "covers": [
+                13101561
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-18T05:08:33.613896"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-14T23:27:05.366754"
+            }
+        },
+        "/books/OL28950568M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263801750"
+            ],
+            "title": "Courting Trouble",
+            "number_of_pages": 186,
+            "isbn_13": [
+                "9780263801750"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Courting Trouble",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "1997",
+            "key": "/books/OL28950568M",
+            "authors": [
+                {
+                    "key": "/authors/OL7575681A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL8315345W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T04:30:23.140866"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-03T14:20:48.636184"
+            }
+        },
+        "/books/OL29256929M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781474015578"
+            ],
+            "title": "Spanish Honeymoon",
+            "number_of_pages": 256,
+            "isbn_13": [
+                "9781474015578"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Spanish Honeymoon",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2014",
+            "key": "/books/OL29256929M",
+            "authors": [
+                {
+                    "key": "/authors/OL659964A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3754780W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-23T22:53:01.062671"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-15T23:35:58.099650"
+            }
+        },
+        "/books/OL10282611M": {
+            "publishers": [
+                "Harlequin Mills & Boon"
+            ],
+            "number_of_pages": 186,
+            "series": [
+                "Tender Romance"
+            ],
+            "covers": [
+                2343771,
+                152947
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL10282611M",
+            "authors": [
+                {
+                    "key": "/authors/OL659964A"
+                }
+            ],
+            "subjects": [
+                "Romance",
+                "Genre Fiction"
+            ],
+            "edition_name": "New edition",
+            "classifications": {},
+            "source_records": [
+                "bwb:9780263829952",
+                "ia:spanishhoneymoon0000weal",
+                "promise:bwb_daily_pallets_2021-06-17"
+            ],
+            "title": "A Spanish Honeymoon",
+            "identifiers": {
+                "goodreads": [
+                    "3201968"
+                ]
+            },
+            "publish_date": "March 1, 2002",
+            "works": [
+                {
+                    "key": "/works/OL3754780W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "spanishhoneymoon0000weal",
+            "isbn_10": [
+                "0263829952"
+            ],
+            "isbn_13": [
+                "9780263829952"
+            ],
+            "oclc_numbers": [
+                "59376906"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "local_id": [
+                "urn:bwbsku:KP-589-625"
+            ],
+            "latest_revision": 13,
+            "revision": 13,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-15T23:35:58.099650"
+            }
+        },
+        "/books/OL10241865M": {
+            "publishers": [
+                "Ulverscroft Large Print"
+            ],
+            "weight": "13.3 ounces",
+            "edition_name": "Large Print Ed edition",
+            "physical_format": "Hardcover",
+            "key": "/books/OL10241865M",
+            "authors": [
+                {
+                    "key": "/authors/OL659964A"
+                }
+            ],
+            "subjects": [
+                "Romance",
+                "Romance - General",
+                "Fiction - Romance"
+            ],
+            "isbn_13": [
+                "9780263173437"
+            ],
+            "source_records": [
+                "bwb:9780263173437",
+                "ia:spanishhoneymoon0000weal_f8e1",
+                "promise:bwb_daily_pallets_2022-03-17"
+            ],
+            "title": "A Spanish Honeymoon",
+            "number_of_pages": 288,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263173437"
+            ],
+            "publish_date": "August 2002",
+            "works": [
+                {
+                    "key": "/works/OL3754780W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.5 x 5.6 x 1 inches",
+            "covers": [
+                12687462
+            ],
+            "ocaid": "spanishhoneymoon0000weal_f8e1",
+            "oclc_numbers": [
+                "59482629"
+            ],
+            "local_id": [
+                "urn:bwbsku:KQ-317-983"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-07T14:07:58.471310"
+            }
+        },
+        "/books/OL10692289M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "number_of_pages": 192,
+            "weight": "3.4 ounces",
+            "covers": [
+                5071720
+            ],
+            "physical_format": "Mass Market Paperback",
+            "key": "/books/OL10692289M",
+            "authors": [
+                {
+                    "key": "/authors/OL659964A"
+                }
+            ],
+            "subjects": [
+                "Romance - General",
+                "Fiction / Romance / Adult",
+                "Romance - Contemporary",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern"
+            ],
+            "isbn_13": [
+                "9780373037896"
+            ],
+            "classifications": {},
+            "source_records": [
+                "bwb:9780373037896",
+                "promise:bwb_daily_pallets_2022-03-17"
+            ],
+            "title": "A Spanish Honeymoon",
+            "notes": {
+                "type": "/type/text",
+                "value": "Harlequin Romance"
+            },
+            "identifiers": {
+                "goodreads": [
+                    "1969908"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373037899"
+            ],
+            "publish_date": "March 1, 2004",
+            "oclc_numbers": [
+                "54476010"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3754780W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.6 x 4.2 x 0.5 inches",
+            "local_id": [
+                "urn:bwbsku:P7-ETX-016"
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-07T12:12:34.810017"
+            }
+        },
+        "/books/OL38790033M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL3752315A"
+                }
+            ],
+            "isbn_13": [
+                "9781405954433"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2022",
+            "publishers": [
+                "Penguin Books, Limited"
+            ],
+            "source_records": [
+                "bwb:9781405954433"
+            ],
+            "title": "Mr Wrong Number",
+            "subtitle": "Tiktok Made Me Buy It!",
+            "full_title": "Mr Wrong Number Tiktok Made Me Buy It!",
+            "works": [
+                {
+                    "key": "/works/OL25920096W"
+                }
+            ],
+            "key": "/books/OL38790033M",
+            "latest_revision": 1,
+            "revision": 1,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-07-18T14:52:52.890394"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-18T14:52:52.890394"
+            }
+        },
+        "/books/OL10746542M": {
+            "publishers": [
+                "silhouette",
+                "Silhouette"
+            ],
+            "physical_format": "Paperback",
+            "title": "Friends Lovers",
+            "identifiers": {
+                "librarything": [
+                    "78214"
+                ]
+            },
+            "isbn_13": [
+                "9780373462957"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373462956"
+            ],
+            "publish_date": "February 1, 1983",
+            "key": "/books/OL10746542M",
+            "works": [
+                {
+                    "key": "/works/OL1902282W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Non-Classifiable"
+            ],
+            "source_records": [
+                "amazon:0373462956"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-03T12:53:58.379177"
+            }
+        },
+        "/books/OL29264457M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781474029834"
+            ],
+            "title": "Forbidden Surrender",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781474029834"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Forbidden Surrender",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2015",
+            "key": "/books/OL29264457M",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3775425W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, erotica"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-24T00:42:39.944441"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-29T03:01:31.217232"
+            }
+        },
+        "/books/OL26897656M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "30901108"
+                ]
+            },
+            "covers": [
+                8575330
+            ],
+            "edition_name": "Mills & Boon #1962",
+            "physical_format": "Paperback",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-03-01T05:24:04.536667"
+            },
+            "latest_revision": 4,
+            "key": "/books/OL26897656M",
+            "publish_places": [
+                "UK"
+            ],
+            "isbn_13": [
+                "9780263739183"
+            ],
+            "classifications": {},
+            "title": "Forbidden Surrender",
+            "number_of_pages": 192,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-05-18T16:12:06.602642"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "026373918X"
+            ],
+            "publish_date": "September 1982",
+            "copyright_date": "July 1982",
+            "works": [
+                {
+                    "key": "/works/OL3775425W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 4
+        },
+        "/books/OL14981587M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "number_of_pages": 192,
+            "covers": [
+                9285550,
+                9285441
+            ],
+            "physical_format": "Paperback",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T22:33:37.065315"
+            },
+            "latest_revision": 7,
+            "key": "/books/OL14981587M",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "publish_places": [
+                "UK"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "edition_name": "Mills & Boon Best Seller Reissue #615",
+            "pagination": "sC8.192. n.e.",
+            "classifications": {},
+            "source_records": [
+                "bwb:9780263762082"
+            ],
+            "title": "Forbidden Surrender",
+            "identifiers": {},
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T23:30:05.710354"
+            },
+            "isbn_13": [
+                "9780263762082"
+            ],
+            "isbn_10": [
+                "0263762084"
+            ],
+            "publish_date": "October 1988",
+            "publish_country": "xxk",
+            "copyright_date": "July 1982 Mills & Boon",
+            "works": [
+                {
+                    "key": "/works/OL3775425W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 7
+        },
+        "/books/OL24416632M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "ia_box_id": [
+                "IA125406"
+            ],
+            "series": [
+                "Harlequin presents extra -- 99",
+                "Ruthless tycoons",
+                "Harlequin presents extra -- 99.",
+                "Ruthless tycoons"
+            ],
+            "covers": [
+                6949015
+            ],
+            "ia_loaded_id": [
+                "takenbypiratetyc00clai"
+            ],
+            "lc_classifications": [
+                "CPB Box no. 3082 vol. 10",
+                "CPB"
+            ],
+            "key": "/books/OL24416632M",
+            "authors": [
+                {
+                    "key": "/authors/OL81447A"
+                }
+            ],
+            "ocaid": "takenbypiratetyc00clai",
+            "publish_places": [
+                "Toronto",
+                "New York"
+            ],
+            "contributions": [
+                "Copyright Paperback Collection (Library of Congress)"
+            ],
+            "isbn_13": [
+                "9780373527632"
+            ],
+            "pagination": "184, [2] p. ;",
+            "source_records": [
+                "marc:marc_loc_updates/v38.i34.records.utf8:23510947:936",
+                "ia:takenbypiratetyc00clai",
+                "bwb:9780373527632",
+                "marc:marc_loc_2016/BooksAll.2016.part38.utf8:46677854:936",
+                "promise:bwb_daily_pallets_2021-03-22"
+            ],
+            "title": "Taken by the pirate tycoon",
+            "lccn": [
+                "2010479323"
+            ],
+            "number_of_pages": 184,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373527632"
+            ],
+            "publish_date": "2010",
+            "publish_country": "onc",
+            "copyright_date": "2009",
+            "by_statement": "Daphne Clair",
+            "oclc_numbers": [
+                "460051998"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL15449069W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:O7-CZM-221"
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-11-09T15:02:47.079403"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-08T18:06:18.796987"
+            }
+        },
+        "/books/OL9338318M": {
+            "title": "Terms of Surrender",
+            "publish_date": "April 1992",
+            "publishers": [
+                "Pocket Books"
+            ],
+            "physical_format": "Mass Market Paperback",
+            "isbn_13": [
+                "9785554629723"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "5554629725"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Romance - General",
+                "Fiction - Romance"
+            ],
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "The state highway started its scenic curve around the Ski Basin, its waters calm and reflecting the blue of a Texas sky."
+            },
+            "source_records": [
+                "amazon:5554629725"
+            ],
+            "key": "/books/OL9338318M",
+            "works": [
+                {
+                    "key": "/works/OL14862505W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-17T04:03:16.118044"
+            }
+        },
+        "/books/OL7648554M": {
+            "identifiers": {
+                "goodreads": [
+                    "2776883"
+                ],
+                "librarything": [
+                    "1921814"
+                ]
+            },
+            "title": "Terms of Surrender (Silhouette Special Edition)",
+            "authors": [
+                {
+                    "key": "/authors/OL21059A"
+                }
+            ],
+            "publish_date": "1982",
+            "publishers": [
+                "SILHOUETTE BOOKS"
+            ],
+            "physical_format": "Paperback",
+            "isbn_13": [
+                "9780671476991"
+            ],
+            "edition_name": "1st edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0671476998"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:0671476998"
+            ],
+            "key": "/books/OL7648554M",
+            "works": [
+                {
+                    "key": "/works/OL14862505W"
+                }
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-05-23T05:20:28.759480"
+            }
+        },
+        "/books/OL7663712M": {
+            "publishers": [
+                "Pocket"
+            ],
+            "covers": [
+                9489168
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL7663712M",
+            "authors": [
+                {
+                    "key": "/authors/OL21059A"
+                }
+            ],
+            "ocaid": "termsofsurrender00jane_0",
+            "subjects": [
+                "Romance - General",
+                "Fiction / General",
+                "Fiction",
+                "Fiction - Romance"
+            ],
+            "edition_name": "Reissue edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "The state highway started its scenic curve around the Ski Basin, its waters calm and reflecting the blue of a Texas sky."
+            },
+            "title": "Terms of Surrender",
+            "identifiers": {
+                "librarything": [
+                    "1921814"
+                ]
+            },
+            "isbn_13": [
+                "9780671736521"
+            ],
+            "isbn_10": [
+                "0671736523"
+            ],
+            "publish_date": "November 15, 1990",
+            "works": [
+                {
+                    "key": "/works/OL14862505W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.7 x 4.2 x 0.8 inches",
+            "local_id": [
+                "urn:bwbsku:101-BAC-576"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-03-08",
+                "amazon:0671736523"
+            ],
+            "number_of_pages": 252,
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-03-17T14:06:47.251163"
+            }
+        },
+        "/books/OL33337207M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "2007",
+            "publish_country": "onc",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL227751A"
+                }
+            ],
+            "oclc_numbers": [
+                "159958292"
+            ],
+            "lc_classifications": [
+                "PS3566.A513 L396 2007b"
+            ],
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "edition_name": "Doubleday large print home library ed.",
+            "description": {
+                "type": "/type/text",
+                "value": "Purchasing a ranch in Jacobsville, Texas, FBI agent Garon Grier plans to put his tragic marriage behind him while working on the case of a child predator who recently escaped from prison, until he encounters Grace Carver, the only child to escape alive from the deadly convict."
+            },
+            "subjects": [
+                "Government investigators",
+                "Fiction",
+                "Ranch life"
+            ],
+            "subject_places": [
+                "Texas"
+            ],
+            "title": "Lawman",
+            "by_statement": "Diana Palmer",
+            "publishers": [
+                "HQN"
+            ],
+            "publish_places": [
+                "Don Mills, Ont"
+            ],
+            "isbn_13": [
+                "9780739484661"
+            ],
+            "isbn_10": [
+                "0739484664"
+            ],
+            "pagination": "410 pages (large print)",
+            "number_of_pages": 410,
+            "ocaid": "lawman0000palm_q8a7",
+            "source_records": [
+                "ia:lawman0000palm_q8a7"
+            ],
+            "full_title": "Lawman",
+            "covers": [
+                11961122
+            ],
+            "works": [
+                {
+                    "key": "/works/OL1902314W"
+                }
+            ],
+            "key": "/books/OL33337207M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-09-15T05:49:18.891376"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-04T07:42:13.405795"
+            }
+        },
+        "/books/OL29657272M": {
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "source_records": [
+                "bwb:9781459246959"
+            ],
+            "title": "Lawman",
+            "number_of_pages": 384,
+            "isbn_13": [
+                "9781459246959"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Lawman",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2012",
+            "key": "/books/OL29657272M",
+            "authors": [
+                {
+                    "key": "/authors/OL227751A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL1902314W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-29T12:14:22.212716"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-04T07:42:13.405795"
+            }
+        },
+        "/books/OL29568663M": {
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "source_records": [
+                "bwb:9781426801822"
+            ],
+            "title": "Lawman",
+            "number_of_pages": 384,
+            "isbn_13": [
+                "9781426801822"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Lawman",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2007",
+            "key": "/books/OL29568663M",
+            "authors": [
+                {
+                    "key": "/authors/OL227751A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL1902314W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-28T03:59:22.963713"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-04T07:42:13.405795"
+            }
+        },
+        "/books/OL9576943M": {
+            "identifiers": {
+                "goodreads": [
+                    "6996390"
+                ]
+            },
+            "title": "Lawman",
+            "publish_date": "August 1, 2007",
+            "publishers": [
+                "Tantor Media"
+            ],
+            "weight": "10.4 ounces",
+            "covers": [
+                1726707
+            ],
+            "physical_format": "Audio CD",
+            "contributions": [
+                "Todd McLaren (Narrator)"
+            ],
+            "subjects": [
+                "Fiction",
+                "Unabridged Audio - Fiction/Romance",
+                "Romance: Modern",
+                "Romance - Contemporary",
+                "Fiction / Romance / Contemporary",
+                "Unabridged Audio / Fiction/Romance",
+                "Romance - General",
+                "Suspense",
+                "Audiobooks"
+            ],
+            "edition_name": "Unabridged edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_13": [
+                "9781400134953"
+            ],
+            "isbn_10": [
+                "1400134951"
+            ],
+            "oclc_numbers": [
+                "154769274"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.8 x 6.3 x 1 inches",
+            "source_records": [
+                "amazon:1400134951"
+            ],
+            "key": "/books/OL9576943M",
+            "works": [
+                {
+                    "key": "/works/OL1902314W"
+                }
+            ],
+            "latest_revision": 13,
+            "revision": 13,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-12T07:29:56.165732"
+            }
+        },
+        "/books/OL24294594M": {
+            "publishers": [
+                "HQN"
+            ],
+            "covers": [
+                9989981
+            ],
+            "physical_format": "eBook",
+            "key": "/books/OL24294594M",
+            "publish_places": [
+                "Toronto, Ontario"
+            ],
+            "isbn_13": [
+                "9781426816161"
+            ],
+            "classifications": {},
+            "source_records": [
+                "marc_overdrive/InternetArchiveCrMarc-2010-06-11n.mrc:6402171:1999",
+                "ia:lawman00palm_904",
+                "bwb:9781426816161"
+            ],
+            "title": "Lawman",
+            "identifiers": {
+                "overdrive": [
+                    "84ED8088-ECF5-46D9-B469-B90870820BFE"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2008",
+            "publish_country": "nyu",
+            "works": [
+                {
+                    "key": "/works/OL1902314W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-06-23T02:58:16.686491"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-04T07:42:13.405795"
+            }
+        },
+        "/books/OL9658265M": {
+            "identifiers": {
+                "goodreads": [
+                    "6996389"
+                ]
+            },
+            "title": "Lawman",
+            "publish_date": "August 1, 2007",
+            "publishers": [
+                "Tantor Media"
+            ],
+            "weight": "2.4 ounces",
+            "covers": [
+                1727150
+            ],
+            "physical_format": "MP3 CD",
+            "contributions": [
+                "Todd McLaren (Narrator)"
+            ],
+            "subjects": [
+                "Fiction",
+                "Unabridged Audio - Fiction/Romance",
+                "Romance: Modern",
+                "Romance - Contemporary",
+                "Fiction / Romance / Contemporary",
+                "Unabridged Audio / Fiction/Romance",
+                "Romance - General",
+                "Suspense",
+                "Audiobooks"
+            ],
+            "edition_name": "MP3 Una edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_13": [
+                "9781400154951"
+            ],
+            "isbn_10": [
+                "1400154952"
+            ],
+            "oclc_numbers": [
+                "166256499"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "7.5 x 5.4 x 0.6 inches",
+            "source_records": [
+                "amazon:1400154952"
+            ],
+            "key": "/books/OL9658265M",
+            "works": [
+                {
+                    "key": "/works/OL1902314W"
+                }
+            ],
+            "latest_revision": 13,
+            "revision": 13,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-04-15T13:05:03.535889"
+            }
+        },
+        "/books/OL29107006M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "subtitle": "His Perfect Wife",
+            "source_records": [
+                "bwb:9781408903377"
+            ],
+            "title": "Purchased",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781408903377"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Purchased His Perfect Wife",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2008",
+            "key": "/books/OL29107006M",
+            "authors": [
+                {
+                    "key": "/authors/OL3292941A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3498590W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-22T04:06:51.960164"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-17T22:54:34.379141"
+            }
+        },
+        "/books/OL24259786M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "covers": [
+                6407850
+            ],
+            "physical_format": "Electronic resource",
+            "key": "/books/OL24259786M",
+            "authors": [
+                {
+                    "key": "/authors/OL3292941A"
+                }
+            ],
+            "publish_places": [
+                "Toronto, Ontario"
+            ],
+            "isbn_13": [
+                "9781426822704"
+            ],
+            "source_records": [
+                "marc_overdrive/InternetArchiveCrMarc-2010-06-11i.mrc:7037442:1894",
+                "bwb:9781426822704"
+            ],
+            "title": "Purchased: His Perfect Wife",
+            "identifiers": {
+                "overdrive": [
+                    "E38BE74B-F6B1-423A-A73C-76D3D90CEDD4"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2008",
+            "publish_country": "nyu",
+            "oclc_numbers": [
+                "436296100"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3498590W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-06-17T19:57:23.648908"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-10-23T07:07:57.609059"
+            }
+        },
+        "/books/OL35723848M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Por lugares incríveis",
+            "authors": [
+                {
+                    "key": "/authors/OL9958049A"
+                }
+            ],
+            "publish_date": "Jan 01, 2014",
+            "source_records": [
+                "amazon:8565765571"
+            ],
+            "publishers": [
+                "Seguinte"
+            ],
+            "physical_format": "paperback",
+            "notes": "Source title: Por Lugares Incriveis (Em Portugues do Brasil)",
+            "covers": [
+                12460368,
+                -1
+            ],
+            "works": [
+                {
+                    "key": "/works/OL17323489W"
+                }
+            ],
+            "key": "/books/OL35723848M",
+            "identifiers": {},
+            "isbn_10": [
+                "8565765571"
+            ],
+            "isbn_13": [
+                "9788565765572"
+            ],
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/por"
+                }
+            ],
+            "contributors": [
+                {
+                    "role": "Translator",
+                    "name": "Alexandra Esteche"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-12-22T17:13:57.718562"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-02T03:40:06.960303"
+            }
+        }
+    }
+}

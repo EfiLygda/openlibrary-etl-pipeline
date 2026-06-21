@@ -1,0 +1,4830 @@
+{
+    "status": "ok",
+    "result": {
+        "/books/OL46473416M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798353003502"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "233",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798353003502"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.682",
+            "full_title": "Pride and Prejudice",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL46473416M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-01-18T06:01:32.616609"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:44.833007"
+            }
+        },
+        "/books/OL46473900M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798358258648"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "245",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798358258648"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.718",
+            "full_title": "Pride and Prejudice",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL46473900M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-01-18T06:03:35.807381"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:44.833007"
+            }
+        },
+        "/books/OL43321615M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "1813",
+            "publish_country": "enk",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lccn": [
+                "00007087"
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "oclc_numbers": [
+                "38659585"
+            ],
+            "lc_classifications": [
+                "PZ3.A93",
+                "PR4034 .P7 1813"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Jane Austen is the author of Sense and sensibility.\n\nVol. 2-3 have printer's statement: Strand [London] : G. Sidney.\n\nRare Book copy 1: Full calf binding by Riviere and Son, gilt decorations; spines of original boards pasted onto sheets and bound in at end of each volume.\n\nRare Book copy 1: From the library of Hansard Watt, with his bookplates.\n\nRare Book copy 2: Contemporary half calf binding.\n\nKeynes, G. Jane Austen, 3\n\nGift; Mr. & Mrs. Alfred C. & Madeleine Berol.\n\nGift of Alene Bricken, April 4, 2001"
+            },
+            "contributions": [
+                "Egerton, Thomas (Bookseller), bookseller",
+                "Roworth, Charles, active 1799-1869, printer",
+                "Sidney, George, active 1805-1825, printer",
+                "Riviere & Son"
+            ],
+            "subject_times": [
+                "19th century"
+            ],
+            "subjects": [
+                "Young women",
+                "Fiction",
+                "Courtship",
+                "Social life and customs",
+                "Manners and customs"
+            ],
+            "subject_places": [
+                "England"
+            ],
+            "title": "Pride and prejudice",
+            "subtitle": "a novel : in three volumes",
+            "by_statement": "by the author of \"Sense and sensibility.\"",
+            "publishers": [
+                "Printed for T. Egerton, Military Library, Whitehall"
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "3 v. ([4], 307, [1]; [4], 239, [1]; [4], 323, [1] p.)",
+            "number_of_pages": 323,
+            "source_records": [
+                "marc:marc_columbia/Columbia-extract-20221130-001.mrc:121233762:3176",
+                "marc:harvard_bibliographic_metadata/20220215_014.bib.mrc:286949320:3005"
+            ],
+            "full_title": "Pride and prejudice a novel : in three volumes",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL43321615M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-08T07:14:44.906935"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-22T21:47:56.396345"
+            }
+        },
+        "/books/OL43856566M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "1959",
+            "publish_country": "enk",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "oclc_numbers": [
+                "1287092577"
+            ],
+            "edition_name": "Third edition",
+            "series": [
+                "The novels of Jane Austen / the text based on collation of the early editions by R.W. Chapman. Third edition -- volume II"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "\"Third edition 1932. Reprinted 1940, 1944, 1946, 1949, 1952, and 1959.\"\n\nWith reproductions of the title pages of each of the three volumes of the first edition published by T. Egerton in 1813\n\nRare Book copy: In original dust jacket.\n\nGift; James G. Nelson; 2016."
+            },
+            "table_of_contents": [
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "Introductory note",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "Pride and prejudice",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "Notes",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "Notes on the illustrations",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "Appendixes. Chronology of Pride and prejudice ; Pride and prejudice and Cecilia ; Modes of address",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "Index of characters, etc.",
+                    "pagenum": ""
+                }
+            ],
+            "contributions": [
+                "Chapman, R. W. (Robert William), 1881-1960, editor",
+                "Ridler, Vivian, printer",
+                "Oxford University Press",
+                "James G. Nelson Library (Columbia University. Libraries)"
+            ],
+            "subject_times": [
+                "19th century"
+            ],
+            "subject_people": [
+                "Elizabeth Bennet (Fictitious character)",
+                "Fitzwilliam Darcy (Fictitious character)"
+            ],
+            "subjects": [
+                "Fiction",
+                "Social classes",
+                "Young women",
+                "Courtship",
+                "Sisters",
+                "Social life and customs",
+                "Manners and customs"
+            ],
+            "subject_places": [
+                "England"
+            ],
+            "title": "Pride and prejudice",
+            "publishers": [
+                "Oxford University Press"
+            ],
+            "publish_places": [
+                "London",
+                "New York",
+                "Toronto"
+            ],
+            "pagination": "xiii pages, 1 unnumbered page, 415 pages, 8 unnumbered leaves of plates",
+            "number_of_pages": 415,
+            "source_records": [
+                "marc:marc_columbia/Columbia-extract-20221130-032.mrc:137353053:3238"
+            ],
+            "full_title": "Pride and prejudice",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL43856566M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-12T08:56:48.389965"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:44.833007"
+            }
+        },
+        "/books/OL43878624M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "1848",
+            "publish_country": "mau",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "series": [
+                "Women's Studies Archive: Rare Titles from the American Antiquarian Society, 1820-1922",
+                "Women's Studies Archive: Rare Titles from the American Antiquarian Society, 1820-1922"
+            ],
+            "links": [
+                {
+                    "url": "http://www.columbia.edu/cgi-bin/cul/resolve?clio15894297",
+                    "title": "Gale, Women's Studies Archive: Rare Titles from the American Antiquarian Society, 1820-1922"
+                }
+            ],
+            "subjects": [
+                "Social classes",
+                "Fiction",
+                "Young women",
+                "Courtship",
+                "Sisters"
+            ],
+            "title": "Pride and prejudice",
+            "subtitle": "a novel",
+            "by_statement": "by Miss Austen ; a biographical notice of the author",
+            "publishers": [
+                "Wilkins, Carter & Co."
+            ],
+            "publish_places": [
+                "Boston"
+            ],
+            "pagination": "1 online resource (326 pages).",
+            "number_of_pages": 326,
+            "source_records": [
+                "marc:marc_columbia/Columbia-extract-20221130-032.mrc:198353704:1194"
+            ],
+            "full_title": "Pride and prejudice a novel",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL43878624M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-12T13:04:34.074213"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:44.833007"
+            }
+        },
+        "/books/OL43356417M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_10": [
+                "1544769202"
+            ],
+            "isbn_13": [
+                "9781544769202"
+            ],
+            "local_id": [
+                "urn:bwbsku:O7-DHV-696"
+            ],
+            "publish_date": "2017-03-18",
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-05-14",
+                "amazon:1544769202",
+                "bwb:9781544769202"
+            ],
+            "title": "Pride and Prejudice",
+            "subtitle": "Large Print",
+            "full_title": "Pride and Prejudice Large Print",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL43356417M",
+            "covers": [
+                13630145
+            ],
+            "number_of_pages": 564,
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-08T11:54:09.107941"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-09-24T16:26:12.207861"
+            }
+        },
+        "/books/OL43380197M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B08KMB7XVR"
+                ]
+            },
+            "isbn_13": [
+                "9798692280657"
+            ],
+            "local_id": [
+                "urn:bwbsku:KP-523-832"
+            ],
+            "publish_date": "2020-10-06",
+            "publishers": [
+                "Independently published"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-04-07"
+            ],
+            "title": "Pride and Prejudice",
+            "full_title": "Pride and Prejudice",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL43380197M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-08T15:10:46.570773"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:44.833007"
+            }
+        },
+        "/books/OL42080379M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798563723641"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "415",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798563723641"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.700",
+            "subtitle": "Comfortable Reading. - Large and Clear Print",
+            "full_title": "Pride and Prejudice Comfortable Reading. - Large and Clear Print",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42080379M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-29T21:20:13.738415"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:44.833007"
+            }
+        },
+        "/books/OL42107475M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                },
+                {
+                    "key": "/authors/OL10464903A"
+                }
+            ],
+            "isbn_13": [
+                "9798691540004"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "300",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798691540004"
+            ],
+            "title": "PRIDE and PREJUDICE",
+            "weight": "0.395",
+            "subtitle": "the Darcy Viewpoint",
+            "full_title": "PRIDE and PREJUDICE the Darcy Viewpoint",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42107475M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-30T02:07:27.857781"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:44.833007"
+            }
+        },
+        "/books/OL41199180M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9781099434921"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "224",
+            "publish_date": "2019",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9781099434921"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.532",
+            "subtitle": "Large Print",
+            "full_title": "Pride and Prejudice Large Print",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL41199180M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-24T01:15:32.763054"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:44.833007"
+            }
+        },
+        "/books/OL40912570M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9781522085416"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "363",
+            "publish_date": "2017",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9781522085416"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.618",
+            "subtitle": "Classic Premium",
+            "full_title": "Pride and Prejudice Classic Premium",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL40912570M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-22T02:46:07.832777"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:44.833007"
+            }
+        },
+        "/books/OL40544667M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9781980426936"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "265",
+            "publish_date": "2018",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9781980426936"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.605",
+            "subtitle": "Large Print",
+            "full_title": "Pride and Prejudice Large Print",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL40544667M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-19T17:19:46.218421"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-16T09:06:36.907170"
+            }
+        },
+        "/books/OL40557374M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL10885673A"
+                },
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9781792025723"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "493",
+            "publish_date": "2018",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9781792025723"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.823",
+            "full_title": "Pride and Prejudice",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL40557374M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-19T19:24:37.077550"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-16T09:06:34.670880"
+            }
+        },
+        "/books/OL40576359M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL10867800A"
+                },
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9781520942131"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "178",
+            "publish_date": "2017",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9781520942131"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.327",
+            "subtitle": "Illustrations by Adam Eve",
+            "full_title": "Pride and Prejudice Illustrations by Adam Eve",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL40576359M",
+            "contributors": [
+                {
+                    "role": "Illustrator",
+                    "name": "Adam EVE"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-19T22:21:22.769277"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-16T02:10:17.370700"
+            }
+        },
+        "/books/OL45686793M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_10": [
+                "074268279X"
+            ],
+            "isbn_13": [
+                "9780742682795"
+            ],
+            "local_id": [
+                "urn:bwbsku:UJ-893-408"
+            ],
+            "publish_date": "2007-11-05",
+            "publishers": [
+                "Classic Books"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-05-23"
+            ],
+            "title": "Pride and Prejudice",
+            "full_title": "Pride and Prejudice",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL45686793M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-01-14T06:41:51.878140"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL45747556M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B009Z325XI"
+                ],
+                "better_world_books": [
+                    "BWB26892225"
+                ],
+                "goodreads": [
+                    "60505130"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:KH-800-591"
+            ],
+            "publish_date": "2003",
+            "publishers": [
+                "Planet Three Publishing Network"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-03-17",
+                "ia:prideprejudice0000jane_b7y2"
+            ],
+            "title": "Pride and Prejudice",
+            "full_title": "Pride and Prejudice",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL45747556M",
+            "ocaid": "prideprejudice0000jane_b7y2",
+            "oclc_numbers": [
+                "1156426663"
+            ],
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "copyright_date": "2003",
+            "physical_format": "Hardcover",
+            "publish_places": [
+                "London"
+            ],
+            "number_of_pages": 284,
+            "pagination": "284p.",
+            "covers": [
+                13148516
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-01-14T12:24:47.362678"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-05-10T12:21:46.755188"
+            }
+        },
+        "/books/OL44268158M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                },
+                {
+                    "key": "/authors/OL8083163A"
+                }
+            ],
+            "isbn_13": [
+                "9781524701123"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "80",
+            "publish_date": "2016",
+            "publishers": [
+                "Random House Children's Books",
+                "Doubleday Books for Young Readers"
+            ],
+            "source_records": [
+                "bwb:9781524701123",
+                "amazon:1524701122"
+            ],
+            "subjects": [
+                "Coloring books"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.528",
+            "subtitle": "a Coloring Classic",
+            "full_title": "Pride and Prejudice a Coloring Classic",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL44268158M",
+            "covers": [
+                13853607
+            ],
+            "number_of_pages": 80,
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-17T20:50:02.452320"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-04-07T13:44:12.598671"
+            }
+        },
+        "/books/OL44308854M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798466181180"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "438",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798466181180"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.641",
+            "full_title": "Pride and Prejudice",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL44308854M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-17T23:16:04.479711"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL42775384M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798357144164"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "297",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798357144164"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.859",
+            "full_title": "Pride and Prejudice",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42775384M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-03T13:36:08.887227"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL42934720M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B0006AL47M"
+                ],
+                "better_world_books": [
+                    "BWB19479331"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:O8-CLE-895"
+            ],
+            "publish_date": "1930-01-01",
+            "publishers": [
+                "Frederick A. Stokes company"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-07-25"
+            ],
+            "title": "Pride and prejudice,",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42934720M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-04T22:10:44.975441"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL42197266M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798685541796"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "293",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798685541796"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.509",
+            "subtitle": "A Novel",
+            "full_title": "Pride and Prejudice A Novel",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42197266M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-30T17:19:06.290755"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL42303757M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL9612065A"
+                },
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9781674546940"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "374",
+            "publish_date": "2019",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9781674546940"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.636",
+            "full_title": "Pride and Prejudice",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42303757M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-01T10:05:02.020795"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL42346290M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9781656078490"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "280",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9781656078490"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.414",
+            "subtitle": "A Romantic Novel by Jane Austen Following the Emotional Development of a Young Woman",
+            "full_title": "Pride and Prejudice A Romantic Novel by Jane Austen Following the Emotional Development of a Young Woman",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42346290M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-01T16:44:00.994925"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL42391097M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798737368357"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "399",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798737368357"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.705",
+            "subtitle": "A Novel in Three Volumes",
+            "full_title": "Pride and Prejudice A Novel in Three Volumes",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42391097M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-02T00:16:41.779736"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL42493774M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798598485361"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "436",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798598485361"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.732",
+            "subtitle": "Jane Austen",
+            "full_title": "Pride and Prejudice Jane Austen",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42493774M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-02T13:36:49.002510"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL42524045M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL9645075A"
+                },
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798675208036"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "262",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798675208036"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.350",
+            "full_title": "Pride and Prejudice",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42524045M",
+            "contributors": [
+                {
+                    "role": "Translator",
+                    "name": "Leonardo Pablo Federico Sanchez Alonso"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-02T21:02:48.659875"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-20T02:34:09.441172"
+            }
+        },
+        "/books/OL42541965M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798598157343"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "289",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798598157343"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.723",
+            "subtitle": "By Jane Austen",
+            "full_title": "Pride and Prejudice By Jane Austen",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42541965M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-02T22:57:01.728392"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL42575183M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798547674341"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "372",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798547674341"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "1.059",
+            "full_title": "Pride and Prejudice",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42575183M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-03T01:01:14.027049"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL42610947M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798427280631"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "364",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798427280631"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.618",
+            "full_title": "Pride and Prejudice",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42610947M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-03T02:57:53.654239"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL42630575M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798786531719"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "283",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798786531719"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.491",
+            "full_title": "Pride and Prejudice",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42630575M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-03T04:08:55.287922"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL42661901M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798426678422"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "423",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798426678422"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.714",
+            "full_title": "Pride and Prejudice",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42661901M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-03T06:08:51.908965"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL42681993M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798411174267"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "264",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798411174267"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.459",
+            "full_title": "Pride and Prejudice",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42681993M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-03T07:27:27.691439"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL42156159M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798561770906"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "283",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798561770906"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.491",
+            "subtitle": "By Jane Austen",
+            "full_title": "Pride and Prejudice By Jane Austen",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42156159M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-30T10:10:44.399167"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL42165220M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798655271951"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "300",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798655271951"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.518",
+            "subtitle": "- Jane Austen",
+            "full_title": "Pride and Prejudice - Jane Austen",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42165220M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-30T11:55:19.803360"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL42174013M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL10481862A"
+                },
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798643838890"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "264",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798643838890"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.764",
+            "full_title": "Pride and Prejudice",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42174013M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-30T13:16:30.541852"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL42179851M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798690530679"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "437",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798690530679"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "1.068",
+            "subtitle": "Large Print",
+            "full_title": "Pride and Prejudice Large Print",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42179851M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-30T14:09:50.681303"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL42190893M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798649836708"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "300",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798649836708"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.518",
+            "subtitle": "New Edition - Jane Austen",
+            "full_title": "Pride and Prejudice New Edition - Jane Austen",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42190893M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-30T16:19:07.977305"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL41913777M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9781656078452"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "280",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9781656078452"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.414",
+            "subtitle": "A Romantic Novel by Jane Austen",
+            "full_title": "Pride and Prejudice A Romantic Novel by Jane Austen",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL41913777M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-28T18:51:08.288215"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL46498704M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798442539882"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "337",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798442539882"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.577",
+            "full_title": "Pride and Prejudice",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL46498704M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-01-18T07:30:56.647221"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:44.833007"
+            }
+        },
+        "/books/OL46518215M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798404596021"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "172",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798404596021"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.386",
+            "subtitle": "Square Sized Edition",
+            "full_title": "Pride and Prejudice Square Sized Edition",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL46518215M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-01-18T08:37:54.536861"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:44.833007"
+            }
+        },
+        "/books/OL42699722M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798351690070"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "442",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798351690070"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.741",
+            "full_title": "Pride and Prejudice",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42699722M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-03T08:30:28.799382"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:44.833007"
+            }
+        },
+        "/books/OL42708533M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798356962134"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "378",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798356962134"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.641",
+            "subtitle": "Finest Illustration",
+            "full_title": "Pride and Prejudice Finest Illustration",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42708533M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-03T09:16:44.608736"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:44.833007"
+            }
+        },
+        "/books/OL42088327M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798655271777"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "300",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798655271777"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.518",
+            "subtitle": "- Jane Austen",
+            "full_title": "Pride and Prejudice - Jane Austen",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42088327M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-29T22:54:25.731691"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:44.833007"
+            }
+        },
+        "/books/OL41206908M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9781074348090"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "154",
+            "publish_date": "2019",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9781074348090"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.159",
+            "full_title": "Pride and Prejudice",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL41206908M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-24T02:26:28.717549"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:44.833007"
+            }
+        },
+        "/books/OL41217847M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL2965654A"
+                },
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9781796808223"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "521",
+            "publish_date": "2019",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9781796808223"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "1.109",
+            "subtitle": "Annotation-Friendly Edition",
+            "full_title": "Pride and Prejudice Annotation-Friendly Edition",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL41217847M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-24T04:07:56.804098"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:44.833007"
+            }
+        },
+        "/books/OL41224933M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9781798808146"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "227",
+            "publish_date": "2019",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9781798808146"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.405",
+            "subtitle": "A Humorous and Emotional Romantic Novel by Jane Austen",
+            "full_title": "Pride and Prejudice A Humorous and Emotional Romantic Novel by Jane Austen",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL41224933M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-24T05:11:02.107339"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:44.833007"
+            }
+        },
+        "/books/OL40916134M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9781549906824"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "236",
+            "publish_date": "2017",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9781549906824"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.691",
+            "subtitle": "Includes New Illustrations and Biography",
+            "full_title": "Pride and Prejudice Includes New Illustrations and Biography",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL40916134M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-22T03:19:34.964275"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:44.833007"
+            }
+        },
+        "/books/OL40859725M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9781549731969"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "302",
+            "publish_date": "2017",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9781549731969"
+            ],
+            "title": "Pride and Prejudice : (Annotated)",
+            "weight": "0.868",
+            "full_title": "Pride and Prejudice : (Annotated)",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL40859725M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-21T17:55:58.698942"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-16T09:03:32.429975"
+            }
+        },
+        "/books/OL40550852M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL10868724A"
+                },
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9781720031796"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "164",
+            "publish_date": "2018",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9781720031796"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.491",
+            "full_title": "Pride and Prejudice",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL40550852M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-19T18:16:22.903165"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-16T09:06:40.116568"
+            }
+        },
+        "/books/OL40562934M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9781723769757"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "182",
+            "publish_date": "2018",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9781723769757"
+            ],
+            "title": "Pride & Prejudice",
+            "weight": "0.332",
+            "subtitle": "Novels. Woman 2",
+            "full_title": "Pride & Prejudice Novels. Woman 2",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL40562934M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-19T20:15:10.674210"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-16T09:06:39.401430"
+            }
+        },
+        "/books/OL40570614M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL9287008A"
+                },
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9781519063939"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "330",
+            "publish_date": "2016",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9781519063939"
+            ],
+            "title": "PRIDE and PREJUDICE",
+            "weight": "0.564",
+            "subtitle": "Illustrated Classics Vol. 40",
+            "full_title": "PRIDE and PREJUDICE Illustrated Classics Vol. 40",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL40570614M",
+            "contributors": [
+                {
+                    "role": "Illustrator",
+                    "name": "Charles E. Brock"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-19T21:30:15.541223"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-02-06T22:43:00.163975"
+            }
+        },
+        "/books/OL45656147M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_10": [
+                "1934911356"
+            ],
+            "isbn_13": [
+                "9781934911358"
+            ],
+            "local_id": [
+                "urn:bwbsku:O6-DHE-760"
+            ],
+            "publish_date": "2008-01-01",
+            "publishers": [
+                "Playmore"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-08-19"
+            ],
+            "title": "Pride and Prejudice",
+            "full_title": "Pride and Prejudice",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL45656147M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-01-14T03:54:01.105145"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL45800400M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B001VMIEQS"
+                ],
+                "better_world_books": [
+                    "BWB35108013"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:KM-442-048"
+            ],
+            "publish_date": "1940-01-01",
+            "publishers": [
+                "Pocket Books No. 63"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-06-17"
+            ],
+            "title": "Pride and Prejudice",
+            "full_title": "Pride and Prejudice",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL45800400M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-01-14T18:20:42.638404"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL44296606M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798360092476"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "245",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798360092476"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.718",
+            "full_title": "Pride and Prejudice",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL44296606M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-17T22:30:31.419771"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL44350432M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798357355607"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "304",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798357355607"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.873",
+            "full_title": "Pride and Prejudice",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL44350432M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-18T02:16:18.381884"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL43009975M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B002CITJKA"
+                ],
+                "better_world_books": [
+                    " "
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:O7-CFL-078"
+            ],
+            "publish_date": "1962-01-01",
+            "publishers": [
+                "Washington Square Press"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-03-17"
+            ],
+            "title": "Pride and Prejudice",
+            "full_title": "Pride and Prejudice",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL43009975M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-06T23:30:30.362756"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL42247748M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798576076703"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "405",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798576076703"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.686",
+            "subtitle": "Floral Cover, Large Print, Comfortable Reading",
+            "full_title": "Pride and Prejudice Floral Cover, Large Print, Comfortable Reading",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42247748M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-01T01:31:36.919863"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL42543187M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798468983546"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "453",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798468983546"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.600",
+            "full_title": "Pride and Prejudice",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42543187M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-02T23:00:59.133879"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL42572338M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798465295949"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "379",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798465295949"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "1.082",
+            "subtitle": "by Jane Austen",
+            "full_title": "Pride and Prejudice by Jane Austen",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42572338M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-03T00:52:52.215727"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL42594756M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798759006893"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "125",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798759006893"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.391",
+            "subtitle": "Collector's Edition - Jane Austen",
+            "full_title": "Pride and Prejudice Collector's Edition - Jane Austen",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42594756M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-03T02:04:32.952863"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL42656228M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798689881911"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "346",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798689881911"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.591",
+            "full_title": "Pride and Prejudice",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42656228M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-03T05:47:04.602284"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL42141395M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798655272002"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "300",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798655272002"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.518",
+            "subtitle": "- Jane Austen",
+            "full_title": "Pride and Prejudice - Jane Austen",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42141395M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-30T07:59:28.049306"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL42165383M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798655272088"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "300",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798655272088"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.518",
+            "subtitle": "- Jane Austen",
+            "full_title": "Pride and Prejudice - Jane Austen",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42165383M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-30T11:56:40.752149"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL42185457M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798611762257"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "362",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798611762257"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.614",
+            "subtitle": "by Jane Austen",
+            "full_title": "Pride and Prejudice by Jane Austen",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42185457M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-30T15:02:35.734932"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL41912998M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9781653136742"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "429",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9781653136742"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "1.218",
+            "subtitle": "Large Print",
+            "full_title": "Pride and Prejudice Large Print",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL41912998M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-28T18:43:49.019445"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL46521879M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798841022497"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "380",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798841022497"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.645",
+            "full_title": "Pride and Prejudice",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL46521879M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-01-18T08:50:31.311992"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:44.833007"
+            }
+        },
+        "/books/OL43725989M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "1890",
+            "publish_country": "nyu",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "oclc_numbers": [
+                "505724629"
+            ],
+            "series": [
+                "The Novels of Jane Austen in ten volumes -- v. 1-2"
+            ],
+            "title": "Pride and prejudice",
+            "by_statement": "a novel by Jane Austen ; with general introduction by R. Brimley Johnson",
+            "publishers": [
+                "Dial Press"
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "pagination": "2 volumes",
+            "source_records": [
+                "marc:marc_columbia/Columbia-extract-20221130-001.mrc:347735767:968"
+            ],
+            "full_title": "Pride and prejudice",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL43725989M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-10T16:16:39.339243"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:44.833007"
+            }
+        },
+        "/books/OL43306534M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B01NBTH5XY"
+                ],
+                "better_world_books": [
+                    " "
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:P7-CEE-027"
+            ],
+            "publish_date": "1963-01-01",
+            "publishers": [
+                "Washington Square Press, Inc."
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-07-13"
+            ],
+            "title": "Pride and Prejudice",
+            "full_title": "Pride and Prejudice",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL43306534M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-08T05:23:16.474596"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:44.833007"
+            }
+        },
+        "/books/OL42091624M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798633454857"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "264",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798633454857"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.764",
+            "subtitle": "Large Print",
+            "full_title": "Pride and Prejudice Large Print",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42091624M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-29T23:23:23.271309"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:44.833007"
+            }
+        },
+        "/books/OL42093499M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798681650911"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "633",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798681650911"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.786",
+            "subtitle": "The World in Between",
+            "full_title": "Pride and Prejudice The World in Between",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42093499M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-29T23:40:02.178596"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:44.833007"
+            }
+        },
+        "/books/OL42114670M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798655366022"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "300",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798655366022"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.518",
+            "subtitle": "- Jane Austen",
+            "full_title": "Pride and Prejudice - Jane Austen",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42114670M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-30T03:34:51.299298"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:44.833007"
+            }
+        },
+        "/books/OL42125006M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798632879736"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "276",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798632879736"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.800",
+            "subtitle": "Large Print",
+            "full_title": "Pride and Prejudice Large Print",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42125006M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-30T05:03:43.266200"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:44.833007"
+            }
+        },
+        "/books/OL41207014M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9781074485542"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "316",
+            "publish_date": "2019",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9781074485542"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.736",
+            "subtitle": "Large Print",
+            "full_title": "Pride and Prejudice Large Print",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL41207014M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-24T02:27:25.370410"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:44.833007"
+            }
+        },
+        "/books/OL40854548M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9781521583067"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "364",
+            "publish_date": "2017",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9781521583067"
+            ],
+            "title": "Pride and Prejudice(Annotated)",
+            "weight": "0.618",
+            "full_title": "Pride and Prejudice(Annotated)",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL40854548M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-21T17:04:56.443739"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-16T09:03:37.462067"
+            }
+        },
+        "/books/OL40553219M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9781720291541"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "402",
+            "publish_date": "2018",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9781720291541"
+            ],
+            "title": "PRIDE and PREJUDICE",
+            "weight": "1.177",
+            "full_title": "PRIDE and PREJUDICE",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL40553219M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-19T18:40:46.214762"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-16T09:06:47.522366"
+            }
+        },
+        "/books/OL40583676M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                },
+                {
+                    "key": "/authors/OL9287008A"
+                }
+            ],
+            "isbn_13": [
+                "9781521900062"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "346",
+            "publish_date": "2017",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9781521900062"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.591",
+            "subtitle": "Illustrated by Charles E. Brock",
+            "full_title": "Pride and Prejudice Illustrated by Charles E. Brock",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL40583676M",
+            "contributors": [
+                {
+                    "role": "Illustrator",
+                    "name": "Charles E. Brock"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-19T23:23:52.656334"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-02-06T22:43:04.107856"
+            }
+        },
+        "/books/OL45823015M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B000L2E454"
+                ],
+                "better_world_books": [
+                    "BWB37717045"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:KM-492-167"
+            ],
+            "publish_date": "1968-01-01",
+            "publishers": [
+                "Minster Classics"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-04-15"
+            ],
+            "title": "Pride and Prejudice.",
+            "full_title": "Pride and Prejudice.",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL45823015M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-01-14T22:01:23.528631"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL44283909M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                },
+                {
+                    "key": "/authors/OL7687601A"
+                }
+            ],
+            "isbn_13": [
+                "9781939689061"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2022",
+            "publishers": [
+                "Anno Domini"
+            ],
+            "source_records": [
+                "bwb:9781939689061"
+            ],
+            "subjects": [
+                "Fiction, historical, general"
+            ],
+            "title": "Pride and Prejudice",
+            "full_title": "Pride and Prejudice",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL44283909M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-17T21:47:27.481531"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL44345792M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798363391873"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "326",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798363391873"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.559",
+            "subtitle": "Pride and Contempt",
+            "full_title": "Pride and Prejudice Pride and Contempt",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL44345792M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-18T01:58:06.686614"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL45280622M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Pride And Prejudice",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_date": "Sep 13, 2016",
+            "source_records": [
+                "amazon:1537662457",
+                "bwb:9781537662459"
+            ],
+            "number_of_pages": 246,
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "isbn_10": [
+                "1537662457"
+            ],
+            "isbn_13": [
+                "9781537662459"
+            ],
+            "physical_format": "paperback",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Pride And Prejudice (Dover Thrift Editions)"
+            },
+            "full_title": "Pride And Prejudice",
+            "covers": [
+                13125194
+            ],
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL45280622M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-01-02T22:30:22.312776"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-09-30T23:27:12.702746"
+            }
+        },
+        "/books/OL42770630M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798355019662"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "367",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798355019662"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.627",
+            "subtitle": "Formatted for Dyslexia",
+            "full_title": "Pride and Prejudice Formatted for Dyslexia",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42770630M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-03T13:20:47.989958"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL42826679M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798359435178"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "378",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798359435178"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.641",
+            "subtitle": "Finest Illustration",
+            "full_title": "Pride and Prejudice Finest Illustration",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42826679M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-03T16:49:57.032983"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL43004727M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B000J2IFSI"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:KP-717-277"
+            ],
+            "publish_date": "1968",
+            "publishers": [
+                "Heron Books"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-03-17",
+                "ia:prideprejudicehe0000unse"
+            ],
+            "title": "Pride and Prejudice",
+            "full_title": "Pride and Prejudice",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL43004727M",
+            "classifications": {},
+            "publish_places": [
+                "London"
+            ],
+            "copyright_date": "1968",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "physical_format": "hardcover",
+            "number_of_pages": 381,
+            "pagination": "381 p.",
+            "covers": [
+                14622453
+            ],
+            "ocaid": "prideprejudicehe0000unse",
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-06T22:56:33.434747"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-05-10T12:21:33.391343"
+            }
+        },
+        "/books/OL42301593M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798657030365"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "489",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798657030365"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.464",
+            "subtitle": "Pocket Edition",
+            "full_title": "Pride and Prejudice Pocket Edition",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42301593M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-01T09:45:26.045965"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL42302855M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798628170717"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "296",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798628170717"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.855",
+            "subtitle": "Large Print",
+            "full_title": "Pride and Prejudice Large Print",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42302855M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-01T09:56:49.679043"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL42309394M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798674711865"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "190",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798674711865"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.345",
+            "subtitle": "1813 by Jane Austen",
+            "full_title": "Pride and Prejudice 1813 by Jane Austen",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42309394M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-01T10:55:29.738635"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL42419406M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798710651209"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "231",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798710651209"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.409",
+            "subtitle": "The Ultimate Book Club Edition",
+            "full_title": "Pride and Prejudice The Ultimate Book Club Edition",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42419406M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-02T02:56:13.705243"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL42434554M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL11295097A"
+                },
+                {
+                    "key": "/authors/OL11290514A"
+                },
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798576056590"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "293",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798576056590"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.845",
+            "subtitle": "Special Edition",
+            "full_title": "Pride and Prejudice Special Edition",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42434554M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-02T03:50:15.508360"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL42590902M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL11331682A"
+                },
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798681967545"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "385",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798681967545"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.832",
+            "full_title": "Pride and Prejudice",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42590902M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-03T01:52:10.240128"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL42593111M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798748044769"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "327",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798748044769"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.564",
+            "full_title": "Pride and Prejudice",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42593111M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-03T01:58:46.203589"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL42605507M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798669290634"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "576",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798669290634"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.832",
+            "full_title": "Pride and Prejudice",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42605507M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-03T02:38:53.445139"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL42619253M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798544356462"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "300",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798544356462"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.518",
+            "full_title": "Pride and Prejudice",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42619253M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-03T03:32:37.820716"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL42619336M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798762356923"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "311",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798762356923"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.473",
+            "full_title": "Pride and Prejudice",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42619336M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-03T03:32:51.927745"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL42644528M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798672703534"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "357",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798672703534"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.609",
+            "full_title": "Pride and Prejudice",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42644528M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-03T04:55:46.514333"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL42649341M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798426771482"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "387",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798426771482"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.655",
+            "full_title": "Pride and Prejudice",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42649341M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-03T05:12:10.963230"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL42657828M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798756476606"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "297",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798756476606"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.655",
+            "full_title": "Pride and Prejudice",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42657828M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-03T05:53:25.152045"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL42666409M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798403139960"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "264",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798403139960"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.459",
+            "full_title": "Pride and Prejudice",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42666409M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-03T06:30:11.012035"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL42678851M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798482620014"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "433",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798482620014"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.727",
+            "subtitle": "By Jane Austen",
+            "full_title": "Pride and Prejudice By Jane Austen",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42678851M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-03T07:16:58.908294"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL42165283M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798655272194"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "300",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798655272194"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.518",
+            "subtitle": "- Jane Austen",
+            "full_title": "Pride and Prejudice - Jane Austen",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42165283M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-30T11:55:50.473211"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        },
+        "/books/OL42190305M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798649989282"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "300",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798649989282"
+            ],
+            "title": "Pride and Prejudice",
+            "weight": "0.518",
+            "subtitle": "New Edition - Jane Austen",
+            "full_title": "Pride and Prejudice New Edition - Jane Austen",
+            "works": [
+                {
+                    "key": "/works/OL66554W"
+                }
+            ],
+            "key": "/books/OL42190305M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-30T16:13:14.877083"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-19T23:09:34.784933"
+            }
+        }
+    }
+}

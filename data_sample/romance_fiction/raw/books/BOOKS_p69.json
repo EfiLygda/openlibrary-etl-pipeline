@@ -1,0 +1,4588 @@
+{
+    "status": "ok",
+    "result": {
+        "/books/OL40272709M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {
+                "amazon": [
+                    "B003FFUQT2"
+                ],
+                "better_world_books": [
+                    "BWB16530693"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:O8-CPE-839"
+            ],
+            "publish_date": "1915",
+            "publishers": [
+                "Grosset & Dunlap"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-10-19",
+                "ia:anneofisland0000lmmo"
+            ],
+            "title": "Anne of the Island",
+            "authors": [
+                {
+                    "key": "/authors/OL2704230A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL40272709M",
+            "ocaid": "anneofisland0000lmmo",
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "covers": [
+                14639028
+            ],
+            "oclc_numbers": [
+                "3141229"
+            ],
+            "number_of_pages": 326,
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-12T01:25:41.515350"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-04-24T23:36:53.842021"
+            }
+        },
+        "/books/OL52246587M": {
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "title": "Anne of the Island",
+            "publishers": [
+                "Grosset & Dunlap"
+            ],
+            "publish_date": "1915",
+            "key": "/books/OL52246587M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                14639068
+            ],
+            "ocaid": "anneofisland0000lmmo_u8o7",
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "oclc_numbers": [
+                "3141229"
+            ],
+            "source_records": [
+                "ia:anneofisland0000lmmo_u8o7"
+            ],
+            "number_of_pages": 326,
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-06-24T14:31:53.539005"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-04-24T23:36:59.886520"
+            }
+        },
+        "/books/OL52250841M": {
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "title": "Anne of the Island",
+            "publishers": [
+                "McGraw-Hill Ryerson Limited"
+            ],
+            "publish_date": "1983",
+            "key": "/books/OL52250841M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_10": [
+                "0770000118"
+            ],
+            "ocaid": "isbn_0770000118",
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "covers": [
+                14640627
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-06-27T11:24:20.466732"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-06-29T19:35:51.279180"
+            }
+        },
+        "/books/OL40187248M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798730789876"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "181",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798730789876"
+            ],
+            "title": "Anne of the Island",
+            "weight": "0.259",
+            "full_title": "Anne of the Island",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL40187248M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-10-20T03:41:13.512859"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-06-29T19:35:51.279180"
+            }
+        },
+        "/books/OL40618538M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9781797417219"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "300",
+            "publish_date": "2019",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9781797417219"
+            ],
+            "title": "Anne of the Island",
+            "weight": "0.518",
+            "full_title": "Anne of the Island",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL40618538M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-20T04:30:11.046715"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-06-29T19:35:51.279180"
+            }
+        },
+        "/books/OL39419161M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798573788524"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "382",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798573788524"
+            ],
+            "title": "Anne of the Island",
+            "weight": "0.818",
+            "subtitle": "Revised Edition",
+            "full_title": "Anne of the Island Revised Edition",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL39419161M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-08-18T21:26:00.524878"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:52:07.204628"
+            }
+        },
+        "/books/OL38545747M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798482251584"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "282",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798482251584"
+            ],
+            "title": "Anne of the Island by Lucy Maud Montgomery Illustrated",
+            "weight": "0.491",
+            "full_title": "Anne of the Island by Lucy Maud Montgomery Illustrated",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38545747M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T22:41:37.656371"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:44:03.879899"
+            }
+        },
+        "/books/OL38539554M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798423651817"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "253",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798423651817"
+            ],
+            "title": "Anne of the Island (illustrated Edition)",
+            "weight": "0.445",
+            "full_title": "Anne of the Island (illustrated Edition)",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38539554M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T21:40:11.393654"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:51:50.175132"
+            }
+        },
+        "/books/OL38537321M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798430626877"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "253",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798430626877"
+            ],
+            "title": "Anne of the Island (illustrated Edition)",
+            "weight": "0.445",
+            "full_title": "Anne of the Island (illustrated Edition)",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38537321M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T21:16:53.407817"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:47:32.360660"
+            }
+        },
+        "/books/OL38530047M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798436782362"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "285",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798436782362"
+            ],
+            "title": "Anne of the Island Annotated",
+            "weight": "0.436",
+            "full_title": "Anne of the Island Annotated",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38530047M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T20:02:17.740714"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:43:23.603780"
+            }
+        },
+        "/books/OL38528885M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798785587007"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "285",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798785587007"
+            ],
+            "title": "Anne of the Island Annotated",
+            "weight": "0.436",
+            "full_title": "Anne of the Island Annotated",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38528885M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T19:51:14.569189"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:49:52.917128"
+            }
+        },
+        "/books/OL38523517M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798415984824"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "285",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798415984824"
+            ],
+            "title": "Anne of the Island Annotated",
+            "weight": "0.436",
+            "full_title": "Anne of the Island Annotated",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38523517M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T18:56:32.680753"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:49:49.663746"
+            }
+        },
+        "/books/OL38495036M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798442352726"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "251",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798442352726"
+            ],
+            "title": "Anne of the Island Illustrated",
+            "weight": "0.441",
+            "full_title": "Anne of the Island Illustrated",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38495036M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T13:47:52.069594"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:47:33.913768"
+            }
+        },
+        "/books/OL38494383M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798413338247"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "331",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798413338247"
+            ],
+            "title": "Anne of the Island by Lucy Maud Montgomery",
+            "weight": "0.500",
+            "subtitle": "Illustrated Edition",
+            "full_title": "Anne of the Island by Lucy Maud Montgomery Illustrated Edition",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38494383M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T13:41:52.321548"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:44:55.107502"
+            }
+        },
+        "/books/OL38480214M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798798386635"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "286",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798798386635"
+            ],
+            "title": "Anne of the Island Illustrated",
+            "weight": "0.436",
+            "full_title": "Anne of the Island Illustrated",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38480214M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T11:17:05.899681"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:47:52.201889"
+            }
+        },
+        "/books/OL38473900M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798443045672"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "337",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798443045672"
+            ],
+            "title": "Anne of the Island",
+            "weight": "0.505",
+            "subtitle": "Lucy Maud Montgomery  [Annotated]",
+            "full_title": "Anne of the Island Lucy Maud Montgomery  [Annotated]",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38473900M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T10:13:49.490328"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:51:04.551246"
+            }
+        },
+        "/books/OL38472774M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798448836565"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "275",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798448836565"
+            ],
+            "title": "Anne of the Island by Lucy Maud Montgomery Illustrated Edition",
+            "weight": "0.423",
+            "full_title": "Anne of the Island by Lucy Maud Montgomery Illustrated Edition",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38472774M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T10:02:48.739439"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:51:09.650036"
+            }
+        },
+        "/books/OL38447962M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798824684155"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "286",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798824684155"
+            ],
+            "title": "Anne of the Island Illustrated",
+            "weight": "0.436",
+            "full_title": "Anne of the Island Illustrated",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38447962M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T05:49:15.427746"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:54:24.107825"
+            }
+        },
+        "/books/OL38198122M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798443489193"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "286",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798443489193"
+            ],
+            "title": "Anne of the Island Illustrated",
+            "weight": "0.436",
+            "full_title": "Anne of the Island Illustrated",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38198122M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-05-27T13:01:03.053159"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:45:08.919771"
+            }
+        },
+        "/books/OL38201432M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798768871710"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "292",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798768871710"
+            ],
+            "title": "Anne of the Island Illustrated",
+            "weight": "0.445",
+            "full_title": "Anne of the Island Illustrated",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38201432M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-05-27T13:37:31.021189"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:54:24.903243"
+            }
+        },
+        "/books/OL38141683M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798429391397"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "282",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798429391397"
+            ],
+            "title": "Anne of the Island by Lucy Maud Montgomery Illustrated",
+            "weight": "0.491",
+            "full_title": "Anne of the Island by Lucy Maud Montgomery Illustrated",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38141683M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-05-27T02:53:05.668636"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:52:11.736106"
+            }
+        },
+        "/books/OL38144357M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798414382508"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "248",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798414382508"
+            ],
+            "title": "Anne of the Island Illustrated",
+            "weight": "0.436",
+            "full_title": "Anne of the Island Illustrated",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38144357M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-05-27T03:24:53.700951"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:48:04.677454"
+            }
+        },
+        "/books/OL38118422M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798444439777"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "286",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798444439777"
+            ],
+            "title": "Anne of the Island Illustrated",
+            "weight": "0.436",
+            "full_title": "Anne of the Island Illustrated",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38118422M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-05-26T22:15:50.837696"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:46:57.293147"
+            }
+        },
+        "/books/OL38072411M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9780341955511"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "328",
+            "publish_date": "2018",
+            "publishers": [
+                "Creative Media Partners, LLC"
+            ],
+            "source_records": [
+                "bwb:9780341955511"
+            ],
+            "title": "Anne of the Island",
+            "weight": "0.459",
+            "full_title": "Anne of the Island",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38072411M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-05-26T11:54:25.172699"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:46:52.095418"
+            }
+        },
+        "/books/OL38380096M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9780486821306"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "304",
+            "publish_date": "2017",
+            "publishers": [
+                "Dover Publications, Incorporated"
+            ],
+            "source_records": [
+                "bwb:9780486821306"
+            ],
+            "subjects": [
+                "Shirley, anne (fictitious character), fiction",
+                "Orphans, fiction",
+                "Prince edward island, fiction",
+                "Universities and colleges, fiction",
+                "Children's fiction"
+            ],
+            "title": "Anne of the Island",
+            "weight": "0.231",
+            "full_title": "Anne of the Island",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38380096M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-18T17:06:41.150439"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:47:51.490527"
+            }
+        },
+        "/books/OL37615210M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798642461297"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "102",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798642461297"
+            ],
+            "title": "Anne of the Island(annotated)",
+            "weight": "0.323",
+            "full_title": "Anne of the Island(annotated)",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL37615210M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-03-03T05:32:22.442905"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-06-29T19:35:51.279180"
+            }
+        },
+        "/books/OL37614281M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798653878459"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "214",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798653878459"
+            ],
+            "title": "Anne of the Island",
+            "weight": "0.627",
+            "subtitle": "Large Print",
+            "full_title": "Anne of the Island Large Print",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL37614281M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-03-03T05:22:52.733862"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:54:29.561082"
+            }
+        },
+        "/books/OL37100125M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9781600965661"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "260",
+            "publish_date": "2008",
+            "publishers": [
+                "The Editorium, LLC"
+            ],
+            "source_records": [
+                "bwb:9781600965661"
+            ],
+            "title": "Anne of the Island",
+            "weight": "0.386",
+            "full_title": "Anne of the Island",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL37100125M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-02-25T20:56:46.123374"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:54:29.954259"
+            }
+        },
+        "/books/OL37469552M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9781434114945"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "280",
+            "publish_date": "2008",
+            "publishers": [
+                "The Editorium, LLC"
+            ],
+            "source_records": [
+                "bwb:9781434114945"
+            ],
+            "title": "Anne of the Island",
+            "weight": "0.582",
+            "full_title": "Anne of the Island",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL37469552M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-03-02T01:47:12.579557"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:55:15.681205"
+            }
+        },
+        "/books/OL37510205M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798718631708"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "301",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798718631708"
+            ],
+            "title": "Anne of the Island",
+            "weight": "0.523",
+            "subtitle": "Original Classics and Annotated",
+            "full_title": "Anne of the Island Original Classics and Annotated",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL37510205M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-03-02T09:46:21.099579"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:44:45.921247"
+            }
+        },
+        "/books/OL8068332M": {
+            "identifiers": {
+                "librarything": [
+                    "3254"
+                ],
+                "goodreads": [
+                    "65770"
+                ]
+            },
+            "title": "Anne of the Island",
+            "publish_date": "1968",
+            "publishers": [
+                "McGraw-Hill Ryerson Limited"
+            ],
+            "physical_format": "Mass Market Paperback",
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:O8-DAD-263"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-10-26",
+                "ia:anneofislandavon0000unse"
+            ],
+            "key": "/books/OL8068332M",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "covers": [
+                14640625
+            ],
+            "number_of_pages": 338,
+            "ocaid": "anneofislandavon0000unse",
+            "isbn_10": [
+                "0770000118"
+            ],
+            "isbn_13": [
+                "9780770000110"
+            ],
+            "oclc_numbers": [
+                "8381504"
+            ],
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "latest_revision": 14,
+            "revision": 14,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-06-29T19:35:51.279180"
+            }
+        },
+        "/books/OL40556593M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9781730911644"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "570",
+            "publish_date": "2018",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9781730911644"
+            ],
+            "title": "Anne of the Island",
+            "weight": "0.709",
+            "full_title": "Anne of the Island",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL40556593M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-19T19:16:58.378423"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-06-29T19:35:51.279180"
+            }
+        },
+        "/books/OL40258394M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "1944",
+            "publish_country": "is",
+            "languages": [
+                {
+                    "key": "/languages/pol"
+                }
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "work_titles": [
+                "Anne of the Island"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Translation of: Anne of the Island."
+            },
+            "title": "Ania z wyspy",
+            "subtitle": "dalsze dzieje \"Ani z Zielonego Wzgórza\" i \"Ani z Avonlea\"",
+            "by_statement": "L. M. Montgomery ; przełożył Andrzej Magórski",
+            "publishers": [
+                "Nakł. Sekcji Wydawniczej A.P.W."
+            ],
+            "publish_places": [
+                "Palestyna"
+            ],
+            "pagination": "212 p.",
+            "number_of_pages": 212,
+            "source_records": [
+                "marc:marc_scms/20220805_ADAM_MARC_records.mrc:124619729:1457"
+            ],
+            "local_id": [
+                "urn:scms:0188600222502"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL40258394M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-11T09:32:11.511037"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-06-29T19:35:51.279180"
+            }
+        },
+        "/books/OL40149530M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798832915043"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "151",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798832915043"
+            ],
+            "title": "Anne of the Island",
+            "weight": "0.459",
+            "full_title": "Anne of the Island",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL40149530M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-10-19T21:45:56.304874"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-06-29T19:35:51.279180"
+            }
+        },
+        "/books/OL40142422M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798542065243"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "282",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798542065243"
+            ],
+            "title": "Anne of the Island (Anne Shirley Series #3)",
+            "weight": "0.432",
+            "full_title": "Anne of the Island (Anne Shirley Series #3)",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL40142422M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-10-19T20:38:44.351879"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-06-29T19:35:51.279180"
+            }
+        },
+        "/books/OL40137156M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798841985211"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "193",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798841985211"
+            ],
+            "title": "Anne of the Island",
+            "weight": "0.350",
+            "full_title": "Anne of the Island",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL40137156M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-10-19T19:49:22.008584"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-06-29T19:35:51.279180"
+            }
+        },
+        "/books/OL40137238M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798709617285"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "150",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798709617285"
+            ],
+            "title": "Anne of the Island",
+            "weight": "0.282",
+            "subtitle": "Complete",
+            "full_title": "Anne of the Island Complete",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL40137238M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-10-19T19:50:05.391492"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-06-29T19:35:51.279180"
+            }
+        },
+        "/books/OL40177457M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798748057936"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "165",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798748057936"
+            ],
+            "title": "Anne of the Island",
+            "weight": "0.500",
+            "subtitle": "Large Print",
+            "full_title": "Anne of the Island Large Print",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL40177457M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-10-20T02:14:27.790735"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-06-29T19:35:51.279180"
+            }
+        },
+        "/books/OL39453904M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798556735873"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "308",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798556735873"
+            ],
+            "title": "Anne of the Island",
+            "weight": "0.532",
+            "full_title": "Anne of the Island",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL39453904M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-08-19T04:00:16.141887"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:48:16.480693"
+            }
+        },
+        "/books/OL39576166M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9781770497344"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "336",
+            "publish_date": "2014",
+            "publishers": [
+                "Tundra"
+            ],
+            "source_records": [
+                "bwb:9781770497344"
+            ],
+            "subjects": [
+                "American literature"
+            ],
+            "title": "Anne of the Island",
+            "weight": "0.404",
+            "full_title": "Anne of the Island",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL39576166M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-09-17T23:42:41.589395"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:52:21.581039"
+            }
+        },
+        "/books/OL39152598M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798806149931"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "287",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798806149931"
+            ],
+            "title": "Anne of the Island",
+            "weight": "0.500",
+            "full_title": "Anne of the Island",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL39152598M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-07-21T16:58:36.543804"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:50:40.151216"
+            }
+        },
+        "/books/OL38548540M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798735874065"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "279",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798735874065"
+            ],
+            "title": "Anne of the Island (Annotated)",
+            "weight": "0.427",
+            "full_title": "Anne of the Island (Annotated)",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38548540M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T23:08:56.861118"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:46:19.154411"
+            }
+        },
+        "/books/OL38545155M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798529178393"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "253",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798529178393"
+            ],
+            "title": "Anne of the Island (illustrated Edition)",
+            "weight": "0.445",
+            "full_title": "Anne of the Island (illustrated Edition)",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38545155M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T22:35:38.542980"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:45:25.571137"
+            }
+        },
+        "/books/OL38541832M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798751557539"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "285",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798751557539"
+            ],
+            "title": "Anne of the Island Annotated",
+            "weight": "0.436",
+            "full_title": "Anne of the Island Annotated",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38541832M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T22:02:14.990548"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:52:22.943824"
+            }
+        },
+        "/books/OL38506447M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798799549862"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "285",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798799549862"
+            ],
+            "title": "Anne of the Island Annotated",
+            "weight": "0.436",
+            "full_title": "Anne of the Island Annotated",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38506447M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T15:49:25.663198"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:53:16.555658"
+            }
+        },
+        "/books/OL38481370M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798821451255"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "285",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798821451255"
+            ],
+            "title": "Anne of the Island Annotated",
+            "weight": "0.436",
+            "full_title": "Anne of the Island Annotated",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38481370M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T11:28:10.262682"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:54:38.431652"
+            }
+        },
+        "/books/OL38476048M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                },
+                {
+                    "key": "/authors/OL10473821A"
+                }
+            ],
+            "isbn_13": [
+                "9781958437018"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2022",
+            "publishers": [
+                "Z & L Barnes Publishing"
+            ],
+            "source_records": [
+                "bwb:9781958437018"
+            ],
+            "subjects": [
+                "Fiction, general",
+                "Fiction, romance, general"
+            ],
+            "title": "Anne of the Island",
+            "full_title": "Anne of the Island",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38476048M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T10:35:07.909583"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:45:32.496654"
+            }
+        },
+        "/books/OL38462733M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798451670859"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "253",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798451670859"
+            ],
+            "title": "Anne of the Island (illustrated Edition)",
+            "weight": "0.445",
+            "full_title": "Anne of the Island (illustrated Edition)",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38462733M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T08:23:22.160905"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-06-29T19:35:51.279180"
+            }
+        },
+        "/books/OL38450687M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798493579295"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "285",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798493579295"
+            ],
+            "title": "Anne of the Island Annotated",
+            "weight": "0.436",
+            "full_title": "Anne of the Island Annotated",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38450687M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T06:18:53.835621"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:53:10.645542"
+            }
+        },
+        "/books/OL38418361M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798489432023"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "324",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798489432023"
+            ],
+            "title": "Anne of the Island Annotated",
+            "weight": "0.486",
+            "full_title": "Anne of the Island Annotated",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38418361M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T00:53:19.750232"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:52:24.188703"
+            }
+        },
+        "/books/OL38418995M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798807031389"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "285",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798807031389"
+            ],
+            "title": "Anne of the Island Annotated",
+            "weight": "0.436",
+            "full_title": "Anne of the Island Annotated",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38418995M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T00:59:14.037233"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:48:08.867635"
+            }
+        },
+        "/books/OL38414436M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798405312521"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "290",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798405312521"
+            ],
+            "title": "Anne of the Island Illustrated",
+            "weight": "0.441",
+            "full_title": "Anne of the Island Illustrated",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38414436M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T00:08:46.645176"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:48:05.809299"
+            }
+        },
+        "/books/OL38418025M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798801353159"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "286",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798801353159"
+            ],
+            "title": "Anne of the Island Illustrated",
+            "weight": "0.436",
+            "full_title": "Anne of the Island Illustrated",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38418025M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T00:49:48.335804"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:50:39.379163"
+            }
+        },
+        "/books/OL38427164M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798469878360"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "290",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798469878360"
+            ],
+            "title": "Anne of the Island Illustrated",
+            "weight": "0.441",
+            "full_title": "Anne of the Island Illustrated",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38427164M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T02:21:16.206362"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:50:31.383125"
+            }
+        },
+        "/books/OL38193575M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798788694603"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "333",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798788694603"
+            ],
+            "title": "Anne of the Island :( Illustrated Edition)",
+            "weight": "0.500",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38193575M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-05-27T12:08:23.913633"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:50:44.406723"
+            }
+        },
+        "/books/OL38145231M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798780431626"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "331",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798780431626"
+            ],
+            "title": "Anne of the Island :(illustrated Edition)",
+            "weight": "0.500",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38145231M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-05-27T03:35:48.138182"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:49:46.999266"
+            }
+        },
+        "/books/OL38140622M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798477702244"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "153",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798477702244"
+            ],
+            "title": "Anne of the Island Illustrated",
+            "weight": "0.464",
+            "full_title": "Anne of the Island Illustrated",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38140622M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-05-27T02:41:35.792850"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:49:26.872954"
+            }
+        },
+        "/books/OL38136170M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798412544083"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "236",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798412544083"
+            ],
+            "title": "ANNE of the ISLAND (Annotated)",
+            "weight": "0.418",
+            "full_title": "ANNE of the ISLAND (Annotated)",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38136170M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-05-27T01:51:40.646435"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:46:17.335999"
+            }
+        },
+        "/books/OL38127467M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798425583413"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "253",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798425583413"
+            ],
+            "title": "Anne of the Island (illustrated Edition)",
+            "weight": "0.445",
+            "full_title": "Anne of the Island (illustrated Edition)",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38127467M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-05-26T23:58:05.040842"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:44:12.311256"
+            }
+        },
+        "/books/OL38104021M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798409228644"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "286",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798409228644"
+            ],
+            "title": "Anne of the Island Illustrated",
+            "weight": "0.436",
+            "full_title": "Anne of the Island Illustrated",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38104021M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-05-26T19:18:58.894960"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:55:36.144471"
+            }
+        },
+        "/books/OL38132513M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798418079589"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "286",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798418079589"
+            ],
+            "title": "Anne of the Island Illustrated",
+            "weight": "0.436",
+            "full_title": "Anne of the Island Illustrated",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38132513M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-05-27T01:07:45.734512"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:52:22.045640"
+            }
+        },
+        "/books/OL38101044M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798438154457"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "236",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798438154457"
+            ],
+            "title": "ANNE of the ISLAND (Annotated)",
+            "weight": "0.418",
+            "full_title": "ANNE of the ISLAND (Annotated)",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38101044M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-05-26T18:32:47.336870"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:49:27.882280"
+            }
+        },
+        "/books/OL37952566M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Anne of the Island",
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "publish_date": "Sep 21, 2017",
+            "source_records": [
+                "amazon:1977501516",
+                "bwb:9781977501516",
+                "promise:bwb_daily_pallets_2024-11-08:S0-AAL-602"
+            ],
+            "number_of_pages": 97,
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "isbn_10": [
+                "1977501516"
+            ],
+            "isbn_13": [
+                "9781977501516"
+            ],
+            "physical_format": "paperback",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Anne of the Island (Anne of Green Gables)"
+            },
+            "full_title": "Anne of the Island",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL37952566M",
+            "local_id": [
+                "urn:bwbsku:S0-AAL-602"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-05-25T08:20:13.000130"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-03T16:51:17.947459"
+            }
+        },
+        "/books/OL38176677M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798649464079"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "224",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798649464079"
+            ],
+            "title": "Anne of the Island",
+            "weight": "0.400",
+            "subtitle": "Original",
+            "full_title": "Anne of the Island Original",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38176677M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-05-27T09:27:13.146627"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:49:27.471897"
+            }
+        },
+        "/books/OL37553176M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798478546618"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "233",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798478546618"
+            ],
+            "title": "Anne of the Island",
+            "weight": "0.318",
+            "full_title": "Anne of the Island",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL37553176M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-03-02T17:58:21.803623"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:50:40.590670"
+            }
+        },
+        "/books/OL37363142M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9781102343370"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2000",
+            "publishers": [
+                "The Editorium, LLC"
+            ],
+            "source_records": [
+                "bwb:9781102343370"
+            ],
+            "title": "Anne of the Island",
+            "full_title": "Anne of the Island",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL37363142M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-02-28T23:24:49.221128"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:51:58.502188"
+            }
+        },
+        "/books/OL37455748M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9781434114952"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "260",
+            "publish_date": "2008",
+            "publishers": [
+                "The Editorium, LLC"
+            ],
+            "source_records": [
+                "bwb:9781434114952"
+            ],
+            "title": "Anne of the Island",
+            "weight": "0.555",
+            "full_title": "Anne of the Island",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL37455748M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-03-01T22:48:02.442751"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:47:30.314123"
+            }
+        },
+        "/books/OL37472759M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9781528706506"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "258",
+            "publish_date": "2018",
+            "publishers": [
+                "The Editorium, LLC"
+            ],
+            "source_records": [
+                "bwb:9781528706506"
+            ],
+            "subjects": [
+                "Shirley, anne (fictitious character), fiction",
+                "Orphans, fiction",
+                "Prince edward island, fiction",
+                "Universities and colleges, fiction",
+                "Children's fiction"
+            ],
+            "title": "Anne of the Island",
+            "weight": "0.464",
+            "full_title": "Anne of the Island",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL37472759M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-03-02T02:26:35.670263"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:44:21.314972"
+            }
+        },
+        "/books/OL36949720M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798488883949"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "290",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798488883949"
+            ],
+            "title": "Anne of the Island Illustrated",
+            "weight": "0.441",
+            "full_title": "Anne of the Island Illustrated",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL36949720M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-01-29T06:29:37.893917"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:54:35.523889"
+            }
+        },
+        "/books/OL40549376M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9781983298967"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "206",
+            "publish_date": "2018",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9781983298967"
+            ],
+            "title": "Anne of the Island",
+            "weight": "0.368",
+            "full_title": "Anne of the Island",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL40549376M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-19T18:02:40.623736"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-06-29T19:35:51.279180"
+            }
+        },
+        "/books/OL40188096M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798664086805"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "165",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798664086805"
+            ],
+            "title": "Anne of the Island",
+            "weight": "0.241",
+            "full_title": "Anne of the Island",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL40188096M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-10-20T03:49:01.951733"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-06-29T19:35:51.279180"
+            }
+        },
+        "/books/OL38540594M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798819936610"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "336",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798819936610"
+            ],
+            "title": "Anne of the Island by Lucy Maud Montgomery Illustrated",
+            "weight": "0.505",
+            "full_title": "Anne of the Island by Lucy Maud Montgomery Illustrated",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38540594M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T21:50:15.620134"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:47:41.237406"
+            }
+        },
+        "/books/OL38518785M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798419489424"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "292",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798419489424"
+            ],
+            "title": "Anne of the Island Illustrated",
+            "weight": "0.445",
+            "full_title": "Anne of the Island Illustrated",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38518785M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T17:53:11.405470"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:47:06.111082"
+            }
+        },
+        "/books/OL38545137M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798425884879"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "233",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798425884879"
+            ],
+            "title": "Anne of the Island Illustrated",
+            "weight": "0.414",
+            "full_title": "Anne of the Island Illustrated",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38545137M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T22:35:28.982424"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:47:01.851111"
+            }
+        },
+        "/books/OL38554770M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798419615977"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "248",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798419615977"
+            ],
+            "title": "Anne of the Island Illustrated",
+            "weight": "0.436",
+            "full_title": "Anne of the Island Illustrated",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38554770M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-20T00:08:04.698133"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:48:50.067147"
+            }
+        },
+        "/books/OL38521429M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798476680932"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "276",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798476680932"
+            ],
+            "title": "Anne of the Island by Lucy Maud Montgomery",
+            "weight": "0.423",
+            "subtitle": "Illustrated Edition",
+            "full_title": "Anne of the Island by Lucy Maud Montgomery Illustrated Edition",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38521429M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T18:35:04.653721"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:43:40.826545"
+            }
+        },
+        "/books/OL38493802M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798722254047"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "238",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798722254047"
+            ],
+            "title": "Anne of the Island",
+            "weight": "0.418",
+            "subtitle": "Annotated",
+            "full_title": "Anne of the Island Annotated",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38493802M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T13:36:11.181304"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-06-29T19:35:51.279180"
+            }
+        },
+        "/books/OL38477811M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798425885043"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "275",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798425885043"
+            ],
+            "title": "Anne of the Island Illustrated",
+            "weight": "0.423",
+            "full_title": "Anne of the Island Illustrated",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38477811M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T10:52:30.161390"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:50:49.892101"
+            }
+        },
+        "/books/OL38485968M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798536218730"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "235",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798536218730"
+            ],
+            "title": "Anne of the Island",
+            "weight": "0.691",
+            "full_title": "Anne of the Island",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38485968M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T12:13:51.707735"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:49:55.440994"
+            }
+        },
+        "/books/OL38486032M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798701727050"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "167",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798701727050"
+            ],
+            "title": "Anne of the Island",
+            "weight": "0.241",
+            "full_title": "Anne of the Island",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38486032M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T12:14:36.513611"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:47:00.636676"
+            }
+        },
+        "/books/OL38886218M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9781504062275"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "162",
+            "publish_date": "2020",
+            "publishers": [
+                "Open Road Integrated Media, Inc."
+            ],
+            "source_records": [
+                "bwb:9781504062275"
+            ],
+            "subjects": [
+                "Shirley, anne (fictitious character), fiction",
+                "Orphans, fiction",
+                "Prince edward island, fiction",
+                "Universities and colleges, fiction",
+                "Children's fiction"
+            ],
+            "title": "Anne of the Island",
+            "full_title": "Anne of the Island",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38886218M",
+            "covers": [
+                14722489
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-07-19T16:54:10.919812"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:50:26.262165"
+            }
+        },
+        "/books/OL38453118M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798411426700"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "290",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798411426700"
+            ],
+            "title": "Anne of the Island Illustrated",
+            "weight": "0.441",
+            "full_title": "Anne of the Island Illustrated",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38453118M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T06:47:58.722651"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:47:01.462821"
+            }
+        },
+        "/books/OL38454257M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798426588752"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "248",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798426588752"
+            ],
+            "title": "Anne of the Island Illustrated",
+            "weight": "0.436",
+            "full_title": "Anne of the Island Illustrated",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38454257M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T06:59:30.043938"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:49:13.202072"
+            }
+        },
+        "/books/OL38442780M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798423879501"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "331",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798423879501"
+            ],
+            "title": "Anne of the Island by Lucy Maud Montgomery (illustrated Edition)",
+            "weight": "0.500",
+            "full_title": "Anne of the Island by Lucy Maud Montgomery (illustrated Edition)",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38442780M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T04:55:21.397171"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:53:34.707541"
+            }
+        },
+        "/books/OL38440626M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798780421399"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "285",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798780421399"
+            ],
+            "title": "Anne of the Island Annotated",
+            "weight": "0.436",
+            "full_title": "Anne of the Island Annotated",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38440626M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T04:35:17.336748"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:54:53.161831"
+            }
+        },
+        "/books/OL38422765M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798410664837"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "285",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798410664837"
+            ],
+            "title": "Anne of the Island Annotated",
+            "weight": "0.436",
+            "full_title": "Anne of the Island Annotated",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38422765M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T01:36:42.069754"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:50:49.556939"
+            }
+        },
+        "/books/OL38420206M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798442885002"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "286",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798442885002"
+            ],
+            "title": "Anne of the Island Illustrated",
+            "weight": "0.436",
+            "full_title": "Anne of the Island Illustrated",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38420206M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T01:11:35.059424"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:53:34.170736"
+            }
+        },
+        "/books/OL38197133M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798533649179"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "282",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798533649179"
+            ],
+            "title": "Anne of the Island by Lucy Maud Montgomery Illustrated",
+            "weight": "0.491",
+            "full_title": "Anne of the Island by Lucy Maud Montgomery Illustrated",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38197133M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-05-27T12:51:19.249265"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:55:05.068981"
+            }
+        },
+        "/books/OL38199195M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798805553968"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "282",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798805553968"
+            ],
+            "title": "Anne of the Island by Lucy Maud Montgomery Illustrated",
+            "weight": "0.491",
+            "full_title": "Anne of the Island by Lucy Maud Montgomery Illustrated",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38199195M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-05-27T13:12:31.567350"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:47:41.628596"
+            }
+        },
+        "/books/OL38174767M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798449976697"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "139",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798449976697"
+            ],
+            "title": "Anne of the Island",
+            "weight": "0.268",
+            "full_title": "Anne of the Island",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38174767M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-05-27T09:08:00.150227"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:53:33.393382"
+            }
+        },
+        "/books/OL38161392M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798536689912"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "292",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798536689912"
+            ],
+            "title": "Anne of the Island Illustrated",
+            "weight": "0.445",
+            "full_title": "Anne of the Island Illustrated",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38161392M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-05-27T06:50:01.515176"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:54:44.494205"
+            }
+        },
+        "/books/OL38140009M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798421184638"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "285",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798421184638"
+            ],
+            "title": "Anne of the Island Annotated",
+            "weight": "0.436",
+            "full_title": "Anne of the Island Annotated",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38140009M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-05-27T02:35:37.763553"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:48:47.605411"
+            }
+        },
+        "/books/OL38130477M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798446054374"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "286",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798446054374"
+            ],
+            "title": "Anne of the Island Illustrated",
+            "weight": "0.436",
+            "full_title": "Anne of the Island Illustrated",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38130477M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-05-27T00:44:58.612989"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:53:31.135691"
+            }
+        },
+        "/books/OL38443842M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798457864016"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "235",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798457864016"
+            ],
+            "title": "Anne of the Island",
+            "weight": "0.691",
+            "full_title": "Anne of the Island",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL38443842M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T05:06:52.699312"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:52:15.735221"
+            }
+        },
+        "/books/OL37693497M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798509015540"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "156",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798509015540"
+            ],
+            "title": "Anne of the Island",
+            "weight": "0.291",
+            "subtitle": "The Ultimate Book Club Edition",
+            "full_title": "Anne of the Island The Ultimate Book Club Edition",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL37693497M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-03-03T20:26:04.804796"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:50:57.828294"
+            }
+        },
+        "/books/OL37109203M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9781600961700"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "260",
+            "publish_date": "2008",
+            "publishers": [
+                "The Editorium, LLC"
+            ],
+            "source_records": [
+                "bwb:9781600961700"
+            ],
+            "title": "Anne of the Island",
+            "weight": "0.386",
+            "full_title": "Anne of the Island",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL37109203M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-02-26T00:01:47.734098"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:51:01.395538"
+            }
+        },
+        "/books/OL37109211M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9781434100337"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "280",
+            "publish_date": "2008",
+            "publishers": [
+                "The Editorium, LLC"
+            ],
+            "source_records": [
+                "bwb:9781434100337"
+            ],
+            "title": "Anne of the Island",
+            "weight": "0.418",
+            "full_title": "Anne of the Island",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL37109211M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-02-26T00:01:59.346997"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:43:48.481085"
+            }
+        },
+        "/books/OL37461326M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9781434114938"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "260",
+            "publish_date": "2008",
+            "publishers": [
+                "The Editorium, LLC"
+            ],
+            "source_records": [
+                "bwb:9781434114938"
+            ],
+            "title": "Anne of the Island",
+            "weight": "0.555",
+            "full_title": "Anne of the Island",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL37461326M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-03-02T00:00:50.965626"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:52:19.487320"
+            }
+        },
+        "/books/OL37509776M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798589337822"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "178",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798589337822"
+            ],
+            "title": "Anne of the Island",
+            "weight": "0.255",
+            "full_title": "Anne of the Island",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL37509776M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-03-02T09:42:07.141233"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:54:40.162506"
+            }
+        },
+        "/books/OL36944928M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL39485A"
+                }
+            ],
+            "isbn_13": [
+                "9798459191486"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "290",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798459191486"
+            ],
+            "title": "Anne of the Island Illustrated",
+            "weight": "0.441",
+            "full_title": "Anne of the Island Illustrated",
+            "works": [
+                {
+                    "key": "/works/OL77748W"
+                }
+            ],
+            "key": "/books/OL36944928M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-01-29T05:42:35.552468"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T19:53:17.879732"
+            }
+        }
+    }
+}

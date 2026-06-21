@@ -1,0 +1,5981 @@
+{
+    "status": "ok",
+    "result": {
+        "/books/OL35465184M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7459594A"
+                }
+            ],
+            "isbn_13": [
+                "9781407075266"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1998",
+            "publishers": [
+                "Penguin Random House"
+            ],
+            "source_records": [
+                "bwb:9781407075266"
+            ],
+            "subjects": [
+                "Fiction, romance, historical, regency",
+                "England, fiction"
+            ],
+            "title": "Bath Tangle",
+            "full_title": "Bath Tangle",
+            "works": [
+                {
+                    "key": "/works/OL4092688W"
+                }
+            ],
+            "key": "/books/OL35465184M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T08:45:57.067429"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-03-02T04:33:49.398192"
+            }
+        },
+        "/books/OL28429504M": {
+            "publishers": [
+                "Penguin Random House"
+            ],
+            "source_records": [
+                "bwb:9780099468097"
+            ],
+            "title": "Bath Tangle",
+            "number_of_pages": 320,
+            "isbn_13": [
+                "9780099468097"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Bath Tangle",
+            "lc_classifications": [
+                "PR6015.E795"
+            ],
+            "publish_date": "2005",
+            "key": "/books/OL28429504M",
+            "authors": [
+                {
+                    "key": "/authors/OL7459594A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4092688W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "England, fiction",
+                "Fiction, romance, regency"
+            ],
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-01T05:46:52.020583"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-03-02T04:06:10.023278"
+            }
+        },
+        "/books/OL6178052M": {
+            "publishers": [
+                "Putnam"
+            ],
+            "number_of_pages": 312,
+            "subject_place": [
+                "Bath (England)"
+            ],
+            "pagination": "312 p.",
+            "lc_classifications": [
+                "PZ3.H514 Bat",
+                "PR6015.E795 Bat"
+            ],
+            "key": "/books/OL6178052M",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "source_records": [
+                "marc:marc_loc_2016/BooksAll.2016.part05.utf8:9579966:518",
+                "marc:marc_columbia/Columbia-extract-20221130-004.mrc:456080292:629"
+            ],
+            "title": "Bath tangle.",
+            "lccn": [
+                "55010092"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "16475"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Bath (England) -- Fiction."
+            ],
+            "publish_date": "1955",
+            "publish_country": "nyu",
+            "oclc_numbers": [
+                "1226141"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4092688W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-02T06:55:34.573210"
+            }
+        },
+        "/books/OL17339989M": {
+            "identifiers": {
+                "librarything": [
+                    "16475"
+                ],
+                "goodreads": [
+                    "2899830"
+                ]
+            },
+            "title": "Bath Tangle",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_date": "1967",
+            "publishers": [
+                "Pan Books in association with Heinemann",
+                "Pan Books"
+            ],
+            "covers": [
+                12689340,
+                8342816
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-05-25:KO-618-018",
+                "ia:unset0000unse_r0a0",
+                "promise:bwb_daily_pallets_2021-05-21:KO-687-205",
+                "promise:bwb_daily_pallets_2021-05-12:KO-910-976",
+                "promise:bwb_daily_pallets_2021-05-05:KP-088-849"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_country": "xxk",
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:KO-618-018",
+                "urn:bwbsku:KO-687-205",
+                "urn:bwbsku:KO-910-976",
+                "urn:bwbsku:KP-088-849"
+            ],
+            "key": "/books/OL17339989M",
+            "works": [
+                {
+                    "key": "/works/OL4092688W"
+                }
+            ],
+            "ocaid": "unset0000unse_r0a0",
+            "isbn_10": [
+                "0330202375"
+            ],
+            "oclc_numbers": [
+                "17698739"
+            ],
+            "classifications": {},
+            "lc_classifications": [
+                "PR6015.E795 B27 1967"
+            ],
+            "latest_revision": 22,
+            "revision": 22,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-28T11:28:41.495467"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-10T22:55:37.410367"
+            }
+        },
+        "/books/OL7656372M": {
+            "publishers": [
+                "Jove"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "weight": "8 ounces",
+            "title": "Bath Tangle",
+            "identifiers": {
+                "goodreads": [
+                    "3052971"
+                ],
+                "librarything": [
+                    "16475"
+                ]
+            },
+            "isbn_13": [
+                "9780515064858"
+            ],
+            "physical_format": "Paperback",
+            "isbn_10": [
+                "0515064858"
+            ],
+            "publish_date": "January 15, 1982",
+            "key": "/books/OL7656372M",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4092688W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Romance - Regency"
+            ],
+            "physical_dimensions": "7 x 5 x 1 inches",
+            "local_id": [
+                "urn:bwbsku:P7-DYS-261"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-03-17",
+                "bwb:9780515064858",
+                "amazon:0515064858"
+            ],
+            "covers": [
+                13248597
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-02T09:25:25.295322"
+            }
+        },
+        "/books/OL19101855M": {
+            "title": "Bath tangle.",
+            "authors": [
+                {
+                    "key": "/authors/OL7459594A"
+                }
+            ],
+            "publish_date": "1955",
+            "publishers": [
+                "Heinemann"
+            ],
+            "pagination": "327p.,19cm",
+            "dewey_decimal_class": [
+                "823.91"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_country": "xxk",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:2617743527:428"
+            ],
+            "key": "/books/OL19101855M",
+            "number_of_pages": 327,
+            "works": [
+                {
+                    "key": "/works/OL4092688W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-20T23:22:08.228006"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-12T15:15:51.390729"
+            }
+        },
+        "/books/OL17777709M": {
+            "title": "Bath tangle.",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_date": "1967",
+            "publishers": [
+                "Heinemann"
+            ],
+            "pagination": "327 p.",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_country": "enj",
+            "publish_places": [
+                "London"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:marc_oregon_summit_records/catalog_files/washs02192008.mrc_revrev.mrc:754642466:521"
+            ],
+            "key": "/books/OL17777709M",
+            "number_of_pages": 327,
+            "works": [
+                {
+                    "key": "/works/OL4092688W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-01T03:08:21.817376"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-21T02:46:55.609716"
+            }
+        },
+        "/books/OL20716474M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "1"
+            },
+            "title": "Bath tangle",
+            "authors": [
+                {
+                    "key": "/authors/OL7459594A"
+                }
+            ],
+            "publish_date": "1955",
+            "publishers": [
+                "Heinemann"
+            ],
+            "pagination": "327 p.",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lc_classifications": [
+                "PR'6015'E795'B38"
+            ],
+            "publish_country": "enk",
+            "by_statement": "by Georgette Heyer.",
+            "publish_places": [
+                "London"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:marc_laurentian/openlibrary.mrc:240368272:689"
+            ],
+            "key": "/books/OL20716474M",
+            "number_of_pages": 327,
+            "works": [
+                {
+                    "key": "/works/OL4092688W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-29T12:57:18.673038"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-21T16:14:09.649666"
+            }
+        },
+        "/books/OL7954747M": {
+            "publishers": [
+                "Chivers Audio Books"
+            ],
+            "weight": "1.4 pounds",
+            "physical_format": "Audio cassette",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2012-09-26T17:17:02.238521"
+            },
+            "latest_revision": 7,
+            "key": "/books/OL7954747M",
+            "contributions": [
+                "Sian Phillips (Contributor)"
+            ],
+            "subjects": [
+                "Historical fiction",
+                "Modern fiction",
+                "Romance - Regency",
+                "Unabridged Audio - Fiction/General",
+                "Audio Adult: Books On Tape"
+            ],
+            "isbn_13": [
+                "9780745140360"
+            ],
+            "title": "Bath Tangle",
+            "identifiers": {
+                "goodreads": [
+                    "5394936"
+                ],
+                "librarything": [
+                    "16475"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "074514036X"
+            ],
+            "publish_date": "March 1994",
+            "oclc_numbers": [
+                "26955152"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4092688W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9.2 x 7 x 2.5 inches",
+            "revision": 7
+        },
+        "/books/OL10748337M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "title": "Pale Orchid",
+            "physical_format": "Mass Market Paperback",
+            "publish_date": "1986",
+            "key": "/books/OL10748337M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "works": [
+                {
+                    "key": "/works/OL3771285W"
+                }
+            ],
+            "local_id": [
+                "urn:bwbsku:P9-EMG-620"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2024-05-10:P9-EMG-620"
+            ],
+            "identifiers": {},
+            "isbn_10": [
+                "0373631510"
+            ],
+            "isbn_13": [
+                "9780373631513"
+            ],
+            "oclc_numbers": [
+                "46661184"
+            ],
+            "classifications": {},
+            "edition_name": "Collector's Edition",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-22T15:34:41.679795"
+            }
+        },
+        "/books/OL47051799M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "isbn_10": [
+                "0750502258"
+            ],
+            "isbn_13": [
+                "9780750502252"
+            ],
+            "local_id": [
+                "urn:bwbsku:KQ-038-663"
+            ],
+            "publish_date": "1991-11-01",
+            "publishers": [
+                "Magna Large Print Books"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-05-03:KQ-038-663"
+            ],
+            "title": "Pale Orchid",
+            "full_title": "Pale Orchid",
+            "works": [
+                {
+                    "key": "/works/OL3771285W"
+                }
+            ],
+            "key": "/books/OL47051799M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T10:21:17.183216"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL34872136M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2014",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781460348079"
+            ],
+            "subjects": [
+                "Fiction, romance, suspense"
+            ],
+            "title": "Pale Orchid",
+            "full_title": "Pale Orchid",
+            "works": [
+                {
+                    "key": "/works/OL3771285W"
+                }
+            ],
+            "key": "/books/OL34872136M",
+            "identifiers": {},
+            "isbn_13": [
+                "9781460348079"
+            ],
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-08T21:32:06.806195"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL9734371M": {
+            "title": "Pale Orchid",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "publish_date": "May 1992",
+            "publishers": [
+                "Ulverscroft Large Print"
+            ],
+            "covers": [
+                10239530,
+                8289314
+            ],
+            "edition_name": "Large Print Edition",
+            "physical_format": "Paperback",
+            "subjects": [
+                "General",
+                "Fiction - General",
+                "Large Print"
+            ],
+            "source_records": [
+                "ia:paleorchid0000math",
+                "promise:bwb_daily_pallets_2021-06-28"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:O7-BSL-927"
+            ],
+            "key": "/books/OL9734371M",
+            "number_of_pages": 279,
+            "works": [
+                {
+                    "key": "/works/OL3771285W"
+                }
+            ],
+            "identifiers": {},
+            "ocaid": "paleorchid0000math",
+            "isbn_10": [
+                "0750502266"
+            ],
+            "isbn_13": [
+                "9780750502269"
+            ],
+            "classifications": {},
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL29248599M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781472097552"
+            ],
+            "title": "Duelling Fire",
+            "number_of_pages": 192,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Duelling Fire",
+            "publish_date": "2014",
+            "key": "/books/OL29248599M",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3771266W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, general"
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9781472097552"
+            ],
+            "classifications": {},
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-23T20:41:12.231788"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL38010863M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL9180803A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "352",
+            "publish_date": "2022",
+            "publishers": [
+                "Little, Brown Book Group Limited"
+            ],
+            "source_records": [
+                "bwb:9780349434285"
+            ],
+            "subjects": [
+                "American literature"
+            ],
+            "title": "Twisted Lies",
+            "weight": "0.300 ",
+            "subtitle": "TikTok Made Me Buy It! Fall into a World of Addictive Romance...",
+            "full_title": "Twisted Lies TikTok Made Me Buy It! Fall into a World of Addictive Romance...",
+            "works": [
+                {
+                    "key": "/works/OL27818823W"
+                }
+            ],
+            "key": "/books/OL38010863M",
+            "covers": [
+                15170007
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9780349434285"
+            ],
+            "lc_classifications": [
+                "PS3608"
+            ],
+            "latest_revision": 21,
+            "revision": 21,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-05-25T21:01:28.526364"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-02-14T09:44:42.024411"
+            }
+        },
+        "/books/OL60555757M": {
+            "works": [
+                {
+                    "key": "/works/OL36090166W"
+                }
+            ],
+            "title": "Spijt van jou",
+            "publishers": [
+                "Uitgeverij Zomer & Keuning"
+            ],
+            "publish_date": "May 26, 2021",
+            "key": "/books/OL60555757M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                15137020
+            ],
+            "isbn_13": [
+                "9789020537932"
+            ],
+            "isbn_10": [
+                "9020537938"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/dut"
+                }
+            ],
+            "translated_from": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "Spijt van jou is de aangrijpende moederdochterroman van multitalent en topauteur Colleen Hoover.\r\n\r\nMorgan, de hoofdpersoon in Spijt van jou van Colleen Hoover, werd op zeventienjarige leeftijd zwanger van haar nu zestienjarige dochter Clara. De twee botsen erg met elkaar, maar gelukkig weet vader Chris de vrede te bewaren tussen de overbezorgde moeder en de vrijgevochten dochter. Als hij betrokken raakt bij een ernstig ongeluk, stort hun wereld in en elke dag komen er nieuwe geheimen aan het licht. Morgan en Clara raken steeds verder van elkaar verwijderd. Zullen ze de weg naar elkaar weer kunnen terugvinden?\r\n\r\nColleen Hoover vertelt op indringende wijze uit zowel het perspectief van Morgan als Clara. Spijt van jou is een prachtige roman over familie, eerste liefde, rouw en bedrog."
+            },
+            "physical_format": "Paperback",
+            "number_of_pages": 416,
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-10-29T10:18:25.274703"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-29T10:19:19.845473"
+            }
+        },
+        "/books/OL59120655M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "2021",
+            "publish_country": "is",
+            "languages": [
+                {
+                    "key": "/languages/heb"
+                }
+            ],
+            "work_titles": [
+                "Regreting you"
+            ],
+            "title": "להתחרט עליך",
+            "other_titles": [
+                "Le-hitḥareṭ ʻalekha"
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL7315784A"
+                },
+                {
+                    "key": "/authors/OL15029308A"
+                }
+            ],
+            "oclc_numbers": [
+                "1289500930"
+            ],
+            "subjects": [
+                "Teenage pregnancy",
+                "Fiction",
+                "Family secrets",
+                "Mothers and daughters"
+            ],
+            "publishers": [
+                "Kineret Zemorah Bitan Devir"
+            ],
+            "publish_places": [
+                "Modiʻin"
+            ],
+            "isbn_13": [
+                "9789655742657"
+            ],
+            "pagination": "351 p.",
+            "number_of_pages": 351,
+            "source_records": [
+                "marc:harvard_bibliographic_metadata/20220215_067.bib.mrc:114306489:1684"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL36090166W"
+                }
+            ],
+            "key": "/books/OL59120655M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-05-17T07:52:35.457406"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-09T09:59:15.710472"
+            }
+        },
+        "/books/OL27954433M": {
+            "publishers": [
+                "Wydawnictwo Otwarte",
+                "Otwarte"
+            ],
+            "title": "Gdyby nie ty",
+            "covers": [
+                9342701
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL27954433M",
+            "publish_places": [
+                "Kraków, Poland"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL36090166W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {
+                "goodreads": [
+                    "50433734"
+                ]
+            },
+            "isbn_13": [
+                "9788381350266"
+            ],
+            "classifications": {},
+            "translation_of": "Regretting You",
+            "physical_format": "Paperback",
+            "translated_from": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 408,
+            "description": {
+                "type": "/type/text",
+                "value": "Gdyby nie ona, moje życie wyglądałoby inaczej.\r\nGdyby nie on, nie dałabym sobie rady.\r\nGdyby nie ty...\r\n\r\nGdyby nie córka, przyszłość Morgan wyglądałaby inaczej. Nie planowała ciąży w młodym wieku i szybkiego ślubu. Teraz jest zdeterminowana, żeby uchronić Clarę przed błędami, które sama popełniła.\r\n\r\nGdyby nie matka, Clara mogłaby iść do przodu. Według niej Morgan staje się coraz bardziej zgorzkniała i zupełnie brak jej spontaniczności. Clara nie chce być taka jak ona.\r\n\r\nGdy tragiczny wypadek dotyka ich rodzinę, życie kobiet wywraca się do góry nogami. Morgan znajduje wsparcie u ostatniego mężczyzny, po którym by się tego spodziewała. Clara zwraca się do chłopaka, z którym nie mogła się kontaktować. Dla jednej i drugiej to relacje okupione dylematami i trudnymi decyzjami. Czy zakazane uczucia zdołają przetrwać?\r\n\r\nPrzejmująca powieść o miłości, rodzinie i stracie. Colleen Hoover z wielką wrażliwością i zrozumieniem opisuje relacje, które prawie przestały istnieć. I zadaje nam pytanie: czy i jak o nie walczyć?"
+            },
+            "languages": [
+                {
+                    "key": "/languages/pol"
+                }
+            ],
+            "source_records": [
+                "amazon:8381350263"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-04-24T18:10:13.970131"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-05T19:46:45.237672"
+            }
+        },
+        "/books/OL38778104M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "A pesar de ti",
+            "authors": [
+                {
+                    "key": "/authors/OL7315784A"
+                },
+                {
+                    "key": "/authors/OL7969376A"
+                }
+            ],
+            "publish_date": "Oct 19, 2022",
+            "source_records": [
+                "amazon:8408263463"
+            ],
+            "number_of_pages": 432,
+            "publishers": [
+                "Editorial Planeta"
+            ],
+            "physical_format": "paperback",
+            "notes": "Source title: A pesar de ti (Regretting You)",
+            "works": [
+                {
+                    "key": "/works/OL36090166W"
+                }
+            ],
+            "key": "/books/OL38778104M",
+            "covers": [
+                12920912
+            ],
+            "identifiers": {},
+            "isbn_10": [
+                "8408263463"
+            ],
+            "isbn_13": [
+                "9788408263463"
+            ],
+            "classifications": {},
+            "translation_of": "Regretting You",
+            "translated_from": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "contributors": [
+                {
+                    "name": "Milo Krmpotic",
+                    "role": "Translator"
+                }
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "Colleen Hoover te romperá el corazón. El gran fenómeno internacional. \r\n\r\nA Morgan Grant y su hija de dieciséis años, Clara, nada les gustaría más que no parecerse. Morgan está decidida a evitar que su hija cometa los mismos errores que ella, pues al quedarse embarazada y casarse demasiado joven, tuvo que dejar en el aire sus propios sueños. Por suerte, Clara no quiere seguir sus pasos: su predecible madre no tiene un hueso de espontaneidad en el cuerpo.\r\n\r\nCon personalidades tan contrarias les resulta cada vez más difícil coexistir. La única persona que puede traer paz al hogar es Chris, marido, padre y el ancla de la familia. Pero esa paz se rompe cuando se ve envuelto en un trágico y extraño accidente con desgarradoras consecuencias para ellas.\r\n\r\nMientras lucha por reconstruir todo lo que se derrumbó, Morgan encuentra consuelo en la última persona que esperaba y Clara se vuelve hacia el único chico que le han prohibido ver. Pero con cada nuevo secreto y malentendido madre e hija se separan cada vez más, lo último que imaginan es que para volver a enamorarse se necesitan la una a la otra."
+            },
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-07-18T12:35:04.511436"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-05T19:46:45.237672"
+            }
+        },
+        "/books/OL9875624M": {
+            "identifiers": {
+                "librarything": [
+                    "1834713"
+                ],
+                "goodreads": [
+                    "1064377"
+                ]
+            },
+            "title": "Blind Date",
+            "authors": [
+                {
+                    "key": "/authors/OL451969A"
+                }
+            ],
+            "publish_date": "March 1, 1988",
+            "publishers": [
+                "Harlequin"
+            ],
+            "ia_box_id": [
+                "IA124803"
+            ],
+            "series": [
+                "Harlequin Romance - 2900, Mills & Boon Best Seller (reissues) - 695, Mills & Boon Romance - 2616"
+            ],
+            "covers": [
+                6606711
+            ],
+            "physical_format": "Mass Market Paperback",
+            "subjects": [
+                "Non-Classifiable"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-06-28:W6-BAU-109",
+                "bwb:9780373029006",
+                "promise:bwb_daily_pallets_2021-03-08:W6-BWJ-058",
+                "promise:bwb_daily_pallets_2020-12-15:O7-AFZ-732"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:W6-BAU-109",
+                "urn:bwbsku:W6-BWJ-058",
+                "urn:bwbsku:O7-AFZ-732"
+            ],
+            "key": "/books/OL9875624M",
+            "number_of_pages": 187,
+            "works": [
+                {
+                    "key": "/works/OL2959205W"
+                }
+            ],
+            "ocaid": "blinddate00darc",
+            "isbn_10": [
+                "0373029004"
+            ],
+            "isbn_13": [
+                "9780373029006"
+            ],
+            "oclc_numbers": [
+                "17831455"
+            ],
+            "classifications": {},
+            "subtitle": "Harlequin Romance - 2900",
+            "copyright_date": "1986",
+            "latest_revision": 19,
+            "revision": 19,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-15T02:42:02.426297"
+            }
+        },
+        "/books/OL29596311M": {
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "source_records": [
+                "bwb:9781426883132"
+            ],
+            "title": "Marriage on Command",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781426883132"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Marriage on Command",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2010",
+            "key": "/books/OL29596311M",
+            "authors": [
+                {
+                    "key": "/authors/OL584493A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3498775W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-28T19:32:28.116693"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-16T11:27:14.672502"
+            }
+        },
+        "/books/OL10739449M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "1679166"
+                ],
+                "goodreads": [
+                    "4310176"
+                ]
+            },
+            "weight": "1.6 ounces",
+            "series": [
+                "Wedlocked!"
+            ],
+            "covers": [
+                2407503,
+                214901
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL10739449M",
+            "authors": [
+                {
+                    "key": "/authors/OL584493A"
+                }
+            ],
+            "classifications": {},
+            "source_records": [
+                "bwb:9780373122820",
+                "promise:bwb_daily_pallets_2022-06-01",
+                "promise:bwb_daily_pallets_2021-06-10"
+            ],
+            "title": "Marriage on Command",
+            "number_of_pages": 192,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Romance - Adult",
+                "Fiction / Romance / General",
+                "Romance - Contemporary",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern"
+            ],
+            "publish_date": "October 1, 2002",
+            "works": [
+                {
+                    "key": "/works/OL3498775W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.3 x 4.2 x 0.8 inches",
+            "ocaid": "marriageoncomman00lind",
+            "isbn_10": [
+                "0373122829"
+            ],
+            "isbn_13": [
+                "9780373122820"
+            ],
+            "oclc_numbers": [
+                "50264701"
+            ],
+            "local_id": [
+                "urn:bwbsku:T2-CMO-082",
+                "urn:bwbsku:KP-252-317"
+            ],
+            "latest_revision": 14,
+            "revision": 14,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-16T11:27:14.672502"
+            }
+        },
+        "/books/OL10241920M": {
+            "publishers": [
+                "Harlequin Mills & Boon"
+            ],
+            "identifiers": {},
+            "physical_format": "Hardcover",
+            "key": "/books/OL10241920M",
+            "authors": [
+                {
+                    "key": "/authors/OL584493A"
+                }
+            ],
+            "subjects": [
+                "Romance",
+                "Genre Fiction"
+            ],
+            "classifications": {},
+            "source_records": [
+                "bwb:9780263174717"
+            ],
+            "title": "Marriage on Command",
+            "notes": {
+                "type": "/type/text",
+                "value": "Romance"
+            },
+            "number_of_pages": 184,
+            "isbn_13": [
+                "9780263174717"
+            ],
+            "isbn_10": [
+                "0263174719"
+            ],
+            "publish_date": "March 1, 2002",
+            "oclc_numbers": [
+                "49641125"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3498775W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-16T11:27:14.672502"
+            }
+        },
+        "/books/OL9748818M": {
+            "identifiers": {
+                "goodreads": [
+                    "7036894"
+                ]
+            },
+            "title": "Carradine Brand (Target Exclusive)",
+            "authors": [
+                {
+                    "key": "/authors/OL1175057A"
+                }
+            ],
+            "publish_date": "June 1, 1999",
+            "publishers": [
+                "harlequin"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_13": [
+                "9780373219773"
+            ],
+            "physical_format": "Paperback",
+            "isbn_10": [
+                "0373219776"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Non-Classifiable"
+            ],
+            "source_records": [
+                "amazon:0373219776"
+            ],
+            "key": "/books/OL9748818M",
+            "works": [
+                {
+                    "key": "/works/OL5236263W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-21T22:52:13.881173"
+            }
+        },
+        "/books/OL9751371M": {
+            "title": "The Carradine Brand",
+            "authors": [
+                {
+                    "key": "/authors/OL1175057A"
+                }
+            ],
+            "publish_date": "August 11, 1995",
+            "publishers": [
+                "Harlequin Mills & Boon"
+            ],
+            "physical_format": "Hardcover",
+            "isbn_13": [
+                "9780263144444"
+            ],
+            "isbn_10": [
+                "0263144445"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Romance"
+            ],
+            "source_records": [
+                "amazon:0263144445"
+            ],
+            "key": "/books/OL9751371M",
+            "number_of_pages": 192,
+            "works": [
+                {
+                    "key": "/works/OL5236263W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-28T18:32:11.701526"
+            }
+        },
+        "/books/OL9746175M": {
+            "publishers": [
+                "Harlequin Mills & Boon"
+            ],
+            "physical_format": "Hardcover",
+            "source_records": [
+                "bwb:9780263144444"
+            ],
+            "title": "The Carradine Brand",
+            "number_of_pages": 192,
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T04:25:57.559709"
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "isbn_13": [
+                "9780263144444"
+            ],
+            "isbn_10": [
+                "0263144445"
+            ],
+            "publish_date": "August 11, 1995",
+            "key": "/books/OL9746175M",
+            "authors": [
+                {
+                    "key": "/authors/OL1175057A"
+                }
+            ],
+            "latest_revision": 4,
+            "works": [
+                {
+                    "key": "/works/OL5236263W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Romance"
+            ],
+            "revision": 4
+        },
+        "/books/OL59181314M": {
+            "works": [
+                {
+                    "key": "/works/OL1002120W"
+                }
+            ],
+            "title": "A Hora da Estrela",
+            "publishers": [
+                "Rocco"
+            ],
+            "publish_date": "2 maio 2017",
+            "key": "/books/OL59181314M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                15089233
+            ],
+            "isbn_13": [
+                "9788532530660"
+            ],
+            "subtitle": "Edição com manuscritos e ensaios inéditos",
+            "publish_places": [
+                "Brasil"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/por"
+                }
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "Concebida para celebrar o quadragésimo aniversário de sua publicação, esta edição especial de A hora da estrela reproduz pela primeira vez diversos manuscritos originais de Clarice Lispector. Traz, ainda, uma série de textos de referência, de estudiosos e ensaístas brasileiros e estrangeiros. Paloma Vidal se debruçou sobre os manuscritos propriamente ditos, ao passo que Hélène Cixous, Colm Tóibín, Florencia Garramuño, Nádia Battella Gotlib, Clarisse Fukelman e Eduardo Portella focalizaram todos os diferentes aspectos deste que foi o último livro escrito por Clarice. Uma obra de perfil único e original, conciliando habilmente a inovação estilística com os problemas sociais vividos por aqueles que, como a desventurada Macabéa, são obrigados a abandonar o Nordeste natal em busca de melhores condições de vida em outras paragens, nem sempre hospitaleiras. Clarice Lispector dispensa apresentação, já foi consagrada, há muito, como uma das melhores escritoras de língua portuguesa de todos os tempos. Seu talento invulgar se manifestou nos mais diversos campos literários, do romance ao conto, da crônica ao livro infantil, do ensaio à tradução, sempre com um toque distintivo e único, inimitável e difícil de classificar. Clarice é tão única que pode ser descrita apenas como Clarice, assim como Machado de Assis é apenas Machado, prescindindo de sobrenome, apêndices acadêmicos e filiação a escolas e grupos literários. Clarice é, claro, um enigma. Um mistério que amamos decifrar, mesmo sabendo que toda conclusão é apenas provisória e forçosamente parcial, diante de seu talento poliédrico e original."
+            },
+            "physical_format": "Capa Dura",
+            "number_of_pages": 224,
+            "lccn": [
+                "2017315668"
+            ],
+            "lc_classifications": [
+                "PQ9697.L585 H67 2017"
+            ],
+            "oclc_numbers": [
+                "990057297"
+            ],
+            "source_records": [
+                "marc:harvard_bibliographic_metadata/20220215_024.bib.mrc:123460777:2976"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-05-24T18:07:41.483326"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-02T10:47:07.750760"
+            }
+        },
+        "/books/OL53113157M": {
+            "works": [
+                {
+                    "key": "/works/OL1002120W"
+                }
+            ],
+            "title": "A hora da estrela",
+            "publishers": [
+                "Oxford University"
+            ],
+            "publish_date": "2004",
+            "key": "/books/OL53113157M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 1,
+            "revision": 1,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-08-11T00:06:10.775204"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-11T00:06:10.775204"
+            }
+        },
+        "/books/OL50536200M": {
+            "works": [
+                {
+                    "key": "/works/OL1002120W"
+                }
+            ],
+            "title": "A Hora da Estrela",
+            "publishers": [
+                "Relógio D'Água"
+            ],
+            "publish_date": "2002",
+            "key": "/books/OL50536200M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                14565305
+            ],
+            "isbn_10": [
+                "9727086535"
+            ],
+            "classifications": {},
+            "table_of_contents": [
+                {
+                    "level": 1,
+                    "label": "Dedicatória do autor (Na verdade Clarice Lispector)",
+                    "title": "9",
+                    "pagenum": ""
+                },
+                {
+                    "level": 1,
+                    "label": "A Hora da Estrela",
+                    "title": "11",
+                    "pagenum": ""
+                }
+            ],
+            "copyright_date": "1977",
+            "contributors": [
+                {
+                    "role": "Cover Design",
+                    "name": "Fernando Mateus"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/por"
+                }
+            ],
+            "physical_format": "Paperback",
+            "number_of_pages": 100,
+            "pagination": "93p",
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "Tudo no mundo começou com um sim."
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-01-10T22:46:14.448833"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-10T22:55:47.913701"
+            }
+        },
+        "/books/OL40398714M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL93118A"
+                },
+                {
+                    "key": "/authors/OL6758235A"
+                }
+            ],
+            "isbn_13": [
+                "9780718196028"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lc_classifications": [
+                "PQ9697.L585"
+            ],
+            "pagination": "96",
+            "publish_date": "2014",
+            "publishers": [
+                "Penguin Books, Limited"
+            ],
+            "source_records": [
+                "bwb:9780718196028"
+            ],
+            "subjects": [
+                "Fiction, general",
+                "Rio de janeiro (brazil), fiction"
+            ],
+            "title": "Hour of the Star",
+            "full_title": "Hour of the Star",
+            "works": [
+                {
+                    "key": "/works/OL1002120W"
+                }
+            ],
+            "key": "/books/OL40398714M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-18T11:44:28.113437"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-24T19:46:53.313937"
+            }
+        },
+        "/books/OL35466533M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7459594A"
+                }
+            ],
+            "isbn_13": [
+                "9781407095264"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1998",
+            "publishers": [
+                "Penguin Random House"
+            ],
+            "source_records": [
+                "bwb:9781407095264"
+            ],
+            "subjects": [
+                "Fiction, romance, historical, regency",
+                "England, fiction"
+            ],
+            "title": "Bath Tangle",
+            "full_title": "Bath Tangle",
+            "works": [
+                {
+                    "key": "/works/OL4092688W"
+                }
+            ],
+            "key": "/books/OL35466533M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T09:14:51.109303"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-03-02T04:33:49.398192"
+            }
+        },
+        "/books/OL35467904M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7459594A"
+                }
+            ],
+            "isbn_13": [
+                "9781407090269"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1998",
+            "publishers": [
+                "Penguin Random House"
+            ],
+            "source_records": [
+                "bwb:9781407090269"
+            ],
+            "subjects": [
+                "Fiction, romance, historical, regency",
+                "England, fiction"
+            ],
+            "title": "Bath Tangle",
+            "full_title": "Bath Tangle",
+            "works": [
+                {
+                    "key": "/works/OL4092688W"
+                }
+            ],
+            "key": "/books/OL35467904M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T09:40:25.114827"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-03-02T04:33:49.398192"
+            }
+        },
+        "/books/OL34455893M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7459594A"
+                }
+            ],
+            "isbn_13": [
+                "9781446456491"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 320,
+            "publish_date": "2011",
+            "publishers": [
+                "Penguin Random House"
+            ],
+            "source_records": [
+                "bwb:9781446456491"
+            ],
+            "subjects": [
+                "England, fiction",
+                "Fiction, romance, regency"
+            ],
+            "title": "Bath Tangle",
+            "subtitle": "A Classic Regency Romance",
+            "full_title": "Bath Tangle A Classic Regency Romance",
+            "works": [
+                {
+                    "key": "/works/OL4092688W"
+                }
+            ],
+            "key": "/books/OL34455893M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-04T21:44:16.996945"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-03-02T04:06:10.023278"
+            }
+        },
+        "/books/OL25109138M": {
+            "publishers": [
+                "Sourcebooks Casablanca"
+            ],
+            "covers": [
+                9642156
+            ],
+            "full_title": "Bath tangle",
+            "lc_classifications": [
+                "PR6015.E795 B38 2011",
+                "PR6015.E795B38 2011"
+            ],
+            "key": "/books/OL25109138M",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_places": [
+                "Naperville, IL"
+            ],
+            "isbn_13": [
+                "9781402238796"
+            ],
+            "pagination": "p. cm.",
+            "source_records": [
+                "marc:marc_loc_updates/v39.i47.records.utf8:9625816:665",
+                "marc:marc_loc_updates/v40.i15.records.utf8:6956773:676",
+                "ia:bathtangle00heye_684",
+                "marc:marc_loc_2016/BooksAll.2016.part38.utf8:178969312:676",
+                "bwb:9781402238796"
+            ],
+            "title": "Bath tangle",
+            "dewey_decimal_class": [
+                "823/.912"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lccn": [
+                "2011015762"
+            ],
+            "subject_places": [
+                "Bath (England)"
+            ],
+            "subjects": [
+                "Stepdaughters",
+                "Fiction"
+            ],
+            "publish_date": "2011",
+            "publish_country": "ilu",
+            "by_statement": "by Georgette Heyer",
+            "works": [
+                {
+                    "key": "/works/OL4092688W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2011-11-23T09:01:22.695237"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-03-28T15:18:50.101101"
+            }
+        },
+        "/books/OL9483582M": {
+            "publishers": [
+                "William Heinemann Ltd"
+            ],
+            "number_of_pages": 327,
+            "title": "Bath Tangle (The Uniform Edition, Volume 22)",
+            "physical_format": "Hardcover",
+            "identifiers": {
+                "goodreads": [
+                    "3202666"
+                ],
+                "librarything": [
+                    "16475"
+                ]
+            },
+            "edition_name": "Uniform edition",
+            "isbn_13": [
+                "9780434328222"
+            ],
+            "isbn_10": [
+                "0434328227"
+            ],
+            "publish_date": "January 1, 1971",
+            "key": "/books/OL9483582M",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4092688W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Romance: historical"
+            ],
+            "source_records": [
+                "bwb:9780434328222",
+                "ia:bathtangle0000heye_h4k4",
+                "promise:bwb_daily_pallets_2020-11-19"
+            ],
+            "covers": [
+                12799022
+            ],
+            "ocaid": "bathtangle0000heye_h4k4",
+            "oclc_numbers": [
+                "152432317"
+            ],
+            "local_id": [
+                "urn:bwbsku:KO-009-234"
+            ],
+            "latest_revision": 12,
+            "revision": 12,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-02T09:25:25.295322"
+            }
+        },
+        "/books/OL5299466M": {
+            "identifiers": {
+                "librarything": [
+                    "16475"
+                ],
+                "goodreads": [
+                    "6383668"
+                ]
+            },
+            "title": "Connecticut circle",
+            "subtitle": "a novel.",
+            "authors": [
+                {
+                    "key": "/authors/OL2007466A"
+                }
+            ],
+            "publish_date": "1972",
+            "publishers": [
+                "Putnam"
+            ],
+            "isbn_10": [
+                "0399110305"
+            ],
+            "subject_place": [
+                "Connecticut"
+            ],
+            "pagination": "251 p.",
+            "lc_classifications": [
+                "PZ3.G3733 Co3",
+                "PS3513.I415 Co3"
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "dewey_decimal_class": [
+                "813/.5/4"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lccn": [
+                "72080352"
+            ],
+            "subjects": [
+                "Connecticut -- Fiction."
+            ],
+            "publish_country": "nyu",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:marc_records_scriblio_net/part07.dat:19299307:515"
+            ],
+            "key": "/books/OL5299466M",
+            "number_of_pages": 251,
+            "works": [
+                {
+                    "key": "/works/OL4092688W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-18T05:06:41.032529"
+            }
+        },
+        "/books/OL7656237M": {
+            "publishers": [
+                "Jove"
+            ],
+            "weight": "8 ounces",
+            "physical_format": "Paperback",
+            "key": "/books/OL7656237M",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "subjects": [
+                "Romance - Regency"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "title": "Bath Tangle",
+            "identifiers": {
+                "librarything": [
+                    "16475"
+                ]
+            },
+            "isbn_13": [
+                "9780515057607"
+            ],
+            "isbn_10": [
+                "0515057606"
+            ],
+            "publish_date": "March 1, 1981",
+            "oclc_numbers": [
+                "7567166"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4092688W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "7 x 5 x 1 inches",
+            "source_records": [
+                "bwb:9780515057607",
+                "amazon:0515057606"
+            ],
+            "covers": [
+                13248596
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-02T09:25:25.295322"
+            }
+        },
+        "/books/OL5298818M": {
+            "publishers": [
+                "Putnam",
+                "Brand: Putnam"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "16475"
+                ],
+                "goodreads": [
+                    "6383668"
+                ]
+            },
+            "isbn_10": [
+                "0399110305"
+            ],
+            "subject_place": [
+                "Bath (England)"
+            ],
+            "pagination": "312 p.",
+            "local_id": [
+                "urn:sfpl:31223000539073"
+            ],
+            "lc_classifications": [
+                "PZ3.H514 Bat6",
+                "PR6015.E795 Bat6",
+                "PZ3.G3733 Co3",
+                "PS3513.I415 Co3",
+                "PZ3.H514Bat6"
+            ],
+            "key": "/books/OL5298818M",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "source_records": [
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run01.mrc:85271537:1225",
+                "marc:marc_loc_2016/BooksAll.2016.part07.utf8:103418395:597",
+                "marc:marc_loc_2016/BooksAll.2016.part07.utf8:103892260:515",
+                "bwb:9780399110306",
+                "amazon:0399110305"
+            ],
+            "title": "Bath tangle.",
+            "dewey_decimal_class": [
+                "823/.9/12"
+            ],
+            "number_of_pages": 312,
+            "edition_name": "[2d American ed.]",
+            "lccn": [
+                "72079524",
+                "72080352"
+            ],
+            "subjects": [
+                "Bath (England) -- Fiction."
+            ],
+            "publish_date": "1972",
+            "publish_country": "nyu",
+            "works": [
+                {
+                    "key": "/works/OL4092688W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                13809444
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-02T09:25:25.295322"
+            }
+        },
+        "/books/OL14822154M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Originally published by Heinemann."
+            },
+            "title": "Bath tangle.",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publishers": [
+                "The Book Club"
+            ],
+            "dewey_decimal_class": [
+                "823.914"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_country": "xxk",
+            "publish_places": [
+                "London"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:374894674:435"
+            ],
+            "key": "/books/OL14822154M",
+            "works": [
+                {
+                    "key": "/works/OL4092688W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-15T13:01:38.518352"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-11T05:42:52.744048"
+            }
+        },
+        "/books/OL7286274M": {
+            "publishers": [
+                "HarperPrism"
+            ],
+            "title": "Bath Tangle",
+            "identifiers": {
+                "goodreads": [
+                    "1649060"
+                ],
+                "librarything": [
+                    "16475"
+                ]
+            },
+            "isbn_13": [
+                "9780061002045"
+            ],
+            "covers": [
+                42987
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0061002046"
+            ],
+            "publish_date": "June 1996",
+            "key": "/books/OL7286274M",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4092688W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "bwb:9780061002045"
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-02T09:25:25.295322"
+            }
+        },
+        "/books/OL15126035M": {
+            "publishers": [
+                "Ulverscroft"
+            ],
+            "number_of_pages": 562,
+            "isbn_10": [
+                "0708904963"
+            ],
+            "series": [
+                "Ulverscroft large print series"
+            ],
+            "key": "/books/OL15126035M",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_places": [
+                "Leicester"
+            ],
+            "edition_name": "Large print ed.",
+            "pagination": "562p. ;",
+            "title": "Bath tangle",
+            "dewey_decimal_class": [
+                "823/.912"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Originally published, London , Heinemann, 1955."
+            },
+            "identifiers": {
+                "goodreads": [
+                    "2899831"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Fiction in English."
+            ],
+            "publish_date": "1980",
+            "publish_country": "xxk",
+            "by_statement": "Georgette Heyer.",
+            "works": [
+                {
+                    "key": "/works/OL4092688W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "bwb:9780708904961"
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-18T13:37:22.878615"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-02T09:25:25.295322"
+            }
+        },
+        "/books/OL24108081M": {
+            "publishers": [
+                "HQN Books"
+            ],
+            "isbn_10": [
+                "0373773870"
+            ],
+            "pagination": "319 p. ;",
+            "lc_classifications": [
+                "PR6015.E795 B38 2009"
+            ],
+            "key": "/books/OL24108081M",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_places": [
+                "Don Mills, Ont"
+            ],
+            "oclc_number": [
+                "276335211"
+            ],
+            "isbn_13": [
+                "9780373773879"
+            ],
+            "genres": [
+                "Fiction"
+            ],
+            "source_records": [
+                "marc:marc_loc_updates/v38.i10.records.utf8:16089127:810"
+            ],
+            "title": "Bath tangle",
+            "dewey_decimal_class": [
+                "823/.912"
+            ],
+            "number_of_pages": 319,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lccn": [
+                "2009504157"
+            ],
+            "subjects": [
+                "Stepdaughters -- Fiction",
+                "Bath (England) -- Fiction"
+            ],
+            "publish_date": "2009",
+            "publish_country": "onc",
+            "by_statement": "Georgette Heyer ; with a foreword by Candace Camp.",
+            "works": [
+                {
+                    "key": "/works/OL4092688W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-03-18T23:58:11.390121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-02T09:25:25.295322"
+            }
+        },
+        "/books/OL3417832M": {
+            "publishers": [
+                "Thorndike Press",
+                "Thorndike Pr"
+            ],
+            "subject_place": [
+                "Bath (England)"
+            ],
+            "pagination": "p. cm.",
+            "covers": [
+                12689338,
+                1473549
+            ],
+            "key": "/books/OL3417832M",
+            "authors": [
+                {
+                    "key": "/authors/OL7459594A"
+                }
+            ],
+            "publish_places": [
+                "Waterville, Me"
+            ],
+            "subjects": [
+                "Large type books.",
+                "Bath (England) -- Fiction."
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "source_records": [
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run03.mrc:155890129:2187",
+                "marc:marc_loc_2016/BooksAll.2016.part32.utf8:158826923:995",
+                "ia:bathtangle0000heye_o4u4",
+                "amazon:0786283971"
+            ],
+            "title": "Bath Tangle",
+            "identifiers": {
+                "goodreads": [
+                    "4621053"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "local_id": [
+                "urn:sfpl:31223049387575",
+                "urn:sfpl:31223049387591"
+            ],
+            "publish_date": "2006",
+            "publish_country": "meu",
+            "series": [
+                "Thorndike Press large print romance"
+            ],
+            "by_statement": "by Georgette Heyer.",
+            "works": [
+                {
+                    "key": "/works/OL4092688W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "number_of_pages": 552,
+            "ocaid": "bathtangle0000heye_o4u4",
+            "isbn_10": [
+                "0786283971"
+            ],
+            "lccn": [
+                "2005034151"
+            ],
+            "oclc_numbers": [
+                "62341571"
+            ],
+            "classifications": {},
+            "dewey_decimal_class": [
+                "823/.912"
+            ],
+            "lc_classifications": [
+                "PR6015.E795 B38 2006"
+            ],
+            "latest_revision": 13,
+            "revision": 13,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-11T11:41:53.017186"
+            }
+        },
+        "/books/OL17518867M": {
+            "publishers": [
+                "Mandarin"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "2899829"
+                ],
+                "librarything": [
+                    "16475"
+                ]
+            },
+            "key": "/books/OL17518867M",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "327p. ;",
+            "title": "Bath tangle.",
+            "dewey_decimal_class": [
+                "823.912"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Originally published: London : W. Heinemann, 1955."
+            },
+            "number_of_pages": 327,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0749304391"
+            ],
+            "publish_date": "1998",
+            "publish_country": "enk",
+            "works": [
+                {
+                    "key": "/works/OL4092688W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                11593815
+            ],
+            "ocaid": "bathtangle0000heye",
+            "source_records": [
+                "ia:bathtangle0000heye",
+                "bwb:9780749304393",
+                "promise:bwb_daily_pallets_2020-09-09"
+            ],
+            "local_id": [
+                "urn:bwbsku:KO-233-655"
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-29T03:28:02.310235"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-02T09:25:25.295322"
+            }
+        },
+        "/books/OL8617094M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Large Print"
+            },
+            "identifiers": {
+                "librarything": [
+                    "16475"
+                ],
+                "goodreads": [
+                    "1243632"
+                ]
+            },
+            "title": "Bath Tangle",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_date": "March 1992",
+            "publishers": [
+                "Thorndike Pr"
+            ],
+            "weight": "1.2 pounds",
+            "physical_format": "Paperback",
+            "subjects": [
+                "Regency novels",
+                "Large Print",
+                "Fiction - Romance",
+                "Romance - General",
+                "Bath (England)",
+                "Fiction",
+                "Large print books",
+                "Large type books"
+            ],
+            "edition_name": "Largeprint edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_13": [
+                "9781560549499"
+            ],
+            "isbn_10": [
+                "1560549491"
+            ],
+            "oclc_numbers": [
+                "23869690"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.5 x 5.2 x 1 inches",
+            "source_records": [
+                "amazon:1560549491"
+            ],
+            "key": "/books/OL8617094M",
+            "number_of_pages": 534,
+            "works": [
+                {
+                    "key": "/works/OL4092688W"
+                }
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T08:14:56.482104"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-31T09:39:25.604438"
+            }
+        },
+        "/books/OL38291111M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "isbn_13": [
+                "9781322062686"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2014",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781322062686"
+            ],
+            "title": "Pale Orchid",
+            "full_title": "Pale Orchid",
+            "works": [
+                {
+                    "key": "/works/OL3771285W"
+                }
+            ],
+            "key": "/books/OL38291111M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-17T16:42:20.291782"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL14981150M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "key": "/books/OL14981150M",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "186p.",
+            "source_records": [
+                "bwb:9780263752274",
+                "amazon:0263752275"
+            ],
+            "title": "Pale orchid",
+            "number_of_pages": 186,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263752275"
+            ],
+            "publish_date": "1985",
+            "publish_country": "enk",
+            "by_statement": "by Anne Mather.",
+            "oclc_numbers": [
+                "13378181"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3771285W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T23:26:50.975189"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL9713142M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "number_of_pages": 186,
+            "series": [
+                "Harlequin Presents, No 869"
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL9713142M",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "subjects": [
+                "Non-Classifiable",
+                "Fiction"
+            ],
+            "isbn_13": [
+                "9780373108695"
+            ],
+            "classifications": {},
+            "source_records": [
+                "bwb:9780373108695",
+                "ia:paleorchid0000math_y9j7",
+                "amazon:0373108699",
+                "promise:bwb_daily_pallets_2022-06-06"
+            ],
+            "title": "Pale Orchid",
+            "identifiers": {
+                "librarything": [
+                    "1937380"
+                ],
+                "goodreads": [
+                    "1739361"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373108699"
+            ],
+            "publish_date": "February 1, 1986",
+            "oclc_numbers": [
+                "13015739"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3771285W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                15102831,
+                12846715
+            ],
+            "ocaid": "paleorchid0000math_y9j7",
+            "local_id": [
+                "urn:bwbsku:O8-ALY-487"
+            ],
+            "latest_revision": 16,
+            "revision": 16,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-07-13T14:20:06.462128"
+            }
+        },
+        "/books/OL17164435M": {
+            "publishers": [
+                "Mills & Boon",
+                "Harlequin Mills & Boon"
+            ],
+            "key": "/books/OL17164435M",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "286p. ;",
+            "source_records": [
+                "bwb:9780263114263",
+                "amazon:0263114260"
+            ],
+            "title": "Duelling fire.",
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Large print."
+            },
+            "number_of_pages": 286,
+            "edition_name": "Large print ed.",
+            "isbn_10": [
+                "0263114260"
+            ],
+            "publish_date": "1987",
+            "publish_country": "xxk",
+            "oclc_numbers": [
+                "18522774"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3771266W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                13880504
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-27T19:14:30.462659"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL22727100M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "title": "Duelling fire.",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263758842"
+            ],
+            "publish_date": "1987",
+            "publish_country": "xxk",
+            "key": "/books/OL22727100M",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "publish_places": [
+                "Richmond, Surrey"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3771266W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "oclc_numbers": [
+                "315659959"
+            ],
+            "source_records": [
+                "amazon:0263758842"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-12-19T17:05:03.148299"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL38446297M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL4782813A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "560",
+            "publish_date": "2022",
+            "publishers": [
+                "Bloom Books"
+            ],
+            "source_records": [
+                "bwb:9781728274898",
+                "amazon:1728274893",
+                "promise:bwb_daily_pallets_2023-09-26:O9-BET-878"
+            ],
+            "title": "Twisted Lies",
+            "weight": "0.010 ",
+            "full_title": "TLs",
+            "works": [
+                {
+                    "key": "/works/OL27818823W"
+                }
+            ],
+            "key": "/books/OL38446297M",
+            "local_id": [
+                "urn:bwbsku:O9-BET-878"
+            ],
+            "identifiers": {
+                "better_world_books": [
+                    "9781728274898"
+                ],
+                "alibris_id": [
+                    "9781728274898"
+                ],
+                "abebooks.de": [
+                    "32334034822"
+                ],
+                "storygraph": [
+                    "f38db66d-d58e-4730-9000-077f1f7b5b8c"
+                ],
+                "amazon": [
+                    "1728274893"
+                ],
+                "goodreads": [
+                    "62058385"
+                ]
+            },
+            "covers": [
+                15144107
+            ],
+            "isbn_13": [
+                "9781728274898"
+            ],
+            "oclc_numbers": [
+                "1317835459"
+            ],
+            "isbn_10": [
+                "1728274893"
+            ],
+            "dewey_decimal_class": [
+                "813.6"
+            ],
+            "lc_classifications": [
+                "PS3608.U264 T86"
+            ],
+            "publish_places": [
+                "Naperville, Illinois, USA"
+            ],
+            "series": [
+                "Twisted, 4"
+            ],
+            "physical_format": "Paperback",
+            "number_of_pages": 560,
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T05:34:14.334739"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-17T16:34:19.209394"
+            }
+        },
+        "/books/OL38574449M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Twisted Lies - Special Edition",
+            "authors": [
+                {
+                    "key": "/authors/OL9180803A"
+                }
+            ],
+            "publish_date": "Jun 24, 2022",
+            "source_records": [
+                "amazon:1957464054",
+                "bwb:9781957464053",
+                "promise:bwb_daily_pallets_2022-10-19"
+            ],
+            "number_of_pages": 450,
+            "publishers": [
+                "Ana Huang"
+            ],
+            "isbn_10": [
+                "1957464054"
+            ],
+            "isbn_13": [
+                "9781957464053"
+            ],
+            "physical_format": "paperback",
+            "works": [
+                {
+                    "key": "/works/OL27818823W"
+                }
+            ],
+            "key": "/books/OL38574449M",
+            "local_id": [
+                "urn:bwbsku:T2-EAP-875"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-29T04:53:16.581886"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-11-12T01:14:10.368505"
+            }
+        },
+        "/books/OL60855075M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7315784A"
+                }
+            ],
+            "dewey_decimal_class": [
+                "813/.6"
+            ],
+            "isbn_13": [
+                "9781662535642"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 366,
+            "publish_date": "2025",
+            "publishers": [
+                "Amazon Publishing"
+            ],
+            "source_records": [
+                "bwb:9781662535642"
+            ],
+            "title": "Regretting You",
+            "weight": "0.505",
+            "full_title": "Regretting You",
+            "works": [
+                {
+                    "key": "/works/OL36090166W"
+                }
+            ],
+            "key": "/books/OL60855075M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-12-12T22:12:27.277563"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-26T22:46:06.938570"
+            }
+        },
+        "/books/OL1645884M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "series": [
+                "Romance ;",
+                "3458"
+            ],
+            "lc_classifications": [
+                "MLCS 91/15998 (P)"
+            ],
+            "latest_revision": 6,
+            "key": "/books/OL1645884M",
+            "authors": [
+                {
+                    "key": "/authors/OL2674708A"
+                }
+            ],
+            "publish_places": [
+                "Richmond, Surrey"
+            ],
+            "pagination": "187 p. ;",
+            "source_records": [
+                "bwb:9780263127133",
+                "marc:marc_loc_2016/BooksAll.2016.part21.utf8:120546899:493"
+            ],
+            "title": "The imperfect bride",
+            "lccn": [
+                "91202092"
+            ],
+            "number_of_pages": 187,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263127133"
+            ],
+            "publish_date": "1991",
+            "publish_country": "enk",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-11-14T15:58:44.367522"
+            },
+            "by_statement": "by Karen Van der Zee.",
+            "oclc_numbers": [
+                "60047292"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4220822W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 6
+        },
+        "/books/OL3388071M": {
+            "identifiers": {
+                "librarything": [
+                    "1700524"
+                ],
+                "goodreads": [
+                    "1549138"
+                ]
+            },
+            "title": "The Token Wife",
+            "authors": [
+                {
+                    "key": "/authors/OL577983A"
+                }
+            ],
+            "publish_date": "2004",
+            "publishers": [
+                "Harlequin Books",
+                "Harlequin Presents",
+                "Harlequin"
+            ],
+            "ia_box_id": [
+                "IA177501"
+            ],
+            "subject_place": [
+                "England"
+            ],
+            "pagination": "186 p. ;",
+            "covers": [
+                4257877
+            ],
+            "ia_loaded_id": [
+                "tokenwife00crav"
+            ],
+            "publish_places": [
+                "Toronto",
+                "New York"
+            ],
+            "contributions": [
+                "Copyright Paperback Collection (Library of Congress)"
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-08-29:O8-CWU-677",
+                "ia:tokenwife00crav",
+                "bwb:9780373123698",
+                "marc:marc_loc_2016/BooksAll.2016.part32.utf8:105857506:961",
+                "promise:bwb_daily_pallets_2020-11-12:W6-AYO-509"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Bankers -- Fiction.",
+                "Legal assistants -- Fiction.",
+                "Inheritance and succession -- Fiction.",
+                "Arranged marriage -- Fiction.",
+                "England -- Fiction."
+            ],
+            "publish_country": "onc",
+            "series": [
+                "Wedlocked!"
+            ],
+            "by_statement": "Sara Craven.",
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "tokenwife00crav",
+            "isbn_10": [
+                "0373123698"
+            ],
+            "lccn": [
+                "2004596418"
+            ],
+            "oclc_numbers": [
+                "53958079"
+            ],
+            "lc_classifications": [
+                "CPB Box no. 2200 vol. 24",
+                "CPB"
+            ],
+            "local_id": [
+                "urn:bwbsku:O8-CWU-677",
+                "urn:bwbsku:W6-AYO-509"
+            ],
+            "key": "/books/OL3388071M",
+            "number_of_pages": 186,
+            "works": [
+                {
+                    "key": "/works/OL3467574W"
+                }
+            ],
+            "latest_revision": 22,
+            "revision": 22,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T17:05:06.550775"
+            }
+        },
+        "/books/OL29785506M": {
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "source_records": [
+                "bwb:9781488099052"
+            ],
+            "title": "Subtle Revenge",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781488099052"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Subtle Revenge",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2018",
+            "key": "/books/OL29785506M",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3775371W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-31T04:58:54.610704"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-29T02:29:39.424308"
+            }
+        },
+        "/books/OL28973842M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263743777"
+            ],
+            "title": "Subtle Revenge",
+            "number_of_pages": 188,
+            "isbn_13": [
+                "9780263743777"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Subtle Revenge",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "1983",
+            "key": "/books/OL28973842M",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3775371W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, general"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T22:24:28.722586"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-29T02:29:39.424308"
+            }
+        },
+        "/books/OL2673629M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "lc_classifications": [
+                "MLCS 85/00690 (P)"
+            ],
+            "latest_revision": 4,
+            "key": "/books/OL2673629M",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "188 p. ;",
+            "source_records": [
+                "marc:marc_loc_2016/BooksAll.2016.part17.utf8:13379386:410"
+            ],
+            "title": "Subtle revenge",
+            "lccn": [
+                "85838835"
+            ],
+            "number_of_pages": 188,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-11-04T02:24:44.853768"
+            },
+            "publish_date": "1983",
+            "publish_country": "enk",
+            "by_statement": "by Carole Mortimer.",
+            "works": [
+                {
+                    "key": "/works/OL3775371W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 4
+        },
+        "/books/OL9746351M": {
+            "publishers": [
+                "harlequin"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "title": "The Carradine Brand",
+            "identifiers": {
+                "goodreads": [
+                    "7036894"
+                ]
+            },
+            "physical_format": "Paperback",
+            "publish_date": "June 1, 1999",
+            "key": "/books/OL9746351M",
+            "authors": [
+                {
+                    "key": "/authors/OL1175057A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL5236263W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Non-Classifiable"
+            ],
+            "covers": [
+                13230306
+            ],
+            "source_records": [
+                "amazon:0373219776",
+                "promise:bwb_daily_pallets_2024-02-12:P9-ABH-403"
+            ],
+            "local_id": [
+                "urn:bwbsku:P9-ABH-403"
+            ],
+            "isbn_10": [
+                "0373219776"
+            ],
+            "isbn_13": [
+                "9780373219773"
+            ],
+            "classifications": {},
+            "edition_name": "Target Exclusive",
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-09-16T08:21:49.077374"
+            }
+        },
+        "/books/OL21871872M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "2031631"
+                ]
+            },
+            "series": [
+                "Romance"
+            ],
+            "key": "/books/OL21871872M",
+            "authors": [
+                {
+                    "key": "/authors/OL1175057A"
+                }
+            ],
+            "publish_places": [
+                "Richmond, Surrey"
+            ],
+            "pagination": "187p. ;",
+            "source_records": [
+                "bwb:9780263792393"
+            ],
+            "title": "The Carradine Brand",
+            "number_of_pages": 187,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1995",
+            "publish_country": "enk",
+            "by_statement": "by Margaret Way.",
+            "works": [
+                {
+                    "key": "/works/OL5236263W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_10": [
+                "0263792390"
+            ],
+            "oclc_numbers": [
+                "33222898"
+            ],
+            "classifications": {},
+            "dewey_decimal_class": [
+                "823.914"
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-04T12:30:20.293192"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-08-05T11:23:39.756217"
+            }
+        },
+        "/books/OL9738745M": {
+            "description": "The rancher's daughter and the cattle king\r\n\r\nCurt Carradine is one of the biggest landowners in Australia. Smart, tough, extraordinarily handsome. Other men admire him. Women fall in love with him.\r\n\r\nRachael Munro is no exception. As a teenager, she'd loved him with all the intensity of youth. She still loves him, but as a grown woman now. Curt still regards her as a child, though--especially since her father's recent death....\r\n\r\nWorse, he seems more than a little interested in acquiring Miriwin, the Munro ranch. And in acquiring her glamorous stepmother, Sonia, as his wife.\r\n\r\nA double betrayal, to Rachael's way of thinking. She's already lost her heart. Is her land next?",
+            "identifiers": {
+                "goodreads": [
+                    "3974605"
+                ],
+                "librarything": [
+                    "2031631"
+                ]
+            },
+            "title": "The Carradine Brand",
+            "authors": [
+                {
+                    "key": "/authors/OL1175057A"
+                }
+            ],
+            "publish_date": "September 1, 1994",
+            "publishers": [
+                "harlequin",
+                "Harlequin"
+            ],
+            "table_of_contents": [
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "The rancher's daughter and the cattle king",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "Curt Carradine is one of the biggest landowners in Australia. Smart, tough, extraordinarily handsome. Other men admire him. Women fall in love with him.",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "Rachael Munro is no exception. As a teenager, she'd loved him with all the intensity of youth. She still loves him, but as a grown woman now. Curt still regards her as a child, though--especially since her father's recent death....",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "Worse, he seems more than a little interested in acquiring Miriwin, the Munro ranch. And in acquiring her glamorous stepmother, Sonia, as his wife.",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "A double betrayal, to Rachael's way of thinking. She's already lost her heart. Is her land next?",
+                    "pagenum": ""
+                }
+            ],
+            "weight": "0.8 ounces",
+            "series": [
+                "Harlequin Romance, No 3331"
+            ],
+            "covers": [
+                6386372
+            ],
+            "physical_format": "Paperback",
+            "ia_box_id": [
+                "IA111908"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-09-22:P7-DTI-996",
+                "bwb:9780373033317",
+                "promise:bwb_daily_pallets_2021-03-04:699-BAC-525"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Non-Classifiable",
+                "Romance - General",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Regency"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.6 x 4.2 x 0.6 inches",
+            "local_id": [
+                "urn:bwbsku:P7-DTI-996",
+                "urn:bwbsku:699-BAC-525"
+            ],
+            "key": "/books/OL9738745M",
+            "works": [
+                {
+                    "key": "/works/OL5236263W"
+                }
+            ],
+            "ocaid": "carradinebrand00waym",
+            "isbn_10": [
+                "0373033311"
+            ],
+            "isbn_13": [
+                "9780373033317"
+            ],
+            "oclc_numbers": [
+                "30969776"
+            ],
+            "classifications": {},
+            "latest_revision": 21,
+            "revision": 21,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-27T00:44:13.381630"
+            }
+        },
+        "/books/OL36005253M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL93118A"
+                },
+                {
+                    "key": "/authors/OL6758235A"
+                },
+                {
+                    "key": "/authors/OL10012820A"
+                },
+                {
+                    "key": "/authors/OL82249A"
+                }
+            ],
+            "isbn_13": [
+                "9780811230995"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "128",
+            "publish_date": "2020",
+            "publishers": [
+                "New Directions Publishing Corporation"
+            ],
+            "source_records": [
+                "bwb:9780811230995"
+            ],
+            "subjects": [
+                "Fiction, women",
+                "Fiction, hispanic & latino"
+            ],
+            "title": "Hour of the Star",
+            "subtitle": "100th Anniversary Edition",
+            "full_title": "Hour of the Star 100th Anniversary Edition",
+            "works": [
+                {
+                    "key": "/works/OL1002120W"
+                }
+            ],
+            "key": "/books/OL36005253M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-12-27T18:10:44.665193"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-24T19:46:53.313937"
+            }
+        },
+        "/books/OL35466537M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7459594A"
+                }
+            ],
+            "isbn_13": [
+                "9781407080260"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1998",
+            "publishers": [
+                "Penguin Random House"
+            ],
+            "source_records": [
+                "bwb:9781407080260"
+            ],
+            "subjects": [
+                "Fiction, romance, historical, regency",
+                "England, fiction"
+            ],
+            "title": "Bath Tangle",
+            "full_title": "Bath Tangle",
+            "works": [
+                {
+                    "key": "/works/OL4092688W"
+                }
+            ],
+            "key": "/books/OL35466537M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T09:14:53.126969"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-03-02T04:33:49.398192"
+            }
+        },
+        "/books/OL26329428M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "identifiers": {},
+            "covers": [
+                12689339,
+                8006284
+            ],
+            "full_title": "Bath tangle",
+            "key": "/books/OL26329428M",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_places": [
+                "Toronto",
+                "New York"
+            ],
+            "pagination": "409 pages ;",
+            "classifications": {},
+            "source_records": [
+                "ia:bathtangle00geor",
+                "bwb:9780373836116",
+                "promise:bwb_daily_pallets_2022-09-07"
+            ],
+            "title": "Bath Tangle",
+            "number_of_pages": 409,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subject_places": [
+                "England"
+            ],
+            "subjects": [
+                "Fiction"
+            ],
+            "publish_date": "2004",
+            "publish_country": "onc",
+            "by_statement": "Georgette Heyer ; with a foreword by Candace Camp",
+            "works": [
+                {
+                    "key": "/works/OL4092688W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "bathtangle00geor",
+            "isbn_10": [
+                "0373836112"
+            ],
+            "isbn_13": [
+                "9780373836116"
+            ],
+            "oclc_numbers": [
+                "55611044"
+            ],
+            "dewey_decimal_class": [
+                "[Fic]"
+            ],
+            "local_id": [
+                "urn:bwbsku:W7-CFP-239"
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2017-06-24T00:20:21.102022"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-02T09:25:25.295322"
+            }
+        },
+        "/books/OL7656424M": {
+            "publishers": [
+                "Jove"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "weight": "8 ounces",
+            "title": "Bath Tangle",
+            "identifiers": {
+                "librarything": [
+                    "16475"
+                ]
+            },
+            "isbn_13": [
+                "9780515068801"
+            ],
+            "physical_format": "Paperback",
+            "isbn_10": [
+                "0515068802"
+            ],
+            "publish_date": "January 1, 1983",
+            "key": "/books/OL7656424M",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4092688W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Romance - Regency"
+            ],
+            "physical_dimensions": "7 x 5 x 1 inches",
+            "source_records": [
+                "amazon:0515068802",
+                "promise:bwb_daily_pallets_2022-03-17",
+                "bwb:9780515068801"
+            ],
+            "local_id": [
+                "urn:bwbsku:W7-ADD-599"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-02T09:25:25.295322"
+            }
+        },
+        "/books/OL7656493M": {
+            "publishers": [
+                "Jove"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "weight": "8 ounces",
+            "title": "Bath Tangle",
+            "identifiers": {
+                "librarything": [
+                    "16475"
+                ]
+            },
+            "isbn_13": [
+                "9780515073713"
+            ],
+            "physical_format": "Paperback",
+            "isbn_10": [
+                "0515073717"
+            ],
+            "publish_date": "December 1, 1983",
+            "key": "/books/OL7656493M",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4092688W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Romance - Regency"
+            ],
+            "physical_dimensions": "7 x 5 x 1 inches",
+            "source_records": [
+                "bwb:9780515073713",
+                "amazon:0515073717"
+            ],
+            "covers": [
+                13248595
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-02T09:25:25.295322"
+            }
+        },
+        "/books/OL20810242M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Originally published 1955."
+            },
+            "title": "Bath tangle",
+            "authors": [
+                {
+                    "key": "/authors/OL7459594A"
+                }
+            ],
+            "publish_date": "1992",
+            "publishers": [
+                "Chivers"
+            ],
+            "series": [
+                "The Windsor collection",
+                "Windsor Selection Series"
+            ],
+            "publish_places": [
+                "Bath"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "534p. ;",
+            "dewey_decimal_class": [
+                "823.912"
+            ],
+            "edition_name": "Large print ed.",
+            "isbn_10": [
+                "0745174094"
+            ],
+            "publish_country": "enk",
+            "by_statement": "Georgette Heyer.",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:2030625086:652"
+            ],
+            "key": "/books/OL20810242M",
+            "number_of_pages": 534,
+            "works": [
+                {
+                    "key": "/works/OL4092688W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-29T23:54:16.765628"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-06T23:25:02.880125"
+            }
+        },
+        "/books/OL23991873M": {
+            "title": "Bath Tangle",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_date": "2009",
+            "publishers": [
+                "HQN Books",
+                "HQN"
+            ],
+            "ia_box_id": [
+                "IA177901"
+            ],
+            "pagination": "319 p. ;",
+            "covers": [
+                7884856
+            ],
+            "ia_loaded_id": [
+                "bathtangle00heye"
+            ],
+            "publish_places": [
+                "Don Mills, Ont"
+            ],
+            "oclc_number": [
+                "276335211"
+            ],
+            "genres": [
+                "Fiction"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-06-20:O8-BHG-830",
+                "marc:marc_loc_updates/v37.i52.records.utf8:27555228:810",
+                "ia:bathtangle00heye",
+                "bwb:9780373773879",
+                "marc:marc_loc_2016/BooksAll.2016.part37.utf8:58232530:810",
+                "amazon:0373773870",
+                "promise:bwb_daily_pallets_2021-06-21:T2-AAY-075"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Stepdaughters -- Fiction",
+                "Bath (England) -- Fiction"
+            ],
+            "publish_country": "onc",
+            "by_statement": "Georgette Heyer ; with a foreword by Candace Camp.",
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:O8-BHG-830",
+                "urn:bwbsku:T2-AAY-075"
+            ],
+            "key": "/books/OL23991873M",
+            "number_of_pages": 319,
+            "works": [
+                {
+                    "key": "/works/OL4092688W"
+                }
+            ],
+            "identifiers": {},
+            "ocaid": "bathtangle00heye",
+            "isbn_10": [
+                "0373773870"
+            ],
+            "isbn_13": [
+                "9780373773879"
+            ],
+            "lccn": [
+                "2009504157"
+            ],
+            "classifications": {},
+            "dewey_decimal_class": [
+                "823/.912"
+            ],
+            "lc_classifications": [
+                "PR6015.E795 B38 2009"
+            ],
+            "latest_revision": 17,
+            "revision": 17,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-12-31T05:06:42.778815"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-10T22:56:08.104489"
+            }
+        },
+        "/books/OL9240981M": {
+            "publishers": [
+                "HarperPrism"
+            ],
+            "weight": "7.2 ounces",
+            "covers": [
+                42986
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL9240981M",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "subjects": [
+                "Modern fiction",
+                "Romance - Historical",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Regency",
+                "Romance - General"
+            ],
+            "isbn_13": [
+                "9780061002045"
+            ],
+            "title": "Bath Tangle",
+            "identifiers": {
+                "goodreads": [
+                    "1649060"
+                ],
+                "librarything": [
+                    "16475"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0061002046"
+            ],
+            "publish_date": "June 1996",
+            "works": [
+                {
+                    "key": "/works/OL4092688W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "7 x 4.2 x 1 inches",
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-02T09:25:25.295322"
+            }
+        },
+        "/books/OL1541683M": {
+            "publishers": [
+                "Thorndike Press"
+            ],
+            "number_of_pages": 534,
+            "isbn_10": [
+                "1560542012",
+                "1560549491"
+            ],
+            "subject_place": [
+                "Bath (England)"
+            ],
+            "pagination": "534 p. (large print) ;",
+            "lc_classifications": [
+                "PR6015.E795 B38 1991",
+                "PR6015.E795B38 1991"
+            ],
+            "key": "/books/OL1541683M",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_places": [
+                "Thorndike, Me"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "source_records": [
+                "marc:marc_records_scriblio_net/part22.dat:10167380:748",
+                "marc:marc_loc_updates/v36.i04.records.utf8:7566676:748",
+                "marc:marc_loc_2016/BooksAll.2016.part21.utf8:9508406:748",
+                "bwb:9781560542018",
+                "bwb:9781560549499"
+            ],
+            "title": "Bath tangle",
+            "dewey_decimal_class": [
+                "823/.912"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "1243632"
+                ],
+                "librarything": [
+                    "16475"
+                ]
+            },
+            "edition_name": "Thorndike Press large print ed.",
+            "lccn": [
+                "91020445"
+            ],
+            "subjects": [
+                "Large type books",
+                "Bath (England) -- Fiction"
+            ],
+            "publish_date": "1991",
+            "publish_country": "meu",
+            "by_statement": "Georgette Heyer.",
+            "works": [
+                {
+                    "key": "/works/OL4092688W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-02T09:25:25.295322"
+            }
+        },
+        "/books/OL29241922M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781472099549"
+            ],
+            "title": "Pale Orchid",
+            "number_of_pages": 192,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Pale Orchid",
+            "publish_date": "2014",
+            "key": "/books/OL29241922M",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3771285W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, suspense"
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9781472099549"
+            ],
+            "classifications": {},
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-23T19:08:17.192668"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL28950504M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263805703",
+                "ia:paleorchid0000math_d2x2",
+                "amazon:0263805700",
+                "promise:bwb_daily_pallets_2021-04-08"
+            ],
+            "title": "Pale Orchid",
+            "number_of_pages": 192,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Pale Orchid",
+            "publish_date": "1998",
+            "key": "/books/OL28950504M",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3771285W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, suspense"
+            ],
+            "covers": [
+                12155732
+            ],
+            "local_id": [
+                "urn:bwbsku:KP-537-361"
+            ],
+            "identifiers": {},
+            "ocaid": "paleorchid0000math_d2x2",
+            "isbn_13": [
+                "9780263805703"
+            ],
+            "classifications": {},
+            "edition_name": "Collector's Edition",
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T04:29:16.195608"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL14978346M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "title": "Pale orchid",
+            "identifiers": {
+                "librarything": [
+                    "1937380"
+                ]
+            },
+            "covers": [
+                7321522
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263109461"
+            ],
+            "publish_date": "1985",
+            "publish_country": "xxk",
+            "key": "/books/OL14978346M",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "by_statement": "by Anne Mather.",
+            "publish_places": [
+                "London"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3771285W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:0263109461"
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T23:07:35.754322"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL38290962M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "isbn_13": [
+                "9781322062471"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2014",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781322062471"
+            ],
+            "title": "Duelling Fire",
+            "full_title": "Duelling Fire",
+            "works": [
+                {
+                    "key": "/works/OL3771266W"
+                }
+            ],
+            "key": "/books/OL38290962M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-17T16:40:55.030715"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL37411114M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2014",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781460347737"
+            ],
+            "subjects": [
+                "Fiction, general"
+            ],
+            "title": "Duelling Fire",
+            "full_title": "Duelling Fire",
+            "works": [
+                {
+                    "key": "/works/OL3771266W"
+                }
+            ],
+            "key": "/books/OL37411114M",
+            "identifiers": {},
+            "isbn_13": [
+                "9781460347737"
+            ],
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-03-01T12:30:21.671970"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL14977359M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "number_of_pages": 189,
+            "covers": [
+                6916520
+            ],
+            "key": "/books/OL14977359M",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "189p. ;",
+            "source_records": [
+                "bwb:9780263099676"
+            ],
+            "title": "Duelling fire",
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "5313582"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263099679"
+            ],
+            "publish_date": "1981",
+            "publish_country": "xxk",
+            "by_statement": "byAnne Mather.",
+            "oclc_numbers": [
+                "8379673"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3771266W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T23:00:17.259980"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL9614199M": {
+            "identifiers": {
+                "librarything": [
+                    "5313582"
+                ],
+                "goodreads": [
+                    "1739391"
+                ]
+            },
+            "title": "Duelling Fire",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "publish_date": "June 1982",
+            "publishers": [
+                "Harlequin"
+            ],
+            "series": [
+                "Harlequin Presents - 490, Mills & Boon Best Seller (reissues) - 587, Mills & Boon Romance - 1871"
+            ],
+            "covers": [
+                10239537,
+                4994541
+            ],
+            "physical_format": "Mass Market Paperback",
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-07-15:T2-AQA-308",
+                "ia:duellingfire00anne_g79",
+                "bwb:9780373104901",
+                "promise:bwb_daily_pallets_2021-03-04:O7-BWC-882"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:T2-AQA-308",
+                "urn:bwbsku:O7-BWC-882"
+            ],
+            "key": "/books/OL9614199M",
+            "number_of_pages": 189,
+            "works": [
+                {
+                    "key": "/works/OL3771266W"
+                }
+            ],
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "copyright_date": "1981",
+            "ocaid": "duellingfire00anne_g79",
+            "isbn_10": [
+                "0373104901"
+            ],
+            "isbn_13": [
+                "9780373104901"
+            ],
+            "latest_revision": 22,
+            "revision": 22,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL61516907M": {
+            "works": [
+                {
+                    "key": "/works/OL27818823W"
+                }
+            ],
+            "title": "Twisted Lies (Collector's Edition)",
+            "publishers": [
+                "Piatkus Books"
+            ],
+            "publish_date": "2026-05-26",
+            "key": "/books/OL61516907M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_13": [
+                "9780349448411"
+            ],
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2026-04-07T01:23:29.392163"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-04-07T20:50:25.965170"
+            }
+        },
+        "/books/OL56904047M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL9180803A"
+                }
+            ],
+            "isbn_13": [
+                "9786073913133"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "number_of_pages": 672,
+            "publish_date": "2024",
+            "publishers": [
+                "Editorial Planeta Mexicana"
+            ],
+            "source_records": [
+                "bwb:9786073913133"
+            ],
+            "title": "Twisted Lies",
+            "subtitle": "Él Hará lo Que Sea para Tenerla... Incluso Mentir",
+            "full_title": "Twisted Lies Él Hará lo Que Sea para Tenerla... Incluso Mentir",
+            "works": [
+                {
+                    "key": "/works/OL27818823W"
+                }
+            ],
+            "key": "/books/OL56904047M",
+            "covers": [
+                15074914
+            ],
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-10-06T05:59:35.329755"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-05-13T13:04:22.107557"
+            }
+        },
+        "/books/OL52564084M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL9180803A"
+                },
+                {
+                    "key": "/authors/OL12616679A"
+                }
+            ],
+            "number_of_pages": 672,
+            "physical_format": "paperback",
+            "publish_date": "Jan 31, 2024",
+            "publishers": [
+                "Crossbooks"
+            ],
+            "source_records": [
+                "amazon:8408282956"
+            ],
+            "title": "Twisted 4. Twisted Lies",
+            "covers": [
+                14646435,
+                -1
+            ],
+            "works": [
+                {
+                    "key": "/works/OL27818823W"
+                }
+            ],
+            "key": "/books/OL52564084M",
+            "identifiers": {},
+            "isbn_10": [
+                "8408282956"
+            ],
+            "isbn_13": [
+                "9788408282952"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-07-17T10:11:00.142549"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-28T16:07:31.200507"
+            }
+        },
+        "/books/OL51006348M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL9180803A"
+                }
+            ],
+            "isbn_10": [
+                "1957464046"
+            ],
+            "isbn_13": [
+                "9781957464046"
+            ],
+            "local_id": [
+                "urn:bwbsku:P9-CVK-394"
+            ],
+            "publish_date": "2022-06-24",
+            "publishers": [
+                "Ana Huang"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2024-02-06:P9-CVK-394"
+            ],
+            "title": "Twisted Lies",
+            "full_title": "Twisted Lies",
+            "works": [
+                {
+                    "key": "/works/OL27818823W"
+                }
+            ],
+            "key": "/books/OL51006348M",
+            "latest_revision": 1,
+            "revision": 1,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-02-08T01:02:06.693586"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-02-08T01:02:06.693586"
+            }
+        },
+        "/books/OL42830813M": {
+            "works": [
+                {
+                    "key": "/works/OL27818823W"
+                }
+            ],
+            "title": "Twisted lies ",
+            "publishers": [
+                "Oxford university press "
+            ],
+            "publish_date": "June 24 2022",
+            "key": "/books/OL42830813M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 1,
+            "revision": 1,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-03T17:06:07.360075"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-03T17:06:07.360075"
+            }
+        },
+        "/books/OL39730646M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL9180803A"
+                }
+            ],
+            "isbn_13": [
+                "9781957464107"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2022",
+            "publishers": [
+                "Ana Huang"
+            ],
+            "source_records": [
+                "bwb:9781957464107"
+            ],
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "title": "Twisted Lies - Limited Edition",
+            "works": [
+                {
+                    "key": "/works/OL27818823W"
+                }
+            ],
+            "key": "/books/OL39730646M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-09-19T04:42:41.461481"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-10-01T12:59:13.437339"
+            }
+        },
+        "/books/OL39441146M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL9180803A"
+                }
+            ],
+            "isbn_13": [
+                "9781957464091"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2022",
+            "publishers": [
+                "Ana Huang"
+            ],
+            "source_records": [
+                "bwb:9781957464091",
+                "amazon:1957464097"
+            ],
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "title": "Twisted Lies",
+            "full_title": "Twisted Lies",
+            "works": [
+                {
+                    "key": "/works/OL27818823W"
+                }
+            ],
+            "key": "/books/OL39441146M",
+            "covers": [
+                14860233
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-08-19T01:34:50.956682"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-04-19T05:59:14.922434"
+            }
+        },
+        "/books/OL40172762M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7315784A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "pagination": "432",
+            "publish_date": "2022",
+            "publishers": [
+                "Editorial Planeta, S. A."
+            ],
+            "source_records": [
+                "bwb:9786070792328",
+                "amazon:6070792327"
+            ],
+            "title": "A Pesar de Ti",
+            "works": [
+                {
+                    "key": "/works/OL36090166W"
+                }
+            ],
+            "key": "/books/OL40172762M",
+            "covers": [
+                15112087
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9786070792328"
+            ],
+            "subtitle": "(Regretting You)",
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-10-20T01:32:26.981149"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-09T09:58:23.067500"
+            }
+        },
+        "/books/OL26986260M": {
+            "publishers": [
+                "Montlake Romance"
+            ],
+            "covers": [
+                14819544,
+                8581190
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL26986260M",
+            "authors": [
+                {
+                    "key": "/authors/OL7315784A"
+                }
+            ],
+            "publish_places": [
+                "Seattle, USA"
+            ],
+            "source_records": [
+                "amazon:1542016428",
+                "bwb:9781542016421",
+                "ia:regrettingyou0000hoov",
+                "promise:bwb_daily_pallets_2020-10-07"
+            ],
+            "title": "Regretting You",
+            "identifiers": {},
+            "publish_date": "Dec 10, 2019",
+            "copyright_date": "2019",
+            "works": [
+                {
+                    "key": "/works/OL36090166W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:P4-AUX-827"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "ocaid": "regrettingyou0000hoov",
+            "isbn_10": [
+                "1542016428"
+            ],
+            "isbn_13": [
+                "9781542016421"
+            ],
+            "lc_classifications": [
+                "PS3608.O623R44 2019",
+                "PS3608.O623 R44 2019"
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-06-02T13:22:53.368162"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-03T04:01:39.539548"
+            }
+        },
+        "/books/OL35273033M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Regretting You",
+            "authors": [
+                {
+                    "key": "/authors/OL7315784A"
+                },
+                {
+                    "key": "/authors/OL6788484A"
+                },
+                {
+                    "key": "/authors/OL7929334A"
+                }
+            ],
+            "publish_date": "Dec 10, 2019",
+            "source_records": [
+                "amazon:1799723062"
+            ],
+            "publishers": [
+                "Brilliance Audio"
+            ],
+            "physical_format": "audio cd",
+            "full_title": "Regretting You",
+            "covers": [
+                12086588,
+                -1
+            ],
+            "works": [
+                {
+                    "key": "/works/OL36090166W"
+                }
+            ],
+            "key": "/books/OL35273033M",
+            "identifiers": {},
+            "isbn_10": [
+                "1799723062"
+            ],
+            "isbn_13": [
+                "9781799723066"
+            ],
+            "classifications": {},
+            "contributors": [
+                {
+                    "name": "Tanya Eby",
+                    "role": "Narrator/Reader"
+                },
+                {
+                    "role": "Narrator/Reader",
+                    "name": "Lauren Ezzo"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-14T11:23:48.503602"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-09T09:58:53.048317"
+            }
+        },
+        "/books/OL30615043M": {
+            "publishers": [
+                "Brilliance Audio"
+            ],
+            "source_records": [
+                "amazon:1799719626"
+            ],
+            "title": "Regretting You",
+            "covers": [
+                10476575
+            ],
+            "physical_format": "audio cd",
+            "full_title": "Regretting You",
+            "publish_date": "Dec 10, 2019",
+            "key": "/books/OL30615043M",
+            "authors": [
+                {
+                    "key": "/authors/OL7315784A"
+                },
+                {
+                    "key": "/authors/OL6788484A"
+                },
+                {
+                    "key": "/authors/OL7929334A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL36090166W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_10": [
+                "1799719626"
+            ],
+            "isbn_13": [
+                "9781799719625"
+            ],
+            "classifications": {},
+            "contributors": [
+                {
+                    "name": "Tanya Eby",
+                    "role": "Narrator/Reader"
+                },
+                {
+                    "role": "Narrator/Reader",
+                    "name": "Lauren Ezzo"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-10-12T17:06:44.342776"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-05T19:46:45.237672"
+            }
+        },
+        "/books/OL48759282M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7315784A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "December 10, 2019",
+            "publishers": [
+                "Montlake Romance"
+            ],
+            "source_records": [
+                "bwb:9781542016414"
+            ],
+            "title": "Regretting You",
+            "full_title": "Regretting You",
+            "works": [
+                {
+                    "key": "/works/OL36090166W"
+                }
+            ],
+            "key": "/books/OL48759282M",
+            "covers": [
+                15144447,
+                15110738
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B07SH5V2NB"
+                ]
+            },
+            "isbn_13": [
+                "9781542016414"
+            ],
+            "isbn_10": [
+                "154201641X"
+            ],
+            "subtitle": "Risk everything regret nothing",
+            "edition_name": "Movie tie-in",
+            "physical_format": "Kindle",
+            "number_of_pages": 363,
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-07-17T12:33:21.199471"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-18T19:20:37.625794"
+            }
+        },
+        "/books/OL10738877M": {
+            "identifiers": {
+                "librarything": [
+                    "5884388"
+                ]
+            },
+            "title": "The Imperfect Bride",
+            "authors": [
+                {
+                    "key": "/authors/OL2674708A"
+                }
+            ],
+            "publish_date": "July 1, 1992",
+            "publishers": [
+                "Harlequin"
+            ],
+            "ia_box_id": [
+                "IA119304"
+            ],
+            "series": [
+                "Harlequin Presents, No 1486"
+            ],
+            "covers": [
+                6711151,
+                6702287,
+                6693631,
+                -1
+            ],
+            "physical_format": "Paperback",
+            "subjects": [
+                "General",
+                "Non-Classifiable",
+                "Romance - General",
+                "Fiction",
+                "Fiction - General",
+                "Romance: Regency"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-03-17:P7-DDY-600",
+                "bwb:9780373114863",
+                "amazon:0373114869",
+                "promise:bwb_daily_pallets_2022-03-17:W7-ASO-134",
+                "promise:bwb_daily_pallets_2021-05-24:P7-AGP-584",
+                "promise:bwb_daily_pallets_2020-03-26:759-BAA-172"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:P7-DDY-600",
+                "urn:bwbsku:W7-ASO-134",
+                "urn:bwbsku:P7-AGP-584",
+                "urn:bwbsku:759-BAA-172"
+            ],
+            "key": "/books/OL10738877M",
+            "works": [
+                {
+                    "key": "/works/OL4220822W"
+                }
+            ],
+            "ocaid": "imperfectbride00vand",
+            "isbn_10": [
+                "0373114869"
+            ],
+            "isbn_13": [
+                "9780373114863"
+            ],
+            "oclc_numbers": [
+                "25770006"
+            ],
+            "classifications": {},
+            "latest_revision": 25,
+            "revision": 25,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-10-02T09:09:59.317184"
+            }
+        },
+        "/books/OL29245177M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781472030979"
+            ],
+            "title": "Marriage on Command",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781472030979"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Marriage on Command",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2014",
+            "key": "/books/OL29245177M",
+            "authors": [
+                {
+                    "key": "/authors/OL584493A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3498775W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-23T19:55:24.177173"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-16T11:27:14.672502"
+            }
+        },
+        "/books/OL20268643M": {
+            "publishers": [
+                "Mills & Boon",
+                "HARLEQUIN MILLS BOON"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "1679166"
+                ],
+                "goodreads": [
+                    "3202247"
+                ]
+            },
+            "series": [
+                "Modern romance"
+            ],
+            "key": "/books/OL20268643M",
+            "authors": [
+                {
+                    "key": "/authors/OL584493A"
+                }
+            ],
+            "publish_places": [
+                "Richmond"
+            ],
+            "pagination": "184 p. ;",
+            "source_records": [
+                "bwb:9780263829327",
+                "amazon:0263829324"
+            ],
+            "title": "Marriage on command",
+            "number_of_pages": 184,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263829324"
+            ],
+            "publish_date": "2002",
+            "publish_country": "enk",
+            "by_statement": "Lindsay Armstrong.",
+            "oclc_numbers": [
+                "49641125"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3498775W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                13822539
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-26T10:25:47.481840"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-04-04T06:01:58.000361"
+            }
+        },
+        "/books/OL29264350M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781474030274"
+            ],
+            "title": "Subtle Revenge",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781474030274"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Subtle Revenge",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2015",
+            "key": "/books/OL29264350M",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3775371W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-24T00:41:04.375962"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-29T02:29:39.424308"
+            }
+        },
+        "/books/OL28973627M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263103359"
+            ],
+            "title": "Subtle Revenge",
+            "number_of_pages": 188,
+            "isbn_13": [
+                "9780263103359"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Subtle Revenge",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "1983",
+            "key": "/books/OL28973627M",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3775371W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, general"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T22:13:58.660114"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-29T02:29:39.424308"
+            }
+        },
+        "/books/OL9693240M": {
+            "identifiers": {
+                "goodreads": [
+                    "868521"
+                ],
+                "librarything": [
+                    "2218997"
+                ]
+            },
+            "title": "Subtle Revenge",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "publish_date": "November 1, 1983",
+            "publishers": [
+                "harlequin",
+                "Harlequin"
+            ],
+            "ia_box_id": [
+                "IA122119"
+            ],
+            "series": [
+                "Harlequin Presents # 651"
+            ],
+            "covers": [
+                5003421
+            ],
+            "physical_format": "Paperback",
+            "ocaid": "subtlerevenge00mort",
+            "subjects": [
+                "Non-Classifiable",
+                "Nonfiction - General"
+            ],
+            "isbn_13": [
+                "9780373106516"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-03-08:O7-AQM-198",
+                "bwb:9780373106516",
+                "promise:bwb_daily_pallets_2021-03-08:O7-AFO-500"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373106513"
+            ],
+            "oclc_numbers": [
+                "10104408"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:O7-AQM-198",
+                "urn:bwbsku:O7-AFO-500"
+            ],
+            "key": "/books/OL9693240M",
+            "number_of_pages": 188,
+            "works": [
+                {
+                    "key": "/works/OL3775371W"
+                }
+            ],
+            "latest_revision": 17,
+            "revision": 17,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T14:50:55.031627"
+            }
+        },
+        "/books/OL9750901M": {
+            "identifiers": {
+                "goodreads": [
+                    "7036894"
+                ]
+            },
+            "title": "Carradine Brand (Target Exclusive)",
+            "authors": [
+                {
+                    "key": "/authors/OL1175057A"
+                }
+            ],
+            "publish_date": "June 1, 1999",
+            "publishers": [
+                "harlequin"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_13": [
+                "9780373219773"
+            ],
+            "physical_format": "Paperback",
+            "isbn_10": [
+                "0373219776"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Non-Classifiable"
+            ],
+            "source_records": [
+                "amazon:0373219776"
+            ],
+            "key": "/books/OL9750901M",
+            "works": [
+                {
+                    "key": "/works/OL5236263W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-04T15:35:09.859253"
+            }
+        },
+        "/books/OL9748579M": {
+            "publishers": [
+                "Harlequin Mills & Boon"
+            ],
+            "physical_format": "Hardcover",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2010-08-17T14:44:07.579617"
+            },
+            "title": "The Carradine Brand",
+            "number_of_pages": 192,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "isbn_13": [
+                "9780263144444"
+            ],
+            "isbn_10": [
+                "0263144445"
+            ],
+            "publish_date": "August 11, 1995",
+            "key": "/books/OL9748579M",
+            "authors": [
+                {
+                    "key": "/authors/OL1175057A"
+                }
+            ],
+            "latest_revision": 3,
+            "works": [
+                {
+                    "key": "/works/OL5236263W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Romance"
+            ],
+            "revision": 3
+        },
+        "/books/OL38584140M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "L'hora de l'estrella",
+            "authors": [
+                {
+                    "key": "/authors/OL93118A"
+                },
+                {
+                    "key": "/authors/OL5855802A"
+                },
+                {
+                    "key": "/authors/OL303433A"
+                }
+            ],
+            "publish_date": "Oct 05, 2020",
+            "source_records": [
+                "amazon:8473292855"
+            ],
+            "number_of_pages": 160,
+            "publishers": [
+                "Club Editor",
+                "CLUB EDITOR"
+            ],
+            "isbn_10": [
+                "8473292855"
+            ],
+            "isbn_13": [
+                "9788473292856"
+            ],
+            "physical_format": "paperback",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: L'hora de l'estrella (El Club dels Novel·listes) (Catalan Edition)"
+            },
+            "works": [
+                {
+                    "key": "/works/OL1002120W"
+                }
+            ],
+            "key": "/books/OL38584140M",
+            "covers": [
+                13462875
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-07-07T08:56:48.714859"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-24T19:46:53.313937"
+            }
+        },
+        "/books/OL38351325M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL93118A"
+                },
+                {
+                    "key": "/authors/OL1188345A"
+                },
+                {
+                    "key": "/authors/OL82249A"
+                },
+                {
+                    "key": "/authors/OL6758235A"
+                }
+            ],
+            "isbn_13": [
+                "9780811219600"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "128",
+            "publish_date": "2011",
+            "publishers": [
+                "New Directions Publishing Corporation"
+            ],
+            "source_records": [
+                "bwb:9780811219600"
+            ],
+            "title": "Hour of the Star",
+            "full_title": "Hour of the Star",
+            "works": [
+                {
+                    "key": "/works/OL1002120W"
+                }
+            ],
+            "key": "/books/OL38351325M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-18T09:16:06.787685"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-29T10:52:58.897027"
+            }
+        },
+        "/books/OL38810947M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL93118A"
+                },
+                {
+                    "key": "/authors/OL6758235A"
+                }
+            ],
+            "isbn_13": [
+                "9780241600573"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2022",
+            "publishers": [
+                "Penguin Books, Limited"
+            ],
+            "source_records": [
+                "bwb:9780241600573"
+            ],
+            "title": "Hour of the Star",
+            "full_title": "Hour of the Star",
+            "works": [
+                {
+                    "key": "/works/OL1002120W"
+                }
+            ],
+            "key": "/books/OL38810947M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-07-18T19:10:26.819735"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-24T19:46:53.313937"
+            }
+        }
+    }
+}

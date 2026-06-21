@@ -1,0 +1,5944 @@
+{
+    "status": "ok",
+    "result": {
+        "/books/OL40234530M": {
+            "works": [
+                {
+                    "key": "/works/OL1804648W"
+                }
+            ],
+            "title": "Thornyhold",
+            "publishers": [
+                "Hodder & Stoughton"
+            ],
+            "publish_date": "1988",
+            "key": "/books/OL40234530M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_13": [
+                "9780340415191"
+            ],
+            "ocaid": "thornyhold0000stew",
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "covers": [
+                12992979
+            ],
+            "source_records": [
+                "amazon:0340415193",
+                "bwb:9780340415191"
+            ],
+            "number_of_pages": 192,
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-08T08:11:19.599058"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-17T03:30:48.679333"
+            }
+        },
+        "/books/OL17196143M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Originally published: Hodder & Stoughton,1988."
+            },
+            "title": "Thornyhold",
+            "authors": [
+                {
+                    "key": "/authors/OL216503A"
+                }
+            ],
+            "publish_date": "1988",
+            "publishers": [
+                "Leisure Circle"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_country": "xxk",
+            "by_statement": "Mary Stewart.",
+            "publish_places": [
+                "London"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:1339269962:424"
+            ],
+            "key": "/books/OL17196143M",
+            "works": [
+                {
+                    "key": "/works/OL1804648W"
+                }
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-27T22:58:12.172642"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-02-02T23:34:29.898249"
+            }
+        },
+        "/books/OL17527234M": {
+            "publishers": [
+                "Coronet"
+            ],
+            "number_of_pages": 224,
+            "key": "/books/OL17527234M",
+            "authors": [
+                {
+                    "key": "/authors/OL216503A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "224p. ;",
+            "title": "Thornyhold",
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Originally published: Hodder & Stoughton, 1988."
+            },
+            "identifiers": {
+                "goodreads": [
+                    "1135307"
+                ],
+                "librarything": [
+                    "43419"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "034050045X"
+            ],
+            "publish_date": "1989",
+            "publish_country": "enk",
+            "by_statement": "Mary Stewart.",
+            "works": [
+                {
+                    "key": "/works/OL1804648W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:KQ-600-806"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-03-17",
+                "bwb:9780340500453"
+            ],
+            "lc_classifications": [
+                "PR6069.T46"
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-29T04:10:49.880471"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-17T03:21:16.830464"
+            }
+        },
+        "/books/OL20934398M": {
+            "publishers": [
+                "Morrow"
+            ],
+            "pagination": "404p. (large print)",
+            "physical_format": "Large Print",
+            "title": "Thornyhold",
+            "notes": {
+                "type": "/type/text",
+                "value": "127,236-LP"
+            },
+            "number_of_pages": 404,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Large type books."
+            ],
+            "publish_date": "1988",
+            "publish_country": "nyu",
+            "key": "/books/OL20934398M",
+            "by_statement": "Mary Stewart.",
+            "publish_places": [
+                "New York"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL1804648W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                14913154
+            ],
+            "ocaid": "bwb_S0-BBB-739",
+            "source_records": [
+                "ia:bwb_S0-BBB-739"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-31T00:06:08.909396"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-04-27T16:45:52.803754"
+            }
+        },
+        "/books/OL38352706M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2011",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781459269026"
+            ],
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "title": "Long Night's Loving",
+            "full_title": "Long Night's Loving",
+            "works": [
+                {
+                    "key": "/works/OL3771113W"
+                }
+            ],
+            "key": "/books/OL38352706M",
+            "identifiers": {},
+            "isbn_13": [
+                "9781459269026"
+            ],
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-18T09:35:05.026849"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL37418287M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2015",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781460393062"
+            ],
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "title": "Long Night's Loving",
+            "full_title": "Long Night's Loving",
+            "works": [
+                {
+                    "key": "/works/OL3771113W"
+                }
+            ],
+            "key": "/books/OL37418287M",
+            "identifiers": {},
+            "isbn_13": [
+                "9781460393062"
+            ],
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-03-01T14:06:50.779130"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL28950438M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263801392",
+                "ia:longnightsloving0000math",
+                "amazon:026380139X",
+                "promise:bwb_daily_pallets_2020-11-19"
+            ],
+            "title": "Long Night's Loving",
+            "number_of_pages": 189,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Long Night's Loving",
+            "publish_date": "1997",
+            "key": "/books/OL28950438M",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3771113W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "covers": [
+                11339287
+            ],
+            "local_id": [
+                "urn:bwbsku:KO-527-582"
+            ],
+            "identifiers": {},
+            "ocaid": "longnightsloving0000math",
+            "isbn_13": [
+                "9780263801392"
+            ],
+            "classifications": {},
+            "description": {
+                "type": "/type/text",
+                "value": "He could still make her want him....\r\n\r\nMaggie would never have made the journey to Northumberland to see her ex-husband if it hadn't been for their rebellious teenage daughter. Lindsey had formed a disastrous relationship and Neil was the only person who could help.\r\n\r\nClearly, Maggie's treacherous betrayal some years ago still rankled with Neil because why else would he so provoke and humiliate her? She was ashamed of the fact that he could still make her want him while seemingly remaining detached himself. Surely he must be involved enough to want to help Lindsey - even if he suspected she might be another man's child?"
+            },
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T04:27:38.224395"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL24212837M": {
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "ia_box_id": [
+                "IA111906"
+            ],
+            "isbn_10": [
+                "0373118872"
+            ],
+            "series": [
+                "Harlequin presents -- 1887"
+            ],
+            "pagination": "189 p. ;",
+            "covers": [
+                6532577
+            ],
+            "key": "/books/OL24212837M",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "ocaid": "longnightsloving00math",
+            "publish_places": [
+                "Toronto",
+                "New York"
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "source_records": [
+                "ia:longnightsloving00math"
+            ],
+            "title": "Long night's loving",
+            "number_of_pages": 189,
+            "isbn_13": [
+                "9780373118878"
+            ],
+            "subjects": [
+                "Divorced parents -- England -- Fiction.",
+                "England -- Fiction."
+            ],
+            "publish_date": "1997",
+            "publish_country": "onc",
+            "by_statement": "Anne Mather.",
+            "oclc_numbers": [
+                "36435266"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3771113W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-05-05T11:52:53.376841"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL14976827M": {
+            "publishers": [
+                "Mills and Boon",
+                "Harlequin Mills & Boon"
+            ],
+            "key": "/books/OL14976827M",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "188p. ;",
+            "source_records": [
+                "bwb:9780263095654",
+                "amazon:0263095657"
+            ],
+            "title": "Savage Interlude",
+            "number_of_pages": 188,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Fiction in English."
+            ],
+            "publish_date": "1979",
+            "publish_country": "xxk",
+            "by_statement": "by Carole Mortimer.",
+            "works": [
+                {
+                    "key": "/works/OL3775489W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                13272719
+            ],
+            "identifiers": {},
+            "isbn_10": [
+                "0263095657"
+            ],
+            "oclc_numbers": [
+                "6174753"
+            ],
+            "dewey_decimal_class": [
+                "823/.9/1F"
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T22:55:38.747005"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-03-03T10:12:26.897598"
+            }
+        },
+        "/books/OL11383501M": {
+            "identifiers": {
+                "goodreads": [
+                    "695362"
+                ]
+            },
+            "title": "Savage Interlude",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "publish_date": "June 1989",
+            "publishers": [
+                "G K Hall Audio Books"
+            ],
+            "physical_format": "Audio Cassette",
+            "isbn_13": [
+                "9780816196135"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0816196133"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Audio Adult: Other"
+            ],
+            "source_records": [
+                "amazon:0816196133"
+            ],
+            "key": "/books/OL11383501M",
+            "works": [
+                {
+                    "key": "/works/OL3775489W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-20T07:04:03.550439"
+            }
+        },
+        "/books/OL37388600M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL451969A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2011",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781459251908"
+            ],
+            "title": "The Secret Mistress",
+            "full_title": "Secret Mistress",
+            "works": [
+                {
+                    "key": "/works/OL2959281W"
+                }
+            ],
+            "key": "/books/OL37388600M",
+            "identifiers": {},
+            "isbn_13": [
+                "9781459251908"
+            ],
+            "classifications": {},
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-03-01T05:39:03.066616"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-19T00:18:12.141436"
+            }
+        },
+        "/books/OL9748450M": {
+            "identifiers": {
+                "goodreads": [
+                    "1934189"
+                ]
+            },
+            "title": "The Secret Mistress",
+            "authors": [
+                {
+                    "key": "/authors/OL451969A"
+                }
+            ],
+            "publish_date": "November 1999",
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "weight": "15 ounces",
+            "covers": [
+                1154934
+            ],
+            "physical_format": "Hardcover",
+            "subjects": [
+                "Romance",
+                "Fiction",
+                "Fiction - Romance",
+                "Large Print",
+                "Romance - General"
+            ],
+            "edition_name": "Large Print Edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.3 x 5.5 x 0.8 inches",
+            "isbn_10": [
+                "0263162052"
+            ],
+            "isbn_13": [
+                "9780263162059"
+            ],
+            "source_records": [
+                "amazon:0263162052"
+            ],
+            "key": "/books/OL9748450M",
+            "number_of_pages": 218,
+            "works": [
+                {
+                    "key": "/works/OL2959281W"
+                }
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-15T20:40:27.438459"
+            }
+        },
+        "/books/OL9748814M": {
+            "title": "The Secret Mistress (Soundings S.)",
+            "publish_date": "September 2000",
+            "publishers": [
+                "Soundings"
+            ],
+            "physical_format": "Audio cassette",
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                2063981
+            ],
+            "isbn_13": [
+                "9781860428470"
+            ],
+            "isbn_10": [
+                "1860428479"
+            ],
+            "oclc_numbers": [
+                "155456713"
+            ],
+            "contributions": [
+                "Anne Cater (Narrator)"
+            ],
+            "subjects": [
+                "Genre Fiction",
+                "Romance"
+            ],
+            "source_records": [
+                "amazon:1860428479"
+            ],
+            "key": "/books/OL9748814M",
+            "works": [
+                {
+                    "key": "/works/OL2959281W"
+                }
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-30T06:40:17.528405"
+            }
+        },
+        "/books/OL43105600M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7520713A"
+                }
+            ],
+            "identifiers": {},
+            "local_id": [
+                "urn:bwbsku:T2-BOV-096"
+            ],
+            "publish_date": "1962",
+            "publishers": [
+                "William Collins Sons & Co. Ltd."
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-03-17"
+            ],
+            "title": "The Distant Hills",
+            "works": [
+                {
+                    "key": "/works/OL6286625W"
+                }
+            ],
+            "key": "/books/OL43105600M",
+            "oclc_numbers": [
+                "221722507"
+            ],
+            "publish_places": [
+                "London & Glasgow"
+            ],
+            "copyright_date": "1962",
+            "edition_name": "First",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "physical_format": "Hardcover",
+            "covers": [
+                15225206
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-07T10:38:37.564228"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-05-30T12:03:10.510627"
+            }
+        },
+        "/books/OL38371827M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2015",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781460393161"
+            ],
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "title": "The Baby Gambit",
+            "full_title": "Baby Gambit",
+            "works": [
+                {
+                    "key": "/works/OL3771257W"
+                }
+            ],
+            "key": "/books/OL38371827M",
+            "identifiers": {},
+            "isbn_13": [
+                "9781460393161"
+            ],
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-18T15:00:36.510739"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL28951619M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263817423",
+                "promise:bwb_daily_pallets_2020-11-19"
+            ],
+            "title": "The Baby Gambit",
+            "number_of_pages": 186,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Baby Gambit",
+            "publish_date": "1999",
+            "key": "/books/OL28951619M",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3771257W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "local_id": [
+                "urn:bwbsku:KO-335-522"
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9780263817423"
+            ],
+            "classifications": {},
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T05:06:21.754666"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL9745819M": {
+            "publishers": [
+                "Thorndike Press"
+            ],
+            "weight": "15.8 ounces",
+            "covers": [
+                5009729,
+                5009186
+            ],
+            "physical_format": "Hardcover",
+            "key": "/books/OL9745819M",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "subjects": [
+                "Romance",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern",
+                "Romance - General"
+            ],
+            "edition_name": "Large Print Edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "bwb:9780263162851",
+                "ia:babygambit0000math",
+                "promise:bwb_daily_pallets_2020-10-08"
+            ],
+            "title": "The Baby Gambit",
+            "number_of_pages": 287,
+            "publish_date": "January 2000",
+            "works": [
+                {
+                    "key": "/works/OL3771257W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.3 x 5.5 x 0.8 inches",
+            "local_id": [
+                "urn:bwbsku:W6-BTW-201"
+            ],
+            "identifiers": {},
+            "ocaid": "babygambit0000math",
+            "isbn_10": [
+                "0263162850"
+            ],
+            "isbn_13": [
+                "9780263162851"
+            ],
+            "classifications": {},
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL9737519M": {
+            "identifiers": {
+                "librarything": [
+                    "1606430"
+                ],
+                "goodreads": [
+                    "1739417"
+                ]
+            },
+            "title": "The Baby Gambit",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "publish_date": "September 1, 1999",
+            "publishers": [
+                "Harlequin"
+            ],
+            "weight": "3.5 ounces",
+            "series": [
+                "Harlequin Presents, No. 2055"
+            ],
+            "covers": [
+                214657
+            ],
+            "physical_format": "Paperback",
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-03-17:P7-DYR-688",
+                "bwb:9780373120550",
+                "promise:bwb_daily_pallets_2021-09-22:P7-DTF-932",
+                "promise:bwb_daily_pallets_2021-03-29:W6-CQW-620",
+                "promise:bwb_daily_pallets_2020-10-14:W6-ARB-449"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Romance - General",
+                "Non-Classifiable",
+                "Romance - Contemporary",
+                "Fiction - Romance",
+                "Fiction"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.8 x 4.2 x 0.5 inches",
+            "local_id": [
+                "urn:bwbsku:P7-DYR-688",
+                "urn:bwbsku:P7-DTF-932",
+                "urn:bwbsku:W6-CQW-620",
+                "urn:bwbsku:W6-ARB-449"
+            ],
+            "ocaid": "babygambit00anne",
+            "isbn_10": [
+                "0373120559"
+            ],
+            "isbn_13": [
+                "9780373120550"
+            ],
+            "oclc_numbers": [
+                "41641954"
+            ],
+            "key": "/books/OL9737519M",
+            "number_of_pages": 186,
+            "works": [
+                {
+                    "key": "/works/OL3771257W"
+                }
+            ],
+            "latest_revision": 23,
+            "revision": 23,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL34588756M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL40776A"
+                }
+            ],
+            "isbn_13": [
+                "9780749907754"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lc_classifications": [
+                "PS3617.U57"
+            ],
+            "publish_date": "2006",
+            "publishers": [
+                "Little, Brown Book Group Limited"
+            ],
+            "source_records": [
+                "bwb:9780749907754"
+            ],
+            "subjects": [
+                "Fiction, romance, regency",
+                "England, fiction"
+            ],
+            "title": "Offer from a Gentleman",
+            "pagination": "384",
+            "full_title": "Offer from a Gentleman",
+            "works": [
+                {
+                    "key": "/works/OL554608W"
+                }
+            ],
+            "key": "/books/OL34588756M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-06T08:23:26.804255"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-06-10T00:05:16.381455"
+            }
+        },
+        "/books/OL33051452M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Offer from a Gentleman, An",
+            "authors": [
+                {
+                    "key": "/authors/OL40776A"
+                }
+            ],
+            "publish_date": "May 25, 2021",
+            "source_records": [
+                "amazon:0063139510",
+                "bwb:9780063139510",
+                "promise:bwb_daily_pallets_2022-03-17"
+            ],
+            "number_of_pages": 480,
+            "publishers": [
+                "Avon"
+            ],
+            "isbn_10": [
+                "0063139510"
+            ],
+            "isbn_13": [
+                "9780063139510"
+            ],
+            "physical_format": "mass market paperback",
+            "full_title": "Offer from a Gentleman, An Bridgerton",
+            "subtitle": "Bridgerton",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Offer from a Gentleman, An: Bridgerton (Bridgertons, 3)"
+            },
+            "covers": [
+                11753566
+            ],
+            "works": [
+                {
+                    "key": "/works/OL554608W"
+                }
+            ],
+            "key": "/books/OL33051452M",
+            "local_id": [
+                "urn:bwbsku:W7-AGX-078"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-08-22T18:25:36.361720"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-07T03:02:37.359970"
+            }
+        },
+        "/books/OL31960811M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "An Offer from a Gentleman",
+            "authors": [
+                {
+                    "key": "/authors/OL40776A"
+                }
+            ],
+            "publish_date": "May 23, 2017",
+            "source_records": [
+                "amazon:1664457496"
+            ],
+            "number_of_pages": 1,
+            "publishers": [
+                "Recorded Books, Inc. and Blackstone Publishing"
+            ],
+            "isbn_10": [
+                "1664457496"
+            ],
+            "isbn_13": [
+                "9781664457492"
+            ],
+            "physical_format": "audio cd",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: An Offer from a Gentleman (The Bridgerton Series)"
+            },
+            "full_title": "An Offer from a Gentleman",
+            "covers": [
+                10639868
+            ],
+            "works": [
+                {
+                    "key": "/works/OL554608W"
+                }
+            ],
+            "key": "/books/OL31960811M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-02-15T03:12:22.297389"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-06-10T00:05:16.381455"
+            }
+        },
+        "/books/OL26707108M": {
+            "publishers": [
+                "Avon"
+            ],
+            "lc_classifications": [
+                ""
+            ],
+            "source_records": [
+                "amazon:0062353659",
+                "bwb:9780062353658",
+                "promise:bwb_daily_pallets_2022-03-17"
+            ],
+            "title": "An Offer From a Gentleman (Bridgertons)",
+            "number_of_pages": 416,
+            "covers": [
+                8367770
+            ],
+            "isbn_13": [
+                "9780062353658"
+            ],
+            "isbn_10": [
+                "0062353659"
+            ],
+            "publish_date": "Aug 25, 2015",
+            "key": "/books/OL26707108M",
+            "authors": [
+                {
+                    "key": "/authors/OL40776A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL554608W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:P7-CWH-968"
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-02-15T07:36:42.487654"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-07T10:58:19.385990"
+            }
+        },
+        "/books/OL26144420M": {
+            "publishers": [
+                "Spanish Publishers"
+            ],
+            "title": "Te Doy Mi Corazon  An Offer from a Gentleman\r\n            \r\n                Books4pocket Romantica",
+            "identifiers": {},
+            "covers": [
+                7809865
+            ],
+            "isbn_13": [
+                "9788492516957"
+            ],
+            "publish_date": "2009",
+            "key": "/books/OL26144420M",
+            "works": [
+                {
+                    "key": "/works/OL554608W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2016-10-14T20:46:41.682693"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-06-10T00:05:16.381455"
+            }
+        },
+        "/books/OL37825839M": {
+            "title": "An Offer from a Gentleman",
+            "publish_date": "2011",
+            "publishers": [
+                "Amber"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                12725783
+            ],
+            "isbn_13": [
+                "9788324138777"
+            ],
+            "key": "/books/OL37825839M",
+            "works": [
+                {
+                    "key": "/works/OL554608W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-04-21T13:38:02.131957"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-16T06:19:56.609614"
+            }
+        },
+        "/books/OL24297443M": {
+            "publishers": [
+                "HarperCollins"
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "Everyone deserves a happy ending.Especially Posy Reiling, the decidedly not evil stepsister from An Offer From a Gentleman. She's been living with the Bridgertons for three years, but despite Violet's most fervent matchmaking, she hasn't found a husband. Posy claims she's content to remain a spinster, but Sophie Bridgerton has other plans..."
+            },
+            "original_isbn": "9780061965562",
+            "physical_format": "eBook",
+            "key": "/books/OL24297443M",
+            "publish_places": [
+                "New York"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "marc_overdrive/InternetArchiveCrMarc-2010-06-11q.mrc:6301249:1504",
+                "bwb:9780061965562"
+            ],
+            "title": "An Offer From a Gentleman",
+            "identifiers": {
+                "overdrive": [
+                    "2197C3EB-66CC-4A19-A0A3-E1B1993EAA9A"
+                ]
+            },
+            "isbn_13": [
+                "9780061965562"
+            ],
+            "publish_date": "2009",
+            "publish_country": "nyu",
+            "oclc_numbers": [
+                "471520380"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL554608W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-06-23T04:59:52.869640"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-03-01T03:20:00.489138"
+            }
+        },
+        "/books/OL3955266M": {
+            "publishers": [
+                "Wheeler Pub."
+            ],
+            "number_of_pages": 446,
+            "isbn_10": [
+                "1587241471"
+            ],
+            "series": [
+                "Wheeler large print book series"
+            ],
+            "covers": [
+                4345520
+            ],
+            "lc_classifications": [
+                "PS3617.U57 O35 2001"
+            ],
+            "key": "/books/OL3955266M",
+            "authors": [
+                {
+                    "key": "/authors/OL20452A"
+                }
+            ],
+            "publish_places": [
+                "Rockland, MA"
+            ],
+            "pagination": "446 p. (large print) ;",
+            "title": "An offer from a gentleman",
+            "dewey_decimal_class": [
+                "813/.6"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "3534331"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lccn": [
+                "2001055799"
+            ],
+            "subjects": [
+                "Large type books."
+            ],
+            "publish_date": "2001",
+            "publish_country": "mau",
+            "by_statement": "Julia Quinn.",
+            "works": [
+                {
+                    "key": "/works/OL554608W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:marc_loc_2016/BooksAll.2016.part28.utf8:232254517:614"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-12-03T18:25:55.493637"
+            }
+        },
+        "/books/OL6783247M": {
+            "identifiers": {
+                "goodreads": [
+                    "3537280"
+                ]
+            },
+            "title": "One of the boys",
+            "publish_date": "2001",
+            "publishers": [
+                "G.K. Hall",
+                "Chivers Press",
+                "Thorndike Press"
+            ],
+            "ia_box_id": [
+                "IA117011"
+            ],
+            "isbn_10": [
+                "0783891199",
+                "0754047326"
+            ],
+            "subject_place": [
+                "New Jersey"
+            ],
+            "pagination": "211 p. (large print) ;",
+            "covers": [
+                4526892,
+                4527312,
+                6695151,
+                6821769
+            ],
+            "full_title": "One of the boys",
+            "lc_classifications": [
+                "PS3554.A29 O5 2001"
+            ],
+            "ocaid": "oneofboys00dail",
+            "publish_places": [
+                "Waterville, Me",
+                "Bath, England"
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-03-17:P7-DDW-584",
+                "ia:oneofboys00dail",
+                "marc:marc_loc_2016/BooksAll.2016.part01.utf8:18390983:787",
+                "promise:bwb_daily_pallets_2022-03-17:P7-ECR-654"
+            ],
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lccn": [
+                "00033500"
+            ],
+            "subjects": [
+                "Television camera operators -- Fiction",
+                "Large type books",
+                "New Jersey -- Fiction"
+            ],
+            "publish_country": "meu",
+            "by_statement": "Janet Dailey.",
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:P7-DDW-584",
+                "urn:bwbsku:P7-ECR-654"
+            ],
+            "key": "/books/OL6783247M",
+            "number_of_pages": 211,
+            "works": [
+                {
+                    "key": "/works/OL14862450W"
+                }
+            ],
+            "latest_revision": 16,
+            "revision": 16,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T11:33:43.974035"
+            }
+        },
+        "/books/OL14977226M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T22:10:01.056425"
+            },
+            "latest_revision": 8,
+            "key": "/books/OL14977226M",
+            "authors": [
+                {
+                    "key": "/authors/OL21059A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "186p. ;",
+            "source_records": [
+                "bwb:9780263098655"
+            ],
+            "title": "One of theboys",
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "number_of_pages": 186,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T22:58:57.756318"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263098656"
+            ],
+            "publish_date": "1981",
+            "publish_country": "xxk",
+            "by_statement": "Janet Dailey.",
+            "oclc_numbers": [
+                "7941649"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL14862450W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 8
+        },
+        "/books/OL26336874M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "number_of_pages": 187,
+            "isbn_10": [
+                "0373022050"
+            ],
+            "series": [
+                "A Harlequin romance -- 2205"
+            ],
+            "covers": [
+                8651530,
+                8017104
+            ],
+            "full_title": "The wool king",
+            "lc_classifications": [
+                "PN6120.95.L7 H37 no.2205"
+            ],
+            "key": "/books/OL26336874M",
+            "authors": [
+                {
+                    "key": "/authors/OL807186A"
+                }
+            ],
+            "ocaid": "woolking00mill",
+            "publish_places": [
+                "Toronto",
+                "New York"
+            ],
+            "isbn_13": [
+                "9780373022052"
+            ],
+            "pagination": "187 pages ;",
+            "classifications": {},
+            "source_records": [
+                "ia:woolking00mill",
+                "promise:bwb_daily_pallets_2021-06-28",
+                "promise:bwb_daily_pallets_2021-05-19"
+            ],
+            "title": "The wool king",
+            "dewey_decimal_class": [
+                "fic"
+            ],
+            "notes": "Harlequin Romance.",
+            "identifiers": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Romance fiction",
+                "Romance-language fiction"
+            ],
+            "publish_date": "1978",
+            "publish_country": "onc",
+            "by_statement": "by Kerry Allyne",
+            "oclc_numbers": [
+                "8889826"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4220911W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:P3-AJM-532",
+                "urn:bwbsku:R1-CFR-128",
+                "urn:bwbsku:P6-CFR-726",
+                "urn:bwbsku:O6-DCR-937"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2017-06-24T11:48:12.223165"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-14T19:15:54.288565"
+            }
+        },
+        "/books/OL32713504M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "2008",
+            "publish_country": "enk",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL1175057A"
+                }
+            ],
+            "edition_name": "Large Print Edition",
+            "notes": "Originally published: 2007.",
+            "description": "Cattleman Calvin McKendrick is not just a rancher. He is the son of a renowned Australian cattle baron! His father has very definite old school ideas and Cal's mother and aunt will stop at nothing to make sure that their family is the toast of society. When Cal sees a newspaper article featuring Gina Romano as a hero, his past obsession is reawakened. He had finally learned to put away the hatred he felt after her betrayal years ago.",
+            "subjects": [
+                "Large type books"
+            ],
+            "title": "Cattle Rancher, Secret Son",
+            "by_statement": "Margaret Way",
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "publish_places": [
+                "Richmond"
+            ],
+            "pagination": "284 pages (large print)",
+            "number_of_pages": 284,
+            "source_records": [
+                "ia:cattleranchersec0000waym",
+                "bwb:9780263200546"
+            ],
+            "full_title": "Cattle rancher, secret son",
+            "covers": [
+                11340071
+            ],
+            "works": [
+                {
+                    "key": "/works/OL5236106W"
+                }
+            ],
+            "key": "/books/OL32713504M",
+            "identifiers": {},
+            "classifications": {},
+            "ocaid": "cattleranchersec0000waym",
+            "isbn_10": [
+                "026320054X"
+            ],
+            "isbn_13": [
+                "9780263200546"
+            ],
+            "oclc_numbers": [
+                "213110354"
+            ],
+            "dewey_decimal_class": [
+                "823.914"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-07-02T05:35:26.086516"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-31T02:01:33.854451"
+            }
+        },
+        "/books/OL10741395M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "number_of_pages": 256,
+            "covers": [
+                2408040
+            ],
+            "physical_format": "Mass Market Paperback",
+            "key": "/books/OL10741395M",
+            "authors": [
+                {
+                    "key": "/authors/OL1175057A"
+                }
+            ],
+            "subjects": [
+                "American Light Romantic Fiction",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern",
+                "Romance - Contemporary",
+                "Fiction / Romance / General"
+            ],
+            "edition_name": "Larger Print Edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "classifications": {},
+            "source_records": [
+                "bwb:9780373183494",
+                "promise:bwb_daily_pallets_2021-03-08"
+            ],
+            "title": "Cattle Rancher, Secret Son",
+            "notes": "Larger Print Harlequin Romance",
+            "identifiers": {
+                "goodreads": [
+                    "7193205"
+                ]
+            },
+            "publish_date": "February 12, 2008",
+            "works": [
+                {
+                    "key": "/works/OL5236106W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:O7-DIO-121"
+            ],
+            "ocaid": "cattleranchersec00marg",
+            "isbn_10": [
+                "0373183496"
+            ],
+            "isbn_13": [
+                "9780373183494"
+            ],
+            "oclc_numbers": [
+                "187315095"
+            ],
+            "latest_revision": 14,
+            "revision": 14,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-28T23:09:21.788731"
+            }
+        },
+        "/books/OL10741234M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Harlequin Romance"
+            },
+            "identifiers": {
+                "librarything": [
+                    "4457355"
+                ],
+                "goodreads": [
+                    "3044154"
+                ]
+            },
+            "title": "Cattle Rancher, Secret Son",
+            "authors": [
+                {
+                    "key": "/authors/OL1175057A"
+                }
+            ],
+            "publish_date": "February 12, 2008",
+            "publishers": [
+                "Harlequin"
+            ],
+            "covers": [
+                2407954
+            ],
+            "physical_format": "Mass Market Paperback",
+            "lc_classifications": [
+                "CPB Box no. 3048 vol. 1",
+                "CPB"
+            ],
+            "subjects": [
+                "American Light Romantic Fiction",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern",
+                "Romance - Contemporary",
+                "Fiction / Romance / General"
+            ],
+            "isbn_13": [
+                "9780373174935"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-04-18:O8-ANY-848",
+                "bwb:9780373174935",
+                "marc:marc_loc_2016/BooksAll.2016.part37.utf8:279355420:871",
+                "promise:bwb_daily_pallets_2021-05-13:761-BAB-231"
+            ],
+            "lccn": [
+                "2010398217"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373174934"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:O8-ANY-848",
+                "urn:bwbsku:761-BAB-231"
+            ],
+            "key": "/books/OL10741234M",
+            "number_of_pages": 192,
+            "works": [
+                {
+                    "key": "/works/OL5236106W"
+                }
+            ],
+            "latest_revision": 15,
+            "revision": 15,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T13:47:56.316290"
+            }
+        },
+        "/books/OL9745217M": {
+            "publishers": [
+                "Silhouette Books"
+            ],
+            "number_of_pages": 224,
+            "title": "Battle for Possession (Barbary Wharf)",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {
+                "librarything": [
+                    "1601792"
+                ]
+            },
+            "isbn_13": [
+                "9780373584154"
+            ],
+            "isbn_10": [
+                "0373584156"
+            ],
+            "publish_date": "May 1992",
+            "key": "/books/OL9745217M",
+            "authors": [
+                {
+                    "key": "/authors/OL4728806A"
+                }
+            ],
+            "oclc_numbers": [
+                "220953674"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3294274W"
+                }
+            ],
+            "physical_format": "Hardcover",
+            "subjects": [
+                "Romance"
+            ],
+            "covers": [
+                13189420
+            ],
+            "source_records": [
+                "amazon:0373584156"
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-03-11T07:27:55.381601"
+            }
+        },
+        "/books/OL23034194M": {
+            "latest_revision": 3,
+            "source_records": [
+                "marc:SanFranPL10/SanFranPL10.out:42930058:2083"
+            ],
+            "title": "Ternovai︠a︡ obitelʹ",
+            "work_titles": [
+                "Thornyhold."
+            ],
+            "languages": [
+                {
+                    "key": "/languages/rus"
+                }
+            ],
+            "publish_country": "ru ",
+            "by_statement": "Mėri Sti︠u︡art ; [perevod s angliĭskogo A. Grokhovskoĭ].",
+            "oclc_numbers": [
+                "49228508"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 3,
+            "publishers": [
+                "Azbuka"
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2009-12-15T08:17:40.333491"
+            },
+            "key": "/books/OL23034194M",
+            "authors": [
+                {
+                    "key": "/authors/OL216503A"
+                }
+            ],
+            "publish_places": [
+                "Sankt-Peterburg"
+            ],
+            "pagination": "282 p. ;",
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-02-18T03:48:04.648107"
+            },
+            "notes": {
+                "type": "/type/text",
+                "value": "Translation of: Thornyhold."
+            },
+            "number_of_pages": 282,
+            "isbn_10": [
+                "5267005142"
+            ],
+            "publish_date": "2001",
+            "works": [
+                {
+                    "key": "/works/OL1804648W"
+                }
+            ]
+        },
+        "/books/OL2184208M": {
+            "identifiers": {
+                "librarything": [
+                    "43419"
+                ],
+                "goodreads": [
+                    "1357421"
+                ]
+            },
+            "title": "Thornyhold",
+            "authors": [
+                {
+                    "key": "/authors/OL216503A"
+                }
+            ],
+            "publish_date": "1989",
+            "publishers": [
+                "G.K. Hall"
+            ],
+            "isbn_10": [
+                "0816148058"
+            ],
+            "series": [
+                "G.K. Hall large print book series"
+            ],
+            "local_id": [
+                "urn:sfpl:31223020604006",
+                "urn:bwbsku:W7-ADF-235"
+            ],
+            "lc_classifications": [
+                "PR6069.T46 T47 1989"
+            ],
+            "publish_places": [
+                "Boston, Mass"
+            ],
+            "pagination": "333 p. (large print) :",
+            "source_records": [
+                "marc:marc_records_scriblio_net/part20.dat:130055319:595",
+                "marc:marc_loc_updates/v36.i04.records.utf8:6613303:585",
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run01.mrc:204990116:1536",
+                "marc:marc_loc_2016/BooksAll.2016.part19.utf8:87782083:590",
+                "ia:thornyhold0000stew_q0a3",
+                "promise:bwb_daily_pallets_2022-05-25"
+            ],
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lccn": [
+                "89002041"
+            ],
+            "subjects": [
+                "Large type books"
+            ],
+            "publish_country": "mau",
+            "by_statement": "Mary Stewart.",
+            "oclc_numbers": [
+                "19390957"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                12993143
+            ],
+            "ocaid": "thornyhold0000stew_q0a3",
+            "key": "/books/OL2184208M",
+            "number_of_pages": 333,
+            "works": [
+                {
+                    "key": "/works/OL1804648W"
+                }
+            ],
+            "latest_revision": 13,
+            "revision": 13,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-18T03:30:09.299766"
+            }
+        },
+        "/books/OL29151847M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781408986073"
+            ],
+            "title": "Long Night's Loving",
+            "number_of_pages": 192,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Long Night's Loving",
+            "publish_date": "2012",
+            "key": "/books/OL29151847M",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3771113W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9781408986073"
+            ],
+            "classifications": {},
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-22T15:54:00.869018"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL28953686M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263152630"
+            ],
+            "title": "Long Night's Loving",
+            "number_of_pages": 189,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Long Night's Loving",
+            "publish_date": "1997",
+            "key": "/books/OL28953686M",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3771113W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9780263152630"
+            ],
+            "classifications": {},
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T06:10:26.259733"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL10739186M": {
+            "identifiers": {
+                "goodreads": [
+                    "6782161"
+                ],
+                "librarything": [
+                    "1711249"
+                ]
+            },
+            "title": "Long Night's Loving",
+            "authors": [
+                {
+                    "key": "/authors/OL2705359A"
+                }
+            ],
+            "publish_date": "May 1, 1997",
+            "publishers": [
+                "Harlequin"
+            ],
+            "weight": "3.2 ounces",
+            "series": [
+                "Harlequin Presents, No 1887"
+            ],
+            "covers": [
+                5073770
+            ],
+            "physical_format": "Paperback",
+            "subjects": [
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Regency",
+                "Romance - Contemporary",
+                "Non-Classifiable",
+                "Romance - General"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-06-01:o8-axg-883",
+                "bwb:9780373118878",
+                "promise:bwb_daily_pallets_2022-04-27:P7-DFW-411",
+                "promise:bwb_daily_pallets_2022-04-18:O8-AHB-158",
+                "promise:bwb_daily_pallets_2021-09-21:P7-DPD-298",
+                "promise:bwb_daily_pallets_2021-05-19:663-AAZ-135",
+                "promise:bwb_daily_pallets_2021-03-08:699-BAC-565"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.8 x 4.2 x 0.8 inches",
+            "local_id": [
+                "urn:bwbsku:O8-AXG-883",
+                "urn:bwbsku:P7-DFW-411",
+                "urn:bwbsku:O8-AHB-158",
+                "urn:bwbsku:P7-DPD-298",
+                "urn:bwbsku:663-AAZ-135",
+                "urn:bwbsku:699-BAC-565"
+            ],
+            "key": "/books/OL10739186M",
+            "number_of_pages": 189,
+            "works": [
+                {
+                    "key": "/works/OL3771113W"
+                }
+            ],
+            "isbn_10": [
+                "0373118872"
+            ],
+            "isbn_13": [
+                "9780373118878"
+            ],
+            "oclc_numbers": [
+                "36435266"
+            ],
+            "classifications": {},
+            "latest_revision": 28,
+            "revision": 28,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-18T10:37:02.433341"
+            }
+        },
+        "/books/OL10240830M": {
+            "identifiers": {
+                "goodreads": [
+                    "1739469"
+                ],
+                "librarything": [
+                    "1711249"
+                ]
+            },
+            "title": "Long Night's Loving",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "publish_date": "December 1997",
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "weight": "13.6 ounces",
+            "covers": [
+                2342993
+            ],
+            "physical_format": "Hardcover",
+            "subjects": [
+                "Romance",
+                "Fiction - Romance",
+                "Fiction",
+                "Romance - General"
+            ],
+            "edition_name": "Large Print Edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.5 x 5.8 x 1 inches",
+            "ocaid": "longnightsloving00anne",
+            "isbn_10": [
+                "0263152944"
+            ],
+            "isbn_13": [
+                "9780263152944"
+            ],
+            "source_records": [
+                "amazon:0263152944"
+            ],
+            "key": "/books/OL10240830M",
+            "number_of_pages": 288,
+            "works": [
+                {
+                    "key": "/works/OL3771113W"
+                }
+            ],
+            "latest_revision": 13,
+            "revision": 13,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-12T01:23:09.584272"
+            }
+        },
+        "/books/OL29784098M": {
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "source_records": [
+                "bwb:9781488098147"
+            ],
+            "title": "Savage Interlude",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781488098147"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Savage Interlude",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2018",
+            "key": "/books/OL29784098M",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3775489W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-31T04:38:12.949572"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-29T02:40:59.255948"
+            }
+        },
+        "/books/OL29264502M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781474030229"
+            ],
+            "title": "Savage Interlude",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781474030229"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Savage Interlude",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2015",
+            "key": "/books/OL29264502M",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3775489W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-24T00:43:17.992238"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-29T02:40:59.255948"
+            }
+        },
+        "/books/OL9599446M": {
+            "identifiers": {
+                "goodreads": [
+                    "695324"
+                ],
+                "librarything": [
+                    "3803245"
+                ]
+            },
+            "title": "Savage Interlude",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "publish_date": "1980",
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "covers": [
+                9568849
+            ],
+            "physical_format": "Paperback",
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-07-26:W7-BTV-527",
+                "bwb:9780373103409",
+                "promise:bwb_daily_pallets_2020-11-02:W6-ABM-207",
+                "amazon:0373103409"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:W7-BTV-527",
+                "urn:bwbsku:W6-ABM-207"
+            ],
+            "key": "/books/OL9599446M",
+            "works": [
+                {
+                    "key": "/works/OL3775489W"
+                }
+            ],
+            "number_of_pages": 188,
+            "ocaid": "savageinterlude00caro_ard",
+            "isbn_10": [
+                "0373103409"
+            ],
+            "isbn_13": [
+                "9780373103409"
+            ],
+            "oclc_numbers": [
+                "6030848"
+            ],
+            "classifications": {},
+            "latest_revision": 17,
+            "revision": 17,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-22T21:48:14.693147"
+            }
+        },
+        "/books/OL38277262M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL451969A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2011",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781299367937"
+            ],
+            "title": "The Secret Mistress",
+            "full_title": "Secret Mistress",
+            "works": [
+                {
+                    "key": "/works/OL2959281W"
+                }
+            ],
+            "key": "/books/OL38277262M",
+            "identifiers": {},
+            "isbn_13": [
+                "9781299367937"
+            ],
+            "classifications": {},
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-17T13:04:20.908897"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-19T00:17:13.869498"
+            }
+        },
+        "/books/OL29151675M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781408984390"
+            ],
+            "title": "The Secret Mistress",
+            "number_of_pages": 192,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Secret Mistress",
+            "publish_date": "2012",
+            "key": "/books/OL29151675M",
+            "authors": [
+                {
+                    "key": "/authors/OL451969A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL2959281W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_13": [
+                "9781408984390"
+            ],
+            "classifications": {},
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-22T15:51:22.518906"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-19T00:17:45.581071"
+            }
+        },
+        "/books/OL28951498M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited",
+                "Mills & B."
+            ],
+            "source_records": [
+                "bwb:9780263816822",
+                "amazon:0263816826"
+            ],
+            "title": "The Secret Mistress",
+            "number_of_pages": 184,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Secret Mistress",
+            "publish_date": "1999",
+            "key": "/books/OL28951498M",
+            "authors": [
+                {
+                    "key": "/authors/OL451969A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL2959281W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "covers": [
+                13578488
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9780263816822"
+            ],
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T05:03:14.379672"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-19T00:16:42.247160"
+            }
+        },
+        "/books/OL9751226M": {
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "number_of_pages": 218,
+            "weight": "15 ounces",
+            "covers": [
+                1154935
+            ],
+            "physical_format": "Hardcover",
+            "key": "/books/OL9751226M",
+            "authors": [
+                {
+                    "key": "/authors/OL451969A"
+                }
+            ],
+            "subjects": [
+                "Romance",
+                "Fiction",
+                "Fiction - Romance",
+                "Large Print",
+                "Romance - General"
+            ],
+            "edition_name": "Large Print Edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "ia:secretmistress00emma"
+            ],
+            "title": "The Secret Mistress",
+            "identifiers": {
+                "goodreads": [
+                    "1934189"
+                ]
+            },
+            "publish_date": "November 1999",
+            "works": [
+                {
+                    "key": "/works/OL2959281W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.3 x 5.5 x 0.8 inches",
+            "ocaid": "secretmistress00emma",
+            "isbn_10": [
+                "0263162052"
+            ],
+            "isbn_13": [
+                "9780263162059"
+            ],
+            "classifications": {},
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-19T00:13:32.270396"
+            }
+        },
+        "/books/OL17946161M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "series": [
+                "Mills & Boon romance -- H5015"
+            ],
+            "pagination": "187p. ;",
+            "key": "/books/OL17946161M",
+            "authors": [
+                {
+                    "key": "/authors/OL451969A"
+                }
+            ],
+            "publish_places": [
+                "Richmond"
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "source_records": [
+                "bwb:9780263161908",
+                "amazon:0263161900"
+            ],
+            "title": "The Secret Mistress",
+            "number_of_pages": 187,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Mistresses -- Argentina -- Fiction."
+            ],
+            "publish_date": "1999",
+            "publish_country": "enk",
+            "by_statement": "Emma Darcy.",
+            "works": [
+                {
+                    "key": "/works/OL2959281W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                13249594
+            ],
+            "identifiers": {},
+            "isbn_10": [
+                "0263161900"
+            ],
+            "oclc_numbers": [
+                "59377283"
+            ],
+            "classifications": {},
+            "dewey_decimal_class": [
+                "823.914"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-08T14:28:34.066607"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-19T00:18:50.554044"
+            }
+        },
+        "/books/OL9746076M": {
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "number_of_pages": 218,
+            "weight": "15 ounces",
+            "covers": [
+                1154936
+            ],
+            "physical_format": "Hardcover",
+            "key": "/books/OL9746076M",
+            "authors": [
+                {
+                    "key": "/authors/OL451969A"
+                }
+            ],
+            "subjects": [
+                "Romance",
+                "Fiction",
+                "Fiction - Romance",
+                "Large Print",
+                "Romance - General"
+            ],
+            "edition_name": "Large Print Edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "bwb:9780263162059",
+                "ia:secretmistress0000darc_k0m9",
+                "ia:secretmistress0000darc",
+                "amazon:0263162052"
+            ],
+            "title": "The Secret Mistress",
+            "identifiers": {
+                "goodreads": [
+                    "1934189"
+                ]
+            },
+            "publish_date": "November 1999",
+            "works": [
+                {
+                    "key": "/works/OL2959281W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.3 x 5.5 x 0.8 inches",
+            "ocaid": "secretmistress0000darc_k0m9",
+            "isbn_10": [
+                "0263162052"
+            ],
+            "isbn_13": [
+                "9780263162059"
+            ],
+            "classifications": {},
+            "latest_revision": 12,
+            "revision": 12,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-19T00:14:43.300844"
+            }
+        },
+        "/books/OL9741786M": {
+            "identifiers": {
+                "goodreads": [
+                    "1064378"
+                ],
+                "librarything": [
+                    "1606331"
+                ]
+            },
+            "title": "The Secret Mistress",
+            "authors": [
+                {
+                    "key": "/authors/OL451969A"
+                }
+            ],
+            "publish_date": "June 1, 1999",
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "ia_box_id": [
+                "IA126405"
+            ],
+            "weight": "3.2 ounces",
+            "series": [
+                "Harlequin Presents, 2038"
+            ],
+            "covers": [
+                6608535,
+                214638
+            ],
+            "physical_format": "Paperback",
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-09-07:O8-BQV-310",
+                "ia:secretmistress00darc",
+                "bwb:9780373120383",
+                "promise:bwb_daily_pallets_2021-05-27:P7-BRY-890"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Romance",
+                "Romance - General",
+                "Non-Classifiable",
+                "Romance - Contemporary",
+                "Fiction - Romance",
+                "Fiction"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.8 x 4.2 x 0.5 inches",
+            "local_id": [
+                "urn:bwbsku:O8-BQV-310",
+                "urn:bwbsku:P7-BRY-890"
+            ],
+            "key": "/books/OL9741786M",
+            "number_of_pages": 184,
+            "works": [
+                {
+                    "key": "/works/OL2959281W"
+                }
+            ],
+            "ocaid": "secretmistress00darc",
+            "isbn_10": [
+                "0373120389"
+            ],
+            "isbn_13": [
+                "9780373120383"
+            ],
+            "oclc_numbers": [
+                "41247655"
+            ],
+            "classifications": {},
+            "latest_revision": 18,
+            "revision": 18,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-19T00:15:18.779269"
+            }
+        },
+        "/books/OL20264368M": {
+            "publishers": [
+                "White Lion Publishers"
+            ],
+            "key": "/books/OL20264368M",
+            "authors": [
+                {
+                    "key": "/authors/OL1640017A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "254p. ;",
+            "title": "The Distant Hills",
+            "notes": "Originally published, London, Collins, 1962.",
+            "number_of_pages": 254,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1972",
+            "publish_country": "xxk",
+            "by_statement": "(by) Lucy Walker.",
+            "works": [
+                {
+                    "key": "/works/OL6286625W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "bwb:9780856175947"
+            ],
+            "identifiers": {},
+            "isbn_10": [
+                "0856175943"
+            ],
+            "oclc_numbers": [
+                "16242578"
+            ],
+            "dewey_decimal_class": [
+                "823/.9/1F"
+            ],
+            "copyright_date": "1962",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-26T10:12:16.828492"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-05-30T11:45:28.697773"
+            }
+        },
+        "/books/OL47828513M": {
+            "works": [
+                {
+                    "key": "/works/OL6286625W"
+                }
+            ],
+            "title": "The Distant Hills",
+            "publishers": [
+                "Beagle"
+            ],
+            "publish_date": "1973",
+            "key": "/books/OL47828513M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                14327051
+            ],
+            "identifiers": {},
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "physical_format": "Paperback",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-05-25T10:00:00.207138"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-05-25T10:00:27.389582"
+            }
+        },
+        "/books/OL38368113M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2014",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781460348352"
+            ],
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "title": "The Baby Gambit",
+            "full_title": "Baby Gambit",
+            "works": [
+                {
+                    "key": "/works/OL3771257W"
+                }
+            ],
+            "key": "/books/OL38368113M",
+            "identifiers": {},
+            "isbn_13": [
+                "9781460348352"
+            ],
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-18T14:03:59.933963"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL47935660M": {
+            "works": [
+                {
+                    "key": "/works/OL554608W"
+                }
+            ],
+            "title": "Offer from a gentleman",
+            "publishers": [
+                "HarperCollins Publishers"
+            ],
+            "publish_date": "2001",
+            "key": "/books/OL47935660M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                14328436
+            ],
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-05-26T18:23:54.645423"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-05-26T19:55:26.529955"
+            }
+        },
+        "/books/OL33445730M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL40776A"
+                }
+            ],
+            "isbn_13": [
+                "9781405528702"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 48,
+            "publish_date": "2013",
+            "publishers": [
+                "Little, Brown Book Group Limited"
+            ],
+            "source_records": [
+                "bwb:9781405528702"
+            ],
+            "subjects": [
+                "Fiction, romance, regency",
+                "England, fiction"
+            ],
+            "title": "Offer from a Gentleman",
+            "works": [
+                {
+                    "key": "/works/OL554608W"
+                }
+            ],
+            "key": "/books/OL33445730M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-09-17T19:24:24.253714"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-06-10T00:05:16.381455"
+            }
+        },
+        "/books/OL31988106M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "An Offer From A Gentleman",
+            "source_records": [
+                "amazon:0349429448",
+                "bwb:9780349429441"
+            ],
+            "isbn_10": [
+                "0349429448"
+            ],
+            "isbn_13": [
+                "9780349429441"
+            ],
+            "physical_format": "paperback",
+            "full_title": "An Offer From A Gentleman Inspiration for the Netflix Original Series Bridgerton",
+            "subtitle": "Inspiration for the Netflix Original Series Bridgerton",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: An Offer From A Gentleman: Inspiration for the Netflix Original Series Bridgerton"
+            },
+            "covers": [
+                10660684
+            ],
+            "works": [
+                {
+                    "key": "/works/OL554608W"
+                }
+            ],
+            "key": "/books/OL31988106M",
+            "lc_classifications": [
+                "PS3617.U57"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-02-25T22:49:15.565139"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-06-10T00:05:16.381455"
+            }
+        },
+        "/books/OL9507191M": {
+            "identifiers": {
+                "librarything": [
+                    "78986"
+                ],
+                "goodreads": [
+                    "861334"
+                ]
+            },
+            "title": "Te Doy Mi Corazon/an Offer from a Gentleman",
+            "authors": [
+                {
+                    "key": "/authors/OL20452A"
+                }
+            ],
+            "publish_date": "February 28, 2005",
+            "publishers": [
+                "Titania"
+            ],
+            "weight": "13.6 ounces",
+            "covers": [
+                2272813
+            ],
+            "physical_format": "Paperback",
+            "subjects": [
+                "Spanish: Adult Fiction",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance - Historical"
+            ],
+            "isbn_13": [
+                "9788495752727"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "isbn_10": [
+                "8495752727"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.4 x 5.9 x 1 inches",
+            "source_records": [
+                "amazon:8495752727"
+            ],
+            "key": "/books/OL9507191M",
+            "number_of_pages": 368,
+            "works": [
+                {
+                    "key": "/works/OL554608W"
+                }
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-04-24T03:59:04.394806"
+            }
+        },
+        "/books/OL7970312M": {
+            "identifiers": {
+                "goodreads": [
+                    "579244"
+                ],
+                "librarything": [
+                    "78986"
+                ]
+            },
+            "title": "An Offer from a Gentleman",
+            "subtitle": "(Bridgerton 3)",
+            "authors": [
+                {
+                    "key": "/authors/OL20452A"
+                }
+            ],
+            "publish_date": "2006",
+            "publishers": [
+                "Piatkus Books"
+            ],
+            "weight": "7 ounces",
+            "covers": [
+                1397470
+            ],
+            "physical_format": "Paperback",
+            "isbn_13": [
+                "9780749936594"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0749936592"
+            ],
+            "oclc_numbers": [
+                "65468493"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.8 x 4.4 x 1.1 inches",
+            "source_records": [
+                "amazon:0749936592"
+            ],
+            "key": "/books/OL7970312M",
+            "number_of_pages": 384,
+            "works": [
+                {
+                    "key": "/works/OL554608W"
+                }
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-07T17:55:53.110052"
+            }
+        },
+        "/books/OL24832227M": {
+            "title": "An Offer from a Gentleman",
+            "publish_date": "2001",
+            "publishers": [
+                "Avon Books",
+                "Avon"
+            ],
+            "ia_box_id": [
+                "IA140309"
+            ],
+            "links": [
+                {
+                    "url": "http://www.loc.gov/catdir/description/hc041/2002568860.html",
+                    "title": "Publisher description"
+                }
+            ],
+            "series": [
+                "Avon historical romance"
+            ],
+            "covers": [
+                15174662,
+                15171036,
+                6855224
+            ],
+            "local_id": [
+                "urn:bwbsku:W7-AAX-037",
+                "urn:sfpl:31223115958861",
+                "urn:sfpl:31223119056233",
+                "urn:sfpl:31223115958820",
+                "urn:sfpl:31223115958838",
+                "urn:sfpl:31223115958846"
+            ],
+            "subject_times": [
+                "19th century"
+            ],
+            "full_title": "An offer from a gentleman",
+            "publish_places": [
+                "New York"
+            ],
+            "contributions": [
+                "Copyright Paperback Collection (Library of Congress)"
+            ],
+            "subjects": [
+                "Social life and customs",
+                "Fiction"
+            ],
+            "pagination": "377 p. ;",
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-08-30:W7-AAX-037",
+                "ia:offerfromgentlem00quin",
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run05.mrc:200503581:2135",
+                "marc:marc_loc_2016/BooksAll.2016.part30.utf8:145793622:958",
+                "bwb:9780380815586",
+                "ia:offerfromgentlem0000quin_a9b5",
+                "marc:harvard_bibliographic_metadata/ab.bib.11.20150123.full.mrc:355974289:842"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subject_places": [
+                "England"
+            ],
+            "publish_country": "nyu",
+            "by_statement": "Julia Quinn",
+            "type": {
+                "key": "/type/edition"
+            },
+            "key": "/books/OL24832227M",
+            "number_of_pages": 377,
+            "works": [
+                {
+                    "key": "/works/OL554608W"
+                }
+            ],
+            "identifiers": {},
+            "ocaid": "offerfromgentlem00quin",
+            "isbn_10": [
+                "0380815583"
+            ],
+            "lccn": [
+                "2002568860"
+            ],
+            "oclc_numbers": [
+                "47243944"
+            ],
+            "classifications": {},
+            "lc_classifications": [
+                "CPB Box no. 1886 vol. 8",
+                "CPB",
+                "PS3567.U3455 O33 2001x"
+            ],
+            "latest_revision": 25,
+            "revision": 25,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2011-07-26T09:17:26.349614"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-01T19:01:41.743929"
+            }
+        },
+        "/books/OL3499623M": {
+            "publishers": [
+                "J. Curley"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "4961624"
+                ]
+            },
+            "local_id": [
+                "urn:sfpl:31223058811929"
+            ],
+            "lc_classifications": [
+                "PS3554.A29 O5 1983"
+            ],
+            "latest_revision": 9,
+            "key": "/books/OL3499623M",
+            "authors": [
+                {
+                    "key": "/authors/OL21059A"
+                }
+            ],
+            "publish_places": [
+                "South Yarmouth, Ma"
+            ],
+            "subjects": [
+                "Large type books"
+            ],
+            "pagination": "239 p. ;",
+            "source_records": [
+                "marc:marc_records_scriblio_net/part15.dat:218672689:592",
+                "marc:marc_loc_updates/v36.i04.records.utf8:4071422:582",
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run01.mrc:58075735:1497",
+                "marc:marc_loc_2016/BooksAll.2016.part14.utf8:38591269:582"
+            ],
+            "title": "One of the boys",
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Published in large print."
+            },
+            "number_of_pages": 239,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lccn": [
+                "82019814"
+            ],
+            "isbn_10": [
+                "0893404845"
+            ],
+            "publish_date": "1983",
+            "publish_country": "mau",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-10-21T17:18:24.821268"
+            },
+            "by_statement": "Janet Dailey.",
+            "works": [
+                {
+                    "key": "/works/OL14862450W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 9
+        },
+        "/books/OL22380894M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Originally published, London , Mills & Boon, 1981."
+            },
+            "identifiers": {
+                "goodreads": [
+                    "4961624"
+                ]
+            },
+            "title": "One of the boys",
+            "authors": [
+                {
+                    "key": "/authors/OL21059A"
+                }
+            ],
+            "publish_date": "1983",
+            "publishers": [
+                "Chivers Press"
+            ],
+            "series": [
+                "A Seymour large print romance"
+            ],
+            "lc_classifications": [
+                "PR6054.A36"
+            ],
+            "publish_places": [
+                "(Bath)"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "239p. ;",
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "edition_name": "Large print ed.",
+            "isbn_10": [
+                "0851195156",
+                "0893404845"
+            ],
+            "publish_country": "xxk",
+            "by_statement": "Janet Dailey.",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:1537747743:763"
+            ],
+            "key": "/books/OL22380894M",
+            "number_of_pages": 239,
+            "works": [
+                {
+                    "key": "/works/OL14862450W"
+                }
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-12T07:58:36.344611"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-24T08:19:01.193554"
+            }
+        },
+        "/books/OL14981010M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "series": [
+                "Best seller romance"
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T22:27:15.136471"
+            },
+            "latest_revision": 4,
+            "key": "/books/OL14981010M",
+            "authors": [
+                {
+                    "key": "/authors/OL807186A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "187p. ;",
+            "source_records": [
+                "bwb:9780263748239"
+            ],
+            "title": "The wool King",
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "number_of_pages": 187,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T23:26:06.935499"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263748235"
+            ],
+            "publish_date": "1984",
+            "publish_country": "xxk",
+            "by_statement": "Kerry Allyne.",
+            "oclc_numbers": [
+                "4974135"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4220911W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 4
+        },
+        "/books/OL29031738M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263197402",
+                "ia:cattleranchersec0000waym_j8t7"
+            ],
+            "title": "Cattle Rancher, Secret Son",
+            "number_of_pages": 187,
+            "isbn_13": [
+                "9780263197402"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Cattle Rancher, Secret Son",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2007",
+            "key": "/books/OL29031738M",
+            "authors": [
+                {
+                    "key": "/authors/OL1175057A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL5236106W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "covers": [
+                11340717
+            ],
+            "ocaid": "cattleranchersec0000waym_j8t7",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-21T02:42:43.066352"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-21T18:37:35.888852"
+            }
+        },
+        "/books/OL24854904M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "ia_box_id": [
+                "IA133522"
+            ],
+            "series": [
+                "Harlequin romance -- 4003"
+            ],
+            "covers": [
+                6859703
+            ],
+            "full_title": "Cattle rancher, secret son",
+            "key": "/books/OL24854904M",
+            "authors": [
+                {
+                    "key": "/authors/OL1175057A"
+                }
+            ],
+            "publish_places": [
+                "Toronto",
+                "New York"
+            ],
+            "pagination": "185 p. ;",
+            "source_records": [
+                "ia:cattleranchersec00waym"
+            ],
+            "title": "Cattle Rancher, Secret Son",
+            "number_of_pages": 185,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subject_places": [
+                "Australia"
+            ],
+            "subjects": [
+                "Single mothers",
+                "Sons",
+                "Ranchers",
+                "Fiction"
+            ],
+            "publish_date": "2008",
+            "publish_country": "onc",
+            "copyright_date": "2007",
+            "by_statement": "Margaret Way",
+            "works": [
+                {
+                    "key": "/works/OL5236106W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "ocaid": "cattleranchersec00waym",
+            "isbn_10": [
+                "0373174934"
+            ],
+            "isbn_13": [
+                "9780373174935"
+            ],
+            "lccn": [
+                "2010398217"
+            ],
+            "oclc_numbers": [
+                "172980756"
+            ],
+            "classifications": {},
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2011-07-26T23:31:12.503545"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-28T23:10:02.023712"
+            }
+        },
+        "/books/OL24268619M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "covers": [
+                6417709
+            ],
+            "physical_format": "Electronic resource",
+            "key": "/books/OL24268619M",
+            "authors": [
+                {
+                    "key": "/authors/OL1175057A"
+                }
+            ],
+            "publish_places": [
+                "Toronto, Ontario"
+            ],
+            "isbn_13": [
+                "9781426812514"
+            ],
+            "source_records": [
+                "marc_overdrive/InternetArchiveCrMarc-2010-06-11o.mrc:5731528:2008",
+                "bwb:9781426812514"
+            ],
+            "title": "Cattle Rancher, Secret Son",
+            "identifiers": {
+                "overdrive": [
+                    "33F604D0-E838-4D8E-ADD4-C58CC8ABACFB"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2008",
+            "publish_country": "nyu",
+            "oclc_numbers": [
+                "230235355"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL5236106W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-06-17T23:35:43.072349"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-21T18:37:35.888852"
+            }
+        },
+        "/books/OL9740822M": {
+            "identifiers": {
+                "librarything": [
+                    "1601792"
+                ]
+            },
+            "title": "Battle for Possession (Barbary Wharf)",
+            "authors": [
+                {
+                    "key": "/authors/OL4728806A"
+                }
+            ],
+            "publish_date": "November 6, 1992",
+            "publishers": [
+                "Silhouette Books"
+            ],
+            "physical_format": "Hardcover",
+            "edition_name": "Large Print Ed edition",
+            "isbn_13": [
+                "9780373585069"
+            ],
+            "isbn_10": [
+                "0373585063"
+            ],
+            "oclc_numbers": [
+                "154136905"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Romance"
+            ],
+            "source_records": [
+                "amazon:0373585063"
+            ],
+            "key": "/books/OL9740822M",
+            "number_of_pages": 288,
+            "works": [
+                {
+                    "key": "/works/OL3294274W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-05T15:59:02.283554"
+            }
+        },
+        "/books/OL9747296M": {
+            "identifiers": {
+                "librarything": [
+                    "1601792"
+                ]
+            },
+            "title": "Battle for Possession (Barbary Wharf)",
+            "authors": [
+                {
+                    "key": "/authors/OL4728806A"
+                }
+            ],
+            "publish_date": "May 1992",
+            "publishers": [
+                "Silhouette Books"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9780373584154"
+            ],
+            "isbn_10": [
+                "0373584156"
+            ],
+            "oclc_numbers": [
+                "220953674"
+            ],
+            "physical_format": "Hardcover",
+            "subjects": [
+                "Romance"
+            ],
+            "source_records": [
+                "amazon:0373584156"
+            ],
+            "key": "/books/OL9747296M",
+            "number_of_pages": 224,
+            "works": [
+                {
+                    "key": "/works/OL3294274W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-20T12:20:15.377229"
+            }
+        },
+        "/books/OL18462013M": {
+            "publishers": [
+                "Worldwide Books"
+            ],
+            "number_of_pages": 219,
+            "series": [
+                "Barbary wharf -- bk. 2"
+            ],
+            "covers": [
+                10407366
+            ],
+            "key": "/books/OL18462013M",
+            "authors": [
+                {
+                    "key": "/authors/OL4728806A"
+                }
+            ],
+            "ocaid": "battleforpossess0000lamb",
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "219p. ;",
+            "source_records": [
+                "bwb:9780373585304",
+                "ia:battleforpossess0000lamb",
+                "amazon:0373585306"
+            ],
+            "title": "Battle for possession",
+            "dewey_decimal_class": [
+                "823.914"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "6277847"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373585306"
+            ],
+            "publish_date": "1992",
+            "publish_country": "enk",
+            "by_statement": "by Charlotte Lamb.",
+            "works": [
+                {
+                    "key": "/works/OL3294274W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-16T21:42:31.216919"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-04T00:54:44.819664"
+            }
+        },
+        "/books/OL2036962M": {
+            "publishers": [
+                "Morrow"
+            ],
+            "number_of_pages": 207,
+            "ia_box_id": [
+                "IA124804"
+            ],
+            "isbn_10": [
+                "0688084257"
+            ],
+            "covers": [
+                6606873
+            ],
+            "lc_classifications": [
+                "PR6069.T46 T47 1988",
+                "PR6069.T46T47 1988"
+            ],
+            "key": "/books/OL2036962M",
+            "authors": [
+                {
+                    "key": "/authors/OL216503A"
+                }
+            ],
+            "ocaid": "thornyholdstew00stew",
+            "publish_places": [
+                "New York"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "207 p. :",
+            "source_records": [
+                "marc:marc_records_scriblio_net/part20.dat:5717281:467",
+                "marc:CollingswoodLibraryMarcDump10-27-2008/Collingswood.out:7683250:1405",
+                "ia:thornyholdstew00stew",
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run01.mrc:204991652:1594",
+                "amazon:0688084257",
+                "marc:marc_loc_2016/BooksAll.2016.part18.utf8:159330333:502",
+                "ia:thornyhold0000unse",
+                "ia:thornyhold0000stew_c7b8",
+                "bwb:9780688084257"
+            ],
+            "title": "Thornyhold",
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "1450974"
+                ],
+                "librarything": [
+                    "43419"
+                ]
+            },
+            "edition_name": "1st U.S. ed.",
+            "lccn": [
+                "88013194"
+            ],
+            "local_id": [
+                "urn:sfpl:31223014302880",
+                "urn:sfpl:31223019148346"
+            ],
+            "publish_date": "1988",
+            "publish_country": "nyu",
+            "by_statement": "Mary Stewart.",
+            "works": [
+                {
+                    "key": "/works/OL1804648W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 14,
+            "revision": 14,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-02-28T20:25:18.132175"
+            }
+        },
+        "/books/OL15263727M": {
+            "works": [
+                {
+                    "key": "/works/OL1804648W"
+                }
+            ],
+            "title": "Die Herrin von Thornyhold",
+            "work_titles": [
+                "Thornyhold."
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "English ed. originally published: Hodder & Stoughton, 1988.\n\nTranslation of: Thornyhold."
+            },
+            "languages": [
+                {
+                    "key": "/languages/ger"
+                }
+            ],
+            "publish_date": "1989",
+            "publish_country": "gw ",
+            "key": "/books/OL15263727M",
+            "authors": [
+                {
+                    "key": "/authors/OL216503A"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "by_statement": "[translated by Margarete Längsfeld and Hans Erik Hausner].",
+            "isbn_10": [
+                "3453048628"
+            ],
+            "local_id": [
+                "urn:bwbsku:KG-952-980"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-05-24:KG-952-980"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-19T03:16:01.532091"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-05-26T03:17:05.378114"
+            }
+        },
+        "/books/OL38368098M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2014",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781460347935"
+            ],
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "title": "Long Night's Loving",
+            "full_title": "Long Night's Loving",
+            "works": [
+                {
+                    "key": "/works/OL3771113W"
+                }
+            ],
+            "key": "/books/OL38368098M",
+            "identifiers": {},
+            "isbn_13": [
+                "9781460347935"
+            ],
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-18T14:03:51.598495"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL38277438M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "isbn_13": [
+                "9781299370241"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2013",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781299370241"
+            ],
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "title": "Long Night's Loving",
+            "full_title": "Long Night's Loving",
+            "works": [
+                {
+                    "key": "/works/OL3771113W"
+                }
+            ],
+            "key": "/books/OL38277438M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-17T13:06:06.117600"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL9746350M": {
+            "title": "The Secret Mistress (Soundings S.)",
+            "authors": [
+                {
+                    "key": "/authors/OL451969A"
+                }
+            ],
+            "publish_date": "September 2000",
+            "publishers": [
+                "Soundings"
+            ],
+            "physical_format": "Audio Cassette",
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                2063983
+            ],
+            "isbn_13": [
+                "9781860428470"
+            ],
+            "isbn_10": [
+                "1860428479"
+            ],
+            "oclc_numbers": [
+                "155456713"
+            ],
+            "contributions": [
+                "Anne Cater (Narrator)"
+            ],
+            "subjects": [
+                "Genre Fiction",
+                "Romance"
+            ],
+            "source_records": [
+                "amazon:1860428479"
+            ],
+            "key": "/books/OL9746350M",
+            "works": [
+                {
+                    "key": "/works/OL2959281W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-29T02:10:10.225179"
+            }
+        },
+        "/books/OL9751619M": {
+            "title": "The Secret Mistress (Soundings S.)",
+            "publish_date": "September 2000",
+            "publishers": [
+                "Soundings"
+            ],
+            "physical_format": "Audio cassette",
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                2063982
+            ],
+            "isbn_13": [
+                "9781860428470"
+            ],
+            "isbn_10": [
+                "1860428479"
+            ],
+            "oclc_numbers": [
+                "155456713"
+            ],
+            "contributions": [
+                "Anne Cater (Narrator)"
+            ],
+            "subjects": [
+                "Genre Fiction",
+                "Romance"
+            ],
+            "source_records": [
+                "amazon:1860428479"
+            ],
+            "key": "/books/OL9751619M",
+            "works": [
+                {
+                    "key": "/works/OL2959281W"
+                }
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-20T00:52:22.623997"
+            }
+        },
+        "/books/OL14876351M": {
+            "publishers": [
+                "Fontana"
+            ],
+            "key": "/books/OL14876351M",
+            "authors": [
+                {
+                    "key": "/authors/OL1640017A"
+                }
+            ],
+            "publish_places": [
+                "Glasgow"
+            ],
+            "pagination": "187p. ;",
+            "title": "The Distant Hills",
+            "notes": "Originally published, London , Collins, 1962.",
+            "number_of_pages": 187,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1981",
+            "publish_country": "xxk",
+            "by_statement": "Lucy Walker.",
+            "works": [
+                {
+                    "key": "/works/OL6286625W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "bwb:9780006161622"
+            ],
+            "identifiers": {},
+            "isbn_10": [
+                "0006161626"
+            ],
+            "oclc_numbers": [
+                "16557530"
+            ],
+            "dewey_decimal_class": [
+                "823"
+            ],
+            "copyright_date": "1962",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-15T21:51:18.592017"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-05-30T11:47:32.504946"
+            }
+        },
+        "/books/OL58812662M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "The Distant Hills",
+            "authors": [
+                {
+                    "key": "/authors/OL7520713A"
+                }
+            ],
+            "publish_date": "1970",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 194,
+            "publishers": [
+                "Beagle Books"
+            ],
+            "source_records": [
+                "ia:distanthillslucy0000unse"
+            ],
+            "full_title": "The Distant Hills (Lucy Walker 3)",
+            "works": [
+                {
+                    "key": "/works/OL6286625W"
+                }
+            ],
+            "key": "/books/OL58812662M",
+            "covers": [
+                15220532
+            ],
+            "identifiers": {},
+            "publish_places": [
+                "New York"
+            ],
+            "series": [
+                "Beagle Romance - Lucy Walker #3"
+            ],
+            "physical_format": "Paperback",
+            "ocaid": "distanthillslucy0000unse",
+            "copyright_date": "1962",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-04-30T19:34:39.058421"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-05-19T05:26:06.419708"
+            }
+        },
+        "/books/OL47828514M": {
+            "works": [
+                {
+                    "key": "/works/OL6286625W"
+                }
+            ],
+            "title": "The Distant Hills",
+            "publishers": [
+                "Fontana"
+            ],
+            "publish_date": "1976",
+            "key": "/books/OL47828514M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                14327053
+            ],
+            "identifiers": {},
+            "classifications": {},
+            "publish_places": [
+                "London"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "physical_format": "Paperback",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-05-25T10:01:20.977142"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-05-25T10:02:58.244609"
+            }
+        },
+        "/books/OL47828512M": {
+            "works": [
+                {
+                    "key": "/works/OL6286625W"
+                }
+            ],
+            "title": "The Distant Hills",
+            "publishers": [
+                "Fontana"
+            ],
+            "publish_date": "1970",
+            "key": "/books/OL47828512M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                14327050
+            ],
+            "identifiers": {},
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "physical_format": "Paperback",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-05-25T09:58:29.455952"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-05-25T09:59:01.959968"
+            }
+        },
+        "/books/OL11197951M": {
+            "publishers": [
+                "Ulverscroft Large Print"
+            ],
+            "number_of_pages": 416,
+            "covers": [
+                14327056,
+                8124943
+            ],
+            "physical_format": "Hardcover",
+            "key": "/books/OL11197951M",
+            "authors": [
+                {
+                    "key": "/authors/OL1640017A"
+                }
+            ],
+            "subjects": [
+                "Romance - General",
+                "Fiction - Romance"
+            ],
+            "classifications": {},
+            "source_records": [
+                "ia:distanthills00lucy",
+                "amazon:0708914772"
+            ],
+            "title": "The Distant Hills",
+            "identifiers": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "June 1986",
+            "works": [
+                {
+                    "key": "/works/OL6286625W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "distanthills00lucy",
+            "isbn_10": [
+                "0708914772"
+            ],
+            "isbn_13": [
+                "9780708914779"
+            ],
+            "oclc_numbers": [
+                "13064225"
+            ],
+            "edition_name": "Large Print Edition",
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-05-25T10:03:29.740305"
+            }
+        },
+        "/books/OL38353871M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2011",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781459252073"
+            ],
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "title": "The Baby Gambit",
+            "full_title": "Baby Gambit",
+            "works": [
+                {
+                    "key": "/works/OL3771257W"
+                }
+            ],
+            "key": "/books/OL38353871M",
+            "identifiers": {},
+            "isbn_13": [
+                "9781459252073"
+            ],
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-18T09:46:32.246707"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-07T19:18:25.941048"
+            }
+        },
+        "/books/OL29151692M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781408986134"
+            ],
+            "title": "The Baby Gambit",
+            "number_of_pages": 192,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Baby Gambit",
+            "publish_date": "2012",
+            "key": "/books/OL29151692M",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3771257W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9781408986134"
+            ],
+            "classifications": {},
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-22T15:51:35.257242"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL28951541M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263162592"
+            ],
+            "title": "Baby Gambit",
+            "number_of_pages": 186,
+            "isbn_13": [
+                "9780263162592"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Baby Gambit",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "1999",
+            "key": "/books/OL28951541M",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3771257W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T05:04:14.811046"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL9750851M": {
+            "title": "The Baby Gambit",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "publish_date": "January 2000",
+            "publishers": [
+                "Thorndike Press"
+            ],
+            "weight": "15.8 ounces",
+            "covers": [
+                5009731,
+                5009188
+            ],
+            "physical_format": "Hardcover",
+            "subjects": [
+                "Romance",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern",
+                "Romance - General"
+            ],
+            "edition_name": "Largeprint edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_13": [
+                "9780263162851"
+            ],
+            "isbn_10": [
+                "0263162850"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.3 x 5.5 x 0.8 inches",
+            "source_records": [
+                "amazon:0263162850"
+            ],
+            "key": "/books/OL9750851M",
+            "number_of_pages": 287,
+            "works": [
+                {
+                    "key": "/works/OL3771257W"
+                }
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-02-01T04:27:28.100855"
+            }
+        },
+        "/books/OL9748100M": {
+            "title": "The Baby Gambit",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "publish_date": "January 2000",
+            "publishers": [
+                "Thorndike Press"
+            ],
+            "weight": "15.8 ounces",
+            "covers": [
+                5009730,
+                5009187
+            ],
+            "physical_format": "Hardcover",
+            "subjects": [
+                "Romance",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern",
+                "Romance - General"
+            ],
+            "edition_name": "Largeprint edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_13": [
+                "9780263162851"
+            ],
+            "isbn_10": [
+                "0263162850"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.3 x 5.5 x 0.8 inches",
+            "source_records": [
+                "amazon:0263162850"
+            ],
+            "key": "/books/OL9748100M",
+            "number_of_pages": 287,
+            "works": [
+                {
+                    "key": "/works/OL3771257W"
+                }
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-04T04:36:55.086380"
+            }
+        },
+        "/books/OL31988105M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "An Offer From A Gentleman",
+            "source_records": [
+                "amazon:0349429448",
+                "promise:bwb_daily_pallets_2022-07-11"
+            ],
+            "isbn_10": [
+                "0349429448"
+            ],
+            "isbn_13": [
+                "9780349429441"
+            ],
+            "physical_format": "paperback",
+            "full_title": "An Offer From A Gentleman Inspiration for the Netflix Original Series Bridgerton",
+            "subtitle": "Inspiration for the Netflix Original Series Bridgerton",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: An Offer From A Gentleman: Inspiration for the Netflix Original Series Bridgerton"
+            },
+            "covers": [
+                10660683
+            ],
+            "works": [
+                {
+                    "key": "/works/OL554608W"
+                }
+            ],
+            "key": "/books/OL31988105M",
+            "local_id": [
+                "urn:bwbsku:KR-317-935"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-02-25T22:49:13.804709"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-02-07T02:40:20.613040"
+            }
+        },
+        "/books/OL37924743M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Offer From a Gentleman LP, An",
+            "authors": [
+                {
+                    "key": "/authors/OL40776A"
+                }
+            ],
+            "publish_date": "May 24, 2022",
+            "source_records": [
+                "amazon:0063279479",
+                "bwb:9780063279476",
+                "promise:bwb_daily_pallets_2024-05-03:P9-DCA-083"
+            ],
+            "number_of_pages": 576,
+            "publishers": [
+                "HarperLuxe"
+            ],
+            "isbn_10": [
+                "0063279479"
+            ],
+            "isbn_13": [
+                "9780063279476"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Offer From a Gentleman LP, An : Bridgerton",
+            "subtitle": "Bridgerton",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Offer From a Gentleman LP, An: Bridgerton (Bridgertons, 3)"
+            },
+            "works": [
+                {
+                    "key": "/works/OL554608W"
+                }
+            ],
+            "key": "/books/OL37924743M",
+            "local_id": [
+                "urn:bwbsku:P9-DCA-083"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-05-19T14:54:06.911409"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-15T20:58:32.655720"
+            }
+        },
+        "/books/OL36722760M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL40776A"
+                }
+            ],
+            "isbn_13": [
+                "9780062424082"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "416",
+            "publish_date": "2015",
+            "publishers": [
+                "HarperCollins Publishers"
+            ],
+            "source_records": [
+                "bwb:9780062424082"
+            ],
+            "subjects": [
+                "Fiction, romance, historical, regency",
+                "England, fiction"
+            ],
+            "title": "Offer from a Gentleman",
+            "subtitle": "Bridgerton",
+            "full_title": "Offer from a Gentleman Bridgerton",
+            "works": [
+                {
+                    "key": "/works/OL554608W"
+                }
+            ],
+            "key": "/books/OL36722760M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-01-27T08:37:58.812324"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-06-10T00:05:16.381455"
+            }
+        },
+        "/books/OL37345016M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL40776A"
+                }
+            ],
+            "isbn_13": [
+                "9780060751302"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2004",
+            "publishers": [
+                "HarperCollins Publishers"
+            ],
+            "source_records": [
+                "bwb:9780060751302"
+            ],
+            "subjects": [
+                "Fiction, romance, historical, regency",
+                "England, fiction"
+            ],
+            "title": "Offer from a Gentleman",
+            "full_title": "Offer from a Gentleman",
+            "works": [
+                {
+                    "key": "/works/OL554608W"
+                }
+            ],
+            "key": "/books/OL37345016M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-02-28T12:19:23.037479"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-06-10T00:05:16.381455"
+            }
+        },
+        "/books/OL32313625M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "An Offer from a Gentleman",
+            "authors": [
+                {
+                    "key": "/authors/OL40776A"
+                }
+            ],
+            "publish_date": "Apr 27, 2021",
+            "source_records": [
+                "amazon:0063138646",
+                "bwb:9780063138643",
+                "promise:bwb_daily_pallets_2023-05-04:O9-AEV-067"
+            ],
+            "number_of_pages": 480,
+            "publishers": [
+                "Avon"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Offer from a Gentleman, An : Bridgerton",
+            "subtitle": "Benedict's Story",
+            "notes": "Source title: Offer from a Gentleman, An: Bridgerton (Bridgertons, 3)",
+            "covers": [
+                10937709
+            ],
+            "works": [
+                {
+                    "key": "/works/OL554608W"
+                }
+            ],
+            "key": "/books/OL32313625M",
+            "identifiers": {},
+            "isbn_10": [
+                "0063138646"
+            ],
+            "isbn_13": [
+                "9780063138643"
+            ],
+            "classifications": {},
+            "series": [
+                "Bridgerton"
+            ],
+            "local_id": [
+                "urn:bwbsku:O9-AEV-067"
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-05-05T00:06:18.522871"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-05-06T01:01:29.329700"
+            }
+        },
+        "/books/OL32528726M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Offer from a Gentleman, An",
+            "authors": [
+                {
+                    "key": "/authors/OL40776A"
+                }
+            ],
+            "publish_date": "May 04, 2021",
+            "source_records": [
+                "amazon:0063141337",
+                "bwb:9780063141339",
+                "promise:bwb_daily_pallets_2023-04-24:P8-CZY-893"
+            ],
+            "number_of_pages": 480,
+            "publishers": [
+                "Avon"
+            ],
+            "isbn_10": [
+                "0063141337"
+            ],
+            "isbn_13": [
+                "9780063141339"
+            ],
+            "physical_format": "hardcover",
+            "full_title": "Offer from a Gentleman, An Bridgerton",
+            "subtitle": "Bridgerton",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Offer from a Gentleman, An: Bridgerton (Bridgertons, 3)"
+            },
+            "covers": [
+                11178964
+            ],
+            "works": [
+                {
+                    "key": "/works/OL554608W"
+                }
+            ],
+            "key": "/books/OL32528726M",
+            "local_id": [
+                "urn:bwbsku:P8-CZY-893"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-05-28T21:06:33.827694"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-05-03T18:13:29.843146"
+            }
+        },
+        "/books/OL3667100M": {
+            "identifiers": {
+                "librarything": [
+                    "78986"
+                ],
+                "goodreads": [
+                    "110385"
+                ]
+            },
+            "title": "An  offer from a gentleman",
+            "publish_date": "2001",
+            "publishers": [
+                "Avon Books"
+            ],
+            "isbn_10": [
+                "0380815583"
+            ],
+            "series": [
+                "Avon historical romance"
+            ],
+            "pagination": "377 p. ;",
+            "covers": [
+                237294
+            ],
+            "lc_classifications": [
+                "CPB Box no. 1886 vol. 8"
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "contributions": [
+                "Copyright Paperback Collection (Library of Congress)"
+            ],
+            "subject_time": [
+                "19th century"
+            ],
+            "isbn_13": [
+                "9780380815586"
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "uri_descriptions": [
+                "Publisher description"
+            ],
+            "lccn": [
+                "2002568860"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "url": [
+                "http://www.loc.gov/catdir/description/hc041/2002568860.html"
+            ],
+            "subjects": [
+                "England -- Social life and customs -- 19th century -- Fiction."
+            ],
+            "publish_country": "nyu",
+            "subject_place": [
+                "England"
+            ],
+            "by_statement": "Julia Quinn.",
+            "oclc_numbers": [
+                "47243944"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "uris": [
+                "http://www.loc.gov/catdir/description/hc041/2002568860.html"
+            ],
+            "source_records": [
+                "marc:marc_records_scriblio_net/part14.dat:130062078:951"
+            ],
+            "key": "/books/OL3667100M",
+            "number_of_pages": 377,
+            "works": [
+                {
+                    "key": "/works/OL554608W"
+                }
+            ],
+            "latest_revision": 17,
+            "revision": 17,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-31T20:42:42.023146"
+            }
+        },
+        "/books/OL24248843M": {
+            "publishers": [
+                "HarperCollins"
+            ],
+            "physical_format": "Electronic resource",
+            "source_records": [
+                "marc_overdrive/InternetArchiveCrMarc-2010-06-11b.mrc:7587313:2541",
+                "bwb:9780061751004"
+            ],
+            "title": "An Offer from a Gentleman",
+            "identifiers": {
+                "overdrive": [
+                    "60914670-BCC7-4104-BB0C-190AA566B338"
+                ]
+            },
+            "isbn_13": [
+                "9780060751333",
+                "9780061751004",
+                "9780060751326"
+            ],
+            "covers": [
+                6396123
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2004",
+            "publish_country": "nyu",
+            "key": "/books/OL24248843M",
+            "authors": [
+                {
+                    "key": "/authors/OL20452A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL554608W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-06-17T00:07:08.431389"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-03-01T00:50:06.095870"
+            }
+        },
+        "/books/OL9767120M": {
+            "identifiers": {
+                "librarything": [
+                    "1606175"
+                ],
+                "goodreads": [
+                    "2588327"
+                ],
+                "amazon": [
+                    ""
+                ]
+            },
+            "title": "Honeymoon Baby (Do Not Disturb)",
+            "authors": [
+                {
+                    "key": "/authors/OL584492A"
+                }
+            ],
+            "publish_date": "September 1, 1998",
+            "publishers": [
+                "harlequin",
+                "Harlequin Books",
+                "Harlequin"
+            ],
+            "weight": "4 ounces",
+            "isbn_10": [
+                "0373119852"
+            ],
+            "series": [
+                "Harlequin Presents , No 1985"
+            ],
+            "covers": [
+                214589
+            ],
+            "physical_format": "Paperback",
+            "ocaid": "honeymoonbabydon00susa",
+            "isbn_13": [
+                "9780373119851"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-06-01:T2-DFP-228",
+                "bwb:9780373119851",
+                "promise:bwb_daily_pallets_2020-10-20:W6-APV-780",
+                "promise:bwb_daily_pallets_2020-10-14:W6-ASH-140",
+                "promise:bwb_daily_pallets_2020-04-09:756-BAA-429"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Romance - General",
+                "Non-Classifiable",
+                "Romance - Contemporary",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern"
+            ],
+            "oclc_numbers": [
+                "39481878"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.8 x 4.2 x 0.5 inches",
+            "local_id": [
+                "urn:bwbsku:T2-DFP-228",
+                "urn:bwbsku:W6-APV-780",
+                "urn:bwbsku:W6-ASH-140",
+                "urn:bwbsku:756-BAA-429"
+            ],
+            "key": "/books/OL9767120M",
+            "number_of_pages": 185,
+            "works": [
+                {
+                    "key": "/works/OL3498657W"
+                }
+            ],
+            "latest_revision": 21,
+            "revision": 21,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T18:37:57.951176"
+            }
+        },
+        "/books/OL24291780M": {
+            "publishers": [
+                "ereads.com"
+            ],
+            "physical_format": "E-book",
+            "source_records": [
+                "marc_overdrive/InternetArchiveCrMarc-2010-06-11k.mrc:7467241:1904",
+                "bwb:9780759208889",
+                "bwb:9780759267756"
+            ],
+            "title": "One of the Boys",
+            "identifiers": {
+                "overdrive": [
+                    "F0A91CDE-369A-46A8-B657-921C819852CE"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0759208883",
+                "0759267758"
+            ],
+            "publish_date": "2002",
+            "publish_country": "nyu",
+            "key": "/books/OL24291780M",
+            "publish_places": [
+                "New York"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL14862450W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "number_of_pages": 124,
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-06-23T01:37:09.266123"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-07-17T14:46:00.255175"
+            }
+        },
+        "/books/OL10738073M": {
+            "identifiers": {
+                "librarything": [
+                    "1232066"
+                ],
+                "goodreads": [
+                    "3052602"
+                ]
+            },
+            "title": "One of the Boys",
+            "authors": [
+                {
+                    "key": "/authors/OL21059A"
+                }
+            ],
+            "publish_date": "1980",
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "covers": [
+                9790038
+            ],
+            "physical_format": "Paperback",
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-03-04:O7-BVA-051",
+                "bwb:9780373103997",
+                "promise:bwb_daily_pallets_2020-11-12:W6-AYR-415"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "oneofboys00jane",
+            "isbn_10": [
+                "0373103999"
+            ],
+            "isbn_13": [
+                "9780373103997"
+            ],
+            "oclc_numbers": [
+                "7037363"
+            ],
+            "local_id": [
+                "urn:bwbsku:O7-BVA-051",
+                "urn:bwbsku:W6-AYR-415"
+            ],
+            "key": "/books/OL10738073M",
+            "works": [
+                {
+                    "key": "/works/OL14862450W"
+                }
+            ],
+            "latest_revision": 19,
+            "revision": 19,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T17:06:56.166974"
+            }
+        },
+        "/books/OL10750523M": {
+            "title": "One Of The Boys",
+            "authors": [
+                {
+                    "key": "/authors/OL21059A"
+                }
+            ],
+            "publish_date": "July 1, 1987",
+            "publishers": [
+                "harlequin",
+                "Harlequin"
+            ],
+            "physical_format": "Paperback",
+            "weight": "3.2 ounces",
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-02-15:W6-AWC-933",
+                "bwb:9780373898305",
+                "ia:oneofboys0000dail",
+                "promise:bwb_daily_pallets_2020-07-07:P4-ALR-374"
+            ],
+            "isbn_13": [
+                "9780373898305"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373898304"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Non-Classifiable",
+                "Romance: Regency"
+            ],
+            "physical_dimensions": "6.7 x 4.1 x 0.6 inches",
+            "covers": [
+                11018007
+            ],
+            "ocaid": "oneofboys0000dail",
+            "lc_classifications": [
+                "PS3554.A29 J34 no.30",
+                "CPB"
+            ],
+            "local_id": [
+                "urn:bwbsku:W6-AWC-933",
+                "urn:bwbsku:P4-ALR-374"
+            ],
+            "key": "/books/OL10750523M",
+            "works": [
+                {
+                    "key": "/works/OL14862450W"
+                }
+            ],
+            "latest_revision": 14,
+            "revision": 14,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T18:04:02.649478"
+            }
+        },
+        "/books/OL14976523M": {
+            "publishers": [
+                "Mills and Boon"
+            ],
+            "isbn_10": [
+                "0263093085"
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T22:05:24.214461"
+            },
+            "latest_revision": 4,
+            "key": "/books/OL14976523M",
+            "authors": [
+                {
+                    "key": "/authors/OL807186A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "187p. ;",
+            "source_records": [
+                "bwb:9780263093087"
+            ],
+            "title": "The wool king",
+            "dewey_decimal_class": [
+                "823/.9/1F"
+            ],
+            "number_of_pages": 187,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T22:53:16.036556"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Fiction in English."
+            ],
+            "publish_date": "1978",
+            "publish_country": "xxk",
+            "by_statement": "by Kerry Allyne.",
+            "oclc_numbers": [
+                "59773842"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4220911W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 4
+        },
+        "/books/OL34419186M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL1175057A"
+                }
+            ],
+            "isbn_13": [
+                "9780263864946"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2008",
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263864946"
+            ],
+            "subjects": [
+                "Fiction, romance, general",
+                "Man-woman relationships, fiction",
+                "Australia, fiction",
+                "Mothers and sons, fiction"
+            ],
+            "title": "Cattle Rancher, Secret Son",
+            "full_title": "Cattle Rancher, Secret Son",
+            "works": [
+                {
+                    "key": "/works/OL5236106W"
+                }
+            ],
+            "key": "/books/OL34419186M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-04T10:38:58.359546"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-21T18:37:35.888852"
+            }
+        },
+        "/books/OL24759653M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "ia_box_id": [
+                "IA133522"
+            ],
+            "isbn_10": [
+                "0373174934"
+            ],
+            "series": [
+                "Harlequin romance -- 4003"
+            ],
+            "covers": [
+                6813502
+            ],
+            "full_title": "Cattle rancher, secret son",
+            "key": "/books/OL24759653M",
+            "authors": [
+                {
+                    "key": "/authors/OL1175057A"
+                }
+            ],
+            "ocaid": "cattleranchersec00waym",
+            "publish_places": [
+                "Toronto",
+                "New York"
+            ],
+            "isbn_13": [
+                "9780373174935"
+            ],
+            "pagination": "185 p. ;",
+            "source_records": [
+                "ia:cattleranchersec00waym"
+            ],
+            "title": "Cattle rancher, secret son",
+            "lccn": [
+                "2010398217"
+            ],
+            "number_of_pages": 185,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subject_places": [
+                "Australia"
+            ],
+            "subjects": [
+                "Single mothers",
+                "Sons",
+                "Ranchers",
+                "Fiction"
+            ],
+            "publish_date": "2008",
+            "publish_country": "onc",
+            "copyright_date": "2007",
+            "by_statement": "Margaret Way",
+            "oclc_numbers": [
+                "172980756"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL5236106W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2011-07-12T20:04:14.978515"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-21T18:37:35.888852"
+            }
+        },
+        "/books/OL9749975M": {
+            "identifiers": {
+                "librarything": [
+                    "1601792"
+                ]
+            },
+            "title": "Battle for Possession (Barbary Wharf)",
+            "authors": [
+                {
+                    "key": "/authors/OL4728806A"
+                }
+            ],
+            "publish_date": "May 1992",
+            "publishers": [
+                "Silhouette Books"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9780373584154"
+            ],
+            "isbn_10": [
+                "0373584156"
+            ],
+            "oclc_numbers": [
+                "220953674"
+            ],
+            "physical_format": "Hardcover",
+            "subjects": [
+                "Romance"
+            ],
+            "source_records": [
+                "amazon:0373584156"
+            ],
+            "key": "/books/OL9749975M",
+            "number_of_pages": 224,
+            "works": [
+                {
+                    "key": "/works/OL3294274W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-16T05:26:54.026827"
+            }
+        },
+        "/books/OL9644023M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "weight": "2.4 ounces",
+            "series": [
+                "Harlequin Presents, No 1509"
+            ],
+            "physical_format": "Paperback",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-08-27T12:54:33.827593"
+            },
+            "latest_revision": 9,
+            "key": "/books/OL9644023M",
+            "authors": [
+                {
+                    "key": "/authors/OL4728806A"
+                }
+            ],
+            "subjects": [
+                "Non-Classifiable",
+                "Romance - General",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Regency"
+            ],
+            "isbn_13": [
+                "9780373115099"
+            ],
+            "classifications": {},
+            "source_records": [
+                "bwb:9780373115099"
+            ],
+            "title": "Battle For Possession",
+            "identifiers": {
+                "goodreads": [
+                    "578093"
+                ],
+                "librarything": [
+                    "1601792"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373115091"
+            ],
+            "publish_date": "October 1, 1992",
+            "oclc_numbers": [
+                "26298806"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3294274W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.6 x 4.1 x 0.7 inches",
+            "revision": 9
+        }
+    }
+}

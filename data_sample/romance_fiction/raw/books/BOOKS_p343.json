@@ -1,0 +1,5990 @@
+{
+    "status": "ok",
+    "result": {
+        "/books/OL26176935M": {
+            "publishers": [
+                "HarperPerennial"
+            ],
+            "title": "Purple Hibiscus A Novel",
+            "identifiers": {},
+            "covers": [
+                7848556
+            ],
+            "isbn_13": [
+                "9780007268382"
+            ],
+            "publish_date": "2008",
+            "key": "/books/OL26176935M",
+            "works": [
+                {
+                    "key": "/works/OL5731538W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "lc_classifications": [
+                "PR9387.9.A34354"
+            ],
+            "source_records": [
+                "bwb:9780007268382"
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2016-10-18T20:49:35.458751"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T08:00:10.767074"
+            }
+        },
+        "/books/OL3306769M": {
+            "identifiers": {
+                "goodreads": [
+                    "763652"
+                ],
+                "librarything": [
+                    "18107"
+                ]
+            },
+            "title": "Purple Hibiscus",
+            "authors": [
+                {
+                    "key": "/authors/OL1393502A"
+                }
+            ],
+            "publish_date": "2004",
+            "subject_place": [
+                "Nigeria"
+            ],
+            "covers": [
+                11320248
+            ],
+            "local_id": [
+                "urn:phillips:31867007081339",
+                "urn:sfpl:31223120801304",
+                "urn:sfpl:31223120801312",
+                "urn:sfpl:31223120801320",
+                "urn:sfpl:31223120801346",
+                "urn:sfpl:31223120801353",
+                "urn:sfpl:31223120801361",
+                "urn:sfpl:31223120801460",
+                "urn:sfpl:31223120801478",
+                "urn:sfpl:31223120801379",
+                "urn:sfpl:31223120801387",
+                "urn:sfpl:31223120801395",
+                "urn:sfpl:31223120801403",
+                "urn:sfpl:31223120801411",
+                "urn:sfpl:31223120801429",
+                "urn:sfpl:31223120801452",
+                "urn:bwbsku:P7-BML-829"
+            ],
+            "url": [
+                "http://www.loc.gov/catdir/bios/random056/2004051629.html",
+                "http://www.loc.gov/catdir/samples/random052/2004051629.html",
+                "http://www.loc.gov/catdir/description/random052/2004051629.html"
+            ],
+            "uri_descriptions": [
+                "Contributor biographical information",
+                "Sample text",
+                "Publisher description"
+            ],
+            "edition_name": "1st Anchor Books ed.",
+            "genres": [
+                "Fiction."
+            ],
+            "source_records": [
+                "marc:marc_openlibraries_phillipsacademy/PANO_FOR_IA_05072019.mrc:74473517:2026",
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run03.mrc:41476876:4573",
+                "marc:marc_loc_2016/BooksAll.2016.part31.utf8:183130089:1335",
+                "ia:purplehibiscusno0000adic",
+                "ia:purplehibiscusno0000adic_l2f6",
+                "promise:bwb_daily_pallets_2021-05-05"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Teenage girls -- Fiction",
+                "Children of the rich -- Fiction",
+                "Brothers and sisters -- Fiction",
+                "Fathers and daughters -- Fiction",
+                "Religious fanaticism -- Fiction",
+                "Coups d'état -- Fiction",
+                "Aunts -- Fiction",
+                "Nigeria -- Fiction"
+            ],
+            "publish_country": "nyu",
+            "by_statement": "by Chimamanda Ngozi Adichie.",
+            "type": {
+                "key": "/type/edition"
+            },
+            "uris": [
+                "http://www.loc.gov/catdir/bios/random056/2004051629.html",
+                "http://www.loc.gov/catdir/samples/random052/2004051629.html",
+                "http://www.loc.gov/catdir/description/random052/2004051629.html"
+            ],
+            "publishers": [
+                "Anchor Books"
+            ],
+            "ia_box_id": [
+                "IA122404"
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "pagination": "307 p. ;",
+            "key": "/books/OL3306769M",
+            "number_of_pages": 307,
+            "works": [
+                {
+                    "key": "/works/OL5731538W"
+                }
+            ],
+            "ocaid": "purplehibiscusno00adic",
+            "isbn_10": [
+                "1400076943"
+            ],
+            "isbn_13": [
+                "9781400076949"
+            ],
+            "lccn": [
+                "2004051629",
+                "2003051894"
+            ],
+            "classifications": {},
+            "dewey_decimal_class": [
+                "823/.92"
+            ],
+            "lc_classifications": [
+                "PR9387.9.A34354 P87 2004",
+                "PR9387.9.A34354 P87 2003"
+            ],
+            "latest_revision": 25,
+            "revision": 25,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-08T13:49:40.684571"
+            }
+        },
+        "/books/OL25929157M": {
+            "title": "PURPLE HIBISCUS",
+            "publish_date": "2003",
+            "publishers": [
+                "Algonquin books "
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "key": "/books/OL25929157M",
+            "works": [
+                {
+                    "key": "/works/OL5731538W"
+                }
+            ],
+            "source_records": [
+                "bwb:9781565128163",
+                "ia:purplehibiscus0000chim_n2o8"
+            ],
+            "covers": [
+                15046771
+            ],
+            "ocaid": "purplehibiscus0000chim_n2o8",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 326,
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2016-06-29T09:45:44.899115"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-05-10T19:42:29.232479"
+            }
+        },
+        "/books/OL13201897M": {
+            "identifiers": {
+                "goodreads": [
+                    "132061"
+                ],
+                "librarything": [
+                    "18107"
+                ]
+            },
+            "title": "La Flor Purpura",
+            "authors": [
+                {
+                    "key": "/authors/OL1393502A"
+                }
+            ],
+            "publish_date": "February 2006",
+            "publishers": [
+                "Debolsillo"
+            ],
+            "weight": "2.4 ounces",
+            "covers": [
+                3361654
+            ],
+            "physical_format": "Paperback",
+            "subjects": [
+                "General",
+                "Fiction - General"
+            ],
+            "isbn_13": [
+                "9789875661295"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "isbn_10": [
+                "9875661295"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "7.4 x 4.7 x 0.6 inches",
+            "source_records": [
+                "amazon:9875661295"
+            ],
+            "key": "/books/OL13201897M",
+            "works": [
+                {
+                    "key": "/works/OL5731538W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-28T01:11:38.704354"
+            }
+        },
+        "/books/OL29782835M": {
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "source_records": [
+                "bwb:9781335624376",
+                "promise:bwb_daily_pallets_2022-08-13"
+            ],
+            "title": "Esposa en la Sombra : (Wife in the Shadows)",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781335624376"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2018",
+            "key": "/books/OL29782835M",
+            "authors": [
+                {
+                    "key": "/authors/OL577983A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL16552708W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:W7-CWK-447"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-31T04:17:31.524412"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-04T17:42:55.806099"
+            }
+        },
+        "/books/OL29637059M": {
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "source_records": [
+                "bwb:9781459212138"
+            ],
+            "title": "Wife in the Shadows",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781459212138"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Wife in the Shadows",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2011",
+            "key": "/books/OL29637059M",
+            "authors": [
+                {
+                    "key": "/authors/OL577983A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL16552708W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, erotica"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-29T06:08:28.986012"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-06-23T21:35:40.322902"
+            }
+        },
+        "/books/OL25242341M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "description": "\"The manipulative machinations of the great Manzini family have locked Elena Blake into marriage. The reluctant groom is Italy's most infamous womanizer, Count Angelo Manzini. In society's spotlight, Angelo bestows dutiful kisses on his shy new countess. But behind closed doors, his apparently biddable bride refuses to stand in the shadows\"--P. [4] of cover.",
+            "series": [
+                "Harlequin presents extra -- 166"
+            ],
+            "key": "/books/OL25242341M",
+            "authors": [
+                {
+                    "key": "/authors/OL577983A"
+                }
+            ],
+            "publish_places": [
+                "Toronto",
+                "New York"
+            ],
+            "contributions": [
+                "Copyright Paperback Collection (Library of Congress)"
+            ],
+            "pagination": "186, [6] p. ;",
+            "source_records": [
+                "marc:marc_loc_updates/v40.i10.records.utf8:15275937:1404",
+                "bwb:9780373528301",
+                "marc:marc_loc_2016/BooksAll.2016.part40.utf8:167965010:1615",
+                "ia:wifeinshadows0000crav",
+                "amazon:0373528302",
+                "promise:bwb_daily_pallets_2022-05-25"
+            ],
+            "title": "Wife in the Shadows",
+            "number_of_pages": 186,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Man-woman relationships",
+                "Spouses",
+                "Fiction"
+            ],
+            "publish_date": "2011",
+            "publish_country": "onc",
+            "by_statement": "Sara Craven",
+            "works": [
+                {
+                    "key": "/works/OL16552708W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_10": [
+                "0373528302"
+            ],
+            "isbn_13": [
+                "9780373528301"
+            ],
+            "lccn": [
+                "2012656660"
+            ],
+            "oclc_numbers": [
+                "711048725"
+            ],
+            "classifications": {},
+            "lc_classifications": [
+                "CPB Box no. 3215 vol. 12"
+            ],
+            "covers": [
+                12907919
+            ],
+            "ocaid": "wifeinshadows0000crav",
+            "local_id": [
+                "urn:bwbsku:O8-BAI-210"
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2012-03-21T17:16:50.932563"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-05T05:54:29.394270"
+            }
+        },
+        "/books/OL29655251M": {
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "source_records": [
+                "bwb:9781459235120"
+            ],
+            "title": "Roses Have Thorns",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781459235120"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Roses Have Thorns",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2012",
+            "key": "/books/OL29655251M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3457864W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-29T11:39:48.157267"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-08T09:27:24.468048"
+            }
+        },
+        "/books/OL29129732M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781408982891"
+            ],
+            "title": "Roses Have Thorns",
+            "number_of_pages": 220,
+            "isbn_13": [
+                "9781408982891"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Roses Have Thorns",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2012",
+            "key": "/books/OL29129732M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3457864W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-22T10:08:04.696566"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-08T09:27:24.468048"
+            }
+        },
+        "/books/OL26378478M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "identifiers": {},
+            "covers": [
+                8069135
+            ],
+            "full_title": "Roses have thorns",
+            "key": "/books/OL26378478M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "publish_places": [
+                "Don Mills, Ont"
+            ],
+            "pagination": "187 pages ;",
+            "classifications": {},
+            "source_records": [
+                "ia:isbn_9780373249534",
+                "bwb:9780373249534",
+                "marc:marc_loc_2016/BooksAll.2016.part42.utf8:15965825:1454",
+                "promise:bwb_daily_pallets_2022-04-18"
+            ],
+            "title": "Roses Have Thorns",
+            "number_of_pages": 187,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Man-woman relationships",
+                "Fiction"
+            ],
+            "publish_date": "2012",
+            "publish_country": "onc",
+            "copyright_date": "1990",
+            "works": [
+                {
+                    "key": "/works/OL3457864W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:W7-AQP-772"
+            ],
+            "ocaid": "isbn_9780373249534",
+            "isbn_10": [
+                "0373249535"
+            ],
+            "isbn_13": [
+                "9780373249534"
+            ],
+            "lccn": [
+                "2014656162"
+            ],
+            "oclc_numbers": [
+                "811405939"
+            ],
+            "lc_classifications": [
+                "CPB Box no. 3782 vol. 16"
+            ],
+            "series": [
+                "The Best of Betty Neels"
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2017-09-23T04:58:21.006658"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-08T09:27:24.468048"
+            }
+        },
+        "/books/OL17494778M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "covers": [
+                7983555
+            ],
+            "key": "/books/OL17494778M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "publish_places": [
+                "Richmond, Surrey"
+            ],
+            "edition_name": "Large Print Edition",
+            "pagination": "285p. ;",
+            "source_records": [
+                "ia:roseshavethorns00neel"
+            ],
+            "title": "Roses Have Thorns",
+            "number_of_pages": 285,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1991",
+            "publish_country": "xxk",
+            "works": [
+                {
+                    "key": "/works/OL3457864W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "classifications": {},
+            "ocaid": "roseshavethorns00neel",
+            "isbn_10": [
+                "0263125556"
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-29T00:33:39.526542"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-08T09:27:24.468048"
+            }
+        },
+        "/books/OL7417407M": {
+            "identifiers": {
+                "goodreads": [
+                    "467344"
+                ],
+                "librarything": [
+                    "1210526"
+                ]
+            },
+            "title": "Roses Have Thorns",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "publish_date": "May 1, 2003",
+            "publishers": [
+                "harlequin"
+            ],
+            "covers": [
+                1186942
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_10": [
+                "0373512384"
+            ],
+            "isbn_13": [
+                "9780373512386"
+            ],
+            "series": [
+                "The Best of Betty Neels"
+            ],
+            "source_records": [
+                "amazon:0373512384"
+            ],
+            "key": "/books/OL7417407M",
+            "number_of_pages": 224,
+            "works": [
+                {
+                    "key": "/works/OL3457864W"
+                }
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-30T03:11:59.622602"
+            }
+        },
+        "/books/OL23557077M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "number_of_pages": 184,
+            "ia_box_id": [
+                "IA125704"
+            ],
+            "isbn_10": [
+                "0373127715"
+            ],
+            "series": [
+                "Harlequin presents -- 2771",
+                "Ruthless"
+            ],
+            "pagination": "184 p. ;",
+            "covers": [
+                6918805
+            ],
+            "ia_loaded_id": [
+                "ruthlesslybedded00darc"
+            ],
+            "lc_classifications": [
+                "CPB Box no. 2885 vol. 12"
+            ],
+            "key": "/books/OL23557077M",
+            "authors": [
+                {
+                    "key": "/authors/OL451969A"
+                }
+            ],
+            "ocaid": "ruthlesslybedded00darc",
+            "publish_places": [
+                "Toronto",
+                "New York"
+            ],
+            "contributions": [
+                "Copyright Paperback Collection (Library of Congress)"
+            ],
+            "isbn_13": [
+                "9780373127719"
+            ],
+            "genres": [
+                "Fiction"
+            ],
+            "source_records": [
+                "marc:marc_loc_updates/v37.i25.records.utf8:38131385:979",
+                "ia:ruthlesslybedded00darc",
+                "bwb:9780373127719",
+                "marc:marc_loc_2016/BooksAll.2016.part36.utf8:278172368:979",
+                "promise:bwb_daily_pallets_2021-03-04",
+                "promise:bwb_daily_pallets_2021-05-10"
+            ],
+            "title": "Ruthlessly bedded by the Italian billionaire",
+            "lccn": [
+                "2009424196"
+            ],
+            "oclc_number": [
+                "230184553"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "5600414"
+                ],
+                "librarything": [
+                    "6041564"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Billionaires -- Fiction",
+                "Italians -- Fiction",
+                "Extortion -- Fiction",
+                "Capri (Italy) -- Fiction"
+            ],
+            "publish_date": "2008",
+            "publish_country": "onc",
+            "by_statement": "Emma Darcy.",
+            "works": [
+                {
+                    "key": "/works/OL2959278W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:O7-BVA-052",
+                "urn:bwbsku:KP-113-366"
+            ],
+            "latest_revision": 12,
+            "revision": 12,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-07-22T04:56:36.230422"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-14T19:53:40.825509"
+            }
+        },
+        "/books/OL24273767M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "covers": [
+                6423569
+            ],
+            "physical_format": "Electronic resource",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-08-28T07:43:04.660252"
+            },
+            "latest_revision": 5,
+            "key": "/books/OL24273767M",
+            "authors": [
+                {
+                    "key": "/authors/OL451969A"
+                }
+            ],
+            "publish_places": [
+                "Toronto, Ontario"
+            ],
+            "isbn_13": [
+                "9781426823930"
+            ],
+            "source_records": [
+                "marc_overdrive/InternetArchiveCrMarc-2010-06-11s.mrc:576812:1821",
+                "bwb:9781426823930"
+            ],
+            "title": "Ruthlessly Bedded by the Italian Billionaire",
+            "identifiers": {
+                "overdrive": [
+                    "6F5DE019-8525-4EE5-9A50-F3998D3724F9"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-06-18T01:32:25.723758"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2008",
+            "publish_country": "nyu",
+            "oclc_numbers": [
+                "436303179"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL2959278W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 5
+        },
+        "/books/OL52982047M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7315784A"
+                }
+            ],
+            "local_id": [
+                "urn:bwbsku:KU-714-472"
+            ],
+            "publish_date": "2017-03-10",
+            "publishers": [
+                "dtv"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2024-07-31:KU-714-472"
+            ],
+            "title": "Nächstes Jahr am selben Tag",
+            "subtitle": "Roman",
+            "works": [
+                {
+                    "key": "/works/OL20018811W"
+                }
+            ],
+            "key": "/books/OL52982047M",
+            "identifiers": {},
+            "isbn_10": [
+                "3423740256"
+            ],
+            "isbn_13": [
+                "9783423740258"
+            ],
+            "oclc_numbers": [
+                "963873746"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/ger"
+                }
+            ],
+            "translation_of": "November 9",
+            "translated_from": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "New York – Los Angeles, und dazwischen die große Liebe\r\n\r\nAusgerechnet am Abend, bevor sie von Los Angeles nach New York zieht, lernen sie sich kennen: die 18-jährige  Fallon, Tochter eines bekannten Filmschauspielers, und der gleichaltrige Ben, der davon träumt, Schriftsteller zu werden. Beide verlieben sich auf den ersten Blick ineinander und verbringen die Stunden vor dem Abflug zusammen. Doch wie soll es weitergehen? Wollen sie sich wirklich auf eine Fernbeziehung einlassen und ihren Alltag nur halbherzig leben? Um das zu verhindern, beschließen die beiden, sich die nächsten fünf Jahr  jedes Jahr am selben Novembertag zu treffen, dazwischen jedoch auf jeglichen Kontakt zu verzichten. Und wer weiß, vielleicht, so die Hoffnung, klappt es am Ende der fünf Jahre ja mit einem Happyend.\r\n\r\nDoch fünf Jahre sind eine lange Zeit - und so kommt ihnen trotz aller intensiven Gefühle, die bei jedem Treffen der beiden hochkochen, ganz einfach das Leben dazwischen …"
+            },
+            "number_of_pages": 372,
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-08-02T01:20:43.921648"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-24T14:03:42.330515"
+            }
+        },
+        "/books/OL43407856M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7315784A"
+                }
+            ],
+            "isbn_10": [
+                "1785412698"
+            ],
+            "isbn_13": [
+                "9781785412691"
+            ],
+            "local_id": [
+                "urn:bwbsku:KP-572-063"
+            ],
+            "publish_date": "2016-10-01",
+            "publishers": [
+                "Ulverscroft"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-03-29",
+                "ia:november90000hoov_j3f1"
+            ],
+            "title": "November 9",
+            "full_title": "November 9",
+            "works": [
+                {
+                    "key": "/works/OL20018811W"
+                }
+            ],
+            "key": "/books/OL43407856M",
+            "covers": [
+                15198340
+            ],
+            "ocaid": "november90000hoov_j3f1",
+            "oclc_numbers": [
+                "959706866"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "Fallon meets Ben, an aspiring novelist, the day of her scheduled cross-country move. Their untimely attraction leads them to spend Fallon's last day in L.A. together, and her eventful life becomes the creative inspiration Ben has always sought for his novel. Over time, and amidst the various relationships and tribulations of their own separate lives, they continue to meet on the same day every year. Until one day Fallon becomes unsure if Ben has been telling her the truth or fabricating a perfect reality for the sake of the ultimate plot twist. Can Ben's relationship with Fallon - and simultaneously his novel - be considered a love story if it ends in heartbreak?"
+            },
+            "number_of_pages": 384,
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-08T17:46:43.249801"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-22T05:07:20.660587"
+            }
+        },
+        "/books/OL25967262M": {
+            "title": "The Greeks Pregnant Lover",
+            "publish_date": "2010",
+            "publishers": [
+                "Harlequin",
+                "Harlequin Presents"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-09-03:P7-AHM-803",
+                "ia:isbn_9780373129355",
+                "bwb:9780373129355",
+                "marc:marc_loc_2016/BooksAll.2016.part38.utf8:141118389:1673",
+                "promise:bwb_daily_pallets_2021-06-28:O7-BQZ-556",
+                "promise:bwb_daily_pallets_2021-05-24:P7-AAU-214"
+            ],
+            "covers": [
+                7477457
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "copyright_date": "2010",
+            "local_id": [
+                "urn:bwbsku:P7-AHM-803",
+                "urn:bwbsku:O7-BQZ-556",
+                "urn:bwbsku:P7-AAU-214"
+            ],
+            "key": "/books/OL25967262M",
+            "works": [
+                {
+                    "key": "/works/OL17387284W"
+                }
+            ],
+            "identifiers": {},
+            "ocaid": "isbn_9780373129355",
+            "isbn_13": [
+                "9780373129355"
+            ],
+            "lccn": [
+                "2010713898"
+            ],
+            "classifications": {},
+            "lc_classifications": [
+                "CPB Box no. 3174 vol. 7"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "latest_revision": 16,
+            "revision": 16,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2016-10-14T02:26:13.787203"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-22T12:46:04.139550"
+            }
+        },
+        "/books/OL14979942M": {
+            "publishers": [
+                "Mills and Boon",
+                "Harlequin Romance"
+            ],
+            "pagination": "187p.",
+            "number_of_pages": 187,
+            "title": "South of the Moon",
+            "identifiers": {
+                "librarything": [
+                    "9365191"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263723097"
+            ],
+            "publish_date": "1976",
+            "publish_country": "xxk",
+            "key": "/books/OL14979942M",
+            "authors": [
+                {
+                    "key": "/authors/OL889928A"
+                }
+            ],
+            "by_statement": "by Anne Hampson.",
+            "publish_places": [
+                "London"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4463817W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                13903596
+            ],
+            "source_records": [
+                "amazon:0263723097"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T23:19:07.427596"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-04-11T23:03:11.829281"
+            }
+        },
+        "/books/OL56937286M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "2014",
+            "publish_country": "is",
+            "languages": [
+                {
+                    "key": "/languages/heb"
+                }
+            ],
+            "work_titles": [
+                "Shadow and bone"
+            ],
+            "title": "צל ועצם",
+            "other_titles": [
+                "Tsel ṿe-ʻetsem"
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL7032054A"
+                }
+            ],
+            "series": [
+                "Ṭrilogyat ha-Grishah -- 1"
+            ],
+            "contributions": [
+                "Shavit, Noa"
+            ],
+            "subjects": [
+                "Magic",
+                "Juvenile fiction"
+            ],
+            "publishers": [
+                "אריה ניר"
+            ],
+            "publish_places": [
+                "רמות השבים"
+            ],
+            "pagination": "294 p.",
+            "number_of_pages": 294,
+            "source_records": [
+                "marc:harvard_bibliographic_metadata/ab.bib.13.20150123.full.mrc:1088561800:804"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL16239519W"
+                }
+            ],
+            "key": "/books/OL56937286M",
+            "covers": [
+                15157323
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "20870575"
+                ]
+            },
+            "oclc_numbers": [
+                "871215779"
+            ],
+            "contributors": [
+                {
+                    "role": "Author name as appears on this edition",
+                    "name": "לי ברדוגו"
+                },
+                {
+                    "role": "Translator",
+                    "name": "נעה שביט"
+                }
+            ],
+            "translation_of": "Shadow and Bone",
+            "translated_from": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "מאומה לא הכין את אַלינה לקראת היום הגורלי שבו נשלחה לחצות את קפֶל הצל – מדבר חשוך שורץ מפלצות מעופפות אוכלות אדם. אבל כשהשיירה שלה מותקפת וחברה הטוב מאל נפצע אנושות, פורץ מתוכה לפתע כוח כביר שישנה לא רק את עולמה אלא את גורל הממלכה כולה. אלינה נעקרת מכל מה שהכירה ונלקחת לחצר המלכות לעבור הכשרה כבת גרישה, אליטה בעלת כוחות קסם שבראשה עומד האופל המסתורי. הוא מאמין שבעזרת כוחה יוצא הדופן של אלינה הם יוכלו סופסוף להרוס את קפל הצל. כעת צריכה אלינה למצוא דרך לשלוט בכישרונה הפראי ולהשתלב בחייה החדשים בלי מאל לצדה. אבל בעולם המפואר הזה שום דבר אינו כפי שהוא נראה. כשהאיום על הממלכה מתעצם ומשיכתה המסוכנת אל האופל מתגברת, תגלה אלינה סוד שיקרע את לבה – ואת ארצה – לשניים."
+            },
+            "physical_format": "Paperback",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-10-09T03:58:07.323451"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-03T19:14:09.632675"
+            }
+        },
+        "/books/OL47304967M": {
+            "works": [
+                {
+                    "key": "/works/OL16239519W"
+                }
+            ],
+            "title": "Тінь та кістка",
+            "publishers": [
+                "Клуб Сімейного Дозвілля"
+            ],
+            "publish_date": "2021",
+            "key": "/books/OL47304967M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {
+                "goodreads": [
+                    "58543120"
+                ],
+                "amazon": [
+                    "617128873X"
+                ],
+                "storygraph": [
+                    "aff100a5-7dec-491b-9df9-838852c4382d"
+                ]
+            },
+            "covers": [
+                13769461
+            ],
+            "languages": [
+                {
+                    "key": "/languages/ukr"
+                }
+            ],
+            "publish_places": [
+                "Україна"
+            ],
+            "physical_format": "Тверда",
+            "translated_from": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "translation_of": "Shadow and Bone",
+            "number_of_pages": 304,
+            "isbn_13": [
+                "9786171288737"
+            ],
+            "isbn_10": [
+                "617128873X"
+            ],
+            "oclc_numbers": [
+                "1291482498"
+            ],
+            "contributors": [
+                {
+                    "role": "Author name as appears on this edition",
+                    "name": "Лі Бардуґо"
+                },
+                {
+                    "role": "Translator",
+                    "name": "Єлена Даскал"
+                }
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "Ласкаво просимо до Равки. Колись це була велика та могутня країна. Тепер вона на межі зникнення. Равку розділила Тіньова Зморшка: лінія абсолютної темряви, що кишить небезпечними чудовиськами.\r\nНепримітна Аліна й уявити не могла, що порятунок Равки ляже на її худенькі плечі. Рятуючи друга Мала, дівчина розбудила свою приспану силу. Саме вона здатна знищити Тіньову Зморшку і возз’єднати спустошену війною країну.\r\nЧасу обмаль. Аліна вирушає на навчання до величних магів-гриш на чолі з таємничим Дарклінґом. Однак могутня та ще не приборкана сила дівчини може обернутися неабиякою загрозою. І не тільки для монстрів з тіні, а й для всієї Равки, для Мала та самої Аліни."
+            },
+            "other_titles": [
+                "Тінь та кістка. Книга 1"
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-03-24T03:52:18.247638"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-03T19:14:09.632675"
+            }
+        },
+        "/books/OL39219436M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "The Gathering Dark",
+            "authors": [
+                {
+                    "key": "/authors/OL7032054A"
+                }
+            ],
+            "publish_date": "2012-08-07",
+            "source_records": [
+                "amazon:1780621108"
+            ],
+            "publishers": [
+                "Indigo"
+            ],
+            "physical_format": "Paperback",
+            "full_title": "The Gathering Dark",
+            "works": [
+                {
+                    "key": "/works/OL16239519W"
+                }
+            ],
+            "key": "/books/OL39219436M",
+            "covers": [
+                15157345
+            ],
+            "identifiers": {
+                "amazon": [
+                    "1780621108"
+                ],
+                "goodreads": [
+                    "12637460"
+                ],
+                "storygraph": [
+                    "61704229-b59f-4082-aa0e-17b20d5bc4a0"
+                ]
+            },
+            "isbn_10": [
+                "1780621108"
+            ],
+            "isbn_13": [
+                "9781780621104"
+            ],
+            "oclc_numbers": [
+                "778327373"
+            ],
+            "publish_places": [
+                "London, England, UK"
+            ],
+            "series": [
+                "Shadow and Bone, 1"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 310,
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-08-09T12:32:42.498925"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-03T19:14:09.632675"
+            }
+        },
+        "/books/OL48149455M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7032054A"
+                }
+            ],
+            "isbn_13": [
+                "9781780621838"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "320",
+            "publish_date": "2013",
+            "publishers": [
+                "Orion Publishing Group, Limited"
+            ],
+            "source_records": [
+                "bwb:9781780621838"
+            ],
+            "subjects": [
+                "Children's fiction",
+                "Fantasy fiction",
+                "Magic, fiction",
+                "Monsters, fiction",
+                "Orphans, fiction"
+            ],
+            "title": "Shadow and Bone",
+            "full_title": "Shadow and Bone",
+            "works": [
+                {
+                    "key": "/works/OL16239519W"
+                }
+            ],
+            "key": "/books/OL48149455M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-17T04:49:40.328882"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-21T20:19:45.337957"
+            }
+        },
+        "/books/OL36133160M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7032054A"
+                }
+            ],
+            "isbn_13": [
+                "9781432894603"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2022",
+            "publishers": [
+                "Cengage Gale"
+            ],
+            "source_records": [
+                "bwb:9781432894603"
+            ],
+            "title": "Shadow and Bone",
+            "full_title": "Shadow and Bone",
+            "works": [
+                {
+                    "key": "/works/OL16239519W"
+                }
+            ],
+            "key": "/books/OL36133160M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-12-28T14:47:00.515466"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-10-08T13:59:37.262657"
+            }
+        },
+        "/books/OL26412384M": {
+            "publishers": [
+                "Papierowy Księżyc"
+            ],
+            "number_of_pages": 380,
+            "subtitle": "Trylogia Grisza. Tom 1",
+            "title": "Cień i kość",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_13": [
+                "9788365568144"
+            ],
+            "covers": [
+                8114863
+            ],
+            "languages": [
+                {
+                    "key": "/languages/pol"
+                }
+            ],
+            "publish_date": "2017",
+            "key": "/books/OL26412384M",
+            "classifications": {},
+            "publish_places": [
+                "Warszawa, Poland"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL16239519W"
+                }
+            ],
+            "physical_format": "Paperback",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2017-12-31T15:31:24.004207"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-03-12T12:53:14.446560"
+            }
+        },
+        "/books/OL35298408M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Gölge ve Kemik",
+            "authors": [
+                {
+                    "key": "/authors/OL7032054A"
+                }
+            ],
+            "publish_date": "Oct 18, 2019",
+            "source_records": [
+                "amazon:6050322279"
+            ],
+            "number_of_pages": 448,
+            "publishers": [
+                "Martı Yayınları"
+            ],
+            "physical_format": "paperback",
+            "covers": [
+                12109587
+            ],
+            "works": [
+                {
+                    "key": "/works/OL16239519W"
+                }
+            ],
+            "key": "/books/OL35298408M",
+            "identifiers": {},
+            "isbn_13": [
+                "9786053480778"
+            ],
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/tur"
+                }
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-18T20:44:57.034043"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-12-14T16:40:56.586089"
+            }
+        },
+        "/books/OL33171300M": {
+            "title": "Ombra i os",
+            "publish_date": "2021",
+            "publishers": [
+                "Fanbooks"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                11877598
+            ],
+            "isbn_13": [
+                "9788418327308"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/cat"
+                }
+            ],
+            "physical_format": "paperback",
+            "contributors": [
+                {
+                    "role": "Translator",
+                    "name": "Alexandre Gombau Armau"
+                }
+            ],
+            "source_records": [
+                "amazon:8418327308",
+                "promise:bwb_daily_pallets_2022-03-17"
+            ],
+            "local_id": [
+                "urn:bwbsku:W7-AWS-499"
+            ],
+            "key": "/books/OL33171300M",
+            "works": [
+                {
+                    "key": "/works/OL16239519W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-09-01T06:04:52.670910"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-16T13:03:35.980565"
+            }
+        },
+        "/books/OL31895720M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "The Grisha : Shadow and Bone",
+            "authors": [
+                {
+                    "key": "/authors/OL7032054A"
+                }
+            ],
+            "publish_date": "Jul 31, 2014",
+            "source_records": [
+                "amazon:1780622260",
+                "promise:bwb_daily_pallets_2024-03-08:P9-EAF-125"
+            ],
+            "publishers": [
+                "Indigo (an Imprint of Orion Children's)",
+                "imusti"
+            ],
+            "isbn_10": [
+                "1780622260"
+            ],
+            "isbn_13": [
+                "9781780622262"
+            ],
+            "physical_format": "paperback",
+            "full_title": "The Grisha : Shadow and Bone : Book 1",
+            "subtitle": "Book 1",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: The Grisha: Shadow and Bone: Book 1"
+            },
+            "covers": [
+                10581881
+            ],
+            "works": [
+                {
+                    "key": "/works/OL16239519W"
+                }
+            ],
+            "key": "/books/OL31895720M",
+            "local_id": [
+                "urn:bwbsku:P9-EAF-125"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-01-26T07:12:04.755953"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-03-10T01:06:51.047059"
+            }
+        },
+        "/books/OL29879877M": {
+            "publishers": [
+                "Imprint",
+                "Henry Holt and Co. (BYR)"
+            ],
+            "subtitle": "the Collector's Edition",
+            "source_records": [
+                "bwb:9781250781611",
+                "amazon:1250781612"
+            ],
+            "title": "Shadow and Bone",
+            "number_of_pages": 384,
+            "isbn_13": [
+                "9781250781611"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Shadow and Bone the Collector's Edition",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL29879877M",
+            "authors": [
+                {
+                    "key": "/authors/OL7032054A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL16239519W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                13891572
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-01T07:17:15.731571"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-04-11T04:07:44.922232"
+            }
+        },
+        "/books/OL31949379M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Shadow and Bone",
+            "authors": [
+                {
+                    "key": "/authors/OL7032054A"
+                },
+                {
+                    "key": "/authors/OL7931147A"
+                }
+            ],
+            "publish_date": "Dec 02, 2014",
+            "source_records": [
+                "amazon:1491576928"
+            ],
+            "publishers": [
+                "Brilliance Audio"
+            ],
+            "isbn_10": [
+                "1491576928"
+            ],
+            "isbn_13": [
+                "9781491576922"
+            ],
+            "physical_format": "mp3 cd",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Shadow and Bone (The Grisha Trilogy)"
+            },
+            "full_title": "Shadow and Bone",
+            "covers": [
+                10630530
+            ],
+            "works": [
+                {
+                    "key": "/works/OL16239519W"
+                }
+            ],
+            "key": "/books/OL31949379M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-02-10T19:31:15.036372"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-01T18:30:11.825917"
+            }
+        },
+        "/books/OL31990521M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Shadow and Bone",
+            "authors": [
+                {
+                    "key": "/authors/OL7032054A"
+                }
+            ],
+            "publish_date": "2021",
+            "source_records": [
+                "amazon:1250777887",
+                "bwb:9781250777881",
+                "promise:bwb_daily_pallets_2022-05-25"
+            ],
+            "number_of_pages": 416,
+            "publishers": [
+                "Imprint"
+            ],
+            "physical_format": "paperback",
+            "notes": "Source title: Shadow and Bone (The Shadow and Bone Trilogy, 1)",
+            "full_title": "Shadow and Bone",
+            "works": [
+                {
+                    "key": "/works/OL16239519W"
+                }
+            ],
+            "key": "/books/OL31990521M",
+            "identifiers": {},
+            "classifications": {},
+            "isbn_10": [
+                "1250777887"
+            ],
+            "isbn_13": [
+                "9781250777881"
+            ],
+            "ocaid": "shadowbone0000bard_q6n5",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "covers": [
+                12856757
+            ],
+            "local_id": [
+                "urn:bwbsku:W7-BDZ-772"
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-02-26T19:15:21.888744"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-05T05:17:49.997766"
+            }
+        },
+        "/books/OL26842628M": {
+            "publishers": [
+                "Square Fish"
+            ],
+            "source_records": [
+                "amazon:1250027438",
+                "bwb:9781250027436"
+            ],
+            "title": "Shadow and Bone",
+            "number_of_pages": 416,
+            "covers": [
+                14649868,
+                13816048
+            ],
+            "publish_date": "2013-05",
+            "key": "/books/OL26842628M",
+            "authors": [
+                {
+                    "key": "/authors/OL7032054A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL16239519W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_10": [
+                "1250027438"
+            ],
+            "isbn_13": [
+                "9781250027436"
+            ],
+            "ocaid": "shadowbone0000bard",
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "latest_revision": 13,
+            "revision": 13,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-04-09T06:32:05.146063"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-07-25T17:24:24.834178"
+            }
+        },
+        "/books/OL61768636M": {
+            "works": [
+                {
+                    "key": "/works/OL1881774W"
+                }
+            ],
+            "title": "A Stranger in the Mirror",
+            "publishers": [
+                "Fontana"
+            ],
+            "publish_date": "1977",
+            "key": "/books/OL61768636M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                15217638
+            ],
+            "isbn_10": [
+                "0006471250"
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "physical_format": "Paperback",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2026-05-03T10:33:36.585838"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-05-03T10:34:08.795706"
+            }
+        },
+        "/books/OL30532822M": {
+            "publishers": [
+                "Hodder Education"
+            ],
+            "source_records": [
+                "amazon:1444121456",
+                "bwb:9781444121452"
+            ],
+            "title": "Purple Hibiscus",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Purple Hibiscus (Philip Allan Literature Guide for GCSE)"
+            },
+            "number_of_pages": 94,
+            "isbn_13": [
+                "9781444121452"
+            ],
+            "covers": [
+                10463867
+            ],
+            "physical_format": "paperback",
+            "full_title": "Purple Hibiscus",
+            "isbn_10": [
+                "1444121456"
+            ],
+            "publish_date": "Dec 05, 2011",
+            "key": "/books/OL30532822M",
+            "authors": [
+                {
+                    "key": "/authors/OL1393502A"
+                },
+                {
+                    "key": "/authors/OL2882883A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL5731538W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "lc_classifications": [
+                "PR9387.9.A34354"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-10-01T21:13:41.510179"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-05-25T07:05:21.033391"
+            }
+        },
+        "/books/OL28281832M": {
+            "publishers": [
+                "Collins UK",
+                "Brand: Collins Educational"
+            ],
+            "source_records": [
+                "amazon:0007345321",
+                "bwb:9780007345328"
+            ],
+            "title": "Purple Hibiscus",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Purple Hibiscus (Collins Readers)"
+            },
+            "number_of_pages": 320,
+            "isbn_13": [
+                "9780007345328"
+            ],
+            "covers": [
+                10207350
+            ],
+            "physical_format": "hardcover",
+            "full_title": "Purple Hibiscus",
+            "isbn_10": [
+                "0007345321"
+            ],
+            "publish_date": "Feb 01, 2010",
+            "key": "/books/OL28281832M",
+            "authors": [
+                {
+                    "key": "/authors/OL1393502A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL5731538W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "lc_classifications": [
+                "PR9387.9.A34354"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-06-23T00:44:12.854701"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-09-17T09:37:10.653672"
+            }
+        },
+        "/books/OL16407437M": {
+            "identifiers": {
+                "goodreads": [
+                    "4580178"
+                ]
+            },
+            "title": "Purple hibiscus.",
+            "authors": [
+                {
+                    "key": "/authors/OL1393502A"
+                }
+            ],
+            "publish_date": "2005",
+            "publishers": [
+                "W. F. Howes"
+            ],
+            "pagination": "358p.(large print)",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "series": [
+                "Clipper large print"
+            ],
+            "edition_name": "Large print ed.",
+            "isbn_10": [
+                "1845057759"
+            ],
+            "publish_country": "xxk",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:1140361049:485"
+            ],
+            "key": "/books/OL16407437M",
+            "number_of_pages": 358,
+            "works": [
+                {
+                    "key": "/works/OL5731538W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-23T19:28:47.329879"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-05-04T07:28:02.449342"
+            }
+        },
+        "/books/OL9218290M": {
+            "identifiers": {
+                "goodreads": [
+                    "126381"
+                ],
+                "librarything": [
+                    "18107"
+                ]
+            },
+            "title": "Purple Hibiscus",
+            "authors": [
+                {
+                    "key": "/authors/OL1393502A"
+                }
+            ],
+            "publish_date": "February 7, 2005",
+            "publishers": [
+                "HarperPerennial"
+            ],
+            "weight": "7.8 ounces",
+            "covers": [
+                12691
+            ],
+            "physical_format": "Paperback",
+            "subjects": [
+                "Modern fiction",
+                "Fiction"
+            ],
+            "edition_name": "New Ed edition",
+            "isbn_13": [
+                "9780007189885"
+            ],
+            "isbn_10": [
+                "0007189885"
+            ],
+            "physical_dimensions": "7.7 x 5 x 0.9 inches",
+            "type": {
+                "key": "/type/edition"
+            },
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "Things started to fall apart at home when my brother, Jaja, did not go to communion and Papa flung his heavy missal across the room and broke the figurines on the etagere."
+            },
+            "source_records": [
+                "amazon:0007189885"
+            ],
+            "key": "/books/OL9218290M",
+            "number_of_pages": 320,
+            "works": [
+                {
+                    "key": "/works/OL5731538W"
+                }
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-05T01:49:57.333482"
+            }
+        },
+        "/books/OL9703251M": {
+            "identifiers": {
+                "librarything": [
+                    "18107"
+                ],
+                "goodreads": [
+                    "2087018"
+                ]
+            },
+            "title": "Purple Hibiscus",
+            "authors": [
+                {
+                    "key": "/authors/OL1393502A"
+                }
+            ],
+            "publish_date": "September 2004",
+            "publishers": [
+                "Turtleback Books Distributed by Demco Media"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_13": [
+                "9781402582387"
+            ],
+            "physical_format": "Unknown Binding",
+            "isbn_10": [
+                "0007766653"
+            ],
+            "oclc_numbers": [
+                "55847963"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "General",
+                "Fiction - General"
+            ],
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "Things started to fall apart at home when my brother, Jaja, did not go to communion and Papa flung his heavy missal across the room and broke the figurines on the etagere."
+            },
+            "source_records": [
+                "amazon:0606335447"
+            ],
+            "key": "/books/OL9703251M",
+            "works": [
+                {
+                    "key": "/works/OL5731538W"
+                }
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-04-14T06:38:46.951094"
+            }
+        },
+        "/books/OL31858249M": {
+            "title": "Purple Hibiscus",
+            "publish_date": "2004-09",
+            "publishers": [
+                "Anchor Books"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                12063933
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "copyright_date": "October 30, 2003",
+            "key": "/books/OL31858249M",
+            "works": [
+                {
+                    "key": "/works/OL5731538W"
+                }
+            ],
+            "identifiers": {},
+            "classifications": {},
+            "ocaid": "purplehibiscusno0000adic",
+            "isbn_10": [
+                "1400076943"
+            ],
+            "isbn_13": [
+                "9781400076949"
+            ],
+            "lc_classifications": [
+                "PR9387.9.A34354P87"
+            ],
+            "source_records": [
+                "bwb:9781400076949"
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-01-13T13:37:58.723268"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-17T03:50:20.642740"
+            }
+        },
+        "/books/OL27790827M": {
+            "description": {
+                "type": "/type/text",
+                "value": "In the city of Egunu, Nigeria, fifteen year-old Kambili and her older brother Jaja lead a somewhat cloistered life. Their father is a wealthy businessman, they live in a beautiful home, and attend private school. But, through Kambili's eyes, we see that their home life is anything but harmonious. Her father, a fanatically religious man has impossible expectations of his children and his wife, and if things don't go his way he becomes physically abusive. Not until Kambili and Jaja are sent away from home for the very first time to visit their loving aunt, does Kambili's world begin to blossom. But when a military coup threatens to destroy the country, the tension in her family's home escalates, and Kambili must find the strength to keep her loved ones together."
+            },
+            "notes": {
+                "type": "/type/text",
+                "value": "Internet Archive - 2\n\nInternet Archive 2"
+            },
+            "title": "Purple hibiscus",
+            "subtitle": "a novel",
+            "authors": [
+                {
+                    "key": "/authors/OL1393502A"
+                }
+            ],
+            "publish_date": "2012",
+            "isbn_10": [
+                "1616202416"
+            ],
+            "full_title": "Purple hibiscus a novel",
+            "lc_classifications": [
+                "PR9387.9.A34354 P87 2012"
+            ],
+            "subjects": [
+                "Fathers and daughters",
+                "Coups d'état",
+                "Teenage girls",
+                "Brothers and sisters",
+                "Aunts",
+                "Bildungsromans",
+                "Girls",
+                "Teenagers",
+                "Religious fanaticism",
+                "Fiction",
+                "Literary",
+                "Children of the rich",
+                "FICTION",
+                "Domestic fiction",
+                "Love stories"
+            ],
+            "edition_name": "First Algonquin paperback edition.",
+            "pagination": "307 pages",
+            "source_records": [
+                "marc:marc_marygrove/marygrovecollegelibrary.full.D20191108.T213022.internetarchive2nd_REPACK.mrc:193941074:4053",
+                "bwb:9781616202415",
+                "promise:bwb_daily_pallets_2022-10-06"
+            ],
+            "dewey_decimal_class": [
+                "823.92"
+            ],
+            "isbn_13": [
+                "9781616202415"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subject_places": [
+                "Nigeria"
+            ],
+            "local_id": [
+                "urn:mgc:31927002078704",
+                "urn:bwbsku:O8-BTW-614"
+            ],
+            "publish_country": "ncu",
+            "copyright_date": "2003",
+            "by_statement": "by Chimamanda Ngozi Adichie",
+            "oclc_numbers": [
+                "794458698"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "key": "/books/OL27790827M",
+            "number_of_pages": 307,
+            "works": [
+                {
+                    "key": "/works/OL5731538W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-12-13T23:13:51.790259"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-11-14T20:13:46.978867"
+            }
+        },
+        "/books/OL22591225M": {
+            "identifiers": {
+                "librarything": [
+                    "18107"
+                ],
+                "goodreads": [
+                    "902735"
+                ]
+            },
+            "title": "PURPLE HIBISCUS: A NOVEL.",
+            "authors": [
+                {
+                    "key": "/authors/OL1393502A"
+                }
+            ],
+            "publishers": [
+                "FOURTH ESTATE"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/und"
+                }
+            ],
+            "isbn_10": [
+                "0007176112"
+            ],
+            "publish_country": "xx ",
+            "publish_places": [
+                "LONDON"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:marc_university_of_toronto/uoft.marc:4676063208:433"
+            ],
+            "key": "/books/OL22591225M",
+            "works": [
+                {
+                    "key": "/works/OL5731538W"
+                }
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-16T19:26:24.941849"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-11T03:20:36.594388"
+            }
+        },
+        "/books/OL31953694M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "2005",
+            "publish_country": "ne",
+            "languages": [
+                {
+                    "key": "/languages/dut"
+                }
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL1393502A"
+                }
+            ],
+            "oclc_numbers": [
+                "65839211"
+            ],
+            "series": [
+                "Rainbow pockets -- 776",
+                "Rainbow pocketboeken -- 776."
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Oorspr. Nederlandse uitg.: Amsterdam : Sirene, 2004."
+            },
+            "description": {
+                "type": "/type/text",
+                "value": "Een vijftienjarig Nigeriaans meisje groeit op in een gezin met een fanatiek godsdienstige vader die met geweld zijn gezag handhaaft, tot haar oudere broer dit niet meer accepteert."
+            },
+            "contributions": [
+                "Bauer, Hankie"
+            ],
+            "title": "Paarse hibiscus",
+            "by_statement": "Chimamanda Ngozi Adichie ; vert. [uit het Engels] door Hankie Bauer",
+            "publishers": [
+                "Muntinga Pockets",
+                "Sirene"
+            ],
+            "publish_places": [
+                "Amsterdam"
+            ],
+            "isbn_10": [
+                "9041705619"
+            ],
+            "isbn_13": [
+                "9789041705617"
+            ],
+            "pagination": "360 p.",
+            "number_of_pages": 360,
+            "ocaid": "paarsehibiscus0000adic",
+            "source_records": [
+                "ia:paarsehibiscus0000adic",
+                "promise:bwb_daily_pallets_2020-12-04"
+            ],
+            "covers": [
+                10634862
+            ],
+            "works": [
+                {
+                    "key": "/works/OL5731538W"
+                }
+            ],
+            "key": "/books/OL31953694M",
+            "local_id": [
+                "urn:bwbsku:P2-BKG-574"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-02-12T07:46:30.761318"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-15T11:52:32.961305"
+            }
+        },
+        "/books/OL29066066M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited",
+                "Mills & Boon"
+            ],
+            "source_records": [
+                "bwb:9780263886641",
+                "ia:wifeinshadows0000crav_c5w6"
+            ],
+            "title": "Wife in the Shadows",
+            "number_of_pages": 186,
+            "isbn_13": [
+                "9780263886641"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Wife in the Shadows",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2011",
+            "key": "/books/OL29066066M",
+            "authors": [
+                {
+                    "key": "/authors/OL577983A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL16552708W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, erotica"
+            ],
+            "covers": [
+                15173472,
+                13736061
+            ],
+            "ocaid": "wifeinshadows0000crav_c5w6",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-21T15:39:33.275310"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-02-26T14:35:30.831461"
+            }
+        },
+        "/books/OL29109149M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781408925751"
+            ],
+            "title": "Wife in the Shadows",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781408925751"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Wife in the Shadows",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2011",
+            "key": "/books/OL29109149M",
+            "authors": [
+                {
+                    "key": "/authors/OL577983A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL16552708W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, erotica"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-22T04:37:49.273903"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-06-23T21:35:40.322902"
+            }
+        },
+        "/books/OL38268581M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "isbn_13": [
+                "9781283681735"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2013",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781283681735"
+            ],
+            "title": "Roses Have Thorns",
+            "full_title": "Roses Have Thorns",
+            "works": [
+                {
+                    "key": "/works/OL3457864W"
+                }
+            ],
+            "key": "/books/OL38268581M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-17T11:21:00.825482"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-08T09:27:24.468048"
+            }
+        },
+        "/books/OL18337664M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "number_of_pages": 188,
+            "key": "/books/OL18337664M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "publish_places": [
+                "Richmond"
+            ],
+            "pagination": "188p.",
+            "source_records": [
+                "bwb:9780263768350"
+            ],
+            "title": "Roses Have Thorns",
+            "identifiers": {
+                "goodreads": [
+                    "6282228"
+                ],
+                "librarything": [
+                    "1210526"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1990",
+            "publish_country": "enk",
+            "by_statement": "Betty Neels.",
+            "works": [
+                {
+                    "key": "/works/OL3457864W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_10": [
+                "026376835X"
+            ],
+            "oclc_numbers": [
+                "55561801"
+            ],
+            "classifications": {},
+            "dewey_decimal_class": [
+                "823.914"
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-15T20:58:04.300856"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-08T09:27:24.468048"
+            }
+        },
+        "/books/OL3283634M": {
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "1210526"
+                ],
+                "goodreads": [
+                    "467344"
+                ]
+            },
+            "series": [
+                "The Best of Betty Neels"
+            ],
+            "covers": [
+                1186941
+            ],
+            "key": "/books/OL3283634M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "publish_places": [
+                "Toronto",
+                "New York"
+            ],
+            "contributions": [
+                "Copyright Paperback Collection (Library of Congress)"
+            ],
+            "pagination": "219 p. ;",
+            "source_records": [
+                "bwb:9780373512386",
+                "marc:marc_loc_2016/BooksAll.2016.part31.utf8:127440221:718"
+            ],
+            "title": "Roses Have Thorns",
+            "number_of_pages": 219,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1990",
+            "publish_country": "onc",
+            "by_statement": "[Betty Neels].",
+            "works": [
+                {
+                    "key": "/works/OL3457864W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_10": [
+                "0373512384"
+            ],
+            "lccn": [
+                "2003605301"
+            ],
+            "oclc_numbers": [
+                "52280384"
+            ],
+            "classifications": {},
+            "lc_classifications": [
+                "CPB Box no. 2044 vol. 3"
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-08T09:27:24.468048"
+            }
+        },
+        "/books/OL10280404M": {
+            "publishers": [
+                "Ulverscroft Large Print"
+            ],
+            "number_of_pages": 288,
+            "physical_format": "Paperback",
+            "key": "/books/OL10280404M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "subjects": [
+                "Romance"
+            ],
+            "edition_name": "Large Print Edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "classifications": {},
+            "source_records": [
+                "bwb:9780263198454"
+            ],
+            "title": "Roses Have Thorns",
+            "notes": "Betty Neels Largeprint",
+            "identifiers": {},
+            "publish_date": "April 2007",
+            "works": [
+                {
+                    "key": "/works/OL3457864W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_10": [
+                "0263198456"
+            ],
+            "isbn_13": [
+                "9780263198454"
+            ],
+            "oclc_numbers": [
+                "76850960"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-08T09:27:24.468048"
+            }
+        },
+        "/books/OL43581194M": {
+            "title": "November 9",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_10": [
+                "1785412752"
+            ],
+            "isbn_13": [
+                "9781785412752"
+            ],
+            "local_id": [
+                "urn:bwbsku:KO-272-805"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2020-11-19",
+                "ia:november90000hoov"
+            ],
+            "full_title": "November 9",
+            "key": "/books/OL43581194M",
+            "works": [
+                {
+                    "key": "/works/OL20018811W"
+                }
+            ],
+            "covers": [
+                15198339
+            ],
+            "ocaid": "november90000hoov",
+            "oclc_numbers": [
+                "1063618343"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "ISIS"
+            ],
+            "publish_date": "2017",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-09T15:32:14.403274"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-26T22:45:41.466417"
+            }
+        },
+        "/books/OL57743660M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7315784A"
+                }
+            ],
+            "dewey_decimal_class": [
+                "813/.6"
+            ],
+            "isbn_13": [
+                "9781398542150"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 320,
+            "publish_date": "2025",
+            "publishers": [
+                "Simon & Schuster, Limited"
+            ],
+            "source_records": [
+                "bwb:9781398542150"
+            ],
+            "subjects": [
+                "Fiction, romance, contemporary",
+                "Fiction, romance, new adult"
+            ],
+            "title": "November 9",
+            "full_title": "November 9",
+            "works": [
+                {
+                    "key": "/works/OL20018811W"
+                }
+            ],
+            "key": "/books/OL57743660M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-02-17T01:09:15.703210"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-23T23:52:30.018029"
+            }
+        },
+        "/books/OL35499270M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7315784A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "320",
+            "publish_date": "2015",
+            "publishers": [
+                "Simon & Schuster, Limited"
+            ],
+            "source_records": [
+                "bwb:9781471154621",
+                "promise:bwb_daily_pallets_2022-11-02",
+                "ia:bwb_S0-BFF-874"
+            ],
+            "subjects": [
+                "Fiction, romance, contemporary"
+            ],
+            "title": "November 9",
+            "full_title": "November 9",
+            "works": [
+                {
+                    "key": "/works/OL20018811W"
+                }
+            ],
+            "key": "/books/OL35499270M",
+            "covers": [
+                12983714
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9781471154621"
+            ],
+            "classifications": {},
+            "lc_classifications": [
+                "PS3608.O623"
+            ],
+            "local_id": [
+                "urn:bwbsku:KR-298-182"
+            ],
+            "ocaid": "bwb_S0-BFF-874",
+            "number_of_pages": 326,
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T17:07:08.789391"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-04-27T17:08:19.378565"
+            }
+        },
+        "/books/OL27198876M": {
+            "subtitle": "a novel",
+            "local_id": [
+                "urn:sfpl:31223120472577",
+                "urn:sfpl:31223120472585",
+                "urn:sfpl:31223120472593",
+                "urn:sfpl:31223111854247",
+                "urn:sfpl:31223120472619",
+                "urn:sfpl:31223120472627",
+                "urn:sfpl:31223120472635",
+                "urn:sfpl:31223120472643",
+                "urn:sfpl:31223120472650",
+                "urn:bwbsku:O7-BWT-983",
+                "urn:bwbsku:O9-BMB-765"
+            ],
+            "key": "/books/OL27198876M",
+            "authors": [
+                {
+                    "key": "/authors/OL7315784A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "310 pages",
+            "source_records": [
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run05.mrc:262542036:4491",
+                "bwb:9781501110344",
+                "ia:november9novel0000hoov",
+                "promise:bwb_daily_pallets_2021-07-13",
+                "amazon:1501110349",
+                "promise:bwb_daily_pallets_2023-11-03:O9-BMB-765"
+            ],
+            "title": "November 9",
+            "number_of_pages": 320,
+            "edition_name": "First Atria Books trade paperback edition.",
+            "subjects": [
+                "Long-distance relationships",
+                "Novelists",
+                "Fiction"
+            ],
+            "publish_date": "November 10, 2015",
+            "publish_country": "nyu",
+            "by_statement": "Colleen Hoover",
+            "works": [
+                {
+                    "key": "/works/OL20018811W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                15098890,
+                12439714
+            ],
+            "identifiers": {},
+            "physical_dimensions": "20.96 x 13.49 x 2.03 centimeters",
+            "weight": "249 grams",
+            "physical_format": "Paperback",
+            "publishers": [
+                "Atria Paperback",
+                "Atria Books"
+            ],
+            "publish_places": [
+                "New York City, USA"
+            ],
+            "ocaid": "november9novel0000hoov",
+            "isbn_10": [
+                "1501110349"
+            ],
+            "isbn_13": [
+                "9781501110344"
+            ],
+            "lccn": [
+                "2015029360"
+            ],
+            "oclc_numbers": [
+                "904813262"
+            ],
+            "dewey_decimal_class": [
+                "813/.6"
+            ],
+            "lc_classifications": [
+                "PS3608.O623 N68 2015",
+                "PS3608.O623N68 2015"
+            ],
+            "latest_revision": 13,
+            "revision": 13,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-07-19T09:07:22.144863"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-21T18:30:01.076216"
+            }
+        },
+        "/books/OL41344819M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Goldene Flammen",
+            "authors": [
+                {
+                    "key": "/authors/OL7032054A"
+                }
+            ],
+            "publish_date": "2014-07-22",
+            "source_records": [
+                "amazon:3551313261"
+            ],
+            "publishers": [
+                "Carlsen"
+            ],
+            "physical_format": "Paperback",
+            "full_title": "Grischa 01 : Goldene Flammen",
+            "notes": "Source title: Grischa 01: Goldene Flammen",
+            "works": [
+                {
+                    "key": "/works/OL16239519W"
+                }
+            ],
+            "key": "/books/OL41344819M",
+            "identifiers": {
+                "amazon": [
+                    "3551313261"
+                ],
+                "goodreads": [
+                    "19006261"
+                ],
+                "storygraph": [
+                    "7a736729-5529-405f-aa8e-845a3cd9ddf4"
+                ]
+            },
+            "isbn_10": [
+                "3551313261"
+            ],
+            "isbn_13": [
+                "9783551313263"
+            ],
+            "oclc_numbers": [
+                "1184730420"
+            ],
+            "publish_places": [
+                "Hamburg, Germany"
+            ],
+            "edition_name": "1. Aufl",
+            "series": [
+                "Grischa 01"
+            ],
+            "contributors": [
+                {
+                    "role": "Translator",
+                    "name": "Henning Ahrens"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/ger"
+                }
+            ],
+            "translation_of": "Shadow and Bone",
+            "translated_from": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "Alina ist eine einfache Kartografin in der Ersten Armee des Zaren. Unscheinbar und still lebt sie im Schatten ihres Kindheitsfreunds Maljen, dem erfolgreichen Fährtenleser und Frauenschwarm. Keiner darf wissen, dass sie heimlich in ihn verliebt ist, am allerwenigsten er selbst. Erst als sie ihm bei einem Überfall auf unerklärliche Weise das Leben rettet, ändert sich Alinas Dasein auf einen Schlag. Man munkelt, sie hätte übermenschliche Kräfte, und nicht zuletzt der Zar selbst wird nun auf sie aufmerksam …"
+            },
+            "number_of_pages": 352,
+            "covers": [
+                15157577
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-25T01:34:51.834598"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-03T19:14:09.632675"
+            }
+        },
+        "/books/OL35923008M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7032054A"
+                }
+            ],
+            "isbn_13": [
+                "9781466819061"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "32",
+            "publish_date": "2012",
+            "publishers": [
+                "Holt & Company, Henry"
+            ],
+            "source_records": [
+                "bwb:9781466819061"
+            ],
+            "subjects": [
+                "Children's fiction",
+                "Fantasy fiction",
+                "Magic, fiction",
+                "Monsters, fiction",
+                "Orphans, fiction"
+            ],
+            "title": "Shadow and Bone",
+            "full_title": "Shadow and Bone",
+            "works": [
+                {
+                    "key": "/works/OL16239519W"
+                }
+            ],
+            "key": "/books/OL35923008M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-12-26T23:38:16.607129"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-10-08T13:59:37.262657"
+            }
+        },
+        "/books/OL32014263M": {
+            "works": [
+                {
+                    "key": "/works/OL16239519W"
+                }
+            ],
+            "title": "Grisha t.1",
+            "publishers": [
+                "Hachette Jeunesse",
+                "POCHE JEUNESSE"
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL32014263M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                10681007
+            ],
+            "isbn_13": [
+                "9782017868774"
+            ],
+            "classifications": {},
+            "source_records": [
+                "amazon:2017868779"
+            ],
+            "number_of_pages": 352,
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-03-08T09:12:20.699530"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-11T20:08:01.425057"
+            }
+        },
+        "/books/OL32199982M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Gölge ve Kemik; Grish Averse",
+            "authors": [
+                {
+                    "key": "/authors/OL7032054A"
+                }
+            ],
+            "publish_date": "Apr 13, 2019",
+            "source_records": [
+                "amazon:6051869344"
+            ],
+            "number_of_pages": 448,
+            "publishers": [
+                "Marti Yayinlari"
+            ],
+            "isbn_10": [
+                "6051869344"
+            ],
+            "isbn_13": [
+                "9786051869346"
+            ],
+            "physical_format": "paperback",
+            "covers": [
+                10849198
+            ],
+            "works": [
+                {
+                    "key": "/works/OL16239519W"
+                }
+            ],
+            "key": "/books/OL32199982M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-04-13T09:15:46.075900"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-03-12T13:10:15.021419"
+            }
+        },
+        "/books/OL26401995M": {
+            "publishers": [
+                "Editorial Hidra"
+            ],
+            "title": "Sombra y Hueso",
+            "covers": [
+                8100554
+            ],
+            "isbn_13": [
+                "9788415709350"
+            ],
+            "publish_date": "2017",
+            "key": "/books/OL26401995M",
+            "works": [
+                {
+                    "key": "/works/OL16239519W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:8415709358"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2017-11-27T11:18:25.513997"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-31T16:41:04.965787"
+            }
+        },
+        "/books/OL36642545M": {
+            "works": [
+                {
+                    "key": "/works/OL16239519W"
+                }
+            ],
+            "title": "Shadow and Bone",
+            "publishers": [
+                "Hodder & Stoughton",
+                "Orion Children's Books"
+            ],
+            "publish_date": "2018",
+            "key": "/books/OL36642545M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_13": [
+                "9781510106369"
+            ],
+            "classifications": {},
+            "number_of_pages": 308,
+            "publish_places": [
+                "Great Britain"
+            ],
+            "physical_format": "paperback",
+            "lc_classifications": [
+                "PZ7.B25024Sh 2018"
+            ],
+            "source_records": [
+                "bwb:9781510106369",
+                "promise:bwb_daily_pallets_2023-07-20:KS-634-364"
+            ],
+            "local_id": [
+                "urn:bwbsku:KS-634-364"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-01-07T17:31:10.718550"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-07-22T01:01:44.652453"
+            }
+        },
+        "/books/OL25086706M": {
+            "other_titles": [
+                "Shadow & bone"
+            ],
+            "publishers": [
+                "Henry Holt"
+            ],
+            "identifiers": {},
+            "isbn_10": [
+                "0805094598"
+            ],
+            "series": [
+                "Grisha Trilogy ; book 1"
+            ],
+            "covers": [
+                7382175
+            ],
+            "physical_format": "Hardcover",
+            "full_title": "Shadow & bone",
+            "lc_classifications": [
+                "PZ7.B25024 Sh 2012",
+                "PZ7.B25024Sh 2012"
+            ],
+            "key": "/books/OL25086706M",
+            "authors": [
+                {
+                    "key": "/authors/OL7032054A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "subjects": [
+                "Fantasy",
+                "Magic",
+                "Ability",
+                "Orphans",
+                "Monsters",
+                "Fiction"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "358 p. ; 22 cm.",
+            "classifications": {},
+            "source_records": [
+                "marc:marc_loc_updates/v39.i44.records.utf8:7613446:1001",
+                "marc:marc_loc_updates/v40.i09.records.utf8:10905662:971",
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run04.mrc:248613426:3531",
+                "bwb:9780805094596",
+                "marc:marc_loc_2016/BooksAll.2016.part38.utf8:202373070:1006",
+                "promise:bwb_daily_pallets_2022-08-13"
+            ],
+            "title": "Shadow and Bone",
+            "lccn": [
+                "2011034012"
+            ],
+            "number_of_pages": 358,
+            "isbn_13": [
+                "9780805094596"
+            ],
+            "edition_name": "1st ed.",
+            "dewey_decimal_class": [
+                "[Fic]"
+            ],
+            "local_id": [
+                "urn:sfpl:31223104404497",
+                "urn:sfpl:31223104353348",
+                "urn:sfpl:31223104404521",
+                "urn:sfpl:31223104353314",
+                "urn:sfpl:31223104404539",
+                "urn:sfpl:31223104404547",
+                "urn:sfpl:31223104353322",
+                "urn:sfpl:31223104353330",
+                "urn:bwbsku:O8-CCU-773"
+            ],
+            "publish_date": "2012",
+            "publish_country": "nyu",
+            "copyright_date": "2012",
+            "by_statement": "Leigh Bardugo",
+            "works": [
+                {
+                    "key": "/works/OL16239519W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "22 x  x  centimeters",
+            "latest_revision": 20,
+            "revision": 20,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2011-11-04T09:11:43.335968"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-04T18:43:42.722647"
+            }
+        },
+        "/books/OL13247338M": {
+            "identifiers": {
+                "goodreads": [
+                    "4012333"
+                ],
+                "librarything": [
+                    "10176"
+                ]
+            },
+            "title": "A Stranger in the Mirror",
+            "authors": [
+                {
+                    "key": "/authors/OL225246A"
+                }
+            ],
+            "publish_date": "May 31, 1993",
+            "publishers": [
+                "Warner Books Inc (Mm)"
+            ],
+            "isbn_13": [
+                "9789990833508"
+            ],
+            "physical_format": "Paperback",
+            "isbn_10": [
+                "9990833508"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction"
+            ],
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "In 1919, Detroit, Michigan, was the single most successful industrial city in the world."
+            },
+            "source_records": [
+                "amazon:9990833508"
+            ],
+            "key": "/books/OL13247338M",
+            "works": [
+                {
+                    "key": "/works/OL1881774W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-30T10:37:47.120098"
+            }
+        },
+        "/books/OL9893866M": {
+            "identifiers": {
+                "librarything": [
+                    "10176"
+                ],
+                "goodreads": [
+                    "2460990"
+                ]
+            },
+            "title": "A Stranger in the Mirror",
+            "authors": [
+                {
+                    "key": "/authors/OL225246A"
+                }
+            ],
+            "publish_date": "June 1994",
+            "publishers": [
+                "Doubleday Books"
+            ],
+            "physical_format": "Hardcover",
+            "subjects": [
+                "General",
+                "Fiction",
+                "Fiction - General"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_13": [
+                "9781568650937"
+            ],
+            "isbn_10": [
+                "1568650930"
+            ],
+            "oclc_numbers": [
+                "228393245"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "In 1919, Detroit, Michigan, was the single most successful industrial city in the world."
+            },
+            "source_records": [
+                "amazon:1568650930"
+            ],
+            "key": "/books/OL9893866M",
+            "number_of_pages": 300,
+            "works": [
+                {
+                    "key": "/works/OL1881774W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-20T06:33:24.793062"
+            }
+        },
+        "/books/OL9642240M": {
+            "identifiers": {
+                "goodreads": [
+                    "2087017"
+                ],
+                "librarything": [
+                    "18107"
+                ]
+            },
+            "title": "Purple Hibiscus",
+            "authors": [
+                {
+                    "key": "/authors/OL1393502A"
+                }
+            ],
+            "publish_date": "September 2004",
+            "publishers": [
+                "Tandem Library"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_13": [
+                "9781417727292"
+            ],
+            "physical_format": "Unknown Binding",
+            "isbn_10": [
+                "1417727292"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "General",
+                "Fiction - General"
+            ],
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "Things started to fall apart at home when my brother, Jaja, did not go to communion and Papa flung his heavy missal across the room and broke the figurines on the etagere."
+            },
+            "source_records": [
+                "amazon:1417727292"
+            ],
+            "key": "/books/OL9642240M",
+            "works": [
+                {
+                    "key": "/works/OL5731538W"
+                }
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-21T23:32:56.542431"
+            }
+        },
+        "/books/OL3363940M": {
+            "identifiers": {
+                "goodreads": [
+                    "902735"
+                ],
+                "librarything": [
+                    "18107"
+                ]
+            },
+            "title": "Purple hibiscus",
+            "subtitle": "a novel",
+            "authors": [
+                {
+                    "key": "/authors/OL1393502A"
+                }
+            ],
+            "publish_date": "2004",
+            "publishers": [
+                "New York",
+                "Fourth Estate"
+            ],
+            "isbn_10": [
+                "0007176112"
+            ],
+            "subject_place": [
+                "Nigeria"
+            ],
+            "pagination": "307 p. ;",
+            "covers": [
+                12214
+            ],
+            "lc_classifications": [
+                "PR9387.9.A34354 P87 2004b",
+                "PR9387"
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "dewey_decimal_class": [
+                "823/.92"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lccn": [
+                "2004426561"
+            ],
+            "subjects": [
+                "Teenage girls -- Fiction.",
+                "Fathers and daughters -- Fiction.",
+                "Religious fanaticism -- Fiction.",
+                "Children of the rich -- Fiction.",
+                "Brothers and sisters -- Fiction.",
+                "Coups d'état -- Fiction.",
+                "Aunts -- Fiction.",
+                "Nigeria -- Fiction."
+            ],
+            "publish_country": "enk",
+            "by_statement": "by Chimamanda Ngozi Adichie.",
+            "oclc_numbers": [
+                "53822176"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:marc_loc_2016/BooksAll.2016.part32.utf8:45505459:1095",
+                "bwb:9780007176113"
+            ],
+            "key": "/books/OL3363940M",
+            "number_of_pages": 307,
+            "works": [
+                {
+                    "key": "/works/OL5731538W"
+                }
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T03:48:21.208924"
+            }
+        },
+        "/books/OL3687277M": {
+            "identifiers": {
+                "goodreads": [
+                    "902737"
+                ],
+                "librarything": [
+                    "18107"
+                ]
+            },
+            "title": "Purple hibiscus",
+            "subtitle": "a novel by",
+            "authors": [
+                {
+                    "key": "/authors/OL1393502A"
+                }
+            ],
+            "publish_date": "2003",
+            "publishers": [
+                "Algonquin Books of Chapel Hill"
+            ],
+            "subject_place": [
+                "Nigeria"
+            ],
+            "pagination": "307 p. ;",
+            "covers": [
+                12986888
+            ],
+            "publish_places": [
+                "Chapel Hill"
+            ],
+            "uri_descriptions": [
+                "Book review (H-Net)"
+            ],
+            "edition_name": "1st ed.",
+            "genres": [
+                "Fiction."
+            ],
+            "source_records": [
+                "marc:marc_records_scriblio_net/part14.dat:151550873:1125",
+                "marc:marc_loc_updates/v35.i19.records.utf8:5164619:1223",
+                "marc:marc_loc_2016/BooksAll.2016.part30.utf8:191998163:1223",
+                "bwb:9781565123878",
+                "promise:bwb_daily_pallets_2022-03-17",
+                "marc:marc_columbia/Columbia-extract-20221130-009.mrc:190833121:3127",
+                "marc:marc_nuls/NULS_PHC_180925.mrc:84776980:1116",
+                "idb:9781565123878",
+                "marc:harvard_bibliographic_metadata/ab.bib.09.20150123.full.mrc:192562788:2159",
+                "marc:harvard_bibliographic_metadata/20220215_067.bib.mrc:167081045:5463"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "url": [
+                "http://www.h-net.org/review/hrev-a0e0g2-aa"
+            ],
+            "subjects": [
+                "Teenage girls -- Fiction",
+                "Children of the rich -- Fiction",
+                "Brothers and sisters -- Fiction",
+                "Fathers and daughters -- Fiction",
+                "Religious fanaticism -- Fiction",
+                "Coups d'état -- Fiction",
+                "Aunts -- Fiction",
+                "Nigeria -- Fiction"
+            ],
+            "publish_country": "ncu",
+            "by_statement": "Chimamanda Ngozi Adichie.",
+            "type": {
+                "key": "/type/edition"
+            },
+            "uris": [
+                "http://www.h-net.org/review/hrev-a0e0g2-aa"
+            ],
+            "key": "/books/OL3687277M",
+            "number_of_pages": 307,
+            "works": [
+                {
+                    "key": "/works/OL5731538W"
+                }
+            ],
+            "isbn_10": [
+                "1565123875"
+            ],
+            "lccn": [
+                "2003051894"
+            ],
+            "ocaid": "purplehibiscus0000chim",
+            "classifications": {},
+            "dewey_decimal_class": [
+                "823/.92"
+            ],
+            "lc_classifications": [
+                "PR9387.9.A34354 P87 2003",
+                "PR9387.9.A34354P87"
+            ],
+            "physical_format": "Paperback",
+            "local_id": [
+                "urn:bwbsku:P7-DBX-720",
+                "urn:nuls:31786101803663"
+            ],
+            "oclc_numbers": [
+                "373915632",
+                "52269560"
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "DESCRIPTION In the city of Egunu, Nigeria, fifteen year-old Kambili and her older brother Jaja lead a somewhat cloistered life. Their father is a wealthy businessman, they live in a beautiful home, and attend private school. But, through Kambili's eyes, we see that their home life is anything but harmonious. Her father, a fanatically religious man has impossible expectations of his children and his wife, and if things don't go his way he becomes physically abusive. Not until Kambili and Jaja are sent away from home for the very first time to visit their loving aunt, does Kambili's world begin to blossom. But when a military coup threatens to destroy the country, the tension in her family's home escalates, and Kambili must find the strength to keep her loved ones together."
+            },
+            "latest_revision": 22,
+            "revision": 22,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-05-19T07:15:29.762652"
+            }
+        },
+        "/books/OL22373905M": {
+            "identifiers": {
+                "goodreads": [
+                    "902737"
+                ],
+                "librarything": [
+                    "18107"
+                ]
+            },
+            "title": "Purple hibiscus",
+            "subtitle": "a novel",
+            "authors": [
+                {
+                    "key": "/authors/OL1393502A"
+                }
+            ],
+            "publish_date": "2003",
+            "publishers": [
+                "Algonquin Books of Chapel Hill"
+            ],
+            "isbn_10": [
+                "1565123875"
+            ],
+            "pagination": "307 p. ;",
+            "lc_classifications": [
+                "PR9387.9.A34354 P87 2003"
+            ],
+            "publish_places": [
+                "Chapel Hill, NC"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "edition_name": "1st ed.",
+            "subjects": [
+                "Teenage girls -- Fiction.",
+                "Nigeria -- Fiction."
+            ],
+            "publish_country": "ncu",
+            "by_statement": "by Chimamanda Ngozi Adichie.",
+            "type": {
+                "key": "/type/edition"
+            },
+            "key": "/books/OL22373905M",
+            "number_of_pages": 307,
+            "works": [
+                {
+                    "key": "/works/OL5731538W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-11T21:37:17.428001"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-08-09T08:37:20.110396"
+            }
+        },
+        "/books/OL7263575M": {
+            "identifiers": {
+                "goodreads": [
+                    "126381"
+                ],
+                "librarything": [
+                    "18107"
+                ]
+            },
+            "title": "Purple Hibiscus",
+            "authors": [
+                {
+                    "key": "/authors/OL1393502A"
+                }
+            ],
+            "publish_date": "2005",
+            "publishers": [
+                "HarperPerennial"
+            ],
+            "source_records": [
+                "bwb:9780007189885",
+                "promise:bwb_daily_pallets_2021-06-17",
+                "idb:9780007189885"
+            ],
+            "covers": [
+                12390511
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "first_sentence": "Things started to fall apart at home when my brother, Jaja, did not go to communion and Papa flung his heavy missal across the room and broke the figurines on the etagere.",
+            "key": "/books/OL7263575M",
+            "number_of_pages": 320,
+            "works": [
+                {
+                    "key": "/works/OL5731538W"
+                }
+            ],
+            "classifications": {},
+            "local_id": [
+                "urn:bwbsku:KP-241-857"
+            ],
+            "ocaid": "purplehibiscusno0000adic_l2f6",
+            "isbn_10": [
+                "0007189885"
+            ],
+            "isbn_13": [
+                "9780007189885"
+            ],
+            "lc_classifications": [
+                "PR9387"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "latest_revision": 16,
+            "revision": 16,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-12-19T19:40:12.569594"
+            }
+        },
+        "/books/OL25374196M": {
+            "description": {
+                "type": "/type/text",
+                "value": "First German ed."
+            },
+            "title": "Blauer Hibiskus",
+            "subtitle": "Roman",
+            "publish_date": "2005",
+            "publishers": [
+                "Luchterhand Literaturverlag"
+            ],
+            "physical_format": "Hardcover with bookjacket",
+            "covers": [
+                7150922
+            ],
+            "languages": [
+                {
+                    "key": "/languages/ger"
+                }
+            ],
+            "isbn_10": [
+                "363087181X"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "key": "/books/OL25374196M",
+            "number_of_pages": 318,
+            "works": [
+                {
+                    "key": "/works/OL5731538W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2012-07-13T18:21:33.132036"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-06-30T09:35:50.577490"
+            }
+        },
+        "/books/OL32634504M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Purple Hibiscus",
+            "authors": [
+                {
+                    "key": "/authors/OL1393502A"
+                }
+            ],
+            "publish_date": "Jun 28, 2004",
+            "source_records": [
+                "amazon:1664444386"
+            ],
+            "number_of_pages": 1,
+            "publishers": [
+                "Recorded Books, Inc. and Blackstone Publishing"
+            ],
+            "isbn_10": [
+                "1664444386"
+            ],
+            "isbn_13": [
+                "9781664444386"
+            ],
+            "physical_format": "audio cd",
+            "full_title": "Purple Hibiscus",
+            "covers": [
+                11267861
+            ],
+            "works": [
+                {
+                    "key": "/works/OL5731538W"
+                }
+            ],
+            "key": "/books/OL32634504M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-06-14T17:57:30.215604"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-06-30T09:35:50.577490"
+            }
+        },
+        "/books/OL37174929M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL577983A"
+                }
+            ],
+            "isbn_13": [
+                "9781299342781"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2014",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781299342781"
+            ],
+            "subjects": [
+                "Fiction, romance, erotic"
+            ],
+            "title": "Wife in the Shadows",
+            "full_title": "Wife in the Shadows",
+            "works": [
+                {
+                    "key": "/works/OL16552708W"
+                }
+            ],
+            "key": "/books/OL37174929M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-02-26T17:48:12.526011"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-14T17:12:32.031736"
+            }
+        },
+        "/books/OL30533142M": {
+            "publishers": [
+                "Harlequin Mills & Boon"
+            ],
+            "source_records": [
+                "amazon:818474515X"
+            ],
+            "title": "Wife in the Shadows",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9788184745153"
+            ],
+            "covers": [
+                10464007
+            ],
+            "physical_format": "paperback",
+            "full_title": "Wife in the Shadows",
+            "isbn_10": [
+                "818474515X"
+            ],
+            "publish_date": "Aug 14, 2012",
+            "key": "/books/OL30533142M",
+            "authors": [
+                {
+                    "key": "/authors/OL577983A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL16552708W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-10-02T00:50:59.561768"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-06-23T21:35:40.322902"
+            }
+        },
+        "/books/OL29066016M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263220230"
+            ],
+            "title": "Wife in the Shadows",
+            "number_of_pages": 186,
+            "isbn_13": [
+                "9780263220230"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Wife in the Shadows",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2011",
+            "key": "/books/OL29066016M",
+            "authors": [
+                {
+                    "key": "/authors/OL577983A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL16552708W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, erotica"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-21T15:38:18.247396"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-06-23T21:35:40.322902"
+            }
+        },
+        "/books/OL28951804M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263811681"
+            ],
+            "title": "Roses Have Thorns",
+            "number_of_pages": 219,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Roses Have Thorns",
+            "publish_date": "1999",
+            "key": "/books/OL28951804M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3457864W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, general"
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9780263811681"
+            ],
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T05:11:28.857101"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-08T09:27:24.468048"
+            }
+        },
+        "/books/OL17114808M": {
+            "identifiers": {
+                "librarything": [
+                    "1210526"
+                ],
+                "goodreads": [
+                    "6477478"
+                ]
+            },
+            "title": "Roses Have Thorns",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "publish_date": "1990",
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_country": "xxk",
+            "by_statement": "Betty Neels.",
+            "publish_places": [
+                "London"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_10": [
+                "0263125254"
+            ],
+            "oclc_numbers": [
+                "55561801"
+            ],
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:1295366408:386"
+            ],
+            "key": "/books/OL17114808M",
+            "works": [
+                {
+                    "key": "/works/OL3457864W"
+                }
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-27T13:56:04.918942"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-06T22:02:09.854375"
+            }
+        },
+        "/books/OL60629690M": {
+            "works": [
+                {
+                    "key": "/works/OL20018811W"
+                }
+            ],
+            "title": "November 9",
+            "publishers": [
+                "Z&K"
+            ],
+            "publish_date": "June 1, 2017",
+            "key": "/books/OL60629690M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                15142414
+            ],
+            "isbn_13": [
+                "9789020553352",
+                "9789401908061",
+                "9789401912471",
+                "9789020552478",
+                "9789020553857",
+                "9789041715913"
+            ],
+            "isbn_10": [
+                "9020553356"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/dut"
+                }
+            ],
+            "translation_of": "November 9",
+            "translated_from": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "physical_format": "Paperback",
+            "number_of_pages": 320,
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-11-13T11:56:07.652275"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-13T11:57:26.748596"
+            }
+        },
+        "/books/OL36858187M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7315784A"
+                }
+            ],
+            "isbn_13": [
+                "9781432897291"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2022",
+            "publishers": [
+                "Cengage Gale",
+                "Thorndike Press Large Print"
+            ],
+            "source_records": [
+                "bwb:9781432897291",
+                "amazon:1432897292",
+                "promise:bwb_daily_pallets_2023-02-24:W8-BKG-636"
+            ],
+            "title": "November 9",
+            "full_title": "November 9",
+            "works": [
+                {
+                    "key": "/works/OL20018811W"
+                }
+            ],
+            "key": "/books/OL36858187M",
+            "covers": [
+                12871777
+            ],
+            "local_id": [
+                "urn:bwbsku:W8-BKG-636"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-01-28T14:38:15.468505"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-27T19:28:55.999520"
+            }
+        },
+        "/books/OL38862658M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "November 9",
+            "authors": [
+                {
+                    "key": "/authors/OL7315784A"
+                }
+            ],
+            "publish_date": "Apr 09, 2019",
+            "source_records": [
+                "amazon:1508284989"
+            ],
+            "number_of_pages": 1,
+            "publishers": [
+                "Simon & Schuster Audio and Blackstone Audio",
+                "Simon & Schuster Audio"
+            ],
+            "isbn_10": [
+                "1508284989"
+            ],
+            "isbn_13": [
+                "9781508284987"
+            ],
+            "physical_format": "audio cd",
+            "full_title": "November 9 A Novel",
+            "subtitle": "A Novel",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: November 9: A Novel"
+            },
+            "works": [
+                {
+                    "key": "/works/OL20018811W"
+                }
+            ],
+            "key": "/books/OL38862658M",
+            "covers": [
+                13232797
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-07-19T11:59:11.203044"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-03T15:52:25.657328"
+            }
+        },
+        "/books/OL33498539M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7315784A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 320,
+            "publish_date": "2015",
+            "publishers": [
+                "Simon & Schuster, Limited",
+                "Simon & Schuster"
+            ],
+            "source_records": [
+                "bwb:9781471154638",
+                "ia:november90000hoov_w8q0"
+            ],
+            "subjects": [
+                "Fiction, romance, contemporary"
+            ],
+            "title": "November 9",
+            "full_title": "November 9",
+            "works": [
+                {
+                    "key": "/works/OL20018811W"
+                }
+            ],
+            "key": "/books/OL33498539M",
+            "covers": [
+                14596126,
+                13272989
+            ],
+            "identifiers": {},
+            "ocaid": "november90000hoov_w8q0",
+            "isbn_13": [
+                "9781471154638"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-09-18T12:00:15.778516"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-21T18:30:01.076216"
+            }
+        },
+        "/books/OL27824009M": {
+            "publishers": [
+                "Wydawnictwo Otwarte"
+            ],
+            "classifications": {},
+            "title": "November 9",
+            "identifiers": {},
+            "covers": [
+                9219001
+            ],
+            "isbn_13": [
+                "9788375151435"
+            ],
+            "publish_date": "2016",
+            "key": "/books/OL27824009M",
+            "publish_places": [
+                "Kraków, Poland"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL20018811W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-12-18T14:09:36.929965"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-09-04T10:02:36.291933"
+            }
+        },
+        "/books/OL29273817M": {
+            "publishers": [
+                "Simon & Schuster, Limited"
+            ],
+            "subtitle": "A Novel",
+            "source_records": [
+                "bwb:9781501110351",
+                "promise:bwb_daily_pallets_2024-12-04:S0-BFF-874"
+            ],
+            "title": "November 9",
+            "number_of_pages": 320,
+            "isbn_13": [
+                "9781501110351"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "November 9 A Novel",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2015",
+            "key": "/books/OL29273817M",
+            "authors": [
+                {
+                    "key": "/authors/OL7315784A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL20018811W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, contemporary"
+            ],
+            "covers": [
+                12441033
+            ],
+            "local_id": [
+                "urn:bwbsku:S0-BFF-874"
+            ],
+            "identifiers": {
+                "amazon": [
+                    null
+                ]
+            },
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-24T02:55:27.293192"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-02T07:43:48.506833"
+            }
+        },
+        "/books/OL27440166M": {
+            "publishers": [
+                "Crave LLC"
+            ],
+            "identifiers": {
+                "amazon": [
+                    "1501151711"
+                ]
+            },
+            "subtitle": "A Novel",
+            "covers": [
+                8900184
+            ],
+            "physical_format": "hardcover",
+            "full_title": "November 9 A Novel",
+            "key": "/books/OL27440166M",
+            "authors": [
+                {
+                    "key": "/authors/OL7315784A"
+                }
+            ],
+            "source_records": [
+                "amazon:1501151711",
+                "bwb:9781501151712",
+                "promise:bwb_daily_pallets_2023-11-28:O9-BLG-788"
+            ],
+            "title": "November 9",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: November 9: A Novel"
+            },
+            "number_of_pages": 384,
+            "isbn_13": [
+                "9781501151712"
+            ],
+            "isbn_10": [
+                "1501151711"
+            ],
+            "publish_date": "Oct 04, 2016",
+            "works": [
+                {
+                    "key": "/works/OL20018811W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:O9-BLG-788"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-10-13T16:33:59.042364"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-30T01:07:24.853783"
+            }
+        },
+        "/books/OL26016212M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "classifications": {},
+            "source_records": [
+                "ia:onelastnightharl00mela",
+                "bwb:9780373237609",
+                "ia:onelastnight0000milb",
+                "amazon:037323760X",
+                "promise:bwb_daily_pallets_2020-10-14"
+            ],
+            "title": "One Last Night",
+            "identifiers": {},
+            "covers": [
+                7568049
+            ],
+            "key": "/books/OL26016212M",
+            "works": [
+                {
+                    "key": "/works/OL17432870W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:W6-AQT-891"
+            ],
+            "ocaid": "onelastnightharl00mela",
+            "isbn_13": [
+                "9780373237609"
+            ],
+            "lc_classifications": [
+                "PR9619.4.M55 S56 2011eb"
+            ],
+            "edition_name": "Larger Print Edition",
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2016-10-14T07:11:38.728478"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-26T21:24:32.791391"
+            }
+        },
+        "/books/OL10691090M": {
+            "publishers": [
+                "Harlequin Romance"
+            ],
+            "covers": [
+                7283886,
+                5071423
+            ],
+            "physical_format": "Mass Market Paperback",
+            "key": "/books/OL10691090M",
+            "authors": [
+                {
+                    "key": "/authors/OL889928A"
+                }
+            ],
+            "ocaid": "southofmoon00anne",
+            "isbn_13": [
+                "9780373022663"
+            ],
+            "source_records": [
+                "bwb:9780373022663",
+                "marc:harvard_bibliographic_metadata/ab.bib.01.20150123.full.mrc:534850845:506",
+                "marc:harvard_bibliographic_metadata/20220215_036.bib.mrc:331612879:1144"
+            ],
+            "title": "South of the Moon",
+            "identifiers": {
+                "librarything": [
+                    "9365191"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373022662"
+            ],
+            "publish_date": "1976",
+            "oclc_numbers": [
+                "5168577"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4463817W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "number_of_pages": 187,
+            "lc_classifications": [
+                "PN6120.95.L7 H37 no.2266"
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-04-26T17:35:06.438847"
+            }
+        },
+        "/books/OL43161459M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7032054A"
+                }
+            ],
+            "local_id": [
+                "urn:bwbsku:W7-AWS-500"
+            ],
+            "publish_date": "2020-10-27",
+            "publishers": [
+                "Mondadori"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-03-17"
+            ],
+            "title": "Tenebre e ossa",
+            "works": [
+                {
+                    "key": "/works/OL16239519W"
+                }
+            ],
+            "key": "/books/OL43161459M",
+            "identifiers": {
+                "amazon": [
+                    "8804717998"
+                ],
+                "goodreads": [
+                    "54541829"
+                ],
+                "storygraph": [
+                    "790da5e4-a3ea-4b89-9471-ab007b5de735"
+                ]
+            },
+            "isbn_10": [
+                "8804717998"
+            ],
+            "isbn_13": [
+                "9788804717997"
+            ],
+            "oclc_numbers": [
+                "1251422001"
+            ],
+            "publish_places": [
+                "Milano, Italy"
+            ],
+            "series": [
+                "GrishaVerse"
+            ],
+            "contributors": [
+                {
+                    "role": "Translator",
+                    "name": "Roberta Verde"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/ita"
+                }
+            ],
+            "translation_of": "Shadow and Bone",
+            "translated_from": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "L’orfana Alina Starkov non ha grandi ambizioni nella vita, le basterebbe fare al meglio il suo lavoro di apprendista cartografa nell’esercito di Ravka, un tempo nazione potente e ora regno circondato dai nemici, e poter stare accanto al suo buon amico Mal, il ragazzo con cui è cresciuta e di cui è innamorata da molto tempo. Ma il destino ha in serbo ben altro per lei.\r\nQuando il loro reggimento attraversa la Faglia d’Ombra, la striscia di oscurità quasi impenetrabile che taglia letteralmente in due il regno di Ravka, lei e i suoi compagni vengono attaccati dagli esseri spaventosi e affamati che lì dimorano. E proprio nel momento in cui Alina si lancia in soccorso dell’amico Mal ferito gravemente, in lei si risveglia un potere enorme, come una luce improvvisa e intensa in grado di riempirle la testa, accecarla e sommergerla completamente.\r\nSubito viene arruolata dai Grisha, l’élite di creature magiche che, al comando dell’Oscuro, l’uomo più potente di Ravka dopo il re, manovra l’intera corte. Alina, infatti, è l’unica tra loro in grado di evocare una forza talmente potente da distruggere la Faglia e riunire di nuovo il regno, dilaniato dalla guerra, riportandovi finalmente pace e prosperità. Ma al sontuoso palazzo dove viene condotta per affinare il suo potere, niente è ciò che sembra e Alina si ritroverà presto ad affrontare sia le ombre che minacciano il regno, sia quelle che insidiano il suo cuore."
+            },
+            "physical_format": "Hardcover",
+            "number_of_pages": 230,
+            "covers": [
+                15157638
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-07T15:41:41.162585"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-03T19:14:09.632675"
+            }
+        },
+        "/books/OL41393177M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Regatul umbrelor",
+            "authors": [
+                {
+                    "key": "/authors/OL7032054A"
+                }
+            ],
+            "publish_date": "2013-11-25",
+            "source_records": [
+                "amazon:9737078462"
+            ],
+            "number_of_pages": 344,
+            "publishers": [
+                "Trei"
+            ],
+            "physical_format": "Paperback",
+            "notes": "Source title: Regatul umbrelor (Romanian Edition)",
+            "works": [
+                {
+                    "key": "/works/OL16239519W"
+                }
+            ],
+            "key": "/books/OL41393177M",
+            "covers": [
+                15157552
+            ],
+            "identifiers": {
+                "amazon": [
+                    "9737078462"
+                ],
+                "goodreads": [
+                    "20413641"
+                ],
+                "storygraph": [
+                    "89ee086a-7919-4359-89a8-aa51632a635b"
+                ]
+            },
+            "isbn_10": [
+                "9737078462"
+            ],
+            "isbn_13": [
+                "9789737078469"
+            ],
+            "oclc_numbers": [
+                "997389109"
+            ],
+            "publish_places": [
+                "Bucureşti, Romania"
+            ],
+            "contributors": [
+                {
+                    "role": "Translator",
+                    "name": "Laurenţiu Dulman"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/rum"
+                }
+            ],
+            "translation_of": "Shadow and Bone",
+            "translated_from": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "Falia Umbrei, un ţinut învăluit în beznă, populat de monştri, distruge treptat Ravka, o naţiune altădată măreaţă.\r\n\r\nAlina, o fată orfană, singuratică, descoperă că posedă o putere unică, ce o face să pătrundă în lumea elitei magice a regatului – Grisha. Ar putea ea să destrame vraja demonică a Faliei Umbrei, eliberându-şi ţara?\r\n\r\nÎntunecatul, o fiinţă cu o putere de seducţie teribilă, este conducătorul Grishei. Dacă îşi va împlini destinul, Alina va fi nevoită să descopere cum să se folosească de harul său şi cum să reziste atracţiei periculoase pe care o simte faţă de temutul stăpân.\r\n\r\nÎnsă în timp ce-şi contemplă viitorul năucitor, Alina nu-l poate uita pe Mal, cel mai bun prieten al său din copilărie."
+            },
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-25T09:54:05.772351"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-03T19:14:09.632675"
+            }
+        },
+        "/books/OL28190321M": {
+            "source_records": [
+                "amazon:3426524449"
+            ],
+            "title": "Goldene Flammen",
+            "covers": [
+                10126447
+            ],
+            "physical_format": "Taschenbuch",
+            "key": "/books/OL28190321M",
+            "works": [
+                {
+                    "key": "/works/OL16239519W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "publishers": [
+                "Knaur Taschenbuch"
+            ],
+            "publish_date": "Mar 02, 2020",
+            "identifiers": {},
+            "classifications": {},
+            "physical_dimensions": "211 x 135 x 30 inches",
+            "weight": "377 grams",
+            "languages": [
+                {
+                    "key": "/languages/ger"
+                }
+            ],
+            "translated_from": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "translation_of": "Shadow and Bone",
+            "number_of_pages": 352,
+            "series": [
+                "Legenden der Grisha I"
+            ],
+            "isbn_10": [
+                "3426524449"
+            ],
+            "isbn_13": [
+                "9783426524442"
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "Alina ist eine einfache Kartografin in der Ersten Armee des Zaren von Ravka. Jemand, der entbehrlich ist –ganz anders als ihr Kindheitsfreund Maljen, der erfolgreiche Fährtenleser und Frauenschwarm. Auf keinen Fall soll Maljen merken, dass die unscheinbare Alina in ihn verliebt ist! Doch als sie ihm bei einem Überfall auf unerklärliche Weise das Leben rettet, ändert sich Alinas Dasein auf einen Schlag. Es scheint, als würde sie über besondere Kräfte verfügen, und so schickt man sie ins Trainingslager der Grisha, der magischen und militärischen Elite Ravkas. Dort nimmt sich besonders einer Alinas an: Der Dunkle, ältester und mächtigster der Grisha …"
+            },
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-06-04T05:44:13.982900"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-31T13:13:55.983265"
+            }
+        },
+        "/books/OL35894850M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7032054A"
+                }
+            ],
+            "isbn_13": [
+                "9780805097108"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "368",
+            "publish_date": "2012",
+            "publishers": [
+                "Holt & Company, Henry"
+            ],
+            "source_records": [
+                "bwb:9780805097108"
+            ],
+            "subjects": [
+                "Children's fiction",
+                "Fantasy fiction",
+                "Magic, fiction",
+                "Monsters, fiction",
+                "Orphans, fiction"
+            ],
+            "title": "Shadow and Bone",
+            "full_title": "Shadow and Bone",
+            "works": [
+                {
+                    "key": "/works/OL16239519W"
+                }
+            ],
+            "key": "/books/OL35894850M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-12-26T18:16:19.101160"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-10-08T13:59:37.262657"
+            }
+        },
+        "/books/OL27098764M": {
+            "publishers": [
+                "Blossom Books"
+            ],
+            "source_records": [
+                "amazon:9020679740"
+            ],
+            "title": "Schim en schaduw (De Grisha) (Dutch Edition)",
+            "number_of_pages": 340,
+            "covers": [
+                8738269
+            ],
+            "isbn_13": [
+                "9789020679748"
+            ],
+            "isbn_10": [
+                "9020679740"
+            ],
+            "publish_date": "Feb 01, 2017",
+            "key": "/books/OL27098764M",
+            "authors": [
+                {
+                    "key": "/authors/OL7032054A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL16239519W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-07-09T20:43:54.065770"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-03-12T13:01:25.145916"
+            }
+        },
+        "/books/OL31444064M": {
+            "title": "Sombra y hueso",
+            "publish_date": "2019",
+            "publishers": [
+                "Hidra",
+                "Editorial Hidra",
+                "Lectorum Publications"
+            ],
+            "series": [
+                "Grishaverse. Trilogía Sombra y hueso, 1"
+            ],
+            "covers": [
+                10520581
+            ],
+            "isbn_13": [
+                "9788418002496"
+            ],
+            "publish_places": [
+                "Madrid"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "21 x  x  inches",
+            "key": "/books/OL31444064M",
+            "number_of_pages": 395,
+            "works": [
+                {
+                    "key": "/works/OL16239519W"
+                }
+            ],
+            "source_records": [
+                "bwb:9788418002496",
+                "amazon:8418002492"
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-11-27T20:23:52.543892"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-03-19T22:21:32.583252"
+            }
+        },
+        "/books/OL28174196M": {
+            "publishers": [
+                "MAG"
+            ],
+            "translated_from": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "physical_format": "hardcover",
+            "title": "Cień i kość",
+            "translation_of": "Shadow and Bone",
+            "covers": [
+                10111930
+            ],
+            "languages": [
+                {
+                    "key": "/languages/pol"
+                }
+            ],
+            "isbn_10": [
+                "9788366065154"
+            ],
+            "publish_date": "2019",
+            "key": "/books/OL28174196M",
+            "works": [
+                {
+                    "key": "/works/OL16239519W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:8366065154"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-06-02T08:34:47.853615"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-04-24T09:43:58.621674"
+            }
+        },
+        "/books/OL35664674M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Sombra e Ossos",
+            "authors": [
+                {
+                    "key": "/authors/OL2965820A"
+                }
+            ],
+            "publish_date": "2021",
+            "source_records": [
+                "amazon:6555352795",
+                "promise:bwb_daily_pallets_2022-03-17"
+            ],
+            "publishers": [
+                "Planeta Minotauro"
+            ],
+            "physical_format": "paperback",
+            "covers": [
+                12817013
+            ],
+            "works": [
+                {
+                    "key": "/works/OL16239519W"
+                }
+            ],
+            "key": "/books/OL35664674M",
+            "identifiers": {},
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/por"
+                }
+            ],
+            "contributors": [
+                {
+                    "name": "Eric Novello",
+                    "role": "Translator"
+                }
+            ],
+            "isbn_10": [
+                "6555352795"
+            ],
+            "isbn_13": [
+                "9786555352795"
+            ],
+            "ocaid": "sombraeossos0000bard",
+            "local_id": [
+                "urn:bwbsku:W7-AWS-495"
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-14T00:04:31.187861"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-07T15:41:57.198678"
+            }
+        },
+        "/books/OL35381825M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Golge ve Kemik",
+            "authors": [
+                {
+                    "key": "/authors/OL7032054A"
+                }
+            ],
+            "publish_date": "Oct 28, 2013",
+            "source_records": [
+                "amazon:6053480770"
+            ],
+            "number_of_pages": 384,
+            "publishers": [
+                "Marti Yayincilik"
+            ],
+            "physical_format": "paperback",
+            "covers": [
+                12224822
+            ],
+            "works": [
+                {
+                    "key": "/works/OL16239519W"
+                }
+            ],
+            "key": "/books/OL35381825M",
+            "identifiers": {},
+            "isbn_10": [
+                "6053480770"
+            ],
+            "isbn_13": [
+                "9786053480778"
+            ],
+            "classifications": {},
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-28T22:21:43.996703"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-12-14T16:40:56.586089"
+            }
+        },
+        "/books/OL33913920M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7032054A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 352,
+            "publish_date": "2021",
+            "publishers": [
+                "Orion"
+            ],
+            "source_records": [
+                "bwb:9781510109063",
+                "amazon:1510109064",
+                "promise:bwb_daily_pallets_2022-04-20"
+            ],
+            "title": "Shadow and Bone",
+            "weight": "0.310 ",
+            "full_title": "Shadow and Bone a Netflix Original Series",
+            "works": [
+                {
+                    "key": "/works/OL16239519W"
+                }
+            ],
+            "key": "/books/OL33913920M",
+            "identifiers": {},
+            "isbn_13": [
+                "9781510109063"
+            ],
+            "ocaid": "shadowbone0000bard_u2e7",
+            "classifications": {},
+            "covers": [
+                12817071
+            ],
+            "local_id": [
+                "urn:bwbsku:KQ-703-288"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-09-28T09:12:07.930574"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-05T14:19:33.452682"
+            }
+        },
+        "/books/OL31895721M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "The Grisha : Shadow and Bone",
+            "authors": [
+                {
+                    "key": "/authors/OL7032054A"
+                }
+            ],
+            "publish_date": "Jul 31, 2014",
+            "source_records": [
+                "amazon:1780622260"
+            ],
+            "publishers": [
+                "Indigo (an Imprint of Orion Children's)",
+                "imusti"
+            ],
+            "isbn_10": [
+                "1780622260"
+            ],
+            "isbn_13": [
+                "9781780622262"
+            ],
+            "physical_format": "paperback",
+            "full_title": "The Grisha : Shadow and Bone : Book 1",
+            "subtitle": "Book 1",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: The Grisha: Shadow and Bone: Book 1"
+            },
+            "covers": [
+                10581882
+            ],
+            "works": [
+                {
+                    "key": "/works/OL16239519W"
+                }
+            ],
+            "key": "/books/OL31895721M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-01-26T07:12:04.754963"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-01T18:30:11.825917"
+            }
+        },
+        "/books/OL29367918M": {
+            "publishers": [
+                "Hachette Children's Group"
+            ],
+            "source_records": [
+                "bwb:9781510105249",
+                "promise:bwb_daily_pallets_2022-11-16"
+            ],
+            "title": "Shadow and Bone",
+            "number_of_pages": 352,
+            "isbn_13": [
+                "9781510105249"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Shadow and Bone",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2018",
+            "key": "/books/OL29367918M",
+            "authors": [
+                {
+                    "key": "/authors/OL7032054A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL16239519W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Children's fiction",
+                "Fantasy fiction"
+            ],
+            "local_id": [
+                "urn:bwbsku:KR-142-346"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-25T04:22:44.714797"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-04T06:03:09.126763"
+            }
+        },
+        "/books/OL29544416M": {
+            "publishers": [
+                "Hachette Children's Group",
+                "Orion Children's Books"
+            ],
+            "subtitle": "Book 1 Collector's Edition",
+            "source_records": [
+                "bwb:9781510108899",
+                "amazon:1510108890"
+            ],
+            "title": "Shadow and Bone",
+            "number_of_pages": 368,
+            "isbn_13": [
+                "9781510108899"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Shadow and Bone Book 1 Collector's Edition",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL29544416M",
+            "authors": [
+                {
+                    "key": "/authors/OL7032054A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL16239519W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                13904881
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-26T21:31:13.609359"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-04-12T01:54:02.157247"
+            }
+        },
+        "/books/OL30692143M": {
+            "publishers": [
+                "Turtleback Books"
+            ],
+            "source_records": [
+                "amazon:0606319034"
+            ],
+            "title": "Shadow And Bone",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Shadow And Bone (Turtleback School & Library Binding Edition) (Grisha Trilogy)"
+            },
+            "number_of_pages": 416,
+            "isbn_13": [
+                "9780606319034"
+            ],
+            "covers": [
+                10489355
+            ],
+            "physical_format": "library binding",
+            "full_title": "Shadow And Bone",
+            "isbn_10": [
+                "0606319034"
+            ],
+            "publish_date": "May 07, 2013",
+            "key": "/books/OL30692143M",
+            "authors": [
+                {
+                    "key": "/authors/OL7032054A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL16239519W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-10-23T22:20:40.033478"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-01T18:30:11.825917"
+            }
+        },
+        "/books/OL26865152M": {
+            "publishers": [
+                "Henry Holt and Company"
+            ],
+            "publish_date": "2012",
+            "key": "/books/OL26865152M",
+            "title": "Shadow and Bone",
+            "works": [
+                {
+                    "key": "/works/OL16239519W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-04-24T19:03:32.582698"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-01T18:30:11.825917"
+            }
+        },
+        "/books/OL10262322M": {
+            "publishers": [
+                "Not Avail"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "title": "Stranger in the Mirror",
+            "identifiers": {
+                "goodreads": [
+                    "1751514"
+                ],
+                "librarything": [
+                    "10176"
+                ]
+            },
+            "isbn_13": [
+                "9780446340212"
+            ],
+            "physical_format": "Mass Market Paperback",
+            "isbn_10": [
+                "0446340219"
+            ],
+            "publish_date": "January 1982",
+            "key": "/books/OL10262322M",
+            "authors": [
+                {
+                    "key": "/authors/OL225246A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL1881774W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "General",
+                "Fiction",
+                "Fiction - General"
+            ],
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "In 1919, Detroit, Michigan, was the single most successful industrial city in the world."
+            },
+            "local_id": [
+                "urn:bwbsku:W7-CXA-488"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-08-13"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-04T17:45:04.273826"
+            }
+        },
+        "/books/OL22931743M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Translation of: Stranger in the mirror."
+            },
+            "title": "En fremmed i spejlet",
+            "authors": [
+                {
+                    "key": "/authors/OL225246A"
+                }
+            ],
+            "publish_date": "1984",
+            "publishers": [
+                "Lademann"
+            ],
+            "publish_places": [
+                "København"
+            ],
+            "pagination": "237 p. ;",
+            "work_titles": [
+                "Stranger in the mirror."
+            ],
+            "languages": [
+                {
+                    "key": "/languages/dan"
+                }
+            ],
+            "isbn_10": [
+                "8715015149"
+            ],
+            "publish_country": "dk ",
+            "by_statement": "Sidney Sheldon ; på dansk ved Elise Norsbo.",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:SanFranPL05/SanFranPL05.out:17287298:883"
+            ],
+            "key": "/books/OL22931743M",
+            "number_of_pages": 237,
+            "works": [
+                {
+                    "key": "/works/OL1881774W"
+                }
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-02-12T12:40:59.822356"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-21T11:19:27.477428"
+            }
+        },
+        "/books/OL7536297M": {
+            "publishers": [
+                "Not Avail"
+            ],
+            "title": "Stranger in the Mirror",
+            "identifiers": {
+                "goodreads": [
+                    "1401607"
+                ],
+                "librarything": [
+                    "10176"
+                ]
+            },
+            "isbn_13": [
+                "9780446364928"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0446364924"
+            ],
+            "publish_date": "January 1982",
+            "key": "/books/OL7536297M",
+            "authors": [
+                {
+                    "key": "/authors/OL225246A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL1881774W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "In 1919, Detroit, Michigan, was the single most successful industrial city in the world."
+            },
+            "source_records": [
+                "bwb:9780446364928",
+                "promise:bwb_daily_pallets_2021-03-10"
+            ],
+            "local_id": [
+                "urn:bwbsku:310-BAC-142"
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-08T19:43:41.690317"
+            }
+        },
+        "/books/OL10264313M": {
+            "publishers": [
+                "Warner Books"
+            ],
+            "physical_format": "Mass Market Paperback",
+            "title": "A Stranger in the Mirror",
+            "identifiers": {
+                "goodreads": [
+                    "7191236"
+                ]
+            },
+            "isbn_13": [
+                "9780446956291"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0446956295"
+            ],
+            "publish_date": "January 4, 1980",
+            "key": "/books/OL10264313M",
+            "authors": [
+                {
+                    "key": "/authors/OL225246A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL1881774W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "In 1919, Detroit, Michigan, was the single most successful industrial city in the world."
+            },
+            "source_records": [
+                "bwb:9780446956291",
+                "amazon:0446956295"
+            ],
+            "covers": [
+                13628687
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-03-18T20:47:49.853429"
+            }
+        }
+    }
+}

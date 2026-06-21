@@ -1,0 +1,5310 @@
+{
+    "status": "ok",
+    "result": {
+        "/books/OL61213718M": {
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "title": "Les Trois Mousquetaires",
+            "publishers": [
+                "Points"
+            ],
+            "publish_date": "2023",
+            "key": "/books/OL61213718M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "physical_format": "Paperback",
+            "number_of_pages": 871,
+            "covers": [
+                15166255
+            ],
+            "description": "Les aventures de d'Artagnan et de ses trois célèbres acolytes, Athos, Porthos et Aramis, ce sont avant tout la vaillance et le panache, un débordement d'énergie et d'audace, de la romance et de la comédie qui virent parfois à la tragédie quand, au détour d'une page, se profile la silhouette de l'inquiétante Milady...Des générations de lecteurs ont été subjuguées par Les Trois Mousquetaires où Dumas, avec une incomparable puissance dramatique, mêle à la fiction l'histoire et aux êtres imaginaires des personnages réels, pour faire revivre avec brio la tumultueuse époque du règne de Louis XIII.",
+            "isbn_13": [
+                "9782757899571"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2026-01-31T23:13:53.193441"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-02-04T19:04:09.788318"
+            }
+        },
+        "/books/OL35664839M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Tres Mosqueteiros",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "publish_date": "Jan 01, 2010",
+            "source_records": [
+                "amazon:8537802786"
+            ],
+            "publishers": [
+                "Zahar"
+            ],
+            "isbn_10": [
+                "8537802786"
+            ],
+            "isbn_13": [
+                "9788537802786"
+            ],
+            "physical_format": "hardcover",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Tres Mosqueteiros (Em Portugues do Brasil)"
+            },
+            "full_title": "Tres Mosqueteiros",
+            "covers": [
+                12370448
+            ],
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL35664839M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-14T00:11:39.039217"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-23T16:00:44.299002"
+            }
+        },
+        "/books/OL9143964M": {
+            "identifiers": {
+                "librarything": [
+                    "3744649"
+                ],
+                "goodreads": [
+                    "4734697"
+                ]
+            },
+            "title": "OS Tres Mosqueteiros (Infantil E Xuvenil)",
+            "authors": [
+                {
+                    "key": "/authors/OL164363A"
+                }
+            ],
+            "isbn_13": [
+                "9788483024782"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/por"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_format": "Paperback",
+            "isbn_10": [
+                "8483024780"
+            ],
+            "oclc_numbers": [
+                "144557439"
+            ],
+            "contributions": [
+                "Dario Xohan Cabana (Translator)"
+            ],
+            "subjects": [
+                "Children: Grades 2-3",
+                "Fairy Tales & Folklore - Anthologies",
+                "Juvenile Fiction"
+            ],
+            "source_records": [
+                "amazon:8483024780"
+            ],
+            "key": "/books/OL9143964M",
+            "number_of_pages": 352,
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-31T09:32:43.011122"
+            }
+        },
+        "/books/OL40240284M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "1900",
+            "publish_country": "ohu",
+            "languages": [
+                {
+                    "key": "/languages/pol"
+                }
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Translation of: Les trois mousquetaires."
+            },
+            "subjects": [
+                "Fiction",
+                "History"
+            ],
+            "subject_places": [
+                "France"
+            ],
+            "subject_times": [
+                "1610-1643"
+            ],
+            "title": "Trzej muszkieterowie",
+            "subtitle": "powieść historyczna z XVII wieku",
+            "by_statement": "Aleksander Dumas ; tłumaczył Stanisław Sierosławski",
+            "publishers": [
+                "Paryski"
+            ],
+            "publish_places": [
+                "Toledo"
+            ],
+            "pagination": "724 p.",
+            "number_of_pages": 724,
+            "source_records": [
+                "marc:marc_scms/20220805_ADAM_MARC_records.mrc:24331682:1404"
+            ],
+            "local_id": [
+                "urn:scms:0188500307205"
+            ],
+            "full_title": "Trzej muszkieterowie powieść historyczna z XVII wieku",
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL40240284M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-11T01:21:29.836552"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-23T15:59:25.978065"
+            }
+        },
+        "/books/OL47325923M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Trzej Muszkieterowie",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "publish_date": "Apr 11, 2012",
+            "source_records": [
+                "amazon:836094637X"
+            ],
+            "number_of_pages": 0,
+            "publishers": [
+                "Audio Liber"
+            ],
+            "isbn_10": [
+                "836094637X"
+            ],
+            "isbn_13": [
+                "9788360946374"
+            ],
+            "physical_format": "cd-rom",
+            "full_title": "Trzej Muszkieterowie",
+            "covers": [
+                13894914
+            ],
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL47325923M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-04-11T11:00:04.321804"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-23T15:59:25.978065"
+            }
+        },
+        "/books/OL47325928M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Trzej muszkieterowie",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "source_records": [
+                "amazon:8375177601"
+            ],
+            "publishers": [
+                "Greg"
+            ],
+            "isbn_10": [
+                "8375177601"
+            ],
+            "isbn_13": [
+                "9788375177602"
+            ],
+            "physical_format": "hardcover",
+            "full_title": "Trzej muszkieterowie",
+            "covers": [
+                13894921
+            ],
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL47325928M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-04-11T11:00:25.329286"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-23T15:59:25.978065"
+            }
+        },
+        "/books/OL47325932M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Trzej Muszkieterowie",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "publish_date": "Apr 11, 2019",
+            "source_records": [
+                "amazon:8378879429",
+                "promise:bwb_daily_pallets_2023-05-24:KS-526-142"
+            ],
+            "number_of_pages": 464,
+            "publishers": [
+                "Dragon"
+            ],
+            "isbn_10": [
+                "8378879429"
+            ],
+            "isbn_13": [
+                "9788378879428"
+            ],
+            "physical_format": "hardcover",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Trzej Muszkieterowie (Polish Edition)"
+            },
+            "full_title": "Trzej Muszkieterowie",
+            "covers": [
+                13894933
+            ],
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL47325932M",
+            "local_id": [
+                "urn:bwbsku:KS-526-142"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-04-11T11:01:08.542631"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-23T15:59:25.978065"
+            }
+        },
+        "/books/OL48698568M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "isbn_13": [
+                "9783842421769"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "584",
+            "publish_date": "2012",
+            "publishers": [
+                "tredition Verlag"
+            ],
+            "source_records": [
+                "bwb:9783842421769"
+            ],
+            "title": "Die Drei Musketiere",
+            "weight": "0.568",
+            "full_title": "Die Drei Musketiere",
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL48698568M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-07-17T09:45:12.319006"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-23T14:41:41.975606"
+            }
+        },
+        "/books/OL47930990M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_country": "gw",
+            "languages": [
+                {
+                    "key": "/languages/ger"
+                }
+            ],
+            "title": "Die drei Musketiere",
+            "subtitle": "Der Graf von Bragelonne oder zehn Jahre nachher",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "oclc_numbers": [
+                "17347487"
+            ],
+            "series": [
+                "Sämtliche Romane von Alexander Dumas"
+            ],
+            "publishers": [
+                "Franck'sche Verlagshandlung"
+            ],
+            "publish_places": [
+                "Stuttgart"
+            ],
+            "pagination": "7 v. in 3.",
+            "source_records": [
+                "marc:harvard_bibliographic_metadata/ab.bib.11.20150123.full.mrc:73030822:545"
+            ],
+            "full_title": "Die drei Musketiere Der Graf von Bragelonne oder zehn Jahre nachher",
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL47930990M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-05-26T16:58:48.207369"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-23T14:41:41.975606"
+            }
+        },
+        "/books/OL47312831M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Die drei Musketiere",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "publish_date": "Feb 08, 2015",
+            "source_records": [
+                "amazon:3958701566"
+            ],
+            "number_of_pages": 316,
+            "publishers": [
+                "nexx verlag"
+            ],
+            "isbn_10": [
+                "3958701566"
+            ],
+            "isbn_13": [
+                "9783958701564"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Die drei Musketiere Band 2",
+            "subtitle": "Band 2",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Die drei Musketiere: Band 2 (German Edition)"
+            },
+            "covers": [
+                13777565
+            ],
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL47312831M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-03-31T01:09:34.718342"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-23T14:41:41.975606"
+            }
+        },
+        "/books/OL40228244M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "1998",
+            "publish_country": "cc",
+            "languages": [
+                {
+                    "key": "/languages/chi"
+                }
+            ],
+            "other_titles": [
+                "Trois mousquetaires"
+            ],
+            "series": [
+                "Shi jie jing dian er tong xiao shuo gu shi zhen cang wen ku"
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                },
+                {
+                    "key": "/authors/OL10818905A"
+                }
+            ],
+            "contributions": [
+                "Dumas, A., pere"
+            ],
+            "title": "三个火枪手",
+            "by_statement": "Da zhong ma, he jia",
+            "publishers": [
+                "Xin shi ji chu ban she"
+            ],
+            "publish_places": [
+                "Guang zhou"
+            ],
+            "source_records": [
+                "ia:sangehuoqiangsho0000unse_p7v3"
+            ],
+            "full_title": "San ge huo qiang shou",
+            "covers": [
+                14568596
+            ],
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL40228244M",
+            "identifiers": {},
+            "ocaid": "sangehuoqiangsho0000unse_p7v3",
+            "isbn_10": [
+                "7540518316"
+            ],
+            "isbn_13": [
+                "9787540518318"
+            ],
+            "oclc_numbers": [
+                "298205546"
+            ],
+            "classifications": {},
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-01T04:40:02.332375"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-22T12:01:09.749490"
+            }
+        },
+        "/books/OL24826723M": {
+            "publishers": [
+                "P.F. Collier and Son"
+            ],
+            "series": [
+                "The works of Alexandre Dumas in thirty volumes"
+            ],
+            "full_title": "The three guardsmen",
+            "lc_classifications": [
+                "PQ2228 .A31 1904"
+            ],
+            "key": "/books/OL24826723M",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "contributions": [
+                "Rouben Mamoulian Collection (Library of Congress)"
+            ],
+            "pagination": "592  p., [4] leaves of plates ;",
+            "source_records": [
+                "marc:marc_loc_updates/v39.i11.records.utf8:12115493:894"
+            ],
+            "title": "The three guardsmen",
+            "work_titles": [
+                "Trois mousquetaires"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "LC copy from the library of  Rouben Mamoulian; stamped on front endleaf: Lark Ellen Home."
+            },
+            "number_of_pages": 592,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lccn": [
+                "2010714664"
+            ],
+            "subject_places": [
+                "France"
+            ],
+            "subjects": [
+                "Fiction",
+                "Swordsmen",
+                "History"
+            ],
+            "publish_date": "1904",
+            "publish_country": "nyu",
+            "subject_times": [
+                "Louis XIII, 1610-1643"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 15,
+            "revision": 15,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2011-07-25T17:34:20.107940"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-20T10:52:34.906999"
+            }
+        },
+        "/books/OL50538021M": {
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "title": "A három testör",
+            "publishers": [
+                "EURÓPA KÖNYVKIADÓ"
+            ],
+            "publish_date": "1969",
+            "key": "/books/OL50538021M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                14565739
+            ],
+            "ocaid": "haromtestor0000alex",
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/hun"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-01-11T15:53:21.830135"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-19T15:48:17.649375"
+            }
+        },
+        "/books/OL22902976M": {
+            "title": "De tre musketörerne",
+            "subtitle": "historisk roman.",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "publish_date": "1894",
+            "publishers": [
+                "Aktiebolaget Hiertas bokförlag"
+            ],
+            "pagination": "549 p.",
+            "work_titles": [
+                "Trois mousquetaires."
+            ],
+            "languages": [
+                {
+                    "key": "/languages/swe"
+                }
+            ],
+            "publish_country": "sw ",
+            "publish_places": [
+                "Stockholm"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:SanFranPL01/SanFranPL01.out:86318514:838"
+            ],
+            "key": "/books/OL22902976M",
+            "number_of_pages": 549,
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-02-11T19:37:35.817852"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-20T23:31:15.078372"
+            }
+        },
+        "/books/OL23080381M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Translation of: Gulliver's travel."
+            },
+            "title": "San jian ke =",
+            "subtitle": "Les trios mousquetaires",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "publish_date": "2005",
+            "series": [
+                "Shang zhou jing dian ming zhu -- 012"
+            ],
+            "contributions": [
+                "Li, Yumin."
+            ],
+            "edition_name": "880-03 Chu ban.",
+            "genres": [
+                "Fiction."
+            ],
+            "work_titles": [
+                "Gulliver's travel."
+            ],
+            "languages": [
+                {
+                    "key": "/languages/chi"
+                }
+            ],
+            "subjects": [
+                "Swordplay -- Fiction.",
+                "France -- History -- Louis XIII, 1610-1643 -- Fiction."
+            ],
+            "publish_country": "ch ",
+            "by_statement": "Dazhongma zhu ; [yi zhe Li Yumin].",
+            "type": {
+                "key": "/type/edition"
+            },
+            "other_titles": [
+                "3 jian ke",
+                "Trios mousquetaires. Chinese."
+            ],
+            "publishers": [
+                "Shang zhou chu ban"
+            ],
+            "publish_places": [
+                "Taibei Shi"
+            ],
+            "pagination": "738 p. ;",
+            "isbn_10": [
+                "9861244522"
+            ],
+            "source_records": [
+                "marc:SanFranPL13/SanFranPL13.out:92648626:1731"
+            ],
+            "key": "/books/OL23080381M",
+            "number_of_pages": 738,
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "latest_revision": 17,
+            "revision": 17,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-02-18T11:24:54.624019"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-03T22:23:51.075446"
+            }
+        },
+        "/books/OL47418382M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Los tres mosqueteros",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "publish_date": "May 24, 2012",
+            "source_records": [
+                "amazon:8415422830"
+            ],
+            "publishers": [
+                "Ediciones de la Isla de Siltolá, S.L."
+            ],
+            "isbn_10": [
+                "8415422830"
+            ],
+            "isbn_13": [
+                "9788415422839"
+            ],
+            "physical_format": "paperback",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Los tres mosqueteros (Colección Clásicos Recuperados) (Spanish Edition)"
+            },
+            "full_title": "Los tres mosqueteros",
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL47418382M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-04-15T14:55:48.464681"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-20T10:52:34.906999"
+            }
+        },
+        "/books/OL47389132M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "LOS TRES MOSQUETEROS",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "publish_date": "Apr 12, 2021",
+            "source_records": [
+                "amazon:8416574979"
+            ],
+            "number_of_pages": 50,
+            "publishers": [
+                "ILUSBOOKS"
+            ],
+            "isbn_10": [
+                "8416574979"
+            ],
+            "isbn_13": [
+                "9788416574971"
+            ],
+            "physical_format": "hardcover",
+            "full_title": "LOS TRES MOSQUETEROS",
+            "covers": [
+                13984863
+            ],
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL47389132M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-04-14T18:06:18.260870"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-20T11:28:21.254140"
+            }
+        },
+        "/books/OL47476202M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "LOS TRES MOSQUETEROS",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                },
+                {
+                    "key": "/authors/OL7934569A"
+                }
+            ],
+            "publish_date": "Jun 14, 2016",
+            "source_records": [
+                "amazon:8497943570"
+            ],
+            "number_of_pages": 432,
+            "publishers": [
+                "EDIMAT LIBROS"
+            ],
+            "isbn_10": [
+                "8497943570"
+            ],
+            "isbn_13": [
+                "9788497943574"
+            ],
+            "physical_format": "hardcover",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: LOS TRES MOSQUETEROS (GRANDES CLÁSICOS DE PELÍCULA) (Spanish Edition)"
+            },
+            "full_title": "LOS TRES MOSQUETEROS",
+            "covers": [
+                14083423
+            ],
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL47476202M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-04-17T07:06:21.652898"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-20T11:28:21.254140"
+            }
+        },
+        "/books/OL47193398M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Los tres mosqueteros: Lecturas graduadas - nivel 1 (Spanish Edition)"
+            },
+            "title": "Los tres mosqueteros",
+            "subtitle": "Lecturas graduadas - nivel 1",
+            "publish_date": "Oct 10, 2005",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:2090341440"
+            ],
+            "publishers": [
+                "enClave-ELE"
+            ],
+            "isbn_10": [
+                "2090341440"
+            ],
+            "isbn_13": [
+                "9782090341447"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Los tres mosqueteros Lecturas graduadas - nivel 1",
+            "covers": [
+                13618335
+            ],
+            "key": "/books/OL47193398M",
+            "number_of_pages": 64,
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-03-18T15:50:52.613586"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-22T10:09:19.744526"
+            }
+        },
+        "/books/OL47410878M": {
+            "title": "Los tres mosqueteros",
+            "publish_date": "Apr 20, 2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:8412375343"
+            ],
+            "publishers": [
+                "Ediciones Rubeo"
+            ],
+            "isbn_10": [
+                "8412375343"
+            ],
+            "isbn_13": [
+                "9788412375343"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Los tres mosqueteros",
+            "key": "/books/OL47410878M",
+            "number_of_pages": 592,
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-04-15T10:34:18.063404"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-22T10:09:16.831010"
+            }
+        },
+        "/books/OL47164015M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Los tres mosqueteros",
+            "authors": [
+                {
+                    "key": "/authors/OL12566325A"
+                },
+                {
+                    "key": "/authors/OL18236A"
+                },
+                {
+                    "key": "/authors/OL12566426A"
+                }
+            ],
+            "publish_date": "Feb 18, 2016",
+            "source_records": [
+                "amazon:8469808419"
+            ],
+            "number_of_pages": 160,
+            "publishers": [
+                "ANAYA INFANTIL Y JUVENIL"
+            ],
+            "isbn_10": [
+                "8469808419"
+            ],
+            "isbn_13": [
+                "9788469808412"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Los tres mosqueteros",
+            "covers": [
+                13574652
+            ],
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL47164015M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-03-17T20:17:34.617533"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-20T10:52:34.906999"
+            }
+        },
+        "/books/OL47208414M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Los tres mosqueteros",
+            "authors": [
+                {
+                    "key": "/authors/OL6721825A"
+                },
+                {
+                    "key": "/authors/OL18236A"
+                },
+                {
+                    "key": "/authors/OL7228135A"
+                },
+                {
+                    "key": "/authors/OL3214203A"
+                }
+            ],
+            "publish_date": "Oct 06, 2022",
+            "source_records": [
+                "amazon:8469890972"
+            ],
+            "number_of_pages": 216,
+            "publishers": [
+                "ANAYA INFANTIL Y JUVENIL"
+            ],
+            "isbn_10": [
+                "8469890972"
+            ],
+            "isbn_13": [
+                "9788469890974"
+            ],
+            "physical_format": "hardcover",
+            "full_title": "Los tres mosqueteros",
+            "covers": [
+                13639038
+            ],
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL47208414M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-03-19T01:21:58.187958"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-20T10:52:34.906999"
+            }
+        },
+        "/books/OL13116808M": {
+            "publishers": [
+                "Editorial Limusa"
+            ],
+            "key": "/books/OL13116808M",
+            "title": "Los Tres Mosqueteros",
+            "identifiers": {
+                "goodreads": [
+                    "58814"
+                ]
+            },
+            "isbn_13": [
+                "9789681822231"
+            ],
+            "physical_format": "Paperback",
+            "isbn_10": [
+                "9681822234"
+            ],
+            "publish_date": "1988",
+            "type": {
+                "key": "/type/edition"
+            },
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "source_records": [
+                "amazon:9681822234"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-19T15:44:24.974757"
+            }
+        },
+        "/books/OL35632426M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "TRES MOSQUETEROS, EDICION INTEGRA",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "publish_date": "Nov 03, 2014",
+            "source_records": [
+                "amazon:987571030X"
+            ],
+            "publishers": [
+                "GRADIFCO SRL"
+            ],
+            "isbn_10": [
+                "987571030X"
+            ],
+            "isbn_13": [
+                "9789875710306"
+            ],
+            "physical_format": "paperback",
+            "covers": [
+                12339398
+            ],
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL35632426M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-06T00:22:45.526444"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-20T11:28:21.254140"
+            }
+        },
+        "/books/OL32800381M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Los Tres Mosqueteros (Spanish Edition)"
+            },
+            "title": "Los Tres Mosqueteros",
+            "publish_date": "Dec 10, 2015",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:1519796854",
+                "bwb:9781519796851"
+            ],
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "isbn_10": [
+                "1519796854"
+            ],
+            "isbn_13": [
+                "9781519796851"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Los Tres Mosqueteros",
+            "covers": [
+                11433070
+            ],
+            "key": "/books/OL32800381M",
+            "number_of_pages": 618,
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-07-15T13:54:32.904379"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-09-27T10:22:49.476038"
+            }
+        },
+        "/books/OL32877573M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Los Tres Mosqueteros (Spanish Edition)"
+            },
+            "title": "Los Tres Mosqueteros",
+            "publish_date": "Jul 09, 2016",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:1535176636"
+            ],
+            "publishers": [
+                "Createspace Independent Publishing Platform",
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "isbn_10": [
+                "1535176636"
+            ],
+            "isbn_13": [
+                "9781535176637"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Los Tres Mosqueteros",
+            "covers": [
+                11509604
+            ],
+            "key": "/books/OL32877573M",
+            "number_of_pages": 448,
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-07-26T20:10:19.520502"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-22T10:09:43.221789"
+            }
+        },
+        "/books/OL9485410M": {
+            "number_of_pages": 400,
+            "weight": "1.8 pounds",
+            "covers": [
+                2270483
+            ],
+            "source_records": [
+                "amazon:8439282192:2-aj:2334155118:216582"
+            ],
+            "title": "Los Tres Mosqueteros",
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "subjects": [
+                "Children's 12-Up - Fiction - General",
+                "Spanish: Adult Nonfiction",
+                "Classics",
+                "Juvenile Fiction",
+                "Children's 12-Up"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "10 x 7 x 1 inches",
+            "publishers": [
+                "Everest Pub"
+            ],
+            "physical_format": "Hardcover",
+            "key": "/books/OL9485410M",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "2874352"
+                ]
+            },
+            "isbn_13": [
+                "9788439282198"
+            ],
+            "isbn_10": [
+                "8439282192"
+            ],
+            "publish_date": "1998",
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-20T10:52:34.906999"
+            }
+        },
+        "/books/OL23078820M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Translation of: Les trois mousquetaires."
+            },
+            "title": "Los tres mosqueteros",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "publish_date": "2005",
+            "series": [
+                "Grandes de la literatura"
+            ],
+            "contributions": [
+                "Sánchez Cano, Guillermo."
+            ],
+            "genres": [
+                "Fiction.",
+                "Ficción."
+            ],
+            "work_titles": [
+                "Trois mousquetaires."
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "subjects": [
+                "Swordsmen -- Fiction.",
+                "Espadachines -- Ficción.",
+                "Relatos de aventura.",
+                "France -- History -- Louis XIII, 1610-1643 -- Fiction.",
+                "Francia -- Historia -- Luis XIII, 1610-1643 -- Ficción."
+            ],
+            "publish_country": "mx ",
+            "by_statement": "Alejandro Dumas ; compendio, Guillermo Sánchez Cano.",
+            "type": {
+                "key": "/type/edition"
+            },
+            "publishers": [
+                "Editores Mexicanos Unidos"
+            ],
+            "publish_places": [
+                "[Mexico City]"
+            ],
+            "pagination": "560 p. ;",
+            "dewey_decimal_class": [
+                "843.7"
+            ],
+            "isbn_10": [
+                "9681512308"
+            ],
+            "source_records": [
+                "marc:SanFranPL13/SanFranPL13.out:90786633:1459"
+            ],
+            "key": "/books/OL23078820M",
+            "number_of_pages": 560,
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-02-18T11:03:33.537835"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-03T06:37:48.095115"
+            }
+        },
+        "/books/OL16177662M": {
+            "publishers": [
+                "Fernandez"
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "A young adventurer joins three musketeers, in the service of Luis XIII, and becomes involved in Cardenal Richelieu's plots to embarrass the royal family."
+            },
+            "isbn_10": [
+                "9684169132"
+            ],
+            "series": [
+                "Clasicos Auriga"
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "key": "/books/OL16177662M",
+            "by_statement": "Alejandro Dumas ; [ilustraciones, Miguel Angel Leyva].",
+            "publish_places": [
+                "Mexico, D.F., Mexico"
+            ],
+            "contributions": [
+                "Leyva, Miguel Angel."
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "pagination": "251 p. :",
+            "source_records": [
+                "marc:marc_oregon_summit_records/catalog_files/pcc_bibs.mrc_rev.mrc:92556679:1169"
+            ],
+            "title": "Los tres mosqueteros",
+            "work_titles": [
+                "Trois mousquetaires."
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Translation of: Les trois mousquetaires."
+            },
+            "number_of_pages": 251,
+            "edition_name": "1. publicacion.",
+            "subjects": [
+                "Spanish language books",
+                "Spanish language -- Readers",
+                "Adventure and adventurers -- Fiction"
+            ],
+            "publish_date": "1988",
+            "publish_country": "mx ",
+            "oclc_numbers": [
+                "21895710"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-22T12:05:36.381737"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-19T15:44:24.974757"
+            }
+        },
+        "/books/OL22902986M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Translation of: Les trois mousquetaires.\n\nSequel: HIS Vingt ans après.\n\nIncludes bibliographical references."
+            },
+            "identifiers": {
+                "goodreads": [
+                    "58810"
+                ]
+            },
+            "title": "Los tres mosqueteros",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "publish_date": "1967",
+            "series": [
+                "\"Sepan cuantos-- \" -- núm. 73"
+            ],
+            "work_titles": [
+                "Trois mousquetaires."
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "publish_country": "mx ",
+            "by_statement": "Alejandro Dumas ; prólogo de Salvador Reyes Nevares.",
+            "type": {
+                "key": "/type/edition"
+            },
+            "publishers": [
+                "Editorial Porrúa"
+            ],
+            "publish_places": [
+                "México, D.F"
+            ],
+            "pagination": "xxxviii, 372 p. ;",
+            "isbn_10": [
+                "968432314X"
+            ],
+            "source_records": [
+                "marc:SanFranPL01/SanFranPL01.out:86366990:1260"
+            ],
+            "key": "/books/OL22902986M",
+            "number_of_pages": 372,
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-02-11T19:37:54.525708"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-04-15T06:43:33.950371"
+            }
+        },
+        "/books/OL12389178M": {
+            "publishers": [
+                "E P Dutton"
+            ],
+            "source_records": [
+                "amazon:2036990037"
+            ],
+            "title": "Los Tres Mosqueteros",
+            "isbn_10": [
+                "2036990037"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "3342148"
+                ]
+            },
+            "isbn_13": [
+                "9782036990036"
+            ],
+            "physical_format": "Paperback",
+            "publish_date": "February 1983",
+            "key": "/books/OL12389178M",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "subjects": [
+                "Fiction"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-20T10:52:34.906999"
+            }
+        },
+        "/books/OL11135889M": {
+            "publishers": [
+                "Silver Burdett Press"
+            ],
+            "physical_format": "Paperback",
+            "source_records": [
+                "amazon:0685373274"
+            ],
+            "title": "Los Tres Mosqueteros",
+            "number_of_pages": 32,
+            "isbn_13": [
+                "9780685373279"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "isbn_10": [
+                "0685373274"
+            ],
+            "publish_date": "December 1990",
+            "key": "/books/OL11135889M",
+            "subjects": [
+                "Action & Adventure - General",
+                "Children's All Ages"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-20T10:52:34.906999"
+            }
+        },
+        "/books/OL22931047M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Translation of: Les trois mousquetaires."
+            },
+            "title": "Los tres mosqueteros",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "publish_date": "1994",
+            "series": [
+                "Grupo Zeta"
+            ],
+            "edition_name": "1a ed.",
+            "genres": [
+                "Fiction.",
+                "Ficción."
+            ],
+            "work_titles": [
+                "Trois mousquetaires."
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "subjects": [
+                "France -- History -- Louis XIII, 1610-1643 -- Fiction.",
+                "France -- Historia -- Luis XIII, 1610-1643 -- Ficción."
+            ],
+            "publish_country": "sp ",
+            "by_statement": "Alejandro Dumas ; [traducción, Alejandro Ferrer].",
+            "type": {
+                "key": "/type/edition"
+            },
+            "publishers": [
+                "Ediciones B"
+            ],
+            "publish_places": [
+                "Barcelona"
+            ],
+            "pagination": "654 p. ;",
+            "isbn_10": [
+                "8440644590"
+            ],
+            "source_records": [
+                "marc:SanFranPL08/SanFranPL08.out:23776220:1187"
+            ],
+            "key": "/books/OL22931047M",
+            "number_of_pages": 654,
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "latest_revision": 15,
+            "revision": 15,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-02-12T12:31:41.078598"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-31T20:33:59.374193"
+            }
+        },
+        "/books/OL8673920M": {
+            "identifiers": {
+                "goodreads": [
+                    "6485296"
+                ]
+            },
+            "title": "Three Musketeers, The (Bookcassette Classic Collection)",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "publish_date": "June 1, 1998",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "weight": "2 pounds",
+            "publishers": [
+                "Unabridged Library Edition"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781567405828"
+            ],
+            "edition_name": "unabridged. edition",
+            "physical_format": "Audio Cassette",
+            "isbn_10": [
+                "1567405827"
+            ],
+            "contributions": [
+                "Michael Page (Narrator)"
+            ],
+            "subjects": [
+                "History",
+                "France",
+                "Audiobooks",
+                "Fiction",
+                "Unabridged Audio - Fiction/General",
+                "Audio Adult: Books On Tape",
+                "Louis XIII, 1610-1643",
+                "Historical - General",
+                "Classics",
+                "Fiction / Classics",
+                "Action & Adventure"
+            ],
+            "physical_dimensions": "8.7 x 5.1 x 3.2 inches",
+            "source_records": [
+                "amazon:1567405827"
+            ],
+            "key": "/books/OL8673920M",
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "latest_revision": 15,
+            "revision": 15,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T08:14:56.482104"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-16T06:56:09.797409"
+            }
+        },
+        "/books/OL12440185M": {
+            "identifiers": {
+                "goodreads": [
+                    "1221206"
+                ]
+            },
+            "title": "Three Musketeers, The (The Classic Collection)",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "publish_date": "July 25, 2005",
+            "publishers": [
+                "Brilliance Audio on MP3-CD Lib Ed"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "physical_format": "MP3 CD",
+            "weight": "3.2 ounces",
+            "isbn_10": [
+                "159600973X"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781596009738"
+            ],
+            "covers": [
+                2965888
+            ],
+            "edition_name": "MP3 Una edition",
+            "contributions": [
+                "Michael Page (Reader)"
+            ],
+            "subjects": [
+                "French Novel And Short Story",
+                "Fiction",
+                "Unabridged Audio - Fiction/General",
+                "Literature: Classics",
+                "Action & Adventure",
+                "Classics",
+                "Fiction / Classics",
+                "Audiobooks",
+                "France",
+                "History",
+                "Louis XIII, 1610-1643"
+            ],
+            "physical_dimensions": "7.6 x 5.4 x 0.4 inches",
+            "source_records": [
+                "amazon:159600973X"
+            ],
+            "key": "/books/OL12440185M",
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "latest_revision": 20,
+            "revision": 20,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-04-03T12:57:08.557497"
+            }
+        },
+        "/books/OL24152170M": {
+            "series": [
+                "Universal library"
+            ],
+            "covers": [
+                6330389,
+                14560514,
+                -1
+            ],
+            "source_records": [
+                "ia:cu31924011053737"
+            ],
+            "title": "The Three Musketeers",
+            "work_titles": [
+                "Trois mousquetaires."
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "France -- History -- Louis XIII, 1610-1643 -- Fiction."
+            ],
+            "publish_country": "nyu",
+            "type": {
+                "key": "/type/edition"
+            },
+            "by_statement": "Alexandre Dumas.",
+            "publishers": [
+                "Grosset & Dunlap"
+            ],
+            "key": "/books/OL24152170M",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "pagination": "xi, 754 p. ;",
+            "number_of_pages": 754,
+            "publish_date": "xxxx",
+            "identifiers": {},
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "ocaid": "cu31924011053737",
+            "oclc_numbers": [
+                "33430951"
+            ],
+            "latest_revision": 23,
+            "revision": 23,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-04-11T19:07:26.201763"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-04-14T12:50:31.232273"
+            }
+        },
+        "/books/OL49745621M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "isbn_13": [
+                "9781291452693"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "623",
+            "publish_date": "2013",
+            "publishers": [
+                "Lulu Press, Inc."
+            ],
+            "source_records": [
+                "bwb:9781291452693"
+            ],
+            "title": "Three Musketeers a Tale of France",
+            "weight": "0.960",
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL49745621M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-10-17T06:56:27.705659"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-20T11:18:48.277207"
+            }
+        },
+        "/books/OL60549090M": {
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "title": "Los Tres Mosqueteros",
+            "publishers": [
+                "Plutón Ediciones"
+            ],
+            "publish_date": "2023",
+            "key": "/books/OL60549090M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                15136610
+            ],
+            "isbn_13": [
+                "9788419087867"
+            ],
+            "publish_places": [
+                "Barcelona, España"
+            ],
+            "copyright_date": "2023",
+            "contributors": [
+                {
+                    "role": "Illustrator",
+                    "name": "Maurice Leloir"
+                },
+                {
+                    "role": "Illustrator",
+                    "name": "Alejandro Diaz"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "translation_of": "Les Trois Mousquetaires",
+            "translated_from": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "physical_format": "Hardcover",
+            "number_of_pages": 780,
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-10-28T03:50:18.826571"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-28T04:02:10.288471"
+            }
+        },
+        "/books/OL9728451M": {
+            "title": "Os Tres Mosqueteiros",
+            "authors": [
+                {
+                    "key": "/authors/OL164363A"
+                }
+            ],
+            "physical_format": "Paperback",
+            "contributions": [
+                "Dario Xohan Cabana (Translator)"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/glg"
+                }
+            ],
+            "subjects": [
+                "Children: Grades 2-3",
+                "Fairy Tales & Folklore - Anthologies",
+                "Juvenile Fiction"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "translated_from": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "isbn_10": [
+                "8483024799"
+            ],
+            "isbn_13": [
+                "9788483024799"
+            ],
+            "source_records": [
+                "amazon:8483024799"
+            ],
+            "key": "/books/OL9728451M",
+            "number_of_pages": 360,
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-02-05T00:01:09.677355"
+            }
+        },
+        "/books/OL47325922M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Trzej muszkieterowie",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "publish_date": "Apr 11, 2014",
+            "source_records": [
+                "amazon:8324030913"
+            ],
+            "number_of_pages": 688,
+            "publishers": [
+                "Znak"
+            ],
+            "isbn_10": [
+                "8324030913"
+            ],
+            "isbn_13": [
+                "9788324030910"
+            ],
+            "physical_format": "hardcover",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Trzej muszkieterowie (Polska Wersja Jezykowa)"
+            },
+            "full_title": "Trzej muszkieterowie",
+            "covers": [
+                13894910
+            ],
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL47325922M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-04-11T10:59:25.038369"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-23T15:59:25.978065"
+            }
+        },
+        "/books/OL47325924M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Trzej muszkieterowie",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "publish_date": "Apr 11, 2017",
+            "source_records": [
+                "amazon:8365875888"
+            ],
+            "number_of_pages": 784,
+            "publishers": [
+                "BOOKS"
+            ],
+            "isbn_10": [
+                "8365875888"
+            ],
+            "isbn_13": [
+                "9788365875884"
+            ],
+            "physical_format": "hardcover",
+            "full_title": "Trzej muszkieterowie",
+            "covers": [
+                13894915
+            ],
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL47325924M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-04-11T11:00:08.345172"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-23T15:59:25.978065"
+            }
+        },
+        "/books/OL9627469M": {
+            "publishers": [
+                "Insel, Frankfurt"
+            ],
+            "number_of_pages": 739,
+            "weight": "12.8 ounces",
+            "title": "Die drei Musketiere.",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {
+                "goodreads": [
+                    "3275722"
+                ]
+            },
+            "isbn_13": [
+                "9783458328315"
+            ],
+            "covers": [
+                2206782
+            ],
+            "languages": [
+                {
+                    "key": "/languages/ger"
+                }
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "isbn_10": [
+                "3458328319"
+            ],
+            "publish_date": "January 1, 2000",
+            "key": "/books/OL9627469M",
+            "physical_format": "Paperback",
+            "physical_dimensions": "7 x 4.4 x 0.9 inches",
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "latest_revision": 21,
+            "revision": 21,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-23T14:41:51.671509"
+            }
+        },
+        "/books/OL43116914M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B08Y4RLWWL"
+                ]
+            },
+            "isbn_13": [
+                "9798717521444"
+            ],
+            "local_id": [
+                "urn:bwbsku:P7-EAI-808"
+            ],
+            "publish_date": "2021-03-06",
+            "publishers": [
+                "Independently published"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-03-17",
+                "bwb:9798717521444"
+            ],
+            "title": "Die drei Musketiere",
+            "subtitle": "Eine unglaubliche Geschichte, die über die Zeit andauert, mit fantastischen Charakteren, mit großen Abenteuern und Herausforderungen von Anfang bis Ende",
+            "full_title": "Die drei Musketiere Eine unglaubliche Geschichte, die über die Zeit andauert, mit fantastischen Charakteren, mit großen Abenteuern und Herausforderungen von Anfang bis Ende",
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL43116914M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-07T11:36:52.961527"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-23T14:41:41.975606"
+            }
+        },
+        "/books/OL37794856M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "2014",
+            "publish_country": "cc",
+            "languages": [
+                {
+                    "key": "/languages/chi"
+                }
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                },
+                {
+                    "key": "/authors/OL7515440A"
+                }
+            ],
+            "contributions": [
+                "Li zhi"
+            ],
+            "title": "三个火枪手",
+            "by_statement": "Da zhong ma, li zhi, yang jing",
+            "publishers": [
+                "Ha er bin gong ye ta xue chu ban she"
+            ],
+            "publish_places": [
+                "Ha er bin"
+            ],
+            "source_records": [
+                "ia:sangehuoqiangsho0000unse_s4s9"
+            ],
+            "full_title": "San ge huo qiang shou",
+            "covers": [
+                14568603
+            ],
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL37794856M",
+            "identifiers": {},
+            "ocaid": "sangehuoqiangsho0000unse_s4s9",
+            "isbn_10": [
+                "756034349X"
+            ],
+            "isbn_13": [
+                "9787560343495"
+            ],
+            "oclc_numbers": [
+                "910727454"
+            ],
+            "classifications": {},
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-04-01T07:20:40.011300"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-22T12:01:09.749490"
+            }
+        },
+        "/books/OL42375529M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "isbn_13": [
+                "9798556698840"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "493",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798556698840"
+            ],
+            "title": "Trois Mousquetaires",
+            "weight": "0.391",
+            "subtitle": "Volume 1",
+            "full_title": "Trois Mousquetaires Volume 1",
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL42375529M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-01T22:01:49.507663"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-23T18:08:41.512064"
+            }
+        },
+        "/books/OL36613478M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL10111335A"
+                },
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "isbn_13": [
+                "9798769859663"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "402",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798769859663"
+            ],
+            "title": "3 Mousquetaires - Alexandre Dumas : Oeuvre Illustrée - Edition Intégrale - Dimensions",
+            "weight": "0.677",
+            "subtitle": "12,7cm / 20,32 Cm",
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL36613478M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-01-01T12:43:00.904497"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-20T10:52:34.906999"
+            }
+        },
+        "/books/OL18555723M": {
+            "title": "Les Trios mousquetaires",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "publish_date": "1961",
+            "publishers": [
+                "Le Livre de Poche"
+            ],
+            "pagination": "699p.",
+            "by_statement": "introduction de Roger Nimier.",
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "publish_country": "fr ",
+            "publish_places": [
+                "Paris"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:2130866978:416"
+            ],
+            "key": "/books/OL18555723M",
+            "number_of_pages": 699,
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-17T22:28:37.321278"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-05T23:50:28.767367"
+            }
+        },
+        "/books/OL19588806M": {
+            "subtitle": "Seiliedig ar Les trois mousquetaires",
+            "contributions": [
+                "Jones, J. E. B."
+            ],
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:2841718363:518"
+            ],
+            "title": "Y tri mysgedwr",
+            "languages": [
+                {
+                    "key": "/languages/wel"
+                }
+            ],
+            "publish_country": "wlk",
+            "by_statement": "Addasiad gan J.E.B. Jones.",
+            "type": {
+                "key": "/type/edition"
+            },
+            "publishers": [
+                "Hughes"
+            ],
+            "key": "/books/OL19588806M",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "publish_places": [
+                "Wrecsam"
+            ],
+            "pagination": "71 p.",
+            "number_of_pages": 71,
+            "publish_date": "1965",
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "latest_revision": 15,
+            "revision": 15,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-23T02:22:58.832281"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-19T15:48:17.649375"
+            }
+        },
+        "/books/OL13232229M": {
+            "identifiers": {
+                "goodreads": [
+                    "872909"
+                ]
+            },
+            "title": "Los Tres Mosqueteros (Novelas Famosas)",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "publish_date": "January 1998",
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "publishers": [
+                "Span Press"
+            ],
+            "isbn_13": [
+                "9788431005542"
+            ],
+            "edition_name": "11 ed edition",
+            "physical_format": "Paperback",
+            "isbn_10": [
+                "8431005548"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Teaching Methods & Materials - Language Arts",
+                "Juvenile literature",
+                "Spanish language",
+                "Education / Teaching"
+            ],
+            "source_records": [
+                "amazon:8431005548"
+            ],
+            "key": "/books/OL13232229M",
+            "number_of_pages": 187,
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-19T08:44:40.158374"
+            }
+        },
+        "/books/OL48938387M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "isbn_13": [
+                "9781081559502"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "pagination": "661",
+            "publish_date": "2019",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9781081559502"
+            ],
+            "title": "Los Tres Mosqueteros",
+            "weight": "1.086",
+            "full_title": "Los Tres Mosqueteros",
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL48938387M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-07-17T22:28:59.597156"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-20T10:52:34.906999"
+            }
+        },
+        "/books/OL47418383M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Los tres mosqueteros",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "publish_date": "May 24, 2012",
+            "source_records": [
+                "amazon:8415422830"
+            ],
+            "publishers": [
+                "Ediciones de la Isla de Siltolá, S.L."
+            ],
+            "isbn_10": [
+                "8415422830"
+            ],
+            "isbn_13": [
+                "9788415422839"
+            ],
+            "physical_format": "paperback",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Los tres mosqueteros (Colección Clásicos Recuperados) (Spanish Edition)"
+            },
+            "full_title": "Los tres mosqueteros",
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL47418383M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-04-15T14:55:48.504013"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-20T10:52:34.906999"
+            }
+        },
+        "/books/OL47476374M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "LOS TRES MOSQUETEROS",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                },
+                {
+                    "key": "/authors/OL7934569A"
+                }
+            ],
+            "publish_date": "Apr 01, 2018",
+            "source_records": [
+                "amazon:8497944038"
+            ],
+            "number_of_pages": 432,
+            "publishers": [
+                "EDIMAT LIBROS"
+            ],
+            "isbn_10": [
+                "8497944038"
+            ],
+            "isbn_13": [
+                "9788497944038"
+            ],
+            "physical_format": "paperback",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: LOS TRES MOSQUETEROS (CLÁSICOS DE LITERATURA) (Spanish Edition)"
+            },
+            "full_title": "LOS TRES MOSQUETEROS",
+            "covers": [
+                14083628
+            ],
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL47476374M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-04-17T07:13:40.325345"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-20T11:28:21.254140"
+            }
+        },
+        "/books/OL47394370M": {
+            "title": "Los tres mosqueteros",
+            "publish_date": "Jul 10, 2015",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:8494277871"
+            ],
+            "publishers": [
+                "Hispamérica Books, S.L."
+            ],
+            "isbn_10": [
+                "8494277871"
+            ],
+            "isbn_13": [
+                "9788494277870"
+            ],
+            "physical_format": "hardcover",
+            "full_title": "Los tres mosqueteros",
+            "covers": [
+                13990994
+            ],
+            "key": "/books/OL47394370M",
+            "number_of_pages": 571,
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-04-14T22:46:19.061553"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-22T10:09:17.192792"
+            }
+        },
+        "/books/OL47410879M": {
+            "title": "Los tres mosqueteros",
+            "publish_date": "Apr 20, 2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:8412375343"
+            ],
+            "publishers": [
+                "Ediciones Rubeo"
+            ],
+            "isbn_10": [
+                "8412375343"
+            ],
+            "isbn_13": [
+                "9788412375343"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Los tres mosqueteros",
+            "key": "/books/OL47410879M",
+            "number_of_pages": 592,
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-04-15T10:34:18.127234"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-22T10:09:16.445888"
+            }
+        },
+        "/books/OL48329299M": {
+            "title": "Los Tres Mosqueteros",
+            "publish_date": "2020",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798575649724"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "pagination": "522",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798575649724"
+            ],
+            "weight": "0.655",
+            "full_title": "Los Tres Mosqueteros",
+            "key": "/books/OL48329299M",
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-17T15:51:05.130508"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-22T10:09:12.417000"
+            }
+        },
+        "/books/OL47088259M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Los tres mosqueteros",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                },
+                {
+                    "key": "/authors/OL7952758A"
+                }
+            ],
+            "publish_date": "Feb 24, 2022",
+            "source_records": [
+                "amazon:8413626722"
+            ],
+            "number_of_pages": 880,
+            "publishers": [
+                "Alianza",
+                "Alianza Editorial"
+            ],
+            "isbn_10": [
+                "8413626722"
+            ],
+            "isbn_13": [
+                "9788413626727"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Los tres mosqueteros",
+            "covers": [
+                13455380
+            ],
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL47088259M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-03-15T12:13:24.663816"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-20T10:52:34.906999"
+            }
+        },
+        "/books/OL47195179M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Los tres mosqueteros",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                },
+                {
+                    "key": "/authors/OL12581544A"
+                }
+            ],
+            "publish_date": "Apr 01, 2016",
+            "source_records": [
+                "amazon:8426143539"
+            ],
+            "number_of_pages": 760,
+            "publishers": [
+                "Editorial Juventud, S.A."
+            ],
+            "isbn_10": [
+                "8426143539"
+            ],
+            "isbn_13": [
+                "9788426143532"
+            ],
+            "physical_format": "paperback",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Los tres mosqueteros (Libros de bolsillo Z) (Spanish Edition)"
+            },
+            "full_title": "Los tres mosqueteros",
+            "covers": [
+                13620735
+            ],
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL47195179M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-03-18T16:56:00.318827"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-20T10:52:34.906999"
+            }
+        },
+        "/books/OL47312126M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Los tres mosqueteros",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "publish_date": "Mar 15, 2023",
+            "source_records": [
+                "amazon:8408269518"
+            ],
+            "number_of_pages": 720,
+            "publishers": [
+                "Austral"
+            ],
+            "isbn_10": [
+                "8408269518"
+            ],
+            "isbn_13": [
+                "9788408269519"
+            ],
+            "physical_format": "hardcover",
+            "full_title": "Los tres mosqueteros",
+            "covers": [
+                13776892
+            ],
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL47312126M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-03-30T23:26:28.945123"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-20T10:52:34.906999"
+            }
+        },
+        "/books/OL42722013M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "isbn_13": [
+                "9780274704453"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "pagination": "452",
+            "publish_date": "2018",
+            "publishers": [
+                "Creative Media Partners, LLC"
+            ],
+            "source_records": [
+                "bwb:9780274704453"
+            ],
+            "title": "Los Tres Mosqueteros",
+            "weight": "0.627",
+            "full_title": "Los Tres Mosqueteros",
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL42722013M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-03T10:15:31.658344"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-23T18:08:41.512064"
+            }
+        },
+        "/books/OL35631505M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "TRES MOSQUETEROS. LOS",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "publish_date": "Nov 03, 2014",
+            "source_records": [
+                "amazon:8494821407"
+            ],
+            "publishers": [
+                "BIBLOK"
+            ],
+            "isbn_10": [
+                "8494821407"
+            ],
+            "isbn_13": [
+                "9788494821400"
+            ],
+            "physical_format": "paperback",
+            "covers": [
+                12338475
+            ],
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL35631505M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-05T23:50:14.324100"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-20T11:28:21.254140"
+            }
+        },
+        "/books/OL31836513M": {
+            "title": "Los tres mosqueteros",
+            "publish_date": "Dec 30, 1993",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:8448700031"
+            ],
+            "publishers": [
+                "Altaya"
+            ],
+            "isbn_10": [
+                "8448700031"
+            ],
+            "isbn_13": [
+                "9788448700034"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Los tres mosqueteros",
+            "covers": [
+                10534160
+            ],
+            "key": "/books/OL31836513M",
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-12-30T21:56:25.177593"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-22T10:09:46.710352"
+            }
+        },
+        "/books/OL13216880M": {
+            "identifiers": {
+                "goodreads": [
+                    "2351948"
+                ]
+            },
+            "title": "UN Aventura De Los Tres Mosqueteros",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "publish_date": "December 31, 1999",
+            "publishers": [
+                "Arte Grafico Editorial Argentino"
+            ],
+            "isbn_13": [
+                "9789990029833"
+            ],
+            "physical_format": "Hardcover",
+            "isbn_10": [
+                "9990029830"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Spanish: Grades 2-3"
+            ],
+            "source_records": [
+                "amazon:9990029830"
+            ],
+            "key": "/books/OL13216880M",
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-05-04T01:37:57.447194"
+            }
+        },
+        "/books/OL13216891M": {
+            "identifiers": {
+                "goodreads": [
+                    "2351941"
+                ]
+            },
+            "title": "Una Aventura De Los Tres Mosqueteros",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "publish_date": "December 31, 1999",
+            "publishers": [
+                "Arte Grafico Editorial Argentino"
+            ],
+            "physical_format": "Hardcover",
+            "isbn_13": [
+                "9789990029949"
+            ],
+            "isbn_10": [
+                "2702835465"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Spanish: Grades 3-4"
+            ],
+            "source_records": [
+                "amazon:9990029946"
+            ],
+            "key": "/books/OL13216891M",
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-02-28T11:43:17.341761"
+            }
+        },
+        "/books/OL35664308M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Os Três Mosqueteiros - Coleção Clássicos Zahar",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "publish_date": "Nov 13, 2011",
+            "source_records": [
+                "amazon:8537806048"
+            ],
+            "publishers": [
+                "Zahar"
+            ],
+            "isbn_10": [
+                "8537806048"
+            ],
+            "isbn_13": [
+                "9788537806043"
+            ],
+            "physical_format": "hardcover",
+            "covers": [
+                12370030
+            ],
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL35664308M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-13T22:08:54.968901"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-23T16:00:44.299002"
+            }
+        },
+        "/books/OL45885023M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "isbn_10": [
+                "8311152152"
+            ],
+            "isbn_13": [
+                "9788311152151"
+            ],
+            "local_id": [
+                "urn:bwbsku:KM-390-668"
+            ],
+            "publish_date": "2018-01-01",
+            "publishers": [
+                "Bellona"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-02-12"
+            ],
+            "title": "Trzej muszkieterowie",
+            "full_title": "Trzej muszkieterowie",
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL45885023M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-01-15T04:08:28.490675"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-23T15:59:25.978065"
+            }
+        },
+        "/books/OL27926811M": {
+            "publishers": [
+                "Wydawnictwo Greg",
+                "Greg"
+            ],
+            "title": "Trzej muszkieterowie",
+            "number_of_pages": 518,
+            "covers": [
+                9298621
+            ],
+            "isbn_13": [
+                "9788375177572"
+            ],
+            "publish_date": "2018",
+            "key": "/books/OL27926811M",
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:8375177571"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-03-13T08:16:14.393537"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-23T15:59:25.978065"
+            }
+        },
+        "/books/OL47325926M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Trzej muszkieterowie",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "publish_date": "Apr 11, 2018",
+            "source_records": [
+                "amazon:837517758X"
+            ],
+            "number_of_pages": 520,
+            "publishers": [
+                "Greg"
+            ],
+            "isbn_10": [
+                "837517758X"
+            ],
+            "isbn_13": [
+                "9788375177589"
+            ],
+            "physical_format": "hardcover",
+            "full_title": "Trzej muszkieterowie",
+            "covers": [
+                13894919
+            ],
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL47325926M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-04-11T11:00:17.243768"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-23T15:59:25.978065"
+            }
+        },
+        "/books/OL47325929M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Trzej muszkieterowie",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "publish_date": "Apr 11, 2017",
+            "source_records": [
+                "amazon:8377793954"
+            ],
+            "number_of_pages": 652,
+            "publishers": [
+                "Wydawnictwo MG"
+            ],
+            "isbn_10": [
+                "8377793954"
+            ],
+            "isbn_13": [
+                "9788377793954"
+            ],
+            "physical_format": "hardcover",
+            "full_title": "Trzej muszkieterowie",
+            "covers": [
+                13894925
+            ],
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL47325929M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-04-11T11:00:47.562789"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-23T15:59:25.978065"
+            }
+        },
+        "/books/OL47325930M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Trzej muszkieterowie",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "publish_date": "Apr 11, 2017",
+            "source_records": [
+                "amazon:837791719X"
+            ],
+            "number_of_pages": 540,
+            "publishers": [
+                "SiedmiorÃ³g"
+            ],
+            "isbn_10": [
+                "837791719X"
+            ],
+            "isbn_13": [
+                "9788377917190"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Trzej muszkieterowie",
+            "covers": [
+                13894931
+            ],
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL47325930M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-04-11T11:00:59.894116"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-23T15:59:25.978065"
+            }
+        },
+        "/books/OL47325931M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Trzej Muszkieterowie",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "source_records": [
+                "amazon:8378879410"
+            ],
+            "number_of_pages": 464,
+            "publishers": [
+                "Dragon"
+            ],
+            "isbn_10": [
+                "8378879410"
+            ],
+            "isbn_13": [
+                "9788378879411"
+            ],
+            "physical_format": "paperback",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Trzej Muszkieterowie (Polish Edition)"
+            },
+            "full_title": "Trzej Muszkieterowie",
+            "covers": [
+                13894932
+            ],
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL47325931M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-04-11T11:01:04.686439"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-23T15:59:25.978065"
+            }
+        },
+        "/books/OL27467082M": {
+            "publishers": [
+                "Arena Verlag GmbH"
+            ],
+            "subtitle": "Der Bücherbär. Klassiker für Erstleser",
+            "covers": [
+                8925538
+            ],
+            "physical_format": "hardcover",
+            "full_title": "Die drei Musketiere Der Bücherbär. Klassiker für Erstleser",
+            "key": "/books/OL27467082M",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "source_records": [
+                "amazon:3401095080"
+            ],
+            "title": "Die drei Musketiere",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Die drei Musketiere: Der Bücherbär. Klassiker für Erstleser"
+            },
+            "identifiers": {
+                "amazon": [
+                    "3401095080"
+                ]
+            },
+            "isbn_13": [
+                "9783401095080"
+            ],
+            "isbn_10": [
+                "3401095080"
+            ],
+            "publish_date": "Jul 01, 2011",
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-10-16T02:25:21.108615"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-23T14:41:41.975606"
+            }
+        },
+        "/books/OL12875069M": {
+            "title": "Die drei Musketiere. Klassiker der Kinderliteratur.",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "publish_date": "December 1, 1995",
+            "languages": [
+                {
+                    "key": "/languages/ger"
+                }
+            ],
+            "physical_format": "Paperback",
+            "publishers": [
+                "Delphin Verlag"
+            ],
+            "isbn_13": [
+                "9783773556325"
+            ],
+            "isbn_10": [
+                "3773556322"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:3773556322"
+            ],
+            "key": "/books/OL12875069M",
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-02T23:26:28.244555"
+            }
+        },
+        "/books/OL37763391M": {
+            "title": "San ge huo qiang shou",
+            "subtitle": "Quan yi cha tu ben",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                },
+                {
+                    "key": "/authors/OL7618949A"
+                },
+                {
+                    "key": "/authors/OL2737049A"
+                }
+            ],
+            "publish_date": "2007",
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_country": "cc",
+            "languages": [
+                {
+                    "key": "/languages/chi"
+                }
+            ],
+            "edition_name": "Di 1 ban",
+            "series": [
+                "Shi jie wen xue ming zhu dian cang"
+            ],
+            "subject_times": [
+                "Jin dai ."
+            ],
+            "subject_places": [
+                "Fa guo"
+            ],
+            "subjects": [
+                "Chang pian xiao shuo"
+            ],
+            "by_statement": "(Fa) da zhong ma (Alexandre. Dumas) zhu ; jin hai yi",
+            "publishers": [
+                "Chang jiang wen yi chu ban she"
+            ],
+            "publish_places": [
+                "Wuhan"
+            ],
+            "pagination": "654 p.",
+            "source_records": [
+                "ia:sangehuoqiangsho0000unse_o0z5",
+                "promise:bwb_daily_pallets_2022-03-17"
+            ],
+            "full_title": "San ge huo qiang shou Quan yi cha tu ben",
+            "covers": [
+                12673885
+            ],
+            "local_id": [
+                "urn:bwbsku:O7-CBC-382"
+            ],
+            "key": "/books/OL37763391M",
+            "number_of_pages": 654,
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "identifiers": {},
+            "ocaid": "sangehuoqiangsho0000unse_o0z5",
+            "isbn_10": [
+                "7535424953"
+            ],
+            "isbn_13": [
+                "9787535424952"
+            ],
+            "oclc_numbers": [
+                "1031135009"
+            ],
+            "classifications": {},
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-03-17T08:13:56.140606"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-22T12:02:22.422470"
+            }
+        },
+        "/books/OL27581093M": {
+            "publishers": [
+                "Lian huan hua chu ban she"
+            ],
+            "series": [
+                "Shi jie jing dian wen xue ming zhu xi lie"
+            ],
+            "covers": [
+                14568598
+            ],
+            "key": "/books/OL27581093M",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                },
+                {
+                    "key": "/authors/OL7720089A"
+                }
+            ],
+            "publish_places": [
+                "Bei jing"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/chi"
+                }
+            ],
+            "source_records": [
+                "ia:sangehuoqiangsho0071unse"
+            ],
+            "title": "三个火枪手",
+            "publish_date": "2006",
+            "publish_country": "cc",
+            "by_statement": "Da zhong ma, li shan",
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "ocaid": "sangehuoqiangsho0071unse",
+            "isbn_10": [
+                "7505607863"
+            ],
+            "isbn_13": [
+                "9787505607866"
+            ],
+            "oclc_numbers": [
+                "306619005"
+            ],
+            "classifications": {},
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-10-29T08:02:08.660460"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-22T12:01:09.749490"
+            }
+        },
+        "/books/OL44911667M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "1956",
+            "publish_country": "ru",
+            "languages": [
+                {
+                    "key": "/languages/rus"
+                }
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "oclc_numbers": [
+                "16828928"
+            ],
+            "lc_classifications": [
+                "PQ2228 .A317 1956"
+            ],
+            "work_titles": [
+                "Trois mousquetaires"
+            ],
+            "title": "Tri mushketera",
+            "by_statement": "Aleksandr Di︠u︡ma ; [perevod s frant︠s︡uzskogo ; red. i vstup. statʹi︠a︡ M.S. Treskunova]",
+            "publishers": [
+                "Gos. izd-vo khudozh. lit-ry"
+            ],
+            "publish_places": [
+                "Moskva"
+            ],
+            "pagination": "xxx, 673 pages",
+            "number_of_pages": 673,
+            "source_records": [
+                "marc:marc_columbia/Columbia-extract-20221130-016.mrc:105788415:1261"
+            ],
+            "full_title": "Tri mushketera",
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL44911667M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-25T14:25:38.488676"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-20T10:52:34.906999"
+            }
+        },
+        "/books/OL43980490M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "1917",
+            "publish_country": "cc",
+            "languages": [
+                {
+                    "key": "/languages/chi"
+                }
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "oclc_numbers": [
+                "810559251"
+            ],
+            "work_titles": [
+                "Translation of: Trois mousquetaires"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Fiction.\n\nTranslation of: Les trois mousquetaires."
+            },
+            "contributions": [
+                "Wuwo"
+            ],
+            "title": "Xia gu zhong hun",
+            "by_statement": "Dazhongma zhu ; Wuwo yi shu",
+            "publishers": [
+                "Tai dong tu shu ju"
+            ],
+            "publish_places": [
+                "Shanghai"
+            ],
+            "pagination": "118 p.",
+            "number_of_pages": 118,
+            "source_records": [
+                "marc:harvard_bibliographic_metadata/ab.bib.13.20150123.full.mrc:407873212:862",
+                "marc:harvard_bibliographic_metadata/20220215_036.bib.mrc:252648230:1286"
+            ],
+            "full_title": "Xia gu zhong hun",
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL43980490M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-13T21:03:07.463895"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-04-23T00:29:12.665418"
+            }
+        },
+        "/books/OL43478294M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "1949",
+            "publish_country": "is",
+            "languages": [
+                {
+                    "key": "/languages/heb"
+                }
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "oclc_numbers": [
+                "894783987"
+            ],
+            "work_titles": [
+                "Trois mousquetaires"
+            ],
+            "table_of_contents": [
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "vol. 1.",
+                    "pagenum": ""
+                }
+            ],
+            "contributions": [
+                "Levanon, Yitsḥaḳ"
+            ],
+            "title": "Sheloshet ha-musḳiṭirim",
+            "pagination": "v.",
+            "source_records": [
+                "marc:harvard_bibliographic_metadata/ab.bib.14.20150123.full.mrc:268506237:792",
+                "marc:harvard_bibliographic_metadata/20220215_009.bib.mrc:14707973:1051"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL43478294M",
+            "publishers": [
+                "מ. ניומן"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-09T00:58:43.045549"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-06-09T13:29:27.954310"
+            }
+        },
+        "/books/OL27138060M": {
+            "notes": "Translation of: Les trios mousquetaires.",
+            "title": "San jian ke",
+            "subtitle": "Les trios mousquetaires",
+            "authors": [
+                {
+                    "key": "/authors/OL7093600A"
+                }
+            ],
+            "publish_date": "2012",
+            "publishers": [
+                "Taiwan shang wu yin shu guan gu fen you xian gong si"
+            ],
+            "series": [
+                "Jing dian xiao shuo = -- Classic novels -- 04"
+            ],
+            "subject_times": [
+                "Louis XIII, 1610-1643"
+            ],
+            "publish_places": [
+                "Taibei Shi"
+            ],
+            "contributions": [
+                "Wu, Guangjian, 1867-1943"
+            ],
+            "subjects": [
+                "Fiction",
+                "Swordplay",
+                "History"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/chi"
+                }
+            ],
+            "pagination": "xxxvii, 693 p.",
+            "source_records": [
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run04.mrc:271966686:2407"
+            ],
+            "work_titles": [
+                "Trios mousquetaires"
+            ],
+            "edition_name": "Chu ban",
+            "subject_places": [
+                "France"
+            ],
+            "local_id": [
+                "urn:sfpl:31223102295798",
+                "urn:sfpl:31223102295814"
+            ],
+            "publish_country": "ch",
+            "by_statement": "Dazhongma zhu ; Wu Guangjian yi",
+            "type": {
+                "key": "/type/edition"
+            },
+            "key": "/books/OL27138060M",
+            "number_of_pages": 693,
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "identifiers": {},
+            "isbn_10": [
+                "9570527277"
+            ],
+            "isbn_13": [
+                "9789570527278"
+            ],
+            "oclc_numbers": [
+                "816406630"
+            ],
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-07-17T08:24:04.364075"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-19T15:48:17.649375"
+            }
+        },
+        "/books/OL27117004M": {
+            "publishers": [
+                "Belyĭ gorod"
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "Adaptation of Dumas' story of the three musketeers."
+            },
+            "isbn_10": [
+                "5779303037"
+            ],
+            "series": [
+                "Prikl︠i︡ucheni︠i︡a i fantastika",
+                "Prikli͡uchenii͡a"
+            ],
+            "subject_times": [
+                "Louis XIII, 1610-1643"
+            ],
+            "full_title": "Tri mushketëra",
+            "lc_classifications": [
+                "PZ22 .D86 2006"
+            ],
+            "key": "/books/OL27117004M",
+            "authors": [
+                {
+                    "key": "/authors/OL7093600A"
+                }
+            ],
+            "publish_places": [
+                "Moskva"
+            ],
+            "contributions": [
+                "Mitrofanov, A. (A. A.)"
+            ],
+            "subjects": [
+                "Juvenile fiction",
+                "Historical fiction",
+                "History"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/rus"
+                }
+            ],
+            "pagination": "47 p.",
+            "source_records": [
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run04.mrc:46889379:2504",
+                "promise:bwb_daily_pallets_2022-08-13"
+            ],
+            "title": "Tri mushketëra",
+            "work_titles": [
+                "Trois mousquetaires"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Translation of: Les trois mousquetaires.\n\n\"Dl︠i︡a mladshego i srednego shkolʹnogo vozrasta\"--Colophon."
+            },
+            "number_of_pages": 47,
+            "isbn_13": [
+                "9785779303033"
+            ],
+            "edition_name": "[Abridged ed.].",
+            "dewey_decimal_class": [
+                "843"
+            ],
+            "subject_places": [
+                "France"
+            ],
+            "local_id": [
+                "urn:sfpl:31223086806743",
+                "urn:bwbsku:O8-CAR-129"
+            ],
+            "publish_date": "2006",
+            "publish_country": "ru",
+            "by_statement": "Aleksandr D︠i︡uma ; khudozhnik A. Mitrofanov",
+            "oclc_numbers": [
+                "1001876573",
+                "184953958"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-07-16T14:59:58.087296"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-19T15:48:17.649375"
+            }
+        },
+        "/books/OL22902978M": {
+            "publishers": [
+                "Svédorszagi Magyar Könyokiadó"
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "title": "A három testör",
+            "work_titles": [
+                "Trois mousquetaires."
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Translation of Les trois mousquetaires."
+            },
+            "pagination": "3 v. ;",
+            "languages": [
+                {
+                    "key": "/languages/hun"
+                }
+            ],
+            "publish_date": "1958",
+            "publish_country": "sw ",
+            "key": "/books/OL22902978M",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "by_statement": "Alexandre Dumas.",
+            "publish_places": [
+                "Malmö"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "France -- History -- Louis XIII, 1610-1643 -- Fiction."
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-02-11T19:37:41.430948"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-19T15:48:17.649375"
+            }
+        },
+        "/books/OL16351912M": {
+            "physical_format": "[chinese]",
+            "translated_from": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "classifications": {},
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:1113794292:371"
+            ],
+            "title": "San jian ke",
+            "translation_of": "Les trois mousquetaires",
+            "identifiers": {},
+            "languages": [
+                {
+                    "key": "/languages/chi"
+                }
+            ],
+            "isbn_10": [
+                "9629015439"
+            ],
+            "publish_country": "ch ",
+            "key": "/books/OL16351912M",
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-23T11:48:58.183695"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-19T15:48:17.649375"
+            }
+        },
+        "/books/OL49595570M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "isbn_13": [
+                "9786073902809"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "pagination": "720",
+            "publish_date": "2023",
+            "publishers": [
+                "Editorial Planeta, S. A."
+            ],
+            "source_records": [
+                "bwb:9786073902809"
+            ],
+            "title": "Los Tres Mosqueteros",
+            "full_title": "Los Tres Mosqueteros",
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL49595570M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-09-17T18:08:03.707409"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-20T10:52:34.906999"
+            }
+        },
+        "/books/OL47389131M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "LOS TRES MOSQUETEROS",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "publish_date": "Apr 12, 2021",
+            "source_records": [
+                "amazon:8416574979"
+            ],
+            "number_of_pages": 50,
+            "publishers": [
+                "ILUSBOOKS"
+            ],
+            "isbn_10": [
+                "8416574979"
+            ],
+            "isbn_13": [
+                "9788416574971"
+            ],
+            "physical_format": "hardcover",
+            "full_title": "LOS TRES MOSQUETEROS",
+            "covers": [
+                13984862
+            ],
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL47389131M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-04-14T18:06:17.893185"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-20T11:28:21.254140"
+            }
+        },
+        "/books/OL47476201M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "LOS TRES MOSQUETEROS",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                },
+                {
+                    "key": "/authors/OL7934569A"
+                }
+            ],
+            "publish_date": "Jun 14, 2016",
+            "source_records": [
+                "amazon:8497943570"
+            ],
+            "number_of_pages": 432,
+            "publishers": [
+                "EDIMAT LIBROS"
+            ],
+            "isbn_10": [
+                "8497943570"
+            ],
+            "isbn_13": [
+                "9788497943574"
+            ],
+            "physical_format": "hardcover",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: LOS TRES MOSQUETEROS (GRANDES CLÁSICOS DE PELÍCULA) (Spanish Edition)"
+            },
+            "full_title": "LOS TRES MOSQUETEROS",
+            "covers": [
+                14083424
+            ],
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL47476201M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-04-17T07:06:21.675278"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-20T11:28:21.254140"
+            }
+        },
+        "/books/OL47476278M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "LOS TRES MOSQUETEROS",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                },
+                {
+                    "key": "/authors/OL7934569A"
+                }
+            ],
+            "publish_date": "Apr 01, 2018",
+            "source_records": [
+                "amazon:8497944216"
+            ],
+            "number_of_pages": 432,
+            "publishers": [
+                "EDIMAT LIBROS"
+            ],
+            "isbn_10": [
+                "8497944216"
+            ],
+            "isbn_13": [
+                "9788497944212"
+            ],
+            "physical_format": "hardcover",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: LOS TRES MOSQUETEROS (CLÁSICOS SELECCIÓN) (Spanish Edition)"
+            },
+            "full_title": "LOS TRES MOSQUETEROS",
+            "covers": [
+                14083513
+            ],
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL47476278M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-04-17T07:09:09.593355"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-20T11:28:21.254140"
+            }
+        },
+        "/books/OL47476279M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "LOS TRES MOSQUETEROS",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                },
+                {
+                    "key": "/authors/OL7934569A"
+                }
+            ],
+            "publish_date": "Apr 01, 2018",
+            "source_records": [
+                "amazon:8497944216"
+            ],
+            "number_of_pages": 432,
+            "publishers": [
+                "EDIMAT LIBROS"
+            ],
+            "isbn_10": [
+                "8497944216"
+            ],
+            "isbn_13": [
+                "9788497944212"
+            ],
+            "physical_format": "hardcover",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: LOS TRES MOSQUETEROS (CLÁSICOS SELECCIÓN) (Spanish Edition)"
+            },
+            "full_title": "LOS TRES MOSQUETEROS",
+            "covers": [
+                14083512
+            ],
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL47476279M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-04-17T07:09:09.600964"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-20T11:28:21.254140"
+            }
+        },
+        "/books/OL47476375M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "LOS TRES MOSQUETEROS",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                },
+                {
+                    "key": "/authors/OL7934569A"
+                }
+            ],
+            "publish_date": "Apr 01, 2018",
+            "source_records": [
+                "amazon:8497944038"
+            ],
+            "number_of_pages": 432,
+            "publishers": [
+                "EDIMAT LIBROS"
+            ],
+            "isbn_10": [
+                "8497944038"
+            ],
+            "isbn_13": [
+                "9788497944038"
+            ],
+            "physical_format": "paperback",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: LOS TRES MOSQUETEROS (CLÁSICOS DE LITERATURA) (Spanish Edition)"
+            },
+            "full_title": "LOS TRES MOSQUETEROS",
+            "covers": [
+                14083629
+            ],
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL47476375M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-04-17T07:13:40.497128"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-20T11:28:21.254140"
+            }
+        },
+        "/books/OL47394369M": {
+            "title": "Los tres mosqueteros",
+            "publish_date": "Jul 10, 2015",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:8494277871"
+            ],
+            "publishers": [
+                "Hispamérica Books, S.L."
+            ],
+            "isbn_10": [
+                "8494277871"
+            ],
+            "isbn_13": [
+                "9788494277870"
+            ],
+            "physical_format": "hardcover",
+            "full_title": "Los tres mosqueteros",
+            "covers": [
+                13990993
+            ],
+            "key": "/books/OL47394369M",
+            "number_of_pages": 571,
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-04-14T22:46:18.988868"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-22T10:09:17.472952"
+            }
+        },
+        "/books/OL46221211M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "isbn_13": [
+                "9781015729476"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "pagination": "452",
+            "publish_date": "2022",
+            "publishers": [
+                "Creative Media Partners, LLC"
+            ],
+            "source_records": [
+                "bwb:9781015729476"
+            ],
+            "title": "Los Tres Mosqueteros",
+            "weight": "0.627",
+            "full_title": "Los Tres Mosqueteros",
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL46221211M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-01-17T15:41:57.964565"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-20T10:52:34.906999"
+            }
+        },
+        "/books/OL42239883M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "isbn_13": [
+                "9798682867592"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "pagination": "483",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798682867592"
+            ],
+            "title": "Los Tres Mosqueteros",
+            "weight": "0.809",
+            "full_title": "Los Tres Mosqueteros",
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL42239883M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-01T00:20:34.366023"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-20T11:28:21.254140"
+            }
+        },
+        "/books/OL39772823M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "isbn_13": [
+                "9780353720367"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "pagination": "452",
+            "publish_date": "2019",
+            "publishers": [
+                "Creative Media Partners, LLC"
+            ],
+            "source_records": [
+                "bwb:9780353720367"
+            ],
+            "title": "Los Tres Mosqueteros",
+            "weight": "0.809",
+            "full_title": "Los Tres Mosqueteros",
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL39772823M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-09-19T12:03:18.364351"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-02-05T00:54:18.403605"
+            }
+        },
+        "/books/OL13126152M": {
+            "identifiers": {
+                "goodreads": [
+                    "58809"
+                ]
+            },
+            "title": "Los M.P.B.Tres Mosqueteros",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "publish_date": "April 1996",
+            "publishers": [
+                "Diana/Mexico"
+            ],
+            "physical_format": "Hardcover",
+            "isbn_13": [
+                "9789688901250"
+            ],
+            "covers": [
+                -1
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "isbn_10": [
+                "9688901253"
+            ],
+            "subjects": [
+                "Spanish: Grades 2-3"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:9688901253"
+            ],
+            "key": "/books/OL13126152M",
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "latest_revision": 15,
+            "revision": 15,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-03T14:04:25.121453"
+            }
+        },
+        "/books/OL9601519M": {
+            "publishers": [
+                "Everest De Ediciones Y Distribucion"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "4387646"
+                ]
+            },
+            "weight": "1.8 pounds",
+            "covers": [
+                4993171
+            ],
+            "physical_format": "Hardcover",
+            "key": "/books/OL9601519M",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "subjects": [
+                "Spanish: Adult Nonfiction"
+            ],
+            "source_records": [
+                "amazon:8439209282:2-bc:942331102:172026"
+            ],
+            "title": "Los Tres Mosqueteros",
+            "isbn_13": [
+                "9788439209287"
+            ],
+            "isbn_10": [
+                "8439209282"
+            ],
+            "publish_date": "June 2000",
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9.5 x 6.5 x 0.8 inches",
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-20T10:52:34.906999"
+            }
+        },
+        "/books/OL9570347M": {
+            "publishers": [
+                "Lake Publishing Company (CA)"
+            ],
+            "number_of_pages": 64,
+            "source_records": [
+                "amazon:1561037680:2-bb:2227336287:218449"
+            ],
+            "title": "Los Tres Mosqueteros",
+            "isbn_10": [
+                "1561037680"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {
+                "goodreads": [
+                    "6013705"
+                ]
+            },
+            "isbn_13": [
+                "9781561037681"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "December 1994",
+            "key": "/books/OL9570347M",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "subjects": [
+                "Adult & Continuing Education",
+                "Education / Teaching"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "physical_format": "Paperback",
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-20T10:52:34.906999"
+            }
+        },
+        "/books/OL22977432M": {
+            "publishers": [
+                "Ediciones Gaviota"
+            ],
+            "number_of_pages": 388,
+            "isbn_10": [
+                "8439282192"
+            ],
+            "series": [
+                "Clásicos jóvenes Gaviota -- 29"
+            ],
+            "pagination": "388 p., [6] leaves of col. plates :",
+            "key": "/books/OL22977432M",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "publish_places": [
+                "Madrid"
+            ],
+            "genres": [
+                "Fiction.",
+                "Ficción."
+            ],
+            "title": "Los tres mosqueteros",
+            "work_titles": [
+                "Trois mousquetaires."
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "\"Versión íntegra no adaptada ni abreviada\"--T.p. verso.\n\nTranslation of: Les trois mousquetaires."
+            },
+            "identifiers": {
+                "goodreads": [
+                    "2874352"
+                ],
+                "librarything": [
+                    "3745066"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "subjects": [
+                "France -- History -- Louis XIII, 1610-1643 -- Fiction.",
+                "France -- Historia -- Luis XIII, 1610-1643 -- Ficción."
+            ],
+            "publish_date": "1984",
+            "publish_country": "sp ",
+            "by_statement": "Alejandro Dumas.",
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-02-17T18:43:08.668101"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-19T15:44:24.974757"
+            }
+        },
+        "/books/OL8965198M": {
+            "identifiers": {
+                "goodreads": [
+                    "1187686"
+                ]
+            },
+            "title": "The Three Musketeers (Large Print)",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "publish_date": "May 15, 2006",
+            "publishers": [
+                "Echo Library"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "physical_format": "Paperback",
+            "weight": "3.9 pounds",
+            "isbn_10": [
+                "1847027032"
+            ],
+            "isbn_13": [
+                "9781847027030"
+            ],
+            "covers": [
+                2039703
+            ],
+            "edition_name": "Largeprint edition",
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "General & Literary Fiction",
+                "Fiction",
+                "Fiction - General",
+                "General",
+                "Fiction / General"
+            ],
+            "physical_dimensions": "11 x 8 x 1.8 inches",
+            "source_records": [
+                "amazon:1847027032"
+            ],
+            "key": "/books/OL8965198M",
+            "number_of_pages": 796,
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "latest_revision": 15,
+            "revision": 15,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-02-02T05:43:51.589607"
+            }
+        },
+        "/books/OL7931316M": {
+            "identifiers": {
+                "goodreads": [
+                    "76991"
+                ]
+            },
+            "title": "The Three Musketeers (Classic Series)",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "publish_date": "June 1979",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Airmont Pub Co"
+            ],
+            "isbn_13": [
+                "9780804901277"
+            ],
+            "physical_format": "Paperback",
+            "isbn_10": [
+                "0804901279"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Children: Babies & Toddlers"
+            ],
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "ON THE FIRST Monday of April, 1625, the market town of Meung, in which the author of the Romance of the Rose was born, seemed to be in as much of a state of revolution as if the Huguenots had just turned it into a second La Rochelle."
+            },
+            "source_records": [
+                "amazon:0804901279"
+            ],
+            "key": "/books/OL7931316M",
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "latest_revision": 21,
+            "revision": 21,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-08T11:26:37.002681"
+            }
+        },
+        "/books/OL11229382M": {
+            "identifiers": {
+                "goodreads": [
+                    "3124170"
+                ]
+            },
+            "title": "Los Tres Mosqueteros (Original Title the Three Musketeers)",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "publish_date": "June 1974",
+            "publishers": [
+                "Pendulum Pr"
+            ],
+            "physical_format": "Paperback",
+            "isbn_13": [
+                "9780883014684"
+            ],
+            "isbn_10": [
+                "0883014688"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:0883014688"
+            ],
+            "key": "/books/OL11229382M",
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "latest_revision": 21,
+            "revision": 21,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-04-16T21:32:27.998930"
+            }
+        },
+        "/books/OL13077568M": {
+            "identifiers": {
+                "goodreads": [
+                    "926097"
+                ]
+            },
+            "title": "The Three Musketeers (Naxos Audio)",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "publish_date": "September 2001",
+            "publishers": [
+                "Naxos AudioBooks,Hong Kong"
+            ],
+            "physical_format": "Audio CD",
+            "weight": "14.9 ounces",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9789626342343"
+            ],
+            "isbn_10": [
+                "962634234X"
+            ],
+            "contributions": [
+                "Bill Homewood (Narrator)"
+            ],
+            "subjects": [
+                "19th century fiction",
+                "Classic fiction",
+                "Literature: Classics"
+            ],
+            "physical_dimensions": "5.7 x 4.8 x 1.4 inches",
+            "source_records": [
+                "amazon:962634234X"
+            ],
+            "key": "/books/OL13077568M",
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-17T03:18:32.954178"
+            }
+        },
+        "/books/OL49213596M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B000X77SOG"
+                ],
+                "better_world_books": [
+                    "BWB20619814"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:W8-BEF-627"
+            ],
+            "publish_date": "1966-01-01",
+            "publishers": [
+                "AIRMONT PUBLISHING CO INC"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-07-26:W8-BEF-627"
+            ],
+            "title": "Three Musketeers",
+            "full_title": "Three Musketeers",
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "key": "/books/OL49213596M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-07-28T01:05:05.900057"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-20T10:52:34.906999"
+            }
+        }
+    }
+}

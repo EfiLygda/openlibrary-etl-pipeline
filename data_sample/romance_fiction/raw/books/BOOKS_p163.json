@@ -1,0 +1,5221 @@
+{
+    "status": "ok",
+    "result": {
+        "/books/OL33540600M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "The Scarlet Letter",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "Aug 23, 2018",
+            "source_records": [
+                "amazon:1725698501",
+                "bwb:9781725698505"
+            ],
+            "number_of_pages": 394,
+            "publishers": [
+                "Createspace Independent Publishing Platform",
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "isbn_10": [
+                "1725698501"
+            ],
+            "isbn_13": [
+                "9781725698505"
+            ],
+            "physical_format": "paperback",
+            "full_title": "The Scarlet Letter",
+            "covers": [
+                11979028
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "key": "/books/OL33540600M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-09-18T23:18:38.974345"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-10-09T09:19:07.883032"
+            }
+        },
+        "/books/OL34062357M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "The Scarlet Letter",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                },
+                {
+                    "key": "/authors/OL9103220A"
+                }
+            ],
+            "publish_date": "Sep 30, 2019",
+            "source_records": [
+                "amazon:1696499607",
+                "bwb:9781696499606"
+            ],
+            "number_of_pages": 396,
+            "publishers": [
+                "Independently Published",
+                "Independently published"
+            ],
+            "isbn_10": [
+                "1696499607"
+            ],
+            "isbn_13": [
+                "9781696499606"
+            ],
+            "physical_format": "paperback",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: The Scarlet Letter (Modern Edition)"
+            },
+            "full_title": "The Scarlet Letter",
+            "covers": [
+                12022054
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "key": "/books/OL34062357M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-09-30T00:02:08.690257"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-11-26T09:04:49.507655"
+            }
+        },
+        "/books/OL34133091M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "isbn_13": [
+                "9780674270633"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lc_classifications": [
+                "PS1868"
+            ],
+            "number_of_pages": 336,
+            "publish_date": "2009",
+            "publishers": [
+                "Harvard University Press"
+            ],
+            "source_records": [
+                "bwb:9780674270633"
+            ],
+            "title": "Scarlet Letter",
+            "full_title": "Scarlet Letter",
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "key": "/books/OL34133091M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-09-30T12:39:08.353205"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-10-06T14:23:34.926207"
+            }
+        },
+        "/books/OL33087188M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "2014",
+            "publish_country": "enk",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "oclc_numbers": [
+                "1034012527"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Originally published in 1850, this book is considered one of America's greatest novels.\n\n\"This edition also includes a discussion of the novel by D.H. Lawrence.\"--Back cover"
+            },
+            "subject_places": [
+                "Boston (Mass.)",
+                "Massachusetts",
+                "Boston"
+            ],
+            "subjects": [
+                "Fiction",
+                "History",
+                "Triangles (Interpersonal relations)",
+                "Illegitimate children",
+                "Married women",
+                "Puritans",
+                "Adultery",
+                "Revenge",
+                "Clergy"
+            ],
+            "subject_times": [
+                "Colonial period, ca. 1600-1775"
+            ],
+            "title": "The scarlet letter",
+            "by_statement": "by Nathaniel Hawthorne ; [with an afterword by D.H. Lawrence]",
+            "publishers": [
+                "Solis Press"
+            ],
+            "publish_places": [
+                "England"
+            ],
+            "isbn_10": [
+                "1907947965"
+            ],
+            "isbn_13": [
+                "9781907947964"
+            ],
+            "pagination": "214 pages",
+            "number_of_pages": 214,
+            "ocaid": "scarletletter0000hawt_w8p3",
+            "source_records": [
+                "ia:scarletletter0000hawt_w8p3",
+                "promise:bwb_daily_pallets_2021-05-05"
+            ],
+            "full_title": "The scarlet letter",
+            "covers": [
+                11788575
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "key": "/books/OL33087188M",
+            "local_id": [
+                "urn:bwbsku:O5-RHF-396"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-08-25T04:32:03.886669"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-14T20:48:33.337278"
+            }
+        },
+        "/books/OL32333378M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "The Scarlet Letter",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "Oct 16, 2018",
+            "source_records": [
+                "amazon:0343535238"
+            ],
+            "number_of_pages": 320,
+            "publishers": [
+                "Franklin Classics"
+            ],
+            "isbn_10": [
+                "0343535238"
+            ],
+            "isbn_13": [
+                "9780343535230"
+            ],
+            "physical_format": "hardcover",
+            "full_title": "The Scarlet Letter By Nathaniel Hawthorne",
+            "subtitle": "By Nathaniel Hawthorne",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: The Scarlet Letter: By Nathaniel Hawthorne"
+            },
+            "covers": [
+                10955686
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "key": "/books/OL32333378M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-05-06T22:13:57.734373"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-10-06T14:23:34.926207"
+            }
+        },
+        "/books/OL32342703M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "The Scarlet Letter",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "Mar 05, 2019",
+            "source_records": [
+                "amazon:0008338507"
+            ],
+            "number_of_pages": 1,
+            "publishers": [
+                "HarperCollins UK and Blackstone Publishing",
+                "Harperfiction"
+            ],
+            "isbn_10": [
+                "0008338507"
+            ],
+            "isbn_13": [
+                "9780008338503"
+            ],
+            "physical_format": "audio cd",
+            "full_title": "The Scarlet Letter",
+            "covers": [
+                10963949
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "key": "/books/OL32342703M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-05-07T22:51:22.172045"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-10-06T14:23:34.926207"
+            }
+        },
+        "/books/OL32019394M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "The Scarlet Letter",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "Jul 14, 2012",
+            "source_records": [
+                "amazon:1451005180"
+            ],
+            "number_of_pages": 634,
+            "publishers": [
+                "Forgotten Books"
+            ],
+            "isbn_10": [
+                "1451005180"
+            ],
+            "isbn_13": [
+                "9781451005189"
+            ],
+            "physical_format": "paperback",
+            "full_title": "The Scarlet Letter The House of the Seven Gables, a Romance, Vol. 2",
+            "subtitle": "The House of the Seven Gables, a Romance, Vol. 2",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: The Scarlet Letter: The House of the Seven Gables, a Romance, Vol. 2 (Classic Reprint)"
+            },
+            "covers": [
+                10685707
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "key": "/books/OL32019394M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-03-08T16:58:25.124510"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-10-06T14:23:34.926207"
+            }
+        },
+        "/books/OL32177326M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "The Scarlet Letter",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "Sep 06, 2016",
+            "source_records": [
+                "amazon:0007350929",
+                "bwb:9780007350926",
+                "ia:scarletletterrom0000hawt_e2m7",
+                "ia:scarletletterrom0000hawt_y8i6",
+                "ia:lccn_060806206",
+                "ia:scarletletterrom0000hawt_y9d9"
+            ],
+            "number_of_pages": 336,
+            "publishers": [
+                "William Collins"
+            ],
+            "isbn_10": [
+                "0007350929"
+            ],
+            "isbn_13": [
+                "9780007350926"
+            ],
+            "physical_format": "mass market paperback",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: The Scarlet Letter (Collins Classics)"
+            },
+            "full_title": "The Scarlet Letter",
+            "covers": [
+                10834783
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "key": "/books/OL32177326M",
+            "lc_classifications": [
+                "PS1850",
+                "PS1868 .A1 2016eb"
+            ],
+            "ocaid": "scarletletterrom0000hawt_e2m7",
+            "oclc_numbers": [
+                "1021390645"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-04-06T14:11:09.464893"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-10-20T11:52:07.234225"
+            }
+        },
+        "/books/OL32250795M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "The Scarlet Letter",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "Oct 16, 2018",
+            "source_records": [
+                "amazon:034353522X"
+            ],
+            "number_of_pages": 320,
+            "publishers": [
+                "Franklin Classics"
+            ],
+            "isbn_10": [
+                "034353522X"
+            ],
+            "isbn_13": [
+                "9780343535223"
+            ],
+            "physical_format": "paperback",
+            "full_title": "The Scarlet Letter By Nathaniel Hawthorne",
+            "subtitle": "By Nathaniel Hawthorne",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: The Scarlet Letter: By Nathaniel Hawthorne"
+            },
+            "covers": [
+                10880847
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "key": "/books/OL32250795M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-04-28T18:35:10.290396"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-10-06T14:23:34.926207"
+            }
+        },
+        "/books/OL32800143M": {
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "title": "The Scarlet Letter",
+            "publishers": [
+                "Dalmatian Press Classics"
+            ],
+            "publish_date": "2011",
+            "key": "/books/OL32800143M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {
+                "amazon": [
+                    "B009CCLEKC"
+                ]
+            },
+            "isbn_13": [
+                "9781453053140"
+            ],
+            "ocaid": "scarletletterrom0000hawt_r6f1",
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "covers": [
+                11432860
+            ],
+            "local_id": [
+                "urn:bwbsku:O5-MJC-420",
+                "urn:bwbsku:W2-BVO-623"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-04-01",
+                "promise:bwb_daily_pallets_2021-01-26"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-07-15T12:43:02.477742"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-15T06:10:34.738752"
+            }
+        },
+        "/books/OL32768217M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "2011",
+            "publish_country": "nyu",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "oclc_numbers": [
+                "890803680"
+            ],
+            "lc_classifications": [
+                "PS1868.A2"
+            ],
+            "dewey_decimal_class": [
+                "813.3"
+            ],
+            "edition_name": "[Unabridged and annotated ed.].",
+            "series": [
+                "Dalmatian Press Classics"
+            ],
+            "subjects": [
+                "Fiction",
+                "History",
+                "Triangles (Interpersonal relations)",
+                "Illegitimate children",
+                "Married women",
+                "Puritans",
+                "Adultery",
+                "Revenge",
+                "Clergy"
+            ],
+            "subject_places": [
+                "Boston (Mass.)",
+                "Massachusetts",
+                "Boston"
+            ],
+            "subject_times": [
+                "Colonial period, ca. 1600-1775"
+            ],
+            "title": "The scarlet letter",
+            "subtitle": "a romance",
+            "by_statement": "Nathaniel Hawthorne",
+            "publishers": [
+                "Dalmatian Press"
+            ],
+            "publish_places": [
+                "Franklin, TN"
+            ],
+            "isbn_13": [
+                "9781453053140"
+            ],
+            "isbn_10": [
+                "145305314X"
+            ],
+            "pagination": "ix, 261 pages",
+            "number_of_pages": 261,
+            "ocaid": "scarletletterrom0000hawt_j6n6",
+            "source_records": [
+                "ia:scarletletterrom0000hawt_j6n6",
+                "ia:scarletletterrom0000hawt_r6f1"
+            ],
+            "full_title": "The scarlet letter a romance",
+            "covers": [
+                11396586
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "key": "/books/OL32768217M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-07-09T12:58:55.144438"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-07-15T12:03:19.272040"
+            }
+        },
+        "/books/OL32488921M": {
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "title": "The Scarlet Letter",
+            "publishers": [
+                "Benediction Classics"
+            ],
+            "publish_date": "2016",
+            "key": "/books/OL32488921M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                11143388
+            ],
+            "ocaid": "scarletletterrom0000hawt_t0l4",
+            "isbn_13": [
+                "9781781396780"
+            ],
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "bwb:9781781396780",
+                "promise:bwb_daily_pallets_2020-12-04"
+            ],
+            "local_id": [
+                "urn:bwbsku:O5-QSQ-079"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-05-22T07:42:33.069612"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-15T11:45:26.441919"
+            }
+        },
+        "/books/OL32488733M": {
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "title": "The Scarlet Letter",
+            "publishers": [
+                "EMC/Paradigm Publishing"
+            ],
+            "publish_date": "1998",
+            "key": "/books/OL32488733M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                11143239
+            ],
+            "ocaid": "scarletletter0000hawt_i1u3",
+            "isbn_10": [
+                "0821916173"
+            ],
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-05-22T06:34:58.786970"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-22T06:35:26.885176"
+            }
+        },
+        "/books/OL32482502M": {
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "title": "The Scarlet Letter",
+            "publishers": [
+                "Project Gutenberg"
+            ],
+            "publish_date": "1992-06-01",
+            "key": "/books/OL32482502M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {
+                "project_gutenberg": [
+                    "33"
+                ]
+            },
+            "covers": [
+                11137685
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "ocaid": "thescarletletter00033gut",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T10:03:31.764884"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-10T08:53:27.127400"
+            }
+        },
+        "/books/OL30356906M": {
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798635002131"
+            ],
+            "title": "Scarlet Letter Annotated Version",
+            "number_of_pages": 305,
+            "isbn_13": [
+                "9798635002131"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL30356906M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-18T04:38:51.730981"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:31:39.134374"
+            }
+        },
+        "/books/OL30351084M": {
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798649344357"
+            ],
+            "title": "Scarlet Letter Illustrated",
+            "number_of_pages": 296,
+            "isbn_13": [
+                "9798649344357"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Scarlet Letter Illustrated",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL30351084M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-18T03:18:34.142660"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:31:39.134374"
+            }
+        },
+        "/books/OL30293293M": {
+            "publishers": [
+                "HardPress",
+                "HardPess Publishing",
+                "HardPress Limited"
+            ],
+            "subtitle": "A Romance",
+            "source_records": [
+                "bwb:9780461840339",
+                "amazon:0461840332"
+            ],
+            "title": "Scarlet Letter",
+            "number_of_pages": 334,
+            "isbn_13": [
+                "9780461840339"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Scarlet Letter A Romance",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL30293293M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                13711671
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-17T12:57:57.857027"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-03-20T15:32:56.833884"
+            }
+        },
+        "/books/OL30254159M": {
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798638876906"
+            ],
+            "title": "Scarlet Letter Annotated Classic Literature",
+            "number_of_pages": 239,
+            "isbn_13": [
+                "9798638876906"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL30254159M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-17T04:09:45.369334"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:31:39.134374"
+            }
+        },
+        "/books/OL30248798M": {
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798638876944"
+            ],
+            "title": "Scarlet Letter Annotated",
+            "number_of_pages": 239,
+            "isbn_13": [
+                "9798638876944"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Scarlet Letter Annotated",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL30248798M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-17T02:58:17.270128"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:31:39.134374"
+            }
+        },
+        "/books/OL30055286M": {
+            "publishers": [
+                "Independently Published"
+            ],
+            "subtitle": "the Annotated Edition",
+            "source_records": [
+                "bwb:9798621734152"
+            ],
+            "title": "Scarlet Letter",
+            "number_of_pages": 315,
+            "isbn_13": [
+                "9798621734152"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Scarlet Letter the Annotated Edition",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL30055286M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-02T22:43:21.252512"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:31:39.134374"
+            }
+        },
+        "/books/OL30220818M": {
+            "publishers": [
+                "Independently Published"
+            ],
+            "subtitle": "a Romantic Novel Annotated",
+            "source_records": [
+                "bwb:9798649856751"
+            ],
+            "title": "Scarlet Letter",
+            "number_of_pages": 235,
+            "isbn_13": [
+                "9798649856751"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Scarlet Letter a Romantic Novel Annotated",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL30220818M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-16T21:16:31.041821"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:31:39.134374"
+            }
+        },
+        "/books/OL30234312M": {
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798621867652"
+            ],
+            "title": "Scarlet Letter",
+            "number_of_pages": 169,
+            "isbn_13": [
+                "9798621867652"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Scarlet Letter",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL30234312M",
+            "authors": [
+                {
+                    "key": "/authors/OL8483926A"
+                },
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-17T00:18:54.986603"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:31:39.134374"
+            }
+        },
+        "/books/OL30260462M": {
+            "publishers": [
+                "Independently Published"
+            ],
+            "subtitle": "a Classical Novel Annotated",
+            "source_records": [
+                "bwb:9798652847272"
+            ],
+            "title": "Scarlet Letter",
+            "number_of_pages": 235,
+            "isbn_13": [
+                "9798652847272"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Scarlet Letter a Classical Novel Annotated",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL30260462M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-17T05:32:29.631211"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:31:39.134374"
+            }
+        },
+        "/books/OL30015983M": {
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798612707370"
+            ],
+            "title": "Scarlet Letter Annotated Kindle Edition",
+            "number_of_pages": 315,
+            "isbn_13": [
+                "9798612707370"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL30015983M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-02T13:52:00.317256"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:31:39.134374"
+            }
+        },
+        "/books/OL29979846M": {
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798618661072"
+            ],
+            "title": "Scarlet Letter (Annotated and Illustrated)",
+            "number_of_pages": 315,
+            "isbn_13": [
+                "9798618661072"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Scarlet Letter (Annotated and Illustrated)",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL29979846M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-02T06:25:23.338556"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:31:39.134374"
+            }
+        },
+        "/books/OL29908985M": {
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798637323630"
+            ],
+            "title": "Scarlet Letter Latest Illustrated Edition",
+            "number_of_pages": 315,
+            "isbn_13": [
+                "9798637323630"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL29908985M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-01T14:06:46.936149"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:31:39.134374"
+            }
+        },
+        "/books/OL29876415M": {
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9781656494153"
+            ],
+            "title": "Scarlet Letter Illustrated",
+            "number_of_pages": 296,
+            "isbn_13": [
+                "9781656494153"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL29876415M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-01T06:33:42.759255"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:31:39.134374"
+            }
+        },
+        "/books/OL29673156M": {
+            "publishers": [
+                "Houghton Mifflin Harcourt Publishing Company"
+            ],
+            "source_records": [
+                "bwb:9780544179240"
+            ],
+            "title": "CliffsComplete the Scarlet Letter",
+            "number_of_pages": 240,
+            "isbn_13": [
+                "9780544179240"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2004",
+            "key": "/books/OL29673156M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                },
+                {
+                    "key": "/authors/OL8329724A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-29T17:40:54.019132"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:31:39.134374"
+            }
+        },
+        "/books/OL29470718M": {
+            "publishers": [
+                "Legend Press"
+            ],
+            "source_records": [
+                "bwb:9781789559682"
+            ],
+            "title": "Scarlet Letter (Legend Classics)",
+            "number_of_pages": 288,
+            "isbn_13": [
+                "9781789559682"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Scarlet Letter (Legend Classics)",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL29470718M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-26T05:05:29.101896"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:31:39.134374"
+            }
+        },
+        "/books/OL29470736M": {
+            "publishers": [
+                "Legend Press"
+            ],
+            "source_records": [
+                "bwb:9781789559699"
+            ],
+            "title": "Scarlet Letter (Legend Classics)",
+            "number_of_pages": 288,
+            "isbn_13": [
+                "9781789559699"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Scarlet Letter (Legend Classics)",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL29470736M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-26T05:05:43.156417"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:31:39.134374"
+            }
+        },
+        "/books/OL29427020M": {
+            "publishers": [
+                "HarperCollins Publishers Limited"
+            ],
+            "source_records": [
+                "bwb:9780008296520",
+                "amazon:0008296529"
+            ],
+            "title": "Scarlet Letter (Collins Classics)",
+            "number_of_pages": 300,
+            "isbn_13": [
+                "9780008296520"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Scarlet Letter (Collins Classics)",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2018",
+            "key": "/books/OL29427020M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-25T18:22:26.987636"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-03T21:57:12.023602"
+            }
+        },
+        "/books/OL33981689M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                },
+                {
+                    "key": "/authors/OL1212992A"
+                },
+                {
+                    "key": "/authors/OL578910A"
+                }
+            ],
+            "isbn_13": [
+                "9780191537745"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lc_classifications": [
+                "PS1868.A2H285 2007"
+            ],
+            "publish_date": "2007",
+            "publishers": [
+                "Ebsco Publishing"
+            ],
+            "source_records": [
+                "bwb:9780191537745"
+            ],
+            "subjects": [
+                "Boston (mass.), fiction",
+                "Clergy, fiction",
+                "Man-woman relationships, fiction",
+                "Married people, fiction",
+                "Prynne, hester (fictitious character), fiction",
+                "American fiction (fictional works by one author)",
+                "Fiction, psychological"
+            ],
+            "title": "Scarlet Letter",
+            "full_title": "Scarlet Letter",
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "key": "/books/OL33981689M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-09-29T06:42:45.966914"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-10-06T14:23:34.926207"
+            }
+        },
+        "/books/OL32491692M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "The Scarlet Letter",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "Jul 01, 2011",
+            "source_records": [
+                "amazon:1435131819",
+                "bwb:9781435131811"
+            ],
+            "number_of_pages": 240,
+            "publishers": [
+                "Barnes & Noble"
+            ],
+            "isbn_10": [
+                "1435131819"
+            ],
+            "isbn_13": [
+                "9781435131811"
+            ],
+            "physical_format": "hardcover",
+            "full_title": "The Scarlet Letter",
+            "covers": [
+                11145882
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "key": "/books/OL32491692M",
+            "lc_classifications": [
+                "PS1868.A2"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-05-22T17:49:37.768491"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-10-06T14:23:34.926207"
+            }
+        },
+        "/books/OL32497967M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "The Scarlet Letter",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "Apr 08, 2019",
+            "source_records": [
+                "amazon:1093188235",
+                "bwb:9781093188233"
+            ],
+            "number_of_pages": 179,
+            "publishers": [
+                "Independently published",
+                "Independently Published"
+            ],
+            "isbn_10": [
+                "1093188235"
+            ],
+            "isbn_13": [
+                "9781093188233"
+            ],
+            "physical_format": "paperback",
+            "full_title": "The Scarlet Letter",
+            "covers": [
+                11151352
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "key": "/books/OL32497967M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-05-23T17:22:56.154917"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-10-09T08:45:29.911202"
+            }
+        },
+        "/books/OL32527247M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "The Scarlet Letter",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "Nov 13, 2018",
+            "source_records": [
+                "amazon:0353567604"
+            ],
+            "number_of_pages": 320,
+            "publishers": [
+                "Franklin Classics Trade Press"
+            ],
+            "isbn_10": [
+                "0353567604"
+            ],
+            "isbn_13": [
+                "9780353567603"
+            ],
+            "physical_format": "paperback",
+            "full_title": "The Scarlet Letter By Nathaniel Hawthorne",
+            "subtitle": "By Nathaniel Hawthorne",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: The Scarlet Letter: By Nathaniel Hawthorne"
+            },
+            "covers": [
+                11177586
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "key": "/books/OL32527247M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-05-28T16:35:19.782587"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-10-06T14:23:34.926207"
+            }
+        },
+        "/books/OL32585203M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "The Scarlet Letter",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "Dec 07, 2015",
+            "source_records": [
+                "amazon:151973428X",
+                "bwb:9781519734280"
+            ],
+            "number_of_pages": 308,
+            "publishers": [
+                "Createspace Independent Publishing Platform",
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "isbn_10": [
+                "151973428X"
+            ],
+            "isbn_13": [
+                "9781519734280"
+            ],
+            "physical_format": "paperback",
+            "full_title": "The Scarlet Letter",
+            "covers": [
+                11225521
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "key": "/books/OL32585203M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-06-07T00:08:05.266142"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-10-09T00:37:08.997366"
+            }
+        },
+        "/books/OL32306046M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "The Scarlet Letter",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "Oct 14, 2018",
+            "source_records": [
+                "amazon:0342945122"
+            ],
+            "number_of_pages": 364,
+            "publishers": [
+                "Franklin Classics"
+            ],
+            "isbn_10": [
+                "0342945122"
+            ],
+            "isbn_13": [
+                "9780342945122"
+            ],
+            "physical_format": "paperback",
+            "full_title": "The Scarlet Letter A Romance",
+            "subtitle": "A Romance",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: The Scarlet Letter: A Romance"
+            },
+            "covers": [
+                10930858
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "key": "/books/OL32306046M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-05-04T03:30:26.987826"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-10-06T14:23:34.926207"
+            }
+        },
+        "/books/OL31902637M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "The Scarlet Letter",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "Mar 05, 2019",
+            "source_records": [
+                "amazon:000834678X"
+            ],
+            "number_of_pages": 1,
+            "publishers": [
+                "Harperfiction",
+                "HarperCollins UK and Blackstone Audio"
+            ],
+            "isbn_10": [
+                "000834678X"
+            ],
+            "isbn_13": [
+                "9780008346782"
+            ],
+            "physical_format": "mp3 cd",
+            "full_title": "The Scarlet Letter",
+            "covers": [
+                10585526
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "key": "/books/OL31902637M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-01-29T20:31:13.023370"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-10-06T14:23:34.926207"
+            }
+        },
+        "/books/OL32180589M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "The Scarlet Letter",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "May 18, 2018",
+            "source_records": [
+                "amazon:1719374856",
+                "bwb:9781719374859",
+                "promise:bwb_daily_pallets_2023-02-23:P8-CXA-039"
+            ],
+            "number_of_pages": 110,
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "isbn_10": [
+                "1719374856"
+            ],
+            "isbn_13": [
+                "9781719374859"
+            ],
+            "physical_format": "paperback",
+            "full_title": "The Scarlet Letter",
+            "covers": [
+                10836702
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "key": "/books/OL32180589M",
+            "local_id": [
+                "urn:bwbsku:P8-CXA-039"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-04-07T12:17:54.519647"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-27T19:45:11.347866"
+            }
+        },
+        "/books/OL32264380M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "The Scarlet Letter",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "Oct 27, 2018",
+            "source_records": [
+                "amazon:0344330575"
+            ],
+            "number_of_pages": 368,
+            "publishers": [
+                "Franklin Classics Trade Press"
+            ],
+            "isbn_10": [
+                "0344330575"
+            ],
+            "isbn_13": [
+                "9780344330575"
+            ],
+            "physical_format": "hardcover",
+            "full_title": "The Scarlet Letter A Romance",
+            "subtitle": "A Romance",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: The Scarlet Letter: A Romance"
+            },
+            "covers": [
+                10893017
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "key": "/books/OL32264380M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-04-30T06:40:21.142985"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-10-06T14:23:34.926207"
+            }
+        },
+        "/books/OL32752811M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "The Scarlet Letter",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "Apr 04, 1850",
+            "source_records": [
+                "amazon:1640320210",
+                "bwb:9781640320215"
+            ],
+            "number_of_pages": 106,
+            "publishers": [
+                "Chump Change"
+            ],
+            "isbn_10": [
+                "1640320210"
+            ],
+            "isbn_13": [
+                "9781640320215"
+            ],
+            "physical_format": "paperback",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: The Scarlet Letter (Chump Change Edition)"
+            },
+            "full_title": "The Scarlet Letter",
+            "covers": [
+                11379082
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "key": "/books/OL32752811M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-07-07T15:16:14.341342"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-10-09T03:35:58.575096"
+            }
+        },
+        "/books/OL32488797M": {
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "title": "The Scarlet Letter",
+            "publishers": [
+                "Harper & Row Publishers"
+            ],
+            "publish_date": "1968",
+            "key": "/books/OL32488797M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                11143304
+            ],
+            "ocaid": "scarletletterrom0000hawt_z1z5",
+            "isbn_10": [
+                "0060806206"
+            ],
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "bwb:9780060806200",
+                "promise:bwb_daily_pallets_2020-10-07"
+            ],
+            "local_id": [
+                "urn:bwbsku:O6-ECE-110"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-05-22T07:09:56.364533"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-09T22:40:57.636906"
+            }
+        },
+        "/books/OL32488534M": {
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "title": "The Scarlet Letter",
+            "publishers": [
+                "Amazon Classics"
+            ],
+            "publish_date": "2017?",
+            "key": "/books/OL32488534M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                11143071
+            ],
+            "ocaid": "scarletletter0000hawt_k8h8",
+            "isbn_13": [
+                "9781542046169"
+            ],
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "bwb:9781542046169"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-05-22T05:33:48.618410"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-05-26T05:06:45.325424"
+            }
+        },
+        "/books/OL31098775M": {
+            "publishers": [
+                "International Authors"
+            ],
+            "full_title": "The scarlet letter",
+            "key": "/books/OL31098775M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_places": [
+                "Brookline, Massachusetts"
+            ],
+            "contributions": [
+                "Kaplan, Carter, 1960-"
+            ],
+            "pagination": "326 pages",
+            "source_records": [
+                "marc:marc_loc_2016/BooksAll.2016.part40.utf8:178656250:1177"
+            ],
+            "title": "The scarlet letter",
+            "number_of_pages": 326,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subject_places": [
+                "Boston (Mass.)"
+            ],
+            "subjects": [
+                "Fiction",
+                "History",
+                "Triangles (Interpersonal relations)",
+                "Illegitimate children",
+                "Women immigrants",
+                "Married women",
+                "Puritans",
+                "Adultery",
+                "Revenge",
+                "Clergy"
+            ],
+            "publish_date": "2012",
+            "publish_country": "mau",
+            "by_statement": "by Nathaniel Hawthorne ; afterword by Carter Kaplan",
+            "subject_times": [
+                "Colonial period, ca. 1600-1775"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_13": [
+                "9780615614175"
+            ],
+            "lccn": [
+                "2012935060"
+            ],
+            "classifications": {},
+            "dewey_decimal_class": [
+                "813/.3"
+            ],
+            "lc_classifications": [
+                "PS1868.A2 K37 2013"
+            ],
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-11-13T15:07:23.107153"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-22T05:26:49.699966"
+            }
+        },
+        "/books/OL31598896M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "2003",
+            "publish_country": "flu",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "series": [
+                "Literary classics"
+            ],
+            "subject_places": [
+                "Boston (Mass.)"
+            ],
+            "subject_times": [
+                "Colonial period, ca. 1600-1775"
+            ],
+            "subjects": [
+                "Fiction",
+                "History",
+                "Triangles (Interpersonal relations)",
+                "Illegitimate children",
+                "Women immigrants",
+                "Puritans",
+                "Adultery"
+            ],
+            "title": "The scarlet letter",
+            "by_statement": "Nathaniel Hawthorne",
+            "publishers": [
+                "Beka Book"
+            ],
+            "publish_places": [
+                "Pensacola, FL"
+            ],
+            "pagination": "xi, 316 p.",
+            "number_of_pages": 316,
+            "source_records": [
+                "marc:marc_loc_2016/BooksAll.2016.part31.utf8:212268609:918"
+            ],
+            "full_title": "The scarlet letter",
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "key": "/books/OL31598896M",
+            "identifiers": {},
+            "lccn": [
+                "2004271889"
+            ],
+            "classifications": {},
+            "dewey_decimal_class": [
+                "813/.3"
+            ],
+            "lc_classifications": [
+                "PS1868.A2 2003"
+            ],
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-12-08T16:28:47.243520"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-22T05:26:21.224709"
+            }
+        },
+        "/books/OL29575063M": {
+            "publishers": [
+                "Tom Doherty Associates"
+            ],
+            "description": "The Puritans thought Hester Prynne's crime was unforgiveable. She was convicted, imprisoned -- and then forced to wear, forever, a public reminder of her sin. The Scarlet Letter. The Letter was unending punishment: it set Hester apart from society, it tormented her days and haunted her soul. But the Letter haunted others, as well. Its mystery turned Roger Chillingworth from a gentle healer into a man driven by revenge. Its meaning burned into Rev. Arthur Dimmesdale's heart, as deadly as a cancer. And its power loomed over the life of Hester's daughter, the uncontrollable child Pearl. Four people would be destroyed by a tangled web of guilt and secrets, unless one of them had the courage -- and love -- to reveal the truth of -- The Scarlet Letter.",
+            "covers": [
+                10400877
+            ],
+            "full_title": "The scarlet letter",
+            "key": "/books/OL29575063M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "subject_times": [
+                "To 1775"
+            ],
+            "edition_name": "First Tor Digest edition.",
+            "pagination": "277 pages",
+            "source_records": [
+                "ia:scarletletter0000hawt_i6u8"
+            ],
+            "title": "The scarlet letter",
+            "number_of_pages": 277,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subject_places": [
+                "New England"
+            ],
+            "subjects": [
+                "Mortal Sin",
+                "Social life and customs",
+                "Hester Prynne (Fictitious character)",
+                "Illegitimacy",
+                "Manners and customs",
+                "Fiction",
+                "Women tailors"
+            ],
+            "publish_date": "2013",
+            "publish_country": "nyu",
+            "by_statement": "Nathaniel Hawthorne",
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "ocaid": "scarletletter0000hawt_i6u8",
+            "isbn_10": [
+                "076535196X"
+            ],
+            "isbn_13": [
+                "9780765351968"
+            ],
+            "oclc_numbers": [
+                "852255557"
+            ],
+            "classifications": {},
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-28T07:57:22.235192"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-22T05:25:29.769947"
+            }
+        },
+        "/books/OL11352435M": {
+            "publishers": [
+                "Ohio State University Press"
+            ],
+            "number_of_pages": 292,
+            "subtitle": "VOL. I, THE SCARLET LETTER (Centenary Edition of the Works of Nathaniel Hawthorne, Vol 1)",
+            "weight": "1.4 pounds",
+            "covers": [
+                2648845,
+                610194
+            ],
+            "physical_format": "Hardcover",
+            "key": "/books/OL11352435M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "subjects": [
+                "Classics",
+                "Literature - Classics / Criticism",
+                "Literature: Classics"
+            ],
+            "source_records": [
+                "amazon:0814200591",
+                "marc:OpenLibraries-Trent-MARCs/tier5.mrc:19914129:694",
+                "ia:scarletletter0001unse",
+                "bwb:9780814200599"
+            ],
+            "title": "CENTENARY ED WORKS NATHANIEL HAWTHO",
+            "identifiers": {
+                "goodreads": [
+                    "124241"
+                ],
+                "librarything": [
+                    "2264"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "local_id": [
+                "urn:trent:0116300229824"
+            ],
+            "publish_date": "February 1, 1963",
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9.2 x 5.9 x 1.2 inches",
+            "ocaid": "scarletletter0001unse",
+            "isbn_10": [
+                "0814200591"
+            ],
+            "isbn_13": [
+                "9780814200599"
+            ],
+            "lccn": [
+                "63000694"
+            ],
+            "classifications": {},
+            "lc_classifications": [
+                "PS1850 .F62 v.1"
+            ],
+            "latest_revision": 14,
+            "revision": 14,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-09-17T02:26:00.390057"
+            }
+        },
+        "/books/OL32485323M": {
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "title": "The Scarlet Letter",
+            "publishers": [
+                "Signet Classic"
+            ],
+            "publish_date": "1959",
+            "key": "/books/OL32485323M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                11140296
+            ],
+            "ocaid": "scarletletter0000unse",
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T17:45:43.246162"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T17:46:03.237440"
+            }
+        },
+        "/books/OL32484812M": {
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "title": "La letra escarlata",
+            "publishers": [
+                "Project Gutenberg"
+            ],
+            "publish_date": "2011-08-06",
+            "key": "/books/OL32484812M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {
+                "project_gutenberg": [
+                    "36990"
+                ]
+            },
+            "covers": [
+                11139815
+            ],
+            "ocaid": "laletraescarlata36990gut",
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T16:31:52.171460"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T16:32:30.104037"
+            }
+        },
+        "/books/OL32482164M": {
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "title": "The Scarlet Letter",
+            "publishers": [
+                "LibriVox"
+            ],
+            "publish_date": "2015-01-06",
+            "key": "/books/OL32482164M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {
+                "librivox": [
+                    "9288"
+                ]
+            },
+            "covers": [
+                11137386
+            ],
+            "ocaid": "scarletletterver2_1501_librivox",
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T09:12:09.102602"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-10-22T23:01:59.595305"
+            }
+        },
+        "/books/OL32482097M": {
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "title": "De Scharlaken Letter",
+            "publishers": [
+                "LibriVox"
+            ],
+            "publish_date": "2014-05-23",
+            "key": "/books/OL32482097M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {
+                "librivox": [
+                    "8781"
+                ]
+            },
+            "covers": [
+                11137319
+            ],
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/dut"
+                }
+            ],
+            "ocaid": "de_scharlaken_letter_1405_librivox",
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T09:00:42.882102"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-10-22T23:02:00.921973"
+            }
+        },
+        "/books/OL32481907M": {
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "title": "The Scarlet Letter",
+            "publishers": [
+                "Ticknor, Reed, and Fields"
+            ],
+            "publish_date": "1850",
+            "key": "/books/OL32481907M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                11137156
+            ],
+            "ocaid": "scarletletterrom01hawt",
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:35:16.349330"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:35:35.668489"
+            }
+        },
+        "/books/OL30336478M": {
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798638876920"
+            ],
+            "title": "Scarlet Letter Annotated Teen and Young Adult Science Fiction",
+            "number_of_pages": 239,
+            "isbn_13": [
+                "9798638876920"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL30336478M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-18T00:19:43.544662"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:31:39.134374"
+            }
+        },
+        "/books/OL30298422M": {
+            "publishers": [
+                "HardPress"
+            ],
+            "source_records": [
+                "bwb:9780461900750"
+            ],
+            "title": "Scarlet Letter",
+            "number_of_pages": 334,
+            "isbn_13": [
+                "9780461900750"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Scarlet Letter",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL30298422M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-17T14:23:25.546940"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:31:39.134374"
+            }
+        },
+        "/books/OL30075160M": {
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798644657520"
+            ],
+            "title": "SCARLET LETTER by Nathaniel Hawthorne the New Annotated and Updated Edition",
+            "number_of_pages": 315,
+            "isbn_13": [
+                "9798644657520"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "SCARLET LETTER by Nathaniel Hawthorne the New Annotated and Updated Edition",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL30075160M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-03T02:49:42.579235"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:31:39.134374"
+            }
+        },
+        "/books/OL30019163M": {
+            "publishers": [
+                "Independently Published"
+            ],
+            "subtitle": "the Annotated Edition",
+            "source_records": [
+                "bwb:9798621734190"
+            ],
+            "title": "Scarlet Letter",
+            "number_of_pages": 315,
+            "isbn_13": [
+                "9798621734190"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Scarlet Letter the Annotated Edition",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL30019163M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-02T14:39:09.780737"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:31:39.134374"
+            }
+        },
+        "/books/OL30074273M": {
+            "publishers": [
+                "Independently Published"
+            ],
+            "subtitle": "the Annotated Edition",
+            "source_records": [
+                "bwb:9798633541854"
+            ],
+            "title": "Scarlet Letter",
+            "number_of_pages": 315,
+            "isbn_13": [
+                "9798633541854"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Scarlet Letter the Annotated Edition",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL30074273M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-03T02:38:10.936286"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:31:39.134374"
+            }
+        },
+        "/books/OL30217604M": {
+            "publishers": [
+                "Independently Published"
+            ],
+            "subtitle": "Large Print",
+            "source_records": [
+                "bwb:9798621867638"
+            ],
+            "title": "Scarlet Letter",
+            "number_of_pages": 169,
+            "isbn_13": [
+                "9798621867638"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Scarlet Letter Large Print",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL30217604M",
+            "authors": [
+                {
+                    "key": "/authors/OL8483926A"
+                },
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-16T20:27:53.069450"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:31:39.134374"
+            }
+        },
+        "/books/OL30217766M": {
+            "publishers": [
+                "Independently Published"
+            ],
+            "subtitle": "a Classical Novel Annotated",
+            "source_records": [
+                "bwb:9798652847449"
+            ],
+            "title": "Scarlet Letter",
+            "number_of_pages": 235,
+            "isbn_13": [
+                "9798652847449"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Scarlet Letter a Classical Novel Annotated",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL30217766M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                },
+                {
+                    "key": "/authors/OL8483957A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-16T20:30:23.157442"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:31:39.134374"
+            }
+        },
+        "/books/OL30228175M": {
+            "publishers": [
+                "Independently Published"
+            ],
+            "subtitle": "a Classical Novel Annotated",
+            "source_records": [
+                "bwb:9798652796181"
+            ],
+            "title": "Scarlet Letter",
+            "number_of_pages": 235,
+            "isbn_13": [
+                "9798652796181"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Scarlet Letter a Classical Novel Annotated",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL30228175M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-16T22:54:47.911172"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:31:39.134374"
+            }
+        },
+        "/books/OL30231117M": {
+            "publishers": [
+                "Independently Published"
+            ],
+            "subtitle": "a Classical Novel Annotated",
+            "source_records": [
+                "bwb:9798652796259"
+            ],
+            "title": "Scarlet Letter",
+            "number_of_pages": 235,
+            "isbn_13": [
+                "9798652796259"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Scarlet Letter a Classical Novel Annotated",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL30231117M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-16T23:35:05.236035"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:31:39.134374"
+            }
+        },
+        "/books/OL30284789M": {
+            "publishers": [
+                "HardPress"
+            ],
+            "source_records": [
+                "bwb:9780371894033"
+            ],
+            "title": "Scarlet Letter",
+            "number_of_pages": 326,
+            "isbn_13": [
+                "9780371894033"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Scarlet Letter",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL30284789M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-17T10:56:18.411844"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:31:39.134374"
+            }
+        },
+        "/books/OL29954641M": {
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798635021408"
+            ],
+            "title": "Scarlet Letter (Annotated) Edition Fiction, Literary, Romantic Novel",
+            "number_of_pages": 305,
+            "isbn_13": [
+                "9798635021408"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL29954641M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-02T01:22:41.079032"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:31:39.134374"
+            }
+        },
+        "/books/OL29940197M": {
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798638876937"
+            ],
+            "title": "Scarlet Letter Annotated Cultural Heritage Fiction",
+            "number_of_pages": 239,
+            "isbn_13": [
+                "9798638876937"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL29940197M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-01T22:22:37.371565"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:31:39.134374"
+            }
+        },
+        "/books/OL29932132M": {
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798643298465"
+            ],
+            "title": "Scarlet Letter by Nathaniel Hawthorne (Romantic Novel) Annotated",
+            "number_of_pages": 305,
+            "isbn_13": [
+                "9798643298465"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL29932132M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-01T20:43:37.393420"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:31:39.134374"
+            }
+        },
+        "/books/OL29910995M": {
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798631431270"
+            ],
+            "title": "Scarlet Letter the New Annotated Version",
+            "number_of_pages": 315,
+            "isbn_13": [
+                "9798631431270"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL29910995M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-01T14:40:18.062304"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:31:39.134374"
+            }
+        },
+        "/books/OL29918210M": {
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798638876999"
+            ],
+            "title": "Scarlet Letter Annotated",
+            "number_of_pages": 239,
+            "isbn_13": [
+                "9798638876999"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Scarlet Letter Annotated",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL29918210M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-01T16:55:38.606587"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:31:39.134374"
+            }
+        },
+        "/books/OL29999354M": {
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798625061711"
+            ],
+            "title": "Scarlet Letter",
+            "number_of_pages": 315,
+            "isbn_13": [
+                "9798625061711"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Scarlet Letter",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL29999354M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-02T10:28:25.927293"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:31:39.134374"
+            }
+        },
+        "/books/OL34008618M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "isbn_13": [
+                "9781627939911"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 226,
+            "publish_date": "2013",
+            "publishers": [
+                "Start Publishing LLC"
+            ],
+            "source_records": [
+                "bwb:9781627939911"
+            ],
+            "subjects": [
+                "Fiction, historical",
+                "Fiction, psychological",
+                "Married people, fiction",
+                "Clergy, fiction",
+                "Boston (mass.), fiction",
+                "American fiction (fictional works by one author)"
+            ],
+            "title": "Scarlet Letter",
+            "full_title": "Scarlet Letter",
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "key": "/books/OL34008618M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-09-29T13:08:08.963213"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-10-06T14:23:34.926207"
+            }
+        },
+        "/books/OL32506985M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "The Scarlet Letter",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                },
+                {
+                    "key": "/authors/OL7315206A"
+                }
+            ],
+            "publish_date": "Jun 15, 2014",
+            "source_records": [
+                "amazon:1467683841"
+            ],
+            "publishers": [
+                "Oxford Univ Pr"
+            ],
+            "isbn_10": [
+                "1467683841"
+            ],
+            "isbn_13": [
+                "9781467683845"
+            ],
+            "physical_format": "preloaded digital audio player",
+            "full_title": "The Scarlet Letter",
+            "covers": [
+                11158875
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "key": "/books/OL32506985M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-05-25T13:59:13.975877"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-10-06T14:23:34.926207"
+            }
+        },
+        "/books/OL32610543M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Scarlet Letter",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "Sep 01, 1994",
+            "source_records": [
+                "amazon:0848805208"
+            ],
+            "publishers": [
+                "Amereon Limited"
+            ],
+            "isbn_10": [
+                "0848805208"
+            ],
+            "isbn_13": [
+                "9780848805203"
+            ],
+            "physical_format": "hardcover",
+            "full_title": "Scarlet Letter",
+            "covers": [
+                11247013
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "key": "/books/OL32610543M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-06-10T17:46:34.168519"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-10-06T14:23:34.926207"
+            }
+        },
+        "/books/OL32359687M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "The Scarlet Letter",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "Oct 14, 2018",
+            "source_records": [
+                "amazon:0343001047"
+            ],
+            "number_of_pages": 326,
+            "publishers": [
+                "Franklin Classics"
+            ],
+            "isbn_10": [
+                "0343001047"
+            ],
+            "isbn_13": [
+                "9780343001049"
+            ],
+            "physical_format": "paperback",
+            "full_title": "The Scarlet Letter A Romance",
+            "subtitle": "A Romance",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: The Scarlet Letter: A Romance"
+            },
+            "covers": [
+                11000011
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "key": "/books/OL32359687M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-05-08T22:32:27.196761"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-10-06T14:23:34.926207"
+            }
+        },
+        "/books/OL32418068M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "The Scarlet Letter",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "Jul 10, 2009",
+            "source_records": [
+                "amazon:0606401644",
+                "bwb:9780606401647"
+            ],
+            "number_of_pages": 432,
+            "publishers": [
+                "Turtleback"
+            ],
+            "isbn_10": [
+                "0606401644"
+            ],
+            "isbn_13": [
+                "9780606401647"
+            ],
+            "physical_format": "library binding",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: The Scarlet Letter (Turtleback Binding Edition)"
+            },
+            "full_title": "The Scarlet Letter",
+            "covers": [
+                11079348
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "key": "/books/OL32418068M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-05-14T01:19:56.094246"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-10-09T03:20:28.208358"
+            }
+        },
+        "/books/OL32441584M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "The Scarlet Letter",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "Nov 09, 2018",
+            "source_records": [
+                "amazon:0344982033"
+            ],
+            "number_of_pages": 364,
+            "publishers": [
+                "Franklin Classics Trade Press"
+            ],
+            "isbn_10": [
+                "0344982033"
+            ],
+            "isbn_13": [
+                "9780344982033"
+            ],
+            "physical_format": "hardcover",
+            "full_title": "The Scarlet Letter A Romance",
+            "subtitle": "A Romance",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: The Scarlet Letter: A Romance"
+            },
+            "covers": [
+                11101221
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "key": "/books/OL32441584M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-05-16T11:59:35.616391"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-10-06T14:23:34.926207"
+            }
+        },
+        "/books/OL32287782M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "The Scarlet Letter",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "Nov 13, 2018",
+            "source_records": [
+                "amazon:0353567612"
+            ],
+            "number_of_pages": 320,
+            "publishers": [
+                "Franklin Classics Trade Press"
+            ],
+            "isbn_10": [
+                "0353567612"
+            ],
+            "isbn_13": [
+                "9780353567610"
+            ],
+            "physical_format": "hardcover",
+            "full_title": "The Scarlet Letter By Nathaniel Hawthorne",
+            "subtitle": "By Nathaniel Hawthorne",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: The Scarlet Letter: By Nathaniel Hawthorne"
+            },
+            "covers": [
+                10914307
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "key": "/books/OL32287782M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-05-02T06:02:05.677405"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-10-06T14:23:34.926207"
+            }
+        },
+        "/books/OL32800249M": {
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "title": "The Scarlet Letter",
+            "publishers": [
+                "Arcturus"
+            ],
+            "publish_date": "2017",
+            "key": "/books/OL32800249M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                11432966
+            ],
+            "ocaid": "scarletletterrom0000hawt_v9b7",
+            "isbn_13": [
+                "9781788280525"
+            ],
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lc_classifications": [
+                "PS1868.A2"
+            ],
+            "source_records": [
+                "bwb:9781788280525",
+                "promise:bwb_daily_pallets_2021-04-01"
+            ],
+            "local_id": [
+                "urn:bwbsku:P3-ANI-897"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-07-15T13:11:57.760565"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-14T23:39:02.777773"
+            }
+        },
+        "/books/OL32799976M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "The Scarlet Letter",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "Apr 28, 2012",
+            "source_records": [
+                "amazon:1613822030",
+                "ia:scarletletter0000hawt_s7n3",
+                "bwb:9781613822036",
+                "promise:bwb_daily_pallets_2021-03-30"
+            ],
+            "number_of_pages": 208,
+            "publishers": [
+                "Simon & Brown"
+            ],
+            "physical_format": "paperback",
+            "full_title": "The Scarlet Letter",
+            "covers": [
+                11432736
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "key": "/books/OL32799976M",
+            "identifiers": {},
+            "isbn_10": [
+                "1613822030"
+            ],
+            "isbn_13": [
+                "9781613822036"
+            ],
+            "ocaid": "scarletletter0000hawt_s7n3",
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lc_classifications": [
+                "PS1868 .A1 2011"
+            ],
+            "local_id": [
+                "urn:bwbsku:O4-BSJ-566"
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-07-15T12:06:07.559876"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-15T00:01:08.751782"
+            }
+        },
+        "/books/OL32774065M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "2010",
+            "publish_country": "gw",
+            "languages": [
+                {
+                    "key": "/languages/ger"
+                }
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "edition_name": "Neuausg.",
+            "series": [
+                "dtv -- 13863"
+            ],
+            "links": [
+                {
+                    "url": "http://deposit.dnb.de/cgi-bin/dokserv?id=3300931&prov=M&dok_var=1&dok_ext=htm",
+                    "title": "Inhaltstext"
+                }
+            ],
+            "contributions": [
+                "Blei, Franz 1871-1942 Übersetzer",
+                "Hawthorne, Nathaniel 1804-1864"
+            ],
+            "subject_places": [
+                "Neuengland"
+            ],
+            "subjects": [
+                "Frau",
+                "Ehebruch"
+            ],
+            "title": "Der scharlachrote Buchstabe",
+            "subtitle": "Roman",
+            "by_statement": "Nathaniel Hawthorne. Aus dem Amerikan. von Franz Blei. Durchges. und um \"Das Zollhaus\" erg. von Ruth und Hans-Joachim Lang. Mit einem Essay von Binnie Kirshenbaum in der Übers. von Patricia Reimann. Mit Anm. und einer Zeittaf. von Hans-Joachim Lang",
+            "publishers": [
+                "Dt. Taschenbuch-Verl."
+            ],
+            "publish_places": [
+                "München"
+            ],
+            "pagination": "348 S.",
+            "number_of_pages": 348,
+            "source_records": [
+                "ia:derscharlachrote0000hawt",
+                "promise:bwb_daily_pallets_2021-04-02"
+            ],
+            "full_title": "Der scharlachrote Buchstabe Roman",
+            "covers": [
+                11404969
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "key": "/books/OL32774065M",
+            "local_id": [
+                "urn:bwbsku:703-AAX-631"
+            ],
+            "identifiers": {},
+            "ocaid": "derscharlachrote0000hawt",
+            "isbn_10": [
+                "3423138637"
+            ],
+            "isbn_13": [
+                "9783423138635"
+            ],
+            "oclc_numbers": [
+                "607559388"
+            ],
+            "classifications": {},
+            "dewey_decimal_class": [
+                "810",
+                "B"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-07-10T04:43:41.849980"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-08-22T09:54:47.518508"
+            }
+        },
+        "/books/OL32797764M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "2005",
+            "publish_country": "xx",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "oclc_numbers": [
+                "830038260"
+            ],
+            "lc_classifications": [
+                "PS1868 .A1 2005"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "\"The original classic edition\"--Cover."
+            },
+            "subject_places": [
+                "Massachusetts"
+            ],
+            "subjects": [
+                "Puritans",
+                "Fiction",
+                "Women",
+                "Adultery"
+            ],
+            "title": "The scarlet letter",
+            "by_statement": "Nathaniel Hawthorne",
+            "publishers": [
+                "Emereo Pty Limited"
+            ],
+            "publish_places": [
+                "[Place of publication not identified]"
+            ],
+            "isbn_13": [
+                "9781486144457"
+            ],
+            "isbn_10": [
+                "1486144454"
+            ],
+            "pagination": "86 pages",
+            "number_of_pages": 86,
+            "ocaid": "scarletletter0000hawt_x4o0",
+            "source_records": [
+                "ia:scarletletter0000hawt_x4o0",
+                "promise:bwb_daily_pallets_2020-10-08"
+            ],
+            "full_title": "The scarlet letter",
+            "covers": [
+                11430311
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "key": "/books/OL32797764M",
+            "local_id": [
+                "urn:bwbsku:UN-207-228"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-07-15T05:27:36.699504"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-15T15:21:34.732925"
+            }
+        },
+        "/books/OL31170031M": {
+            "publishers": [
+                "First Avenue Editions",
+                "Lerner Publishing Group"
+            ],
+            "series": [
+                "First Avenue Classics"
+            ],
+            "full_title": "The Scarlet Letter",
+            "key": "/books/OL31170031M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_places": [
+                "Minneapolis"
+            ],
+            "contributions": [
+                "Foote, Mary Hallock, 1847-1938, illustrator"
+            ],
+            "pagination": "ix, 280 pages",
+            "source_records": [
+                "marc:marc_loc_2016/BooksAll.2016.part40.utf8:252470582:1239",
+                "bwb:9781467732420"
+            ],
+            "title": "The Scarlet Letter",
+            "number_of_pages": 280,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subject_places": [
+                "Boston (Mass.)"
+            ],
+            "subjects": [
+                "Fiction",
+                "History",
+                "Puritans",
+                "Adultery",
+                "Women immigrants",
+                "Triangles (Interpersonal relations)",
+                "Illegitimate children",
+                "Married women",
+                "Clergy"
+            ],
+            "publish_date": "2014",
+            "publish_country": "mnu",
+            "by_statement": "by Nathaniel Hawthorne ; illustrated by Mary Hallock Foote",
+            "subject_times": [
+                "Colonial period, ca. 1600-1775"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_13": [
+                "9781467732420"
+            ],
+            "lccn": [
+                "2013039258"
+            ],
+            "classifications": {},
+            "dewey_decimal_class": [
+                "813/.3"
+            ],
+            "lc_classifications": [
+                "PS1868 .A1 2014b",
+                "PS1868.A1 2014b"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-11-14T07:15:25.103043"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-17T06:04:44.119201"
+            }
+        },
+        "/books/OL30727646M": {
+            "publishers": [
+                "Barnes & Noble"
+            ],
+            "series": [
+                "Signature editions"
+            ],
+            "full_title": "Scarlet letter",
+            "key": "/books/OL30727646M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "contributions": [
+                "Graham, Anissa M., 1973-"
+            ],
+            "pagination": "xxiii, 228 pages",
+            "source_records": [
+                "marc:marc_loc_2016/BooksAll.2016.part40.utf8:87693483:1229",
+                "bwb:9781435138117",
+                "bwb:9781435141254"
+            ],
+            "title": "Scarlet letter",
+            "notes": "Includes bibliographical references (pages 227-228).",
+            "number_of_pages": 228,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subject_places": [
+                "Boston (Mass.)"
+            ],
+            "subjects": [
+                "Married women",
+                "Clergy",
+                "Revenge",
+                "Fiction",
+                "Puritans",
+                "Triangles (Interpersonal relations)",
+                "Adultery",
+                "Illegitimate children",
+                "History"
+            ],
+            "publish_date": "2012",
+            "publish_country": "nyu",
+            "by_statement": "Nathaniel Hawthorne ; introduction and notes by Anissa M. Graham",
+            "subject_times": [
+                "Colonial period, ca. 1600-1775"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_13": [
+                "9781435138117",
+                "9781435141254"
+            ],
+            "lccn": [
+                "2012464887"
+            ],
+            "classifications": {},
+            "dewey_decimal_class": [
+                "813/.3"
+            ],
+            "lc_classifications": [
+                "PS1868 .A1 2012"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-10-28T07:49:49.374538"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-10-09T02:02:28.792001"
+            }
+        },
+        "/books/OL31901618M": {
+            "title": "La letra escarlata",
+            "publish_date": "1995",
+            "publishers": [
+                "Martínez Roca"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_10": [
+                "8427020600"
+            ],
+            "translation_of": "The scarlet letter",
+            "translated_from": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_places": [
+                "Barcelona"
+            ],
+            "contributors": [
+                {
+                    "role": "Translator",
+                    "name": "A. Ruste"
+                }
+            ],
+            "covers": [
+                11143290
+            ],
+            "ocaid": "laletraescarlata0000hawt",
+            "lc_classifications": [
+                "PS1868 .A68 1995"
+            ],
+            "source_records": [
+                "ia:laletraescarlata0000hawt",
+                "amazon:8427020600",
+                "promise:bwb_daily_pallets_2020-11-25"
+            ],
+            "local_id": [
+                "urn:bwbsku:P6-CAR-448"
+            ],
+            "key": "/books/OL31901618M",
+            "number_of_pages": 221,
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-01-29T10:33:11.216643"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-18T00:34:20.701088"
+            }
+        },
+        "/books/OL24356706M": {
+            "other_titles": [
+                "De scharlaken letter"
+            ],
+            "publishers": [
+                "Het Spectrum"
+            ],
+            "translated_from": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "contributors": [
+                {
+                    "role": "Translator",
+                    "name": "Nel Bakker"
+                }
+            ],
+            "series": [
+                "Prisma-klassieken ; 14"
+            ],
+            "covers": [
+                6582599
+            ],
+            "physical_format": "Hardcover",
+            "key": "/books/OL24356706M",
+            "publish_places": [
+                "Utrecht [etc.]"
+            ],
+            "pagination": "222 p.",
+            "classifications": {},
+            "title": "De rode letter",
+            "translation_of": "The scarlett letter",
+            "notes": {
+                "type": "/type/text",
+                "value": "Eerder verschenen o.d.t.: De scharlaken letter. - 1956. - (Prisma-boek ; 198).\r\nMet bio- en bibliogr. gegevens.\r\nVert. van: The scarlett letter : a romance. - Boston : Ticknor, Reed, and Fields, 1850."
+            },
+            "identifiers": {},
+            "languages": [
+                {
+                    "key": "/languages/dut"
+                }
+            ],
+            "isbn_10": [
+                "9027491127"
+            ],
+            "publish_date": "1978",
+            "by_statement": "Nathaniel Hawthorne ; vert. [en naw.]: Nel Bakker",
+            "oclc_numbers": [
+                "63351444"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "22 x  x  centimeters",
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-09-09T06:32:15.780487"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:59:50.309980"
+            }
+        },
+        "/books/OL32482024M": {
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "title": "The Scarlet Letter",
+            "publishers": [
+                "Pocket Library"
+            ],
+            "publish_date": "1959-11",
+            "key": "/books/OL32482024M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                11137242
+            ],
+            "ocaid": "scarletletter00nath_5",
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:49:08.284667"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:49:29.229039"
+            }
+        },
+        "/books/OL30362777M": {
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798663160094"
+            ],
+            "title": "Scarlet Letter by Nathaniel Hawthorne (Annotated Edition) Historical Fiction, Romantic Novel",
+            "number_of_pages": 305,
+            "isbn_13": [
+                "9798663160094"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Scarlet Letter by Nathaniel Hawthorne (Annotated Edition) Historical Fiction, Romantic Novel",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL30362777M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-18T06:01:11.599322"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:31:39.134374"
+            }
+        },
+        "/books/OL30322102M": {
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798656390491"
+            ],
+            "title": "Scarlet Letter Illustrated",
+            "number_of_pages": 296,
+            "isbn_13": [
+                "9798656390491"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Scarlet Letter Illustrated",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL30322102M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-17T21:04:18.798435"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:31:39.134374"
+            }
+        },
+        "/books/OL30319059M": {
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798637323715"
+            ],
+            "title": "Scarlet Letter by Nathaniel Hawthorne",
+            "number_of_pages": 315,
+            "isbn_13": [
+                "9798637323715"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Scarlet Letter by Nathaniel Hawthorne",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL30319059M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-17T20:16:38.805000"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:31:39.134374"
+            }
+        },
+        "/books/OL30257727M": {
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798639028304"
+            ],
+            "title": "Scarlet Letter Annotated",
+            "number_of_pages": 239,
+            "isbn_13": [
+                "9798639028304"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Scarlet Letter Annotated",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL30257727M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-17T04:56:31.941819"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:31:39.134374"
+            }
+        },
+        "/books/OL30073184M": {
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798643769071"
+            ],
+            "title": "SCARLET LETTER by Nathaniel the New Annotated Edition",
+            "number_of_pages": 315,
+            "isbn_13": [
+                "9798643769071"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL30073184M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-03T02:23:50.653480"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:31:39.134374"
+            }
+        },
+        "/books/OL30108415M": {
+            "title": "The Scarlet Letter",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "Apr 29, 2015",
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "source_records": [
+                "amazon:1511853697",
+                "bwb:9781511853699",
+                "promise:bwb_daily_pallets_2023-08-01:O9-BBW-035",
+                "promise:bwb_daily_pallets_2023-08-01:O9-AHI-071"
+            ],
+            "isbn_13": [
+                "9781511853699"
+            ],
+            "covers": [
+                10433744
+            ],
+            "physical_format": "paperback",
+            "full_title": "The Scarlet Letter",
+            "isbn_10": [
+                "1511853697"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:O9-BBW-035",
+                "urn:bwbsku:O9-AHI-071"
+            ],
+            "ocaid": "scarletletter0000nath_j8m7",
+            "key": "/books/OL30108415M",
+            "number_of_pages": 146,
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-10T16:47:00.944871"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-03-27T14:57:18.319158"
+            }
+        },
+        "/books/OL30222742M": {
+            "publishers": [
+                "Independently Published"
+            ],
+            "subtitle": "a Classical Novel Annotated",
+            "source_records": [
+                "bwb:9798652796082"
+            ],
+            "title": "Scarlet Letter",
+            "number_of_pages": 235,
+            "isbn_13": [
+                "9798652796082"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Scarlet Letter a Classical Novel Annotated",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL30222742M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                },
+                {
+                    "key": "/authors/OL8483957A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-16T21:42:54.194310"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:31:39.134374"
+            }
+        },
+        "/books/OL30002696M": {
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798637323692"
+            ],
+            "title": "Scarlet Letter Latest Annotated Edition",
+            "number_of_pages": 315,
+            "isbn_13": [
+                "9798637323692"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL30002696M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-02T11:09:31.710302"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:31:39.134374"
+            }
+        },
+        "/books/OL29978539M": {
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798637323661"
+            ],
+            "title": "Scarlet Letter Annotated and Illustrated Edition",
+            "number_of_pages": 315,
+            "isbn_13": [
+                "9798637323661"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL29978539M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-02T06:09:13.319477"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:31:39.134374"
+            }
+        },
+        "/books/OL29971190M": {
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798637896639"
+            ],
+            "title": "Scarlet Letter by Nathaniel Hawthorne Annotated Classic Volume (Romantic Novel)",
+            "number_of_pages": 305,
+            "isbn_13": [
+                "9798637896639"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Scarlet Letter by Nathaniel Hawthorne Annotated Classic Volume (Romantic Novel)",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL29971190M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-02T04:44:02.921165"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:31:39.134374"
+            }
+        },
+        "/books/OL29910332M": {
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798631431003"
+            ],
+            "title": "Scarlet Letter Annotated",
+            "number_of_pages": 315,
+            "isbn_13": [
+                "9798631431003"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL29910332M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-01T14:24:26.496431"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:31:39.134374"
+            }
+        },
+        "/books/OL30005214M": {
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798629756095"
+            ],
+            "title": "Scarlet Letter Illustrated",
+            "number_of_pages": 296,
+            "isbn_13": [
+                "9798629756095"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Scarlet Letter Illustrated",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL30005214M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-02T11:38:09.522945"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:31:39.134374"
+            }
+        },
+        "/books/OL30006377M": {
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798624240940"
+            ],
+            "title": "Scarlet Letter Illustrated",
+            "number_of_pages": 296,
+            "isbn_13": [
+                "9798624240940"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Scarlet Letter Illustrated",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL30006377M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-02T11:52:53.748221"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:31:39.134374"
+            }
+        },
+        "/books/OL29873418M": {
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798608399503"
+            ],
+            "title": "Scarlet Letter",
+            "number_of_pages": 106,
+            "isbn_13": [
+                "9798608399503"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Scarlet Letter",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL29873418M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-01T05:51:27.247317"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:31:39.134374"
+            }
+        },
+        "/books/OL28428729M": {
+            "publishers": [
+                "Everyman"
+            ],
+            "source_records": [
+                "bwb:9781857151251"
+            ],
+            "title": "Scarlet Letter",
+            "number_of_pages": 352,
+            "isbn_13": [
+                "9781857151251"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Scarlet Letter",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "1992",
+            "key": "/books/OL28428729M",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Boston (mass.), fiction",
+                "Massachusetts, fiction",
+                "American fiction (fictional works by one author)",
+                "Prynne, hester (fictitious character), fiction"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-01T04:18:55.440698"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:31:39.134374"
+            }
+        },
+        "/books/OL28455767M": {
+            "publishers": [
+                "Oxford University Press"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "bwb:9780194791830",
+                "marc:marc_loc_2016/BooksAll.2016.part40.utf8:401690:1849"
+            ],
+            "title": "Scarlet Letter",
+            "lccn": [
+                "2012376853"
+            ],
+            "number_of_pages": 96,
+            "isbn_13": [
+                "9780194791830"
+            ],
+            "full_title": "Scarlet Letter",
+            "lc_classifications": [
+                "PE1126.A4E83744 2008",
+                "PE1126.A4 E83744 2008"
+            ],
+            "publish_date": "2007",
+            "key": "/books/OL28455767M",
+            "authors": [
+                {
+                    "key": "/authors/OL8027669A"
+                },
+                {
+                    "key": "/authors/OL2662742A"
+                },
+                {
+                    "key": "/authors/OL26681A"
+                },
+                {
+                    "key": "/authors/OL1233006A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Prynne, hester (fictitious character), fiction",
+                "Readers",
+                "Massachusetts, fiction",
+                "American fiction (fictional works by one author)",
+                "English language, textbooks for foreign speakers"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-02T09:41:39.849565"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-21T08:31:39.134374"
+            }
+        }
+    }
+}

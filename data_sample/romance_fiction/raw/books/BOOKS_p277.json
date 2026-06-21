@@ -1,0 +1,4741 @@
+{
+    "status": "ok",
+    "result": {
+        "/books/OL47476173M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "CUMBRES BORRASCOSAS",
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "publish_date": "May 01, 2019",
+            "source_records": [
+                "amazon:8497944631"
+            ],
+            "number_of_pages": 416,
+            "publishers": [
+                "EDIMAT LIBROS"
+            ],
+            "isbn_10": [
+                "8497944631"
+            ],
+            "isbn_13": [
+                "9788497944632"
+            ],
+            "physical_format": "hardcover",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: CUMBRES BORRASCOSAS (PIEL DE CLÁSICOS) (Spanish Edition)"
+            },
+            "full_title": "CUMBRES BORRASCOSAS",
+            "covers": [
+                14083395
+            ],
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL47476173M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-04-17T07:05:34.962843"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:37:37.075671"
+            }
+        },
+        "/books/OL47234402M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Cumbres Borrascosas",
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                },
+                {
+                    "key": "/authors/OL39422A"
+                }
+            ],
+            "publish_date": "May 01, 2021",
+            "source_records": [
+                "amazon:8484289613"
+            ],
+            "number_of_pages": 528,
+            "publishers": [
+                "Alba Editorial",
+                "ALBA"
+            ],
+            "isbn_10": [
+                "8484289613"
+            ],
+            "isbn_13": [
+                "9788484289616"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Cumbres Borrascosas",
+            "covers": [
+                13675540
+            ],
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL47234402M",
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-03-19T20:52:20.337441"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-04T21:05:10.560304"
+            }
+        },
+        "/books/OL49161112M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL10025088A"
+                },
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798524704269"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "pagination": "161",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798524704269"
+            ],
+            "title": "Cumbres Borrascosas",
+            "weight": "0.236",
+            "full_title": "Cumbres Borrascosas",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL49161112M",
+            "contributors": [
+                {
+                    "role": "Contributor",
+                    "name": "juan bravo"
+                },
+                {
+                    "role": "Translator",
+                    "name": "Juan Bravo"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-07-18T12:14:55.876228"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-07-03T01:04:11.979498"
+            }
+        },
+        "/books/OL41928539M": {
+            "title": "Cumbres Borrascosas (con Notas)",
+            "publish_date": "2020",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798642173411"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "pagination": "352",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798642173411"
+            ],
+            "weight": "0.600",
+            "full_title": "Cumbres Borrascosas (con Notas)",
+            "key": "/books/OL41928539M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-28T21:13:06.573928"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:34:12.118563"
+            }
+        },
+        "/books/OL23026241M": {
+            "series": [
+                "Tku sách danh tác rút gọn"
+            ],
+            "lc_classifications": [
+                "PR4172 .W718 1997"
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "source_records": [
+                "marc:SanFranPL11/SanFranPL11.out:35098567:1307"
+            ],
+            "title": "Đsoi Gió Hú",
+            "work_titles": [
+                "Wuthering Heights."
+            ],
+            "languages": [
+                {
+                    "key": "/languages/vie"
+                }
+            ],
+            "subjects": [
+                "Man-woman relationships -- England -- Yorkshire -- Fiction",
+                "Orphans -- Fiction",
+                "Yorkshire (England) -- Fiction"
+            ],
+            "publish_country": "vm ",
+            "by_statement": "Emily Brontë.",
+            "oclc_numbers": [
+                "41932039"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "publishers": [
+                "NXB Văn nghue Thành phro Hso Chí Minh"
+            ],
+            "key": "/books/OL23026241M",
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "publish_places": [
+                "[TP. Hso Chí Minh]"
+            ],
+            "pagination": "217 p. :",
+            "notes": {
+                "type": "/type/text",
+                "value": "An abridged translation of: Wuthering Heights."
+            },
+            "number_of_pages": 217,
+            "publish_date": "1997",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-02-18T02:45:38.409180"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:32:21.454016"
+            }
+        },
+        "/books/OL22960811M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Translation of: Wuthering Heights."
+            },
+            "title": "Cumbres borrascosas",
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "publish_date": "1983",
+            "publishers": [
+                "Editorial Juventud"
+            ],
+            "pagination": "270 p. :",
+            "work_titles": [
+                "Wuthering Heights."
+            ],
+            "series": [
+                "Colección \"Libros de bolsillo Z\" -- núm. 10"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "isbn_10": [
+                "8426105114"
+            ],
+            "publish_country": "sp ",
+            "by_statement": "Emilia Brontë ; ilustraciones de Lorenzo Goñi ; [traducción de José Fernández].",
+            "publish_places": [
+                "Barcelona"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:SanFranPL07/SanFranPL07.out:96149310:1049"
+            ],
+            "key": "/books/OL22960811M",
+            "number_of_pages": 270,
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-02-12T19:15:47.735610"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-20T05:25:49.398583"
+            }
+        },
+        "/books/OL48437259M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798501300439"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "248",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798501300439"
+            ],
+            "title": "Wuthering Heights",
+            "weight": "0.436",
+            "subtitle": "Luxure Edition",
+            "full_title": "Wuthering Heights Luxure Edition",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48437259M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-17T22:09:53.338645"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL48782650M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798507101504"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "304",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798507101504"
+            ],
+            "title": "Wuthering Heights by Emily Brontë",
+            "weight": "0.523",
+            "full_title": "Wuthering Heights by Emily Brontë",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48782650M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-07-17T13:40:53.170734"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL48381008M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798745659041"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "399",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798745659041"
+            ],
+            "title": "Wuthering Heights Llustrated",
+            "weight": "0.591",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48381008M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-17T18:30:06.125182"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL48791931M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798560075996"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "435",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798560075996"
+            ],
+            "title": "Hauts de Hurle-Vent Illustree",
+            "weight": "0.641",
+            "full_title": "Hauts de Hurle-Vent Illustree",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48791931M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-07-17T14:06:04.997777"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL48292509M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798554426438"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "398",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798554426438"
+            ],
+            "title": "Wuthering Heights Illustrate",
+            "weight": "0.586",
+            "full_title": "Wuthering Heights Illustrate",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48292509M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-17T13:30:10.454588"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL48354995M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798736370269"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "393",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798736370269"
+            ],
+            "title": "Wuthering Heights in 3 Volumes",
+            "weight": "1.118",
+            "subtitle": "Volume 2",
+            "full_title": "Wuthering Heights in 3 Volumes Volume 2",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48354995M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-17T17:09:00.589494"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL48347713M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798596351262"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "146",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798596351262"
+            ],
+            "title": "Wuthering Heights by Emily Bronte",
+            "weight": "0.277",
+            "full_title": "Wuthering Heights by Emily Bronte",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48347713M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-17T16:45:18.953411"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL48125458M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B0021XBJZY"
+                ],
+                "better_world_books": [
+                    "BWB21379993"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:W8-AOO-486"
+            ],
+            "publish_date": "1961-01-01",
+            "publishers": [
+                "Scholastic Book Services"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-06-15:W8-AOO-486"
+            ],
+            "title": "Wuthering Heights (Scholastic Library Edition)",
+            "full_title": "Wuthering Heights (Scholastic Library Edition)",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48125458M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-17T01:04:02.060909"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL47864547M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B007SQXHP4"
+                ],
+                "better_world_books": [
+                    "BWB38533634"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:KI-045-401"
+            ],
+            "publish_date": "1965-01-01",
+            "publishers": [
+                "Harper & Row"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-05-24:KI-045-401"
+            ],
+            "title": "Wuthering Heights (A Harper Perennial Classic)",
+            "full_title": "Wuthering Heights (A Harper Perennial Classic)",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL47864547M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-05-26T03:20:45.736340"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL48373569M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798597369549"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "271",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798597369549"
+            ],
+            "title": "Wuthering Heights",
+            "weight": "0.473",
+            "subtitle": "Special Book",
+            "full_title": "Wuthering Heights Special Book",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48373569M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-17T18:05:29.493588"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL48383608M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798593967695"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "271",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798593967695"
+            ],
+            "title": "Wuthering Heights",
+            "weight": "0.473",
+            "subtitle": "Masterpieces - Emily Brontë",
+            "full_title": "Wuthering Heights Masterpieces - Emily Brontë",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48383608M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-17T18:52:08.459100"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL48416293M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798597369334"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "271",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798597369334"
+            ],
+            "title": "Wuthering Heights",
+            "weight": "0.473",
+            "subtitle": "Complete Book - Emily Brontë",
+            "full_title": "Wuthering Heights Complete Book - Emily Brontë",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48416293M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-17T21:07:39.339009"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL48437403M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798596327601"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "271",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798596327601"
+            ],
+            "title": "Wuthering Heights",
+            "weight": "0.473",
+            "subtitle": "Masterpieces",
+            "full_title": "Wuthering Heights Masterpieces",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48437403M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-17T22:10:18.095175"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL48440612M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798741928332"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "156",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798741928332"
+            ],
+            "title": "Wuthering Heights",
+            "weight": "0.373",
+            "full_title": "Wuthering Heights",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48440612M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-17T22:20:09.536869"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL48716978M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9783849560447"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "364",
+            "publish_date": "2013",
+            "publishers": [
+                "tredition Verlag"
+            ],
+            "source_records": [
+                "bwb:9783849560447"
+            ],
+            "subjects": [
+                "Fiction, general"
+            ],
+            "title": "Wuthering Heights",
+            "weight": "0.486",
+            "full_title": "Wuthering Heights",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48716978M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-07-17T10:33:40.827186"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL48773074M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL9814624A"
+                },
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798734351338"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "243",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798734351338"
+            ],
+            "title": "Wuthering Heights",
+            "weight": "0.432",
+            "full_title": "Wuthering Heights",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48773074M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-07-17T13:14:28.322524"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL48829142M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798539329075"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "266",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798539329075"
+            ],
+            "title": "Wuthering Heights",
+            "weight": "0.355",
+            "subtitle": "It Concerns Two Families of the Landed Gentry Living on the West Yorkshire Moors, the Earnshaws and the Lintons, and Their Turbulent Relationships with Earnshaw's Adopted Son",
+            "full_title": "Wuthering Heights It Concerns Two Families of the Landed Gentry Living on the West Yorkshire Moors, the Earnshaws and the Lintons, and Their Turbulent Relationships with Earnshaw's Adopted Son",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48829142M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-07-17T15:47:09.672145"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL48935161M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798532057494"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "320",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798532057494"
+            ],
+            "title": "Wuthering Heights",
+            "weight": "0.550",
+            "full_title": "Wuthering Heights",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48935161M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-07-17T22:18:03.775818"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL49164499M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL12315736A"
+                },
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798456657879"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "452",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798456657879"
+            ],
+            "title": "Wuthering Heights",
+            "weight": "0.664",
+            "full_title": "Wuthering Heights",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL49164499M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-07-18T12:29:15.561945"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL49170716M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798482437803"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "394",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798482437803"
+            ],
+            "title": "Wuthering Heights",
+            "weight": "0.850",
+            "full_title": "Wuthering Heights",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL49170716M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-07-18T12:51:13.580271"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL48550936M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798662730786"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "375",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798662730786"
+            ],
+            "title": "Wuthering Heights",
+            "weight": "0.636",
+            "full_title": "Wuthering Heights",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48550936M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-18T04:23:07.371700"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL48966209M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798545713356"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "452",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798545713356"
+            ],
+            "title": "Wuthering Heights",
+            "weight": "0.664",
+            "subtitle": "Illustred Eeition",
+            "full_title": "Wuthering Heights Illustred Eeition",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48966209M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-07-18T00:06:15.603961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL49172680M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798583047383"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "215",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798583047383"
+            ],
+            "title": "Wuthering Heights",
+            "weight": "0.486",
+            "full_title": "Wuthering Heights",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL49172680M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-07-18T12:58:00.962411"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL48123446M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B000GL62LY"
+                ],
+                "better_world_books": [
+                    "BWB24396257"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:O9-ADB-808"
+            ],
+            "publish_date": "1942-01-01",
+            "publishers": [
+                "The Heritage Press"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-06-14:O9-ADB-808"
+            ],
+            "title": "Wuthering Heights",
+            "full_title": "Wuthering Heights",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48123446M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-16T01:03:45.592845"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL47166909M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Wuthering Heights",
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "publish_date": "Apr 01, 2016",
+            "source_records": [
+                "amazon:8490019509"
+            ],
+            "number_of_pages": 400,
+            "publishers": [
+                "MAXTOR",
+                "Editorial Maxtor"
+            ],
+            "isbn_10": [
+                "8490019509"
+            ],
+            "isbn_13": [
+                "9788490019504"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Wuthering Heights",
+            "covers": [
+                13578658
+            ],
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL47166909M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-03-17T21:57:10.972342"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL47476172M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "CUMBRES BORRASCOSAS",
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "publish_date": "May 01, 2019",
+            "source_records": [
+                "amazon:8497944631"
+            ],
+            "number_of_pages": 416,
+            "publishers": [
+                "EDIMAT LIBROS"
+            ],
+            "isbn_10": [
+                "8497944631"
+            ],
+            "isbn_13": [
+                "9788497944632"
+            ],
+            "physical_format": "hardcover",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: CUMBRES BORRASCOSAS (PIEL DE CLÁSICOS) (Spanish Edition)"
+            },
+            "full_title": "CUMBRES BORRASCOSAS",
+            "covers": [
+                14083394
+            ],
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL47476172M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-04-17T07:05:34.944425"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:37:37.075671"
+            }
+        },
+        "/books/OL47448791M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Cumbres Borrascosas",
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                },
+                {
+                    "key": "/authors/OL1896578A"
+                }
+            ],
+            "publish_date": "Feb 13, 2020",
+            "source_records": [
+                "amazon:8491818359"
+            ],
+            "number_of_pages": 448,
+            "publishers": [
+                "Alianza Editorial"
+            ],
+            "isbn_10": [
+                "8491818359"
+            ],
+            "isbn_13": [
+                "9788491818359"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Cumbres Borrascosas",
+            "covers": [
+                14051908
+            ],
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL47448791M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-04-16T11:37:13.203398"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:37:37.075671"
+            }
+        },
+        "/books/OL35624464M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Cumbres Borrascosas",
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "publish_date": "Nov 05, 2014",
+            "source_records": [
+                "amazon:9875809950"
+            ],
+            "publishers": [
+                "BOOKET"
+            ],
+            "isbn_10": [
+                "9875809950"
+            ],
+            "isbn_13": [
+                "9789875809956"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Cumbres Borrascosas",
+            "covers": [
+                12331538
+            ],
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL35624464M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-05T20:37:52.237185"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:37:37.075671"
+            }
+        },
+        "/books/OL35627279M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "CUMBRES BORRASCOSAS",
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "publish_date": "Nov 02, 2014",
+            "source_records": [
+                "amazon:9873952004"
+            ],
+            "publishers": [
+                "PENGUIN BOOKS"
+            ],
+            "isbn_10": [
+                "9873952004"
+            ],
+            "isbn_13": [
+                "9789873952005"
+            ],
+            "physical_format": "paperback",
+            "full_title": "CUMBRES BORRASCOSAS",
+            "covers": [
+                12334275
+            ],
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL35627279M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-05T22:33:17.784085"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:37:37.075671"
+            }
+        },
+        "/books/OL20686467M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "\"Complete and unabridged.\" -- Cover.\n\nFirst published in 1847.\n\nIncludes bibliographical references.\n\n1"
+            },
+            "title": "Wuthering Heights",
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "publish_date": "1992",
+            "publishers": [
+                "Wordsworth Editions"
+            ],
+            "pagination": "xiv, 251 p.",
+            "lc_classifications": [
+                "PR'4172'W7'1992"
+            ],
+            "series": [
+                "Wordsworth classics"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "1853260010"
+            ],
+            "publish_country": "enk",
+            "by_statement": "Emily Brontë.",
+            "publish_places": [
+                "Ware"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:marc_laurentian/openlibrary.mrc:231423070:883"
+            ],
+            "key": "/books/OL20686467M",
+            "number_of_pages": 251,
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 14,
+            "revision": 14,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-29T10:21:28.044148"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-17T04:19:52.952574"
+            }
+        },
+        "/books/OL48437789M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798712570331"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "248",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798712570331"
+            ],
+            "title": "Wuthering Heights",
+            "weight": "0.436",
+            "subtitle": "Exclusive Edition",
+            "full_title": "Wuthering Heights Exclusive Edition",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48437789M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-17T22:11:29.052041"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL48416162M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798708126900"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "248",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798708126900"
+            ],
+            "title": "Wuthering Heights",
+            "weight": "0.436",
+            "subtitle": "Deluxe Edition",
+            "full_title": "Wuthering Heights Deluxe Edition",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48416162M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-17T21:07:17.041350"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL48352629M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798594599208"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "435",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798594599208"
+            ],
+            "title": "Hauts de Hurle-Vent Illustree",
+            "weight": "0.641",
+            "full_title": "Hauts de Hurle-Vent Illustree",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48352629M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-17T17:01:37.642844"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL49026956M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798719504902"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "439",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798719504902"
+            ],
+            "title": "Hauts de Hurle-Vent Illustree",
+            "weight": "0.645",
+            "full_title": "Hauts de Hurle-Vent Illustree",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL49026956M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-07-18T03:55:20.117499"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL48327005M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798711474388"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "366",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798711474388"
+            ],
+            "title": "Hauts de Hurle-Vent Illustré",
+            "weight": "0.623",
+            "full_title": "Hauts de Hurle-Vent Illustré",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48327005M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-17T15:44:32.318109"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL48292856M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798745085789"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "672",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798745085789"
+            ],
+            "title": "Wuthering Heights (Note-Taker's Extra Small Size Edition with Interleaved Blank Pages)",
+            "weight": "0.514",
+            "full_title": "Wuthering Heights (Note-Taker's Extra Small Size Edition with Interleaved Blank Pages)",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48292856M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-17T13:31:39.162895"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL48291939M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798745197802"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "344",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798745197802"
+            ],
+            "title": "Wuthering Heights in 3 Volumes",
+            "weight": "0.982",
+            "subtitle": "Volume 1",
+            "full_title": "Wuthering Heights in 3 Volumes Volume 1",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48291939M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-17T13:27:48.915603"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL48333806M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798736374601"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "344",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798736374601"
+            ],
+            "title": "Wuthering Heights in 3 Volumes",
+            "weight": "0.982",
+            "subtitle": "Volume 1",
+            "full_title": "Wuthering Heights in 3 Volumes Volume 1",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48333806M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-17T16:04:00.542582"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL48275814M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798715261526"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "146",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798715261526"
+            ],
+            "title": "Wuthering Heights by Emily Bronte",
+            "weight": "0.277",
+            "full_title": "Wuthering Heights by Emily Bronte",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48275814M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-17T12:35:24.783254"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL48326771M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798599577539"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "146",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798599577539"
+            ],
+            "title": "Wuthering Heights by Emily Bronte",
+            "weight": "0.277",
+            "full_title": "Wuthering Heights by Emily Bronte",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48326771M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-17T15:43:53.023702"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL48803761M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798729069552"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "146",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798729069552"
+            ],
+            "title": "Wuthering Heights by Emily Bronte",
+            "weight": "0.277",
+            "full_title": "Wuthering Heights by Emily Bronte",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48803761M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-07-17T14:39:19.924419"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL47823858M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B0021Z01KQ"
+                ],
+                "better_world_books": [
+                    "BWB21514991"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:P1-DRZ-881"
+            ],
+            "publish_date": "1963-11",
+            "publishers": [
+                "Washington Square Press"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-05-22:P1-DRZ-881",
+                "ia:bwb_W1-CCW-927"
+            ],
+            "title": "Wuthering Heights",
+            "full_title": "Wuthering Heights (Reader's Enrichment Series, RE 320)",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL47823858M",
+            "edition_name": "Reader's Enrichment edition, 1st pringint",
+            "series": [
+                "Readers' Enrichment Series"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "ocaid": "bwb_W1-CCW-927",
+            "publish_places": [
+                "New York"
+            ],
+            "copyright_date": "1963",
+            "physical_format": "paperback",
+            "pagination": "408, 36 p.",
+            "covers": [
+                14836375
+            ],
+            "oclc_numbers": [
+                "7834927"
+            ],
+            "number_of_pages": 408,
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-05-24T01:46:08.448685"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-04-27T21:38:56.055550"
+            }
+        },
+        "/books/OL47791808M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B01354G3K8"
+                ],
+                "better_world_books": [
+                    "BWB31667237"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:P8-BNZ-964"
+            ],
+            "publish_date": "1944-01-01",
+            "publishers": [
+                "Random House"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-05-11:P8-BNZ-964"
+            ],
+            "title": "Wuthering Heights with Wood Engravings By Fritz Eichenberg(1944)",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL47791808M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-05-17T02:30:14.518984"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL47756810M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B00137B7W4"
+                ],
+                "better_world_books": [
+                    "BWB10546556"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:P8-BRR-835"
+            ],
+            "publish_date": "1942",
+            "publishers": [
+                "Dodd, Mead & Company"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-02-28:P8-BRR-835"
+            ],
+            "title": "Wuthering Heights",
+            "full_title": "Wuthering Heights",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL47756810M",
+            "ocaid": "wutheringheights0000unse_n8y3",
+            "publish_places": [
+                "New York"
+            ],
+            "copyright_date": "1942",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "physical_format": "hardcover",
+            "number_of_pages": 355,
+            "pagination": "355 pages",
+            "covers": [
+                14840363
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-05-04T07:19:56.523215"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-31T14:04:52.161933"
+            }
+        },
+        "/books/OL48387255M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798741338025"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "305",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798741338025"
+            ],
+            "title": "Wuthering Heights",
+            "weight": "0.259",
+            "full_title": "Wuthering Heights",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48387255M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-17T19:18:57.128879"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL48407463M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798747287013"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "395",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798747287013"
+            ],
+            "title": "Wuthering Heights",
+            "weight": "0.668",
+            "full_title": "Wuthering Heights",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48407463M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-17T20:40:50.787766"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL48416566M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798593967664"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "271",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798593967664"
+            ],
+            "title": "Wuthering Heights",
+            "weight": "0.473",
+            "subtitle": "New Edition - Emily Brontë",
+            "full_title": "Wuthering Heights New Edition - Emily Brontë",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48416566M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-17T21:08:27.430460"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL48427065M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798597369488"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "271",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798597369488"
+            ],
+            "title": "Wuthering Heights",
+            "weight": "0.473",
+            "subtitle": "Masterpieces - Emily Brontë",
+            "full_title": "Wuthering Heights Masterpieces - Emily Brontë",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48427065M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-17T21:40:42.439993"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL48436001M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798697638859"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "205",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798697638859"
+            ],
+            "title": "Wuthering Heights",
+            "weight": "0.527",
+            "full_title": "Wuthering Heights",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48436001M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-17T22:06:13.429000"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL48544242M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798525413863"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "344",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798525413863"
+            ],
+            "title": "Wuthering Heights",
+            "weight": "0.982",
+            "full_title": "Wuthering Heights",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48544242M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-18T04:03:49.445843"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL49057525M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798470727701"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "632",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798470727701"
+            ],
+            "title": "Wuthering Heights",
+            "weight": "0.486",
+            "full_title": "Wuthering Heights",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL49057525M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-07-18T05:48:47.395554"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL49144308M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798541880502"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "565",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798541880502"
+            ],
+            "title": "Wuthering Heights",
+            "weight": "0.936",
+            "subtitle": "Large Print",
+            "full_title": "Wuthering Heights Large Print",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL49144308M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-07-18T11:09:49.572673"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL48435526M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798687166393"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "420",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798687166393"
+            ],
+            "title": "Wuthering Heights",
+            "weight": "0.709",
+            "full_title": "Wuthering Heights",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48435526M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-17T22:04:53.273243"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL49190845M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL10025088A"
+                },
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798524726605"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "161",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798524726605"
+            ],
+            "title": "Wuthering Heights",
+            "weight": "0.236",
+            "full_title": "Wuthering Heights",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL49190845M",
+            "contributors": [
+                {
+                    "role": "Translator",
+                    "name": "Juan Bravo"
+                }
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-07-18T14:04:47.843073"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-07-03T01:04:12.299122"
+            }
+        },
+        "/books/OL49235902M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B005OSSAJ6"
+                ],
+                "better_world_books": [
+                    "BWB47060828"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:KS-639-491"
+            ],
+            "publish_date": "1950-01-01",
+            "publishers": [
+                "Collins Clear Type Press"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-08-09:KS-639-491"
+            ],
+            "title": "Wuthering Heights",
+            "full_title": "Wuthering Heights",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL49235902M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-08-11T01:01:16.775491"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL47713673M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_10": [
+                "7506261510"
+            ],
+            "isbn_13": [
+                "9787506261517"
+            ],
+            "local_id": [
+                "urn:bwbsku:P8-BPS-883"
+            ],
+            "publish_date": "1991-01-01",
+            "publishers": [
+                "Unknown"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-03-29:P8-BPS-883"
+            ],
+            "title": "Wuthering Heights",
+            "full_title": "Wuthering Heights",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL47713673M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-05-04T03:24:27.740330"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:35:20.534836"
+            }
+        },
+        "/books/OL47711845M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {
+                "amazon": [
+                    "B00CMNBL88"
+                ],
+                "better_world_books": [
+                    "BWBM53443518"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:W8-BHY-208"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-03-29:W8-BHY-208",
+                "bwb:9781843441359"
+            ],
+            "title": "Wuthering Heights",
+            "full_title": "Wuthering Heights",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL47711845M",
+            "publishers": [
+                "Oldcastle Books, Limited"
+            ],
+            "publish_date": "2013",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-05-04T03:13:16.871724"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL47695937M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B003D632IU"
+                ],
+                "better_world_books": [
+                    "BWB23336550"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:KS-346-106"
+            ],
+            "publish_date": "1966",
+            "publishers": [
+                "Heron Books"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-04-12:KS-346-106",
+                "ia:bwb_KP-577-174"
+            ],
+            "title": "Wuthering Heights",
+            "full_title": "Wuthering Heights. With an Introduction By Malcolm Elwin. Original Illustrations By Arthur Wragg",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL47695937M",
+            "ocaid": "bwb_KP-577-174",
+            "publish_places": [
+                "London"
+            ],
+            "copyright_date": "1966",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "physical_format": "hardcover",
+            "number_of_pages": 350,
+            "pagination": "x, 350 pages",
+            "covers": [
+                14836773
+            ],
+            "oclc_numbers": [
+                "3741742"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-05-04T01:48:19.297169"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-04-26T15:17:03.803519"
+            }
+        },
+        "/books/OL47749134M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_10": [
+                "1439526354"
+            ],
+            "isbn_13": [
+                "9781439526354"
+            ],
+            "local_id": [
+                "urn:bwbsku:P8-BTA-278"
+            ],
+            "publish_date": "2008-08-11",
+            "publishers": [
+                "Courage Books"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-03-06:P8-BTA-278"
+            ],
+            "title": "Wuthering Heights",
+            "full_title": "Wuthering Heights",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL47749134M",
+            "covers": [
+                14653758
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-05-04T06:27:02.281026"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-06T16:32:21.046460"
+            }
+        },
+        "/books/OL48121648M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B000GUNT6Q"
+                ],
+                "better_world_books": [
+                    "BWB21872902"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:P8-CUQ-437"
+            ],
+            "publish_date": "1924-01-01",
+            "publishers": [
+                "Dodd, Mead and Company"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-06-13:P8-CUQ-437"
+            ],
+            "title": "Wuthering Heights",
+            "full_title": "Wuthering Heights",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48121648M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-15T01:04:25.248464"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL47267114M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Wuthering Heights",
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "publish_date": "Jul 21, 2014",
+            "source_records": [
+                "amazon:1500600075",
+                "bwb:9781500600075"
+            ],
+            "number_of_pages": 162,
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "isbn_10": [
+                "1500600075"
+            ],
+            "isbn_13": [
+                "9781500600075"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Wuthering Heights",
+            "covers": [
+                13720107
+            ],
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL47267114M",
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-03-20T20:04:37.436759"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-09-22T08:24:09.880453"
+            }
+        },
+        "/books/OL46912085M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:O8-BXB-980"
+            ],
+            "publish_date": "2008",
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-11-30:O8-BXB-980"
+            ],
+            "title": "Wuthering Heights",
+            "full_title": "Wuthering Heights (Forgotten Books)",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL46912085M",
+            "identifiers": {},
+            "isbn_10": [
+                "1606802372"
+            ],
+            "isbn_13": [
+                "9781606802373"
+            ],
+            "ocaid": "isbn_9781606802373",
+            "classifications": {},
+            "pagination": "309p.",
+            "physical_format": "paperback",
+            "number_of_pages": 309,
+            "publishers": [
+                "Forgotten Books"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "covers": [
+                14421389
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T01:20:32.068574"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL46892265M": {
+            "identifiers": {
+                "amazon": [
+                    "B006ZYNW0U"
+                ],
+                "better_world_books": [
+                    "BWB32992763"
+                ]
+            },
+            "title": "Wuthering heights. With an Introduction by Rose Macaulay. Re-issued.",
+            "publish_date": "1932-01-01",
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:W8-BQT-206"
+            ],
+            "publishers": [
+                "Jonathan Cape"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-01-25:W8-BQT-206"
+            ],
+            "full_title": "Wuthering heights. With an Introduction by Rose Macaulay. Re-issued.",
+            "key": "/books/OL46892265M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-02-27T23:29:44.395138"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:32:39.379085"
+            }
+        },
+        "/books/OL47232993M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Cumbres borrascosas",
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                },
+                {
+                    "key": "/authors/OL935198A"
+                }
+            ],
+            "publish_date": "Nov 13, 2018",
+            "source_records": [
+                "amazon:8467765151"
+            ],
+            "number_of_pages": 72,
+            "publishers": [
+                "SUSAETA"
+            ],
+            "isbn_10": [
+                "8467765151"
+            ],
+            "isbn_13": [
+                "9788467765151"
+            ],
+            "physical_format": "hardcover",
+            "full_title": "Cumbres borrascosas",
+            "covers": [
+                13674223
+            ],
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL47232993M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-03-19T20:12:17.666996"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:37:37.075671"
+            }
+        },
+        "/books/OL47448790M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Cumbres Borrascosas",
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                },
+                {
+                    "key": "/authors/OL1896578A"
+                }
+            ],
+            "publish_date": "Feb 13, 2020",
+            "source_records": [
+                "amazon:8491818359"
+            ],
+            "number_of_pages": 448,
+            "publishers": [
+                "Alianza Editorial"
+            ],
+            "isbn_10": [
+                "8491818359"
+            ],
+            "isbn_13": [
+                "9788491818359"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Cumbres Borrascosas",
+            "covers": [
+                14051909
+            ],
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL47448790M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-04-16T11:37:13.200623"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:37:37.075671"
+            }
+        },
+        "/books/OL47231377M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Cumbres borrascosas",
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "publish_date": "Mar 19, 2013",
+            "source_records": [
+                "amazon:8494662074"
+            ],
+            "publishers": [
+                "DESVAN DE HANTA"
+            ],
+            "isbn_10": [
+                "8494662074"
+            ],
+            "isbn_13": [
+                "9788494662072"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Cumbres borrascosas",
+            "covers": [
+                13671971
+            ],
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL47231377M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-03-19T19:18:54.012496"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:37:37.075671"
+            }
+        },
+        "/books/OL47116394M": {
+            "title": "CUMBRES BORRASCOSAS Losada",
+            "publish_date": "Mar 16, 2013",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:9500399547"
+            ],
+            "publishers": [
+                "FI-REX 21 S.L."
+            ],
+            "isbn_10": [
+                "9500399547"
+            ],
+            "isbn_13": [
+                "9789500399548"
+            ],
+            "physical_format": "paperback",
+            "covers": [
+                13498148
+            ],
+            "key": "/books/OL47116394M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-03-16T09:11:38.340406"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:32:19.064174"
+            }
+        },
+        "/books/OL23114669M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Translation of: Wuthering Heights."
+            },
+            "title": "Đkinh Gió Hú =",
+            "subtitle": "Wuthering Heights",
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "publish_date": "2007",
+            "contributions": [
+                "Nhrat Linh, 1905-1963."
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "work_titles": [
+                "Wuthering Heights."
+            ],
+            "languages": [
+                {
+                    "key": "/languages/vie"
+                }
+            ],
+            "subjects": [
+                "Man-woman relationships -- England -- Yorkshire -- Fiction.",
+                "Yorkshire (England) -- Fiction."
+            ],
+            "publish_country": "cau",
+            "by_statement": "Emily Brontë ; Nhrat Linh dịch.",
+            "type": {
+                "key": "/type/edition"
+            },
+            "publishers": [
+                "Văn mwoi"
+            ],
+            "publish_places": [
+                "Gardena, CA"
+            ],
+            "oclc_number": [
+                "191050802"
+            ],
+            "pagination": "368 p. :",
+            "source_records": [
+                "marc:SanFranPL15/SanFranPL15.out:63027714:1665"
+            ],
+            "key": "/books/OL23114669M",
+            "number_of_pages": 368,
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-02-18T19:42:21.806172"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-10T05:29:25.159084"
+            }
+        },
+        "/books/OL49358865M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B002QK58Y0"
+                ],
+                "better_world_books": [
+                    "BWB18450967"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:O9-AKT-115"
+            ],
+            "publish_date": "1970-01-01",
+            "publishers": [
+                "Nelson Doubleday"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-08-31:O9-AKT-115"
+            ],
+            "title": "WUTHERING HEIGHTS (REPRINT OF THE ORIGINAL 1847)",
+            "full_title": "WUTHERING HEIGHTS (REPRINT OF THE ORIGINAL 1847)",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL49358865M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-09-02T01:04:25.552155"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL49224945M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B0006AJND4"
+                ],
+                "better_world_books": [
+                    "BWB964062"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:W8-AYE-020"
+            ],
+            "publish_date": "1926-01-01",
+            "publishers": [
+                "Modern Library"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-08-01:W8-AYE-020"
+            ],
+            "title": "Wuthering Heights (The modern library of the world's best books, 106.1)",
+            "full_title": "Wuthering Heights (The modern library of the world's best books, 106.1)",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL49224945M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-08-04T01:11:06.344402"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL48384532M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798747122895"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "146",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798747122895"
+            ],
+            "title": "Wuthering Heights by Emily Brontë",
+            "weight": "0.277",
+            "full_title": "Wuthering Heights by Emily Brontë",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48384532M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-17T19:00:04.973705"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL48345502M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798736353019"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "660",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798736353019"
+            ],
+            "title": "Wuthering Heights (Note-Taker's Edition with Interleaved Blank Pages)",
+            "weight": "1.086",
+            "full_title": "Wuthering Heights (Note-Taker's Edition with Interleaved Blank Pages)",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48345502M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-17T16:39:01.708261"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL48334568M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798719221830"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "436",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798719221830"
+            ],
+            "title": "Hauts de Hurle-Vent Illustree",
+            "weight": "0.641",
+            "full_title": "Hauts de Hurle-Vent Illustree",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48334568M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-17T16:06:15.207039"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL48369015M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798598791202"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "146",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798598791202"
+            ],
+            "title": "Wuthering Heights by Emily Bronte",
+            "weight": "0.277",
+            "full_title": "Wuthering Heights by Emily Bronte",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48369015M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-17T17:50:23.359585"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL48369166M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798599581666"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "146",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798599581666"
+            ],
+            "title": "Wuthering Heights by Emily Bronte",
+            "weight": "0.277",
+            "full_title": "Wuthering Heights by Emily Bronte",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48369166M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-17T17:50:48.811570"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL48793896M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798748984164"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "146",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798748984164"
+            ],
+            "title": "Wuthering Heights by Emily Bronte",
+            "weight": "0.277",
+            "full_title": "Wuthering Heights by Emily Bronte",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48793896M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-07-17T14:11:28.966649"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL47825001M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B001P51Z5S"
+                ],
+                "better_world_books": [
+                    "BWB32864064"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:W6-CHN-816"
+            ],
+            "publish_date": "1961-01-01",
+            "publishers": [
+                "SCHOLASTIC BOOK SERVICES"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-05-22:W6-CHN-816"
+            ],
+            "title": "Wuthering Heights Scholastic Library Edi",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL47825001M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-05-24T01:50:23.504905"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL47754310M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {
+                "amazon": [
+                    "B0006AY5O6"
+                ],
+                "better_world_books": [
+                    "BWBM32033376"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:T3-AFA-171"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-03-01:T3-AFA-171",
+                "bwb:9781350425743"
+            ],
+            "title": "Wuthering Heights",
+            "subtitle": "text, sources, criticism",
+            "full_title": "Wuthering Heights text, sources, criticism",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL47754310M",
+            "lc_classifications": [
+                "PR6112"
+            ],
+            "publishers": [
+                "Bloomsbury Publishing Plc"
+            ],
+            "publish_date": "2023",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-05-04T07:05:39.424498"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL48405989M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798596327762"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "271",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798596327762"
+            ],
+            "title": "Wuthering Heights",
+            "weight": "0.473",
+            "subtitle": "New Edition",
+            "full_title": "Wuthering Heights New Edition",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48405989M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-17T20:35:56.627803"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL48424933M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798637066049"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "326",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798637066049"
+            ],
+            "title": "Wuthering Heights",
+            "weight": "0.559",
+            "subtitle": "A Novel by Emily Brontë Published in 1847 under Her Pseudonym Ellis Bell . Brontë's Only Finished Novel, It Was Written Between October 1845 and June 1846",
+            "full_title": "Wuthering Heights A Novel by Emily Brontë Published in 1847 under Her Pseudonym Ellis Bell . Brontë's Only Finished Novel, It Was Written Between October 1845 and June 1846",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48424933M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-17T21:32:42.871741"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL48475354M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798719652061"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "319",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798719652061"
+            ],
+            "title": "Wuthering Heights",
+            "weight": "0.550",
+            "full_title": "Wuthering Heights",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48475354M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-18T00:11:25.550544"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL48726470M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9783849553197"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "364",
+            "publish_date": "2013",
+            "publishers": [
+                "tredition Verlag"
+            ],
+            "source_records": [
+                "bwb:9783849553197"
+            ],
+            "subjects": [
+                "Fiction, general"
+            ],
+            "title": "Wuthering Heights",
+            "weight": "0.418",
+            "full_title": "Wuthering Heights",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48726470M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-07-17T10:59:06.201015"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL48904066M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798457165755"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "333",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798457165755"
+            ],
+            "title": "Wuthering Heights",
+            "weight": "0.573",
+            "full_title": "Wuthering Heights",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48904066M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-07-17T20:19:48.864882"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL49058193M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798470727329"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "412",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798470727329"
+            ],
+            "title": "Wuthering Heights",
+            "weight": "0.550",
+            "full_title": "Wuthering Heights",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL49058193M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-07-18T05:51:16.547453"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL49080424M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798482437841"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "520",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798482437841"
+            ],
+            "title": "Wuthering Heights",
+            "weight": "0.755",
+            "full_title": "Wuthering Heights",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL49080424M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-07-18T07:20:00.437556"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL49192026M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798491690169"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "367",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798491690169",
+                "promise:bwb_daily_pallets_2024-01-25:P9-BRT-385"
+            ],
+            "title": "Wuthering Heights",
+            "weight": "0.627",
+            "subtitle": "Hardback",
+            "full_title": "Wuthering Heights Hardback",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL49192026M",
+            "local_id": [
+                "urn:bwbsku:P9-BRT-385"
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B000RTFNKG"
+                ],
+                "better_world_books": [
+                    "BWBM59047711"
+                ]
+            },
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-07-18T14:08:56.972629"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-27T01:09:35.135862"
+            }
+        },
+        "/books/OL47734589M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B00289EAPW"
+                ],
+                "better_world_books": [
+                    "BWB20546000"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:KS-262-750"
+            ],
+            "publish_date": "1978-01-01",
+            "publishers": [
+                "Guild Publishing Ltd"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-03-14:KS-262-750"
+            ],
+            "title": "Wuthering Heights. Guild edition",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL47734589M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-05-04T05:12:13.879957"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL47724283M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {
+                "amazon": [
+                    "B002X01CB6"
+                ],
+                "better_world_books": [
+                    "BWBM53422048"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:W8-BHB-748"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-03-22:W8-BHB-748",
+                "bwb:9781454952961"
+            ],
+            "title": "Wuthering Heights",
+            "full_title": "Wuthering Heights",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL47724283M",
+            "publishers": [
+                "Sterling Publishing Co., Inc."
+            ],
+            "publish_date": "2023",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-05-04T04:17:11.878255"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL48363872M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798587806245"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "235",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798587806245"
+            ],
+            "title": "Wuthering Heights",
+            "weight": "0.595",
+            "subtitle": "Special Edition",
+            "full_title": "Wuthering Heights Special Edition",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48363872M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-17T17:35:25.310252"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL48401556M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "isbn_13": [
+                "9798507839407"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "331",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798507839407"
+            ],
+            "title": "Wuthering Heights",
+            "weight": "0.500",
+            "full_title": "Wuthering Heights",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48401556M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-17T20:19:32.496470"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL49234693M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B001NEXFJK"
+                ],
+                "better_world_books": [
+                    "BWB26880020"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:W8-BUZ-799"
+            ],
+            "publish_date": "1966-01-01",
+            "publishers": [
+                "Heron Books"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-08-08:W8-BUZ-799"
+            ],
+            "title": "Wuthering Heights",
+            "full_title": "Wuthering Heights",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL49234693M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-08-10T01:03:39.355203"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL47304767M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Wuthering Heights",
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "publish_date": "Oct 10, 2009",
+            "source_records": [
+                "amazon:1449548636",
+                "bwb:9781449548636",
+                "promise:bwb_daily_pallets_2024-12-05:Y0-BCU-942"
+            ],
+            "number_of_pages": 210,
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "isbn_10": [
+                "1449548636"
+            ],
+            "isbn_13": [
+                "9781449548636"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Wuthering Heights",
+            "covers": [
+                13769260
+            ],
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL47304767M",
+            "local_id": [
+                "urn:bwbsku:Y0-BCU-942"
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-03-24T02:58:19.663698"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-02T05:06:20.722558"
+            }
+        },
+        "/books/OL47321657M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Wuthering Heights",
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "publish_date": "Apr 07, 1987",
+            "source_records": [
+                "amazon:0861366611"
+            ],
+            "publishers": [
+                "Galley Press"
+            ],
+            "isbn_10": [
+                "0861366611"
+            ],
+            "isbn_13": [
+                "9780861366613"
+            ],
+            "physical_format": "hardcover",
+            "full_title": "Wuthering Heights",
+            "covers": [
+                13857509
+            ],
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL47321657M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-04-07T21:03:42.609124"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        },
+        "/books/OL48115587M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL24529A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B001MEEUO0"
+                ],
+                "better_world_books": [
+                    "BWB39438315"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:KS-566-235"
+            ],
+            "publishers": [
+                "Dean & Son"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-06-08:KS-566-235"
+            ],
+            "title": "Wuthering Heights",
+            "full_title": "Wuthering Heights",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL48115587M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-10T01:00:53.651659"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T06:29:50.719426"
+            }
+        }
+    }
+}

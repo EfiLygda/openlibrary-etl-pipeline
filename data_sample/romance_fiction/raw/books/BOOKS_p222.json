@@ -1,0 +1,6401 @@
+{
+    "status": "ok",
+    "result": {
+        "/books/OL25136524M": {
+            "publishers": [
+                "Kennebec Large Print"
+            ],
+            "isbn_10": [
+                "1410431967"
+            ],
+            "series": [
+                "Kennebec Large Print superior collection",
+                "Canadian west -- bk. 1"
+            ],
+            "full_title": "When calls the heart",
+            "lc_classifications": [
+                "PR9199.3.O38 W5 2011",
+                ""
+            ],
+            "key": "/books/OL25136524M",
+            "authors": [
+                {
+                    "key": "/authors/OL18714A"
+                }
+            ],
+            "publish_places": [
+                "Detroit"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "353 p. (large print) ; $c 22 cm.",
+            "source_records": [
+                "marc:marc_loc_updates/v39.i51.records.utf8:16021273:928",
+                "bwb:9781410431967",
+                "marc:marc_loc_2016/BooksAll.2016.part37.utf8:146280919:928"
+            ],
+            "title": "When calls the heart",
+            "lccn": [
+                "2010028831"
+            ],
+            "number_of_pages": 353,
+            "isbn_13": [
+                "9781410431967"
+            ],
+            "edition_name": "Large print ed.",
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "subject_places": [
+                "Western Canada"
+            ],
+            "subjects": [
+                "Large type books",
+                "Fiction",
+                "Women pioneers"
+            ],
+            "publish_date": "2010",
+            "publish_country": "miu",
+            "by_statement": "Janette Oke",
+            "works": [
+                {
+                    "key": "/works/OL97190W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2011-12-28T09:48:12.507729"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-03-16T16:21:10.757963"
+            }
+        },
+        "/books/OL9679977M": {
+            "publishers": [
+                "Bethany House Pub"
+            ],
+            "weight": "8.8 ounces",
+            "covers": [
+                5001917
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL9679977M",
+            "authors": [
+                {
+                    "key": "/authors/OL18714A"
+                }
+            ],
+            "subjects": [
+                "Religious",
+                "Romance - General",
+                "Fiction - Religious",
+                "Large Print"
+            ],
+            "edition_name": "Largeprint edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "It came as a great surprise to me."
+            },
+            "source_records": [
+                "amazon:0871238853:2-be:2420535483:243123"
+            ],
+            "title": "When Calls the Heart (Canadian West, Book 1)",
+            "identifiers": {
+                "librarything": [
+                    "96678"
+                ]
+            },
+            "isbn_13": [
+                "9780871238856"
+            ],
+            "isbn_10": [
+                "0871238853"
+            ],
+            "publish_date": "January 1986",
+            "works": [
+                {
+                    "key": "/works/OL97190W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9 x 6 x 0.8 inches",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-03-16T16:21:10.757963"
+            }
+        },
+        "/books/OL9463112M": {
+            "publishers": [
+                "GuildAmerica Books"
+            ],
+            "number_of_pages": 224,
+            "physical_format": "Hardcover",
+            "key": "/books/OL9463112M",
+            "authors": [
+                {
+                    "key": "/authors/OL18714A"
+                }
+            ],
+            "subjects": [
+                "Fiction",
+                "Religious - General"
+            ],
+            "isbn_13": [
+                "9781568654904"
+            ],
+            "source_records": [
+                "amazon:1568654901:2-ai:1528060847:275157"
+            ],
+            "title": "When Calls the Heart (Canadian West #1)",
+            "identifiers": {
+                "goodreads": [
+                    "1252190"
+                ],
+                "librarything": [
+                    "96678"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "1568654901"
+            ],
+            "publish_date": "October 1, 1997",
+            "works": [
+                {
+                    "key": "/works/OL97190W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "It came as a great surprise to me."
+            },
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-03-16T16:21:10.757963"
+            }
+        },
+        "/books/OL3297979M": {
+            "publishers": [
+                "Bethany House"
+            ],
+            "number_of_pages": 220,
+            "description": {
+                "type": "/type/text",
+                "value": "\"A lovely eastern schoolteacher faces the frontier with the firm resolve to never marry a rowdy adventurer of the West\"--Provided by publisher."
+            },
+            "isbn_10": [
+                "0764200119"
+            ],
+            "subject_place": [
+                "Canada, Western"
+            ],
+            "pagination": "220 p. ;",
+            "covers": [
+                518431
+            ],
+            "lc_classifications": [
+                "PR9199.3.O38 W5 2005",
+                "PR9199.3.O38W5 2005"
+            ],
+            "key": "/books/OL3297979M",
+            "authors": [
+                {
+                    "key": "/authors/OL18714A"
+                }
+            ],
+            "publish_places": [
+                "Minneapolis, Minn"
+            ],
+            "lccn": [
+                "2004024206"
+            ],
+            "uri_descriptions": [
+                "Table of contents"
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "source_records": [
+                "marc:marc_records_scriblio_net/part15.dat:18660477:1117",
+                "marc:marc_loc_2016/BooksAll.2016.part31.utf8:164320887:1117",
+                "bwb:9780764200113"
+            ],
+            "title": "When calls the heart",
+            "url": [
+                "http://www.loc.gov/catdir/toc/ecip052/2004024206.html"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "389827"
+                ],
+                "librarything": [
+                    "96678"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "subjects": [
+                "Women pioneers -- Fiction",
+                "Canada, Western -- Fiction"
+            ],
+            "publish_date": "2005",
+            "publish_country": "mnu",
+            "series": [
+                "Canadian West ;",
+                "1"
+            ],
+            "by_statement": "Janette Oke.",
+            "oclc_numbers": [
+                "56809664"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL97190W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "uris": [
+                "http://www.loc.gov/catdir/toc/ecip052/2004024206.html"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T05:52:30.950102"
+            }
+        },
+        "/books/OL3504051M": {
+            "publishers": [
+                "Bethany House"
+            ],
+            "number_of_pages": 221,
+            "table_of_contents": [
+                {
+                    "level": 0,
+                    "title": "Elizabeth",
+                    "type": {
+                        "key": "/type/toc_item"
+                    }
+                },
+                {
+                    "level": 0,
+                    "title": "First Step",
+                    "type": {
+                        "key": "/type/toc_item"
+                    }
+                },
+                {
+                    "level": 0,
+                    "title": "On the Way",
+                    "type": {
+                        "key": "/type/toc_item"
+                    }
+                },
+                {
+                    "level": 0,
+                    "title": "Calgary",
+                    "type": {
+                        "key": "/type/toc_item"
+                    }
+                },
+                {
+                    "level": 0,
+                    "title": "Family",
+                    "type": {
+                        "key": "/type/toc_item"
+                    }
+                },
+                {
+                    "level": 0,
+                    "title": "Introductions",
+                    "type": {
+                        "key": "/type/toc_item"
+                    }
+                },
+                {
+                    "level": 0,
+                    "title": "Mr. Higgins' Plan",
+                    "type": {
+                        "key": "/type/toc_item"
+                    }
+                },
+                {
+                    "level": 0,
+                    "title": "The New School",
+                    "type": {
+                        "key": "/type/toc_item"
+                    }
+                },
+                {
+                    "level": 0,
+                    "title": "The Wilderness",
+                    "type": {
+                        "key": "/type/toc_item"
+                    }
+                },
+                {
+                    "level": 0,
+                    "title": "Lars",
+                    "type": {
+                        "key": "/type/toc_item"
+                    }
+                },
+                {
+                    "level": 0,
+                    "title": "The Petersons",
+                    "type": {
+                        "key": "/type/toc_item"
+                    }
+                },
+                {
+                    "level": 0,
+                    "title": "Trip to Town",
+                    "type": {
+                        "key": "/type/toc_item"
+                    }
+                },
+                {
+                    "level": 0,
+                    "title": "Saturday",
+                    "type": {
+                        "key": "/type/toc_item"
+                    }
+                },
+                {
+                    "level": 0,
+                    "title": "Sunday",
+                    "type": {
+                        "key": "/type/toc_item"
+                    }
+                },
+                {
+                    "level": 0,
+                    "title": "School Begins",
+                    "type": {
+                        "key": "/type/toc_item"
+                    }
+                },
+                {
+                    "level": 0,
+                    "title": "Joint Tenants",
+                    "type": {
+                        "key": "/type/toc_item"
+                    }
+                },
+                {
+                    "level": 0,
+                    "title": "Sunday Service",
+                    "type": {
+                        "key": "/type/toc_item"
+                    }
+                },
+                {
+                    "level": 0,
+                    "title": "Letters",
+                    "type": {
+                        "key": "/type/toc_item"
+                    }
+                },
+                {
+                    "level": 0,
+                    "title": "The Living Mouse Trap",
+                    "type": {
+                        "key": "/type/toc_item"
+                    }
+                },
+                {
+                    "level": 0,
+                    "title": "Visitors",
+                    "type": {
+                        "key": "/type/toc_item"
+                    }
+                },
+                {
+                    "level": 0,
+                    "title": "Pupils",
+                    "type": {
+                        "key": "/type/toc_item"
+                    }
+                },
+                {
+                    "level": 0,
+                    "title": "The School Stove",
+                    "type": {
+                        "key": "/type/toc_item"
+                    }
+                },
+                {
+                    "level": 0,
+                    "title": "Plan",
+                    "type": {
+                        "key": "/type/toc_item"
+                    }
+                },
+                {
+                    "level": 0,
+                    "title": "Napolean",
+                    "type": {
+                        "key": "/type/toc_item"
+                    }
+                },
+                {
+                    "level": 0,
+                    "title": "The Box Social",
+                    "type": {
+                        "key": "/type/toc_item"
+                    }
+                },
+                {
+                    "level": 0,
+                    "title": "Andy",
+                    "type": {
+                        "key": "/type/toc_item"
+                    }
+                },
+                {
+                    "level": 0,
+                    "title": "School Break",
+                    "type": {
+                        "key": "/type/toc_item"
+                    }
+                },
+                {
+                    "level": 0,
+                    "title": "Dee",
+                    "type": {
+                        "key": "/type/toc_item"
+                    }
+                },
+                {
+                    "level": 0,
+                    "title": "Return to School",
+                    "type": {
+                        "key": "/type/toc_item"
+                    }
+                },
+                {
+                    "level": 0,
+                    "title": "Christmas Concert",
+                    "type": {
+                        "key": "/type/toc_item"
+                    }
+                },
+                {
+                    "level": 0,
+                    "title": "Christmas Eve",
+                    "type": {
+                        "key": "/type/toc_item"
+                    }
+                },
+                {
+                    "level": 0,
+                    "title": "Christmas Day",
+                    "type": {
+                        "key": "/type/toc_item"
+                    }
+                },
+                {
+                    "level": 0,
+                    "title": "The Confession",
+                    "type": {
+                        "key": "/type/toc_item"
+                    }
+                },
+                {
+                    "level": 0,
+                    "title": "Return to Pine Springs",
+                    "type": {
+                        "key": "/type/toc_item"
+                    }
+                },
+                {
+                    "level": 0,
+                    "title": "Spring",
+                    "type": {
+                        "key": "/type/toc_item"
+                    }
+                },
+                {
+                    "level": 0,
+                    "title": "School Ends",
+                    "type": {
+                        "key": "/type/toc_item"
+                    }
+                }
+            ],
+            "description": "Nothing in her cultured East Coast upbringing prepared Elizabeth for a teaching position on the Canadian frontier. Yet, despite the constant hardships, she loves the children in her care. Determined to do the best job she can and fighting to survive the harsh land, Elizabeth is surprised to find her heart softening towards a certain member of the Royal Canadian Mounted Police.\r\n\r\nHallmark Channel has released a series off the bestselling Author Janette Oke's books, Canadian West. It is called When Calls The Heart, and there are four seasons available, with the fifth being released for purchase in the fall. They haven't decided yet if they are going to release a six season. The series is awesome, full of heartache, joy, and hardships. You all should really watch it!!! :) The Cast is below:\r\nErin Krakow: Elizabeth Thatcher\r\nDaniel Lissing: Constable Jack Thornton\r\nLori Loughlin: Abigail Stanton\r\nEva Bourne: Clara Stanton\r\nAren Bucholz: Jesse Flint\r\nPascale Hutton: Rosemary LeVeaux Coulter\r\nKavan Smith: Leland (Lee) Coulter\r\nMartin Cummins: Henry Gowen\r\nLoretta Walsh: Florence Blakely\r\nJack Wagner: Bill Avery\r\nErica Carrol: Dottie Ramsey\r\nAndrea Brooks: Faith Carter\r\nJohannah Newmarch: Molly Sullivan\r\nMark Humphrey: Pastor Frank Hogan\r\nCharlotte Hegel: Julie Thatcher\r\nKristina Wagner: Nora Avery\r\nChelah Horsdal: Cat Montgomery\r\nPaul Greene: Carson Shepard\r\nBrooke Shields Charlotte Thornton (Guest Star)\r\nAnthony Konechny: Constable Doug Burke",
+            "isbn_10": [
+                "0871236117"
+            ],
+            "subject_place": [
+                "Canada, Western"
+            ],
+            "pagination": "221 p. ;",
+            "covers": [
+                14311949,
+                8147789,
+                8147788,
+                661078
+            ],
+            "lc_classifications": [
+                "PR9199.3.O38 W5 1983"
+            ],
+            "key": "/books/OL3504051M",
+            "authors": [
+                {
+                    "key": "/authors/OL18714A"
+                }
+            ],
+            "ocaid": "whencallsheart00okej",
+            "publish_places": [
+                "Minneapolis, MN"
+            ],
+            "ia_box_id": [
+                "IA131118"
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "classifications": {},
+            "source_records": [
+                "marc:marc_records_scriblio_net/part15.dat:222345772:729",
+                "ia:whencallsheart00okej",
+                "ia:whencallsheart00okej_3pf",
+                "amazon:0871236117",
+                "marc:marc_loc_2016/BooksAll.2016.part14.utf8:42288828:729",
+                "bwb:9780871236111",
+                "promise:bwb_daily_pallets_2022-09-07",
+                "ia:whencallsheart0000okej_j1d6"
+            ],
+            "title": "When Calls the Heart (Canadian West #1)",
+            "lccn": [
+                "82024451"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "954713"
+                ],
+                "librarything": [
+                    "96678"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "subjects": [
+                "Women pioneers -- Fiction",
+                "Canada, Western -- Fiction"
+            ],
+            "publish_date": "1983",
+            "publish_country": "mnu",
+            "by_statement": "Janette Oke.",
+            "works": [
+                {
+                    "key": "/works/OL97190W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:669-BAC-720"
+            ],
+            "latest_revision": 21,
+            "revision": 21,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-05-04T13:11:30.457573"
+            }
+        },
+        "/books/OL1559931M": {
+            "publishers": [
+                "G.K. Hall"
+            ],
+            "number_of_pages": 329,
+            "isbn_10": [
+                "0816153663"
+            ],
+            "subject_place": [
+                "Canada, Western"
+            ],
+            "pagination": "ix, 329 p. (large print) ;",
+            "lc_classifications": [
+                "PR9199.3.O38 W3 1992"
+            ],
+            "latest_revision": 6,
+            "key": "/books/OL1559931M",
+            "authors": [
+                {
+                    "key": "/authors/OL18714A"
+                }
+            ],
+            "publish_places": [
+                "Boston, Mass"
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "source_records": [
+                "marc:marc_records_scriblio_net/part22.dat:26521403:925",
+                "marc:marc_loc_updates/v36.i04.records.utf8:7693481:925",
+                "marc:marc_loc_2016/BooksAll.2016.part21.utf8:26133118:925"
+            ],
+            "title": "When calls the heart",
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "5171623"
+                ],
+                "librarything": [
+                    "96678"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lccn": [
+                "91041013"
+            ],
+            "subjects": [
+                "Large type books",
+                "Women pioneers -- Fiction",
+                "Canada, Western -- Fiction"
+            ],
+            "publish_date": "1992",
+            "publish_country": "mau",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-11-13T11:51:11.922859"
+            },
+            "series": [
+                "Canadian West series ;",
+                "bk. 1",
+                "G.K. Hall large print book series"
+            ],
+            "by_statement": "Janette Oke.",
+            "works": [
+                {
+                    "key": "/works/OL97190W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 6
+        },
+        "/books/OL50896455M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7650717A"
+                }
+            ],
+            "isbn_13": [
+                "9781957398938"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2022",
+            "publishers": [
+                "Ramsower, Jill"
+            ],
+            "source_records": [
+                "bwb:9781957398938"
+            ],
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "title": "Silent Vows",
+            "subtitle": "A Mafia Arranged Marriage Romance",
+            "full_title": "Silent Vows A Mafia Arranged Marriage Romance",
+            "works": [
+                {
+                    "key": "/works/OL29189552W"
+                }
+            ],
+            "key": "/books/OL50896455M",
+            "latest_revision": 1,
+            "revision": 1,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-01-31T22:35:10.022234"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-31T22:35:10.022234"
+            }
+        },
+        "/books/OL50869958M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7650717A"
+                }
+            ],
+            "isbn_13": [
+                "9781957398945"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2022",
+            "publishers": [
+                "Ramsower, Jill"
+            ],
+            "source_records": [
+                "bwb:9781957398945"
+            ],
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "title": "Silent Vows",
+            "subtitle": "A Mafia Arranged Marriage Romance",
+            "full_title": "Silent Vows A Mafia Arranged Marriage Romance",
+            "works": [
+                {
+                    "key": "/works/OL29189552W"
+                }
+            ],
+            "key": "/books/OL50869958M",
+            "latest_revision": 1,
+            "revision": 1,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-01-31T20:46:46.805491"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-31T20:46:46.805491"
+            }
+        },
+        "/books/OL42771760M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7650717A"
+                }
+            ],
+            "isbn_13": [
+                "9781957398709"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2022",
+            "publishers": [
+                "Ramsower, Jill"
+            ],
+            "source_records": [
+                "bwb:9781957398709",
+                "amazon:1957398701"
+            ],
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "title": "Silent Vows",
+            "subtitle": "A Mafia Arranged Marriage Romance",
+            "full_title": "Silent Vows A Mafia Arranged Marriage Romance",
+            "works": [
+                {
+                    "key": "/works/OL29189552W"
+                }
+            ],
+            "key": "/books/OL42771760M",
+            "covers": [
+                13252753
+            ],
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-03T13:24:08.509643"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-04T16:26:15.790452"
+            }
+        },
+        "/books/OL40201003M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7650717A"
+                }
+            ],
+            "isbn_13": [
+                "9781957398303"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2022",
+            "publishers": [
+                "Ramsower, Jill"
+            ],
+            "source_records": [
+                "bwb:9781957398303",
+                "amazon:1957398302"
+            ],
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "title": "Silent Vows",
+            "subtitle": "Special Print Edition",
+            "full_title": "Silent Vows Special Print Edition",
+            "works": [
+                {
+                    "key": "/works/OL29189552W"
+                }
+            ],
+            "key": "/books/OL40201003M",
+            "covers": [
+                13162712
+            ],
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-10-20T05:43:06.259753"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-30T23:57:38.135481"
+            }
+        },
+        "/books/OL40199473M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7650717A"
+                }
+            ],
+            "isbn_13": [
+                "9781957398228"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2022",
+            "publishers": [
+                "Ramsower, Jill"
+            ],
+            "source_records": [
+                "bwb:9781957398228"
+            ],
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "title": "Silent Vows",
+            "subtitle": "A Mafia Arranged Marriage Romance",
+            "full_title": "Silent Vows A Mafia Arranged Marriage Romance",
+            "works": [
+                {
+                    "key": "/works/OL29189552W"
+                }
+            ],
+            "key": "/books/OL40199473M",
+            "latest_revision": 1,
+            "revision": 1,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-10-20T05:29:51.075193"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-10-20T05:29:51.075193"
+            }
+        },
+        "/books/OL40191024M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7650717A"
+                }
+            ],
+            "isbn_13": [
+                "9781957398310"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2022",
+            "publishers": [
+                "Ramsower, Jill"
+            ],
+            "source_records": [
+                "bwb:9781957398310"
+            ],
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "title": "Silent Vows",
+            "subtitle": "A Mafia Arranged Marriage Romance",
+            "full_title": "Silent Vows A Mafia Arranged Marriage Romance",
+            "works": [
+                {
+                    "key": "/works/OL29189552W"
+                }
+            ],
+            "key": "/books/OL40191024M",
+            "latest_revision": 1,
+            "revision": 1,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-10-20T04:15:16.601119"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-10-20T04:15:16.601119"
+            }
+        },
+        "/books/OL6799340M": {
+            "publishers": [
+                "Olmstead Press"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "1751987"
+                ],
+                "librarything": [
+                    "514249"
+                ]
+            },
+            "isbn_10": [
+                "1587541025"
+            ],
+            "subject_place": [
+                "Texas"
+            ],
+            "pagination": "535 p. ;",
+            "covers": [
+                855207
+            ],
+            "lc_classifications": [
+                "PS3554.A29 H45 2000"
+            ],
+            "latest_revision": 9,
+            "key": "/books/OL6799340M",
+            "publish_places": [
+                "Chicago"
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "source_records": [
+                "marc:marc_loc_2016/BooksAll.2016.part01.utf8:54785397:635"
+            ],
+            "title": "Heiress",
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "number_of_pages": 535,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lccn": [
+                "00107329"
+            ],
+            "subjects": [
+                "Sisters -- Fiction.",
+                "Inheritance and succession -- Fiction.",
+                "Texas -- Fiction."
+            ],
+            "publish_date": "2000",
+            "publish_country": "ilu",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-07-29T07:15:35.408544"
+            },
+            "by_statement": "Janet Dailey.",
+            "oclc_numbers": [
+                "45956683"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL14862506W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 9
+        },
+        "/books/OL7461322M": {
+            "publishers": [
+                "Random House Audio"
+            ],
+            "classifications": {},
+            "title": "Heiress",
+            "identifiers": {},
+            "isbn_13": [
+                "9780394570938"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0394570936"
+            ],
+            "publish_date": "June 12, 1988",
+            "key": "/books/OL7461322M",
+            "oclc_numbers": [
+                "18193726"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL14862506W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:0394570936"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-11-17T00:12:42.062831"
+            }
+        },
+        "/books/OL10823905M": {
+            "title": "Heiress",
+            "publish_date": "June 2001",
+            "publishers": [
+                "Chivers Audio Books"
+            ],
+            "physical_format": "Audio Cassette",
+            "contributions": [
+                "Shelley Thompson (Narrator)"
+            ],
+            "isbn_13": [
+                "9780754005933"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0754005933"
+            ],
+            "oclc_numbers": [
+                "173198829"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Modern fiction",
+                "Unabridged Audio - Fiction/General"
+            ],
+            "source_records": [
+                "amazon:0754005933"
+            ],
+            "key": "/books/OL10823905M",
+            "works": [
+                {
+                    "key": "/works/OL14862506W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-18T22:49:59.334416"
+            }
+        },
+        "/books/OL2388928M": {
+            "publishers": [
+                "Thorndike-Magna"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "2161014"
+                ]
+            },
+            "ia_box_id": [
+                "IA133209"
+            ],
+            "isbn_10": [
+                "0896218414"
+            ],
+            "covers": [
+                6758153
+            ],
+            "lc_classifications": [
+                "PS3554.A29 H45 1987b"
+            ],
+            "latest_revision": 10,
+            "key": "/books/OL2388928M",
+            "authors": [
+                {
+                    "key": "/authors/OL21059A"
+                }
+            ],
+            "ocaid": "heiress00dail",
+            "publish_places": [
+                "Thorndike, Me., U.S.A"
+            ],
+            "pagination": "809 p. (large print) ;",
+            "source_records": [
+                "marc:marc_records_scriblio_net/part19.dat:90580675:632",
+                "marc:marc_loc_updates/v36.i04.records.utf8:5865782:622",
+                "ia:heiress00dail"
+            ],
+            "title": "Heiress",
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "\"Thorndike-Magna large print\"--P. [4] of cover."
+            },
+            "number_of_pages": 809,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lccn": [
+                "87018112"
+            ],
+            "subjects": [
+                "Large type books"
+            ],
+            "publish_date": "1987",
+            "publish_country": "meu",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-05-16T18:58:15.795715"
+            },
+            "by_statement": "Janet Dailey.",
+            "works": [
+                {
+                    "key": "/works/OL14862506W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 10
+        },
+        "/books/OL24290063M": {
+            "publishers": [
+                "ereads.com"
+            ],
+            "physical_format": "E-book",
+            "source_records": [
+                "marc_overdrive/InternetArchiveCrMarc-2010-06-11j.mrc:1086261:1910",
+                "bwb:9780759263598"
+            ],
+            "title": "Heiress",
+            "identifiers": {
+                "overdrive": [
+                    "7F6022DF-F86F-42C7-9981-7AEC58EEB6A6"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0759263590"
+            ],
+            "publish_date": "2001",
+            "publish_country": "nyu",
+            "key": "/books/OL24290063M",
+            "oclc_numbers": [
+                "53866900"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL14862506W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_places": [
+                "New York"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-06-23T00:42:51.010396"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-07-17T12:34:18.239327"
+            }
+        },
+        "/books/OL18393314M": {
+            "publishers": [
+                "Sphere"
+            ],
+            "pagination": "550p.",
+            "identifiers": {
+                "librarything": [
+                    "514249"
+                ]
+            },
+            "title": "Heiress.",
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "number_of_pages": 550,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0747401233"
+            ],
+            "publish_date": "1989",
+            "publish_country": "xxk",
+            "key": "/books/OL18393314M",
+            "authors": [
+                {
+                    "key": "/authors/OL21059A"
+                }
+            ],
+            "publish_places": [
+                "Harmondsworth"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL14862506W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "bwb:9780747401230"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-16T12:50:19.820170"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-09-16T14:29:43.354603"
+            }
+        },
+        "/books/OL19952032M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Originally published, London , MichaelJoseph, 1987."
+            },
+            "title": "Heiress",
+            "publish_date": "1987",
+            "publishers": [
+                "Book Club Associates"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_country": "enk",
+            "by_statement": "Janet Dailey.",
+            "publish_places": [
+                "London"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:2721505258:436"
+            ],
+            "key": "/books/OL19952032M",
+            "works": [
+                {
+                    "key": "/works/OL14862506W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-24T22:13:29.563568"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-28T14:59:49.716178"
+            }
+        },
+        "/books/OL16711922M": {
+            "publishers": [
+                "Magna Print"
+            ],
+            "lc_classifications": [
+                "PS3554.A29"
+            ],
+            "key": "/books/OL16711922M",
+            "authors": [
+                {
+                    "key": "/authors/OL21059A"
+                }
+            ],
+            "publish_places": [
+                "Long Preston"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "(810)p.,(large print) ;",
+            "title": "Heiress",
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Originally published, London, Michael Joseph, 1987."
+            },
+            "number_of_pages": 810,
+            "edition_name": "Large print ed.",
+            "isbn_10": [
+                "1850573441"
+            ],
+            "publish_date": "1988",
+            "publish_country": "xxk",
+            "by_statement": "Janet Dailey.",
+            "works": [
+                {
+                    "key": "/works/OL14862506W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:KG-096-255"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-05-28"
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-25T18:07:21.637874"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-14T18:49:30.491484"
+            }
+        },
+        "/books/OL18188157M": {
+            "publishers": [
+                "Warner"
+            ],
+            "number_of_pages": 550,
+            "key": "/books/OL18188157M",
+            "authors": [
+                {
+                    "key": "/authors/OL21059A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "550p. ;",
+            "title": "Heiress",
+            "notes": {
+                "type": "/type/text",
+                "value": "Originally published, Michael Joseph, 1987."
+            },
+            "identifiers": {
+                "librarything": [
+                    "514249"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0751502979"
+            ],
+            "publish_date": "1992",
+            "publish_country": "xxk",
+            "by_statement": "Janet Dailey.",
+            "works": [
+                {
+                    "key": "/works/OL14862506W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "bwb:9780751502978"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-11T19:57:36.547887"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-09-15T11:22:48.317151"
+            }
+        },
+        "/books/OL24975441M": {
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "ia_box_id": [
+                "IA121722"
+            ],
+            "series": [
+                "Harlequin Romance -- 2999"
+            ],
+            "covers": [
+                6894194
+            ],
+            "full_title": "The hungry heart",
+            "key": "/books/OL24975441M",
+            "authors": [
+                {
+                    "key": "/authors/OL1175057A"
+                }
+            ],
+            "publish_places": [
+                "Toronto",
+                "New York"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "188 p. ;",
+            "source_records": [
+                "ia:hungryheart00waym"
+            ],
+            "title": "The Hungry Heart",
+            "number_of_pages": 188,
+            "edition_name": "Harlequin Romance 1st ed.",
+            "publish_date": "1989",
+            "publish_country": "onc",
+            "copyright_date": "1988",
+            "by_statement": "Margaret Way",
+            "works": [
+                {
+                    "key": "/works/OL5236136W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "ocaid": "hungryheart00waym",
+            "isbn_10": [
+                "0373029993"
+            ],
+            "isbn_13": [
+                "9780373029990"
+            ],
+            "oclc_numbers": [
+                "20115701"
+            ],
+            "classifications": {},
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2011-08-23T00:24:32.295110"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-03T11:45:41.932569"
+            }
+        },
+        "/books/OL29242991M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781408998168"
+            ],
+            "title": "Payment in Love",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781408998168"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Payment in Love",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2013",
+            "key": "/books/OL29242991M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3759170W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-23T19:25:05.799113"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-02T22:03:46.156840"
+            }
+        },
+        "/books/OL18920296M": {
+            "identifiers": {
+                "librarything": [
+                    "5296071"
+                ]
+            },
+            "title": "Payment in Love",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "publish_date": "1988",
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "series": [
+                "Romance"
+            ],
+            "publish_places": [
+                "Richmond"
+            ],
+            "pagination": "187p.",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_country": "xxk",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_10": [
+                "0263759253"
+            ],
+            "oclc_numbers": [
+                "154273065"
+            ],
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:2287073051:425"
+            ],
+            "key": "/books/OL18920296M",
+            "number_of_pages": 187,
+            "works": [
+                {
+                    "key": "/works/OL3759170W"
+                }
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-20T13:22:29.546047"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-30T18:46:17.371915"
+            }
+        },
+        "/books/OL9744675M": {
+            "publishers": [
+                "John Curley & Assoc"
+            ],
+            "number_of_pages": 288,
+            "weight": "1 pounds",
+            "physical_format": "Hardcover",
+            "key": "/books/OL9744675M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "subjects": [
+                "Romance",
+                "Large Print"
+            ],
+            "edition_name": "Large Print Edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "bwb:9780263129380"
+            ],
+            "title": "Payment in Love",
+            "identifiers": {
+                "goodreads": [
+                    "7244973"
+                ]
+            },
+            "publish_date": "June 1991",
+            "works": [
+                {
+                    "key": "/works/OL3759170W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.5 x 5.5 x 1 inches",
+            "isbn_10": [
+                "0263129381"
+            ],
+            "isbn_13": [
+                "9780263129380"
+            ],
+            "oclc_numbers": [
+                "24363794"
+            ],
+            "classifications": {},
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T11:45:50.070437"
+            }
+        },
+        "/books/OL9711285M": {
+            "publishers": [
+                "harlequin"
+            ],
+            "number_of_pages": 187,
+            "series": [
+                "Harlequin Presents, No 1314"
+            ],
+            "covers": [
+                7248487
+            ],
+            "physical_format": "Mass Market Paperback",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-08-27T16:04:11.569951"
+            },
+            "latest_revision": 10,
+            "key": "/books/OL9711285M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "subjects": [
+                "Non-Classifiable",
+                "Romance - General",
+                "Fiction",
+                "Nonfiction - General",
+                "Romance: Regency"
+            ],
+            "isbn_13": [
+                "9780373113149"
+            ],
+            "classifications": {},
+            "source_records": [
+                "bwb:9780373113149"
+            ],
+            "title": "Payment in Love",
+            "identifiers": {
+                "goodreads": [
+                    "2692198"
+                ],
+                "librarything": [
+                    "5296071"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373113145"
+            ],
+            "publish_date": "January 1, 1988",
+            "oclc_numbers": [
+                "22508870"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3759170W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 10
+        },
+        "/books/OL38268665M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "isbn_13": [
+                "9781283674898"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2013",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781283674898"
+            ],
+            "title": "Two Weeks to Remember",
+            "full_title": "Two Weeks to Remember",
+            "works": [
+                {
+                    "key": "/works/OL3457912W"
+                }
+            ],
+            "key": "/books/OL38268665M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-17T11:21:50.676167"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-08T22:02:55.188172"
+            }
+        },
+        "/books/OL37392591M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "isbn_13": [
+                "9781459239616"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2012",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781459239616"
+            ],
+            "title": "Two Weeks to Remember",
+            "full_title": "Two Weeks to Remember",
+            "works": [
+                {
+                    "key": "/works/OL3457912W"
+                }
+            ],
+            "key": "/books/OL37392591M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-03-01T06:38:47.748938"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-08T22:02:55.188172"
+            }
+        },
+        "/books/OL29570315M": {
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "source_records": [
+                "bwb:9780373199679"
+            ],
+            "title": "Two Weeks to Remember",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9780373199679"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Two Weeks to Remember",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2010",
+            "key": "/books/OL29570315M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3457912W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-28T04:53:39.395308"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-08T22:02:55.188172"
+            }
+        },
+        "/books/OL29127333M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781408982747"
+            ],
+            "title": "Two Weeks to Remember",
+            "number_of_pages": 220,
+            "isbn_13": [
+                "9781408982747"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Two Weeks to Remember",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2012",
+            "key": "/books/OL29127333M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3457912W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-22T09:28:28.473113"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-08T22:02:55.188172"
+            }
+        },
+        "/books/OL9351046M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Soundings S."
+            },
+            "title": "Two Weeks to Remember",
+            "publish_date": "December 1999",
+            "publishers": [
+                "Soundings"
+            ],
+            "physical_format": "Audio cassette",
+            "contributions": [
+                "Margaret Holt (Narrator)"
+            ],
+            "isbn_13": [
+                "9781860426995"
+            ],
+            "isbn_10": [
+                "1860426999"
+            ],
+            "oclc_numbers": [
+                "173194827"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "General & Literary Fiction",
+                "Romance"
+            ],
+            "source_records": [
+                "amazon:1860426999"
+            ],
+            "key": "/books/OL9351046M",
+            "works": [
+                {
+                    "key": "/works/OL3457912W"
+                }
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-26T14:29:01.940320"
+            }
+        },
+        "/books/OL22341259M": {
+            "publishers": [
+                "Mills & Boon",
+                "Harlequin Mills & Boon Ltd"
+            ],
+            "pagination": "288p. ;",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "title": "Consolation prize.",
+            "number_of_pages": 288,
+            "edition_name": "Large Print ed.",
+            "isbn_10": [
+                "0263122603"
+            ],
+            "publish_date": "1990",
+            "publish_country": "xxk",
+            "key": "/books/OL22341259M",
+            "authors": [
+                {
+                    "key": "/authors/OL589216A"
+                }
+            ],
+            "publish_places": [
+                "Richmond"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3519296W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "oclc_numbers": [
+                "154108404"
+            ],
+            "covers": [
+                13879527
+            ],
+            "source_records": [
+                "amazon:0263122603"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-10T22:47:54.645485"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-04-10T03:39:58.814532"
+            }
+        },
+        "/books/OL1974433M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "lc_classifications": [
+                "MLCS 90/15161 (P)"
+            ],
+            "latest_revision": 5,
+            "key": "/books/OL1974433M",
+            "authors": [
+                {
+                    "key": "/authors/OL589216A"
+                }
+            ],
+            "publish_places": [
+                "Richmond, Surrey"
+            ],
+            "pagination": "187 p. ;",
+            "source_records": [
+                "bwb:9780263122411",
+                "marc:marc_loc_2016/BooksAll.2016.part20.utf8:161321866:457"
+            ],
+            "title": "Consolation prize",
+            "lccn": [
+                "90214796"
+            ],
+            "number_of_pages": 187,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263122417"
+            ],
+            "publish_date": "1989",
+            "publish_country": "enk",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-11-12T12:02:03.594825"
+            },
+            "by_statement": "by Catherine George.",
+            "oclc_numbers": [
+                "21188300"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3519296W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 5
+        },
+        "/books/OL9734985M": {
+            "identifiers": {
+                "goodreads": [
+                    "2568082"
+                ],
+                "librarything": [
+                    "1690942"
+                ]
+            },
+            "title": "Baby Secret  (Expecting) (Harlequin Presents, No. 2004)",
+            "authors": [
+                {
+                    "key": "/authors/OL2624482A"
+                }
+            ],
+            "publish_date": "December 1, 1998",
+            "publishers": [
+                "Harlequin"
+            ],
+            "weight": "3.2 ounces",
+            "covers": [
+                214607
+            ],
+            "physical_format": "Paperback",
+            "ocaid": "isbn_9780373120048",
+            "subjects": [
+                "Romance - General",
+                "Non-Classifiable",
+                "Romance - Contemporary",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern"
+            ],
+            "isbn_13": [
+                "9780373120048"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-03-17:W7-BFD-953",
+                "bwb:9780373120048",
+                "promise:bwb_daily_pallets_2020-12-15:W6-BRM-785"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373120044"
+            ],
+            "oclc_numbers": [
+                "40151691"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.8 x 4.5 x 0.5 inches",
+            "local_id": [
+                "urn:bwbsku:W7-BFD-953",
+                "urn:bwbsku:W6-BRM-785"
+            ],
+            "key": "/books/OL9734985M",
+            "number_of_pages": 186,
+            "works": [
+                {
+                    "key": "/works/OL17306213W"
+                }
+            ],
+            "latest_revision": 14,
+            "revision": 14,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T16:13:21.748728"
+            }
+        },
+        "/books/OL24307971M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "physical_format": "eBook",
+            "source_records": [
+                "marc:marc_overdrive/InternetArchiveCrMarc-2010-06-11f.mrc:6537468:1873",
+                "bwb:9781552548080"
+            ],
+            "title": "The Forced Bride",
+            "identifiers": {
+                "overdrive": [
+                    "F00C0446-EBE8-4729-AC23-4DF27087B3C1"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2007",
+            "publish_country": "nyu",
+            "key": "/books/OL24307971M",
+            "publish_places": [
+                "Toronto, Ontario"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3467511W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781552548080"
+            ],
+            "oclc_numbers": [
+                "84956704"
+            ],
+            "classifications": {},
+            "series": [
+                "Wedlocked!"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-06-30T07:40:32.868883"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-16T18:48:28.485058"
+            }
+        },
+        "/books/OL29800751M": {
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "source_records": [
+                "bwb:9781488051432"
+            ],
+            "title": "Wade Dynasty",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781488051432"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Wade Dynasty",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2019",
+            "key": "/books/OL29800751M",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3775456W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-31T09:32:30.836525"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-29T02:37:10.396458"
+            }
+        },
+        "/books/OL10280793M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Mills & Boon Best Seller (reissues)"
+            },
+            "identifiers": {
+                "goodreads": [
+                    "2665855"
+                ],
+                "librarything": [
+                    "2018563"
+                ]
+            },
+            "title": "Golden Fever",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "publish_date": "September 13, 1991",
+            "publishers": [
+                "Harlequin Mills & Boon"
+            ],
+            "series": [
+                "Mills & Boon Best Seller #685"
+            ],
+            "physical_format": "Paperback",
+            "subjects": [
+                "Romance"
+            ],
+            "isbn_13": [
+                "9780263774467"
+            ],
+            "isbn_10": [
+                "0263774465"
+            ],
+            "copyright_date": "1982",
+            "oclc_numbers": [
+                "220955272"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:0263774465"
+            ],
+            "key": "/books/OL10280793M",
+            "number_of_pages": 192,
+            "works": [
+                {
+                    "key": "/works/OL3775427W"
+                }
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-26T14:41:50.574225"
+            }
+        },
+        "/books/OL10738199M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "The pages of this ebook take a VERY long time to load."
+            },
+            "identifiers": {
+                "goodreads": [
+                    "1311201"
+                ],
+                "librarything": [
+                    "2018563"
+                ]
+            },
+            "title": "Golden Fever",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "publish_date": "March 1983",
+            "publishers": [
+                "Harlequin"
+            ],
+            "isbn_10": [
+                "0373105797"
+            ],
+            "covers": [
+                9853909
+            ],
+            "physical_format": "Paperback",
+            "ocaid": "goldenfever00caro",
+            "publish_places": [
+                "USA"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-04-27:W7-CCL-114",
+                "bwb:9780373105793",
+                "promise:bwb_daily_pallets_2021-06-28:O7-DGG-560",
+                "promise:bwb_daily_pallets_2021-04-06:387-BAC-513"
+            ],
+            "isbn_13": [
+                "9780373105793"
+            ],
+            "edition_name": "Harlequin Presents #579",
+            "subjects": [
+                "Non-Classifiable",
+                "Nonfiction - General"
+            ],
+            "copyright_date": "1982",
+            "oclc_numbers": [
+                "9248560"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:W7-CCL-114",
+                "urn:bwbsku:O7-DGG-560",
+                "urn:bwbsku:387-BAC-513"
+            ],
+            "key": "/books/OL10738199M",
+            "number_of_pages": 192,
+            "works": [
+                {
+                    "key": "/works/OL3775427W"
+                }
+            ],
+            "latest_revision": 18,
+            "revision": 18,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T14:30:19.770547"
+            }
+        },
+        "/books/OL38368112M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2014",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781460346181"
+            ],
+            "subjects": [
+                "Fiction, general"
+            ],
+            "title": "White Rose of Winter",
+            "full_title": "White Rose of Winter",
+            "works": [
+                {
+                    "key": "/works/OL3771252W"
+                }
+            ],
+            "key": "/books/OL38368112M",
+            "identifiers": {},
+            "isbn_13": [
+                "9781460346181"
+            ],
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-18T14:03:59.349733"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL38289853M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2014",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781322087221"
+            ],
+            "subjects": [
+                "Fiction, general"
+            ],
+            "title": "White Rose of Winter",
+            "full_title": "White Rose of Winter",
+            "works": [
+                {
+                    "key": "/works/OL3771252W"
+                }
+            ],
+            "key": "/books/OL38289853M",
+            "identifiers": {},
+            "isbn_13": [
+                "9781322087221"
+            ],
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-17T16:27:09.570865"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL49930831M": {
+            "works": [
+                {
+                    "key": "/works/OL3771252W"
+                }
+            ],
+            "title": "White Rose Of Winter",
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "publish_date": "1973",
+            "key": "/books/OL49930831M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                14544650
+            ],
+            "isbn_10": [
+                "0263714942"
+            ],
+            "classifications": {},
+            "publish_places": [
+                "London"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "physical_format": "Paperback",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-11-15T15:18:08.054435"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-15T15:18:45.781482"
+            }
+        },
+        "/books/OL8831673M": {
+            "publishers": [
+                "Oasis Audio"
+            ],
+            "weight": "5.4 ounces",
+            "covers": [
+                1965291
+            ],
+            "edition_name": "Abridged edition",
+            "physical_format": "Audio cassette",
+            "key": "/books/OL8831673M",
+            "subjects": [
+                "Fiction",
+                "Abridged Audio - Fiction/General",
+                "Audio Adult: Books On Tape",
+                "Christian - Romance/Contemporary",
+                "Religious - Romance/Contemporary",
+                "Religious - General"
+            ],
+            "isbn_13": [
+                "9781589260047"
+            ],
+            "source_records": [
+                "amazon:158926004X:fs:4411058086:236373"
+            ],
+            "title": "When Calls the Heart (Secrets of Heathersleigh Hall)",
+            "identifiers": {
+                "librarything": [
+                    "96678"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "158926004X"
+            ],
+            "publish_date": "January 2001",
+            "works": [
+                {
+                    "key": "/works/OL97190W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "7 x 4.5 x 0.8 inches",
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T08:14:56.482104"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-03-16T16:21:10.757963"
+            }
+        },
+        "/books/OL10151154M": {
+            "publishers": [
+                "Bantam Doubleday Direct"
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL10151154M",
+            "authors": [
+                {
+                    "key": "/authors/OL18714A"
+                }
+            ],
+            "subjects": [
+                "Canada",
+                "Christian fiction",
+                "Fiction",
+                "Love stories"
+            ],
+            "edition_name": "Janette Oke Collection edition",
+            "source_records": [
+                "amazon:0385484801"
+            ],
+            "title": "When Calls the Heart (Canadian West #1)",
+            "number_of_pages": 221,
+            "isbn_13": [
+                "9780385484800"
+            ],
+            "isbn_10": [
+                "0385484801"
+            ],
+            "publish_date": "1995",
+            "oclc_numbers": [
+                "37013884"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL97190W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "It came as a great surprise to me."
+            },
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-03-16T16:21:10.757963"
+            }
+        },
+        "/books/OL9498656M": {
+            "publishers": [
+                "Northstar Audio Books Inc"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "amazon:9991165746:2-ak:941199506:238248"
+            ],
+            "weight": "10.4 ounces",
+            "title": "When Calls the Heart (Canadian West #1)",
+            "isbn_13": [
+                "9789991165745"
+            ],
+            "physical_format": "Audio cassette",
+            "isbn_10": [
+                "9991165746"
+            ],
+            "publish_date": "December 1990",
+            "key": "/books/OL9498656M",
+            "works": [
+                {
+                    "key": "/works/OL97190W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Audio Adult: Books On Tape"
+            ],
+            "physical_dimensions": "8.8 x 5.1 x 1.2 inches",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-03-16T16:21:10.757963"
+            }
+        },
+        "/books/OL9788908M": {
+            "weight": "9.6 ounces",
+            "covers": [
+                5013956
+            ],
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "It came as a great surprise to me."
+            },
+            "source_records": [
+                "amazon:0785745696:2-at:4169149383:276452",
+                "amazon:0785745696"
+            ],
+            "title": "When Calls the Heart (Canadian West #1)",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Western stories",
+                "Fiction",
+                "Fiction - Religious",
+                "Children: Young Adult (Gr. 7-9)",
+                "Women pioneers",
+                "Christian - General",
+                "Christian fiction",
+                "Canada, Western"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "7.9 x 4.7 x 0.8 inches",
+            "publishers": [
+                "Tandem Library"
+            ],
+            "physical_format": "Library Binding",
+            "key": "/books/OL9788908M",
+            "authors": [
+                {
+                    "key": "/authors/OL18714A"
+                }
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "5171636"
+                ]
+            },
+            "isbn_13": [
+                "9780785745693"
+            ],
+            "isbn_10": [
+                "0785745696"
+            ],
+            "publish_date": "October 1999",
+            "works": [
+                {
+                    "key": "/works/OL97190W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-08-04T21:30:49.245276"
+            }
+        },
+        "/books/OL50789520M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7650717A"
+                }
+            ],
+            "isbn_13": [
+                "9781957398952"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2022",
+            "publishers": [
+                "Ramsower, Jill"
+            ],
+            "source_records": [
+                "bwb:9781957398952"
+            ],
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "title": "Silent Vows",
+            "subtitle": "A Mafia Arranged Marriage Romance",
+            "full_title": "Silent Vows A Mafia Arranged Marriage Romance",
+            "works": [
+                {
+                    "key": "/works/OL29189552W"
+                }
+            ],
+            "key": "/books/OL50789520M",
+            "latest_revision": 1,
+            "revision": 1,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-01-31T14:38:32.731256"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-31T14:38:32.731256"
+            }
+        },
+        "/books/OL46410669M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7650717A"
+                }
+            ],
+            "isbn_13": [
+                "9781957398532"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2022",
+            "publishers": [
+                "Ramsower, Jill",
+                "Jill Ramsower"
+            ],
+            "source_records": [
+                "bwb:9781957398532",
+                "amazon:1957398531"
+            ],
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "title": "Silent Vows",
+            "subtitle": "Special Print Edition",
+            "full_title": "Silent Vows Special Print Edition",
+            "works": [
+                {
+                    "key": "/works/OL29189552W"
+                }
+            ],
+            "key": "/books/OL46410669M",
+            "covers": [
+                13579133
+            ],
+            "number_of_pages": 348,
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-01-18T02:35:43.477165"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-03-17T22:08:57.545594"
+            }
+        },
+        "/books/OL40201004M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7650717A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2022",
+            "publishers": [
+                "Ramsower, Jill"
+            ],
+            "source_records": [
+                "bwb:9781957398297",
+                "amazon:1957398299"
+            ],
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "title": "Silent Vows",
+            "full_title": "Silent Vows Special Print Edition",
+            "works": [
+                {
+                    "key": "/works/OL29189552W"
+                }
+            ],
+            "key": "/books/OL40201004M",
+            "covers": [
+                13011571,
+                -1
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9781957398297"
+            ],
+            "classifications": {},
+            "edition_name": "Special Print Edition",
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-10-20T05:43:06.747976"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-20T13:28:52.208254"
+            }
+        },
+        "/books/OL40149006M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7650717A"
+                }
+            ],
+            "isbn_13": [
+                "9781957398280"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2022",
+            "publishers": [
+                "Ramsower, Jill",
+                "Jill Ramsower"
+            ],
+            "source_records": [
+                "bwb:9781957398280",
+                "amazon:1957398280"
+            ],
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "title": "Silent Vows",
+            "subtitle": "A Mafia Arranged Marriage Romance",
+            "full_title": "Silent Vows A Mafia Arranged Marriage Romance",
+            "works": [
+                {
+                    "key": "/works/OL29189552W"
+                }
+            ],
+            "key": "/books/OL40149006M",
+            "covers": [
+                13287231
+            ],
+            "number_of_pages": 348,
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-10-19T21:40:58.237105"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-10T21:40:29.912957"
+            }
+        },
+        "/books/OL2733313M": {
+            "identifiers": {
+                "librarything": [
+                    "514249"
+                ],
+                "goodreads": [
+                    "3768652"
+                ],
+                "amazon": [
+                    ""
+                ]
+            },
+            "title": "Heiress",
+            "subtitle": "a novel",
+            "publish_date": "1987",
+            "publishers": [
+                "Little, Brown",
+                "Little Brown & Co (T)"
+            ],
+            "isbn_10": [
+                "0316170925"
+            ],
+            "covers": [
+                15140605,
+                15140596,
+                9394268
+            ],
+            "lc_classifications": [
+                "PS3554.A29 H45 1987"
+            ],
+            "ocaid": "heires0000unse",
+            "publish_places": [
+                "Boston"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "477 p. ;",
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-06-28:W6-BDS-836",
+                "marc:marc_records_scriblio_net/part18.dat:165497539:539",
+                "marc:CollingswoodLibraryMarcDump10-27-2008/Collingswood.out:6244477:942",
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run01.mrc:58061963:1387",
+                "ia:heires0000unse",
+                "marc:marc_loc_2016/BooksAll.2016.part17.utf8:60103910:529",
+                "amazon:0316170925",
+                "bwb:9780316170925",
+                "promise:bwb_daily_pallets_2021-06-28:W6-AHD-305",
+                "promise:bwb_daily_pallets_2021-06-28:W6-BDA-707",
+                "promise:bwb_daily_pallets_2021-06-28:O7-BPN-486",
+                "promise:bwb_daily_pallets_2021-04-06:O7-ARZ-208",
+                "promise:bwb_daily_pallets_2021-03-08:926-BAB-640",
+                "promise:bwb_daily_pallets_2021-01-06:O7-AWD-707",
+                "promise:bwb_daily_pallets_2021-01-06:O7-AXF-236",
+                "promise:bwb_daily_pallets_2020-11-16:P6-AIT-884",
+                "promise:bwb_daily_pallets_2020-04-09:P4-AOU-918",
+                "marc:marc_columbia/Columbia-extract-20221130-002.mrc:113877813:866",
+                "marc:harvard_bibliographic_metadata/ab.bib.01.20150123.full.mrc:323049897:553"
+            ],
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "edition_name": "1st ed.",
+            "lccn": [
+                "86027538"
+            ],
+            "local_id": [
+                "urn:bwbsku:W6-BDS-836",
+                "urn:sfpl:31223094988624",
+                "urn:bwbsku:W6-AHD-305",
+                "urn:bwbsku:W6-BDA-707",
+                "urn:bwbsku:O7-BPN-486",
+                "urn:bwbsku:O7-ARZ-208",
+                "urn:bwbsku:926-BAB-640",
+                "urn:bwbsku:O7-AWD-707",
+                "urn:bwbsku:O7-AXF-236",
+                "urn:bwbsku:P6-AIT-884",
+                "urn:bwbsku:P4-AOU-918"
+            ],
+            "publish_country": "mau",
+            "by_statement": "by Janet Dailey.",
+            "type": {
+                "key": "/type/edition"
+            },
+            "key": "/books/OL2733313M",
+            "number_of_pages": 477,
+            "works": [
+                {
+                    "key": "/works/OL14862506W"
+                }
+            ],
+            "oclc_numbers": [
+                "14904904"
+            ],
+            "latest_revision": 37,
+            "revision": 37,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-08T20:17:16.636482"
+            }
+        },
+        "/books/OL9548119M": {
+            "identifiers": {
+                "goodreads": [
+                    "7018654"
+                ]
+            },
+            "title": "Heiress",
+            "publish_date": "September 2003",
+            "publishers": [
+                "Sound Library"
+            ],
+            "weight": "1.4 pounds",
+            "edition_name": "Unabridged edition",
+            "physical_format": "Audio CD",
+            "contributions": [
+                "Shelley Thompson (Narrator)"
+            ],
+            "subjects": [
+                "Fiction",
+                "Abridged Audio - Fiction/Romance",
+                "Audio Adult: Books On Tape",
+                "Romance - General",
+                "Short Stories (single author)"
+            ],
+            "isbn_13": [
+                "9780792730675"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0792730674"
+            ],
+            "oclc_numbers": [
+                "53180342"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "7.2 x 6.5 x 1.5 inches",
+            "source_records": [
+                "amazon:0792730674"
+            ],
+            "key": "/books/OL9548119M",
+            "works": [
+                {
+                    "key": "/works/OL14862506W"
+                }
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-29T19:50:14.251415"
+            }
+        },
+        "/books/OL7564106M": {
+            "identifiers": {
+                "goodreads": [
+                    "3052586"
+                ],
+                "librarything": [
+                    "514249"
+                ]
+            },
+            "title": "Heiress",
+            "authors": [
+                {
+                    "key": "/authors/OL21059A"
+                }
+            ],
+            "publish_date": "May 12, 1988",
+            "publishers": [
+                "Ivy Books"
+            ],
+            "isbn_13": [
+                "9780449134368"
+            ],
+            "covers": [
+                4635550
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0449134369"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:0449134369"
+            ],
+            "key": "/books/OL7564106M",
+            "works": [
+                {
+                    "key": "/works/OL14862506W"
+                }
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-05-11T22:38:29.458457"
+            }
+        },
+        "/books/OL9476143M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Chivers Sound Library"
+            },
+            "title": "Heiress",
+            "publish_date": "February 2001",
+            "publishers": [
+                "Sound Library"
+            ],
+            "weight": "1.8 pounds",
+            "physical_format": "Audio Cassette",
+            "contributions": [
+                "Shelley Thompson (Narrator)"
+            ],
+            "subjects": [
+                "Romance - Contemporary",
+                "Audiobooks",
+                "Fiction",
+                "Abridged Audio - Fiction/Religious",
+                "Audio Adult: Books On Tape",
+                "General"
+            ],
+            "edition_name": "Unabridged edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_13": [
+                "9780792724483"
+            ],
+            "isbn_10": [
+                "0792724488"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9 x 6.5 x 2.5 inches",
+            "source_records": [
+                "amazon:0792724488"
+            ],
+            "key": "/books/OL9476143M",
+            "works": [
+                {
+                    "key": "/works/OL14862506W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-02-16T13:00:51.750450"
+            }
+        },
+        "/books/OL17464917M": {
+            "publishers": [
+                "Michael Joseph"
+            ],
+            "number_of_pages": 476,
+            "covers": [
+                10384621
+            ],
+            "lc_classifications": [
+                "PS3554.A29"
+            ],
+            "key": "/books/OL17464917M",
+            "authors": [
+                {
+                    "key": "/authors/OL21059A"
+                }
+            ],
+            "ocaid": "heiress0000dail",
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "476p. ;",
+            "source_records": [
+                "ia:heiress0000dail",
+                "bwb:9780718128579"
+            ],
+            "title": "Heiress",
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "1751991"
+                ],
+                "librarything": [
+                    "514249"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0718128575"
+            ],
+            "publish_date": "1987",
+            "publish_country": "enk",
+            "by_statement": "Janet Dailey.",
+            "oclc_numbers": [
+                "16090142"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL14862506W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-28T22:11:06.257335"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-11-17T15:00:04.767572"
+            }
+        },
+        "/books/OL24752693M": {
+            "description": {
+                "type": "/type/text",
+                "value": "Rivals for their father's love, social position, and rightful claim to the large family fortune, two beautiful sisters are bound together by a fateful secret--one of them is illegitimate."
+            },
+            "notes": {
+                "type": "/type/text",
+                "value": "\"Thorndike-Magna large print\"--P. [4] of cover."
+            },
+            "identifiers": {
+                "goodreads": [
+                    "3052586"
+                ]
+            },
+            "title": "Heiress",
+            "publish_date": "1987",
+            "publishers": [
+                "Thorndike-Magna",
+                "Thorndike Pr"
+            ],
+            "ia_box_id": [
+                "IA133209"
+            ],
+            "covers": [
+                6806437
+            ],
+            "full_title": "Heiress",
+            "publish_places": [
+                "Thorndike, Me., U.S.A"
+            ],
+            "pagination": "809 p. (large print) ;",
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-07-19:P7-COS-834",
+                "ia:heiress00dail",
+                "marc:marc_loc_2016/BooksAll.2016.part18.utf8:5355719:622",
+                "amazon:0896218414",
+                "promise:bwb_daily_pallets_2021-06-28:O7-CJG-230"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Large type books"
+            ],
+            "publish_country": "meu",
+            "by_statement": "Janet Dailey",
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "heiress00dail",
+            "isbn_10": [
+                "0896218414",
+                "1850573441"
+            ],
+            "isbn_13": [
+                "9780896218413",
+                "9781850573449"
+            ],
+            "lccn": [
+                "87018112"
+            ],
+            "oclc_numbers": [
+                "16832294"
+            ],
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "lc_classifications": [
+                "PS3554.A29 H45 1987b"
+            ],
+            "local_id": [
+                "urn:bwbsku:P7-COS-834",
+                "urn:bwbsku:O7-CJG-230"
+            ],
+            "key": "/books/OL24752693M",
+            "number_of_pages": 809,
+            "works": [
+                {
+                    "key": "/works/OL14862506W"
+                }
+            ],
+            "latest_revision": 15,
+            "revision": 15,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2011-07-09T08:15:42.212626"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T12:46:50.093741"
+            }
+        },
+        "/books/OL24939446M": {
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "ia_box_id": [
+                "IA121722"
+            ],
+            "series": [
+                "Harlequin Romance -- 2999"
+            ],
+            "ia_loaded_id": [
+                "hungryheart00waym"
+            ],
+            "key": "/books/OL24939446M",
+            "authors": [
+                {
+                    "key": "/authors/OL1175057A"
+                }
+            ],
+            "publish_places": [
+                "Toronto",
+                "New York"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "188 p. ;",
+            "source_records": [
+                "ia:hungryheart00waym",
+                "bwb:9780373029990",
+                "marc:marc_loc_2016/BooksAll.2016.part27.utf8:176915094:798",
+                "promise:bwb_daily_pallets_2021-08-12",
+                "promise:bwb_daily_pallets_2021-06-28"
+            ],
+            "title": "The Hungry Heart",
+            "number_of_pages": 188,
+            "full_title": "The hungry heart",
+            "edition_name": "Harlequin Romance 1st ed.",
+            "publish_date": "1989",
+            "publish_country": "onc",
+            "copyright_date": "1988",
+            "by_statement": "Margaret Way",
+            "works": [
+                {
+                    "key": "/works/OL5236136W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:P7-BXY-925",
+                "urn:bwbsku:W3-BIH-446"
+            ],
+            "identifiers": {},
+            "isbn_10": [
+                "0373029993"
+            ],
+            "isbn_13": [
+                "9780373029990"
+            ],
+            "lccn": [
+                "98818382"
+            ],
+            "oclc_numbers": [
+                "20115701"
+            ],
+            "classifications": {},
+            "lc_classifications": [
+                "CPB Box no. 1322 vol. 18",
+                "CPB"
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2011-08-08T08:02:22.553073"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-03T11:45:41.932569"
+            }
+        },
+        "/books/OL9390026M": {
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "number_of_pages": 188,
+            "covers": [
+                4970991
+            ],
+            "edition_name": "Harlequin Romance edition",
+            "physical_format": "Paperback",
+            "key": "/books/OL9390026M",
+            "authors": [
+                {
+                    "key": "/authors/OL1175057A"
+                }
+            ],
+            "subjects": [
+                "Romance - General",
+                "Non-Classifiable",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Regency"
+            ],
+            "source_records": [
+                "amazon:0373029993:2-ae:2228215479:154465",
+                "marc:marc_loc_updates/v38.i33.records.utf8:18632974:798",
+                "marc:marc_loc_updates/v38.i33.records.utf8:18707252:798",
+                "marc:marc_loc_updates/v40.i11.records.utf8:2266047:798"
+            ],
+            "title": "The Hungry Heart",
+            "identifiers": {
+                "goodreads": [
+                    "4784934"
+                ],
+                "librarything": [
+                    "3318493"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "August 1, 1989",
+            "works": [
+                {
+                    "key": "/works/OL5236136W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_10": [
+                "0373029993"
+            ],
+            "isbn_13": [
+                "9780373029990"
+            ],
+            "classifications": {},
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-03T07:28:59.662915"
+            }
+        },
+        "/books/OL29783435M": {
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "source_records": [
+                "bwb:9781488098086"
+            ],
+            "title": "Payment in Love",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781488098086"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Payment in Love",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2018",
+            "key": "/books/OL29783435M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3759170W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-31T04:27:43.493678"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-02T22:03:46.156840"
+            }
+        },
+        "/books/OL29014091M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263216585",
+                "ia:paymentinlove0000jord",
+                "promise:bwb_daily_pallets_2020-09-09"
+            ],
+            "title": "Payment in Love",
+            "number_of_pages": 288,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Payment in Love",
+            "publish_date": "2010",
+            "key": "/books/OL29014091M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3759170W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "covers": [
+                11693220
+            ],
+            "local_id": [
+                "urn:bwbsku:KO-126-646"
+            ],
+            "identifiers": {},
+            "ocaid": "paymentinlove0000jord",
+            "isbn_13": [
+                "9780263216585"
+            ],
+            "classifications": {},
+            "edition_name": "Large Print Edition",
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-20T18:58:10.323288"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-28T12:02:52.663049"
+            }
+        },
+        "/books/OL9739073M": {
+            "publishers": [
+                "Mills And Boon"
+            ],
+            "number_of_pages": 224,
+            "source_records": [
+                "bwb:9780263808438"
+            ],
+            "title": "Payment In Love",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {
+                "goodreads": [
+                    "3005848"
+                ]
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T04:44:25.971027"
+            },
+            "covers": [
+                1155148
+            ],
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "isbn_13": [
+                "9780263808438"
+            ],
+            "isbn_10": [
+                "0263808432"
+            ],
+            "publish_date": "1998",
+            "key": "/books/OL9739073M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "latest_revision": 9,
+            "oclc_numbers": [
+                "43866087"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3759170W"
+                }
+            ],
+            "physical_format": "Paperback",
+            "revision": 9
+        },
+        "/books/OL14981997M": {
+            "publishers": [
+                "Mills & B.",
+                "Harlequin Mills & Boon"
+            ],
+            "series": [
+                "Bestseller Romance Series"
+            ],
+            "key": "/books/OL14981997M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "(192)p. ;",
+            "source_records": [
+                "bwb:9780263776249",
+                "amazon:0263776247"
+            ],
+            "title": "Two weeks to remember",
+            "dewey_decimal_class": [
+                "823.914"
+            ],
+            "number_of_pages": 192,
+            "edition_name": "New ed.",
+            "isbn_10": [
+                "0263776247"
+            ],
+            "publish_date": "1992",
+            "publish_country": "enk",
+            "by_statement": "Betty Neels.",
+            "oclc_numbers": [
+                "26549224"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3457912W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                13290768
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T23:33:28.833895"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-11T02:10:37.493613"
+            }
+        },
+        "/books/OL7417369M": {
+            "identifiers": {
+                "goodreads": [
+                    "1926392"
+                ],
+                "librarything": [
+                    "1917917"
+                ]
+            },
+            "title": "Two Weeks to Remember (Reader's Choice: The Best of Betty Neels)",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "publish_date": "January 1, 2002",
+            "publishers": [
+                "Harlequin"
+            ],
+            "isbn_13": [
+                "9780373511778"
+            ],
+            "covers": [
+                218974
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373511779"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:0373511779"
+            ],
+            "key": "/books/OL7417369M",
+            "number_of_pages": 304,
+            "works": [
+                {
+                    "key": "/works/OL3457912W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-09T10:05:11.708150"
+            }
+        },
+        "/books/OL10691733M": {
+            "identifiers": {
+                "librarything": [
+                    "2489130"
+                ],
+                "goodreads": [
+                    "6425045"
+                ]
+            },
+            "title": "Consolation Prize",
+            "authors": [
+                {
+                    "key": "/authors/OL589216A"
+                }
+            ],
+            "publish_date": "September 1, 1990",
+            "publishers": [
+                "Harlequin"
+            ],
+            "series": [
+                "Harlequin Romance, No 3081"
+            ],
+            "covers": [
+                9568073
+            ],
+            "physical_format": "Paperback",
+            "subjects": [
+                "General",
+                "Non-Classifiable",
+                "Romance - General",
+                "Fiction",
+                "Fiction - General",
+                "Romance: Regency"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-03-08:o7-aav-957",
+                "bwb:9780373030811",
+                "promise:bwb_daily_pallets_2020-11-30:P6-CCV-710",
+                "promise:bwb_daily_pallets_2020-11-24:P6-AUG-749"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:O7-AAV-957",
+                "urn:bwbsku:P6-CCV-710",
+                "urn:bwbsku:P6-AUG-749"
+            ],
+            "key": "/books/OL10691733M",
+            "number_of_pages": 187,
+            "works": [
+                {
+                    "key": "/works/OL3519296W"
+                }
+            ],
+            "ocaid": "consolationprize00cath",
+            "isbn_10": [
+                "0373030819"
+            ],
+            "isbn_13": [
+                "9780373030811"
+            ],
+            "oclc_numbers": [
+                "22383078"
+            ],
+            "classifications": {},
+            "latest_revision": 20,
+            "revision": 20,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-03-20T23:16:31.631575"
+            }
+        },
+        "/books/OL28988041M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263192803"
+            ],
+            "title": "The Forced Bride",
+            "number_of_pages": 184,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Forced Bride",
+            "publish_date": "2006",
+            "key": "/books/OL28988041M",
+            "authors": [
+                {
+                    "key": "/authors/OL577983A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3467511W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "identifiers": {},
+            "classifications": {},
+            "isbn_13": [
+                "9780263192803"
+            ],
+            "series": [
+                "Wedlocked!"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-20T06:15:26.172049"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-16T18:45:43.064167"
+            }
+        },
+        "/books/OL9639352M": {
+            "notes": "Harlequin Presents",
+            "identifiers": {
+                "librarything": [
+                    "2068861"
+                ],
+                "goodreads": [
+                    "1549137"
+                ]
+            },
+            "title": "The Forced Bride",
+            "authors": [
+                {
+                    "key": "/authors/OL577983A"
+                }
+            ],
+            "publish_date": "January 1, 2007",
+            "publishers": [
+                "Harlequin"
+            ],
+            "ia_box_id": [
+                "IA180801"
+            ],
+            "weight": "2.4 ounces",
+            "covers": [
+                215215
+            ],
+            "physical_format": "Mass Market Paperback",
+            "ia_loaded_id": [
+                "forcedbride00crav"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-06-01:T2-BGB-719",
+                "amazon:0373125976:2-bd:1370619883:222793",
+                "marc:marc_loc_updates/v36.i18.records.utf8:24748571:1060",
+                "ia:forcedbride00crav",
+                "bwb:9780373125975",
+                "marc:marc_loc_2016/BooksAll.2016.part36.utf8:71303785:1060",
+                "amazon:0373125976",
+                "promise:bwb_daily_pallets_2022-03-17:P7-DDM-393",
+                "promise:bwb_daily_pallets_2021-08-16:O7-DMU-814",
+                "promise:bwb_daily_pallets_2021-08-03:P7-COP-435"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Romance: Modern",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance - General",
+                "Fiction / Romance / General"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.5 x 4.1 x 0.5 inches",
+            "series": [
+                "Wedlocked!"
+            ],
+            "local_id": [
+                "urn:bwbsku:T2-BGB-719",
+                "urn:bwbsku:P7-DDM-393",
+                "urn:bwbsku:O7-DMU-814",
+                "urn:bwbsku:P7-COP-435"
+            ],
+            "key": "/books/OL9639352M",
+            "number_of_pages": 192,
+            "works": [
+                {
+                    "key": "/works/OL3467511W"
+                }
+            ],
+            "ocaid": "forcedbride00crav",
+            "isbn_10": [
+                "0373125976"
+            ],
+            "isbn_13": [
+                "9780373125975"
+            ],
+            "lccn": [
+                "2008571139"
+            ],
+            "classifications": {},
+            "lc_classifications": [
+                "CPB Box no. 2714 vol. 2"
+            ],
+            "latest_revision": 29,
+            "revision": 29,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-16T18:39:39.376700"
+            }
+        },
+        "/books/OL29264438M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781474030380"
+            ],
+            "title": "Wade Dynasty",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781474030380"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Wade Dynasty",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2015",
+            "key": "/books/OL29264438M",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3775456W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-24T00:42:25.802422"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-29T02:37:10.396458"
+            }
+        },
+        "/books/OL17494147M": {
+            "publishers": [
+                "Mills & Boon",
+                "MILLS AND BOON ROMANCE"
+            ],
+            "title": "The Wade dynasty.",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263753166"
+            ],
+            "publish_date": "1986",
+            "publish_country": "xxk",
+            "key": "/books/OL17494147M",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3775456W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:0263753166"
+            ],
+            "number_of_pages": 190,
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-29T00:28:11.532905"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-04-01T00:28:42.479206"
+            }
+        },
+        "/books/OL29758458M": {
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "source_records": [
+                "bwb:9781488032004"
+            ],
+            "title": "Golden Fever",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781488032004"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Golden Fever",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2017",
+            "key": "/books/OL29758458M",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3775427W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-30T21:43:35.587050"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-28T18:17:01.558933"
+            }
+        },
+        "/books/OL29264500M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781474029872"
+            ],
+            "title": "Golden Fever",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781474029872"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Golden Fever",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2015",
+            "key": "/books/OL29264500M",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3775427W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-24T00:43:16.444990"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-28T18:17:01.558933"
+            }
+        },
+        "/books/OL3252416M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "2018563"
+                ],
+                "goodreads": [
+                    "695410"
+                ]
+            },
+            "covers": [
+                8262883,
+                8262880,
+                8262879
+            ],
+            "physical_format": "Hardcover",
+            "lc_classifications": [
+                "PR6063.O814 G6 1982"
+            ],
+            "latest_revision": 13,
+            "key": "/books/OL3252416M",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "classifications": {},
+            "source_records": [
+                "bwb:9780263101164",
+                "marc:marc_loc_2016/BooksAll.2016.part15.utf8:42745758:448"
+            ],
+            "title": "Golden Fever",
+            "lccn": [
+                "83170111"
+            ],
+            "number_of_pages": 187,
+            "isbn_13": [
+                "9780263101164"
+            ],
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "edition_name": "First Edition",
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "isbn_10": [
+                "0263101169"
+            ],
+            "publish_date": "August 1982",
+            "publish_country": "enk",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-10-29T23:45:39.042728"
+            },
+            "copyright_date": "1982",
+            "oclc_numbers": [
+                "9120817"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3775427W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 13
+        },
+        "/books/OL18176054M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "2023658"
+                ]
+            },
+            "covers": [
+                6674527
+            ],
+            "key": "/books/OL18176054M",
+            "authors": [
+                {
+                    "key": "/authors/OL4728806A"
+                }
+            ],
+            "pagination": "187p.",
+            "source_records": [
+                "bwb:9780263766776",
+                "amazon:0263766772"
+            ],
+            "title": "Dark Pursuit",
+            "number_of_pages": 187,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1990",
+            "publish_country": "enk",
+            "works": [
+                {
+                    "key": "/works/OL11277284W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_10": [
+                "0263766772"
+            ],
+            "oclc_numbers": [
+                "156877973"
+            ],
+            "dewey_decimal_class": [
+                "823.914"
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-11T18:15:43.863077"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-03-03T10:13:46.862927"
+            }
+        },
+        "/books/OL1750084M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "2023658"
+                ]
+            },
+            "series": [
+                "Romance ;"
+            ],
+            "key": "/books/OL1750084M",
+            "authors": [
+                {
+                    "key": "/authors/OL4728806A"
+                }
+            ],
+            "publish_places": [
+                "Richmond, Surrey"
+            ],
+            "pagination": "187 p. ;",
+            "source_records": [
+                "bwb:9780263123845",
+                "marc:marc_loc_2016/BooksAll.2016.part21.utf8:226265037:520"
+            ],
+            "title": "Dark Pursuit",
+            "number_of_pages": 187,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1990",
+            "publish_country": "enk",
+            "by_statement": "by Charlotte Lamb.",
+            "works": [
+                {
+                    "key": "/works/OL11277284W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_10": [
+                "0263123847"
+            ],
+            "lccn": [
+                "92072430"
+            ],
+            "lc_classifications": [
+                "PR6062.A43 D36 1990",
+                "PR6062.A43D36 1990"
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-03-03T10:15:05.021156"
+            }
+        },
+        "/books/OL10739628M": {
+            "identifiers": {
+                "goodreads": [
+                    "1739515"
+                ],
+                "librarything": [
+                    "4752652"
+                ]
+            },
+            "title": "White Rose of Winter",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "publish_date": "December 1982",
+            "publishers": [
+                "harlequin"
+            ],
+            "physical_format": "Paperback",
+            "isbn_13": [
+                "9780373150557"
+            ],
+            "isbn_10": [
+                "0373150555"
+            ],
+            "oclc_numbers": [
+                "15940292"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Romance: Regency"
+            ],
+            "source_records": [
+                "amazon:0373150555"
+            ],
+            "key": "/books/OL10739628M",
+            "number_of_pages": 190,
+            "works": [
+                {
+                    "key": "/works/OL3771252W"
+                }
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-02-02T06:22:21.975489"
+            }
+        },
+        "/books/OL14975755M": {
+            "publishers": [
+                "Mills and Boon"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "4752652"
+                ],
+                "goodreads": [
+                    "2887104"
+                ]
+            },
+            "ia_box_id": [
+                "IA115613"
+            ],
+            "covers": [
+                14544648,
+                7321346
+            ],
+            "key": "/books/OL14975755M",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "190p. ;",
+            "source_records": [
+                "bwb:9780263053944",
+                "amazon:0263053946"
+            ],
+            "title": "White Rose of Winter",
+            "number_of_pages": 190,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1973",
+            "publish_country": "xxk",
+            "by_statement": "by Anne Mather.",
+            "works": [
+                {
+                    "key": "/works/OL3771252W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "whiteroseofwinte00math",
+            "isbn_10": [
+                "0263053946"
+            ],
+            "oclc_numbers": [
+                "16252943"
+            ],
+            "classifications": {},
+            "dewey_decimal_class": [
+                "823/.9/1F"
+            ],
+            "latest_revision": 17,
+            "revision": 17,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T22:47:29.510150"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL10931448M": {
+            "publishers": [
+                "Bethany House Publishers"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "96678"
+                ],
+                "goodreads": [
+                    "5171628"
+                ]
+            },
+            "weight": "6.2 ounces",
+            "covers": [
+                2614111
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL10931448M",
+            "authors": [
+                {
+                    "key": "/authors/OL18714A"
+                }
+            ],
+            "subjects": [
+                "Christianity",
+                "Religious - Historical",
+                "Romance - Historical",
+                "Fiction - Religious",
+                "Fiction"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "first_sentence": "It came as a great surprise to me.",
+            "source_records": [
+                "amazon:0764225324",
+                "ia:whencallsheart0000okej"
+            ],
+            "title": "When Calls the Heart (Canadian West)",
+            "number_of_pages": 304,
+            "publish_date": "June 2001",
+            "works": [
+                {
+                    "key": "/works/OL97190W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "7 x 4.3 x 0.8 inches",
+            "ocaid": "whencallsheart0000okej",
+            "isbn_10": [
+                "0764225324"
+            ],
+            "isbn_13": [
+                "9780764225321"
+            ],
+            "classifications": {},
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-07-23T22:02:10.399899"
+            }
+        },
+        "/books/OL7850618M": {
+            "identifiers": {
+                "goodreads": [
+                    "2001520"
+                ],
+                "librarything": [
+                    "96678"
+                ]
+            },
+            "title": "When Calls the Heart (Canadian West #1)",
+            "authors": [
+                {
+                    "key": "/authors/OL18714A"
+                }
+            ],
+            "publish_date": "1995",
+            "publishers": [
+                "Bantam Doubleday Direct"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "amazon:0553805606:by:234058625:159198",
+                "promise:bwb_daily_pallets_2022-08-24",
+                "ia:whencallsheartca0000jane"
+            ],
+            "isbn_13": [
+                "9780553805604"
+            ],
+            "edition_name": "Janette Oke Collection edition",
+            "physical_format": "Paperback",
+            "isbn_10": [
+                "0553805606"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:W7-DBT-039"
+            ],
+            "ocaid": "whencallsheartca0000jane",
+            "key": "/books/OL7850618M",
+            "works": [
+                {
+                    "key": "/works/OL97190W"
+                }
+            ],
+            "covers": [
+                15203834,
+                -1
+            ],
+            "number_of_pages": 226,
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-05-15T11:49:05.791206"
+            }
+        },
+        "/books/OL50881290M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7650717A"
+                }
+            ],
+            "isbn_13": [
+                "9781957398877"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2022",
+            "publishers": [
+                "Ramsower, Jill"
+            ],
+            "source_records": [
+                "bwb:9781957398877"
+            ],
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "title": "Silent Vows",
+            "subtitle": "A Mafia Arranged Marriage Romance",
+            "full_title": "Silent Vows A Mafia Arranged Marriage Romance",
+            "works": [
+                {
+                    "key": "/works/OL29189552W"
+                }
+            ],
+            "key": "/books/OL50881290M",
+            "latest_revision": 1,
+            "revision": 1,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-01-31T21:33:24.505665"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-31T21:33:24.505665"
+            }
+        },
+        "/books/OL50881281M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7650717A"
+                }
+            ],
+            "isbn_13": [
+                "9781957398860"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2022",
+            "publishers": [
+                "Ramsower, Jill"
+            ],
+            "source_records": [
+                "bwb:9781957398860"
+            ],
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "title": "Silent Vows",
+            "subtitle": "A Mafia Arranged Marriage Romance",
+            "full_title": "Silent Vows A Mafia Arranged Marriage Romance",
+            "works": [
+                {
+                    "key": "/works/OL29189552W"
+                }
+            ],
+            "key": "/books/OL50881281M",
+            "latest_revision": 1,
+            "revision": 1,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-01-31T21:33:23.105036"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-31T21:33:23.105036"
+            }
+        },
+        "/books/OL40189499M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7650717A"
+                }
+            ],
+            "isbn_13": [
+                "9781957398266"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2022",
+            "publishers": [
+                "Ramsower, Jill",
+                "Jill Ramsower"
+            ],
+            "source_records": [
+                "bwb:9781957398266",
+                "amazon:1957398264"
+            ],
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "title": "Silent Vows",
+            "subtitle": "A Mafia Arranged Marriage Romance",
+            "full_title": "Silent Vows A Mafia Arranged Marriage Romance",
+            "works": [
+                {
+                    "key": "/works/OL29189552W"
+                }
+            ],
+            "key": "/books/OL40189499M",
+            "covers": [
+                13268046
+            ],
+            "number_of_pages": 348,
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-10-20T04:01:10.475620"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-09T21:22:46.556296"
+            }
+        },
+        "/books/OL20938925M": {
+            "publishers": [
+                "Facwett"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "514249"
+                ],
+                "goodreads": [
+                    "3052586"
+                ]
+            },
+            "subtitle": "a novel",
+            "ia_box_id": [
+                "IA109811"
+            ],
+            "covers": [
+                4635551
+            ],
+            "key": "/books/OL20938925M",
+            "authors": [
+                {
+                    "key": "/authors/OL21059A"
+                }
+            ],
+            "ocaid": "heiressnovel00dail",
+            "publish_places": [
+                "New York"
+            ],
+            "pagination": "470 p.",
+            "source_records": [
+                "ia:heiressnovel00dail",
+                "promise:bwb_daily_pallets_2020-07-07"
+            ],
+            "title": "Heiress",
+            "lccn": [
+                "86027538"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "paperback"
+            },
+            "number_of_pages": 470,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0449134369"
+            ],
+            "publish_date": "1988",
+            "publish_country": "nyu",
+            "by_statement": "by Janet Dailey.",
+            "works": [
+                {
+                    "key": "/works/OL14862506W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:P6-BJW-336"
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-31T02:56:47.867049"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-10T05:43:38.057620"
+            }
+        },
+        "/books/OL22304096M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "\"Thorndike-Magna large print\"--P. (4) of cover."
+            },
+            "identifiers": {
+                "goodreads": [
+                    "2161014"
+                ]
+            },
+            "title": "Heiress",
+            "authors": [
+                {
+                    "key": "/authors/OL21059A"
+                }
+            ],
+            "publish_date": "1987",
+            "publishers": [
+                "Thorndike-Magna"
+            ],
+            "isbn_10": [
+                "0896218414"
+            ],
+            "lc_classifications": [
+                "PS3554.A29"
+            ],
+            "publish_places": [
+                "Thorndike, Me., U.S.A"
+            ],
+            "pagination": "809 p. (large print) ;",
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Large type books."
+            ],
+            "publish_country": "xxu",
+            "by_statement": "Janet Dailey.",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:1370917301:629"
+            ],
+            "key": "/books/OL22304096M",
+            "number_of_pages": 809,
+            "works": [
+                {
+                    "key": "/works/OL14862506W"
+                }
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-10T00:22:48.481784"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-02-13T19:23:34.427027"
+            }
+        },
+        "/books/OL14981551M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "source_records": [
+                "bwb:9780263761412"
+            ],
+            "title": "The Hungry Heart",
+            "identifiers": {
+                "librarything": [
+                    "3318493"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1988",
+            "publish_country": "xxk",
+            "key": "/books/OL14981551M",
+            "authors": [
+                {
+                    "key": "/authors/OL1175057A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL5236136W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_10": [
+                "026376141X"
+            ],
+            "oclc_numbers": [
+                "18947072"
+            ],
+            "classifications": {},
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T23:29:46.923923"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-03T11:45:41.932569"
+            }
+        },
+        "/books/OL10748299M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "ia_box_id": [
+                "IA112707"
+            ],
+            "covers": [
+                10528841,
+                6994993
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL10748299M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "source_records": [
+                "ia:paymentinlove00jord",
+                "promise:bwb_daily_pallets_2022-09-01"
+            ],
+            "title": "Payment in Love",
+            "identifiers": {
+                "librarything": [
+                    "5296071"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1988",
+            "works": [
+                {
+                    "key": "/works/OL3759170W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "paymentinlove00jord",
+            "isbn_10": [
+                "0373630646"
+            ],
+            "isbn_13": [
+                "9780373630646"
+            ],
+            "oclc_numbers": [
+                "44067594"
+            ],
+            "classifications": {},
+            "local_id": [
+                "urn:bwbsku:O8-DER-218"
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-04T13:15:49.811714"
+            }
+        },
+        "/books/OL14978572M": {
+            "identifiers": {
+                "librarything": [
+                    "5296071"
+                ]
+            },
+            "title": "Payment in Love",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "publish_date": "1988",
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "pagination": "187p. ;",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_country": "xxk",
+            "publish_places": [
+                "London"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_10": [
+                "0263116298"
+            ],
+            "oclc_numbers": [
+                "152468822"
+            ],
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:516373320:406"
+            ],
+            "key": "/books/OL14978572M",
+            "number_of_pages": 187,
+            "works": [
+                {
+                    "key": "/works/OL3759170W"
+                }
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T23:09:32.396856"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-05-01T12:56:17.334593"
+            }
+        },
+        "/books/OL24955887M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "ia_box_id": [
+                "IA112707"
+            ],
+            "ia_loaded_id": [
+                "paymentinlove00jord"
+            ],
+            "key": "/books/OL24955887M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "publish_places": [
+                "Toronto",
+                "New York"
+            ],
+            "edition_name": "Collector's ed.",
+            "pagination": "216 p. ;",
+            "source_records": [
+                "ia:paymentinlove00jord"
+            ],
+            "title": "Payment in Love",
+            "notes": "\"First North American publication 1990.\"",
+            "number_of_pages": 216,
+            "full_title": "Payment in love",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Love stories"
+            ],
+            "publish_date": "1990",
+            "publish_country": "onc",
+            "copyright_date": "1988",
+            "by_statement": "Penny Jordan",
+            "works": [
+                {
+                    "key": "/works/OL3759170W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_10": [
+                "0373630646"
+            ],
+            "isbn_13": [
+                "9780373630646"
+            ],
+            "oclc_numbers": [
+                "44067594"
+            ],
+            "classifications": {},
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2011-08-11T08:26:23.796153"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T11:46:32.861407"
+            }
+        },
+        "/books/OL28951207M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263806915",
+                "ia:twoweekstorememb0000neel",
+                "promise:bwb_daily_pallets_2020-09-09"
+            ],
+            "title": "Two Weeks to Remember",
+            "number_of_pages": 221,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Two Weeks to Remember",
+            "publish_date": "1999",
+            "key": "/books/OL28951207M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3457912W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "covers": [
+                11733881
+            ],
+            "identifiers": {},
+            "ocaid": "twoweekstorememb0000neel",
+            "isbn_13": [
+                "9780263806915"
+            ],
+            "classifications": {},
+            "local_id": [
+                "urn:bwbsku:KN-765-338"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T04:51:54.958347"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-08T22:02:55.188172"
+            }
+        },
+        "/books/OL24948504M": {
+            "title": "Two Weeks to Remember",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "publish_date": "1986",
+            "publishers": [
+                "Harlequin"
+            ],
+            "ia_box_id": [
+                "IA118317"
+            ],
+            "series": [
+                "Best of Betty Neels"
+            ],
+            "covers": [
+                6997642,
+                -1
+            ],
+            "ia_loaded_id": [
+                "twoweekstorememb00neel"
+            ],
+            "publish_places": [
+                "Toronto",
+                "New York"
+            ],
+            "pagination": "219 p. ;",
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-06-01:W7-CIN-853",
+                "ia:twoweekstorememb00neel",
+                "bwb:9780373511778",
+                "promise:bwb_daily_pallets_2022-06-01:T2-DHU-183"
+            ],
+            "full_title": "Two weeks to remember",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Love stories",
+                "Fiction"
+            ],
+            "publish_country": "onc",
+            "by_statement": "[Betty Neels]",
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:W7-CIN-853",
+                "urn:bwbsku:T2-DHU-183"
+            ],
+            "key": "/books/OL24948504M",
+            "number_of_pages": 219,
+            "works": [
+                {
+                    "key": "/works/OL3457912W"
+                }
+            ],
+            "identifiers": {},
+            "ocaid": "twoweekstorememb00neel",
+            "isbn_10": [
+                "0373511779"
+            ],
+            "isbn_13": [
+                "9780373511778"
+            ],
+            "oclc_numbers": [
+                "48814699"
+            ],
+            "classifications": {},
+            "latest_revision": 16,
+            "revision": 16,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2011-08-11T00:40:25.507138"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-03-10T22:03:30.073127"
+            }
+        },
+        "/books/OL9376111M": {
+            "identifiers": {
+                "goodreads": [
+                    "1996668"
+                ],
+                "librarything": [
+                    "1917917"
+                ]
+            },
+            "title": "Two Weeks to Remember",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "publish_date": "November 1, 1986",
+            "publishers": [
+                "harlequin",
+                "Harlequin"
+            ],
+            "series": [
+                "Harlequin Romance, No 2808"
+            ],
+            "covers": [
+                9660369
+            ],
+            "physical_format": "Paperback",
+            "subjects": [
+                "Non-Classifiable",
+                "Romance - Contemporary",
+                "Fiction",
+                "Romance: Modern"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-03-08:O7-AII-973",
+                "bwb:9780373028085",
+                "promise:bwb_daily_pallets_2021-03-08:O7-AAP-900"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "twoweekstorememb00bett",
+            "isbn_10": [
+                "0373028083"
+            ],
+            "isbn_13": [
+                "9780373028085"
+            ],
+            "oclc_numbers": [
+                "14441880"
+            ],
+            "local_id": [
+                "urn:bwbsku:O7-AII-973",
+                "urn:bwbsku:O7-AAP-900"
+            ],
+            "key": "/books/OL9376111M",
+            "works": [
+                {
+                    "key": "/works/OL3457912W"
+                }
+            ],
+            "latest_revision": 18,
+            "revision": 18,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T15:08:15.313359"
+            }
+        },
+        "/books/OL14981228M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "pagination": "187p.",
+            "number_of_pages": 187,
+            "title": "Two weeks to remember.",
+            "identifiers": {
+                "goodreads": [
+                    "6282487"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263754189"
+            ],
+            "publish_date": "1986",
+            "publish_country": "xxk",
+            "key": "/books/OL14981228M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3457912W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:0263754189"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T23:27:17.504521"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-08T22:02:55.188172"
+            }
+        },
+        "/books/OL9621265M": {
+            "publishers": [
+                "Ulverscroft Large Print"
+            ],
+            "weight": "13.6 ounces",
+            "covers": [
+                1155128
+            ],
+            "physical_format": "Hardcover",
+            "key": "/books/OL9621265M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "subjects": [
+                "Romance",
+                "General",
+                "Fiction - General"
+            ],
+            "edition_name": "Large Print Ed edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "bwb:9780263198386"
+            ],
+            "title": "Two Weeks to Remember (Betty Neels Large Print Collection)",
+            "number_of_pages": 286,
+            "isbn_13": [
+                "9780263198386"
+            ],
+            "isbn_10": [
+                "0263198383"
+            ],
+            "publish_date": "February 2007",
+            "oclc_numbers": [
+                "71807898"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3457912W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.1 x 5.5 x 1.1 inches",
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-08T22:02:55.188172"
+            }
+        },
+        "/books/OL28974018M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263765557"
+            ],
+            "title": "Consolation Prize",
+            "number_of_pages": 187,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Consolation Prize",
+            "publish_date": "1989",
+            "key": "/books/OL28974018M",
+            "authors": [
+                {
+                    "key": "/authors/OL589216A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3519296W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, general"
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9780263765557"
+            ],
+            "classifications": {},
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T22:36:09.212204"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-19T09:59:45.810185"
+            }
+        },
+        "/books/OL29152304M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781408941607"
+            ],
+            "title": "The Forced Bride",
+            "number_of_pages": 192,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Forced Bride",
+            "publish_date": "2012",
+            "key": "/books/OL29152304M",
+            "authors": [
+                {
+                    "key": "/authors/OL577983A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3467511W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_13": [
+                "9781408941607"
+            ],
+            "classifications": {},
+            "series": [
+                "Wedlocked!"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-22T16:00:45.909586"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-16T18:47:30.494834"
+            }
+        },
+        "/books/OL9736999M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "number_of_pages": 256,
+            "weight": "4 ounces",
+            "covers": [
+                1186305
+            ],
+            "physical_format": "Mass Market Paperback",
+            "key": "/books/OL9736999M",
+            "authors": [
+                {
+                    "key": "/authors/OL577983A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "classifications": {},
+            "source_records": [
+                "bwb:9780373233618",
+                "promise:bwb_daily_pallets_2020-07-07"
+            ],
+            "title": "The Forced Bride",
+            "notes": "Larger Print Presents",
+            "identifiers": {
+                "goodreads": [
+                    "7065561"
+                ]
+            },
+            "edition_name": "Larger Edition",
+            "subjects": [
+                "Romance: Modern",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance - General",
+                "Fiction / Romance / General"
+            ],
+            "publish_date": "January 1, 2007",
+            "works": [
+                {
+                    "key": "/works/OL3467511W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.5 x 4.2 x 0.7 inches",
+            "local_id": [
+                "urn:bwbsku:P4-AEA-199"
+            ],
+            "isbn_10": [
+                "0373233612"
+            ],
+            "isbn_13": [
+                "9780373233618"
+            ],
+            "series": [
+                "Wedlocked!"
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-16T18:46:40.034929"
+            }
+        },
+        "/books/OL14982011M": {
+            "publishers": [
+                "Mills & Boon",
+                "Harlequin Mills & Boon"
+            ],
+            "pagination": "189p.",
+            "source_records": [
+                "bwb:9780263778762",
+                "amazon:0263778762"
+            ],
+            "title": "The Wade dynasty.",
+            "dewey_decimal_class": [
+                "823.914"
+            ],
+            "number_of_pages": 189,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263778762"
+            ],
+            "publish_date": "1992",
+            "publish_country": "enk",
+            "key": "/books/OL14982011M",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "oclc_numbers": [
+                "59974704"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3775456W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                14217305
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T23:33:36.292107"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-04-20T04:08:00.763203"
+            }
+        },
+        "/books/OL10738446M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Harlequin Presents"
+            },
+            "identifiers": {
+                "librarything": [
+                    "758399"
+                ],
+                "goodreads": [
+                    "2665848"
+                ]
+            },
+            "title": "The Wade Dynasty",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "publish_date": "September 1, 1986",
+            "publishers": [
+                "Harlequin"
+            ],
+            "ia_box_id": [
+                "IA119111"
+            ],
+            "covers": [
+                6696701
+            ],
+            "physical_format": "Paperback",
+            "subjects": [
+                "Non-Classifiable",
+                "Romance - Contemporary",
+                "Fiction",
+                "Romance: Modern"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-06-20:O8-APY-993",
+                "bwb:9780373109234",
+                "promise:bwb_daily_pallets_2022-06-01:T2-DFP-251",
+                "promise:bwb_daily_pallets_2022-03-17:W7-AJL-048",
+                "promise:bwb_daily_pallets_2021-06-01:P7-AFC-990"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "wadedynasty00mort",
+            "isbn_10": [
+                "0373109237"
+            ],
+            "isbn_13": [
+                "9780373109234"
+            ],
+            "oclc_numbers": [
+                "13865972"
+            ],
+            "edition_name": "Harlequin Presents - 923",
+            "series": [
+                "Harlequin Presents - 923, Mills & Boon Best Seller (reissues) - 710, Mills & Boon Romance - 2533"
+            ],
+            "local_id": [
+                "urn:bwbsku:O8-APY-993",
+                "urn:bwbsku:T2-DFP-251",
+                "urn:bwbsku:W7-AJL-048",
+                "urn:bwbsku:P7-AFC-990"
+            ],
+            "key": "/books/OL10738446M",
+            "number_of_pages": 189,
+            "works": [
+                {
+                    "key": "/works/OL3775456W"
+                }
+            ],
+            "latest_revision": 21,
+            "revision": 21,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T12:54:33.326087"
+            }
+        },
+        "/books/OL14980457M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "number_of_pages": 192,
+            "covers": [
+                9311794
+            ],
+            "physical_format": "Paperback",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T22:21:44.280494"
+            },
+            "latest_revision": 8,
+            "key": "/books/OL14980457M",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "publish_places": [
+                "UK"
+            ],
+            "edition_name": "Mills & Boon Romance #1975",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "classifications": {},
+            "source_records": [
+                "bwb:9780263739756"
+            ],
+            "title": "Golden Fever",
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "3084748"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T23:22:20.109228"
+            },
+            "isbn_13": [
+                "9780263739756"
+            ],
+            "isbn_10": [
+                "0263739759"
+            ],
+            "publish_date": "October 1982",
+            "publish_country": "xxk",
+            "copyright_date": "1982",
+            "works": [
+                {
+                    "key": "/works/OL3775427W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 8
+        },
+        "/books/OL17389818M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "series": [
+                "Favourites"
+            ],
+            "key": "/books/OL17389818M",
+            "authors": [
+                {
+                    "key": "/authors/OL4728806A"
+                }
+            ],
+            "publish_places": [
+                "Richmond"
+            ],
+            "pagination": "187p. ;",
+            "source_records": [
+                "bwb:9780263786071",
+                "amazon:0263786072"
+            ],
+            "title": "Dark Pursuit",
+            "number_of_pages": 187,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1994",
+            "publish_country": "enk",
+            "by_statement": "Charlotte Lamb.",
+            "works": [
+                {
+                    "key": "/works/OL11277284W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_10": [
+                "0263786072"
+            ],
+            "dewey_decimal_class": [
+                "823.914"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-28T15:56:12.247606"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-03-03T10:14:28.583579"
+            }
+        },
+        "/books/OL9715184M": {
+            "identifiers": {
+                "goodreads": [
+                    "1456491"
+                ],
+                "librarything": [
+                    "2023658"
+                ]
+            },
+            "title": "Dark Pursuit",
+            "authors": [
+                {
+                    "key": "/authors/OL4728806A"
+                }
+            ],
+            "publish_date": "May 1, 1991",
+            "publishers": [
+                "Harlequin"
+            ],
+            "series": [
+                "Harlequin Presents, No 1370"
+            ],
+            "covers": [
+                12817068,
+                -1
+            ],
+            "physical_format": "Paperback",
+            "subjects": [
+                "Fiction",
+                "Fiction - General",
+                "Romance: Regency",
+                "General",
+                "Non-Classifiable",
+                "Romance - General"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-06-01:W7-BKR-703",
+                "bwb:9780373113705",
+                "promise:bwb_daily_pallets_2021-06-28:W6-AWD-048"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "darkpursuit00char",
+            "isbn_10": [
+                "0373113706"
+            ],
+            "isbn_13": [
+                "9780373113705"
+            ],
+            "oclc_numbers": [
+                "23686605"
+            ],
+            "local_id": [
+                "urn:bwbsku:W7-BKR-703",
+                "urn:bwbsku:W6-AWD-048"
+            ],
+            "key": "/books/OL9715184M",
+            "number_of_pages": 187,
+            "works": [
+                {
+                    "key": "/works/OL11277284W"
+                }
+            ],
+            "latest_revision": 20,
+            "revision": 20,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T12:38:43.211798"
+            }
+        },
+        "/books/OL38386918M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "isbn_13": [
+                "9780373100651"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1979",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9780373100651"
+            ],
+            "title": "White Rose of Winter",
+            "full_title": "White Rose of Winter",
+            "works": [
+                {
+                    "key": "/works/OL3771252W"
+                }
+            ],
+            "key": "/books/OL38386918M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-18T18:47:39.833988"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL29247661M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781472097767"
+            ],
+            "title": "White Rose of Winter",
+            "number_of_pages": 192,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "White Rose of Winter",
+            "publish_date": "2014",
+            "key": "/books/OL29247661M",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3771252W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, general"
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9781472097767"
+            ],
+            "classifications": {},
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-23T20:29:26.351041"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        }
+    }
+}

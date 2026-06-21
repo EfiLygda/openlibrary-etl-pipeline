@@ -1,0 +1,5745 @@
+{
+    "status": "ok",
+    "result": {
+        "/books/OL35653154M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Klara ile Güneş",
+            "authors": [
+                {
+                    "key": "/authors/OL28493A"
+                }
+            ],
+            "publish_date": "May 21, 2021",
+            "source_records": [
+                "amazon:9750849507"
+            ],
+            "number_of_pages": 264,
+            "publishers": [
+                "Yapı Kredi Yayınları"
+            ],
+            "physical_format": "paperback",
+            "covers": [
+                12359615
+            ],
+            "works": [
+                {
+                    "key": "/works/OL20883297W"
+                }
+            ],
+            "key": "/books/OL35653154M",
+            "identifiers": {},
+            "isbn_10": [
+                "9750849507"
+            ],
+            "isbn_13": [
+                "9789750849503"
+            ],
+            "classifications": {},
+            "contributors": [
+                {
+                    "name": "Lâle Akalın",
+                    "role": "Translator"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/tur"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-08T08:08:04.114940"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-01-09T11:59:05.051918"
+            }
+        },
+        "/books/OL34156493M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL28493A"
+                }
+            ],
+            "isbn_13": [
+                "9780593318188"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 320,
+            "publish_date": "2021",
+            "publishers": [
+                "Knopf Doubleday Publishing Group"
+            ],
+            "source_records": [
+                "bwb:9780593318188"
+            ],
+            "subjects": [
+                "Fiction, science fiction, general",
+                "Fiction, dystopian",
+                "British and irish fiction (fictional works by one author)"
+            ],
+            "title": "Klara and the Sun",
+            "subtitle": "A Novel",
+            "full_title": "Klara and the Sun A Novel",
+            "works": [
+                {
+                    "key": "/works/OL20883297W"
+                }
+            ],
+            "key": "/books/OL34156493M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-09-30T16:24:33.930770"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-01-09T11:59:05.051918"
+            }
+        },
+        "/books/OL35701555M": {
+            "works": [
+                {
+                    "key": "/works/OL20883297W"
+                }
+            ],
+            "title": "Klara and the Sun",
+            "publishers": [
+                "Knopf Doubleday Publishing Group"
+            ],
+            "publish_date": "2021",
+            "key": "/books/OL35701555M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {
+                "amazon": [
+                    ""
+                ]
+            },
+            "covers": [
+                12394681,
+                12394680
+            ],
+            "isbn_13": [
+                "9780593318188"
+            ],
+            "classifications": {},
+            "local_id": [
+                "urn:bwbsku:O9-AMQ-108"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-12-13:O9-AMQ-108"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-12-09T03:20:16.013150"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-12-15T01:07:57.536130"
+            }
+        },
+        "/books/OL31971025M": {
+            "title": "Klara and the Sun",
+            "authors": [
+                {
+                    "key": "/authors/OL28493A"
+                }
+            ],
+            "publish_date": "Mar 01, 2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:0571364888",
+                "bwb:9780571364886",
+                "promise:bwb_daily_pallets_2023-01-05"
+            ],
+            "publishers": [
+                "FABER ET FABER"
+            ],
+            "isbn_10": [
+                "0571364888"
+            ],
+            "isbn_13": [
+                "9780571364886"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Klara and the Sun",
+            "covers": [
+                10648686
+            ],
+            "local_id": [
+                "urn:bwbsku:P8-BQG-254"
+            ],
+            "key": "/books/OL31971025M",
+            "works": [
+                {
+                    "key": "/works/OL20883297W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-02-18T18:05:46.796450"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-19T05:50:33.065679"
+            }
+        },
+        "/books/OL29539396M": {
+            "title": "Klara and the Sun",
+            "authors": [
+                {
+                    "key": "/authors/OL28493A"
+                }
+            ],
+            "publish_date": "2021",
+            "publishers": [
+                "Faber & Faber, Limited",
+                "Faber & Faber"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-07-01:KR-127-256",
+                "bwb:9780571364879",
+                "marc:marc_columbia/Columbia-extract-20221130-032.mrc:129374195:2065",
+                "marc:harvard_bibliographic_metadata/20220215_067.bib.mrc:9495011:3283"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Klara and the Sun",
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                10871487
+            ],
+            "isbn_13": [
+                "9780571364879"
+            ],
+            "physical_format": "Hardcover",
+            "lc_classifications": [
+                "PR6059.S5",
+                "PR6059.S5 K57 2021"
+            ],
+            "local_id": [
+                "urn:bwbsku:KR-127-256"
+            ],
+            "oclc_numbers": [
+                "1158700107"
+            ],
+            "key": "/books/OL29539396M",
+            "number_of_pages": 320,
+            "works": [
+                {
+                    "key": "/works/OL20883297W"
+                }
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "\"This is the story of Klara, an Artificial Friend with outstanding observational qualities, who, from her place in the store, watches carefully the behaviour of those who come in to browse, and of those who pass in the street outside. She remains hopeful a customer will soon choose her, but when the possibility emerges that her circumstances may change for ever, Klara is warned not to invest too much in the promises of humans.\"--Publisher."
+            },
+            "latest_revision": 12,
+            "revision": 12,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-26T20:25:38.901876"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-05-13T04:00:46.204208"
+            }
+        },
+        "/books/OL28283668M": {
+            "description": {
+                "type": "/type/text",
+                "value": "\"From her place in the store that sells artificial friends, Klara--an artificial friend with outstanding observational qualities--watches carefully the behavior of those who come in to browse, and of those who pass in the street outside. She remains hopeful a customer will soon choose her, but when the possibility emerges that her circumstances may change forever, Klara is warned not to invest too much in the promises of humans. In this luminous tale, Klara and the Sun, Nobel Prize winner Kazuo Ishiguro looks at our rapidly changing modern world through the eyes of an unforgettable narrator to explore a fundamental question: what does it mean to love?\"--\n\nFrom the best-selling author of Never Let Me Go and The Remains of the Day, a stunning new novel - his first since winning the Nobel Prize in Literature - about the wondrous, mysterious nature of the human heart. From her place in the store, Klara, an Artificial Friend with outstanding observational qualities, watches carefully the behavior of those who come in to browse, and of those who pass in the street outside. She remains hopeful a customer will soon choose her, but when the possibility emerges that her circumstances may change forever, Klara is warned not to invest too much in the promises of humans. In Klara and the Sun, Kazuo Ishiguro looks at our rapidly changing modern world through the eyes of an unforgettable narrator to explore a fundamental question: what does it mean to love? --"
+            },
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Klara and the Sun: A novel"
+            },
+            "identifiers": {
+                "wikidata": [
+                    "Q125941082"
+                ]
+            },
+            "title": "Klara and the Sun",
+            "subtitle": "A novel",
+            "authors": [
+                {
+                    "key": "/authors/OL28493A"
+                }
+            ],
+            "publish_date": "Mar 02, 2021",
+            "publishers": [
+                "Knopf"
+            ],
+            "covers": [
+                10673548,
+                -1
+            ],
+            "physical_format": "hardcover",
+            "full_title": "Klara and the Sun : A novel",
+            "source_records": [
+                "amazon:059331817X",
+                "bwb:9780593318171",
+                "promise:bwb_daily_pallets_2022-10-06",
+                "marc:marc_columbia/Columbia-extract-20221130-031.mrc:471650019:3490",
+                "marc:marc_columbia/Columbia-extract-20221130-031.mrc:479873002:3729",
+                "marc:harvard_bibliographic_metadata/20220215_067.bib.mrc:54085538:7188"
+            ],
+            "isbn_13": [
+                "9780593318171"
+            ],
+            "isbn_10": [
+                "059331817X"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "lc_classifications": [
+                "PR6059.S5K57 2021",
+                "PR6059.S5 K57 2021"
+            ],
+            "local_id": [
+                "urn:bwbsku:O8-BUG-979"
+            ],
+            "lccn": [
+                "2020015327",
+                "2020015328"
+            ],
+            "oclc_numbers": [
+                "1149197073",
+                "1149175380"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "key": "/books/OL28283668M",
+            "number_of_pages": 304,
+            "works": [
+                {
+                    "key": "/works/OL20883297W"
+                }
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-06-23T18:04:58.310927"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-06-02T20:37:18.068019"
+            }
+        },
+        "/books/OL29267845M": {
+            "publishers": [
+                "Diversion Publishing Corp."
+            ],
+            "subtitle": "The Devereux Trilogy - Book Three",
+            "source_records": [
+                "bwb:9781626815667"
+            ],
+            "title": "Cherished",
+            "number_of_pages": 448,
+            "isbn_13": [
+                "9781626815667"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Cherished The Devereux Trilogy - Book Three",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2015",
+            "key": "/books/OL29267845M",
+            "authors": [
+                {
+                    "key": "/authors/OL1385587A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL17796171W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, historical"
+            ],
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-24T01:33:15.292985"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-08-23T09:51:23.163519"
+            }
+        },
+        "/books/OL26385485M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Originally published: New York : Windsor Publishing Corp., 1993."
+            },
+            "title": "Cherished",
+            "authors": [
+                {
+                    "key": "/authors/OL1385587A"
+                }
+            ],
+            "publish_date": "2003",
+            "publishers": [
+                "Zebra Books",
+                "Zebra"
+            ],
+            "covers": [
+                9326039,
+                8078920
+            ],
+            "full_title": "Cherished",
+            "publish_places": [
+                "New York"
+            ],
+            "pagination": "447 pages ;",
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-03-08:263-BAC-076",
+                "ia:isbn_9780821773895",
+                "bwb:9780821773895",
+                "promise:bwb_daily_pallets_2021-03-08:642-BAC-476",
+                "promise:bwb_daily_pallets_2020-10-22:W6-AOW-047",
+                "promise:bwb_daily_pallets_2020-10-14:O6-EWY-137"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Romance fiction",
+                "Romance-language fiction"
+            ],
+            "publish_country": "nyu",
+            "by_statement": "Elizabeth Thornton",
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "isbn_9780821773895",
+            "isbn_10": [
+                "0821773895"
+            ],
+            "isbn_13": [
+                "9780821773895"
+            ],
+            "oclc_numbers": [
+                "51949507"
+            ],
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "lc_classifications": [
+                "PS3570.H665 C44 2003",
+                "PS3570.H6663"
+            ],
+            "local_id": [
+                "urn:bwbsku:263-BAC-076",
+                "urn:bwbsku:642-BAC-476",
+                "urn:bwbsku:W6-AOW-047",
+                "urn:bwbsku:O6-EWY-137"
+            ],
+            "key": "/books/OL26385485M",
+            "number_of_pages": 447,
+            "works": [
+                {
+                    "key": "/works/OL17796171W"
+                }
+            ],
+            "latest_revision": 14,
+            "revision": 14,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2017-10-11T04:36:48.468144"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T17:24:03.432572"
+            }
+        },
+        "/books/OL35516377M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL779138A"
+                }
+            ],
+            "isbn_13": [
+                "9781497630062"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "260",
+            "publish_date": "2014",
+            "publishers": [
+                "Open Road Integrated Media, Inc."
+            ],
+            "source_records": [
+                "bwb:9781497630062"
+            ],
+            "subjects": [
+                "Scotland, fiction",
+                "Fiction, romance, historical, general"
+            ],
+            "title": "Highland Wolf",
+            "full_title": "Highland Wolf",
+            "works": [
+                {
+                    "key": "/works/OL4141646W"
+                }
+            ],
+            "key": "/books/OL35516377M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T20:44:00.738126"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-15T10:23:43.583920"
+            }
+        },
+        "/books/OL35503779M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL779138A"
+                }
+            ],
+            "isbn_13": [
+                "9781497644748"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "260",
+            "publish_date": "2014",
+            "publishers": [
+                "Open Road Integrated Media, Inc."
+            ],
+            "source_records": [
+                "bwb:9781497644748"
+            ],
+            "subjects": [
+                "Scotland, fiction",
+                "Fiction, romance, historical, general"
+            ],
+            "title": "Highland Wolf",
+            "full_title": "Highland Wolf",
+            "works": [
+                {
+                    "key": "/works/OL4141646W"
+                }
+            ],
+            "key": "/books/OL35503779M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T18:04:59.028084"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-15T10:23:43.583920"
+            }
+        },
+        "/books/OL24952704M": {
+            "publishers": [
+                "Zebra",
+                "Melia [distributor]"
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "Annora MacKay, forced to stay in Dunncraig Keep, a dark place shrouded by evil, becomes a pawn in a game of revenge and passion when a mysterious woodcarver arrives at the castle."
+            },
+            "isbn_13": [
+                "9780739491560"
+            ],
+            "isbn_10": [
+                "0739491563"
+            ],
+            "series": [
+                "Zebra historical romance"
+            ],
+            "covers": [
+                6977249
+            ],
+            "ia_loaded_id": [
+                "highlandwolf00howe"
+            ],
+            "key": "/books/OL24952704M",
+            "ocaid": "highlandwolf00howe",
+            "publish_places": [
+                "New York",
+                "Godalming"
+            ],
+            "ia_box_id": [
+                "IA108809"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "348 p. ;",
+            "source_records": [
+                "ia:highlandwolf00howe",
+                "promise:bwb_daily_pallets_2020-07-07"
+            ],
+            "title": "Highland wolf",
+            "number_of_pages": 348,
+            "full_title": "Highland wolf",
+            "edition_name": "Book club ed.",
+            "subjects": [
+                "Highlands (Scotland)",
+                "Fiction"
+            ],
+            "publish_date": "2008",
+            "publish_country": "nyu",
+            "by_statement": "Hannah Howell",
+            "oclc_numbers": [
+                "212873961"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4141646W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:P6-BJC-661"
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2011-08-11T03:58:53.187241"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-15T10:23:43.583920"
+            }
+        },
+        "/books/OL46835631M": {
+            "works": [
+                {
+                    "key": "/works/OL16925622W"
+                }
+            ],
+            "title": "The One",
+            "publishers": [
+                "Harper Teen"
+            ],
+            "publish_date": "May 5, 2015",
+            "key": "/books/OL46835631M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 1,
+            "revision": 1,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-02-21T04:43:52.869303"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-21T04:43:52.869303"
+            }
+        },
+        "/books/OL40227621M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL6788551A"
+                }
+            ],
+            "isbn_10": [
+                "1483003981"
+            ],
+            "isbn_13": [
+                "9781483003986"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: The One (Selection series, Book 3) (The Selection)"
+            },
+            "number_of_pages": 1,
+            "physical_format": "audio cd",
+            "publish_date": "May 06, 2014",
+            "publishers": [
+                "Harpercollins",
+                "HarperCollins Audio and Blackstone Audio"
+            ],
+            "source_records": [
+                "amazon:1483003981"
+            ],
+            "title": "The One",
+            "full_title": "The One",
+            "works": [
+                {
+                    "key": "/works/OL16925622W"
+                }
+            ],
+            "key": "/books/OL40227621M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-10-31T20:46:41.139411"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-20T16:36:06.473616"
+            }
+        },
+        "/books/OL37490127M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL6788551A"
+                }
+            ],
+            "isbn_13": [
+                "9781484454916"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "352",
+            "publish_date": "2015",
+            "publishers": [
+                "HarperCollins Publishers"
+            ],
+            "source_records": [
+                "bwb:9781484454916"
+            ],
+            "title": "One",
+            "full_title": "One",
+            "works": [
+                {
+                    "key": "/works/OL16925622W"
+                }
+            ],
+            "key": "/books/OL37490127M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-03-02T05:57:33.328425"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-20T16:36:06.473616"
+            }
+        },
+        "/books/OL26410840M": {
+            "title": "Jedyna",
+            "publish_date": "2014",
+            "publishers": [
+                "Jaguar"
+            ],
+            "contributors": [
+                {
+                    "role": "Translator",
+                    "name": "Małgorzata Kaczarowska"
+                }
+            ],
+            "physical_format": "Paperback",
+            "covers": [
+                13326724,
+                -1
+            ],
+            "publish_places": [
+                "Warszawa, Poland"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "21 x 14 x  centimeters",
+            "local_id": [
+                "urn:bwbsku:KR-334-432"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-07-20",
+                "ia:jedyna0000unse",
+                "amazon:8376862871"
+            ],
+            "key": "/books/OL26410840M",
+            "number_of_pages": 320,
+            "works": [
+                {
+                    "key": "/works/OL16925622W"
+                }
+            ],
+            "identifiers": {},
+            "ocaid": "jedyna0000unse",
+            "isbn_13": [
+                "9788376862873"
+            ],
+            "classifications": {},
+            "translated_from": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/pol"
+                }
+            ],
+            "translation_of": "The One",
+            "latest_revision": 14,
+            "revision": 14,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2017-12-25T11:12:03.557273"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-03-16T22:47:40.967628"
+            }
+        },
+        "/books/OL27097146M": {
+            "publishers": [
+                "UNIEBOEK | HET SPECTRUM"
+            ],
+            "source_records": [
+                "amazon:9000338654"
+            ],
+            "title": "De one (Selection-serie) (Dutch Edition)",
+            "number_of_pages": 263,
+            "covers": [
+                8737043
+            ],
+            "isbn_13": [
+                "9789000338658"
+            ],
+            "isbn_10": [
+                "9000338654"
+            ],
+            "publish_date": "Nov 05, 2014",
+            "key": "/books/OL27097146M",
+            "authors": [
+                {
+                    "key": "/authors/OL6788551A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL16925622W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-07-08T18:08:04.253941"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-15T19:29:13.550510"
+            }
+        },
+        "/books/OL35359231M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Sonsuza Dek",
+            "authors": [
+                {
+                    "key": "/authors/OL6788551A"
+                }
+            ],
+            "publish_date": "Jan 03, 2017",
+            "source_records": [
+                "amazon:6050920753"
+            ],
+            "number_of_pages": 292,
+            "publishers": [
+                "Dex Kitap"
+            ],
+            "isbn_10": [
+                "6050920753"
+            ],
+            "isbn_13": [
+                "9786050920758"
+            ],
+            "physical_format": "paperback",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Sonsuza Dek (Turkish Edition)"
+            },
+            "covers": [
+                12201426
+            ],
+            "works": [
+                {
+                    "key": "/works/OL16925622W"
+                }
+            ],
+            "key": "/books/OL35359231M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-27T22:29:07.897985"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-15T19:29:13.550510"
+            }
+        },
+        "/books/OL27947080M": {
+            "publishers": [
+                "FISCHER KJB"
+            ],
+            "subtitle": "The Selection",
+            "source_records": [
+                "amazon:3733500962"
+            ],
+            "title": "Selection 03. Der Erwählte",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Selection 03. Der Erwählte: The Selection"
+            },
+            "isbn_13": [
+                "9783733500962"
+            ],
+            "covers": [
+                9335034
+            ],
+            "physical_format": "paperback",
+            "full_title": "Selection 03. Der Erwählte : The Selection",
+            "isbn_10": [
+                "3733500962"
+            ],
+            "publish_date": "May 25, 2016",
+            "key": "/books/OL27947080M",
+            "authors": [
+                {
+                    "key": "/authors/OL6788551A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL16925622W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-04-22T18:38:14.635275"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-15T19:22:33.584301"
+            }
+        },
+        "/books/OL27173026M": {
+            "description": {
+                "type": "/type/text",
+                "value": "\"選妃競賽給了亞美利加未曾想過的夢幻人生。從進入皇宮的第一天起，亞美利加的心在兩個男孩之間不斷拉扯──一次又一次為她化解危機的艾斯本，以及感覺越來越強烈的麥克森王子。同時，反叛軍的抗爭越加劇烈，皇宮裡危機四伏，而伊利亞國王似乎隱瞞了足以滅國的身世之謎……亞美利加該如何度過最後一關？為了自己的未來，她將全力一搏！亞美利加的最終抉擇，不僅牽動著伊利亞王國的命運，也緊繫著兩顆為她跳動的心…… 意想不到的精采結局，絕對不能錯過！\"--P. [4] of cover."
+            },
+            "notes": {
+                "type": "/type/text",
+                "value": "Translation of : The one.\n\nXiao shuo."
+            },
+            "title": "Jue zhan wang fei",
+            "subtitle": "Zhen ming tian nü",
+            "authors": [
+                {
+                    "key": "/authors/OL6788551A"
+                }
+            ],
+            "publish_date": "2014",
+            "other_titles": [
+                "Zhen ming tian nü",
+                "One"
+            ],
+            "publishers": [
+                "Yuan shen chu ban she"
+            ],
+            "isbn_10": [
+                "9861334963"
+            ],
+            "series": [
+                "Dang dai wen xue -- 121",
+                "Dang dai wen xue -- 121."
+            ],
+            "full_title": "Jue zhan wang fei Zhen ming tian nü",
+            "publish_places": [
+                "Taibei Shi"
+            ],
+            "contributions": [
+                "Lai, Tingting"
+            ],
+            "subjects": [
+                "Contests",
+                "Marriage",
+                "Princes",
+                "Revolutionaries",
+                "Fiction",
+                "Social classes"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/chi"
+                }
+            ],
+            "pagination": "283 p.",
+            "source_records": [
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run05.mrc:125900870:3329"
+            ],
+            "work_titles": [
+                "One"
+            ],
+            "isbn_13": [
+                "9789861334967"
+            ],
+            "edition_name": "Chu ban",
+            "dewey_decimal_class": [
+                "[Fic]"
+            ],
+            "local_id": [
+                "urn:sfpl:31223113206909",
+                "urn:sfpl:31223113206941",
+                "urn:sfpl:31223113206925"
+            ],
+            "publish_country": "ch",
+            "by_statement": "Qila Kaisi zhu ; Lai Tingting yi = The one / Kiera Cass",
+            "oclc_numbers": [
+                "892027646"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "key": "/books/OL27173026M",
+            "number_of_pages": 283,
+            "works": [
+                {
+                    "key": "/works/OL16925622W"
+                }
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-07-18T18:08:35.625001"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-05-01T03:45:22.398742"
+            }
+        },
+        "/books/OL27157405M": {
+            "description": {
+                "type": "/type/text",
+                "value": "\"As her Selection approaches its finish, America must decide where her heart truly lies--and Prince Maxon must pick one winner to wear the crown\"--\r\n\r\nAs her Selection approaches its finish, America must decide where her heart truly lies, and Prince Maxon must pick one winner to wear the crown. The plot contains mild profanity, sexual references, and graphic violence. Book #3"
+            },
+            "series": [
+                "The Selection"
+            ],
+            "covers": [
+                13316603,
+                10509667
+            ],
+            "full_title": "The one",
+            "key": "/books/OL27157405M",
+            "authors": [
+                {
+                    "key": "/authors/OL6788551A"
+                }
+            ],
+            "subjects": [
+                "Contests",
+                "Love",
+                "Princes",
+                "Revolutionaries",
+                "Social classes",
+                "Marriage",
+                "Fiction",
+                "Juvenile fiction"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "323 pages",
+            "source_records": [
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run05.mrc:38469534:8265",
+                "bwb:9780062059994",
+                "bwb:9780062060006",
+                "marc:marc_loc_2016/BooksAll.2016.part40.utf8:224427421:1149",
+                "promise:bwb_daily_pallets_2020-04-02"
+            ],
+            "title": "The One",
+            "notes": {
+                "type": "/type/text",
+                "value": "Book 3\r\n\r\n**strong text**\r\n\r\nAccelerated Reader MG+ 4.7 11 11 166499"
+            },
+            "number_of_pages": 323,
+            "edition_name": "First edition.",
+            "local_id": [
+                "urn:sfpl:31223119416965",
+                "urn:sfpl:31223111026747",
+                "urn:sfpl:31223111026754",
+                "urn:sfpl:31223107315765",
+                "urn:sfpl:31223119416940",
+                "urn:sfpl:31223111026762",
+                "urn:sfpl:31223119416924",
+                "urn:sfpl:31223111026770",
+                "urn:sfpl:31223107315773",
+                "urn:sfpl:31223111026952",
+                "urn:sfpl:31223115639537",
+                "urn:sfpl:31223115639545",
+                "urn:sfpl:31223111026812",
+                "urn:sfpl:31223119416957",
+                "urn:sfpl:31223111026820",
+                "urn:sfpl:31223111026838",
+                "urn:sfpl:31223111026846",
+                "urn:sfpl:31223119416932",
+                "urn:sfpl:31223111026853",
+                "urn:sfpl:31223107315781",
+                "urn:sfpl:31223119416973",
+                "urn:sfpl:31223107315799",
+                "urn:sfpl:31223111026903",
+                "urn:sfpl:31223111026911",
+                "urn:sfpl:31223119416908",
+                "urn:sfpl:31223119416999",
+                "urn:sfpl:31223111026937",
+                "urn:sfpl:31223107315823",
+                "urn:sfpl:31223119416981",
+                "urn:sfpl:31223124402760",
+                "urn:sfpl:31223111026945",
+                "urn:bwbsku:256-BAA-253"
+            ],
+            "publish_date": "2014",
+            "publish_country": "nyu",
+            "by_statement": "Kiera Cass",
+            "works": [
+                {
+                    "key": "/works/OL16925622W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_10": [
+                "0062059998"
+            ],
+            "isbn_13": [
+                "9780062060006",
+                "9780062059994"
+            ],
+            "lccn": [
+                "2013021356"
+            ],
+            "oclc_numbers": [
+                "852488310"
+            ],
+            "classifications": {},
+            "dewey_decimal_class": [
+                "[Fic]"
+            ],
+            "lc_classifications": [
+                "PZ7.C2685133 One 2014",
+                "PZ7.C2685133One 2014"
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-07-18T11:06:18.143399"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-14T03:51:33.454745"
+            }
+        },
+        "/books/OL28953105M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263174359",
+                "ia:arabianmarriage0000grah"
+            ],
+            "title": "An Arabian Marriage",
+            "number_of_pages": 187,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2002",
+            "key": "/books/OL28953105M",
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3773886W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "covers": [
+                11590050
+            ],
+            "identifiers": {},
+            "ocaid": "arabianmarriage0000grah",
+            "isbn_13": [
+                "9780263174359"
+            ],
+            "classifications": {},
+            "subtitle": "Sister Brides, Book 1",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T05:52:10.635772"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-04T15:36:48.276910"
+            }
+        },
+        "/books/OL28953256M": {
+            "title": "An Arabian Marriage",
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "publish_date": "2002",
+            "publishers": [
+                "Harlequin Mills & Boon, Limited",
+                "Mills & Boon"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2020-12-09:KP-088-865",
+                "bwb:9780263829136",
+                "promise:bwb_daily_pallets_2020-11-19:KO-116-289",
+                "amazon:0263829138"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Arabian Marriage",
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "local_id": [
+                "urn:bwbsku:KP-088-865",
+                "urn:bwbsku:KO-116-289"
+            ],
+            "key": "/books/OL28953256M",
+            "number_of_pages": 187,
+            "works": [
+                {
+                    "key": "/works/OL3773886W"
+                }
+            ],
+            "covers": [
+                13641653
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9780263829136"
+            ],
+            "classifications": {},
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T05:58:31.559488"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-09-29T05:12:17.189352"
+            }
+        },
+        "/books/OL10738951M": {
+            "identifiers": {
+                "librarything": [
+                    "2050450"
+                ],
+                "goodreads": [
+                    "2141744"
+                ]
+            },
+            "title": "Not His Kind Of Woman",
+            "authors": [
+                {
+                    "key": "/authors/OL2635427A"
+                }
+            ],
+            "publish_date": "August 1, 1993",
+            "publishers": [
+                "Harlequin"
+            ],
+            "weight": "0.8 ounces",
+            "series": [
+                "Harlequin Presents, No 1585"
+            ],
+            "covers": [
+                5073428
+            ],
+            "physical_format": "Paperback",
+            "subjects": [
+                "General",
+                "Non-Classifiable",
+                "Romance - General",
+                "Fiction",
+                "Romance: Regency"
+            ],
+            "isbn_13": [
+                "9780373115853"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-06-28:W6-AVH-082",
+                "bwb:9780373115853",
+                "promise:bwb_daily_pallets_2021-06-28:W6-BAA-994",
+                "promise:bwb_daily_pallets_2021-05-17:KO-508-232",
+                "promise:bwb_daily_pallets_2021-03-08:980-BAB-629",
+                "promise:bwb_daily_pallets_2021-01-06:O7-AXE-540"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373115857"
+            ],
+            "oclc_numbers": [
+                "28187266"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.8 x 4.3 x 0.5 inches",
+            "local_id": [
+                "urn:bwbsku:W6-AVH-082",
+                "urn:bwbsku:W6-BAA-994",
+                "urn:bwbsku:KO-508-232",
+                "urn:bwbsku:980-BAB-629",
+                "urn:bwbsku:O7-AXE-540"
+            ],
+            "key": "/books/OL10738951M",
+            "works": [
+                {
+                    "key": "/works/OL4342692W"
+                }
+            ],
+            "latest_revision": 20,
+            "revision": 20,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T16:00:07.917572"
+            }
+        },
+        "/books/OL24937137M": {
+            "publishers": [
+                "Harlequin Book"
+            ],
+            "ia_box_id": [
+                "IA123914"
+            ],
+            "series": [
+                "Harlequin presents -- 1585"
+            ],
+            "covers": [
+                6928074
+            ],
+            "ia_loaded_id": [
+                "nothiskindofwoma00leig"
+            ],
+            "key": "/books/OL24937137M",
+            "authors": [
+                {
+                    "key": "/authors/OL849503A"
+                }
+            ],
+            "publish_places": [
+                "Toronto",
+                "New York"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "187 p. ;",
+            "source_records": [
+                "ia:nothiskindofwoma00leig"
+            ],
+            "title": "Not His Kind of Woman",
+            "notes": "\"Original hardcover edition published in 1992 by Mills & Boon Limited\"--T.p. verso.",
+            "number_of_pages": 187,
+            "full_title": "Not his kind of woman",
+            "edition_name": "Harlequin presents 1st ed.",
+            "publish_date": "1993",
+            "publish_country": "onc",
+            "by_statement": "Roberta Leigh",
+            "works": [
+                {
+                    "key": "/works/OL4342692W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "classifications": {},
+            "ocaid": "nothiskindofwoma00leig",
+            "isbn_10": [
+                "0373115857"
+            ],
+            "isbn_13": [
+                "9780373115853"
+            ],
+            "oclc_numbers": [
+                "28187266"
+            ],
+            "dewey_decimal_class": [
+                "823"
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2011-08-08T04:52:22.325409"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-02-09T01:22:53.091908"
+            }
+        },
+        "/books/OL29044957M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263216912"
+            ],
+            "title": "Injured Innocent",
+            "number_of_pages": 288,
+            "isbn_13": [
+                "9780263216912"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Injured Innocent",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2010",
+            "key": "/books/OL29044957M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3759102W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-21T07:35:31.772867"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-02T23:27:25.709002"
+            }
+        },
+        "/books/OL14978317M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "number_of_pages": 187,
+            "ia_box_id": [
+                "IA116717"
+            ],
+            "series": [
+                "Mills and Boon romance"
+            ],
+            "covers": [
+                6795448
+            ],
+            "full_title": "Injured innocent",
+            "key": "/books/OL14978317M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "187p. ;",
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:516308192:595",
+                "ia:injuredinnocent00jord",
+                "bwb:9780263109245"
+            ],
+            "title": "Injured Innocent",
+            "identifiers": {
+                "librarything": [
+                    "2037431"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1985",
+            "publish_country": "xxk",
+            "by_statement": "by Penny Jordan.",
+            "works": [
+                {
+                    "key": "/works/OL3759102W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "injuredinnocent00jord",
+            "isbn_10": [
+                "0263109240"
+            ],
+            "oclc_numbers": [
+                "13125366"
+            ],
+            "classifications": {},
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "latest_revision": 12,
+            "revision": 12,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T23:07:22.542527"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-28T13:55:54.605750"
+            }
+        },
+        "/books/OL49207492M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B0007E0EQ4"
+                ],
+                "better_world_books": [
+                    "BWB19502891"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:T3-CFJ-494"
+            ],
+            "publish_date": "1967-01-01",
+            "publishers": [
+                "Dutton"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-07-24:T3-CFJ-494",
+                "ia:blacksheep0000geor_t3t8"
+            ],
+            "title": "Black sheep",
+            "full_title": "Black sheep",
+            "works": [
+                {
+                    "key": "/works/OL4092653W"
+                }
+            ],
+            "key": "/books/OL49207492M",
+            "covers": [
+                14885488
+            ],
+            "ocaid": "blacksheep0000geor_t3t8",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 264,
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-07-26T01:08:34.237800"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-04-26T03:17:43.035494"
+            }
+        },
+        "/books/OL14515833M": {
+            "title": "Die galante Entfu hrung.",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_date": "1967",
+            "publishers": [
+                "Paul Zsolnay"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_country": "au ",
+            "publish_places": [
+                "Wien"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:342606850:367"
+            ],
+            "key": "/books/OL14515833M",
+            "works": [
+                {
+                    "key": "/works/OL4092653W"
+                }
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-13T00:28:18.762568"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-29T21:50:50.025589"
+            }
+        },
+        "/books/OL12700013M": {
+            "identifiers": {
+                "librarything": [
+                    "16478"
+                ],
+                "goodreads": [
+                    "3820186"
+                ]
+            },
+            "title": "Die galante Entführung.",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_date": "April 1, 2003",
+            "publishers": [
+                "Dtv"
+            ],
+            "weight": "7.5 ounces",
+            "covers": [
+                3190199
+            ],
+            "physical_format": "Paperback",
+            "isbn_13": [
+                "9783423206129"
+            ],
+            "isbn_10": [
+                "3423206128"
+            ],
+            "oclc_numbers": [
+                "76524506"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "7.6 x 4.8 x 0.8 inches",
+            "source_records": [
+                "amazon:3423206128"
+            ],
+            "key": "/books/OL12700013M",
+            "number_of_pages": 298,
+            "works": [
+                {
+                    "key": "/works/OL4092653W"
+                }
+            ],
+            "latest_revision": 12,
+            "revision": 12,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-26T19:51:13.205682"
+            }
+        },
+        "/books/OL35479248M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7459594A"
+                }
+            ],
+            "isbn_13": [
+                "9781402232145"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "288",
+            "publish_date": "2008",
+            "publishers": [
+                "Sourcebooks, Incorporated"
+            ],
+            "source_records": [
+                "bwb:9781402232145"
+            ],
+            "subjects": [
+                "Great britain, fiction",
+                "Fiction, romance, historical, general"
+            ],
+            "title": "Black Sheep",
+            "full_title": "Black Sheep",
+            "works": [
+                {
+                    "key": "/works/OL4092653W"
+                }
+            ],
+            "key": "/books/OL35479248M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T12:14:10.133831"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-03-02T04:32:23.522672"
+            }
+        },
+        "/books/OL34455904M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7459594A"
+                }
+            ],
+            "isbn_13": [
+                "9781446456286"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 256,
+            "publish_date": "2011",
+            "publishers": [
+                "Penguin Random House"
+            ],
+            "source_records": [
+                "bwb:9781446456286"
+            ],
+            "subjects": [
+                "Great britain, fiction",
+                "Fiction, romance, historical"
+            ],
+            "title": "Black Sheep",
+            "subtitle": "Gossip, Scandal and an Unforgettable Regency Romance",
+            "full_title": "Black Sheep Gossip, Scandal and an Unforgettable Regency Romance",
+            "works": [
+                {
+                    "key": "/works/OL4092653W"
+                }
+            ],
+            "key": "/books/OL34455904M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-04T21:44:24.036704"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-03-02T04:08:04.303233"
+            }
+        },
+        "/books/OL9273301M": {
+            "identifiers": {
+                "librarything": [
+                    "16478"
+                ],
+                "goodreads": [
+                    "311164"
+                ]
+            },
+            "title": "Black Sheep",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_date": "June 3, 2004",
+            "publishers": [
+                "ARROW (RAND)"
+            ],
+            "weight": "6.4 ounces",
+            "covers": [
+                75849
+            ],
+            "physical_format": "Paperback",
+            "subjects": [
+                "Historical - General",
+                "Fiction - Historical"
+            ],
+            "isbn_13": [
+                "9780099468035"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0099468034"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "7.8 x 5 x 0.6 inches",
+            "source_records": [
+                "amazon:0099468034"
+            ],
+            "key": "/books/OL9273301M",
+            "number_of_pages": 252,
+            "works": [
+                {
+                    "key": "/works/OL4092653W"
+                }
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-04-10T08:00:44.563106"
+            }
+        },
+        "/books/OL6018325M": {
+            "publishers": [
+                "Bodley Head"
+            ],
+            "number_of_pages": 255,
+            "lc_classifications": [
+                "PZ3.H514 Blm",
+                "PR6015.E795 Blm"
+            ],
+            "key": "/books/OL6018325M",
+            "authors": [
+                {
+                    "key": "/authors/OL7459594A"
+                }
+            ],
+            "publish_places": [
+                "London",
+                "Sydney [etc.]"
+            ],
+            "pagination": "255 p.",
+            "source_records": [
+                "marc:marc_loc_2016/BooksAll.2016.part06.utf8:77663154:487"
+            ],
+            "title": "Black sheep.",
+            "lccn": [
+                "66077201"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "16478"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1966",
+            "publish_country": "enk",
+            "works": [
+                {
+                    "key": "/works/OL4092653W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-03-02T04:03:29.119494"
+            }
+        },
+        "/books/OL22314736M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Originally published: The Bodley Head, 1966."
+            },
+            "title": "Black sheep.",
+            "authors": [
+                {
+                    "key": "/authors/OL7459594A"
+                }
+            ],
+            "publish_date": "1995",
+            "publishers": [
+                "Remploy"
+            ],
+            "series": [
+                "A Portway large print book"
+            ],
+            "publish_places": [
+                "Halifax"
+            ],
+            "edition_name": "Large print ed.",
+            "pagination": "369p. ;",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0706610806"
+            ],
+            "publish_country": "enk",
+            "oclc_numbers": [
+                "152481372"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:1395650009:551"
+            ],
+            "key": "/books/OL22314736M",
+            "number_of_pages": 369,
+            "works": [
+                {
+                    "key": "/works/OL4092653W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-10T04:14:40.648696"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-14T19:49:02.107106"
+            }
+        },
+        "/books/OL33855703M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL28493A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 320,
+            "publish_date": "2021",
+            "publishers": [
+                "Faber & Faber, Limited"
+            ],
+            "source_records": [
+                "bwb:9780571366217",
+                "promise:bwb_daily_pallets_2022-07-11"
+            ],
+            "title": "Klara and the Sun",
+            "works": [
+                {
+                    "key": "/works/OL20883297W"
+                }
+            ],
+            "key": "/books/OL33855703M",
+            "identifiers": {},
+            "isbn_13": [
+                "9780571366217"
+            ],
+            "classifications": {},
+            "edition_name": "Waterstones Exclusive Edition",
+            "physical_format": "hardcover",
+            "local_id": [
+                "urn:bwbsku:KR-042-418"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-09-22T03:52:43.152416"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-04T23:22:40.943034"
+            }
+        },
+        "/books/OL33802423M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL28493A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2021",
+            "publishers": [
+                "Faber & Faber, Limited"
+            ],
+            "source_records": [
+                "bwb:9780571364916"
+            ],
+            "subjects": [
+                "Fiction, science fiction, general",
+                "Fiction, dystopian",
+                "British and irish fiction (fictional works by one author)"
+            ],
+            "title": "Klara and the Sun",
+            "full_title": "Klara and the Sun",
+            "works": [
+                {
+                    "key": "/works/OL20883297W"
+                }
+            ],
+            "key": "/books/OL33802423M",
+            "identifiers": {},
+            "isbn_13": [
+                "9780571364916"
+            ],
+            "isbn_10": [
+                "0571364918"
+            ],
+            "classifications": {},
+            "physical_format": "ebook",
+            "number_of_pages": 330,
+            "covers": [
+                12818437
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-09-21T19:17:55.832162"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-08T08:06:05.877189"
+            }
+        },
+        "/books/OL33938436M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL28493A"
+                }
+            ],
+            "isbn_13": [
+                "9780571364909"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 320,
+            "publish_date": "2022",
+            "publishers": [
+                "Faber & Faber, Limited"
+            ],
+            "source_records": [
+                "bwb:9780571364909",
+                "promise:bwb_daily_pallets_2022-12-28"
+            ],
+            "title": "Klara and the Sun",
+            "subtitle": "Sunday Times Number One Bestseller",
+            "full_title": "Klara and the Sun Sunday Times Number One Bestseller",
+            "works": [
+                {
+                    "key": "/works/OL20883297W"
+                }
+            ],
+            "key": "/books/OL33938436M",
+            "local_id": [
+                "urn:bwbsku:KS-057-093"
+            ],
+            "covers": [
+                14637495
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-09-28T13:07:59.887270"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-06-19T14:08:36.218275"
+            }
+        },
+        "/books/OL32007543M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Klara y el sol",
+            "authors": [
+                {
+                    "key": "/authors/OL28493A"
+                },
+                {
+                    "key": "/authors/OL9110851A"
+                },
+                {
+                    "key": "/authors/OL7972428A"
+                }
+            ],
+            "publish_date": "Mar 03, 2021",
+            "source_records": [
+                "amazon:8433980874"
+            ],
+            "number_of_pages": 384,
+            "publishers": [
+                "Editorial Anagrama"
+            ],
+            "isbn_10": [
+                "8433980874"
+            ],
+            "isbn_13": [
+                "9788433980878"
+            ],
+            "physical_format": "paperback",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Klara y el sol (Panorama de narrativas) (Spanish Edition)"
+            },
+            "covers": [
+                10675098
+            ],
+            "works": [
+                {
+                    "key": "/works/OL20883297W"
+                }
+            ],
+            "key": "/books/OL32007543M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-03-05T10:47:37.455408"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-09-15T18:04:27.925346"
+            }
+        },
+        "/books/OL35503602M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL779138A"
+                }
+            ],
+            "isbn_13": [
+                "9781306687263"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2008",
+            "publishers": [
+                "Kensington Publishing Corporation"
+            ],
+            "source_records": [
+                "bwb:9781306687263"
+            ],
+            "subjects": [
+                "Scotland, fiction",
+                "Fiction, romance, historical, general"
+            ],
+            "title": "Highland Wolf",
+            "full_title": "Highland Wolf",
+            "works": [
+                {
+                    "key": "/works/OL4141646W"
+                }
+            ],
+            "key": "/books/OL35503602M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T18:03:16.808293"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-15T10:23:43.583920"
+            }
+        },
+        "/books/OL35457919M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL779138A"
+                }
+            ],
+            "isbn_13": [
+                "9780759288164"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "260",
+            "publish_date": "2009",
+            "publishers": [
+                "Open Road Integrated Media, Inc.",
+                "e-reads.com"
+            ],
+            "source_records": [
+                "bwb:9780759288164",
+                "amazon:075928816X"
+            ],
+            "subjects": [
+                "Scotland, fiction",
+                "Fiction, romance, historical, general"
+            ],
+            "title": "Highland Wolf",
+            "weight": "0.336",
+            "full_title": "Highland Wolf",
+            "works": [
+                {
+                    "key": "/works/OL4141646W"
+                }
+            ],
+            "key": "/books/OL35457919M",
+            "covers": [
+                13830671
+            ],
+            "number_of_pages": 260,
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T06:13:55.778362"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-15T10:23:43.583920"
+            }
+        },
+        "/books/OL35500768M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL779138A"
+                }
+            ],
+            "isbn_13": [
+                "9781306690898"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2014",
+            "publishers": [
+                "Open Road Integrated Media, Inc."
+            ],
+            "source_records": [
+                "bwb:9781306690898"
+            ],
+            "subjects": [
+                "Scotland, fiction",
+                "Fiction, romance, historical, general"
+            ],
+            "title": "Highland Wolf",
+            "full_title": "Highland Wolf",
+            "works": [
+                {
+                    "key": "/works/OL4141646W"
+                }
+            ],
+            "key": "/books/OL35500768M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T17:27:00.114705"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-15T10:23:43.583920"
+            }
+        },
+        "/books/OL28687743M": {
+            "publishers": [
+                "Zebra Books/Kensington Pub. Corp."
+            ],
+            "source_records": [
+                "bwb:9781420142662"
+            ],
+            "title": "Highland Wolf",
+            "number_of_pages": 352,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Highland Wolf",
+            "publish_date": "2008-01",
+            "key": "/books/OL28687743M",
+            "authors": [
+                {
+                    "key": "/authors/OL779138A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4141646W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Scotland, fiction",
+                "Fiction, romance, general"
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9781420142662"
+            ],
+            "ocaid": "highlandwolf0000howe",
+            "classifications": {},
+            "lc_classifications": [
+                "PS3558.O898"
+            ],
+            "covers": [
+                13027821
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-13T04:42:48.861956"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-15T10:23:43.583920"
+            }
+        },
+        "/books/OL24296439M": {
+            "publishers": [
+                "ereads.com"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "\"Few authors portray the Scottish highlands as lovingly or colorfully as Hannah Howell.\"—Publishers WeeklyNew York Times Bestselling Author Hannah Howell returns to the breathtaking Scottish Highlands with the unforgettable Murray clan and the stunning Annora MacKay who cannot resist the desire an alluring stranger offers...Annora MacKay senses a disturbing evil in Dunncraig Keep, the estate acquired by her cousin, a cruel and ruthless man. Only her affection for the tiny girl he claims is his daughter stops her from fleeing. Then a mysterious woodcarver arrives at the castle, and she cannot stop thinking—or longing—for him...James Drummond, once a laird now an outcast, wants what was stolen from him—his good name, his lands, and his child. His disguise for getting into Dunncraig is step one of his plan, but the enticing raven-haired woman who cares for his daughter is an unwelcome surprise. For he has come seeking justice, not love..."
+            },
+            "source_records": [
+                "marc_overdrive/InternetArchiveCrMarc-2010-06-11p.mrc:5925959:2499",
+                "bwb:9780759288218",
+                "bwb:9780759288201",
+                "bwb:9780759288171"
+            ],
+            "title": "Highland Wolf",
+            "identifiers": {
+                "overdrive": [
+                    "B76CD852-D633-464F-9AFB-D3B3C11B8B53"
+                ]
+            },
+            "isbn_13": [
+                "9780759288171",
+                "9780759288218",
+                "9780759288201"
+            ],
+            "physical_format": "eBook",
+            "publish_date": "2010",
+            "publish_country": "nyu",
+            "key": "/books/OL24296439M",
+            "publish_places": [
+                "New York"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4141646W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-06-23T04:28:47.552665"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-07-17T14:45:11.028438"
+            }
+        },
+        "/books/OL9532859M": {
+            "publishers": [
+                "Zebra"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "759594"
+                ],
+                "librarything": [
+                    "3722911"
+                ]
+            },
+            "ia_box_id": [
+                "IA177901"
+            ],
+            "covers": [
+                1557723
+            ],
+            "physical_format": "Paperback",
+            "ia_loaded_id": [
+                "highlandwolf00howe_0"
+            ],
+            "key": "/books/OL9532859M",
+            "authors": [
+                {
+                    "key": "/authors/OL779138A"
+                }
+            ],
+            "subjects": [
+                "Romance - Historical",
+                "Fiction / Romance / Historical",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Historical"
+            ],
+            "source_records": [
+                "amazon:082178000X:2-ba:60193432:205188",
+                "marc:marc_loc_updates/v36.i33.records.utf8:14831423:921",
+                "ia:highlandwolf00howe_0",
+                "ia:highlandwolf0000howe",
+                "marc:marc_loc_2016/BooksAll.2016.part36.utf8:74473503:1024",
+                "bwb:9780821780008"
+            ],
+            "title": "Highland Wolf",
+            "number_of_pages": 384,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "January 2, 2008",
+            "works": [
+                {
+                    "key": "/works/OL4141646W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "highlandwolf00howe_0",
+            "isbn_10": [
+                "082178000X"
+            ],
+            "isbn_13": [
+                "9780821780008"
+            ],
+            "lccn": [
+                "2008581350"
+            ],
+            "classifications": {},
+            "lc_classifications": [
+                "CPB Box no. 2752 vol. 21",
+                "PB",
+                "CPB"
+            ],
+            "latest_revision": 14,
+            "revision": 14,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-09-24T19:35:20.950567"
+            }
+        },
+        "/books/OL43018317M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL6788551A"
+                }
+            ],
+            "local_id": [
+                "urn:bwbsku:P7-ARX-753"
+            ],
+            "publish_date": "2014-01-01",
+            "publishers": [
+                "HarperTeen"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-03-17"
+            ],
+            "title": "The One",
+            "full_title": "The One (Book Three)",
+            "works": [
+                {
+                    "key": "/works/OL16925622W"
+                }
+            ],
+            "key": "/books/OL43018317M",
+            "identifiers": {},
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "covers": [
+                13327928,
+                -1
+            ],
+            "notes": "Book 3",
+            "series": [
+                "The Selection (3)"
+            ],
+            "subtitle": "The Selection #3",
+            "ocaid": "one0000cass_h6y0",
+            "isbn_10": [
+                "0062338501"
+            ],
+            "isbn_13": [
+                "9780062338501",
+                "9780062059994"
+            ],
+            "latest_revision": 12,
+            "revision": 12,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-07T00:27:09.145461"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-06-24T15:48:33.680706"
+            }
+        },
+        "/books/OL39798057M": {
+            "works": [
+                {
+                    "key": "/works/OL16925622W"
+                }
+            ],
+            "title": "The One",
+            "publishers": [
+                "HarperCollinsPublishers"
+            ],
+            "publish_date": "May 6, 2014",
+            "key": "/books/OL39798057M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                12911101
+            ],
+            "identifiers": {},
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-09-22T15:32:51.618126"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-20T16:36:06.473616"
+            }
+        },
+        "/books/OL36301116M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL6788551A"
+                }
+            ],
+            "isbn_13": [
+                "9780062060013"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "368",
+            "publish_date": "2014",
+            "publishers": [
+                "HarperCollins Publishers"
+            ],
+            "source_records": [
+                "bwb:9780062060013"
+            ],
+            "subjects": [
+                "Children's fiction",
+                "Marriage, fiction",
+                "Contests, fiction",
+                "Love, fiction",
+                "Princes, fiction"
+            ],
+            "title": "One",
+            "full_title": "One",
+            "works": [
+                {
+                    "key": "/works/OL16925622W"
+                }
+            ],
+            "key": "/books/OL36301116M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-12-30T06:14:58.539989"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-20T16:36:06.473616"
+            }
+        },
+        "/books/OL35625830M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "La Elegida",
+            "authors": [
+                {
+                    "key": "/authors/OL6788551A"
+                }
+            ],
+            "publish_date": "Nov 05, 2014",
+            "source_records": [
+                "amazon:849918863X",
+                "promise:bwb_daily_pallets_2024-07-12:W9-AWW-564"
+            ],
+            "publishers": [
+                "ROCA MEXICO"
+            ],
+            "physical_format": "paperback",
+            "notes": "Source title: ELEGIDA, LA (LA SELECCION 3)",
+            "covers": [
+                12332866
+            ],
+            "works": [
+                {
+                    "key": "/works/OL16925622W"
+                }
+            ],
+            "key": "/books/OL35625830M",
+            "identifiers": {},
+            "isbn_10": [
+                "849918863X"
+            ],
+            "isbn_13": [
+                "9788499188638"
+            ],
+            "classifications": {},
+            "local_id": [
+                "urn:bwbsku:W9-AWW-564"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-05T21:51:46.837059"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-07-14T01:06:30.289268"
+            }
+        },
+        "/books/OL35626547M": {
+            "notes": "Source title: La elegida (Spanish Edition)",
+            "title": "La Elegida",
+            "authors": [
+                {
+                    "key": "/authors/OL6788551A"
+                },
+                {
+                    "key": "/authors/OL9118566A"
+                }
+            ],
+            "publish_date": "Nov 03, 2016",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:8416240620",
+                "bwb:9788416240623",
+                "promise:bwb_daily_pallets_2022-10-12"
+            ],
+            "publishers": [
+                "Roca Editorial",
+                "Roca Bolsillo"
+            ],
+            "physical_format": "paperback",
+            "full_title": "La elegida",
+            "covers": [
+                12333582
+            ],
+            "local_id": [
+                "urn:bwbsku:O8-CQM-971"
+            ],
+            "key": "/books/OL35626547M",
+            "number_of_pages": 256,
+            "works": [
+                {
+                    "key": "/works/OL16925622W"
+                }
+            ],
+            "identifiers": {},
+            "ocaid": "laelegida0000kier",
+            "isbn_10": [
+                "8416240620"
+            ],
+            "isbn_13": [
+                "9788416240623"
+            ],
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-05T22:21:26.345489"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-09-01T12:04:10.659020"
+            }
+        },
+        "/books/OL28194287M": {
+            "publishers": [
+                "FISCHER Sauerländer"
+            ],
+            "source_records": [
+                "amazon:3737364982"
+            ],
+            "title": "Selection 03. Der Erwählte",
+            "isbn_13": [
+                "9783737364980"
+            ],
+            "covers": [
+                10130252
+            ],
+            "physical_format": "hardcover",
+            "full_title": "Selection 03. Der Erwählte",
+            "isbn_10": [
+                "3737364982"
+            ],
+            "publish_date": "Feb 19, 2015",
+            "key": "/books/OL28194287M",
+            "authors": [
+                {
+                    "key": "/authors/OL6788551A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL16925622W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-06-04T15:14:40.950270"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-15T19:22:33.584301"
+            }
+        },
+        "/books/OL29135947M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781408931394"
+            ],
+            "title": "An Arabian Marriage",
+            "number_of_pages": 192,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Arabian Marriage",
+            "publish_date": "2012",
+            "key": "/books/OL29135947M",
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3773886W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_13": [
+                "9781408931394"
+            ],
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-22T11:46:21.083878"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-09-29T05:12:50.553675"
+            }
+        },
+        "/books/OL9874503M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "number_of_pages": 192,
+            "weight": "2.4 ounces",
+            "covers": [
+                1186182
+            ],
+            "physical_format": "Mass Market Paperback",
+            "key": "/books/OL9874503M",
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "ocaid": "arabianmarriage00lynn",
+            "subjects": [
+                "Romance - General",
+                "Fiction / Romance / General",
+                "American Light Romantic Fiction",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern"
+            ],
+            "isbn_13": [
+                "9780373198788"
+            ],
+            "source_records": [
+                "bwb:9780373198788"
+            ],
+            "title": "An Arabian Marriage",
+            "identifiers": {
+                "librarything": [
+                    "116073"
+                ],
+                "goodreads": [
+                    "2075307"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373198787"
+            ],
+            "publish_date": "July 10, 2007",
+            "works": [
+                {
+                    "key": "/works/OL3773886W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.4 x 4.2 x 0.6 inches",
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-04T15:36:48.276910"
+            }
+        },
+        "/books/OL48806102M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7991171A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2023",
+            "publishers": [
+                "Rachel Reid"
+            ],
+            "source_records": [
+                "bwb:9780369748898"
+            ],
+            "subjects": [
+                "Fiction, romance, contemporary",
+                "Fiction, romance, romantic comedy",
+                "Fiction, romance, sports",
+                "Fiction, romance, lgbtq+, gay"
+            ],
+            "title": "Heated Rivalry",
+            "full_title": "Heated Rivalry",
+            "works": [
+                {
+                    "key": "/works/OL25434351W"
+                }
+            ],
+            "key": "/books/OL48806102M",
+            "covers": [
+                15152812,
+                -1
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B0BZZCSYXJ"
+                ],
+                "goodreads": [
+                    "220966494"
+                ],
+                "google": [
+                    "Xb-2EAAAQBAJ"
+                ],
+                "storygraph": [
+                    "e2359f88-838c-4f53-85ad-44768f3e000a"
+                ]
+            },
+            "isbn_13": [
+                "9780369748898"
+            ],
+            "isbn_10": [
+                "0369748891"
+            ],
+            "oclc_numbers": [
+                "1445010230"
+            ],
+            "dewey_decimal_class": [
+                "819.136"
+            ],
+            "lc_classifications": [
+                "PS8635.E33"
+            ],
+            "series": [
+                "Game Changers, 2"
+            ],
+            "contributors": [
+                {
+                    "role": "Dedicated to",
+                    "name": "This book is dedicated to Matt, the Frog to my Toad."
+                }
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "EPUB 3 (DRM-Free)"
+            },
+            "physical_format": "Ebook",
+            "number_of_pages": 371,
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-07-17T14:45:30.195127"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-15T19:13:41.543684"
+            }
+        },
+        "/books/OL34101901M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7991171A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2019",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781488051241"
+            ],
+            "title": "Heated Rivalry",
+            "full_title": "Heated Rivalry",
+            "works": [
+                {
+                    "key": "/works/OL25434351W"
+                }
+            ],
+            "key": "/books/OL34101901M",
+            "covers": [
+                15152816
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9781488051241"
+            ],
+            "series": [
+                "Game Changers"
+            ],
+            "physical_format": "ebook",
+            "number_of_pages": 375,
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-09-30T07:19:31.068908"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-21T15:51:06.794453"
+            }
+        },
+        "/books/OL10239520M": {
+            "identifiers": {
+                "goodreads": [
+                    "6878891"
+                ],
+                "librarything": [
+                    "2050450"
+                ]
+            },
+            "title": "Not His Kind of Woman",
+            "authors": [
+                {
+                    "key": "/authors/OL849503A"
+                }
+            ],
+            "publish_date": "October 1992",
+            "publishers": [
+                "MacMillan Publishing Company"
+            ],
+            "weight": "14.4 ounces",
+            "physical_format": "Hardcover",
+            "subjects": [
+                "Romance",
+                "General",
+                "Fiction - General",
+                "Large Print"
+            ],
+            "edition_name": "Largeprint edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_13": [
+                "9780263130973"
+            ],
+            "isbn_10": [
+                "0263130975"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.5 x 5.8 x 1 inches",
+            "source_records": [
+                "amazon:0263130975"
+            ],
+            "key": "/books/OL10239520M",
+            "number_of_pages": 288,
+            "works": [
+                {
+                    "key": "/works/OL4342692W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-14T19:32:17.518137"
+            }
+        },
+        "/books/OL29243045M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781408998083"
+            ],
+            "title": "Injured Innocent",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781408998083"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Injured Innocent",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2013",
+            "key": "/books/OL29243045M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3759102W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-23T19:25:49.239974"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-02T23:27:25.709002"
+            }
+        },
+        "/books/OL28973941M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263752052"
+            ],
+            "title": "Injured Innocent",
+            "number_of_pages": 187,
+            "isbn_13": [
+                "9780263752052"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Injured Innocent",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "1985",
+            "key": "/books/OL28973941M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3759102W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T22:28:51.996897"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-02T23:27:25.709002"
+            }
+        },
+        "/books/OL7817261M": {
+            "publishers": [
+                "Bantam"
+            ],
+            "title": "Balck Sheep",
+            "identifiers": {
+                "goodreads": [
+                    "4612213"
+                ],
+                "librarything": [
+                    "16478"
+                ]
+            },
+            "isbn_13": [
+                "9780553103229"
+            ],
+            "physical_format": "Mass Market Paperback",
+            "isbn_10": [
+                "0553103229"
+            ],
+            "publish_date": "1976",
+            "key": "/books/OL7817261M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "works": [
+                {
+                    "key": "/works/OL4092653W"
+                }
+            ],
+            "local_id": [
+                "urn:bwbsku:P7-ECA-493"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-09-14"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-05-24T19:19:01.703005"
+            }
+        },
+        "/books/OL43221783M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "isbn_10": [
+                "1787466426"
+            ],
+            "isbn_13": [
+                "9781787466425"
+            ],
+            "local_id": [
+                "urn:bwbsku:KP-172-379"
+            ],
+            "publish_date": "2019-01-01",
+            "publishers": [
+                "Arrow"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-10-06"
+            ],
+            "title": "Black Sheet",
+            "full_title": "Black Sheet",
+            "works": [
+                {
+                    "key": "/works/OL4092653W"
+                }
+            ],
+            "key": "/books/OL43221783M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-07T21:09:02.052606"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-02T09:25:25.295322"
+            }
+        },
+        "/books/OL35495441M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7459594A"
+                }
+            ],
+            "isbn_13": [
+                "9781281817150"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "290",
+            "publish_date": "2014",
+            "publishers": [
+                "Sourcebooks, Incorporated"
+            ],
+            "source_records": [
+                "bwb:9781281817150"
+            ],
+            "subjects": [
+                "Great britain, fiction",
+                "Fiction, romance, historical, general"
+            ],
+            "title": "Black Sheep",
+            "full_title": "Black Sheep",
+            "works": [
+                {
+                    "key": "/works/OL4092653W"
+                }
+            ],
+            "key": "/books/OL35495441M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T16:16:03.937347"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-03-02T04:32:23.522672"
+            }
+        },
+        "/books/OL35473909M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7459594A"
+                }
+            ],
+            "isbn_13": [
+                "9781446456293"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2011",
+            "publishers": [
+                "Penguin Random House"
+            ],
+            "source_records": [
+                "bwb:9781446456293"
+            ],
+            "subjects": [
+                "Great britain, fiction",
+                "Fiction, romance, historical, general"
+            ],
+            "title": "Black Sheep",
+            "full_title": "Black Sheep",
+            "works": [
+                {
+                    "key": "/works/OL4092653W"
+                }
+            ],
+            "key": "/books/OL35473909M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T11:01:33.580671"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-03-02T04:32:23.522672"
+            }
+        },
+        "/books/OL21272755M": {
+            "publishers": [
+                "Pan Books"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "1103669"
+                ],
+                "librarything": [
+                    "16478"
+                ]
+            },
+            "key": "/books/OL21272755M",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "239p. ;",
+            "title": "Black sheep",
+            "dewey_decimal_class": [
+                "823/.91"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Originally published (B66-20086), London, Bodley Head, 1966."
+            },
+            "number_of_pages": 239,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "033002230X"
+            ],
+            "publish_date": "1969",
+            "publish_country": "xxk",
+            "by_statement": "by Georgette Heyer.",
+            "works": [
+                {
+                    "key": "/works/OL4092653W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "bwb:9780330022309"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-01T14:38:16.031120"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-02T09:25:25.295322"
+            }
+        },
+        "/books/OL7822108M": {
+            "identifiers": {
+                "goodreads": [
+                    "1103672"
+                ],
+                "librarything": [
+                    "16478"
+                ]
+            },
+            "title": "Black Sheep",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_date": "June 1985",
+            "publishers": [
+                "Bantam Dell Pub Group (P)",
+                "Bantam Dell Pub Group"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_format": "Paperback",
+            "subjects": [
+                "Romance: Regency",
+                "Fiction"
+            ],
+            "local_id": [
+                "urn:bwbsku:W8-AJH-930"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-04-11:W8-AJH-930"
+            ],
+            "key": "/books/OL7822108M",
+            "number_of_pages": 232,
+            "works": [
+                {
+                    "key": "/works/OL4092653W"
+                }
+            ],
+            "ocaid": "blacksheep0000geor",
+            "isbn_10": [
+                "0553248081"
+            ],
+            "isbn_13": [
+                "9780553248081"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-15T11:49:20.253839"
+            }
+        },
+        "/books/OL7318646M": {
+            "publishers": [
+                "ARROW (RAND)"
+            ],
+            "number_of_pages": 252,
+            "source_records": [
+                "bwb:9780099468035"
+            ],
+            "title": "Black Sheep",
+            "isbn_10": [
+                "0099468034"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "16478"
+                ],
+                "goodreads": [
+                    "311164"
+                ]
+            },
+            "isbn_13": [
+                "9780099468035"
+            ],
+            "covers": [
+                75850
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lc_classifications": [
+                "PR6015"
+            ],
+            "publish_date": "June 3, 2004",
+            "key": "/books/OL7318646M",
+            "authors": [
+                {
+                    "key": "/authors/OL7459594A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4092653W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-03-02T04:03:29.119494"
+            }
+        },
+        "/books/OL24264599M": {
+            "publishers": [
+                "Sourcebooks, Inc."
+            ],
+            "physical_format": "Electronic resource",
+            "source_records": [
+                "marc_overdrive/InternetArchiveCrMarc-2010-06-11l.mrc:8713675:1931",
+                "bwb:9781402215490"
+            ],
+            "title": "Black Sheep",
+            "identifiers": {
+                "overdrive": [
+                    "92E47081-84EE-4EFB-A15E-A1C4CB1E83FA"
+                ]
+            },
+            "isbn_13": [
+                "9781402215490"
+            ],
+            "covers": [
+                6413177
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2008",
+            "publish_country": "nyu",
+            "key": "/books/OL24264599M",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_places": [
+                "Naperville"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4092653W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "lc_classifications": [
+                "PR6015.E795B5 2008"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-06-17T22:01:08.775712"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-02T09:25:25.295322"
+            }
+        },
+        "/books/OL22284016M": {
+            "publishers": [
+                "Bodley Head"
+            ],
+            "pagination": "254p. ;",
+            "number_of_pages": 254,
+            "title": "Black sheep.",
+            "identifiers": {
+                "librarything": [
+                    "16478"
+                ],
+                "goodreads": [
+                    "1103668"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0370006143"
+            ],
+            "publish_date": "1966",
+            "publish_country": "xxk",
+            "key": "/books/OL22284016M",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4092653W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "oclc_numbers": [
+                "156469684"
+            ],
+            "source_records": [
+                "bwb:9780370006147"
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-09T19:16:41.904032"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-02T09:25:25.295322"
+            }
+        },
+        "/books/OL7573233M": {
+            "publishers": [
+                "Signet",
+                "Berkley"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "identifiers": {
+                "librarything": [
+                    "16478"
+                ],
+                "goodreads": [
+                    "1103670"
+                ]
+            },
+            "title": "Black Sheep",
+            "number_of_pages": 240,
+            "isbn_13": [
+                "9780451172594"
+            ],
+            "isbn_10": [
+                "0451172590"
+            ],
+            "publish_date": "June 2, 1992",
+            "key": "/books/OL7573233M",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "oclc_numbers": [
+                "26063404"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4092653W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "bwb:9780451172594",
+                "amazon:0451172590"
+            ],
+            "covers": [
+                13996283
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-02T09:25:25.295322"
+            }
+        },
+        "/books/OL33907697M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL28493A"
+                }
+            ],
+            "isbn_13": [
+                "9780571366200"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 320,
+            "publish_date": "2021",
+            "publishers": [
+                "Faber & Faber, Limited"
+            ],
+            "source_records": [
+                "bwb:9780571366200"
+            ],
+            "subjects": [
+                "Fiction, science fiction, general",
+                "Fiction, dystopian",
+                "British and irish fiction (fictional works by one author)"
+            ],
+            "title": "Klara and the Sun",
+            "weight": "0.608",
+            "full_title": "Klara and the Sun",
+            "works": [
+                {
+                    "key": "/works/OL20883297W"
+                }
+            ],
+            "key": "/books/OL33907697M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-09-28T08:12:26.657014"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-01-09T11:59:05.051918"
+            }
+        },
+        "/books/OL31860818M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Klara and the Sun",
+            "authors": [
+                {
+                    "key": "/authors/OL28493A"
+                }
+            ],
+            "publish_date": "Mar 02, 2021",
+            "source_records": [
+                "amazon:0593396561",
+                "bwb:9780593396568",
+                "promise:bwb_daily_pallets_2022-08-13",
+                "idb:9780571364886",
+                "idb:9780593396568"
+            ],
+            "number_of_pages": 486,
+            "publishers": [
+                "Random House Large Print"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Klara and the Sun A Novel",
+            "subtitle": "A Novel",
+            "notes": "Source title: Klara and the Sun: A Novel (Random House Large Print)",
+            "covers": [
+                12727446,
+                10546274
+            ],
+            "works": [
+                {
+                    "key": "/works/OL20883297W"
+                }
+            ],
+            "key": "/books/OL31860818M",
+            "identifiers": {},
+            "classifications": {},
+            "isbn_10": [
+                "0593396561"
+            ],
+            "isbn_13": [
+                "9780593396568",
+                "978-0-571-36488-6"
+            ],
+            "local_id": [
+                "urn:bwbsku:W7-BIK-880"
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-01-14T19:58:52.838719"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-12-19T23:09:37.307478"
+            }
+        },
+        "/books/OL35497965M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL779138A"
+                }
+            ],
+            "isbn_13": [
+                "9781497630086"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "260",
+            "publish_date": "2014",
+            "publishers": [
+                "Open Road Integrated Media, Inc."
+            ],
+            "source_records": [
+                "bwb:9781497630086"
+            ],
+            "subjects": [
+                "Scotland, fiction",
+                "Fiction, romance, historical, general"
+            ],
+            "title": "Highland Wolf",
+            "full_title": "Highland Wolf",
+            "works": [
+                {
+                    "key": "/works/OL4141646W"
+                }
+            ],
+            "key": "/books/OL35497965M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T16:51:07.192211"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-15T10:23:43.583920"
+            }
+        },
+        "/books/OL29696185M": {
+            "publishers": [
+                "Open Road Integrated Media, Inc."
+            ],
+            "source_records": [
+                "bwb:9781497630079"
+            ],
+            "title": "Highland Wolf",
+            "number_of_pages": 260,
+            "isbn_13": [
+                "9781497630079"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Highland Wolf",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2014",
+            "key": "/books/OL29696185M",
+            "authors": [
+                {
+                    "key": "/authors/OL779138A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4141646W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Scotland, fiction",
+                "Fiction, romance, historical"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-30T02:59:44.023782"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-15T10:23:43.583920"
+            }
+        },
+        "/books/OL24281312M": {
+            "publishers": [
+                "Kensington Publishing Corp."
+            ],
+            "physical_format": "E-book",
+            "source_records": [
+                "marc_overdrive/InternetArchiveCrMarc-2010-06-11a.mrc:3105652:2234",
+                "bwb:9781420104981"
+            ],
+            "title": "Highland Wolf",
+            "identifiers": {
+                "overdrive": [
+                    "17F4C661-F96A-4CF6-BDCF-04DF96006059"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "1420104985",
+                "1420104993"
+            ],
+            "publish_date": "2008",
+            "publish_country": "nyu",
+            "key": "/books/OL24281312M",
+            "publish_places": [
+                "New York"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4141646W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-06-22T17:12:26.025029"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-03-17T05:32:39.080200"
+            }
+        },
+        "/books/OL36204888M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL6788551A"
+                }
+            ],
+            "isbn_13": [
+                "9780007466740"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "336",
+            "publish_date": "2014",
+            "publishers": [
+                "HarperCollins Publishers Limited"
+            ],
+            "source_records": [
+                "bwb:9780007466740"
+            ],
+            "subjects": [
+                "Children's fiction",
+                "Marriage, fiction",
+                "Contests, fiction",
+                "Love, fiction",
+                "Princes, fiction"
+            ],
+            "title": "One",
+            "full_title": "One",
+            "works": [
+                {
+                    "key": "/works/OL16925622W"
+                }
+            ],
+            "key": "/books/OL36204888M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-12-29T07:26:05.750270"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-20T16:36:06.473616"
+            }
+        },
+        "/books/OL46835510M": {
+            "works": [
+                {
+                    "key": "/works/OL16925622W"
+                }
+            ],
+            "title": "The One",
+            "publishers": [
+                "Scholastic Inc."
+            ],
+            "publish_date": "2015-01",
+            "key": "/books/OL46835510M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                13326726,
+                -1
+            ],
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "ocaid": "one0000cass_q2a7",
+            "isbn_13": [
+                "9780545805377"
+            ],
+            "subtitle": "The Selection #3",
+            "series": [
+                "The Selection (3)"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-02-20T15:45:59.901553"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-08-01T03:54:34.479040"
+            }
+        },
+        "/books/OL31896008M": {
+            "title": "La Elegida",
+            "publish_date": "2015",
+            "publishers": [
+                "Roca"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                10582035
+            ],
+            "key": "/books/OL31896008M",
+            "works": [
+                {
+                    "key": "/works/OL16925622W"
+                }
+            ],
+            "source_records": [
+                "bwb:9788499187266"
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9788499187266"
+            ],
+            "classifications": {},
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-01-26T12:19:56.117958"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-15T19:22:33.584301"
+            }
+        },
+        "/books/OL44715308M": {
+            "works": [
+                {
+                    "key": "/works/OL16925622W"
+                }
+            ],
+            "title": "L'Élue",
+            "publishers": [
+                "Robert Laffont"
+            ],
+            "publish_date": "2014",
+            "key": "/books/OL44715308M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                13110452
+            ],
+            "isbn_13": [
+                "9782221129302"
+            ],
+            "classifications": {},
+            "contributors": [
+                {
+                    "role": "Translator",
+                    "name": "Madeleine Nasalik"
+                }
+            ],
+            "series": [
+                "La Sélection (3)"
+            ],
+            "subtitle": "La Sélection, Livre III",
+            "translation_of": "The One",
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "translated_from": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-21T18:17:02.091614"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-21T18:18:54.778783"
+            }
+        },
+        "/books/OL32128258M": {
+            "works": [
+                {
+                    "key": "/works/OL16925622W"
+                }
+            ],
+            "title": "The One",
+            "publishers": [
+                "HarperTeen"
+            ],
+            "publish_date": "May 6, 2014",
+            "key": "/books/OL32128258M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "classifications": {},
+            "notes": "Book 3",
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "THIS TIME WE WERE IN the Great Room enduring another etiquette lesson when bricks came flying through the window."
+            },
+            "physical_format": "Hardcover",
+            "covers": [
+                13316601,
+                10790534
+            ],
+            "series": [
+                "The Selection"
+            ],
+            "local_id": [
+                "urn:bwbsku:O6-ETI-842"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2020-04-30"
+            ],
+            "isbn_13": [
+                "9780062325471"
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-03-27T15:44:01.656930"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-14T03:44:27.357610"
+            }
+        },
+        "/books/OL28652438M": {
+            "publishers": [
+                "Turtleback"
+            ],
+            "source_records": [
+                "amazon:0606369600"
+            ],
+            "title": "The One",
+            "notes": {
+                "type": "/type/text",
+                "value": "Book 3"
+            },
+            "number_of_pages": 368,
+            "covers": [
+                13316605,
+                10330025
+            ],
+            "physical_format": "library binding",
+            "full_title": "The One",
+            "publish_date": "May 05, 2015",
+            "key": "/books/OL28652438M",
+            "authors": [
+                {
+                    "key": "/authors/OL6788551A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL16925622W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_10": [
+                "0606369600"
+            ],
+            "isbn_13": [
+                "9780606369602"
+            ],
+            "classifications": {},
+            "series": [
+                "The Selection"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-08T00:11:35.191999"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-14T03:51:54.552420"
+            }
+        },
+        "/books/OL32666954M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "The One",
+            "authors": [
+                {
+                    "key": "/authors/OL6788551A"
+                },
+                {
+                    "key": "/authors/OL7848967A"
+                }
+            ],
+            "publish_date": "May 06, 2014",
+            "source_records": [
+                "amazon:1467676195"
+            ],
+            "number_of_pages": 1,
+            "publishers": [
+                "Harpercollins Childrens"
+            ],
+            "isbn_10": [
+                "1467676195"
+            ],
+            "isbn_13": [
+                "9781467676199"
+            ],
+            "physical_format": "preloaded digital audio player",
+            "full_title": "The One",
+            "covers": [
+                11294294
+            ],
+            "works": [
+                {
+                    "key": "/works/OL16925622W"
+                }
+            ],
+            "key": "/books/OL32666954M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-06-22T23:38:21.502437"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-11-05T10:24:33.974659"
+            }
+        },
+        "/books/OL27328073M": {
+            "publishers": [
+                "HarperTeen"
+            ],
+            "number_of_pages": 328,
+            "classifications": {},
+            "subtitle": "35 girls entered the selection, only one can win",
+            "title": "The one",
+            "series": [
+                "The Selection"
+            ],
+            "identifiers": {},
+            "physical_format": "Hardcover",
+            "publish_date": "2012",
+            "key": "/books/OL27328073M",
+            "copyright_date": "2014",
+            "by_statement": "No",
+            "publish_places": [
+                "U.S."
+            ],
+            "works": [
+                {
+                    "key": "/works/OL16925622W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-10-02T18:20:33.469066"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-11-05T10:24:33.974659"
+            }
+        },
+        "/books/OL27214745M": {
+            "title": "원",
+            "subtitle": "The One",
+            "authors": [
+                {
+                    "key": "/authors/OL6788551A"
+                }
+            ],
+            "publish_date": "2016",
+            "series": [
+                "Selleksyŏn sirijŭ -- 3"
+            ],
+            "local_id": [
+                "urn:sfpl:31223119213222",
+                "urn:sfpl:31223119213214"
+            ],
+            "contributions": [
+                "Sin, Sŏn-hae, translator"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/kor"
+                }
+            ],
+            "pagination": "396 pages",
+            "source_records": [
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run05.mrc:345443554:2007"
+            ],
+            "work_titles": [
+                "One"
+            ],
+            "edition_name": "Ch'op'an",
+            "publish_country": "ko",
+            "by_statement": "K'iera K'asŭ chiŭm ; Sin Sŏn-hae omgim",
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                13326725,
+                -1
+            ],
+            "ocaid": "wnone0000cass",
+            "isbn_10": [
+                "8983926155"
+            ],
+            "isbn_13": [
+                "9788983926159"
+            ],
+            "oclc_numbers": [
+                "964122283"
+            ],
+            "translated_from": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "translation_of": "The One",
+            "key": "/books/OL27214745M",
+            "number_of_pages": 396,
+            "works": [
+                {
+                    "key": "/works/OL16925622W"
+                }
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-07-19T15:27:12.701813"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-05-07T06:33:36.451923"
+            }
+        },
+        "/books/OL28035943M": {
+            "publishers": [
+                "HarperCollins Children's Books"
+            ],
+            "classifications": {},
+            "title": "The One",
+            "identifiers": {},
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-05-12T14:58:32.167368"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-05-12T14:58:56.204411"
+            },
+            "publish_date": "June 5 2014",
+            "key": "/books/OL28035943M",
+            "latest_revision": 2,
+            "works": [
+                {
+                    "key": "/works/OL16925622W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 2
+        },
+        "/books/OL25538900M": {
+            "publishers": [
+                "HarperCollinsPublishers"
+            ],
+            "identifiers": {},
+            "classifications": {},
+            "source_records": [
+                "bwb:9780007466719",
+                "ia:one0000cass",
+                "amazon:0007466714"
+            ],
+            "title": "The One",
+            "series": [
+                "The Selection (3)"
+            ],
+            "number_of_pages": 323,
+            "covers": [
+                13326727,
+                -1
+            ],
+            "publish_date": "June 5th, 2014",
+            "key": "/books/OL25538900M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "works": [
+                {
+                    "key": "/works/OL16925622W"
+                }
+            ],
+            "physical_format": "Paperback",
+            "notes": "Book 3",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "copyright_date": "2014",
+            "ocaid": "one0000cass",
+            "isbn_13": [
+                "9780007466719"
+            ],
+            "lccn": [
+                "2013021356"
+            ],
+            "oclc_numbers": [
+                "852488310"
+            ],
+            "lc_classifications": [
+                "PZ7.C2685133 One 2014"
+            ],
+            "subtitle": "The Selection #3",
+            "latest_revision": 16,
+            "revision": 16,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2014-07-28T14:39:29.053214"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-08-01T03:51:02.948065"
+            }
+        },
+        "/books/OL29589205M": {
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "source_records": [
+                "bwb:9781426803321"
+            ],
+            "title": "An Arabian Marriage",
+            "number_of_pages": 192,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Arabian Marriage",
+            "publish_date": "2007",
+            "key": "/books/OL29589205M",
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3773886W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general",
+                "Marriage, fiction"
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9781426803321"
+            ],
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-28T16:43:12.505207"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-09-29T05:13:16.600948"
+            }
+        },
+        "/books/OL9680110M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "number_of_pages": 283,
+            "weight": "13.9 ounces",
+            "covers": [
+                5001972
+            ],
+            "physical_format": "Hardcover",
+            "key": "/books/OL9680110M",
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "subjects": [
+                "Romance",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Historical",
+                "Romance - General",
+                "Romance - Historical"
+            ],
+            "edition_name": "Large Print Edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "bwb:9780263173376"
+            ],
+            "title": "An Arabian Marriage",
+            "identifiers": {
+                "goodreads": [
+                    "7069696"
+                ]
+            },
+            "publish_date": "August 2002",
+            "works": [
+                {
+                    "key": "/works/OL3773886W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.4 x 6.3 x 1 inches",
+            "isbn_10": [
+                "0263173372"
+            ],
+            "isbn_13": [
+                "9780263173376"
+            ],
+            "oclc_numbers": [
+                "59482610"
+            ],
+            "classifications": {},
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-09-29T05:14:00.238022"
+            }
+        },
+        "/books/OL9613931M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "number_of_pages": 187,
+            "subtitle": "Sister Brides (Book1)",
+            "description": "Forced to marry...a sheikh!\r\n\r\nWhen Crown Prince Jaspar al-Husayn bursts into Fredrica Sutton's life to take his nephew, baby Ben, back to his Arab homeland, Freddy refuses to part with the orphaned child she's loved and cared for. But her brave stand provokes the abduction of Ben. In order to get him back, Freddy knows what she must do -- propose marriage to Jaspar!\r\n\r\nSister Brides: Three sisters separated at birth -- finding husbands...and then each other!",
+            "weight": "3.5 ounces",
+            "series": [
+                "Harlequin Presents, No. 2271"
+            ],
+            "covers": [
+                214890
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL9613931M",
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "classifications": {},
+            "source_records": [
+                "bwb:9780373122714"
+            ],
+            "title": "An Arabian Martiage",
+            "identifiers": {
+                "goodreads": [
+                    "866258"
+                ],
+                "librarything": [
+                    "116073"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Romance - General",
+                "Fiction / Romance / General",
+                "Romance - Contemporary",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern"
+            ],
+            "publish_date": "September 2002",
+            "works": [
+                {
+                    "key": "/works/OL3773886W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.8 x 4.1 x 0.5 inches",
+            "ocaid": "arabianmarriages00lynn",
+            "isbn_10": [
+                "0373122713"
+            ],
+            "isbn_13": [
+                "9780373122714"
+            ],
+            "oclc_numbers": [
+                "50152695"
+            ],
+            "latest_revision": 12,
+            "revision": 12,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-09-29T05:10:44.721151"
+            }
+        },
+        "/books/OL61638446M": {
+            "works": [
+                {
+                    "key": "/works/OL25434351W"
+                }
+            ],
+            "title": "Más que rivales",
+            "publishers": [
+                "Montena"
+            ],
+            "publish_date": "2026-02-24",
+            "key": "/books/OL61638446M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {
+                "amazon": [
+                    "B0GC6H76Q2"
+                ],
+                "goodreads": [
+                    "245741171"
+                ],
+                "storygraph": [
+                    "a7e707ea-bc81-46ea-a317-c82240e45146"
+                ]
+            },
+            "isbn_13": [
+                "9791387972561"
+            ],
+            "oclc_numbers": [
+                "1581898519"
+            ],
+            "publish_places": [
+                "Barcelona, España"
+            ],
+            "edition_name": "Primera edición",
+            "series": [
+                "Game Changers, 2"
+            ],
+            "contributors": [
+                {
+                    "role": "Translator",
+                    "name": "Ana Mata Buil"
+                },
+                {
+                    "role": "Translator",
+                    "name": "Anaís Badilla"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "translation_of": "Heated Rivalry",
+            "translated_from": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "Nada interfiere en el juego de la estrella del hockey profesional Shane Hollander.\r\n\r\nAhora que es capitán de los Montreal Voyageurs, no permitirá que nada lo ponga en peligro, y mucho menos su sexy rival, a quien le encanta odiar.\r\n\r\nEl capitán de los Boston Bears, Ilya Rozanov, es todo lo que Shane no es. Autoproclamado rey del hielo, es tan arrogante como talentoso. Nadie puede vencerlo, excepto Shane. En público, son enemigos. En privado, no pueden dejar de tocarse.\r\n\r\n¿Lo más inteligente? Alejarse, una vez que unos cuantos encuentros secretos se convierten en una lucha por mantener su relación fuera de la prensa. La verdad podría arruinarlos a ambos. Pero para Shane e Ilya, el secreto pronto deja de ser una opción..."
+            },
+            "other_titles": [
+                "Más que rivales (Game Changers 2): Heated Rivalry"
+            ],
+            "physical_format": "Paperback",
+            "number_of_pages": 432,
+            "covers": [
+                15214186
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2026-04-23T16:50:08.828404"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-04-23T16:54:26.360461"
+            }
+        },
+        "/books/OL39194216M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7991171A"
+                }
+            ],
+            "isbn_13": [
+                "9781335468437"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "288",
+            "publish_date": "2023",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781335468437",
+                "amazon:1335468439"
+            ],
+            "title": "Heated Rivalry",
+            "weight": "0.136",
+            "full_title": "Heated Rivalry",
+            "works": [
+                {
+                    "key": "/works/OL25434351W"
+                }
+            ],
+            "key": "/books/OL39194216M",
+            "covers": [
+                15152814
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-07-22T01:10:52.895283"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-15T19:11:11.759977"
+            }
+        },
+        "/books/OL10280810M": {
+            "publishers": [
+                "Mills and Boon"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "2141746"
+                ],
+                "librarything": [
+                    "2050450"
+                ]
+            },
+            "title": "Not His Kind of Woman",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9780263775020"
+            ],
+            "covers": [
+                2343340
+            ],
+            "physical_format": "Paperback",
+            "isbn_10": [
+                "026377502X"
+            ],
+            "publish_date": "1992",
+            "key": "/books/OL10280810M",
+            "authors": [
+                {
+                    "key": "/authors/OL849503A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4342692W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:026377502X",
+                "promise:bwb_daily_pallets_2021-06-17"
+            ],
+            "local_id": [
+                "urn:bwbsku:KO-983-201"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-08T06:30:20.793102"
+            }
+        },
+        "/books/OL29745919M": {
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "source_records": [
+                "bwb:9781460363416"
+            ],
+            "title": "Injured Innocent",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781460363416"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Injured Innocent",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2016",
+            "key": "/books/OL29745919M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3759102W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, contemporary"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-30T17:37:07.531398"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-02T23:27:25.709002"
+            }
+        },
+        "/books/OL9571026M": {
+            "publishers": [
+                "harlequin"
+            ],
+            "number_of_pages": 187,
+            "weight": "2.4 ounces",
+            "series": [
+                "Harlequin Presents # 1747"
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL9571026M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "subjects": [
+                "Non-Classifiable",
+                "Fiction"
+            ],
+            "isbn_13": [
+                "9780373108831"
+            ],
+            "classifications": {},
+            "source_records": [
+                "bwb:9780373108831",
+                "promise:bwb_daily_pallets_2020-12-22"
+            ],
+            "title": "Injured Innocent",
+            "identifiers": {
+                "librarything": [
+                    "2037431"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373108834"
+            ],
+            "publish_date": "April 1, 1986",
+            "oclc_numbers": [
+                "13118567"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3759102W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.5 x 4 x 0.7 inches",
+            "local_id": [
+                "urn:bwbsku:387-BAC-768"
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-09T06:44:14.161467"
+            }
+        },
+        "/books/OL58624365M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Black Sheep",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_date": "1966",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 262,
+            "publishers": [
+                "the book club"
+            ],
+            "ocaid": "bwb_KR-623-585",
+            "source_records": [
+                "ia:bwb_KR-623-585"
+            ],
+            "full_title": "Black Sheep",
+            "works": [
+                {
+                    "key": "/works/OL4092653W"
+                }
+            ],
+            "key": "/books/OL58624365M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-04-26T16:43:10.966611"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-13T20:40:33.216291"
+            }
+        },
+        "/books/OL58600615M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Black Sheep",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_date": "1966",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 242,
+            "ocaid": "blacksheep0000geor_r5a1",
+            "source_records": [
+                "ia:blacksheep0000geor_r5a1",
+                "ia:bwb_KU-433-975",
+                "ia:bwb_W9-CSY-944"
+            ],
+            "full_title": "Black Sheep",
+            "works": [
+                {
+                    "key": "/works/OL4092653W"
+                }
+            ],
+            "key": "/books/OL58600615M",
+            "covers": [
+                14896188
+            ],
+            "publishers": [
+                "A Bantam Book"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-04-26T03:17:38.758349"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-13T20:40:33.216291"
+            }
+        },
+        "/books/OL48600305M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B01N07KX0Y"
+                ],
+                "better_world_books": [
+                    "BWB33519331"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:W8-AQD-382"
+            ],
+            "publish_date": "1966",
+            "publishers": [
+                "The Bodley Head"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-07-11:W8-AQD-382"
+            ],
+            "title": "Black Sheep",
+            "works": [
+                {
+                    "key": "/works/OL4092653W"
+                }
+            ],
+            "key": "/books/OL48600305M",
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-07-13T01:04:57.422954"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-07-16T17:16:55.167234"
+            }
+        },
+        "/books/OL43277239M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B0007EHB92"
+                ],
+                "better_world_books": [
+                    " "
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:O7-DHO-759"
+            ],
+            "publish_date": "1968-01-01",
+            "publishers": [
+                "Bantam"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-08-13"
+            ],
+            "title": "Black Sheep",
+            "full_title": "Black Sheep",
+            "works": [
+                {
+                    "key": "/works/OL4092653W"
+                }
+            ],
+            "key": "/books/OL43277239M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-08T02:49:02.174073"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-02T09:25:25.295322"
+            }
+        },
+        "/books/OL7320078M": {
+            "publishers": [
+                "Signet"
+            ],
+            "number_of_pages": 256,
+            "covers": [
+                78590
+            ],
+            "key": "/books/OL7320078M",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "ocaid": "blacksheep0000heye",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "ia:blacksheep0000heye",
+                "bwb:9780099850007",
+                "amazon:0099850001",
+                "promise:bwb_daily_pallets_2021-05-05"
+            ],
+            "title": "Black Sheep",
+            "identifiers": {
+                "goodreads": [
+                    "1103671"
+                ],
+                "librarything": [
+                    "16478"
+                ]
+            },
+            "isbn_13": [
+                "9780099850007"
+            ],
+            "isbn_10": [
+                "0099850001"
+            ],
+            "publish_date": "1992",
+            "oclc_numbers": [
+                "24755259"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4092653W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:KO-727-789"
+            ],
+            "latest_revision": 13,
+            "revision": 13,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-02T09:25:25.295322"
+            }
+        },
+        "/books/OL9274728M": {
+            "identifiers": {
+                "librarything": [
+                    "16478"
+                ],
+                "goodreads": [
+                    "1103671"
+                ]
+            },
+            "title": "Black Sheep",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_date": "1992",
+            "publishers": [
+                "Signet"
+            ],
+            "covers": [
+                78589
+            ],
+            "physical_format": "Paperback",
+            "subjects": [
+                "General",
+                "Fiction",
+                "Fiction - General"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_13": [
+                "9780099850007"
+            ],
+            "isbn_10": [
+                "0099850001"
+            ],
+            "oclc_numbers": [
+                "24755259"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:0099850001"
+            ],
+            "key": "/books/OL9274728M",
+            "number_of_pages": 256,
+            "works": [
+                {
+                    "key": "/works/OL4092653W"
+                }
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-02-17T22:10:40.819048"
+            }
+        },
+        "/books/OL5534750M": {
+            "publishers": [
+                "Dutton"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "16478"
+                ]
+            },
+            "subject_place": [
+                "Great Britain"
+            ],
+            "lc_classifications": [
+                "PZ3.H514 Blm2",
+                "PR6015.E795 Blm2"
+            ],
+            "key": "/books/OL5534750M",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "subjects": [
+                "Great Britain -- History -- Fiction."
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "255 p.",
+            "source_records": [
+                "marc:marc_openlibraries_phillipsacademy/PANO_FOR_IA_05072019.mrc:12378601:763",
+                "marc:marc_loc_2016/BooksAll.2016.part06.utf8:89529801:525",
+                "marc:marc_columbia/Columbia-extract-20221130-001.mrc:400921920:726"
+            ],
+            "title": "Black sheep.",
+            "lccn": [
+                "67011372"
+            ],
+            "number_of_pages": 255,
+            "edition_name": "[1st ed.]",
+            "local_id": [
+                "urn:phillips:31867000379367"
+            ],
+            "publish_date": "1967",
+            "publish_country": "nyu",
+            "oclc_numbers": [
+                "1374626"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4092653W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-02T09:25:25.295322"
+            }
+        },
+        "/books/OL11636248M": {
+            "identifiers": {
+                "librarything": [
+                    "16478"
+                ],
+                "goodreads": [
+                    "2857320"
+                ]
+            },
+            "title": "Black Sheep",
+            "authors": [
+                {
+                    "key": "/authors/OL7459594A"
+                }
+            ],
+            "publish_date": "June 1, 2008",
+            "publishers": [
+                "Sourcebooks Casablanca"
+            ],
+            "covers": [
+                2740600
+            ],
+            "local_id": [
+                "urn:bwbsku:W7-AFM-478",
+                "urn:sfpl:31223084804765",
+                "urn:sfpl:31223082139859",
+                "urn:bwbsku:P7-CYM-876"
+            ],
+            "physical_format": "Paperback",
+            "subjects": [
+                "Fiction",
+                "Fiction - Historical",
+                "Romance: Regency",
+                "Historical - General",
+                "Romance - Regency",
+                "Fiction / Romance / Regency",
+                "Romance - General",
+                "Love stories",
+                "Maiden aunts",
+                "Mate selection"
+            ],
+            "isbn_13": [
+                "9781402210785"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-03-17:W7-AFM-478",
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run01.mrc:102362204:1659",
+                "marc:marc_loc_2016/BooksAll.2016.part34.utf8:164190616:775",
+                "ia:blacksheep0000heye_e0h3",
+                "bwb:9781402210785",
+                "promise:bwb_daily_pallets_2022-03-17:P7-CYM-876"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "1402210787"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "lccn": [
+                "2007050205"
+            ],
+            "lc_classifications": [
+                "PR6015.E795 B5 2008",
+                "PR6015.E795B5 2008"
+            ],
+            "ocaid": "blacksheep0000heye_e0h3",
+            "key": "/books/OL11636248M",
+            "number_of_pages": 288,
+            "works": [
+                {
+                    "key": "/works/OL4092653W"
+                }
+            ],
+            "latest_revision": 16,
+            "revision": 16,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T11:48:21.255482"
+            }
+        },
+        "/books/OL9312018M": {
+            "identifiers": {
+                "goodreads": [
+                    "787992"
+                ]
+            },
+            "title": "Black Sheep",
+            "publish_date": "December 1995",
+            "publishers": [
+                "Chivers Audio Books"
+            ],
+            "weight": "15.2 ounces",
+            "covers": [
+                4963234
+            ],
+            "physical_format": "Audio cassette",
+            "contributions": [
+                "Barbara Leigh-Hunt (Narrator)"
+            ],
+            "subjects": [
+                "Historical fiction",
+                "Modern fiction",
+                "Unabridged Audio - Fiction/General",
+                "Audio Adult: Books On Tape"
+            ],
+            "edition_name": "Unabridged edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_13": [
+                "9780745165714"
+            ],
+            "isbn_10": [
+                "0745165710"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.8 x 6.6 x 1.3 inches",
+            "source_records": [
+                "amazon:0745165710"
+            ],
+            "key": "/books/OL9312018M",
+            "works": [
+                {
+                    "key": "/works/OL4092653W"
+                }
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-02-12T17:25:06.397197"
+            }
+        }
+    }
+}

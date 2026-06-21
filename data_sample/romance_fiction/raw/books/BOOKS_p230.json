@@ -1,0 +1,5398 @@
+{
+    "status": "ok",
+    "result": {
+        "/books/OL19312087M": {
+            "publishers": [
+                "BCA"
+            ],
+            "pagination": "409p. ;",
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:1863109033:368"
+            ],
+            "title": "Carolina moon.",
+            "number_of_pages": 409,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-21T13:55:06.446967"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2013-04-08T08:32:10.604736"
+            },
+            "publish_date": "2000",
+            "publish_country": "xxk",
+            "key": "/books/OL19312087M",
+            "latest_revision": 5,
+            "publish_places": [
+                "London"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL111631W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 5
+        },
+        "/books/OL8494393M": {
+            "publishers": [
+                "Brilliance Audio on CD Unabridged"
+            ],
+            "weight": "7.8 ounces",
+            "covers": [
+                766567
+            ],
+            "physical_format": "Audio CD",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2013-04-08T08:32:10.604736"
+            },
+            "latest_revision": 8,
+            "key": "/books/OL8494393M",
+            "contributions": [
+                "Dean Robertson (Narrator)"
+            ],
+            "subjects": [
+                "American Light Romantic Fiction",
+                "Fiction",
+                "Unabridged Audio - Fiction/Romance",
+                "Romance: Modern",
+                "Romance - Suspense",
+                "Fiction / General",
+                "Romance - General",
+                "Audiobooks"
+            ],
+            "edition_name": "Unabridged edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "amazon:1423323335"
+            ],
+            "title": "Carolina Moon",
+            "identifiers": {
+                "goodreads": [
+                    "691543"
+                ],
+                "librarything": [
+                    "21548"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "isbn_13": [
+                "9781423323334"
+            ],
+            "isbn_10": [
+                "1423323335"
+            ],
+            "publish_date": "November 25, 2006",
+            "works": [
+                {
+                    "key": "/works/OL111631W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "7 x 5.2 x 1.5 inches",
+            "revision": 8
+        },
+        "/books/OL23244041M": {
+            "publishers": [
+                "G.P. Putnam's Sons"
+            ],
+            "number_of_pages": 438,
+            "ia_box_id": [
+                "IA120120402-BL1"
+            ],
+            "ia_loaded_id": [
+                "carolinamoon00robe_0"
+            ],
+            "key": "/books/OL23244041M",
+            "authors": [
+                {
+                    "key": "/authors/OL18977A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "pagination": "438 p.",
+            "source_records": [
+                "marc:CollingswoodLibraryMarcDump10-27-2008/Collingswood.out:23655724:2579",
+                "ia:carolinamoon00robe_0"
+            ],
+            "title": "Carolina moon",
+            "identifiers": {
+                "librarything": [
+                    "21548"
+                ],
+                "goodreads": [
+                    "116012"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2000",
+            "publish_country": "nyu",
+            "by_statement": "Nora Roberts.",
+            "works": [
+                {
+                    "key": "/works/OL111631W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_10": [
+                "0515130389"
+            ],
+            "lccn": [
+                "99047968"
+            ],
+            "ocaid": "carolinamoon0000robe",
+            "classifications": {},
+            "covers": [
+                11352690
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-05-29T10:51:50.343395"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-07-03T17:18:26.007039"
+            }
+        },
+        "/books/OL9526562M": {
+            "publishers": [
+                "Brilliance Audio on MP3-CD"
+            ],
+            "weight": "3.2 ounces",
+            "covers": [
+                1995046
+            ],
+            "physical_format": "MP3 CD",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2010-08-13T17:48:16.100494"
+            },
+            "latest_revision": 6,
+            "key": "/books/OL9526562M",
+            "authors": [
+                {
+                    "key": "/authors/OL18977A"
+                }
+            ],
+            "contributions": [
+                "Dean Robertson (Narrator)"
+            ],
+            "subjects": [
+                "Romance - Suspense",
+                "Fiction / General",
+                "Unabridged Audio - Fiction/Romance"
+            ],
+            "isbn_13": [
+                "9781596004634"
+            ],
+            "source_records": [
+                "amazon:1596004630:2-al:3122596639:267919"
+            ],
+            "title": "Carolina Moon",
+            "identifiers": {
+                "goodreads": [
+                    "1470430"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "1596004630"
+            ],
+            "publish_date": "October 25, 2004",
+            "works": [
+                {
+                    "key": "/works/OL111631W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "7.4 x 5.1 x 0.6 inches",
+            "revision": 6
+        },
+        "/books/OL47572M": {
+            "identifiers": {
+                "goodreads": [
+                    "762405"
+                ],
+                "librarything": [
+                    "21548"
+                ]
+            },
+            "title": "Carolina moon",
+            "authors": [
+                {
+                    "key": "/authors/OL18977A"
+                }
+            ],
+            "publish_date": "2000",
+            "publishers": [
+                "G.P. Putnam's Sons",
+                "Putnam Adult"
+            ],
+            "isbn_10": [
+                "0399145923"
+            ],
+            "subject_place": [
+                "South Carolina"
+            ],
+            "pagination": "438 p. ;",
+            "covers": [
+                11369928
+            ],
+            "lc_classifications": [
+                "PS3568.O243 C38 2000",
+                "PS3568.O243C38 2000"
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2020-12-22:O7-BKC-692",
+                "marc:marc_records_scriblio_net/part28.dat:15688506:689",
+                "marc:marc_loc_2016/BooksAll.2016.part28.utf8:14654743:689",
+                "ia:carolinamoon0000robe_l4u8",
+                "amazon:0399145923",
+                "bwb:9780399145926",
+                "promise:bwb_daily_pallets_2020-10-14:O6-ESO-297"
+            ],
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lccn": [
+                "99047968"
+            ],
+            "subjects": [
+                "Murder victims' families -- Fiction",
+                "Young women -- Fiction",
+                "South Carolina -- Fiction"
+            ],
+            "publish_country": "nyu",
+            "by_statement": "Nora Roberts.",
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "carolinamoon0000robe_l4u8",
+            "local_id": [
+                "urn:bwbsku:O7-BKC-692",
+                "urn:bwbsku:O6-ESO-297"
+            ],
+            "key": "/books/OL47572M",
+            "number_of_pages": 438,
+            "works": [
+                {
+                    "key": "/works/OL111631W"
+                }
+            ],
+            "latest_revision": 16,
+            "revision": 16,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T17:24:24.550025"
+            }
+        },
+        "/books/OL25430315M": {
+            "publishers": [
+                "Putnam"
+            ],
+            "number_of_pages": 438,
+            "classifications": {},
+            "title": "Carolina Moon",
+            "identifiers": {},
+            "physical_format": "Hardcover",
+            "publish_date": "2000",
+            "key": "/books/OL25430315M",
+            "publish_places": [
+                "New York, USA"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL111631W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_10": [
+                "0399145923"
+            ],
+            "ocaid": "carolinamoon0000robe_b1l3",
+            "covers": [
+                11360353
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2013-09-01T19:00:45.066388"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-07-04T22:19:19.915088"
+            }
+        },
+        "/books/OL61983870M": {
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "title": "Lolita",
+            "publishers": [
+                "Rowohlt"
+            ],
+            "publish_date": "1987-10",
+            "key": "/books/OL61983870M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {
+                "bookbrainz": [
+                    "3d1be9a8-b37c-4475-a8ab-043630b59267"
+                ]
+            },
+            "covers": [
+                15222456
+            ],
+            "isbn_10": [
+                "3499106353"
+            ],
+            "subtitle": "Roman",
+            "publish_places": [
+                "Reinbek bei Hamburg"
+            ],
+            "copyright_date": "1955; 1959",
+            "edition_name": "324.-328. Tausend Oktober 1987",
+            "series": [
+                "rororo 635"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/ger"
+                }
+            ],
+            "translation_of": "Lolita",
+            "translated_from": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "physical_format": "Taschenbuch",
+            "number_of_pages": 335,
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2026-05-19T15:39:08.637830"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-05-19T15:40:53.341785"
+            }
+        },
+        "/books/OL44395613M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "1958",
+            "copyright_date": "1955",
+            "publish_country": "fr",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "oclc_numbers": [
+                "793341196"
+            ],
+            "lc_classifications": [
+                "PS3527.A15 L6 1958b"
+            ],
+            "edition_name": "[Second printing].",
+            "series": [
+                "The traveller's companion series -- no 66",
+                "Traveller's companion series (Paris, France) -- no. 66."
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "\"First printing: September 1955. Second printing: November 1958\"--Vol. 1, title page verso.\n\n\"Not to be sold in U.S.A. or U.K.\"--Vol. 1, page 4 of cover.\n\nForeword signed: John Ray, Jr., Ph. D., Widworth, Mass.\n\nKearney, P.J. Paris Olympia Press (new ed.), 5.66.1"
+            },
+            "contributions": [
+                "Olympia Press (Paris, France)",
+                "John Baxter Olympia Press collection (Columbia University)"
+            ],
+            "subjects": [
+                "Middle-aged men",
+                "Fiction",
+                "Girls",
+                "Child molesters"
+            ],
+            "title": "Lolita",
+            "by_statement": "Vladimir Nabokov",
+            "publishers": [
+                "The Olympia Press"
+            ],
+            "publish_places": [
+                "Paris"
+            ],
+            "pagination": "2 volumes",
+            "source_records": [
+                "marc:marc_columbia/Columbia-extract-20221130-028.mrc:143261215:2026"
+            ],
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL44395613M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-18T07:23:31.753168"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-29T10:45:07.681937"
+            }
+        },
+        "/books/OL44395742M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "1959",
+            "copyright_date": "1955",
+            "publish_country": "fr",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "oclc_numbers": [
+                "1004769283",
+                "1089397614",
+                "1004769351"
+            ],
+            "lc_classifications": [
+                "PS3527.A15 L6 1959b",
+                "PS3527.A15 L6 1959"
+            ],
+            "edition_name": "[Fourth printing with pictorial wrappers].",
+            "series": [
+                "The traveller's companion series -- [no. 66]",
+                "Traveller's companion series (Paris, France) -- no. 66."
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "\"Fourth printing: September 1959\"--Vol. 1, title page verso.\n\nForeword signed by John Ray, Jr., Ph. D., Widworth, Mass.\n\n\"This edition is the original, complete and unexpurgated Paris edition. It is the only one allowed to be sold in countries other than the U.S.A., U.K. and Commonwealth\"--Vol. 1, page 4 of cover.\n\n\"In all respects save for the wrappers, this edition is completely identical to the September 1959 Traveller's companion edition with the more familiar olive-green wrappers ... it is reasonable to assume that this cheap 'popular' edition was put on the market to forestall wider European distribution of American or British editions\"--Kearney, P.J. Paris Olympia Press (new ed.), pages 200-201.\n\nKearney, P.J. Paris Olympia Press (new ed.), 5.66.4"
+            },
+            "contributions": [
+                "Olympia Press (Paris, France)",
+                "John Baxter Olympia Press collection (Columbia University)"
+            ],
+            "subjects": [
+                "Middle-aged men",
+                "Fiction",
+                "Girls",
+                "Child molesters"
+            ],
+            "title": "Lolita",
+            "by_statement": "Vladimir Nabokov",
+            "publishers": [
+                "The Olympia Press"
+            ],
+            "publish_places": [
+                "Paris"
+            ],
+            "pagination": "2 volumes",
+            "source_records": [
+                "marc:marc_columbia/Columbia-extract-20221130-028.mrc:143386029:2536",
+                "marc:marc_columbia/Columbia-extract-20221130-028.mrc:144012263:1751",
+                "marc:marc_columbia/Columbia-extract-20221130-028.mrc:144302426:2041"
+            ],
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL44395742M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-18T07:24:22.437739"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-29T10:45:07.681937"
+            }
+        },
+        "/books/OL58717576M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Lolita (German Edition)",
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "publish_date": "1955",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 452,
+            "ocaid": "bwb_W8-BTT-414",
+            "source_records": [
+                "ia:bwb_W8-BTT-414"
+            ],
+            "full_title": "Lolita (German Edition)",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL58717576M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-04-28T00:25:12.135279"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-24T09:38:11.325954"
+            }
+        },
+        "/books/OL54951916M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                },
+                {
+                    "key": "/authors/OL14471541A"
+                },
+                {
+                    "key": "/authors/OL8336888A"
+                }
+            ],
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "isbn_13": [
+                "9781507795828"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "number_of_pages": 236,
+            "publish_date": "2015",
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "source_records": [
+                "bwb:9781507795828"
+            ],
+            "title": "Lolita",
+            "weight": "0.418",
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL54951916M",
+            "contributors": [
+                {
+                    "role": "Translator",
+                    "name": "Raul Bracho"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-09-24T09:16:34.757289"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-24T09:38:11.325954"
+            }
+        },
+        "/books/OL55438183M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "isbn_13": [
+                "9781981859542"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "number_of_pages": 180,
+            "publish_date": "2017",
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "source_records": [
+                "bwb:9781981859542"
+            ],
+            "title": "Lolita",
+            "weight": "0.332",
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL55438183M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-09-27T07:43:02.563060"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-24T09:38:11.325954"
+            }
+        },
+        "/books/OL55499790M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "isbn_13": [
+                "9781981856671"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 208,
+            "publish_date": "2017",
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "source_records": [
+                "bwb:9781981856671"
+            ],
+            "title": "Lolita",
+            "weight": "0.377",
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL55499790M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-09-27T17:02:11.573634"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-24T09:38:11.325954"
+            }
+        },
+        "/books/OL55739284M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "isbn_13": [
+                "9781530070985"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/rus"
+                }
+            ],
+            "number_of_pages": 302,
+            "publish_date": "2016",
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "source_records": [
+                "bwb:9781530070985"
+            ],
+            "title": "Lolita",
+            "weight": "0.664",
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL55739284M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-09-29T03:43:27.024643"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-24T09:38:11.325954"
+            }
+        },
+        "/books/OL56230218M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "isbn_13": [
+                "9781530069156"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 192,
+            "publish_date": "2016",
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "source_records": [
+                "bwb:9781530069156"
+            ],
+            "title": "Lolita",
+            "weight": "0.441",
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL56230218M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-10-02T03:58:45.186066"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-24T09:38:11.325954"
+            }
+        },
+        "/books/OL56452867M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "isbn_13": [
+                "9781983537561"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 208,
+            "publish_date": "2018",
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "source_records": [
+                "bwb:9781983537561"
+            ],
+            "title": "Lolita",
+            "weight": "0.377",
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL56452867M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-10-03T13:04:35.141990"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-24T09:38:11.325954"
+            }
+        },
+        "/books/OL50400094M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "1986",
+            "publish_country": "is",
+            "languages": [
+                {
+                    "key": "/languages/heb"
+                }
+            ],
+            "work_titles": [
+                "Lolita"
+            ],
+            "title": "Loliṭah",
+            "by_statement": "targum me-ʾanglit ṿe-aḥarit davar Devorah Shṭainharṭ",
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "contributions": [
+                "Shṭainhart, Devorah"
+            ],
+            "publish_places": [
+                "Yerushalayim"
+            ],
+            "source_records": [
+                "marc:harvard_bibliographic_metadata/ab.bib.00.20150123.full.mrc:427759011:442"
+            ],
+            "full_title": "Loliṭah",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL50400094M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-12-11T09:04:20.751625"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-24T09:38:11.325954"
+            }
+        },
+        "/books/OL49831052M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B000I103Y4"
+                ],
+                "better_world_books": [
+                    "BWB42861799"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:O9-BIJ-734"
+            ],
+            "publish_date": "1962",
+            "publishers": [
+                "Fawcett Publications, Inc."
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-11-06:O9-BIJ-734"
+            ],
+            "title": "Lolita",
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL49831052M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-11-08T01:14:03.411445"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-24T09:38:11.325954"
+            }
+        },
+        "/books/OL46073062M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "isbn_13": [
+                "9780241638439"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "336",
+            "publish_date": "2023",
+            "publishers": [
+                "Penguin Books, Limited"
+            ],
+            "source_records": [
+                "bwb:9780241638439",
+                "promise:bwb_daily_pallets_2025-03-18:KV-636-814"
+            ],
+            "title": "Lolita",
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL46073062M",
+            "local_id": [
+                "urn:bwbsku:KV-636-814"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-01-17T05:46:48.675904"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-24T09:38:11.325954"
+            }
+        },
+        "/books/OL46517432M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "isbn_13": [
+                "9798365315518"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "pagination": "238",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798365315518"
+            ],
+            "title": "Lolita",
+            "weight": "0.695",
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL46517432M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-01-18T08:35:00.670967"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-24T09:38:11.325954"
+            }
+        },
+        "/books/OL44217652M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "isbn_13": [
+                "9780399105012"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1958",
+            "publishers": [
+                "Penguin Publishing Group",
+                "Putnam Adult"
+            ],
+            "source_records": [
+                "bwb:9780399105012",
+                "amazon:0399105018"
+            ],
+            "subjects": [
+                "American fiction (fictional works by one author)"
+            ],
+            "title": "Lolita",
+            "weight": "9.091",
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL44217652M",
+            "covers": [
+                13829373
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-17T15:15:46.853812"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-24T09:38:11.325954"
+            }
+        },
+        "/books/OL43147266M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B0000BLW9V"
+                ],
+                "better_world_books": [
+                    "BWB34184264"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:KQ-496-206"
+            ],
+            "publish_date": "1959-01-01",
+            "publishers": [
+                "Weidenfeld & Nicolson"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-03-17"
+            ],
+            "title": "Lolita",
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL43147266M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-07T14:26:29.395590"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-24T09:38:11.325954"
+            }
+        },
+        "/books/OL60516706M": {
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "title": "Lolita",
+            "publishers": [
+                "Anagrama"
+            ],
+            "publish_date": "2019",
+            "key": "/books/OL60516706M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {
+                "goodreads": [
+                    "53041006"
+                ],
+                "depósito_legal": [
+                    "B 20569-2019"
+                ],
+                "librarything": [
+                    "913"
+                ]
+            },
+            "covers": [
+                15135307
+            ],
+            "isbn_13": [
+                "9788433902689"
+            ],
+            "isbn_10": [
+                "8433902687"
+            ],
+            "oclc_numbers": [
+                "1139006921"
+            ],
+            "classifications": {
+                "udc": [
+                    "821.111(73)-31\"19\""
+                ]
+            },
+            "publish_places": [
+                "Barcelona, España"
+            ],
+            "series": [
+                "Compactos 50 No. 30"
+            ],
+            "contributors": [
+                {
+                    "role": "Translator",
+                    "name": "Francesc Roca"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "translation_of": "Lolita",
+            "translated_from": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Primera edición en \"Compactos 50\" de la nueva traducción: septiembre 2019."
+            },
+            "physical_format": "Paperback",
+            "number_of_pages": 389,
+            "pagination": "389 p ; 21 cm",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-10-23T17:14:20.215727"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-23T17:17:40.328716"
+            }
+        },
+        "/books/OL60516690M": {
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "title": "Lolita",
+            "publishers": [
+                "Anagrama"
+            ],
+            "publish_date": "2018",
+            "key": "/books/OL60516690M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {
+                "depósito_legal": [
+                    "B 1034-2018"
+                ],
+                "goodreads": [
+                    "40584562"
+                ],
+                "librarything": [
+                    "913"
+                ]
+            },
+            "covers": [
+                15135304
+            ],
+            "isbn_13": [
+                "9788433960177"
+            ],
+            "oclc_numbers": [
+                "1107093211"
+            ],
+            "isbn_10": [
+                "8433960172"
+            ],
+            "classifications": {
+                "udc": [
+                    "821.111(73)-31\"19\""
+                ]
+            },
+            "publish_places": [
+                "Barcelona, España"
+            ],
+            "edition_name": "20a ed.",
+            "series": [
+                "Compactos No. 34;  Biblioteca Vladimir Nabokov"
+            ],
+            "contributors": [
+                {
+                    "role": "Translator",
+                    "name": "Francesc Roca"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "translation_of": "Lolita",
+            "translated_from": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Vigésima edición en \"Compactos\" de la nueva traducción: febrero 2018."
+            },
+            "physical_format": "Paperback",
+            "number_of_pages": 389,
+            "pagination": "389 p ; 21 cm",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-10-23T17:08:05.778913"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-23T17:12:29.391993"
+            }
+        },
+        "/books/OL60516608M": {
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "title": "Lolita",
+            "publishers": [
+                "Anagrama"
+            ],
+            "publish_date": "2002",
+            "key": "/books/OL60516608M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {
+                "depósito_legal": [
+                    "B 47317-2002"
+                ],
+                "librarything": [
+                    "913"
+                ]
+            },
+            "covers": [
+                15135295
+            ],
+            "classifications": {
+                "udc": [
+                    "821.111(73)-31\"19\""
+                ]
+            },
+            "publish_places": [
+                "Barcelona, España"
+            ],
+            "series": [
+                "Panorama de narrativas No. 81;  Biblioteca Nabokov"
+            ],
+            "contributors": [
+                {
+                    "role": "Translator",
+                    "name": "Francesc Roca"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "translation_of": "Lolita",
+            "translated_from": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "physical_format": "Paperback",
+            "number_of_pages": 389,
+            "pagination": "389 p. ; 22 cm",
+            "isbn_10": [
+                "8433930818"
+            ],
+            "oclc_numbers": [
+                "51517670"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-10-23T16:30:13.250596"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-23T17:20:47.210814"
+            }
+        },
+        "/books/OL60155039M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "1999",
+            "publish_country": "ctu",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "title": "Lolita",
+            "by_statement": "Vladimir Nabokov",
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                },
+                {
+                    "key": "/authors/OL3143664A"
+                }
+            ],
+            "oclc_numbers": [
+                "47947261"
+            ],
+            "edition_name": "Collector's ed.",
+            "notes": {
+                "type": "/type/text",
+                "value": "Bound in genuine leather.\n\nFrom the library of Dmitri Nabokov, with his ownership stamp on half-title page.\n\nBound in publisher's red leather over boards; covers and spine stamped in gilt; all edges gilt; peach cloth endpapers."
+            },
+            "subjects": [
+                "Middle-aged men",
+                "Fiction",
+                "Girls"
+            ],
+            "publishers": [
+                "Easton Press"
+            ],
+            "publish_places": [
+                "Norwalk, Conn"
+            ],
+            "pagination": "317 pages",
+            "number_of_pages": 317,
+            "source_records": [
+                "marc:harvard_bibliographic_metadata/20220215_017.bib.mrc:36366327:1821"
+            ],
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL60155039M",
+            "latest_revision": 1,
+            "revision": 1,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-09-18T18:39:29.673173"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-18T18:39:29.673173"
+            }
+        },
+        "/books/OL50512203M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1989",
+            "publishers": [
+                "Vintage"
+            ],
+            "source_records": [
+                "idb:9789582701048"
+            ],
+            "title": "Lolita",
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL50512203M",
+            "identifiers": {},
+            "isbn_13": [
+                "9789582701048"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-12-20T04:53:33.110321"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-23T15:14:30.544138"
+            }
+        },
+        "/books/OL58634178M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Lolita",
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "publish_date": "1961",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 354,
+            "ocaid": "bwb_KU-253-846",
+            "source_records": [
+                "ia:bwb_KU-253-846"
+            ],
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL58634178M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-04-26T19:52:32.727237"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-23T15:14:30.544138"
+            }
+        },
+        "/books/OL59041218M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Lolita",
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "publish_date": "1989",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 338,
+            "publishers": [
+                "Vintage International Vintage Books"
+            ],
+            "source_records": [
+                "ia:snj.lolita0000vlad_l6i9"
+            ],
+            "ocaid": "snj.lolita0000vlad_l6i9",
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL59041218M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-05-12T12:27:48.753376"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-23T15:14:30.544138"
+            }
+        },
+        "/books/OL47131500M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Lolita",
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                },
+                {
+                    "key": "/authors/OL12552430A"
+                }
+            ],
+            "publish_date": "Jun 01, 2009",
+            "source_records": [
+                "amazon:8492549459"
+            ],
+            "number_of_pages": 464,
+            "publishers": [
+                "labutxaca"
+            ],
+            "isbn_10": [
+                "8492549459"
+            ],
+            "isbn_13": [
+                "9788492549450"
+            ],
+            "physical_format": "mass market paperback",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Lolita (Catalan Edition)"
+            },
+            "full_title": "Lolita",
+            "covers": [
+                13524656
+            ],
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL47131500M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-03-16T19:36:07.193805"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-21T12:17:35.332206"
+            }
+        },
+        "/books/OL40386026M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "isbn_13": [
+                "9780141197012"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lc_classifications": [
+                "PS3527.A15"
+            ],
+            "pagination": "470",
+            "publish_date": "2012",
+            "publishers": [
+                "Penguin Books, Limited"
+            ],
+            "source_records": [
+                "bwb:9780141197012",
+                "amazon:0141197013"
+            ],
+            "subjects": [
+                "American fiction (fictional works by one author)"
+            ],
+            "title": "Lolita",
+            "weight": "0.552",
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL40386026M",
+            "covers": [
+                13164723
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-18T09:20:48.218224"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-21T12:17:35.332206"
+            }
+        },
+        "/books/OL8494395M": {
+            "publishers": [
+                "Brilliance Audio on CD"
+            ],
+            "weight": "2.4 ounces",
+            "covers": [
+                766569
+            ],
+            "physical_format": "Audio CD",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2011-04-28T10:21:59.587750"
+            },
+            "latest_revision": 7,
+            "key": "/books/OL8494395M",
+            "authors": [
+                {
+                    "key": "/authors/OL18977A"
+                }
+            ],
+            "contributions": [
+                "Dean Robertson (Narrator)"
+            ],
+            "subjects": [
+                "Unabridged Audio - Fiction/Romance",
+                "American Light Romantic Fiction",
+                "Fiction",
+                "Abridged Audio - Fiction/Romance",
+                "Romance: Modern",
+                "Romance - Suspense",
+                "Fiction / General"
+            ],
+            "edition_name": "Abridged edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "amazon:1423323351"
+            ],
+            "title": "Carolina Moon",
+            "identifiers": {
+                "librarything": [
+                    "21548"
+                ],
+                "goodreads": [
+                    "2605416"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "isbn_13": [
+                "9781423323358"
+            ],
+            "isbn_10": [
+                "1423323351"
+            ],
+            "publish_date": "November 25, 2006",
+            "oclc_numbers": [
+                "138440446"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL111631W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.9 x 5.2 x 1.5 inches",
+            "revision": 7
+        },
+        "/books/OL6778189M": {
+            "publishers": [
+                "Thorndike Press"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "21548"
+                ],
+                "goodreads": [
+                    "1470432"
+                ]
+            },
+            "subject_place": [
+                "South Carolina"
+            ],
+            "pagination": "712 p. (large print) ;",
+            "covers": [
+                11350704
+            ],
+            "local_id": [
+                "urn:sfpl:31223053101573"
+            ],
+            "key": "/books/OL6778189M",
+            "authors": [
+                {
+                    "key": "/authors/OL18977A"
+                }
+            ],
+            "publish_places": [
+                "Thorndike, Me"
+            ],
+            "subjects": [
+                "Murder victims' families -- Fiction",
+                "Young women -- Fiction",
+                "Large type books",
+                "South Carolina -- Fiction"
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "source_records": [
+                "marc:marc_records_scriblio_net/part01.dat:3760950:807",
+                "ia:carolinamoon00robe_1",
+                "ia:isbn_9780786222889",
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run02.mrc:202896272:1756",
+                "marc:marc_loc_2016/BooksAll.2016.part01.utf8:7045502:807",
+                "ia:carolinamoon0000robe_j9a1",
+                "amazon:0786222875"
+            ],
+            "title": "Carolina moon",
+            "number_of_pages": 712,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2000",
+            "publish_country": "meu",
+            "by_statement": "Nora Roberts.",
+            "works": [
+                {
+                    "key": "/works/OL111631W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "carolinamoon00robe_1",
+            "isbn_10": [
+                "0786222875"
+            ],
+            "lccn": [
+                "00020641"
+            ],
+            "classifications": {},
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "lc_classifications": [
+                "PS3568.O243 C38 2000b"
+            ],
+            "latest_revision": 14,
+            "revision": 14,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-10-31T02:55:02.660348"
+            }
+        },
+        "/books/OL9711183M": {
+            "publishers": [
+                "Brilliance Audio on MP3-CD Lib Ed"
+            ],
+            "weight": "4 ounces",
+            "covers": [
+                1995047
+            ],
+            "physical_format": "MP3 CD",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2010-08-13T17:48:16.100494"
+            },
+            "latest_revision": 6,
+            "key": "/books/OL9711183M",
+            "authors": [
+                {
+                    "key": "/authors/OL18977A"
+                }
+            ],
+            "contributions": [
+                "Dean Robertson (Narrator)"
+            ],
+            "subjects": [
+                "Romance - Suspense",
+                "Fiction / General",
+                "Unabridged Audio - Fiction/Romance"
+            ],
+            "isbn_13": [
+                "9781596004641"
+            ],
+            "source_records": [
+                "amazon:1596004649:2-bf:1120345385:303714"
+            ],
+            "title": "Carolina Moon",
+            "identifiers": {
+                "goodreads": [
+                    "1470431"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "1596004649"
+            ],
+            "publish_date": "October 25, 2004",
+            "works": [
+                {
+                    "key": "/works/OL111631W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "7.7 x 5.4 x 0.7 inches",
+            "revision": 6
+        },
+        "/books/OL8686459M": {
+            "publishers": [
+                "Nova Audio Books"
+            ],
+            "weight": "5.6 ounces",
+            "covers": [
+                809774
+            ],
+            "physical_format": "Audio cassette",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2012-12-18T18:48:36.678641"
+            },
+            "latest_revision": 8,
+            "key": "/books/OL8686459M",
+            "contributions": [
+                "Dean Robertson (Narrator)"
+            ],
+            "subjects": [
+                "Suspense",
+                "Romance - Contemporary",
+                "Audiobooks",
+                "Fiction",
+                "Audio - Romance",
+                "Audio Adult: Books On Tape",
+                "FIC",
+                "FIC027010",
+                "FIC027000",
+                "Romance - General",
+                "Fiction / General",
+                "Romance - Adult"
+            ],
+            "edition_name": "Abridged edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "amazon:1567408893:fo:7088464:264615"
+            ],
+            "title": "Carolina Moon (Nova Audio Books)",
+            "identifiers": {
+                "goodreads": [
+                    "2413785"
+                ],
+                "librarything": [
+                    "21548"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T08:14:56.482104"
+            },
+            "isbn_13": [
+                "9781567408898"
+            ],
+            "isbn_10": [
+                "1567408893"
+            ],
+            "publish_date": "March 1, 2000",
+            "works": [
+                {
+                    "key": "/works/OL111631W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "7.5 x 4.2 x 1.2 inches",
+            "revision": 8
+        },
+        "/books/OL59664606M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "1962",
+            "publish_country": "ja",
+            "languages": [
+                {
+                    "key": "/languages/jpn"
+                }
+            ],
+            "work_titles": [
+                "Lolita"
+            ],
+            "title": "ロリータ",
+            "other_titles": [
+                "Rorīta"
+            ],
+            "by_statement": "Urajimīru Nabokofu [cho] Ōkubo Yasuo yaku",
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                },
+                {
+                    "key": "/authors/OL15684031A"
+                }
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Translation of: Lolita.\r\n\r\nCover title."
+            },
+            "translated_from": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Kawade Shobō Shinsha"
+            ],
+            "publish_places": [
+                "Tōkyō"
+            ],
+            "pagination": "300 p.",
+            "number_of_pages": 300,
+            "source_records": [
+                "marc:harvard_bibliographic_metadata/20220215_009.bib.mrc:308897457:1317"
+            ],
+            "full_title": "ロリータ",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL59664606M",
+            "identifiers": {},
+            "oclc_numbers": [
+                "29609638"
+            ],
+            "contributors": [
+                {
+                    "role": "Translator",
+                    "name": "大久保康雄"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-07-24T21:20:24.102316"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-29T10:45:47.351146"
+            }
+        },
+        "/books/OL43536624M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B0006CK94O"
+                ],
+                "better_world_books": [
+                    " "
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:W6-AYN-922"
+            ],
+            "publish_date": "1970-01-01",
+            "publishers": [
+                "McGraw-Hill"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2020-12-04"
+            ],
+            "title": "The Annotated Lolita",
+            "full_title": "The Annotated Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL43536624M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-09T09:29:15.959123"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-29T10:45:47.351146"
+            }
+        },
+        "/books/OL58929614M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "lolita",
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "publish_date": "1959",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 326,
+            "publishers": [
+                "weidenfeld and nicolson"
+            ],
+            "source_records": [
+                "ia:lolita0000vlad_f0x8"
+            ],
+            "ocaid": "lolita0000vlad_f0x8",
+            "full_title": "lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL58929614M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-05-07T02:38:48.673459"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-29T10:45:07.681937"
+            }
+        },
+        "/books/OL23034142M": {
+            "other_titles": [
+                "Lolita",
+                "Priglashenie na kaznʹ."
+            ],
+            "publishers": [
+                "ĖKSMO-Press"
+            ],
+            "number_of_pages": 542,
+            "table_of_contents": [
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "Priglashenie na kaznʹ",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "Lolita.",
+                    "pagenum": ""
+                }
+            ],
+            "isbn_10": [
+                "5040056567"
+            ],
+            "pagination": "542 p., [8] pages of plates :",
+            "key": "/books/OL23034142M",
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "publish_places": [
+                "Moskva"
+            ],
+            "contributions": [
+                "Nabokov, Vladimir Vladimirovich, 1899-1977."
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "classifications": {},
+            "source_records": [
+                "marc:SanFranPL10/SanFranPL10.out:42877199:1044"
+            ],
+            "title": "Izbrannye proizvedenii︠a︡",
+            "work_titles": [
+                "Selections."
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "3076289"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/rus"
+                }
+            ],
+            "subjects": [
+                "Middle aged men -- Fiction"
+            ],
+            "publish_date": "2001",
+            "publish_country": "ru ",
+            "by_statement": "Vladimir Nabokov.",
+            "oclc_numbers": [
+                "47363308"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-02-18T03:47:33.419388"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-29T10:45:07.681937"
+            }
+        },
+        "/books/OL55857519M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "isbn_13": [
+                "9781530069378"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 192,
+            "publish_date": "2016",
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "source_records": [
+                "bwb:9781530069378"
+            ],
+            "title": "Lolita",
+            "weight": "0.441",
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL55857519M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-09-29T20:48:19.468435"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-24T09:38:11.325954"
+            }
+        },
+        "/books/OL55968003M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                },
+                {
+                    "key": "/authors/OL14471541A"
+                },
+                {
+                    "key": "/authors/OL10074422A"
+                }
+            ],
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "isbn_13": [
+                "9781507796238"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "number_of_pages": 236,
+            "publish_date": "2015",
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "source_records": [
+                "bwb:9781507796238"
+            ],
+            "title": "Lolita",
+            "weight": "0.418",
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL55968003M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-09-30T13:30:16.798743"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-24T09:38:11.325954"
+            }
+        },
+        "/books/OL46916544M": {
+            "identifiers": {
+                "amazon": [
+                    "B009NODRJA"
+                ],
+                "better_world_books": [
+                    "BWBM52361487"
+                ]
+            },
+            "title": "Lolita",
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:O8-BVZ-792"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-11-18:O8-BVZ-792",
+                "marc:harvard_bibliographic_metadata/ab.bib.00.20150123.full.mrc:143192211:747",
+                "ia:lolita0000unse_b2s0",
+                "marc:harvard_bibliographic_metadata/20220215_022.bib.mrc:260550206:3838"
+            ],
+            "full_title": "Lolita",
+            "key": "/books/OL46916544M",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "oclc_numbers": [
+                "40449711",
+                "4962072"
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "Nabokov's most famous and controversial novel tells the story of the aging Humbert Humbert's obsessive, devouring, and doomed passion for the nymphet Dolores Haze."
+            },
+            "number_of_pages": 319,
+            "publishers": [
+                "Putnam"
+            ],
+            "publish_date": "1955",
+            "covers": [
+                15007994
+            ],
+            "ocaid": "lolita0000unse_b2s0",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lc_classifications": [
+                "PS3527.A15 L6 1955"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T01:38:42.715131"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-23T17:59:20.043829"
+            }
+        },
+        "/books/OL53736858M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "1973",
+            "publish_country": "nyu",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "title": "Lolita",
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "oclc_numbers": [
+                "741175345"
+            ],
+            "contributions": [
+                "Julio Mario Santo Domingo Collection"
+            ],
+            "publishers": [
+                "Berkley Medallion Book"
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "pagination": "288 pp.",
+            "number_of_pages": 288,
+            "source_records": [
+                "marc:harvard_bibliographic_metadata/ab.bib.13.20150123.full.mrc:670017104:662"
+            ],
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL53736858M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-09-07T12:24:14.680912"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-24T09:38:11.325954"
+            }
+        },
+        "/books/OL54351013M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "1959",
+            "publish_country": "fr",
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "title": "Lolita",
+            "subtitle": "roman",
+            "by_statement": "Vladimir Nabokov ; traduit de l'anglais par E.H. Kahane",
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "oclc_numbers": [
+                "2145644"
+            ],
+            "lc_classifications": [
+                "PS3527.A15 L624"
+            ],
+            "dewey_decimal_class": [
+                "843.89"
+            ],
+            "series": [
+                "Du monde entier"
+            ],
+            "translated_from": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "contributions": [
+                "Gascoyne, David, 1916-2001, former owner",
+                "Julio Mario Santo Domingo Collection"
+            ],
+            "publishers": [
+                "Gallimard"
+            ],
+            "publish_places": [
+                "Paris"
+            ],
+            "pagination": "366 p.",
+            "number_of_pages": 366,
+            "source_records": [
+                "marc:harvard_bibliographic_metadata/ab.bib.13.20150123.full.mrc:840794983:956",
+                "marc:harvard_bibliographic_metadata/20220215_026.bib.mrc:221714108:2057"
+            ],
+            "full_title": "Lolita roman",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL54351013M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-09-20T16:29:23.905460"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-30T23:33:13.867617"
+            }
+        },
+        "/books/OL44720314M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Lolita",
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "publish_date": "Dec 21, 1992",
+            "source_records": [
+                "amazon:1559946342"
+            ],
+            "publishers": [
+                "Caedmon Audio Cassette"
+            ],
+            "isbn_10": [
+                "1559946342"
+            ],
+            "isbn_13": [
+                "9781559946346"
+            ],
+            "physical_format": "audio cassette",
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL44720314M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-21T19:14:26.505268"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-24T09:38:11.325954"
+            }
+        },
+        "/books/OL44341691M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "isbn_13": [
+                "9798358767553"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "pagination": "238",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798358767553"
+            ],
+            "title": "Lolita",
+            "weight": "0.695",
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL44341691M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-18T01:44:42.962761"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-24T09:38:11.325954"
+            }
+        },
+        "/books/OL44347502M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "isbn_13": [
+                "9798358773325"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "pagination": "238",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798358773325"
+            ],
+            "title": "Lolita",
+            "weight": "0.695",
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL44347502M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-18T02:04:11.937543"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-24T09:38:11.325954"
+            }
+        },
+        "/books/OL46400878M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "isbn_13": [
+                "9798363447211"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "pagination": "238",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798363447211"
+            ],
+            "title": "Lolita",
+            "weight": "0.695",
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL46400878M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-01-18T02:02:30.234222"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-24T09:38:11.325954"
+            }
+        },
+        "/books/OL48126041M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                },
+                {
+                    "key": "/authors/OL9688365A"
+                }
+            ],
+            "isbn_13": [
+                "9780297819103"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "336",
+            "publish_date": "1997",
+            "publishers": [
+                "Orion Publishing Group, Limited"
+            ],
+            "source_records": [
+                "bwb:9780297819103"
+            ],
+            "subjects": [
+                "American fiction (fictional works by one author)"
+            ],
+            "title": "Lolita",
+            "weight": "0.523",
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL48126041M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-17T02:21:04.610948"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-24T09:38:11.325954"
+            }
+        },
+        "/books/OL43615757M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B007BP7MW6"
+                ],
+                "better_world_books": [
+                    " "
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:W6-CAR-710"
+            ],
+            "publish_date": "1981-01-01",
+            "publishers": [
+                "Franklin Library"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2020-10-08"
+            ],
+            "title": "Lolita (Franklin Library: 100 Greatest Masterpieces American Literature)",
+            "full_title": "Lolita (Franklin Library: 100 Greatest Masterpieces American Literature)",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL43615757M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-09T21:12:27.335926"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-24T09:38:11.325954"
+            }
+        },
+        "/books/OL43140208M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B000J2Q3KK"
+                ],
+                "better_world_books": [
+                    "BWB26656626"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:KQ-178-476"
+            ],
+            "publish_date": "1979-01-01",
+            "publishers": [
+                "Franklin Library"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-03-17"
+            ],
+            "title": "Lolita",
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL43140208M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-07T13:45:24.364056"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-24T09:38:11.325954"
+            }
+        },
+        "/books/OL38811188M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "isbn_13": [
+                "9780141391601"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2012",
+            "publishers": [
+                "Penguin Books, Limited"
+            ],
+            "source_records": [
+                "bwb:9780141391601"
+            ],
+            "title": "Lolita",
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL38811188M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-07-18T19:13:18.731881"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-24T09:38:11.325954"
+            }
+        },
+        "/books/OL38790537M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "isbn_13": [
+                "9780718192846"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2013",
+            "publishers": [
+                "Penguin Books, Limited"
+            ],
+            "source_records": [
+                "bwb:9780718192846"
+            ],
+            "title": "Annotated Lolita",
+            "full_title": "Annotated Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL38790537M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-07-18T14:59:15.253245"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-24T09:38:11.325954"
+            }
+        },
+        "/books/OL60372655M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B00AR5395G"
+                ],
+                "better_world_books": [
+                    " "
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:P9-CDQ-204"
+            ],
+            "publish_date": "1956",
+            "publishers": [
+                "International Collectors Library, Garden City"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2024-11-08:P9-CDQ-204"
+            ],
+            "title": "Lolita",
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL60372655M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-10-03T18:03:30.308057"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-23T15:14:30.544138"
+            }
+        },
+        "/books/OL58699948M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Lolita",
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "publish_date": "1955",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 290,
+            "ocaid": "bwb_S0-BKF-185",
+            "source_records": [
+                "ia:bwb_S0-BKF-185"
+            ],
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL58699948M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-04-27T17:41:22.240081"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-23T15:14:30.544138"
+            }
+        },
+        "/books/OL58727429M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Lolita",
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "publish_date": "1955",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 294,
+            "publishers": [
+                "G. P. Putnam's Sons"
+            ],
+            "ocaid": "bwb_W9-DBF-309",
+            "source_records": [
+                "ia:bwb_W9-DBF-309"
+            ],
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL58727429M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-04-28T03:03:10.798336"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-23T15:14:30.544138"
+            }
+        },
+        "/books/OL58929615M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Lolita",
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "publish_date": "1962",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 354,
+            "publishers": [
+                "Fawcett Publications, Inc."
+            ],
+            "source_records": [
+                "ia:lolita0000vlad_n9c7"
+            ],
+            "ocaid": "lolita0000vlad_n9c7",
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL58929615M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-05-07T02:38:51.893487"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-23T15:14:30.544138"
+            }
+        },
+        "/books/OL58929617M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Lolita",
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "publish_date": "1991",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 326,
+            "publishers": [
+                "Moscow 'Aquarius"
+            ],
+            "source_records": [
+                "ia:lolita0000vlad_r6v5"
+            ],
+            "ocaid": "lolita0000vlad_r6v5",
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL58929617M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-05-07T02:38:57.188267"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-23T15:14:30.544138"
+            }
+        },
+        "/books/OL47135657M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Lolita",
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "publish_date": "Mar 16, 1959",
+            "source_records": [
+                "amazon:0297167626",
+                "bwb:9780297167624"
+            ],
+            "number_of_pages": 320,
+            "publishers": [
+                "Trafalgar Square",
+                "Orion Publishing Group, Limited"
+            ],
+            "isbn_10": [
+                "0297167626"
+            ],
+            "isbn_13": [
+                "9780297167624"
+            ],
+            "physical_format": "hardcover",
+            "full_title": "Lolita",
+            "covers": [
+                13531634
+            ],
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL47135657M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-03-16T22:13:14.195336"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-21T12:17:35.332206"
+            }
+        },
+        "/books/OL47308534M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Lolita",
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "publish_date": "Mar 09, 2006",
+            "source_records": [
+                "amazon:9023419987"
+            ],
+            "number_of_pages": 382,
+            "publishers": [
+                "De Bezige Bij"
+            ],
+            "isbn_10": [
+                "9023419987"
+            ],
+            "isbn_13": [
+                "9789023419983"
+            ],
+            "physical_format": "paperback",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Lolita (Ulysses klassieken) (Dutch Edition)"
+            },
+            "full_title": "Lolita",
+            "covers": [
+                13773255
+            ],
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL47308534M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-03-27T16:11:53.203842"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-21T12:17:35.332206"
+            }
+        },
+        "/books/OL40333469M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "isbn_13": [
+                "9780141188102"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "320",
+            "publish_date": "2004",
+            "publishers": [
+                "Penguin Books, Limited"
+            ],
+            "source_records": [
+                "bwb:9780141188102"
+            ],
+            "subjects": [
+                "American fiction (fictional works by one author)"
+            ],
+            "title": "Lolita",
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL40333469M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-17T13:42:13.143399"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-21T12:17:35.332206"
+            }
+        },
+        "/books/OL8494394M": {
+            "publishers": [
+                "Brilliance Audio on CD Unabridged Lib Ed"
+            ],
+            "weight": "14.2 ounces",
+            "covers": [
+                766568
+            ],
+            "edition_name": "Unabridged edition",
+            "physical_format": "Audio CD",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2010-08-10T03:52:46.851294"
+            },
+            "latest_revision": 6,
+            "key": "/books/OL8494394M",
+            "authors": [
+                {
+                    "key": "/authors/OL18977A"
+                }
+            ],
+            "contributions": [
+                "Dean Robertson (Narrator)"
+            ],
+            "subjects": [
+                "American Light Romantic Fiction",
+                "Fiction",
+                "Unabridged Audio - Fiction/Romance",
+                "Romance: Modern",
+                "Romance - Suspense",
+                "Fiction / General",
+                "Romance - General"
+            ],
+            "isbn_13": [
+                "9781423323341"
+            ],
+            "source_records": [
+                "amazon:1423323343"
+            ],
+            "title": "Carolina Moon",
+            "identifiers": {
+                "goodreads": [
+                    "1470218"
+                ],
+                "librarything": [
+                    "21548"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "1423323343"
+            ],
+            "publish_date": "November 25, 2006",
+            "works": [
+                {
+                    "key": "/works/OL111631W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "7 x 6.9 x 1.8 inches",
+            "revision": 6
+        },
+        "/books/OL52260885M": {
+            "identifiers": {
+                "wikidata": [
+                    "Q47007804"
+                ]
+            },
+            "title": "The Annotated Lolita",
+            "subtitle": "Revised and Updated",
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "publish_date": "2011-08-17",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_10": [
+                "0307788083"
+            ],
+            "isbn_13": [
+                "9780307788085"
+            ],
+            "local_id": [
+                "urn:bwbsku:W9-BWX-389"
+            ],
+            "publishers": [
+                "Vintage"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2024-07-03:W9-BWX-389"
+            ],
+            "full_title": "The Annotated Lolita Revised and Updated",
+            "key": "/books/OL52260885M",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-07-05T01:09:29.521957"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-29T10:45:47.351146"
+            }
+        },
+        "/books/OL43252728M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B09F1YS31D"
+                ],
+                "better_world_books": [
+                    " "
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:P7-CTI-455"
+            ],
+            "publish_date": "1777-01-01",
+            "publishers": [
+                "Generic"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-09-03"
+            ],
+            "title": "Rare Vladimir Nabokov / LOLITA 1ˢᵗ Edition; 5ᵗʰ Printing",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL43252728M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-08T00:11:53.718635"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-29T10:45:47.351146"
+            }
+        },
+        "/books/OL58619619M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "lolita ",
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "publish_date": "1955",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 326,
+            "publishers": [
+                "weidenfeld and nicolson"
+            ],
+            "ocaid": "bwb_KP-478-147",
+            "source_records": [
+                "ia:bwb_KP-478-147"
+            ],
+            "full_title": "lolita ",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL58619619M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-04-26T15:12:45.463903"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-29T10:45:07.681937"
+            }
+        },
+        "/books/OL58929619M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "lolita",
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "publish_date": "1955",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 294,
+            "publishers": [
+                "International Collectors Library"
+            ],
+            "source_records": [
+                "ia:lolita0000vlad_s2i1"
+            ],
+            "ocaid": "lolita0000vlad_s2i1",
+            "full_title": "lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL58929619M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-05-07T02:39:00.390853"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-29T10:45:07.681937"
+            }
+        },
+        "/books/OL40239797M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "1999",
+            "publish_country": "cau",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "edition_name": "Widescreen version.",
+            "series": [
+                "Stanly Kubrick collection"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Based on the novel by Vladimir Nabokov.\n\nFor specific features see interactive menu.\n\nOriginally released as a motion picture in 1961.\n\nClosed captioned.\n\nProducer, James B. Harris ; director, Stanley Kubrick ; screenplay, Vladimir Nabokov ; editor, Anthony Harvey ; music, Nelson Riddle.\n\nJames Mason, Shelley Winters, Peter Sellers, Sue Lyon, Marianne Stone, Diana Decker, Jerry Stovin, Gary Cockrell, Suzanne Gibbs, Roberta Shore.\n\nDVD."
+            },
+            "description": {
+                "type": "/type/text",
+                "value": "The story of the passion of a middle-aged man for a young teenager."
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "contributions": [
+                "Kubrick, Stanley",
+                "Mason, James, 1909-1984",
+                "Winters, Shelley",
+                "Sellers, Peter, 1925-1980",
+                "Lyon, Sue, 1946-2019",
+                "Metro-Goldwyn-Mayer",
+                "Seven Arts Productions",
+                "Warner Home Video (Firm)"
+            ],
+            "subjects": [
+                "Feature films",
+                "Films for the hearing impaired"
+            ],
+            "title": "Lolita",
+            "by_statement": "Metro-Goldwyn-Mayer in association with Seven Arts Productions",
+            "physical_format": "[videorecording] /",
+            "publishers": [
+                "Warner Home Video"
+            ],
+            "publish_places": [
+                "Burbank, CA"
+            ],
+            "isbn_10": [
+                "0790743116"
+            ],
+            "pagination": "1 videodisc (153 min.)",
+            "number_of_pages": 153,
+            "source_records": [
+                "marc:marc_scms/20220805_ADAM_MARC_records.mrc:22104605:2657"
+            ],
+            "local_id": [
+                "urn:scms:0188600146321"
+            ],
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL40239797M",
+            "covers": [
+                15203201
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-11T01:09:38.713701"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-28T12:26:33.170884"
+            }
+        },
+        "/books/OL40295155M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "2006",
+            "publish_country": "ru",
+            "languages": [
+                {
+                    "key": "/languages/rus"
+                }
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "work_titles": [
+                "Lolita"
+            ],
+            "other_titles": [
+                "Volshebnik."
+            ],
+            "notes": "\"Literaturno-khudozhestvennoe izdanie\"--Colophon",
+            "subjects": [
+                "Middle-aged men",
+                "Fiction",
+                "Girls",
+                "Hommes d'âge moyen",
+                "Romans, nouvelles",
+                "Filles"
+            ],
+            "title": "Лолита",
+            "by_statement": "Vladimir Nabokov ; [perevod s angliĭskogo avtora]",
+            "publishers": [
+                "Издательство \"АСТ\""
+            ],
+            "publish_places": [
+                "Moskva"
+            ],
+            "pagination": "429 pages",
+            "number_of_pages": 429,
+            "source_records": [
+                "ia:lolitaromanvolsh0000nabo_q6l3"
+            ],
+            "full_title": "Lolita roman ; Volshebnik : rasskaz",
+            "covers": [
+                15217041,
+                12999010
+            ],
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL40295155M",
+            "identifiers": {},
+            "ocaid": "lolitaromanvolsh0000nabo_q6l3",
+            "isbn_10": [
+                "5170081936"
+            ],
+            "isbn_13": [
+                "9785170081936"
+            ],
+            "oclc_numbers": [
+                "173520852"
+            ],
+            "lc_classifications": [
+                "PS3527 .A15 L617 2006"
+            ],
+            "physical_format": "Hardcover",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-16T00:07:20.999948"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-05-01T10:31:20.039024"
+            }
+        },
+        "/books/OL40295156M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "2006",
+            "publish_country": "ru",
+            "languages": [
+                {
+                    "key": "/languages/rus"
+                }
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "oclc_numbers": [
+                "173520852"
+            ],
+            "lc_classifications": [
+                "PS3527 .A15 L617 2006"
+            ],
+            "work_titles": [
+                "Lolita"
+            ],
+            "other_titles": [
+                "Volshebnik."
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "\"Literaturno-khudozhestvennoe izdanie\"--Colophon"
+            },
+            "subjects": [
+                "Middle-aged men",
+                "Fiction",
+                "Girls",
+                "Hommes d'âge moyen",
+                "Romans, nouvelles",
+                "Filles"
+            ],
+            "title": "Lolita",
+            "subtitle": "roman ; Volshebnik : rasskaz",
+            "by_statement": "Vladimir Nabokov ; [perevod s angliĭskogo avtora]",
+            "publishers": [
+                "Izd-vo. \"AST\""
+            ],
+            "publish_places": [
+                "Moskva"
+            ],
+            "isbn_10": [
+                "5170081936"
+            ],
+            "isbn_13": [
+                "9785170081936"
+            ],
+            "pagination": "429 pages",
+            "number_of_pages": 429,
+            "ocaid": "lolitaromanvolsh0000nabo_q6l3",
+            "source_records": [
+                "ia:lolitaromanvolsh0000nabo_q6l3",
+                "promise:bwb_daily_pallets_2022-08-30"
+            ],
+            "full_title": "Lolita roman ; Volshebnik : rasskaz",
+            "covers": [
+                12999011
+            ],
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL40295156M",
+            "local_id": [
+                "urn:bwbsku:O8-BYQ-402"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-16T00:07:23.285801"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-29T10:45:07.681937"
+            }
+        },
+        "/books/OL44395608M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "1960",
+            "publish_country": "fr",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "oclc_numbers": [
+                "1004769477"
+            ],
+            "lc_classifications": [
+                "PS3527.A15 L6 1960"
+            ],
+            "series": [
+                "The traveller's companion series -- [no. 66]",
+                "Traveller's companion series (Paris, France) -- no. 66."
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "\"Third printing: April 1959\"--Title page verso.\n\n\"Dépôt légal: 1er trimestre 1960\"--Title page verso.\n\nForeword signed by John Ray, Jr., Ph. D., Widworth, Mass.\n\nPublisher's advertisements printed on pages 313-319.\n\n\"This edition is the original, complete and unexpurgated Paris edition. It is the only one allowed to be sold in countries other than the U.S.A., U.K. and Commonwealth\"--Page 4 of cover.\n\nKearney, P.J. Paris Olympia Press (new ed.), 5.66.5"
+            },
+            "contributions": [
+                "Olympia Press (Paris, France)",
+                "John Baxter Olympia Press collection (Columbia University)"
+            ],
+            "subjects": [
+                "Middle-aged men",
+                "Fiction",
+                "Girls",
+                "Child molesters"
+            ],
+            "title": "Lolita",
+            "by_statement": "Vladimir Nabokov",
+            "publishers": [
+                "The Olympia Press"
+            ],
+            "publish_places": [
+                "Paris"
+            ],
+            "pagination": "319 pages",
+            "number_of_pages": 319,
+            "source_records": [
+                "marc:marc_columbia/Columbia-extract-20221130-028.mrc:143255049:2134"
+            ],
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL44395608M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-18T07:23:30.137201"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-29T10:45:07.681937"
+            }
+        },
+        "/books/OL44578258M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "1955",
+            "copyright_date": "1955",
+            "publish_country": "fr",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "oclc_numbers": [
+                "858733189"
+            ],
+            "lc_classifications": [
+                "PG3476.N11 L8 1955"
+            ],
+            "series": [
+                "Traveller's companion series",
+                "Traveller's companion series (Paris, France)"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "\"Export of this edition from Israel is prohibited\"--Title page verso.\n\nTwo volumes (Parts 1-2) in one.\n\nRare Book copy 1: In original printed paper wrappers. No. 73 stamped on inside of back wrapper. The bookseller notes: \"The style of the numbering, thought to have been insisted upon as a means of tracking sales, makes the precise limitation uncertain, but numbers as high as 1772 have been seen, with around half the limitation believed to have been in wrappers and the remainder in boards.\"\n\nRare Book copy 2: In original dust jacket. No. 1681 stamped on inside of back dust jacket."
+            },
+            "contributions": [
+                "Olympia Press (Paris, France)",
+                "John Baxter Olympia Press collection (Columbia University)"
+            ],
+            "subjects": [
+                "Middle-aged men",
+                "Fiction",
+                "Girls",
+                "Child molesters"
+            ],
+            "title": "Lolita",
+            "by_statement": "by Vladimir Nabokov",
+            "publishers": [
+                "The Olympia Press"
+            ],
+            "publish_places": [
+                "Paris"
+            ],
+            "pagination": "190, 223 pages",
+            "number_of_pages": 223,
+            "source_records": [
+                "marc:marc_columbia/Columbia-extract-20221130-024.mrc:187079005:2245"
+            ],
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL44578258M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-20T11:30:26.247225"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-29T10:45:07.681937"
+            }
+        },
+        "/books/OL20394035M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Cover title: Lolita."
+            },
+            "identifiers": {
+                "goodreads": [
+                    "3076289"
+                ]
+            },
+            "title": "Priglasheniye na kazn'",
+            "subtitle": "Lolita.",
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "publish_date": "2001",
+            "publishers": [
+                "EKSMO-Press"
+            ],
+            "publish_places": [
+                "Moscow"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-07-28:P7-CRG-910",
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:2159360856:458",
+                "amazon:5040056567"
+            ],
+            "dewey_decimal_class": [
+                "891.73"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/rus"
+                }
+            ],
+            "isbn_10": [
+                "5040056567"
+            ],
+            "publish_country": "ru ",
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:P7-CRG-910"
+            ],
+            "key": "/books/OL20394035M",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "latest_revision": 13,
+            "revision": 13,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-26T17:46:10.363557"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-29T10:45:07.681937"
+            }
+        },
+        "/books/OL60524818M": {
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "title": "Lolita",
+            "publishers": [
+                "Alfaguara"
+            ],
+            "publish_date": "28/05/2011",
+            "key": "/books/OL60524818M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                15135711
+            ],
+            "isbn_13": [
+                "9788579620560"
+            ],
+            "publish_places": [
+                "Brasil"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/por"
+                }
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "Polêmico, irônico e tocante, este romance narra o amor obsessivo de Humbert Humbert, um cínico intelectual de meia-idade, por Dolores Haze, Lolita, 12 anos, uma ninfeta que inflama suas loucuras e seus desejos mais agudos. Através da voz de Humbert Humbert, o leitor nunca sabe ao certo quem é a caça, quem é o caçador. A obra-prima de Nabokov, agora em nova tradução, não é apenas uma assombrosa história de paixão e ruína. É também uma viagem de redescoberta pela América; é a exploração da linguagem e de seus matizes; é uma mostra da arte narrativa em seu auge. Na literatura contemporânea, não existe romance como Lolita."
+            },
+            "physical_format": "paperback",
+            "number_of_pages": 392,
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-10-25T02:32:09.636055"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-25T02:33:22.621648"
+            }
+        },
+        "/books/OL60151258M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "1999",
+            "publish_country": "is",
+            "languages": [
+                {
+                    "key": "/languages/heb"
+                }
+            ],
+            "work_titles": [
+                "Lolita"
+            ],
+            "title": "Loliṭah",
+            "by_statement": "Ṿladimir Naboḳov ; me-Anglit, Devorah Shṭainharṭ ; aḥarit davar, Menaḥem Peri, Devorah Shṭainharṭ",
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                },
+                {
+                    "key": "/authors/OL15815625A"
+                },
+                {
+                    "key": "/authors/OL171021A"
+                }
+            ],
+            "series": [
+                "Sifriyah ha-ḥadashah li-menuyim -- 1999 [03]"
+            ],
+            "notes": "Translation of: Lolita.",
+            "publishers": [
+                "ha-Ḳibuts ha-meʾuḥad"
+            ],
+            "publish_places": [
+                "Tel Aviv"
+            ],
+            "pagination": "352 p.",
+            "number_of_pages": 352,
+            "source_records": [
+                "marc:harvard_bibliographic_metadata/20220215_017.bib.mrc:16671392:1533"
+            ],
+            "full_title": "Loliṭah",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL60151258M",
+            "identifiers": {},
+            "oclc_numbers": [
+                "223015784"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-09-18T01:55:15.540897"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-24T09:38:11.325954"
+            }
+        },
+        "/books/OL58635242M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Lolita",
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "publish_date": "1955",
+            "number_of_pages": 326,
+            "ocaid": "bwb_KU-336-398",
+            "source_records": [
+                "ia:bwb_KU-336-398"
+            ],
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL58635242M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-04-26T20:08:47.896602"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-24T09:38:11.325954"
+            }
+        },
+        "/books/OL55166948M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "number_of_pages": 274,
+            "publish_date": "2017",
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "source_records": [
+                "bwb:9781544609737"
+            ],
+            "title": "Lolita",
+            "weight": "0.477 ",
+            "full_title": "Lolita (Spanish Edition)",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL55166948M",
+            "identifiers": {},
+            "isbn_13": [
+                "9781544609737"
+            ],
+            "translation_of": "Lolita",
+            "translated_from": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-09-25T16:12:21.694190"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-24T09:38:11.325954"
+            }
+        },
+        "/books/OL54644838M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "isbn_13": [
+                "9781530067749"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 192,
+            "publish_date": "2016",
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "source_records": [
+                "bwb:9781530067749"
+            ],
+            "title": "Lolita",
+            "weight": "0.441",
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL54644838M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-09-22T12:23:31.238534"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-24T09:38:11.325954"
+            }
+        },
+        "/books/OL54644859M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "isbn_13": [
+                "9781530070220"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 192,
+            "publish_date": "2016",
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "source_records": [
+                "bwb:9781530070220"
+            ],
+            "title": "Lolita",
+            "weight": "0.441",
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL54644859M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-09-22T12:25:22.775632"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-24T09:38:11.325954"
+            }
+        },
+        "/books/OL55971695M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                },
+                {
+                    "key": "/authors/OL8339403A"
+                }
+            ],
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "isbn_13": [
+                "9781517448288"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "number_of_pages": 240,
+            "publish_date": "2015",
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "source_records": [
+                "bwb:9781517448288"
+            ],
+            "title": "Lolita",
+            "weight": "0.427",
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL55971695M",
+            "contributors": [
+                {
+                    "role": "Translator",
+                    "name": "Natalie Montoto"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-09-30T14:12:02.106303"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-24T09:38:11.325954"
+            }
+        },
+        "/books/OL50552769M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "isbn_10": [
+                "538901362X"
+            ],
+            "isbn_13": [
+                "9785389013629"
+            ],
+            "local_id": [
+                "urn:bwbsku:P9-CYN-758"
+            ],
+            "publish_date": "2011",
+            "publishers": [
+                "IG \"Azbuka-Attikus\""
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2024-01-18:P9-CYN-758"
+            ],
+            "title": "Nabokov V./Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL50552769M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-01-20T01:03:59.146522"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-24T09:38:11.325954"
+            }
+        },
+        "/books/OL49943941M": {
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "title": "Lolita",
+            "publishers": [
+                "Vintage Books"
+            ],
+            "publish_date": "1954",
+            "key": "/books/OL49943941M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                14544961
+            ],
+            "isbn_13": [
+                "9780307744029"
+            ],
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-11-16T07:06:50.185324"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-24T09:38:11.325954"
+            }
+        },
+        "/books/OL49833255M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B000NRQMD4"
+                ],
+                "better_world_books": [
+                    "BWB20664728"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:P9-ADR-357"
+            ],
+            "publish_date": "1959",
+            "publishers": [
+                "Crest Books"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-11-07:P9-ADR-357"
+            ],
+            "title": "LOLITA (Complete & Unabridged, Crest Giant 1959 (d338))",
+            "full_title": "LOLITA (Complete & Unabridged, Crest Giant 1959 (d338))",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL49833255M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-11-09T01:15:19.050295"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-24T09:38:11.325954"
+            }
+        },
+        "/books/OL49198427M": {
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "title": "Lolita",
+            "publishers": [
+                "Adelphi"
+            ],
+            "publish_date": "1996",
+            "key": "/books/OL49198427M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                14385206
+            ],
+            "isbn_13": [
+                "9788845912542"
+            ],
+            "classifications": {},
+            "number_of_pages": 395,
+            "languages": [
+                {
+                    "key": "/languages/ita"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-07-20T09:22:53.752640"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-24T09:38:11.325954"
+            }
+        },
+        "/books/OL46946473M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B0063NV4G2"
+                ],
+                "better_world_books": [
+                    "BWB50439037"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:O8-CYO-074"
+            ],
+            "publish_date": "1959-01-01",
+            "publishers": [
+                "Fawcett Publications, Inc."
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-10-12:O8-CYO-074",
+                "ia:lolitacrestgiant0000vlad"
+            ],
+            "title": "Lolita (Crest Giant D338 Complete and Unabridged)",
+            "full_title": "Lolita (Crest Giant D338 Complete and Unabridged)",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL46946473M",
+            "covers": [
+                15007985
+            ],
+            "ocaid": "lolitacrestgiant0000vlad",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 290,
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T03:19:52.267029"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-24T09:38:11.325954"
+            }
+        },
+        "/books/OL46616071M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "isbn_13": [
+                "9798371467720"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "pagination": "238",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798371467720"
+            ],
+            "title": "Lolita",
+            "weight": "0.695",
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL46616071M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-02-17T07:34:11.962039"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-24T09:38:11.325954"
+            }
+        },
+        "/books/OL46880804M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B000WFOVQ2"
+                ],
+                "better_world_books": [
+                    "BWB22868408"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:P8-AWD-515"
+            ],
+            "publish_date": "1955-01-01",
+            "publishers": [
+                "Fawcett"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-02-03:P8-AWD-515"
+            ],
+            "title": "Lolita",
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL46880804M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-02-27T22:22:20.464422"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-24T09:38:11.325954"
+            }
+        },
+        "/books/OL45604096M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B004V6XCTA"
+                ],
+                "better_world_books": [
+                    "BWBM38819631"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:O8-CYW-954"
+            ],
+            "publish_date": "1955-01-01",
+            "publishers": [
+                "G.P. Putnam's Sons"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-01-05",
+                "ia:lolitanovel0000vlad"
+            ],
+            "title": "Lolita, a Novel",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL45604096M",
+            "covers": [
+                15146842,
+                15007988
+            ],
+            "ocaid": "lolitanovel0000vlad",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 290,
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-01-10T20:51:51.936953"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-26T19:20:05.144114"
+            }
+        },
+        "/books/OL44307809M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "isbn_13": [
+                "9798355686505"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "pagination": "238",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798355686505"
+            ],
+            "title": "Lolita",
+            "weight": "0.695",
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL44307809M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-17T23:11:49.474463"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-24T09:38:11.325954"
+            }
+        },
+        "/books/OL46308906M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "isbn_13": [
+                "9798368178783"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "pagination": "238",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798368178783"
+            ],
+            "title": "Lolita",
+            "weight": "0.695",
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL46308906M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-01-17T20:43:52.874718"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-24T09:38:11.325954"
+            }
+        },
+        "/books/OL48142344M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "isbn_13": [
+                "9780297861089"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2009",
+            "publishers": [
+                "Orion Publishing Group, Limited"
+            ],
+            "source_records": [
+                "bwb:9780297861089"
+            ],
+            "subjects": [
+                "American fiction (fictional works by one author)"
+            ],
+            "title": "Lolita",
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL48142344M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-17T04:28:15.723232"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-24T09:38:11.325954"
+            }
+        },
+        "/books/OL43344497M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B082DRRC7R"
+                ],
+                "better_world_books": [
+                    " "
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:P7-ABY-062"
+            ],
+            "publish_date": "1955-01-01",
+            "publishers": [
+                "G. P. Putnam's Sons, New York"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-06-03"
+            ],
+            "title": "Lolita by Nabokov, Vladimir; G. P. Putnam's Sons, NY 1955 First Edition",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL43344497M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-08T09:39:20.192089"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-24T09:38:11.325954"
+            }
+        },
+        "/books/OL43079340M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B000L2EQ3O"
+                ],
+                "better_world_books": [
+                    "BWB12786678"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:W7-ALP-728"
+            ],
+            "publish_date": "1959-01-01",
+            "publishers": [
+                "Crest Giant"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-03-17"
+            ],
+            "title": "Lolita",
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL43079340M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-07T07:39:53.653779"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-24T09:38:11.325954"
+            }
+        },
+        "/books/OL43014538M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B0000BLWA1"
+                ],
+                "better_world_books": [
+                    " "
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:O7-CDW-937"
+            ],
+            "publish_date": "1955-01-01",
+            "publishers": [
+                "Putnam"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-03-17"
+            ],
+            "title": "Lolita",
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL43014538M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-06T23:55:00.824574"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-24T09:38:11.325954"
+            }
+        },
+        "/books/OL39220640M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Lolita",
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                },
+                {
+                    "key": "/authors/OL9239267A"
+                }
+            ],
+            "publish_date": "Nov 15, 2007",
+            "source_records": [
+                "amazon:207034861X"
+            ],
+            "number_of_pages": 544,
+            "publishers": [
+                "GALLIMARD",
+                "FOLIO"
+            ],
+            "isbn_10": [
+                "207034861X"
+            ],
+            "isbn_13": [
+                "9782070348619"
+            ],
+            "physical_format": "misc. supplies",
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL39220640M",
+            "covers": [
+                13829372
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-08-10T10:33:05.573452"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-24T09:38:11.325954"
+            }
+        },
+        "/books/OL9039626M": {
+            "publishers": [
+                "Eksmo-Press"
+            ],
+            "table_of_contents": [
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "Mashenʹka --",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "Kamera Obskura --",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "Lolita.",
+                    "pagenum": ""
+                }
+            ],
+            "title": "Lolita",
+            "identifiers": {
+                "goodreads": [
+                    "333290"
+                ],
+                "librarything": [
+                    "913"
+                ]
+            },
+            "isbn_13": [
+                "9785040018611"
+            ],
+            "physical_format": "Hardcover",
+            "isbn_10": [
+                "5040018614"
+            ],
+            "publish_date": "1999",
+            "key": "/books/OL9039626M",
+            "classifications": {},
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-24T09:38:11.325954"
+            }
+        },
+        "/books/OL50500563M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "isbn_13": [
+                "9780822206835"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 319,
+            "publish_date": "1983",
+            "publishers": [
+                "G. P. Putnam's Sons"
+            ],
+            "source_records": [
+                "idb:9780822206835"
+            ],
+            "title": "Lolita",
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL50500563M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-12-20T00:15:29.509146"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-23T15:14:30.544138"
+            }
+        },
+        "/books/OL58636391M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Lolita",
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "publish_date": "1959",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 326,
+            "ocaid": "bwb_KU-425-097",
+            "source_records": [
+                "ia:bwb_KU-425-097"
+            ],
+            "full_title": "Lolita",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL58636391M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-04-26T20:25:11.057841"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-23T15:14:30.544138"
+            }
+        },
+        "/books/OL58733431M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Lolita ",
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "publish_date": "1995",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 226,
+            "publishers": [
+                "The Traveller's Companion"
+            ],
+            "ocaid": "bwb_Y0-ARW-117",
+            "source_records": [
+                "ia:bwb_Y0-ARW-117"
+            ],
+            "full_title": "Lolita ",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL58733431M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-04-28T04:29:31.403896"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-23T15:14:30.544138"
+            }
+        },
+        "/books/OL48598881M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B001459EKW"
+                ],
+                "better_world_books": [
+                    "BWB33784528"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:KS-599-985"
+            ],
+            "publish_date": "1961-01-01",
+            "publishers": [
+                "Corgi (Transworld)"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-07-11:KS-599-985"
+            ],
+            "title": "LOLITA",
+            "full_title": "LOLITA",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "key": "/books/OL48598881M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-07-13T01:00:24.750415"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-21T12:17:35.332206"
+            }
+        },
+        "/books/OL40374294M": {
+            "identifiers": {
+                "wikidata": [
+                    "Q46710463"
+                ]
+            },
+            "title": "Lolita",
+            "authors": [
+                {
+                    "key": "/authors/OL48139A"
+                }
+            ],
+            "publish_date": "2010",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9780141193670"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "298",
+            "publishers": [
+                "Penguin Books, Limited",
+                "PENGUIN POPULAR CLASSICS"
+            ],
+            "source_records": [
+                "bwb:9780141193670",
+                "amazon:0141193670"
+            ],
+            "subjects": [
+                "American fiction (fictional works by one author)"
+            ],
+            "weight": "0.306",
+            "full_title": "Lolita",
+            "key": "/books/OL40374294M",
+            "works": [
+                {
+                    "key": "/works/OL627084W"
+                }
+            ],
+            "covers": [
+                14304651
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-18T06:38:13.166186"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-21T12:17:35.332206"
+            }
+        }
+    }
+}

@@ -1,0 +1,5919 @@
+{
+    "status": "ok",
+    "result": {
+        "/books/OL17458358M": {
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:1560199473:662"
+            ],
+            "title": "The three guardsmen",
+            "work_titles": [
+                "Les trois mousquetaires."
+            ],
+            "edition_name": "2nd ed, revised and corrected by the translator.",
+            "publish_country": "xxu",
+            "type": {
+                "key": "/type/edition"
+            },
+            "by_statement": "by Alexander Dumas ; translated from the French by Park Benjamin.",
+            "publishers": [
+                "William Taylor and company"
+            ],
+            "key": "/books/OL17458358M",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "publish_places": [
+                "New-York"
+            ],
+            "pagination": "257p. ;",
+            "notes": {
+                "type": "/type/text",
+                "value": "Translated from the French."
+            },
+            "number_of_pages": 257,
+            "publish_date": "1846",
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-28T21:41:41.302230"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-28T12:05:51.457224"
+            }
+        },
+        "/books/OL17322839M": {
+            "series": [
+                "Edition du Louvre. The works of Alexandre Dumas"
+            ],
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:1438724363:565"
+            ],
+            "title": "The three guardsmen",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_country": "xxu",
+            "type": {
+                "key": "/type/edition"
+            },
+            "by_statement": "Alexandre Dumas.",
+            "publishers": [
+                "Metropolitan"
+            ],
+            "key": "/books/OL17322839M",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "pagination": "460p. :",
+            "notes": {
+                "type": "/type/text",
+                "value": "Translated from the French."
+            },
+            "number_of_pages": 460,
+            "publish_date": "1895",
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-28T09:54:12.857196"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-16T18:42:57.050484"
+            }
+        },
+        "/books/OL9751036M": {
+            "publishers": [
+                "Thorndike Press"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "2597713"
+                ]
+            },
+            "weight": "15 ounces",
+            "covers": [
+                15104667,
+                5010023,
+                5009505
+            ],
+            "physical_format": "Hardcover",
+            "key": "/books/OL9751036M",
+            "authors": [
+                {
+                    "key": "/authors/OL792856A"
+                }
+            ],
+            "subjects": [
+                "Romance",
+                "Fiction",
+                "Fiction - Romance",
+                "Mystery/Suspense",
+                "Romance - General",
+                "Suspense"
+            ],
+            "edition_name": "Large Print Edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "ia:mostpassionatere00jacq"
+            ],
+            "title": "A Most Passionate Revenge",
+            "number_of_pages": 288,
+            "publish_date": "May 2001",
+            "works": [
+                {
+                    "key": "/works/OL4182020W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.4 x 5.6 x 1 inches",
+            "ocaid": "mostpassionatere00jacq",
+            "isbn_10": [
+                "0263167569"
+            ],
+            "isbn_13": [
+                "9780263167566"
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-07-19T16:05:37.094848"
+            }
+        },
+        "/books/OL9749017M": {
+            "identifiers": {
+                "goodreads": [
+                    "2597713"
+                ]
+            },
+            "title": "A Most Passionate Revenge",
+            "authors": [
+                {
+                    "key": "/authors/OL792856A"
+                }
+            ],
+            "publish_date": "May 2001",
+            "publishers": [
+                "Thorndike Press"
+            ],
+            "weight": "15 ounces",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "covers": [
+                5010022,
+                5009504
+            ],
+            "edition_name": "Large Print Edition",
+            "physical_format": "Hardcover",
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Romance",
+                "Fiction",
+                "Fiction - Romance",
+                "Mystery/Suspense",
+                "Romance - General",
+                "Suspense"
+            ],
+            "physical_dimensions": "8.4 x 5.6 x 1 inches",
+            "isbn_10": [
+                "0263167569"
+            ],
+            "isbn_13": [
+                "9780263167566"
+            ],
+            "source_records": [
+                "amazon:0263167569"
+            ],
+            "key": "/books/OL9749017M",
+            "number_of_pages": 288,
+            "works": [
+                {
+                    "key": "/works/OL4182020W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-05-07T21:10:44.963246"
+            }
+        },
+        "/books/OL9745936M": {
+            "publishers": [
+                "Thorndike Press",
+                "Mills & Boon"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "2597713"
+                ]
+            },
+            "weight": "15 ounces",
+            "covers": [
+                5010021,
+                5009503
+            ],
+            "physical_format": "Hardcover",
+            "key": "/books/OL9745936M",
+            "authors": [
+                {
+                    "key": "/authors/OL792856A"
+                }
+            ],
+            "subjects": [
+                "Romance",
+                "Fiction",
+                "Fiction - Romance",
+                "Mystery/Suspense",
+                "Romance - General",
+                "Suspense"
+            ],
+            "edition_name": "Large Print Edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "bwb:9780263167566",
+                "ia:mostpassionatere0000bair"
+            ],
+            "title": "A Most Passionate Revenge",
+            "number_of_pages": 288,
+            "publish_date": "May 2001",
+            "works": [
+                {
+                    "key": "/works/OL4182020W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.4 x 5.6 x 1 inches",
+            "ocaid": "mostpassionatere0000bair",
+            "isbn_10": [
+                "0263167569"
+            ],
+            "isbn_13": [
+                "9780263167566"
+            ],
+            "oclc_numbers": [
+                "52234819"
+            ],
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "THE BOY is only twenty-four years old; that’s far too young to marry. Jamie is your son; surely you can talk him out of it?’ Xavier demanded, with a cynical twist to his sensual mouth as he glanced down at his sister, Teresa, lounging on the sofa. He knew from personal experience his older sister was perfectly capable of controlling her son, if she wanted to."
+            },
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-07-19T04:35:31.084071"
+            }
+        },
+        "/books/OL10750509M": {
+            "publishers": [
+                "harlequin",
+                "Harlequin"
+            ],
+            "ia_box_id": [
+                "IA115603"
+            ],
+            "covers": [
+                6696790
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL10750509M",
+            "subjects": [
+                "Romance - General",
+                "Non-Classifiable",
+                "Fiction - Romance"
+            ],
+            "source_records": [
+                "bwb:9780373898053",
+                "marc:marc_loc_2016/BooksAll.2016.part28.utf8:145512904:692",
+                "promise:bwb_daily_pallets_2021-05-14",
+                "amazon:0373898053"
+            ],
+            "title": "Fire And Ice",
+            "identifiers": {
+                "librarything": [
+                    "1982866"
+                ],
+                "goodreads": [
+                    "1429965"
+                ]
+            },
+            "publish_date": "July 15, 1986",
+            "works": [
+                {
+                    "key": "/works/OL10530571W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:W6-BTW-647"
+            ],
+            "ocaid": "fireicedai00dail",
+            "isbn_10": [
+                "0373898053"
+            ],
+            "isbn_13": [
+                "9780373898053"
+            ],
+            "lccn": [
+                "99604853"
+            ],
+            "oclc_numbers": [
+                "14375659"
+            ],
+            "classifications": {},
+            "lc_classifications": [
+                "CPB Box no. 1558 vol. 14"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "latest_revision": 18,
+            "revision": 18,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-22T12:59:54.940159"
+            }
+        },
+        "/books/OL2047919M": {
+            "publishers": [
+                "G.K. Hall",
+                "Brand: G K Hall n Co",
+                "G K Hall & Co"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "1982866"
+                ]
+            },
+            "isbn_10": [
+                "0816146616"
+            ],
+            "series": [
+                "A Nightingale romance in large print",
+                "G.K. Hall large print book series"
+            ],
+            "lc_classifications": [
+                "PS3554.A29 F54 1989",
+                "PS3554.A29F54 1989"
+            ],
+            "key": "/books/OL2047919M",
+            "authors": [
+                {
+                    "key": "/authors/OL21059A"
+                }
+            ],
+            "publish_places": [
+                "Boston, Mass"
+            ],
+            "pagination": "238 p. (large print) ;",
+            "source_records": [
+                "marc:marc_loc_2016/BooksAll.2016.part18.utf8:168974920:668",
+                "bwb:9780816146611",
+                "amazon:0816146616"
+            ],
+            "title": "Fire and ice",
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "number_of_pages": 238,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lccn": [
+                "88025173"
+            ],
+            "subjects": [
+                "Large type books."
+            ],
+            "publish_date": "1989",
+            "publish_country": "mau",
+            "by_statement": "Janet Dailey.",
+            "works": [
+                {
+                    "key": "/works/OL10530571W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                13272860
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-10T04:21:43.791308"
+            }
+        },
+        "/books/OL43163198M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL1391136A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B0014CHDMG"
+                ],
+                "better_world_books": [
+                    "BWB21806964"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:P7-EFA-495"
+            ],
+            "publish_date": "1971-01-01",
+            "publishers": [
+                "Bantam Books"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-03-17"
+            ],
+            "title": "#37 Fair Tomorrow (Bantam Books #SL6637)",
+            "full_title": "#37 Fair Tomorrow (Bantam Books #SL6637)",
+            "works": [
+                {
+                    "key": "/works/OL8365993W"
+                }
+            ],
+            "key": "/books/OL43163198M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-07T15:49:58.653143"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-05-01T04:59:23.307964"
+            }
+        },
+        "/books/OL9767161M": {
+            "identifiers": {
+                "goodreads": [
+                    "6681906"
+                ]
+            },
+            "title": "Fair Tomorrow",
+            "authors": [
+                {
+                    "key": "/authors/OL1391136A"
+                }
+            ],
+            "publish_date": "June 1980",
+            "publishers": [
+                "Amereon Limited"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "weight": "1 pounds",
+            "isbn_13": [
+                "9780884113683"
+            ],
+            "physical_format": "Hardcover",
+            "isbn_10": [
+                "088411368X"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Romance - Adult",
+                "Fiction",
+                "Fiction - General",
+                "Romance: Regency",
+                "FIC",
+                "FIC027010",
+                "General"
+            ],
+            "physical_dimensions": "8.7 x 5.8 x 0.9 inches",
+            "source_records": [
+                "amazon:088411368X"
+            ],
+            "key": "/books/OL9767161M",
+            "works": [
+                {
+                    "key": "/works/OL8365993W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-25T04:10:56.927473"
+            }
+        },
+        "/books/OL7820000M": {
+            "identifiers": {
+                "librarything": [
+                    "228440"
+                ]
+            },
+            "title": "Fair Tomorrow",
+            "authors": [
+                {
+                    "key": "/authors/OL1391136A"
+                }
+            ],
+            "publish_date": "February 1982",
+            "publishers": [
+                "Bantam Books"
+            ],
+            "isbn_13": [
+                "9780553203752"
+            ],
+            "physical_format": "Paperback",
+            "isbn_10": [
+                "0553203754"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Romance: Regency"
+            ],
+            "local_id": [
+                "urn:bwbsku:P8-AZJ-841"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-11-08",
+                "ia:fairtomorrow0000emil"
+            ],
+            "ocaid": "fairtomorrow0000emil",
+            "key": "/books/OL7820000M",
+            "works": [
+                {
+                    "key": "/works/OL8365993W"
+                }
+            ],
+            "covers": [
+                15216942,
+                14465112
+            ],
+            "number_of_pages": 226,
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-05-01T05:00:00.847387"
+            }
+        },
+        "/books/OL15135498M": {
+            "publishers": [
+                "Hale",
+                "The Crowood Press"
+            ],
+            "key": "/books/OL15135498M",
+            "authors": [
+                {
+                    "key": "/authors/OL1391136A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "182p. ;",
+            "title": "Fair Tomorrow",
+            "notes": "Originally published, London, Paul, 1932.",
+            "number_of_pages": 182,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1972",
+            "publish_country": "xxk",
+            "by_statement": "by Emilie Loring.",
+            "works": [
+                {
+                    "key": "/works/OL8365993W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_10": [
+                "0709127820"
+            ],
+            "oclc_numbers": [
+                "16245352"
+            ],
+            "classifications": {},
+            "dewey_decimal_class": [
+                "823/.9/1F"
+            ],
+            "source_records": [
+                "bwb:9780709127826"
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-18T14:31:52.591958"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-17T01:58:43.856429"
+            }
+        },
+        "/books/OL38278522M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "isbn_13": [
+                "9781299354128"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2011",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781299354128"
+            ],
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "title": "Reluctant Husband",
+            "full_title": "Reluctant Husband",
+            "works": [
+                {
+                    "key": "/works/OL7990767W"
+                }
+            ],
+            "key": "/books/OL38278522M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-17T13:17:24.514380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-28T13:20:46.238536"
+            }
+        },
+        "/books/OL31882114M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "2012",
+            "publish_country": "enk",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "edition_name": "Large Print Edition",
+            "notes": {
+                "type": "/type/text",
+                "value": "Standard print ed. originally published: Richmond, Surrey : Mills & Boon, 1998.\r\n\r\n\"OCT 12 C2\"--Spine."
+            },
+            "description": "She was still his wife! Frankie thought she'd seen the last of her husband, Santino Vitale - until he breezed back on the scene with some earth shattering news. Their marriage wasn't annulled, and he intended to claim the wedding night they'd never had! He had it all worked out. Within three weeks Frankie would have paid her dues and be free to leave Sardinia and file for divorce. But Santino hadn't reckoned on falling for Frankie all over again - or that now she could be expecting his baby.",
+            "subject_places": [
+                "Sardinia"
+            ],
+            "subjects": [
+                "Intercountry marriage",
+                "Fiction",
+                "Husband and wife",
+                "Pregnant women"
+            ],
+            "title": "The Reluctant Husband",
+            "by_statement": "by Lynne Graham",
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "publish_places": [
+                "Richmond, Surrey"
+            ],
+            "pagination": "285 pages (large print)",
+            "number_of_pages": 285,
+            "source_records": [
+                "ia:reluctanthusband0000grah",
+                "promise:bwb_daily_pallets_2020-11-19",
+                "bwb:9780263237320"
+            ],
+            "full_title": "The reluctant husband",
+            "covers": [
+                10559481
+            ],
+            "works": [
+                {
+                    "key": "/works/OL7990767W"
+                }
+            ],
+            "key": "/books/OL31882114M",
+            "local_id": [
+                "urn:bwbsku:KO-042-653"
+            ],
+            "identifiers": {},
+            "ocaid": "reluctanthusband0000grah",
+            "isbn_10": [
+                "026323732X"
+            ],
+            "isbn_13": [
+                "9780263237320"
+            ],
+            "oclc_numbers": [
+                "815362343"
+            ],
+            "classifications": {},
+            "dewey_decimal_class": [
+                "823.914"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-01-23T02:05:16.349293"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-22T20:12:51.206772"
+            }
+        },
+        "/books/OL28950684M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263156409"
+            ],
+            "title": "The Reluctant Husband",
+            "number_of_pages": 188,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Reluctant Husband",
+            "publish_date": "1998",
+            "key": "/books/OL28950684M",
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL7990767W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9780263156409"
+            ],
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T04:37:36.587391"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-22T20:13:14.701121"
+            }
+        },
+        "/books/OL24929928M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "ia_box_id": [
+                "IA138323"
+            ],
+            "covers": [
+                6873568
+            ],
+            "full_title": "The reluctant husband",
+            "key": "/books/OL24929928M",
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "publish_places": [
+                "Richmond, Surrey"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "285 p. (large print) ;",
+            "source_records": [
+                "ia:reluctanthusband00grah",
+                "bwb:9780263156522",
+                "promise:bwb_daily_pallets_2022-07-26",
+                "promise:bwb_daily_pallets_2021-05-26"
+            ],
+            "title": "The Reluctant Husband",
+            "notes": "\"Harlequin\"--Cover.",
+            "number_of_pages": 285,
+            "edition_name": "Large Print Edition",
+            "subjects": [
+                "Large type books"
+            ],
+            "publish_date": "1998",
+            "publish_country": "enk",
+            "by_statement": "by Lynne Graham",
+            "works": [
+                {
+                    "key": "/works/OL7990767W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "ocaid": "reluctanthusband00grah",
+            "isbn_10": [
+                "0263156524"
+            ],
+            "isbn_13": [
+                "9780263156522"
+            ],
+            "oclc_numbers": [
+                "39891004"
+            ],
+            "classifications": {},
+            "dewey_decimal_class": [
+                "823.914",
+                "Fic"
+            ],
+            "local_id": [
+                "urn:bwbsku:889-BAB-634",
+                "urn:bwbsku:KJ-434-843"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2011-08-05T12:36:09.844411"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-14T18:56:09.918673"
+            }
+        },
+        "/books/OL47851164M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL1175057A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B000G7GNKI"
+                ]
+            },
+            "isbn_13": [
+                "9780263730340"
+            ],
+            "local_id": [
+                "urn:bwbsku:KL-560-072"
+            ],
+            "publish_date": "1979-01-01",
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-05-24:KL-560-072"
+            ],
+            "title": "Valley of the Moon",
+            "full_title": "Valley of the Moon",
+            "works": [
+                {
+                    "key": "/works/OL5236205W"
+                }
+            ],
+            "key": "/books/OL47851164M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-05-26T02:32:51.468029"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-31T13:28:18.497234"
+            }
+        },
+        "/books/OL24264563M": {
+            "publishers": [
+                "HarperCollins",
+                "BOOSEY"
+            ],
+            "physical_format": "Electronic resource",
+            "source_records": [
+                "marc_overdrive/InternetArchiveCrMarc-2010-06-11l.mrc:8523644:2152",
+                "bwb:9780061752957",
+                "promise:bwb_daily_pallets_2021-01-14",
+                "amazon:0060829583"
+            ],
+            "title": "Stranger in My Arms",
+            "identifiers": {
+                "overdrive": [
+                    "13F8A1F6-3B25-45BE-8C10-A17DFA7B9594"
+                ]
+            },
+            "isbn_13": [
+                "9780060829582",
+                "9780061752957",
+                "9780060829575"
+            ],
+            "covers": [
+                6413140
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2005",
+            "publish_country": "nyu",
+            "key": "/books/OL24264563M",
+            "authors": [
+                {
+                    "key": "/authors/OL20452A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4331836W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:636-BAB-633"
+            ],
+            "number_of_pages": 20,
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-06-17T22:00:16.067379"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-04-02T12:41:37.742897"
+            }
+        },
+        "/books/OL10735532M": {
+            "publishers": [
+                "silhouette",
+                "Brand: Silhouette",
+                "Silhouette"
+            ],
+            "table_of_contents": [
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "MEMORIES",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "When Philippa Davidson awoke in an attractive, sunny bedroom, she realized she had no idea where she was--or who she was, either. A face had haunted her, but when she opened her eyes she knew that the dark Italian man beside her was more than a vision.",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "Corrado Bennoni looked down at his young bride's blank expression and knew he'd been given a great gift ...a chance to prove his love to the woman who'd married him. The past was a weight that had haunted him--but now, without her memories, he was determined to make Philippa stay... for love alone.",
+                    "pagenum": ""
+                }
+            ],
+            "covers": [
+                10067995
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL10735532M",
+            "authors": [
+                {
+                    "key": "/authors/OL756213A"
+                }
+            ],
+            "ocaid": "forlovealone00gord_yua",
+            "subjects": [
+                "Fiction",
+                "General",
+                "Non-Classifiable"
+            ],
+            "isbn_13": [
+                "9780373054169"
+            ],
+            "classifications": {},
+            "source_records": [
+                "amazon:0373054165",
+                "marc:marc_loc_updates/v38.i33.records.utf8:19488040:703",
+                "ia:forlovealone00gord_yua",
+                "bwb:9780373054169",
+                "marc:marc_loc_2016/BooksAll.2016.part28.utf8:144951038:703"
+            ],
+            "title": "For Love Alone",
+            "identifiers": {
+                "librarything": [
+                    "2561954"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373054165"
+            ],
+            "publish_date": "March 1, 1988",
+            "oclc_numbers": [
+                "17734564"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4056532W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "lccn": [
+                "99603715"
+            ],
+            "lc_classifications": [
+                "CPB Box no. 1532 vol. 8"
+            ],
+            "number_of_pages": 188,
+            "latest_revision": 12,
+            "revision": 12,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-03-16T15:35:45.144359"
+            }
+        },
+        "/books/OL28982072M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263191844"
+            ],
+            "title": "Ranieri Bride",
+            "number_of_pages": 187,
+            "isbn_13": [
+                "9780263191844"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Ranieri Bride",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2006",
+            "key": "/books/OL28982072M",
+            "authors": [
+                {
+                    "key": "/authors/OL811660A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4233157W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-20T03:53:54.799104"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-18T14:51:15.941673"
+            }
+        },
+        "/books/OL28987580M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263851236",
+                "promise:bwb_daily_pallets_2020-11-19"
+            ],
+            "title": "Ranieri Bride",
+            "number_of_pages": 187,
+            "isbn_13": [
+                "9780263851236"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Ranieri Bride",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2006",
+            "key": "/books/OL28987580M",
+            "authors": [
+                {
+                    "key": "/authors/OL811660A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4233157W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "local_id": [
+                "urn:bwbsku:KO-116-222"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-20T05:55:11.958260"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-18T14:51:15.941673"
+            }
+        },
+        "/books/OL10280362M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "number_of_pages": 284,
+            "weight": "1 pounds",
+            "covers": [
+                2343295
+            ],
+            "physical_format": "Hardcover",
+            "key": "/books/OL10280362M",
+            "authors": [
+                {
+                    "key": "/authors/OL811660A"
+                }
+            ],
+            "subjects": [
+                "Romance",
+                "Romance - Contemporary",
+                "Fiction - Romance"
+            ],
+            "edition_name": "Large Print Edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "bwb:9780263190243",
+                "ia:ranieribride0000reid",
+                "promise:bwb_daily_pallets_2020-11-19"
+            ],
+            "title": "The Ranieri Bride",
+            "identifiers": {
+                "librarything": [
+                    "1711753"
+                ]
+            },
+            "publish_date": "December 2006",
+            "works": [
+                {
+                    "key": "/works/OL4233157W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.3 x 5.4 x 1 inches",
+            "local_id": [
+                "urn:bwbsku:KO-228-962"
+            ],
+            "ocaid": "ranieribrideroma00mich",
+            "isbn_10": [
+                "0263190242"
+            ],
+            "isbn_13": [
+                "9780263190243"
+            ],
+            "oclc_numbers": [
+                "70985590"
+            ],
+            "classifications": {},
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-10-02T12:39:46.133169"
+            }
+        },
+        "/books/OL52332504M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7620131A"
+                }
+            ],
+            "isbn_10": [
+                "6073808321"
+            ],
+            "isbn_13": [
+                "9786073808323"
+            ],
+            "local_id": [
+                "urn:bwbsku:W9-AJE-492"
+            ],
+            "publish_date": "2022-04-19",
+            "publishers": [
+                "Penguin Random House Grupo Editorial"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2024-07-10:W9-AJE-492"
+            ],
+            "title": "Rojo, Blanco y Sangre Azul / Red, White and Royal Blue",
+            "works": [
+                {
+                    "key": "/works/OL20090688W"
+                }
+            ],
+            "key": "/books/OL52332504M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-07-12T01:56:24.783172"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-05T15:43:19.640210"
+            }
+        },
+        "/books/OL51509404M": {
+            "works": [
+                {
+                    "key": "/works/OL20090688W"
+                }
+            ],
+            "publishers": [
+                "st. martin's publishing group"
+            ],
+            "publish_date": "May 2019",
+            "key": "/books/OL51509404M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_10": [
+                "2018055526"
+            ],
+            "classifications": {},
+            "covers": [
+                14604829
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-03-31T13:29:22.727100"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-03-31T13:33:22.013176"
+            }
+        },
+        "/books/OL51152917M": {
+            "works": [
+                {
+                    "key": "/works/OL20090688W"
+                }
+            ],
+            "publishers": [
+                "Knaur Taschenbuch"
+            ],
+            "publish_date": "2023",
+            "key": "/books/OL51152917M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                14586877
+            ],
+            "isbn_13": [
+                "9783426530597"
+            ],
+            "classifications": {},
+            "title": "Royal Blue",
+            "languages": [
+                {
+                    "key": "/languages/ger"
+                }
+            ],
+            "number_of_pages": 496,
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-02-18T19:10:55.684908"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-02-18T19:12:27.764815"
+            }
+        },
+        "/books/OL48197722M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7620131A"
+                }
+            ],
+            "isbn_13": [
+                "9781035028504"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "384",
+            "publish_date": "2023",
+            "publishers": [
+                "Pan Macmillan"
+            ],
+            "source_records": [
+                "bwb:9781035028504"
+            ],
+            "subjects": [
+                "Fiction, lgbtq+, gay",
+                "Fiction, romance, contemporary",
+                "Fiction, humorous, general",
+                "Gay men, fiction",
+                "Presidents, united states, fiction"
+            ],
+            "title": "Red, White and Royal Blue",
+            "full_title": "Red, White and Royal Blue",
+            "works": [
+                {
+                    "key": "/works/OL20090688W"
+                }
+            ],
+            "key": "/books/OL48197722M",
+            "latest_revision": 1,
+            "revision": 1,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-17T07:51:03.141508"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-17T07:51:03.141508"
+            }
+        },
+        "/books/OL36639394M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Rojo, blanco y sangre azul",
+            "authors": [
+                {
+                    "key": "/authors/OL7620131A"
+                }
+            ],
+            "publish_date": "Mar 22, 2022",
+            "source_records": [
+                "amazon:6073808321",
+                "bwb:9786073808323"
+            ],
+            "number_of_pages": 496,
+            "publishers": [
+                "Molino"
+            ],
+            "physical_format": "Paperback",
+            "notes": "Source title: Rojo, blanco y sangre azul / Red, White & Royal Blue (Spanish Edition)",
+            "covers": [
+                12532335
+            ],
+            "works": [
+                {
+                    "key": "/works/OL20090688W"
+                }
+            ],
+            "key": "/books/OL36639394M",
+            "identifiers": {
+                "goodreads": [
+                    "59765139"
+                ]
+            },
+            "classifications": {},
+            "contributors": [
+                {
+                    "role": "Translator",
+                    "name": "María Cristina Martín Sanz"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "translation_of": "Red, White & Royal Blue",
+            "translated_from": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "**A veces, el amor puede ser una cuestión de Estado.** \r\n\r\nAlex Clarademont-Díaz, el hijo millennial de la presidenta de los Estados Unidos, es un tesoro para el *marketing* de la Casa Blanca: atractivo, carismático e inteligente. Lo que nadie sabe es que no soporta al príncipe Henry, el hijo de la reina de Inglaterra. Así que, cuando la prensa sensacionalista se hace con una fotografía que refleja un altercado entre Alex y Henry, las relaciones entre Estados Unidos y el Reino Unido se enfrían.\r\n\r\nAmbos países trazan un plan para paliar los daños. Lo que empieza como una falsa amistad, publicada en Instagram, se va transformando en algo más profundo de lo que Alex y Henry podrían haber imaginado.\r\n\r\n**¿Puede el amor cambiar el mundo?**"
+            },
+            "isbn_13": [
+                "9788427218697"
+            ],
+            "physical_dimensions": "21.4 x 14.1 x 3.5 centimeters",
+            "weight": "609 grams",
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-01-06T22:50:02.787115"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-09T19:29:35.418565"
+            }
+        },
+        "/books/OL47317897M": {
+            "works": [
+                {
+                    "key": "/works/OL20090688W"
+                }
+            ],
+            "title": "Red, White & Royal Blue",
+            "publishers": [
+                "Ephesus Yayınları",
+                "Ephesus Yayinlari"
+            ],
+            "publish_date": "Mart 2022",
+            "key": "/books/OL47317897M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_13": [
+                "9786257382991"
+            ],
+            "covers": [
+                13827639
+            ],
+            "source_records": [
+                "amazon:6257382998"
+            ],
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-04-04T17:16:41.905220"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-04-04T17:18:28.383394"
+            }
+        },
+        "/books/OL37986306M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7620131A"
+                }
+            ],
+            "isbn_13": [
+                "9781035003891"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "320",
+            "publish_date": "2022",
+            "publishers": [
+                "Pan Macmillan"
+            ],
+            "source_records": [
+                "bwb:9781035003891",
+                "promise:bwb_daily_pallets_2024-11-06:KU-436-753"
+            ],
+            "title": "Red, White and Royal Blue",
+            "full_title": "Red, White and Royal Blue",
+            "works": [
+                {
+                    "key": "/works/OL20090688W"
+                }
+            ],
+            "key": "/books/OL37986306M",
+            "local_id": [
+                "urn:bwbsku:KU-436-753"
+            ],
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-05-25T16:09:57.076238"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-03T18:54:31.755558"
+            }
+        },
+        "/books/OL36357162M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Red, White and Royal Blue",
+            "authors": [
+                {
+                    "key": "/authors/OL7620131A"
+                }
+            ],
+            "publish_date": "Jun 01, 2021",
+            "source_records": [
+                "amazon:1663617651"
+            ],
+            "publishers": [
+                "Turtleback"
+            ],
+            "isbn_10": [
+                "1663617651"
+            ],
+            "isbn_13": [
+                "9781663617651"
+            ],
+            "physical_format": "library binding",
+            "covers": [
+                12506428
+            ],
+            "works": [
+                {
+                    "key": "/works/OL20090688W"
+                }
+            ],
+            "key": "/books/OL36357162M",
+            "latest_revision": 1,
+            "revision": 1,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-12-30T17:23:30.236505"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-12-30T17:23:30.236505"
+            }
+        },
+        "/books/OL31895535M": {
+            "works": [
+                {
+                    "key": "/works/OL20090688W"
+                }
+            ],
+            "title": "Red, White, and Royal Blue",
+            "publishers": [
+                "St. Martins Press"
+            ],
+            "publish_date": "2019",
+            "key": "/books/OL31895535M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "classifications": {},
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-01-26T05:57:19.291912"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-11-09T02:17:34.499310"
+            }
+        },
+        "/books/OL30767344M": {
+            "publishers": [
+                "Macmillan Audio"
+            ],
+            "source_records": [
+                "amazon:1250260183"
+            ],
+            "title": "Red, White & Royal Blue",
+            "isbn_13": [
+                "9781250260185"
+            ],
+            "physical_format": "preloaded digital audio player",
+            "full_title": "Red, White & Royal Blue",
+            "isbn_10": [
+                "1250260183"
+            ],
+            "publish_date": "May 14, 2019",
+            "key": "/books/OL30767344M",
+            "authors": [
+                {
+                    "key": "/authors/OL7620131A"
+                },
+                {
+                    "key": "/authors/OL8033389A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL20090688W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-10-30T00:18:32.017054"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-10-31T01:07:13.636855"
+            }
+        },
+        "/books/OL27632309M": {
+            "publishers": [
+                "St. Martin's Griffin"
+            ],
+            "identifiers": {
+                "amazon": [
+                    null,
+                    "B07J4LPZRN"
+                ],
+                "google": [
+                    "1I1xDwAAQBAJ"
+                ],
+                "goodreads": [
+                    "48715329"
+                ]
+            },
+            "description": "What happens when America's First Son falls in love with the Prince of Wales?\r\n\r\nWhen his mother became President, Alex Claremont-Diaz was promptly cast as the American equivalent of a young royal. Handsome, charismatic, genius—his image is pure millennial-marketing gold for the White House. There's only one problem: Alex has a beef with the actual prince, Henry, across the pond. And when the tabloids get hold of a photo involving an Alex-Henry altercation, U.S./British relations take a turn for the worse.\r\n\r\nHeads of family, state, and other handlers devise a plan for damage control: staging a truce between the two rivals. What at first begins as a fake, Instragramable friendship grows deeper, and more dangerous, than either Alex or Henry could have imagined. Soon Alex finds himself hurtling into a secret romance with a surprisingly unstuffy Henry that could derail the campaign and upend two nations and begs the question: Can love save the world after all? Where do we find the courage, and the power, to be the people we are meant to be? And how can we learn to let our true colors shine through? Casey McQuiston's Red, White & Royal Blue proves: true love isn't always diplomatic.\r\n[(source)](https://us.macmillan.com/books/9781250316783)",
+            "covers": [
+                9080073
+            ],
+            "physical_format": "Epub",
+            "key": "/books/OL27632309M",
+            "publish_places": [
+                "New York, USA"
+            ],
+            "edition_name": "1st ed.",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "classifications": {},
+            "title": "Red, White & Royal Blue",
+            "number_of_pages": 432,
+            "isbn_13": [
+                "9781250316783"
+            ],
+            "isbn_10": [
+                "1250316782"
+            ],
+            "publish_date": "2019 05",
+            "copyright_date": "2019",
+            "oclc_numbers": [
+                "1107108070"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL20090688W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "bwb:9781250316783",
+                "promise:bwb_daily_pallets_2024-11-22:W9-DCH-825"
+            ],
+            "local_id": [
+                "urn:bwbsku:W9-DCH-825"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-11-05T22:44:00.455088"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-02T20:55:55.508111"
+            }
+        },
+        "/books/OL27270721M": {
+            "publishers": [
+                "St. Martin's Griffin"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subtitle": "A Novel",
+            "contributors": [
+                {
+                    "name": "Raegan Labat",
+                    "role": "Author Photographer"
+                },
+                {
+                    "role": "Cover Art and Illustrations",
+                    "name": "Colleen Reinhart"
+                },
+                {
+                    "name": "Colleen Reinhart",
+                    "role": "Cover Design"
+                },
+                {
+                    "name": "Anna Gorovoy",
+                    "role": "Designer"
+                }
+            ],
+            "covers": [
+                9171544,
+                -1
+            ],
+            "physical_format": "Trade paperback",
+            "key": "/books/OL27270721M",
+            "publish_places": [
+                "New York, USA"
+            ],
+            "edition_name": "First edition",
+            "pagination": "421p.",
+            "classifications": {
+                "lccn_permalink": [
+                    "https://lccn.loc.gov/2018055526"
+                ]
+            },
+            "source_records": [
+                "amazon:1250316774",
+                "bwb:9781250316776",
+                "promise:bwb_daily_pallets_2021-05-14"
+            ],
+            "title": "Red, White & Royal Blue",
+            "number_of_pages": 421,
+            "publish_date": "2019",
+            "copyright_date": "2019",
+            "works": [
+                {
+                    "key": "/works/OL20090688W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:P6-CDW-086"
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9781250316776"
+            ],
+            "lccn": [
+                "2018055526"
+            ],
+            "lc_classifications": [
+                "PS3613.C587545 R43 2019",
+                "PS3613.C587545R43"
+            ],
+            "latest_revision": 15,
+            "revision": 15,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-08-17T21:56:12.899684"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-12-06T23:26:48.718630"
+            }
+        },
+        "/books/OL9748826M": {
+            "identifiers": {
+                "librarything": [
+                    "1759560"
+                ],
+                "goodreads": [
+                    "6719828"
+                ]
+            },
+            "title": "Runaway Fiancee (The Big Event) (Harlequin Presents, 1992)",
+            "authors": [
+                {
+                    "key": "/authors/OL3319654A"
+                }
+            ],
+            "publish_date": "October 1, 1998",
+            "publishers": [
+                "Harlequin"
+            ],
+            "weight": "3.2 ounces",
+            "covers": [
+                214596
+            ],
+            "physical_format": "Paperback",
+            "subjects": [
+                "Romance - General",
+                "Non-Classifiable",
+                "Romance - Contemporary",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern"
+            ],
+            "isbn_13": [
+                "9780373119929"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373119925"
+            ],
+            "oclc_numbers": [
+                "39673495"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.8 x 4.2 x 0.5 inches",
+            "source_records": [
+                "amazon:0373119925"
+            ],
+            "key": "/books/OL9748826M",
+            "number_of_pages": 186,
+            "works": [
+                {
+                    "key": "/works/OL3770455W"
+                }
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-04T10:11:33.932858"
+            }
+        },
+        "/books/OL9752247M": {
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "weight": "13.1 ounces",
+            "covers": [
+                5010380,
+                5009922
+            ],
+            "physical_format": "Hardcover",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2017-05-03T15:51:38.176230"
+            },
+            "latest_revision": 8,
+            "key": "/books/OL9752247M",
+            "authors": [
+                {
+                    "key": "/authors/OL664669A"
+                }
+            ],
+            "ocaid": "runawayfiancee00sall",
+            "subjects": [
+                "Romance",
+                "Romance - General",
+                "Suspense",
+                "Fiction - Romance",
+                "Fiction"
+            ],
+            "edition_name": "Largeprint edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "ia:runawayfiancee00sall"
+            ],
+            "title": "Runaway Fiancee",
+            "identifiers": {
+                "goodreads": [
+                    "6337610"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "isbn_13": [
+                "9780263156553"
+            ],
+            "isbn_10": [
+                "0263156559"
+            ],
+            "publish_date": "October 1998",
+            "oclc_numbers": [
+                "39890987"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3770455W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.4 x 5.6 x 1 inches",
+            "revision": 8
+        },
+        "/books/OL10738399M": {
+            "identifiers": {
+                "goodreads": [
+                    "1219230"
+                ],
+                "librarything": [
+                    "4058801"
+                ]
+            },
+            "title": "Lady Surrender",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "publish_date": "January 1, 1986",
+            "publishers": [
+                "harlequin",
+                "Harlequin"
+            ],
+            "series": [
+                "Harlequin Presents, No 860"
+            ],
+            "covers": [
+                9625206
+            ],
+            "physical_format": "Paperback",
+            "ocaid": "ladysurrender00caro",
+            "subjects": [
+                "Non-Classifiable",
+                "Fiction"
+            ],
+            "isbn_13": [
+                "9780373108602"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-08-29:O8-BKI-686",
+                "bwb:9780373108602",
+                "amazon:0373108605",
+                "promise:bwb_daily_pallets_2020-11-12:O7-BJC-085"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373108605"
+            ],
+            "oclc_numbers": [
+                "12756974"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:O8-BKI-686",
+                "urn:bwbsku:O7-BJC-085"
+            ],
+            "key": "/books/OL10738399M",
+            "number_of_pages": 186,
+            "works": [
+                {
+                    "key": "/works/OL3775431W"
+                }
+            ],
+            "latest_revision": 18,
+            "revision": 18,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T17:07:37.391786"
+            }
+        },
+        "/books/OL10750189M": {
+            "publishers": [
+                "Kimani Press"
+            ],
+            "number_of_pages": 320,
+            "covers": [
+                2411228
+            ],
+            "physical_format": "Mass Market Paperback",
+            "lc_classifications": [
+                "PS3560.A21165"
+            ],
+            "latest_revision": 9,
+            "key": "/books/OL10750189M",
+            "authors": [
+                {
+                    "key": "/authors/OL1393119A"
+                }
+            ],
+            "ocaid": "onespecialmoment00bren",
+            "subjects": [
+                "Black studies",
+                "General & Literary Fiction",
+                "Novels, other prose & writers",
+                "Romance",
+                "African American Novel And Short Story",
+                "American Light Romantic Fiction",
+                "Fiction",
+                "Fiction - Romance",
+                "English",
+                "Romance: Modern",
+                "USA",
+                "Romance - Contemporary",
+                "Fiction / Romance / Contemporary"
+            ],
+            "isbn_13": [
+                "9780373830565"
+            ],
+            "source_records": [
+                "bwb:9780373830565"
+            ],
+            "title": "One Special Moment (Arabesque)",
+            "identifiers": {
+                "librarything": [
+                    "854751"
+                ],
+                "goodreads": [
+                    "2103366"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373830564"
+            ],
+            "publish_date": "March 1, 2008",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-10-12T23:46:39.565690"
+            },
+            "works": [
+                {
+                    "key": "/works/OL5729825W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 9
+        },
+        "/books/OL8104513M": {
+            "publishers": [
+                "Pinnacle"
+            ],
+            "number_of_pages": 249,
+            "weight": "4.8 ounces",
+            "covers": [
+                539105
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL8104513M",
+            "authors": [
+                {
+                    "key": "/authors/OL1393119A"
+                }
+            ],
+            "subjects": [
+                "Romance",
+                "Romance: Modern",
+                "Fiction",
+                "Fiction - Romance",
+                "FIC027020",
+                "FIC",
+                "Romance - Contemporary",
+                "Fiction / Romance / Contemporary"
+            ],
+            "isbn_13": [
+                "9780786005468"
+            ],
+            "title": "One Special Moment (Arabesque)",
+            "identifiers": {
+                "librarything": [
+                    "854751"
+                ],
+                "goodreads": [
+                    "2103325"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0786005467"
+            ],
+            "publish_date": "August 1, 1998",
+            "oclc_numbers": [
+                "39331198"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL5729825W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "7 x 4.5 x 0.8 inches",
+            "lccn": [
+                "99610362"
+            ],
+            "lc_classifications": [
+                "CPB Box no. 1489 vol. 3"
+            ],
+            "source_records": [
+                "marc:marc_loc_2016/BooksAll.2016.part28.utf8:146244835:593",
+                "bwb:9780786005468"
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T15:22:47.089846"
+            }
+        },
+        "/books/OL10738266M": {
+            "publishers": [
+                "harlequin"
+            ],
+            "number_of_pages": 188,
+            "series": [
+                "Harlequin Presents No. 670"
+            ],
+            "physical_format": "Paperback",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-08-27T13:49:40.707736"
+            },
+            "latest_revision": 9,
+            "key": "/books/OL10738266M",
+            "authors": [
+                {
+                    "key": "/authors/OL659964A"
+                }
+            ],
+            "subjects": [
+                "Non-Classifiable",
+                "Nonfiction - General"
+            ],
+            "isbn_13": [
+                "9780373106707"
+            ],
+            "classifications": {},
+            "source_records": [
+                "bwb:9780373106707"
+            ],
+            "title": "Ecstasy",
+            "identifiers": {
+                "goodreads": [
+                    "2292844"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "037310670X"
+            ],
+            "publish_date": "January 15, 1984",
+            "oclc_numbers": [
+                "10104543"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3754832W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 9
+        },
+        "/books/OL13716125M": {
+            "series": [
+                "Weltberu hmte Abenteuerromane -- 2"
+            ],
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:64330666:590"
+            ],
+            "title": "Die drei Musketiere.",
+            "work_titles": [
+                "Les trois mousquetaires."
+            ],
+            "languages": [
+                {
+                    "key": "/languages/ger"
+                }
+            ],
+            "publish_country": "be ",
+            "type": {
+                "key": "/type/edition"
+            },
+            "publishers": [
+                "J and H International"
+            ],
+            "key": "/books/OL13716125M",
+            "authors": [
+                {
+                    "key": "/authors/OL18236A"
+                }
+            ],
+            "publish_places": [
+                "Brussels"
+            ],
+            "pagination": "251p. ;",
+            "notes": {
+                "type": "/type/text",
+                "value": "Translation of: Les trois mousquetaires."
+            },
+            "number_of_pages": 251,
+            "publish_date": "1978",
+            "works": [
+                {
+                    "key": "/works/OL36861W"
+                }
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-08-31T00:44:43.649073"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-16T18:31:24.544462"
+            }
+        },
+        "/books/OL18797653M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "number_of_pages": 186,
+            "series": [
+                "Modern romance"
+            ],
+            "key": "/books/OL18797653M",
+            "authors": [
+                {
+                    "key": "/authors/OL792856A"
+                }
+            ],
+            "publish_places": [
+                "Richmond"
+            ],
+            "pagination": "186p. ;",
+            "source_records": [
+                "bwb:9780263820379",
+                "promise:bwb_daily_pallets_2020-11-19"
+            ],
+            "title": "A Most Passionate Revenge",
+            "identifiers": {
+                "goodreads": [
+                    "3652647"
+                ],
+                "librarything": [
+                    "1625569"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2000",
+            "publish_country": "enk",
+            "by_statement": "Jacqueline Baird.",
+            "works": [
+                {
+                    "key": "/works/OL4182020W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:KO-296-493"
+            ],
+            "isbn_10": [
+                "0263820378"
+            ],
+            "oclc_numbers": [
+                "45407450"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-20T00:17:02.172779"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-03-03T10:18:59.765905"
+            }
+        },
+        "/books/OL21220328M": {
+            "publishers": [
+                "Mills and Boon",
+                "Harlequin Mills & Boon"
+            ],
+            "source_records": [
+                "bwb:9780263057928",
+                "amazon:0263057925"
+            ],
+            "title": "Fire and ice.",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263057925"
+            ],
+            "publish_date": "1975",
+            "publish_country": "xxk",
+            "key": "/books/OL21220328M",
+            "publish_places": [
+                "London"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL10530571W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "oclc_numbers": [
+                "15258020"
+            ],
+            "covers": [
+                13272858
+            ],
+            "number_of_pages": 192,
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-01T09:23:46.035590"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-10T04:21:27.725867"
+            }
+        },
+        "/books/OL21224190M": {
+            "publishers": [
+                "Mills & Boon",
+                "Harlequin Mills & Boon"
+            ],
+            "pagination": "186p.",
+            "title": "Fire and ice.",
+            "number_of_pages": 186,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263735486"
+            ],
+            "publish_date": "1981",
+            "publish_country": "xxk",
+            "key": "/books/OL21224190M",
+            "authors": [
+                {
+                    "key": "/authors/OL21059A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL10530571W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                13272855
+            ],
+            "source_records": [
+                "amazon:0263735486"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-01T09:48:09.963612"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-10T04:21:11.168464"
+            }
+        },
+        "/books/OL24295183M": {
+            "publishers": [
+                "ereads.com"
+            ],
+            "physical_format": "eBook",
+            "source_records": [
+                "marc_overdrive/InternetArchiveCrMarc-2010-06-11o.mrc:3054200:1844",
+                "amazon:0759207658",
+                "bwb:9780759207653",
+                "bwb:9780759263321"
+            ],
+            "title": "Fire and Ice",
+            "identifiers": {
+                "overdrive": [
+                    "93EB76E1-0A7C-44CA-99B2-C1209FBA1CDF"
+                ]
+            },
+            "isbn_13": [
+                "9780759207653"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0759207658",
+                "0759263329"
+            ],
+            "publish_date": "2001",
+            "publish_country": "nyu",
+            "key": "/books/OL24295183M",
+            "publish_places": [
+                "New York"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL10530571W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "number_of_pages": 124,
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-06-23T03:14:24.250222"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-07-17T15:06:52.161017"
+            }
+        },
+        "/books/OL24207113M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "ia_box_id": [
+                "IA107304"
+            ],
+            "isbn_10": [
+                "0373219059"
+            ],
+            "series": [
+                "Janet Dailey's Americana series -- 5"
+            ],
+            "pagination": "186 p. ;",
+            "covers": [
+                6500333
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2013-04-08T08:32:10.604736"
+            },
+            "latest_revision": 8,
+            "key": "/books/OL24207113M",
+            "ocaid": "fireicedail00dail",
+            "publish_places": [
+                "New York"
+            ],
+            "isbn_13": [
+                "9780373219056"
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "source_records": [
+                "ia:fireicedail00dail"
+            ],
+            "title": "Fire and ice",
+            "number_of_pages": 186,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-05-05T08:31:38.317872"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Love stories.",
+                "California -- Fiction."
+            ],
+            "publish_date": "1986",
+            "publish_country": "nyu",
+            "by_statement": "Janet Dailey",
+            "oclc_numbers": [
+                "34893302"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL10530571W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 8
+        },
+        "/books/OL58654730M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "fair tomorrow",
+            "authors": [
+                {
+                    "key": "/authors/OL1391136A"
+                }
+            ],
+            "publish_date": "1931",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 334,
+            "publishers": [
+                "The Penn publishing company"
+            ],
+            "ocaid": "bwb_P8-AOZ-459",
+            "source_records": [
+                "ia:bwb_P8-AOZ-459"
+            ],
+            "full_title": "fair tomorrow",
+            "works": [
+                {
+                    "key": "/works/OL8365993W"
+                }
+            ],
+            "key": "/books/OL58654730M",
+            "covers": [
+                15216909
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-04-27T04:13:32.760960"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-05-01T04:59:23.307964"
+            }
+        },
+        "/books/OL50493504M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL1391136A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B005LE4N3K"
+                ],
+                "better_world_books": [
+                    "BWB19352064"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:P9-BQA-383"
+            ],
+            "publish_date": "1959",
+            "publishers": [
+                "Bantam Romance"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-12-14:P9-BQA-383"
+            ],
+            "title": "Fair Tomorrow",
+            "full_title": "fair tomorrow",
+            "works": [
+                {
+                    "key": "/works/OL8365993W"
+                }
+            ],
+            "key": "/books/OL50493504M",
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-12-16T01:12:48.992532"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-05-01T04:59:23.307964"
+            }
+        },
+        "/books/OL45620647M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL1391136A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B0006ALI50",
+                    "B00171DCPG"
+                ],
+                "better_world_books": [
+                    "BWB24395494",
+                    "BWB548188"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:P8-ARY-950",
+                "urn:bwbsku:P8-AOZ-459"
+            ],
+            "publish_date": "1931-01-01",
+            "publishers": [
+                "The Penn publishing company",
+                "Grosset & Dunlap"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-12-22",
+                "promise:bwb_daily_pallets_2022-10-07:P8-AOZ-459"
+            ],
+            "title": "Fair tomorrow",
+            "full_title": "Fair tomorrow",
+            "works": [
+                {
+                    "key": "/works/OL8365993W"
+                }
+            ],
+            "key": "/books/OL45620647M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-01-10T22:12:50.608873"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-05-01T04:59:23.307964"
+            }
+        },
+        "/books/OL6764459M": {
+            "publishers": [
+                "The Penn publishing company"
+            ],
+            "lc_classifications": [
+                "PZ3.L8938 Fai",
+                "PS3523.O645 Fai"
+            ],
+            "key": "/books/OL6764459M",
+            "authors": [
+                {
+                    "key": "/authors/OL1391136A"
+                }
+            ],
+            "publish_places": [
+                "Philadelphia"
+            ],
+            "pagination": "325 p.",
+            "source_records": [
+                "marc:marc_loc_2016/BooksAll.2016.part03.utf8:72967951:510"
+            ],
+            "title": "Fair tomorrow",
+            "lccn": [
+                "31027237"
+            ],
+            "number_of_pages": 325,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1931",
+            "publish_country": "xx ",
+            "by_statement": "by Emilie Loring.",
+            "oclc_numbers": [
+                "1153341"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL8365993W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-04T08:41:37.704130"
+            }
+        },
+        "/books/OL37388997M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "isbn_13": [
+                "9781459262287"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2011",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781459262287"
+            ],
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "title": "Reluctant Husband",
+            "full_title": "Reluctant Husband",
+            "works": [
+                {
+                    "key": "/works/OL7990767W"
+                }
+            ],
+            "key": "/books/OL37388997M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-03-01T05:43:53.428640"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-28T13:20:46.238536"
+            }
+        },
+        "/books/OL29263659M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781408996201"
+            ],
+            "title": "The Reluctant Husband",
+            "number_of_pages": 250,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Reluctant Husband",
+            "publish_date": "2015",
+            "key": "/books/OL29263659M",
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL7990767W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9781408996201"
+            ],
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-24T00:32:36.343789"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-22T20:13:38.896792"
+            }
+        },
+        "/books/OL9747915M": {
+            "identifiers": {
+                "goodreads": [
+                    "1389877"
+                ]
+            },
+            "title": "The Reluctant Husband",
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "publish_date": "October 1998",
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "weight": "13.6 ounces",
+            "physical_format": "Hardcover",
+            "subjects": [
+                "Romance",
+                "Romance - General",
+                "Short Stories (single author)",
+                "Fiction - Romance",
+                "Fiction"
+            ],
+            "edition_name": "Large Print Edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.5 x 5.9 x 0.9 inches",
+            "isbn_10": [
+                "0263156524"
+            ],
+            "isbn_13": [
+                "9780263156522"
+            ],
+            "oclc_numbers": [
+                "39891004"
+            ],
+            "source_records": [
+                "amazon:0263156524"
+            ],
+            "key": "/books/OL9747915M",
+            "works": [
+                {
+                    "key": "/works/OL7990767W"
+                }
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-05T08:29:56.672948"
+            }
+        },
+        "/books/OL9750627M": {
+            "identifiers": {
+                "goodreads": [
+                    "1389877"
+                ]
+            },
+            "title": "The Reluctant Husband",
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "publish_date": "October 1998",
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "weight": "13.6 ounces",
+            "physical_format": "Hardcover",
+            "subjects": [
+                "Romance",
+                "Romance - General",
+                "Short Stories (single author)",
+                "Fiction - Romance",
+                "Fiction"
+            ],
+            "edition_name": "Large Print Edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.5 x 5.9 x 0.9 inches",
+            "isbn_10": [
+                "0263156524"
+            ],
+            "isbn_13": [
+                "9780263156522"
+            ],
+            "oclc_numbers": [
+                "39891004"
+            ],
+            "source_records": [
+                "amazon:0263156524"
+            ],
+            "key": "/books/OL9750627M",
+            "works": [
+                {
+                    "key": "/works/OL7990767W"
+                }
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-28T05:19:38.739614"
+            }
+        },
+        "/books/OL9745793M": {
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "ia_box_id": [
+                "IA138323"
+            ],
+            "weight": "13.6 ounces",
+            "covers": [
+                6724700
+            ],
+            "physical_format": "Hardcover",
+            "key": "/books/OL9745793M",
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "amazon:0263156524",
+                "ia:reluctanthusband00grah"
+            ],
+            "title": "The Reluctant Husband",
+            "identifiers": {
+                "goodreads": [
+                    "1389877"
+                ]
+            },
+            "edition_name": "Large Print Edition",
+            "subjects": [
+                "Romance",
+                "Romance - General",
+                "Short Stories (single author)",
+                "Fiction - Romance",
+                "Fiction"
+            ],
+            "publish_date": "October 1998",
+            "works": [
+                {
+                    "key": "/works/OL7990767W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.5 x 5.9 x 0.9 inches",
+            "ocaid": "reluctanthusband00grah",
+            "isbn_10": [
+                "0263156524"
+            ],
+            "isbn_13": [
+                "9780263156522"
+            ],
+            "oclc_numbers": [
+                "39891004"
+            ],
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "MATT FINLAY scanned Frankie’s shocked face and gave her a bracing smile. ‘I happen to think that Sardinia could be a very therapeutic trip for you. You could confront your memories of the love of your life and get it all out of your system—’"
+            },
+            "latest_revision": 14,
+            "revision": 14,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-12T04:17:27.775212"
+            }
+        },
+        "/books/OL9739060M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "number_of_pages": 188,
+            "weight": "3.2 ounces",
+            "covers": [
+                214576
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL9739060M",
+            "authors": [
+                {
+                    "key": "/authors/OL2660541A"
+                }
+            ],
+            "subjects": [
+                "Non-Classifiable",
+                "Romance - General",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern"
+            ],
+            "classifications": {},
+            "source_records": [
+                "bwb:9780373119714",
+                "promise:bwb_daily_pallets_2022-09-14"
+            ],
+            "title": "The Reluctant Husband",
+            "identifiers": {
+                "librarything": [
+                    "1473767"
+                ],
+                "goodreads": [
+                    "2348111"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "July 1, 1998",
+            "works": [
+                {
+                    "key": "/works/OL7990767W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.8 x 4.2 x 0.5 inches",
+            "local_id": [
+                "urn:bwbsku:W7-CUA-864"
+            ],
+            "isbn_10": [
+                "0373119712"
+            ],
+            "isbn_13": [
+                "9780373119714"
+            ],
+            "oclc_numbers": [
+                "38962555"
+            ],
+            "latest_revision": 12,
+            "revision": 12,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-22T20:15:41.146877"
+            }
+        },
+        "/books/OL23025849M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Translation of: Stranger in my arms."
+            },
+            "title": "Jia mian lang jun",
+            "publish_date": "1999",
+            "publishers": [
+                "Lin bai chu ban she you xian gong si"
+            ],
+            "series": [
+                "Lang man xin dian -- 59"
+            ],
+            "publish_places": [
+                "Taibei Shi"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/chi"
+                }
+            ],
+            "pagination": "338, 12 p. ;",
+            "work_titles": [
+                "Stranger in my arms."
+            ],
+            "edition_name": "Di 1 ban",
+            "isbn_10": [
+                "9574910822"
+            ],
+            "publish_country": "ch ",
+            "by_statement": "Lisha Kelaipei zhu ; Jiang Kewei yi = Stranger in my arms / Lisa Kleypas.",
+            "oclc_numbers": [
+                "44919491"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:SanFranPL09/SanFranPL09.out:54618373:1483"
+            ],
+            "key": "/books/OL23025849M",
+            "number_of_pages": 338,
+            "works": [
+                {
+                    "key": "/works/OL4331836W"
+                }
+            ],
+            "latest_revision": 20,
+            "revision": 20,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-02-18T02:43:01.768446"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-25T23:00:39.167038"
+            }
+        },
+        "/books/OL21339314M": {
+            "title": "For love alone.",
+            "authors": [
+                {
+                    "key": "/authors/OL756213A"
+                }
+            ],
+            "publish_date": "1988",
+            "publishers": [
+                "Silhouette"
+            ],
+            "pagination": "sC8.192.",
+            "series": [
+                "Desire S"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/und"
+                }
+            ],
+            "isbn_10": [
+                "0373509073"
+            ],
+            "publish_country": "xxk",
+            "oclc_numbers": [
+                "315402503"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:2064178712:403"
+            ],
+            "key": "/books/OL21339314M",
+            "number_of_pages": 192,
+            "works": [
+                {
+                    "key": "/works/OL4056532W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-01T22:06:41.391375"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-06T12:26:07.054863"
+            }
+        },
+        "/books/OL10747659M": {
+            "title": "For Love Alone (Desire Large Print)",
+            "authors": [
+                {
+                    "key": "/authors/OL756213A"
+                }
+            ],
+            "publish_date": "February 1991",
+            "publishers": [
+                "Chivers North America"
+            ],
+            "physical_format": "Paperback",
+            "isbn_13": [
+                "9780373580323"
+            ],
+            "edition_name": "Large Prnt edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373580320"
+            ],
+            "oclc_numbers": [
+                "23726011"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Romance",
+                "Romance - General",
+                "Fiction - Romance",
+                "Large Print"
+            ],
+            "source_records": [
+                "amazon:0373580320"
+            ],
+            "key": "/books/OL10747659M",
+            "number_of_pages": 288,
+            "works": [
+                {
+                    "key": "/works/OL4056532W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-10T06:42:29.647204"
+            }
+        },
+        "/books/OL57388938M": {
+            "works": [
+                {
+                    "key": "/works/OL20090688W"
+                }
+            ],
+            "title": "Red, White and Royal blue",
+            "publishers": [
+                "St. Martin's Griffin"
+            ],
+            "publish_date": "14 of May 2019",
+            "key": "/books/OL57388938M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_13": [
+                "9781250316776"
+            ],
+            "lccn": [
+                "2018055526"
+            ],
+            "lc_classifications": [
+                "PS3613.C587545 R43 2019"
+            ],
+            "oclc_numbers": [
+                "1077483608"
+            ],
+            "source_records": [
+                "marc:harvard_bibliographic_metadata/20220215_067.bib.mrc:204067057:4787"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "First Son Alex Claremont-Diaz, with his sister and the Veep's genius granddaughter, are the White House Trio, a beautiful millennial marketing strategy for his mother, President Ellen Claremont. Then photos of a confrontation with his longtime nemesis Prince Henry at a royal wedding leak to the tabloids. The plan for damage control: stage a fake friendship between the First Son and the Prince. Alex soon discovers that beneath Henry's Prince Charming veneer, there's a soft-hearted eccentric with a dry sense of humor and more than one ghost haunting him. As President Claremont kicks off her reelection bid, Alex finds himself hurtling into a relationship with Henry that could derail the campaign and upend two nations. -- adapted from back cover"
+            },
+            "number_of_pages": 421,
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-12-30T23:41:28.964288"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-27T13:18:32.639644"
+            }
+        },
+        "/books/OL37811705M": {
+            "title": "Vermelho, Branco e Sangue Azul",
+            "publish_date": "2019",
+            "publishers": [
+                "Shwarcz S.A."
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_10": [
+                "9788555340949"
+            ],
+            "key": "/books/OL37811705M",
+            "works": [
+                {
+                    "key": "/works/OL20090688W"
+                }
+            ],
+            "covers": [
+                15154662
+            ],
+            "source_records": [
+                "amazon:8555340942"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/por"
+                }
+            ],
+            "number_of_pages": 392,
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-04-11T16:37:09.678261"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-23T13:37:47.219142"
+            }
+        },
+        "/books/OL51089078M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7620131A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "464",
+            "publish_date": "2022",
+            "publishers": [
+                "St. Martin's Press"
+            ],
+            "source_records": [
+                "bwb:9781250881977"
+            ],
+            "subjects": [
+                "Fiction, lgbtq+, gay",
+                "Fiction, romance, contemporary",
+                "Fiction, humorous, general",
+                "Gay men, fiction",
+                "Presidents, united states, fiction"
+            ],
+            "title": "Red, White and Royal Blue",
+            "weight": "0.600 ",
+            "subtitle": "A Novel",
+            "works": [
+                {
+                    "key": "/works/OL20090688W"
+                }
+            ],
+            "key": "/books/OL51089078M",
+            "identifiers": {},
+            "isbn_13": [
+                "9781250881977"
+            ],
+            "classifications": {},
+            "lc_classifications": [
+                "PS3613.C587545R43"
+            ],
+            "edition_name": "Collector's Edition (signed)",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-02-17T11:27:38.428310"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-07-05T13:27:57.595415"
+            }
+        },
+        "/books/OL50539885M": {
+            "works": [
+                {
+                    "key": "/works/OL20090688W"
+                }
+            ],
+            "title": "Royal Blue",
+            "publishers": [
+                "Knaur"
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL50539885M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_13": [
+                "9783426526156"
+            ],
+            "latest_revision": 1,
+            "revision": 1,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-01-12T22:33:51.402383"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-12T22:33:51.402383"
+            }
+        },
+        "/books/OL40235172M": {
+            "works": [
+                {
+                    "key": "/works/OL20090688W"
+                }
+            ],
+            "title": "Red, White and Royal Blue",
+            "publishers": [
+                "St Martin's Griffin"
+            ],
+            "publish_date": "May 14, 2019",
+            "key": "/books/OL40235172M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "classifications": {},
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-08T17:32:15.683569"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-05-07T12:13:23.794750"
+            }
+        },
+        "/books/OL47765088M": {
+            "works": [
+                {
+                    "key": "/works/OL20090688W"
+                }
+            ],
+            "title": "Red, White & Royal Blue",
+            "publishers": [
+                "St. Martin's Griffin"
+            ],
+            "publish_date": "14 May 2019",
+            "key": "/books/OL47765088M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-05-05T20:42:36.846887"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-05-07T12:13:23.794750"
+            }
+        },
+        "/books/OL37329271M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7620131A"
+                }
+            ],
+            "isbn_13": [
+                "9781529099461"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "448",
+            "publish_date": "2022",
+            "publishers": [
+                "Pan Macmillan"
+            ],
+            "source_records": [
+                "bwb:9781529099461",
+                "amazon:1529099463",
+                "promise:bwb_daily_pallets_2022-10-24"
+            ],
+            "subjects": [
+                "Fiction, lgbtq+, gay",
+                "Fiction, romance, contemporary",
+                "Fiction, humorous, general",
+                "Gay men, fiction",
+                "Presidents, united states, fiction"
+            ],
+            "title": "Red, White and Royal Blue",
+            "weight": "0.300",
+            "full_title": "Red, White and Royal Blue",
+            "works": [
+                {
+                    "key": "/works/OL20090688W"
+                }
+            ],
+            "key": "/books/OL37329271M",
+            "local_id": [
+                "urn:bwbsku:O8-CYI-728"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-02-28T08:38:17.797396"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-11-12T00:09:58.215436"
+            }
+        },
+        "/books/OL32642974M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Red, White & Royal Blue",
+            "authors": [
+                {
+                    "key": "/authors/OL7620131A"
+                }
+            ],
+            "publish_date": "Jun 17, 2020",
+            "source_records": [
+                "amazon:838169308X"
+            ],
+            "number_of_pages": 476,
+            "publishers": [
+                "Proszynski"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Red, White & Royal Blue",
+            "covers": [
+                11274202
+            ],
+            "works": [
+                {
+                    "key": "/works/OL20090688W"
+                }
+            ],
+            "key": "/books/OL32642974M",
+            "identifiers": {},
+            "isbn_10": [
+                "838169308X"
+            ],
+            "isbn_13": [
+                "9788381693080"
+            ],
+            "classifications": {},
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-06-17T13:11:30.510504"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-11-09T02:17:56.764843"
+            }
+        },
+        "/books/OL9749366M": {
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "weight": "13.1 ounces",
+            "covers": [
+                5010379,
+                5009921
+            ],
+            "physical_format": "Hardcover",
+            "key": "/books/OL9749366M",
+            "authors": [
+                {
+                    "key": "/authors/OL664669A"
+                }
+            ],
+            "subjects": [
+                "Romance",
+                "Romance - General",
+                "Suspense",
+                "Fiction - Romance",
+                "Fiction"
+            ],
+            "edition_name": "Largeprint edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "bwb:9780263156553",
+                "promise:bwb_daily_pallets_2022-05-03"
+            ],
+            "title": "Runaway Fiancee",
+            "identifiers": {
+                "goodreads": [
+                    "6337610"
+                ]
+            },
+            "isbn_13": [
+                "9780263156553"
+            ],
+            "isbn_10": [
+                "0263156559"
+            ],
+            "publish_date": "October 1998",
+            "oclc_numbers": [
+                "39890987"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3770455W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.4 x 5.6 x 1 inches",
+            "local_id": [
+                "urn:bwbsku:KQ-702-781"
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-05T10:03:49.726036"
+            }
+        },
+        "/books/OL29264508M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781474029995"
+            ],
+            "title": "Lady Surrender",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781474029995"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Lady Surrender",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2015",
+            "key": "/books/OL29264508M",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3775431W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-24T00:43:23.512972"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-28T19:19:20.561071"
+            }
+        },
+        "/books/OL18352090M": {
+            "title": "Lady surrender.",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "publish_date": "1985",
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "pagination": "192p.",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263751791"
+            ],
+            "publish_country": "xxk",
+            "publish_places": [
+                "London"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:1806312447:398"
+            ],
+            "key": "/books/OL18352090M",
+            "number_of_pages": 192,
+            "works": [
+                {
+                    "key": "/works/OL3775431W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-16T08:37:36.008665"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-06T11:16:44.611889"
+            }
+        },
+        "/books/OL24264159M": {
+            "publishers": [
+                "Kimani Press"
+            ],
+            "covers": [
+                6412705
+            ],
+            "physical_format": "Electronic resource",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-08-28T09:04:05.097494"
+            },
+            "latest_revision": 7,
+            "key": "/books/OL24264159M",
+            "authors": [
+                {
+                    "key": "/authors/OL1393119A"
+                }
+            ],
+            "publish_places": [
+                "Toronto, Ontario"
+            ],
+            "isbn_13": [
+                "9781426813993"
+            ],
+            "source_records": [
+                "marc_overdrive/InternetArchiveCrMarc-2010-06-11l.mrc:6343063:2409",
+                "bwb:9781426813993"
+            ],
+            "title": "One Special Moment",
+            "identifiers": {
+                "overdrive": [
+                    "B2EDA8ED-90AD-405A-8233-9E1F51ABBBAC"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-06-17T21:50:36.397845"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2008",
+            "publish_country": "nyu",
+            "oclc_numbers": [
+                "230820931"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL5729825W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 7
+        },
+        "/books/OL10238990M": {
+            "publishers": [
+                "Harlequin Mills & Boon"
+            ],
+            "physical_format": "Hardcover",
+            "lc_classifications": [
+                "MLCS 85/05100 (P)"
+            ],
+            "latest_revision": 6,
+            "key": "/books/OL10238990M",
+            "authors": [
+                {
+                    "key": "/authors/OL659964A"
+                }
+            ],
+            "isbn_13": [
+                "9780263103854"
+            ],
+            "source_records": [
+                "bwb:9780263103854",
+                "marc:marc_loc_2016/BooksAll.2016.part17.utf8:34797657:430"
+            ],
+            "title": "Ecstasy",
+            "lccn": [
+                "85951211"
+            ],
+            "number_of_pages": 192,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263103854"
+            ],
+            "publish_date": "November 11, 1983",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-11-04T08:07:57.235632"
+            },
+            "oclc_numbers": [
+                "12457338"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3754832W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 6
+        },
+        "/books/OL22511022M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "key": "/books/OL22511022M",
+            "authors": [
+                {
+                    "key": "/authors/OL659964A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "188p. ;",
+            "source_records": [
+                "bwb:9780263744538",
+                "ia:ecstasy0000weal",
+                "promise:bwb_daily_pallets_2020-12-07"
+            ],
+            "title": "Ecstasy",
+            "number_of_pages": 188,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1984",
+            "publish_country": "xxk",
+            "by_statement": "by Anne Weale.",
+            "works": [
+                {
+                    "key": "/works/OL3754832W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                11044275
+            ],
+            "identifiers": {},
+            "classifications": {},
+            "ocaid": "ecstasy0000weal",
+            "isbn_10": [
+                "0263744531"
+            ],
+            "oclc_numbers": [
+                "10820613"
+            ],
+            "isbn_13": [
+                "9780263744538"
+            ],
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "series": [
+                "Mills & Boon Romance - 2165"
+            ],
+            "physical_format": "Paperback",
+            "local_id": [
+                "urn:bwbsku:KP-089-045"
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-15T15:18:31.291729"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-09T09:07:04.748323"
+            }
+        },
+        "/books/OL21223885M": {
+            "publishers": [
+                "Mills and Boon",
+                "Harlequin Mills & Boon"
+            ],
+            "number_of_pages": 186,
+            "isbn_10": [
+                "0263718204"
+            ],
+            "key": "/books/OL21223885M",
+            "authors": [
+                {
+                    "key": "/authors/OL21059A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "186p. ;",
+            "source_records": [
+                "bwb:9780263718201",
+                "promise:bwb_daily_pallets_2021-02-15",
+                "amazon:0263718204"
+            ],
+            "title": "Fire and ice",
+            "dewey_decimal_class": [
+                "823/.9/1F"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "2024043"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Fiction in English."
+            ],
+            "publish_date": "1975",
+            "publish_country": "xxk",
+            "by_statement": "by Janet Dailey.",
+            "works": [
+                {
+                    "key": "/works/OL10530571W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:KM-761-073"
+            ],
+            "covers": [
+                13272857
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-01T09:45:31.412403"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-10T04:21:27.533988"
+            }
+        },
+        "/books/OL45889283M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL1391136A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B000HEC1K6"
+                ],
+                "better_world_books": [
+                    "BWB21869155"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:KI-659-383"
+            ],
+            "publish_date": "1971-01-01",
+            "publishers": [
+                "Bantam Books"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-02-11"
+            ],
+            "title": "Fair Tomorrow (Loring #37)",
+            "full_title": "Fair Tomorrow (Loring #37)",
+            "works": [
+                {
+                    "key": "/works/OL8365993W"
+                }
+            ],
+            "key": "/books/OL45889283M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-01-15T04:30:44.529936"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-05-01T04:59:23.307964"
+            }
+        },
+        "/books/OL42917322M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL1391136A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B0014CHDMG"
+                ],
+                "better_world_books": [
+                    "BWB21806964"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:083-BAB-582"
+            ],
+            "publish_date": "1971-01-01",
+            "publishers": [
+                "Bantam Books"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-08-13"
+            ],
+            "title": "#37 Fair Tomorrow (Bantam Books #SL6637)",
+            "works": [
+                {
+                    "key": "/works/OL8365993W"
+                }
+            ],
+            "key": "/books/OL42917322M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-04T17:03:26.623091"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-05-01T04:59:23.307964"
+            }
+        },
+        "/books/OL7818593M": {
+            "identifiers": {
+                "librarything": [
+                    "228440"
+                ]
+            },
+            "title": "Fair Tomorrow",
+            "authors": [
+                {
+                    "key": "/authors/OL1391136A"
+                }
+            ],
+            "publish_date": "August 1, 1980",
+            "publishers": [
+                "Bantam Books"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9780553142884"
+            ],
+            "isbn_10": [
+                "0553142887"
+            ],
+            "physical_format": "Paperback",
+            "subjects": [
+                "Fiction",
+                "Romance - General"
+            ],
+            "source_records": [
+                "amazon:0553142887"
+            ],
+            "key": "/books/OL7818593M",
+            "number_of_pages": 224,
+            "works": [
+                {
+                    "key": "/works/OL8365993W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-30T22:32:39.970097"
+            }
+        },
+        "/books/OL20936799M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "75120"
+            },
+            "title": "Fair Tomorrow",
+            "authors": [
+                {
+                    "key": "/authors/OL1391136A"
+                }
+            ],
+            "publish_date": "1931",
+            "publishers": [
+                "Grosset and Dunlap"
+            ],
+            "pagination": "325 p.",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Love stories."
+            ],
+            "publish_country": "nyu",
+            "by_statement": "Emilie Loring.",
+            "publish_places": [
+                "New York"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:CollingswoodLibraryMarcDump10-27-2008/Collingswood.out:52096893:608"
+            ],
+            "key": "/books/OL20936799M",
+            "number_of_pages": 325,
+            "works": [
+                {
+                    "key": "/works/OL8365993W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-31T01:58:15.901565"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-04-22T06:27:03.366211"
+            }
+        },
+        "/books/OL3954352M": {
+            "publishers": [
+                "Thorndike Press"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "4950606"
+                ]
+            },
+            "series": [
+                "Thorndike Press large print Candlelight series"
+            ],
+            "covers": [
+                15216941,
+                4344116
+            ],
+            "key": "/books/OL3954352M",
+            "authors": [
+                {
+                    "key": "/authors/OL1391136A"
+                }
+            ],
+            "publish_places": [
+                "Waterville, Me"
+            ],
+            "pagination": "375 p. (large print) ;",
+            "source_records": [
+                "ia:fairtomorrow0000lori",
+                "marc:marc_loc_2016/BooksAll.2016.part28.utf8:230008504:652"
+            ],
+            "title": "Fair Tomorrow",
+            "number_of_pages": 375,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Large type books."
+            ],
+            "publish_date": "2002",
+            "publish_country": "meu",
+            "by_statement": "Emilie Loring.",
+            "works": [
+                {
+                    "key": "/works/OL8365993W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "classifications": {},
+            "ocaid": "fairtomorrow0000lori",
+            "isbn_10": [
+                "0786237112"
+            ],
+            "lccn": [
+                "2001053450"
+            ],
+            "dewey_decimal_class": [
+                "813/.52"
+            ],
+            "lc_classifications": [
+                "PS3523.O645 F35 2002"
+            ],
+            "edition_name": "Large Print Edition",
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-05-01T04:59:48.780394"
+            }
+        },
+        "/books/OL28950902M": {
+            "title": "The Reluctant Husband",
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "publish_date": "1998",
+            "publishers": [
+                "Harlequin Mills & Boon, Limited",
+                "Harlequin Mills & Boon"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2020-12-09:KP-089-024",
+                "bwb:9780263807363",
+                "ia:reluctanthusband0000grah_g8d5",
+                "promise:bwb_daily_pallets_2020-06-24:KN-752-235"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Reluctant Husband",
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "covers": [
+                11705065
+            ],
+            "local_id": [
+                "urn:bwbsku:KP-089-024",
+                "urn:bwbsku:KN-752-235"
+            ],
+            "key": "/books/OL28950902M",
+            "number_of_pages": 188,
+            "works": [
+                {
+                    "key": "/works/OL7990767W"
+                }
+            ],
+            "identifiers": {},
+            "ocaid": "reluctanthusband0000grah_g8d5",
+            "isbn_13": [
+                "9780263807363"
+            ],
+            "classifications": {},
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T04:44:00.022713"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-22T20:11:28.455242"
+            }
+        },
+        "/books/OL9567440M": {
+            "identifiers": {
+                "goodreads": [
+                    "6178482"
+                ],
+                "librarything": [
+                    "4397518"
+                ]
+            },
+            "title": "VALLEY OF THE MOON",
+            "authors": [
+                {
+                    "key": "/authors/OL1175057A"
+                }
+            ],
+            "publish_date": "1979",
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "physical_format": "Mass Market Paperback",
+            "source_records": [
+                "bwb:9780373022915",
+                "promise:bwb_daily_pallets_2022-12-27"
+            ],
+            "isbn_13": [
+                "9780373022915"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373022913"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:P8-ATT-123"
+            ],
+            "ocaid": "valleyofmoon0000marg",
+            "key": "/books/OL9567440M",
+            "works": [
+                {
+                    "key": "/works/OL5236205W"
+                }
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-03-29T16:52:52.294945"
+            }
+        },
+        "/books/OL14976735M": {
+            "publishers": [
+                "Mills and Boon"
+            ],
+            "number_of_pages": 191,
+            "isbn_10": [
+                "0263094863"
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T22:06:53.709626"
+            },
+            "latest_revision": 6,
+            "key": "/books/OL14976735M",
+            "authors": [
+                {
+                    "key": "/authors/OL1175057A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "191p. ;",
+            "source_records": [
+                "bwb:9780263094862"
+            ],
+            "title": "Valley of the moon",
+            "dewey_decimal_class": [
+                "823/.9/1F"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "4397518"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T22:54:54.191387"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Fiction in English."
+            ],
+            "publish_date": "1979",
+            "publish_country": "xxk",
+            "by_statement": "by Margaret Way.",
+            "oclc_numbers": [
+                "5747574"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL5236205W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 6
+        },
+        "/books/OL24404422M": {
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "ia_box_id": [
+                "IA128519"
+            ],
+            "covers": [
+                6701864
+            ],
+            "key": "/books/OL24404422M",
+            "authors": [
+                {
+                    "key": "/authors/OL1175057A"
+                }
+            ],
+            "publish_places": [
+                "London",
+                "Toronto"
+            ],
+            "pagination": "191 p. ;",
+            "source_records": [
+                "ia:valleyofmoon00waym"
+            ],
+            "title": "Valley of the Moon",
+            "number_of_pages": 191,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1979",
+            "publish_country": "enk",
+            "by_statement": "Margaret Way",
+            "works": [
+                {
+                    "key": "/works/OL5236205W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "ocaid": "valleyofmoon00waym",
+            "oclc_numbers": [
+                "7799532"
+            ],
+            "classifications": {},
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-11-01T20:41:43.717034"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-27T00:42:15.048414"
+            }
+        },
+        "/books/OL6796991M": {
+            "publishers": [
+                "Center Point Pub."
+            ],
+            "number_of_pages": 344,
+            "ia_box_id": [
+                "IA181001"
+            ],
+            "isbn_10": [
+                "1585471208"
+            ],
+            "covers": [
+                12446515
+            ],
+            "ia_loaded_id": [
+                "strangerinmyarms00kley"
+            ],
+            "lc_classifications": [
+                "PS3561.L456 S77 2001"
+            ],
+            "key": "/books/OL6796991M",
+            "authors": [
+                {
+                    "key": "/authors/OL20452A"
+                }
+            ],
+            "ocaid": "strangerinmyarms00kley",
+            "publish_places": [
+                "Thorndike, Me"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "344 p. (large print) ;",
+            "classifications": {},
+            "source_records": [
+                "ia:strangerinmyarms00kley",
+                "marc:marc_loc_2016/BooksAll.2016.part01.utf8:50266296:645",
+                "amazon:1585471208",
+                "promise:bwb_daily_pallets_2022-07-26",
+                "promise:bwb_daily_pallets_2021-05-27"
+            ],
+            "title": "Stranger in my arms",
+            "lccn": [
+                "00069483"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "1236807"
+                ],
+                "goodreads": [
+                    "1824108"
+                ]
+            },
+            "edition_name": "Center Point large print ed.",
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "subjects": [
+                "Large type books."
+            ],
+            "publish_date": "2001",
+            "publish_country": "meu",
+            "by_statement": "Lisa Kleypas.",
+            "works": [
+                {
+                    "key": "/works/OL4331836W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:O8-DFF-806",
+                "urn:bwbsku:KO-719-511"
+            ],
+            "latest_revision": 16,
+            "revision": 16,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-14T18:51:23.764371"
+            }
+        },
+        "/books/OL7434572M": {
+            "publishers": [
+                "Avon",
+                "Avon Books"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "243206"
+                ],
+                "librarything": [
+                    "1236807"
+                ]
+            },
+            "covers": [
+                235963
+            ],
+            "lc_classifications": [
+                "CPB",
+                "CPB Box no. 1089 vol. 6",
+                "PS3561.L475 S76 1998x"
+            ],
+            "key": "/books/OL7434572M",
+            "authors": [
+                {
+                    "key": "/authors/OL20452A"
+                }
+            ],
+            "ocaid": "strangerinmyarms00auth",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "bwb:9780380781454",
+                "promise:bwb_daily_pallets_2022-08-30",
+                "ia:strangerinmyarms0000kley_w8r8",
+                "ia:strangerinmyarms0000kley"
+            ],
+            "title": "Stranger in My Arms",
+            "number_of_pages": 384,
+            "isbn_13": [
+                "9780380781454"
+            ],
+            "isbn_10": [
+                "038078145X"
+            ],
+            "publish_date": "July 1, 1998",
+            "works": [
+                {
+                    "key": "/works/OL4331836W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "\"LADY HAWKSWORTH, YOUR husband is not dead.\""
+            },
+            "local_id": [
+                "urn:bwbsku:O8-BXC-271"
+            ],
+            "lccn": [
+                "97094865"
+            ],
+            "oclc_numbers": [
+                "39334121"
+            ],
+            "latest_revision": 13,
+            "revision": 13,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-07-27T15:16:54.720326"
+            }
+        },
+        "/books/OL28985531M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263848342"
+            ],
+            "title": "Ranieri Bride",
+            "number_of_pages": 187,
+            "isbn_13": [
+                "9780263848342"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Ranieri Bride",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2006",
+            "key": "/books/OL28985531M",
+            "authors": [
+                {
+                    "key": "/authors/OL811660A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4233157W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Married people, fiction",
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-20T05:28:26.015771"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-18T14:51:15.941673"
+            }
+        },
+        "/books/OL29106739M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781408940761"
+            ],
+            "title": "Ranieri Bride",
+            "number_of_pages": 130,
+            "isbn_13": [
+                "9781408940761"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Ranieri Bride",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2011",
+            "key": "/books/OL29106739M",
+            "authors": [
+                {
+                    "key": "/authors/OL811660A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4233157W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-22T04:03:10.466532"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-18T14:51:15.941673"
+            }
+        },
+        "/books/OL10743033M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "2394101"
+                ]
+            },
+            "weight": "4 ounces",
+            "covers": [
+                2408858
+            ],
+            "physical_format": "Mass Market Paperback",
+            "key": "/books/OL10743033M",
+            "authors": [
+                {
+                    "key": "/authors/OL811660A"
+                }
+            ],
+            "subjects": [
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern",
+                "Romance - Contemporary",
+                "Fiction / Romance / General"
+            ],
+            "edition_name": "Larger Pri edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "bwb:9780373233281"
+            ],
+            "title": "The Ranieri Bride (Harlequin Presents: for Love Or Money)",
+            "number_of_pages": 256,
+            "isbn_13": [
+                "9780373233281"
+            ],
+            "isbn_10": [
+                "0373233280"
+            ],
+            "publish_date": "September 1, 2006",
+            "works": [
+                {
+                    "key": "/works/OL4233157W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.6 x 4.2 x 0.9 inches",
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-18T14:51:15.941673"
+            }
+        },
+        "/books/OL23612876M": {
+            "identifiers": {
+                "goodreads": [
+                    "2935995"
+                ],
+                "librarything": [
+                    "1711753"
+                ]
+            },
+            "title": "The Ranieri Bride",
+            "authors": [
+                {
+                    "key": "/authors/OL811660A"
+                }
+            ],
+            "publish_date": "2006",
+            "publishers": [
+                "Harlequin"
+            ],
+            "ia_box_id": [
+                "IA125411"
+            ],
+            "series": [
+                "For Love or Money"
+            ],
+            "pagination": "187 p. ;",
+            "covers": [
+                6947372
+            ],
+            "ia_loaded_id": [
+                "ranieribride00reid"
+            ],
+            "publish_places": [
+                "Toronto",
+                "New York"
+            ],
+            "contributions": [
+                "Copyright Paperback Collection (Library of Congress)"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "genres": [
+                "Fiction"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-05-04:P7-ADN-889",
+                "marc:marc_loc_updates/v37.i28.records.utf8:18240650:959",
+                "ia:ranieribride00reid",
+                "bwb:9780373125647",
+                "marc:marc_loc_2016/BooksAll.2016.part35.utf8:70752611:959",
+                "promise:bwb_daily_pallets_2020-11-20:O7-AZD-490"
+            ],
+            "oclc_number": [
+                "70098731"
+            ],
+            "edition_name": "1st North American publication.",
+            "subjects": [
+                "Man-woman relationships -- Fiction"
+            ],
+            "publish_country": "enk",
+            "by_statement": "Michelle Reid.",
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:P7-ADN-889",
+                "urn:bwbsku:O7-AZD-490"
+            ],
+            "key": "/books/OL23612876M",
+            "number_of_pages": 187,
+            "works": [
+                {
+                    "key": "/works/OL4233157W"
+                }
+            ],
+            "classifications": {},
+            "ocaid": "ranieribride00reid",
+            "isbn_10": [
+                "037312564X"
+            ],
+            "isbn_13": [
+                "9780373125647"
+            ],
+            "lccn": [
+                "2007585436"
+            ],
+            "lc_classifications": [
+                "CPB Box no. 2707 vol. 7"
+            ],
+            "latest_revision": 15,
+            "revision": 15,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-07-27T12:53:21.090466"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-10-02T02:02:15.524819"
+            }
+        },
+        "/books/OL24289290M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "physical_format": "E-book",
+            "source_records": [
+                "marc_overdrive/InternetArchiveCrMarc-2010-06-11i.mrc:2943838:1694",
+                "bwb:9781552545898"
+            ],
+            "title": "The Ranieri Bride",
+            "identifiers": {
+                "overdrive": [
+                    "FE1942C2-19D3-4447-97FA-7051CBEA85E4"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-06-23T00:15:48.486284"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "155254589X"
+            ],
+            "publish_date": "2006",
+            "publish_country": "nyu",
+            "key": "/books/OL24289290M",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-08-28T03:53:04.681712"
+            },
+            "latest_revision": 4,
+            "publish_places": [
+                "Toronto, Ontario"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4233157W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "oclc_numbers": [
+                "76832665"
+            ],
+            "revision": 4
+        },
+        "/books/OL37811712M": {
+            "identifiers": {
+                "wikidata": [
+                    "Q123263122"
+                ]
+            },
+            "title": "Vermelho, Branco e Sangue Azul",
+            "publish_date": "2019",
+            "publishers": [
+                "SEGUINTE"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                12716038,
+                -1
+            ],
+            "key": "/books/OL37811712M",
+            "works": [
+                {
+                    "key": "/works/OL20090688W"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/por"
+                }
+            ],
+            "isbn_10": [
+                "9788555340949"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-04-11T16:41:51.197428"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-23T13:37:47.219142"
+            }
+        },
+        "/books/OL40201479M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7620131A"
+                }
+            ],
+            "isbn_13": [
+                "9781250905703"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "448",
+            "publish_date": "2023",
+            "publishers": [
+                "St. Martin's Press",
+                "St. Martin's Griffin"
+            ],
+            "source_records": [
+                "bwb:9781250905703",
+                "amazon:1250905702"
+            ],
+            "title": "Red, White and Royal Blue",
+            "weight": "0.455",
+            "subtitle": "A Novel",
+            "full_title": "Red, White and Royal Blue A Novel",
+            "works": [
+                {
+                    "key": "/works/OL20090688W"
+                }
+            ],
+            "key": "/books/OL40201479M",
+            "number_of_pages": 448,
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-10-20T05:47:28.601049"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-03-15T21:58:53.722932"
+            }
+        },
+        "/books/OL36884024M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7620131A"
+                }
+            ],
+            "isbn_13": [
+                "9781250856036"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "464",
+            "publish_date": "2022",
+            "publishers": [
+                "St. Martin's Press"
+            ],
+            "source_records": [
+                "bwb:9781250856036",
+                "amazon:1250856035",
+                "promise:bwb_daily_pallets_2024-12-27:Y0-CAJ-685"
+            ],
+            "subjects": [
+                "Fiction, lgbtq+, gay",
+                "Fiction, romance, contemporary",
+                "Fiction, humorous, general",
+                "Gay men, fiction",
+                "Presidents, united states, fiction"
+            ],
+            "title": "Red, White and Royal Blue",
+            "weight": "0.450",
+            "subtitle": "A Novel",
+            "full_title": "Red, White and Royal Blue A Novel",
+            "works": [
+                {
+                    "key": "/works/OL20090688W"
+                }
+            ],
+            "key": "/books/OL36884024M",
+            "local_id": [
+                "urn:bwbsku:Y0-CAJ-685"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-01-28T19:15:50.836153"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-01T04:31:10.320207"
+            }
+        },
+        "/books/OL9746360M": {
+            "identifiers": {
+                "librarything": [
+                    "1759560"
+                ],
+                "goodreads": [
+                    "6719828"
+                ]
+            },
+            "title": "Runaway Fiancee",
+            "subtitle": "The Big Event - 7",
+            "authors": [
+                {
+                    "key": "/authors/OL3319654A"
+                }
+            ],
+            "publish_date": "October 1, 1998",
+            "publishers": [
+                "Harlequin"
+            ],
+            "ia_box_id": [
+                "IA122721"
+            ],
+            "weight": "3.2 ounces",
+            "covers": [
+                6602731,
+                214594
+            ],
+            "physical_format": "Paperback",
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-07-26:W7-CVQ-277",
+                "bwb:9780373119929",
+                "promise:bwb_daily_pallets_2021-03-08:W6-BXP-897"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Romance - General",
+                "Non-Classifiable",
+                "Romance - Contemporary",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.8 x 4.2 x 0.5 inches",
+            "ocaid": "runawayfiance00went",
+            "isbn_10": [
+                "0373119925"
+            ],
+            "isbn_13": [
+                "9780373119929"
+            ],
+            "oclc_numbers": [
+                "39673495"
+            ],
+            "edition_name": "Harlequin Presents - 1992",
+            "series": [
+                "Harlequin Presents - 1992, Mills & Boon Presents - 156, The Big Event - 7"
+            ],
+            "local_id": [
+                "urn:bwbsku:W7-CVQ-277",
+                "urn:bwbsku:W6-BXP-897"
+            ],
+            "key": "/books/OL9746360M",
+            "number_of_pages": 186,
+            "works": [
+                {
+                    "key": "/works/OL3770455W"
+                }
+            ],
+            "latest_revision": 18,
+            "revision": 18,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T14:59:16.416833"
+            }
+        },
+        "/books/OL9751633M": {
+            "identifiers": {
+                "librarything": [
+                    "1759560"
+                ],
+                "goodreads": [
+                    "6719828"
+                ]
+            },
+            "title": "Runaway Fiancee (The Big Event) (Harlequin Presents, 1992)",
+            "authors": [
+                {
+                    "key": "/authors/OL3319654A"
+                }
+            ],
+            "publish_date": "October 1, 1998",
+            "publishers": [
+                "Harlequin"
+            ],
+            "weight": "3.2 ounces",
+            "covers": [
+                214595
+            ],
+            "physical_format": "Paperback",
+            "subjects": [
+                "Romance - General",
+                "Non-Classifiable",
+                "Romance - Contemporary",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern"
+            ],
+            "isbn_13": [
+                "9780373119929"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373119925"
+            ],
+            "oclc_numbers": [
+                "39673495"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.8 x 4.2 x 0.5 inches",
+            "source_records": [
+                "amazon:0373119925"
+            ],
+            "key": "/books/OL9751633M",
+            "number_of_pages": 186,
+            "works": [
+                {
+                    "key": "/works/OL3770455W"
+                }
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-04-08T23:18:58.689844"
+            }
+        },
+        "/books/OL29758371M": {
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "source_records": [
+                "bwb:9781488032127"
+            ],
+            "title": "Lady Surrender",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781488032127"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Lady Surrender",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2017",
+            "key": "/books/OL29758371M",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3775431W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-30T21:42:22.261104"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-28T19:19:20.561071"
+            }
+        },
+        "/books/OL10280837M": {
+            "publishers": [
+                "Harlequin Mills & Boon"
+            ],
+            "number_of_pages": 384,
+            "source_records": [
+                "bwb:9780263775563",
+                "ia:ladysurrenderlov0000mort",
+                "amazon:0263775569",
+                "promise:bwb_daily_pallets_2021-02-11"
+            ],
+            "title": "Lady Surrender",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {
+                "goodreads": [
+                    "695303"
+                ],
+                "librarything": [
+                    "8292299"
+                ]
+            },
+            "publish_date": "October 11, 1991",
+            "key": "/books/OL10280837M",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3775431W"
+                }
+            ],
+            "physical_format": "Paperback",
+            "subjects": [
+                "Romance"
+            ],
+            "covers": [
+                11323128
+            ],
+            "local_id": [
+                "urn:bwbsku:KJ-551-139"
+            ],
+            "ocaid": "ladysurrenderlov0000mort",
+            "isbn_10": [
+                "0263775569"
+            ],
+            "isbn_13": [
+                "9780263775563"
+            ],
+            "oclc_numbers": [
+                "24953868"
+            ],
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T10:12:42.647806"
+            }
+        },
+        "/books/OL8789043M": {
+            "publishers": [
+                "Kimani Press"
+            ],
+            "number_of_pages": 304,
+            "weight": "4 ounces",
+            "covers": [
+                846351
+            ],
+            "physical_format": "Mass Market Paperback",
+            "key": "/books/OL8789043M",
+            "authors": [
+                {
+                    "key": "/authors/OL1393119A"
+                }
+            ],
+            "ocaid": "onespecialmoment00jack_0",
+            "subjects": [
+                "Romance",
+                "Movie/Tv Tie-Ins",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance - Contemporary",
+                "Fiction / Movie or Television Tie-In",
+                "Movie-TV Tie-In - General"
+            ],
+            "edition_name": "New Ed edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "bwb:9781583142271",
+                "amazon:1583142274",
+                "promise:bwb_daily_pallets_2021-05-14"
+            ],
+            "title": "One Special Moment (Arabesque)",
+            "identifiers": {
+                "goodreads": [
+                    "674622"
+                ],
+                "librarything": [
+                    "854751"
+                ]
+            },
+            "isbn_13": [
+                "9781583142271"
+            ],
+            "isbn_10": [
+                "1583142274"
+            ],
+            "publish_date": "May 1, 2001",
+            "oclc_numbers": [
+                "47236404"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL5729825W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.7 x 4.2 x 0.6 inches",
+            "lc_classifications": [
+                "PS3560.A193"
+            ],
+            "local_id": [
+                "urn:bwbsku:W6-CAY-797"
+            ],
+            "latest_revision": 12,
+            "revision": 12,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T08:14:56.482104"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-14T19:40:02.606078"
+            }
+        },
+        "/books/OL9585510M": {
+            "publishers": [
+                "Kimani Press"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 256,
+            "source_records": [
+                "bwb:9781583147146",
+                "amazon:1583147144"
+            ],
+            "title": "One Special Moment (Arabesque)",
+            "identifiers": {
+                "goodreads": [
+                    "2103403"
+                ]
+            },
+            "isbn_13": [
+                "9781583147146"
+            ],
+            "physical_format": "Mass Market Paperback",
+            "isbn_10": [
+                "1583147144"
+            ],
+            "publish_date": "May 1, 2005",
+            "key": "/books/OL9585510M",
+            "authors": [
+                {
+                    "key": "/authors/OL1393119A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL5729825W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Romance: Modern",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance - Contemporary",
+                "Fiction / Romance / Contemporary"
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-11-15T10:14:13.793786"
+            }
+        },
+        "/books/OL21225090M": {
+            "publishers": [
+                "Mills & Boon",
+                "Harlequin Mills & Boon"
+            ],
+            "title": "Ecstasy",
+            "identifiers": {
+                "librarything": [
+                    "408219"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1989",
+            "publish_country": "xxk",
+            "key": "/books/OL21225090M",
+            "authors": [
+                {
+                    "key": "/authors/OL659964A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3754832W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                13946618
+            ],
+            "source_records": [
+                "amazon:026376396X"
+            ],
+            "number_of_pages": 192,
+            "isbn_10": [
+                "026376396X"
+            ],
+            "classifications": {},
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-01T09:54:49.469992"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-18T08:57:56.631994"
+            }
+        },
+        "/books/OL10239043M": {
+            "publishers": [
+                "Harlequin Mills & Boon"
+            ],
+            "physical_format": "Hardcover",
+            "title": "Ecstasy",
+            "number_of_pages": 288,
+            "edition_name": "Large Print Edition",
+            "publish_date": "January 10, 1986",
+            "key": "/books/OL10239043M",
+            "authors": [
+                {
+                    "key": "/authors/OL659964A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3754832W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Large Print"
+            ],
+            "local_id": [
+                "urn:bwbsku:P9-BFL-049"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-12-21:P9-BFL-049"
+            ],
+            "identifiers": {},
+            "isbn_10": [
+                "0263110648"
+            ],
+            "isbn_13": [
+                "9780263110647"
+            ],
+            "oclc_numbers": [
+                "13337595"
+            ],
+            "classifications": {},
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-18T08:58:41.003106"
+            }
+        }
+    }
+}

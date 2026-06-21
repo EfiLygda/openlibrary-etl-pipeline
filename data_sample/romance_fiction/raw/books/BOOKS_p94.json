@@ -1,0 +1,6198 @@
+{
+    "status": "ok",
+    "result": {
+        "/books/OL13868489M": {
+            "title": "As memórias póstumas de Brás Cubas",
+            "authors": [
+                {
+                    "key": "/authors/OL93286A"
+                }
+            ],
+            "publish_date": "1986",
+            "publishers": [
+                "Ulmeiro"
+            ],
+            "series": [
+                "Clássicos da língua portuguesa -- no.11"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/por"
+                }
+            ],
+            "publish_country": "po ",
+            "publish_places": [
+                "[Lisboa]"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "by_statement": "Machado de Assis.",
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:205360488:463"
+            ],
+            "key": "/books/OL13868489M",
+            "works": [
+                {
+                    "key": "/works/OL1003017W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-01T21:44:04.903827"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-02-10T10:08:51.403386"
+            }
+        },
+        "/books/OL14977932M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "key": "/books/OL14977932M",
+            "authors": [
+                {
+                    "key": "/authors/OL194979A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "186p. ;",
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:516163312:559",
+                "bwb:9780263105100"
+            ],
+            "title": "Riviera romance",
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "number_of_pages": 186,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263105105"
+            ],
+            "publish_date": "1984",
+            "publish_country": "xxk",
+            "by_statement": "by Marjorie Lewty.",
+            "oclc_numbers": [
+                "11286496"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL8028189W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T23:04:39.673588"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-27T20:27:37.644672"
+            }
+        },
+        "/books/OL21439489M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Italian translation of: Lover's touch."
+            },
+            "title": "L' importanza di essere donna",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "publish_date": "1992",
+            "publishers": [
+                "Harlequin Mondadori"
+            ],
+            "series": [
+                "Collezione Harmony"
+            ],
+            "publish_places": [
+                "Milan"
+            ],
+            "pagination": "159p.",
+            "work_titles": [
+                "Lover's touch."
+            ],
+            "languages": [
+                {
+                    "key": "/languages/ita"
+                }
+            ],
+            "publish_country": "it ",
+            "by_statement": "Penny Jordan.",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:2735111258:564"
+            ],
+            "key": "/books/OL21439489M",
+            "number_of_pages": 159,
+            "works": [
+                {
+                    "key": "/works/OL3759116W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-02T15:02:33.420905"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-04T14:00:26.817289"
+            }
+        },
+        "/books/OL7434605M": {
+            "publishers": [
+                "Avon"
+            ],
+            "number_of_pages": 373,
+            "covers": [
+                235987
+            ],
+            "lc_classifications": [
+                "CPB Box no.314 vol.5"
+            ],
+            "key": "/books/OL7434605M",
+            "ocaid": "kissangel00susa",
+            "isbn_13": [
+                "9780380782338"
+            ],
+            "source_records": [
+                "amazon:0380782332:19:3259528158:262632",
+                "bwb:9780380782338",
+                "promise:bwb_daily_pallets_2020-04-09"
+            ],
+            "title": "Kiss an Angel",
+            "identifiers": {
+                "librarything": [
+                    "78498"
+                ],
+                "goodreads": [
+                    "73086"
+                ],
+                "amazon": [
+                    ""
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0380782332"
+            ],
+            "publish_date": "October 1, 2002",
+            "works": [
+                {
+                    "key": "/works/OL17717W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "Daisy Devreaux had forgotten her bridegroom's name."
+            },
+            "local_id": [
+                "urn:bwbsku:O6-CLN-825"
+            ],
+            "latest_revision": 12,
+            "revision": 12,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-10T11:52:33.964507"
+            }
+        },
+        "/books/OL24257679M": {
+            "publishers": [
+                "HarperCollins"
+            ],
+            "physical_format": "Electronic resource",
+            "source_records": [
+                "marc_overdrive/InternetArchiveCrMarc-2010-06-11h.mrc:3461973:1661",
+                "bwb:9780061794797",
+                "promise:bwb_daily_pallets_2020-04-09"
+            ],
+            "title": "Kiss an Angel",
+            "identifiers": {
+                "overdrive": [
+                    "FD34825F-E9B8-49C2-BD74-63FE7AED94BF"
+                ],
+                "amazon": [
+                    ""
+                ]
+            },
+            "isbn_13": [
+                "9780066212265",
+                "9780061794797",
+                "9780060768850"
+            ],
+            "covers": [
+                6405520
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2002",
+            "publish_country": "nyu",
+            "key": "/books/OL24257679M",
+            "publish_places": [
+                "New York"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL17717W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:729-BAA-824"
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-06-17T18:07:48.710827"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-10T11:56:52.979497"
+            }
+        },
+        "/books/OL9851863M": {
+            "publishers": [
+                "Books on Tape, Inc."
+            ],
+            "source_records": [
+                "amazon:0736634509:2-ax:1069731170:226769",
+                "amazon:0736634509"
+            ],
+            "title": "Kiss An Angel",
+            "identifiers": {
+                "goodreads": [
+                    "2595514"
+                ]
+            },
+            "isbn_13": [
+                "9780736634502"
+            ],
+            "covers": [
+                1364989
+            ],
+            "physical_format": "Audio cassette",
+            "isbn_10": [
+                "0736634509"
+            ],
+            "publish_date": "July 15, 1996",
+            "key": "/books/OL9851863M",
+            "oclc_numbers": [
+                "35717597"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL17717W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-03-15T21:48:23.512717"
+            }
+        },
+        "/books/OL38276225M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL579518A"
+                }
+            ],
+            "isbn_13": [
+                "9781299306608"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2013",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781299306608"
+            ],
+            "title": "Rich Man's Blackmailed Mistress",
+            "full_title": "Rich Man's Blackmailed Mistress",
+            "works": [
+                {
+                    "key": "/works/OL15180402W"
+                }
+            ],
+            "key": "/books/OL38276225M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-17T12:53:44.191990"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-30T12:31:23.689797"
+            }
+        },
+        "/books/OL29043400M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263207163"
+            ],
+            "title": "Rich Man's Blackmailed Mistress",
+            "number_of_pages": 186,
+            "isbn_13": [
+                "9780263207163"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Rich Man's Blackmailed Mistress",
+            "lc_classifications": [
+                "PR6054.O4594"
+            ],
+            "publish_date": "2009",
+            "key": "/books/OL29043400M",
+            "authors": [
+                {
+                    "key": "/authors/OL579518A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL15180402W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-21T06:56:20.392307"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-30T12:31:23.689797"
+            }
+        },
+        "/books/OL24484970M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "\"Kain Gerrard--mesmerizing, sexy and filthy rich--can have any woman he wants!  So taming Sable Martin shouldn't be a problem.  The scandalous gold digger has used her sensual charms to blackmail his cousin, and Kain is set on revenge.  His plan is perfect--until he comes face-to-face with Sable.  The scheming temptress is in his sights, but as she looks up at him with those enchanting doe eyes, he realizes she isn't quite the seductress he thought--he's blackmailed an innocent into his bed\"--Cover verso."
+            },
+            "series": [
+                "Harlequin presents -- 2896",
+                "Harlequin presents -- 2896."
+            ],
+            "lc_classifications": [
+                "CPB Box no. 3118 vol. 20"
+            ],
+            "key": "/books/OL24484970M",
+            "authors": [
+                {
+                    "key": "/authors/OL579518A"
+                }
+            ],
+            "publish_places": [
+                "Toronto",
+                "New York"
+            ],
+            "contributions": [
+                "Copyright Paperback Collection (Library of Congress)"
+            ],
+            "isbn_13": [
+                "9780373128969"
+            ],
+            "pagination": "182 p. ;",
+            "source_records": [
+                "marc:marc_loc_updates/v38.i40.records.utf8:15250418:1528",
+                "bwb:9780373128969",
+                "marc:marc_loc_2016/BooksAll.2016.part38.utf8:77025877:1528",
+                "promise:bwb_daily_pallets_2021-08-13"
+            ],
+            "title": "The rich man's blackmailed mistress",
+            "lccn": [
+                "2010515399"
+            ],
+            "number_of_pages": 182,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373128967"
+            ],
+            "publish_date": "2010",
+            "publish_country": "onc",
+            "copyright_date": "2009",
+            "by_statement": "Robyn Donald",
+            "oclc_numbers": [
+                "466904162"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL15180402W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:P7-EIF-600"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-12-01T04:18:18.343229"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-30T12:31:23.689797"
+            }
+        },
+        "/books/OL12956735M": {
+            "publishers": [
+                "Atlantida/Argentina"
+            ],
+            "weight": "15.2 ounces",
+            "covers": [
+                3345435
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL12956735M",
+            "authors": [
+                {
+                    "key": "/authors/OL18977A"
+                }
+            ],
+            "contributions": [
+                "Valeria Watson (Translator)"
+            ],
+            "subjects": [
+                "Spanish: Adult Fiction"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "WHEN SHE PULLED THE LETTER FROM HER MAILBOX, KELSEY HAD NO warning it was from a dead woman."
+            },
+            "source_records": [
+                "amazon:950081644X"
+            ],
+            "title": "Traiciones Verdaderas / True Betrayals",
+            "identifiers": {
+                "goodreads": [
+                    "2597267"
+                ]
+            },
+            "isbn_13": [
+                "9789500816441"
+            ],
+            "isbn_10": [
+                "950081644X"
+            ],
+            "publish_date": "June 1997",
+            "oclc_numbers": [
+                "36210797"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL111635W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9.2 x 6 x 1 inches",
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-07-01T14:00:19.865696"
+            }
+        },
+        "/books/OL7505198M": {
+            "publishers": [
+                "Berkley Trade"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "59824"
+                ],
+                "librarything": [
+                    "21649"
+                ]
+            },
+            "source_records": [
+                "amazon:0425204685:bj:617280956:285807",
+                "bwb:9780425204689"
+            ],
+            "title": "True Betrayals",
+            "number_of_pages": 400,
+            "covers": [
+                11344845
+            ],
+            "isbn_13": [
+                "9780425204689"
+            ],
+            "isbn_10": [
+                "0425204685"
+            ],
+            "publish_date": "July 5, 2005",
+            "key": "/books/OL7505198M",
+            "ocaid": "truebetrayals00nora",
+            "works": [
+                {
+                    "key": "/works/OL111635W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "WHEN SHE PULLED THE LETTER FROM HER MAILBOX, KELSEY HAD NO warning it was from a dead woman."
+            },
+            "lc_classifications": [
+                "PS3568.0243T78 "
+            ],
+            "latest_revision": 12,
+            "revision": 12,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-17T16:49:54.555812"
+            }
+        },
+        "/books/OL1113331M": {
+            "publishers": [
+                "Putnam"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "2597265"
+                ],
+                "librarything": [
+                    "21649"
+                ]
+            },
+            "isbn_10": [
+                "039914059X"
+            ],
+            "covers": [
+                11352626
+            ],
+            "lc_classifications": [
+                "PS3568.O243 T78 1995",
+                "PS3568.O243T78 1995"
+            ],
+            "key": "/books/OL1113331M",
+            "ocaid": "truebetrayals0000robe",
+            "publish_places": [
+                "New York"
+            ],
+            "pagination": "388 p. ;",
+            "source_records": [
+                "marc:marc_records_scriblio_net/part24.dat:72186053:626",
+                "ia:truebetrayals0000robe",
+                "marc:marc_loc_2016/BooksAll.2016.part23.utf8:146687478:626",
+                "bwb:9780399140594"
+            ],
+            "title": "True betrayals",
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "number_of_pages": 388,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lccn": [
+                "94039229"
+            ],
+            "subjects": [
+                "Mothers and daughters -- Fiction",
+                "Horse racing -- Fiction"
+            ],
+            "publish_date": "1995",
+            "publish_country": "nyu",
+            "by_statement": "Nora Roberts.",
+            "works": [
+                {
+                    "key": "/works/OL111635W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 12,
+            "revision": 12,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-17T12:31:49.294544"
+            }
+        },
+        "/books/OL790378M": {
+            "publishers": [
+                "Thorndike Press"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "4837984"
+                ]
+            },
+            "isbn_10": [
+                "0786205059"
+            ],
+            "subject_place": [
+                "Virginia"
+            ],
+            "covers": [
+                11351470
+            ],
+            "lc_classifications": [
+                "PS3568.O243 T78 1995b",
+                "PS3568.O243T78 1995b"
+            ],
+            "key": "/books/OL790378M",
+            "ocaid": "truebetrayals00robe_1",
+            "publish_places": [
+                "Thorndike, Me"
+            ],
+            "pagination": "598 p. (large print) ;",
+            "source_records": [
+                "marc:marc_records_scriblio_net/part25.dat:8926537:792",
+                "marc:marc_loc_updates/v36.i04.records.utf8:9329596:792",
+                "ia:truebetrayals00robe_1",
+                "marc:marc_loc_2016/BooksAll.2016.part24.utf8:108054262:792",
+                "promise:bwb_daily_pallets_2022-05-25",
+                "bwb:9780786205059"
+            ],
+            "title": "True betrayals",
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "\"Thorndike large print Basic series\"--T.p. verso."
+            },
+            "number_of_pages": 598,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lccn": [
+                "95022836"
+            ],
+            "subjects": [
+                "Mothers and daughters -- Fiction",
+                "Horse racing -- Fiction",
+                "Large type books",
+                "Virginia -- Fiction"
+            ],
+            "publish_date": "1995",
+            "publish_country": "meu",
+            "by_statement": "Nora Roberts.",
+            "works": [
+                {
+                    "key": "/works/OL111635W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:W7-ATC-749"
+            ],
+            "latest_revision": 14,
+            "revision": 14,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-07-17T14:57:13.027588"
+            }
+        },
+        "/books/OL8826195M": {
+            "publishers": [
+                "Brilliance Audio Unabridged"
+            ],
+            "weight": "15 ounces",
+            "covers": [
+                1960277
+            ],
+            "physical_format": "Audio Cassette",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2011-04-29T12:34:10.252473"
+            },
+            "latest_revision": 5,
+            "key": "/books/OL8826195M",
+            "authors": [
+                {
+                    "key": "/authors/OL18977A"
+                }
+            ],
+            "contributions": [
+                "Rose Anne Shansky (Narrator)"
+            ],
+            "subjects": [
+                "Unabridged Audio - Fiction/Romance",
+                "Romance - General",
+                "Audiobooks",
+                "Fiction",
+                "Audio Adult: Books On Tape",
+                "Suspense",
+                "Romance - Contemporary",
+                "Fiction / Romance / General"
+            ],
+            "edition_name": "Unabridged edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "amazon:158788769X:fs:3094985941:264522"
+            ],
+            "title": "True Betrayals",
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T08:14:56.482104"
+            },
+            "isbn_13": [
+                "9781587887697"
+            ],
+            "isbn_10": [
+                "158788769X"
+            ],
+            "publish_date": "September 1, 2001",
+            "oclc_numbers": [
+                "47949015"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL111635W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "7.1 x 4.2 x 2.7 inches",
+            "revision": 5
+        },
+        "/books/OL3384562M": {
+            "publishers": [
+                "Jove Books"
+            ],
+            "number_of_pages": 422,
+            "ia_box_id": [
+                "IA105718"
+            ],
+            "isbn_10": [
+                "0515118559"
+            ],
+            "subject_place": [
+                "Virginia"
+            ],
+            "pagination": "422 p. ;",
+            "covers": [
+                11335717
+            ],
+            "lc_classifications": [
+                "CPB Box no. 2103 vol. 9"
+            ],
+            "key": "/books/OL3384562M",
+            "authors": [
+                {
+                    "key": "/authors/OL18977A"
+                }
+            ],
+            "ocaid": "truebetrayals00robe",
+            "publish_places": [
+                "New York"
+            ],
+            "contributions": [
+                "Copyright Paperback Collection (Library of Congress)"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "source_records": [
+                "marc:marc_records_scriblio_net/part15.dat:102024618:822",
+                "marc:marc_loc_updates/v35.i20.records.utf8:18571742:1043",
+                "ia:truebetrayals00robe",
+                "ia:truebetrayal00robe",
+                "marc:marc_loc_2016/BooksAll.2016.part32.utf8:101961569:1043",
+                "promise:bwb_daily_pallets_2020-07-07"
+            ],
+            "title": "True betrayals",
+            "lccn": [
+                "2004563628"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "762453"
+                ],
+                "librarything": [
+                    "21649"
+                ]
+            },
+            "edition_name": "Jove ed.",
+            "subjects": [
+                "Mothers and daughters -- Virginia -- Fiction",
+                "Horse racing -- Virginia -- Fiction",
+                "Virginia -- Fiction"
+            ],
+            "publish_date": "1996",
+            "publish_country": "nyu",
+            "by_statement": "Nora Roberts.",
+            "oclc_numbers": [
+                "34694892"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL111635W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:P6-AZR-595"
+            ],
+            "latest_revision": 15,
+            "revision": 15,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-10T05:47:23.437172"
+            }
+        },
+        "/books/OL21376209M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Translation of: Unfriendly alliance."
+            },
+            "title": "De liefste leugen.",
+            "authors": [
+                {
+                    "key": "/authors/OL687900A"
+                }
+            ],
+            "publish_date": "1991",
+            "publishers": [
+                "Harlequin Holland"
+            ],
+            "work_titles": [
+                "Unfriendly alliance."
+            ],
+            "languages": [
+                {
+                    "key": "/languages/dut"
+                }
+            ],
+            "isbn_10": [
+                "9034794857"
+            ],
+            "publish_country": "ne ",
+            "publish_places": [
+                "Amsterdam"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:3466055114:508"
+            ],
+            "key": "/books/OL21376209M",
+            "works": [
+                {
+                    "key": "/works/OL3845174W"
+                }
+            ],
+            "latest_revision": 15,
+            "revision": 15,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-02T09:41:04.423415"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-31T18:23:29.528905"
+            }
+        },
+        "/books/OL21795599M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Originally published in English as \"Unfriendly alliance\", 1987."
+            },
+            "title": "Les deux visages de Miles Quartermaine.",
+            "authors": [
+                {
+                    "key": "/authors/OL687900A"
+                }
+            ],
+            "publish_date": "1991",
+            "publishers": [
+                "Harlequin"
+            ],
+            "work_titles": [
+                "Unfriendly alliance."
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "isbn_10": [
+                "228017118X"
+            ],
+            "publish_country": "fr ",
+            "publish_places": [
+                "Paris"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "oclc_numbers": [
+                "463556578"
+            ],
+            "covers": [
+                15112897
+            ],
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:718693293:545"
+            ],
+            "key": "/books/OL21795599M",
+            "works": [
+                {
+                    "key": "/works/OL3845174W"
+                }
+            ],
+            "latest_revision": 17,
+            "revision": 17,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-04T00:31:06.794768"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-04-19T02:34:28.610846"
+            }
+        },
+        "/books/OL24271500M": {
+            "publishers": [
+                "Silhouette"
+            ],
+            "covers": [
+                6420977
+            ],
+            "physical_format": "Electronic resource",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-08-28T09:00:11.603810"
+            },
+            "latest_revision": 5,
+            "key": "/books/OL24271500M",
+            "authors": [
+                {
+                    "key": "/authors/OL2674673A"
+                }
+            ],
+            "publish_places": [
+                "Toronto, Ontario"
+            ],
+            "isbn_13": [
+                "9781426812392"
+            ],
+            "source_records": [
+                "marc_overdrive/InternetArchiveCrMarc-2010-06-11q.mrc:5144664:1933",
+                "bwb:9781426812392"
+            ],
+            "title": "Pride & a Pregnancy Secret",
+            "identifiers": {
+                "overdrive": [
+                    "B001C0A4-C69A-41BC-A6F7-DFE891D5C30F"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-06-18T00:39:18.541570"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2008",
+            "publish_country": "nyu",
+            "oclc_numbers": [
+                "231755442"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL8032157W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 5
+        },
+        "/books/OL47826576M": {
+            "works": [
+                {
+                    "key": "/works/OL213266W"
+                }
+            ],
+            "title": "Nine Coaches Waiting",
+            "publishers": [
+                "Coronet"
+            ],
+            "publish_date": "1973",
+            "key": "/books/OL47826576M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                14325742
+            ],
+            "identifiers": {},
+            "classifications": {},
+            "publish_places": [
+                "London"
+            ],
+            "contributors": [
+                {
+                    "name": "Gino D'Achille",
+                    "role": "Cover Art"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "physical_format": "Paperback",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-05-24T10:34:58.694235"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-05-24T10:36:49.086061"
+            }
+        },
+        "/books/OL47826573M": {
+            "works": [
+                {
+                    "key": "/works/OL213266W"
+                }
+            ],
+            "title": "Nine Coaches Waiting",
+            "publishers": [
+                "Hodder"
+            ],
+            "publish_date": "1968",
+            "key": "/books/OL47826573M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                14325735
+            ],
+            "identifiers": {},
+            "classifications": {},
+            "contributors": [
+                {
+                    "role": "Cover Art",
+                    "name": "Renato Fratini"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "physical_format": "Paperback",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-05-24T10:26:09.056783"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-05-24T10:26:42.018735"
+            }
+        },
+        "/books/OL20706857M": {
+            "publishers": [
+                "Hodder"
+            ],
+            "pagination": "317p.",
+            "title": "Nine coaches waiting",
+            "number_of_pages": 317,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1958",
+            "publish_country": "xxk",
+            "key": "/books/OL20706857M",
+            "authors": [
+                {
+                    "key": "/authors/OL216503A"
+                }
+            ],
+            "by_statement": "Mary Stewart.",
+            "works": [
+                {
+                    "key": "/works/OL213266W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                14325741
+            ],
+            "identifiers": {},
+            "classifications": {},
+            "publish_places": [
+                "London"
+            ],
+            "physical_format": "Hardcover",
+            "ocaid": "bwb_KU-716-179",
+            "source_records": [
+                "ia:bwb_KU-716-179"
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-29T12:11:51.062828"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-04-26T21:21:14.273903"
+            }
+        },
+        "/books/OL6268700M": {
+            "publishers": [
+                "M. S. Mill and W. Morrow"
+            ],
+            "lc_classifications": [
+                "PZ4.S852 Ni",
+                "pR6069.T46 Ni"
+            ],
+            "key": "/books/OL6268700M",
+            "authors": [
+                {
+                    "key": "/authors/OL216503A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "pagination": "342 p.",
+            "title": "Nine coaches waiting.",
+            "lccn": [
+                "59005139"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "\"An abridged version of this novel was published in ... Ladies' home journal in 1958.\""
+            },
+            "number_of_pages": 342,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1959",
+            "publish_country": "nyu",
+            "works": [
+                {
+                    "key": "/works/OL213266W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "oclc_numbers": [
+                "376661"
+            ],
+            "source_records": [
+                "marc:marc_columbia/Columbia-extract-20221130-001.mrc:407904658:909"
+            ],
+            "latest_revision": 14,
+            "revision": 14,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-10T23:16:06.065472"
+            }
+        },
+        "/books/OL40234075M": {
+            "works": [
+                {
+                    "key": "/works/OL213266W"
+                }
+            ],
+            "title": "Nine Coaches Waiting",
+            "publishers": [
+                "Fawcett Publications"
+            ],
+            "publish_date": "1970-01",
+            "key": "/books/OL40234075M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                12992525
+            ],
+            "ocaid": "ninecoacheswait00stew",
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lccn": [
+                "59005139"
+            ],
+            "lc_classifications": [
+                "PZ4.S852 Ni",
+                "pR6069.T46 Ni"
+            ],
+            "source_records": [
+                "ia:ninecoacheswait00stew"
+            ],
+            "number_of_pages": 342,
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-07T10:58:53.436921"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-05-08T19:40:11.034675"
+            }
+        },
+        "/books/OL10615064M": {
+            "publishers": [
+                "Coronet Books"
+            ],
+            "number_of_pages": 256,
+            "weight": "8.5 ounces",
+            "title": "Nine Coaches Waiting (Coronet Books)",
+            "physical_format": "Paperback",
+            "identifiers": {
+                "librarything": [
+                    "26497"
+                ],
+                "goodreads": [
+                    "1135271"
+                ]
+            },
+            "isbn_13": [
+                "9780340014394"
+            ],
+            "covers": [
+                2394355,
+                201217
+            ],
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "I was thankful that nobody was there to meet me at the airport."
+            },
+            "isbn_10": [
+                "0340014393"
+            ],
+            "publish_date": "1990",
+            "key": "/books/OL10615064M",
+            "authors": [
+                {
+                    "key": "/authors/OL216503A"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "7.1 x 4.3 x 1.2 inches",
+            "works": [
+                {
+                    "key": "/works/OL213266W"
+                }
+            ],
+            "lc_classifications": [
+                "PR6069.T46"
+            ],
+            "source_records": [
+                "bwb:9780340014394"
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-04-17T21:24:28.213433"
+            }
+        },
+        "/books/OL34412293M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL2393230A"
+                }
+            ],
+            "isbn_13": [
+                "9780340014400"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1974",
+            "publishers": [
+                "Hodder & Stoughton"
+            ],
+            "source_records": [
+                "bwb:9780340014400",
+                "marc:harvard_bibliographic_metadata/ab.bib.01.20150123.full.mrc:794992774:627",
+                "marc:harvard_bibliographic_metadata/20220215_037.bib.mrc:169117941:942"
+            ],
+            "subjects": [
+                "Fiction, historical, general"
+            ],
+            "title": "Nine Coaches Waiting",
+            "weight": "0.443",
+            "full_title": "Nine Coaches Waiting",
+            "works": [
+                {
+                    "key": "/works/OL213266W"
+                }
+            ],
+            "key": "/books/OL34412293M",
+            "lc_classifications": [
+                "PR6069 .S853 1961"
+            ],
+            "oclc_numbers": [
+                "9331288"
+            ],
+            "number_of_pages": 317,
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-04T07:04:55.341116"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-05-05T01:10:22.629401"
+            }
+        },
+        "/books/OL7567071M": {
+            "publishers": [
+                "Fawcett"
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2010-09-06T02:48:43.205735"
+            },
+            "source_records": [
+                "amazon:0449231216:bm:1443203191:245338"
+            ],
+            "title": "Nine Coaches Waiting",
+            "identifiers": {
+                "librarything": [
+                    "26497"
+                ]
+            },
+            "isbn_13": [
+                "9780449231210"
+            ],
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0449231216"
+            ],
+            "publish_date": "July 12, 1978",
+            "key": "/books/OL7567071M",
+            "authors": [
+                {
+                    "key": "/authors/OL216503A"
+                }
+            ],
+            "latest_revision": 5,
+            "works": [
+                {
+                    "key": "/works/OL213266W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "I was thankful that nobody was there to meet me at the airport."
+            },
+            "revision": 5
+        },
+        "/books/OL9626256M": {
+            "publishers": [
+                "Tandem Library"
+            ],
+            "weight": "8.8 ounces",
+            "physical_format": "School & Library Binding",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2010-09-06T02:48:43.205735"
+            },
+            "latest_revision": 6,
+            "key": "/books/OL9626256M",
+            "authors": [
+                {
+                    "key": "/authors/OL216503A"
+                }
+            ],
+            "subjects": [
+                "Sports",
+                "Fiction"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "I was thankful that nobody was there to meet me at the airport."
+            },
+            "source_records": [
+                "amazon:0613580893:2-ao:2701912824:244020"
+            ],
+            "title": "Nine Coaches Waiting",
+            "identifiers": {
+                "goodreads": [
+                    "1703253"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "isbn_13": [
+                "9780613580892"
+            ],
+            "isbn_10": [
+                "0613580893"
+            ],
+            "publish_date": "July 2003",
+            "works": [
+                {
+                    "key": "/works/OL213266W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.8 x 4.2 x 1.2 inches",
+            "revision": 6
+        },
+        "/books/OL32123968M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "2011",
+            "publish_country": "enk",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "description": "Passion has a double price ... Alexander Konstantinakos has discovered that one passionate night in Manchester had its consequences: two, to be precise. Out of the blue he's turned up on Ruby Wareham's doorstep--to take his twin sons back to Greece! Ruby's shocked that she's still so attracted to the dark, sexy and powerful Alexander! She's afraid she might lose her beautiful boys, whom she's struggled to bring up on her own, but maybe there's a solution ... Can she wed Sander--a virtual stranger--and live as his wife, and in his bed?",
+            "subjects": [
+                "Greeks",
+                "Fiction",
+                "Birthfathers",
+                "Twins",
+                "Romance fiction",
+                "Large type books"
+            ],
+            "title": "Marriage:  To Claim His Twins",
+            "by_statement": "Penny Jordan",
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "publish_places": [
+                "Richmond"
+            ],
+            "pagination": "1 volume (large print)",
+            "source_records": [
+                "ia:marriagetoclaimh0000jord",
+                "ia:marriagetoclaimh0000jord_u0r4"
+            ],
+            "full_title": "Marriage, to claim his twins",
+            "covers": [
+                10785100
+            ],
+            "works": [
+                {
+                    "key": "/works/OL15186060W"
+                }
+            ],
+            "key": "/books/OL32123968M",
+            "identifiers": {},
+            "classifications": {},
+            "edition_name": "Large Print Edition",
+            "ocaid": "marriagetoclaimh0000jord",
+            "isbn_10": [
+                "0263229610",
+                "0263212440"
+            ],
+            "isbn_13": [
+                "9780263229615",
+                "9780263212440"
+            ],
+            "oclc_numbers": [
+                "751726999"
+            ],
+            "dewey_decimal_class": [
+                "823.92"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-03-27T12:32:45.768853"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-28T16:57:17.746436"
+            }
+        },
+        "/books/OL24318120M": {
+            "publishers": [
+                "Harlequin Mills & Boon Ltd."
+            ],
+            "physical_format": "eBook",
+            "source_records": [
+                "marc:marc_overdrive/InternetArchiveCrMarc-2010-06-11n.mrc:6049808:1932",
+                "bwb:9781408918975"
+            ],
+            "title": "Marriage: To Claim His Twins",
+            "identifiers": {
+                "overdrive": [
+                    "C367FDF2-9C87-40F1-A173-B87F2F012383"
+                ]
+            },
+            "isbn_13": [
+                "9781408918975"
+            ],
+            "covers": [
+                6442814
+            ],
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-07-01T01:37:40.077922"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-08-22T04:22:57.349986"
+            },
+            "publish_date": "2010",
+            "publish_country": "nyu",
+            "key": "/books/OL24318120M",
+            "latest_revision": 3,
+            "publish_places": [
+                "Surrey"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL15186060W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 3
+        },
+        "/books/OL10739536M": {
+            "identifiers": {
+                "goodreads": [
+                    "2200344"
+                ],
+                "librarything": [
+                    "3692077"
+                ]
+            },
+            "title": "The Spanish Duke's Virgin Bride",
+            "authors": [
+                {
+                    "key": "/authors/OL3285866A"
+                }
+            ],
+            "publish_date": "November 1, 2007",
+            "publishers": [
+                "Harlequin"
+            ],
+            "ia_box_id": [
+                "IA119510"
+            ],
+            "weight": "4 ounces",
+            "covers": [
+                6632284,
+                2407586
+            ],
+            "physical_format": "Mass Market Paperback",
+            "subjects": [
+                "American Light Romantic Fiction",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern",
+                "Romance - Contemporary",
+                "Fiction / Romance / General"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-06-01:W7-BKW-243",
+                "bwb:9780373126798",
+                "promise:bwb_daily_pallets_2022-03-17:W7-AXK-723"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.4 x 4.2 x 0.6 inches",
+            "local_id": [
+                "urn:bwbsku:W7-BKW-243",
+                "urn:bwbsku:W7-AXK-723"
+            ],
+            "key": "/books/OL10739536M",
+            "number_of_pages": 192,
+            "works": [
+                {
+                    "key": "/works/OL9224690W"
+                }
+            ],
+            "ocaid": "spanishdukesvirg00shaw",
+            "isbn_10": [
+                "0373126794"
+            ],
+            "isbn_13": [
+                "9780373126798"
+            ],
+            "classifications": {},
+            "latest_revision": 17,
+            "revision": 17,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-10-02T11:53:19.108162"
+            }
+        },
+        "/books/OL9500406M": {
+            "identifiers": {
+                "librarything": [
+                    "2310504"
+                ]
+            },
+            "title": "An Impossible Dream",
+            "authors": [
+                {
+                    "key": "/authors/OL451969A"
+                }
+            ],
+            "publish_date": "February 1, 1993",
+            "publishers": [
+                "Harlequin"
+            ],
+            "series": [
+                "Harlequin Presents, No 1536"
+            ],
+            "covers": [
+                14832866
+            ],
+            "physical_format": "Paperback",
+            "ocaid": "impossibledream00emma",
+            "subjects": [
+                "Non-Classifiable",
+                "Romance - General",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Regency"
+            ],
+            "isbn_13": [
+                "9780373115365"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-06-28:o7-bsx-627",
+                "ia:impossibledream00emma",
+                "bwb:9780373115365",
+                "promise:bwb_daily_pallets_2021-03-08:371-BAC-786"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373115369"
+            ],
+            "oclc_numbers": [
+                "27046532"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.7 x 4.1 x 0.5 inches",
+            "local_id": [
+                "urn:bwbsku:O7-BSX-627",
+                "urn:bwbsku:371-BAC-786"
+            ],
+            "key": "/books/OL9500406M",
+            "works": [
+                {
+                    "key": "/works/OL2959193W"
+                }
+            ],
+            "latest_revision": 15,
+            "revision": 15,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-06T16:02:30.379629"
+            }
+        },
+        "/books/OL24202143M": {
+            "title": "The Boss's Forbidden Secretary",
+            "authors": [
+                {
+                    "key": "/authors/OL687719A"
+                }
+            ],
+            "publish_date": "2009",
+            "publishers": [
+                "Harlequin",
+                "Harlequin Presents"
+            ],
+            "ia_box_id": [
+                "IA106010"
+            ],
+            "series": [
+                "Harlequin presents -- 2815"
+            ],
+            "pagination": "184 p. ;",
+            "covers": [
+                6492407
+            ],
+            "publish_places": [
+                "Toronto",
+                "New York"
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-09-22:P7-DRR-881",
+                "ia:bosssforbiddense00wilk",
+                "bwb:9780373128150",
+                "marc:marc_loc_2016/BooksAll.2016.part37.utf8:6000635:872",
+                "promise:bwb_daily_pallets_2021-09-21:P7-DMJ-517"
+            ],
+            "subjects": [
+                "Businessmen -- Fiction.",
+                "Secretaries -- Fiction."
+            ],
+            "publish_country": "onc",
+            "by_statement": "Lee Wilkinson.",
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:P7-DRR-881",
+                "urn:bwbsku:P7-DMJ-517"
+            ],
+            "key": "/books/OL24202143M",
+            "number_of_pages": 184,
+            "works": [
+                {
+                    "key": "/works/OL15134753W"
+                }
+            ],
+            "identifiers": {},
+            "ocaid": "bosssforbiddense00wilk",
+            "isbn_10": [
+                "0373128150"
+            ],
+            "isbn_13": [
+                "9780373128150"
+            ],
+            "lccn": [
+                "2009439880"
+            ],
+            "oclc_numbers": [
+                "299086266"
+            ],
+            "classifications": {},
+            "dewey_decimal_class": [
+                "823.92"
+            ],
+            "lc_classifications": [
+                "PR6073.I419 B67 2009",
+                "CPB Box no. 2937 vol. 12"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "latest_revision": 18,
+            "revision": 18,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-05-05T05:33:05.012119"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-23T10:28:34.090601"
+            }
+        },
+        "/books/OL24274834M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "covers": [
+                6393866
+            ],
+            "physical_format": "Electronic resource",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-08-28T09:23:45.745808"
+            },
+            "latest_revision": 5,
+            "key": "/books/OL24274834M",
+            "authors": [
+                {
+                    "key": "/authors/OL687719A"
+                }
+            ],
+            "publish_places": [
+                "Toronto, Ontario"
+            ],
+            "isbn_13": [
+                "9781426831140"
+            ],
+            "source_records": [
+                "marc_overdrive/InternetArchiveCrMarc-2010-06-11a.mrc:4473203:1943",
+                "bwb:9781426831140"
+            ],
+            "title": "The Boss's Forbidden Secretary",
+            "identifiers": {
+                "overdrive": [
+                    "F1572B47-38A3-4C66-9E17-06EDEDB2B26B"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-06-18T06:33:58.718054"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2009",
+            "publish_country": "nyu",
+            "oclc_numbers": [
+                "435641229"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL15134753W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 5
+        },
+        "/books/OL10691389M": {
+            "title": "Riviera Romance",
+            "authors": [
+                {
+                    "key": "/authors/OL2624611A"
+                }
+            ],
+            "publish_date": "September 1, 1984",
+            "publishers": [
+                "harlequin"
+            ],
+            "physical_format": "Paperback",
+            "subjects": [
+                "General",
+                "Non-Classifiable",
+                "Fiction - General"
+            ],
+            "isbn_13": [
+                "9780373026500"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-06-28:W6-BAF-838",
+                "bwb:9780373026500",
+                "promise:bwb_daily_pallets_2021-04-14:W6-BNC-429",
+                "promise:bwb_daily_pallets_2021-03-08:O7-BLS-854"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373026501"
+            ],
+            "oclc_numbers": [
+                "11008542"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:W6-BAF-838",
+                "urn:bwbsku:W6-BNC-429",
+                "urn:bwbsku:O7-BLS-854"
+            ],
+            "key": "/books/OL10691389M",
+            "number_of_pages": 186,
+            "works": [
+                {
+                    "key": "/works/OL8028189W"
+                }
+            ],
+            "latest_revision": 13,
+            "revision": 13,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-07-04T16:12:23.518900"
+            }
+        },
+        "/books/OL29264333M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781408999271"
+            ],
+            "title": "Lovers Touch",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781408999271"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Lovers Touch",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2015",
+            "key": "/books/OL29264333M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3759116W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-24T00:40:51.875689"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-02T23:34:23.215548"
+            }
+        },
+        "/books/OL18308656M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "pagination": "192p.",
+            "number_of_pages": 192,
+            "source_records": [
+                "bwb:9780263761924"
+            ],
+            "title": "Lovers touch.",
+            "identifiers": {
+                "librarything": [
+                    "1937366"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263761924"
+            ],
+            "publish_date": "1989",
+            "publish_country": "xxk",
+            "key": "/books/OL18308656M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "oclc_numbers": [
+                "20091857"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3759116W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-15T18:15:58.740990"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-02T23:34:23.215548"
+            }
+        },
+        "/books/OL9045261M": {
+            "publishers": [
+                "Books On Tape",
+                "Books on Tape"
+            ],
+            "physical_format": "Audio cassette",
+            "source_records": [
+                "amazon:5557119108:hj:124311804:220855",
+                "amazon:5557119108"
+            ],
+            "title": "Kiss an Angel",
+            "identifiers": {
+                "librarything": [
+                    "78498"
+                ]
+            },
+            "isbn_13": [
+                "9785557119108"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "5557119108"
+            ],
+            "publish_date": "January 1996",
+            "key": "/books/OL9045261M",
+            "works": [
+                {
+                    "key": "/works/OL17717W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "General",
+                "Audio - Fiction (Unabridged)",
+                "Fiction"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-11T23:05:18.303901"
+            }
+        },
+        "/books/OL29011433M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263871937",
+                "ia:richmansblackmai0000dona",
+                "promise:bwb_daily_pallets_2021-02-04"
+            ],
+            "title": "Rich Man's Blackmailed Mistress",
+            "number_of_pages": 186,
+            "isbn_13": [
+                "9780263871937"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Rich Man's Blackmailed Mistress",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2009",
+            "key": "/books/OL29011433M",
+            "authors": [
+                {
+                    "key": "/authors/OL579518A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL15180402W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, erotica",
+                "Brothers and sisters, fiction"
+            ],
+            "covers": [
+                11321517
+            ],
+            "ocaid": "richmansblackmai0000dona",
+            "local_id": [
+                "urn:bwbsku:KO-577-244"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-20T17:07:46.785742"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-30T12:31:23.689797"
+            }
+        },
+        "/books/OL29107266M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781408909607"
+            ],
+            "title": "Rich Man's Blackmailed Mistress",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781408909607"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Rich Man's Blackmailed Mistress",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2009",
+            "key": "/books/OL29107266M",
+            "authors": [
+                {
+                    "key": "/authors/OL579518A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL15180402W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, erotica",
+                "Brothers and sisters, fiction"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-22T04:10:27.902692"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-30T12:31:23.689797"
+            }
+        },
+        "/books/OL24312281M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "physical_format": "eBook",
+            "source_records": [
+                "marc:marc_overdrive/InternetArchiveCrMarc-2010-06-11j.mrc:636425:2097",
+                "bwb:9781426847967"
+            ],
+            "title": "The Rich Man's Blackmailed Mistress",
+            "identifiers": {
+                "overdrive": [
+                    "F406045F-ADEB-4A8C-8342-7A39726DA3B6"
+                ]
+            },
+            "isbn_13": [
+                "9781426847967"
+            ],
+            "covers": [
+                6437300
+            ],
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-06-30T19:57:20.837183"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-08-28T04:53:53.749311"
+            },
+            "publish_date": "2010",
+            "publish_country": "nyu",
+            "key": "/books/OL24312281M",
+            "latest_revision": 3,
+            "publish_places": [
+                "Toronto, Ontario"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL15180402W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 3
+        },
+        "/books/OL34840501M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL18977A"
+                }
+            ],
+            "isbn_13": [
+                "9780515152982"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2012",
+            "publishers": [
+                "Penguin Publishing Group"
+            ],
+            "source_records": [
+                "bwb:9780515152982",
+                "amazon:0515152986"
+            ],
+            "subjects": [
+                "Fiction, family life",
+                "Mothers and daughters, fiction",
+                "Virginia, fiction"
+            ],
+            "title": "True Betrayals",
+            "weight": "0.239",
+            "pagination": "432",
+            "full_title": "True Betrayals",
+            "works": [
+                {
+                    "key": "/works/OL111635W"
+                }
+            ],
+            "key": "/books/OL34840501M",
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-08T14:32:08.289773"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-11-14T22:30:25.061883"
+            }
+        },
+        "/books/OL32947412M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Schatten über den Weiden",
+            "authors": [
+                {
+                    "key": "/authors/OL18977A"
+                }
+            ],
+            "publish_date": "Dec 12, 2016",
+            "source_records": [
+                "amazon:3453359178",
+                "promise:bwb_daily_pallets_2020-12-28"
+            ],
+            "publishers": [
+                "Diana Verlag"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Schatten über den Weiden Roman",
+            "subtitle": "Roman",
+            "notes": "Source title: Schatten über den Weiden: Roman",
+            "covers": [
+                11563481
+            ],
+            "works": [
+                {
+                    "key": "/works/OL111635W"
+                }
+            ],
+            "key": "/books/OL32947412M",
+            "identifiers": {},
+            "isbn_10": [
+                "3453359178"
+            ],
+            "isbn_13": [
+                "9783453359178"
+            ],
+            "ocaid": "schattenuberdenw0000robe_t2i4",
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/ger"
+                }
+            ],
+            "local_id": [
+                "urn:bwbsku:KO-968-844"
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-08-07T19:55:20.762178"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-09T05:17:11.543838"
+            }
+        },
+        "/books/OL32623867M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "True Betrayals",
+            "authors": [
+                {
+                    "key": "/authors/OL18977A"
+                }
+            ],
+            "publish_date": "Aug 24, 2021",
+            "source_records": [
+                "amazon:0593438574",
+                "bwb:9780593438572",
+                "promise:bwb_daily_pallets_2022-03-17"
+            ],
+            "number_of_pages": 432,
+            "publishers": [
+                "Berkley"
+            ],
+            "isbn_10": [
+                "0593438574"
+            ],
+            "isbn_13": [
+                "9780593438572"
+            ],
+            "physical_format": "mass market paperback",
+            "full_title": "True Betrayals",
+            "covers": [
+                11258667
+            ],
+            "works": [
+                {
+                    "key": "/works/OL111635W"
+                }
+            ],
+            "key": "/books/OL32623867M",
+            "local_id": [
+                "urn:bwbsku:P7-DND-962"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-06-12T23:19:07.050449"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-07T13:59:02.248409"
+            }
+        },
+        "/books/OL13433010M": {
+            "publishers": [
+                "Distribooks"
+            ],
+            "source_records": [
+                "amazon:8878184365"
+            ],
+            "title": "Tradimenti",
+            "identifiers": {
+                "goodreads": [
+                    "1586980"
+                ]
+            },
+            "isbn_13": [
+                "9788878184367"
+            ],
+            "physical_format": "Paperback",
+            "isbn_10": [
+                "8878184365"
+            ],
+            "publish_date": "April 2002",
+            "key": "/books/OL13433010M",
+            "authors": [
+                {
+                    "key": "/authors/OL18977A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL111635W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction",
+                "Romance - General",
+                "Fiction - Romance"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-07-07T11:26:07.717096"
+            }
+        },
+        "/books/OL32364445M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "1999",
+            "publish_country": "gw",
+            "languages": [
+                {
+                    "key": "/languages/ger"
+                }
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL18977A"
+                }
+            ],
+            "oclc_numbers": [
+                "76229390"
+            ],
+            "dewey_decimal_class": [
+                "810",
+                "B"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Lizenz des Verl. Heyne, München"
+            },
+            "title": "Schatten über den Weiden",
+            "subtitle": "Roman",
+            "by_statement": "Nora Roberts. Aus dem Amerikan. von Nina Heyer",
+            "publishers": [
+                "Bechtermünz-Verl."
+            ],
+            "publish_places": [
+                "[Augsburg]"
+            ],
+            "isbn_13": [
+                "9783828901803"
+            ],
+            "isbn_10": [
+                "3828901808"
+            ],
+            "pagination": "527 S.",
+            "number_of_pages": 527,
+            "ocaid": "schattenuberdenw0000robe",
+            "source_records": [
+                "ia:schattenuberdenw0000robe",
+                "promise:bwb_daily_pallets_2020-11-12"
+            ],
+            "covers": [
+                11011087
+            ],
+            "works": [
+                {
+                    "key": "/works/OL111635W"
+                }
+            ],
+            "key": "/books/OL32364445M",
+            "local_id": [
+                "urn:bwbsku:KM-102-649"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-05-09T06:14:28.131164"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-15T15:13:05.156440"
+            }
+        },
+        "/books/OL32120980M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "1996",
+            "publish_country": "fr",
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL18977A"
+                }
+            ],
+            "oclc_numbers": [
+                "226153661"
+            ],
+            "work_titles": [
+                "True betrayals"
+            ],
+            "series": [
+                "J'ai lu -- 4275",
+                "J'ai lu -- 4275."
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Translation of: True betrayals.\n\nIn French."
+            },
+            "title": "L'impossible mensonge",
+            "by_statement": "Nora Roberts ; traduit de l'américain par Anne Busnel",
+            "publishers": [
+                "J'ai lu"
+            ],
+            "publish_places": [
+                "Paris"
+            ],
+            "isbn_10": [
+                "2290334170"
+            ],
+            "isbn_13": [
+                "9782290334171"
+            ],
+            "pagination": "412 pages",
+            "number_of_pages": 412,
+            "ocaid": "limpossiblemenso0000robe",
+            "source_records": [
+                "ia:limpossiblemenso0000robe",
+                "promise:bwb_daily_pallets_2020-06-24"
+            ],
+            "covers": [
+                10781524
+            ],
+            "works": [
+                {
+                    "key": "/works/OL111635W"
+                }
+            ],
+            "key": "/books/OL32120980M",
+            "local_id": [
+                "urn:bwbsku:KN-697-738"
+            ],
+            "identifiers": {
+                "amazon": [
+                    ""
+                ]
+            },
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-03-27T10:46:48.832938"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-10T06:35:58.377859"
+            }
+        },
+        "/books/OL32729927M": {
+            "works": [
+                {
+                    "key": "/works/OL111635W"
+                }
+            ],
+            "title": "True Betrayals",
+            "publishers": [
+                "Magna Large Print Books"
+            ],
+            "publish_date": "2017",
+            "key": "/books/OL32729927M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                11356741
+            ],
+            "ocaid": "truebetrayals0000robe_i0p1",
+            "isbn_13": [
+                "9780750544528"
+            ],
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "local_id": [
+                "urn:bwbsku:KN-670-459"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2020-06-24",
+                "bwb:9780750544528"
+            ],
+            "number_of_pages": 587,
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-07-04T10:03:44.760962"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-07-17T05:52:17.416677"
+            }
+        },
+        "/books/OL32725234M": {
+            "works": [
+                {
+                    "key": "/works/OL111635W"
+                }
+            ],
+            "title": "True Betrayals",
+            "publishers": [
+                "Jove Books"
+            ],
+            "publish_date": "1996-05",
+            "key": "/books/OL32725234M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {
+                "amazon": [
+                    ""
+                ]
+            },
+            "isbn_10": [
+                "0515118559"
+            ],
+            "ocaid": "truebetrayal00robe",
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "covers": [
+                11352283
+            ],
+            "local_id": [
+                "urn:bwbsku:P4-BIN-880"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2020-10-07",
+                "bwb:9780515118551"
+            ],
+            "lc_classifications": [
+                "CPB"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-07-03T14:45:41.258222"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-17T08:46:16.822762"
+            }
+        },
+        "/books/OL29443275M": {
+            "publishers": [
+                "Little, Brown Book Group Limited"
+            ],
+            "source_records": [
+                "bwb:9780349407999",
+                "promise:bwb_daily_pallets_2022-07-11"
+            ],
+            "title": "True Betrayals",
+            "number_of_pages": 480,
+            "isbn_13": [
+                "9780349407999"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "True Betrayals",
+            "lc_classifications": [
+                "",
+                "PS3568.O243"
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL29443275M",
+            "authors": [
+                {
+                    "key": "/authors/OL18977A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL111635W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:KQ-433-503"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-25T22:17:23.654617"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-04T23:31:37.696099"
+            }
+        },
+        "/books/OL27684352M": {
+            "publishers": [
+                "Brilliance Audio"
+            ],
+            "source_records": [
+                "amazon:1441888055"
+            ],
+            "title": "True Betrayals",
+            "identifiers": {
+                "amazon": [
+                    "1441888055"
+                ]
+            },
+            "isbn_13": [
+                "9781441888051"
+            ],
+            "covers": [
+                9124432
+            ],
+            "physical_format": "audio cd",
+            "full_title": "True Betrayals",
+            "isbn_10": [
+                "1441888055"
+            ],
+            "publish_date": "Aug 28, 2010",
+            "key": "/books/OL27684352M",
+            "authors": [
+                {
+                    "key": "/authors/OL18977A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL111635W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-11-14T02:56:53.223447"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-07-01T14:00:19.865696"
+            }
+        },
+        "/books/OL7470793M": {
+            "publishers": [
+                "Putnam Adult"
+            ],
+            "source_records": [
+                "amazon:0399142932:bf:4079487584:140813"
+            ],
+            "title": "OP True Betrayals",
+            "identifiers": {
+                "goodreads": [
+                    "1110155"
+                ],
+                "librarything": [
+                    "21649"
+                ]
+            },
+            "isbn_13": [
+                "9780399142932"
+            ],
+            "isbn_10": [
+                "0399142932"
+            ],
+            "key": "/books/OL7470793M",
+            "authors": [
+                {
+                    "key": "/authors/OL18977A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL111635W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-07-01T14:00:19.865696"
+            }
+        },
+        "/books/OL8850363M": {
+            "publishers": [
+                "Brilliance Audio on CD Lib Ed"
+            ],
+            "weight": "7.7 ounces",
+            "covers": [
+                862059
+            ],
+            "edition_name": "Library edition",
+            "physical_format": "Audio CD",
+            "key": "/books/OL8850363M",
+            "subjects": [
+                "Suspense",
+                "Audiobooks",
+                "Fiction",
+                "Abridged Audio - Fiction/Romance",
+                "Audio Adult: Books On Tape",
+                "Romance - General",
+                "Fiction / Romance / General"
+            ],
+            "isbn_13": [
+                "9781590865620"
+            ],
+            "source_records": [
+                "amazon:1590865626:ft:2064866119:262322",
+                "amazon:1590865626"
+            ],
+            "title": "True Betrayals",
+            "identifiers": {
+                "librarything": [
+                    "21649"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "1590865626"
+            ],
+            "publish_date": "June 10, 2003",
+            "works": [
+                {
+                    "key": "/works/OL111635W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.7 x 6.3 x 0.8 inches",
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-04T10:32:18.390739"
+            }
+        },
+        "/books/OL17456702M": {
+            "publishers": [
+                "Michael Joseph"
+            ],
+            "number_of_pages": 404,
+            "key": "/books/OL17456702M",
+            "authors": [
+                {
+                    "key": "/authors/OL18977A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "404p. ;",
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:1558883958:496",
+                "bwb:9780718139070",
+                "amazon:0718139070"
+            ],
+            "title": "True betrayals",
+            "dewey_decimal_class": [
+                "813.54"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "21649"
+                ],
+                "goodreads": [
+                    "2597268"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0718139070"
+            ],
+            "publish_date": "1995",
+            "publish_country": "enk",
+            "by_statement": "Nora Roberts.",
+            "oclc_numbers": [
+                "41466615"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL111635W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                13202719
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-28T21:34:47.250381"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-02T03:47:47.224246"
+            }
+        },
+        "/books/OL23262094M": {
+            "publishers": [
+                "Putnam"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "2597265"
+                ],
+                "librarything": [
+                    "21649"
+                ]
+            },
+            "isbn_10": [
+                "039914059X"
+            ],
+            "pagination": "388 p. cm.",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2010-08-19T12:47:03.237643"
+            },
+            "latest_revision": 5,
+            "key": "/books/OL23262094M",
+            "authors": [
+                {
+                    "key": "/authors/OL18977A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "genres": [
+                "Fiction"
+            ],
+            "source_records": [
+                "marc:CollingswoodLibraryMarcDump10-27-2008/Collingswood.out:47780225:898"
+            ],
+            "title": "True betrayals",
+            "lccn": [
+                "94039229"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "141,311"
+            },
+            "number_of_pages": 388,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-05-29T17:57:20.470459"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Mothers and daughters -- Virginia -- Fiction",
+                "Horse racing -- Virginia -- Fiction"
+            ],
+            "publish_date": "1995",
+            "publish_country": "nyu",
+            "by_statement": "Nora Roberts.",
+            "works": [
+                {
+                    "key": "/works/OL111635W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 5
+        },
+        "/books/OL10239142M": {
+            "publishers": [
+                "MacMillan Publishing Company"
+            ],
+            "physical_format": "Hardcover",
+            "title": "Unfriendly Alliance",
+            "number_of_pages": 288,
+            "isbn_13": [
+                "9780263120257"
+            ],
+            "edition_name": "Largeprint edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263120252"
+            ],
+            "publish_date": "June 1989",
+            "key": "/books/OL10239142M",
+            "authors": [
+                {
+                    "key": "/authors/OL687900A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3845174W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Romance - General",
+                "Fiction - Romance",
+                "Large Print"
+            ],
+            "source_records": [
+                "bwb:9780263120257"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-17T06:44:46.117976"
+            }
+        },
+        "/books/OL21424683M": {
+            "publishers": [
+                "Harlequin Holland"
+            ],
+            "title": "Grillig is het lot.",
+            "work_titles": [
+                "Unfriendly alliance."
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Originally published as \"Unfriendly alliance\", 1987."
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-02T13:46:51.018994"
+            },
+            "languages": [
+                {
+                    "key": "/languages/dut"
+                }
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2011-11-22T22:07:24.932409"
+            },
+            "publish_date": "1987",
+            "publish_country": "ne ",
+            "key": "/books/OL21424683M",
+            "authors": [
+                {
+                    "key": "/authors/OL687900A"
+                }
+            ],
+            "latest_revision": 14,
+            "publish_places": [
+                "Amsterdam"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3845174W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 14
+        },
+        "/books/OL10749583M": {
+            "identifiers": {
+                "librarything": [
+                    "4517519"
+                ],
+                "goodreads": [
+                    "2781595"
+                ]
+            },
+            "title": "Pride & A Pregnancy Secret",
+            "subtitle": "Diamonds Down Under",
+            "authors": [
+                {
+                    "key": "/authors/OL2674673A"
+                }
+            ],
+            "publish_date": "February 12, 2008",
+            "publishers": [
+                "Silhouette",
+                "Silhouette Desire"
+            ],
+            "ia_box_id": [
+                "IA171701"
+            ],
+            "covers": [
+                2411035
+            ],
+            "physical_format": "Mass Market Paperback",
+            "ia_loaded_id": [
+                "pridepregnancyse00radl"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-10-04:P7-BRC-060",
+                "amazon:0373768494",
+                "marc:marc_loc_updates/v37.i26.records.utf8:57913107:836",
+                "ia:pridepregnancyse00radl",
+                "bwb:9780373768493",
+                "marc:marc_loc_2016/BooksAll.2016.part37.utf8:5457927:836",
+                "promise:bwb_daily_pallets_2021-07-16:O7-CFF-151"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "American Light Romantic Fiction",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern",
+                "Romance - Contemporary",
+                "Fiction / Romance / General"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "pridepregnancyse00radl",
+            "isbn_10": [
+                "0373768494"
+            ],
+            "isbn_13": [
+                "9780373768493"
+            ],
+            "lccn": [
+                "2009439324"
+            ],
+            "oclc_numbers": [
+                "190824643"
+            ],
+            "lc_classifications": [
+                "CPB Box no. 2895 vol. 10"
+            ],
+            "local_id": [
+                "urn:bwbsku:P7-BRC-060",
+                "urn:bwbsku:O7-CFF-151"
+            ],
+            "key": "/books/OL10749583M",
+            "number_of_pages": 192,
+            "works": [
+                {
+                    "key": "/works/OL8032157W"
+                }
+            ],
+            "latest_revision": 20,
+            "revision": 20,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T12:24:35.027394"
+            }
+        },
+        "/books/OL47826577M": {
+            "works": [
+                {
+                    "key": "/works/OL213266W"
+                }
+            ],
+            "title": "Nine Coaches Waiting",
+            "publishers": [
+                "Fawcett Crest"
+            ],
+            "publish_date": "1963",
+            "key": "/books/OL47826577M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                14325745
+            ],
+            "identifiers": {},
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "physical_format": "Paperback",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-05-24T10:40:07.183875"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-05-24T10:40:35.324986"
+            }
+        },
+        "/books/OL40234681M": {
+            "works": [
+                {
+                    "key": "/works/OL213266W"
+                }
+            ],
+            "title": "Nine Coaches Waiting",
+            "publishers": [
+                "Hodder and Stoughton"
+            ],
+            "publish_date": "1966",
+            "key": "/books/OL40234681M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "covers": [
+                14325737,
+                12993073
+            ],
+            "ocaid": "ninecoacheswaiti0000mary",
+            "publish_places": [
+                "London"
+            ],
+            "contributors": [
+                {
+                    "name": "Renato Fratini",
+                    "role": "Cover Art"
+                }
+            ],
+            "physical_format": "Paperback",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-08T11:19:14.426790"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-05-24T10:28:44.700051"
+            }
+        },
+        "/books/OL40234063M": {
+            "works": [
+                {
+                    "key": "/works/OL213266W"
+                }
+            ],
+            "title": "Nine Coaches Waiting",
+            "publishers": [
+                "Fawcett Publications"
+            ],
+            "publish_date": "1970-01",
+            "key": "/books/OL40234063M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                12992519
+            ],
+            "ocaid": "ninecoacheswaiti00stew",
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-07T10:41:52.358263"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-11-07T10:42:10.661293"
+            }
+        },
+        "/books/OL37785954M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Nine Coaches Waiting",
+            "authors": [
+                {
+                    "key": "/authors/OL2393230A"
+                }
+            ],
+            "publish_date": "Jun 28, 1959",
+            "source_records": [
+                "amazon:0688021859"
+            ],
+            "publishers": [
+                "William Morrow & Co"
+            ],
+            "isbn_10": [
+                "0688021859"
+            ],
+            "isbn_13": [
+                "9780688021856"
+            ],
+            "physical_format": "hardcover",
+            "full_title": "Nine Coaches Waiting",
+            "works": [
+                {
+                    "key": "/works/OL213266W"
+                }
+            ],
+            "key": "/books/OL37785954M",
+            "covers": [
+                13346122
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-03-29T02:09:24.649765"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-24T18:01:06.270776"
+            }
+        },
+        "/books/OL28460067M": {
+            "publishers": [
+                "Hodder & Stoughton Canada"
+            ],
+            "source_records": [
+                "bwb:9781444711073"
+            ],
+            "title": "Nine Coaches Waiting",
+            "number_of_pages": 480,
+            "isbn_13": [
+                "9781444711073"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Nine Coaches Waiting",
+            "lc_classifications": [
+                "PR6069.T46"
+            ],
+            "publish_date": "2011",
+            "key": "/books/OL28460067M",
+            "authors": [
+                {
+                    "key": "/authors/OL2393230A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL213266W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "France, fiction",
+                "Fiction, romance, suspense"
+            ],
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-02T12:41:58.483790"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-04-17T21:24:28.213433"
+            }
+        },
+        "/books/OL9719385M": {
+            "identifiers": {
+                "goodreads": [
+                    "1703255"
+                ]
+            },
+            "title": "Nine Coaches Waiting (Ulverscroft Large Print)",
+            "authors": [
+                {
+                    "key": "/authors/OL216503A"
+                }
+            ],
+            "publish_date": "June 1989",
+            "publishers": [
+                "Ulverscroft Large Print"
+            ],
+            "physical_format": "Hardcover",
+            "subjects": [
+                "Romance - Historical",
+                "Fiction - Romance"
+            ],
+            "edition_name": "Largeprint edition",
+            "isbn_13": [
+                "9780854561889"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0854561889"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "I was thankful that nobody was there to meet me at the airport."
+            },
+            "source_records": [
+                "amazon:0854561889"
+            ],
+            "key": "/books/OL9719385M",
+            "number_of_pages": 595,
+            "works": [
+                {
+                    "key": "/works/OL213266W"
+                }
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-15T15:43:39.666088"
+            }
+        },
+        "/books/OL8596292M": {
+            "publishers": [
+                "Chicago Review Press"
+            ],
+            "number_of_pages": 352,
+            "weight": "12.6 ounces",
+            "covers": [
+                777961
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL8596292M",
+            "authors": [
+                {
+                    "key": "/authors/OL2427227A"
+                }
+            ],
+            "contributions": [
+                "Sandra Brown (Foreword)"
+            ],
+            "subjects": [
+                "Stewart, Mary - Prose & Criticism",
+                "Mystery And Suspense Fiction",
+                "Fiction",
+                "Fiction - Historical",
+                "Mystery/Suspense",
+                "Suspense",
+                "Historical - General",
+                "Fiction / Historical"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "I was thankful that nobody was there to meet me at the airport."
+            },
+            "source_records": [
+                "amazon:1556526180:fk:730180481:302127"
+            ],
+            "title": "Nine Coaches Waiting",
+            "identifiers": {
+                "goodreads": [
+                    "27695"
+                ],
+                "librarything": [
+                    "26497"
+                ]
+            },
+            "isbn_13": [
+                "9781556526183"
+            ],
+            "isbn_10": [
+                "1556526180"
+            ],
+            "publish_date": "May 1, 2006",
+            "works": [
+                {
+                    "key": "/works/OL213266W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "7.9 x 5.3 x 0.8 inches",
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T06:33:27.187047"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-11-08T14:24:10.398520"
+            }
+        },
+        "/books/OL7566281M": {
+            "publishers": [
+                "Fawcett"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "amazon:0449215725:bm:1235818620:249665"
+            ],
+            "title": "Nine Coaches Waiting",
+            "identifiers": {
+                "goodreads": [
+                    "1523559"
+                ],
+                "librarything": [
+                    "26497"
+                ]
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2010-09-06T02:48:43.205735"
+            },
+            "covers": [
+                290500
+            ],
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "isbn_13": [
+                "9780449215722"
+            ],
+            "isbn_10": [
+                "0449215725"
+            ],
+            "publish_date": "November 12, 1987",
+            "key": "/books/OL7566281M",
+            "authors": [
+                {
+                    "key": "/authors/OL216503A"
+                }
+            ],
+            "latest_revision": 8,
+            "works": [
+                {
+                    "key": "/works/OL213266W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "I was thankful that nobody was there to meet me at the airport."
+            },
+            "revision": 8
+        },
+        "/books/OL7435678M": {
+            "publishers": [
+                "HarperTorch"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "1079402"
+                ],
+                "librarything": [
+                    "26497"
+                ]
+            },
+            "source_records": [
+                "amazon:0380820765:19:3648912085:242819",
+                "bwb:9780380820764",
+                "promise:bwb_daily_pallets_2022-09-23"
+            ],
+            "title": "Nine Coaches Waiting",
+            "number_of_pages": 400,
+            "covers": [
+                237486
+            ],
+            "isbn_13": [
+                "9780380820764"
+            ],
+            "isbn_10": [
+                "0380820765"
+            ],
+            "publish_date": "December 4, 2001",
+            "key": "/books/OL7435678M",
+            "authors": [
+                {
+                    "key": "/authors/OL216503A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL213266W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "I was thankful that nobody was there to meet me at the airport."
+            },
+            "local_id": [
+                "urn:bwbsku:579-BAC-124"
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-04T07:16:37.424194"
+            }
+        },
+        "/books/OL29013610M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263213539",
+                "ia:marriagetoclaimh0000jord_n5u8",
+                "amazon:0263213536"
+            ],
+            "title": "Marriage, to Claim His Twins",
+            "number_of_pages": 185,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2010",
+            "key": "/books/OL29013610M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL15186060W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general",
+                "Marriage, fiction"
+            ],
+            "covers": [
+                11368163
+            ],
+            "identifiers": {},
+            "classifications": {},
+            "subtitle": "Needed: Eligible Billionaires, Book Three",
+            "ocaid": "marriagetoclaimh0000jord_n5u8",
+            "isbn_13": [
+                "9780263213539"
+            ],
+            "lc_classifications": [
+                "PR6060.O6257"
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-20T18:28:18.249265"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-11T05:32:49.925085"
+            }
+        },
+        "/books/OL26338246M": {
+            "description": {
+                "type": "/type/text",
+                "value": "\"Passion has a double price ... Alexander Konstantinakos has discovered that one passionate night in Manchester had its consequences: two, to be precise. Out of the blue he's turned up on Ruby Wareham's doorstep--to take his twin sons back to Greece! Ruby's shocked that she's still so attracted to the dark, sexy and powerful Alexander! She's afraid she might lose her beautiful boys, whom she's struggled to bring up on her own, but maybe there's a solution ... Can she wed Sander--a virtual stranger--and live as his wife, and in his bed?\"--P. [2] of cover."
+            },
+            "title": "Marriage: To Claim His Twins",
+            "subtitle": "Needed: Eligible Billionaires, Book Three",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "publish_date": "2010",
+            "publishers": [
+                "Harlequin"
+            ],
+            "series": [
+                "Harlequin presents -- 2939"
+            ],
+            "covers": [
+                8018838
+            ],
+            "full_title": "Marriage: to claim his twins",
+            "publish_places": [
+                "Toronto",
+                "New York"
+            ],
+            "pagination": "185 p. ;",
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-03-17:P7-DNC-216",
+                "ia:isbn_9780373129393",
+                "bwb:9780373129393",
+                "marc:marc_loc_2016/BooksAll.2016.part40.utf8:171189868:1797",
+                "promise:bwb_daily_pallets_2021-09-08:P7-DSO-630",
+                "promise:bwb_daily_pallets_2021-09-03:O7-DQP-325"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subject_places": [
+                "England",
+                "Greece"
+            ],
+            "subjects": [
+                "Mothers and sons",
+                "Greeks",
+                "Single mothers",
+                "Man/woman relationships",
+                "Fiction",
+                "Birthfathers",
+                "Marriage",
+                "Billionaires",
+                "Twins",
+                "Poor women"
+            ],
+            "publish_country": "onc",
+            "by_statement": "Penny Jordan",
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:P7-DNC-216",
+                "urn:bwbsku:P7-DSO-630",
+                "urn:bwbsku:O7-DQP-325"
+            ],
+            "ocaid": "isbn_9780373129393",
+            "isbn_10": [
+                "0373129394"
+            ],
+            "isbn_13": [
+                "9780373129393"
+            ],
+            "lccn": [
+                "2012659192"
+            ],
+            "oclc_numbers": [
+                "642757508"
+            ],
+            "dewey_decimal_class": [
+                "[Fic]"
+            ],
+            "lc_classifications": [
+                "CPB Box no. 3268 vol. 1"
+            ],
+            "key": "/books/OL26338246M",
+            "number_of_pages": 185,
+            "works": [
+                {
+                    "key": "/works/OL15186060W"
+                }
+            ],
+            "latest_revision": 15,
+            "revision": 15,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2017-06-24T13:36:32.074414"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T12:08:01.517414"
+            }
+        },
+        "/books/OL24261909M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "covers": [
+                6410192
+            ],
+            "physical_format": "Electronic resource",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-08-28T16:41:19.053556"
+            },
+            "latest_revision": 5,
+            "key": "/books/OL24261909M",
+            "authors": [
+                {
+                    "key": "/authors/OL3285866A"
+                }
+            ],
+            "publish_places": [
+                "Toronto, Ontario"
+            ],
+            "isbn_13": [
+                "9781426808128"
+            ],
+            "source_records": [
+                "marc_overdrive/InternetArchiveCrMarc-2010-06-11k.mrc:2096000:1855",
+                "bwb:9781426808128"
+            ],
+            "title": "The Spanish Duke's Virgin Bride",
+            "identifiers": {
+                "overdrive": [
+                    "F8D3DFFA-1B4E-415E-9C8C-89FE9B18A554"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-06-17T20:52:11.592489"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2007",
+            "publish_country": "nyu",
+            "oclc_numbers": [
+                "239608750"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL9224690W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 5
+        },
+        "/books/OL23658973M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "number_of_pages": 184,
+            "isbn_10": [
+                "0373128150"
+            ],
+            "series": [
+                "Harlequin presents -- 2815"
+            ],
+            "pagination": "184 p. ;",
+            "lc_classifications": [
+                "CPB Box no. 2937 vol. 12"
+            ],
+            "latest_revision": 6,
+            "key": "/books/OL23658973M",
+            "authors": [
+                {
+                    "key": "/authors/OL687719A"
+                }
+            ],
+            "publish_places": [
+                "Toronto",
+                "New York"
+            ],
+            "contributions": [
+                "Copyright Paperback Collection (Library of Congress)"
+            ],
+            "isbn_13": [
+                "9780373128150"
+            ],
+            "genres": [
+                "Fiction"
+            ],
+            "source_records": [
+                "marc:marc_loc_updates/v37.i32.records.utf8:16117903:872"
+            ],
+            "title": "The boss's forbidden secretary",
+            "lccn": [
+                "2009439880"
+            ],
+            "oclc_number": [
+                "299086266"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "7485475"
+                ],
+                "goodreads": [
+                    "6087058"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-08-12T07:20:05.706664"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Businessmen -- Fiction",
+                "Secretaries -- Fiction"
+            ],
+            "publish_date": "2009",
+            "publish_country": "onc",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2011-11-05T01:41:54.430605"
+            },
+            "by_statement": "Lee Wilkinson.",
+            "works": [
+                {
+                    "key": "/works/OL15134753W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 6
+        },
+        "/books/OL28973878M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263746358"
+            ],
+            "title": "Riviera Romance",
+            "number_of_pages": 186,
+            "isbn_13": [
+                "9780263746358"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Riviera Romance",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "1984",
+            "key": "/books/OL28973878M",
+            "authors": [
+                {
+                    "key": "/authors/OL194979A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL8028189W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T22:26:07.568545"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-27T20:27:37.644672"
+            }
+        },
+        "/books/OL20196387M": {
+            "title": "Peripeteia ste riviera.",
+            "authors": [
+                {
+                    "key": "/authors/OL194979A"
+                }
+            ],
+            "publish_date": "1984",
+            "publishers": [
+                "Harlenik Ellas"
+            ],
+            "work_titles": [
+                "Riviera romance."
+            ],
+            "languages": [
+                {
+                    "key": "/languages/gre"
+                }
+            ],
+            "publish_country": "gr ",
+            "publish_places": [
+                "Athens"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:2712364962:421"
+            ],
+            "key": "/books/OL20196387M",
+            "works": [
+                {
+                    "key": "/works/OL8028189W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-26T06:35:05.555713"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-26T21:59:33.567012"
+            }
+        },
+        "/books/OL24382049M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "ia_box_id": [
+                "IA126212"
+            ],
+            "series": [
+                "Harlequin Romance -- 2650"
+            ],
+            "covers": [
+                6633181
+            ],
+            "key": "/books/OL24382049M",
+            "authors": [
+                {
+                    "key": "/authors/OL194979A"
+                }
+            ],
+            "ocaid": "rivieraromance00lewt",
+            "publish_places": [
+                "Toronto",
+                "New York"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "186 p. ;",
+            "source_records": [
+                "ia:rivieraromance00lewt"
+            ],
+            "title": "Riviera romance",
+            "number_of_pages": 186,
+            "isbn_13": [
+                "9780373026500"
+            ],
+            "edition_name": "Harlequin Romance 1st ed.",
+            "isbn_10": [
+                "0373026501"
+            ],
+            "publish_date": "1984",
+            "publish_country": "onc",
+            "by_statement": "by Marjorie Lewty",
+            "oclc_numbers": [
+                "11008542"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL8028189W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-10-21T09:14:47.004251"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-27T20:27:37.644672"
+            }
+        },
+        "/books/OL28951071M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263808339",
+                "promise:bwb_daily_pallets_2020-06-24"
+            ],
+            "title": "Lovers Touch",
+            "number_of_pages": 221,
+            "isbn_13": [
+                "9780263808339"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Lovers Touch",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "1998",
+            "key": "/books/OL28951071M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3759116W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "local_id": [
+                "urn:bwbsku:KN-752-055"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T04:47:40.965217"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-10T07:41:11.060225"
+            }
+        },
+        "/books/OL9805839M": {
+            "identifiers": {
+                "goodreads": [
+                    "7085581"
+                ],
+                "librarything": [
+                    "1937366"
+                ]
+            },
+            "title": "Lover's Touch",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "publish_date": "October 1, 1989",
+            "publishers": [
+                "Harlequin"
+            ],
+            "series": [
+                "Harlequin Presents, No 1216"
+            ],
+            "covers": [
+                12394501,
+                8088798
+            ],
+            "physical_format": "Paperback",
+            "subjects": [
+                "Non-Classifiable",
+                "Romance - General",
+                "Fiction",
+                "Nonfiction - General",
+                "Romance: Regency"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-03-08:505-BAC-821",
+                "ia:loverstouch00penn",
+                "bwb:9780373112166",
+                "promise:bwb_daily_pallets_2020-12-16:O7-AST-387",
+                "promise:bwb_daily_pallets_2020-10-22:W6-AES-278"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:505-BAC-821",
+                "urn:bwbsku:O7-AST-387",
+                "urn:bwbsku:W6-AES-278"
+            ],
+            "key": "/books/OL9805839M",
+            "number_of_pages": 188,
+            "works": [
+                {
+                    "key": "/works/OL3759116W"
+                }
+            ],
+            "ocaid": "loverstouch00penn",
+            "isbn_10": [
+                "0373112165"
+            ],
+            "isbn_13": [
+                "9780373112166"
+            ],
+            "oclc_numbers": [
+                "20150728"
+            ],
+            "classifications": {},
+            "latest_revision": 21,
+            "revision": 21,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-28T12:11:45.986931"
+            }
+        },
+        "/books/OL7421983M": {
+            "publishers": [
+                "harlequin"
+            ],
+            "number_of_pages": 221,
+            "title": "Lover's Touch",
+            "identifiers": {
+                "librarything": [
+                    "1937366"
+                ],
+                "goodreads": [
+                    "6751924"
+                ]
+            },
+            "isbn_13": [
+                "9780373833740"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373833741"
+            ],
+            "publish_date": "April 1, 1999",
+            "key": "/books/OL7421983M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "oclc_numbers": [
+                "39921701"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3759116W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-02T23:34:23.215548"
+            }
+        },
+        "/books/OL23025866M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Translation of: Kiss an angel."
+            },
+            "title": "Qin fu tian shi",
+            "publish_date": "2000",
+            "publishers": [
+                "Lin bai chu ban she you xian gong si"
+            ],
+            "series": [
+                "Lang man xin dian -- 102"
+            ],
+            "publish_places": [
+                "Taibei Shi"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/chi"
+                }
+            ],
+            "pagination": "363 p. ;",
+            "source_records": [
+                "marc:SanFranPL09/SanFranPL09.out:54626452:1527"
+            ],
+            "work_titles": [
+                "Kiss an angel."
+            ],
+            "edition_name": "Di 1 ban",
+            "isbn_10": [
+                "9574913716"
+            ],
+            "publish_country": "ch ",
+            "by_statement": "Sushan Yilishabai Feilipusi zhu ; Huo Xi'en yi = Kiss an angel / Susan Elizabeth Phillips.",
+            "oclc_numbers": [
+                "44919500"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "key": "/books/OL23025866M",
+            "number_of_pages": 363,
+            "works": [
+                {
+                    "key": "/works/OL17717W"
+                }
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-02-18T02:43:06.432033"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-04-19T10:59:03.171901"
+            }
+        },
+        "/books/OL26259903M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "\"First North American publication 2010\"--Title page verso.\r\n\r\n\"Larger print\"--Cover."
+            },
+            "title": "The Rich Man's Blackmailed Mistress",
+            "authors": [
+                {
+                    "key": "/authors/OL579518A"
+                }
+            ],
+            "publish_date": "2010",
+            "publishers": [
+                "Harlequin Books",
+                "Harlequin"
+            ],
+            "isbn_10": [
+                "0373236603"
+            ],
+            "series": [
+                "Harlequin presents. Larger print -- 2896"
+            ],
+            "covers": [
+                15095624,
+                7927856
+            ],
+            "full_title": "The rich man's blackmailed mistress",
+            "ocaid": "isbn_9780373236602",
+            "publish_places": [
+                "Toronto",
+                "New York"
+            ],
+            "isbn_13": [
+                "9780373236602"
+            ],
+            "pagination": "247 pages ;",
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-06-20:P7-CQR-882",
+                "ia:isbn_9780373236602",
+                "bwb:9780373236602",
+                "amazon:0373236603",
+                "promise:bwb_daily_pallets_2021-09-22:P7-EQQ-207"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Rich people",
+                "Man-woman relationships",
+                "Extortion",
+                "Fiction",
+                "Revenge"
+            ],
+            "publish_country": "onc",
+            "copyright_date": "2009",
+            "by_statement": "Robyn Donald",
+            "oclc_numbers": [
+                "432980625"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:P7-CQR-882",
+                "urn:bwbsku:P7-EQQ-207"
+            ],
+            "key": "/books/OL26259903M",
+            "number_of_pages": 247,
+            "works": [
+                {
+                    "key": "/works/OL15180402W"
+                }
+            ],
+            "latest_revision": 13,
+            "revision": 13,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2017-04-29T10:44:24.494665"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-30T12:31:23.689797"
+            }
+        },
+        "/books/OL24950315M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "\"Kain Gerrard--mesmerizing, sexy and filthy rich--can have any woman he wants!  So taming Sable Martin shouldn't be a problem.  The scandalous gold digger has used her sensual charms to blackmail his cousin, and Kain is set on revenge.  His plan is perfect--until he comes face-to-face with Sable.  The scheming temptress is in his sights, but as she looks up at him with those enchanting doe eyes, he realizes she isn't quite the seductress he thought--he's blackmailed an innocent into his bed\"--Cover verso."
+            },
+            "isbn_10": [
+                "0373128967"
+            ],
+            "series": [
+                "Harlequin presents -- 2896"
+            ],
+            "covers": [
+                6950436
+            ],
+            "ia_loaded_id": [
+                "richmansblackmai00dona"
+            ],
+            "key": "/books/OL24950315M",
+            "authors": [
+                {
+                    "key": "/authors/OL579518A"
+                }
+            ],
+            "ocaid": "richmansblackmai00dona",
+            "publish_places": [
+                "Toronto",
+                "New York"
+            ],
+            "ia_box_id": [
+                "IA125406"
+            ],
+            "isbn_13": [
+                "9780373128969"
+            ],
+            "pagination": "182 p. ;",
+            "source_records": [
+                "ia:richmansblackmai00dona"
+            ],
+            "title": "The rich man's blackmailed mistress",
+            "dewey_decimal_class": [
+                "[Fic]"
+            ],
+            "number_of_pages": 182,
+            "full_title": "The rich man's blackmailed mistress",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Rich people",
+                "Mistresses",
+                "Fiction",
+                "Revenge",
+                "Cousins"
+            ],
+            "publish_date": "2010",
+            "publish_country": "onc",
+            "copyright_date": "2009",
+            "by_statement": "Robyn Donald",
+            "oclc_numbers": [
+                "466904162"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL15180402W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2011-08-11T02:06:15.964079"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-30T12:31:23.689797"
+            }
+        },
+        "/books/OL37049192M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "1996",
+            "publish_country": "enk",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL18977A"
+                }
+            ],
+            "oclc_numbers": [
+                "43216587"
+            ],
+            "lc_classifications": [
+                "F"
+            ],
+            "dewey_decimal_class": [
+                "813.54"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Originally published: London: Michael Joseph, 1995."
+            },
+            "subject_times": [
+                "20th century"
+            ],
+            "subjects": [
+                "American fiction"
+            ],
+            "title": "True betrayals",
+            "by_statement": "Nora Roberts",
+            "publishers": [
+                "Signet"
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "isbn_10": [
+                "0451184300"
+            ],
+            "isbn_13": [
+                "9780451184306"
+            ],
+            "pagination": "404 pages",
+            "number_of_pages": 404,
+            "ocaid": "truebetrayals0000robe_k2l2",
+            "source_records": [
+                "ia:truebetrayals0000robe_k2l2",
+                "amazon:0451184300",
+                "promise:bwb_daily_pallets_2022-03-17",
+                "bwb:9780451184306"
+            ],
+            "full_title": "True betrayals",
+            "covers": [
+                12625796
+            ],
+            "works": [
+                {
+                    "key": "/works/OL111635W"
+                }
+            ],
+            "key": "/books/OL37049192M",
+            "local_id": [
+                "urn:bwbsku:KP-411-113"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-02-11T04:58:51.650274"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-07-17T00:59:27.736244"
+            }
+        },
+        "/books/OL33533144M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL18977A"
+                }
+            ],
+            "isbn_13": [
+                "9780349407975"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2015",
+            "publishers": [
+                "Little, Brown Book Group Limited"
+            ],
+            "source_records": [
+                "bwb:9780349407975"
+            ],
+            "subjects": [
+                "Fiction, romance, suspense",
+                "Mothers and daughters, fiction",
+                "Virginia, fiction"
+            ],
+            "title": "True Betrayals",
+            "full_title": "True Betrayals",
+            "works": [
+                {
+                    "key": "/works/OL111635W"
+                }
+            ],
+            "key": "/books/OL33533144M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-09-18T21:16:45.723016"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-10-04T01:43:44.672388"
+            }
+        },
+        "/books/OL13187586M": {
+            "publishers": [
+                "Coleccion Cisne"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "2388746"
+                ]
+            },
+            "weight": "11.2 ounces",
+            "covers": [
+                3324546
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL13187586M",
+            "authors": [
+                {
+                    "key": "/authors/OL18977A"
+                }
+            ],
+            "contributions": [
+                "Ana Maria Rodriguez (Translator)"
+            ],
+            "subjects": [
+                "Romance - Historical",
+                "General",
+                "Fiction",
+                "Fiction - Romance",
+                "Spanish: Adult Fiction"
+            ],
+            "edition_name": "Spanish lang. edition",
+            "source_records": [
+                "amazon:8401519020"
+            ],
+            "title": "Traiciones",
+            "number_of_pages": 553,
+            "isbn_13": [
+                "9788401519024"
+            ],
+            "isbn_10": [
+                "8401519020"
+            ],
+            "publish_date": "1999",
+            "works": [
+                {
+                    "key": "/works/OL111635W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "7 x 4.5 x 1.2 inches",
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-07-07T11:19:43.511938"
+            }
+        },
+        "/books/OL28283066M": {
+            "publishers": [
+                "Prószyński i S-ka"
+            ],
+            "title": "Prawdy i zdrady",
+            "covers": [
+                12390854
+            ],
+            "publish_date": "2011",
+            "key": "/books/OL28283066M",
+            "works": [
+                {
+                    "key": "/works/OL111635W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_13": [
+                "9788376489100"
+            ],
+            "ocaid": "prawdyizdrady0000robe",
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/pol"
+                }
+            ],
+            "lc_classifications": [
+                "PS3568.O243 T78 1995"
+            ],
+            "source_records": [
+                "ia:prawdyizdrady0000robe",
+                "promise:bwb_daily_pallets_2021-06-07"
+            ],
+            "local_id": [
+                "urn:bwbsku:P7-BYL-475"
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-06-23T10:46:27.300355"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-08T08:16:12.789750"
+            }
+        },
+        "/books/OL12716324M": {
+            "publishers": [
+                "Heyne"
+            ],
+            "number_of_pages": 527,
+            "weight": "11.5 ounces",
+            "covers": [
+                3201927
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL12716324M",
+            "authors": [
+                {
+                    "key": "/authors/OL18977A"
+                }
+            ],
+            "source_records": [
+                "amazon:3453099613",
+                "promise:bwb_daily_pallets_2022-03-17"
+            ],
+            "title": "Schatten über den Weiden.",
+            "identifiers": {
+                "goodreads": [
+                    "1213716"
+                ],
+                "librarything": [
+                    "21649"
+                ]
+            },
+            "isbn_13": [
+                "9783453099616"
+            ],
+            "isbn_10": [
+                "3453099613"
+            ],
+            "publish_date": "June 1, 1996",
+            "works": [
+                {
+                    "key": "/works/OL111635W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "7.1 x 4.6 x 1.4 inches",
+            "local_id": [
+                "urn:bwbsku:P1-CFE-568"
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-14T10:17:45.333169"
+            }
+        },
+        "/books/OL9572791M": {
+            "publishers": [
+                "Brilliance Audio on MP3-CD Lib Ed"
+            ],
+            "weight": "3.2 ounces",
+            "covers": [
+                1995166
+            ],
+            "physical_format": "MP3 CD",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2013-04-08T08:32:10.604736"
+            },
+            "latest_revision": 7,
+            "key": "/books/OL9572791M",
+            "contributions": [
+                "Rose Anne Shansky (Narrator)"
+            ],
+            "subjects": [
+                "Romance: Modern",
+                "Romance - General",
+                "Fiction",
+                "Unabridged Audio - Fiction/Romance",
+                "Romance - Suspense",
+                "Fiction / Romance / General",
+                "Audiobooks",
+                "Mystery & Detective - General",
+                "Romance - Contemporary"
+            ],
+            "edition_name": "Unabridged edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "amazon:1596007737:2-bb:2828469184:264114"
+            ],
+            "title": "True Betrayals",
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "isbn_13": [
+                "9781596007734"
+            ],
+            "isbn_10": [
+                "1596007737"
+            ],
+            "publish_date": "June 25, 2005",
+            "oclc_numbers": [
+                "61410112"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL111635W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "7.7 x 5.3 x 0.7 inches",
+            "revision": 7
+        },
+        "/books/OL9856249M": {
+            "publishers": [
+                "Brilliance Audio on MP3-CD"
+            ],
+            "weight": "2.4 ounces",
+            "covers": [
+                1995165
+            ],
+            "physical_format": "MP3 CD",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2011-04-28T05:13:13.436015"
+            },
+            "latest_revision": 7,
+            "key": "/books/OL9856249M",
+            "authors": [
+                {
+                    "key": "/authors/OL18977A"
+                }
+            ],
+            "contributions": [
+                "Rose Anne Shansky (Narrator)"
+            ],
+            "subjects": [
+                "Romance: Modern",
+                "Romance - General",
+                "Fiction",
+                "Unabridged Audio - Fiction/Romance",
+                "Romance - Suspense",
+                "Fiction / Romance / General",
+                "Audiobooks",
+                "Mystery & Detective - General",
+                "Romance - Contemporary",
+                "Audio - Fiction (Unabridged)"
+            ],
+            "edition_name": "MP3 Una edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "amazon:1596007729:2-ax:2130157611:264335"
+            ],
+            "title": "True Betrayals",
+            "identifiers": {
+                "goodreads": [
+                    "2597264"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "isbn_13": [
+                "9781596007727"
+            ],
+            "isbn_10": [
+                "1596007729"
+            ],
+            "publish_date": "June 25, 2005",
+            "oclc_numbers": [
+                "77515885"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL111635W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "7.5 x 5.4 x 0.6 inches",
+            "revision": 7
+        },
+        "/books/OL8850338M": {
+            "publishers": [
+                "Brilliance Audio on CD Value Priced"
+            ],
+            "weight": "0.8 ounces",
+            "covers": [
+                862040
+            ],
+            "physical_format": "Audio CD",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2010-08-10T11:11:17.583787"
+            },
+            "latest_revision": 6,
+            "key": "/books/OL8850338M",
+            "authors": [
+                {
+                    "key": "/authors/OL18977A"
+                }
+            ],
+            "subjects": [
+                "Fiction",
+                "Abridged Audio - Fiction/Romance",
+                "Audio Adult: Books On Tape",
+                "Romance - General",
+                "Suspense",
+                "Fiction / Romance / General"
+            ],
+            "edition_name": "Abridged edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "amazon:1590865243:ft:2058280380:306546"
+            ],
+            "title": "True Betrayals",
+            "identifiers": {
+                "goodreads": [
+                    "2616745"
+                ],
+                "librarything": [
+                    "21649"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "isbn_13": [
+                "9781590865248"
+            ],
+            "isbn_10": [
+                "1590865243"
+            ],
+            "publish_date": "June 10, 2003",
+            "works": [
+                {
+                    "key": "/works/OL111635W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.1 x 4.9 x 0.8 inches",
+            "revision": 6
+        },
+        "/books/OL22959335M": {
+            "publishers": [
+                "Atlántida"
+            ],
+            "number_of_pages": 408,
+            "isbn_10": [
+                "950081644X"
+            ],
+            "pagination": "408 p. ;",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2012-01-15T21:48:42.838515"
+            },
+            "latest_revision": 28,
+            "key": "/books/OL22959335M",
+            "authors": [
+                {
+                    "key": "/authors/OL18977A"
+                }
+            ],
+            "publish_places": [
+                "Buenos Aires"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "genres": [
+                "Fiction.",
+                "Ficción."
+            ],
+            "source_records": [
+                "marc:SanFranPL07/SanFranPL07.out:89839347:1053"
+            ],
+            "title": "Traiciones verdaderas",
+            "work_titles": [
+                "True betrayals."
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Translation of: True betrayals."
+            },
+            "identifiers": {
+                "goodreads": [
+                    "2597267"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-02-12T18:38:16.490483"
+            },
+            "edition_name": "1a ed.",
+            "subjects": [
+                "Horse racing -- Virginia -- Fiction",
+                "Carreras de caballo -- Virginia -- Ficción",
+                "Virginia -- Fiction",
+                "Virginia -- Ficción"
+            ],
+            "publish_date": "1996",
+            "publish_country": "ag ",
+            "by_statement": "Nora Roberts ; traducción Valeria Watson.",
+            "oclc_numbers": [
+                "36210797"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL111635W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 28
+        },
+        "/books/OL10691603M": {
+            "identifiers": {
+                "goodreads": [
+                    "2839860"
+                ],
+                "librarything": [
+                    "1989581"
+                ]
+            },
+            "title": "Unfriendly Alliance",
+            "authors": [
+                {
+                    "key": "/authors/OL687900A"
+                }
+            ],
+            "publish_date": "May 1, 1988",
+            "publishers": [
+                "harlequin",
+                "Harlequin"
+            ],
+            "ia_box_id": [
+                "IA108306"
+            ],
+            "weight": "2.4 ounces",
+            "covers": [
+                15110159,
+                5071612
+            ],
+            "physical_format": "Paperback",
+            "ia_loaded_id": [
+                "unfriendlyallian00stee"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-06-28:W6-AJG-625",
+                "ia:unfriendlyallian00stee",
+                "bwb:9780373029167",
+                "promise:bwb_daily_pallets_2021-03-08:948-BAB-744",
+                "promise:bwb_daily_pallets_2021-03-08:W6-BRQ-741",
+                "promise:bwb_daily_pallets_2021-03-08:505-BAC-833",
+                "promise:bwb_daily_pallets_2020-12-08:387-BAC-253",
+                "promise:bwb_daily_pallets_2020-11-20:O7-AZR-201"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Non-Classifiable",
+                "Romance - General",
+                "Fiction",
+                "Romance: Regency"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.6 x 4.1 x 0.7 inches",
+            "local_id": [
+                "urn:bwbsku:W6-AJG-625",
+                "urn:bwbsku:948-BAB-744",
+                "urn:bwbsku:W6-BRQ-741",
+                "urn:bwbsku:505-BAC-833",
+                "urn:bwbsku:387-BAC-253",
+                "urn:bwbsku:O7-AZR-201"
+            ],
+            "key": "/books/OL10691603M",
+            "number_of_pages": 187,
+            "works": [
+                {
+                    "key": "/works/OL3845174W"
+                }
+            ],
+            "ocaid": "unfriendlyallian00stee",
+            "isbn_10": [
+                "0373029160"
+            ],
+            "isbn_13": [
+                "9780373029167"
+            ],
+            "oclc_numbers": [
+                "17893949"
+            ],
+            "classifications": {},
+            "latest_revision": 26,
+            "revision": 26,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-03T05:48:06.637770"
+            }
+        },
+        "/books/OL17310803M": {
+            "identifiers": {
+                "librarything": [
+                    "1989581"
+                ]
+            },
+            "title": "Unfriendly alliance.",
+            "authors": [
+                {
+                    "key": "/authors/OL687900A"
+                }
+            ],
+            "publish_date": "1987",
+            "publishers": [
+                "Mills & Boon",
+                "Harlequin Mills & Boon"
+            ],
+            "pagination": "187p. ;",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263757951"
+            ],
+            "publish_country": "xxk",
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:KQ-769-995"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-07-11:KQ-769-995"
+            ],
+            "key": "/books/OL17310803M",
+            "number_of_pages": 187,
+            "works": [
+                {
+                    "key": "/works/OL3845174W"
+                }
+            ],
+            "covers": [
+                15115920
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-28T08:51:38.325173"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-22T13:35:57.589340"
+            }
+        },
+        "/books/OL20583155M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Translation of: Unfriendly alliance."
+            },
+            "title": "Quando manda o coracão.",
+            "authors": [
+                {
+                    "key": "/authors/OL687900A"
+                }
+            ],
+            "publish_date": "1991",
+            "publishers": [
+                "Nova Cultural"
+            ],
+            "work_titles": [
+                "Unfriendly alliance."
+            ],
+            "languages": [
+                {
+                    "key": "/languages/por"
+                }
+            ],
+            "publish_country": "bl ",
+            "publish_places": [
+                "Sao Paulo"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:2968999401:487"
+            ],
+            "key": "/books/OL20583155M",
+            "works": [
+                {
+                    "key": "/works/OL3845174W"
+                }
+            ],
+            "latest_revision": 15,
+            "revision": 15,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-27T14:05:08.783922"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-12T07:51:34.944973"
+            }
+        },
+        "/books/OL21424445M": {
+            "publishers": [
+                "Mondatori"
+            ],
+            "title": "Un castello di bugie.",
+            "work_titles": [
+                "Unfriendly alliance."
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Originally published in English as \"Unfriendly alliance\", 1987."
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-02T13:45:50.024675"
+            },
+            "languages": [
+                {
+                    "key": "/languages/ita"
+                }
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2011-11-22T22:07:24.932409"
+            },
+            "publish_date": "1990",
+            "publish_country": "it ",
+            "key": "/books/OL21424445M",
+            "authors": [
+                {
+                    "key": "/authors/OL687900A"
+                }
+            ],
+            "latest_revision": 14,
+            "publish_places": [
+                "Milan"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3845174W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 14
+        },
+        "/books/OL22915661M": {
+            "other_titles": [
+                "9 coaches waitng."
+            ],
+            "publishers": [
+                "Ulverscroft",
+                "Ulverscroft Large Print Books"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "1703255"
+                ]
+            },
+            "isbn_10": [
+                "0854561889"
+            ],
+            "series": [
+                "Ulverscroft large print series"
+            ],
+            "covers": [
+                12992737
+            ],
+            "local_id": [
+                "urn:sfpl:31223057711757"
+            ],
+            "key": "/books/OL22915661M",
+            "authors": [
+                {
+                    "key": "/authors/OL216503A"
+                }
+            ],
+            "ocaid": "ninecoacheswaiti00stew_0",
+            "publish_places": [
+                "Leicester [Eng.]"
+            ],
+            "edition_name": "Complete and unabridged.",
+            "pagination": "594 p.",
+            "source_records": [
+                "ia:ninecoacheswaiti00stew_0",
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run01.mrc:204469822:1705",
+                "amazon:0854561889"
+            ],
+            "title": "Nine coaches waiting.",
+            "number_of_pages": 594,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Large type books."
+            ],
+            "publish_date": "1973",
+            "publish_country": "enk",
+            "works": [
+                {
+                    "key": "/works/OL213266W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-02-12T03:33:17.864929"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-04-01T15:06:42.143167"
+            }
+        },
+        "/books/OL22915663M": {
+            "other_titles": [
+                "9 coaches waiting."
+            ],
+            "publishers": [
+                "Fawcett"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "26497"
+                ],
+                "goodreads": [
+                    "1523559"
+                ]
+            },
+            "pagination": "272 p.",
+            "covers": [
+                12992738
+            ],
+            "key": "/books/OL22915663M",
+            "authors": [
+                {
+                    "key": "/authors/OL216503A"
+                }
+            ],
+            "ocaid": "ninecoacheswaiti00stew_1",
+            "publish_places": [
+                "New York"
+            ],
+            "subjects": [
+                "Governesses -- France -- Fiction.",
+                "France -- Fiction."
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "source_records": [
+                "ia:ninecoacheswaiti00stew_1",
+                "promise:bwb_daily_pallets_2021-05-27"
+            ],
+            "title": "Nine coaches waiting",
+            "number_of_pages": 272,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0449215725"
+            ],
+            "publish_date": "1991",
+            "publish_country": "nyu",
+            "by_statement": "by Mary Stewart.",
+            "works": [
+                {
+                    "key": "/works/OL213266W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:P7-BRV-556"
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-02-12T03:33:18.865853"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-08T09:58:09.301024"
+            }
+        },
+        "/books/OL24215409M": {
+            "title": "Nine coaches waiting",
+            "authors": [
+                {
+                    "key": "/authors/OL216503A"
+                }
+            ],
+            "publish_date": "1958",
+            "publishers": [
+                "Fawcett Crest",
+                "Fawcett"
+            ],
+            "ia_box_id": [
+                "ia115304"
+            ],
+            "pagination": "272 p. ;",
+            "covers": [
+                14325744
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-03-17:P7-DXV-163",
+                "ia:ninecoacheswaiti00stew",
+                "promise:bwb_daily_pallets_2021-08-13:P7-DUT-308",
+                "marc:harvard_bibliographic_metadata/20220215_005.bib.mrc:209916881:1314"
+            ],
+            "subjects": [
+                "Governesses -- France -- Fiction."
+            ],
+            "publish_country": "nyu",
+            "by_statement": "by Mary Stewart.",
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:P7-DXV-163",
+                "urn:bwbsku:P7-DUT-308"
+            ],
+            "key": "/books/OL24215409M",
+            "number_of_pages": 272,
+            "works": [
+                {
+                    "key": "/works/OL213266W"
+                }
+            ],
+            "identifiers": {},
+            "classifications": {},
+            "physical_format": "Paperback",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0449239888"
+            ],
+            "isbn_13": [
+                "9780449239889"
+            ],
+            "oclc_numbers": [
+                "19978597",
+                "4869777"
+            ],
+            "lc_classifications": [
+                "PR6069.T46 N5 1958b",
+                "PR6069.T46 N6 1958"
+            ],
+            "contributors": [
+                {
+                    "name": "Harry Bennett",
+                    "role": "Cover Art"
+                }
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "English governess, Linda Martin finds herself in an isolated chateau in the French Alps where she soon discovers her pupil is the object of a murder plot!"
+            },
+            "latest_revision": 21,
+            "revision": 21,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-05-05T13:33:51.606281"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-06-20T19:17:24.466721"
+            }
+        },
+        "/books/OL18954780M": {
+            "title": "Nine coaches waiting",
+            "authors": [
+                {
+                    "key": "/authors/OL216503A"
+                }
+            ],
+            "publish_date": "1958",
+            "publishers": [
+                "Hodder & Stoughton"
+            ],
+            "pagination": "317p.,20cm",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_country": "xxk",
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                14325738
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "physical_format": "Hardcover",
+            "dewey_decimal_class": [
+                "823.91"
+            ],
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:2626633375:450"
+            ],
+            "key": "/books/OL18954780M",
+            "number_of_pages": 317,
+            "works": [
+                {
+                    "key": "/works/OL213266W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-20T14:53:10.904233"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-13T12:18:25.041508"
+            }
+        },
+        "/books/OL7567652M": {
+            "publishers": [
+                "Fawcett"
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2010-09-06T02:48:43.205735"
+            },
+            "source_records": [
+                "amazon:0449239888:bm:1563435537:233858"
+            ],
+            "title": "Nine Coaches Waiting",
+            "identifiers": {
+                "goodreads": [
+                    "1703252"
+                ],
+                "librarything": [
+                    "26497"
+                ]
+            },
+            "isbn_13": [
+                "9780449239889"
+            ],
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0449239888"
+            ],
+            "publish_date": "February 12, 1982",
+            "key": "/books/OL7567652M",
+            "authors": [
+                {
+                    "key": "/authors/OL216503A"
+                }
+            ],
+            "latest_revision": 7,
+            "works": [
+                {
+                    "key": "/works/OL213266W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "I was thankful that nobody was there to meet me at the airport."
+            },
+            "revision": 7
+        },
+        "/books/OL32123969M": {
+            "description": {
+                "type": "/type/text",
+                "value": "Passion has a double price ... Alexander Konstantinakos has discovered that one passionate night in Manchester had its consequences: two, to be precise. Out of the blue he's turned up on Ruby Wareham's doorstep--to take his twin sons back to Greece! Ruby's shocked that she's still so attracted to the dark, sexy and powerful Alexander! She's afraid she might lose her beautiful boys, whom she's struggled to bring up on her own, but maybe there's a solution ... Can she wed Sander--a virtual stranger--and live as his wife, and in his bed?"
+            },
+            "title": "Marriage, To Claim His Twins",
+            "subtitle": "Needed: Eligible Billionaires, Book Three",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "publish_date": "2011",
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_country": "enk",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Greeks",
+                "Fiction",
+                "Birthfathers",
+                "Twins",
+                "Romance fiction",
+                "Large type books"
+            ],
+            "by_statement": "Penny Jordan",
+            "publishers": [
+                "Mills & Boon",
+                "Mills Boon",
+                "Clearway Logistics Phase 1a"
+            ],
+            "publish_places": [
+                "Richmond"
+            ],
+            "pagination": "1 volume (large print)",
+            "source_records": [
+                "promise:bwb_daily_pallets_2020-07-30:KN-578-884",
+                "ia:marriagetoclaimh0000jord_k7u5",
+                "bwb:9780263212440",
+                "bwb:9780263229615",
+                "promise:bwb_daily_pallets_2020-06-24:KN-723-955"
+            ],
+            "full_title": "Marriage, to claim his twins",
+            "covers": [
+                10785101
+            ],
+            "local_id": [
+                "urn:bwbsku:KN-578-884",
+                "urn:bwbsku:KN-723-955"
+            ],
+            "ocaid": "marriagetoclaimh0000jord_k7u5",
+            "isbn_10": [
+                "0263229610",
+                "0263212440"
+            ],
+            "isbn_13": [
+                "9780263229615",
+                "9780263212440"
+            ],
+            "oclc_numbers": [
+                "751726999"
+            ],
+            "dewey_decimal_class": [
+                "823.92"
+            ],
+            "key": "/books/OL32123969M",
+            "works": [
+                {
+                    "key": "/works/OL15186060W"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    ""
+                ]
+            },
+            "latest_revision": 13,
+            "revision": 13,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-03-27T12:32:47.171255"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T18:15:57.415039"
+            }
+        },
+        "/books/OL29633127M": {
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "subtitle": "To Claim His Twins",
+            "source_records": [
+                "bwb:9781426865749"
+            ],
+            "title": "Marriage",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781426865749"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Marriage To Claim His Twins",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2010",
+            "key": "/books/OL29633127M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL15186060W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, erotica",
+                "Marriage, fiction",
+                "Twins, fiction"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-29T05:22:06.812530"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-02T23:31:52.633737"
+            }
+        },
+        "/books/OL29577928M": {
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "subtitle": "to Claim His Twins",
+            "source_records": [
+                "bwb:9780373237036"
+            ],
+            "title": "Marriage",
+            "number_of_pages": 256,
+            "isbn_13": [
+                "9780373237036"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Marriage to Claim His Twins",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2010",
+            "key": "/books/OL29577928M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL15186060W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, erotica",
+                "Marriage, fiction",
+                "Twins, fiction"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-28T09:46:37.999016"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-02T23:31:52.633737"
+            }
+        }
+    }
+}

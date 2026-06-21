@@ -1,0 +1,6227 @@
+{
+    "status": "ok",
+    "result": {
+        "/books/OL27035917M": {
+            "publishers": [
+                "Project Gutenberg"
+            ],
+            "links": [
+                {
+                    "url": "ftp://uiarchive.cso.uiuc.edu/pub/etext/gutenberg/etext94/emma10.txt"
+                },
+                {
+                    "url": "ftp://uiarchive.cso.uiuc.edu/pub/etext/gutenberg/etext94/emma10.zip"
+                },
+                {
+                    "url": "http://search.ebscohost.com/login.aspx?direct=true&scope=site&db=nlebk&db=nlabk&AN=1046000",
+                    "title": "EBSCOhost"
+                },
+                {
+                    "url": "http://www.netlibrary.com/UrlApi.aspx?action=browse&v=1&bookid=1046000",
+                    "title": "EBSCOhost"
+                },
+                {
+                    "url": "http://digital.library.upenn.edu/webbin/gutbook/lookup?num=158"
+                },
+                {
+                    "url": "http://www.gutenberg.org/etext/158"
+                },
+                {
+                    "url": "http://www.gutenberg.org/ebooks/158"
+                },
+                {
+                    "url": "https://libproxy.library.unt.edu/login?url=http://www.netLibrary.com/urlapi.asp?action=summary&v=1&bookid=1046000\"; target=\"_blank"
+                }
+            ],
+            "series": [
+                "Project Gutenberg etext -- no. 158"
+            ],
+            "covers": [
+                -1
+            ],
+            "full_title": "Emma",
+            "key": "/books/OL27035917M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "Champaign, Ill"
+            ],
+            "subject_times": [
+                "19th century"
+            ],
+            "pagination": "1 online resource.",
+            "source_records": [
+                "ia:emma00aus",
+                "marc:harvard_bibliographic_metadata/ab.bib.09.20150123.full.mrc:775551064:650"
+            ],
+            "title": "Emma",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subject_places": [
+                "England"
+            ],
+            "subjects": [
+                "Social life and customs",
+                "Man-woman relationships",
+                "General",
+                "Manners and customs",
+                "Fiction",
+                "FICTION"
+            ],
+            "publish_country": "ilu",
+            "by_statement": "by Jane Austen",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_10": [
+                "0585008671"
+            ],
+            "isbn_13": [
+                "9780585008677"
+            ],
+            "oclc_numbers": [
+                "44964371"
+            ],
+            "classifications": {},
+            "dewey_decimal_class": [
+                "823"
+            ],
+            "lc_classifications": [
+                "PR4034"
+            ],
+            "publish_date": "199u",
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-06-30T03:39:22.737368"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-28T13:51:42.760911"
+            }
+        },
+        "/books/OL27787471M": {
+            "publishers": [
+                "Baker Street Press"
+            ],
+            "number_of_pages": 64,
+            "covers": [
+                9190103
+            ],
+            "physical_format": "hardcover",
+            "full_title": "Emma",
+            "key": "/books/OL27787471M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "source_records": [
+                "amazon:191246408X",
+                "bwb:9781912464081"
+            ],
+            "title": "Emma",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Emma (Baker Street Readers)"
+            },
+            "identifiers": {
+                "amazon": [
+                    "191246408X"
+                ]
+            },
+            "isbn_13": [
+                "9781912464081"
+            ],
+            "isbn_10": [
+                "191246408X"
+            ],
+            "publish_date": "Sep 01, 2018",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-12-13T17:59:58.528020"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-28T09:22:25.060631"
+            }
+        },
+        "/books/OL10558835M": {
+            "publishers": [
+                "Palgrave Macmillan"
+            ],
+            "number_of_pages": 480,
+            "weight": "1.4 pounds",
+            "covers": [
+                2392588
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL10558835M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "subjects": [
+                "Novels, other prose & writers: 19th century",
+                "Other prose: 19th century",
+                "English",
+                "Literary Criticism"
+            ],
+            "title": "Emma",
+            "notes": {
+                "type": "/type/text",
+                "value": "Case Studies in Contemporary Criticism"
+            },
+            "identifiers": {
+                "goodreads": [
+                    "894015"
+                ],
+                "librarything": [
+                    "364"
+                ]
+            },
+            "isbn_13": [
+                "9780333947104"
+            ],
+            "isbn_10": [
+                "033394710X"
+            ],
+            "publish_date": "February 22, 2002",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8 x 5.5 x 1.1 inches",
+            "lccn": [
+                "2001087555"
+            ],
+            "lc_classifications": [
+                "PR4034 .E5 2002"
+            ],
+            "oclc_numbers": [
+                "48461289"
+            ],
+            "source_records": [
+                "marc:marc_columbia/Columbia-extract-20221130-007.mrc:411246709:2017"
+            ],
+            "latest_revision": 12,
+            "revision": 12,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-15T17:26:48.370294"
+            }
+        },
+        "/books/OL8788626M": {
+            "classifications": {},
+            "source_records": [
+                "amazon:1582880980:fr:2720698048:148166"
+            ],
+            "title": "Emma",
+            "identifiers": {
+                "librarything": [
+                    "364"
+                ],
+                "goodreads": [
+                    "1718283"
+                ]
+            },
+            "physical_format": "Hardcover",
+            "isbn_10": [
+                "1582880980"
+            ],
+            "key": "/books/OL8788626M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 18,
+            "revision": 18,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T08:14:56.482104"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-28T09:22:25.060631"
+            }
+        },
+        "/books/OL8978978M": {
+            "publishers": [
+                "Universal Sales Marketing"
+            ],
+            "number_of_pages": 320,
+            "classifications": {},
+            "source_records": [
+                "amazon:1853268437:fy:2924719271:205277",
+                "bwb:9781853268434"
+            ],
+            "title": "Emma",
+            "physical_format": "Unknown Binding",
+            "identifiers": {
+                "librarything": [
+                    "364"
+                ],
+                "goodreads": [
+                    "3177272"
+                ]
+            },
+            "covers": [
+                902551
+            ],
+            "isbn_13": [
+                "9781853268434"
+            ],
+            "isbn_10": [
+                "1853268437"
+            ],
+            "key": "/books/OL8978978M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 21,
+            "revision": 21,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-10-04T09:07:46.298468"
+            }
+        },
+        "/books/OL13649798M": {
+            "publishers": [
+                "Thomas Nelson"
+            ],
+            "classifications": {},
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:7391930:373"
+            ],
+            "title": "Emma.",
+            "dewey_decimal_class": [
+                "823.7"
+            ],
+            "identifiers": {},
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-08-30T18:23:00.833598"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-02-22T10:21:37.899768"
+            },
+            "latest_revision": 14,
+            "publish_country": "xxk",
+            "key": "/books/OL13649798M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 14
+        },
+        "/books/OL21464794M": {
+            "classifications": {},
+            "source_records": [
+                "marc:marc_laurentian/openlibrary.mrc:418566095:689"
+            ],
+            "title": "Emma",
+            "notes": "6",
+            "identifiers": {},
+            "key": "/books/OL21464794M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "by_statement": "with illustrations of the author and her environment and pictures from early editions of the book, together with an introduction by Frederic E. Faverty.",
+            "publish_places": [
+                "New York"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1961",
+            "latest_revision": 15,
+            "revision": 15,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-02T17:17:42.206465"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-01-22T18:24:06.064688"
+            }
+        },
+        "/books/OL11558785M": {
+            "publishers": [
+                "Amereon Limited"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "3335560"
+                ]
+            },
+            "classifications": {},
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-02-22T10:19:49.437883"
+            },
+            "source_records": [
+                "amazon:0848825225"
+            ],
+            "title": "Emma",
+            "type": {
+                "key": "/type/edition"
+            },
+            "number_of_pages": 232,
+            "isbn_13": [
+                "9780848825225"
+            ],
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0848825225"
+            ],
+            "latest_revision": 16,
+            "key": "/books/OL11558785M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "physical_format": "Hardcover",
+            "subjects": [
+                "Literary",
+                "Fiction - General"
+            ],
+            "revision": 16
+        },
+        "/books/OL16799493M": {
+            "publishers": [
+                "R. Bentley",
+                "Bell and Bradfute"
+            ],
+            "number_of_pages": 435,
+            "subtitle": "a novel",
+            "series": [
+                "Standard novels -- no. 25"
+            ],
+            "lc_classifications": [
+                "PR4034 E5 1833"
+            ],
+            "latest_revision": 14,
+            "key": "/books/OL16799493M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "London",
+                "Edinburgh"
+            ],
+            "pagination": "435 p., [2] leaves of plates :",
+            "classifications": {},
+            "source_records": [
+                "marc:marc_university_of_toronto/uoft.marc:962592829:761"
+            ],
+            "title": "Emma",
+            "identifiers": {},
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-26T03:26:34.905226"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-02-22T10:19:30.248851"
+            },
+            "publish_date": "1833",
+            "publish_country": "enk",
+            "by_statement": "by Jane Austen.",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 14
+        },
+        "/books/OL17722181M": {
+            "publishers": [
+                "Nelson Doubleday"
+            ],
+            "identifiers": {},
+            "key": "/books/OL17722181M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "Garden City, N.Y"
+            ],
+            "pagination": "378 p. ;",
+            "classifications": {},
+            "source_records": [
+                "marc:marc_oregon_summit_records/catalog_files/osu_bibs.mrc:1431628429:650"
+            ],
+            "title": "Emma",
+            "number_of_pages": 378,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "xxxx",
+            "publish_country": "nyu",
+            "by_statement": "Jane Austen.",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "emma1960redgreen0000jane",
+            "covers": [
+                14617902
+            ],
+            "latest_revision": 16,
+            "revision": 16,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-30T17:55:49.912323"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-23T18:50:03.780886"
+            }
+        },
+        "/books/OL22602987M": {
+            "publishers": [
+                "Thomas Nelson and Sons"
+            ],
+            "identifiers": {},
+            "series": [
+                "Nelson classics"
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-02-22T10:17:34.331697"
+            },
+            "latest_revision": 14,
+            "key": "/books/OL22602987M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "498 p. ;",
+            "classifications": {},
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:1780366128:442"
+            ],
+            "title": "Emma",
+            "number_of_pages": 498,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-17T03:41:34.750653"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1900",
+            "publish_country": "enk",
+            "by_statement": "by Jane Austen.",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 14
+        },
+        "/books/OL13762732M": {
+            "publishers": [
+                "Macmillan"
+            ],
+            "classifications": {},
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:103705396:461"
+            ],
+            "title": "Emma",
+            "series": [
+                "Illustrated pocket classics"
+            ],
+            "identifiers": {},
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-08-31T17:07:24.971708"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-02-22T10:17:04.533113"
+            },
+            "publish_date": "1902",
+            "publish_country": "xxk",
+            "key": "/books/OL13762732M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "by_statement": "with an introduction by Austin Dobson ; illustrated by Hugh Thomson.",
+            "publish_places": [
+                "London"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 14,
+            "revision": 14
+        },
+        "/books/OL22290336M": {
+            "publishers": [
+                "J.M. Dent & Co."
+            ],
+            "series": [
+                "Jane Austen -- v. 7-8"
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-02-22T10:16:53.765573"
+            },
+            "latest_revision": 14,
+            "key": "/books/OL22290336M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "contributions": [
+                "Johnson, R. Brimley 1867-1932",
+                "Brock, C. E. 1870-1938",
+                "Brock, H. M. 1875-1960"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "2 v. :",
+            "classifications": {},
+            "revision": 14,
+            "source_records": [
+                "marc:marc_binghamton_univ/bgm_openlib_final_10-15.mrc:217888625:1014"
+            ],
+            "title": "Emma",
+            "notes": {
+                "type": "/type/text",
+                "value": "\"Limited to Two Hundred and Fifty copies ...\"\r\n\r\nBinghamton University has no. 135.\r\n\r\nHoward Collection, cabinet no. 1."
+            },
+            "identifiers": {},
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-09T21:02:26.740253"
+            },
+            "edition_name": "Winchester ed.",
+            "publish_date": "1902",
+            "publish_country": "enk",
+            "by_statement": "edited by R. Brimley Johnson ; illustrated by C.E. and H.M. Brock.",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "location": [
+                "BIN"
+            ]
+        },
+        "/books/OL17638200M": {
+            "publishers": [
+                "J. M. Dent",
+                "E. P. Dutton"
+            ],
+            "identifiers": {},
+            "series": [
+                "Everyman's library. Fiction. [no. 24]"
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-02-22T10:16:32.632744"
+            },
+            "latest_revision": 14,
+            "key": "/books/OL17638200M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "London",
+                "New York"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "vii, 395 p.",
+            "classifications": {},
+            "source_records": [
+                "marc:marc_oregon_summit_records/catalog_files/osu_bibs.mrc:186517755:790"
+            ],
+            "title": "Emma",
+            "notes": "Introduction, by R. Brimley Johnson.",
+            "number_of_pages": 395,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-30T09:03:04.925207"
+            },
+            "edition_name": "[1st ed.]",
+            "publish_date": "1906",
+            "publish_country": "enk",
+            "by_statement": "by Jane Austen.",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 14
+        },
+        "/books/OL21474505M": {
+            "publishers": [
+                "Chatto and Windus"
+            ],
+            "series": [
+                "St.Martin Illustrated Library"
+            ],
+            "key": "/books/OL21474505M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "classifications": {},
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:3208704211:452"
+            ],
+            "title": "Emma",
+            "work_titles": [
+                "Emma"
+            ],
+            "identifiers": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "dewey_decimal_class": [
+                "823.7"
+            ],
+            "publish_date": "1908",
+            "publish_country": "xx ",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 17,
+            "revision": 17,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-02T18:22:26.961351"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-28T09:22:25.060631"
+            }
+        },
+        "/books/OL1925622M": {
+            "publishers": [
+                "Dent",
+                "Dutton"
+            ],
+            "number_of_pages": 395,
+            "subject_place": [
+                "England"
+            ],
+            "pagination": "viii, 395 p., [24] leaves of plates :",
+            "lc_classifications": [
+                "PR4034 .E5 1909"
+            ],
+            "key": "/books/OL1925622M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "London",
+                "New York"
+            ],
+            "contributions": [
+                "Brock, C. E. 1870-1938.",
+                "Rosenwald, Edith Goodkind, donor.",
+                "Lessing J. Rosenwald Collection (Library of Congress)"
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "classifications": {},
+            "source_records": [
+                "marc:marc_records_scriblio_net/part21.dat:123672089:1269",
+                "marc:marc_loc_2016/BooksAll.2016.part20.utf8:104949629:1269",
+                "marc:harvard_bibliographic_metadata/ab.bib.02.20150123.full.mrc:715187329:846",
+                "marc:harvard_bibliographic_metadata/20220215_009.bib.mrc:55982100:1330"
+            ],
+            "title": "Emma",
+            "lccn": [
+                "90138634"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Illustrated t.p. included in the plate count.\r\n\"Reprinted from the first edition, 1816\"--Prelim. p. [iii].\r\nSource: Bequest of Edith G. Rosenwald, Jan. 23, 1989."
+            },
+            "identifiers": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "dewey_decimal_class": [
+                "823/.7"
+            ],
+            "subjects": [
+                "Young women -- Fiction",
+                "Female friendship -- Fiction",
+                "Fathers and daughters -- Fiction",
+                "England -- Fiction"
+            ],
+            "publish_date": "1909",
+            "publish_country": "enk",
+            "series": [
+                "The series of English idylls"
+            ],
+            "by_statement": "by Jane Austen ; with twenty-four coloured illustrations by C.E. Brock.",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "oclc_numbers": [
+                "11706742"
+            ],
+            "latest_revision": 19,
+            "revision": 19,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-07-14T10:06:52.436090"
+            }
+        },
+        "/books/OL14177517M": {
+            "publishers": [
+                "Macrae, Smith Company"
+            ],
+            "identifiers": {},
+            "subtitle": "H. M. Brock.",
+            "series": [
+                "The Rittenhouse classics"
+            ],
+            "lc_classifications": [
+                "PZ3.A93 E15"
+            ],
+            "latest_revision": 14,
+            "key": "/books/OL14177517M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "Philadelphia"
+            ],
+            "pagination": "4 p. l., 359 p.",
+            "classifications": {},
+            "source_records": [
+                "marc:marc_oregon_summit_records/catalog_files/osu_bibs.mrc:182317913:832"
+            ],
+            "title": "Emma",
+            "lccn": [
+                "25027470"
+            ],
+            "notes": "\"Reprinted from the first edition, 1810.\"",
+            "number_of_pages": 359,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-11T08:57:28.440174"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-02-22T10:14:52.999123"
+            },
+            "publish_date": "1925",
+            "publish_country": "pau",
+            "by_statement": "by Jane Austen : twelve colored illustrations by C. E. and",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 14
+        },
+        "/books/OL18503204M": {
+            "publishers": [
+                "Oxford University Press"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "364"
+                ],
+                "goodreads": [
+                    "49770"
+                ]
+            },
+            "series": [
+                "Her Novels -- v. 4."
+            ],
+            "key": "/books/OL18503204M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "xi, 521, [8] leaves of plates. :",
+            "classifications": {},
+            "source_records": [
+                "marc:marc_oregon_summit_records/catalog_files/washs02192008.mrc_revrev.mrc:80508271:902",
+                "marc:harvard_bibliographic_metadata/ab.bib.01.20150123.full.mrc:68657848:1614",
+                "marc:harvard_bibliographic_metadata/20220215_019.bib.mrc:120865554:6304"
+            ],
+            "title": "Emma / [Jane Austen]",
+            "notes": {
+                "type": "/type/text",
+                "value": "Added t.p.: 3d ed.\r\n\r\n\"Text based on collation of the early editions by R. W. Chapman.\""
+            },
+            "number_of_pages": 521,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0192547046"
+            ],
+            "publish_date": "1933",
+            "publish_country": "enk",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "oclc_numbers": [
+                "9618177"
+            ],
+            "lc_classifications": [
+                "PR4030 1980"
+            ],
+            "latest_revision": 20,
+            "revision": 20,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-17T05:39:48.177517"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-19T04:12:49.850862"
+            }
+        },
+        "/books/OL22014261M": {
+            "publishers": [
+                "Macdonald"
+            ],
+            "identifiers": {},
+            "series": [
+                "Macdonald illustrated classics ; 4"
+            ],
+            "key": "/books/OL22014261M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "v, 479 p. :",
+            "classifications": {},
+            "source_records": [
+                "marc:marc_binghamton_univ/bgm_openlib_final_0-5.mrc:172800715:690"
+            ],
+            "title": "Emma",
+            "notes": "Biographical note: p.477-479.",
+            "number_of_pages": 479,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1948",
+            "location": [
+                "BIN"
+            ],
+            "by_statement": "by Jane Austen ; illustrated by Philip Gough.",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_country": "enk",
+            "latest_revision": 16,
+            "revision": 16,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-06T03:05:01.031949"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-28T09:22:25.060631"
+            }
+        },
+        "/books/OL13649229M": {
+            "publishers": [
+                "Hodder& Stoughton"
+            ],
+            "subtitle": "a shortened version",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-02-22T10:11:31.962084"
+            },
+            "latest_revision": 14,
+            "key": "/books/OL13649229M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "contributions": [
+                "Box, H Oldfield."
+            ],
+            "classifications": {},
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:6707580:488"
+            ],
+            "title": "Emma",
+            "work_titles": [
+                "Emma"
+            ],
+            "identifiers": {},
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-08-30T18:19:45.950774"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "dewey_decimal_class": [
+                "823.7"
+            ],
+            "publish_date": "1955",
+            "publish_country": "xxk",
+            "by_statement": "prepared by H. Oldfield Box.",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 14
+        },
+        "/books/OL7591728M": {
+            "publishers": [
+                "Dent"
+            ],
+            "classifications": {},
+            "source_records": [
+                "amazon:0460000241:bn:1178897528:224846",
+                "ia:emma0000aust_r0b8",
+                "bwb:9780460000246"
+            ],
+            "title": "Emma",
+            "identifiers": {
+                "librarything": [
+                    "364"
+                ],
+                "goodreads": [
+                    "762341"
+                ]
+            },
+            "covers": [
+                12646642
+            ],
+            "publish_date": "1980",
+            "key": "/books/OL7591728M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "emma0000aust_r0b8",
+            "isbn_10": [
+                "0460000241"
+            ],
+            "isbn_13": [
+                "9780460000246"
+            ],
+            "lc_classifications": [
+                "PR4034.U77 E4 1980"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "latest_revision": 25,
+            "revision": 25,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-09T17:20:38.526209"
+            }
+        },
+        "/books/OL17728299M": {
+            "publishers": [
+                "Houghton Mifflin"
+            ],
+            "number_of_pages": 381,
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-02-22T10:11:19.907795"
+            },
+            "latest_revision": 14,
+            "key": "/books/OL17728299M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "Boston"
+            ],
+            "contributions": [
+                "Trilling, Lionel,  1905-1975."
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "xxvi, 381 p. ;",
+            "classifications": {},
+            "source_records": [
+                "marc:marc_oregon_summit_records/catalog_files/pcc_bibs.mrc_rev.mrc:79697396:773"
+            ],
+            "title": "Emma",
+            "dewey_decimal_class": [
+                "823.7"
+            ],
+            "notes": "Reprint. Originally published: Oxford University Press, 1933. Edited by R. W. Chapman.",
+            "identifiers": {},
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-30T18:37:13.298820"
+            },
+            "edition_name": "Riverside ed.",
+            "publish_date": "1957",
+            "publish_country": "mau",
+            "by_statement": "Jane Austen; with an introduction by Lionel Trilling.",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 14
+        },
+        "/books/OL17722232M": {
+            "publishers": [
+                "Heritage Press"
+            ],
+            "identifiers": {},
+            "key": "/books/OL17722232M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "pagination": "xv, 427 p.",
+            "classifications": {},
+            "source_records": [
+                "marc:marc_oregon_summit_records/catalog_files/osu_bibs.mrc:1435606374:692",
+                "ia:emma0000unse_i0n6"
+            ],
+            "title": "Emma",
+            "number_of_pages": 427,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1964",
+            "publish_country": "nyu",
+            "by_statement": "With a pref. by Stella Gibbons and illus. by Fritz Kredel.",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                14617933
+            ],
+            "ocaid": "emma0000unse_i0n6",
+            "oclc_numbers": [
+                "1648762"
+            ],
+            "latest_revision": 20,
+            "revision": 20,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-30T17:56:32.631007"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-05-01T05:43:07.337963"
+            }
+        },
+        "/books/OL5935255M": {
+            "publishers": [
+                "Printed for the members of the Limited Editions Club at the Thistle Press"
+            ],
+            "number_of_pages": 427,
+            "subject_place": [
+                "England"
+            ],
+            "pagination": "xv, 427 p.",
+            "key": "/books/OL5935255M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "contributions": [
+                "Gibbons, Stella, 1902-",
+                "Kredel, Fritz, 1900-1973, ill.",
+                "Clarke, Bert, printer.",
+                "Way, David, printer.",
+                "Limited Editions Club,",
+                "Thistle Press,"
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "classifications": {},
+            "source_records": [
+                "marc:marc_records_scriblio_net/part05.dat:113170319:1324",
+                "marc:marc_loc_updates/v38.i36.records.utf8:2344628:1923",
+                "marc:marc_loc_2016/BooksAll.2016.part06.utf8:16744803:1921",
+                "marc:marc_columbia/Columbia-extract-20221130-013.mrc:161559527:2370",
+                "ia:emma19640000jane"
+            ],
+            "title": "Emma",
+            "notes": "Limited ed. of 1500 copies, signed by the artist.\r\n\"Printed by Clarke & Way.\"\r\n\"The monthly letter of the Limited Editions Club,\" July 1964, no. 366: 4 p. inserted.\r\nIssued in a slipcase.",
+            "identifiers": {
+                "librarything": [
+                    "364"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Young women -- Fiction",
+                "Female friendship -- Fiction",
+                "Fathers and daughters -- Fiction",
+                "England -- Fiction"
+            ],
+            "publish_date": "1964",
+            "publish_country": "nyu",
+            "by_statement": "With a pref. by Stella Gibbons and illus. by Fritz Kredel.",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                14357986
+            ],
+            "ocaid": "emma19640000jane",
+            "lccn": [
+                "65002032"
+            ],
+            "oclc_numbers": [
+                "6984461"
+            ],
+            "lc_classifications": [
+                "PZ3.A93 E34",
+                "PR4034.E5 E34",
+                "PR4034 .E4 1964"
+            ],
+            "latest_revision": 22,
+            "revision": 22,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-23T04:31:01.654034"
+            }
+        },
+        "/books/OL5858911M": {
+            "publishers": [
+                "Collier Books"
+            ],
+            "number_of_pages": 416,
+            "subject_place": [
+                "England"
+            ],
+            "pagination": "416 p.",
+            "lc_classifications": [
+                "PZ3.A93 E35",
+                "PR4034.E5 E35"
+            ],
+            "key": "/books/OL5858911M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "classifications": {},
+            "source_records": [
+                "marc:marc_records_scriblio_net/part05.dat:58538653:751",
+                "marc:marc_loc_2016/BooksAll.2016.part05.utf8:135440994:751",
+                "marc:marc_columbia/Columbia-extract-20221130-001.mrc:386369107:775"
+            ],
+            "title": "Emma.",
+            "lccn": [
+                "62021620"
+            ],
+            "notes": "Bibliography: p. 416.",
+            "identifiers": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Young women -- Fiction",
+                "Female friendship -- Fiction",
+                "Fathers and daughters -- Fiction",
+                "England -- Fiction"
+            ],
+            "publish_date": "1965",
+            "publish_country": "nyu",
+            "by_statement": "With a new introd. by Louis Kronenberger.",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "oclc_numbers": [
+                "908822"
+            ],
+            "latest_revision": 16,
+            "revision": 16,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-10T20:34:44.428880"
+            }
+        },
+        "/books/OL6018052M": {
+            "publishers": [
+                "Penguin"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "364"
+                ]
+            },
+            "subject_place": [
+                "England"
+            ],
+            "pagination": "471 p.",
+            "lc_classifications": [
+                "PZ3.A93 E38",
+                "PR4034.E5 E38"
+            ],
+            "key": "/books/OL6018052M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "Harmondsworth"
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "classifications": {},
+            "source_records": [
+                "marc:marc_records_scriblio_net/part05.dat:173066234:918",
+                "marc:marc_loc_2016/BooksAll.2016.part06.utf8:77474290:918",
+                "marc:harvard_bibliographic_metadata/ab.bib.02.20150123.full.mrc:706748796:617"
+            ],
+            "title": "Emma",
+            "lccn": [
+                "66076806"
+            ],
+            "notes": "Port. on endpaper.",
+            "number_of_pages": 471,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Fathers and daughters -- Fiction",
+                "Female friendship -- Fiction",
+                "Mate selection -- Fiction",
+                "Young women -- Fiction",
+                "England -- Fiction"
+            ],
+            "publish_date": "1966",
+            "publish_country": "enk",
+            "series": [
+                "Penguin English library, ELIO"
+            ],
+            "by_statement": "edited with an introduction by Ronald Blythe.",
+            "oclc_numbers": [
+                "426443"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 19,
+            "revision": 19,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-04-23T06:55:41.356266"
+            }
+        },
+        "/books/OL21354279M": {
+            "publishers": [
+                "WW Norton"
+            ],
+            "number_of_pages": 472,
+            "subtitle": "an authoritative text, backgrounds, reviews and criticism",
+            "key": "/books/OL21354279M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "472p.",
+            "classifications": {},
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:566513183:479",
+                "bwb:9780393096675",
+                "marc:marc_columbia/Columbia-extract-20221130-001.mrc:286505710:1439",
+                "marc:harvard_bibliographic_metadata/ab.bib.01.20150123.full.mrc:272144292:739"
+            ],
+            "title": "Emma",
+            "identifiers": {
+                "goodreads": [
+                    "3177279"
+                ],
+                "librarything": [
+                    "7205709"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1972",
+            "publish_country": "enk",
+            "by_statement": "Jane Austen.",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_10": [
+                "039309667X"
+            ],
+            "ocaid": "emmaauthoritativ00aust",
+            "covers": [
+                12588001
+            ],
+            "lccn": [
+                "66011791"
+            ],
+            "lc_classifications": [
+                "PZ3.A93 Em44",
+                "PR4034 Em44"
+            ],
+            "oclc_numbers": [
+                "208740"
+            ],
+            "latest_revision": 21,
+            "revision": 21,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-02T06:35:43.273759"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-14T05:44:51.396207"
+            }
+        },
+        "/books/OL11555684M": {
+            "publishers": [
+                "Beekman Books Inc"
+            ],
+            "physical_format": "Hardcover",
+            "classifications": {},
+            "source_records": [
+                "amazon:0846403714"
+            ],
+            "title": "Emma",
+            "identifiers": {},
+            "isbn_13": [
+                "9780846403715"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0846403714"
+            ],
+            "publish_date": "June 1974",
+            "key": "/books/OL11555684M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction"
+            ],
+            "latest_revision": 16,
+            "revision": 16,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-28T09:22:25.060631"
+            }
+        },
+        "/books/OL13956818M": {
+            "publishers": [
+                "Dent"
+            ],
+            "classifications": {},
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:299963644:447"
+            ],
+            "title": "Emma",
+            "series": [
+                "Everyman's library -- 24"
+            ],
+            "identifiers": {},
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-02T08:40:38.677617"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-02-22T10:05:19.564325"
+            },
+            "publish_date": "1980",
+            "publish_country": "xxk",
+            "key": "/books/OL13956818M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "by_statement": "edited by Mary Lascelles ; new introduction by Peter Conrad.",
+            "publish_places": [
+                "London"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 14,
+            "revision": 14
+        },
+        "/books/OL4413569M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Bibliography: p. [xix]-xxiii."
+            },
+            "identifiers": {
+                "goodreads": [
+                    "894047"
+                ],
+                "librarything": [
+                    "364"
+                ]
+            },
+            "title": "Emma",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_date": "1980",
+            "publishers": [
+                "Oxford University Press"
+            ],
+            "isbn_10": [
+                "0192815040"
+            ],
+            "subject_place": [
+                "England"
+            ],
+            "pagination": "xxvi, 445 p. ;",
+            "covers": [
+                4397830
+            ],
+            "lc_classifications": [
+                "PR4034 .E5 1980",
+                "PR4034.E5 1980"
+            ],
+            "publish_places": [
+                "Oxford",
+                "New York"
+            ],
+            "contributions": [
+                "Kinsley, James.",
+                "Lodge, David, 1935-"
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "source_records": [
+                "marc:marc_records_scriblio_net/part11.dat:108750291:1000",
+                "marc:marc_loc_2016/BooksAll.2016.part12.utf8:6394550:1000",
+                "bwb:9780192815040"
+            ],
+            "lccn": [
+                "79017305"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "dewey_decimal_class": [
+                "823/.7"
+            ],
+            "subjects": [
+                "Young women -- Fiction",
+                "Female friendship -- Fiction",
+                "Fathers and daughters -- Fiction",
+                "England -- Fiction"
+            ],
+            "publish_country": "enk",
+            "series": [
+                "The World's classics"
+            ],
+            "by_statement": "Jane Austen ; edited by James Kinsley with an introduction by  David Lodge.",
+            "type": {
+                "key": "/type/edition"
+            },
+            "key": "/books/OL4413569M",
+            "number_of_pages": 445,
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "latest_revision": 23,
+            "revision": 23,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-03T15:42:50.052596"
+            }
+        },
+        "/books/OL9456619M": {
+            "publishers": [
+                "Books on Tape, Inc."
+            ],
+            "weight": "1.6 pounds",
+            "covers": [
+                1365088
+            ],
+            "physical_format": "Audio cassette",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-02-22T10:04:15.876147"
+            },
+            "latest_revision": 19,
+            "key": "/books/OL9456619M",
+            "subjects": [
+                "Outlet"
+            ],
+            "edition_name": "Library edition",
+            "classifications": {},
+            "source_records": [
+                "amazon:0736638946:2-ah:4533447584:198065"
+            ],
+            "title": "Emma",
+            "identifiers": {
+                "goodreads": [
+                    "1575365"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "isbn_13": [
+                "9780736638944"
+            ],
+            "isbn_10": [
+                "0736638946"
+            ],
+            "publish_date": "November 1, 1983",
+            "oclc_numbers": [
+                "650091478"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9.1 x 5.8 x 2.9 inches",
+            "revision": 19
+        },
+        "/books/OL22066090M": {
+            "publishers": [
+                "G.N. Morang"
+            ],
+            "number_of_pages": 169,
+            "physical_format": "Microform",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-02-22T10:03:28.965389"
+            },
+            "latest_revision": 15,
+            "key": "/books/OL22066090M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "Toronto"
+            ],
+            "pagination": "4 microfiches (169 fr.)",
+            "classifications": {},
+            "source_records": [
+                "marc:marc_university_of_toronto/uoft.marc:3180415736:1040"
+            ],
+            "title": "Emma",
+            "dewey_decimal_class": [
+                "823/.7"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "\"In two volumes. Vol. II.\"\r\n\r\nPart of a CIHM set.  For individual microfiches in this set see CIHM microfiche nos. 29722-29723.\r\n\r\nAt head of title: The novels of Jane Austen.\r\n\r\nFilmed from a copy of the original publication held by the University of Alberta, Edmonton. Ottawa : Canadian Institute for Historical Microreproductions, 1984.\r\n\r\n315 p. : ill. ; 19 cm."
+            },
+            "identifiers": {},
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-06T12:23:08.937724"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0665297238"
+            ],
+            "publish_date": "1984",
+            "publish_country": "onc",
+            "by_statement": "by Jane Austen.",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 15
+        },
+        "/books/OL2473664M": {
+            "publishers": [
+                "Longman"
+            ],
+            "number_of_pages": 444,
+            "isbn_10": [
+                "0582331536"
+            ],
+            "subject_place": [
+                "England"
+            ],
+            "pagination": "xxxii, 444 p. ;",
+            "lc_classifications": [
+                "PR4034 .E5 1984",
+                "PR4034.E5 1984"
+            ],
+            "key": "/books/OL2473664M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "Burnt Mill, Harlow, Essex, England"
+            ],
+            "contributions": [
+                "Cheetham, Paul."
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "classifications": {},
+            "source_records": [
+                "marc:marc_records_scriblio_net/part19.dat:162328354:908",
+                "marc:marc_loc_2016/BooksAll.2016.part18.utf8:99955880:908",
+                "bwb:9780582331532"
+            ],
+            "title": "Emma",
+            "lccn": [
+                "87203776"
+            ],
+            "notes": "Bibliography: p. 442.",
+            "identifiers": {
+                "goodreads": [
+                    "3177283"
+                ],
+                "librarything": [
+                    "364"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "dewey_decimal_class": [
+                "823/.7"
+            ],
+            "subjects": [
+                "Young women -- Fiction",
+                "Female friendship -- Fiction",
+                "Fathers and daughters -- Fiction",
+                "England -- Fiction"
+            ],
+            "publish_date": "1984",
+            "publish_country": "enk",
+            "series": [
+                "Longman study texts"
+            ],
+            "by_statement": "Jane Austen ; edited by Paul Cheetham.",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 20,
+            "revision": 20,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-09-17T03:35:06.168569"
+            }
+        },
+        "/books/OL11088397M": {
+            "identifiers": {
+                "librarything": [
+                    "364"
+                ],
+                "goodreads": [
+                    "853257"
+                ]
+            },
+            "title": "Emma (Ultimate Classics.)",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_date": "November 1996",
+            "publishers": [
+                "Audio Literature"
+            ],
+            "weight": "7.8 ounces",
+            "covers": [
+                2629338
+            ],
+            "physical_format": "Audio Cassette",
+            "contributions": [
+                "Samantha Eggar (Narrator)"
+            ],
+            "subjects": [
+                "Classics",
+                "Literary",
+                "Abridged Audio - Literature/Classics",
+                "Audiobooks",
+                "Audio Adult: Books On Tape"
+            ],
+            "isbn_13": [
+                "9780787110680"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "078711068X"
+            ],
+            "oclc_numbers": [
+                "35682979"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "7 x 4.3 x 1.2 inches",
+            "source_records": [
+                "amazon:078711068X"
+            ],
+            "key": "/books/OL11088397M",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-30T03:09:22.584789"
+            }
+        },
+        "/books/OL27035922M": {
+            "publishers": [
+                "ICON Classics"
+            ],
+            "links": [
+                {
+                    "url": "http://search.ebscohost.com/login.aspx?direct=true&scope=site&db=nlebk&db=nlabk&AN=160670",
+                    "title": "EBSCOhost"
+                }
+            ],
+            "covers": [
+                8644402
+            ],
+            "physical_format": "[electronic resource] /",
+            "full_title": "Emma",
+            "key": "/books/OL27035922M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "San Diego, CA"
+            ],
+            "contributions": [
+                "Parker, Philip M."
+            ],
+            "edition_name": "Webster's German Thesaurus ed. for ESL, EFL, ELP, TOEFL, TOEIC and AP test preparation.",
+            "pagination": "1 online resource.",
+            "source_records": [
+                "ia:emmawebstersgerm00aust",
+                "ia:emmawebstersgerm00aust_563",
+                "bwb:9781423776536"
+            ],
+            "title": "Emma",
+            "notes": {
+                "type": "/type/text",
+                "value": "Title from e-book title screen (viewed June 13, 2006).\r\n\r\nText in English, thesaurus in German."
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "German",
+                "Dictionaries",
+                "English language"
+            ],
+            "subject_people": [
+                "Jane Austen (1775-1817)"
+            ],
+            "publish_country": "cau",
+            "publish_date": "2005",
+            "by_statement": "Jane Austen ; [edited by Philip M. Parker]",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_10": [
+                "1423776534"
+            ],
+            "isbn_13": [
+                "9781423776536"
+            ],
+            "oclc_numbers": [
+                "70077427"
+            ],
+            "classifications": {},
+            "dewey_decimal_class": [
+                "823/.7/03"
+            ],
+            "lc_classifications": [
+                "PR4036 .A215 2005eb",
+                "PR4036.A215 2005"
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-06-30T03:39:55.114854"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-02-19T19:39:28.944895"
+            }
+        },
+        "/books/OL12051744M": {
+            "publishers": [
+                "Random House Audiobooks"
+            ],
+            "weight": "4.5 ounces",
+            "physical_format": "Audio Cassette",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-02-22T15:29:05.862246"
+            },
+            "latest_revision": 9,
+            "key": "/books/OL12051744M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "contributions": [
+                "Alan Cumming (Narrator)"
+            ],
+            "subjects": [
+                "19th century fiction"
+            ],
+            "title": "Emma",
+            "notes": {
+                "type": "/type/text",
+                "value": "Reed Audio"
+            },
+            "identifiers": {
+                "goodreads": [
+                    "545182"
+                ],
+                "librarything": [
+                    "8844329"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "isbn_13": [
+                "9781860218354"
+            ],
+            "isbn_10": [
+                "1860218350"
+            ],
+            "publish_date": "November 30, 1996",
+            "oclc_numbers": [
+                "51624782"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "5.2 x 4.2 x 0.6 inches",
+            "revision": 9
+        },
+        "/books/OL8663782M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Classic, HighBridge"
+            },
+            "identifiers": {
+                "goodreads": [
+                    "6935905"
+                ]
+            },
+            "title": "Emma",
+            "publish_date": "October 1, 1996",
+            "publishers": [
+                "Highbridge Audio"
+            ],
+            "weight": "5.6 ounces",
+            "covers": [
+                1900081
+            ],
+            "physical_format": "Audio cassette",
+            "subjects": [
+                "Classics",
+                "Literary",
+                "Fiction / Literary",
+                "Audio Adult: Books On Tape",
+                "Abridged Audio - Literature/Classics"
+            ],
+            "edition_name": "2 Audio Cassettes edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_13": [
+                "9781565111707"
+            ],
+            "isbn_10": [
+                "1565111702"
+            ],
+            "oclc_numbers": [
+                "35589093"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "7.1 x 4.4 x 0.8 inches",
+            "source_records": [
+                "amazon:1565111702"
+            ],
+            "key": "/books/OL8663782M",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T08:14:56.482104"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-07T23:50:47.299452"
+            }
+        },
+        "/books/OL22588205M": {
+            "publishers": [
+                "OXFORD UNIV PRESS"
+            ],
+            "source_records": [
+                "marc:marc_university_of_toronto/uoft.marc:4661446222:493"
+            ],
+            "title": "EMMA; ED. BY JAMES KINSLEY.",
+            "series": [
+                "OXFORD WORLD'S CLASSICS"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "14926"
+                ],
+                "librarything": [
+                    "364"
+                ]
+            },
+            "edition_name": "REV. ED.",
+            "languages": [
+                {
+                    "key": "/languages/und"
+                }
+            ],
+            "isbn_10": [
+                "0192802372"
+            ],
+            "publish_country": "xx ",
+            "key": "/books/OL22588205M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "OXFORD"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-16T18:08:04.832026"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-28T09:22:25.060631"
+            }
+        },
+        "/books/OL27289941M": {
+            "publishers": [
+                "Wordsworth Editions Ltd"
+            ],
+            "source_records": [
+                "amazon:1840224568",
+                "bwb:9781840224566"
+            ],
+            "title": "Emma (Wordsworth Deluxe Classics)",
+            "identifiers": {
+                "amazon": [
+                    "1840224568"
+                ]
+            },
+            "isbn_13": [
+                "9781840224566"
+            ],
+            "covers": [
+                8769823
+            ],
+            "physical_format": "hardcover",
+            "full_title": "Emma (Wordsworth Deluxe Classics)",
+            "isbn_10": [
+                "1840224568"
+            ],
+            "publish_date": "Nov 27, 2003",
+            "key": "/books/OL27289941M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-08-27T18:24:56.685490"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-10-04T14:11:58.908092"
+            }
+        },
+        "/books/OL7465456M": {
+            "publishers": [
+                "Houghton Mifflin Company"
+            ],
+            "number_of_pages": 380,
+            "covers": [
+                12641862
+            ],
+            "local_id": [
+                "urn:trent:0116300207077",
+                "urn:trent:0116400961193"
+            ],
+            "key": "/books/OL7465456M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "marc:OpenLibraries-Trent-MARCs/multi1.mrc:284224:750",
+                "ia:emma0000aust_a4c9",
+                "bwb:9780395051153"
+            ],
+            "title": "Emma",
+            "notes": "Riverside Editions",
+            "identifiers": {
+                "librarything": [
+                    "364"
+                ],
+                "goodreads": [
+                    "2396367"
+                ]
+            },
+            "publish_date": "1957",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "emma0000aust_a4c9",
+            "isbn_10": [
+                "0395051150"
+            ],
+            "isbn_13": [
+                "9780395051153"
+            ],
+            "classifications": {},
+            "latest_revision": 14,
+            "revision": 14,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-09T12:21:15.397352"
+            }
+        },
+        "/books/OL26334153M": {
+            "publishers": [
+                "Penguin Books"
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "This novel of Regency England centers upon a self-assured young lady who is determined to arrange her life and the lives of those around her into a pattern dictated by her romantic fancy."
+            },
+            "isbn_10": [
+                "0451523067"
+            ],
+            "covers": [
+                8310891
+            ],
+            "full_title": "Emma",
+            "lc_classifications": [
+                "PR4034 .E44 1964"
+            ],
+            "key": "/books/OL26334153M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "ocaid": "isbn_0451523067",
+            "publish_places": [
+                "New York, N.Y"
+            ],
+            "contributions": [
+                "Hough, Graham, 1908-1990"
+            ],
+            "subject_times": [
+                "18th century"
+            ],
+            "isbn_13": [
+                "9780451523068"
+            ],
+            "pagination": "396 pages ;",
+            "source_records": [
+                "ia:isbn_0451523067",
+                "bwb:9780451523068"
+            ],
+            "title": "Emma",
+            "dewey_decimal_class": [
+                "[Fic]"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "\"Revised and updated bibliography.\"\n\nIncludes bibliographical references (pages 397-398)."
+            },
+            "number_of_pages": 396,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subject_places": [
+                "England"
+            ],
+            "subjects": [
+                "Social life and customs",
+                "Manners and customs",
+                "Mate selection",
+                "Fiction"
+            ],
+            "publish_date": "1964",
+            "publish_country": "nyu",
+            "by_statement": "by Jane Austen ; with an afterword by Graham Hough",
+            "oclc_numbers": [
+                "38555794"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2017-06-24T07:45:31.465148"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-09-17T19:04:41.526861"
+            }
+        },
+        "/books/OL27278091M": {
+            "publishers": [
+                "Atlantic Publishing, Croxley Green"
+            ],
+            "source_records": [
+                "amazon:1908533064",
+                "bwb:9781908533067"
+            ],
+            "title": "Emma",
+            "identifiers": {
+                "amazon": [
+                    "1908533064"
+                ]
+            },
+            "isbn_13": [
+                "9781908533067"
+            ],
+            "covers": [
+                8760545
+            ],
+            "physical_format": "paperback",
+            "full_title": "Emma",
+            "isbn_10": [
+                "1908533064"
+            ],
+            "publish_date": "Jan 01, 2012",
+            "key": "/books/OL27278091M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "lc_classifications": [
+                "PR4034"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-08-24T06:32:33.047333"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-09-17T06:53:46.147584"
+            }
+        },
+        "/books/OL21474470M": {
+            "publishers": [
+                "Chatto and Windus"
+            ],
+            "series": [
+                "St.Martin Illustrated Library"
+            ],
+            "key": "/books/OL21474470M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "classifications": {},
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:3208699392:452"
+            ],
+            "title": "Emma",
+            "work_titles": [
+                "Emma"
+            ],
+            "identifiers": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "dewey_decimal_class": [
+                "823.7"
+            ],
+            "publish_date": "1908",
+            "publish_country": "xx ",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-02T18:22:04.840775"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-28T09:22:25.060631"
+            }
+        },
+        "/books/OL22470099M": {
+            "publishers": [
+                "Dent"
+            ],
+            "classifications": {},
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:1650340658:422"
+            ],
+            "title": "Emma",
+            "series": [
+                "Everyman's library -- 24"
+            ],
+            "identifiers": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1922",
+            "publish_country": "xxk",
+            "key": "/books/OL22470099M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "by_statement": "with illustrations by Charles E. Brock.",
+            "publish_places": [
+                "London"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 16,
+            "revision": 16,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-14T16:04:44.582203"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-28T09:22:25.060631"
+            }
+        },
+        "/books/OL3957028M": {
+            "publishers": [
+                "Bedford/St. Martin's"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "364"
+                ],
+                "goodreads": [
+                    "894007",
+                    "229624"
+                ]
+            },
+            "subtitle": "complete, authoritative text with biographical, historical, and cultural contexts, critical history, and essays from contemporary critical perspectives",
+            "subject_place": [
+                "England"
+            ],
+            "pagination": "xviii, 638 p. ;",
+            "covers": [
+                14534693
+            ],
+            "url": [
+                "http://www.loc.gov/catdir/description/hol052/2001087555.html",
+                "http://www.loc.gov/catdir/toc/hol051/2001087555.html"
+            ],
+            "key": "/books/OL3957028M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "Boston"
+            ],
+            "contributions": [
+                "Duckworth, Alistair M., 1936-"
+            ],
+            "uri_descriptions": [
+                "Publisher description",
+                "Table of contents"
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "classifications": {},
+            "source_records": [
+                "marc:marc_records_scriblio_net/part13.dat:147240053:1402",
+                "marc:marc_cca/b10621386.out:42836002:1235",
+                "marc:marc_loc_2016/BooksAll.2016.part28.utf8:236207393:1402",
+                "bwb:9780312237080",
+                "bwb:9780312207571",
+                "promise:bwb_daily_pallets_2021-09-14",
+                "idb:9780312207571"
+            ],
+            "title": "Emma",
+            "notes": "Includes bibliographical references.",
+            "number_of_pages": 638,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Austen, Jane, 1775-1817",
+                "Young women -- Fiction",
+                "Fathers and daughters -- Fiction",
+                "Female friendship -- Fiction",
+                "England -- Fiction"
+            ],
+            "publish_date": "2002",
+            "publish_country": "mau",
+            "series": [
+                "Case studies in contemporary criticism"
+            ],
+            "by_statement": "Jane Austen ; edited by Alistair M. Duckworth.",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "uris": [
+                "http://www.loc.gov/catdir/description/hol052/2001087555.html",
+                "http://www.loc.gov/catdir/toc/hol051/2001087555.html"
+            ],
+            "local_id": [
+                "urn:bwbsku:O6-DYP-970"
+            ],
+            "isbn_10": [
+                "0312207573"
+            ],
+            "lccn": [
+                "2001087555"
+            ],
+            "ocaid": "isbn_2900312207570",
+            "dewey_decimal_class": [
+                "823/.7"
+            ],
+            "lc_classifications": [
+                "PR4034 .E5 2002",
+                "PR4034.E5 2002"
+            ],
+            "latest_revision": 29,
+            "revision": 29,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-12-19T21:46:29.065755"
+            }
+        },
+        "/books/OL3394979M": {
+            "publishers": [
+                "Cambridge University Press"
+            ],
+            "isbn_10": [
+                "0521824370"
+            ],
+            "subject_place": [
+                "England"
+            ],
+            "pagination": "p. cm.",
+            "covers": [
+                357744
+            ],
+            "lc_classifications": [
+                "PR4034 .E5 2005",
+                "PR4034.E5 2005"
+            ],
+            "key": "/books/OL3394979M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "Cambridge, UK",
+                "New York"
+            ],
+            "contributions": [
+                "Cronin, Richard, 1949-",
+                "McMillan, Dorothy, 1943-"
+            ],
+            "subjects": [
+                "Fathers and daughters -- Fiction",
+                "Female friendship -- Fiction",
+                "Mate selection -- Fiction",
+                "Young women -- Fiction",
+                "England -- Fiction"
+            ],
+            "lccn": [
+                "2005006333"
+            ],
+            "uri_descriptions": [
+                "Table of contents"
+            ],
+            "isbn_13": [
+                "9780521824378"
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "classifications": {},
+            "source_records": [
+                "marc:marc_records_scriblio_net/part15.dat:113516362:1263",
+                "marc:OpenLibraries-Trent-MARCs/multi1.mrc:3312802:1292",
+                "bwb:9780521824378",
+                "marc:marc_loc_2016/BooksAll.2016.part32.utf8:124366269:1504",
+                "marc:marc_columbia/Columbia-extract-20221130-011.mrc:304334646:2037",
+                "marc:harvard_bibliographic_metadata/ab.bib.09.20150123.full.mrc:761497666:1369"
+            ],
+            "title": "Emma",
+            "dewey_decimal_class": [
+                "823/.7"
+            ],
+            "notes": "Includes bibliographical references (p.   ).",
+            "identifiers": {
+                "librarything": [
+                    "364"
+                ],
+                "goodreads": [
+                    "229623"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "url": [
+                "http://www.loc.gov/catdir/toc/ecip059/2005006333.html"
+            ],
+            "local_id": [
+                "urn:trent:ocm58456498 ",
+                "urn:trent:0116405527759",
+                "urn:trent:0116405583414"
+            ],
+            "publish_date": "2005",
+            "publish_country": "enk",
+            "series": [
+                "The Cambridge edition of the works of Jane Austen"
+            ],
+            "by_statement": "edited by Richard Cronin and Dorothy McMillan.",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "uris": [
+                "http://www.loc.gov/catdir/toc/ecip059/2005006333.html"
+            ],
+            "oclc_numbers": [
+                "58456498"
+            ],
+            "number_of_pages": 600,
+            "latest_revision": 26,
+            "revision": 26,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-25T00:42:40.132043"
+            }
+        },
+        "/books/OL8752477M": {
+            "publishers": [
+                "Logos Research Systems"
+            ],
+            "physical_format": "Unbound",
+            "classifications": {},
+            "weight": "1.1 pounds",
+            "source_records": [
+                "amazon:1577999800:fq:2429595352:141058",
+                "bwb:9781577999805"
+            ],
+            "title": "Emma",
+            "identifiers": {
+                "goodreads": [
+                    "2646594"
+                ]
+            },
+            "isbn_13": [
+                "9781577999805"
+            ],
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T08:14:56.482104"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "1577999800"
+            ],
+            "latest_revision": 17,
+            "key": "/books/OL8752477M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Classics",
+                "Fiction",
+                "Literature - Classics / Criticism"
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-08-27T21:48:11.077290"
+            },
+            "revision": 17
+        },
+        "/books/OL7718507M": {
+            "publishers": [
+                "Hunter Publishing+inc"
+            ],
+            "classifications": {},
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-02-22T10:20:30.366201"
+            },
+            "source_records": [
+                "amazon:0681218894:ch:682056460:149416"
+            ],
+            "title": "Emma",
+            "identifiers": {
+                "librarything": [
+                    "364"
+                ],
+                "goodreads": [
+                    "1575361"
+                ]
+            },
+            "isbn_13": [
+                "9780681218895"
+            ],
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "physical_format": "Hardcover",
+            "isbn_10": [
+                "0681218894"
+            ],
+            "latest_revision": 18,
+            "key": "/books/OL7718507M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "oclc_numbers": [
+                "35649515"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 18
+        },
+        "/books/OL8012032M": {
+            "publishers": [
+                "Barnes Noble Books"
+            ],
+            "classifications": {},
+            "source_records": [
+                "amazon:0760701652:ct:1739350618:146497",
+                "bwb:9780760701652"
+            ],
+            "title": "Emma",
+            "identifiers": {
+                "goodreads": [
+                    "894019"
+                ],
+                "librarything": [
+                    "364"
+                ]
+            },
+            "isbn_13": [
+                "9780760701652"
+            ],
+            "covers": [
+                7271583
+            ],
+            "physical_format": "Hardcover",
+            "isbn_10": [
+                "0760701652"
+            ],
+            "key": "/books/OL8012032M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 19,
+            "revision": 19,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-08-17T18:56:11.374546"
+            }
+        },
+        "/books/OL6965462M": {
+            "publishers": [
+                "Roberts Brothers"
+            ],
+            "subject_place": [
+                "England"
+            ],
+            "pagination": "2 v.",
+            "lc_classifications": [
+                "PZ3.A93 E4",
+                "PR4034.E5 E4"
+            ],
+            "latest_revision": 16,
+            "key": "/books/OL6965462M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "Boston"
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "classifications": {},
+            "source_records": [
+                "marc:marc_records_scriblio_net/part01.dat:169055335:777",
+                "marc:marc_loc_2016/BooksAll.2016.part02.utf8:33397581:777"
+            ],
+            "title": "Emma",
+            "lccn": [
+                "06003864"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "364"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Fathers and daughters -- Fiction",
+                "Female friendship -- Fiction",
+                "Mate selection -- Fiction",
+                "Young women -- Fiction",
+                "England -- Fiction"
+            ],
+            "publish_date": "1892",
+            "publish_country": "mau",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-09-10T23:59:46.007448"
+            },
+            "by_statement": "by Jane Austen.",
+            "oclc_numbers": [
+                "2134965"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 16
+        },
+        "/books/OL13972996M": {
+            "publishers": [
+                "Dent"
+            ],
+            "classifications": {},
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:319773896:351"
+            ],
+            "title": "Emma.",
+            "identifiers": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1892",
+            "publish_country": "xxk",
+            "key": "/books/OL13972996M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 16,
+            "revision": 16,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-02T10:03:17.388411"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-04-07T22:09:15.242018"
+            }
+        },
+        "/books/OL13972997M": {
+            "publishers": [
+                "Dent"
+            ],
+            "classifications": {},
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:319774247:351"
+            ],
+            "title": "Emma.",
+            "identifiers": {},
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-02T10:03:17.605733"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-02-22T10:18:37.608879"
+            },
+            "publish_date": "1892",
+            "publish_country": "xxk",
+            "key": "/books/OL13972997M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "latest_revision": 14,
+            "publish_places": [
+                "London"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 14
+        },
+        "/books/OL13560718M": {
+            "publishers": [
+                "Macmillan"
+            ],
+            "number_of_pages": 436,
+            "series": [
+                "Library of English literature -- LEL 10752."
+            ],
+            "physical_format": "Microform",
+            "key": "/books/OL13560718M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "London",
+                "New York"
+            ],
+            "contributions": [
+                "Dobson, Austin, 1840-1921.",
+                "Thomson, Hugh, 1860-1920."
+            ],
+            "pagination": "xviii, 436 p.",
+            "classifications": {},
+            "source_records": [
+                "marc:marc_western_washington_univ/wwu_bibs.mrc_revrev.mrc:471027810:1108"
+            ],
+            "title": "Emma",
+            "lccn": [
+                "87331112"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Master microform held by: LrI.\r\n\r\nMicrofiche. Chicago : Library Resources Inc., 1970. 1 microfiche ; 8 x 12 cm. (Library of English Literature ; LEL no. 10752)\r\n\r\ns 1970 ilu n"
+            },
+            "identifiers": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1896",
+            "publish_country": "enk",
+            "by_statement": "by Jane Austen ; illustrated by Hugh Thomson ; with an introduction by Austin Dobson.",
+            "oclc_numbers": [
+                "8381295"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 18,
+            "revision": 18,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-08-27T19:50:26.245100"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-28T09:22:25.060631"
+            }
+        },
+        "/books/OL6592481M": {
+            "publishers": [
+                "Macmillan and co., limited",
+                "The Macmillan company"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "364"
+                ]
+            },
+            "subject_place": [
+                "England"
+            ],
+            "pagination": "xviii, 436, [1] p.",
+            "lc_classifications": [
+                "PZ3.A93 E8",
+                "PR4034.E5 E8"
+            ],
+            "key": "/books/OL6592481M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "London",
+                "New York"
+            ],
+            "contributions": [
+                "Dobson, Austin i. e. Henry Austin, 1840- ed.",
+                "Thompson, Hugh, 1860-1920, illus."
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "classifications": {},
+            "source_records": [
+                "marc:marc_records_scriblio_net/part02.dat:53246590:1023",
+                "marc:marc_loc_2016/BooksAll.2016.part02.utf8:139678428:1009"
+            ],
+            "title": "Emma",
+            "lccn": [
+                "16025032"
+            ],
+            "number_of_pages": 436,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Fathers and daughters -- Fiction",
+                "Female friendship -- Fiction",
+                "Mate selection -- Fiction",
+                "Young women -- Fiction",
+                "England -- Fiction"
+            ],
+            "publish_date": "1897",
+            "publish_country": "enk",
+            "by_statement": "by Jane Austen; illustrated by Hugh Thomson, with an introduction by Austin Dobson.",
+            "oclc_numbers": [
+                "4766644"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 18,
+            "revision": 18,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-04-07T22:10:19.610682"
+            }
+        },
+        "/books/OL17465589M": {
+            "publishers": [
+                "Collins' Clear-Type Press"
+            ],
+            "subtitle": "Illustrated by William Sewell.",
+            "source_records": [
+                "marc:marc_university_of_toronto/uoft.marc:1466177095:454"
+            ],
+            "title": "Emma.",
+            "identifiers": {},
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-02-22T10:17:40.958454"
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-28T22:14:15.478888"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lc_classifications": [
+                "PR4034 E5 1900"
+            ],
+            "publish_date": "1900",
+            "key": "/books/OL17465589M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "classifications": {},
+            "publish_places": [
+                "London"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 14,
+            "revision": 14
+        },
+        "/books/OL17781808M": {
+            "publishers": [
+                "J. M. Dent & Co.",
+                "E. P. Dutton & Co."
+            ],
+            "identifiers": {},
+            "series": [
+                "Everyman's library"
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-02-22T10:16:10.123332"
+            },
+            "latest_revision": 14,
+            "key": "/books/OL17781808M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "London",
+                "New York"
+            ],
+            "contributions": [
+                "Johnson, R. Brimley 1867-1932.",
+                "Library of Leonard and Virginia Woolf."
+            ],
+            "pagination": "viii, 503, [1] p. ;",
+            "classifications": {},
+            "source_records": [
+                "marc:marc_oregon_summit_records/catalog_files/washs02192008.mrc_revrev.mrc:822102937:1041"
+            ],
+            "title": "Emma",
+            "notes": {
+                "type": "/type/text",
+                "value": "Title in decorative border.\r\n\r\n\"Editor's note\" by R. Brimley Johnson.\r\n\r\n002-109588228."
+            },
+            "number_of_pages": 503,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-01T03:44:08.834110"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1906",
+            "publish_country": "enk",
+            "by_statement": "by Jane Austen.",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 14
+        },
+        "/books/OL17729764M": {
+            "publishers": [
+                "J. M. Dent",
+                "E. P. Dutton"
+            ],
+            "identifiers": {},
+            "series": [
+                "Everyman's library, no. 24"
+            ],
+            "key": "/books/OL17729764M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "London",
+                "New York"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "395 p. ;",
+            "classifications": {},
+            "source_records": [
+                "marc:marc_oregon_summit_records/catalog_files/lewisandclarkbibsrev.mrc:29186850:641"
+            ],
+            "title": "Emma",
+            "number_of_pages": 395,
+            "edition_name": "[1st ed.]",
+            "publish_date": "1927",
+            "publish_country": "gb ",
+            "by_statement": "by Jane Austen.",
+            "oclc_numbers": [
+                "9734482"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 17,
+            "revision": 17,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-30T18:49:48.820025"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-28T09:22:25.060631"
+            }
+        },
+        "/books/OL22106168M": {
+            "publishers": [
+                "H. Hamilton, ltd."
+            ],
+            "identifiers": {},
+            "series": [
+                "Novel library"
+            ],
+            "key": "/books/OL22106168M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "ix, 496 p. ;",
+            "classifications": {},
+            "source_records": [
+                "marc:marc_binghamton_univ/bgm_openlib_final_0-5.mrc:300409999:526"
+            ],
+            "title": "Emma.",
+            "number_of_pages": 496,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1934",
+            "publish_country": "enk",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "location": [
+                "BIN"
+            ],
+            "latest_revision": 16,
+            "revision": 16,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-06T23:03:29.138447"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-28T09:22:25.060631"
+            }
+        },
+        "/books/OL6347234M": {
+            "publishers": [
+                "J.M. Dent & sons, ltd.",
+                "E.P. Dutton & co., inc."
+            ],
+            "number_of_pages": 395,
+            "subject_place": [
+                "England"
+            ],
+            "pagination": "xvii, 395 p.",
+            "lc_classifications": [
+                "AC1 .K8 no. 24"
+            ],
+            "key": "/books/OL6347234M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "London",
+                "New York"
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "classifications": {},
+            "source_records": [
+                "marc:marc_records_scriblio_net/part03.dat:58118325:1052",
+                "marc:marc_loc_2016/BooksAll.2016.part03.utf8:141435731:1052"
+            ],
+            "title": "Emma",
+            "lccn": [
+                "36037056"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "\"First published in this edition, 1906... reprinted (with new introduction) 1931, 1934.\"\r\n\"List of the works of Jane Austen\": p. xvii."
+            },
+            "identifiers": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Fathers and daughters -- Fiction",
+                "Female friendship -- Fiction",
+                "Mate selection -- Fiction",
+                "Young women -- Fiction",
+                "England -- Fiction"
+            ],
+            "publish_date": "1934",
+            "publish_country": "enk",
+            "series": [
+                "Everyman's library, ed. by Ernest Rhys. Fiction. [no. 24]"
+            ],
+            "by_statement": "[by] Jane Austen.",
+            "oclc_numbers": [
+                "4959928"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 17,
+            "revision": 17,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-28T09:22:25.060631"
+            }
+        },
+        "/books/OL7576473M": {
+            "publishers": [
+                "Signet Classics"
+            ],
+            "classifications": {},
+            "source_records": [
+                "amazon:0451510100:bm:4043891521:140260",
+                "bwb:9780451510105"
+            ],
+            "title": "Emma",
+            "identifiers": {
+                "librarything": [
+                    "364"
+                ],
+                "goodreads": [
+                    "1494711"
+                ]
+            },
+            "isbn_13": [
+                "9780451510105"
+            ],
+            "isbn_10": [
+                "0451510100"
+            ],
+            "publish_date": "February 1, 1943",
+            "key": "/books/OL7576473M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 17,
+            "revision": 17,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-09-17T21:27:23.881839"
+            }
+        },
+        "/books/OL22601535M": {
+            "publishers": [
+                "Hamish Hamilton"
+            ],
+            "classifications": {},
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:1778064823:397"
+            ],
+            "title": "Emma",
+            "series": [
+                "The novel library"
+            ],
+            "identifiers": {},
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-17T02:36:32.696601"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-02-22T10:12:52.278454"
+            },
+            "publish_date": "1947",
+            "publish_country": "enk",
+            "key": "/books/OL22601535M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "by_statement": "Jane Austen.",
+            "publish_places": [
+                "London"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 14,
+            "revision": 14
+        },
+        "/books/OL17639896M": {
+            "publishers": [
+                "Macmillan"
+            ],
+            "identifiers": {},
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-02-22T10:12:11.805932"
+            },
+            "latest_revision": 14,
+            "key": "/books/OL17639896M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "436 p.",
+            "classifications": {},
+            "source_records": [
+                "marc:marc_oregon_summit_records/catalog_files/osu_bibs.mrc:307145329:634"
+            ],
+            "title": "Emma.",
+            "number_of_pages": 436,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-30T09:17:42.218924"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1950",
+            "publish_country": "enk",
+            "by_statement": "With an introd. by Austin Dobson. Illus. by Hugh Thomson.",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 14
+        },
+        "/books/OL22410606M": {
+            "publishers": [
+                "Dent",
+                "Dutton"
+            ],
+            "series": [
+                "The works of Jane Austen"
+            ],
+            "key": "/books/OL22410606M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "London",
+                "New York"
+            ],
+            "contributions": [
+                "Brock, Charles E."
+            ],
+            "classifications": {},
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:1574421755:536"
+            ],
+            "title": "Emma",
+            "notes": "First published 1816.",
+            "identifiers": {
+                "goodreads": [
+                    "3285277"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0460034081"
+            ],
+            "publish_date": "1950",
+            "publish_country": "xxk",
+            "by_statement": "illustrated by Charles E. Brock.",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 17,
+            "revision": 17,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-12T18:51:34.195260"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-28T09:22:25.060631"
+            }
+        },
+        "/books/OL22393843M": {
+            "publishers": [
+                "Houghton Mifflin"
+            ],
+            "identifiers": {},
+            "series": [
+                "Riverside editions -- B17"
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-02-22T10:11:07.992834"
+            },
+            "latest_revision": 14,
+            "key": "/books/OL22393843M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "Boston"
+            ],
+            "pagination": "xxvi, 381 p. ;",
+            "classifications": {},
+            "source_records": [
+                "marc:marc_university_of_toronto/uoft.marc:3869663045:2041"
+            ],
+            "title": "Emma",
+            "notes": "Bibliographical footnotes.",
+            "number_of_pages": 381,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-12T12:48:34.344232"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1957",
+            "publish_country": "bou",
+            "by_statement": "with an introd. by Lionel Trilling.",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 14
+        },
+        "/books/OL5824627M": {
+            "publishers": [
+                "Dodd, Mead"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "364"
+                ]
+            },
+            "subject_place": [
+                "England"
+            ],
+            "pagination": "ix, 344 p.",
+            "lc_classifications": [
+                "PZ3.A93 E32",
+                "PR4034.E5 E32"
+            ],
+            "key": "/books/OL5824627M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "classifications": {},
+            "source_records": [
+                "marc:marc_records_scriblio_net/part05.dat:34982685:876",
+                "marc:marc_loc_2016/BooksAll.2016.part05.utf8:111550655:876"
+            ],
+            "title": "Emma.",
+            "lccn": [
+                "61011715"
+            ],
+            "number_of_pages": 344,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Young women -- Fiction",
+                "Female friendship -- Fiction",
+                "Fathers and daughters -- Fiction",
+                "England -- Fiction"
+            ],
+            "publish_date": "1961",
+            "publish_country": "nyu",
+            "series": [
+                "Great illustrated classics"
+            ],
+            "by_statement": "With illus. of the author and her environment and pictures from early editions of the book, together with an introd. by Frederic E. Faverty.",
+            "oclc_numbers": [
+                "908814"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 18,
+            "revision": 18,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-04-07T22:11:07.488224"
+            }
+        },
+        "/books/OL17777353M": {
+            "publishers": [
+                "Oxford University Press"
+            ],
+            "identifiers": {},
+            "series": [
+                "World's classics -- 129."
+            ],
+            "key": "/books/OL17777353M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "xiv, 432 p.",
+            "classifications": {},
+            "source_records": [
+                "marc:marc_oregon_summit_records/catalog_files/washs02192008.mrc_revrev.mrc:751242512:598",
+                "ia:bwb_KR-308-566"
+            ],
+            "title": "Emma",
+            "number_of_pages": 432,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1963",
+            "publish_country": "enk",
+            "by_statement": "with an introd. by E.V. Lucas.",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "bwb_KR-308-566",
+            "covers": [
+                13440873
+            ],
+            "latest_revision": 17,
+            "revision": 17,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-01T03:05:11.485464"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-04-26T15:55:06.020350"
+            }
+        },
+        "/books/OL13707198M": {
+            "publishers": [
+                "Limited Editions Club"
+            ],
+            "key": "/books/OL13707198M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "classifications": {},
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:55174642:531"
+            ],
+            "title": "Emma",
+            "dewey_decimal_class": [
+                "823.7"
+            ],
+            "notes": "Limited ed. of 1500 numbered copies, signed by the artist.",
+            "identifiers": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1964",
+            "publish_country": "xxu",
+            "by_statement": "with a preface by Stella Gibbons and illustrations by Fritz Kredel.",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 16,
+            "revision": 16,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-08-30T23:56:00.431863"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-28T09:22:25.060631"
+            }
+        },
+        "/books/OL10273890M": {
+            "publishers": [
+                "Signet Classics"
+            ],
+            "classifications": {},
+            "source_records": [
+                "amazon:0451503880",
+                "bwb:9780451503886"
+            ],
+            "title": "Emma",
+            "identifiers": {
+                "librarything": [
+                    "364"
+                ],
+                "goodreads": [
+                    "3032205"
+                ]
+            },
+            "isbn_13": [
+                "9780451503886"
+            ],
+            "physical_format": "Paperback",
+            "isbn_10": [
+                "0451503880"
+            ],
+            "publish_date": "February 1, 1968",
+            "key": "/books/OL10273890M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction / General"
+            ],
+            "latest_revision": 18,
+            "revision": 18,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-09-17T20:21:15.905584"
+            }
+        },
+        "/books/OL4381914M": {
+            "publishers": [
+                "Oxford University Press"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "364"
+                ],
+                "goodreads": [
+                    "2337822"
+                ]
+            },
+            "isbn_10": [
+                "0192553445"
+            ],
+            "subject_place": [
+                "England"
+            ],
+            "pagination": "xxii, 446 p.",
+            "lc_classifications": [
+                "PZ3.A93 Em43",
+                "PR4034.E5 Em43",
+                "PR4034 Em43"
+            ],
+            "key": "/books/OL4381914M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "London",
+                "New York"
+            ],
+            "subjects": [
+                "Young women -- Fiction",
+                "Female friendship -- Fiction",
+                "Fathers and daughters -- Fiction",
+                "England -- Fiction"
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "classifications": {},
+            "source_records": [
+                "marc:marc_records_scriblio_net/part11.dat:85327518:967",
+                "marc:OpenLibraries-Trent-MARCs/tier5.mrc:190934:760",
+                "marc:marc_loc_2016/BooksAll.2016.part11.utf8:178964570:968",
+                "bwb:9780192553447",
+                "marc:harvard_bibliographic_metadata/ab.bib.02.20150123.full.mrc:709617760:782",
+                "marc:harvard_bibliographic_metadata/20220215_007.bib.mrc:278093678:2752"
+            ],
+            "title": "Emma",
+            "lccn": [
+                "78870114"
+            ],
+            "notes": "Bibliography: p. xix-xx.",
+            "number_of_pages": 446,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "dewey_decimal_class": [
+                "823/.7"
+            ],
+            "local_id": [
+                "urn:trent:0116404445359"
+            ],
+            "publish_date": "1971",
+            "publish_country": "enk",
+            "series": [
+                "Oxford English novels"
+            ],
+            "by_statement": "edited with an introduction by David Lodge; textual notes and bibliography by James Kinsley.",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "oclc_numbers": [
+                "2779646"
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "Emma Woodhouse, handsome, clever, and rich, with a comfortable home and happy disposition seemed to unite some of the best blessings of existence; and had lived nearly twenty-one years in the world with very little to distress or vex her."
+            },
+            "latest_revision": 23,
+            "revision": 23,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-07-07T15:34:41.631103"
+            }
+        },
+        "/books/OL17728718M": {
+            "publishers": [
+                "New American Library"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "364"
+                ],
+                "goodreads": [
+                    "6124618"
+                ]
+            },
+            "isbn_10": [
+                "0451515242"
+            ],
+            "series": [
+                "Signet classic"
+            ],
+            "key": "/books/OL17728718M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "pagination": "396, [2] p. ;",
+            "classifications": {},
+            "source_records": [
+                "marc:marc_oregon_summit_records/catalog_files/pcc_bibs.mrc_rev.mrc:104266952:859",
+                "bwb:9780451515247"
+            ],
+            "title": "Emma",
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "notes": "Bibliography (rev. and updated) : p. [397]-[398]",
+            "number_of_pages": 396,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Young women -- England -- Fiction",
+                "England -- Social life and customs -- 19th century -- Fiction"
+            ],
+            "publish_date": "1980",
+            "publish_country": "nyu",
+            "by_statement": "Jane Austen; with an afterword by Graham Hough.",
+            "oclc_numbers": [
+                "8165777"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 18,
+            "revision": 18,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-30T18:40:14.152358"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-09-17T19:38:07.750585"
+            }
+        },
+        "/books/OL7452393M": {
+            "publishers": [
+                "W W Norton & Co Ltd"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "7205709"
+                ],
+                "goodreads": [
+                    "3177279"
+                ]
+            },
+            "classifications": {},
+            "source_records": [
+                "amazon:039309667X"
+            ],
+            "title": "Emma (Norton Critical Edition)",
+            "number_of_pages": 472,
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-02-22T10:04:59.714235"
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "isbn_13": [
+                "9780393096675"
+            ],
+            "isbn_10": [
+                "039309667X"
+            ],
+            "publish_date": "May 6, 1981",
+            "key": "/books/OL7452393M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "latest_revision": 17,
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 17
+        },
+        "/books/OL8307879M": {
+            "publishers": [
+                "Vantage Press"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "364"
+                ],
+                "goodreads": [
+                    "3261004"
+                ]
+            },
+            "physical_format": "Paperback",
+            "key": "/books/OL8307879M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "contributions": [
+                "Manju S. Sen (Editor)"
+            ],
+            "subjects": [
+                "Classics",
+                "Literature - Classics / Criticism"
+            ],
+            "isbn_13": [
+                "9780861313228"
+            ],
+            "classifications": {},
+            "source_records": [
+                "amazon:0861313224:dw:296113093:146396",
+                "bwb:9780861313228"
+            ],
+            "title": "Emma",
+            "number_of_pages": 144,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0861313224"
+            ],
+            "publish_date": "October 1983",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 18,
+            "revision": 18,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-09-17T20:31:13.278733"
+            }
+        },
+        "/books/OL7357662M": {
+            "publishers": [
+                "Penguin Books Ltd"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "208786"
+                ],
+                "librarything": [
+                    "364"
+                ]
+            },
+            "source_records": [
+                "amazon:0140817956:11:1723262666:143758",
+                "bwb:9780140817959"
+            ],
+            "title": "Emma (Penguin Student Editions)",
+            "type": {
+                "key": "/type/edition"
+            },
+            "number_of_pages": 496,
+            "covers": [
+                106181
+            ],
+            "isbn_13": [
+                "9780140817959"
+            ],
+            "isbn_10": [
+                "0140817956"
+            ],
+            "publish_date": "April 26, 2001",
+            "key": "/books/OL7357662M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "contributions": [
+                "Ronald Carter (Editor)"
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-09-17T03:41:06.338844"
+            }
+        },
+        "/books/OL13264108M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Grandes Clasicos"
+            },
+            "identifiers": {
+                "goodreads": [
+                    "1718290"
+                ]
+            },
+            "title": "Emma",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_date": "2006",
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "weight": "1.6 pounds",
+            "physical_format": "Hardcover",
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Classics",
+                "Literary",
+                "Romance - General",
+                "Austen, Jane, 1775-1817",
+                "English Light Romantic Fiction",
+                "Fiction",
+                "Spanish: Adult Fiction"
+            ],
+            "physical_dimensions": "8.8 x 5.8 x 1.2 inches",
+            "covers": [
+                10630189
+            ],
+            "isbn_10": [
+                "8439720149"
+            ],
+            "isbn_13": [
+                "9788439720140"
+            ],
+            "publishers": [
+                "Mondadori"
+            ],
+            "source_records": [
+                "amazon:8439720149"
+            ],
+            "key": "/books/OL13264108M",
+            "number_of_pages": 510,
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-19T16:18:44.313885"
+            }
+        },
+        "/books/OL7820274M": {
+            "publishers": [
+                "Bantam Books"
+            ],
+            "number_of_pages": 446,
+            "covers": [
+                9279114
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL7820274M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "subjects": [
+                "19th century fiction",
+                "Classics",
+                "Literature - Classics / Criticism"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "title": "Emma",
+            "identifiers": {
+                "goodreads": [
+                    "894022"
+                ],
+                "librarything": [
+                    "364"
+                ]
+            },
+            "publish_date": "1981-03",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "bwb:9780553210194"
+            ],
+            "ocaid": "emmaclassics00jane",
+            "isbn_10": [
+                "055321019X"
+            ],
+            "isbn_13": [
+                "9780553210194"
+            ],
+            "classifications": {},
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-08T21:27:46.512465"
+            }
+        },
+        "/books/OL10487286M": {
+            "publishers": [
+                "Macmillan"
+            ],
+            "number_of_pages": 400,
+            "title": "Emma",
+            "physical_format": "Paperback",
+            "notes": {
+                "type": "/type/text",
+                "value": "Bestsellers of Literature"
+            },
+            "identifiers": {
+                "librarything": [
+                    "364"
+                ],
+                "goodreads": [
+                    "3177301"
+                ]
+            },
+            "isbn_13": [
+                "9780330023993"
+            ],
+            "edition_name": "New Ed edition",
+            "isbn_10": [
+                "0330023993"
+            ],
+            "publish_date": "December 1, 1969",
+            "key": "/books/OL10487286M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "19th century fiction"
+            ],
+            "lc_classifications": [
+                "PR4034.E53"
+            ],
+            "source_records": [
+                "bwb:9780330023993",
+                "promise:bwb_daily_pallets_2020-12-14"
+            ],
+            "local_id": [
+                "urn:bwbsku:KO-961-636"
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-09T08:08:03.054935"
+            }
+        },
+        "/books/OL21985386M": {
+            "publishers": [
+                "Dutton"
+            ],
+            "pagination": "v, 427 p., [8] leaves of plates :",
+            "identifiers": {},
+            "classifications": {},
+            "source_records": [
+                "marc:hollis_marc/hollis.marc:531537002:507"
+            ],
+            "title": "Emma",
+            "series": [
+                "Works of Jane Austen"
+            ],
+            "number_of_pages": 427,
+            "contributions": [
+                "Vox, Maximilien, illus."
+            ],
+            "key": "/books/OL21985386M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "by_statement": "Jane Austen ; [illustrated by Maximilien Vox].",
+            "publish_places": [
+                "New York"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 16,
+            "revision": 16,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-05T18:32:58.533236"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-28T09:22:25.060631"
+            }
+        },
+        "/books/OL22109661M": {
+            "identifiers": {
+                "librarything": [
+                    "364"
+                ]
+            },
+            "series": [
+                "Riverside editions ; 17"
+            ],
+            "key": "/books/OL22109661M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "Boston"
+            ],
+            "pagination": "xxvi, 381 p. ; 21 cm.",
+            "classifications": {},
+            "source_records": [
+                "marc:marc_laurentian/openlibrary.mrc:616487602:870"
+            ],
+            "title": "Emma",
+            "notes": "\"The text of Emma is that edited by R. W. Chapman and originally published in 1933 by Oxford University Press.\"\r\n\r\n6",
+            "number_of_pages": 381,
+            "subjects": [
+                "Young women -- England -- Fiction"
+            ],
+            "by_statement": "Jane Austen ; with an introduction by Lionel Trilling.",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "lccn": [
+                "57013918"
+            ],
+            "publish_date": "1957",
+            "latest_revision": 16,
+            "revision": 16,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-07T00:07:57.049189"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-01-22T18:24:37.997871"
+            }
+        },
+        "/books/OL20930695M": {
+            "publishers": [
+                "Nelson Doubleday"
+            ],
+            "identifiers": {},
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-02-22T10:20:37.234098"
+            },
+            "latest_revision": 14,
+            "key": "/books/OL20930695M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "Garden City, N. Y"
+            ],
+            "pagination": "378 p. ;",
+            "classifications": {},
+            "source_records": [
+                "marc:CollingswoodLibraryMarcDump10-27-2008/Collingswood.out:2684000:714"
+            ],
+            "title": "Emma",
+            "notes": "265342 BW,",
+            "number_of_pages": 378,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-30T20:16:43.481322"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_country": "nyu",
+            "by_statement": "Jane Austen.",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 14
+        },
+        "/books/OL13563979M": {
+            "publishers": [
+                "Printed for John Murray"
+            ],
+            "subtitle": "a novel ; in three volumes",
+            "series": [
+                "Library of English literature -- LEL 22438-29."
+            ],
+            "physical_format": "Microform",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-02-22T10:19:40.612560"
+            },
+            "latest_revision": 16,
+            "key": "/books/OL13563979M",
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "3 v.",
+            "classifications": {},
+            "source_records": [
+                "marc:marc_western_washington_univ/wwu_bibs.mrc_revrev.mrc:477233091:990"
+            ],
+            "title": "Emma",
+            "notes": {
+                "type": "/type/text",
+                "value": "Vol. 3, p. 215 misnumbered 515.\r\n\r\nMicrofiche. Chicago, Ill. : Library Resources, inc., 1978. 2 microfiches : positive ; 8 x 13 cm. (Library of English literature ; LEL 22438-39)\r\n\r\ns 1978 ilu n"
+            },
+            "identifiers": {},
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-08-27T20:02:31.243356"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1816",
+            "publish_country": "enk",
+            "by_statement": "by the author of \"Pride and prejudice\", etc.",
+            "oclc_numbers": [
+                "16826080"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 16
+        },
+        "/books/OL18688750M": {
+            "other_titles": [
+                "The works of Miss Austen."
+            ],
+            "publishers": [
+                "Richard Bentley..."
+            ],
+            "identifiers": {},
+            "subtitle": "a novel",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-02-22T10:19:19.744590"
+            },
+            "latest_revision": 14,
+            "key": "/books/OL18688750M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "[4], 435p. :",
+            "classifications": {},
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:2161331721:707"
+            ],
+            "title": "Emma",
+            "notes": {
+                "type": "/type/text",
+                "value": "The second of five volumes of Jane Austen's novels.\r\n\r\nSpine title: \"The works of Miss Austen - Vol.II\".\r\n\r\nAdded title page, engraved vignette, bearing imprint \"Richard Bentley  1833\"."
+            },
+            "number_of_pages": 435,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-19T02:03:54.644380"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1856",
+            "publish_country": "xxk",
+            "by_statement": "by Jane Austen....",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 14
+        },
+        "/books/OL13641121M": {
+            "publishers": [
+                "George Allen"
+            ],
+            "classifications": {},
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:390815:447"
+            ],
+            "title": "Emma",
+            "dewey_decimal_class": [
+                "823.7"
+            ],
+            "identifiers": {},
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-08-30T17:31:56.348044"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-02-22T10:17:54.036855"
+            },
+            "publish_date": "1898",
+            "publish_country": "xxk",
+            "key": "/books/OL13641121M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "by_statement": "with an introduction by Joseph Jacobs and illustrations by Chris Hammond.",
+            "publish_places": [
+                "London"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 14,
+            "revision": 14
+        },
+        "/books/OL19739907M": {
+            "publishers": [
+                "Macmillan"
+            ],
+            "identifiers": {},
+            "series": [
+                "Pocket classics"
+            ],
+            "lc_classifications": [
+                "PR'4034'E5'1902"
+            ],
+            "latest_revision": 14,
+            "key": "/books/OL19739907M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "xviii, 436 p. :",
+            "classifications": {},
+            "source_records": [
+                "marc:marc_laurentian/openlibrary.mrc:34391135:779"
+            ],
+            "title": "Emma",
+            "notes": {
+                "type": "/type/text",
+                "value": "Title page printing 1950\r\n\r\n1"
+            },
+            "number_of_pages": 436,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-23T18:31:32.379056"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-02-22T10:16:43.494335"
+            },
+            "publish_date": "1902",
+            "publish_country": "enk",
+            "by_statement": "by Jane Austen ; with an introduction by Austin Dobson.",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 14
+        },
+        "/books/OL19740419M": {
+            "publishers": [
+                "Dent",
+                "Dutton"
+            ],
+            "identifiers": {},
+            "series": [
+                "Exeryman's library -- no. 24"
+            ],
+            "lc_classifications": [
+                "PR'4034'E5'1906"
+            ],
+            "latest_revision": 14,
+            "key": "/books/OL19740419M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "London",
+                "New York, NY"
+            ],
+            "pagination": "xv, 427 p.",
+            "classifications": {},
+            "source_records": [
+                "marc:marc_laurentian/openlibrary.mrc:34474654:781"
+            ],
+            "title": "Emma",
+            "notes": {
+                "type": "/type/text",
+                "value": "Bibliogr.\r\n\r\n1"
+            },
+            "number_of_pages": 427,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-23T18:33:21.730217"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-02-22T10:16:03.442097"
+            },
+            "publish_date": "1906",
+            "publish_country": "enk",
+            "by_statement": "Jane Austen ; introduction by R. Brimley Johnson.",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 14
+        },
+        "/books/OL12577592M": {
+            "publishers": [
+                "Books on Tape"
+            ],
+            "weight": "1.6 pounds",
+            "physical_format": "Audio Cassette",
+            "key": "/books/OL12577592M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "subjects": [
+                "Classics",
+                "Literary",
+                "Unabridged Audio - Fiction/General"
+            ],
+            "classifications": {},
+            "source_records": [
+                "amazon:5553661501"
+            ],
+            "title": "Emma",
+            "identifiers": {},
+            "isbn_13": [
+                "9785553661502"
+            ],
+            "isbn_10": [
+                "5553661501"
+            ],
+            "publish_date": "January 1920",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9.2 x 6.1 x 2.7 inches",
+            "latest_revision": 16,
+            "revision": 16,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-28T09:22:25.060631"
+            }
+        },
+        "/books/OL13900681M": {
+            "publishers": [
+                "Eveleigh Nash & Grayson"
+            ],
+            "classifications": {},
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:238188849:412"
+            ],
+            "title": "Emma",
+            "series": [
+                "Georgian edition -- 4"
+            ],
+            "identifiers": {},
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-02T00:58:17.975829"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-02-22T10:14:26.753136"
+            },
+            "publish_date": "1927",
+            "publish_country": "xxk",
+            "key": "/books/OL13900681M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "by_statement": "by Jane Austen.",
+            "publish_places": [
+                "London"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 14,
+            "revision": 14
+        },
+        "/books/OL6337482M": {
+            "publishers": [
+                "J.M. Dent"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "364"
+                ]
+            },
+            "subject_place": [
+                "England"
+            ],
+            "pagination": "v, 427 p. :",
+            "lc_classifications": [
+                "PZ3.A93 E26",
+                "PR4034.E5 E26"
+            ],
+            "key": "/books/OL6337482M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "contributions": [
+                "Vox, Maximilien, illustrator."
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "classifications": {},
+            "source_records": [
+                "marc:marc_records_scriblio_net/part03.dat:50311597:940",
+                "marc:marc_loc_2016/BooksAll.2016.part03.utf8:133430406:940"
+            ],
+            "title": "Emma",
+            "lccn": [
+                "36011971"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Head-pieces.\r\n\"Illustrated  by Maximilien Vox.\""
+            },
+            "number_of_pages": 427,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Fathers and daughters -- Fiction",
+                "Female friendship -- Fiction",
+                "Mate selection -- Fiction",
+                "Young women -- Fiction",
+                "England -- Fiction"
+            ],
+            "publish_date": "1934",
+            "publish_country": "xx ",
+            "series": [
+                "The works of Jane Austen."
+            ],
+            "by_statement": "by Jane Austen.",
+            "oclc_numbers": [
+                "2868956"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 18,
+            "revision": 18,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-28T09:22:25.060631"
+            }
+        },
+        "/books/OL17636898M": {
+            "publishers": [
+                "Pantheon"
+            ],
+            "identifiers": {},
+            "series": [
+                "The Novel library"
+            ],
+            "key": "/books/OL17636898M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "pagination": "496 p.",
+            "classifications": {},
+            "source_records": [
+                "marc:marc_oregon_summit_records/catalog_files/osu_bibs.mrc:78839990:605"
+            ],
+            "title": "Emma.",
+            "number_of_pages": 496,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1948",
+            "publish_country": "nyu",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 16,
+            "revision": 16,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-30T08:49:59.192154"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-29T11:17:50.582533"
+            }
+        },
+        "/books/OL6227159M": {
+            "publishers": [
+                "Houghton Mifflin Company"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "364"
+                ]
+            },
+            "subject_place": [
+                "England"
+            ],
+            "pagination": "xxvi, 381 p.",
+            "key": "/books/OL6227159M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "Boston"
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "classifications": {},
+            "source_records": [
+                "marc:marc_records_scriblio_net/part04.dat:139302832:878",
+                "marc:marc_loc_2016/BooksAll.2016.part05.utf8:43467148:878",
+                "marc:marc_scms/20220805_ADAM_MARC_records.mrc:112471781:1402",
+                "marc:marc_columbia/Columbia-extract-20221130-005.mrc:336230636:1269",
+                "marc:harvard_bibliographic_metadata/ab.bib.01.20150123.full.mrc:273410616:1680",
+                "marc:harvard_bibliographic_metadata/20220215_003.bib.mrc:78766319:2708"
+            ],
+            "title": "Emma",
+            "notes": "\"The text ... is that edited by R. W. Chapman and originally published in 1933 by Oxford University Press.\"",
+            "number_of_pages": 381,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Young women -- Fiction",
+                "Female friendship -- Fiction",
+                "Fathers and daughters -- Fiction",
+                "England -- Fiction"
+            ],
+            "publish_date": "1957",
+            "publish_country": "mau",
+            "series": [
+                "Riverside editions, B17"
+            ],
+            "by_statement": "With an introd. by Lionel Trilling.",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:scms:0188500137487"
+            ],
+            "covers": [
+                13440842
+            ],
+            "ocaid": "emma0000jane_p0b0",
+            "lccn": [
+                "57013918"
+            ],
+            "oclc_numbers": [
+                "263214"
+            ],
+            "lc_classifications": [
+                "PZ3.A93 E29",
+                "PR4034.E5 E29",
+                "PR4034 .E4 1957"
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "\"Twenty-one-year-old Emma Woodhouse loves playing matchmaker. When pretty and socially inferior Harriet arrives, Emma decides to indulge her passion. Against the advice of family friend and surrogate older brother Mr. Knightly, Emma persuades Harriet to reject a marriage proposal from a local farmer in order to hold out for an offer from the dashing Mr. Elton. But Emma soon discovers Mr. Elton's true motives and her advice to Harriet goes terribly awry\"--Publisher description."
+            },
+            "latest_revision": 24,
+            "revision": 24,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-05-11T22:35:56.956925"
+            }
+        },
+        "/books/OL17721598M": {
+            "publishers": [
+                "J. M. Dent",
+                "E. P. Dutton"
+            ],
+            "identifiers": {},
+            "series": [
+                "Everyman's library : Fiction, 24"
+            ],
+            "key": "/books/OL17721598M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "London",
+                "New York"
+            ],
+            "pagination": "xv, 427 p. ;",
+            "classifications": {},
+            "source_records": [
+                "marc:marc_oregon_summit_records/catalog_files/osu_bibs.mrc:1411289958:858"
+            ],
+            "title": "Emma",
+            "notes": "First published in this edition 1906.",
+            "number_of_pages": 427,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1961",
+            "publish_country": "enk",
+            "by_statement": "Jane Austen ; introduction by R. Brimley Johnson.",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 16,
+            "revision": 16,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-30T17:49:59.766318"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-28T09:22:25.060631"
+            }
+        },
+        "/books/OL19046280M": {
+            "publishers": [
+                "Dent"
+            ],
+            "identifiers": {},
+            "subtitle": "Introd. by R. Brimley Johnson.",
+            "series": [
+                "Everyman's library, 24.  Fiction"
+            ],
+            "key": "/books/OL19046280M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "xv, 427 p. ;",
+            "classifications": {},
+            "source_records": [
+                "marc:marc_university_of_toronto/uoft.marc:3869682285:701"
+            ],
+            "title": "Emma.",
+            "notes": "Bibliography: p. xv.",
+            "number_of_pages": 427,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1961",
+            "publish_country": "ukk",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 16,
+            "revision": 16,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-20T20:29:24.654571"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-28T09:22:25.060631"
+            }
+        },
+        "/books/OL17777869M": {
+            "publishers": [
+                "New American Library"
+            ],
+            "identifiers": {},
+            "key": "/books/OL17777869M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "pagination": "396, [1] p. ;",
+            "classifications": {},
+            "source_records": [
+                "marc:marc_oregon_summit_records/catalog_files/washs02192008.mrc_revrev.mrc:756385370:602"
+            ],
+            "title": "Emma",
+            "notes": "Bibliography: p. [397].",
+            "number_of_pages": 396,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1964",
+            "publish_country": "nyu",
+            "by_statement": "by Jane Austen ; with an afterword by Graham Hough.",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "emmaasignetclass00jane",
+            "covers": [
+                12639997,
+                12639996
+            ],
+            "latest_revision": 19,
+            "revision": 19,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-01T03:09:48.522059"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-02-19T20:09:21.576724"
+            }
+        },
+        "/books/OL13905926M": {
+            "publishers": [
+                "Heritage Press"
+            ],
+            "classifications": {},
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:243525889:447"
+            ],
+            "title": "Emma",
+            "identifiers": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1964",
+            "publish_country": "xxu",
+            "key": "/books/OL13905926M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "by_statement": "with a preface by Stella Gibbons ; and illustrations by Fritz Kredel.",
+            "publish_places": [
+                "New York"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "emma0000jane",
+            "dewey_decimal_class": [
+                "823.7"
+            ],
+            "covers": [
+                12856331
+            ],
+            "latest_revision": 16,
+            "revision": 16,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-02T01:51:23.970261"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-08-10T18:09:00.180067"
+            }
+        },
+        "/books/OL13797428M": {
+            "publishers": [
+                "Oxford University Press"
+            ],
+            "classifications": {},
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:138593761:438"
+            ],
+            "title": "Emma",
+            "series": [
+                "The World's classics -- 129"
+            ],
+            "identifiers": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1966",
+            "publish_country": "xxk",
+            "key": "/books/OL13797428M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "by_statement": "with an introduction by E.V. Lucas.",
+            "publish_places": [
+                "London"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "emma0000jane_d5h6",
+            "covers": [
+                14617403
+            ],
+            "latest_revision": 16,
+            "revision": 16,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-08-31T19:12:28.845803"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-22T21:35:35.186584"
+            }
+        },
+        "/books/OL18089486M": {
+            "publishers": [
+                "Oxford University Press"
+            ],
+            "identifiers": {},
+            "subtitle": "edited with an introduction by David Lodge; textual notes and bibliography by James Kinsley.",
+            "series": [
+                "Oxford English novels"
+            ],
+            "lc_classifications": [
+                "PR4034 E5 1971"
+            ],
+            "key": "/books/OL18089486M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "446p.",
+            "classifications": {},
+            "source_records": [
+                "marc:marc_university_of_toronto/uoft.marc:1666674915:621"
+            ],
+            "title": "Emma",
+            "number_of_pages": 446,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1971",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 16,
+            "revision": 16,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-09T20:15:17.390111"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-28T09:22:25.060631"
+            }
+        },
+        "/books/OL10273805M": {
+            "publishers": [
+                "Signet Classics"
+            ],
+            "classifications": {},
+            "source_records": [
+                "amazon:0451502167",
+                "bwb:9780451502162"
+            ],
+            "title": "Emma",
+            "identifiers": {
+                "goodreads": [
+                    "2999650"
+                ]
+            },
+            "isbn_13": [
+                "9780451502162"
+            ],
+            "physical_format": "Paperback",
+            "isbn_10": [
+                "0451502167"
+            ],
+            "publish_date": "February 1, 1968",
+            "key": "/books/OL10273805M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction / General"
+            ],
+            "latest_revision": 19,
+            "revision": 19,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-09-17T21:04:13.949688"
+            }
+        },
+        "/books/OL22574499M": {
+            "publishers": [
+                "Pan Books"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "364"
+                ],
+                "goodreads": [
+                    "3177301"
+                ]
+            },
+            "lc_classifications": [
+                "PR4034.E53"
+            ],
+            "key": "/books/OL22574499M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "383p. ;",
+            "classifications": {},
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:1734975084:575"
+            ],
+            "title": "Emma",
+            "dewey_decimal_class": [
+                "823.7"
+            ],
+            "notes": "bibl p383.",
+            "number_of_pages": 383,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0330023993"
+            ],
+            "publish_date": "1969",
+            "publish_country": "enk",
+            "by_statement": "by Jane Austen ; introduction and notes by Arthur Calder-Marshall.",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 18,
+            "revision": 18,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-16T11:36:29.581185"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-28T09:22:25.060631"
+            }
+        },
+        "/books/OL10174236M": {
+            "publishers": [
+                "Dodd Mead"
+            ],
+            "physical_format": "Hardcover",
+            "classifications": {},
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-02-22T10:04:27.563614"
+            },
+            "source_records": [
+                "amazon:0396045553"
+            ],
+            "title": "Emma",
+            "identifiers": {
+                "goodreads": [
+                    "3335579"
+                ]
+            },
+            "isbn_13": [
+                "9780396045557"
+            ],
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0396045553"
+            ],
+            "publish_date": "June 1982",
+            "key": "/books/OL10174236M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "latest_revision": 16,
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction"
+            ],
+            "revision": 16
+        },
+        "/books/OL22066058M": {
+            "publishers": [
+                "G.N. Morang"
+            ],
+            "physical_format": "Microform",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-02-22T10:03:41.379109"
+            },
+            "latest_revision": 16,
+            "key": "/books/OL22066058M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "Toronto"
+            ],
+            "pagination": "1 microfiche (3 fr.).",
+            "classifications": {},
+            "source_records": [
+                "marc:marc_university_of_toronto/uoft.marc:3180408576:1119"
+            ],
+            "title": "Emma",
+            "notes": {
+                "type": "/type/text",
+                "value": "The work cited in the author/title information area of this microfiche (no. 29721) is a 2 volume set.  The Institute provides this microfiche as a reference to the complete set.  For individual microfiches in this set see CIHM microfiche nos. 29722 and 29723.\r\n\r\nAt head of title: The novels of Jane Austen.\r\n\r\nFilmed from a copy of the original publication held by the University of Alberta, Edmonton. Ottawa : Canadian Institute for Historical Microreproductions, 1984.\r\n\r\n2 v. : ill. ; 19 cm."
+            },
+            "identifiers": {
+                "librarything": [
+                    "364"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-06T12:22:29.902807"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0665297211"
+            ],
+            "publish_date": "1984",
+            "publish_country": "onc",
+            "by_statement": "by Jane Austen.",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 16
+        },
+        "/books/OL22066074M": {
+            "publishers": [
+                "G.N. Morang"
+            ],
+            "number_of_pages": 176,
+            "series": [
+                "CIHM/ICMH Microfiche series -- no. 29722"
+            ],
+            "physical_format": "Microform",
+            "key": "/books/OL22066074M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_places": [
+                "Toronto"
+            ],
+            "pagination": "4 microfiches (176 fr.)",
+            "classifications": {},
+            "source_records": [
+                "marc:marc_university_of_toronto/uoft.marc:3180411279:1135"
+            ],
+            "title": "Emma",
+            "dewey_decimal_class": [
+                "823.7"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "\"In two volumes. Vol. I.\"\r\n\r\nPart of a CIHM set.  For individual microfiches in this set see CIHM microfiche nos. 29722-29723.\r\n\r\nAt head of title: The novels of Jane Austen.\r\n\r\nFilmed from a copy of the original publication held by the University of Alberta, Edmonton. Ottawa : Canadian Institute for Historical Microreproductions, 1984."
+            },
+            "identifiers": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "066529722X"
+            ],
+            "publish_date": "1984",
+            "publish_country": "onc",
+            "by_statement": "by Jane Austen.",
+            "works": [
+                {
+                    "key": "/works/OL66513W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 17,
+            "revision": 17,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-06T12:22:49.605890"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-28T09:22:25.060631"
+            }
+        }
+    }
+}

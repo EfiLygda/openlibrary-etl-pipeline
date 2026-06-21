@@ -1,0 +1,5911 @@
+{
+    "status": "ok",
+    "result": {
+        "/books/OL57562988M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL2875767A"
+                }
+            ],
+            "isbn_13": [
+                "9780593903902"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 432,
+            "publish_date": "2025",
+            "publishers": [
+                "Random House Children's Books"
+            ],
+            "source_records": [
+                "bwb:9780593903902"
+            ],
+            "title": "All the Bright Places Collector's Edition",
+            "weight": "0.346",
+            "works": [
+                {
+                    "key": "/works/OL17323489W"
+                }
+            ],
+            "key": "/books/OL57562988M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-01-25T00:15:53.201050"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-02T03:34:38.020737"
+            }
+        },
+        "/books/OL49365601M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL2875767A"
+                }
+            ],
+            "local_id": [
+                "urn:bwbsku:W8-BUC-926"
+            ],
+            "publish_date": "2015-09-17",
+            "publishers": [
+                "GALLIMARD JEUNE"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-09-06:W8-BUC-926",
+                "amazon:2070663337"
+            ],
+            "title": "Tous nos jours parfaits",
+            "full_title": "Tous nos jours parfaits (ROMANS ADO) (French Edition)",
+            "works": [
+                {
+                    "key": "/works/OL17323489W"
+                }
+            ],
+            "key": "/books/OL49365601M",
+            "covers": [
+                15138142
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "number_of_pages": 384,
+            "identifiers": {},
+            "isbn_10": [
+                "2070663337"
+            ],
+            "isbn_13": [
+                "9782070663330"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-09-08T01:03:47.754794"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-02T03:37:55.316849"
+            }
+        },
+        "/books/OL35623163M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Violet Y Finch",
+            "authors": [
+                {
+                    "key": "/authors/OL2875767A"
+                }
+            ],
+            "publish_date": "2015-05-26",
+            "source_records": [
+                "amazon:9507323074"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Violet Y Finch",
+            "covers": [
+                12330286
+            ],
+            "works": [
+                {
+                    "key": "/works/OL17323489W"
+                }
+            ],
+            "key": "/books/OL35623163M",
+            "identifiers": {
+                "goodreads": [
+                    "40780108"
+                ]
+            },
+            "copyright_date": "2015",
+            "edition_name": "Primera edición",
+            "contributors": [
+                {
+                    "role": "Translator",
+                    "name": "Isabel Murillo"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "translation_of": "All the Bright Places",
+            "translated_from": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Destino"
+            ],
+            "isbn_10": [
+                "9507323074"
+            ],
+            "isbn_13": [
+                "9789507323072"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-05T19:22:40.690799"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-02T03:36:30.516081"
+            }
+        },
+        "/books/OL57499903M": {
+            "works": [
+                {
+                    "key": "/works/OL17323489W"
+                }
+            ],
+            "title": "All the Bright Places",
+            "publishers": [
+                "Alfred A. Knopf"
+            ],
+            "publish_date": "2015-01-06",
+            "key": "/books/OL57499903M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "subtitle": "A Novel",
+            "copyright_date": "2015",
+            "edition_name": "v3.1 (hardcover)",
+            "physical_format": "ebook",
+            "publish_places": [
+                "New York, United States"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "notes": "\"A Borzoi Book published by Alfred A. Knopf\" --title page verso",
+            "covers": [
+                15103220
+            ],
+            "isbn_13": [
+                "9780385755900"
+            ],
+            "lccn": [
+                "2014002238"
+            ],
+            "dewey_decimal_class": [
+                "[Fic]"
+            ],
+            "lc_classifications": [
+                "PZ7.N6434 Al 2015"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-01-22T04:48:58.409014"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-02T03:29:06.987714"
+            }
+        },
+        "/books/OL53065760M": {
+            "works": [
+                {
+                    "key": "/works/OL17323489W"
+                }
+            ],
+            "title": "Dager med blå himmel",
+            "publishers": [
+                "Schibsted"
+            ],
+            "publish_date": "2015",
+            "key": "/books/OL53065760M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                14654805
+            ],
+            "isbn_13": [
+                "9788251684910"
+            ],
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/nob"
+                }
+            ],
+            "physical_format": "Ebook",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-08-09T13:02:52.684878"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-09T13:04:41.588627"
+            }
+        },
+        "/books/OL46611638M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL2875767A"
+                }
+            ],
+            "isbn_13": [
+                "9781484491492"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "416",
+            "publish_date": "2016",
+            "publishers": [
+                "Random House Books for Young Readers"
+            ],
+            "source_records": [
+                "bwb:9781484491492"
+            ],
+            "subjects": [
+                "Emotions, fiction",
+                "Friendship, fiction",
+                "Indiana, fiction",
+                "Suicide, fiction",
+                "Children's fiction"
+            ],
+            "title": "All the Bright Places",
+            "full_title": "All the Bright Places",
+            "works": [
+                {
+                    "key": "/works/OL17323489W"
+                }
+            ],
+            "key": "/books/OL46611638M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-02-17T07:17:29.728906"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-12-24T13:12:08.982249"
+            }
+        },
+        "/books/OL38807780M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL2875767A"
+                }
+            ],
+            "isbn_13": [
+                "9780141357041"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2015",
+            "publishers": [
+                "Penguin Books, Limited"
+            ],
+            "source_records": [
+                "bwb:9780141357041"
+            ],
+            "title": "All the Bright Places",
+            "full_title": "All the Bright Places",
+            "works": [
+                {
+                    "key": "/works/OL17323489W"
+                }
+            ],
+            "key": "/books/OL38807780M",
+            "latest_revision": 1,
+            "revision": 1,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-07-18T18:33:56.005026"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-18T18:33:56.005026"
+            }
+        },
+        "/books/OL29583187M": {
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "source_records": [
+                "bwb:9780373235520"
+            ],
+            "title": "Greek's Forced Bride",
+            "number_of_pages": 256,
+            "isbn_13": [
+                "9780373235520"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Greek's Forced Bride",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2008",
+            "key": "/books/OL29583187M",
+            "authors": [
+                {
+                    "key": "/authors/OL811660A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4233123W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general",
+                "Greece, fiction",
+                "Man-woman relationships, fiction"
+            ],
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-28T13:59:33.151544"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-18T14:59:24.650937"
+            }
+        },
+        "/books/OL29050684M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263203998"
+            ],
+            "title": "Greek's Forced Bride",
+            "number_of_pages": 186,
+            "isbn_13": [
+                "9780263203998"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Greek's Forced Bride",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2008",
+            "key": "/books/OL29050684M",
+            "authors": [
+                {
+                    "key": "/authors/OL811660A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4233123W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general",
+                "Greece, fiction",
+                "Man-woman relationships, fiction"
+            ],
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-21T09:37:08.809121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-18T14:59:24.650937"
+            }
+        },
+        "/books/OL29107317M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781408909409"
+            ],
+            "title": "Greek's Forced Bride",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781408909409"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Greek's Forced Bride",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2009",
+            "key": "/books/OL29107317M",
+            "authors": [
+                {
+                    "key": "/authors/OL811660A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4233123W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-22T04:11:11.513452"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-18T14:59:24.650937"
+            }
+        },
+        "/books/OL24273793M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "covers": [
+                6423596
+            ],
+            "physical_format": "Electronic resource",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-08-28T10:51:01.244606"
+            },
+            "latest_revision": 5,
+            "key": "/books/OL24273793M",
+            "authors": [
+                {
+                    "key": "/authors/OL811660A"
+                }
+            ],
+            "publish_places": [
+                "Toronto, Ontario"
+            ],
+            "isbn_13": [
+                "9781426826320"
+            ],
+            "source_records": [
+                "marc_overdrive/InternetArchiveCrMarc-2010-06-11s.mrc:724613:1887",
+                "bwb:9781426826320"
+            ],
+            "title": "The Greek's Forced Bride",
+            "identifiers": {
+                "overdrive": [
+                    "F97E2C8E-1E68-44E2-A9E5-F3D6E5D9BB4C"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-06-18T01:33:21.164096"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2009",
+            "publish_country": "nyu",
+            "oclc_numbers": [
+                "435428664"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4233123W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 5
+        },
+        "/books/OL16559715M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "number_of_pages": 189,
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T22:33:40.327963"
+            },
+            "latest_revision": 6,
+            "key": "/books/OL16559715M",
+            "authors": [
+                {
+                    "key": "/authors/OL589216A"
+                }
+            ],
+            "publish_places": [
+                "Surrey"
+            ],
+            "pagination": "189p. ;",
+            "source_records": [
+                "bwb:9780263762204"
+            ],
+            "title": "Loveknot.",
+            "identifiers": {
+                "goodreads": [
+                    "6460242"
+                ],
+                "librarything": [
+                    "6805886"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-24T18:49:58.688154"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263762203"
+            ],
+            "publish_date": "1989",
+            "publish_country": "xxk",
+            "oclc_numbers": [
+                "20015321"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3519244W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 6
+        },
+        "/books/OL10738672M": {
+            "identifiers": {
+                "goodreads": [
+                    "6460246"
+                ],
+                "librarything": [
+                    "6805886"
+                ]
+            },
+            "title": "Loveknot",
+            "authors": [
+                {
+                    "key": "/authors/OL589216A"
+                }
+            ],
+            "publish_date": "December 1, 1989",
+            "publishers": [
+                "Harlequin"
+            ],
+            "series": [
+                "Harlequin Presents, No 1225"
+            ],
+            "covers": [
+                9569042
+            ],
+            "physical_format": "Paperback",
+            "subjects": [
+                "Non-Classifiable",
+                "Romance - General",
+                "Fiction",
+                "Romance: Regency"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-08-11:O7-CEA-148",
+                "bwb:9780373112258",
+                "promise:bwb_daily_pallets_2021-06-28:W6-AVH-192"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:O7-CEA-148",
+                "urn:bwbsku:W6-AVH-192"
+            ],
+            "key": "/books/OL10738672M",
+            "number_of_pages": 189,
+            "works": [
+                {
+                    "key": "/works/OL3519244W"
+                }
+            ],
+            "ocaid": "loveknot00cath",
+            "isbn_10": [
+                "0373112254"
+            ],
+            "isbn_13": [
+                "9780373112258"
+            ],
+            "oclc_numbers": [
+                "20575786"
+            ],
+            "classifications": {},
+            "latest_revision": 16,
+            "revision": 16,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-03-20T23:17:27.914267"
+            }
+        },
+        "/books/OL35261886M": {
+            "works": [
+                {
+                    "key": "/works/OL2625443W"
+                }
+            ],
+            "title": "Spoetnikliefde",
+            "publishers": [
+                "Eldorado"
+            ],
+            "publish_date": "2006",
+            "key": "/books/OL35261886M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                12076308
+            ],
+            "ocaid": "spoetnikliefde0000mura",
+            "isbn_13": [
+                "9789047102915"
+            ],
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/dut"
+                }
+            ],
+            "source_records": [
+                "ia:spoetnikliefde0000mura",
+                "promise:bwb_daily_pallets_2021-04-16"
+            ],
+            "local_id": [
+                "urn:bwbsku:KM-177-387"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-12T13:57:35.158707"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-14T21:57:21.961827"
+            }
+        },
+        "/books/OL8626301M": {
+            "identifiers": {
+                "librarything": [
+                    "74326"
+                ],
+                "goodreads": [
+                    "830430"
+                ],
+                "wikidata": [
+                    "Q126707250"
+                ]
+            },
+            "title": "Sputnik sweetheart",
+            "authors": [
+                {
+                    "key": "/authors/OL382524A"
+                }
+            ],
+            "publish_date": "2001",
+            "publishers": [
+                "Alfred A Knopf"
+            ],
+            "weight": "14.1 ounces",
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "In the spring of her twenty-second year, Sumire fell in love for the first time in her life."
+            },
+            "covers": [
+                915032
+            ],
+            "physical_format": "Paperback",
+            "subjects": [
+                "General",
+                "Fiction - General"
+            ],
+            "isbn_13": [
+                "9781860468254"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "186046825X"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.4 x 5.4 x 0.8 inches",
+            "source_records": [
+                "bwb:9781860468254"
+            ],
+            "key": "/books/OL8626301M",
+            "number_of_pages": 229,
+            "works": [
+                {
+                    "key": "/works/OL2625443W"
+                }
+            ],
+            "latest_revision": 12,
+            "revision": 12,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T08:14:56.482104"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-04T00:37:04.474060"
+            }
+        },
+        "/books/OL29264357M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781408999011"
+            ],
+            "title": "Bought with His Name",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781408999011"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Bought with His Name",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2015",
+            "key": "/books/OL29264357M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3759285W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-24T00:41:12.207007"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-02T22:13:06.094320"
+            }
+        },
+        "/books/OL9566454M": {
+            "publishers": [
+                "Thorndike Pr"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "2249024"
+                ],
+                "goodreads": [
+                    "1445429"
+                ]
+            },
+            "physical_format": "Paperback",
+            "key": "/books/OL9566454M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "subjects": [
+                "Large Print"
+            ],
+            "edition_name": "Large Prnt edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "title": "Bought With His Name",
+            "number_of_pages": 235,
+            "isbn_13": [
+                "9780750500883"
+            ],
+            "isbn_10": [
+                "0750500883"
+            ],
+            "publish_date": "June 1991",
+            "oclc_numbers": [
+                "22762829"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3759285W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "bwb:9780750500883"
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-02-28T14:50:58.727867"
+            }
+        },
+        "/books/OL18361887M": {
+            "publishers": [
+                "Mills & Boon",
+                "Harlequin Mills & Boon"
+            ],
+            "pagination": "190p.",
+            "title": "Bought with his name.",
+            "series": [
+                "Bestseller Romance"
+            ],
+            "number_of_pages": 190,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263762041"
+            ],
+            "publish_date": "1988",
+            "publish_country": "xxk",
+            "key": "/books/OL18361887M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3759285W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                13839753
+            ],
+            "source_records": [
+                "amazon:0263762041"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-16T09:28:52.040612"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-04-05T21:04:29.074709"
+            }
+        },
+        "/books/OL9740569M": {
+            "publishers": [
+                "Ulverscroft Large Print",
+                "Brand: Dales Large Print",
+                "Dales large print Books"
+            ],
+            "number_of_pages": 250,
+            "weight": "9.6 ounces",
+            "physical_format": "Paperback",
+            "key": "/books/OL9740569M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "subjects": [
+                "Romance",
+                "Romance: Modern",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance - General"
+            ],
+            "edition_name": "Lrg edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "classifications": {},
+            "title": "Bought With His Name",
+            "notes": {
+                "type": "/type/text",
+                "value": "Dales Romance"
+            },
+            "identifiers": {},
+            "isbn_13": [
+                "9781842620908"
+            ],
+            "isbn_10": [
+                "1842620908"
+            ],
+            "publish_date": "September 2001",
+            "works": [
+                {
+                    "key": "/works/OL3759285W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.5 x 5.5 x 0.6 inches",
+            "covers": [
+                13901994
+            ],
+            "source_records": [
+                "amazon:1842620908"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-04-11T21:22:14.729713"
+            }
+        },
+        "/books/OL10241331M": {
+            "publishers": [
+                "Thorndike Press"
+            ],
+            "weight": "14.7 ounces",
+            "covers": [
+                2343031
+            ],
+            "physical_format": "Hardcover",
+            "key": "/books/OL10241331M",
+            "authors": [
+                {
+                    "key": "/authors/OL1175057A"
+                }
+            ],
+            "subjects": [
+                "Romance",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern",
+                "Romance - General"
+            ],
+            "edition_name": "Large Print Edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "bwb:9780263163568",
+                "promise:bwb_daily_pallets_2021-08-13"
+            ],
+            "title": "Mail-Order Marriage",
+            "number_of_pages": 288,
+            "publish_date": "March 2000",
+            "works": [
+                {
+                    "key": "/works/OL5236145W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.4 x 5.5 x 1 inches",
+            "identifiers": {},
+            "ocaid": "mailordermarriag00marg",
+            "isbn_10": [
+                "0263163563"
+            ],
+            "isbn_13": [
+                "9780263163568"
+            ],
+            "classifications": {},
+            "local_id": [
+                "urn:bwbsku:P7-DUB-820"
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-27T11:40:00.648820"
+            }
+        },
+        "/books/OL29589204M": {
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "source_records": [
+                "bwb:9781426803352"
+            ],
+            "title": "The Contaxis Baby",
+            "number_of_pages": 192,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Contaxis Baby",
+            "publish_date": "2007",
+            "key": "/books/OL29589204M",
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3773896W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9781426803352"
+            ],
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-28T16:43:00.823671"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-22T14:53:28.153940"
+            }
+        },
+        "/books/OL9745102M": {
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "covers": [
+                1155001
+            ],
+            "edition_name": "Large Print Edition",
+            "physical_format": "Hardcover",
+            "key": "/books/OL9745102M",
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "subjects": [
+                "Romance",
+                "Romance - Contemporary",
+                "Fiction - Romance"
+            ],
+            "source_records": [
+                "bwb:9780263178753"
+            ],
+            "title": "The Contaxis Baby",
+            "number_of_pages": 288,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "March 2003",
+            "works": [
+                {
+                    "key": "/works/OL3773896W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "classifications": {},
+            "isbn_10": [
+                "0263178757"
+            ],
+            "isbn_13": [
+                "9780263178753"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-22T14:50:55.290200"
+            }
+        },
+        "/books/OL56900534M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL9180803A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "number_of_pages": 640,
+            "publish_date": "2024",
+            "publishers": [
+                "Editorial Planeta Mexicana"
+            ],
+            "source_records": [
+                "bwb:9786073908634"
+            ],
+            "title": "Twisted Hate",
+            "subtitle": "Él la Odia... Casi Tanto Como la Desea",
+            "full_title": "Twisted Hate Él la Odia... Casi Tanto Como la Desea",
+            "works": [
+                {
+                    "key": "/works/OL27245843W"
+                }
+            ],
+            "key": "/books/OL56900534M",
+            "covers": [
+                15088612
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "208580968"
+                ],
+                "amazon": [
+                    "6073908636"
+                ]
+            },
+            "isbn_13": [
+                "9786073908634"
+            ],
+            "isbn_10": [
+                "6073908636"
+            ],
+            "oclc_numbers": [
+                "1429336557"
+            ],
+            "series": [
+                "Twisted, 3"
+            ],
+            "translation_of": "Twisted Hate",
+            "translated_from": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "Él la odia... casi tanto como la desea.\r\n\r\n Josh Chen es ambicioso, arrogante y ninguna mujer se le resiste. Ninguna excepto Jules Ambrose. La enemistad entre ellos es tan obvia como lo es el deseo que, desde que se conocen, no hace más que aumentar. Cuando la tensión por fin estalle, Josh propondrá un trato imposible de rechazar: un acuerdo entre enemigos con derechos y tres sencillas reglas: \r\n\r\nSin celos. Sin condiciones. Y, por supuesto, sin enamorarse.\r\nExtrovertida y ambiciosa, Jules Ambrose ha dejado atrás un pasado de desenfreno para enfocarse en un objetivo: convertirse en abogada. En este momento, lo último que necesita es iniciar una relación con un hombre que es tan insufrible como atractivo. Pero con el paso del tiempo, se dará cuenta de que Josh es mucho más de lo que aparenta: \r\n\r\nEl hermano de su mejor amiga. Su némesis. Y su único refugio. \r\nForman una pareja hecha en el infierno y, cuando los demonios de su pasado los alcancen, se enfrentarán a verdades que podrían salvarlos… o destruirlos por completo."
+            },
+            "physical_format": "Paperback",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-10-06T05:35:11.957924"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-05-22T11:06:28.303298"
+            }
+        },
+        "/books/OL38183720M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL9180803A"
+                }
+            ],
+            "isbn_13": [
+                "9781957464077"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2022",
+            "publishers": [
+                "Ana Huang"
+            ],
+            "source_records": [
+                "bwb:9781957464077",
+                "amazon:1957464070"
+            ],
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "title": "Twisted Hate",
+            "full_title": "Twisted Hate",
+            "works": [
+                {
+                    "key": "/works/OL27245843W"
+                }
+            ],
+            "key": "/books/OL38183720M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-05-27T10:33:58.572390"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-11-15T15:28:20.967932"
+            }
+        },
+        "/books/OL40280582M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Sunshine",
+            "authors": [
+                {
+                    "key": "/authors/OL10276021A"
+                }
+            ],
+            "publish_date": "Oct 01, 2003",
+            "source_records": [
+                "amazon:0593051025"
+            ],
+            "number_of_pages": 329,
+            "publishers": [
+                "Bantam Press"
+            ],
+            "isbn_10": [
+                "0593051025"
+            ],
+            "isbn_13": [
+                "9780593051023"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Sunshine",
+            "works": [
+                {
+                    "key": "/works/OL109410W"
+                }
+            ],
+            "key": "/books/OL40280582M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-13T09:22:24.410023"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-10T20:35:04.307835"
+            }
+        },
+        "/books/OL28320576M": {
+            "publishers": [
+                "Fanucci"
+            ],
+            "source_records": [
+                "amazon:8834716655"
+            ],
+            "title": "Sunshine",
+            "isbn_13": [
+                "9788834716656"
+            ],
+            "covers": [
+                10249926
+            ],
+            "physical_format": "hardcover",
+            "full_title": "Sunshine",
+            "isbn_10": [
+                "8834716655"
+            ],
+            "publish_date": "Jul 11, 2010",
+            "key": "/books/OL28320576M",
+            "authors": [
+                {
+                    "key": "/authors/OL29622A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL109410W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-07-11T20:23:20.314039"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-10T20:35:04.307835"
+            }
+        },
+        "/books/OL36799056M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL29622A"
+                }
+            ],
+            "isbn_13": [
+                "9781497674066"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "407",
+            "publish_date": "2014",
+            "publishers": [
+                "Open Road Integrated Media, Inc."
+            ],
+            "source_records": [
+                "bwb:9781497674066"
+            ],
+            "subjects": [
+                "Fiction, occult & supernatural",
+                "Fiction, romance, general",
+                "Vampires, fiction"
+            ],
+            "title": "Sunshine",
+            "full_title": "Sunshine",
+            "works": [
+                {
+                    "key": "/works/OL109410W"
+                }
+            ],
+            "key": "/books/OL36799056M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-01-28T03:04:39.230024"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-10T20:35:04.307835"
+            }
+        },
+        "/books/OL25620973M": {
+            "publishers": [
+                "The Berkley Publishing Group"
+            ],
+            "created": {
+                "type": "/type/datetime",
+                "value": "2014-09-16T12:50:09.528230"
+            },
+            "publish_date": "2003",
+            "key": "/books/OL25620973M",
+            "title": "Sunshine",
+            "latest_revision": 2,
+            "works": [
+                {
+                    "key": "/works/OL109410W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-04-27T10:59:10.775889"
+            },
+            "revision": 2
+        },
+        "/books/OL24086096M": {
+            "publishers": [
+                "Speak"
+            ],
+            "weight": "0.2 ounces",
+            "covers": [
+                6377320
+            ],
+            "physical_format": "Paperback",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-08-28T03:20:09.054210"
+            },
+            "latest_revision": 6,
+            "key": "/books/OL24086096M",
+            "authors": [
+                {
+                    "key": "/authors/OL29622A"
+                }
+            ],
+            "subjects": [
+                "Science Fiction & Fantasy -- Authors, A-Z -- ( M ) -- McKinley, Robin",
+                "Teens -- Literature & Fiction -- Love & Romance",
+                "Teens -- Science Fiction & Fantasy -- Fantasy",
+                "Teens -- Science Fiction & Fantasy -- Science Fiction"
+            ],
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "It was a dumb thing to do but it wasn't that dumb."
+            },
+            "source_records": [
+                "amazon:0142411108",
+                "bwb:9780142411100"
+            ],
+            "title": "Sunshine",
+            "number_of_pages": 416,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-03-12T02:41:31.951125"
+            },
+            "isbn_13": [
+                "9780142411100"
+            ],
+            "isbn_10": [
+                "0142411108"
+            ],
+            "publish_date": "April 29, 2010",
+            "oclc_numbers": [
+                "502029700"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL109410W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 6
+        },
+        "/books/OL24225689M": {
+            "publishers": [
+                "Speak          "
+            ],
+            "title": "Sunshine",
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-05-07T16:18:41.795410"
+            },
+            "covers": [
+                6387065
+            ],
+            "isbn_13": [
+                "9780142411100"
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-04-27T10:59:10.775889"
+            },
+            "publish_date": "04/29/2010",
+            "key": "/books/OL24225689M",
+            "latest_revision": 4,
+            "oclc_numbers": [
+                "502029700"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL109410W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 4
+        },
+        "/books/OL47276162M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Violet y Finch. Nueva presentación",
+            "authors": [
+                {
+                    "key": "/authors/OL2875767A"
+                },
+                {
+                    "key": "/authors/OL7297881A"
+                }
+            ],
+            "publish_date": "Jun 29, 2022",
+            "source_records": [
+                "amazon:8408261568"
+            ],
+            "number_of_pages": 400,
+            "publishers": [
+                "Crossbooks"
+            ],
+            "isbn_10": [
+                "8408261568"
+            ],
+            "isbn_13": [
+                "9788408261568"
+            ],
+            "physical_format": "paperback",
+            "covers": [
+                13732103
+            ],
+            "works": [
+                {
+                    "key": "/works/OL17323489W"
+                }
+            ],
+            "key": "/books/OL47276162M",
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-03-21T02:28:24.151698"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-02T03:37:33.755640"
+            }
+        },
+        "/books/OL27193930M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Translation of: All the bright places."
+            },
+            "title": "Sheng ming zhong de can lan shi guang",
+            "authors": [
+                {
+                    "key": "/authors/OL2875767A"
+                }
+            ],
+            "publish_date": "2015",
+            "publishers": [
+                "Yuan jian tian xia wen hua chu ban gu fen you xian gong si"
+            ],
+            "isbn_10": [
+                "9863208493"
+            ],
+            "series": [
+                "Xiao shuo guan -- 019",
+                "Xiao shuo guan (Yuan jian tian xia wen hua chu ban gu fen you xian gong si) -- 019."
+            ],
+            "publish_places": [
+                "Taibei shi"
+            ],
+            "contributions": [
+                "Fang, Shuhui"
+            ],
+            "subjects": [
+                "Suicide",
+                "Friendship",
+                "Emotional problems",
+                "Fiction"
+            ],
+            "edition_name": "Di 1 ban",
+            "pagination": "367 pages",
+            "source_records": [
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run05.mrc:238589751:2764"
+            ],
+            "work_titles": [
+                "All the bright places"
+            ],
+            "isbn_13": [
+                "9789863208495"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/chi"
+                }
+            ],
+            "subject_places": [
+                "Indiana"
+            ],
+            "local_id": [
+                "urn:sfpl:31223117075193",
+                "urn:sfpl:31223117075227",
+                "urn:sfpl:31223117075201",
+                "urn:sfpl:31223117075219"
+            ],
+            "publish_country": "ch",
+            "by_statement": "Zhennifo Niwen zhu ; Fang Shuhui yi = All the bright places / Jennifer Niven",
+            "oclc_numbers": [
+                "932780791"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "key": "/books/OL27193930M",
+            "number_of_pages": 367,
+            "works": [
+                {
+                    "key": "/works/OL17323489W"
+                }
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-07-19T06:33:11.812094"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-02T03:34:38.020737"
+            }
+        },
+        "/books/OL31386421M": {
+            "publishers": [
+                "Ember"
+            ],
+            "source_records": [
+                "amazon:0593118928",
+                "bwb:9780593118924",
+                "promise:bwb_daily_pallets_2023-04-14:W8-ASY-309"
+            ],
+            "title": "All the Bright Places",
+            "number_of_pages": 416,
+            "covers": [
+                14559667
+            ],
+            "physical_format": "paperback",
+            "publish_date": "2020?",
+            "key": "/books/OL31386421M",
+            "authors": [
+                {
+                    "key": "/authors/OL2875767A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL17323489W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:W8-ASY-309"
+            ],
+            "identifiers": {},
+            "isbn_10": [
+                "0593118928"
+            ],
+            "isbn_13": [
+                "9780593118924"
+            ],
+            "ocaid": "allbrightplacesm0000jenn",
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-11-18T16:10:25.615167"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-12-24T13:12:08.982249"
+            }
+        },
+        "/books/OL27500123M": {
+            "publishers": [
+                "Random House US"
+            ],
+            "source_records": [
+                "amazon:0553533584"
+            ],
+            "title": "All the Bright Places",
+            "identifiers": {
+                "amazon": [
+                    "0553533584"
+                ]
+            },
+            "isbn_13": [
+                "9780553533583"
+            ],
+            "covers": [
+                8957299
+            ],
+            "physical_format": "paperback",
+            "full_title": "All the Bright Places",
+            "isbn_10": [
+                "0553533584"
+            ],
+            "key": "/books/OL27500123M",
+            "works": [
+                {
+                    "key": "/works/OL17323489W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-10-19T06:10:30.196114"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-12-24T13:12:08.982249"
+            }
+        },
+        "/books/OL50521979M": {
+            "works": [
+                {
+                    "key": "/works/OL17323489W"
+                }
+            ],
+            "title": "All the bright places",
+            "publishers": [
+                "Penguin Books"
+            ],
+            "publish_date": "2015",
+            "key": "/books/OL50521979M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_13": [
+                "9780141357034"
+            ],
+            "ocaid": "allbrightplaces0000nive",
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "covers": [
+                14559665
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-12-24T12:59:31.500385"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-12-24T13:00:40.173884"
+            }
+        },
+        "/books/OL27729033M": {
+            "publishers": [
+                "Knopf Books for Young Readers"
+            ],
+            "number_of_pages": 400,
+            "source_records": [
+                "amazon:0385755899"
+            ],
+            "title": "All the Bright Places",
+            "identifiers": {
+                "amazon": [
+                    "0385755899"
+                ]
+            },
+            "covers": [
+                9154495
+            ],
+            "physical_format": "hardcover",
+            "full_title": "All the Bright Places",
+            "publish_date": "Jan 06, 2015",
+            "key": "/books/OL27729033M",
+            "authors": [
+                {
+                    "key": "/authors/OL2875767A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL17323489W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_10": [
+                "0385755899"
+            ],
+            "isbn_13": [
+                "9780385755894"
+            ],
+            "edition_name": "library binding",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-11-26T21:53:27.317831"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-22T04:31:42.886574"
+            }
+        },
+        "/books/OL27451092M": {
+            "publishers": [
+                "Ember"
+            ],
+            "identifiers": {
+                "amazon": [
+                    "0385755910"
+                ]
+            },
+            "source_records": [
+                "amazon:0385755910",
+                "bwb:9780385755917",
+                "promise:bwb_daily_pallets_2021-05-28"
+            ],
+            "title": "All the Bright Places",
+            "type": {
+                "key": "/type/edition"
+            },
+            "number_of_pages": 416,
+            "covers": [
+                14572695,
+                14559666
+            ],
+            "full_title": "All the Bright Places",
+            "publish_date": "2016",
+            "key": "/books/OL27451092M",
+            "authors": [
+                {
+                    "key": "/authors/OL2875767A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL17323489W"
+                }
+            ],
+            "physical_format": "paperback",
+            "local_id": [
+                "urn:bwbsku:P7-BOE-609"
+            ],
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0385755910"
+            ],
+            "isbn_13": [
+                "9780385755917"
+            ],
+            "ocaid": "allbrightplaces0000nive_z3d5",
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-10-14T16:10:51.175136"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-29T14:29:46.474801"
+            }
+        },
+        "/books/OL25899495M": {
+            "publishers": [
+                "Alfred A. Knopf"
+            ],
+            "title": "All the Bright Places",
+            "identifiers": {
+                "google": [
+                    "GNSMDQAAQBAJ"
+                ]
+            },
+            "covers": [
+                7402007
+            ],
+            "publish_date": "January 6, 2015",
+            "key": "/books/OL25899495M",
+            "publish_places": [
+                "New York, United States"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL17323489W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9780385755887"
+            ],
+            "lccn": [
+                "2014002238"
+            ],
+            "lc_classifications": [
+                "PZ7.N6434 Al 2015",
+                "PZ7.N6434Al 2015"
+            ],
+            "dewey_decimal_class": [
+                "[Fic]"
+            ],
+            "subtitle": "A Novel",
+            "copyright_date": "2015",
+            "edition_name": "First Edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "\"This is a Borzoi Book published by Alfred A. Knopf\""
+            },
+            "physical_format": "hardcover",
+            "ocaid": "allbrightplaces0000jenn",
+            "source_records": [
+                "ia:allbrightplaces0000jenn"
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "\"Told in alternating voices, when Theodore Finch and Violet Markey meet on the ledge of the bell tower at school--both teetering on the edge--it's the beginning of an unlikely relationship, a journey to discover the \"natural wonders\" of the state of Indiana, and two teens' desperate desire to heal and save one another\""
+            },
+            "number_of_pages": 388,
+            "latest_revision": 19,
+            "revision": 19,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2016-04-01T19:34:33.908320"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-16T23:56:00.020454"
+            }
+        },
+        "/books/OL32180570M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "The Greek's Forced Bride",
+            "authors": [
+                {
+                    "key": "/authors/OL811660A"
+                }
+            ],
+            "source_records": [
+                "amazon:0263869970",
+                "bwb:9780263869972",
+                "promise:bwb_daily_pallets_2020-09-09"
+            ],
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "isbn_10": [
+                "0263869970"
+            ],
+            "isbn_13": [
+                "9780263869972"
+            ],
+            "physical_format": "paperback",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: The Greek's Forced Bride (Modern Romance)"
+            },
+            "full_title": "The Greek's Forced Bride",
+            "covers": [
+                10836686
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4233123W"
+                }
+            ],
+            "key": "/books/OL32180570M",
+            "local_id": [
+                "urn:bwbsku:KN-793-050"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-04-07T12:00:14.600567"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-18T14:59:24.650937"
+            }
+        },
+        "/books/OL57766716M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL9180803A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "number_of_pages": 464,
+            "publish_date": "2025",
+            "publishers": [
+                "Editorial Planeta Mexicana"
+            ],
+            "source_records": [
+                "bwb:9786073920100"
+            ],
+            "title": "Rey de la Soberbia",
+            "works": [
+                {
+                    "key": "/works/OL29330646W"
+                }
+            ],
+            "key": "/books/OL57766716M",
+            "covers": [
+                15088773
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "222000895"
+                ],
+                "amazon": [
+                    "6073920105"
+                ]
+            },
+            "isbn_13": [
+                "9786073920100"
+            ],
+            "isbn_10": [
+                "6073920105"
+            ],
+            "series": [
+                "Pecados 2"
+            ],
+            "translation_of": "King of Pride",
+            "translated_from": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "Son opuestos en todos los sentidos…\r\n\r\nINTROVERTIDO. CAUTELOSO. EXTREMADAMENTE CORRECTO.\r\n\r\nKai depende de una votación para convertirse en el CEO de su imperio familiar, por lo que el billonario no puede permitirse el lujo de distraerse con Isabella. Sofocado por responsabilidades y promesas, cuando están juntos siente que finalmente puede respirar.\r\n\r\nAUDAZ. IMPULSIVA. ALEGRE.\r\n\r\nIsabella no ha asistido a una sola fiesta en la que no fuera el centro de atención, ni ha conocido a un hombre al que no pueda enamorar… excepto a Kai, que es miembro del club exclusivo en el que trabaja como mesera. Pero aunque les cueste todo lo que tienen, no pueden resistirse a caer en la tentación de sus deseos prohibidos."
+            },
+            "physical_format": "Paperback",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-02-17T03:11:07.409440"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-05-24T07:33:16.114874"
+            }
+        },
+        "/books/OL40323055M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL9180803A"
+                }
+            ],
+            "isbn_13": [
+                "9780349436340"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "464",
+            "publish_date": "2023",
+            "publishers": [
+                "Little, Brown Book Group Limited"
+            ],
+            "source_records": [
+                "bwb:9780349436340"
+            ],
+            "title": "King of Pride",
+            "works": [
+                {
+                    "key": "/works/OL29330646W"
+                }
+            ],
+            "key": "/books/OL40323055M",
+            "covers": [
+                -1
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-17T06:56:53.561308"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-12T06:23:34.319248"
+            }
+        },
+        "/books/OL10690905M": {
+            "identifiers": {
+                "librarything": [
+                    "954194"
+                ],
+                "goodreads": [
+                    "3039777"
+                ]
+            },
+            "title": "Green Paddocks",
+            "authors": [
+                {
+                    "key": "/authors/OL1069168A"
+                }
+            ],
+            "publish_date": "1977",
+            "publishers": [
+                "Harlequin"
+            ],
+            "physical_format": "Paperback",
+            "covers": [
+                15111645,
+                5071390
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "ia:greenpaddocks0000corr",
+                "promise:bwb_daily_pallets_2020-10-07"
+            ],
+            "key": "/books/OL10690905M",
+            "works": [
+                {
+                    "key": "/works/OL4955615W"
+                }
+            ],
+            "ocaid": "greenpaddocks0000corr",
+            "isbn_10": [
+                "0373020538"
+            ],
+            "isbn_13": [
+                "9780373020539"
+            ],
+            "oclc_numbers": [
+                "2890401"
+            ],
+            "classifications": {},
+            "series": [
+                "Harlequin Romance - 2053"
+            ],
+            "subtitle": "Harlequin Romance - 2053",
+            "local_id": [
+                "urn:bwbsku:P2-EIX-014"
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-08T09:05:49.285935"
+            }
+        },
+        "/books/OL32714409M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "2005",
+            "publish_country": "po",
+            "languages": [
+                {
+                    "key": "/languages/por"
+                }
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL382524A"
+                }
+            ],
+            "other_titles": [
+                "Supūtoniku no koibito",
+                "Sputnik sweetheart"
+            ],
+            "edition_name": "2a ed.",
+            "series": [
+                "Prosas de fora"
+            ],
+            "contributions": [
+                "Lourenço, Maria João"
+            ],
+            "title": "Sputnik",
+            "subtitle": "meu amor",
+            "by_statement": "Haruki Murakami ; tradução, Maria João Lourenço",
+            "publishers": [
+                "Casa das Letras"
+            ],
+            "publish_places": [
+                "Cruz Quebrada"
+            ],
+            "pagination": "238 p.",
+            "number_of_pages": 238,
+            "source_records": [
+                "ia:sputnikmeuamor0000mura",
+                "promise:bwb_daily_pallets_2021-02-11"
+            ],
+            "full_title": "Sputnik meu amor",
+            "covers": [
+                11341504
+            ],
+            "works": [
+                {
+                    "key": "/works/OL2625443W"
+                }
+            ],
+            "key": "/books/OL32714409M",
+            "identifiers": {},
+            "ocaid": "sputnikmeuamor0000mura",
+            "isbn_10": [
+                "9724615820"
+            ],
+            "isbn_13": [
+                "9789724615820"
+            ],
+            "oclc_numbers": [
+                "1020925575"
+            ],
+            "classifications": {},
+            "local_id": [
+                "urn:bwbsku:KL-375-071"
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-07-02T07:05:57.294094"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-15T04:24:34.739776"
+            }
+        },
+        "/books/OL28283440M": {
+            "publishers": [
+                "kodansha"
+            ],
+            "publish_date": "1999",
+            "key": "/books/OL28283440M",
+            "title": "Sputnik Sweetheart",
+            "works": [
+                {
+                    "key": "/works/OL2625443W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-06-23T15:44:16.754759"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-07-29T14:57:33.212834"
+            }
+        },
+        "/books/OL25439874M": {
+            "publishers": [
+                "Tusquets"
+            ],
+            "translated_from": [
+                {
+                    "key": "/languages/jpn"
+                }
+            ],
+            "contributors": [
+                {
+                    "role": "Translator",
+                    "name": "Lourdes Porta"
+                },
+                {
+                    "role": "Translator",
+                    "name": "Junichi Matsuura"
+                }
+            ],
+            "source_records": [
+                "bwb:9788483835166"
+            ],
+            "title": "Sputnik, mi amor",
+            "pagination": "244p.",
+            "covers": [
+                7273852
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "publish_date": "2009",
+            "key": "/books/OL25439874M",
+            "isbn_13": [
+                "9788483835166"
+            ],
+            "publish_places": [
+                "Barcelona, Spain"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL2625443W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2014-03-25T15:28:38.654779"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-07-29T14:57:33.212834"
+            }
+        },
+        "/books/OL12584335M": {
+            "publishers": [
+                "Eksmo"
+            ],
+            "translated_from": [
+                {
+                    "key": "/languages/jpn"
+                }
+            ],
+            "number_of_pages": 272,
+            "physical_format": "Hardcover",
+            "key": "/books/OL12584335M",
+            "authors": [
+                {
+                    "key": "/authors/OL382524A"
+                }
+            ],
+            "publish_places": [
+                "Moscow"
+            ],
+            "classifications": {},
+            "title": "Moy Lubimuy Sputnik",
+            "identifiers": {
+                "goodreads": [
+                    "266561"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/rus"
+                }
+            ],
+            "isbn_10": [
+                "5699065547"
+            ],
+            "publish_date": "2005",
+            "oclc_numbers": [
+                "54687911"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL2625443W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                13681872
+            ],
+            "source_records": [
+                "amazon:5699065547"
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-03-19T23:44:03.538279"
+            }
+        },
+        "/books/OL9272821M": {
+            "identifiers": {
+                "librarything": [
+                    "74326"
+                ],
+                "goodreads": [
+                    "9557"
+                ]
+            },
+            "title": "Sputnik Sweetheart",
+            "authors": [
+                {
+                    "key": "/authors/OL382524A"
+                }
+            ],
+            "publish_date": "October 3, 2002",
+            "publishers": [
+                "Vintage"
+            ],
+            "translated_from": [
+                {
+                    "key": "/languages/jpn"
+                }
+            ],
+            "contributors": [
+                {
+                    "role": "Translator",
+                    "name": "Philip Gabriel"
+                }
+            ],
+            "isbn_10": [
+                "0099448475"
+            ],
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "In the spring of her twenty-second year, Sumire fell in love for the first time in her life."
+            },
+            "covers": [
+                74830
+            ],
+            "physical_format": "Paperback",
+            "publish_places": [
+                "London, United Kingdom"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "weight": "6.4 ounces",
+            "isbn_13": [
+                "9780099448471"
+            ],
+            "edition_name": "New edition",
+            "subjects": [
+                "Modern fiction",
+                "Fiction"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "7.6 x 5 x 0.6 inches",
+            "source_records": [
+                "amazon:0099448475"
+            ],
+            "key": "/books/OL9272821M",
+            "number_of_pages": 240,
+            "works": [
+                {
+                    "key": "/works/OL2625443W"
+                }
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-27T09:14:21.516171"
+            }
+        },
+        "/books/OL17014186M": {
+            "publishers": [
+                "Alfred A Knopf"
+            ],
+            "number_of_pages": 210,
+            "subtitle": "a novel",
+            "pagination": "210 p. ;",
+            "local_id": [
+                "urn:sfpl:31223107539174",
+                "urn:sfpl:31223118842047",
+                "urn:sfpl:31223113462189",
+                "urn:sfpl:31223125617028",
+                "urn:sfpl:31223113462254",
+                "urn:sfpl:31223113462247",
+                "urn:sfpl:31223094161347",
+                "urn:sfpl:31223107539158",
+                "urn:sfpl:31223107539166",
+                "urn:sfpl:31223125602269",
+                "urn:sfpl:31223125617077",
+                "urn:sfpl:31223107539240",
+                "urn:sfpl:31223125617044",
+                "urn:sfpl:31223125617010",
+                "urn:sfpl:31223118842062",
+                "urn:sfpl:31223125617002",
+                "urn:sfpl:31223125616996",
+                "urn:sfpl:31223118842070",
+                "urn:sfpl:31223125617069",
+                "urn:sfpl:31223113462239",
+                "urn:sfpl:31223125617051",
+                "urn:sfpl:31223107539224",
+                "urn:sfpl:31223125617036",
+                "urn:sfpl:31223113462221",
+                "urn:sfpl:31223118842088",
+                "urn:sfpl:31223118247973",
+                "urn:sfpl:31223107539208",
+                "urn:sfpl:31223113462197",
+                "urn:sfpl:31223122410633"
+            ],
+            "lc_classifications": [
+                "PL856.U673 S8713 2001"
+            ],
+            "key": "/books/OL17014186M",
+            "authors": [
+                {
+                    "key": "/authors/OL382524A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "contributions": [
+                "Gabriel, J. Philip"
+            ],
+            "subjects": [
+                "Teachers -- Fiction",
+                "Women novelists -- Fiction",
+                "Businesswomen -- Fiction",
+                "Missing persons -- Fiction",
+                "Unrequited love -- Fiction",
+                "Japan -- Fiction"
+            ],
+            "genres": [
+                "Fiction"
+            ],
+            "source_records": [
+                "marc:marc_miami_univ_ohio/allbibs0136.out:8966922:1167",
+                "marc:marc_loc_updates/v36.i34.records.utf8:37552:996",
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run02.mrc:220215255:7252",
+                "marc:marc_loc_2016/BooksAll.2016.part01.utf8:43560843:996",
+                "ia:sputniksweethear0000mura",
+                "amazon:0375411690",
+                "marc:marc_columbia/Columbia-extract-20221130-007.mrc:25131982:2907"
+            ],
+            "title": "The sputnik sweetheart",
+            "work_titles": [
+                "Supūtoniku no koibito."
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "45316"
+                ],
+                "librarything": [
+                    "74326"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lccn": [
+                "00062004"
+            ],
+            "isbn_10": [
+                "0375411690"
+            ],
+            "publish_date": "2001",
+            "publish_country": "nyu",
+            "by_statement": "by Haruki Murakami ; translated from the Japanese by Philip Gabriel",
+            "works": [
+                {
+                    "key": "/works/OL2625443W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                12498342
+            ],
+            "ocaid": "sputniksweethear0000mura",
+            "oclc_numbers": [
+                "44775221"
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "\"The scenario is as simple as it is uncomfortable: a college student falls in love (once and for all, despite everything that transpires afterward) with a classmate whose devotion to Kerouac and an untidy writerly life precludes any personal commitments - until she meets a considerably older and far more sophisticated businesswoman. It is through this wormhole that she enters Murakami's surreal yet humane universe, to which she serves as guide both for us and for her frustrated suitor, now a teacher.\n\nIn the course of her travels from parochial Japan through Europe and ultimately to an island off the coast of Greece, she disappears without a trace, leaving only lineaments of her fate: computer accounts of bizarre events and stories within stories.\n\nThe teacher, summoned to assist in the search for her, experiences his own ominous, haunting visions, which lead him nowhere but home to Japan - and there, under the expanse of deep space and the still-orbiting Sputnik, he finally achieves a true understanding of his beloved.\"--BOOK JACKET."
+            },
+            "latest_revision": 15,
+            "revision": 15,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-27T02:55:04.027621"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-12T23:55:49.888918"
+            }
+        },
+        "/books/OL7425229M": {
+            "identifiers": {
+                "goodreads": [
+                    "45316"
+                ],
+                "librarything": [
+                    "74326"
+                ]
+            },
+            "title": "Sputnik Sweetheart",
+            "authors": [
+                {
+                    "key": "/authors/OL382524A"
+                }
+            ],
+            "publish_date": "April 24, 2001",
+            "publishers": [
+                "Knopf"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "covers": [
+                226274
+            ],
+            "isbn_13": [
+                "9780375411694"
+            ],
+            "isbn_10": [
+                "0375411690"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "In the spring of her twenty-second year, Sumire fell in love for the first time in her life."
+            },
+            "source_records": [
+                "amazon:0375411690"
+            ],
+            "key": "/books/OL7425229M",
+            "number_of_pages": 224,
+            "works": [
+                {
+                    "key": "/works/OL2625443W"
+                }
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-26T18:21:50.584649"
+            }
+        },
+        "/books/OL8932770M": {
+            "identifiers": {
+                "goodreads": [
+                    "122445"
+                ],
+                "librarything": [
+                    "74326"
+                ]
+            },
+            "title": "Les Amants du Spoutnik",
+            "authors": [
+                {
+                    "key": "/authors/OL382524A"
+                }
+            ],
+            "publish_date": "February 6, 2003",
+            "publishers": [
+                "Belfond"
+            ],
+            "weight": "1.2 pounds",
+            "covers": [
+                984341
+            ],
+            "physical_format": "Paperback",
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.8 x 5.6 x 1.1 inches",
+            "isbn_10": [
+                "2714438601"
+            ],
+            "isbn_13": [
+                "9782714438607"
+            ],
+            "source_records": [
+                "amazon:2714438601"
+            ],
+            "key": "/books/OL8932770M",
+            "number_of_pages": 275,
+            "works": [
+                {
+                    "key": "/works/OL2625443W"
+                }
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-07T12:17:20.089938"
+            }
+        },
+        "/books/OL28973771M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited",
+                "London : Mills & Boon"
+            ],
+            "source_records": [
+                "bwb:9780263740448",
+                "promise:bwb_daily_pallets_2022-03-17",
+                "amazon:0263740447"
+            ],
+            "title": "Bought with His Name",
+            "number_of_pages": 186,
+            "isbn_13": [
+                "9780263740448"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Bought with His Name",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "1982",
+            "key": "/books/OL28973771M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3759285W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "local_id": [
+                "urn:bwbsku:KQ-057-566"
+            ],
+            "covers": [
+                13899796
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T22:21:56.560948"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-04-11T17:57:58.032746"
+            }
+        },
+        "/books/OL14977564M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "number_of_pages": 186,
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T22:12:21.583708"
+            },
+            "latest_revision": 8,
+            "key": "/books/OL14977564M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "186p. ;",
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:515986857:560",
+                "bwb:9780263101492"
+            ],
+            "title": "Bought with his name",
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "2249024"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T23:01:57.867760"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263101495"
+            ],
+            "publish_date": "1982",
+            "publish_country": "xxk",
+            "by_statement": "by Penny Jordan.",
+            "oclc_numbers": [
+                "9407061"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3759285W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 8
+        },
+        "/books/OL28951655M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263163469"
+            ],
+            "title": "Mail-Order Marriage",
+            "number_of_pages": 185,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Mail-Order Marriage",
+            "publish_date": "1999",
+            "key": "/books/OL28951655M",
+            "authors": [
+                {
+                    "key": "/authors/OL1175057A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL5236145W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, contemporary"
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9780263163469"
+            ],
+            "classifications": {},
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T05:07:02.536357"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-27T11:40:00.648820"
+            }
+        },
+        "/books/OL18626553M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "4960994"
+                ]
+            },
+            "series": [
+                "Enchanted -- EN297"
+            ],
+            "key": "/books/OL18626553M",
+            "authors": [
+                {
+                    "key": "/authors/OL1175057A"
+                }
+            ],
+            "publish_places": [
+                "Richmond"
+            ],
+            "pagination": "185p. ;",
+            "source_records": [
+                "bwb:9780263818260"
+            ],
+            "title": "Mail-Order Marriage",
+            "number_of_pages": 185,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1999",
+            "publish_country": "enk",
+            "by_statement": "Margaret Way.",
+            "works": [
+                {
+                    "key": "/works/OL5236145W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_10": [
+                "0263818268"
+            ],
+            "oclc_numbers": [
+                "42309891"
+            ],
+            "classifications": {},
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-18T19:40:39.186878"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-27T11:40:00.648820"
+            }
+        },
+        "/books/OL28954515M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263829686",
+                "promise:bwb_daily_pallets_2020-11-19"
+            ],
+            "title": "The Contaxis Baby",
+            "number_of_pages": 186,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Contaxis Baby",
+            "publish_date": "2002",
+            "key": "/books/OL28954515M",
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3773896W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "local_id": [
+                "urn:bwbsku:KO-116-299"
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9780263829686"
+            ],
+            "classifications": {},
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T06:47:58.263457"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-22T14:52:17.231183"
+            }
+        },
+        "/books/OL9747151M": {
+            "title": "The Contaxis Baby",
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "publish_date": "March 2003",
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "covers": [
+                1155000
+            ],
+            "edition_name": "Large Print Edition",
+            "physical_format": "Hardcover",
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Romance",
+                "Romance - Contemporary",
+                "Fiction - Romance"
+            ],
+            "isbn_10": [
+                "0263178757"
+            ],
+            "isbn_13": [
+                "9780263178753"
+            ],
+            "source_records": [
+                "amazon:0263178757"
+            ],
+            "key": "/books/OL9747151M",
+            "number_of_pages": 288,
+            "works": [
+                {
+                    "key": "/works/OL3773896W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-15T00:27:17.087754"
+            }
+        },
+        "/books/OL9749830M": {
+            "title": "The Contaxis Baby",
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "publish_date": "March 2003",
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "covers": [
+                1154999
+            ],
+            "edition_name": "Large Print Edition",
+            "physical_format": "Hardcover",
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Romance",
+                "Romance - Contemporary",
+                "Fiction - Romance"
+            ],
+            "isbn_10": [
+                "0263178757"
+            ],
+            "isbn_13": [
+                "9780263178753"
+            ],
+            "source_records": [
+                "amazon:0263178757"
+            ],
+            "key": "/books/OL9749830M",
+            "number_of_pages": 288,
+            "works": [
+                {
+                    "key": "/works/OL3773896W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-19T10:30:18.977948"
+            }
+        },
+        "/books/OL61516909M": {
+            "works": [
+                {
+                    "key": "/works/OL27245843W"
+                }
+            ],
+            "title": "Twisted Hate (Collector's Edition)",
+            "publishers": [
+                ""
+            ],
+            "key": "/books/OL61516909M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_13": [
+                "9780349448404"
+            ],
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2026-04-07T01:23:34.388687"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-04-07T20:51:10.601437"
+            }
+        },
+        "/books/OL37998217M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL9180803A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "352",
+            "publish_date": "2022",
+            "publishers": [
+                "Little, Brown Book Group Limited"
+            ],
+            "source_records": [
+                "bwb:9780349434339",
+                "amazon:0349434336"
+            ],
+            "subjects": [
+                "American literature"
+            ],
+            "title": "Twisted Hate",
+            "weight": "0.300 ",
+            "subtitle": "TikTok Made Me Buy It! Fall into a World of Addictive Romance...",
+            "full_title": "Twisted Hate TikTok Made Me Buy It! Fall into a World of Addictive Romance...",
+            "works": [
+                {
+                    "key": "/works/OL27245843W"
+                }
+            ],
+            "key": "/books/OL37998217M",
+            "identifiers": {},
+            "isbn_13": [
+                "9780349434339"
+            ],
+            "classifications": {},
+            "lc_classifications": [
+                "PS3608"
+            ],
+            "covers": [
+                14890213,
+                14853247
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-05-25T18:39:37.465842"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-04-26T12:12:35.989320"
+            }
+        },
+        "/books/OL36978096M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL9180803A"
+                }
+            ],
+            "isbn_13": [
+                "9781735056692"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2022",
+            "publishers": [
+                "Ana Huang"
+            ],
+            "source_records": [
+                "bwb:9781735056692",
+                "amazon:1735056693"
+            ],
+            "subjects": [
+                "Fiction, romance, general",
+                "Fiction, general"
+            ],
+            "title": "Twisted Hate - Special Edition",
+            "works": [
+                {
+                    "key": "/works/OL27245843W"
+                }
+            ],
+            "key": "/books/OL36978096M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-01-29T11:14:57.489081"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-03T18:12:52.511345"
+            }
+        },
+        "/books/OL37863608M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Sunshine",
+            "authors": [
+                {
+                    "key": "/authors/OL29622A"
+                }
+            ],
+            "publish_date": "Oct 07, 2008",
+            "source_records": [
+                "amazon:0425224015",
+                "bwb:9780425224014"
+            ],
+            "number_of_pages": 405,
+            "publishers": [
+                "Berkley"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Sunshine",
+            "works": [
+                {
+                    "key": "/works/OL109410W"
+                }
+            ],
+            "key": "/books/OL37863608M",
+            "identifiers": {},
+            "isbn_10": [
+                "0425224015"
+            ],
+            "isbn_13": [
+                "9780425224014"
+            ],
+            "classifications": {},
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-05-10T12:59:59.814597"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-10T20:35:04.307835"
+            }
+        },
+        "/books/OL29708370M": {
+            "publishers": [
+                "Open Road Integrated Media, Inc."
+            ],
+            "source_records": [
+                "bwb:9781497673717"
+            ],
+            "title": "Sunshine",
+            "number_of_pages": 407,
+            "isbn_13": [
+                "9781497673717"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Sunshine",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2014",
+            "key": "/books/OL29708370M",
+            "authors": [
+                {
+                    "key": "/authors/OL29622A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL109410W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, occult & supernatural",
+                "Fiction, romance, general",
+                "Vampires, fiction"
+            ],
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-30T06:16:39.093073"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-10T20:35:04.307835"
+            }
+        },
+        "/books/OL42921101M": {
+            "title": "Tous nos jours parfaits",
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:O8-CAR-246"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-08-13",
+                "amazon:2075087024"
+            ],
+            "covers": [
+                13215513
+            ],
+            "key": "/books/OL42921101M",
+            "works": [
+                {
+                    "key": "/works/OL17323489W"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "number_of_pages": 432,
+            "publishers": [
+                "Gallimard Jeunesse"
+            ],
+            "publish_date": "Sep 21, 2017",
+            "identifiers": {},
+            "isbn_10": [
+                "2075087024"
+            ],
+            "isbn_13": [
+                "9782075087025"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-04T18:01:05.134032"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-02T03:37:15.295080"
+            }
+        },
+        "/books/OL25693585M": {
+            "identifiers": {
+                "amazon": [
+                    "B00W2ESP54"
+                ]
+            },
+            "title": "Violet y Finch",
+            "publish_date": "2015",
+            "publishers": [
+                "Destino"
+            ],
+            "source_records": [
+                "bwb:9788408141426",
+                "promise:bwb_daily_pallets_2022-06-30",
+                "ia:violetyfinch0000unse",
+                "amazon:8408141422"
+            ],
+            "covers": [
+                7353016
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:O8-BXG-526"
+            ],
+            "key": "/books/OL25693585M",
+            "works": [
+                {
+                    "key": "/works/OL17323489W"
+                }
+            ],
+            "number_of_pages": 402,
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "ocaid": "violetyfinch0000unse",
+            "isbn_13": [
+                "9788408141426"
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2015-06-22T11:39:44.643101"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-02T03:35:59.907867"
+            }
+        },
+        "/books/OL36629993M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "All The Bright Places",
+            "authors": [
+                {
+                    "key": "/authors/OL2875767A"
+                }
+            ],
+            "publish_date": "Sep 13, 2016",
+            "source_records": [
+                "amazon:0606388761"
+            ],
+            "number_of_pages": 416,
+            "publishers": [
+                "Turtleback"
+            ],
+            "isbn_10": [
+                "0606388761"
+            ],
+            "isbn_13": [
+                "9780606388764"
+            ],
+            "physical_format": "library binding",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: All The Bright Places (Turtleback School & Library Binding Edition)"
+            },
+            "full_title": "All The Bright Places",
+            "covers": [
+                12523413
+            ],
+            "works": [
+                {
+                    "key": "/works/OL17323489W"
+                }
+            ],
+            "key": "/books/OL36629993M",
+            "latest_revision": 1,
+            "revision": 1,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-01-04T13:35:19.666872"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-01-04T13:35:19.666872"
+            }
+        },
+        "/books/OL29452099M": {
+            "publishers": [
+                "Penguin Books, Limited"
+            ],
+            "source_records": [
+                "bwb:9780241395967",
+                "promise:bwb_daily_pallets_2022-08-29"
+            ],
+            "title": "All the Bright Places",
+            "number_of_pages": 400,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "All the Bright Places",
+            "publish_date": "2020",
+            "key": "/books/OL29452099M",
+            "authors": [
+                {
+                    "key": "/authors/OL2875767A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL17323489W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Children's fiction",
+                "Friendship, fiction",
+                "Suicide, fiction",
+                "Emotions, fiction",
+                "Indiana, fiction"
+            ],
+            "local_id": [
+                "urn:bwbsku:KR-115-938"
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9780241395967"
+            ],
+            "classifications": {},
+            "covers": [
+                14419466
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-26T00:38:52.274355"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-07T13:43:23.144680"
+            }
+        },
+        "/books/OL27499507M": {
+            "publishers": [
+                "Listening Library (Audio)"
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2019-10-19T05:16:45.775508"
+            },
+            "source_records": [
+                "amazon:0553552198"
+            ],
+            "title": "All the Bright Places",
+            "identifiers": {
+                "amazon": [
+                    "0553552198"
+                ]
+            },
+            "isbn_13": [
+                "9780553552195"
+            ],
+            "covers": [
+                8956745
+            ],
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-10-19T05:16:45.775508"
+            },
+            "physical_format": "audio cd",
+            "full_title": "All the Bright Places",
+            "isbn_10": [
+                "0553552198"
+            ],
+            "publish_date": "Jan 06, 2015",
+            "key": "/books/OL27499507M",
+            "authors": [
+                {
+                    "key": "/authors/OL2875767A"
+                }
+            ],
+            "latest_revision": 1,
+            "works": [
+                {
+                    "key": "/works/OL17323489W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 1
+        },
+        "/books/OL40427898M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "The Greek's Forced Bride",
+            "authors": [
+                {
+                    "key": "/authors/OL811660A"
+                }
+            ],
+            "source_records": [
+                "amazon:0263205959"
+            ],
+            "publishers": [
+                "Mills Boon"
+            ],
+            "isbn_10": [
+                "0263205959"
+            ],
+            "isbn_13": [
+                "9780263205954"
+            ],
+            "physical_format": "hardcover",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: The Greek's Forced Bride (Mills & Boon Largeprint Romance)"
+            },
+            "full_title": "The Greek's Forced Bride",
+            "works": [
+                {
+                    "key": "/works/OL4233123W"
+                }
+            ],
+            "key": "/books/OL40427898M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-18T18:13:23.972357"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-18T14:59:24.650937"
+            }
+        },
+        "/books/OL24404115M": {
+            "title": "The Greek's Forced Bride",
+            "authors": [
+                {
+                    "key": "/authors/OL811660A"
+                }
+            ],
+            "publish_date": "2009",
+            "publishers": [
+                "Harlequin"
+            ],
+            "ia_box_id": [
+                "IA128510"
+            ],
+            "series": [
+                "Harlequin presents -- 2788"
+            ],
+            "covers": [
+                7036148
+            ],
+            "publish_places": [
+                "Toronto",
+                "New York"
+            ],
+            "pagination": "186 p. ;",
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-03-17:P7-EKH-962",
+                "ia:greeksforcedbrid00reid",
+                "bwb:9780373127887",
+                "marc:marc_loc_2016/BooksAll.2016.part36.utf8:269427274:1059",
+                "promise:bwb_daily_pallets_2021-09-22:W7-ANP-612",
+                "promise:bwb_daily_pallets_2021-09-21:P7-DQD-455",
+                "promise:bwb_daily_pallets_2021-05-04:P7-AJZ-544"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_country": "onc",
+            "copyright_date": "2008",
+            "by_statement": "Michelle Reid",
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:P7-EKH-962",
+                "urn:bwbsku:W7-ANP-612",
+                "urn:bwbsku:P7-DQD-455",
+                "urn:bwbsku:P7-AJZ-544"
+            ],
+            "key": "/books/OL24404115M",
+            "number_of_pages": 186,
+            "works": [
+                {
+                    "key": "/works/OL4233123W"
+                }
+            ],
+            "identifiers": {},
+            "ocaid": "greeksforcedbrid00reid",
+            "isbn_10": [
+                "037312788X"
+            ],
+            "isbn_13": [
+                "9780373127887"
+            ],
+            "lccn": [
+                "2009415272"
+            ],
+            "oclc_numbers": [
+                "243545253"
+            ],
+            "classifications": {},
+            "lc_classifications": [
+                "CPB Box no. 2880 vol. 10"
+            ],
+            "latest_revision": 16,
+            "revision": 16,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-11-01T18:44:29.840944"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-10-02T07:54:26.697125"
+            }
+        },
+        "/books/OL23541037M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "6558266"
+                ],
+                "librarything": [
+                    "6353669"
+                ]
+            },
+            "isbn_10": [
+                "037312788X"
+            ],
+            "series": [
+                "Harlequin presents -- 2788",
+                "Bedded by--Blackmail"
+            ],
+            "pagination": "186 p. ;",
+            "lc_classifications": [
+                "CPB Box no. 2880 vol. 10"
+            ],
+            "latest_revision": 5,
+            "key": "/books/OL23541037M",
+            "authors": [
+                {
+                    "key": "/authors/OL811660A"
+                }
+            ],
+            "publish_places": [
+                "Toronto",
+                "New York"
+            ],
+            "contributions": [
+                "Copyright Paperback Collection (Library of Congress)"
+            ],
+            "isbn_13": [
+                "9780373127887"
+            ],
+            "genres": [
+                "Fiction"
+            ],
+            "source_records": [
+                "marc:marc_loc_updates/v37.i24.records.utf8:13688285:1059"
+            ],
+            "title": "The Greek's forced bride",
+            "lccn": [
+                "2009415272"
+            ],
+            "oclc_number": [
+                "243545253"
+            ],
+            "number_of_pages": 186,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-07-21T19:06:29.370474"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Greeks -- Fiction",
+                "Billionaires -- Fiction",
+                "Mistresses -- Fiction",
+                "Extortion -- Fiction",
+                "Virginity -- Fiction",
+                "Marriage -- Fiction"
+            ],
+            "publish_date": "2009",
+            "publish_country": "onc",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2010-08-19T13:11:12.151612"
+            },
+            "copyright_date": "2008",
+            "by_statement": "Michelle Reid.",
+            "works": [
+                {
+                    "key": "/works/OL4233123W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 5
+        },
+        "/books/OL51373454M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL9180803A"
+                }
+            ],
+            "isbn_13": [
+                "9781957464176"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2024",
+            "publishers": [
+                "Ana Huang"
+            ],
+            "source_records": [
+                "bwb:9781957464176"
+            ],
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "title": "King of Pride - Signing Exclusive",
+            "works": [
+                {
+                    "key": "/works/OL29330646W"
+                }
+            ],
+            "key": "/books/OL51373454M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-03-17T20:37:49.584310"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-13T03:25:29.412520"
+            }
+        },
+        "/books/OL48251326M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL9180803A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "400",
+            "publish_date": "2023",
+            "publishers": [
+                "Sourcebooks, Incorporated"
+            ],
+            "source_records": [
+                "bwb:9781728289731",
+                "promise:bwb_daily_pallets_2024-04-30:P9-DSW-166"
+            ],
+            "subjects": [
+                "Fiction, romance, new adult"
+            ],
+            "title": "King of Pride",
+            "weight": "0.010 ",
+            "full_title": "King of Pride",
+            "works": [
+                {
+                    "key": "/works/OL29330646W"
+                }
+            ],
+            "key": "/books/OL48251326M",
+            "identifiers": {},
+            "isbn_13": [
+                "9781728289731"
+            ],
+            "classifications": {},
+            "local_id": [
+                "urn:bwbsku:P9-DSW-166"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-17T11:14:08.884046"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-15T20:20:25.992060"
+            }
+        },
+        "/books/OL42696349M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL9180803A"
+                }
+            ],
+            "isbn_13": [
+                "9781957464121"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2023",
+            "publishers": [
+                "Ana Huang"
+            ],
+            "source_records": [
+                "bwb:9781957464121",
+                "amazon:1957464127"
+            ],
+            "subjects": [
+                "Fiction, romance, general",
+                "Fiction, general"
+            ],
+            "title": "King of Pride",
+            "full_title": "King of Pride",
+            "works": [
+                {
+                    "key": "/works/OL29330646W"
+                }
+            ],
+            "key": "/books/OL42696349M",
+            "covers": [
+                15132867,
+                -1
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-03T08:17:48.937654"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-16T10:45:52.814297"
+            }
+        },
+        "/books/OL14976329M": {
+            "publishers": [
+                "Mills and Boon"
+            ],
+            "key": "/books/OL14976329M",
+            "authors": [
+                {
+                    "key": "/authors/OL1069168A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "188p. ;",
+            "source_records": [
+                "bwb:9780263090383"
+            ],
+            "title": "Green paddocks",
+            "number_of_pages": 188,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Fiction in English."
+            ],
+            "publish_date": "1976",
+            "publish_country": "xxk",
+            "by_statement": "by Jane Corrie.",
+            "works": [
+                {
+                    "key": "/works/OL4955615W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_10": [
+                "0263090388"
+            ],
+            "oclc_numbers": [
+                "3269633"
+            ],
+            "classifications": {},
+            "dewey_decimal_class": [
+                "823/.9/1F"
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "Her home, Green Paddocks, meant more than anything in the world to Holly Drew. Unfortunately, the maddening Hayes Chester was the one who made it possible for her to live there, so she would just have to put up with him and his autocratic ways as best she could. But how Holly wished people wouldn't keep thinking she was romantically interested in him. (goodreads.com)"
+            },
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T22:52:05.881473"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-06-14T18:02:21.207744"
+            }
+        },
+        "/books/OL10738632M": {
+            "identifiers": {
+                "goodreads": [
+                    "1934188"
+                ],
+                "librarything": [
+                    "2037447"
+                ]
+            },
+            "title": "A Priceless Love",
+            "authors": [
+                {
+                    "key": "/authors/OL451969A"
+                }
+            ],
+            "publish_date": "May 1, 1989",
+            "publishers": [
+                "Harlequin"
+            ],
+            "ia_box_id": [
+                "IA126504"
+            ],
+            "series": [
+                "Harlequin Presents, No 1177"
+            ],
+            "covers": [
+                7885815,
+                6623324
+            ],
+            "physical_format": "Paperback",
+            "subjects": [
+                "General",
+                "Non-Classifiable",
+                "Romance - General",
+                "Fiction",
+                "Fiction - General",
+                "Romance: Regency"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-06-01:O8-ATO-457",
+                "amazon:0373111770",
+                "marc:marc_loc_updates/v35.i24.records.utf8:17239086:827",
+                "ia:pricelesslove00darc",
+                "bwb:9780373111770",
+                "marc:marc_loc_2016/BooksAll.2016.part35.utf8:68100285:827",
+                "promise:bwb_daily_pallets_2022-03-17:P7-DDX-272",
+                "promise:bwb_daily_pallets_2021-06-28:W6-AVH-057"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:O8-ATO-457",
+                "urn:bwbsku:P7-DDX-272",
+                "urn:bwbsku:W6-AVH-057"
+            ],
+            "key": "/books/OL10738632M",
+            "number_of_pages": 188,
+            "works": [
+                {
+                    "key": "/works/OL2959274W"
+                }
+            ],
+            "ocaid": "pricelesslove00darc",
+            "isbn_10": [
+                "0373111770"
+            ],
+            "isbn_13": [
+                "9780373111770"
+            ],
+            "lccn": [
+                "2007580881"
+            ],
+            "oclc_numbers": [
+                "19708346"
+            ],
+            "classifications": {},
+            "lc_classifications": [
+                "CPB Box no. 2554 vol. 17"
+            ],
+            "latest_revision": 21,
+            "revision": 21,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-19T01:10:17.262281"
+            }
+        },
+        "/books/OL26732446M": {
+            "publishers": [
+                "Btb"
+            ],
+            "source_records": [
+                "amazon:3442731542"
+            ],
+            "title": "Sputnik Sweetheart",
+            "covers": [
+                8389935
+            ],
+            "isbn_13": [
+                "9783442731541"
+            ],
+            "full_title": "Sputnik Sweetheart",
+            "isbn_10": [
+                "3442731542"
+            ],
+            "publish_date": "Feb 24, 2004",
+            "key": "/books/OL26732446M",
+            "authors": [
+                {
+                    "key": "/authors/OL382524A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL2625443W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-02-24T11:39:10.179646"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-07-29T14:57:33.212834"
+            }
+        },
+        "/books/OL25550378M": {
+            "publishers": [
+                "DuMont"
+            ],
+            "translated_from": [
+                {
+                    "key": "/languages/jpn"
+                }
+            ],
+            "identifiers": {},
+            "subtitle": "Roman",
+            "contributors": [
+                {
+                    "role": "Translator",
+                    "name": "Ursula Gräfe"
+                }
+            ],
+            "isbn_10": [
+                "3832156968"
+            ],
+            "covers": [
+                9944680
+            ],
+            "full_title": "Sputnik Sweetheart Roman",
+            "key": "/books/OL25550378M",
+            "authors": [
+                {
+                    "key": "/authors/OL382524A"
+                }
+            ],
+            "publish_places": [
+                "Köln"
+            ],
+            "contributions": [
+                "Gra fe, Ursula"
+            ],
+            "edition_name": "2. Aufl.",
+            "pagination": "234 s.",
+            "classifications": {},
+            "source_records": [
+                "ia:sputniksweethear00mura_651",
+                "amazon:3832156968"
+            ],
+            "title": "Sputnik Sweetheart",
+            "work_titles": [
+                "Supu toniku-no-koibito"
+            ],
+            "number_of_pages": 234,
+            "isbn_13": [
+                "9783832156961"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/ger"
+                }
+            ],
+            "subjects": [
+                "Lesbische Liebe",
+                "Bindungslosigkeit",
+                "Gescha ftsfrau",
+                "Schriftstellerin"
+            ],
+            "publish_date": "2003",
+            "publish_country": "gw ",
+            "by_statement": "Haruki Murakami. Aus dem Japan. von Ursula Gräfe",
+            "oclc_numbers": [
+                "255770886"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL2625443W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2014-07-29T04:42:50.384968"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-03-28T22:59:01.972162"
+            }
+        },
+        "/books/OL9144154M": {
+            "publishers": [
+                "TusQuets"
+            ],
+            "translated_from": [
+                {
+                    "key": "/languages/jpn"
+                }
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "17817"
+                ],
+                "librarything": [
+                    "74326"
+                ]
+            },
+            "weight": "11.2 ounces",
+            "isbn_10": [
+                "8483102161"
+            ],
+            "covers": [
+                1048287
+            ],
+            "local_id": [
+                "urn:sfpl:31223077405414"
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL9144154M",
+            "authors": [
+                {
+                    "key": "/authors/OL382524A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "classifications": {},
+            "source_records": [
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run03.mrc:183684396:1975",
+                "bwb:9788483102169"
+            ],
+            "title": "Sputnik, Mi Amor",
+            "notes": "Coleccion Andanzas",
+            "number_of_pages": 246,
+            "isbn_13": [
+                "9788483102169"
+            ],
+            "edition_name": "Tra edition",
+            "subjects": [
+                "Spanish: Adult Nonfiction",
+                "Japanese Novel And Short Story",
+                "Fiction",
+                "Fiction - General",
+                "Spanish: Adult Fiction",
+                "General",
+                "Romance - Contemporary"
+            ],
+            "publish_date": "November 1, 2002",
+            "works": [
+                {
+                    "key": "/works/OL2625443W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.1 x 5.5 x 0.6 inches",
+            "lc_classifications": [
+                "PL"
+            ],
+            "latest_revision": 13,
+            "revision": 13,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-09-29T02:40:35.739210"
+            }
+        },
+        "/books/OL23004579M": {
+            "publishers": [
+                "ĖKSMO"
+            ],
+            "translated_from": [
+                {
+                    "key": "/languages/jpn"
+                }
+            ],
+            "number_of_pages": 269,
+            "contributors": [
+                {
+                    "role": "Translator",
+                    "name": "Natalʹi Kunikovoĭ"
+                }
+            ],
+            "isbn_10": [
+                "5699053867"
+            ],
+            "pagination": "269 p.",
+            "local_id": [
+                "urn:sfpl:31223071304936",
+                "urn:bwbsku:O9-BJZ-652"
+            ],
+            "key": "/books/OL23004579M",
+            "authors": [
+                {
+                    "key": "/authors/OL382524A"
+                }
+            ],
+            "publish_places": [
+                "Moskva"
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "classifications": {},
+            "source_records": [
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run03.mrc:68590059:1292",
+                "promise:bwb_daily_pallets_2023-10-19:O9-BJZ-652"
+            ],
+            "title": "Moĭ li︠u︡bimyĭ sputnik",
+            "work_titles": [
+                "Suputoniku-no koibito."
+            ],
+            "identifiers": {},
+            "languages": [
+                {
+                    "key": "/languages/rus"
+                }
+            ],
+            "subjects": [
+                "Japan -- Social life and customs -- 20th century -- Fiction."
+            ],
+            "publish_date": "2004",
+            "publish_country": "ru ",
+            "by_statement": "Haruki Murakami ; [per. s i︠a︡ponskogo Natalʹi Kunikovoĭ]",
+            "oclc_numbers": [
+                "54687911"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL2625443W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-02-17T23:26:12.692367"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-21T01:27:04.782412"
+            }
+        },
+        "/books/OL23081182M": {
+            "other_titles": [
+                "Sputnik sweetheart"
+            ],
+            "publishers": [
+                "Keter"
+            ],
+            "translated_from": [
+                {
+                    "key": "/languages/jpn"
+                }
+            ],
+            "number_of_pages": 211,
+            "isbn_10": [
+                "9650713530"
+            ],
+            "pagination": "211 p.",
+            "key": "/books/OL23081182M",
+            "authors": [
+                {
+                    "key": "/authors/OL382524A"
+                }
+            ],
+            "publish_places": [
+                "Yerushalayim"
+            ],
+            "genres": [
+                "Fiction.",
+                "Novela."
+            ],
+            "classifications": {},
+            "title": "Spuṭniḳ ahuvati",
+            "work_titles": [
+                "Supūtoniku no koibito."
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Translation of: Sp\u001bp-\u001bsutoniku no koibito"
+            },
+            "identifiers": {},
+            "languages": [
+                {
+                    "key": "/languages/heb"
+                }
+            ],
+            "subjects": [
+                "Teachers -- Fiction.",
+                "Women novelists -- Fiction.",
+                "Businesswomen -- Fiction.",
+                "Missing persons -- Fiction.",
+                "Unrequited love -- Fiction.",
+                "Maestros -- Novela.",
+                "Japan -- Fiction."
+            ],
+            "publish_date": "2005",
+            "publish_country": "is ",
+            "by_statement": "Haruḳi Muraḳami ; me-Yapanit, ʻEnat Ḳuper",
+            "works": [
+                {
+                    "key": "/works/OL2625443W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "oclc_numbers": [
+                "67545487"
+            ],
+            "source_records": [
+                "marc:harvard_bibliographic_metadata/ab.bib.09.20150123.full.mrc:698277565:840"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-02-18T11:37:21.979638"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-15T19:27:30.687840"
+            }
+        },
+        "/books/OL22977382M": {
+            "other_titles": [
+                "The Sputnik sweetheart"
+            ],
+            "publishers": [
+                "Kōdansha",
+                "Kodansha"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "74326"
+                ],
+                "goodreads": [
+                    "1712077"
+                ]
+            },
+            "isbn_10": [
+                "4062096579"
+            ],
+            "key": "/books/OL22977382M",
+            "authors": [
+                {
+                    "key": "/authors/OL382524A"
+                }
+            ],
+            "publish_places": [
+                "Tōkyō"
+            ],
+            "pagination": "309 p.",
+            "classifications": {},
+            "source_records": [
+                "marc:SanFranPL08/SanFranPL08.out:97805235:1109",
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run02.mrc:185895495:1295",
+                "marc:marc_loc_2016/BooksAll.2016.part32.utf8:94146699:851",
+                "amazon:4062096579",
+                "marc:harvard_bibliographic_metadata/20220215_027.bib.mrc:123955948:1171"
+            ],
+            "title": "Supūtoniku no koibito",
+            "number_of_pages": 309,
+            "languages": [
+                {
+                    "key": "/languages/jpn"
+                }
+            ],
+            "local_id": [
+                "urn:sfpl:31223077690635",
+                "urn:sfpl:31223052218220"
+            ],
+            "publish_date": "1999",
+            "publish_country": "ja ",
+            "by_statement": "Murakami Haruki",
+            "oclc_numbers": [
+                "41333036"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL2625443W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "lccn": [
+                "2004551839"
+            ],
+            "lc_classifications": [
+                "PL856.U673 S87 1999",
+                "PL856.U673 S87 1999x"
+            ],
+            "covers": [
+                13878810
+            ],
+            "latest_revision": 21,
+            "revision": 21,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-02-17T18:42:39.249264"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-14T06:20:41.932184"
+            }
+        },
+        "/books/OL22375873M": {
+            "publishers": [
+                "Vintage International"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "74326"
+                ],
+                "goodreads": [
+                    "397165"
+                ]
+            },
+            "subtitle": "a novel",
+            "isbn_10": [
+                "0375726055"
+            ],
+            "pagination": "210 p. ;",
+            "covers": [
+                8722148
+            ],
+            "lc_classifications": [
+                "PL856.U673 S8713 "
+            ],
+            "key": "/books/OL22375873M",
+            "authors": [
+                {
+                    "key": "/authors/OL382524A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "contributions": [
+                "Gabriel, J. Philip."
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "source_records": [
+                "ia:sputniksweethear00mura_956",
+                "bwb:9780375726057",
+                "idb:9780375726057"
+            ],
+            "title": "The sputnik sweetheart",
+            "number_of_pages": 210,
+            "edition_name": "1st Vintage International ed.",
+            "subjects": [
+                "Teachers -- Fiction.",
+                "Women novelists -- Fiction.",
+                "Businesswomen -- Fiction.",
+                "Missing persons -- Fiction.",
+                "Unrequited love -- Fiction.",
+                "Japan -- Fiction."
+            ],
+            "publish_date": "2002",
+            "publish_country": "nyu",
+            "by_statement": "by Haruki Murakami ; translated from the Japanese by Philip Gabriel.",
+            "works": [
+                {
+                    "key": "/works/OL2625443W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 12,
+            "revision": 12,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-11T22:13:02.212984"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-03-28T22:59:01.972162"
+            }
+        },
+        "/books/OL24270277M": {
+            "publishers": [
+                "Knopf Doubleday Publishing Group"
+            ],
+            "covers": [
+                6419594
+            ],
+            "physical_format": "Electronic resource",
+            "key": "/books/OL24270277M",
+            "authors": [
+                {
+                    "key": "/authors/OL382524A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "marc_overdrive/InternetArchiveCrMarc-2010-06-11p.mrc:6662059:2709"
+            ],
+            "title": "Sputnik Sweetheart",
+            "identifiers": {
+                "overdrive": [
+                    "73907451-DAAC-43DD-8ABD-D4E0336A8CF1"
+                ]
+            },
+            "isbn_13": [
+                "9780375413469"
+            ],
+            "publish_date": "2001",
+            "publish_country": "nyu",
+            "oclc_numbers": [
+                "294955073"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL2625443W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-06-18T00:13:25.253626"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-07-29T14:57:33.212834"
+            }
+        },
+        "/books/OL7318166M": {
+            "publishers": [
+                "Vintage"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "74326"
+                ],
+                "goodreads": [
+                    "9557"
+                ]
+            },
+            "lc_classifications": [
+                "PL856.U673S8713 2002"
+            ],
+            "source_records": [
+                "bwb:9780099448471"
+            ],
+            "title": "Sputnik Sweetheart",
+            "number_of_pages": 240,
+            "covers": [
+                74831
+            ],
+            "isbn_13": [
+                "9780099448471"
+            ],
+            "isbn_10": [
+                "0099448475"
+            ],
+            "publish_date": "October 3, 2002",
+            "key": "/books/OL7318166M",
+            "authors": [
+                {
+                    "key": "/authors/OL382524A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL2625443W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "In the spring of her twenty-second year, Sumire fell in love for the first time in her life."
+            },
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-07-29T14:57:33.212834"
+            }
+        },
+        "/books/OL7426986M": {
+            "publishers": [
+                "Vintage"
+            ],
+            "number_of_pages": 224,
+            "ia_box_id": [
+                "IA179401"
+            ],
+            "covers": [
+                15088863,
+                -1
+            ],
+            "ia_loaded_id": [
+                "sputniksweethear00mura"
+            ],
+            "key": "/books/OL7426986M",
+            "authors": [
+                {
+                    "key": "/authors/OL382524A"
+                }
+            ],
+            "ocaid": "sputniksweethear00mura",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "ia:sputniksweethear00mura"
+            ],
+            "title": "Sputnik Sweetheart",
+            "identifiers": {
+                "librarything": [
+                    "74326"
+                ],
+                "goodreads": [
+                    "397165"
+                ]
+            },
+            "isbn_13": [
+                "9780375726057"
+            ],
+            "isbn_10": [
+                "0375726055"
+            ],
+            "publish_date": "April 9, 2002",
+            "works": [
+                {
+                    "key": "/works/OL2625443W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "In the spring of her twenty-second year, Sumire fell in love for the first time in her life."
+            },
+            "latest_revision": 16,
+            "revision": 16,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-05-23T05:41:07.818214"
+            }
+        },
+        "/books/OL20121316M": {
+            "publishers": [
+                "Mills and Boon"
+            ],
+            "pagination": "186p.",
+            "title": "Bought with his name",
+            "number_of_pages": 186,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-26T00:36:48.131628"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2010-08-17T14:07:31.834028"
+            },
+            "publish_date": "1982",
+            "publish_country": "xxk",
+            "key": "/books/OL20121316M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "by_statement": "by Penny Jordan.",
+            "latest_revision": 3,
+            "works": [
+                {
+                    "key": "/works/OL3759285W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 3
+        },
+        "/books/OL9315113M": {
+            "identifiers": {
+                "librarything": [
+                    "2249024"
+                ],
+                "goodreads": [
+                    "1801160"
+                ]
+            },
+            "title": "Bought with His Name",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "publish_date": "January 1983",
+            "publishers": [
+                "Harlequin Books",
+                "Harlequin"
+            ],
+            "covers": [
+                7282253,
+                4963675
+            ],
+            "physical_format": "Mass Market Paperback",
+            "publish_places": [
+                "Canada"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-06-01:O8-AJM-794",
+                "bwb:9780373105625",
+                "promise:bwb_daily_pallets_2021-06-28:o7-bzy-891",
+                "promise:bwb_daily_pallets_2021-03-08:O7-AAU-287"
+            ],
+            "edition_name": "Harlequin Presents #562",
+            "subjects": [
+                "Romance - General"
+            ],
+            "copyright_date": "1982",
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:O8-AJM-794",
+                "urn:bwbsku:O7-BZY-891",
+                "urn:bwbsku:O7-AAU-287"
+            ],
+            "key": "/books/OL9315113M",
+            "number_of_pages": 186,
+            "works": [
+                {
+                    "key": "/works/OL3759285W"
+                }
+            ],
+            "ocaid": "boughtwithhisnam00penn",
+            "isbn_10": [
+                "0373105622"
+            ],
+            "isbn_13": [
+                "9780373105625"
+            ],
+            "oclc_numbers": [
+                "9013687"
+            ],
+            "classifications": {},
+            "latest_revision": 25,
+            "revision": 25,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-28T14:34:51.543069"
+            }
+        },
+        "/books/OL10739924M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "weight": "4 ounces",
+            "covers": [
+                5073969
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL10739924M",
+            "authors": [
+                {
+                    "key": "/authors/OL1175057A"
+                }
+            ],
+            "subjects": [
+                "Romance - General",
+                "Non-Classifiable",
+                "Romance - Contemporary",
+                "Fiction - Romance",
+                "Fiction"
+            ],
+            "source_records": [
+                "bwb:9780373157976"
+            ],
+            "title": "Mail Order Marriage - 50th Anniversary",
+            "number_of_pages": 250,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "April 1, 1999",
+            "works": [
+                {
+                    "key": "/works/OL5236145W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.8 x 4.2 x 0.8 inches",
+            "identifiers": {},
+            "isbn_10": [
+                "0373157975"
+            ],
+            "isbn_13": [
+                "9780373157976"
+            ],
+            "oclc_numbers": [
+                "40935486"
+            ],
+            "classifications": {},
+            "edition_name": "Larger Print Edition",
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-27T11:40:00.648820"
+            }
+        },
+        "/books/OL10692116M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "number_of_pages": 185,
+            "weight": "3.2 ounces",
+            "series": [
+                "Harlequin Romance, 3551"
+            ],
+            "covers": [
+                2406755
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL10692116M",
+            "authors": [
+                {
+                    "key": "/authors/OL1175057A"
+                }
+            ],
+            "subjects": [
+                "Romance",
+                "Fiction - Romance",
+                "Fiction",
+                "Romance - General",
+                "Non-Classifiable",
+                "Romance - Contemporary"
+            ],
+            "classifications": {},
+            "source_records": [
+                "bwb:9780373035519"
+            ],
+            "title": "Mail-Order Marriage  (50th Anniversary)",
+            "identifiers": {
+                "goodreads": [
+                    "1502217"
+                ],
+                "librarything": [
+                    "4960994"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "April 1, 1999",
+            "works": [
+                {
+                    "key": "/works/OL5236145W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.5 x 4.2 x 0.5 inches",
+            "isbn_10": [
+                "0373035519"
+            ],
+            "isbn_13": [
+                "9780373035519"
+            ],
+            "oclc_numbers": [
+                "41067553"
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-27T00:29:43.303935"
+            }
+        },
+        "/books/OL29135944M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781408930793"
+            ],
+            "title": "The Contaxis Baby",
+            "number_of_pages": 192,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Contaxis Baby",
+            "publish_date": "2012",
+            "key": "/books/OL29135944M",
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3773896W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_13": [
+                "9781408930793"
+            ],
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-22T11:46:18.548678"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-22T14:52:58.698530"
+            }
+        },
+        "/books/OL9749482M": {
+            "publishers": [
+                "Harlequin Mills & Boon",
+                "Harlequin Mills & Boon Ltd"
+            ],
+            "physical_format": "Hardcover",
+            "source_records": [
+                "bwb:9780263175479",
+                "amazon:0263175472"
+            ],
+            "title": "The Contaxis Baby",
+            "number_of_pages": 186,
+            "publish_date": "August 2, 2002",
+            "key": "/books/OL9749482M",
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3773896W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Romance"
+            ],
+            "covers": [
+                13510887
+            ],
+            "identifiers": {},
+            "isbn_10": [
+                "0263175472"
+            ],
+            "isbn_13": [
+                "9780263175479"
+            ],
+            "oclc_numbers": [
+                "59463973"
+            ],
+            "classifications": {},
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-22T14:54:05.280324"
+            }
+        },
+        "/books/OL9752374M": {
+            "title": "The Contaxis Baby",
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "publish_date": "August 2, 2002",
+            "publishers": [
+                "Harlequin Mills & Boon"
+            ],
+            "physical_format": "Hardcover",
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Romance"
+            ],
+            "isbn_10": [
+                "0263175472"
+            ],
+            "isbn_13": [
+                "9780263175479"
+            ],
+            "oclc_numbers": [
+                "59463973"
+            ],
+            "source_records": [
+                "amazon:0263175472"
+            ],
+            "key": "/books/OL9752374M",
+            "number_of_pages": 186,
+            "works": [
+                {
+                    "key": "/works/OL3773896W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-02T21:23:53.378014"
+            }
+        },
+        "/books/OL9743008M": {
+            "description": "Sebasten Contaxis: a gorgeous Greek billionaire. Reputedly, to him women are just for decoration.\r\n\r\nLizzie Denton: misunderstood and miserable. She's been wrongly labeled as a heartbreaker.\r\n\r\nSebasten decides he'll get his own unique brand of revenge -- and takes Lizzie's virginity.\r\n\r\nSo now it's Lizzie Denton, misunderstood and pregnant. And Sebasten Contaxis, gorgeous Greek billionaire...and father-to-be!",
+            "identifiers": {
+                "librarything": [
+                    "1311756"
+                ],
+                "goodreads": [
+                    "1389843"
+                ]
+            },
+            "title": "The Contaxis Baby",
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "publish_date": "July 1, 2003",
+            "publishers": [
+                "Harlequin"
+            ],
+            "weight": "3.4 ounces",
+            "covers": [
+                14361788
+            ],
+            "physical_format": "Mass Market Paperback",
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-06-28:O7-BXX-611",
+                "bwb:9780373123315",
+                "promise:bwb_daily_pallets_2020-12-15:O7-AEU-464"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Romance - Adult",
+                "Fiction / Romance / Adult",
+                "Romance - Contemporary",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.6 x 6.4 x 0.6 inches",
+            "series": [
+                "Greek Tycoons"
+            ],
+            "local_id": [
+                "urn:bwbsku:O7-BXX-611",
+                "urn:bwbsku:O7-AEU-464"
+            ],
+            "key": "/books/OL9743008M",
+            "number_of_pages": 192,
+            "works": [
+                {
+                    "key": "/works/OL3773896W"
+                }
+            ],
+            "ocaid": "contaxisbabytheg00lynn_0",
+            "isbn_10": [
+                "0373123310"
+            ],
+            "isbn_13": [
+                "9780373123315"
+            ],
+            "oclc_numbers": [
+                "52301279"
+            ],
+            "classifications": {},
+            "latest_revision": 21,
+            "revision": 21,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-22T14:49:17.387674"
+            }
+        },
+        "/books/OL9858486M": {
+            "identifiers": {
+                "goodreads": [
+                    "1389833"
+                ],
+                "librarything": [
+                    "1311756"
+                ]
+            },
+            "title": "The Contaxis Baby",
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "publish_date": "July 10, 2007",
+            "publishers": [
+                "Harlequin",
+                "Harlequin Readers' Choice"
+            ],
+            "weight": "1.6 ounces",
+            "covers": [
+                1186185
+            ],
+            "physical_format": "Mass Market Paperback",
+            "subjects": [
+                "Romance - General",
+                "Fiction / Romance / General",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern"
+            ],
+            "isbn_13": [
+                "9780373198818"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-11-24:KR-474-126",
+                "bwb:9780373198818",
+                "promise:bwb_daily_pallets_2022-09-06:KR-046-054",
+                "promise:bwb_daily_pallets_2021-05-13:916-BAA-863"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373198817"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.6 x 4.1 x 0.4 inches",
+            "local_id": [
+                "urn:bwbsku:KR-474-126",
+                "urn:bwbsku:KR-046-054",
+                "urn:bwbsku:916-BAA-863"
+            ],
+            "key": "/books/OL9858486M",
+            "number_of_pages": 192,
+            "works": [
+                {
+                    "key": "/works/OL3773896W"
+                }
+            ],
+            "latest_revision": 14,
+            "revision": 14,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T13:48:29.395727"
+            }
+        },
+        "/books/OL38429115M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL4782813A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "512",
+            "publish_date": "2022",
+            "publishers": [
+                "Sourcebooks, Incorporated",
+                "Bloom Books"
+            ],
+            "source_records": [
+                "bwb:9781728274881",
+                "amazon:1728274885",
+                "promise:bwb_daily_pallets_2023-04-14:P8-DJB-179"
+            ],
+            "title": "Twisted Hate",
+            "weight": "0.010 ",
+            "full_title": "Th",
+            "works": [
+                {
+                    "key": "/works/OL27245843W"
+                }
+            ],
+            "key": "/books/OL38429115M",
+            "covers": [
+                13870257
+            ],
+            "number_of_pages": 512,
+            "local_id": [
+                "urn:bwbsku:P8-DJB-179"
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9781728274881"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T02:41:05.719441"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-26T02:39:31.817372"
+            }
+        },
+        "/books/OL36978097M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL9180803A"
+                }
+            ],
+            "isbn_13": [
+                "9781735056685"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2022",
+            "publishers": [
+                "Ana Huang"
+            ],
+            "source_records": [
+                "bwb:9781735056685",
+                "amazon:1735056685",
+                "promise:bwb_daily_pallets_2023-03-29:T2-DWI-404"
+            ],
+            "subjects": [
+                "Fiction, romance, general",
+                "Fiction, general"
+            ],
+            "title": "Twisted Hate",
+            "works": [
+                {
+                    "key": "/works/OL27245843W"
+                }
+            ],
+            "key": "/books/OL36978097M",
+            "local_id": [
+                "urn:bwbsku:T2-DWI-404"
+            ],
+            "covers": [
+                15111231,
+                14646949
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-01-29T11:14:57.962563"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-07T02:31:13.190329"
+            }
+        },
+        "/books/OL52544622M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL29622A"
+                }
+            ],
+            "isbn_13": [
+                "9781322198361"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2014",
+            "publishers": [
+                "Open Road Integrated Media, Inc."
+            ],
+            "source_records": [
+                "bwb:9781322198361"
+            ],
+            "title": "Sunshine",
+            "full_title": "Sunshine",
+            "works": [
+                {
+                    "key": "/works/OL109410W"
+                }
+            ],
+            "key": "/books/OL52544622M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-07-17T05:42:58.825389"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-10T20:35:04.307835"
+            }
+        },
+        "/books/OL44248640M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL10276021A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "416",
+            "publish_date": "2010",
+            "publishers": [
+                "Penguin Publishing Group"
+            ],
+            "source_records": [
+                "bwb:9780441019137"
+            ],
+            "subjects": [
+                "Fiction, fantasy, general",
+                "Vampires, fiction"
+            ],
+            "title": "Sunshine",
+            "weight": "0.455 ",
+            "full_title": "Sunshine",
+            "works": [
+                {
+                    "key": "/works/OL109410W"
+                }
+            ],
+            "key": "/books/OL44248640M",
+            "identifiers": {},
+            "isbn_13": [
+                "9780441019137"
+            ],
+            "classifications": {},
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-17T18:42:51.157027"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-10T20:35:04.307835"
+            }
+        },
+        "/books/OL36717793M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL29622A"
+                }
+            ],
+            "isbn_13": [
+                "9781497674097"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "407",
+            "publish_date": "2014",
+            "publishers": [
+                "Open Road Integrated Media, Inc."
+            ],
+            "source_records": [
+                "bwb:9781497674097"
+            ],
+            "subjects": [
+                "Fiction, occult & supernatural",
+                "Fiction, romance, general",
+                "Vampires, fiction"
+            ],
+            "title": "Sunshine",
+            "full_title": "Sunshine",
+            "works": [
+                {
+                    "key": "/works/OL109410W"
+                }
+            ],
+            "key": "/books/OL36717793M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-01-27T07:22:07.869129"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-10T20:35:04.307835"
+            }
+        },
+        "/books/OL24088903M": {
+            "publishers": [
+                "Berkley Trade"
+            ],
+            "weight": "1 pounds",
+            "source_records": [
+                "amazon:0425237699",
+                "bwb:9780425237694"
+            ],
+            "title": "Sunshine (Young Adult)",
+            "number_of_pages": 416,
+            "isbn_13": [
+                "9780425237694"
+            ],
+            "physical_format": "Paperback",
+            "isbn_10": [
+                "0425237699"
+            ],
+            "publish_date": "April 6, 2010",
+            "key": "/books/OL24088903M",
+            "authors": [
+                {
+                    "key": "/authors/OL29622A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL109410W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Children's Books -- Authors & Illustrators, A-Z -- ( M ) -- McKinley, Robin",
+                "Children's Books -- People & Places -- Girls & Women -- Fiction",
+                "Science Fiction & Fantasy -- Authors, A-Z -- ( M ) -- McKinley, Robin",
+                "Science Fiction & Fantasy -- Fantasy"
+            ],
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "It was a dumb thing to do but it wasn't that dumb."
+            },
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-03-12T03:08:02.719778"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-17T17:49:24.648640"
+            }
+        }
+    }
+}

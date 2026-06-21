@@ -1,0 +1,5717 @@
+{
+    "status": "ok",
+    "result": {
+        "/books/OL46540943M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL93118A"
+                },
+                {
+                    "key": "/authors/OL6758235A"
+                },
+                {
+                    "key": "/authors/OL82249A"
+                },
+                {
+                    "key": "/authors/OL10012820A"
+                }
+            ],
+            "isbn_10": [
+                "0811237532"
+            ],
+            "isbn_13": [
+                "9780811237536"
+            ],
+            "number_of_pages": 96,
+            "physical_format": "paperback",
+            "publish_date": "Oct 03, 2023",
+            "publishers": [
+                "New Directions",
+                "New Directions Publishing Corporation"
+            ],
+            "source_records": [
+                "amazon:0811237532",
+                "bwb:9780811237536"
+            ],
+            "title": "The Hour of the Star",
+            "full_title": "The Hour of the Star",
+            "works": [
+                {
+                    "key": "/works/OL1002120W"
+                }
+            ],
+            "key": "/books/OL46540943M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-02-10T03:53:56.375645"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-29T10:52:58.897027"
+            }
+        },
+        "/books/OL13311252M": {
+            "publishers": [
+                "Siruela"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "59230"
+                ],
+                "librarything": [
+                    "221304"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "number_of_pages": 88,
+            "isbn_13": [
+                "9788478445103"
+            ],
+            "covers": [
+                7311103
+            ],
+            "physical_format": "Hardcover",
+            "isbn_10": [
+                "8478445102"
+            ],
+            "publish_date": "January 1, 2000",
+            "key": "/books/OL13311252M",
+            "authors": [
+                {
+                    "key": "/authors/OL93118A"
+                }
+            ],
+            "title": "La hora de la estrella (Libros del Tiempo)",
+            "works": [
+                {
+                    "key": "/works/OL1002120W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Language readers",
+                "Literature",
+                "Literature & Fiction"
+            ],
+            "local_id": [
+                "urn:bwbsku:T2-APU-261"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-07-02"
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-24T19:46:53.313937"
+            }
+        },
+        "/books/OL23240893M": {
+            "publishers": [
+                "New Directions Pub. Corp."
+            ],
+            "number_of_pages": 96,
+            "isbn_10": [
+                "0811211908"
+            ],
+            "series": [
+                "New Directions paperbook -- 733."
+            ],
+            "pagination": "96 p. ;",
+            "covers": [
+                8259226
+            ],
+            "lc_classifications": [
+                "PQ9697.L585 H6713 1992"
+            ],
+            "key": "/books/OL23240893M",
+            "authors": [
+                {
+                    "key": "/authors/OL93118A"
+                }
+            ],
+            "ocaid": "hourofst00lisp",
+            "publish_places": [
+                "New York"
+            ],
+            "oclc_number": [
+                "24246408"
+            ],
+            "isbn_13": [
+                "9780811211901"
+            ],
+            "genres": [
+                "Fiction"
+            ],
+            "source_records": [
+                "marc:marc_cca/b10621386.out:49311133:988",
+                "ia:hourofst00lisp"
+            ],
+            "title": "The hour of the star",
+            "lccn": [
+                "91029995"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Translation of: A hora da estrela."
+            },
+            "identifiers": {
+                "librarything": [
+                    "221304"
+                ],
+                "goodreads": [
+                    "762390"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Rio de Janeiro (Brazil) -- Fiction"
+            ],
+            "publish_date": "1992",
+            "publish_country": "nyu",
+            "by_statement": "Clarice Lispector ; translated with an afterword by Giovanni Pontiero.",
+            "works": [
+                {
+                    "key": "/works/OL1002120W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-05-29T09:04:45.126004"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-24T19:46:53.313937"
+            }
+        },
+        "/books/OL29498448M": {
+            "publishers": [
+                "Norton & Company Limited, W. W.",
+                "New Directions Publishing Corporation",
+                "New Directions"
+            ],
+            "source_records": [
+                "bwb:9780811230049",
+                "marc:marc_columbia/Columbia-extract-20221130-031.mrc:317936160:2138",
+                "amazon:081123004X",
+                "marc:harvard_bibliographic_metadata/20220215_033.bib.mrc:132682817:3324"
+            ],
+            "title": "Hour of the Star",
+            "number_of_pages": 128,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Hour of the Star 100th Anniversary Edition",
+            "publish_date": "2020",
+            "key": "/books/OL29498448M",
+            "authors": [
+                {
+                    "key": "/authors/OL93118A"
+                },
+                {
+                    "key": "/authors/OL6758235A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL1002120W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_13": [
+                "9780811230049"
+            ],
+            "classifications": {},
+            "lc_classifications": [
+                "PQ9697.L585H6713",
+                "PQ9697.L585 H6713 2020"
+            ],
+            "edition_name": "100th Anniversary Edition",
+            "lccn": [
+                "2020028448"
+            ],
+            "oclc_numbers": [
+                "1162259262"
+            ],
+            "covers": [
+                13272502
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "\"The devastating final work by Brazil's greatest modern writer, The Hour of the Star tells the haunting tale of Macabéa-a typist who lives in the slums of Rio-underfed, sickly, and unloved, yet inwardly free\"--"
+            },
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-26T11:19:39.323272"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-22T21:21:03.652835"
+            }
+        },
+        "/books/OL35636730M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "La hora de la estrella",
+            "authors": [
+                {
+                    "key": "/authors/OL93118A"
+                },
+                {
+                    "key": "/authors/OL9950440A"
+                }
+            ],
+            "publish_date": "Apr 07, 2021",
+            "source_records": [
+                "amazon:841612079X"
+            ],
+            "number_of_pages": 112,
+            "publishers": [
+                "Siruela"
+            ],
+            "physical_format": "paperback",
+            "notes": "Source title: La hora de la estrella (Biblioteca Clarice Lispector) (Spanish Edition)",
+            "full_title": "La hora de la estrella",
+            "covers": [
+                12343661
+            ],
+            "works": [
+                {
+                    "key": "/works/OL1002120W"
+                }
+            ],
+            "key": "/books/OL35636730M",
+            "identifiers": {},
+            "isbn_10": [
+                "841612079X"
+            ],
+            "isbn_13": [
+                "9788416120796"
+            ],
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-06T01:54:18.120260"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-24T19:46:53.313937"
+            }
+        },
+        "/books/OL8301594M": {
+            "publishers": [
+                "Carcanet Press"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "153423"
+                ],
+                "librarything": [
+                    "221304"
+                ]
+            },
+            "weight": "5 ounces",
+            "covers": [
+                650866
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL8301594M",
+            "authors": [
+                {
+                    "key": "/authors/OL93118A"
+                }
+            ],
+            "contributions": [
+                "Giovanni Pontiero (Translator)"
+            ],
+            "subjects": [
+                "Modern fiction",
+                "Fiction"
+            ],
+            "edition_name": "New Ed edition",
+            "title": "The Hour of the Star (Black & White)",
+            "number_of_pages": 96,
+            "isbn_13": [
+                "9780856359897"
+            ],
+            "isbn_10": [
+                "0856359890"
+            ],
+            "publish_date": "February 14, 1992",
+            "works": [
+                {
+                    "key": "/works/OL1002120W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "7.3 x 5.1 x 0.4 inches",
+            "source_records": [
+                "bwb:9780856359897"
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T04:17:33.984190"
+            }
+        },
+        "/books/OL59157015M": {
+            "identifiers": {
+                "wikidata": [
+                    "Q116195359"
+                ]
+            },
+            "title": "The War of the Worlds",
+            "publish_date": "2025",
+            "publishers": [
+                "Mirlo Ediciones"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                15088491,
+                15088489
+            ],
+            "isbn_13": [
+                "9786071437242"
+            ],
+            "isbn_10": [
+                "6071437245"
+            ],
+            "physical_dimensions": "24.5 x 16.5 x 2.5 centimeters",
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "translation_of": "War of the worlds",
+            "translated_from": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "physical_format": "Tapa dura, Integro, Ilustrado",
+            "key": "/books/OL59157015M",
+            "number_of_pages": 239,
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-05-21T21:41:34.107918"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-06-02T15:31:25.521822"
+            }
+        },
+        "/books/OL59049827M": {
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "title": "The War of the Worlds: [Annotated Edition]",
+            "publishers": [
+                "Independently published"
+            ],
+            "publish_date": "2023-11-19",
+            "key": "/books/OL59049827M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                15067245
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_13": [
+                "9798868225024"
+            ],
+            "physical_format": "Paperback",
+            "number_of_pages": 308,
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-05-12T21:24:30.181496"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-05-12T21:27:44.908099"
+            }
+        },
+        "/books/OL59049676M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "H.G. Wells, Henrique Alvim-Corrêa (Illustrations), Lesley Gray (Introduction)"
+            },
+            "identifiers": {
+                "wikidata": [
+                    "Q116228000"
+                ]
+            },
+            "title": "The War of the Worlds",
+            "publish_date": "2019-12-06",
+            "publishers": [
+                "Solis Press"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781910146439"
+            ],
+            "isbn_10": [
+                "1910146439"
+            ],
+            "physical_dimensions": "23.4 x 15.6 x 1.0 centimeters",
+            "contributors": [
+                {
+                    "role": "Illustrator",
+                    "name": "Henrique Alvim-Corrêa"
+                },
+                {
+                    "role": "Introduction",
+                    "name": "Lesley Gray"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL59049676M",
+            "number_of_pages": 172,
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-05-12T21:20:48.850506"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-06-02T16:09:58.447283"
+            }
+        },
+        "/books/OL9611494M": {
+            "description": "150 p. : ill. ; 20 cm.NC760L Lexile",
+            "identifiers": {
+                "goodreads": [
+                    "877588"
+                ],
+                "librarything": [
+                    "7689346"
+                ]
+            },
+            "title": "Classic Starts",
+            "subtitle": "The War of the Worlds (Classic Starts Series)",
+            "authors": [
+                {
+                    "key": "/authors/OL1389789A"
+                },
+                {
+                    "key": "/authors/OL13066A"
+                }
+            ],
+            "publish_date": "February 1, 2007",
+            "publishers": [
+                "Sterling"
+            ],
+            "weight": "8.8 ounces",
+            "covers": [
+                1738958
+            ],
+            "physical_format": "Hardcover",
+            "contributions": [
+                "Arthur Pober (Afterword)",
+                "Jamel Akib (Illustrator)"
+            ],
+            "subjects": [
+                "Juvenile Fiction",
+                "Children's Books/Ages 9-12 Fiction",
+                "Children: Grades 3-4",
+                "Science fiction",
+                "Classics",
+                "BG-HUMOR/GAMES - BG-GAMES/PUZZLES",
+                "Juvenile Fiction / Classics",
+                "Fiction",
+                "Human-alien encounters"
+            ],
+            "source_records": [
+                "amazon:1402736886:2-bc:3420078573:231943",
+                "marc:marc_loc_updates/v35.i13.records.utf8:7131533:1453",
+                "marc:marc_loc_updates/v35.i21.records.utf8:13689304:1453",
+                "marc:marc_loc_updates/v38.i38.records.utf8:3084374:1350",
+                "marc:marc_loc_2016/BooksAll.2016.part33.utf8:109261619:1350",
+                "bwb:9781402736889",
+                "ia:warofworlds0000sasa",
+                "promise:bwb_daily_pallets_2022-08-13",
+                "midcolumbia:993144"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "7.5 x 5.7 x 0.7 inches",
+            "local_id": [
+                "urn:bwbsku:W7-BTW-787"
+            ],
+            "lexile": "760",
+            "key": "/books/OL9611494M",
+            "number_of_pages": 160,
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "ocaid": "warofworlds0000sasa",
+            "isbn_10": [
+                "1402736886"
+            ],
+            "isbn_13": [
+                "9781402736889"
+            ],
+            "lccn": [
+                "2006014767"
+            ],
+            "oclc_numbers": [
+                "70176772"
+            ],
+            "lc_classifications": [
+                "PZ7.S24864 War 2007",
+                "PZ7.S24864War 2007"
+            ],
+            "latest_revision": 18,
+            "revision": 18,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-05-12T21:17:02.199481"
+            }
+        },
+        "/books/OL59049555M": {
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "title": "The War of the Worlds",
+            "publishers": [
+                "Dover Publications"
+            ],
+            "publish_date": "1997-01-10",
+            "key": "/books/OL59049555M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                15067080
+            ],
+            "isbn_13": [
+                "9780486295060"
+            ],
+            "isbn_10": [
+                "0486295060"
+            ],
+            "physical_dimensions": "21.6 x 13.3 x 1.3 centimeters",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "physical_format": "Paperback",
+            "number_of_pages": 145,
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-05-12T21:14:09.123750"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-05-12T21:15:31.513154"
+            }
+        },
+        "/books/OL59049196M": {
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "title": "The War of the Worlds",
+            "publishers": [
+                "Saddleback Pub"
+            ],
+            "publish_date": "2005-08-01",
+            "key": "/books/OL59049196M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                15066827
+            ],
+            "isbn_13": [
+                "9781562549527"
+            ],
+            "isbn_10": [
+                "1562549529"
+            ],
+            "physical_dimensions": "21.6 x 15.2 x 0.6 centimeters",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "physical_format": "Paperback",
+            "number_of_pages": 61,
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-05-12T20:53:42.850227"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-05-12T20:56:10.393708"
+            }
+        },
+        "/books/OL59048241M": {
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "title": "The War of the Worlds Collection",
+            "publishers": [
+                "Independently published"
+            ],
+            "publish_date": "2025-01-09",
+            "key": "/books/OL59048241M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_13": [
+                "9798306479316"
+            ],
+            "covers": [
+                15066483
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-05-12T19:47:35.698251"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-05-12T19:55:21.180514"
+            }
+        },
+        "/books/OL58554729M": {
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "title": "The War of the Worlds",
+            "publishers": [
+                "Samarkand"
+            ],
+            "publish_date": "2023-02-07",
+            "key": "/books/OL58554729M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {
+                "amazon": [
+                    "2383040959"
+                ]
+            },
+            "covers": [
+                14868471
+            ],
+            "physical_dimensions": "22.9 x 15.2 x 1.7 centimeters",
+            "edition_name": "Grand caractères",
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "notes": "Collection : Collection Grands caractères\r\nISSN collection : 2969-0676\r\nÉdition : Large type / Large print",
+            "physical_format": "Paperback",
+            "number_of_pages": 318,
+            "isbn_10": [
+                "2383040959"
+            ],
+            "isbn_13": [
+                "9782383040958"
+            ],
+            "weight": "463 grams",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-04-24T18:58:21.213500"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-04-24T19:02:55.490427"
+            }
+        },
+        "/books/OL58554595M": {
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "title": "The War of the Worlds",
+            "publishers": [
+                "Independently published"
+            ],
+            "publish_date": "2023-12-19",
+            "key": "/books/OL58554595M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                14868427
+            ],
+            "isbn_13": [
+                "9798872378709"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "physical_format": "Paperback",
+            "number_of_pages": 230,
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-04-24T18:51:16.391854"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-04-24T18:54:02.182598"
+            }
+        },
+        "/books/OL48812913M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL9813437A"
+                },
+                {
+                    "key": "/authors/OL13066A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "130",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798575594642"
+            ],
+            "title": "Guerre des Mondes",
+            "weight": "0.195 ",
+            "subtitle": "Un Roman de Science-Fiction Engageant où une Invasion Extraterrestre de la Terre Est la Réalité",
+            "full_title": "Guerre des Mondes Un Roman de Science-Fiction Engageant où une Invasion Extraterrestre de la Terre Est la Réalité",
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "key": "/books/OL48812913M",
+            "identifiers": {},
+            "isbn_13": [
+                "9798575594642"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-07-17T15:03:41.630621"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-04-24T18:43:03.514289"
+            }
+        },
+        "/books/OL37911572M": {
+            "identifiers": {
+                "wikidata": [
+                    "Q116194205"
+                ]
+            },
+            "title": "The War of the Worlds",
+            "publish_date": "2018",
+            "publishers": [
+                "Vesper"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                12749423
+            ],
+            "isbn_13": [
+                "9788377312865"
+            ],
+            "source_records": [
+                "amazon:8377312867"
+            ],
+            "key": "/books/OL37911572M",
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-05-18T13:19:21.208220"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-16T05:39:12.323180"
+            }
+        },
+        "/books/OL34242741M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL9645075A"
+                },
+                {
+                    "key": "/authors/OL13066A"
+                }
+            ],
+            "isbn_13": [
+                "9798686621558"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/ita"
+                }
+            ],
+            "number_of_pages": 183,
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798686621558"
+            ],
+            "title": "Guerra Dei Mondi",
+            "weight": "0.259",
+            "full_title": "Guerra Dei Mondi",
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "key": "/books/OL34242741M",
+            "contributors": [
+                {
+                    "role": "Translator",
+                    "name": "Leonardo Pablo Federico Sanchez Alonso"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-01T13:43:53.687835"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-20T02:32:43.816754"
+            }
+        },
+        "/books/OL28230655M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: La guerra dels mons (Titan) (Catalan Edition)"
+            },
+            "identifiers": {
+                "wikidata": [
+                    "Q116228829"
+                ]
+            },
+            "title": "La guerra dels mons",
+            "authors": [
+                {
+                    "key": "/authors/OL7969793A"
+                },
+                {
+                    "key": "/authors/OL13066A"
+                }
+            ],
+            "publish_date": "Nov 19, 2018",
+            "publishers": [
+                "Adapta Editorial"
+            ],
+            "covers": [
+                10463591
+            ],
+            "physical_format": "paperback",
+            "source_records": [
+                "amazon:8494569627"
+            ],
+            "isbn_13": [
+                "9788494569623"
+            ],
+            "isbn_10": [
+                "8494569627"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "key": "/books/OL28230655M",
+            "number_of_pages": 156,
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-06-10T13:14:47.832718"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T21:02:26.902634"
+            }
+        },
+        "/books/OL35055348M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL9813437A"
+                },
+                {
+                    "key": "/authors/OL13066A"
+                }
+            ],
+            "isbn_13": [
+                "9798575554950"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/ita"
+                }
+            ],
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798575554950"
+            ],
+            "title": "Guerra Dei Mondi",
+            "weight": "0.191",
+            "pagination": "125",
+            "subtitle": "Affascinante Romanzo Di Fantascienza in Cui un'invasione Aliena Della Terra è la Realtà",
+            "full_title": "Guerra Dei Mondi Affascinante Romanzo Di Fantascienza in Cui un'invasione Aliena Della Terra è la Realtà",
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "key": "/books/OL35055348M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-10T04:10:58.570930"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-04-08T14:56:08.388886"
+            }
+        },
+        "/books/OL32834944M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: La Guerra De Los Mundos (Spanish Edition)"
+            },
+            "identifiers": {
+                "wikidata": [
+                    "Q116232986"
+                ]
+            },
+            "title": "La Guerra De Los Mundos",
+            "authors": [
+                {
+                    "key": "/authors/OL13066A"
+                }
+            ],
+            "publish_date": "Oct 20, 2016",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:153963826X",
+                "bwb:9781539638261"
+            ],
+            "publishers": [
+                "Createspace Independent Publishing Platform",
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "isbn_10": [
+                "153963826X"
+            ],
+            "isbn_13": [
+                "9781539638261"
+            ],
+            "physical_format": "paperback",
+            "full_title": "La Guerra De Los Mundos",
+            "covers": [
+                11466596
+            ],
+            "key": "/books/OL32834944M",
+            "number_of_pages": 174,
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-07-20T23:08:03.816972"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-10-02T12:12:45.342571"
+            }
+        },
+        "/books/OL27198295M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Translation of: The war of the worlds.\n\nXiao shuo."
+            },
+            "identifiers": {
+                "wikidata": [
+                    "Q116195226"
+                ]
+            },
+            "title": "Shi jie da zhan",
+            "subtitle": "huo xing ren quan mian ru qin",
+            "authors": [
+                {
+                    "key": "/authors/OL13066A"
+                }
+            ],
+            "publish_date": "2015",
+            "other_titles": [
+                "Huo xing ren quan mian ru qin"
+            ],
+            "publishers": [
+                "Pu tian chu ban jia zu you xian gong si"
+            ],
+            "isbn_10": [
+                "9869242642"
+            ],
+            "series": [
+                "Tian kong zhi cheng = -- Castle in the sky -- 023",
+                "Tian kong zhi cheng -- 023."
+            ],
+            "publish_places": [
+                "Xinbei Shi"
+            ],
+            "contributions": [
+                "Dai'en"
+            ],
+            "subjects": [
+                "Imaginary wars and battles",
+                "Fiction"
+            ],
+            "edition_name": "Chu ban",
+            "pagination": "250 pages",
+            "source_records": [
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run05.mrc:259994231:2612"
+            ],
+            "work_titles": [
+                "War of the worlds"
+            ],
+            "isbn_13": [
+                "9789869242646"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/chi"
+                }
+            ],
+            "local_id": [
+                "urn:sfpl:31223117852310",
+                "urn:sfpl:31223117852302",
+                "urn:sfpl:31223117852328"
+            ],
+            "publish_country": "ch",
+            "by_statement": "Hebote Qiaozhi Wei'ersi zhu ; Dai'en yi = The war of the worlds / Herbert George Wells",
+            "oclc_numbers": [
+                "945460886"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "key": "/books/OL27198295M",
+            "number_of_pages": 250,
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-07-19T08:55:14.291679"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-05-07T07:12:16.545556"
+            }
+        },
+        "/books/OL35365861M": {
+            "identifiers": {
+                "wikidata": [
+                    "Q116194642"
+                ]
+            },
+            "title": "Dünyalar Savasi",
+            "authors": [
+                {
+                    "key": "/authors/OL13066A"
+                }
+            ],
+            "publish_date": "Oct 28, 2018",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:6051717218"
+            ],
+            "publishers": [
+                "Alfa Basim Yayim Dagitim"
+            ],
+            "isbn_10": [
+                "6051717218"
+            ],
+            "isbn_13": [
+                "9786051717210"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Dünyalar Savasi",
+            "covers": [
+                12208018
+            ],
+            "key": "/books/OL35365861M",
+            "number_of_pages": 272,
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-28T04:44:37.869251"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-29T18:42:45.922179"
+            }
+        },
+        "/books/OL32702198M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: La Guerre des Mondes (French Edition)"
+            },
+            "identifiers": {
+                "wikidata": [
+                    "Q116232594"
+                ]
+            },
+            "title": "La Guerre des Mondes",
+            "authors": [
+                {
+                    "key": "/authors/OL13066A"
+                }
+            ],
+            "publish_date": "Jun 16, 2018",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:0244094152",
+                "bwb:9780244094157"
+            ],
+            "publishers": [
+                "Lulu.com",
+                "lulu.com"
+            ],
+            "isbn_10": [
+                "0244094152"
+            ],
+            "isbn_13": [
+                "9780244094157"
+            ],
+            "physical_format": "paperback",
+            "full_title": "La Guerre des Mondes",
+            "covers": [
+                11326843
+            ],
+            "key": "/books/OL32702198M",
+            "number_of_pages": 314,
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-06-30T15:05:21.822463"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-03-03T19:38:39.025749"
+            }
+        },
+        "/books/OL32205246M": {
+            "identifiers": {
+                "wikidata": [
+                    "Q116195387"
+                ]
+            },
+            "title": "Dünyalar Savasi",
+            "authors": [
+                {
+                    "key": "/authors/OL13066A"
+                }
+            ],
+            "publish_date": "Apr 13, 2020",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:6050637806"
+            ],
+            "publishers": [
+                "Abis Yayincilik"
+            ],
+            "isbn_10": [
+                "6050637806"
+            ],
+            "isbn_13": [
+                "9786050637809"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Dünyalar Savasi",
+            "covers": [
+                10854334
+            ],
+            "key": "/books/OL32205246M",
+            "number_of_pages": 224,
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-04-13T11:40:42.996219"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-29T18:38:56.841317"
+            }
+        },
+        "/books/OL32200069M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Dünyalar Savaşı (Turkish Edition)"
+            },
+            "identifiers": {
+                "wikidata": [
+                    "Q116194247"
+                ]
+            },
+            "title": "Dünyalar Savaşı",
+            "authors": [
+                {
+                    "key": "/authors/OL13066A"
+                }
+            ],
+            "publish_date": "Sep 13, 2019",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:605295888X"
+            ],
+            "publishers": [
+                "İş Bankası Kültür Yayınları"
+            ],
+            "isbn_10": [
+                "605295888X"
+            ],
+            "isbn_13": [
+                "9786052958889"
+            ],
+            "physical_format": "paperback",
+            "covers": [
+                10849285
+            ],
+            "key": "/books/OL32200069M",
+            "number_of_pages": 264,
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-04-13T09:16:31.489712"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-29T17:39:27.747275"
+            }
+        },
+        "/books/OL34310160M": {
+            "identifiers": {
+                "wikidata": [
+                    "Q116229215"
+                ]
+            },
+            "title": "War of the Worlds by H. G. Wells (Illustrated)",
+            "authors": [
+                {
+                    "key": "/authors/OL13066A"
+                }
+            ],
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798721464607"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798721464607"
+            ],
+            "weight": "0.268",
+            "full_title": "War of the Worlds by H. G. Wells (Illustrated)",
+            "key": "/books/OL34310160M",
+            "number_of_pages": 82,
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-02T00:18:41.448099"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T21:04:27.631827"
+            }
+        },
+        "/books/OL29897315M": {
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798632710244"
+            ],
+            "title": "War of the Worlds the New Annotated Version",
+            "number_of_pages": 221,
+            "isbn_13": [
+                "9798632710244"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL29897315M",
+            "authors": [
+                {
+                    "key": "/authors/OL13066A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-01T11:22:52.335730"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-04-08T14:56:08.388886"
+            }
+        },
+        "/books/OL35200090M": {
+            "identifiers": {
+                "wikidata": [
+                    "Q116228213"
+                ]
+            },
+            "title": "War of the Worlds by H. G. Wells",
+            "authors": [
+                {
+                    "key": "/authors/OL13066A"
+                }
+            ],
+            "publish_date": "2020",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781660038473"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9781660038473"
+            ],
+            "weight": "0.241",
+            "pagination": "124",
+            "full_title": "War of the Worlds by H. G. Wells",
+            "key": "/books/OL35200090M",
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-11T01:55:10.838513"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T20:59:40.235837"
+            }
+        },
+        "/books/OL34282011M": {
+            "identifiers": {
+                "wikidata": [
+                    "Q116198947"
+                ]
+            },
+            "title": "War of the Worlds Illustrated and Annotated",
+            "authors": [
+                {
+                    "key": "/authors/OL13066A"
+                }
+            ],
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798719433592"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798719433592"
+            ],
+            "weight": "0.355",
+            "full_title": "War of the Worlds Illustrated and Annotated",
+            "key": "/books/OL34282011M",
+            "number_of_pages": 265,
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-01T19:50:06.814376"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T21:06:26.383357"
+            }
+        },
+        "/books/OL30720207M": {
+            "publishers": [
+                "CORREGIDOR"
+            ],
+            "source_records": [
+                "amazon:9500518732"
+            ],
+            "title": "Hora De La Estrella La 1ro.ed.",
+            "isbn_13": [
+                "9789500518734"
+            ],
+            "covers": [
+                10494745
+            ],
+            "physical_format": "paperback",
+            "isbn_10": [
+                "9500518732"
+            ],
+            "publish_date": "Oct 28, 2011",
+            "key": "/books/OL30720207M",
+            "authors": [
+                {
+                    "key": "/authors/OL93118A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL1002120W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-10-28T05:18:27.247832"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-24T19:46:53.313937"
+            }
+        },
+        "/books/OL24896411M": {
+            "publishers": [
+                "New Directions"
+            ],
+            "covers": [
+                9260944
+            ],
+            "local_id": [
+                "urn:sfpl:31223114307664",
+                "urn:sfpl:31223114307623",
+                "urn:sfpl:31223098969083",
+                "urn:sfpl:31223126482570",
+                "urn:sfpl:31223114307631",
+                "urn:sfpl:31223099693229",
+                "urn:sfpl:31223114307649",
+                "urn:sfpl:31223114307656",
+                "urn:sfpl:31223099693211"
+            ],
+            "full_title": "The hour of the star",
+            "lc_classifications": [
+                "PQ9697.L585 H6713 2011",
+                "PQ9697.L585H6713"
+            ],
+            "key": "/books/OL24896411M",
+            "authors": [
+                {
+                    "key": "/authors/OL93118A"
+                }
+            ],
+            "ocaid": "hourofstar0000lisp",
+            "publish_places": [
+                "New York"
+            ],
+            "contributions": [
+                "Pontiero, Giovanni"
+            ],
+            "lccn": [
+                "2011025482"
+            ],
+            "isbn_13": [
+                "9780811219495"
+            ],
+            "pagination": "p. cm.",
+            "source_records": [
+                "marc:marc_loc_updates/v39.i27.records.utf8:9910105:887",
+                "marc:marc_loc_updates/v39.i38.records.utf8:9735246:863",
+                "marc:marc_loc_updates/v40.i09.records.utf8:9987213:863",
+                "marc:marc_loc_updates/v40.i14.records.utf8:7174736:1024",
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run04.mrc:229053450:3654",
+                "ia:hourofstar0000lisp",
+                "bwb:9780811219495",
+                "marc:marc_loc_2016/BooksAll.2016.part38.utf8:191518834:1024",
+                "marc:harvard_bibliographic_metadata/ab.bib.13.20150123.full.mrc:91144618:1233",
+                "marc:marc_columbia/Columbia-extract-20221130-019.mrc:47784454:1216",
+                "marc:harvard_bibliographic_metadata/20220215_016.bib.mrc:107786396:3642"
+            ],
+            "title": "The hour of the star",
+            "work_titles": [
+                "Hora da estrela"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "\"Translated from the Portuguese A Hora da Estrele.\""
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "dewey_decimal_class": [
+                "869.3"
+            ],
+            "subject_places": [
+                "Rio de Janeiro (Brazil)"
+            ],
+            "subjects": [
+                "Fiction"
+            ],
+            "publish_date": "2011",
+            "publish_country": "nyu",
+            "by_statement": "Clarice Lispector ; translated, with an afterword, by Giovanni Pontiero ; introduction by Colm Tóibín",
+            "works": [
+                {
+                    "key": "/works/OL1002120W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "oclc_numbers": [
+                "733755465"
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "Clarice Lispector died of cancer at the age of fifty-six on 9th December 1977. \"The Hour of the Star\" was published that same year and acclaimed by the critics as 'a regional allegory' of extraordinary awareness and insight. Lispector herself defined \"The Hour of the Star\" as a book 'made without words ... a mute photograph ... a silence ... a question'. The tale of Macabea can be read at different levels and lends itself to various interpretations. The book's subtle interplay of fiction and philosophy sums up Lispector's unique talent as a writer and her lasting influence on contemporary Brazilian writing."
+            },
+            "number_of_pages": 81,
+            "latest_revision": 14,
+            "revision": 14,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2011-07-29T14:18:24.417783"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-30T01:49:34.607996"
+            }
+        },
+        "/books/OL23046377M": {
+            "publishers": [
+                "F. Alves"
+            ],
+            "number_of_pages": 106,
+            "isbn_10": [
+                "8526502719"
+            ],
+            "key": "/books/OL23046377M",
+            "authors": [
+                {
+                    "key": "/authors/OL93118A"
+                }
+            ],
+            "publish_places": [
+                "Rio de Janeiro"
+            ],
+            "pagination": "106 p. ;",
+            "source_records": [
+                "marc:SanFranPL06/SanFranPL06.out:84951840:719",
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run02.mrc:115561203:1034",
+                "amazon:8526502719"
+            ],
+            "title": "A hora da estrela",
+            "identifiers": {
+                "librarything": [
+                    "221304"
+                ],
+                "goodreads": [
+                    "148815"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/por"
+                }
+            ],
+            "local_id": [
+                "urn:sfpl:31223072428429"
+            ],
+            "publish_date": "1984",
+            "publish_country": "bl ",
+            "by_statement": "Clarice Lispector.",
+            "oclc_numbers": [
+                "26441538"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL1002120W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-02-18T05:25:40.579599"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-24T19:46:53.313937"
+            }
+        },
+        "/books/OL16790603M": {
+            "publishers": [
+                "Rocco"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "221304"
+                ],
+                "goodreads": [
+                    "3287508"
+                ]
+            },
+            "lc_classifications": [
+                "PQ9697.L585 H67 2006"
+            ],
+            "key": "/books/OL16790603M",
+            "authors": [
+                {
+                    "key": "/authors/OL93118A"
+                }
+            ],
+            "publish_places": [
+                "Rio de Janeiro, RJ"
+            ],
+            "contributions": [
+                "Rangel, Pedro Paulo."
+            ],
+            "languages": [
+                {
+                    "key": "/languages/por"
+                }
+            ],
+            "pagination": "107 p. ;",
+            "title": "A hora da estrela",
+            "lccn": [
+                "2007312279"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "CD-ROMs contain complete text narrated by Pedro Paulo Rangel."
+            },
+            "number_of_pages": 107,
+            "isbn_13": [
+                "9788532521279"
+            ],
+            "edition_name": "[2. ed.]",
+            "isbn_10": [
+                "8532521274"
+            ],
+            "publish_date": "2006",
+            "publish_country": "bl ",
+            "by_statement": "Clarice Lispector.",
+            "oclc_numbers": [
+                "225861961"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL1002120W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:marc_loc_2016/BooksAll.2016.part34.utf8:190749809:662"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-26T02:33:40.938063"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-24T19:46:53.313937"
+            }
+        },
+        "/books/OL2306073M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Translation of: A hora da estrela."
+            },
+            "identifiers": {
+                "librarything": [
+                    "221304"
+                ],
+                "goodreads": [
+                    "2235559"
+                ]
+            },
+            "title": "The hour of the star",
+            "authors": [
+                {
+                    "key": "/authors/OL93118A"
+                }
+            ],
+            "publish_date": "1986",
+            "publishers": [
+                "Carcanet"
+            ],
+            "lc_classifications": [
+                "PQ9697.L585 H6713 1986"
+            ],
+            "publish_places": [
+                "Manchester"
+            ],
+            "oclc_numbers": [
+                "16757364"
+            ],
+            "pagination": "96 p. ;",
+            "dewey_decimal_class": [
+                "869.3"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lccn": [
+                "86181789"
+            ],
+            "isbn_10": [
+                "0856356263"
+            ],
+            "publish_country": "enk",
+            "by_statement": "Clarice Lispector ; translated with an afterword by Giovanni Pontiero.",
+            "work_title": [
+                "Hora da estrela."
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:marc_records_scriblio_net/part19.dat:21611391:622"
+            ],
+            "key": "/books/OL2306073M",
+            "number_of_pages": 96,
+            "works": [
+                {
+                    "key": "/works/OL1002120W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-06T07:17:59.053030"
+            }
+        },
+        "/books/OL1550308M": {
+            "publishers": [
+                "New Directions Pub. Corp."
+            ],
+            "number_of_pages": 96,
+            "isbn_10": [
+                "0811211908"
+            ],
+            "series": [
+                "New Directions paperbook ;"
+            ],
+            "covers": [
+                598137
+            ],
+            "lc_classifications": [
+                "PQ9697.L585 H6713 1992",
+                "PQ9697.L585H6713"
+            ],
+            "key": "/books/OL1550308M",
+            "authors": [
+                {
+                    "key": "/authors/OL93118A"
+                }
+            ],
+            "ocaid": "hourofstar00lisp",
+            "publish_places": [
+                "New York"
+            ],
+            "subjects": [
+                "Rio de Janeiro (Brazil) -- Fiction."
+            ],
+            "pagination": "96 p. ;",
+            "source_records": [
+                "ia:hourofstar00lisp",
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run01.mrc:132812157:1412",
+                "marc:marc_loc_2016/BooksAll.2016.part21.utf8:17354460:883",
+                "bwb:9780811211901",
+                "marc:marc_columbia/Columbia-extract-20221130-004.mrc:244352735:1500",
+                "marc:harvard_bibliographic_metadata/ab.bib.02.20150123.full.mrc:729858306:808"
+            ],
+            "title": "The hour of the star",
+            "lccn": [
+                "91029995"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Translation of: A hora da estrela."
+            },
+            "identifiers": {
+                "goodreads": [
+                    "762390"
+                ],
+                "librarything": [
+                    "221304"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "dewey_decimal_class": [
+                "869.3"
+            ],
+            "local_id": [
+                "urn:sfpl:31223113912993"
+            ],
+            "publish_date": "1992",
+            "publish_country": "nyu",
+            "subject_place": [
+                "Rio de Janeiro (Brazil)"
+            ],
+            "by_statement": "Clarice Lispector ; translated with an afterword by Giovanni Pontiero.",
+            "work_title": [
+                "Hora da estrela."
+            ],
+            "works": [
+                {
+                    "key": "/works/OL1002120W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "oclc_numbers": [
+                "24246408"
+            ],
+            "latest_revision": 17,
+            "revision": 17,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-04-25T04:43:52.418465"
+            }
+        },
+        "/books/OL22334301M": {
+            "publishers": [
+                "Carcanet"
+            ],
+            "number_of_pages": 96,
+            "local_id": [
+                "urn:phillips:31867000784970"
+            ],
+            "lc_classifications": [
+                "PQ9697.L5/",
+                "PQ9697.L585 H6713 1986"
+            ],
+            "key": "/books/OL22334301M",
+            "authors": [
+                {
+                    "key": "/authors/OL93118A"
+                }
+            ],
+            "publish_places": [
+                "Manchester"
+            ],
+            "lccn": [
+                "86181789"
+            ],
+            "pagination": "96p. ;",
+            "source_records": [
+                "marc:marc_openlibraries_phillipsacademy/PANO_FOR_IA_05072019.mrc:5261549:882",
+                "marc:marc_loc_2016/BooksAll.2016.part17.utf8:136543125:623",
+                "bwb:9780856356261",
+                "amazon:0856356263",
+                "marc:harvard_bibliographic_metadata/ab.bib.00.20150123.full.mrc:366428275:737",
+                "marc:harvard_bibliographic_metadata/20220215_017.bib.mrc:173252133:1688"
+            ],
+            "title": "The hour of the star",
+            "work_titles": [
+                "A hora da estrela."
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Translated from the Portuguese, A hora da estrela."
+            },
+            "identifiers": {
+                "librarything": [
+                    "221304"
+                ],
+                "goodreads": [
+                    "2235559"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                },
+                {
+                    "key": "/languages/por"
+                }
+            ],
+            "dewey_decimal_class": [
+                "869.3"
+            ],
+            "isbn_10": [
+                "0856356263"
+            ],
+            "publish_date": "1986",
+            "publish_country": "xxk",
+            "by_statement": "Clarice Lispector ; translated with an afterword by Giovanni Pontiero.",
+            "oclc_numbers": [
+                "16757364",
+                "13009497"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL1002120W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "description": {
+                "type": "/type/text",
+                "value": "\"Macabea comes to Rio in search of a promising future for herself, but becomes trapped in the city's slums.\"--Amazon.com."
+            },
+            "latest_revision": 14,
+            "revision": 14,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-10T18:09:20.715332"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T20:11:04.408083"
+            }
+        },
+        "/books/OL20232831M": {
+            "title": "A hora da estrela.",
+            "authors": [
+                {
+                    "key": "/authors/OL93118A"
+                }
+            ],
+            "publish_date": "1978",
+            "publishers": [
+                "Livraria José Olympio."
+            ],
+            "languages": [
+                {
+                    "key": "/languages/por"
+                }
+            ],
+            "edition_name": "3a.ed.",
+            "publish_country": "bl ",
+            "publish_places": [
+                "Rio de Janeiro"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:3220515906:399"
+            ],
+            "key": "/books/OL20232831M",
+            "works": [
+                {
+                    "key": "/works/OL1002120W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-26T08:30:28.564056"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-23T21:48:53.672811"
+            }
+        },
+        "/books/OL17401380M": {
+            "title": "A hora da estrela",
+            "authors": [
+                {
+                    "key": "/authors/OL93118A"
+                }
+            ],
+            "publish_date": "1990",
+            "publishers": [
+                "Francisco Alves"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/por"
+                }
+            ],
+            "edition_name": "18 ed. [or imp.?].",
+            "isbn_10": [
+                "8526502093"
+            ],
+            "publish_country": "bl ",
+            "by_statement": "Clarice Lispector.",
+            "publish_places": [
+                "Rio de Janeiro"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:1511819441:460"
+            ],
+            "key": "/books/OL17401380M",
+            "works": [
+                {
+                    "key": "/works/OL1002120W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-28T17:05:41.284595"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-19T22:16:53.052925"
+            }
+        },
+        "/books/OL59049617M": {
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "title": "The War of the Worlds",
+            "publishers": [
+                "GoArchitect"
+            ],
+            "publish_date": "2025-03-01",
+            "key": "/books/OL59049617M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                15067137
+            ],
+            "isbn_13": [
+                "9781967200085"
+            ],
+            "isbn_10": [
+                "1967200084"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "physical_format": "Hardcover",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-05-12T21:19:05.270869"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-05-12T21:19:51.251002"
+            }
+        },
+        "/books/OL59049408M": {
+            "identifiers": {
+                "wikidata": [
+                    "Q116229052"
+                ]
+            },
+            "title": "The War of the Worlds",
+            "subtitle": "Great classic of science fiction",
+            "publish_date": "0000",
+            "publishers": [
+                "Independently published"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                15067008
+            ],
+            "isbn_13": [
+                "9798759795766"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "key": "/books/OL59049408M",
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-05-12T21:06:43.152804"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-06-02T16:21:18.713652"
+            }
+        },
+        "/books/OL59048947M": {
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "title": "The War of the Worlds",
+            "publishers": [
+                "East India Publishing Company"
+            ],
+            "publish_date": "2023-11-19",
+            "key": "/books/OL59048947M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                15066803
+            ],
+            "isbn_13": [
+                "9781774264614"
+            ],
+            "isbn_10": [
+                "1774264617"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "physical_format": "Hardcover",
+            "number_of_pages": 185,
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-05-12T20:39:08.092561"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-05-12T20:40:04.402426"
+            }
+        },
+        "/books/OL59048098M": {
+            "identifiers": {
+                "wikidata": [
+                    "Q116228176"
+                ]
+            },
+            "title": "The War of the Worlds",
+            "publish_date": "2019-09-11",
+            "publishers": [
+                "Independently published"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                15066363
+            ],
+            "isbn_13": [
+                "9781692574819"
+            ],
+            "isbn_10": [
+                "1692574817"
+            ],
+            "physical_dimensions": "25.4 x 17.8 x 1.4 centimeters",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL59048098M",
+            "number_of_pages": 209,
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-05-12T19:38:35.568046"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-06-02T16:12:18.501984"
+            }
+        },
+        "/books/OL59047971M": {
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "title": "The War of the Worlds",
+            "publishers": [
+                "Nielsen UK ISBN"
+            ],
+            "publish_date": "2024-09-01",
+            "key": "/books/OL59047971M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                15066289
+            ],
+            "isbn_13": [
+                "9781917067614"
+            ],
+            "isbn_10": [
+                "1917067615"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-05-12T19:20:15.799221"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-05-12T19:21:36.488145"
+            }
+        },
+        "/books/OL59047873M": {
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "title": "The War of the Worlds",
+            "publishers": [
+                "Waldman Publishing Corp"
+            ],
+            "publish_date": "2008-01-01",
+            "key": "/books/OL59047873M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                15066225
+            ],
+            "subtitle": "Great Illustrated Classics",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "physical_format": "Paperback",
+            "isbn_10": [
+                "1603400729"
+            ],
+            "isbn_13": [
+                "9781603400725"
+            ],
+            "physical_dimensions": "19.7 x 13.3 x 1.4 centimeters",
+            "number_of_pages": 240,
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-05-12T19:13:34.698975"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-05-12T19:17:05.080787"
+            }
+        },
+        "/books/OL45976200M": {
+            "identifiers": {
+                "wikidata": [
+                    "Q116203358"
+                ]
+            },
+            "title": "La Guerre des Mondes",
+            "authors": [
+                {
+                    "key": "/authors/OL13066A"
+                }
+            ],
+            "publish_date": "2001-01-01",
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:UM-726-767"
+            ],
+            "publishers": [
+                "Gallimard"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2020-11-24"
+            ],
+            "full_title": "La Guerre des Mondes",
+            "key": "/books/OL45976200M",
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "isbn_10": [
+                "2070332470"
+            ],
+            "isbn_13": [
+                "9782070332472"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-01-15T13:30:57.558053"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-04-24T18:44:58.787023"
+            }
+        },
+        "/books/OL48401141M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL13066A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "234",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798721348082"
+            ],
+            "title": "Guerre des Mondes",
+            "weight": "0.364 ",
+            "full_title": "Guerre des Mondes",
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "key": "/books/OL48401141M",
+            "identifiers": {},
+            "isbn_13": [
+                "9798721348082"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-17T20:17:37.342441"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-04-24T18:43:29.294980"
+            }
+        },
+        "/books/OL58013422M": {
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "title": "The War of the Worlds",
+            "publishers": [
+                "The Easton Press"
+            ],
+            "publish_date": "1964",
+            "key": "/books/OL58013422M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                14849050
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B00134FRWI"
+                ]
+            },
+            "publish_places": [
+                "Norwalk, Connecticut"
+            ],
+            "copyright_date": "1964",
+            "edition_name": "Collector's Edition",
+            "series": [
+                "The Masterpieces of Science Fiction"
+            ],
+            "contributors": [
+                {
+                    "role": "Illustrator",
+                    "name": "Joe Mugaini"
+                },
+                {
+                    "role": "Introduction",
+                    "name": "J. B. Priestly"
+                }
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-03-04T09:54:13.691926"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-03-04T09:58:39.493946"
+            }
+        },
+        "/books/OL47259342M": {
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "title": "Війна світів",
+            "publishers": [
+                "Фактор"
+            ],
+            "publish_date": "2004",
+            "key": "/books/OL47259342M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {
+                "nbuv": [
+                    "ВС43267"
+                ]
+            },
+            "notes": "This book in the Kharkiv CIty Library: https://publibnet.city.kharkov.ua/OpacUnicode/index.php?url=/notices/index/IdNotice:129393/Source:default",
+            "number_of_pages": 111,
+            "covers": [
+                13708724
+            ],
+            "series": [
+                "Волшебный фонарь"
+            ],
+            "isbn_10": [
+                "9663120452",
+                "9663122358",
+                "966-312-235-8"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-03-20T13:33:15.786667"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-22T05:36:30.052768"
+            }
+        },
+        "/books/OL27258109M": {
+            "identifiers": {
+                "amazon": [
+                    "3596950295"
+                ],
+                "wikidata": [
+                    "Q116194664"
+                ]
+            },
+            "title": "Der Krieg der Welten: Roman. Neu übersetzt von H.-U. Möhring",
+            "authors": [
+                {
+                    "key": "/authors/OL13066A"
+                }
+            ],
+            "publish_date": "Jan 26, 2017",
+            "publishers": [
+                "FISCHER Taschenbuch"
+            ],
+            "source_records": [
+                "amazon:3596950295"
+            ],
+            "isbn_13": [
+                "9783596950294"
+            ],
+            "covers": [
+                8750386
+            ],
+            "physical_format": "hardcover",
+            "isbn_10": [
+                "3596950295"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "key": "/books/OL27258109M",
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-08-05T17:50:52.759170"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-29T18:44:06.012322"
+            }
+        },
+        "/books/OL35268255M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: La Guerra De Los Mundos (Spanish Edition)"
+            },
+            "identifiers": {
+                "wikidata": [
+                    "Q116233075"
+                ]
+            },
+            "title": "La Guerra De Los Mundos",
+            "authors": [
+                {
+                    "key": "/authors/OL9260450A"
+                },
+                {
+                    "key": "/authors/OL13066A"
+                }
+            ],
+            "publish_date": "Jan 11, 2016",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:1523364564",
+                "bwb:9781523364565"
+            ],
+            "publishers": [
+                "Edibook"
+            ],
+            "isbn_10": [
+                "1523364564"
+            ],
+            "isbn_13": [
+                "9781523364565"
+            ],
+            "physical_format": "paperback",
+            "full_title": "La Guerra De Los Mundos",
+            "covers": [
+                12082194
+            ],
+            "key": "/books/OL35268255M",
+            "number_of_pages": 238,
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-13T16:54:08.820928"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-02-06T21:48:52.228240"
+            }
+        },
+        "/books/OL34198756M": {
+            "identifiers": {
+                "wikidata": [
+                    "Q116202678"
+                ]
+            },
+            "title": "Guerra de Los Mundos",
+            "subtitle": "La Novela Clásica de Ciencia Ficción Que Cambio la Historia",
+            "authors": [
+                {
+                    "key": "/authors/OL9634975A"
+                },
+                {
+                    "key": "/authors/OL13066A"
+                }
+            ],
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798594680111"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798594680111"
+            ],
+            "weight": "0.195",
+            "full_title": "Guerra de Los Mundos La Novela Clásica de Ciencia Ficción Que Cambio la Historia",
+            "key": "/books/OL34198756M",
+            "number_of_pages": 130,
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-09-30T23:22:52.734745"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-29T21:06:55.380221"
+            }
+        },
+        "/books/OL34165613M": {
+            "identifiers": {
+                "wikidata": [
+                    "Q116228553"
+                ]
+            },
+            "title": "Guerra Dei Mondi",
+            "authors": [
+                {
+                    "key": "/authors/OL9627032A"
+                },
+                {
+                    "key": "/authors/OL13066A"
+                }
+            ],
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798589404036"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/ita"
+                }
+            ],
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798589404036"
+            ],
+            "weight": "0.273",
+            "full_title": "Guerra Dei Mondi",
+            "key": "/books/OL34165613M",
+            "number_of_pages": 194,
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "contributors": [
+                {
+                    "role": "Translator",
+                    "name": "Matias Alonso"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-09-30T17:51:04.868822"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-20T02:59:53.209185"
+            }
+        },
+        "/books/OL26801125M": {
+            "identifiers": {
+                "wikidata": [
+                    "Q116194215"
+                ]
+            },
+            "title": "Guerre Des Mondes (Folio) (French Edition)",
+            "authors": [
+                {
+                    "key": "/authors/OL13066A"
+                }
+            ],
+            "publish_date": "Jun 01, 2005",
+            "publishers": [
+                "Gallimard Education"
+            ],
+            "source_records": [
+                "amazon:2070308553"
+            ],
+            "covers": [
+                8457111
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_10": [
+                "2070308553"
+            ],
+            "isbn_13": [
+                "9782070308552"
+            ],
+            "translated_from": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "translation_of": "The War of the Worlds",
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "key": "/books/OL26801125M",
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-03-21T18:05:33.953607"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-29T17:36:27.388953"
+            }
+        },
+        "/books/OL34245007M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL9644276A"
+                },
+                {
+                    "key": "/authors/OL13066A"
+                }
+            ],
+            "isbn_13": [
+                "9798744208455"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/ger"
+                }
+            ],
+            "number_of_pages": 206,
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798744208455"
+            ],
+            "title": "Krieg der Welten",
+            "weight": "0.286",
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "key": "/books/OL34245007M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-01T14:05:15.428477"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-04-08T14:56:08.388886"
+            }
+        },
+        "/books/OL33009762M": {
+            "description": {
+                "type": "/type/text",
+                "value": "La guerra de los mundos, publicada por primera vez en 1898, narra por primera vez en la historia de la literatura un tema que será recurrente desde entonces y originará todo un subgénero dentro de la ciencia ficción: la invasión hostil de la Tierra por extraterrestres procedentes de Marte, recibidos por una humanidad ingenua que tendrá que organizarse para impedir una destrucción masiva del planeta. A través de esta fábula en la que las descripciones científicas, las premoniciones sobre el futuro de la tecnología y los entresijos de la política ocupan un lugar central, H.G. Wells nos habla sobre la vanidad y la seguridad ficticia de una humanidad autosatifecha, y los peligros que acechan su supervivencia.\n\nWhen a Martian spacecraft lands on Woking Common, mankind is terrorized by aliens in tall, armored capsules which stalk the countryside on three legs. The machines wreak havoc on London and the Southern Counties, and survivors are driven underground. Scientist John Nicholson tells how he was plunged into a paralyzing nightmare of stark terror, savage madness and utter destruction."
+            },
+            "identifiers": {
+                "wikidata": [
+                    "Q116228234"
+                ]
+            },
+            "title": "La guerra de los mundos",
+            "authors": [
+                {
+                    "key": "/authors/OL13066A"
+                }
+            ],
+            "publish_date": "2012",
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_country": "mx",
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "oclc_numbers": [
+                "870865768"
+            ],
+            "work_titles": [
+                "War of the worlds"
+            ],
+            "edition_name": "1a. ed.",
+            "contributions": [
+                "Velázquez, Guadalupe, translator"
+            ],
+            "subjects": [
+                "Imaginary wars and battles",
+                "Fiction",
+                "Space warfare"
+            ],
+            "subject_places": [
+                "Mars (Planet)"
+            ],
+            "by_statement": "H.G. Wells ; traducción de Julio Vacareza",
+            "publishers": [
+                "Ediciones MAAN S.A. de C.V."
+            ],
+            "publish_places": [
+                "San Juan, Mexico D.F"
+            ],
+            "isbn_13": [
+                "9786077200253"
+            ],
+            "isbn_10": [
+                "6077200255"
+            ],
+            "pagination": "126 pages",
+            "ocaid": "laguerradelosmun0000well",
+            "source_records": [
+                "ia:laguerradelosmun0000well",
+                "promise:bwb_daily_pallets_2021-01-26"
+            ],
+            "full_title": "La guerra de los mundos",
+            "covers": [
+                11663590
+            ],
+            "local_id": [
+                "urn:bwbsku:O5-FYH-876"
+            ],
+            "key": "/books/OL33009762M",
+            "number_of_pages": 126,
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-08-16T23:31:40.928064"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-03-03T18:42:27.684979"
+            }
+        },
+        "/books/OL32114225M": {
+            "description": {
+                "type": "/type/text",
+                "value": "Ce roman fut le premier à décrire des Extraterrestres à l'identité propre, intelligents et totalement inhumains. Si les Martiens sont d'abord présentés comme des êtres faibles, ils ne tarderont pas à dévoiler leur puissance, qui n'aura d'égale que leur cruauté. Le narrateur, sorte de correspondant de guerre de l'invasion extraterrestre, raconte le désarroi et la lutte désespérée des hommes."
+            },
+            "identifiers": {
+                "wikidata": [
+                    "Q116195207"
+                ]
+            },
+            "title": "La guerre des mondes",
+            "authors": [
+                {
+                    "key": "/authors/OL13066A"
+                }
+            ],
+            "publish_date": "2005",
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_country": "fr",
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "oclc_numbers": [
+                "419988844"
+            ],
+            "dewey_decimal_class": [
+                "823.912"
+            ],
+            "links": [
+                {
+                    "url": "http://catalogue.bnf.fr/ark:/12148/cb39985862s",
+                    "title": "Notice et cote du catalogue de la Bibliothèque nationale de France"
+                }
+            ],
+            "contributions": [
+                "Davray, Henry D., 1873-1944"
+            ],
+            "subjects": [
+                "Science fiction"
+            ],
+            "by_statement": "H.G. Wells ; trad. de l'anglais par Henry D. Davray",
+            "publishers": [
+                "Mercure de France"
+            ],
+            "publish_places": [
+                "Paris"
+            ],
+            "isbn_10": [
+                "2715225733"
+            ],
+            "isbn_13": [
+                "9782715225732"
+            ],
+            "pagination": "270 pages",
+            "ocaid": "laguerredesmonde0000well",
+            "source_records": [
+                "ia:laguerredesmonde0000well",
+                "amazon:2715225733"
+            ],
+            "full_title": "La guerre des mondes",
+            "covers": [
+                10774345
+            ],
+            "key": "/books/OL32114225M",
+            "number_of_pages": 270,
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-03-27T07:39:55.250920"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-29T18:27:25.983374"
+            }
+        },
+        "/books/OL30231616M": {
+            "identifiers": {
+                "wikidata": [
+                    "Q116199246"
+                ]
+            },
+            "title": "Guerra de Los Mundos",
+            "authors": [
+                {
+                    "key": "/authors/OL13066A"
+                }
+            ],
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798653635168"
+            ],
+            "isbn_13": [
+                "9798653635168"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "full_title": "Guerra de Los Mundos",
+            "lc_classifications": [
+                ""
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "key": "/books/OL30231616M",
+            "number_of_pages": 146,
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-16T23:41:53.488424"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-29T20:39:25.499114"
+            }
+        },
+        "/books/OL32547880M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: LA GUERRE DES MONDES (INACTIF- 1000 SOLEILS)"
+            },
+            "identifiers": {
+                "wikidata": [
+                    "Q116195090"
+                ]
+            },
+            "title": "LA GUERRE DES MONDES",
+            "authors": [
+                {
+                    "key": "/authors/OL13066A"
+                }
+            ],
+            "publish_date": "Jun 08, 1973",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:2070500179"
+            ],
+            "publishers": [
+                "GALLIMARD JEUNE"
+            ],
+            "isbn_10": [
+                "2070500179"
+            ],
+            "isbn_13": [
+                "9782070500178"
+            ],
+            "physical_format": "hardcover",
+            "full_title": "LA GUERRE DES MONDES",
+            "covers": [
+                11195402
+            ],
+            "key": "/books/OL32547880M",
+            "number_of_pages": 256,
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-05-31T10:17:22.234058"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-29T19:11:44.834071"
+            }
+        },
+        "/books/OL32205197M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Dünyalar Savasi",
+            "authors": [
+                {
+                    "key": "/authors/OL13066A"
+                }
+            ],
+            "publish_date": "Apr 13, 2020",
+            "source_records": [
+                "amazon:6052498072"
+            ],
+            "number_of_pages": 224,
+            "publishers": [
+                "Dorlion Yayinevi"
+            ],
+            "isbn_10": [
+                "6052498072"
+            ],
+            "isbn_13": [
+                "9786052498071"
+            ],
+            "physical_format": "paperback",
+            "covers": [
+                10854284
+            ],
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "key": "/books/OL32205197M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-04-13T11:28:13.532247"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-04-08T14:56:08.388886"
+            }
+        },
+        "/books/OL32857572M": {
+            "identifiers": {
+                "wikidata": [
+                    "Q116227953"
+                ]
+            },
+            "title": "The War of the Worlds Books 1 and 2",
+            "authors": [
+                {
+                    "key": "/authors/OL13066A"
+                }
+            ],
+            "publish_date": "Oct 14, 2016",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:1539515087"
+            ],
+            "publishers": [
+                "Createspace Independent Publishing Platform",
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "isbn_10": [
+                "1539515087"
+            ],
+            "isbn_13": [
+                "9781539515081"
+            ],
+            "physical_format": "paperback",
+            "covers": [
+                11489914
+            ],
+            "key": "/books/OL32857572M",
+            "number_of_pages": 230,
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-07-23T23:20:43.545079"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-03-03T18:18:15.990786"
+            }
+        },
+        "/books/OL35064001M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL13066A"
+                }
+            ],
+            "isbn_13": [
+                "9798536210307"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798536210307"
+            ],
+            "title": "War of the Worlds a Classic Illustrated Edition",
+            "weight": "0.332",
+            "pagination": "182",
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "key": "/books/OL35064001M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-10T05:25:57.138380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T21:01:29.667516"
+            }
+        },
+        "/books/OL35048141M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL13066A"
+                }
+            ],
+            "isbn_13": [
+                "9798535317786"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798535317786"
+            ],
+            "title": "War of the Worlds Illustrated and Annotated",
+            "weight": "0.341",
+            "pagination": "217",
+            "full_title": "War of the Worlds Illustrated and Annotated",
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "key": "/books/OL35048141M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-10T03:08:35.418629"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T21:05:06.504659"
+            }
+        },
+        "/books/OL4316286M": {
+            "publishers": [
+                "Livraria J. Olympio Editora"
+            ],
+            "number_of_pages": 104,
+            "lc_classifications": [
+                "PQ9697.L585 A63"
+            ],
+            "key": "/books/OL4316286M",
+            "authors": [
+                {
+                    "key": "/authors/OL93118A"
+                }
+            ],
+            "publish_places": [
+                "Rio de Janeiro"
+            ],
+            "pagination": "104 p. ;",
+            "source_records": [
+                "marc:marc_loc_2016/BooksAll.2016.part11.utf8:126204108:431",
+                "marc:harvard_bibliographic_metadata/ab.bib.00.20150123.full.mrc:667538561:479"
+            ],
+            "title": "A hora da estrela",
+            "lccn": [
+                "78356287"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "221304"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/por"
+                }
+            ],
+            "publish_date": "1977",
+            "publish_country": "bl ",
+            "by_statement": "Clarice Lispector.",
+            "works": [
+                {
+                    "key": "/works/OL1002120W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "oclc_numbers": [
+                "4464583"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-12-13T08:19:46.387290"
+            }
+        },
+        "/books/OL9157274M": {
+            "identifiers": {
+                "google": [
+                    "zhO3AAAAIAAJ"
+                ],
+                "librarything": [
+                    "221304"
+                ],
+                "goodreads": [
+                    "148815"
+                ]
+            },
+            "title": "A hora da estrela",
+            "publish_date": "1995",
+            "publishers": [
+                "Francisco Alves"
+            ],
+            "weight": "45.4 grams",
+            "covers": [
+                4919370
+            ],
+            "physical_format": "Paperback",
+            "publish_places": [
+                "Rio de Janeiro, RJ, Brazil"
+            ],
+            "isbn_13": [
+                "9788526502710"
+            ],
+            "pagination": "106p.",
+            "classifications": {
+                "udc": [
+                    "821.134.3(81)\"19\"-31=134.3"
+                ]
+            },
+            "dewey_decimal_class": [
+                "869"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/por"
+                }
+            ],
+            "isbn_10": [
+                "8526502719"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "20.8 x 13.7 x 0.8 centimeters",
+            "source_records": [
+                "amazon:8526502719"
+            ],
+            "key": "/books/OL9157274M",
+            "number_of_pages": 106,
+            "works": [
+                {
+                    "key": "/works/OL1002120W"
+                }
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-27T18:53:09.649152"
+            }
+        },
+        "/books/OL15083909M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Originally published, Manchester , Carcanet, 1986.\n\nTranslation of, A hora da estrela."
+            },
+            "identifiers": {
+                "goodreads": [
+                    "3894526"
+                ],
+                "librarything": [
+                    "221304"
+                ]
+            },
+            "title": "The hour of the star",
+            "authors": [
+                {
+                    "key": "/authors/OL93118A"
+                }
+            ],
+            "publish_date": "1987",
+            "publishers": [
+                "Paladin"
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "96p. ;",
+            "work_titles": [
+                "A hora da estrela."
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "dewey_decimal_class": [
+                "869.3"
+            ],
+            "isbn_10": [
+                "0586086927"
+            ],
+            "publish_country": "xxk",
+            "by_statement": "Clarice Lispector ; translated with an afterword by Giovanni Pontiero.",
+            "oclc_numbers": [
+                "16868036"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:637847462:822"
+            ],
+            "key": "/books/OL15083909M",
+            "number_of_pages": 96,
+            "works": [
+                {
+                    "key": "/works/OL1002120W"
+                }
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-17T22:30:44.508484"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-14T07:48:30.170325"
+            }
+        },
+        "/books/OL18511023M": {
+            "publishers": [
+                "Rocco"
+            ],
+            "number_of_pages": 87,
+            "isbn_10": [
+                "853250812X"
+            ],
+            "covers": [
+                5423794
+            ],
+            "key": "/books/OL18511023M",
+            "authors": [
+                {
+                    "key": "/authors/OL93118A"
+                }
+            ],
+            "publish_places": [
+                "Rio de Janeiro"
+            ],
+            "pagination": "87 p.",
+            "classifications": {},
+            "source_records": [
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run04.mrc:48264843:1331",
+                "amazon:853250812X",
+                "marc:marc_columbia/Columbia-extract-20221130-012.mrc:240703685:726"
+            ],
+            "title": "A hora da estrela.",
+            "identifiers": {
+                "librarything": [
+                    "221304"
+                ],
+                "goodreads": [
+                    "148812"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/por"
+                }
+            ],
+            "local_id": [
+                "urn:sfpl:31223093450741"
+            ],
+            "publish_date": "1998",
+            "publish_country": "bl ",
+            "works": [
+                {
+                    "key": "/works/OL1002120W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "lc_classifications": [
+                "PQ9697.L585 H67 1998"
+            ],
+            "oclc_numbers": [
+                "45671527"
+            ],
+            "latest_revision": 12,
+            "revision": 12,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-17T08:33:30.614863"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-24T19:46:53.313937"
+            }
+        },
+        "/books/OL14423556M": {
+            "title": "A hora da estrela",
+            "authors": [
+                {
+                    "key": "/authors/OL93118A"
+                }
+            ],
+            "publish_date": "1987",
+            "publishers": [
+                "Nova Fronteira"
+            ],
+            "pagination": "98 p. ;",
+            "edition_name": "12a. ed",
+            "languages": [
+                {
+                    "key": "/languages/por"
+                }
+            ],
+            "publish_country": "bl ",
+            "by_statement": "Clarice Lispector",
+            "publish_places": [
+                "Rio de Janeiro"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:marc_miami_univ_ohio/allbibs0007.out:5188774:623"
+            ],
+            "key": "/books/OL14423556M",
+            "number_of_pages": 98,
+            "works": [
+                {
+                    "key": "/works/OL1002120W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-12T14:12:35.621246"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-14T00:52:24.241268"
+            }
+        },
+        "/books/OL28519179M": {
+            "publishers": [
+                "Penguin Books, Limited"
+            ],
+            "source_records": [
+                "bwb:9780141392035"
+            ],
+            "title": "Hour of the Star",
+            "number_of_pages": 96,
+            "isbn_13": [
+                "9780141392035"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Hour of the Star",
+            "lc_classifications": [
+                "PQ9697.L585"
+            ],
+            "publish_date": "2014",
+            "key": "/books/OL28519179M",
+            "authors": [
+                {
+                    "key": "/authors/OL93118A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL1002120W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, general",
+                "Rio de janeiro (brazil), fiction"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-03T17:11:27.482605"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-24T19:46:53.313937"
+            }
+        },
+        "/books/OL35664748M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: A Hora da Estrela Edicao Especial (Em Portugues do Brasil)"
+            },
+            "title": "A Hora da Estrela",
+            "authors": [
+                {
+                    "key": "/authors/OL2965820A"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:8532530664"
+            ],
+            "publishers": [
+                "Rocco"
+            ],
+            "physical_format": "hardcover",
+            "covers": [
+                12370356
+            ],
+            "isbn_10": [
+                "8532530664"
+            ],
+            "isbn_13": [
+                "9788532530660"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/por"
+                }
+            ],
+            "edition_name": "Edicao Especial",
+            "key": "/books/OL35664748M",
+            "works": [
+                {
+                    "key": "/works/OL1002120W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-14T00:08:19.260799"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-13T07:56:15.103125"
+            }
+        },
+        "/books/OL35693081M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "A Hora da Estrela",
+            "authors": [
+                {
+                    "key": "/authors/OL93118A"
+                }
+            ],
+            "publish_date": "03/12/2019",
+            "source_records": [
+                "amazon:6555320354"
+            ],
+            "publishers": [
+                "Rocco"
+            ],
+            "physical_format": "Capa comum",
+            "notes": "Source title: A Hora da Estrela - Edicao Comemorativa (Em Portugues do Brasil)",
+            "covers": [
+                13348102,
+                12390932
+            ],
+            "works": [
+                {
+                    "key": "/works/OL1002120W"
+                }
+            ],
+            "key": "/books/OL35693081M",
+            "identifiers": {
+                "amazon": [
+                    "6555320354"
+                ]
+            },
+            "classifications": {
+                "udc": [
+                    "82-31(81)"
+                ]
+            },
+            "edition_name": "Edição Comemorativa",
+            "languages": [
+                {
+                    "key": "/languages/por"
+                }
+            ],
+            "isbn_10": [
+                "6555320354"
+            ],
+            "isbn_13": [
+                "9786555320350"
+            ],
+            "dewey_decimal_class": [
+                "869.3"
+            ],
+            "physical_dimensions": "21 x 14 x 2 centimeters",
+            "weight": "126 grams",
+            "pagination": "88p",
+            "contributors": [
+                {
+                    "name": "Victor Burton",
+                    "role": "Designer"
+                },
+                {
+                    "name": "Anderson Junqueira",
+                    "role": "Designer"
+                },
+                {
+                    "name": "Clarice Lispector",
+                    "role": "Cover Art"
+                }
+            ],
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "Tudo no mundo começou com um sim."
+            },
+            "description": {
+                "type": "/type/text",
+                "value": "Último livro escrito por Clarice Lispector, A hora da estrela é também uma despedida. Lançada pouco antes de sua morte, em 1977, a obra conta os momentos de criação do escritor Rodrigo S. M. (a própria Clarice) narrando a história de Macabéa, uma alagoana órfã, virgem e solitária, criada por uma tia tirana, que a leva para o Rio de Janeiro, onde trabalha como datilógrafa.\r\n\r\nEm A hora da estrela, Clarice escreve sabendo que a morte está próxima e põe um pouco de si nas personagens Rodrigo e Macabéa.\r\n\r\nEle, um escritor à espera da morte, ela, uma solitária que gosta de ouvir a Rádio Relógio e que passou a infância no Nordeste, como Clarice. Na Dedicatória do Autor, um pequeno texto que introduz a história propriamente dita, a autora dedica a obra e ela própria à música de Schumann, Beethoven, Bach, Chopin, Stravinsky, Richard Strauss, Debussy, Marlos Nobre, Prokofiev, Carl Orff, Schönberg e outros \"que em mim atingiram zonas assustadoramente inesperadas\". \r\n\r\nMacabéa, a nordestina, cumpre seu destino sem reclamar. Feia, magra, sem entender muito bem o que se passa à sua volta, é maltratada pelo namorado Olímpico e pela colega Glória. Os dois são o seu oposto: o metalúrgico Olímpico sonha alto e quer ser deputado, e Glória, carioca da gema e gorda, tem família e hora certa para comer. Os dois acabam juntos, enquanto Macabéa, sozinha, continua a viver sem saber por que está vivendo, sem pensar no futuro nem sonhar com uma vida melhor. Até que um dia, seguindo uma recomendação de Glória, procura a cartomante Carlota. \r\n\r\nNova edição, agora com projeto gráfico de Victor Burton e capa criada a partir de pinturas da própria Clarice. Esta edição traz posfácio de Paulo Gurgel Valente."
+            },
+            "publish_places": [
+                "Rio de Janeiro, Brasil"
+            ],
+            "copyright_date": "2019",
+            "number_of_pages": 88,
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-12-03T12:11:14.764344"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-24T19:46:53.313937"
+            }
+        },
+        "/books/OL9141911M": {
+            "identifiers": {
+                "goodreads": [
+                    "715992"
+                ],
+                "librarything": [
+                    "221304"
+                ]
+            },
+            "title": "La Hora de La Estrella",
+            "authors": [
+                {
+                    "key": "/authors/OL93118A"
+                }
+            ],
+            "publish_date": "November 1992",
+            "publishers": [
+                "Siruela"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "isbn_13": [
+                "9788478440092"
+            ],
+            "physical_format": "Paperback",
+            "isbn_10": [
+                "8478440097"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "General",
+                "Fiction - General"
+            ],
+            "source_records": [
+                "amazon:8478440097"
+            ],
+            "key": "/books/OL9141911M",
+            "works": [
+                {
+                    "key": "/works/OL1002120W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-05-13T10:26:59.047515"
+            }
+        },
+        "/books/OL59049535M": {
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "title": "The War of the Worlds",
+            "publishers": [
+                "Dover Publications"
+            ],
+            "publish_date": "1997-01-10",
+            "key": "/books/OL59049535M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                15067078
+            ],
+            "isbn_13": [
+                "9780486295060"
+            ],
+            "isbn_10": [
+                "0486295060"
+            ],
+            "physical_dimensions": "21.6 x 13.3 x 1.3 centimeters",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "physical_format": "Paperback",
+            "number_of_pages": 145,
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-05-12T21:11:16.698154"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-05-12T21:13:08.328226"
+            }
+        },
+        "/books/OL59049493M": {
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "title": "The War of the Worlds",
+            "publishers": [
+                "Independently published"
+            ],
+            "publish_date": "2024-02-26",
+            "key": "/books/OL59049493M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                15067057
+            ],
+            "isbn_13": [
+                "9798882791253"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "physical_format": "Paperback",
+            "number_of_pages": 120,
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-05-12T21:08:47.318303"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-05-12T21:09:40.736777"
+            }
+        },
+        "/books/OL59049289M": {
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "title": "The War of the Worlds",
+            "publishers": [
+                "Independently published"
+            ],
+            "key": "/books/OL59049289M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "subtitle": "Classics for Today",
+            "covers": [
+                15066842
+            ],
+            "isbn_13": [
+                "9798306555881"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-05-12T21:02:30.888115"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-05-12T21:04:34.417671"
+            }
+        },
+        "/books/OL59049253M": {
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "title": "The War of the Worlds",
+            "publishers": [
+                "Independently published"
+            ],
+            "publish_date": "2022-07-01",
+            "key": "/books/OL59049253M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                15066830
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "physical_format": "Paperback",
+            "number_of_pages": 183,
+            "isbn_13": [
+                "9798839144736"
+            ],
+            "contributors": [
+                {
+                    "role": "Additional Author (this edition)",
+                    "name": "Miller, Aaron"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-05-12T21:00:11.498540"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-05-12T21:01:39.548705"
+            }
+        },
+        "/books/OL59049232M": {
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "title": "The War Of The Worlds",
+            "publishers": [
+                "Independently published"
+            ],
+            "publish_date": "0000",
+            "key": "/books/OL59049232M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_13": [
+                "9798306624631"
+            ],
+            "subtitle": "Collector Series Edition with Intro by D. Hollis Anderson",
+            "contributors": [
+                {
+                    "role": "Introduction",
+                    "name": "D. Hollis Anderson"
+                }
+            ],
+            "by_statement": "with Intro by D. Hollis Anderson",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "covers": [
+                15066829
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-05-12T20:57:36.726034"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-05-12T20:59:23.519110"
+            }
+        },
+        "/books/OL59049152M": {
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "title": "The War of the Worlds",
+            "publishers": [
+                "Independently published"
+            ],
+            "publish_date": "2024-08-19",
+            "key": "/books/OL59049152M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                15066825
+            ],
+            "isbn_13": [
+                "9798336342536"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "THE WAR OF THE WORLDS: From H.G. Wells to the Modern Era: An Illustrated Classic for the Social Media Generation. For Teenagers to Adults."
+            },
+            "physical_format": "Hardcover",
+            "number_of_pages": 241,
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-05-12T20:50:43.748797"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-05-12T20:51:33.315690"
+            }
+        },
+        "/books/OL59049114M": {
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "title": "The War of the Worlds",
+            "publishers": [
+                "New West Press"
+            ],
+            "publish_date": "2022-12-10",
+            "key": "/books/OL59049114M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                15066823
+            ],
+            "isbn_13": [
+                "9781649651587"
+            ],
+            "isbn_10": [
+                "1649651589"
+            ],
+            "physical_format": "Paperback",
+            "number_of_pages": 250,
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-05-12T20:48:04.907252"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-05-12T20:48:54.909394"
+            }
+        },
+        "/books/OL59048868M": {
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "title": "The War of the Worlds",
+            "publishers": [
+                "Micheal Smith"
+            ],
+            "publish_date": "2024-08-15",
+            "key": "/books/OL59048868M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                15066758
+            ],
+            "isbn_13": [
+                "9783611033810"
+            ],
+            "isbn_10": [
+                "3611033812"
+            ],
+            "physical_dimensions": "21.6 x 14 x 1.4 centimeters",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "physical_format": "Paperback",
+            "number_of_pages": 254,
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-05-12T20:35:10.945534"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-05-12T20:37:00.656830"
+            }
+        },
+        "/books/OL59048283M": {
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "title": "The War of The Worlds: Now with Stunning and Immersive Illustrations",
+            "publishers": [
+                "Independently published"
+            ],
+            "publish_date": "2025-04-03",
+            "key": "/books/OL59048283M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {
+                "amazon": [
+                    "B0F3JXW33R"
+                ]
+            },
+            "covers": [
+                15066499,
+                15066484
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 225,
+            "physical_format": "Kindle Edition",
+            "isbn_13": [
+                "9798316632787"
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "When strange metallic cylinders crash into the English countryside, they bring more than curiosity—they bring annihilation. Towering Martian war machines rise from the impact sites, unleashing heat-rays and poisonous black smoke, reducing entire cities to ashes. As civilization crumbles, one man embarks on a desperate journey through the ruins, witnessing the horror of humanity’s downfall and the desperate struggle for survival."
+            },
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-05-12T19:56:27.046276"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-05-12T19:59:39.946959"
+            }
+        },
+        "/books/OL32597110M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "The War of the Worlds Collection",
+            "authors": [
+                {
+                    "key": "/authors/OL13066A"
+                },
+                {
+                    "key": "/authors/OL8116861A"
+                },
+                {
+                    "key": "/authors/OL9262953A"
+                }
+            ],
+            "publish_date": "Jan 01, 2017",
+            "source_records": [
+                "amazon:1907954473"
+            ],
+            "number_of_pages": 462,
+            "publishers": [
+                "Wild Wolf Publishing"
+            ],
+            "physical_format": "hardcover",
+            "covers": [
+                11235376
+            ],
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "key": "/books/OL32597110M",
+            "identifiers": {},
+            "notes": "H. G. Wells & [Tony Wright](https://openlibrary.org/authors/OL8116861A/Tony_Wright) & [Bayne MacGregor](https://openlibrary.org/authors/OL9262953A/Bayne_MacGregor)",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "1907954473"
+            ],
+            "isbn_13": [
+                "9781907954474"
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-06-08T21:38:59.146334"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-05-12T19:52:38.505199"
+            }
+        },
+        "/books/OL59048195M": {
+            "identifiers": {
+                "wikidata": [
+                    "Q116228794"
+                ]
+            },
+            "title": "The War of the Worlds",
+            "publish_date": "2016-10-22",
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                15066448
+            ],
+            "isbn_13": [
+                "9781539680727"
+            ],
+            "isbn_10": [
+                "153968072X"
+            ],
+            "physical_dimensions": "25.4 x 17.8 x 0.7 centimeters",
+            "physical_format": "Paperback",
+            "key": "/books/OL59048195M",
+            "number_of_pages": 116,
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-05-12T19:43:50.790437"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-06-02T16:16:18.376908"
+            }
+        },
+        "/books/OL59048045M": {
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "title": "The War of the Worlds",
+            "publishers": [
+                "Independently published"
+            ],
+            "publish_date": "2022-10-25",
+            "key": "/books/OL59048045M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "contributors": [
+                {
+                    "role": "Illustrator",
+                    "name": "Henrique Alvin Correa"
+                }
+            ],
+            "by_statement": "with the original illustrations by Henrique Alvin Correa",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "covers": [
+                15066339
+            ],
+            "isbn_13": [
+                "9798360272588"
+            ],
+            "physical_format": "Hardcover",
+            "number_of_pages": 230,
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-05-12T19:30:41.209110"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-05-12T19:35:39.316029"
+            }
+        },
+        "/books/OL58554696M": {
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "title": "The War of the Worlds",
+            "publishers": [
+                "Independently published"
+            ],
+            "publish_date": "2023-12-02",
+            "key": "/books/OL58554696M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                14868464
+            ],
+            "isbn_13": [
+                "9798870587226"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "physical_format": "Paperback",
+            "number_of_pages": 254,
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-04-24T18:55:25.293642"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-04-24T18:56:30.157769"
+            }
+        },
+        "/books/OL46979175M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL13066A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B002T8GP1E"
+                ],
+                "better_world_books": [
+                    "BWB26538804"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:308-ABA-311"
+            ],
+            "publish_date": "1962-01-01",
+            "publishers": [
+                "Mercvre de France"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-08-30:308-ABA-311"
+            ],
+            "title": "La guerre des mondes",
+            "full_title": "La guerre des mondes",
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "key": "/books/OL46979175M",
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T05:17:24.537890"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-04-24T18:45:45.760995"
+            }
+        },
+        "/books/OL48518581M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL9644276A"
+                },
+                {
+                    "key": "/authors/OL13066A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "201",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798744239329"
+            ],
+            "title": "Guerre des Mondes",
+            "weight": "0.282 ",
+            "full_title": "Guerre des Mondes",
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "key": "/books/OL48518581M",
+            "identifiers": {},
+            "isbn_13": [
+                "9798744239329"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-18T02:43:57.513877"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-04-24T18:42:40.305290"
+            }
+        },
+        "/books/OL55932335M": {
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "title": "La Guerra dei Mondi",
+            "publishers": [
+                "Feltrinelli"
+            ],
+            "publish_date": "2023",
+            "key": "/books/OL55932335M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                14821280
+            ],
+            "isbn_13": [
+                "9788807904301"
+            ],
+            "classifications": {},
+            "series": [
+                "Universale Economica"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/ita"
+                }
+            ],
+            "translation_of": "The war of the worlds",
+            "physical_format": "Brossura",
+            "number_of_pages": 288,
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-09-30T08:00:59.077360"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-09-30T08:03:02.427093"
+            }
+        },
+        "/books/OL52153465M": {
+            "identifiers": {
+                "wikidata": [
+                    "Q116194778"
+                ]
+            },
+            "title": "La guerra de los mundos",
+            "publish_date": "mar 2019",
+            "publishers": [
+                "Del Fondo"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                14637980
+            ],
+            "physical_dimensions": "21 x 14 x  centimeters",
+            "table_of_contents": [
+                {
+                    "level": 1,
+                    "label": "Libro primero",
+                    "title": "La llegada de los marcianos",
+                    "pagenum": "9"
+                },
+                {
+                    "level": 2,
+                    "label": "1",
+                    "title": "La víspera de la guerra",
+                    "pagenum": "11"
+                },
+                {
+                    "level": 2,
+                    "label": "2",
+                    "title": "La estrella fugaz",
+                    "pagenum": "19"
+                },
+                {
+                    "level": 2,
+                    "label": "3",
+                    "title": "En el campo comunal de horsell",
+                    "pagenum": "25"
+                },
+                {
+                    "level": 2,
+                    "label": "4",
+                    "title": "Se abre el cilindro",
+                    "pagenum": "29"
+                },
+                {
+                    "level": 2,
+                    "label": "5",
+                    "title": "El rayo calórico",
+                    "pagenum": "33"
+                },
+                {
+                    "level": 2,
+                    "label": "6",
+                    "title": "El rayo calórico en el camino de chobham",
+                    "pagenum": "39"
+                },
+                {
+                    "level": 2,
+                    "label": "7",
+                    "title": "Cómo llegué a casa",
+                    "pagenum": "43"
+                },
+                {
+                    "level": 2,
+                    "label": "8",
+                    "title": "La noche del viernes",
+                    "pagenum": "49"
+                },
+                {
+                    "level": 2,
+                    "label": "9",
+                    "title": "Comienza la lucha",
+                    "pagenum": "53"
+                },
+                {
+                    "level": 2,
+                    "label": "10",
+                    "title": "Durante la tormenta",
+                    "pagenum": "61"
+                },
+                {
+                    "level": 2,
+                    "label": "11",
+                    "title": "Desde la ventana",
+                    "pagenum": "69"
+                },
+                {
+                    "level": 2,
+                    "label": "12",
+                    "title": "La destrucción de Weybridge y Shepperton",
+                    "pagenum": "75"
+                },
+                {
+                    "level": 2,
+                    "label": "13",
+                    "title": "Mi encuentro con el cura",
+                    "pagenum": "87"
+                },
+                {
+                    "level": 2,
+                    "label": "14",
+                    "title": "En Londres",
+                    "pagenum": "93"
+                },
+                {
+                    "level": 2,
+                    "label": "15",
+                    "title": "Lo que sucedió en Surrey",
+                    "pagenum": "105"
+                },
+                {
+                    "level": 2,
+                    "label": "16",
+                    "title": "El éxodo de Londres",
+                    "pagenum": "115"
+                },
+                {
+                    "level": 2,
+                    "label": "17",
+                    "title": "El thunder child",
+                    "pagenum": "129"
+                },
+                {
+                    "level": 1,
+                    "label": "Libro segundo",
+                    "title": "La tierra dominada por los marcianos",
+                    "pagenum": "141"
+                },
+                {
+                    "level": 2,
+                    "label": "1",
+                    "title": "Aplastados",
+                    "pagenum": "143"
+                },
+                {
+                    "level": 2,
+                    "label": "2",
+                    "title": "Lo que vimos desde las ruinas",
+                    "pagenum": "153"
+                },
+                {
+                    "level": 2,
+                    "label": "3",
+                    "title": "Los días de encierro",
+                    "pagenum": "165"
+                },
+                {
+                    "level": 2,
+                    "label": "4",
+                    "title": "La muerte del cura",
+                    "pagenum": "171"
+                },
+                {
+                    "level": 2,
+                    "label": "5",
+                    "title": "El silencio",
+                    "pagenum": "177"
+                },
+                {
+                    "level": 2,
+                    "label": "6",
+                    "title": "Después de quince días",
+                    "pagenum": "181"
+                },
+                {
+                    "level": 2,
+                    "label": "7",
+                    "title": "El hombre de Putney Hill",
+                    "pagenum": "185"
+                },
+                {
+                    "level": 2,
+                    "label": "8",
+                    "title": "La ciudad muerta",
+                    "pagenum": "203"
+                },
+                {
+                    "level": 2,
+                    "label": "9",
+                    "title": "Los restos",
+                    "pagenum": "213"
+                },
+                {
+                    "level": 1,
+                    "label": "10",
+                    "title": "Epílogo",
+                    "pagenum": "219"
+                }
+            ],
+            "contributors": [
+                {
+                    "role": "Author name as appears on this edition",
+                    "name": "H. G. Wells"
+                },
+                {
+                    "role": "Translator",
+                    "name": "María Cecilia Lozano"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "translation_of": "The War of the Worlds",
+            "translated_from": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "physical_format": "Rústica",
+            "isbn_13": [
+                "9789878304359"
+            ],
+            "dewey_decimal_class": [
+                "823"
+            ],
+            "key": "/books/OL52153465M",
+            "number_of_pages": 226,
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-06-21T02:22:29.348631"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-03T17:22:31.113721"
+            }
+        },
+        "/books/OL51295510M": {
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "title": "The War of the Worlds",
+            "publishers": [
+                "Fox Eye Publishing"
+            ],
+            "publish_date": "2022",
+            "key": "/books/OL51295510M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                14597341
+            ],
+            "isbn_13": [
+                "9781804451069"
+            ],
+            "classifications": {},
+            "publish_places": [
+                "United Kingdom"
+            ],
+            "copyright_date": "2022",
+            "number_of_pages": 204,
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-03-14T22:04:07.023380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-03-14T22:07:05.963299"
+            }
+        },
+        "/books/OL35234032M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL9852462A"
+                },
+                {
+                    "key": "/authors/OL13066A"
+                }
+            ],
+            "isbn_13": [
+                "9798596278873"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/por"
+                }
+            ],
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798596278873"
+            ],
+            "title": "Guerra Dos Mundos",
+            "weight": "0.191",
+            "pagination": "125",
+            "subtitle": "O Romance Clássico de Ficção Científica Que Mudou a História",
+            "full_title": "Guerra Dos Mundos O Romance Clássico de Ficção Científica Que Mudou a História",
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "key": "/books/OL35234032M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-11T06:55:05.438743"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-04-08T14:56:08.388886"
+            }
+        },
+        "/books/OL25656925M": {
+            "other_titles": [
+                "War of the worlds"
+            ],
+            "publishers": [
+                "L. Vandamme & Co."
+            ],
+            "number_of_pages": 234,
+            "covers": [
+                14614995,
+                7327888
+            ],
+            "physical_format": "Hardcover",
+            "full_title": "La guerre des mondes",
+            "lc_classifications": [
+                "PR5774.W3 F7 1906"
+            ],
+            "key": "/books/OL25656925M",
+            "authors": [
+                {
+                    "key": "/authors/OL13066A"
+                }
+            ],
+            "ocaid": "laguerredesmonde00well",
+            "publish_places": [
+                "Brussels, Belgium"
+            ],
+            "contributions": [
+                "Davray, Henry-D., 1873-, translator",
+                "Corrêa, Roberto Alvim, illustrator",
+                "Corrêa, Roberto Alvim, signer",
+                "Pauker, Edmund, former owner",
+                "L. Vandamme & Co"
+            ],
+            "pagination": "234 pages, 14 unnumbered pages :",
+            "classifications": {},
+            "source_records": [
+                "ia:laguerredesmonde00well"
+            ],
+            "title": "La guerre des mondes",
+            "work_titles": [
+                "War of the worlds"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Translation of: War of the Worlds.\r\n\r\n\"Il a été tiré de cet ouvrage: cinqu cents exemplaires semblables à celui-ci, numérotés de 1 à 500 et portant comme justification de tirage la signature de l'Illustrateur\"--Title page verso.\r\n\r\nRubenstein Library copy 1: Number trente-cinq.\r\n\r\nRubenstein Library copy 1: Stamp: Dr. Edmund Pauker, 1639 Broadway, New York.\r\n\r\nRubenstein Library copy 1: Quarter binding of decorative brown paper and brown suede."
+            },
+            "identifiers": {},
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "publish_date": "1906",
+            "publish_country": "be ",
+            "by_statement": "H.-G. Wells ; traduit de l'Anglais par Henry D. Davray ; édition illustrée par Alvim-Corrêa",
+            "oclc_numbers": [
+                "10067086"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2015-02-25T15:10:24.560640"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-17T07:07:48.670080"
+            }
+        },
+        "/books/OL24318771M": {
+            "identifiers": {
+                "overdrive": [
+                    "B2F3A241-3424-49D1-A0BA-BF72EBAC8C3E"
+                ],
+                "wikidata": [
+                    "Q116195349"
+                ]
+            },
+            "title": "La Guerre des mondes",
+            "publish_date": "2009",
+            "publishers": [
+                "eBooksLib"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "source_records": [
+                "marc:marc_overdrive/InternetArchiveCrMarc-2010-06-11o.mrc:1893589:1700"
+            ],
+            "isbn_13": [
+                "9781412196956"
+            ],
+            "covers": [
+                6443447
+            ],
+            "physical_format": "eBook",
+            "publish_country": "nyu",
+            "publish_places": [
+                "Ottawa"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "oclc_numbers": [
+                "658925910"
+            ],
+            "key": "/books/OL24318771M",
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-07-01T02:10:59.791443"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-29T18:38:35.742371"
+            }
+        },
+        "/books/OL35384245M": {
+            "identifiers": {
+                "wikidata": [
+                    "Q116194387"
+                ]
+            },
+            "title": "Dunyalarin Savasi",
+            "authors": [
+                {
+                    "key": "/authors/OL13066A"
+                }
+            ],
+            "publish_date": "Oct 29, 2013",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:6053752827"
+            ],
+            "publishers": [
+                "Ithaki Yayinlari"
+            ],
+            "isbn_10": [
+                "6053752827"
+            ],
+            "isbn_13": [
+                "9786053752820"
+            ],
+            "physical_format": "paperback",
+            "covers": [
+                12226924
+            ],
+            "key": "/books/OL35384245M",
+            "number_of_pages": 240,
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-29T09:36:25.936064"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-29T18:01:52.981233"
+            }
+        },
+        "/books/OL29770057M": {
+            "identifiers": {
+                "wikidata": [
+                    "Q116228083"
+                ]
+            },
+            "title": "Guerra Dei Mondi",
+            "authors": [
+                {
+                    "key": "/authors/OL13066A"
+                }
+            ],
+            "publish_date": "2017",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9781521759141"
+            ],
+            "isbn_13": [
+                "9781521759141"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/ita"
+                }
+            ],
+            "lc_classifications": [
+                ""
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "key": "/books/OL29770057M",
+            "number_of_pages": 123,
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-31T01:02:59.732312"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-03-03T18:28:07.528255"
+            }
+        },
+        "/books/OL9021187M": {
+            "identifiers": {
+                "goodreads": [
+                    "1476337"
+                ],
+                "librarything": [
+                    "11494"
+                ],
+                "wikidata": [
+                    "Q116194249"
+                ]
+            },
+            "title": "Der Krieg der Welten.",
+            "authors": [
+                {
+                    "key": "/authors/OL13066A"
+                }
+            ],
+            "publish_date": "January 1, 1974",
+            "publishers": [
+                "Diogenes Verlag"
+            ],
+            "weight": "5.9 ounces",
+            "covers": [
+                998599
+            ],
+            "physical_format": "Paperback",
+            "isbn_13": [
+                "9783257201710"
+            ],
+            "source_records": [
+                "amazon:3257201710:gq:2952664401:139561",
+                "amazon:3257201710"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/ger"
+                }
+            ],
+            "isbn_10": [
+                "3257201710"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "7.1 x 4.4 x 0.7 inches",
+            "key": "/books/OL9021187M",
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-03-28T16:00:47.040799"
+            }
+        },
+        "/books/OL34318498M": {
+            "identifiers": {
+                "wikidata": [
+                    "Q116228512"
+                ]
+            },
+            "title": "Best of Wells : the War of the Worlds",
+            "subtitle": "130 Illustrations",
+            "authors": [
+                {
+                    "key": "/authors/OL13066A"
+                }
+            ],
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781956221176"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "MiraVista Press"
+            ],
+            "source_records": [
+                "bwb:9781956221176",
+                "amazon:1956221174"
+            ],
+            "subjects": [
+                "Fiction, science fiction, general"
+            ],
+            "key": "/books/OL34318498M",
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "covers": [
+                15145888
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-02T01:33:33.931813"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-24T14:50:41.956615"
+            }
+        },
+        "/books/OL30065169M": {
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798638781804"
+            ],
+            "title": "War of the Worlds by H. G. Wells Annotated Version (War and Military Novel)",
+            "number_of_pages": 221,
+            "isbn_13": [
+                "9798638781804"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "War of the Worlds by H. G. Wells Annotated Version (War and Military Novel)",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL30065169M",
+            "authors": [
+                {
+                    "key": "/authors/OL13066A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-03T00:43:55.997116"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-04-08T14:56:08.388886"
+            }
+        },
+        "/books/OL9131667M": {
+            "identifiers": {
+                "librarything": [
+                    "11494"
+                ],
+                "goodreads": [
+                    "95584"
+                ],
+                "wikidata": [
+                    "Q116194508"
+                ]
+            },
+            "title": "La Guerra De Los Mundos / The War of the Worlds (Clio Narrativa / Clio Narratives)",
+            "authors": [
+                {
+                    "key": "/authors/OL910354A"
+                }
+            ],
+            "publish_date": "June 16, 2005",
+            "publishers": [
+                "Edaf Antillas"
+            ],
+            "weight": "10.4 ounces",
+            "covers": [
+                4910784
+            ],
+            "physical_format": "Paperback",
+            "contributions": [
+                "Fernando Savater (Foreword)"
+            ],
+            "subjects": [
+                "Wells, H. G. (Herbert George), 1866-1946",
+                "Fiction",
+                "Spanish: Adult Fiction",
+                "Science Fiction - General"
+            ],
+            "edition_name": "Tra edition",
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "isbn_13": [
+                "9788441416406"
+            ],
+            "isbn_10": [
+                "8441416400"
+            ],
+            "oclc_numbers": [
+                "69673812"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9.1 x 6 x 0.5 inches",
+            "key": "/books/OL9131667M",
+            "number_of_pages": 195,
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-29T18:35:35.670088"
+            }
+        },
+        "/books/OL34361546M": {
+            "identifiers": {
+                "wikidata": [
+                    "Q116195721"
+                ]
+            },
+            "title": "War of the Worlds Illustrated and Annotated",
+            "authors": [
+                {
+                    "key": "/authors/OL13066A"
+                }
+            ],
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798532562585"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798532562585"
+            ],
+            "weight": "0.355",
+            "full_title": "War of the Worlds Illustrated and Annotated",
+            "key": "/books/OL34361546M",
+            "number_of_pages": 265,
+            "works": [
+                {
+                    "key": "/works/OL52114W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-02T08:18:00.589845"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-17T21:03:58.610187"
+            }
+        }
+    }
+}

@@ -1,0 +1,5882 @@
+{
+    "status": "ok",
+    "result": {
+        "/books/OL22720232M": {
+            "publishers": [
+                "Collins"
+            ],
+            "series": [
+                "Collins English library"
+            ],
+            "key": "/books/OL22720232M",
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "contributions": [
+                "Huggins, Viola."
+            ],
+            "title": "Little women",
+            "identifiers": {
+                "librarything": [
+                    "2770499"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "017556647X"
+            ],
+            "publish_date": "1985",
+            "publish_country": "enk",
+            "by_statement": "Louisa M. Alcott ; abridged by Viola Huggins.",
+            "oclc_numbers": [
+                "221851401"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:017556647X",
+                "promise:bwb_daily_pallets_2020-12-03"
+            ],
+            "local_id": [
+                "urn:bwbsku:KM-243-939"
+            ],
+            "latest_revision": 12,
+            "revision": 12,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-12-19T09:36:28.797688"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-15T12:04:38.247072"
+            }
+        },
+        "/books/OL1175196M": {
+            "other_titles": [
+                "Little women.",
+                "Meg, Jo, Beth, and Amy."
+            ],
+            "publishers": [
+                "Roberts Bros."
+            ],
+            "identifiers": {
+                "librarything": [
+                    "2770499"
+                ]
+            },
+            "covers": [
+                8235490,
+                6965934
+            ],
+            "ia_loaded_id": [
+                "littlewomenormeg02alco"
+            ],
+            "lc_classifications": [
+                "PZ7.A335 Li 1868"
+            ],
+            "key": "/books/OL1175196M",
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "ocaid": "littlewomenormeg01alco",
+            "publish_places": [
+                "Boston"
+            ],
+            "contributions": [
+                "Alcott, May, 1840-1879, ill.",
+                "Juvenile Collection (Library of Congress)"
+            ],
+            "pagination": "341 p., [4] leaves of plates :",
+            "classifications": {},
+            "source_records": [
+                "marc:marc_records_scriblio_net/part24.dat:125978583:777",
+                "marc:marc_loc_updates/v38.i03.records.utf8:2070324:1524",
+                "marc:marc_loc_updates/v38.i08.records.utf8:2017351:1495",
+                "ia:littlewomenormeg01alco",
+                "ia:littlewomenormeg02alco",
+                "marc:marc_loc_2016/BooksAll.2016.part23.utf8:208326642:1495"
+            ],
+            "title": "Little Women",
+            "lccn": [
+                "94159885"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "BAL 158\r\nLC copy lacks 3 p. of advertisements at end."
+            },
+            "number_of_pages": 341,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1868",
+            "publish_country": "mau",
+            "by_statement": "by Louisa May Alcott ; illustrated by May Alcott.",
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 53,
+            "revision": 53,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:35:16.144835"
+            }
+        },
+        "/books/OL17639917M": {
+            "publishers": [
+                "Little, Brown"
+            ],
+            "pagination": "397 p.",
+            "source_records": [
+                "marc:marc_oregon_summit_records/catalog_files/osu_bibs.mrc:308018581:688"
+            ],
+            "title": "Little women; or, Meg, Jo, Beth, and Amy",
+            "series": [
+                "The Beacon Hill bookshelf"
+            ],
+            "number_of_pages": 397,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1939",
+            "publish_country": "mau",
+            "key": "/books/OL17639917M",
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "by_statement": "by Louisa M. Alcott.",
+            "publish_places": [
+                "Boston"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 44,
+            "revision": 44,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-30T09:17:48.524251"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:35:16.144835"
+            }
+        },
+        "/books/OL17639098M": {
+            "publishers": [
+                "Ginn and company"
+            ],
+            "series": [
+                "Standard English classics"
+            ],
+            "lc_classifications": [
+                "PZ7.A335 Li 28"
+            ],
+            "key": "/books/OL17639098M",
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "publish_places": [
+                "Boston",
+                "New York [etc.]"
+            ],
+            "contributions": [
+                "Warner, Frances Lester, 1888-"
+            ],
+            "pagination": "xviii, 611 p. incl. front. (port.)",
+            "source_records": [
+                "marc:marc_oregon_summit_records/catalog_files/osu_bibs.mrc:253439924:951"
+            ],
+            "title": "Little women; or, Meg, Jo, Beth, and Amy",
+            "lccn": [
+                "28017387"
+            ],
+            "number_of_pages": 611,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1928",
+            "publish_country": "mau",
+            "by_statement": "by Louisa M. Alcott, part first and part second, edited with an introduction, notes and study helps by Francis Lester Warner ...",
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 44,
+            "revision": 44,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-30T09:11:01.129642"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:35:16.144835"
+            }
+        },
+        "/books/OL1093073M": {
+            "other_titles": [
+                "Little women.",
+                "Meg, Jo, Beth, and Amy."
+            ],
+            "publishers": [
+                "Little, Brown"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "2770499"
+                ],
+                "goodreads": [
+                    "1188023",
+                    "939945"
+                ]
+            },
+            "description": {
+                "type": "/type/text",
+                "value": "Chronicles the joys and sorrows of the four March sisters as they grow into young ladies in mid-nineteenth-century New England."
+            },
+            "isbn_10": [
+                "0316031070",
+                "0316031054"
+            ],
+            "subject_place": [
+                "New England"
+            ],
+            "covers": [
+                187683,
+                187681
+            ],
+            "lc_classifications": [
+                "PZ7.A335 Li 1994b",
+                "PZ7.A335Li 1994b",
+                "P1017 L5 1994b"
+            ],
+            "key": "/books/OL1093073M",
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "publish_places": [
+                "Boston"
+            ],
+            "contributions": [
+                "Quindlen, Anna."
+            ],
+            "subjects": [
+                "March family (Fictitious characters) -- Juvenile fiction",
+                "Family -- New England -- Juvenile fiction",
+                "Sisters -- New England -- Juvenile fiction",
+                "Family life -- New England -- Fiction",
+                "Sisters -- Fiction",
+                "New England -- Juvenile fiction",
+                "New England -- History -- 19th century -- Fiction"
+            ],
+            "subject_time": [
+                "19th century"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "502 p. ;",
+            "source_records": [
+                "marc:marc_records_scriblio_net/part24.dat:54171961:1357",
+                "marc:marc_loc_updates/v37.i27.records.utf8:24389423:1359",
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run02.mrc:138773340:2445",
+                "bwb:9780316031059",
+                "marc:marc_loc_2016/BooksAll.2016.part23.utf8:128658383:1359",
+                "bwb:9780316031073",
+                "marc:marc_columbia/Columbia-extract-20221130-007.mrc:390517253:1744",
+                "marc:harvard_bibliographic_metadata/ab.bib.09.20150123.full.mrc:253472646:1433"
+            ],
+            "title": "Little women or Meg, Jo, Beth, and Amy",
+            "dewey_decimal_class": [
+                "[Fic]"
+            ],
+            "number_of_pages": 502,
+            "edition_name": "Uniform ed.",
+            "lccn": [
+                "94017444"
+            ],
+            "local_id": [
+                "urn:sfpl:31223066685265",
+                "urn:sfpl:31223066684821"
+            ],
+            "publish_date": "1994",
+            "publish_country": "mau",
+            "by_statement": "by Louisa May Alcott ; with an introduction by Anna Quindlen.",
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "oclc_numbers": [
+                "30477311"
+            ],
+            "latest_revision": 54,
+            "revision": 54,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-09-18T21:38:55.777644"
+            }
+        },
+        "/books/OL13539957M": {
+            "publishers": [
+                "Little, Brown"
+            ],
+            "number_of_pages": 397,
+            "series": [
+                "The Beacon Hill bookshelf",
+                "Beacon Hill bookshelf"
+            ],
+            "key": "/books/OL13539957M",
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "publish_places": [
+                "Boston"
+            ],
+            "contributions": [
+                "Smith, Jessie Willcox, 1863-1935."
+            ],
+            "pagination": "viii, 397 p., [7] leaves of col. plates. :",
+            "source_records": [
+                "marc:marc_western_washington_univ/wwu_bibs.mrc_revrev.mrc:164831954:879"
+            ],
+            "title": "Little women; or, Meg, Jo, Beth, and Amy",
+            "lccn": [
+                "24026905"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "2770499"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1924",
+            "publish_country": "mau",
+            "by_statement": "by Louisa M. Alcott ; with illustrations in color by Jessie Willcox Smith.",
+            "oclc_numbers": [
+                "12193699"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 46,
+            "revision": 46,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-08-27T18:09:24.953603"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:35:16.144835"
+            }
+        },
+        "/books/OL5597013M": {
+            "publishers": [
+                "Printed for the members of the Limited Editions Club"
+            ],
+            "subject_place": [
+                "New England"
+            ],
+            "lc_classifications": [
+                "PS1017 .L5 1967",
+                "PK2200.F39 S9"
+            ],
+            "key": "/books/OL5597013M",
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "pagination": "viii, 429 p.",
+            "source_records": [
+                "marc:marc_records_scriblio_net/part06.dat:52814212:885",
+                "marc:marc_loc_updates/v38.i08.records.utf8:582812:1361",
+                "marc:marc_loc_updates/v38.i36.records.utf8:2500887:1960",
+                "marc:marc_loc_2016/BooksAll.2016.part06.utf8:135139431:1970",
+                "marc:marc_columbia/Columbia-extract-20221130-013.mrc:161812717:1708",
+                "marc:harvard_bibliographic_metadata/20220215_013.bib.mrc:339020154:1125"
+            ],
+            "title": "Little women; or, Meg, Jo, Beth, and Amy.",
+            "lccn": [
+                "68002745"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Issued in a case."
+            },
+            "number_of_pages": 429,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                },
+                {
+                    "key": "/languages/urd"
+                }
+            ],
+            "subjects": [
+                "March family (Fictitious characters) -- Fiction",
+                "Mothers and daughters -- Fiction",
+                "Young women -- Fiction",
+                "Sisters -- Fiction",
+                "New England -- Fiction"
+            ],
+            "publish_date": "1967",
+            "publish_country": "nyu",
+            "by_statement": "With an introd. by Edward Weeks and illus. by Henry C. Pitz.",
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "oclc_numbers": [
+                "1164514",
+                "1035245558",
+                "30838407"
+            ],
+            "latest_revision": 51,
+            "revision": 51,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-17T18:25:29.124364"
+            }
+        },
+        "/books/OL37606843M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "isbn_13": [
+                "9798756891713"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "575",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798756891713"
+            ],
+            "title": "Little Women",
+            "weight": "0.955",
+            "subtitle": "an Annotated Edition",
+            "full_title": "Little Women an Annotated Edition",
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL37606843M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-03-03T04:05:36.777045"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:34:19.995032"
+            }
+        },
+        "/books/OL37643924M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "isbn_13": [
+                "9798682160723"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "440",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798682160723"
+            ],
+            "title": "Little Women",
+            "weight": "1.245",
+            "subtitle": "Large Print",
+            "full_title": "Little Women Large Print",
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL37643924M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-03-03T10:34:22.066586"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:34:19.995032"
+            }
+        },
+        "/books/OL37044619M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "<p><i>Little Women</i> is the classic coming-of-age tale of four sisters on their journey to adulthood. Though today it’s considered a classic, <i>Little Women</i> almost wasn’t written: <a href=\"https://standardebooks.org/ebooks/louisa-may-alcott\">Alcott</a> wanted to publish a collection of short stories instead, but her publisher and her father pressed her to write a book that would appeal to a wide audience of young girls.</p>\r\n\t\t\t<p>The first volume was written quickly and published in 1868; it was a huge success, and Alcott composed volume 2 just as quickly and published it in 1869. By her own account she didn’t enjoy writing them, and both she and her publisher agreed the first few chapters were dull—it almost goes without saying they were pleasantly shocked at the positive reception the volumes received.</p>\r\n\t\t\t<p>By 1927 it had been acknowledged as one of the most widely-read novels of the era, and remains widely read today.</p>"
+            },
+            "identifiers": {
+                "standard_ebooks": [
+                    "louisa-may-alcott/little-women"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2016",
+            "publishers": [
+                "Standard Ebooks"
+            ],
+            "source_records": [
+                "standard_ebooks:louisa-may-alcott/little-women"
+            ],
+            "subjects": [
+                "New England -- Fiction",
+                "March family (Fictitious characters) -- Fiction",
+                "Sisters -- Fiction",
+                "Family life -- New England -- Fiction",
+                "Mothers and daughters -- Fiction",
+                "Young women -- Fiction",
+                "Domestic fiction",
+                "Autobiographical fiction",
+                "Bildungsromans"
+            ],
+            "title": "Little Women",
+            "full_title": "Little Women",
+            "covers": [
+                12621894
+            ],
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL37044619M",
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-02-08T23:55:53.863007"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-07T21:19:56.662874"
+            }
+        },
+        "/books/OL37065411M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Little Women",
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "publish_date": "Feb 16, 1983",
+            "source_records": [
+                "amazon:0861782356",
+                "promise:bwb_daily_pallets_2020-03-26"
+            ],
+            "publishers": [
+                "Octopus Publising Group Plc"
+            ],
+            "isbn_10": [
+                "0861782356"
+            ],
+            "isbn_13": [
+                "9780861782352"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Little Women",
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL37065411M",
+            "local_id": [
+                "urn:bwbsku:9780861782352"
+            ],
+            "identifiers": {
+                "amazon": [
+                    ""
+                ]
+            },
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-02-18T02:26:47.870924"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-15T18:02:10.500364"
+            }
+        },
+        "/books/OL36982870M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "isbn_13": [
+                "9798784019042"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "685",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798784019042"
+            ],
+            "title": "Little Women",
+            "weight": "0.982",
+            "subtitle": "the Original 1868 Edition with 200 Illustrations",
+            "full_title": "Little Women the Original 1868 Edition with 200 Illustrations",
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL36982870M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-01-29T12:02:36.500201"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:34:19.995032"
+            }
+        },
+        "/books/OL36413459M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Little Women",
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                },
+                {
+                    "key": "/authors/OL3015248A"
+                }
+            ],
+            "publish_date": "Apr 01, 2005",
+            "source_records": [
+                "amazon:1419347314"
+            ],
+            "publishers": [
+                "Recorded Books, Inc."
+            ],
+            "isbn_10": [
+                "1419347314"
+            ],
+            "isbn_13": [
+                "9781419347313"
+            ],
+            "physical_format": "audio cd",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Little Women (Little Women (1))"
+            },
+            "full_title": "Little Women",
+            "covers": [
+                12506828
+            ],
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL36413459M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-12-31T03:57:17.964851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:34:19.995032"
+            }
+        },
+        "/books/OL36433170M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "isbn_13": [
+                "9781789822502"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "402",
+            "publish_date": "2020",
+            "publishers": [
+                "Andrews UK Ltd."
+            ],
+            "source_records": [
+                "bwb:9781789822502"
+            ],
+            "title": "Little Women",
+            "weight": "0.486",
+            "full_title": "Little Women",
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL36433170M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-12-31T07:37:59.519756"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:34:19.995032"
+            }
+        },
+        "/books/OL35419775M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Little Women",
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "publish_date": "Oct 31, 2009",
+            "source_records": [
+                "amazon:6055910209"
+            ],
+            "number_of_pages": 93,
+            "publishers": [
+                "Besir Kitabevi"
+            ],
+            "isbn_10": [
+                "6055910209"
+            ],
+            "isbn_13": [
+                "9786055910204"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Little Women Level 4",
+            "subtitle": "Level 4",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Little Women: Level 4"
+            },
+            "covers": [
+                12261544
+            ],
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL35419775M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-31T10:59:01.125829"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:34:19.995032"
+            }
+        },
+        "/books/OL35476509M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "isbn_13": [
+                "9781448155200"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "432",
+            "publish_date": "2012",
+            "publishers": [
+                "Penguin Random House"
+            ],
+            "source_records": [
+                "bwb:9781448155200"
+            ],
+            "subjects": [
+                "Mothers and daughters, fiction",
+                "Young women, fiction",
+                "Fiction, family life, general",
+                "March family (fictitious characters), fiction",
+                "New england, fiction",
+                "Sisters, fiction",
+                "American fiction (fictional works by one author)"
+            ],
+            "title": "Little Women",
+            "full_title": "Little Women",
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL35476509M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T11:37:48.288214"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:34:19.995032"
+            }
+        },
+        "/books/OL35219070M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "isbn_13": [
+                "9798516201509"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798516201509"
+            ],
+            "title": "Little Women Annotated",
+            "weight": "0.932",
+            "pagination": "561",
+            "full_title": "Little Women Annotated",
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL35219070M",
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-11T04:39:34.602302"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:34:19.995032"
+            }
+        },
+        "/books/OL34709840M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL6381321A"
+                },
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2021",
+            "publishers": [
+                "Chronicle Books LLC"
+            ],
+            "source_records": [
+                "bwb:9781797208916",
+                "marc:marc_columbia/Columbia-extract-20221130-032.mrc:156664098:1959"
+            ],
+            "subjects": [
+                "American literature"
+            ],
+            "title": "Little Women",
+            "weight": "0.010 ",
+            "pagination": "352",
+            "subtitle": "The Complete Novel, Featuring Letters and Ephemera from the Characters' Correspondence, Written and Folded by Hand",
+            "full_title": "Little Women The Complete Novel, Featuring Letters and Ephemera from the Characters' Correspondence, Written and Folded by Hand",
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL34709840M",
+            "identifiers": {},
+            "isbn_13": [
+                "9781797208916"
+            ],
+            "classifications": {},
+            "lc_classifications": [
+                "PS1017.L5 2021",
+                "PS1017 .L5 2021"
+            ],
+            "lccn": [
+                "2021000838"
+            ],
+            "oclc_numbers": [
+                "1242020966"
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-07T07:31:47.486098"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-12T09:52:03.300606"
+            }
+        },
+        "/books/OL34970124M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL6381321A"
+                },
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "isbn_13": [
+                "9781797214276"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2021",
+            "publishers": [
+                "Chronicle Books LLC"
+            ],
+            "source_records": [
+                "bwb:9781797214276"
+            ],
+            "title": "Little Women",
+            "pagination": "352",
+            "subtitle": "The Complete Novel, Featuring the Characters' Letters and Manuscripts, Written and Folded by Hand",
+            "full_title": "Little Women The Complete Novel, Featuring the Characters' Letters and Manuscripts, Written and Folded by Hand",
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL34970124M",
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-09T15:28:06.083895"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:34:19.995032"
+            }
+        },
+        "/books/OL34144464M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "isbn_13": [
+                "9798734302323"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 674,
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798734302323"
+            ],
+            "title": "Little Women Illustrated",
+            "weight": "0.964",
+            "full_title": "Little Women Illustrated",
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL34144464M",
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-09-30T14:28:05.263566"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:34:19.995032"
+            }
+        },
+        "/books/OL34123611M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                },
+                {
+                    "key": "/authors/OL9614605A"
+                },
+                {
+                    "key": "/authors/OL8294822A"
+                }
+            ],
+            "isbn_13": [
+                "9781735063362"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2021",
+            "publishers": [
+                "LitJoy Crate"
+            ],
+            "source_records": [
+                "bwb:9781735063362"
+            ],
+            "subjects": [
+                "Children's fiction",
+                "Literature, collections"
+            ],
+            "title": "Little Women",
+            "full_title": "Little Women",
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL34123611M",
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-09-30T11:08:00.828750"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:34:19.995032"
+            }
+        },
+        "/books/OL33957951M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "isbn_13": [
+                "9780008514389"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 400,
+            "publish_date": "2021",
+            "publishers": [
+                "HarperCollins Publishers Limited"
+            ],
+            "source_records": [
+                "bwb:9780008514389"
+            ],
+            "title": "Little Women",
+            "weight": "0.270",
+            "full_title": "Little Women",
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL33957951M",
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-09-28T16:07:21.573809"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:34:19.995032"
+            }
+        },
+        "/books/OL33915574M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL3178140A"
+                },
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "isbn_13": [
+                "9788854418301"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 96,
+            "publish_date": "2021",
+            "publishers": [
+                "White Star Publishers"
+            ],
+            "source_records": [
+                "bwb:9788854418301"
+            ],
+            "title": "Little Women",
+            "full_title": "Little Women",
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL33915574M",
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-09-28T09:28:00.467201"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:34:19.995032"
+            }
+        },
+        "/books/OL32827305M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Little Women",
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                },
+                {
+                    "key": "/authors/OL9222308A"
+                }
+            ],
+            "publish_date": "Jul 29, 2017",
+            "source_records": [
+                "amazon:1974049949",
+                "bwb:9781974049943"
+            ],
+            "number_of_pages": 386,
+            "publishers": [
+                "Createspace Independent Publishing Platform",
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "isbn_10": [
+                "1974049949"
+            ],
+            "isbn_13": [
+                "9781974049943"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Little Women",
+            "covers": [
+                11458986
+            ],
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL32827305M",
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-07-19T23:09:00.983234"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:34:19.995032"
+            }
+        },
+        "/books/OL32542094M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Little Women",
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                },
+                {
+                    "key": "/authors/OL2829296A"
+                }
+            ],
+            "publish_date": "May 01, 2010",
+            "source_records": [
+                "amazon:0792771702"
+            ],
+            "publishers": [
+                "Audiogo"
+            ],
+            "isbn_10": [
+                "0792771702"
+            ],
+            "isbn_13": [
+                "9780792771708"
+            ],
+            "physical_format": "preloaded digital audio player",
+            "full_title": "Little Women",
+            "covers": [
+                -1
+            ],
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL32542094M",
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-05-30T12:40:32.143377"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:34:19.995032"
+            }
+        },
+        "/books/OL30693926M": {
+            "publishers": [
+                "CreateSpace Independent Publishing Platform",
+                "Createspace Independent Publishing Platform"
+            ],
+            "source_records": [
+                "amazon:1539029204"
+            ],
+            "title": "Les quatre filles du Docteur March",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Les quatre filles du Docteur March (French Edition)"
+            },
+            "number_of_pages": 266,
+            "isbn_13": [
+                "9781539029205"
+            ],
+            "covers": [
+                10490287
+            ],
+            "physical_format": "paperback",
+            "full_title": "Les quatre filles du Docteur March",
+            "isbn_10": [
+                "1539029204"
+            ],
+            "publish_date": "Sep 23, 2016",
+            "key": "/books/OL30693926M",
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                },
+                {
+                    "key": "/authors/OL8653675A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-10-24T18:58:14.885213"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:34:19.995032"
+            }
+        },
+        "/books/OL30903436M": {
+            "publishers": [
+                "HACHETTE JEUN."
+            ],
+            "source_records": [
+                "amazon:2012027822"
+            ],
+            "title": "Les quatre filles du Docteur March",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Les quatre filles du Docteur March (Les quatre filles du Docteur March (1)) (French Edition)"
+            },
+            "number_of_pages": 320,
+            "isbn_13": [
+                "9782012027824"
+            ],
+            "covers": [
+                10506531
+            ],
+            "physical_format": "paperback",
+            "full_title": "Les quatre filles du Docteur March",
+            "isbn_10": [
+                "2012027822"
+            ],
+            "publish_date": "Mar 14, 2012",
+            "key": "/books/OL30903436M",
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-11-07T15:41:24.092396"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:34:19.995032"
+            }
+        },
+        "/books/OL28811048M": {
+            "publishers": [
+                "Penguin Random House Grupo Editorial"
+            ],
+            "source_records": [
+                "bwb:9788426401304"
+            ],
+            "title": "Mujercitas",
+            "number_of_pages": 360,
+            "isbn_13": [
+                "9788426401304"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "full_title": "Mujercitas",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2019",
+            "key": "/books/OL28811048M",
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-16T09:40:05.324909"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:34:19.995032"
+            }
+        },
+        "/books/OL25129264M": {
+            "other_titles": [
+                "Meg, Jo, Beth, and Amy.",
+                "Little women."
+            ],
+            "publishers": [
+                "Little, Brown, and Co."
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "Chronicles the humorous and sentimental fortunes of the four March sisters as they grew into young ladies in the early nineteenth century."
+            },
+            "covers": [
+                12811485,
+                7002856
+            ],
+            "ia_loaded_id": "littlewomenormegalcott",
+            "key": "/books/OL25129264M",
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "ocaid": "littlewomenormegalcott",
+            "publish_places": [
+                "Boston"
+            ],
+            "pagination": "532 p., [1] leaf of plates :",
+            "source_records": [
+                "ia:littlewomenormegalcott"
+            ],
+            "title": "Little women, or, Meg, Jo, Beth, and Amy",
+            "number_of_pages": 532,
+            "full_title": "Little women, or, Meg, Jo, Beth, and Amy",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1919",
+            "publish_country": "mau",
+            "copyright_date": "1910",
+            "by_statement": "by Louisa M. Alcott",
+            "oclc_numbers": [
+                "43701859"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2011-12-21T17:52:06.426855"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-06-29T17:10:36.106718"
+            }
+        },
+        "/books/OL12512714M": {
+            "publishers": [
+                "J'ai lu"
+            ],
+            "weight": "5.4 ounces",
+            "covers": [
+                3110081
+            ],
+            "physical_format": "Mass Market Paperback",
+            "key": "/books/OL12512714M",
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "isbn_13": [
+                "9782277238775"
+            ],
+            "source_records": [
+                "amazon:2277238775"
+            ],
+            "title": "Les Quatre Filles du docteur March",
+            "identifiers": {
+                "librarything": [
+                    "2770499"
+                ],
+                "goodreads": [
+                    "2738546"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "isbn_10": [
+                "2277238775"
+            ],
+            "publish_date": "January 4, 1999",
+            "oclc_numbers": [
+                "464092740"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.3 x 4.3 x 0.4 inches",
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-06-29T16:19:38.108533"
+            }
+        },
+        "/books/OL9429420M": {
+            "publishers": [
+                "Hachette Jeunesse"
+            ],
+            "number_of_pages": 278,
+            "weight": "7.8 ounces",
+            "physical_format": "Mass Market Paperback",
+            "key": "/books/OL9429420M",
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                },
+                {
+                    "key": "/authors/OL3258644A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "title": "Les Quatre Filles du docteur March",
+            "identifiers": {
+                "librarything": [
+                    "2770499"
+                ],
+                "goodreads": [
+                    "2738549"
+                ]
+            },
+            "isbn_13": [
+                "9782013219846"
+            ],
+            "isbn_10": [
+                "2013219849"
+            ],
+            "publish_date": "May 2, 2002",
+            "oclc_numbers": [
+                "422254288"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.7 x 4.9 x 0.3 inches",
+            "covers": [
+                13290371
+            ],
+            "source_records": [
+                "amazon:2013219849"
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-11T01:20:42.580367"
+            }
+        },
+        "/books/OL10280503M": {
+            "identifiers": {
+                "librarything": [
+                    "1686212"
+                ],
+                "goodreads": [
+                    "2936478"
+                ]
+            },
+            "title": "BACHELORS GALORE",
+            "authors": [
+                {
+                    "key": "/authors/OL395577A"
+                }
+            ],
+            "publish_date": "1974",
+            "publishers": [
+                "Mills and Boon"
+            ],
+            "isbn_13": [
+                "9780263717020"
+            ],
+            "physical_format": "Paperback",
+            "isbn_10": [
+                "026371702X"
+            ],
+            "oclc_numbers": [
+                "498200269"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:026371702X"
+            ],
+            "key": "/books/OL10280503M",
+            "number_of_pages": 187,
+            "works": [
+                {
+                    "key": "/works/OL2705576W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-14T05:46:24.860417"
+            }
+        },
+        "/books/OL37392594M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "isbn_13": [
+                "9781459239579"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2012",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781459239579"
+            ],
+            "title": "Not Once but Twice",
+            "full_title": "Not Once but Twice",
+            "works": [
+                {
+                    "key": "/works/OL3457830W"
+                }
+            ],
+            "key": "/books/OL37392594M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-03-01T06:38:49.723605"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-08T21:59:47.524434"
+            }
+        },
+        "/books/OL28950989M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263806786",
+                "promise:bwb_daily_pallets_2020-07-30"
+            ],
+            "title": "Not Once but Twice",
+            "number_of_pages": 224,
+            "isbn_13": [
+                "9780263806786"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Not Once but Twice",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "1998",
+            "key": "/books/OL28950989M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3457830W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "local_id": [
+                "urn:bwbsku:KN-865-471"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T04:45:44.048136"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-08T21:59:47.524434"
+            }
+        },
+        "/books/OL10691244M": {
+            "publishers": [
+                "Pocket Books"
+            ],
+            "number_of_pages": 192,
+            "covers": [
+                5071700
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL10691244M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "subjects": [
+                "Fiction",
+                "General",
+                "Fiction - General"
+            ],
+            "isbn_13": [
+                "9780373024407"
+            ],
+            "classifications": {},
+            "title": "Not Once But Twice",
+            "notes": {
+                "type": "/type/text",
+                "value": "Harlequin Romance"
+            },
+            "identifiers": {
+                "goodreads": [
+                    "2422360"
+                ],
+                "librarything": [
+                    "1745371"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373024401"
+            ],
+            "publish_date": "November 1981",
+            "oclc_numbers": [
+                "7819801"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3457830W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "bwb:9780373024407"
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-08T21:59:47.524434"
+            }
+        },
+        "/books/OL10282771M": {
+            "publishers": [
+                "Harlequin Mills & Boon"
+            ],
+            "number_of_pages": 299,
+            "covers": [
+                2343998
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL10282771M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "subjects": [
+                "Fiction anthologies & collections",
+                "Romance"
+            ],
+            "source_records": [
+                "bwb:9780263836431"
+            ],
+            "title": "Not Once But Twice (Betty Neels: The Ultimate Collection)",
+            "identifiers": {
+                "goodreads": [
+                    "1222744"
+                ]
+            },
+            "isbn_13": [
+                "9780263836431"
+            ],
+            "isbn_10": [
+                "0263836436"
+            ],
+            "publish_date": "July 5, 2002",
+            "oclc_numbers": [
+                "49395927"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3457830W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-08T21:59:47.524434"
+            }
+        },
+        "/books/OL10280402M": {
+            "publishers": [
+                "Ulverscroft Large Print"
+            ],
+            "number_of_pages": 285,
+            "weight": "11.2 ounces",
+            "covers": [
+                2343319
+            ],
+            "physical_format": "Hardcover",
+            "key": "/books/OL10280402M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "subjects": [
+                "Romance",
+                "General",
+                "Fiction - General"
+            ],
+            "edition_name": "Large Print Ed edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "bwb:9780263198348"
+            ],
+            "title": "Not Once But Twice (Betty Neels Large Print Collection)",
+            "identifiers": {
+                "librarything": [
+                    "1745371"
+                ]
+            },
+            "isbn_13": [
+                "9780263198348"
+            ],
+            "isbn_10": [
+                "0263198340"
+            ],
+            "publish_date": "January 2007",
+            "works": [
+                {
+                    "key": "/works/OL3457830W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.1 x 5.5 x 1 inches",
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-08T21:59:47.524434"
+            }
+        },
+        "/books/OL10739513M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "7084330"
+                ],
+                "librarything": [
+                    "1372834"
+                ]
+            },
+            "weight": "3.2 ounces",
+            "covers": [
+                2407566,
+                215055
+            ],
+            "physical_format": "Mass Market Paperback",
+            "key": "/books/OL10739513M",
+            "authors": [
+                {
+                    "key": "/authors/OL807281A"
+                }
+            ],
+            "ocaid": "passionatereveng00sara",
+            "subjects": [
+                "English Light Romantic Fiction",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern",
+                "Romance - Contemporary",
+                "Fiction / Romance / General",
+                "Romance - General"
+            ],
+            "isbn_13": [
+                "9780373124619"
+            ],
+            "classifications": {},
+            "source_records": [
+                "ia:passionatereveng00sara",
+                "bwb:9780373124619",
+                "amazon:0373124619",
+                "promise:bwb_daily_pallets_2022-08-29"
+            ],
+            "title": "A Passionate Revenge (Harlequin Presents, No. 2461)",
+            "number_of_pages": 192,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373124619"
+            ],
+            "publish_date": "April 1, 2005",
+            "oclc_numbers": [
+                "57698630"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4221196W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.6 x 4.2 x 0.7 inches",
+            "local_id": [
+                "urn:bwbsku:O8-DBU-510"
+            ],
+            "latest_revision": 12,
+            "revision": 12,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-04T15:39:36.498049"
+            }
+        },
+        "/books/OL7060579M": {
+            "other_titles": [
+                "Meg, Jo, Beth and Amy."
+            ],
+            "publishers": [
+                "Roberts Brothers"
+            ],
+            "table_of_contents": [
+                {
+                    "level": 0,
+                    "label": "CHAPTER I",
+                    "title": "Playing Pilgrims",
+                    "pagenum": "7"
+                },
+                {
+                    "level": 0,
+                    "label": "CHAPTER II",
+                    "title": "A Merry Christmas",
+                    "pagenum": "23"
+                },
+                {
+                    "level": 0,
+                    "label": "CHAPTER III",
+                    "title": "The Laurence Boy",
+                    "pagenum": "39"
+                },
+                {
+                    "level": 0,
+                    "label": "CHAPTER IV",
+                    "title": "Burdens",
+                    "pagenum": "54"
+                },
+                {
+                    "level": 0,
+                    "label": "CHAPTER V",
+                    "title": "Being Neighborly",
+                    "pagenum": "71"
+                },
+                {
+                    "level": 0,
+                    "label": "CHAPTER VI",
+                    "title": "Beth finds the Palace Beautiful",
+                    "pagenum": "88"
+                },
+                {
+                    "level": 0,
+                    "label": "CHAPTER VII",
+                    "title": "Amy's Valley of Humiliation",
+                    "pagenum": "98"
+                },
+                {
+                    "level": 0,
+                    "label": "CHAPTER VIII",
+                    "title": "Jo meets Apollyon",
+                    "pagenum": "108"
+                },
+                {
+                    "level": 0,
+                    "label": "CHAPTER IX",
+                    "title": "Meg goes to Vanity Fair",
+                    "pagenum": "124"
+                },
+                {
+                    "level": 0,
+                    "label": "CHAPTER X",
+                    "title": "The P C and P O",
+                    "pagenum": "147"
+                },
+                {
+                    "level": 0,
+                    "label": "CHAPTER XI",
+                    "title": "Experiments",
+                    "pagenum": "158"
+                }
+            ],
+            "pagination": "2 v. :",
+            "covers": [
+                8235491,
+                5585787
+            ],
+            "key": "/books/OL7060579M",
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "ocaid": "littlewomenormeg00alcoiala",
+            "publish_places": [
+                "Boston"
+            ],
+            "contributions": [
+                "Alcott, May, 1840-1879.",
+                "Billings, Hammatt, 1818-1874.",
+                "Andrew, John, 1815-1875."
+            ],
+            "genres": [
+                "Juvenile literature."
+            ],
+            "classifications": {},
+            "source_records": [
+                "ia:littlewomenormeg00alcoiala"
+            ],
+            "title": "Little Women",
+            "identifiers": {},
+            "subjects": [
+                "Family -- Juvenile literature",
+                "Young women -- Conduct of life"
+            ],
+            "publish_date": "1868",
+            "publish_country": "mau",
+            "by_statement": "by Louisa M. Alcott ; illustrated by May Alcott.",
+            "oclc_numbers": [
+                "30743985"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "latest_revision": 51,
+            "revision": 51,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-05-07T00:56:29.362402"
+            }
+        },
+        "/books/OL2739278M": {
+            "identifiers": {
+                "goodreads": [
+                    "571932"
+                ],
+                "librarything": [
+                    "2770499"
+                ]
+            },
+            "subject_place": [
+                "New England"
+            ],
+            "covers": [
+                12811482
+            ],
+            "ia_loaded_id": [
+                "littlewomenormeg1998alco"
+            ],
+            "lc_classifications": [
+                "PZ7.A335 Li 1987",
+                "PZ7.A335Li 1987"
+            ],
+            "ocaid": "littlewomenormeg1998alco",
+            "contributions": [
+                "Smith, Jessie Willcox, 1863-1935, ill.",
+                "Merrill, Frank T. b. 1848, ill."
+            ],
+            "description": "Chronicles the joys and sorrows of the four March sisters as they grow into young ladies in mid-nineteenth-century New England.",
+            "subject_time": [
+                "19th century"
+            ],
+            "source_records": [
+                "marc:marc_records_scriblio_net/part18.dat:170694235:1770",
+                "marc:CollingswoodLibraryMarcDump10-27-2008/Collingswood.out:13906168:1502",
+                "marc:marc_loc_updates/v37.i27.records.utf8:10094792:1772",
+                "ia:littlewomenormeg1998alco",
+                "marc:marc_loc_2016/BooksAll.2016.part17.utf8:65357269:1754",
+                "bwb:9780517634899"
+            ],
+            "title": "Little Women",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "March family (Fictitious characters) -- Juvenile fiction",
+                "Family -- New England -- Juvenile fiction",
+                "Sisters -- New England -- Juvenile fiction",
+                "Family life -- New England -- Fiction",
+                "Sisters -- Fiction",
+                "New England -- Juvenile fiction",
+                "New England -- History -- 19th century -- Fiction"
+            ],
+            "publish_country": "nyu",
+            "by_statement": "by Louisa May Alcott ; color illustrations by Jessie Willcox Smith and drawings by Frank T. Merrill.",
+            "oclc_numbers": [
+                "15109249"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "uris": [
+                "http://www.loc.gov/catdir/bios/random056/86034351.html",
+                "http://www.loc.gov/catdir/samples/random043/86034351.html",
+                "http://www.loc.gov/catdir/description/random049/86034351.html"
+            ],
+            "other_titles": [
+                "Little women.",
+                "Meg, Jo, Beth, and Amy."
+            ],
+            "publishers": [
+                "Children's Classics"
+            ],
+            "ia_box_id": [
+                "IA119417"
+            ],
+            "dewey_decimal_class": [
+                "[Fic]"
+            ],
+            "key": "/books/OL2739278M",
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "pagination": "viii, 388 p., [4] leaves of plates :",
+            "uri_descriptions": [
+                "Contributor biographical information",
+                "Sample text",
+                "Publisher description"
+            ],
+            "classifications": {},
+            "url": [
+                "http://www.loc.gov/catdir/bios/random056/86034351.html",
+                "http://www.loc.gov/catdir/samples/random043/86034351.html",
+                "http://www.loc.gov/catdir/description/random049/86034351.html"
+            ],
+            "number_of_pages": 388,
+            "lccn": [
+                "86034351"
+            ],
+            "isbn_10": [
+                "0517634899"
+            ],
+            "publish_date": "1987",
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "latest_revision": 58,
+            "revision": 58,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:35:16.144835"
+            }
+        },
+        "/books/OL1082277M": {
+            "publishers": [
+                "A.A. Knopf",
+                "Distributed by Random House"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "2770499"
+                ],
+                "goodreads": [
+                    "697222"
+                ]
+            },
+            "description": "Chronicles the joys and sorrows of the four March sisters as they grow into young ladies in nineteenth-century New England.",
+            "subject_place": [
+                "New England"
+            ],
+            "covers": [
+                418182
+            ],
+            "url": [
+                "http://www.loc.gov/catdir/bios/random057/94005865.html",
+                "http://www.loc.gov/catdir/samples/random051/94005865.html",
+                "http://www.loc.gov/catdir/description/random0415/94005865.html"
+            ],
+            "key": "/books/OL1082277M",
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "contributions": [
+                "Gray, M. E."
+            ],
+            "uri_descriptions": [
+                "Contributor biographical information",
+                "Sample text",
+                "Publisher description"
+            ],
+            "pagination": "527 p. :",
+            "source_records": [
+                "marc:marc_records_scriblio_net/part24.dat:44630683:1587",
+                "marc:marc_loc_updates/v37.i27.records.utf8:24343873:1589",
+                "marc:marc_loc_2016/BooksAll.2016.part23.utf8:119167777:1589",
+                "ia:littlewomen0000alco_e9k2",
+                "bwb:9780679436423"
+            ],
+            "title": "Little women or, Meg, Jo, Beth and Amy",
+            "number_of_pages": 527,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "March family (Fictitious characters) -- Juvenile fiction",
+                "Family -- New England -- Juvenile fiction",
+                "Sisters -- New England -- Juvenile fiction",
+                "Family life -- New England -- Fiction",
+                "Sisters -- Fiction",
+                "New England -- Juvenile fiction",
+                "New England -- Fiction"
+            ],
+            "publish_date": "1994",
+            "publish_country": "nyu",
+            "series": [
+                "Everyman's library children's classics"
+            ],
+            "by_statement": "Louisa May Alcott; with illustrations by M.E. Gray.",
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "uris": [
+                "http://www.loc.gov/catdir/bios/random057/94005865.html",
+                "http://www.loc.gov/catdir/samples/random051/94005865.html",
+                "http://www.loc.gov/catdir/description/random0415/94005865.html"
+            ],
+            "isbn_10": [
+                "0679436421"
+            ],
+            "lccn": [
+                "94005865",
+                "84063128"
+            ],
+            "classifications": {},
+            "dewey_decimal_class": [
+                "[Fic]"
+            ],
+            "lc_classifications": [
+                "PZ7.A335 Li 1994",
+                "PZ7.A335 Li 1985",
+                "PZ7.A335Li 1994"
+            ],
+            "latest_revision": 53,
+            "revision": 53,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:35:16.144835"
+            }
+        },
+        "/books/OL17909377M": {
+            "publishers": [
+                "Little, Brown"
+            ],
+            "pagination": "397 p.",
+            "source_records": [
+                "marc:marc_oregon_summit_records/catalog_files/osu_bibs.mrc:308018581:688"
+            ],
+            "title": "Little women; or, Meg, Jo, Beth, and Amy",
+            "series": [
+                "The Beacon Hill bookshelf"
+            ],
+            "number_of_pages": 397,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1939",
+            "publish_country": "mau",
+            "key": "/books/OL17909377M",
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "by_statement": "by Louisa M. Alcott.",
+            "publish_places": [
+                "Boston"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 44,
+            "revision": 44,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-07T14:09:44.097406"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:35:16.144835"
+            }
+        },
+        "/books/OL17204953M": {
+            "other_titles": [
+                "Little women",
+                "Meg, Jo, Beth and Amy"
+            ],
+            "publishers": [
+                "Roberts Brothers."
+            ],
+            "pagination": "xvi, 586, [6] p. :",
+            "key": "/books/OL17204953M",
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "publish_places": [
+                "Boston"
+            ],
+            "contributions": [
+                "Merrill, Frank T. b. 1848, ill.",
+                "Andrew, George T. ill."
+            ],
+            "genres": [
+                "Juvenile fiction."
+            ],
+            "source_records": [
+                "marc:marc_miami_univ_ohio/allbibs0191.out:14038433:1590",
+                "marc:marc_ithaca_college/ic_marc.mrc:74049677:568",
+                "marc:harvard_bibliographic_metadata/ab.bib.01.20150123.full.mrc:877532600:1465",
+                "marc:UniversityOfMichiganMarcCatalogRecords/umich_bib.mrc:57242250:585",
+                "marc:harvard_bibliographic_metadata/20220215_037.bib.mrc:346103149:3352"
+            ],
+            "title": "Little women, or, Meg, Jo, Beth and Amy",
+            "lccn": [
+                "12010052"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "\"The Illustrations, designed by Frank T. Merrill, drawn, engraved, and printed under the supervision of George T. Andrew.\"\n\nRed cloth binding, stamped in black and gold. Gold stamping on front cover illustrates the March sisters playing Pilgrim's Progress.\n\nSix pages of publisher's advertisements follow text.\n\nIncludes parts 1 and 2 of the original text."
+            },
+            "number_of_pages": 586,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "March family (Fictitious characters) -- Juvenile fiction",
+                "Sisters -- New England -- Juvenile fiction",
+                "Family -- New England -- Juvenile fiction",
+                "New England -- Juvenile fiction"
+            ],
+            "publish_date": "1880",
+            "publish_country": "mau",
+            "by_statement": "by Louisa M. Alcott",
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "lc_classifications": [
+                "PZ7.A335 Li5"
+            ],
+            "oclc_numbers": [
+                "944160"
+            ],
+            "latest_revision": 50,
+            "revision": 50,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-27T23:48:48.167172"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-05-12T00:05:28.003678"
+            }
+        },
+        "/books/OL1410229M": {
+            "other_titles": [
+                "Little women.",
+                "Meg, Jo, Beth, and Amy."
+            ],
+            "publishers": [
+                "Holt",
+                "Brand: Henry Holth n Co (J)",
+                "Henry Holt & Co"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "597547"
+                ],
+                "librarything": [
+                    "2770499"
+                ]
+            },
+            "description": {
+                "type": "/type/text",
+                "value": "Chronicles the joys and sorrows of the four March sisters as they grow into young ladies in mid-nineteenth-century New England."
+            },
+            "isbn_10": [
+                "080502767X"
+            ],
+            "series": [
+                "Henry Holt little classics"
+            ],
+            "lc_classifications": [
+                "PZ7.A335 Li 1993"
+            ],
+            "key": "/books/OL1410229M",
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "contributions": [
+                "Hague, Michael, ill."
+            ],
+            "subject_time": [
+                "19th century"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "xvi, 464 p. :",
+            "source_records": [
+                "marc:marc_records_scriblio_net/part23.dat:109492025:1548",
+                "marc:marc_loc_updates/v37.i27.records.utf8:22382616:1555",
+                "marc:marc_loc_2016/BooksAll.2016.part22.utf8:163902766:1555",
+                "bwb:9780805027679",
+                "amazon:080502767X"
+            ],
+            "title": "Little women or Meg, Jo, Beth and Amy",
+            "dewey_decimal_class": [
+                "[Fic]"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "\"First published in 1868\"--verso t.p.\n\"This edition first published in the United Kingdom by Pan Macmillan Children's Books\"--verso t.p."
+            },
+            "number_of_pages": 464,
+            "edition_name": "1st Henry Holt little classics ed.",
+            "lccn": [
+                "93018943"
+            ],
+            "subjects": [
+                "March family (Fictitious characters) -- Juvenile fiction",
+                "Family -- New England -- Juvenile fiction",
+                "Sisters -- New England -- Juvenile fiction",
+                "Family life -- New England -- Fiction",
+                "Sisters -- Fiction",
+                "New England -- Juvenile fiction",
+                "New England -- History -- 19th century -- Fiction"
+            ],
+            "publish_date": "1993",
+            "publish_country": "nyu",
+            "subject_place": [
+                "New England"
+            ],
+            "by_statement": "Louisa May Alcott ; illustrated by Michael Hague.",
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                13277908
+            ],
+            "latest_revision": 50,
+            "revision": 50,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-10T10:43:03.549427"
+            }
+        },
+        "/books/OL37338662M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                },
+                {
+                    "key": "/authors/OL3134963A"
+                }
+            ],
+            "isbn_13": [
+                "9781350331914"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "96",
+            "publish_date": "2022",
+            "publishers": [
+                "Bloomsbury Publishing Plc"
+            ],
+            "source_records": [
+                "bwb:9781350331914"
+            ],
+            "title": "Little Women",
+            "full_title": "Little Women",
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL37338662M",
+            "covers": [
+                14768193
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-02-28T10:25:49.343338"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-24T02:03:46.797437"
+            }
+        },
+        "/books/OL36952145M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "isbn_13": [
+                "9798700450065"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "566",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798700450065"
+            ],
+            "title": "Little Women",
+            "weight": "1.591",
+            "subtitle": "Illustrated with More Than 100 Pictures",
+            "full_title": "Little Women Illustrated with More Than 100 Pictures",
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL36952145M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-01-29T06:52:58.596343"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:34:19.995032"
+            }
+        },
+        "/books/OL36986704M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "isbn_13": [
+                "9798490010005"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "539",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798490010005"
+            ],
+            "title": "Little Women",
+            "weight": "0.895",
+            "subtitle": "Louisa Alcott - a Young Adult Annotated Novel",
+            "full_title": "Little Women Louisa Alcott - a Young Adult Annotated Novel",
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL36986704M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-01-29T12:46:08.711094"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:34:19.995032"
+            }
+        },
+        "/books/OL36296513M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                },
+                {
+                    "key": "/authors/OL2955843A"
+                }
+            ],
+            "isbn_13": [
+                "9781616416935"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "112",
+            "publish_date": "2011",
+            "publishers": [
+                "ABDO Publishing Company"
+            ],
+            "source_records": [
+                "bwb:9781616416935"
+            ],
+            "subjects": [
+                "Mothers and daughters, fiction",
+                "Young women, fiction",
+                "Fiction, family life, general",
+                "March family (fictitious characters), fiction",
+                "New england, fiction",
+                "Sisters, fiction",
+                "American fiction (fictional works by one author)"
+            ],
+            "title": "Little Women",
+            "full_title": "Little Women",
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL36296513M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-12-30T05:06:12.920042"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:34:19.995032"
+            }
+        },
+        "/books/OL35505848M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "isbn_13": [
+                "9781480483576"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "528",
+            "publish_date": "2014",
+            "publishers": [
+                "Open Road Integrated Media, Inc."
+            ],
+            "source_records": [
+                "bwb:9781480483576"
+            ],
+            "subjects": [
+                "Mothers and daughters, fiction",
+                "Young women, fiction",
+                "Fiction, family life, general",
+                "March family (fictitious characters), fiction",
+                "New england, fiction",
+                "Sisters, fiction",
+                "American fiction (fictional works by one author)"
+            ],
+            "title": "Little Women",
+            "full_title": "Little Women",
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL35505848M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T18:35:41.790039"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:34:19.995032"
+            }
+        },
+        "/books/OL35645892M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Little Women",
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "source_records": [
+                "amazon:9758406701"
+            ],
+            "publishers": [
+                "Beşir Kitabevi"
+            ],
+            "isbn_10": [
+                "9758406701"
+            ],
+            "isbn_13": [
+                "9789758406708"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Little Women Level-4",
+            "subtitle": "Level-4",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Little Women: Level-4"
+            },
+            "covers": [
+                12352910
+            ],
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL35645892M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-07T05:00:13.590986"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:34:19.995032"
+            }
+        },
+        "/books/OL35010426M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "isbn_13": [
+                "9798528572826"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798528572826"
+            ],
+            "title": "Little Women Annotated",
+            "weight": "0.941",
+            "pagination": "655",
+            "full_title": "Little Women Annotated",
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL35010426M",
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-09T21:37:07.794544"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:34:19.995032"
+            }
+        },
+        "/books/OL35022781M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "isbn_13": [
+                "9798749590326"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798749590326"
+            ],
+            "title": "Little Women",
+            "weight": "0.964",
+            "pagination": "674",
+            "full_title": "Little Women",
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL35022781M",
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-09T23:22:00.123206"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:34:19.995032"
+            }
+        },
+        "/books/OL34207288M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "isbn_13": [
+                "9798522304287"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 639,
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798522304287"
+            ],
+            "title": "Little Women Illustrated",
+            "weight": "0.918",
+            "full_title": "Little Women Illustrated",
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL34207288M",
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-01T00:47:09.843992"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:34:19.995032"
+            }
+        },
+        "/books/OL34145108M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "isbn_13": [
+                "9798738501166"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 639,
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798738501166"
+            ],
+            "title": "Little Women Illustrated",
+            "weight": "0.918",
+            "full_title": "Little Women Illustrated",
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL34145108M",
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-09-30T14:33:52.829994"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:34:19.995032"
+            }
+        },
+        "/books/OL33877378M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Little Women",
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "publish_date": "Feb 01, 2020",
+            "source_records": [
+                "amazon:1925788334"
+            ],
+            "number_of_pages": 460,
+            "publishers": [
+                "Woolf Haus Publishing"
+            ],
+            "isbn_10": [
+                "1925788334"
+            ],
+            "isbn_13": [
+                "9781925788334"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Little Women",
+            "covers": [
+                11989945
+            ],
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL33877378M",
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-09-24T01:57:02.934451"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:34:19.995032"
+            }
+        },
+        "/books/OL33361111M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Little Women",
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "publish_date": "Dec 11, 2015",
+            "source_records": [
+                "amazon:1519799047"
+            ],
+            "number_of_pages": 312,
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "isbn_10": [
+                "1519799047"
+            ],
+            "isbn_13": [
+                "9781519799043"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Little Women Or Meg, Jo, Beth, and Amy",
+            "subtitle": "Or Meg, Jo, Beth, and Amy",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Little Women: Or Meg, Jo, Beth, and Amy"
+            },
+            "covers": [
+                11968448
+            ],
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL33361111M",
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-09-16T08:08:22.040467"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:34:19.995032"
+            }
+        },
+        "/books/OL33272190M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Little Women",
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "publish_date": "Oct 01, 2019",
+            "source_records": [
+                "amazon:1528714032",
+                "bwb:9781528714037"
+            ],
+            "number_of_pages": 566,
+            "publishers": [
+                "Read & Co. Books"
+            ],
+            "isbn_10": [
+                "1528714032"
+            ],
+            "isbn_13": [
+                "9781528714037"
+            ],
+            "physical_format": "hardcover",
+            "full_title": "Little Women",
+            "covers": [
+                11945889
+            ],
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL33272190M",
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-09-12T04:57:42.279291"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:34:19.995032"
+            }
+        },
+        "/books/OL32489808M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Little Women",
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                },
+                {
+                    "key": "/authors/OL9234554A"
+                }
+            ],
+            "publish_date": "Jul 20, 2010",
+            "source_records": [
+                "amazon:1441744150"
+            ],
+            "publishers": [
+                "Blackstone Audio, Inc.",
+                "Blackstone Audiobooks"
+            ],
+            "isbn_10": [
+                "1441744150"
+            ],
+            "isbn_13": [
+                "9781441744159"
+            ],
+            "physical_format": "audio cd",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Little Women (Library Edition)"
+            },
+            "full_title": "Little Women",
+            "covers": [
+                11144228
+            ],
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL32489808M",
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-05-22T10:19:17.141358"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:34:19.995032"
+            }
+        },
+        "/books/OL9397324M": {
+            "publishers": [
+                "Gallimard"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "2738545"
+                ],
+                "librarything": [
+                    "2770499"
+                ]
+            },
+            "weight": "1.4 pounds",
+            "covers": [
+                12812475
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL9397324M",
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                },
+                {
+                    "key": "/authors/OL3251986A"
+                },
+                {
+                    "key": "/authors/OL3251987A"
+                }
+            ],
+            "isbn_13": [
+                "9782070503551"
+            ],
+            "title": "Les quatre filles du docteur March",
+            "number_of_pages": 285,
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "isbn_10": [
+                "2070503550"
+            ],
+            "publish_date": "November 27, 1996",
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.8 x 6.6 x 0.7 inches",
+            "ocaid": "lesquatresfilles0000alco",
+            "source_records": [
+                "ia:lesquatresfilles0000alco",
+                "promise:bwb_daily_pallets_2020-12-14"
+            ],
+            "local_id": [
+                "urn:bwbsku:KI-298-676"
+            ],
+            "latest_revision": 12,
+            "revision": 12,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-15T10:06:54.734978"
+            }
+        },
+        "/books/OL7778283M": {
+            "publishers": [
+                "Ulverscroft Large Print"
+            ],
+            "number_of_pages": 384,
+            "weight": "1.2 pounds",
+            "series": [
+                "(Ulverscroft Large Print)"
+            ],
+            "physical_format": "Hardcover",
+            "key": "/books/OL7778283M",
+            "authors": [
+                {
+                    "key": "/authors/OL395577A"
+                }
+            ],
+            "subjects": [
+                "Romance",
+                "Fiction - Romance",
+                "Large Print",
+                "Romance - General"
+            ],
+            "edition_name": "Lrg edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "classifications": {},
+            "title": "Bachelors Galore",
+            "identifiers": {
+                "librarything": [
+                    "1686212"
+                ],
+                "goodreads": [
+                    "6286448"
+                ]
+            },
+            "isbn_13": [
+                "9780708929049"
+            ],
+            "isbn_10": [
+                "0708929044"
+            ],
+            "publish_date": "July 1993",
+            "works": [
+                {
+                    "key": "/works/OL2705576W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.8 x 5.8 x 1.2 inches",
+            "local_id": [
+                "urn:bwbsku:KQ-038-665"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-05-03",
+                "amazon:0708929044"
+            ],
+            "covers": [
+                13187274
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-01T06:45:51.044423"
+            }
+        },
+        "/books/OL38268326M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2013",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781283677127"
+            ],
+            "title": "Not Once but Twice",
+            "full_title": "Not Once but Twice",
+            "works": [
+                {
+                    "key": "/works/OL3457830W"
+                }
+            ],
+            "key": "/books/OL38268326M",
+            "identifiers": {},
+            "isbn_13": [
+                "9781283677127"
+            ],
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-17T11:18:32.674532"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-08T21:59:47.524434"
+            }
+        },
+        "/books/OL24270320M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "physical_format": "Electronic resource",
+            "source_records": [
+                "marc_overdrive/InternetArchiveCrMarc-2010-06-11p.mrc:6933824:2034",
+                "bwb:9781426863622"
+            ],
+            "title": "A Passionate Revenge",
+            "identifiers": {
+                "overdrive": [
+                    "0B617D41-0C40-48A0-ACEC-D53480797104"
+                ]
+            },
+            "isbn_13": [
+                "9781426863622"
+            ],
+            "covers": [
+                6419645
+            ],
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-06-18T00:14:12.891195"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-08-29T05:42:21.560511"
+            },
+            "publish_date": "2010",
+            "publish_country": "nyu",
+            "key": "/books/OL24270320M",
+            "authors": [
+                {
+                    "key": "/authors/OL807281A"
+                }
+            ],
+            "latest_revision": 6,
+            "publish_places": [
+                "Toronto, Ontario"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4221196W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 6
+        },
+        "/books/OL24766795M": {
+            "publishers": [
+                "Avon"
+            ],
+            "ia_box_id": [
+                "IA116102"
+            ],
+            "covers": [
+                7277754,
+                6820648
+            ],
+            "full_title": "Stormfire",
+            "key": "/books/OL24766795M",
+            "authors": [
+                {
+                    "key": "/authors/OL1081490A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "pagination": "568 p. ;",
+            "source_records": [
+                "ia:stormfire00mons",
+                "bwb:9780380876686",
+                "amazon:038087668X",
+                "promise:bwb_daily_pallets_2022-11-22",
+                "marc:harvard_bibliographic_metadata/20220215_009.bib.mrc:270386465:1187"
+            ],
+            "title": "Stormfire",
+            "number_of_pages": 568,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1984",
+            "publish_country": "nyu",
+            "by_statement": "Christine Monson",
+            "works": [
+                {
+                    "key": "/works/OL4996286W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "ocaid": "stormfire00mons",
+            "isbn_10": [
+                "038087668X"
+            ],
+            "isbn_13": [
+                "9780380876686"
+            ],
+            "lccn": [
+                "84090894"
+            ],
+            "oclc_numbers": [
+                "10821931"
+            ],
+            "classifications": {},
+            "local_id": [
+                "urn:bwbsku:O8-CXI-591"
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2011-07-13T23:41:22.081531"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-07-23T07:32:23.560161"
+            }
+        },
+        "/books/OL16889899M": {
+            "publishers": [
+                "Little, Brown, and Company"
+            ],
+            "key": "/books/OL16889899M",
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "publish_places": [
+                "Boston"
+            ],
+            "contributions": [
+                "Merrill, Frank T.  b. 1848",
+                "Garrett, Edmund Henry, 1853-1929"
+            ],
+            "pagination": "xvi, 586, [4] p., [6] leaves of plates :",
+            "source_records": [
+                "marc:marc_miami_univ_ohio/allbibs0112.out:2903747:1314"
+            ],
+            "title": "Little women; or, Meg, Jo, Beth, and Amy",
+            "lccn": [
+                "09035178"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Publisher's list of other Alcott works [4] p. at end\n\nPublication date from NUC, cited below\n\nBound in gray pictorial cloth, stamped in brown, green, red, and cream\n\nNUC Pre-1956,  7:558\n\nKing Collection copy with previous owner's signature and a dated gift inscription on front endpapers"
+            },
+            "number_of_pages": 586,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1908",
+            "publish_country": "mau",
+            "by_statement": "by Louisa M. Alcott ... With more than 200 illustrations by Frank T. Merrill and a picture of the home of the Little women, by Edmund H. Garrett",
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 44,
+            "revision": 44,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-26T13:12:14.623207"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:35:16.144835"
+            }
+        },
+        "/books/OL3688152M": {
+            "other_titles": [
+                "Little women",
+                "Meg, Jo, Beth, and Amy"
+            ],
+            "publishers": [
+                "Norton"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "1938"
+                ],
+                "librarything": [
+                    "7199820"
+                ]
+            },
+            "isbn_10": [
+                "0393976149"
+            ],
+            "subject_place": [
+                "New England"
+            ],
+            "pagination": "xi, 665 p. :",
+            "covers": [
+                253005
+            ],
+            "lc_classifications": [
+                "PS1017 .L5 2004",
+                "PS1017.L5 2003",
+                "PS1017 .L5 2004b"
+            ],
+            "key": "/books/OL3688152M",
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "contributions": [
+                "Phillips, Anne K.",
+                "Eiselein, Gregory, 1965-"
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "source_records": [
+                "marc:marc_records_scriblio_net/part14.dat:152381149:1298",
+                "marc:marc_loc_updates/v35.i26.records.utf8:3930998:1299",
+                "marc:marc_ithaca_college/ic_marc.mrc:200578968:1171",
+                "bwb:9780393976144",
+                "marc:marc_loc_2016/BooksAll.2016.part30.utf8:193828345:1299",
+                "marc:marc_columbia/Columbia-extract-20221130-032.mrc:50752240:3631",
+                "marc:harvard_bibliographic_metadata/ab.bib.09.20150123.full.mrc:198668853:1412"
+            ],
+            "title": "Little women, or, Meg, Jo, Beth, and Amy",
+            "dewey_decimal_class": [
+                "813/.4"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Includes bibliographical references (p. 663-665).\n\"Authoritative text, backgrounds and contexts, criticism.\""
+            },
+            "number_of_pages": 665,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lccn": [
+                "2003054123"
+            ],
+            "subjects": [
+                "Alcott, Louisa May, 1832-1888",
+                "March family (Fictitious characters) -- Fiction",
+                "Mothers and daughters -- Fiction",
+                "Young women -- Fiction",
+                "Sisters -- Fiction",
+                "New England -- Fiction"
+            ],
+            "publish_date": "2004",
+            "publish_country": "nyu",
+            "by_statement": "Louisa M. Alcott ; edited by Anne K. Phillips, Gregory Eiselein.",
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "oclc_numbers": [
+                "52429670"
+            ],
+            "latest_revision": 54,
+            "revision": 54,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-09-11T11:10:27.492787"
+            }
+        },
+        "/books/OL660817M": {
+            "other_titles": [
+                "Little women",
+                "Meg, Jo, Beth, and Amy"
+            ],
+            "publishers": [
+                "Focus on the Family Pub.",
+                "Distributed in the USA by Word Books"
+            ],
+            "number_of_pages": 526,
+            "isbn_10": [
+                "1561795208"
+            ],
+            "series": [
+                "Classic collections series (Colorado Springs, Colo.)"
+            ],
+            "covers": [
+                -1
+            ],
+            "lc_classifications": [
+                "PS1017 .L5 1997"
+            ],
+            "key": "/books/OL660817M",
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "publish_places": [
+                "Colorado Springs, Colo",
+                "Dallas"
+            ],
+            "pagination": "xxxvii, 526 p. :",
+            "source_records": [
+                "marc:marc_records_scriblio_net/part26.dat:116627469:1125"
+            ],
+            "title": "Little women, or, Meg, Jo, Beth, and Amy",
+            "dewey_decimal_class": [
+                "813/.4"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "2468157"
+                ],
+                "librarything": [
+                    "463031"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lccn": [
+                "97006220"
+            ],
+            "subjects": [
+                "March family (Fictitious characters) -- Fiction",
+                "Mothers and daughters -- Fiction",
+                "Young women -- Fiction",
+                "Sisters -- Fiction",
+                "New England -- Fiction"
+            ],
+            "publish_date": "1997",
+            "publish_country": "cou",
+            "subject_place": [
+                "New England"
+            ],
+            "by_statement": "by Louisa M. Alcott ; with an introduction and afterword by Joe L. Wheeler.",
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 48,
+            "revision": 48,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:35:16.144835"
+            }
+        },
+        "/books/OL6805974M": {
+            "other_titles": [
+                "Little women",
+                "Meg, Jo, Beth, and Amy"
+            ],
+            "publishers": [
+                "Trident Press International"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "2770499"
+                ],
+                "goodreads": [
+                    "1843519",
+                    "1880500"
+                ]
+            },
+            "description": {
+                "type": "/type/text",
+                "value": "Chronicles the joys and sorrows of the four March sisters as they grow into young women in mid-nineteenth-century New England."
+            },
+            "isbn_10": [
+                "1582790752",
+                "1582790698"
+            ],
+            "subject_place": [
+                "New England"
+            ],
+            "pagination": "532 p. :",
+            "covers": [
+                1945108,
+                845863
+            ],
+            "lc_classifications": [
+                "PZ7.A335 Li 2000b",
+                "PZ7.A335Li 2000b"
+            ],
+            "key": "/books/OL6805974M",
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "publish_places": [
+                "[Naples, FL]"
+            ],
+            "subject_time": [
+                "19th century"
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "source_records": [
+                "marc:marc_records_scriblio_net/part01.dat:29559015:969",
+                "marc:marc_loc_2016/BooksAll.2016.part01.utf8:63800016:969",
+                "bwb:9781582790756",
+                "bwb:9781582790695"
+            ],
+            "title": "Little women, or, Meg, Jo, Beth, and Amy",
+            "dewey_decimal_class": [
+                "[Fic]"
+            ],
+            "number_of_pages": 532,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lccn": [
+                "00269142"
+            ],
+            "subjects": [
+                "Sisters -- Fiction",
+                "Family life -- New England -- Fiction",
+                "New England -- History -- 19th century -- Fiction"
+            ],
+            "publish_date": "2000",
+            "publish_country": "flu",
+            "by_statement": "by Louisa M. Alcott ; parts I and II with illustrations.",
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 50,
+            "revision": 50,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:35:16.144835"
+            }
+        },
+        "/books/OL37633294M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "isbn_13": [
+                "9798682160730"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "440",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798682160730"
+            ],
+            "title": "Little Women",
+            "weight": "0.736",
+            "subtitle": "Original Text",
+            "full_title": "Little Women Original Text",
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL37633294M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-03-03T08:43:31.760446"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:34:19.995032"
+            }
+        },
+        "/books/OL36968671M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL3054416A"
+                },
+                {
+                    "key": "/authors/OL2731620A"
+                },
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "isbn_13": [
+                "9798559239101"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "459",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798559239101"
+            ],
+            "title": "LITTLE WOMEN",
+            "weight": "0.768",
+            "subtitle": "Or Meg, Jo, Beth, and Amy",
+            "full_title": "LITTLE WOMEN Or Meg, Jo, Beth, and Amy",
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL36968671M",
+            "contributors": [
+                {
+                    "role": "Contributor",
+                    "name": "Barry"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-01-29T09:42:59.171135"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-24T10:57:14.401296"
+            }
+        },
+        "/books/OL36190529M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "isbn_13": [
+                "9780007382644"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "320",
+            "publish_date": "2010",
+            "publishers": [
+                "HarperCollins Publishers Limited"
+            ],
+            "source_records": [
+                "bwb:9780007382644"
+            ],
+            "subjects": [
+                "American fiction (fictional works by one author)",
+                "New england, fiction",
+                "Sisters, fiction",
+                "March family (fictitious characters), fiction"
+            ],
+            "title": "Little Women",
+            "full_title": "Little Women",
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL36190529M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-12-29T03:36:20.677027"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:34:19.995032"
+            }
+        },
+        "/books/OL36421760M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "isbn_13": [
+                "9781006515637"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "440",
+            "publish_date": "2021",
+            "publishers": [
+                "Blurb, Incorporated"
+            ],
+            "source_records": [
+                "bwb:9781006515637"
+            ],
+            "title": "Little Women",
+            "weight": "0.586",
+            "full_title": "Little Women",
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL36421760M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-12-31T05:29:01.975566"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:34:19.995032"
+            }
+        },
+        "/books/OL36431954M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "isbn_13": [
+                "9781006544705"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "440",
+            "publish_date": "2021",
+            "publishers": [
+                "Blurb, Incorporated"
+            ],
+            "source_records": [
+                "bwb:9781006544705"
+            ],
+            "title": "Little Women",
+            "weight": "0.755",
+            "full_title": "Little Women",
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL36431954M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-12-31T07:25:45.331867"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:34:19.995032"
+            }
+        },
+        "/books/OL36462127M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "isbn_13": [
+                "9798459328936"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "557",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798459328936"
+            ],
+            "title": "Little Women",
+            "weight": "0.923",
+            "subtitle": "Romance Literary Fiction",
+            "full_title": "Little Women Romance Literary Fiction",
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL36462127M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-12-31T12:14:54.212245"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:34:19.995032"
+            }
+        },
+        "/books/OL35538772M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "isbn_13": [
+                "9781473531291"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "224",
+            "publish_date": "2017",
+            "publishers": [
+                "Ebury Publishing"
+            ],
+            "source_records": [
+                "bwb:9781473531291"
+            ],
+            "subjects": [
+                "Mothers and daughters, fiction",
+                "Young women, fiction",
+                "Fiction, family life, general",
+                "March family (fictitious characters), fiction",
+                "New england, fiction",
+                "Sisters, fiction",
+                "American fiction (fictional works by one author)"
+            ],
+            "title": "Little Women",
+            "subtitle": "Official BBC TV Tie-In Edition",
+            "full_title": "Little Women Official BBC TV Tie-In Edition",
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL35538772M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-03T00:53:48.850944"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:34:19.995032"
+            }
+        },
+        "/books/OL35170732M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "isbn_13": [
+                "9798526761482"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798526761482"
+            ],
+            "title": "Little Women Annotated",
+            "weight": "0.914",
+            "pagination": "637",
+            "full_title": "Little Women Annotated",
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL35170732M",
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-10T21:40:27.597074"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:34:19.995032"
+            }
+        },
+        "/books/OL34235634M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "isbn_13": [
+                "9798717804639"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 638,
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798717804639"
+            ],
+            "title": "Little Women Illustrated",
+            "weight": "0.914",
+            "full_title": "Little Women Illustrated",
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL34235634M",
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-01T12:25:38.425835"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:34:19.995032"
+            }
+        },
+        "/books/OL34231756M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Little Women",
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "publish_date": "Sep 27, 2014",
+            "source_records": [
+                "amazon:1453089128"
+            ],
+            "number_of_pages": 178,
+            "publishers": [
+                "Bendon"
+            ],
+            "isbn_10": [
+                "1453089128"
+            ],
+            "isbn_13": [
+                "9781453089125"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Little Women",
+            "covers": [
+                12028404
+            ],
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL34231756M",
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-01T11:49:18.232179"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:34:19.995032"
+            }
+        },
+        "/books/OL34201625M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "isbn_13": [
+                "9798699237999"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 492,
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798699237999"
+            ],
+            "title": "Little Women",
+            "weight": "1.195",
+            "full_title": "Little Women",
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL34201625M",
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-09-30T23:46:50.307596"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:34:19.995032"
+            }
+        },
+        "/books/OL33957956M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "isbn_13": [
+                "9780008514396"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2021",
+            "publishers": [
+                "HarperCollins Publishers Limited"
+            ],
+            "source_records": [
+                "bwb:9780008514396"
+            ],
+            "title": "Little Women",
+            "full_title": "Little Women",
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL33957956M",
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-09-28T16:07:24.653491"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:34:19.995032"
+            }
+        },
+        "/books/OL33917048M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "isbn_13": [
+                "9780785839767"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 528,
+            "publish_date": "2021",
+            "publishers": [
+                "Book Sales, Incorporated"
+            ],
+            "source_records": [
+                "bwb:9780785839767",
+                "amazon:0785839763"
+            ],
+            "title": "Little Women",
+            "full_title": "Little Women",
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL33917048M",
+            "covers": [
+                13181858
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-09-28T09:41:51.922614"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-01T00:18:57.681066"
+            }
+        },
+        "/books/OL33893864M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Little Women",
+            "authors": [
+                {
+                    "key": "/authors/OL9567925A"
+                },
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "publish_date": "Dec 15, 2021",
+            "source_records": [
+                "amazon:9811244553",
+                "bwb:9789811244551"
+            ],
+            "number_of_pages": 96,
+            "publishers": [
+                "Co-Published with Ws Education (Children's)",
+                "Write Editions"
+            ],
+            "isbn_10": [
+                "9811244553"
+            ],
+            "isbn_13": [
+                "9789811244551"
+            ],
+            "physical_format": "hardcover",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Little Women (Pop! Lit for Kids)"
+            },
+            "full_title": "Little Women",
+            "covers": [
+                -1
+            ],
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL33893864M",
+            "lc_classifications": [
+                "MLCS 2023/42729 (P)"
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-09-26T22:04:58.664787"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-18T01:29:56.827621"
+            }
+        },
+        "/books/OL32885075M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Little Women",
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                },
+                {
+                    "key": "/authors/OL395483A"
+                }
+            ],
+            "publish_date": "Dec 01, 2007",
+            "source_records": [
+                "amazon:1433213486"
+            ],
+            "publishers": [
+                "Blackstone Audio, Inc.",
+                "Blackstone Audiobooks"
+            ],
+            "isbn_10": [
+                "1433213486"
+            ],
+            "isbn_13": [
+                "9781433213489"
+            ],
+            "physical_format": "audio cd",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Little Women (Classics Read By Celebrities Series)(Library Edition)"
+            },
+            "full_title": "Little Women",
+            "covers": [
+                11516482
+            ],
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL32885075M",
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-07-28T01:03:05.009677"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:34:19.995032"
+            }
+        },
+        "/books/OL33139560M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Little Women",
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "publish_date": "May 03, 2018",
+            "source_records": [
+                "amazon:1718682395",
+                "bwb:9781718682399"
+            ],
+            "number_of_pages": 400,
+            "publishers": [
+                "Createspace Independent Publishing Platform",
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "isbn_10": [
+                "1718682395"
+            ],
+            "isbn_13": [
+                "9781718682399"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Little Women",
+            "covers": [
+                11843461
+            ],
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL33139560M",
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-08-28T21:11:12.531933"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:34:19.995032"
+            }
+        },
+        "/books/OL32546496M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Little Women",
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                },
+                {
+                    "key": "/authors/OL7539194A"
+                },
+                {
+                    "key": "/authors/OL227412A"
+                }
+            ],
+            "publish_date": "Feb 23, 2021",
+            "source_records": [
+                "amazon:0143136208",
+                "bwb:9780143136200"
+            ],
+            "number_of_pages": 496,
+            "publishers": [
+                "Penguin Classics"
+            ],
+            "physical_format": "hardcover",
+            "notes": "Source title: Little Women (Penguin Vitae)",
+            "full_title": "Little Women",
+            "covers": [
+                11194201
+            ],
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL32546496M",
+            "identifiers": {},
+            "isbn_10": [
+                "0143136208"
+            ],
+            "isbn_13": [
+                "9780143136200"
+            ],
+            "classifications": {},
+            "lc_classifications": [
+                "PS1017"
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-05-31T05:48:24.972179"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-05T18:00:32.542328"
+            }
+        },
+        "/books/OL32660659M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Little Women",
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "publish_date": "Nov 20, 2016",
+            "source_records": [
+                "amazon:1540500586",
+                "bwb:9781540500588"
+            ],
+            "number_of_pages": 484,
+            "publishers": [
+                "Createspace Independent Publishing Platform",
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "isbn_10": [
+                "1540500586"
+            ],
+            "isbn_13": [
+                "9781540500588"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Little Women",
+            "covers": [
+                11288271
+            ],
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL32660659M",
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-06-21T20:22:21.817524"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:34:19.995032"
+            }
+        },
+        "/books/OL32219732M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Les quatre filles du Docteur March",
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                },
+                {
+                    "key": "/authors/OL138285A"
+                }
+            ],
+            "publish_date": "Jan 10, 2020",
+            "source_records": [
+                "amazon:1658260481"
+            ],
+            "number_of_pages": 220,
+            "publishers": [
+                "Independently Published",
+                "Independently published"
+            ],
+            "isbn_10": [
+                "1658260481"
+            ],
+            "isbn_13": [
+                "9781658260480"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Les quatre filles du Docteur March un grand classique de la littérature jeunesse",
+            "subtitle": "un grand classique de la littérature jeunesse",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Les quatre filles du Docteur March: un grand classique de la littérature jeunesse (fictions et héroïnes jeunesse) (French Edition)"
+            },
+            "covers": [
+                10863032
+            ],
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL32219732M",
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-04-18T22:31:20.728961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:34:19.995032"
+            }
+        },
+        "/books/OL32219733M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Les quatre filles du Docteur March",
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                },
+                {
+                    "key": "/authors/OL138285A"
+                }
+            ],
+            "publish_date": "Jan 10, 2020",
+            "source_records": [
+                "amazon:1658260481",
+                "bwb:9781658260480"
+            ],
+            "number_of_pages": 220,
+            "publishers": [
+                "Independently Published",
+                "Independently published"
+            ],
+            "isbn_10": [
+                "1658260481"
+            ],
+            "isbn_13": [
+                "9781658260480"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Les quatre filles du Docteur March un grand classique de la littérature jeunesse",
+            "subtitle": "un grand classique de la littérature jeunesse",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Les quatre filles du Docteur March: un grand classique de la littérature jeunesse (fictions et héroïnes jeunesse) (French Edition)"
+            },
+            "covers": [
+                10863031
+            ],
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "key": "/books/OL32219733M",
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-04-18T22:31:20.733879"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-11-27T03:56:04.412718"
+            }
+        },
+        "/books/OL28307260M": {
+            "publishers": [
+                "Alfaguara",
+                "ALFAGUARA"
+            ],
+            "source_records": [
+                "amazon:8420452912"
+            ],
+            "title": "Mujercitas",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Mujercitas (Colección Alfaguara Clásicos) (Spanish Edition)"
+            },
+            "number_of_pages": 352,
+            "isbn_13": [
+                "9788420452913"
+            ],
+            "covers": [
+                10235117
+            ],
+            "physical_format": "hardcover",
+            "full_title": "Mujercitas",
+            "isbn_10": [
+                "8420452912"
+            ],
+            "publish_date": "Nov 14, 2019",
+            "key": "/books/OL28307260M",
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                },
+                {
+                    "key": "/authors/OL7995112A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-07-05T22:54:12.390810"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:34:19.995032"
+            }
+        },
+        "/books/OL28330141M": {
+            "publishers": [
+                "Circulo de Lectores"
+            ],
+            "source_records": [
+                "amazon:8422654067"
+            ],
+            "title": "Mujercitas",
+            "isbn_13": [
+                "9788422654063"
+            ],
+            "covers": [
+                10279116
+            ],
+            "physical_format": "paperback",
+            "full_title": "Mujercitas",
+            "isbn_10": [
+                "8422654067"
+            ],
+            "publish_date": "Jan 01, 1995",
+            "key": "/books/OL28330141M",
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-07-14T17:52:21.877187"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-07-01T08:34:19.995032"
+            }
+        },
+        "/books/OL8833313M": {
+            "identifiers": {
+                "librarything": [
+                    "2770499"
+                ],
+                "goodreads": [
+                    "2738554"
+                ]
+            },
+            "title": "Les quatre filles du docteur March",
+            "authors": [
+                {
+                    "key": "/authors/OL26680A"
+                }
+            ],
+            "publish_date": "July 15, 1987",
+            "publishers": [
+                "Hachette Littérature"
+            ],
+            "weight": "1 pounds",
+            "covers": [
+                962501
+            ],
+            "physical_format": "Mass Market Paperback",
+            "source_records": [
+                "amazon:2010100166:gh:387722881:141947",
+                "promise:bwb_daily_pallets_2023-05-24:KO-350-214"
+            ],
+            "isbn_13": [
+                "9782010100161"
+            ],
+            "isbn_10": [
+                "2010100166"
+            ],
+            "oclc_numbers": [
+                "417598345"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "7.9 x 5.1 x 1.2 inches",
+            "local_id": [
+                "urn:bwbsku:KO-350-214"
+            ],
+            "ocaid": "lesquatrefillesd0000loui",
+            "key": "/books/OL8833313M",
+            "number_of_pages": 387,
+            "works": [
+                {
+                    "key": "/works/OL29983W"
+                }
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T08:14:56.482104"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-03-23T03:03:16.139782"
+            }
+        },
+        "/books/OL26396927M": {
+            "publishers": [
+                "F. A. Thorpe (Publishing) Ltd"
+            ],
+            "source_records": [
+                "ia:bachelorsgalore00essi"
+            ],
+            "title": "Bachelors Galore",
+            "openlibrary": "/books/OL7778283M",
+            "identifiers": {},
+            "covers": [
+                10527003,
+                8093681
+            ],
+            "publish_date": "1993",
+            "key": "/books/OL26396927M",
+            "works": [
+                {
+                    "key": "/works/OL2705576W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "edition_name": "Ulverscroft Large Print",
+            "copyright_date": "1958",
+            "physical_format": "Hardcover",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "ocaid": "bachelorsgalore00essi",
+            "isbn_10": [
+                "0708929044"
+            ],
+            "publish_places": [
+                "Anstey, Leicestershire"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2017-11-12T05:27:50.777843"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-06-29T08:10:52.464001"
+            }
+        },
+        "/books/OL31833990M": {
+            "works": [
+                {
+                    "key": "/works/OL2705576W"
+                }
+            ],
+            "title": "Bachelors Galore",
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "publish_date": "1958",
+            "key": "/books/OL31833990M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                11125865,
+                -1
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B0000CMGR4"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 191,
+            "physical_format": "Hardcover",
+            "oclc_numbers": [
+                "504001862"
+            ],
+            "copyright_date": "1958",
+            "edition_name": "First edition",
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-12-29T12:21:06.217268"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-06-29T08:14:24.154258"
+            }
+        },
+        "/books/OL29127329M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781408982556"
+            ],
+            "title": "Not Once but Twice",
+            "number_of_pages": 220,
+            "isbn_13": [
+                "9781408982556"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Not Once but Twice",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2012",
+            "key": "/books/OL29127329M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3457830W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-22T09:28:25.013009"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-08T21:59:47.524434"
+            }
+        },
+        "/books/OL26112068M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "source_records": [
+                "bwb:9780373199624",
+                "amazon:0373199627"
+            ],
+            "title": "Not Once But Twice\r\n            \r\n                Best of Betty Neels",
+            "identifiers": {},
+            "covers": [
+                7747724
+            ],
+            "isbn_13": [
+                "9780373199624"
+            ],
+            "publish_date": "2010",
+            "key": "/books/OL26112068M",
+            "works": [
+                {
+                    "key": "/works/OL3457830W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2016-10-14T17:08:59.591625"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-08T21:59:47.524434"
+            }
+        },
+        "/books/OL24967698M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "ia_box_id": [
+                "IA141002"
+            ],
+            "covers": [
+                6947642
+            ],
+            "ia_loaded_id": [
+                "notoncebuttwice00neel"
+            ],
+            "key": "/books/OL24967698M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "187p. ;",
+            "source_records": [
+                "ia:notoncebuttwice00neel"
+            ],
+            "title": "Not Once But Twice",
+            "number_of_pages": 187,
+            "full_title": "Not once but twice",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1981",
+            "publish_country": "xxk",
+            "by_statement": "by Betty Neels",
+            "works": [
+                {
+                    "key": "/works/OL3457830W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "ocaid": "notoncebuttwice00neel",
+            "isbn_10": [
+                "0263098222"
+            ],
+            "classifications": {},
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2011-08-12T08:53:55.698859"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-08T21:59:47.524434"
+            }
+        },
+        "/books/OL10280582M": {
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "1767559"
+                ],
+                "librarything": [
+                    "1745371"
+                ]
+            },
+            "title": "Not Once But Twice",
+            "type": {
+                "key": "/type/edition"
+            },
+            "number_of_pages": 192,
+            "publish_date": "1981",
+            "key": "/books/OL10280582M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3457830W"
+                }
+            ],
+            "physical_format": "Paperback",
+            "covers": [
+                11688037
+            ],
+            "source_records": [
+                "ia:notoncebuttwice0000bett",
+                "promise:bwb_daily_pallets_2020-10-28"
+            ],
+            "ocaid": "notoncebuttwice0000bett",
+            "isbn_10": [
+                "0263734897"
+            ],
+            "isbn_13": [
+                "9780263734898"
+            ],
+            "classifications": {},
+            "local_id": [
+                "urn:bwbsku:KO-596-625"
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-08T21:59:47.524434"
+            }
+        },
+        "/books/OL14977156M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "number_of_pages": 187,
+            "key": "/books/OL14977156M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "187p. ;",
+            "source_records": [
+                "bwb:9780263098228",
+                "amazon:0263098222"
+            ],
+            "title": "Not once but twice",
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "1745371"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263098222"
+            ],
+            "publish_date": "1981",
+            "publish_country": "xxk",
+            "by_statement": "by Betty Neels.",
+            "oclc_numbers": [
+                "7688854"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3457830W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T22:58:26.092848"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-08T21:59:47.524434"
+            }
+        },
+        "/books/OL10746962M": {
+            "notes": "Reader's Choice",
+            "identifiers": {
+                "librarything": [
+                    "1745371"
+                ],
+                "goodreads": [
+                    "1296414"
+                ]
+            },
+            "title": "Not Once But Twice",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "publish_date": "June 1, 2001",
+            "publishers": [
+                "Harlequin"
+            ],
+            "weight": "4 ounces",
+            "series": [
+                "Harlequin Romance,  2440"
+            ],
+            "covers": [
+                2410565
+            ],
+            "physical_format": "Paperback",
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-06-01:W7-BVP-535",
+                "bwb:9780373511464",
+                "promise:bwb_daily_pallets_2022-06-01:T2-COE-396"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Non-Classifiable",
+                "Romance - Contemporary",
+                "Romance - General",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.8 x 3.8 x 0.8 inches",
+            "edition_name": "The Best of Betty Neels",
+            "local_id": [
+                "urn:bwbsku:W7-BVP-535",
+                "urn:bwbsku:T2-COE-396"
+            ],
+            "key": "/books/OL10746962M",
+            "number_of_pages": 304,
+            "works": [
+                {
+                    "key": "/works/OL3457830W"
+                }
+            ],
+            "ocaid": "notoncebuttwicer00bett",
+            "isbn_10": [
+                "0373511469"
+            ],
+            "isbn_13": [
+                "9780373511464"
+            ],
+            "classifications": {},
+            "latest_revision": 17,
+            "revision": 17,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-03-10T22:09:14.348712"
+            }
+        },
+        "/books/OL15061989M": {
+            "publishers": [
+                "Corgi"
+            ],
+            "title": "Stormfire.",
+            "identifiers": {
+                "librarything": [
+                    "907976"
+                ],
+                "goodreads": [
+                    "3292117"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0552126268"
+            ],
+            "publish_date": "1986",
+            "publish_country": "xxk",
+            "key": "/books/OL15061989M",
+            "authors": [
+                {
+                    "key": "/authors/OL1081490A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4996286W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "oclc_numbers": [
+                "15084174"
+            ],
+            "covers": [
+                13173098
+            ],
+            "source_records": [
+                "amazon:0552126268"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-17T18:18:13.042016"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-31T13:53:43.028359"
+            }
+        },
+        "/books/OL7435759M": {
+            "description": {
+                "type": "/type/text",
+                "value": "Abducted on her way to boarding school, a terrified Catherine Enderly was brought from England to the coast of Ireland, the prisoner of the angry and powerful young Sean Culhane-a man sworn to vengeance against her family. \r\n\r\nFrightened but defiant, the young countess met her captor with a strength that belied her fragile loveliness. But even as Sean vowed to have his revenge on Catherine, with each encounter he became more attracted to her. Her fiery innocence was a seduction that lured the passions of long smoldering hostility into a blazing inferno of desire. \r\n\r\nLocked in a love-hate duel, he did not suspect that the captivating beauty who fought him with such tenacity was struggling desperately against her own awakened desires, and that his touch has become the burning reminder that the fierce hatred she felt for him had become an all-consuming love."
+            },
+            "identifiers": {
+                "goodreads": [
+                    "784045"
+                ],
+                "librarything": [
+                    "907976"
+                ]
+            },
+            "title": "Stormfire",
+            "authors": [
+                {
+                    "key": "/authors/OL1081490A"
+                }
+            ],
+            "publish_date": "June 1, 1984",
+            "publishers": [
+                "Avon Books"
+            ],
+            "covers": [
+                5729535
+            ],
+            "publish_places": [
+                "USA"
+            ],
+            "ia_box_id": [
+                "IA116102"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "stormfire00mons",
+            "isbn_10": [
+                "038087668X"
+            ],
+            "isbn_13": [
+                "9780380876686"
+            ],
+            "oclc_numbers": [
+                "10821931"
+            ],
+            "source_records": [
+                "amazon:038087668X"
+            ],
+            "key": "/books/OL7435759M",
+            "number_of_pages": 568,
+            "works": [
+                {
+                    "key": "/works/OL4996286W"
+                }
+            ],
+            "latest_revision": 12,
+            "revision": 12,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-05T08:03:33.574104"
+            }
+        }
+    }
+}

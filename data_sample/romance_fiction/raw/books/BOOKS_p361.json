@@ -1,0 +1,6267 @@
+{
+    "status": "ok",
+    "result": {
+        "/books/OL34467483M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL227751A"
+                }
+            ],
+            "isbn_13": [
+                "9781408929407"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2010",
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781408929407"
+            ],
+            "title": "Outsider",
+            "full_title": "Outsider",
+            "works": [
+                {
+                    "key": "/works/OL1902366W"
+                }
+            ],
+            "key": "/books/OL34467483M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-05T00:44:05.166478"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-31T14:42:22.532115"
+            }
+        },
+        "/books/OL29657268M": {
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "source_records": [
+                "bwb:9781459246980"
+            ],
+            "title": "Outsider",
+            "number_of_pages": 384,
+            "isbn_13": [
+                "9781459246980"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Outsider",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2012",
+            "key": "/books/OL29657268M",
+            "authors": [
+                {
+                    "key": "/authors/OL227751A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL1902366W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-29T12:14:17.038109"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-31T14:42:22.532115"
+            }
+        },
+        "/books/OL7420824M": {
+            "publishers": [
+                "HQN Books"
+            ],
+            "number_of_pages": 296,
+            "covers": [
+                221073
+            ],
+            "local_id": [
+                "urn:sfpl:31223071771134",
+                "urn:sfpl:31223071771142"
+            ],
+            "key": "/books/OL7420824M",
+            "ocaid": "outsider00kyle",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "classifications": {},
+            "source_records": [
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run03.mrc:147525645:1681",
+                "bwb:9780373771219",
+                "marc:marc_loc_2016/BooksAll.2016.part34.utf8:49163318:686",
+                "ia:outsider0000palm_z9f5",
+                "amazon:0373771215",
+                "marc:harvard_bibliographic_metadata/ab.bib.10.20150123.full.mrc:24701985:667"
+            ],
+            "title": "Outsider",
+            "notes": {
+                "type": "/type/text",
+                "value": "MIRA Single Title Hardbacks"
+            },
+            "identifiers": {
+                "goodreads": [
+                    "1811899"
+                ],
+                "librarything": [
+                    "1121766"
+                ]
+            },
+            "isbn_13": [
+                "9780373771219"
+            ],
+            "isbn_10": [
+                "0373771215"
+            ],
+            "publish_date": "July 1, 2006",
+            "works": [
+                {
+                    "key": "/works/OL1902366W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "lccn": [
+                "2006491385"
+            ],
+            "lc_classifications": [
+                "PS3566.A513 O98 2006b",
+                "PS3566.A513"
+            ],
+            "oclc_numbers": [
+                "70151638"
+            ],
+            "latest_revision": 20,
+            "revision": 20,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-31T14:42:22.532115"
+            }
+        },
+        "/books/OL8892963M": {
+            "publishers": [
+                "Wheeler Publishing"
+            ],
+            "weight": "1.2 pounds",
+            "covers": [
+                4858899
+            ],
+            "physical_format": "Hardcover",
+            "key": "/books/OL8892963M",
+            "ocaid": "outsider00dian",
+            "subjects": [
+                "Texas",
+                "Romance - Contemporary",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern",
+                "Romance - Suspense",
+                "Love stories",
+                "Large type books"
+            ],
+            "edition_name": "Lrg edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "ia:outsider00dian",
+                "marc:marc_loc_2016/BooksAll.2016.part33.utf8:121464897:717"
+            ],
+            "title": "Outsider",
+            "number_of_pages": 385,
+            "isbn_13": [
+                "9781597223614"
+            ],
+            "isbn_10": [
+                "1597223611"
+            ],
+            "publish_date": "November 8, 2006",
+            "oclc_numbers": [
+                "70775634"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL1902366W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.5 x 5.7 x 1.2 inches",
+            "lccn": [
+                "2006024227"
+            ],
+            "lc_classifications": [
+                "PS3566.A513 O98 2006"
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-31T14:42:22.532115"
+            }
+        },
+        "/books/OL14981564M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "source_records": [
+                "bwb:9780263761566",
+                "amazon:0263761568"
+            ],
+            "title": "The Asking Price",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1988",
+            "publish_country": "xxk",
+            "key": "/books/OL14981564M",
+            "authors": [
+                {
+                    "key": "/authors/OL810023A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4228716W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                13239951
+            ],
+            "identifiers": {},
+            "isbn_10": [
+                "0263761568"
+            ],
+            "classifications": {},
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T23:29:55.388882"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-25T02:41:58.709366"
+            }
+        },
+        "/books/OL23609121M": {
+            "publishers": [
+                "Avon"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "419303"
+                ],
+                "librarything": [
+                    "78234"
+                ]
+            },
+            "series": [
+                "Avon Books"
+            ],
+            "lc_classifications": [
+                "CPB Box no. 2921 vol. 12"
+            ],
+            "latest_revision": 6,
+            "key": "/books/OL23609121M",
+            "authors": [
+                {
+                    "key": "/authors/OL23108A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "contributions": [
+                "Copyright Paperback Collection (Library of Congress)"
+            ],
+            "isbn_13": [
+                "9780380792023"
+            ],
+            "pagination": "313 p. ;",
+            "source_records": [
+                "marc:marc_loc_updates/v37.i28.records.utf8:2809016:995"
+            ],
+            "title": "Glorious angel",
+            "lccn": [
+                "81066477"
+            ],
+            "oclc_number": [
+                "8145330"
+            ],
+            "number_of_pages": 313,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-07-27T04:48:07.968365"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "url": [
+                "http://www.loc.gov/catdir/enhancements/fy0913/81066477-b.html",
+                "http://www.loc.gov/catdir/enhancements/fy0913/81066477-d.html"
+            ],
+            "isbn_10": [
+                "0380792028"
+            ],
+            "publish_date": "1982",
+            "publish_country": "nyu",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2010-08-19T13:18:14.131745"
+            },
+            "by_statement": "Johanna Lindsey.",
+            "works": [
+                {
+                    "key": "/works/OL15677W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 6
+        },
+        "/books/OL17359107M": {
+            "publishers": [
+                "Inner Circle",
+                "Inner Circle Books Ltd"
+            ],
+            "lc_classifications": [
+                "PS3562.I5123"
+            ],
+            "key": "/books/OL17359107M",
+            "authors": [
+                {
+                    "key": "/authors/OL23108A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "313p. ;",
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:1469900274:644",
+                "bwb:9781850180470",
+                "amazon:1850180474"
+            ],
+            "title": "Glorious angel",
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Originally published, New York , Avon, 1982."
+            },
+            "number_of_pages": 313,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "1850180474"
+            ],
+            "publish_date": "1986",
+            "publish_country": "xxk",
+            "by_statement": "Johanna Lindsey.",
+            "oclc_numbers": [
+                "13665108"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL15677W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                13477676
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-28T13:09:01.780867"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-03-16T00:28:38.535815"
+            }
+        },
+        "/books/OL1434276M": {
+            "publishers": [
+                "G.K. Hall"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "78234"
+                ],
+                "goodreads": [
+                    "3032098",
+                    "3032097"
+                ]
+            },
+            "isbn_10": [
+                "0816152853",
+                "0816152861"
+            ],
+            "covers": [
+                614571
+            ],
+            "lc_classifications": [
+                "PS3562.I5123 G57 1994"
+            ],
+            "key": "/books/OL1434276M",
+            "authors": [
+                {
+                    "key": "/authors/OL23108A"
+                }
+            ],
+            "publish_places": [
+                "Thorndike, Me"
+            ],
+            "pagination": "355 p. (large print) ;",
+            "source_records": [
+                "marc:marc_records_scriblio_net/part23.dat:130869665:673",
+                "marc:marc_loc_updates/v36.i04.records.utf8:8598254:663",
+                "marc:marc_loc_2016/BooksAll.2016.part22.utf8:185471441:663",
+                "ia:gloriousangel0000lind",
+                "promise:bwb_daily_pallets_2022-11-10"
+            ],
+            "title": "Glorious angel",
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "number_of_pages": 355,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lccn": [
+                "93046126"
+            ],
+            "subjects": [
+                "Large type books"
+            ],
+            "publish_date": "1994",
+            "publish_country": "meu",
+            "by_statement": "Johanna Lindsey.",
+            "works": [
+                {
+                    "key": "/works/OL15677W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "gloriousangel0000lind",
+            "local_id": [
+                "urn:bwbsku:T2-DZV-355"
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-04T06:50:34.772074"
+            }
+        },
+        "/books/OL23580030M": {
+            "publishers": [
+                "Avon"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "419303"
+                ],
+                "librarything": [
+                    "78234"
+                ],
+                "amazon": [
+                    "B000BJOWOU"
+                ],
+                "better_world_books": [
+                    "BWB31664591"
+                ]
+            },
+            "series": [
+                "Avon Books"
+            ],
+            "lc_classifications": [
+                "CPB Box no. 2921 vol. 12"
+            ],
+            "key": "/books/OL23580030M",
+            "authors": [
+                {
+                    "key": "/authors/OL23108A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "contributions": [
+                "Copyright Paperback Collection (Library of Congress)"
+            ],
+            "isbn_13": [
+                "9780380792023"
+            ],
+            "pagination": "313 p. ;",
+            "source_records": [
+                "marc:marc_loc_updates/v37.i27.records.utf8:4679016:778",
+                "promise:bwb_daily_pallets_2024-01-catchup:O7-CUE-623"
+            ],
+            "title": "Glorious angel",
+            "lccn": [
+                "81066477"
+            ],
+            "oclc_number": [
+                "8145330"
+            ],
+            "number_of_pages": 313,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0380792028"
+            ],
+            "publish_date": "1982",
+            "publish_country": "nyu",
+            "by_statement": "Johanna Lindsey.",
+            "works": [
+                {
+                    "key": "/works/OL15677W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:O7-CUE-623"
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-07-25T08:26:05.260882"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-02-07T01:51:23.061021"
+            }
+        },
+        "/books/OL29028122M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "subtitle": "The Playboy's Seduction; One Enchanted Christmas Evening; the Cinderella Valentine; Kiss Me, Kate; the Mistress's Secret; the Duke's Dilemma; the Christmas Crush; Evidence of Desire; Letting Go; Loving Eleanor; a Fool for Love",
+            "covers": [
+                10437968
+            ],
+            "key": "/books/OL29028122M",
+            "authors": [
+                {
+                    "key": "/authors/OL828193A"
+                },
+                {
+                    "key": "/authors/OL1385989A"
+                },
+                {
+                    "key": "/authors/OL1385993A"
+                },
+                {
+                    "key": "/authors/OL1386221A"
+                },
+                {
+                    "key": "/authors/OL8204847A"
+                }
+            ],
+            "source_records": [
+                "bwb:9780263877120",
+                "ia:christmastreasur0000unse_p1e8",
+                "promise:bwb_daily_pallets_2020-06-24"
+            ],
+            "title": "Mills and Boon Christmas Treasury of Romance",
+            "number_of_pages": 288,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Fiction, romance, regency"
+            ],
+            "publish_date": "2009",
+            "works": [
+                {
+                    "key": "/works/OL21438800W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "ocaid": "christmastreasur0000unse_p1e8",
+            "isbn_13": [
+                "9780263877120"
+            ],
+            "classifications": {},
+            "lc_classifications": [
+                "PR1309.L68"
+            ],
+            "physical_format": "Hardcover",
+            "local_id": [
+                "urn:bwbsku:KN-838-736"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-21T01:12:54.278169"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-02-01T19:01:35.431433"
+            }
+        },
+        "/books/OL28951720M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263164015"
+            ],
+            "title": "Bachelor's Bargain",
+            "number_of_pages": 185,
+            "isbn_13": [
+                "9780263164015"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Bachelor's Bargain",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "1999",
+            "key": "/books/OL28951720M",
+            "authors": [
+                {
+                    "key": "/authors/OL7390975A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3845003W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T05:08:49.634110"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-06-11T06:11:12.634214"
+            }
+        },
+        "/books/OL29246395M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781472031990"
+            ],
+            "title": "Sheikh's Virgin",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781472031990"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Sheikh's Virgin",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2014",
+            "key": "/books/OL29246395M",
+            "authors": [
+                {
+                    "key": "/authors/OL5822889A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL7664479W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-23T20:11:49.698130"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-08-23T09:10:08.342021"
+            }
+        },
+        "/books/OL10745575M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "number_of_pages": 160,
+            "subtitle": "(Saved By The Sheikh) (Harlequin Bianca (Spanish))",
+            "weight": "2.9 ounces",
+            "covers": [
+                2410134
+            ],
+            "physical_format": "Mass Market Paperback",
+            "key": "/books/OL10745575M",
+            "authors": [
+                {
+                    "key": "/authors/OL2359261A"
+                }
+            ],
+            "subjects": [
+                "Romance - Contemporary",
+                "Fiction / Romance / General",
+                "Fiction",
+                "Fiction - Romance",
+                "Spanish: Adult Fiction"
+            ],
+            "source_records": [
+                "bwb:9780373338337"
+            ],
+            "title": "Salvada Por El Jeque",
+            "identifiers": {
+                "goodreads": [
+                    "2117350"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "publish_date": "February 1, 2006",
+            "works": [
+                {
+                    "key": "/works/OL7664479W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.5 x 4.2 x 0.6 inches",
+            "isbn_10": [
+                "0373338333"
+            ],
+            "isbn_13": [
+                "9780373338337"
+            ],
+            "classifications": {},
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-08-23T09:10:21.939329"
+            }
+        },
+        "/books/OL60309389M": {
+            "works": [
+                {
+                    "key": "/works/OL17886378W"
+                }
+            ],
+            "title": "Heartless",
+            "publishers": [
+                "Square Fish"
+            ],
+            "publish_date": "May 1, 2018",
+            "key": "/books/OL60309389M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                15127808
+            ],
+            "isbn_13": [
+                "9781250148186"
+            ],
+            "isbn_10": [
+                "1250148189"
+            ],
+            "subtitle": "The Lunar Chronicles",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "physical_format": "Paperback",
+            "number_of_pages": 480,
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-09-30T17:37:04.323777"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-30T17:38:02.428760"
+            }
+        },
+        "/books/OL51621962M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7037383A"
+                },
+                {
+                    "key": "/authors/OL9614605A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2024",
+            "publishers": [
+                "LitJoy Crate"
+            ],
+            "source_records": [
+                "bwb:9781955876544"
+            ],
+            "subjects": [
+                "Fiction, fantasy, general",
+                "Fiction, romance, general"
+            ],
+            "title": "Heartless",
+            "full_title": "Heartless",
+            "works": [
+                {
+                    "key": "/works/OL17886378W"
+                }
+            ],
+            "key": "/books/OL51621962M",
+            "identifiers": {
+                "goodreads": [
+                    "220769255"
+                ]
+            },
+            "isbn_13": [
+                "9781955876544"
+            ],
+            "isbn_10": [
+                "1955876541"
+            ],
+            "edition_name": "LitJoy Special Edition",
+            "notes": {
+                "type": "/type/text",
+                "value": "Features:\r\nIt will be SIGNED\r\nIt will have stunning new COVER ART and custom slipcase by @bethgilbert_art\r\nIt will feature TIP-IN ART pages by @gabriella.bujdoso and @DianaDworak\r\nThere will be amazing ENDPAPER art by @nicole.deal.art\r\nAnd for those who can’t get enough insider info, it have handwritten AUTHOR ANNOTATIONS and an exclusive AUTHOR LETTER!"
+            },
+            "physical_format": "Hardcover",
+            "number_of_pages": 459,
+            "covers": [
+                15092599
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-04-17T11:42:13.624407"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-06-07T22:02:16.787297"
+            }
+        },
+        "/books/OL39640083M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7037383A"
+                }
+            ],
+            "isbn_13": [
+                "9781536436204"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "480",
+            "publish_date": "2018",
+            "publishers": [
+                "Square Fish"
+            ],
+            "source_records": [
+                "bwb:9781536436204"
+            ],
+            "subjects": [
+                "Fantasy fiction",
+                "Love, fiction",
+                "Children's fiction"
+            ],
+            "title": "Heartless",
+            "full_title": "Heartless",
+            "works": [
+                {
+                    "key": "/works/OL17886378W"
+                }
+            ],
+            "key": "/books/OL39640083M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-09-18T12:08:23.451628"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-05-30T16:26:18.973068"
+            }
+        },
+        "/books/OL27097784M": {
+            "publishers": [
+                "Turtleback Books"
+            ],
+            "source_records": [
+                "amazon:0606410899",
+                "bwb:9780606410892"
+            ],
+            "title": "Heartless (Turtleback School & Library Binding Edition)",
+            "number_of_pages": 480,
+            "covers": [
+                8737579
+            ],
+            "isbn_13": [
+                "9780606410892"
+            ],
+            "full_title": "Heartless (Turtleback School & Library Binding Edition)",
+            "isbn_10": [
+                "0606410899"
+            ],
+            "publish_date": "May 22, 2018",
+            "key": "/books/OL27097784M",
+            "authors": [
+                {
+                    "key": "/authors/OL7037383A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL17886378W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-07-09T07:36:00.793587"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-06-18T15:50:13.058355"
+            }
+        },
+        "/books/OL27097780M": {
+            "publishers": [
+                "Square Fish"
+            ],
+            "source_records": [
+                "amazon:1250148189",
+                "bwb:9781250148186",
+                "promise:bwb_daily_pallets_2022-03-17"
+            ],
+            "title": "Heartless",
+            "number_of_pages": 480,
+            "covers": [
+                8737574
+            ],
+            "isbn_13": [
+                "9781250148186"
+            ],
+            "full_title": "Heartless",
+            "isbn_10": [
+                "1250148189"
+            ],
+            "publish_date": "May 01, 2018",
+            "key": "/books/OL27097780M",
+            "authors": [
+                {
+                    "key": "/authors/OL7037383A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL17886378W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:T2-CFW-968"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-07-09T07:31:46.703692"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-07T16:21:37.572369"
+            }
+        },
+        "/books/OL29264503M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781474029896"
+            ],
+            "title": "Gypsy",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781474029896"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Gypsy",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2015",
+            "key": "/books/OL29264503M",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3775500W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, contemporary"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-24T00:43:19.417958"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-29T02:34:48.847205"
+            }
+        },
+        "/books/OL24208929M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Photo is of actual book."
+            },
+            "identifiers": {
+                "goodreads": [
+                    "695411"
+                ]
+            },
+            "title": "Gypsy",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "publish_date": "1992",
+            "publishers": [
+                "Harlequin Books",
+                "Harlequin"
+            ],
+            "ia_box_id": [
+                "IA107118"
+            ],
+            "isbn_10": [
+                "0373832532"
+            ],
+            "covers": [
+                9284818,
+                8272798,
+                6507241
+            ],
+            "physical_format": "Paperback",
+            "ocaid": "gypsy00mort",
+            "publish_places": [
+                "USA"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-06-28:W6-AVW-961",
+                "ia:gypsy00mort",
+                "ia:gypsy00newy",
+                "promise:bwb_daily_pallets_2021-04-06:O7-ARK-800",
+                "promise:bwb_daily_pallets_2021-03-08:O7-APK-513",
+                "promise:bwb_daily_pallets_2021-03-08:O7-CPL-909",
+                "promise:bwb_daily_pallets_2021-03-08:O7-DTJ-502",
+                "promise:bwb_daily_pallets_2021-01-11:O7-AWF-170",
+                "promise:bwb_daily_pallets_2020-11-20:O7-BHC-705"
+            ],
+            "dewey_decimal_class": [
+                "823"
+            ],
+            "isbn_13": [
+                "9780373832538"
+            ],
+            "edition_name": "Reprint",
+            "subjects": [
+                "Brothers -- Fiction."
+            ],
+            "publish_country": "onc",
+            "copyright_date": "1985",
+            "oclc_numbers": [
+                "27221056"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:W6-AVW-961",
+                "urn:bwbsku:O7-ARK-800",
+                "urn:bwbsku:O7-APK-513",
+                "urn:bwbsku:O7-CPL-909",
+                "urn:bwbsku:O7-DTJ-502",
+                "urn:bwbsku:O7-AWF-170",
+                "urn:bwbsku:O7-BHC-705"
+            ],
+            "key": "/books/OL24208929M",
+            "number_of_pages": 384,
+            "works": [
+                {
+                    "key": "/works/OL3775500W"
+                }
+            ],
+            "latest_revision": 29,
+            "revision": 29,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-05-05T09:33:54.859099"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T16:39:50.512160"
+            }
+        },
+        "/books/OL7421892M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "695411"
+                ],
+                "librarything": [
+                    "750475"
+                ]
+            },
+            "covers": [
+                9284819
+            ],
+            "physical_format": "Paperback",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-08-27T20:39:13.994353"
+            },
+            "latest_revision": 9,
+            "key": "/books/OL7421892M",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "publish_places": [
+                "USA"
+            ],
+            "edition_name": "Harlequin Signature Edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "classifications": {},
+            "source_records": [
+                "bwb:9780373832026"
+            ],
+            "title": "Gypsy",
+            "notes": {
+                "type": "/type/text",
+                "value": "Photo is of actual book."
+            },
+            "number_of_pages": 381,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "isbn_13": [
+                "9780373832026"
+            ],
+            "isbn_10": [
+                "0373832028"
+            ],
+            "publish_date": "1986",
+            "copyright_date": "1985",
+            "oclc_numbers": [
+                "27221056"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3775500W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 9
+        },
+        "/books/OL24226590M": {
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "number_of_pages": 381,
+            "ia_box_id": [
+                "tempfuns"
+            ],
+            "isbn_10": [
+                "0373832532"
+            ],
+            "covers": [
+                6507361
+            ],
+            "physical_format": "Mass Market Paperback",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-02-29T06:54:53.128609"
+            },
+            "latest_revision": 7,
+            "key": "/books/OL24226590M",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "ocaid": "gypsymort00mort",
+            "publish_places": [
+                "USA"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "classifications": {},
+            "source_records": [
+                "ia:gypsymort00mort"
+            ],
+            "title": "Gypsy",
+            "dewey_decimal_class": [
+                "823"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Photo is of actual book."
+            },
+            "identifiers": {
+                "goodreads": [
+                    "695411"
+                ]
+            },
+            "isbn_13": [
+                "9780373832538"
+            ],
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-05-10T17:28:23.375558"
+            },
+            "edition_name": "Reprint",
+            "subjects": [
+                "Brothers -- Fiction."
+            ],
+            "publish_date": "1992",
+            "publish_country": "onc",
+            "copyright_date": "1985",
+            "oclc_numbers": [
+                "27221056"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3775500W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 7
+        },
+        "/books/OL26157736M": {
+            "title": "Happy Christmas: Love Mills & Boon",
+            "publish_date": "2010",
+            "publishers": [
+                "M&b",
+                "Publishing",
+                "M&b Publishing"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-09-06:KR-161-230",
+                "ia:happychristmaslo0000unse",
+                "bwb:9780263888294",
+                "promise:bwb_daily_pallets_2022-05-03:KQ-383-257"
+            ],
+            "covers": [
+                7835807
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:KR-161-230",
+                "urn:bwbsku:KQ-383-257"
+            ],
+            "key": "/books/OL26157736M",
+            "works": [
+                {
+                    "key": "/works/OL17567120W"
+                }
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "8491848"
+                ]
+            },
+            "classifications": {},
+            "subtitle": "Christmas Marriage Ultimatum / Yuletide Reunion / Sultan's Seduction / Millionaire's Christmas Wish / Once in A Wild West Christmas",
+            "ocaid": "happychristmaslo0000unse",
+            "isbn_13": [
+                "9780263888294"
+            ],
+            "lc_classifications": [
+                "PR1309.L68"
+            ],
+            "table_of_contents": [
+                {
+                    "level": 0,
+                    "label": "Christmas Marriage Ultimatum",
+                    "title": "",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "Yuletide Reunion",
+                    "title": "",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "Sultan's Seduction",
+                    "title": "",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "Millionaire's Christmas Wish",
+                    "title": "",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "Once in A Wild West Christmas",
+                    "title": "",
+                    "pagenum": ""
+                }
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "Christmas Marriage Ultimatum \r\n visits Australia's Gold Coast where Chantelle is surprised by her tall, dark Greek ex, who is determined to claim his son! \r\n\r\n In \"Yuletide Reunion\", single parents Clemmie and Aleck felt 'the sizzle', but were trying to be just friends. Yet their children were angling for a marriage proposal... \r\n\r\n\"The Sultan's Seduction\" \r\nis steamy, sensual and seasonal; when Lizzie is forced to spend Christmas with ruthless billionaire Kemal, she experiences passion beyond her wildest fantasies. \r\n\r\nMillionaire's Christmas Wish\r\nAlex Mead, wealthy and successful, realises that he needs to woo his wife and children this Christmas to get \"The Millionaire's Christmas Wish\" -  love. \r\n\r\n \"Once in A Wild West Christmas\", \r\ngorgeous Wyatt Chandler had broken Priscilla's heart. Years later, he was just as devastating and he wanted to take up where they left off - as lovers."
+            },
+            "latest_revision": 12,
+            "revision": 12,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2016-10-14T23:01:32.570076"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-06-10T01:14:02.521645"
+            }
+        },
+        "/books/OL29136680M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781408982976"
+            ],
+            "title": "Happy Meeting",
+            "number_of_pages": 220,
+            "isbn_13": [
+                "9781408982976"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Happy Meeting",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2012",
+            "key": "/books/OL29136680M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3457748W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-22T11:56:24.527596"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-08T22:17:08.297351"
+            }
+        },
+        "/books/OL28951866M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "covers": [
+                10387907
+            ],
+            "full_title": "Happy Meeting",
+            "key": "/books/OL28951866M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "bwb:9780263811766",
+                "ia:happymeeting0000neel"
+            ],
+            "title": "A Happy Meeting",
+            "number_of_pages": 224,
+            "subjects": [
+                "Fiction, romance, contemporary"
+            ],
+            "publish_date": "2000",
+            "works": [
+                {
+                    "key": "/works/OL3457748W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "classifications": {},
+            "ocaid": "happymeeting0000neel",
+            "isbn_13": [
+                "9780263811766"
+            ],
+            "edition_name": "Collector's Edition",
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T05:14:11.395861"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-08T22:17:08.297351"
+            }
+        },
+        "/books/OL18337724M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "6282254"
+                ]
+            },
+            "key": "/books/OL18337724M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "pagination": "189p.",
+            "source_records": [
+                "bwb:9780263777536",
+                "ia:happymeeting0000neel_c7l4",
+                "promise:bwb_daily_pallets_2020-11-19"
+            ],
+            "title": "A Happy Meeting",
+            "number_of_pages": 189,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1992",
+            "publish_country": "enk",
+            "works": [
+                {
+                    "key": "/works/OL3457748W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                11443731
+            ],
+            "ocaid": "happymeeting0000neel_c7l4",
+            "isbn_10": [
+                "0263777537"
+            ],
+            "oclc_numbers": [
+                "59974632"
+            ],
+            "classifications": {},
+            "dewey_decimal_class": [
+                "823.914"
+            ],
+            "local_id": [
+                "urn:bwbsku:KO-486-188"
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-15T20:58:24.166821"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-08T22:17:08.297351"
+            }
+        },
+        "/books/OL9526064M": {
+            "identifiers": {
+                "librarything": [
+                    "924799"
+                ],
+                "goodreads": [
+                    "2065873"
+                ]
+            },
+            "title": "A happy meeting",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "publish_date": "May 1, 1993",
+            "publishers": [
+                "Harlequin"
+            ],
+            "ia_box_id": [
+                "IA109910"
+            ],
+            "weight": "3.2 ounces",
+            "covers": [
+                4984927
+            ],
+            "physical_format": "Paperback",
+            "ocaid": "happymeeting00neel",
+            "subjects": [
+                "Non-Classifiable",
+                "Romance - General",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Regency"
+            ],
+            "isbn_13": [
+                "9780373032679"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-08-12:O7-AAP-901",
+                "ia:happymeeting00neel",
+                "bwb:9780373032679",
+                "promise:bwb_daily_pallets_2021-03-08:O7-AAJ-537",
+                "promise:bwb_daily_pallets_2021-03-08:W6-BWJ-465",
+                "promise:bwb_daily_pallets_2020-11-12:W6-BJF-726"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373032676"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.5 x 4 x 0.7 inches",
+            "local_id": [
+                "urn:bwbsku:O7-AAP-901",
+                "urn:bwbsku:O7-AAJ-537",
+                "urn:bwbsku:W6-BWJ-465",
+                "urn:bwbsku:W6-BJF-726"
+            ],
+            "key": "/books/OL9526064M",
+            "works": [
+                {
+                    "key": "/works/OL3457748W"
+                }
+            ],
+            "latest_revision": 20,
+            "revision": 20,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T17:05:30.445498"
+            }
+        },
+        "/books/OL29023606M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263850062"
+            ],
+            "title": "Outsider",
+            "number_of_pages": 345,
+            "isbn_13": [
+                "9780263850062"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Outsider",
+            "lc_classifications": [
+                "PS3566.A513"
+            ],
+            "publish_date": "2007",
+            "key": "/books/OL29023606M",
+            "authors": [
+                {
+                    "key": "/authors/OL227751A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL1902366W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-20T23:23:13.492810"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-31T14:42:22.532115"
+            }
+        },
+        "/books/OL10691694M": {
+            "identifiers": {
+                "librarything": [
+                    "3155991"
+                ]
+            },
+            "title": "The Asking Price",
+            "authors": [
+                {
+                    "key": "/authors/OL2674241A"
+                }
+            ],
+            "publish_date": "January 1, 1990",
+            "publishers": [
+                "Harlequin"
+            ],
+            "ia_box_id": [
+                "IA106012"
+            ],
+            "series": [
+                "Harlequin Romance, 3031"
+            ],
+            "covers": [
+                6384629
+            ],
+            "physical_format": "Paperback",
+            "subjects": [
+                "General",
+                "Non-Classifiable",
+                "Romance - General",
+                "Fiction",
+                "Fiction - General",
+                "Romance: Regency"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-06-28:W6-AWV-454",
+                "bwb:9780373030316",
+                "promise:bwb_daily_pallets_2021-03-08:O7-AOW-099"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "askingprice00brow",
+            "isbn_10": [
+                "0373030312"
+            ],
+            "isbn_13": [
+                "9780373030316"
+            ],
+            "oclc_numbers": [
+                "20980928"
+            ],
+            "local_id": [
+                "urn:bwbsku:W6-AWV-454",
+                "urn:bwbsku:O7-AOW-099"
+            ],
+            "key": "/books/OL10691694M",
+            "number_of_pages": 188,
+            "works": [
+                {
+                    "key": "/works/OL4228716W"
+                }
+            ],
+            "latest_revision": 15,
+            "revision": 15,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-26T07:58:29.374764"
+            }
+        },
+        "/books/OL35532771M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL577983A"
+                }
+            ],
+            "isbn_13": [
+                "9781474055734"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2016",
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781474055734"
+            ],
+            "subjects": [
+                "Fiction, romance, collections & anthologies",
+                "Fiction, romance, contemporary",
+                "Fiction, women"
+            ],
+            "title": "Moth to the Flame",
+            "full_title": "Moth to the Flame",
+            "works": [
+                {
+                    "key": "/works/OL11327644W"
+                }
+            ],
+            "key": "/books/OL35532771M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T23:42:54.476580"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-07-27T20:21:27.924530"
+            }
+        },
+        "/books/OL35295609M": {
+            "works": [
+                {
+                    "key": "/works/OL11327644W"
+                }
+            ],
+            "title": "Moth to the flame",
+            "publishers": [
+                "Harlequin"
+            ],
+            "publish_date": "1979",
+            "key": "/books/OL35295609M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_10": [
+                "0373708076"
+            ],
+            "ocaid": "fivelittlepigs0000chri",
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "covers": [
+                12107037
+            ],
+            "source_records": [
+                "bwb:9780373708079"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-18T10:35:47.460299"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-06-18T12:58:30.622399"
+            }
+        },
+        "/books/OL14976719M": {
+            "publishers": [
+                "Mills and Boon"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "7707868"
+                ],
+                "goodreads": [
+                    "6304023"
+                ]
+            },
+            "isbn_10": [
+                "0263094782"
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T22:06:49.706424"
+            },
+            "latest_revision": 8,
+            "key": "/books/OL14976719M",
+            "authors": [
+                {
+                    "key": "/authors/OL577983A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "186p. ;",
+            "source_records": [
+                "bwb:9780263094787"
+            ],
+            "title": "Moth to the flame",
+            "dewey_decimal_class": [
+                "823/.9/1F"
+            ],
+            "number_of_pages": 186,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T22:54:46.586937"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Fiction in English."
+            ],
+            "publish_date": "1979",
+            "publish_country": "xxk",
+            "by_statement": "by Sara Craven.",
+            "oclc_numbers": [
+                "16429677"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL11327644W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 8
+        },
+        "/books/OL17353619M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "number_of_pages": 186,
+            "series": [
+                "Best seller romance"
+            ],
+            "key": "/books/OL17353619M",
+            "authors": [
+                {
+                    "key": "/authors/OL577983A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "186p. ;",
+            "source_records": [
+                "bwb:9780263750416",
+                "ia:mothtoflame0000crav",
+                "promise:bwb_daily_pallets_2022-06-30"
+            ],
+            "title": "Moth to the flame",
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "7707868"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263750418"
+            ],
+            "publish_date": "1985",
+            "publish_country": "xxk",
+            "by_statement": "Sara Craven.",
+            "oclc_numbers": [
+                "5791984"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL11327644W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                12898139
+            ],
+            "ocaid": "mothtoflame0000crav",
+            "local_id": [
+                "urn:bwbsku:W7-CGX-374"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-28T12:38:34.466817"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-05T01:40:45.986082"
+            }
+        },
+        "/books/OL15062014M": {
+            "publishers": [
+                "Corgi"
+            ],
+            "number_of_pages": 311,
+            "key": "/books/OL15062014M",
+            "authors": [
+                {
+                    "key": "/authors/OL23108A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "311p. ;",
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:622033207:548",
+                "bwb:9780552126717"
+            ],
+            "title": "Glorious angel",
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "78234"
+                ],
+                "goodreads": [
+                    "1885005"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0552126713"
+            ],
+            "publish_date": "1985",
+            "publish_country": "xxk",
+            "by_statement": "Johanna Lindsey.",
+            "oclc_numbers": [
+                "12693828"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL15677W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-17T18:18:27.742636"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T02:42:08.873935"
+            }
+        },
+        "/books/OL24373907M": {
+            "title": "Glorious Angel",
+            "authors": [
+                {
+                    "key": "/authors/OL23108A"
+                }
+            ],
+            "publish_date": "1982",
+            "publishers": [
+                "Avon"
+            ],
+            "ia_box_id": [
+                "IA125206"
+            ],
+            "links": [
+                {
+                    "url": "http://www.loc.gov/catdir/enhancements/fy0913/81066477-b.html",
+                    "title": "Contributor biographical information"
+                },
+                {
+                    "url": "http://www.loc.gov/catdir/enhancements/fy0913/81066477-d.html",
+                    "title": "Publisher description"
+                }
+            ],
+            "series": [
+                "Avon Books"
+            ],
+            "covers": [
+                6615748
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "pagination": "313 p. ;",
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-03-08:W6-BSX-372",
+                "ia:gloriousangel00lind",
+                "bwb:9780380792023",
+                "marc:marc_loc_2016/BooksAll.2016.part13.utf8:105092257:995",
+                "promise:bwb_daily_pallets_2021-03-08:O7-AOV-884",
+                "promise:bwb_daily_pallets_2021-03-08:O7-AGG-606",
+                "promise:bwb_daily_pallets_2021-03-08:602-BAB-042",
+                "promise:bwb_daily_pallets_2021-03-08:374-BAC-612",
+                "promise:bwb_daily_pallets_2021-03-08:O7-CSV-646",
+                "promise:bwb_daily_pallets_2020-10-07:P4-BGU-217"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_country": "nyu",
+            "by_statement": "Johanna Lindsey",
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "gloriousangel00lind",
+            "isbn_10": [
+                "0380792028"
+            ],
+            "isbn_13": [
+                "9780380792023"
+            ],
+            "lccn": [
+                "81066477"
+            ],
+            "oclc_numbers": [
+                "8145330"
+            ],
+            "dewey_decimal_class": [
+                "813/.54",
+                "Fic"
+            ],
+            "lc_classifications": [
+                "PS3562.I5123 G57 1982x",
+                "CPB Box no. 2921 vol. 12",
+                ""
+            ],
+            "local_id": [
+                "urn:bwbsku:W6-BSX-372",
+                "urn:bwbsku:O7-AOV-884",
+                "urn:bwbsku:O7-AGG-606",
+                "urn:bwbsku:602-BAB-042",
+                "urn:bwbsku:374-BAC-612",
+                "urn:bwbsku:O7-CSV-646",
+                "urn:bwbsku:P4-BGU-217"
+            ],
+            "key": "/books/OL24373907M",
+            "number_of_pages": 313,
+            "works": [
+                {
+                    "key": "/works/OL15677W"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    ""
+                ]
+            },
+            "latest_revision": 26,
+            "revision": 26,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-10-06T10:55:37.895170"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T17:38:05.887025"
+            }
+        },
+        "/books/OL38291205M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7390975A"
+                }
+            ],
+            "isbn_13": [
+                "9781306976381"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2014",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781306976381"
+            ],
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "title": "Bachelor's Bargain",
+            "full_title": "Bachelor's Bargain",
+            "works": [
+                {
+                    "key": "/works/OL3845003W"
+                }
+            ],
+            "key": "/books/OL38291205M",
+            "latest_revision": 1,
+            "revision": 1,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-17T16:43:14.685041"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-06-17T16:43:14.685041"
+            }
+        },
+        "/books/OL29256916M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781474015448"
+            ],
+            "title": "Bachelor's Bargain",
+            "number_of_pages": 256,
+            "isbn_13": [
+                "9781474015448"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Bachelor's Bargain",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2014",
+            "key": "/books/OL29256916M",
+            "authors": [
+                {
+                    "key": "/authors/OL7390975A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3845003W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-23T22:52:49.393846"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-06-11T06:11:12.634214"
+            }
+        },
+        "/books/OL29700761M": {
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "source_records": [
+                "bwb:9781460365243"
+            ],
+            "title": "Bachelor's Bargain",
+            "number_of_pages": 256,
+            "isbn_13": [
+                "9781460365243"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Bachelor's Bargain",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2014",
+            "key": "/books/OL29700761M",
+            "authors": [
+                {
+                    "key": "/authors/OL7390975A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3845003W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-30T04:25:06.652402"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-06-11T06:11:12.634214"
+            }
+        },
+        "/books/OL28952245M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263818857"
+            ],
+            "title": "Bachelor's Bargain",
+            "number_of_pages": 185,
+            "isbn_13": [
+                "9780263818857"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Bachelor's Bargain",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "1999",
+            "key": "/books/OL28952245M",
+            "authors": [
+                {
+                    "key": "/authors/OL7390975A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3845003W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T05:27:08.473767"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-06-11T06:11:12.634214"
+            }
+        },
+        "/books/OL10241353M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "number_of_pages": 288,
+            "weight": "13.6 ounces",
+            "covers": [
+                5046569
+            ],
+            "physical_format": "Hardcover",
+            "key": "/books/OL10241353M",
+            "authors": [
+                {
+                    "key": "/authors/OL687900A"
+                }
+            ],
+            "subjects": [
+                "Romance",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern",
+                "Romance - General"
+            ],
+            "edition_name": "Lrg edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "classifications": {},
+            "source_records": [
+                "bwb:9780263164114"
+            ],
+            "title": "The Bachelor's Bargain",
+            "notes": {
+                "type": "/type/text",
+                "value": "Romance"
+            },
+            "identifiers": {},
+            "isbn_13": [
+                "9780263164114"
+            ],
+            "isbn_10": [
+                "026316411X"
+            ],
+            "publish_date": "May 2000",
+            "works": [
+                {
+                    "key": "/works/OL3845003W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.2 x 5.5 x 1 inches",
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-06-11T06:11:12.634214"
+            }
+        },
+        "/books/OL10740008M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "number_of_pages": 256,
+            "weight": "4 ounces",
+            "series": [
+                "Harlequin Larger Print, No 489"
+            ],
+            "covers": [
+                5074063
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL10740008M",
+            "authors": [
+                {
+                    "key": "/authors/OL687900A"
+                }
+            ],
+            "subjects": [
+                "Non-Classifiable",
+                "Romance - Contemporary",
+                "Romance - General",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern"
+            ],
+            "isbn_13": [
+                "9780373158898"
+            ],
+            "classifications": {},
+            "source_records": [
+                "bwb:9780373158898"
+            ],
+            "title": "Bachelor's Bargain",
+            "identifiers": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373158890"
+            ],
+            "publish_date": "2001",
+            "oclc_numbers": [
+                "45846326"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3845003W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.8 x 4.2 x 0.8 inches",
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-06-11T06:11:12.634214"
+            }
+        },
+        "/books/OL31935229M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "2011",
+            "publish_country": "enk",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL2359261A"
+                }
+            ],
+            "title": "The Desert Sheikh's Marriage",
+            "subtitle": "The Sheikh's Virgin",
+            "by_statement": "Jane Porter",
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "publish_places": [
+                "Richmond"
+            ],
+            "pagination": "pages cm",
+            "source_records": [
+                "ia:desertsheikhsmar0000port",
+                "ia:desertsheikhsmar0000port_t0v8",
+                "promise:bwb_daily_pallets_2020-11-19"
+            ],
+            "full_title": "The desert sheikh's marriage The sheikh's virgin",
+            "covers": [
+                10618043
+            ],
+            "works": [
+                {
+                    "key": "/works/OL7664479W"
+                }
+            ],
+            "key": "/books/OL31935229M",
+            "identifiers": {},
+            "classifications": {},
+            "ocaid": "desertsheikhsmar0000port",
+            "isbn_10": [
+                "0263223531"
+            ],
+            "isbn_13": [
+                "9780263223538"
+            ],
+            "oclc_numbers": [
+                "665136738"
+            ],
+            "dewey_decimal_class": [
+                "813.6"
+            ],
+            "local_id": [
+                "urn:bwbsku:KO-439-508"
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-02-06T08:38:58.503663"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-09T16:22:28.548982"
+            }
+        },
+        "/books/OL33057147M": {
+            "works": [
+                {
+                    "key": "/works/OL7664479W"
+                }
+            ],
+            "title": "The Desert Sheikh's Marriage",
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "publish_date": "2011",
+            "key": "/books/OL33057147M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                11759089
+            ],
+            "ocaid": "desertsheikhsmar0000port_t0v8",
+            "isbn_13": [
+                "9780263223538"
+            ],
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subtitle": "The Sheikh's Virgin",
+            "source_records": [
+                "bwb:9780263223538"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-08-23T07:26:31.696633"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-17T08:03:04.295396"
+            }
+        },
+        "/books/OL33330074M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Sin corazón",
+            "authors": [
+                {
+                    "key": "/authors/OL7037383A"
+                }
+            ],
+            "publish_date": "Sep 20, 2021",
+            "source_records": [
+                "amazon:8418002085"
+            ],
+            "number_of_pages": 512,
+            "publishers": [
+                "Editorial Hidra"
+            ],
+            "isbn_10": [
+                "8418002085"
+            ],
+            "isbn_13": [
+                "9788418002083"
+            ],
+            "physical_format": "paperback",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Sin corazón (Spanish Edition)"
+            },
+            "full_title": "Sin corazón",
+            "covers": [
+                11953984
+            ],
+            "works": [
+                {
+                    "key": "/works/OL17886378W"
+                }
+            ],
+            "key": "/books/OL33330074M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-09-14T17:18:03.514061"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-06-02T15:50:55.015833"
+            }
+        },
+        "/books/OL26410155M": {
+            "publishers": [
+                "Papierowy Księżyc",
+                "Papierowy ksiezyc"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/pol"
+                }
+            ],
+            "number_of_pages": 510,
+            "isbn_13": [
+                "9788365568458"
+            ],
+            "covers": [
+                8111868
+            ],
+            "physical_format": "Paperback",
+            "publish_date": "2017",
+            "key": "/books/OL26410155M",
+            "title": "Bez serca",
+            "publish_places": [
+                "Słupsk, Poland"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL17886378W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "20,5 x 14,5 x 3,3 centimeters",
+            "source_records": [
+                "amazon:8365568454",
+                "promise:bwb_daily_pallets_2024-02-15:KT-286-239"
+            ],
+            "local_id": [
+                "urn:bwbsku:KT-286-239"
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2017-12-22T07:36:02.262235"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-06-02T15:50:55.015833"
+            }
+        },
+        "/books/OL51783502M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7037383A"
+                }
+            ],
+            "isbn_13": [
+                "9781509814145"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2016",
+            "publishers": [
+                "Pan Macmillan"
+            ],
+            "source_records": [
+                "bwb:9781509814145"
+            ],
+            "subjects": [
+                "Young adult fiction, paranormal, occult & supernatural",
+                "Young adult fiction, romance, paranormal",
+                "Young adult fiction, fairy tales & folklore, general"
+            ],
+            "title": "Heartless",
+            "full_title": "Heartless",
+            "works": [
+                {
+                    "key": "/works/OL17886378W"
+                }
+            ],
+            "key": "/books/OL51783502M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-06-17T10:53:39.072476"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-05-30T16:26:18.973068"
+            }
+        },
+        "/books/OL31390976M": {
+            "publishers": [
+                "Feiwel & Friends"
+            ],
+            "source_records": [
+                "amazon:1250114861",
+                "bwb:9781250114860"
+            ],
+            "title": "Heartless",
+            "isbn_13": [
+                "9781250114860"
+            ],
+            "covers": [
+                10514143
+            ],
+            "physical_format": "paperback",
+            "full_title": "Heartless",
+            "isbn_10": [
+                "1250114861"
+            ],
+            "publish_date": "Nov 19, 2016",
+            "key": "/books/OL31390976M",
+            "authors": [
+                {
+                    "key": "/authors/OL7037383A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL17886378W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-11-19T17:14:13.524326"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-17T07:20:24.899000"
+            }
+        },
+        "/books/OL28053842M": {
+            "publishers": [
+                "POCKET JEUNESSE"
+            ],
+            "source_records": [
+                "amazon:2266278827"
+            ],
+            "title": "Heartless",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Heartless (French Edition)"
+            },
+            "number_of_pages": 608,
+            "isbn_13": [
+                "9782266278829"
+            ],
+            "covers": [
+                9557627
+            ],
+            "physical_format": "mass market paperback",
+            "full_title": "Heartless",
+            "isbn_10": [
+                "2266278827"
+            ],
+            "publish_date": "Oct 05, 2017",
+            "key": "/books/OL28053842M",
+            "authors": [
+                {
+                    "key": "/authors/OL7037383A"
+                },
+                {
+                    "key": "/authors/OL660576A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL17886378W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-05-16T13:20:58.487006"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-08-09T10:39:39.906352"
+            }
+        },
+        "/books/OL27097778M": {
+            "publishers": [
+                "Thorndike Press Large Print"
+            ],
+            "source_records": [
+                "amazon:1410494373",
+                "promise:bwb_daily_pallets_2022-05-16",
+                "bwb:9781410494375"
+            ],
+            "title": "Heartless",
+            "number_of_pages": 695,
+            "covers": [
+                8737573
+            ],
+            "full_title": "Heartless (Thorndike Press Large Print. The Literacy Bridge)",
+            "publish_date": "November 02, 2016",
+            "key": "/books/OL27097778M",
+            "authors": [
+                {
+                    "key": "/authors/OL7037383A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL17886378W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:W7-CXT-285"
+            ],
+            "identifiers": {},
+            "isbn_10": [
+                "1410494373"
+            ],
+            "isbn_13": [
+                "9781410494375"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "physical_format": "Hardcover",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-07-09T07:31:38.823079"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-18T18:07:39.979298"
+            }
+        },
+        "/books/OL26813200M": {
+            "title": "Heartless",
+            "authors": [
+                {
+                    "key": "/authors/OL7037383A"
+                }
+            ],
+            "publish_date": "Feb 09, 2017",
+            "publishers": [
+                "MACMILLAN CHILDREN'S BOOKS"
+            ],
+            "source_records": [
+                "amazon:1509814132",
+                "bwb:9781509814138",
+                "ia:heartless0000meye_x3a3"
+            ],
+            "covers": [
+                15219985,
+                8470961
+            ],
+            "isbn_13": [
+                "9781509814138"
+            ],
+            "full_title": "Heartless",
+            "isbn_10": [
+                "1509814132"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "heartless0000meye_x3a3",
+            "key": "/books/OL26813200M",
+            "works": [
+                {
+                    "key": "/works/OL17886378W"
+                }
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "1 volume ; 20 cm"
+            },
+            "number_of_pages": 464,
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-03-27T06:48:50.266717"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-05-11T12:47:09.829173"
+            }
+        },
+        "/books/OL26790979M": {
+            "publishers": [
+                "Macmillan Childrens Books"
+            ],
+            "source_records": [
+                "amazon:1509818022"
+            ],
+            "title": "Heartless",
+            "covers": [
+                8443825
+            ],
+            "isbn_13": [
+                "9781509818020"
+            ],
+            "full_title": "Heartless",
+            "isbn_10": [
+                "1509818022"
+            ],
+            "publish_date": "Mar 17, 2016",
+            "key": "/books/OL26790979M",
+            "authors": [
+                {
+                    "key": "/authors/OL7037383A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL17886378W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-03-17T23:04:46.344960"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-08-09T10:39:39.906352"
+            }
+        },
+        "/books/OL26465142M": {
+            "description": "Catherine may be one of the most desired girls in Wonderland and a favorite of the unmarried King, but her interests lie elsewhere. A talented baker, she wants to open a shop and create delectable pastries. But for her mother, such a goal is unthinkable for a woman who could be a queen. At a royal ball where Cath is expected to receive the King's marriage proposal, she meets handsome and mysterious Jest. For the first time, she feels the pull of true attraction. At the risk of offending the King and infuriating her parents, she and Jest enter into a secret courtship. Cath is determined to choose her own destiny. But in a land thriving with magic, madness, and monsters, fate has other plans.",
+            "notes": {
+                "type": "/type/text",
+                "value": "Accelerated Reader AR 5.6 20.0 185639.\r\n\r\n2017 YALSA Best Fiction for Young Adults."
+            },
+            "title": "Heartless",
+            "authors": [
+                {
+                    "key": "/authors/OL7037383A"
+                }
+            ],
+            "publish_date": "November 8, 2016",
+            "links": [
+                {
+                    "url": "http://www.netread.com/jcusers2/bk1388/655/9781250044655/image/lgcover.9781250044655.jpg",
+                    "title": "Cover image"
+                },
+                {
+                    "url": "http://www.marissameyer.com/"
+                },
+                {
+                    "url": "http://www.perma-bound.com/ws/image/cover/000128406/m",
+                    "title": "Image"
+                }
+            ],
+            "series": [
+                "The lunar chronicles"
+            ],
+            "covers": [
+                15092072,
+                -1
+            ],
+            "full_title": "Heartless",
+            "subjects": [
+                "Love & Romance",
+                "Extraterrestrial beings",
+                "Fantasy & Magic",
+                "Fiction",
+                "Triangles (Interpersonal relations)",
+                "Bakers",
+                "Romance fiction",
+                "Characters and characteristics in literature",
+                "Characters in literature",
+                "Love",
+                "Juvenile fiction",
+                "Fantasy",
+                "Characters",
+                "Mothers and daughters",
+                "Courtship",
+                "Characters and characteristics",
+                "JUVENILE FICTION"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "453 pages ;",
+            "source_records": [
+                "ia:heartless0000meye",
+                "marc:marc_openlibraries_phillipsacademy/PANO_FOR_IA_05072019.mrc:28258337:2328",
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run05.mrc:165357968:1541",
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run05.mrc:367936229:7665",
+                "marc:marc_loc_2016/BooksAll.2016.part42.utf8:65884793:1316",
+                "bwb:9781250080271",
+                "bwb:9781250044655",
+                "ia:heartless0000meye_q5o4",
+                "promise:bwb_daily_pallets_2022-03-17",
+                "amazon:1250044650",
+                "midcolumbia:1315565"
+            ],
+            "edition_name": "First edition.",
+            "local_id": [
+                "urn:phillips:31867003082992",
+                "urn:sfpl:31223115837305",
+                "urn:sfpl:31223121044128",
+                "urn:sfpl:31223121044136",
+                "urn:sfpl:31223121044144",
+                "urn:sfpl:31223121044441",
+                "urn:sfpl:31223121044151",
+                "urn:sfpl:31223121044169",
+                "urn:sfpl:31223121044177",
+                "urn:sfpl:31223121044185",
+                "urn:sfpl:31223121044193",
+                "urn:sfpl:31223121044201",
+                "urn:sfpl:31223121044219",
+                "urn:sfpl:31223121044458",
+                "urn:sfpl:31223121044466",
+                "urn:sfpl:31223121044227",
+                "urn:sfpl:31223121044235",
+                "urn:sfpl:31223121044243",
+                "urn:sfpl:31223121044250",
+                "urn:sfpl:31223121044268",
+                "urn:sfpl:31223121044276",
+                "urn:sfpl:31223121044292",
+                "urn:sfpl:31223121044300",
+                "urn:sfpl:31223121044318",
+                "urn:sfpl:31223121044326",
+                "urn:sfpl:31223121044334",
+                "urn:sfpl:31223121044342",
+                "urn:sfpl:31223121044359",
+                "urn:sfpl:31223121044367",
+                "urn:sfpl:31223121044383",
+                "urn:sfpl:31223121044391",
+                "urn:sfpl:31223121044409",
+                "urn:sfpl:31223121044425",
+                "urn:sfpl:31223121044433",
+                "urn:bwbsku:P7-CHZ-130"
+            ],
+            "subject_people": [
+                "Lewis Carroll (1832-1898)"
+            ],
+            "publish_country": "nyu",
+            "by_statement": "Marissa Meyer",
+            "type": {
+                "key": "/type/edition"
+            },
+            "publishers": [
+                "Feiwel & Friends"
+            ],
+            "lexile": "780",
+            "key": "/books/OL26465142M",
+            "number_of_pages": 453,
+            "works": [
+                {
+                    "key": "/works/OL17886378W"
+                }
+            ],
+            "identifiers": {},
+            "ocaid": "heartless0000meye",
+            "isbn_10": [
+                "1250044650",
+                "1250080274",
+                "0605954305"
+            ],
+            "isbn_13": [
+                "9781250044655",
+                "9781250080271",
+                "9780605954304"
+            ],
+            "lccn": [
+                "2015021393"
+            ],
+            "oclc_numbers": [
+                "905686421"
+            ],
+            "dewey_decimal_class": [
+                "[Fic]"
+            ],
+            "lc_classifications": [
+                "PZ7.M571737 He 2016",
+                "PZ7.M571737He 2016"
+            ],
+            "physical_format": "Hardcover",
+            "latest_revision": 17,
+            "revision": 17,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2018-06-29T05:45:14.693649"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-30T17:38:45.309060"
+            }
+        },
+        "/books/OL15023724M": {
+            "title": "Gypsy",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "publish_date": "2 December 1988",
+            "publishers": [
+                "Worldwide Books"
+            ],
+            "physical_format": "Hardcover",
+            "publish_places": [
+                "UK"
+            ],
+            "edition_name": "Large Print Edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_13": [
+                "9780373584994"
+            ],
+            "isbn_10": [
+                "0373584997"
+            ],
+            "publish_country": "xxk",
+            "copyright_date": "1985",
+            "oclc_numbers": [
+                "24397124"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:KR-346-402"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-08-04",
+                "ia:gypsy0000caro",
+                "amazon:0373584997"
+            ],
+            "ocaid": "gypsy0000caro",
+            "key": "/books/OL15023724M",
+            "number_of_pages": 512,
+            "works": [
+                {
+                    "key": "/works/OL3775500W"
+                }
+            ],
+            "covers": [
+                13183886
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-17T10:31:29.270405"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-01T03:30:31.651758"
+            }
+        },
+        "/books/OL10738171M": {
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "3324273"
+                ],
+                "goodreads": [
+                    "2592886"
+                ]
+            },
+            "physical_format": "Mass Market Paperback",
+            "key": "/books/OL10738171M",
+            "authors": [
+                {
+                    "key": "/authors/OL659964A"
+                }
+            ],
+            "classifications": {},
+            "source_records": [
+                "bwb:9780373105410",
+                "promise:bwb_daily_pallets_2023-09-28:W8-BUI-734"
+            ],
+            "title": "Portrait of Bethany",
+            "notes": {
+                "type": "/type/text",
+                "value": "Harlequin Presents"
+            },
+            "number_of_pages": 188,
+            "isbn_13": [
+                "9780373105410"
+            ],
+            "isbn_10": [
+                "037310541X"
+            ],
+            "publish_date": "January 1982",
+            "oclc_numbers": [
+                "8644905"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL11328048W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:W8-BUI-734"
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-30T01:03:09.909565"
+            }
+        },
+        "/books/OL59783053M": {
+            "works": [
+                {
+                    "key": "/works/OL4472925W"
+                }
+            ],
+            "title": "Honey",
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "publish_date": "1959",
+            "key": "/books/OL59783053M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "oclc_numbers": [
+                "30234650"
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "copyright_date": "1959",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "physical_format": "Hardcover",
+            "covers": [
+                15112151
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-08-09T13:01:51.752084"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-09T13:09:18.071963"
+            }
+        },
+        "/books/OL1646149M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "4500703"
+                ]
+            },
+            "series": [
+                "Romance ;",
+                "3263"
+            ],
+            "covers": [
+                7321325,
+                7321324,
+                7321322,
+                7321321,
+                7321319
+            ],
+            "lc_classifications": [
+                "MLCS 91/16192 (P)"
+            ],
+            "key": "/books/OL1646149M",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "publish_places": [
+                "Richmond, Surrey"
+            ],
+            "pagination": "189 p. ;",
+            "source_records": [
+                "bwb:9780263123067",
+                "marc:marc_loc_2016/BooksAll.2016.part21.utf8:120849226:528"
+            ],
+            "title": "A relative betrayal",
+            "lccn": [
+                "91202490"
+            ],
+            "number_of_pages": 189,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263123065"
+            ],
+            "publish_date": "1990",
+            "publish_country": "enk",
+            "by_statement": "by Anne Mather.",
+            "oclc_numbers": [
+                "24630603"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3771236W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 16,
+            "revision": 16,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL14978161M": {
+            "title": "Desirable property.",
+            "authors": [
+                {
+                    "key": "/authors/OL589216A"
+                }
+            ],
+            "publish_date": "1985",
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263107345"
+            ],
+            "publish_country": "xxk",
+            "publish_places": [
+                "London"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:516250034:381"
+            ],
+            "key": "/books/OL14978161M",
+            "works": [
+                {
+                    "key": "/works/OL3519297W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T23:06:18.878534"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-08T02:05:43.993936"
+            }
+        },
+        "/books/OL10691448M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "number_of_pages": 188,
+            "series": [
+                "Harlequin Romance, No 2720"
+            ],
+            "covers": [
+                12940400,
+                -1
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL10691448M",
+            "authors": [
+                {
+                    "key": "/authors/OL589216A"
+                }
+            ],
+            "subjects": [
+                "Non-Classifiable",
+                "Romance - Contemporary",
+                "Fiction",
+                "Romance: Modern"
+            ],
+            "classifications": {},
+            "source_records": [
+                "ia:desirablepropert0000geor",
+                "bwb:9780373027200",
+                "promise:bwb_daily_pallets_2022-03-17",
+                "promise:bwb_daily_pallets_2021-05-20"
+            ],
+            "title": "Desirable Property",
+            "identifiers": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "September 1, 1985",
+            "works": [
+                {
+                    "key": "/works/OL3519297W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "desirablepropert0000geor",
+            "isbn_10": [
+                "0373027206"
+            ],
+            "isbn_13": [
+                "9780373027200"
+            ],
+            "oclc_numbers": [
+                "12433670"
+            ],
+            "local_id": [
+                "urn:bwbsku:W7-AND-882",
+                "urn:bwbsku:O6-AYL-569"
+            ],
+            "latest_revision": 12,
+            "revision": 12,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-14T19:04:04.897310"
+            }
+        },
+        "/books/OL38271364M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "isbn_13": [
+                "9781283686068"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2013",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781283686068"
+            ],
+            "title": "Happy Meeting",
+            "full_title": "Happy Meeting",
+            "works": [
+                {
+                    "key": "/works/OL3457748W"
+                }
+            ],
+            "key": "/books/OL38271364M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-17T11:49:39.638953"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-08T22:17:08.297351"
+            }
+        },
+        "/books/OL26390149M": {
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "number_of_pages": 187,
+            "description": "All alone in the world, Cressida had little choice but to accept Aldrik van der Linus's help. He certainly seemed happy to fix her up with a job, and even to assist with her other day-to-day predicaments. Yet she couldn't help but wonder what he would do if she presented him with the most serious problem of all: unrequited love!",
+            "series": [
+                "The Best of Betty Neels"
+            ],
+            "covers": [
+                8200976,
+                8084656,
+                -1
+            ],
+            "full_title": "A happy meeting",
+            "key": "/books/OL26390149M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "publish_places": [
+                "Toronto"
+            ],
+            "pagination": "187 pages ;",
+            "classifications": {},
+            "source_records": [
+                "ia:isbn_9780373249602",
+                "bwb:9780373249602",
+                "promise:bwb_daily_pallets_2022-06-01"
+            ],
+            "title": "A Happy Meeting",
+            "notes": "Original copyright: 1992.\r\n\r\n\"Harlequin readers' choice\"--Spine.\r\n\r\n\"Romance, Nov12\"--Spine.",
+            "identifiers": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Unrequited love",
+                "Man-woman relationships",
+                "Fiction"
+            ],
+            "publish_date": "2012",
+            "publish_country": "onc",
+            "by_statement": "[Betty Neels]",
+            "works": [
+                {
+                    "key": "/works/OL3457748W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "isbn_9780373249602",
+            "isbn_10": [
+                "0373249608"
+            ],
+            "isbn_13": [
+                "9780373249602"
+            ],
+            "oclc_numbers": [
+                "817999097"
+            ],
+            "dewey_decimal_class": [
+                "[Fic]"
+            ],
+            "lc_classifications": [
+                "PS"
+            ],
+            "local_id": [
+                "urn:bwbsku:T2-CUW-877"
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2017-10-22T04:33:09.844182"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-08T22:17:08.297351"
+            }
+        },
+        "/books/OL9670579M": {
+            "title": "A Happy Meeting",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "publish_date": "April 1993",
+            "publishers": [
+                "MacMillan Publishing Company"
+            ],
+            "weight": "13.6 ounces",
+            "series": [
+                "Harlequin Romance, 3267"
+            ],
+            "physical_format": "Hardcover",
+            "subjects": [
+                "Romance",
+                "Romance - General",
+                "Fiction - Romance",
+                "Large Print"
+            ],
+            "edition_name": "Large Prnt edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_13": [
+                "9780263132786"
+            ],
+            "isbn_10": [
+                "0263132781"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.8 x 5.8 x 1 inches",
+            "source_records": [
+                "amazon:0263132781"
+            ],
+            "key": "/books/OL9670579M",
+            "number_of_pages": 288,
+            "works": [
+                {
+                    "key": "/works/OL3457748W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-04-16T19:02:17.142097"
+            }
+        },
+        "/books/OL9692977M": {
+            "publishers": [
+                "Large Print Press"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "1121766"
+                ],
+                "goodreads": [
+                    "577367"
+                ]
+            },
+            "weight": "15.2 ounces",
+            "covers": [
+                5003210
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL9692977M",
+            "subjects": [
+                "Romance - Contemporary",
+                "Romance - Suspense",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern"
+            ],
+            "edition_name": "Large Print Edition",
+            "title": "Outsider",
+            "number_of_pages": 383,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "May 15, 2007",
+            "works": [
+                {
+                    "key": "/works/OL1902366W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.4 x 5.5 x 0.8 inches",
+            "source_records": [
+                "ia:outsider0000palm"
+            ],
+            "classifications": {},
+            "ocaid": "outsider0000palm",
+            "isbn_10": [
+                "1594132143"
+            ],
+            "isbn_13": [
+                "9781594132148"
+            ],
+            "lc_classifications": [
+                "PS3566.A513 O98 2007"
+            ],
+            "latest_revision": 13,
+            "revision": 13,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-31T14:42:22.532115"
+            }
+        },
+        "/books/OL24257329M": {
+            "publishers": [
+                "HQN"
+            ],
+            "physical_format": "Electronic resource",
+            "source_records": [
+                "marc_overdrive/InternetArchiveCrMarc-2010-06-11h.mrc:1467710:1954",
+                "bwb:9781426800924"
+            ],
+            "title": "Outsider",
+            "identifiers": {
+                "overdrive": [
+                    "55D1731D-92B1-4A08-BB2B-60F32D2B1114"
+                ]
+            },
+            "isbn_13": [
+                "9781426800924"
+            ],
+            "covers": [
+                6405141
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2007",
+            "publish_country": "nyu",
+            "key": "/books/OL24257329M",
+            "publish_places": [
+                "Toronto, Ontario"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL1902366W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "oclc_numbers": [
+                "144594587"
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-06-17T17:48:57.723044"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-31T14:42:22.532115"
+            }
+        },
+        "/books/OL7420917M": {
+            "publishers": [
+                "HQN Books"
+            ],
+            "number_of_pages": 345,
+            "ia_box_id": [
+                "IA102510"
+            ],
+            "covers": [
+                1187712
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-08-28T07:13:47.191891"
+            },
+            "latest_revision": 14,
+            "key": "/books/OL7420917M",
+            "ocaid": "outsider00palm",
+            "isbn_13": [
+                "9780373772346"
+            ],
+            "classifications": {},
+            "source_records": [
+                "ia:outsider00palm",
+                "bwb:9780373772346"
+            ],
+            "title": "Outsider",
+            "notes": {
+                "type": "/type/text",
+                "value": "Hqn Romance"
+            },
+            "identifiers": {
+                "librarything": [
+                    "1121766"
+                ],
+                "goodreads": [
+                    "176119"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373772343"
+            ],
+            "publish_date": "May 1, 2007",
+            "works": [
+                {
+                    "key": "/works/OL1902366W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 14
+        },
+        "/books/OL17411825M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "key": "/books/OL17411825M",
+            "authors": [
+                {
+                    "key": "/authors/OL451969A"
+                }
+            ],
+            "publish_places": [
+                "Richmond"
+            ],
+            "pagination": "(192)p. ;",
+            "title": "An impossible dream",
+            "dewey_decimal_class": [
+                "823.914"
+            ],
+            "number_of_pages": 192,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263139115"
+            ],
+            "publish_date": "1994",
+            "publish_country": "enk",
+            "by_statement": "Emma Darcy.",
+            "oclc_numbers": [
+                "30592168"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL2959312W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                14579225
+            ],
+            "source_records": [
+                "amazon:0263139115"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-28T18:02:47.455865"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-02-15T05:13:56.685871"
+            }
+        },
+        "/books/OL1078889M": {
+            "publishers": [
+                "Thorndike Press"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "1934164"
+                ]
+            },
+            "isbn_10": [
+                "0786202033"
+            ],
+            "subject_place": [
+                "Australia"
+            ],
+            "covers": [
+                14633423,
+                8069013
+            ],
+            "lc_classifications": [
+                "PR6054.A694 I47 1994",
+                "PR6054.A694I47 1994"
+            ],
+            "key": "/books/OL1078889M",
+            "authors": [
+                {
+                    "key": "/authors/OL451969A"
+                }
+            ],
+            "ocaid": "impossibledream00darc",
+            "publish_places": [
+                "Thorndike, Me"
+            ],
+            "pagination": "229 p. (large print) ;",
+            "source_records": [
+                "ia:impossibledream00darc",
+                "marc:marc_loc_2016/BooksAll.2016.part23.utf8:116169790:701",
+                "bwb:9780786202034",
+                "promise:bwb_daily_pallets_2022-03-17"
+            ],
+            "title": "An impossible dream",
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "\"Thorndike large print\"--P. [4] of cover."
+            },
+            "number_of_pages": 229,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lccn": [
+                "94002188"
+            ],
+            "subjects": [
+                "Large type books.",
+                "Australia -- Fiction."
+            ],
+            "publish_date": "1994",
+            "publish_country": "meu",
+            "by_statement": "Emma Darcy.",
+            "oclc_numbers": [
+                "29845463"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL2959312W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:W7-AXW-877"
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-06-06T22:57:53.417641"
+            }
+        },
+        "/books/OL43488403M": {
+            "title": "The Interloper",
+            "authors": [
+                {
+                    "key": "/authors/OL579518A"
+                }
+            ],
+            "publish_date": "1981-01-01",
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:KO-973-023"
+            ],
+            "publishers": [
+                "HARLEQUIN MILLS BOON",
+                "Harlequin Books"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-01-18",
+                "amazon:026373515X",
+                "ia:interloper0000roby"
+            ],
+            "full_title": "The Interloper",
+            "covers": [
+                14195788
+            ],
+            "key": "/books/OL43488403M",
+            "number_of_pages": 192,
+            "works": [
+                {
+                    "key": "/works/OL3475987W"
+                }
+            ],
+            "identifiers": {},
+            "ocaid": "interloper0000roby",
+            "isbn_10": [
+                "026373515X"
+            ],
+            "isbn_13": [
+                "9780263735154"
+            ],
+            "classifications": {},
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-09T02:38:21.244200"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-29T10:47:27.154639"
+            }
+        },
+        "/books/OL10738102M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "source_records": [
+                "bwb:9780373104413",
+                "ia:interloper0000dona",
+                "amazon:0373104413",
+                "promise:bwb_daily_pallets_2021-01-11"
+            ],
+            "title": "The Interloper",
+            "identifiers": {
+                "librarything": [
+                    "551182"
+                ],
+                "goodreads": [
+                    "3216275"
+                ]
+            },
+            "physical_format": "Paperback",
+            "publish_date": "1981",
+            "key": "/books/OL10738102M",
+            "works": [
+                {
+                    "key": "/works/OL3475987W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                11295179
+            ],
+            "copyright_date": "1981",
+            "series": [
+                "Harlequin Presents - 441"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "local_id": [
+                "urn:bwbsku:O5-NZU-733"
+            ],
+            "ocaid": "interloper0000dona",
+            "isbn_10": [
+                "0373104413"
+            ],
+            "isbn_13": [
+                "9780373104413"
+            ],
+            "oclc_numbers": [
+                "7466738"
+            ],
+            "lc_classifications": [
+                "PN6071.L7 H38 no.441"
+            ],
+            "latest_revision": 12,
+            "revision": 12,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-30T13:00:50.634171"
+            }
+        },
+        "/books/OL14977174M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "551182"
+                ]
+            },
+            "key": "/books/OL14977174M",
+            "authors": [
+                {
+                    "key": "/authors/OL579518A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "188p. ;",
+            "source_records": [
+                "bwb:9780263098396",
+                "amazon:0263098397"
+            ],
+            "title": "The Interloper",
+            "number_of_pages": 188,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1981",
+            "publish_country": "xxk",
+            "by_statement": "by Robyn Donald.",
+            "works": [
+                {
+                    "key": "/works/OL3475987W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_10": [
+                "0263098397"
+            ],
+            "oclc_numbers": [
+                "7689939"
+            ],
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T22:58:37.312638"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-30T13:00:50.634171"
+            }
+        },
+        "/books/OL38386858M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL577983A"
+                }
+            ],
+            "isbn_13": [
+                "9780373103072"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1979",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9780373103072"
+            ],
+            "title": "Moth to the Flame",
+            "full_title": "Moth to the Flame",
+            "works": [
+                {
+                    "key": "/works/OL11327644W"
+                }
+            ],
+            "key": "/books/OL38386858M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-18T18:46:45.215701"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-07-27T20:21:27.924530"
+            }
+        },
+        "/books/OL7867455M": {
+            "identifiers": {
+                "goodreads": [
+                    "412938"
+                ],
+                "librarything": [
+                    "78234"
+                ]
+            },
+            "title": "Glorious Angel",
+            "authors": [
+                {
+                    "key": "/authors/OL23108A"
+                }
+            ],
+            "publish_date": "March 1, 2003",
+            "publishers": [
+                "Severn House Publishers"
+            ],
+            "weight": "1.2 pounds",
+            "covers": [
+                459758
+            ],
+            "physical_format": "Hardcover",
+            "subjects": [
+                "Romance",
+                "Romance: Modern",
+                "Fiction - Romance",
+                "Fiction",
+                "Romance - General",
+                "Civil War, 1861-1865",
+                "Fiction / Romance",
+                "Fiction / Romance / General",
+                "History",
+                "United States"
+            ],
+            "edition_name": "New Ed edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "Angela Sherrington tossed another log on the hearth."
+            },
+            "source_records": [
+                "amazon:0727859455:cn:3201683967:258903",
+                "bwb:9780727859457",
+                "ia:gloriousangel0000lind_i4b8"
+            ],
+            "isbn_13": [
+                "9780727859457"
+            ],
+            "isbn_10": [
+                "0727859455"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.6 x 5.8 x 1.3 inches",
+            "lc_classifications": [
+                "PS3562.I5123"
+            ],
+            "ocaid": "gloriousangel0000lind_i4b8",
+            "key": "/books/OL7867455M",
+            "number_of_pages": 320,
+            "works": [
+                {
+                    "key": "/works/OL15677W"
+                }
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-11-01T01:32:25.191692"
+            }
+        },
+        "/books/OL7434896M": {
+            "publishers": [
+                "Avon"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "419303"
+                ],
+                "librarything": [
+                    "78234"
+                ]
+            },
+            "source_records": [
+                "amazon:0380792028:19:3361021782:254800"
+            ],
+            "title": "Glorious Angel",
+            "number_of_pages": 400,
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2010-08-05T23:37:07.334820"
+            },
+            "covers": [
+                236339
+            ],
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "isbn_13": [
+                "9780380792023"
+            ],
+            "isbn_10": [
+                "0380792028"
+            ],
+            "publish_date": "February 5, 2002",
+            "key": "/books/OL7434896M",
+            "authors": [
+                {
+                    "key": "/authors/OL23108A"
+                }
+            ],
+            "latest_revision": 6,
+            "works": [
+                {
+                    "key": "/works/OL15677W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "Angela Sherrington tossed another log on the hearth."
+            },
+            "revision": 6
+        },
+        "/books/OL10692196M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "1496614"
+                ],
+                "librarything": [
+                    "3044032"
+                ]
+            },
+            "weight": "3.2 ounces",
+            "isbn_10": [
+                "0373036434"
+            ],
+            "series": [
+                "Harlequin Romance, No. 3643"
+            ],
+            "covers": [
+                2406834,
+                214136
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL10692196M",
+            "authors": [
+                {
+                    "key": "/authors/OL687900A"
+                }
+            ],
+            "ocaid": "bachelorsbargain00jess",
+            "isbn_13": [
+                "9780373036431"
+            ],
+            "classifications": {},
+            "source_records": [
+                "bwb:9780373036431",
+                "promise:bwb_daily_pallets_2022-06-01",
+                "promise:bwb_daily_pallets_2021-06-28",
+                "promise:bwb_daily_pallets_2021-05-19"
+            ],
+            "title": "The Bachelor's Bargain",
+            "number_of_pages": 192,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Romance - General",
+                "Non-Classifiable",
+                "Romance - Contemporary",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern"
+            ],
+            "publish_date": "March 1, 2001",
+            "oclc_numbers": [
+                "45701120"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3845003W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.8 x 3.2 x 0.5 inches",
+            "local_id": [
+                "urn:bwbsku:O8-AKN-331",
+                "urn:bwbsku:R1-AGR-468",
+                "urn:bwbsku:O5-GDH-360"
+            ],
+            "latest_revision": 14,
+            "revision": 14,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-14T19:08:25.126783"
+            }
+        },
+        "/books/OL9652594M": {
+            "identifiers": {
+                "goodreads": [
+                    "1407302"
+                ],
+                "librarything": [
+                    "956013"
+                ]
+            },
+            "title": "The Sheikh's Virgin",
+            "authors": [
+                {
+                    "key": "/authors/OL2359261A"
+                }
+            ],
+            "publish_date": "June 1, 2005",
+            "publishers": [
+                "Harlequin"
+            ],
+            "ia_box_id": [
+                "IA128522"
+            ],
+            "weight": "2.4 ounces",
+            "covers": [
+                6664109,
+                215067
+            ],
+            "physical_format": "Mass Market Paperback",
+            "subjects": [
+                "American Light Romantic Fiction",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern",
+                "Romance - Contemporary",
+                "Fiction / Romance / General",
+                "Romance - General"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-05-14:KP-302-658",
+                "bwb:9780373124732",
+                "promise:bwb_daily_pallets_2021-04-27:P7-BEW-194",
+                "promise:bwb_daily_pallets_2021-04-07:O7-CUV-675"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.6 x 4.1 x 0.6 inches",
+            "ocaid": "sheikhsvirgin00port",
+            "isbn_10": [
+                "0373124732"
+            ],
+            "isbn_13": [
+                "9780373124732"
+            ],
+            "local_id": [
+                "urn:bwbsku:KP-302-658",
+                "urn:bwbsku:P7-BEW-194",
+                "urn:bwbsku:O7-CUV-675"
+            ],
+            "key": "/books/OL9652594M",
+            "number_of_pages": 192,
+            "works": [
+                {
+                    "key": "/works/OL7664479W"
+                }
+            ],
+            "latest_revision": 24,
+            "revision": 24,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T14:28:40.911526"
+            }
+        },
+        "/books/OL9605914M": {
+            "publishers": [
+                "Harlequin Mills & Boon"
+            ],
+            "weight": "3.5 ounces",
+            "physical_format": "Paperback",
+            "key": "/books/OL9605914M",
+            "authors": [
+                {
+                    "key": "/authors/OL2359261A"
+                }
+            ],
+            "subjects": [
+                "Romance"
+            ],
+            "edition_name": "New Ed edition",
+            "classifications": {},
+            "source_records": [
+                "bwb:9780263841480"
+            ],
+            "title": "The Sheikh's Virgin",
+            "notes": {
+                "type": "/type/text",
+                "value": "Modern Romance"
+            },
+            "identifiers": {},
+            "isbn_13": [
+                "9780263841480"
+            ],
+            "isbn_10": [
+                "0263841480"
+            ],
+            "publish_date": "May 6, 2005",
+            "works": [
+                {
+                    "key": "/works/OL7664479W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.5 x 4.2 x 0.6 inches",
+            "lc_classifications": [
+                "PS3616.O78"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-17T05:42:45.646037"
+            }
+        },
+        "/books/OL24274388M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "physical_format": "Electronic resource",
+            "source_records": [
+                "marc_overdrive/InternetArchiveCrMarc-2010-06-11s.mrc:4033053:1995",
+                "bwb:9781426859052",
+                "promise:bwb_daily_pallets_2020-12-22"
+            ],
+            "title": "The Sheikh's Virgin",
+            "identifiers": {
+                "overdrive": [
+                    "8E6843BB-89D2-4B9F-A508-F8DFFBA6277C"
+                ]
+            },
+            "isbn_13": [
+                "9781426859052"
+            ],
+            "covers": [
+                6424243
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2010",
+            "publish_country": "nyu",
+            "key": "/books/OL24274388M",
+            "authors": [
+                {
+                    "key": "/authors/OL2359261A"
+                }
+            ],
+            "publish_places": [
+                "Toronto, Ontario"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL7664479W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:386-BAC-396"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-06-18T01:48:19.953585"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-09T06:52:14.004672"
+            }
+        },
+        "/books/OL28972284M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263186482"
+            ],
+            "title": "Sheikh's Virgin",
+            "number_of_pages": 185,
+            "isbn_13": [
+                "9780263186482"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Sheikh's Virgin",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2005",
+            "key": "/books/OL28972284M",
+            "authors": [
+                {
+                    "key": "/authors/OL5822889A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL7664479W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T20:42:21.263723"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-08-23T09:10:08.342021"
+            }
+        },
+        "/books/OL11551388M": {
+            "identifiers": {
+                "goodreads": [
+                    "2511338"
+                ],
+                "librarything": [
+                    "4517890"
+                ]
+            },
+            "title": "Highlander Ever After",
+            "authors": [
+                {
+                    "key": "/authors/OL1386238A"
+                }
+            ],
+            "publish_date": "April 2008",
+            "publishers": [
+                "Leisure",
+                "Leisure Books"
+            ],
+            "ia_box_id": [
+                "IA181701"
+            ],
+            "covers": [
+                2663229
+            ],
+            "physical_format": "Mass Market Paperback",
+            "ia_loaded_id": [
+                "highlandereveraf00ashl"
+            ],
+            "subjects": [
+                "Romance",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Historical",
+                "Romance - Historical",
+                "Romance - General"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-06-30:P7-CAS-513",
+                "amazon:0843960043",
+                "marc:marc_loc_updates/v37.i06.records.utf8:11487866:1361",
+                "marc:marc_loc_updates/v37.i08.records.utf8:9638937:1392",
+                "ia:highlandereveraf00ashl",
+                "marc:marc_loc_2016/BooksAll.2016.part36.utf8:73122118:1392",
+                "bwb:9780843960044",
+                "promise:bwb_daily_pallets_2021-05-13:995-BAB-867",
+                "promise:bwb_daily_pallets_2021-05-12:P7-AGA-328"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "highlandereveraf00ashl",
+            "isbn_10": [
+                "0843960043"
+            ],
+            "isbn_13": [
+                "9780843960044"
+            ],
+            "lccn": [
+                "2008577394"
+            ],
+            "oclc_numbers": [
+                "214403192"
+            ],
+            "lc_classifications": [
+                "CPB Box no. 2785 vol. 9",
+                "PS3601.S547"
+            ],
+            "series": [
+                "Leisure Historical Romance"
+            ],
+            "local_id": [
+                "urn:bwbsku:P7-CAS-513",
+                "urn:bwbsku:995-BAB-867",
+                "urn:bwbsku:P7-AGA-328"
+            ],
+            "key": "/books/OL11551388M",
+            "number_of_pages": 368,
+            "works": [
+                {
+                    "key": "/works/OL5695925W"
+                }
+            ],
+            "latest_revision": 22,
+            "revision": 22,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T13:51:22.622091"
+            }
+        },
+        "/books/OL24251597M": {
+            "publishers": [
+                "Dorchester Publishing Co., Inc."
+            ],
+            "physical_format": "Electronic resource",
+            "source_records": [
+                "marc_overdrive/InternetArchiveCrMarc-2010-06-11d.mrc:6291355:1621",
+                "bwb:9781428502666"
+            ],
+            "title": "Highlander Ever After",
+            "identifiers": {
+                "overdrive": [
+                    "8FA79165-F7C8-44C1-B736-31FBD0D0D989"
+                ]
+            },
+            "isbn_13": [
+                "9781428502666"
+            ],
+            "covers": [
+                6399210
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2009",
+            "publish_country": "nyu",
+            "key": "/books/OL24251597M",
+            "authors": [
+                {
+                    "key": "/authors/OL1386238A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL5695925W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-06-17T01:14:11.310289"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-12-30T03:54:11.578746"
+            }
+        },
+        "/books/OL35310408M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Kalpsiz",
+            "authors": [
+                {
+                    "key": "/authors/OL7037383A"
+                }
+            ],
+            "publish_date": "Jan 01, 2000",
+            "source_records": [
+                "amazon:6053042218"
+            ],
+            "number_of_pages": 542,
+            "publishers": [
+                "Artemis Yayinlari"
+            ],
+            "isbn_10": [
+                "6053042218"
+            ],
+            "isbn_13": [
+                "9786053042211"
+            ],
+            "physical_format": "paperback",
+            "covers": [
+                12121294
+            ],
+            "works": [
+                {
+                    "key": "/works/OL17886378W"
+                }
+            ],
+            "key": "/books/OL35310408M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-19T10:31:33.018755"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-06-02T15:50:55.015833"
+            }
+        },
+        "/books/OL26374415M": {
+            "publishers": [
+                "Editorial Hidra"
+            ],
+            "title": "Sin corazón",
+            "covers": [
+                8063698
+            ],
+            "isbn_13": [
+                "9788417036553"
+            ],
+            "publish_date": "2017",
+            "key": "/books/OL26374415M",
+            "works": [
+                {
+                    "key": "/works/OL17886378W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:8417036555"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2017-09-14T12:03:08.990203"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-06-02T15:50:55.015833"
+            }
+        },
+        "/books/OL35631786M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Heartless",
+            "authors": [
+                {
+                    "key": "/authors/OL7037383A"
+                },
+                {
+                    "key": "/authors/OL9161186A"
+                }
+            ],
+            "publish_date": "Mar 01, 2017",
+            "source_records": [
+                "amazon:9877472546",
+                "bwb:9789877472547"
+            ],
+            "number_of_pages": 592,
+            "publishers": [
+                "V&R Ediciones",
+                "Lectorum Publications, Inc."
+            ],
+            "isbn_10": [
+                "9877472546"
+            ],
+            "isbn_13": [
+                "9789877472547"
+            ],
+            "physical_format": "paperback",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Heartless (Spanish Edition)"
+            },
+            "full_title": "Heartless",
+            "covers": [
+                12338757
+            ],
+            "works": [
+                {
+                    "key": "/works/OL17886378W"
+                }
+            ],
+            "key": "/books/OL35631786M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-05T23:55:06.774942"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-05-30T16:26:18.973068"
+            }
+        },
+        "/books/OL27948700M": {
+            "physical_format": "paperback",
+            "source_records": [
+                "amazon:1925479471",
+                "bwb:9781925479478"
+            ],
+            "title": "Heartless",
+            "isbn_10": [
+                "1925479471"
+            ],
+            "covers": [
+                9336847
+            ],
+            "isbn_13": [
+                "9781925479478"
+            ],
+            "full_title": "Heartless",
+            "lc_classifications": [
+                ""
+            ],
+            "key": "/books/OL27948700M",
+            "works": [
+                {
+                    "key": "/works/OL17886378W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-04-23T07:22:30.796458"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-08-09T10:39:39.906352"
+            }
+        },
+        "/books/OL31390975M": {
+            "publishers": [
+                "Feiwel & Friends"
+            ],
+            "source_records": [
+                "amazon:1250114861",
+                "promise:bwb_daily_pallets_2022-08-30"
+            ],
+            "title": "Heartless",
+            "isbn_13": [
+                "9781250114860"
+            ],
+            "covers": [
+                10514142
+            ],
+            "physical_format": "paperback",
+            "full_title": "Heartless",
+            "isbn_10": [
+                "1250114861"
+            ],
+            "publish_date": "Nov 19, 2016",
+            "key": "/books/OL31390975M",
+            "authors": [
+                {
+                    "key": "/authors/OL7037383A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL17886378W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:O8-BXN-859"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-11-19T17:14:12.650880"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-04T15:12:52.109901"
+            }
+        },
+        "/books/OL27702615M": {
+            "publishers": [
+                "Macmillan Audio"
+            ],
+            "classifications": {},
+            "source_records": [
+                "amazon:1427267944"
+            ],
+            "title": "Heartless",
+            "identifiers": {
+                "amazon": [
+                    "1427267944"
+                ]
+            },
+            "isbn_13": [
+                "9781427267948"
+            ],
+            "covers": [
+                9138651
+            ],
+            "physical_format": "audio cd",
+            "full_title": "Heartless",
+            "isbn_10": [
+                "1427267944"
+            ],
+            "publish_date": "Nov 08, 2016",
+            "key": "/books/OL27702615M",
+            "authors": [
+                {
+                    "key": "/authors/OL7037383A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL17886378W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-11-16T05:51:16.273957"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-08-09T10:39:39.906352"
+            }
+        },
+        "/books/OL29727802M": {
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "source_records": [
+                "bwb:9781459291195"
+            ],
+            "title": "Gypsy",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781459291195"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Gypsy",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2015",
+            "key": "/books/OL29727802M",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3775500W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, contemporary"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-30T11:38:49.994852"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-29T02:34:48.847205"
+            }
+        },
+        "/books/OL7421864M": {
+            "identifiers": {
+                "goodreads": [
+                    "1311202"
+                ],
+                "librarything": [
+                    "750475"
+                ]
+            },
+            "title": "Gypsy",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "publish_date": "July 1986",
+            "publishers": [
+                "Harlequin"
+            ],
+            "covers": [
+                9284835
+            ],
+            "physical_format": "Paperback",
+            "publish_places": [
+                "Canada"
+            ],
+            "edition_name": "Harlequin Signature Edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_13": [
+                "9780373832026"
+            ],
+            "isbn_10": [
+                "0373832028"
+            ],
+            "copyright_date": "1985",
+            "oclc_numbers": [
+                "14439586"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:0373832028"
+            ],
+            "key": "/books/OL7421864M",
+            "works": [
+                {
+                    "key": "/works/OL3775500W"
+                }
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-09T10:05:14.240359"
+            }
+        },
+        "/books/OL27922208M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "covers": [
+                9284820
+            ],
+            "physical_format": "Paperback",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-02-29T06:50:43.987060"
+            },
+            "latest_revision": 3,
+            "key": "/books/OL27922208M",
+            "publish_places": [
+                "UK"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "classifications": {},
+            "title": "Gypsy",
+            "notes": {
+                "type": "/type/text",
+                "value": "Photo is of actual book."
+            },
+            "identifiers": {
+                "goodreads": [
+                    "40512722"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-02-29T06:48:03.523030"
+            },
+            "isbn_13": [
+                "9780263752748"
+            ],
+            "isbn_10": [
+                "0263752747"
+            ],
+            "publish_date": "1986",
+            "copyright_date": "1985",
+            "works": [
+                {
+                    "key": "/works/OL3775500W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 3
+        },
+        "/books/OL10746910M": {
+            "number_of_pages": 383,
+            "weight": "1.7 pounds",
+            "edition_name": "First Edition",
+            "physical_format": "Hardcover",
+            "key": "/books/OL10746910M",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "publish_places": [
+                "UK"
+            ],
+            "isbn_13": [
+                "9780373502370"
+            ],
+            "classifications": {},
+            "source_records": [
+                "bwb:9780373502370",
+                "amazon:0373502370"
+            ],
+            "title": "Gypsy",
+            "identifiers": {
+                "goodreads": [
+                    "695361"
+                ],
+                "librarything": [
+                    "750475"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373502370"
+            ],
+            "publish_date": "1985",
+            "copyright_date": "1985",
+            "oclc_numbers": [
+                "13157496"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3775500W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                13729750
+            ],
+            "publishers": [
+                "Harlequin"
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-03-21T00:35:34.787564"
+            }
+        },
+        "/books/OL22405581M": {
+            "publishers": [
+                "MIRA Books"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "2665788"
+                ]
+            },
+            "covers": [
+                9284821
+            ],
+            "physical_format": "Mass Market Paperback",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T04:37:00.481518"
+            },
+            "latest_revision": 8,
+            "key": "/books/OL22405581M",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "publish_places": [
+                "Canada"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "classifications": {},
+            "source_records": [
+                "bwb:9781551663500"
+            ],
+            "title": "Gypsy",
+            "notes": {
+                "type": "/type/text",
+                "value": "Photo is of actual book."
+            },
+            "number_of_pages": 384,
+            "isbn_13": [
+                "9781551663500"
+            ],
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-12T16:57:49.690177"
+            },
+            "edition_name": "Reprint",
+            "isbn_10": [
+                "1551663503"
+            ],
+            "publish_date": "19 September 1997",
+            "publish_country": "enk",
+            "copyright_date": "1985",
+            "oclc_numbers": [
+                "37794406"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3775500W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 8
+        },
+        "/books/OL14977484M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T22:11:46.966356"
+            },
+            "latest_revision": 6,
+            "key": "/books/OL14977484M",
+            "authors": [
+                {
+                    "key": "/authors/OL659964A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "188p. ;",
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:515954426:554",
+                "bwb:9780263100709"
+            ],
+            "title": "Portrait ofBethany",
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "number_of_pages": 188,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T23:01:23.888846"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263100707"
+            ],
+            "publish_date": "1982",
+            "publish_country": "xxk",
+            "by_statement": "by Anne Weale.",
+            "oclc_numbers": [
+                "9076096"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL11328048W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 6
+        },
+        "/books/OL14980408M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "pagination": "sC8.192. n.e.",
+            "number_of_pages": 192,
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:517368888:415",
+                "ia:portraitofbethan0000weal",
+                "promise:bwb_daily_pallets_2020-11-19"
+            ],
+            "title": "Portrait of Bethany",
+            "identifiers": {
+                "librarything": [
+                    "3324273"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1982",
+            "publish_country": "xxk",
+            "key": "/books/OL14980408M",
+            "authors": [
+                {
+                    "key": "/authors/OL659964A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL11328048W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                10589732
+            ],
+            "classifications": {},
+            "ocaid": "portraitofbethan0000weal",
+            "isbn_10": [
+                "0263738787"
+            ],
+            "isbn_13": [
+                "9780263738780"
+            ],
+            "physical_format": "Paperback",
+            "publish_places": [
+                "London"
+            ],
+            "copyright_date": "1982",
+            "series": [
+                "Castle Saga #1"
+            ],
+            "local_id": [
+                "urn:bwbsku:KO-530-207"
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T23:22:04.301304"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-09T16:34:23.495101"
+            }
+        },
+        "/books/OL10690912M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "classifications": {},
+            "title": "Honey",
+            "series": [
+                "Harlequin Romance, #2061"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "70546"
+                ],
+                "librarything": [
+                    "6184992"
+                ]
+            },
+            "covers": [
+                9569019
+            ],
+            "physical_format": "Paperback",
+            "isbn_10": [
+                "0373020619"
+            ],
+            "publish_date": "1977",
+            "key": "/books/OL10690912M",
+            "authors": [
+                {
+                    "key": "/authors/OL892147A"
+                }
+            ],
+            "ocaid": "honey00mary",
+            "works": [
+                {
+                    "key": "/works/OL4472925W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:O7-CSG-955"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-06-21"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-08T06:14:58.531711"
+            }
+        },
+        "/books/OL25551915M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "covers": [
+                9595520
+            ],
+            "full_title": "A relative betrayal",
+            "key": "/books/OL25551915M",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "publish_places": [
+                "Chatswood, N.S.W"
+            ],
+            "edition_name": "1st Australian pbk. ed.",
+            "pagination": "189 p. ;",
+            "source_records": [
+                "ia:relativebetrayal00math_721",
+                "bwb:9780263766592",
+                "ia:relativebetrayal0000math",
+                "amazon:0263766594",
+                "promise:bwb_daily_pallets_2020-09-09"
+            ],
+            "title": "A Relative Betrayal",
+            "number_of_pages": 189,
+            "publish_date": "1990",
+            "publish_country": "xna",
+            "by_statement": "Anne Mather",
+            "works": [
+                {
+                    "key": "/works/OL3771236W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:KO-136-373"
+            ],
+            "identifiers": {},
+            "isbn_10": [
+                "0263766594"
+            ],
+            "isbn_13": [
+                "9780263766592"
+            ],
+            "oclc_numbers": [
+                "156877967"
+            ],
+            "classifications": {},
+            "latest_revision": 13,
+            "revision": 13,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2014-07-29T07:03:23.430607"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-03-28T22:36:58.631887"
+            }
+        },
+        "/books/OL17456483M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "key": "/books/OL17456483M",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "publish_places": [
+                "Richmond"
+            ],
+            "pagination": "189p.",
+            "source_records": [
+                "bwb:9780263784688"
+            ],
+            "title": "A relative betrayal.",
+            "dewey_decimal_class": [
+                "823.914"
+            ],
+            "number_of_pages": 189,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263784681"
+            ],
+            "publish_date": "1993",
+            "publish_country": "enk",
+            "oclc_numbers": [
+                "59947471"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3771236W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-28T21:33:53.764970"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL10239210M": {
+            "publishers": [
+                "Thorndike Pr"
+            ],
+            "number_of_pages": 288,
+            "weight": "15.8 ounces",
+            "series": [
+                "(Large Print Harlequin Series)"
+            ],
+            "physical_format": "Hardcover",
+            "key": "/books/OL10239210M",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "subjects": [
+                "Romance",
+                "Romance - General",
+                "Fiction - Romance",
+                "Large Print"
+            ],
+            "edition_name": "Large Prnt edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "classifications": {},
+            "title": "A Relative Betrayal",
+            "identifiers": {},
+            "isbn_13": [
+                "9780263123685"
+            ],
+            "isbn_10": [
+                "0263123685"
+            ],
+            "publish_date": "November 1990",
+            "works": [
+                {
+                    "key": "/works/OL3771236W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.5 x 5.7 x 1.1 inches",
+            "covers": [
+                14245070
+            ],
+            "source_records": [
+                "amazon:0263123685"
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL10738739M": {
+            "identifiers": {
+                "goodreads": [
+                    "1739488"
+                ],
+                "librarything": [
+                    "4500703"
+                ]
+            },
+            "title": "A Relative Betrayal",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "publish_date": "October 1, 1990",
+            "publishers": [
+                "Harlequin",
+                "Harlequin Books"
+            ],
+            "ia_box_id": [
+                "IA119719"
+            ],
+            "series": [
+                "Harlequin Presents, No 1315"
+            ],
+            "covers": [
+                6631246
+            ],
+            "physical_format": "Paperback",
+            "subjects": [
+                "General",
+                "Non-Classifiable",
+                "Romance - General",
+                "Fiction",
+                "Fiction - General",
+                "Romance: Regency"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-04-18:W7-APJ-437",
+                "bwb:9780373113156",
+                "marc:harvard_bibliographic_metadata/ab.bib.12.20150123.full.mrc:652595091:1103",
+                "promise:bwb_daily_pallets_2022-03-17:P7-DDX-969",
+                "promise:bwb_daily_pallets_2020-12-16:386-BAC-614",
+                "marc:harvard_bibliographic_metadata/20220215_030.bib.mrc:29200822:1960"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:W7-APJ-437",
+                "urn:bwbsku:P7-DDX-969",
+                "urn:bwbsku:386-BAC-614"
+            ],
+            "key": "/books/OL10738739M",
+            "number_of_pages": 189,
+            "works": [
+                {
+                    "key": "/works/OL3771236W"
+                }
+            ],
+            "ocaid": "relativebetrayal00math",
+            "isbn_10": [
+                "0373113153"
+            ],
+            "isbn_13": [
+                "9780373113156"
+            ],
+            "oclc_numbers": [
+                "22508886"
+            ],
+            "classifications": {},
+            "lc_classifications": [
+                "PR6063.A8 R44 1990x"
+            ],
+            "latest_revision": 25,
+            "revision": 25,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-28T04:38:38.616870"
+            }
+        },
+        "/books/OL17315783M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "number_of_pages": 188,
+            "key": "/books/OL17315783M",
+            "authors": [
+                {
+                    "key": "/authors/OL589216A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "188p. ;",
+            "source_records": [
+                "bwb:9780263749571",
+                "ia:desirablepropert0000geor_y2q9",
+                "promise:bwb_daily_pallets_2022-03-17"
+            ],
+            "title": "Desirable Property",
+            "identifiers": {
+                "goodreads": [
+                    "6305534"
+                ],
+                "librarything": [
+                    "8781906"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1985",
+            "publish_country": "xxk",
+            "by_statement": "by Catherine George.",
+            "works": [
+                {
+                    "key": "/works/OL3519297W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                12695663
+            ],
+            "local_id": [
+                "urn:bwbsku:KQ-507-586"
+            ],
+            "ocaid": "desirablepropert0000geor_y2q9",
+            "isbn_10": [
+                "0263749576"
+            ],
+            "oclc_numbers": [
+                "12220378"
+            ],
+            "classifications": {},
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-28T09:15:53.041049"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-18T21:32:13.856740"
+            }
+        },
+        "/books/OL29661057M": {
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "source_records": [
+                "bwb:9781459245037"
+            ],
+            "title": "Happy Meeting",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781459245037"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Happy Meeting",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2012",
+            "key": "/books/OL29661057M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3457748W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-29T13:34:10.655964"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-08T22:17:08.297351"
+            }
+        },
+        "/books/OL10280411M": {
+            "publishers": [
+                "Ulverscroft Large Print"
+            ],
+            "number_of_pages": 281,
+            "weight": "13.9 ounces",
+            "covers": [
+                2343326
+            ],
+            "physical_format": "Hardcover",
+            "key": "/books/OL10280411M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "subjects": [
+                "Romance",
+                "Romance - General",
+                "Fiction - Romance"
+            ],
+            "edition_name": "Large Print Ed edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "bwb:9780263200034"
+            ],
+            "title": "A Happy Meeting (Betty Neels Large Print Collection)",
+            "identifiers": {
+                "librarything": [
+                    "924799"
+                ]
+            },
+            "isbn_13": [
+                "9780263200034"
+            ],
+            "isbn_10": [
+                "0263200035"
+            ],
+            "publish_date": "June 2007",
+            "works": [
+                {
+                    "key": "/works/OL3457748W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.6 x 5.8 x 1 inches",
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-08T22:17:08.297351"
+            }
+        }
+    }
+}

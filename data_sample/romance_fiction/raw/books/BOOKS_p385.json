@@ -1,0 +1,4828 @@
+{
+    "status": "ok",
+    "result": {
+        "/books/OL50984966M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B08FPB3629"
+                ]
+            },
+            "isbn_13": [
+                "9798675373857"
+            ],
+            "local_id": [
+                "urn:bwbsku:P9-CIE-516"
+            ],
+            "publish_date": "2020-08-15",
+            "publishers": [
+                "Independently published"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2024-02-05:P9-CIE-516"
+            ],
+            "title": "THE PLAGUE",
+            "full_title": "THE PLAGUE",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL50984966M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-02-07T01:08:12.070226"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-12T15:33:17.037037"
+            }
+        },
+        "/books/OL49163196M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL8370241A"
+                },
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798718403374"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "249",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798718403374"
+            ],
+            "title": "Peste",
+            "weight": "0.441",
+            "subtitle": "Roman",
+            "full_title": "Peste Roman",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL49163196M",
+            "contributors": [
+                {
+                    "role": "Illustrator",
+                    "name": "Aziz Oucheikh"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-07-18T12:23:57.774843"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-07-28T17:26:50.812021"
+            }
+        },
+        "/books/OL46859544M": {
+            "identifiers": {
+                "amazon": [
+                    "B001SK4NRC"
+                ],
+                "better_world_books": [
+                    "BWBM42893312"
+                ]
+            },
+            "title": "LA PESTE",
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:T2-FOJ-275"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-02-21:T2-FOJ-275",
+                "marc:harvard_bibliographic_metadata/ab.bib.00.20150123.full.mrc:261389060:357",
+                "ia:bwb_T2-FOJ-275"
+            ],
+            "full_title": "LA PESTE",
+            "key": "/books/OL46859544M",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "oclc_numbers": [
+                "59025568"
+            ],
+            "publishers": [
+                "METHUEN AND CO., LTD."
+            ],
+            "publish_date": "1965",
+            "covers": [
+                14915035
+            ],
+            "ocaid": "bwb_T2-FOJ-275",
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-02-27T20:13:21.844864"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-07-28T17:26:50.812021"
+            }
+        },
+        "/books/OL37843356M": {
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "title": "La peste",
+            "publishers": [
+                "Librairie Larousse"
+            ],
+            "publish_date": "1971",
+            "key": "/books/OL37843356M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                12727479
+            ],
+            "subtitle": "extraits",
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "ocaid": "lapeste0000albe",
+            "oclc_numbers": [
+                "490823355"
+            ],
+            "source_records": [
+                "ia:lapeste0000albe"
+            ],
+            "number_of_pages": 143,
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-04-27T15:51:54.445753"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-07-28T17:26:50.812021"
+            }
+        },
+        "/books/OL15219860M": {
+            "title": "La peste",
+            "subtitle": "extraits",
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "publish_date": "1971",
+            "publishers": [
+                "Larousse"
+            ],
+            "series": [
+                "Nouveaux classiques larousse"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_country": "fr ",
+            "by_statement": "avec une notice biographique, une notice historique et littéraire, des notes explicatives, une documentation thématique, des jugements, un questionnaire et des sujets de devoirs par Louis Faucon.",
+            "publish_places": [
+                "Paris"
+            ],
+            "contributions": [
+                "Faucon, Louis."
+            ],
+            "isbn_10": [
+                "2030341754"
+            ],
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:708146048:664"
+            ],
+            "key": "/books/OL15219860M",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-18T23:08:05.551653"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-20T02:42:57.560511"
+            }
+        },
+        "/books/OL51172465M": {
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "title": "Ciuma",
+            "publishers": [
+                "Polirom"
+            ],
+            "publish_date": "2018",
+            "key": "/books/OL51172465M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "classifications": {},
+            "physical_dimensions": "19.9 x 13.1 x 1.4 centimeters",
+            "weight": "293 grams",
+            "publish_places": [
+                "Iași, Romania"
+            ],
+            "copyright_date": "2018",
+            "contributors": [
+                {
+                    "role": "Translator",
+                    "name": "Eta Wexler"
+                },
+                {
+                    "role": "Translator",
+                    "name": "Marin Preda"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/rum"
+                }
+            ],
+            "translation_of": "OL1230715W",
+            "translated_from": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "physical_format": "Paperback",
+            "number_of_pages": 293,
+            "covers": [
+                14592786
+            ],
+            "isbn_13": [
+                "9789734671694"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-03-04T13:20:58.879642"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-03-04T13:46:38.584221"
+            }
+        },
+        "/books/OL49346950M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B000P1U5ZO"
+                ],
+                "better_world_books": [
+                    "BWB22376278"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:W8-AZM-010"
+            ],
+            "publish_date": "1960-01-01",
+            "publishers": [
+                "Knopf"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-08-23:W8-AZM-010",
+                "ia:plaguetranslated0000albe"
+            ],
+            "title": "The Plague",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL49346950M",
+            "covers": [
+                15038781
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 294,
+            "ocaid": "plaguetranslated0000albe",
+            "contributors": [
+                {
+                    "role": "Translator",
+                    "name": "Stuart Gilbert"
+                }
+            ],
+            "by_statement": "Translated from the French By Stuart Gilbert",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-08-25T01:01:32.428800"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-20T23:48:48.114788"
+            }
+        },
+        "/books/OL46967580M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B000TZNKQ2"
+                ],
+                "better_world_books": [
+                    "BWB38443177"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:O8-CSO-842"
+            ],
+            "publish_date": "1968-01-01",
+            "publishers": [
+                "Alfred a Knopf Inc"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-09-07:O8-CSO-842"
+            ],
+            "title": "The Plague",
+            "full_title": "The Plague",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL46967580M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T04:35:57.679987"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-14T15:35:02.639588"
+            }
+        },
+        "/books/OL46639308M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798361174089"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "213",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798361174089"
+            ],
+            "title": "Plague",
+            "weight": "0.627",
+            "full_title": "Plague",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL46639308M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-02-17T08:55:50.304482"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-14T15:35:02.639588"
+            }
+        },
+        "/books/OL46799335M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7430317A"
+                },
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798800170962"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "162",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798800170962"
+            ],
+            "title": "Plague",
+            "weight": "0.486",
+            "subtitle": "Winner of the Nobel Prize in Literature",
+            "full_title": "Plague Winner of the Nobel Prize in Literature",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL46799335M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-02-17T18:51:10.984574"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-14T15:35:02.639588"
+            }
+        },
+        "/books/OL48573981M": {
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "title": "La peste",
+            "publishers": [
+                "Edhasa"
+            ],
+            "publish_date": "1990",
+            "key": "/books/OL48573981M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_10": [
+                "8435007111"
+            ],
+            "classifications": {},
+            "publish_places": [
+                "Barcelona"
+            ],
+            "covers": [
+                14359811
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-23T11:04:32.518423"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-23T11:06:56.547999"
+            }
+        },
+        "/books/OL47021124M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B01FY4KZKG"
+                ],
+                "better_world_books": [
+                    "BWB33450514"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:KR-096-831"
+            ],
+            "publish_date": "1957-01-01",
+            "publishers": [
+                "Le livre de poche"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-06-24:KR-096-831"
+            ],
+            "title": "La peste",
+            "full_title": "La peste",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL47021124M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T08:10:05.114099"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-03-18T11:11:00.971278"
+            }
+        },
+        "/books/OL41543804M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "LA PESTE",
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "publish_date": "Nov 26, 2004",
+            "source_records": [
+                "amazon:8495640813"
+            ],
+            "publishers": [
+                "AMBITU"
+            ],
+            "isbn_10": [
+                "8495640813"
+            ],
+            "isbn_13": [
+                "9788495640819"
+            ],
+            "physical_format": "paperback",
+            "full_title": "LA PESTE",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL41543804M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-26T09:39:06.865275"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:51:59.692222"
+            }
+        },
+        "/books/OL40662362M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9781720195528"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/por"
+                }
+            ],
+            "pagination": "333",
+            "publish_date": "2018",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9781720195528"
+            ],
+            "title": "Peste",
+            "weight": "0.500",
+            "full_title": "Peste",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL40662362M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-20T11:12:43.078922"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:51:59.692222"
+            }
+        },
+        "/books/OL40742977M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9781521286470"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "236",
+            "publish_date": "2017",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9781521286470"
+            ],
+            "title": "Peste",
+            "weight": "0.323",
+            "full_title": "Peste",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL40742977M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-20T23:42:04.636233"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:51:59.692222"
+            }
+        },
+        "/books/OL41901921M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798628618813"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "349",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798628618813"
+            ],
+            "title": "Peste",
+            "weight": "0.536",
+            "full_title": "Peste",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL41901921M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-28T16:53:01.638841"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:51:59.692222"
+            }
+        },
+        "/books/OL41972142M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798628233375"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "349",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798628233375"
+            ],
+            "title": "Peste",
+            "weight": "0.545",
+            "full_title": "Peste",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL41972142M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-29T03:55:18.517738"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:51:59.692222"
+            }
+        },
+        "/books/OL42001862M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL11178773A"
+                },
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798632217866"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "434",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798632217866"
+            ],
+            "title": "Peste",
+            "weight": "0.550",
+            "subtitle": "Best Seller",
+            "full_title": "Peste Best Seller",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL42001862M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-29T08:22:10.415119"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:51:59.692222"
+            }
+        },
+        "/books/OL42344189M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798553436773"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "279",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798553436773"
+            ],
+            "title": "Peste",
+            "weight": "0.809",
+            "full_title": "Peste",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL42344189M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-01T16:21:46.909013"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:51:59.692222"
+            }
+        },
+        "/books/OL39470176M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "La Peste",
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "publish_date": "Jan 18, 2017",
+            "source_records": [
+                "amazon:154259720X",
+                "bwb:9781542597203"
+            ],
+            "number_of_pages": 138,
+            "publishers": [
+                "CreateSpace Independent Publishing Platform",
+                "Createspace Independent Publishing Platform"
+            ],
+            "isbn_10": [
+                "154259720X"
+            ],
+            "isbn_13": [
+                "9781542597203"
+            ],
+            "physical_format": "paperback",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: La Peste (Spanish Edition)"
+            },
+            "full_title": "La Peste",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL39470176M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-08-21T01:48:02.372240"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-10-02T13:09:13.341666"
+            }
+        },
+        "/books/OL46472298M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798367427998"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "213",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798367427998"
+            ],
+            "title": "Plague",
+            "weight": "0.627",
+            "full_title": "Plague",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL46472298M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-01-18T05:57:51.893743"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:22:15.647112"
+            }
+        },
+        "/books/OL43258563M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B008B7WZXY"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:P7-CKD-900"
+            ],
+            "publish_date": "1947",
+            "publishers": [
+                "The Modern Library"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-08-26",
+                "ia:plague0000albe_r9c5",
+                "marc:harvard_bibliographic_metadata/20220215_016.bib.mrc:197356613:6184"
+            ],
+            "title": "The Plague",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL43258563M",
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                },
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "covers": [
+                13610216
+            ],
+            "ocaid": "plague0000albe_r9c5",
+            "lccn": [
+                "61016144"
+            ],
+            "lc_classifications": [
+                "PQ2605.A3734 P413 l948",
+                "PZ3.C1574 Pl2"
+            ],
+            "oclc_numbers": [
+                "343195"
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "Chaos prevails when the bubonic plague strikes the Algerian coastal city of Oran. A haunting tale of human resilience in the face of unrelieved horror, Camus' novel about a bubonic plague ravaging the people of a North African coastal town is a classic of twentieth-century literature."
+            },
+            "number_of_pages": 278,
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-08T01:01:11.091365"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-02T08:44:31.041728"
+            }
+        },
+        "/books/OL42246113M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798552930395"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "254",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798552930395"
+            ],
+            "title": "Plague",
+            "weight": "0.736",
+            "full_title": "Plague",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL42246113M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-01T01:16:41.803261"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:22:15.647112"
+            }
+        },
+        "/books/OL42308896M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798685966735"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "96",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798685966735"
+            ],
+            "title": "Plague",
+            "weight": "0.309",
+            "full_title": "Plague",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL42308896M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-01T10:51:16.472506"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:22:15.647112"
+            }
+        },
+        "/books/OL42834586M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798836996017"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "170",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798836996017"
+            ],
+            "title": "Plague",
+            "weight": "0.509",
+            "full_title": "Plague",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL42834586M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-03T17:19:27.458483"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:22:15.647112"
+            }
+        },
+        "/books/OL43083007M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B0007HO52U"
+                ],
+                "better_world_books": [
+                    "BWB24651548"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:P7-DLC-504"
+            ],
+            "publish_date": "1995-01-01",
+            "publishers": [
+                "Quality Paperback Book Club"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-03-17"
+            ],
+            "title": "The plague",
+            "full_title": "The plague",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL43083007M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-07T08:17:08.860339"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:22:15.647112"
+            }
+        },
+        "/books/OL41940039M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "The Plague",
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "publish_date": "Sep 12, 2016",
+            "source_records": [
+                "amazon:0241980623",
+                "promise:bwb_daily_pallets_2022-09-07"
+            ],
+            "number_of_pages": 304,
+            "publishers": [
+                "Penguin"
+            ],
+            "isbn_10": [
+                "0241980623"
+            ],
+            "isbn_13": [
+                "9780241980620"
+            ],
+            "physical_format": "paperback",
+            "full_title": "The Plague",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL41940039M",
+            "local_id": [
+                "urn:bwbsku:O8-DGT-854"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-28T22:59:21.574355"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:22:15.647112"
+            }
+        },
+        "/books/OL44672908M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "1995",
+            "publish_country": "nyu",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "work_titles": [
+                "Peste"
+            ],
+            "notes": "Reprint. Originally published: New York : Alfred A. Knopf, c1948.",
+            "contributions": [
+                "Gilbert, Stuart"
+            ],
+            "subjects": [
+                "Plague",
+                "Fiction"
+            ],
+            "title": "The Plague",
+            "by_statement": "Albert Camus ; translated from the French by Stuart Gilbert",
+            "publishers": [
+                "Quality Paperback Book Club"
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "pagination": "v, 278 p.",
+            "number_of_pages": 278,
+            "source_records": [
+                "marc:marc_columbia/Columbia-extract-20221130-022.mrc:103454219:976"
+            ],
+            "full_title": "The plague",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL44672908M",
+            "identifiers": {},
+            "oclc_numbers": [
+                "228445026"
+            ],
+            "classifications": {},
+            "dewey_decimal_class": [
+                "843.914"
+            ],
+            "lc_classifications": [
+                "PQ2605.A3734 P413 1995"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-21T11:14:21.867862"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-07-28T11:54:41.203368"
+            }
+        },
+        "/books/OL46382254M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7430317A"
+                },
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798842701834"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "193",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798842701834"
+            ],
+            "title": "Plague",
+            "weight": "0.591",
+            "full_title": "Plague",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL46382254M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-01-18T01:00:23.238507"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:22:15.647112"
+            }
+        },
+        "/books/OL39866819M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9781446692721"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2010",
+            "publishers": [
+                "Lulu Press, Inc."
+            ],
+            "source_records": [
+                "bwb:9781446692721"
+            ],
+            "title": "Plague",
+            "full_title": "Plague",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL39866819M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-10-17T12:09:16.199330"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:22:15.647112"
+            }
+        },
+        "/books/OL39877046M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9780557483907"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2010",
+            "publishers": [
+                "Lulu Press, Inc."
+            ],
+            "source_records": [
+                "bwb:9780557483907"
+            ],
+            "title": "Plague",
+            "full_title": "Plague",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL39877046M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-10-17T13:56:27.735273"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:22:15.647112"
+            }
+        },
+        "/books/OL39667373M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798844254406"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "193",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798844254406"
+            ],
+            "title": "Plague",
+            "weight": "0.573",
+            "full_title": "Plague",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL39667373M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-09-18T17:42:34.139274"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:22:15.647112"
+            }
+        },
+        "/books/OL42827209M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7430317A"
+                },
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798848696233"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "152",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798848696233"
+            ],
+            "title": "Plague by Albert Camus",
+            "weight": "0.286",
+            "subtitle": "Winner of the Nobel Prize in Literature",
+            "full_title": "Plague by Albert Camus Winner of the Nobel Prize in Literature",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL42827209M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-03T16:51:49.081283"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:22:15.647112"
+            }
+        },
+        "/books/OL46354572M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7430317A"
+                },
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798370497582"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "323",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798370497582"
+            ],
+            "title": "PLAGUE by Albert Camus",
+            "weight": "0.555",
+            "full_title": "PLAGUE by Albert Camus",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL46354572M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-01-17T23:25:24.291092"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:22:15.647112"
+            }
+        },
+        "/books/OL42665438M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7430317A"
+                },
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798410211819"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "313",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798410211819"
+            ],
+            "title": "Plague Albert Camus",
+            "weight": "0.541",
+            "subtitle": "A Novel",
+            "full_title": "Plague Albert Camus A Novel",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL42665438M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-03T06:25:55.282992"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:22:15.647112"
+            }
+        },
+        "/books/OL45301680M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "1971",
+            "publish_country": "is",
+            "languages": [
+                {
+                    "key": "/languages/heb"
+                }
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "oclc_numbers": [
+                "671538681"
+            ],
+            "work_titles": [
+                "Peste"
+            ],
+            "contributions": [
+                "Ratosh, Yonathan, 1908-1981"
+            ],
+            "title": "ha-Dever",
+            "pagination": "246 p.",
+            "number_of_pages": 246,
+            "source_records": [
+                "marc:harvard_bibliographic_metadata/ab.bib.12.20150123.full.mrc:443989747:734",
+                "marc:harvard_bibliographic_metadata/20220215_020.bib.mrc:97839287:1294"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL45301680M",
+            "publishers": [
+                "עם עובד"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-01-03T13:31:07.734691"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-27T05:18:20.201667"
+            }
+        },
+        "/books/OL44982668M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "1991",
+            "publish_country": "ai",
+            "languages": [
+                {
+                    "key": "/languages/arm"
+                }
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "oclc_numbers": [
+                "25254359"
+            ],
+            "lc_classifications": [
+                "PQ2605.A47.P52 K4 1991"
+            ],
+            "work_titles": [
+                "Peste"
+            ],
+            "series": [
+                "Garun -- 3",
+                "Garun -- 3."
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Translation of: La peste."
+            },
+            "contributions": [
+                "Kʻeshishyan, Grigor"
+            ],
+            "title": "Zhantakhtě",
+            "by_statement": "Alper Kʻamyu ; [franserenitsʻ tʻargmanetsʻ Grigor Kʻeshishyaně]",
+            "publishers": [
+                "Apolon"
+            ],
+            "publish_places": [
+                "Erevan"
+            ],
+            "isbn_10": [
+                "5807902467"
+            ],
+            "pagination": "191 pages",
+            "number_of_pages": 191,
+            "source_records": [
+                "marc:marc_columbia/Columbia-extract-20221130-013.mrc:11532656:1056"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL44982668M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-28T04:16:09.708681"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-07-28T17:26:50.812021"
+            }
+        },
+        "/books/OL43415822M": {
+            "identifiers": {
+                "amazon": [
+                    "B00FD0SUOK"
+                ],
+                "better_world_books": [
+                    " "
+                ]
+            },
+            "title": "La peste",
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:O7-CWV-856"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-03-11",
+                "marc:harvard_bibliographic_metadata/ab.bib.00.20150123.full.mrc:741865718:431"
+            ],
+            "full_title": "La peste",
+            "key": "/books/OL43415822M",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "oclc_numbers": [
+                "7458901",
+                "6450370"
+            ],
+            "number_of_pages": 332,
+            "publishers": [
+                "Gallimard"
+            ],
+            "publish_date": "1980",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-08T18:39:48.365161"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-07-28T17:26:50.812021"
+            }
+        },
+        "/books/OL23364177M": {
+            "subtitle": "extraits",
+            "series": [
+                "Nouveaux classiques Larousse : XXe siècle"
+            ],
+            "contributions": [
+                "Faucon, Louis, 1913-"
+            ],
+            "source_records": [
+                "marc:marc_ithaca_college/ic_marc.mrc:84551177:818"
+            ],
+            "title": "La peste",
+            "work_titles": [
+                "Peste."
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "publish_country": "fr ",
+            "by_statement": "Albert Camus ; avec une notice biographique, une notice historique et littéraire, des notes explicatives, des jugements, un questionnaire et des sujets de devoirs ; par Louis Faucon.",
+            "type": {
+                "key": "/type/edition"
+            },
+            "publishers": [
+                "Librairie Larousse"
+            ],
+            "key": "/books/OL23364177M",
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "publish_places": [
+                "[Paris]"
+            ],
+            "pagination": "143 p. :",
+            "notes": "Bibliography: p. [10]-13.",
+            "number_of_pages": 143,
+            "publish_date": "1965",
+            "identifiers": {},
+            "classifications": {},
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-06-06T02:32:58.233870"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-07-28T17:26:50.812021"
+            }
+        },
+        "/books/OL13790479M": {
+            "title": "La peste",
+            "subtitle": "extraits",
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "publish_date": "1965",
+            "publishers": [
+                "Larousse"
+            ],
+            "work_titles": [
+                "La peste. Selections"
+            ],
+            "series": [
+                "Nouveaux classiques Larousse"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_country": "fr ",
+            "by_statement": "avec une notice biographique, une notice historique et litteraire, des notes explicatives, des jugements, un questionnaire et des sujets de devoirs par Louis Faucon.",
+            "publish_places": [
+                "[Paris]"
+            ],
+            "contributions": [
+                "Faucon, Louis."
+            ],
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:130514554:641"
+            ],
+            "key": "/books/OL13790479M",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-08-31T18:46:43.383846"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-23T05:59:01.386907"
+            }
+        },
+        "/books/OL57381038M": {
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "title": "La Peste",
+            "publishers": [
+                "Gallimard"
+            ],
+            "publish_date": "avril 2022",
+            "key": "/books/OL57381038M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_13": [
+                "9782070360420"
+            ],
+            "classifications": {},
+            "physical_dimensions": "17.7 x 10.9 x 1.7 centimeters",
+            "weight": "190.53 grams",
+            "contributors": [
+                {
+                    "role": "Cover Photographer",
+                    "name": "Gérard Rondeau"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "physical_format": "De Poche",
+            "number_of_pages": 355,
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "Les curieux évènements qui font le sujet de cette chronique se sont produit en 194., à Oran."
+            },
+            "covers": [
+                14831798
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-12-29T06:31:50.613553"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-12-29T06:40:19.845897"
+            }
+        },
+        "/books/OL52687900M": {
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "title": "A Peste",
+            "publishers": [
+                "Livros do Brasil"
+            ],
+            "publish_date": "2016",
+            "key": "/books/OL52687900M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_13": [
+                "9789723829624"
+            ],
+            "classifications": {},
+            "description": {
+                "type": "/type/text",
+                "value": "Na manhã de um dia 16 de abril dos anos de 1940, o doutor Bernard Rieux sai do seu consultório e tropeça num rato morto. Este é o primeiro sinal de uma epidemia de peste que em breve toma conta de toda a cidade de Orão, na Argélia. Sujeita a quarentena, esta torna-se um território irrespirável e os seus habitantes são conduzidos até estados de sofrimento, de loucura, mas também de compaixão de proporções desmedidas. Uma história arrebatadora sobre o horror, a sobrevivência e a resiliência do ser humano, A Peste é uma parábola de ressonância intemporal, um romance magistralmente construído, que, publicado originalmente em 1947, consagrou em definitivo Albert Camus como um dos autores fundamentais da literatura moderna."
+            },
+            "physical_format": "ebook",
+            "number_of_pages": 264,
+            "covers": [
+                14646990
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-07-18T16:00:15.100667"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-07-18T16:01:43.522660"
+            }
+        },
+        "/books/OL47301718M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Dzuma",
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "publish_date": "Mar 22, 2011",
+            "source_records": [
+                "amazon:8360313466"
+            ],
+            "number_of_pages": 1,
+            "publishers": [
+                "Aleksandria"
+            ],
+            "isbn_10": [
+                "8360313466"
+            ],
+            "isbn_13": [
+                "9788360313466"
+            ],
+            "physical_format": "cd-rom",
+            "full_title": "Dzuma",
+            "covers": [
+                13766336
+            ],
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL47301718M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-03-22T14:03:55.189083"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-14T15:47:40.586863"
+            }
+        },
+        "/books/OL40089212M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9781678190446"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/pol"
+                }
+            ],
+            "pagination": "228",
+            "publish_date": "2020",
+            "publishers": [
+                "Lulu Press, Inc.",
+                "Lulu.com"
+            ],
+            "source_records": [
+                "bwb:9781678190446",
+                "amazon:1678190446"
+            ],
+            "title": "Dzuma",
+            "weight": "0.341",
+            "full_title": "Dzuma",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL40089212M",
+            "covers": [
+                13671752
+            ],
+            "number_of_pages": 228,
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-10-19T11:21:03.475803"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-14T15:47:40.586863"
+            }
+        },
+        "/books/OL46678736M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798355001995"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "213",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798355001995"
+            ],
+            "title": "Plague",
+            "weight": "0.627",
+            "full_title": "Plague",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL46678736M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-02-17T11:12:46.974198"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-14T15:35:02.639588"
+            }
+        },
+        "/books/OL46785866M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7430317A"
+                },
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798663406628"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "150",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798663406628"
+            ],
+            "title": "Plague",
+            "weight": "0.282",
+            "full_title": "Plague",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL46785866M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-02-17T17:53:02.051247"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-14T15:35:02.639588"
+            }
+        },
+        "/books/OL42317718M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798597740546"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "219",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798597740546"
+            ],
+            "title": "Plague (a Novel)",
+            "weight": "0.645",
+            "full_title": "Plague (a Novel)",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL42317718M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-01T12:12:26.935149"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-14T15:35:02.639588"
+            }
+        },
+        "/books/OL49647039M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B00195GI92"
+                ],
+                "better_world_books": [
+                    "BWB16369801"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:KS-699-683"
+            ],
+            "publish_date": "1964-01-01",
+            "publishers": [
+                "Methuen & Co"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-09-28:KS-699-683"
+            ],
+            "title": "La Peste",
+            "full_title": "La Peste",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL49647039M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-09-30T01:01:14.938858"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-14T13:45:18.091820"
+            }
+        },
+        "/books/OL45619780M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B001PHXMNY"
+                ],
+                "better_world_books": [
+                    "BWB20545538"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:P8-CBR-483"
+            ],
+            "publish_date": "1948-01-01",
+            "publishers": [
+                "The Modern Library"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-12-22"
+            ],
+            "title": "The Plague",
+            "full_title": "The Plague",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL45619780M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-01-10T22:08:33.677927"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-03-18T12:00:47.615091"
+            }
+        },
+        "/books/OL43012955M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B00DV4KOEO"
+                ],
+                "better_world_books": [
+                    "BWB42377001"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:O7-CDV-923"
+            ],
+            "publish_date": "1949-01-01",
+            "publishers": [
+                "Random House"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-03-17"
+            ],
+            "title": "The Plague (Modern Library College Edition)",
+            "full_title": "The Plague (Modern Library College Edition)",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL43012955M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-06T23:46:47.288313"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-03-18T12:00:47.615091"
+            }
+        },
+        "/books/OL43980654M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "La Peste",
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "publish_date": "Jan 01, 2008",
+            "source_records": [
+                "amazon:2070349578"
+            ],
+            "number_of_pages": 391,
+            "publishers": [
+                "Gallimard",
+                "Gallimard Education"
+            ],
+            "isbn_10": [
+                "2070349578"
+            ],
+            "isbn_13": [
+                "9782070349579"
+            ],
+            "physical_format": "pocket book",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: La Peste (Folio Plus Classique) (French Edition)"
+            },
+            "full_title": "La Peste",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL43980654M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-13T21:04:48.222884"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:51:59.692222"
+            }
+        },
+        "/books/OL43980650M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "La peste Audiobook PACK [Book + 2 CD MP3]",
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "publish_date": "Apr 03, 2014",
+            "source_records": [
+                "amazon:0320096742"
+            ],
+            "publishers": [
+                "French and European Publications Inc"
+            ],
+            "isbn_10": [
+                "0320096742"
+            ],
+            "isbn_13": [
+                "9780320096747"
+            ],
+            "physical_format": "audio cd",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: La peste Audiobook PACK [Book + 2 CD MP3] (French Edition)"
+            },
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL43980650M",
+            "covers": [
+                13492073
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-13T21:04:46.638437"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-03-16T06:44:53.580139"
+            }
+        },
+        "/books/OL42091848M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798675752973"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "pagination": "212",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798675752973"
+            ],
+            "title": "Peste",
+            "weight": "0.623",
+            "full_title": "Peste",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL42091848M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-29T23:25:10.595270"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:51:59.692222"
+            }
+        },
+        "/books/OL42736491M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL10676656A"
+                },
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798835014095"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "272",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798835014095"
+            ],
+            "title": "Peste",
+            "weight": "0.786",
+            "full_title": "Peste",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL42736491M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-03T11:12:45.210918"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:51:59.692222"
+            }
+        },
+        "/books/OL37924871M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Peste, La",
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "publish_date": "May 19, 2014",
+            "source_records": [
+                "amazon:6073113056"
+            ],
+            "publishers": [
+                "DEBOLSILLO"
+            ],
+            "isbn_10": [
+                "6073113056"
+            ],
+            "isbn_13": [
+                "9786073113052"
+            ],
+            "physical_format": "paperback",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL37924871M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-05-19T17:02:15.002688"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:51:59.692222"
+            }
+        },
+        "/books/OL46379369M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798846073609"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "159",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798846073609"
+            ],
+            "title": "Plague",
+            "weight": "0.482",
+            "full_title": "Plague",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL46379369M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-01-18T00:50:44.408741"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:22:15.647112"
+            }
+        },
+        "/books/OL40309436M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                },
+                {
+                    "key": "/authors/OL226798A"
+                }
+            ],
+            "isbn_13": [
+                "9780241991329"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "304",
+            "publish_date": "2020",
+            "publishers": [
+                "Penguin Books, Limited"
+            ],
+            "source_records": [
+                "bwb:9780241991329"
+            ],
+            "title": "Plague",
+            "full_title": "Plague",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL40309436M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-17T04:40:22.483660"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-08-14T17:02:16.455397"
+            }
+        },
+        "/books/OL40330066M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9780140171068"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "256",
+            "publish_date": "2001",
+            "publishers": [
+                "Penguin Books, Limited"
+            ],
+            "source_records": [
+                "bwb:9780140171068"
+            ],
+            "subjects": [
+                "Continental european fiction (fictional works by one author)"
+            ],
+            "title": "Plague",
+            "weight": "0.455",
+            "full_title": "Plague",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL40330066M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-17T09:11:08.397119"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:22:15.647112"
+            }
+        },
+        "/books/OL42095557M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798649118774"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "96",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798649118774"
+            ],
+            "title": "Plague",
+            "weight": "0.309",
+            "subtitle": "An Unknown Plague",
+            "full_title": "Plague An Unknown Plague",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL42095557M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-29T23:57:22.004569"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:22:15.647112"
+            }
+        },
+        "/books/OL46215303M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7430317A"
+                },
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798844419317"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "162",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798844419317"
+            ],
+            "title": "Plague",
+            "weight": "0.486",
+            "subtitle": "Winner of the Nobel Prize in Literature",
+            "full_title": "Plague Winner of the Nobel Prize in Literature",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL46215303M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-01-17T15:21:45.151855"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:22:15.647112"
+            }
+        },
+        "/books/OL39700848M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798847227971"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "170",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798847227971"
+            ],
+            "title": "Plague",
+            "weight": "0.509",
+            "full_title": "Plague",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL39700848M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-09-18T23:36:56.731737"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:22:15.647112"
+            }
+        },
+        "/books/OL38914566M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7430317A"
+                },
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798832106137"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "241",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798832106137"
+            ],
+            "title": "Plague Albert Camus",
+            "weight": "0.686",
+            "subtitle": "Classic Novels",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL38914566M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-07-19T22:32:45.887910"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:22:15.647112"
+            }
+        },
+        "/books/OL38967783M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7430317A"
+                },
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798442168433"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "323",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798442168433"
+            ],
+            "title": "Plague Albert Camus",
+            "weight": "0.555",
+            "subtitle": "Classic Novels",
+            "full_title": "Plague Albert Camus Classic Novels",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL38967783M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-07-20T07:57:42.287222"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:22:15.647112"
+            }
+        },
+        "/books/OL37829337M": {
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "title": "La peste",
+            "publishers": [
+                "Librairie Larousse"
+            ],
+            "publish_date": "1971",
+            "key": "/books/OL37829337M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                12726689
+            ],
+            "ocaid": "prsencedealb00camu",
+            "classifications": {},
+            "subtitle": "extraits",
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "oclc_numbers": [
+                "490823355"
+            ],
+            "source_records": [
+                "ia:prsencedealb00camu"
+            ],
+            "number_of_pages": 143,
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-04-24T07:50:07.251284"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-07-28T17:26:50.812021"
+            }
+        },
+        "/books/OL21205882M": {
+            "title": "La peste",
+            "subtitle": "extraits",
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "publish_date": "1963",
+            "publishers": [
+                "Larousse"
+            ],
+            "work_titles": [
+                "La peste. Selections"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "publish_country": "fr ",
+            "by_statement": "Albert Camus ; avec une notice biographique, une notice historique et littéraire, des notes explicatives, des jugements, un questionnaire et des sujets de devoirs par Louis Faucon.",
+            "publish_places": [
+                "[Paris]",
+                "Classiques Larousse"
+            ],
+            "contributions": [
+                "Faucon, Louis."
+            ],
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:2956279354:648"
+            ],
+            "key": "/books/OL21205882M",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-01T08:06:40.525551"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-19T17:13:36.116480"
+            }
+        },
+        "/books/OL48779863M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798738350788"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "219",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798738350788"
+            ],
+            "title": "Plague",
+            "weight": "0.645",
+            "full_title": "Plague",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL48779863M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-07-17T13:32:36.823405"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-14T15:35:02.639588"
+            }
+        },
+        "/books/OL48461118M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "219",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798731332248"
+            ],
+            "title": "Plague, a Novel",
+            "weight": "0.645 ",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL48461118M",
+            "identifiers": {},
+            "isbn_13": [
+                "9798731332248"
+            ],
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-17T23:23:03.519500"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-14T15:35:02.639588"
+            }
+        },
+        "/books/OL47698664M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B08HH1JTFH"
+                ]
+            },
+            "isbn_13": [
+                "9798683069278"
+            ],
+            "local_id": [
+                "urn:bwbsku:W8-BGA-646"
+            ],
+            "publish_date": "2020-09-05",
+            "publishers": [
+                "Independently published"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-04-11:W8-BGA-646",
+                "bwb:9798683069278"
+            ],
+            "title": "THE PLAGUE",
+            "full_title": "THE PLAGUE",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL47698664M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-05-04T02:01:03.482908"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-14T15:35:02.639588"
+            }
+        },
+        "/books/OL47818814M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B008PR9VF0"
+                ],
+                "better_world_books": [
+                    "BWB33477885"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:597-BAB-150"
+            ],
+            "publish_date": "1964-01-01",
+            "publishers": [
+                "Penguin Modern Classics"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-05-22:597-BAB-150"
+            ],
+            "title": "The Plague",
+            "full_title": "The Plague",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL47818814M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-05-24T01:28:07.097567"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-14T15:35:02.639588"
+            }
+        },
+        "/books/OL46615621M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7430317A"
+                },
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798371182159"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "313",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798371182159"
+            ],
+            "title": "Plague",
+            "weight": "0.541",
+            "subtitle": "Albert Camus",
+            "full_title": "Plague Albert Camus",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL46615621M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-02-17T07:32:09.746067"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-14T15:35:02.639588"
+            }
+        },
+        "/books/OL46632746M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7430317A"
+                },
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798846712737"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "162",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798846712737"
+            ],
+            "title": "Plague",
+            "weight": "0.486",
+            "full_title": "Plague",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL46632746M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-02-17T08:32:23.814566"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-14T15:35:02.639588"
+            }
+        },
+        "/books/OL46655249M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798848019469"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "485",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798848019469"
+            ],
+            "title": "Plague",
+            "weight": "0.709",
+            "full_title": "Plague",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL46655249M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-02-17T09:51:18.946951"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-14T15:35:02.639588"
+            }
+        },
+        "/books/OL46677642M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7430317A"
+                },
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798369897089"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "313",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798369897089"
+            ],
+            "title": "Plague",
+            "weight": "0.541",
+            "subtitle": "Albert Camus",
+            "full_title": "Plague Albert Camus",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL46677642M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-02-17T11:08:28.342558"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-14T15:35:02.639588"
+            }
+        },
+        "/books/OL49348761M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B00ARMNJAO"
+                ],
+                "better_world_books": [
+                    "BWB26194764"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:O9-AKR-365"
+            ],
+            "publish_date": "1947-01-01",
+            "publishers": [
+                "Gallimard"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-08-24:O9-AKR-365"
+            ],
+            "title": "La Peste [Le Livre de Poche]",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL49348761M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-08-26T01:01:40.786976"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-14T13:45:18.091820"
+            }
+        },
+        "/books/OL48579507M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B01AF0ZX9C"
+                ],
+                "better_world_books": [
+                    "BWB41181695"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:W8-CAZ-120"
+            ],
+            "publish_date": "1966-01-01",
+            "publishers": [
+                "poche gallimard"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-06-26:W8-CAZ-120",
+                "ia:lapestealbertcam0000albe"
+            ],
+            "title": "la peste - albert camus - livre de poche n°132 – 1966",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL48579507M",
+            "covers": [
+                14999176
+            ],
+            "ocaid": "lapestealbertcam0000albe",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 258,
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-28T01:12:29.131874"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-05-05T09:31:57.941745"
+            }
+        },
+        "/books/OL46914716M": {
+            "identifiers": {
+                "amazon": [
+                    "B00426J34W"
+                ],
+                "better_world_books": [
+                    "BWBM52464733"
+                ]
+            },
+            "title": "Die Pest",
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:KR-583-235"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-11-23:KR-583-235",
+                "ia:diepest0000unse"
+            ],
+            "full_title": "Die Pest.",
+            "key": "/books/OL46914716M",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "ocaid": "diepest0000unse",
+            "classifications": {},
+            "publish_date": "1960",
+            "languages": [
+                {
+                    "key": "/languages/ger"
+                }
+            ],
+            "publishers": [
+                "Karl Rauch Verlag"
+            ],
+            "covers": [
+                14434907
+            ],
+            "number_of_pages": 290,
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T01:32:44.231818"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-04-30T14:34:42.269909"
+            }
+        },
+        "/books/OL46785942M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798648795143"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "297",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798648795143"
+            ],
+            "title": "Peste",
+            "weight": "0.514",
+            "subtitle": "Oeuvre Remarquable",
+            "full_title": "Peste Oeuvre Remarquable",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL46785942M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-02-17T17:53:17.208404"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-14T13:45:18.091820"
+            }
+        },
+        "/books/OL22578896M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Originally published 1947."
+            },
+            "title": "La peste.",
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "publish_date": "1996",
+            "publishers": [
+                "Gallimard"
+            ],
+            "series": [
+                "Folio plus -- 21"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "isbn_10": [
+                "2070394387"
+            ],
+            "publish_country": "fr ",
+            "publish_places": [
+                "[France]"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:1741321333:455"
+            ],
+            "key": "/books/OL22578896M",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "latest_revision": 12,
+            "revision": 12,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-16T13:44:02.699753"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-15T23:28:10.459896"
+            }
+        },
+        "/books/OL31820710M": {
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "title": "La peste",
+            "publishers": [
+                "edhasa"
+            ],
+            "publish_date": "28 febrero 2002",
+            "key": "/books/OL31820710M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                10528947
+            ],
+            "classifications": {},
+            "isbn_13": [
+                "9788435018814"
+            ],
+            "isbn_10": [
+                "8435018814"
+            ],
+            "physical_dimensions": "19 x 12.6 x 2.2 centimeters",
+            "weight": "240 grams",
+            "number_of_pages": 360,
+            "physical_format": "Paperback",
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "local_id": [
+                "urn:bwbsku:P9-AVQ-673"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2024-01-17:P9-AVQ-673"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-12-23T16:06:53.998313"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-19T01:13:39.156592"
+            }
+        },
+        "/books/OL42050557M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798687341165"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "360",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798687341165"
+            ],
+            "title": "Peste",
+            "weight": "0.614",
+            "full_title": "Peste",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL42050557M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-29T16:16:08.385666"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:51:59.692222"
+            }
+        },
+        "/books/OL42420226M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798675348688"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "315",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798675348688"
+            ],
+            "title": "Peste",
+            "weight": "0.909",
+            "full_title": "Peste",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL42420226M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-02T02:58:31.299783"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:51:59.692222"
+            }
+        },
+        "/books/OL41980643M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL8349896A"
+                },
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798635686492"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "483",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798635686492"
+            ],
+            "title": "Peste",
+            "weight": "0.809",
+            "full_title": "Peste",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL41980643M",
+            "contributors": [
+                {
+                    "role": "Editor",
+                    "name": "Dainy d. Angeles"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-29T05:10:12.245354"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-14T20:38:04.196697"
+            }
+        },
+        "/books/OL42046948M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798692270429"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "103",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798692270429"
+            ],
+            "title": "Peste",
+            "weight": "0.327",
+            "full_title": "Peste",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL42046948M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-29T15:43:30.145737"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:51:59.692222"
+            }
+        },
+        "/books/OL42058636M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798650955115"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "349",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798650955115"
+            ],
+            "title": "Peste",
+            "weight": "0.545",
+            "subtitle": "Littérature Classique",
+            "full_title": "Peste Littérature Classique",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL42058636M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-29T17:33:37.416010"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:51:59.692222"
+            }
+        },
+        "/books/OL42072217M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798662704794"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "261",
+            "publish_date": "2019",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798662704794"
+            ],
+            "title": "Peste",
+            "weight": "0.405",
+            "full_title": "Peste",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL42072217M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-29T20:01:41.410028"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:51:59.692222"
+            }
+        },
+        "/books/OL42112723M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798651112913"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "103",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798651112913"
+            ],
+            "title": "Peste",
+            "weight": "0.327",
+            "subtitle": "Une Peste Inconnue !",
+            "full_title": "Peste Une Peste Inconnue !",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL42112723M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-30T03:17:25.413938"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:51:59.692222"
+            }
+        },
+        "/books/OL42126374M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798654572905"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "310",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798654572905"
+            ],
+            "title": "Peste",
+            "weight": "0.532",
+            "full_title": "Peste",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL42126374M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-30T05:16:06.709849"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:51:59.692222"
+            }
+        },
+        "/books/OL46524634M": {
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "title": "The Plague",
+            "publishers": [
+                "Penguin Books"
+            ],
+            "publish_date": "1968",
+            "key": "/books/OL46524634M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                13151262
+            ],
+            "ocaid": "plague0000albe",
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lc_classifications": [
+                "PQ2605.A3734 P53 1960"
+            ],
+            "oclc_numbers": [
+                "959898745"
+            ],
+            "source_records": [
+                "ia:plague0000albe"
+            ],
+            "number_of_pages": 251,
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:23:07.738486"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-05-10T03:11:05.263695"
+            }
+        },
+        "/books/OL46446892M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798837982965"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "193",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798837982965"
+            ],
+            "title": "Plague",
+            "weight": "0.573",
+            "full_title": "Plague",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL46446892M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-01-18T04:36:55.284455"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:22:15.647112"
+            }
+        },
+        "/books/OL42168262M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798670262828"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "110",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798670262828"
+            ],
+            "title": "Plague",
+            "weight": "0.345",
+            "full_title": "Plague",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL42168262M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-30T12:24:15.644422"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:22:15.647112"
+            }
+        },
+        "/books/OL42467331M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798564747493"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "150",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798564747493"
+            ],
+            "title": "Plague",
+            "weight": "0.455",
+            "subtitle": "Novel by Albert Camus",
+            "full_title": "Plague Novel by Albert Camus",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL42467331M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-02T07:42:18.164943"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:22:15.647112"
+            }
+        },
+        "/books/OL40140317M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7430317A"
+                },
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798847857635"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "162",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798847857635"
+            ],
+            "title": "Plague",
+            "weight": "0.486",
+            "subtitle": "Winner of the Nobel Prize in Literature",
+            "full_title": "Plague Winner of the Nobel Prize in Literature",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL40140317M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-10-19T20:18:50.369280"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:22:15.647112"
+            }
+        },
+        "/books/OL40157129M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7430317A"
+                },
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798840814130"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "162",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798840814130"
+            ],
+            "title": "Plague",
+            "weight": "0.486",
+            "full_title": "Plague",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL40157129M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-10-19T22:58:22.939403"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:22:15.647112"
+            }
+        },
+        "/books/OL40172597M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798849968841"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "213",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798849968841"
+            ],
+            "title": "Plague",
+            "weight": "0.627",
+            "full_title": "Plague",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL40172597M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-10-20T01:31:05.296050"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:22:15.647112"
+            }
+        },
+        "/books/OL42607932M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7430317A"
+                },
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798413441091"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "376",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798413441091"
+            ],
+            "title": "Plague",
+            "weight": "0.559",
+            "subtitle": "This Pulitzer Prize Winning Book Has Been Hailed As a Major Novel of Our Time",
+            "full_title": "Plague This Pulitzer Prize Winning Book Has Been Hailed As a Major Novel of Our Time",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL42607932M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-03T02:46:16.272361"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:22:15.647112"
+            }
+        },
+        "/books/OL39450139M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798770886344"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "225",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798770886344"
+            ],
+            "title": "Plague",
+            "weight": "0.664",
+            "full_title": "Plague",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL39450139M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-08-19T03:19:27.544956"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:22:15.647112"
+            }
+        },
+        "/books/OL39455982M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7430317A"
+                },
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798836094089"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "162",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798836094089"
+            ],
+            "title": "Plague",
+            "weight": "0.486",
+            "subtitle": "Winner of the Nobel Prize in Literature",
+            "full_title": "Plague Winner of the Nobel Prize in Literature",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL39455982M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-08-19T04:22:16.887165"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:22:15.647112"
+            }
+        },
+        "/books/OL38933304M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7430317A"
+                },
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798442648980"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "313",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798442648980"
+            ],
+            "title": "Plague by Albert Camus",
+            "weight": "0.541",
+            "subtitle": "Classic Novels",
+            "full_title": "Plague by Albert Camus Classic Novels",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL38933304M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-07-20T01:49:18.209870"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:22:15.647112"
+            }
+        },
+        "/books/OL38977598M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7430317A"
+                },
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798807456564"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "323",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798807456564"
+            ],
+            "title": "Plague, Albert Camus",
+            "weight": "0.555",
+            "subtitle": "Classic Novels , by Albert Camus",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL38977598M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-07-20T09:32:43.122064"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:22:15.647112"
+            }
+        },
+        "/books/OL42599797M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7430317A"
+                },
+                {
+                    "key": "/authors/OL124171A"
+                }
+            ],
+            "isbn_13": [
+                "9798417575525"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "323",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798417575525"
+            ],
+            "title": "Plague Albert Camus",
+            "weight": "0.555",
+            "subtitle": "Novel ,Stuart Gilbert",
+            "full_title": "Plague Albert Camus Novel ,Stuart Gilbert",
+            "works": [
+                {
+                    "key": "/works/OL1230715W"
+                }
+            ],
+            "key": "/books/OL42599797M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-03T02:21:06.900624"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-22T13:22:15.647112"
+            }
+        }
+    }
+}

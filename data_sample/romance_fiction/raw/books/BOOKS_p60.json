@@ -1,0 +1,5980 @@
+{
+    "status": "ok",
+    "result": {
+        "/books/OL53693981M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "1976",
+            "publish_country": "is",
+            "languages": [
+                {
+                    "key": "/languages/heb"
+                }
+            ],
+            "work_titles": [
+                "Anna Karenina"
+            ],
+            "title": "אנה קרנינה",
+            "other_titles": [
+                "Anah Ḳareninah"
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "oclc_numbers": [
+                "830111219"
+            ],
+            "contributions": [
+                "Shenhar, Yitzhak, 1902-1957"
+            ],
+            "publishers": [
+                "שוקן"
+            ],
+            "publish_places": [
+                "תל אביב",
+                "ירושלים"
+            ],
+            "pagination": "2 v.",
+            "source_records": [
+                "marc:harvard_bibliographic_metadata/ab.bib.13.20150123.full.mrc:656269535:785",
+                "marc:harvard_bibliographic_metadata/20220215_020.bib.mrc:57224082:1271"
+            ],
+            "full_title": "אנה קרנינה",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL53693981M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-09-06T10:42:26.184278"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-25T14:23:30.320374"
+            }
+        },
+        "/books/OL52968413M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "1950",
+            "copyright_date": "1950",
+            "publish_country": "nyu",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "work_titles": [
+                "Anna Karenina"
+            ],
+            "title": "Anna Karenina",
+            "by_statement": "by Count Leo Tolstoy ; translated by Constance Garnett ; with an introduction by Henri Troyat",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "oclc_numbers": [
+                "26748415"
+            ],
+            "series": [
+                "Modern library of the world's best books"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Includes bibliographical references (p. xvi-xviii)"
+            },
+            "translated_from": [
+                {
+                    "key": "/languages/rus"
+                }
+            ],
+            "contributions": [
+                "Garnett, Constance, 1861-1946"
+            ],
+            "publishers": [
+                "Modern Library"
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "pagination": "xviii, 950 pages",
+            "number_of_pages": 950,
+            "source_records": [
+                "marc:marc_columbia/Columbia-extract-20221130-004.mrc:422665937:1156"
+            ],
+            "full_title": "Anna Karenina",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL52968413M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-08-01T05:30:00.664289"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:58:47.103621"
+            }
+        },
+        "/books/OL50994807M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B00795S5II"
+                ],
+                "better_world_books": [
+                    "BWB18690155"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:P4-BJQ-854"
+            ],
+            "publish_date": "1950",
+            "publishers": [
+                "Modern Library"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2024-01-catchup:P4-BJQ-854"
+            ],
+            "title": "Anna Karenina",
+            "full_title": "Anna Karenina",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL50994807M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-02-07T02:05:38.955572"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:58:47.103621"
+            }
+        },
+        "/books/OL50397709M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "1929",
+            "publish_country": "lir",
+            "languages": [
+                {
+                    "key": "/languages/yid"
+                }
+            ],
+            "work_titles": [
+                "Anna Karenina"
+            ],
+            "title": "Anna Ḳarenina",
+            "subtitle": "roman",
+            "by_statement": "Yidish: Shlomo Sheynberg",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "oclc_numbers": [
+                "42743549"
+            ],
+            "series": [
+                "Ale ḳinsṭlerishe ṿerḳ"
+            ],
+            "contributions": [
+                "Sheynberg, Shlomo, 1891-1942"
+            ],
+            "publishers": [
+                "B. Ḳletsḳin"
+            ],
+            "publish_places": [
+                "Ṿilne"
+            ],
+            "pagination": "8 v. in 4",
+            "source_records": [
+                "marc:harvard_bibliographic_metadata/ab.bib.00.20150123.full.mrc:421375500:580"
+            ],
+            "full_title": "Anna Ḳarenina roman",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL50397709M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-12-11T07:50:09.744041"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:58:47.103621"
+            }
+        },
+        "/books/OL48798731M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL2913279A"
+                },
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "isbn_13": [
+                "9798531920478"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "741",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798531920478"
+            ],
+            "title": "Anna Karenina",
+            "weight": "1.777",
+            "full_title": "Anna Karenina",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL48798731M",
+            "contributors": [
+                {
+                    "role": "Translator",
+                    "name": "Constance Black Garnett"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-07-17T14:24:45.131420"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-02-28T20:15:26.040892"
+            }
+        },
+        "/books/OL48454005M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL12951300A"
+                },
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "isbn_13": [
+                "9798716990777"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "458",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798716990777"
+            ],
+            "title": "Anna Karénine - Tome II",
+            "weight": "0.768",
+            "full_title": "Anna Karénine - Tome II",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL48454005M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-17T23:01:53.487009"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:58:47.103621"
+            }
+        },
+        "/books/OL48027897M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "2007",
+            "publish_country": "is",
+            "languages": [
+                {
+                    "key": "/languages/heb"
+                }
+            ],
+            "title": "אנה קרנינה [תכניה]",
+            "other_titles": [
+                "Anah Ḳareninah",
+                "Anna Karenina"
+            ],
+            "subtitle": "Anna Karenina : [program]",
+            "oclc_numbers": [
+                "213383191"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "\"ʻAl pi ha-roman me-et Lev Ṭolsṭoi; ʻibud Helen Admonson; targum Rivḳah Meshulaḥ; bimui Ilan Ronen\"."
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "contributions": [
+                "Edmunson, Helen",
+                "Meshulaḥ, Rivḳah",
+                "Ronen, Ilan",
+                "Teʼaṭron ha-ʻironi Beʼer-Shevaʻ (Beersheba, Israel)",
+                "Habimah"
+            ],
+            "subject_places": [
+                "Israel"
+            ],
+            "subject_people": [
+                "Leo Tolstoy graf (1828-1910)"
+            ],
+            "subjects": [
+                "Theater programs",
+                "Specimens",
+                "Teʼaṭron ha-ʻironi Beʼer-Shevaʻ (Beersheba, Israel)"
+            ],
+            "publishers": [
+                "Teʼaṭron ha-ʻironi Beʼer Shevaʻ",
+                "Habimah"
+            ],
+            "publish_places": [
+                "Beʼer Shevaʻ"
+            ],
+            "pagination": "1 v. (unpaged)",
+            "source_records": [
+                "marc:harvard_bibliographic_metadata/ab.bib.11.20150123.full.mrc:334327977:1232"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL48027897M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-05-28T06:38:29.890525"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:58:47.103621"
+            }
+        },
+        "/books/OL47191646M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Anna Karenina",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "publish_date": "Nov 08, 2012",
+            "source_records": [
+                "amazon:9020413767"
+            ],
+            "number_of_pages": 945,
+            "publishers": [
+                "Veen, L.J."
+            ],
+            "isbn_10": [
+                "9020413767"
+            ],
+            "isbn_13": [
+                "9789020413762"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Anna Karenina roman in acht delen",
+            "subtitle": "roman in acht delen",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Anna Karenina: roman in acht delen (Veen klassiek) (Dutch Edition)"
+            },
+            "covers": [
+                13616088
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL47191646M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-03-18T14:58:42.435095"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:58:47.103621"
+            }
+        },
+        "/books/OL42501875M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "isbn_13": [
+                "9798505796085"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "522",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798505796085"
+            ],
+            "title": "Anna Karénine - Tome I Illustree",
+            "weight": "0.759",
+            "full_title": "Anna Karénine - Tome I Illustree",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL42501875M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-02T15:41:13.747886"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:58:47.103621"
+            }
+        },
+        "/books/OL9130233M": {
+            "identifiers": {
+                "goodreads": [
+                    "161082"
+                ]
+            },
+            "title": "Anna Karenina (Letras Universales / Universal Writings)",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "publish_date": "June 30, 2005",
+            "publishers": [
+                "Ediciones Catedra S.A."
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "physical_format": "Paperback",
+            "weight": "1.5 pounds",
+            "covers": [
+                2270404
+            ],
+            "edition_name": "Tra edition",
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Russian Novel And Short Story",
+                "Fiction",
+                "Fiction - General",
+                "Literature - Classics / Criticism",
+                "Spanish: Adult Fiction",
+                "General",
+                "Classics",
+                "Romance - Historical"
+            ],
+            "physical_dimensions": "7 x 4.2 x 1.5 inches",
+            "isbn_10": [
+                "8437606322"
+            ],
+            "isbn_13": [
+                "9788437606323"
+            ],
+            "source_records": [
+                "amazon:8437606322"
+            ],
+            "key": "/books/OL9130233M",
+            "number_of_pages": 1000,
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-31T10:34:57.533503"
+            }
+        },
+        "/books/OL27016449M": {
+            "other_titles": [
+                "E-Libro (Servicio en línea)"
+            ],
+            "publishers": [
+                "El Cid Editor"
+            ],
+            "links": [
+                {
+                    "url": "http://0-site.ebrary.com.fama.us.es/lib/unisev/Doc?id=10052150"
+                }
+            ],
+            "covers": [
+                8617136
+            ],
+            "physical_format": "[Recurso electrónico] /",
+            "full_title": "Ana Karenina",
+            "lc_classifications": [
+                "PG3011 T654 2004eb"
+            ],
+            "key": "/books/OL27016449M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "publish_places": [
+                "Santa Fe"
+            ],
+            "isbn_13": [
+                "9781413521825"
+            ],
+            "pagination": "1 online resource (16-1708 p)",
+            "source_records": [
+                "ia:anakarenina00leot"
+            ],
+            "title": "Ana Karenina",
+            "number_of_pages": 1708,
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "isbn_10": [
+                "1413521827"
+            ],
+            "publish_date": "2004",
+            "publish_country": "ag",
+            "by_statement": "Lev Nikolaevich Tolstoï",
+            "oclc_numbers": [
+                "928569443"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-06-28T07:55:15.730288"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-03-28T14:41:56.468350"
+            }
+        },
+        "/books/OL13362537M": {
+            "publishers": [
+                "Edimat Libros"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "867349"
+                ],
+                "librarything": [
+                    "2340"
+                ]
+            },
+            "weight": "1.8 pounds",
+            "covers": [
+                3335299
+            ],
+            "physical_format": "Hardcover",
+            "key": "/books/OL13362537M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "subjects": [
+                "Russian Novel And Short Story",
+                "Fiction",
+                "Literature - Classics / Criticism",
+                "Spanish: Adult Fiction",
+                "Classics",
+                "Fiction / Classics",
+                "Romance - General"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "title": "Ana Karenina (Clasicos Inolvidables)",
+            "number_of_pages": 494,
+            "isbn_13": [
+                "9788497649087"
+            ],
+            "isbn_10": [
+                "8497649087"
+            ],
+            "publish_date": "February 1, 2008",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9 x 6.1 x 1.8 inches",
+            "ocaid": "anakarenina0000tols",
+            "lc_classifications": [
+                "PG3367.S5 A56 2006"
+            ],
+            "source_records": [
+                "ia:anakarenina0000tols",
+                "ia:anakarenina0000tols_w6f5",
+                "amazon:8497649087",
+                "promise:bwb_daily_pallets_2020-10-07"
+            ],
+            "oclc_numbers": [
+                "85845027"
+            ],
+            "local_id": [
+                "urn:bwbsku:P1-BWM-718"
+            ],
+            "latest_revision": 12,
+            "revision": 12,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-15T16:15:04.637850"
+            }
+        },
+        "/books/OL9131370M": {
+            "publishers": [
+                "Ediciones B"
+            ],
+            "source_records": [
+                "amazon:8440677685:hr:1647331749:202765"
+            ],
+            "title": "Ana Karenina",
+            "identifiers": {
+                "goodreads": [
+                    "836160"
+                ]
+            },
+            "isbn_13": [
+                "9788440677686"
+            ],
+            "physical_format": "Paperback",
+            "isbn_10": [
+                "8440677685"
+            ],
+            "publish_date": "July 1999",
+            "key": "/books/OL9131370M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "General",
+                "Biography / Autobiography"
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-08-12T11:30:59.357126"
+            }
+        },
+        "/books/OL9855412M": {
+            "publishers": [
+                "Ediciones B"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "source_records": [
+                "amazon:8440659512:2-ax:1931437597:189962"
+            ],
+            "title": "Ana Karenina",
+            "identifiers": {
+                "goodreads": [
+                    "836158"
+                ]
+            },
+            "isbn_13": [
+                "9788440659514"
+            ],
+            "physical_format": "Hardcover",
+            "isbn_10": [
+                "8440659512"
+            ],
+            "publish_date": "April 1996",
+            "key": "/books/OL9855412M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "oclc_numbers": [
+                "431413201"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "General",
+                "Fiction - General"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-08-12T11:30:59.357126"
+            }
+        },
+        "/books/OL13121950M": {
+            "publishers": [
+                "Porrua"
+            ],
+            "physical_format": "Paperback",
+            "source_records": [
+                "amazon:9684322224"
+            ],
+            "title": "Ana Karenina",
+            "identifiers": {
+                "goodreads": [
+                    "2240146"
+                ]
+            },
+            "isbn_13": [
+                "9789684322226"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "isbn_10": [
+                "9684322224"
+            ],
+            "publish_date": "October 1998",
+            "key": "/books/OL13121950M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "General",
+                "Fiction - General"
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-08-12T11:30:59.357126"
+            }
+        },
+        "/books/OL9119435M": {
+            "publishers": [
+                "Juventud"
+            ],
+            "physical_format": "Paperback",
+            "title": "Ana Karenina",
+            "identifiers": {
+                "goodreads": [
+                    "69899"
+                ],
+                "librarything": [
+                    "2340"
+                ]
+            },
+            "isbn_13": [
+                "9788426104991"
+            ],
+            "covers": [
+                4903862
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "isbn_10": [
+                "8426104991"
+            ],
+            "publish_date": "October 1998",
+            "key": "/books/OL9119435M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "General",
+                "Fiction - General"
+            ],
+            "source_records": [
+                "bwb:9788426104991",
+                "marc:marc_columbia/Columbia-extract-20221130-001.mrc:187981171:900"
+            ],
+            "oclc_numbers": [
+                "3935998"
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-09T06:19:26.052869"
+            }
+        },
+        "/books/OL28309948M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "\"Quan yi ben.\"\r\n\r\nTranslation of: Anna Karenina.\r\n\r\nIncludes bibliographical references."
+            },
+            "title": "Anna Kalienina",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "publish_date": "1990",
+            "publishers": [
+                "Shanghai yi wen chu ban she"
+            ],
+            "series": [
+                "Shi jie wen xue ming zhu pu ji ben"
+            ],
+            "covers": [
+                12817594,
+                10238393
+            ],
+            "full_title": "Anna Kalienina",
+            "publish_places": [
+                "Shanghai"
+            ],
+            "edition_name": "Di 1 ban",
+            "pagination": "8, 726 pages",
+            "source_records": [
+                "ia:annakalienina0001tols",
+                "amazon:7532709299"
+            ],
+            "work_titles": [
+                "Anna Karenina"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/chi"
+                }
+            ],
+            "publish_country": "cc",
+            "by_statement": "Liefu Tuoersitai zhu ; Cao Ying yi",
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "annakalienina0001tols",
+            "isbn_10": [
+                "7532709299"
+            ],
+            "isbn_13": [
+                "9787532709298"
+            ],
+            "oclc_numbers": [
+                "54013743"
+            ],
+            "lc_classifications": [
+                "PG3367.C4 A612 1990"
+            ],
+            "translated_from": [
+                {
+                    "key": "/languages/rus"
+                }
+            ],
+            "translation_of": "Анна Каренина",
+            "key": "/books/OL28309948M",
+            "number_of_pages": 726,
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-07-07T06:22:22.157505"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-04-27T04:33:32.037945"
+            }
+        },
+        "/books/OL28204413M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Translation of \"Anna Karenina\" and movie.\n\nText in simplified Chinese script."
+            },
+            "title": "Anna Kalienina",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "publish_date": "2003",
+            "publishers": [
+                "Beijing Yan Shan"
+            ],
+            "series": [
+                "Shi jie wne xue wen ku",
+                "Shi jie wne xue wen ku dian ying xi lie"
+            ],
+            "covers": [
+                10139549
+            ],
+            "full_title": "Anna Kalienina",
+            "ocaid": "annakalienina0003tols",
+            "publish_places": [
+                "Beijing"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/chi"
+                }
+            ],
+            "pagination": "2 volumes (1, 7, 723 pages)",
+            "source_records": [
+                "ia:annakalienina0003tols",
+                "amazon:7540214805"
+            ],
+            "work_titles": [
+                "Anna Karenina"
+            ],
+            "isbn_13": [
+                "9787540214807"
+            ],
+            "edition_name": "Di 2 ban",
+            "isbn_10": [
+                "7540214805"
+            ],
+            "publish_country": "cc",
+            "by_statement": "Liefu Tuoersitai zhu ; Yang Nan yi",
+            "oclc_numbers": [
+                "271748822"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "key": "/books/OL28204413M",
+            "number_of_pages": 723,
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-06-06T05:35:07.737458"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-05-01T06:32:58.777756"
+            }
+        },
+        "/books/OL3111541M": {
+            "publishers": [
+                "Izd-vo Leningradskogo universiteta"
+            ],
+            "subtitle": "roman v vosʹmi chasti͡a︡kh",
+            "lc_classifications": [
+                "MLCM 82/2072"
+            ],
+            "key": "/books/OL3111541M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "publish_places": [
+                "Leningrad"
+            ],
+            "pagination": "710 p. ;",
+            "source_records": [
+                "marc:marc_loc_updates/v40.i02.records.utf8:10099594:511",
+                "marc:marc_loc_2016/BooksAll.2016.part14.utf8:128449007:511"
+            ],
+            "title": "Anna Kapenuna",
+            "lccn": [
+                "82219538"
+            ],
+            "number_of_pages": 710,
+            "languages": [
+                {
+                    "key": "/languages/rus"
+                }
+            ],
+            "publish_date": "1978",
+            "publish_country": "rur",
+            "by_statement": "L.N. Tolstoĭ.",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-07-14T15:06:02.397482"
+            }
+        },
+        "/books/OL27135679M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Translation of: Anna Karenina.\n\nXiao shuo."
+            },
+            "title": "Anna Kalienina",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "publish_date": "2011",
+            "publishers": [
+                "Dong yu wen hua shi ye you xian gong si"
+            ],
+            "series": [
+                "Ming zhu xiao xue tang -- 9",
+                "Ming zhu xiao xue tang -- 9."
+            ],
+            "local_id": [
+                "urn:sfpl:31223102414332",
+                "urn:sfpl:31223102414357"
+            ],
+            "subject_times": [
+                "1533-1917"
+            ],
+            "full_title": "Anna Kalienina",
+            "publish_places": [
+                "Taibei Shi"
+            ],
+            "contributions": [
+                "Zheng, Xuanjing",
+                "Li, Yifang",
+                "Zhang, Shiyun",
+                "Kent, Leonard J., 1930-2011",
+                "Berberova, N. (Nina)"
+            ],
+            "subjects": [
+                "Social life and customs",
+                "Adultery",
+                "Fiction"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/chi"
+                }
+            ],
+            "pagination": "158 p.",
+            "source_records": [
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run04.mrc:241873093:2601"
+            ],
+            "work_titles": [
+                "Anna Karenina"
+            ],
+            "isbn_13": [
+                "9789866390555"
+            ],
+            "edition_name": "Chu ban",
+            "subject_places": [
+                "Russia"
+            ],
+            "isbn_10": [
+                "9866390551"
+            ],
+            "publish_country": "ch",
+            "by_statement": "Yin Xizhen gai bian ; liefu Tuo'ersitai yuan zhu ; zheng Xuanjing cha hua ; Li Yifang, Zhang Shiyun yi",
+            "oclc_numbers": [
+                "811147277"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "key": "/books/OL27135679M",
+            "number_of_pages": 158,
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-07-17T06:18:54.910853"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-04-29T08:08:02.622624"
+            }
+        },
+        "/books/OL24769029M": {
+            "publishers": [
+                "Penguin Books"
+            ],
+            "ia_box_id": [
+                "IA116204"
+            ],
+            "series": [
+                "Penguin classics -- L41",
+                "Penguin classics -- L41."
+            ],
+            "covers": [
+                6822864
+            ],
+            "full_title": "Anna Karenin",
+            "lc_classifications": [
+                "PG3366 .A6 1954"
+            ],
+            "key": "/books/OL24769029M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "ocaid": "annakarenin008800",
+            "publish_places": [
+                "Melbourne",
+                "Baltimore"
+            ],
+            "contributions": [
+                "Edmonds, Rosemary"
+            ],
+            "pagination": "852 p. ;",
+            "source_records": [
+                "ia:annakarenin008800"
+            ],
+            "title": "Anna Karenin",
+            "work_titles": [
+                "Anna Karenina"
+            ],
+            "number_of_pages": 852,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1954",
+            "publish_country": "at ",
+            "by_statement": "L.N. Tolstoy ; translated and with an introduction by Rosemary Edmonds",
+            "oclc_numbers": [
+                "3149000"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2011-07-14T08:45:54.595154"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-07-14T15:04:54.119879"
+            }
+        },
+        "/books/OL24197455M": {
+            "publishers": [
+                "D. Estes"
+            ],
+            "ia_box_id": [
+                "IA109914"
+            ],
+            "series": [
+                "The complete works of Count Tolstóy -- v. 9-11"
+            ],
+            "covers": [
+                6377220
+            ],
+            "lc_classifications": [
+                "PG3366.A6 W5 1904"
+            ],
+            "key": "/books/OL24197455M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "ocaid": "annakarnin02tols",
+            "publish_places": [
+                "Boston"
+            ],
+            "contributions": [
+                "Wiener, Leo, 1862-1939."
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                },
+                {
+                    "key": "/languages/rus"
+                }
+            ],
+            "pagination": "3 v. :",
+            "source_records": [
+                "ia:annakarnin02tols",
+                "marc:harvard_bibliographic_metadata/20220215_009.bib.mrc:210095972:1926"
+            ],
+            "title": "Anna Karénin",
+            "work_titles": [
+                "Anna Karenina."
+            ],
+            "edition_name": "Illustrated cabinet ed.",
+            "dewey_decimal_class": [
+                "891.73"
+            ],
+            "publish_date": "1904",
+            "publish_country": "mau",
+            "by_statement": "by Count Lev N. Tolstóy ; translated from the original Russian and edited by Leo Wiener.",
+            "oclc_numbers": [
+                "4944092"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-04-29T17:03:22.541485"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-07-20T19:49:03.073308"
+            }
+        },
+        "/books/OL32200421M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Anna Karenina",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "publish_date": "Apr 13, 2019",
+            "source_records": [
+                "amazon:6052022981"
+            ],
+            "number_of_pages": 800,
+            "publishers": [
+                "İlgi Kültür Sanat Yayınları"
+            ],
+            "isbn_10": [
+                "6052022981"
+            ],
+            "isbn_13": [
+                "9786052022986"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Anna Karenina",
+            "covers": [
+                10849593
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL32200421M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-04-13T10:09:05.559616"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-07-14T15:19:28.306843"
+            }
+        },
+        "/books/OL8887967M": {
+            "identifiers": {
+                "goodreads": [
+                    "1841790"
+                ],
+                "librarything": [
+                    "2340"
+                ]
+            },
+            "title": "Anna Karénine",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                },
+                {
+                    "key": "/authors/OL3127880A"
+                }
+            ],
+            "publish_date": "May 1, 1997",
+            "publishers": [
+                "LGF"
+            ],
+            "weight": "1.1 pounds",
+            "covers": [
+                977097
+            ],
+            "physical_format": "Mass Market Paperback",
+            "isbn_13": [
+                "9782253098386"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "isbn_10": [
+                "2253098388"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.8 x 4.2 x 1.7 inches",
+            "local_id": [
+                "urn:bwbsku:T2-EGG-849"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-11-09"
+            ],
+            "ocaid": "annakarnine0000levn",
+            "key": "/books/OL8887967M",
+            "number_of_pages": 1020,
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-03-19T06:46:24.459930"
+            }
+        },
+        "/books/OL8836948M": {
+            "publishers": [
+                "La Pléaide Gallimard"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "1990007"
+                ],
+                "librarything": [
+                    "2340"
+                ]
+            },
+            "weight": "1.5 pounds",
+            "title": "Anna Karénine",
+            "number_of_pages": 1630,
+            "isbn_13": [
+                "9782070105649"
+            ],
+            "covers": [
+                965816
+            ],
+            "physical_format": "Leather bound",
+            "isbn_10": [
+                "2070105644"
+            ],
+            "publish_date": "January 1, 1983",
+            "key": "/books/OL8836948M",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.8 x 4.6 x 1.7 inches",
+            "oclc_numbers": [
+                "14053200"
+            ],
+            "source_records": [
+                "marc:harvard_bibliographic_metadata/ab.bib.00.20150123.full.mrc:263897176:733"
+            ],
+            "latest_revision": 12,
+            "revision": 12,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T08:14:56.482104"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-12-10T03:10:20.628698"
+            }
+        },
+        "/books/OL20427575M": {
+            "publishers": [
+                "Gallimard"
+            ],
+            "lc_classifications": [
+                "PG'3367'F5'A6'1948"
+            ],
+            "key": "/books/OL20427575M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "publish_places": [
+                "Paris"
+            ],
+            "pagination": "753 p.",
+            "source_records": [
+                "marc:marc_laurentian/openlibrary.mrc:187260008:738"
+            ],
+            "title": "Anna Karénine",
+            "notes": {
+                "type": "/type/text",
+                "value": "1"
+            },
+            "number_of_pages": 753,
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "subjects": [
+                "Tolstoy, Leo, -- graf, -- 1828-1910"
+            ],
+            "publish_date": "1948",
+            "publish_country": "fr ",
+            "by_statement": "traduit par Henri Mongault.",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-26T23:08:26.840933"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-07-14T15:00:21.405792"
+            }
+        },
+        "/books/OL18650184M": {
+            "title": "Anna Karenine",
+            "subtitle": "I",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "publish_date": "1967",
+            "publishers": [
+                "Rencontre"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "publish_country": "fr ",
+            "by_statement": "Leon Tolstoi.",
+            "publish_places": [
+                "Lausanne"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:2306830657:377"
+            ],
+            "key": "/books/OL18650184M",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-18T22:23:57.319987"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-19T15:36:13.563446"
+            }
+        },
+        "/books/OL25909233M": {
+            "publishers": [
+                "Alba",
+                "Alba Editorial"
+            ],
+            "source_records": [
+                "amazon:8484284921"
+            ],
+            "title": "Anna Karénina : novela en ocho partes",
+            "covers": [
+                7411537,
+                7411536
+            ],
+            "isbn_13": [
+                "9788484284925"
+            ],
+            "publish_date": "2010",
+            "key": "/books/OL25909233M",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "number_of_pages": 1008,
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2016-04-15T17:44:57.691190"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-04-15T19:57:57.876874"
+            }
+        },
+        "/books/OL28609717M": {
+            "publishers": [
+                "Pan Macmillan"
+            ],
+            "source_records": [
+                "bwb:9781509827787",
+                "amazon:1509827781"
+            ],
+            "title": "Anna Karenina",
+            "number_of_pages": 1136,
+            "isbn_13": [
+                "9781509827787"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Anna Karenina",
+            "lc_classifications": [
+                "PG3365"
+            ],
+            "publish_date": "2017",
+            "key": "/books/OL28609717M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                },
+                {
+                    "key": "/authors/OL451430A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Slavic philology"
+            ],
+            "covers": [
+                14376090
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-05T06:57:22.915313"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-07-13T15:06:46.832035"
+            }
+        },
+        "/books/OL29132731M": {
+            "publishers": [
+                "Pearson Education, Limited"
+            ],
+            "source_records": [
+                "bwb:9781408271087"
+            ],
+            "title": "Anna Karenina",
+            "number_of_pages": 1,
+            "isbn_13": [
+                "9781408271087"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Anna Karenina",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2011",
+            "key": "/books/OL29132731M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Married people, fiction",
+                "Continental european fiction (fictional works by one author)"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-22T10:56:37.379657"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-07-14T14:59:13.816265"
+            }
+        },
+        "/books/OL29278851M": {
+            "publishers": [
+                "Yale University Press"
+            ],
+            "source_records": [
+                "bwb:9781322236926"
+            ],
+            "title": "Anna Karenina",
+            "number_of_pages": 789,
+            "isbn_13": [
+                "9781322236926"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Anna Karenina",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2014",
+            "key": "/books/OL29278851M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                },
+                {
+                    "key": "/authors/OL6532345A"
+                },
+                {
+                    "key": "/authors/OL1657412A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-24T04:16:17.883634"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-07-14T14:59:13.816265"
+            }
+        },
+        "/books/OL32338853M": {
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "title": "Anna Karenina",
+            "publishers": [
+                "Büchergilde Gutenberg"
+            ],
+            "publish_date": "1966",
+            "key": "/books/OL32338853M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                10960481
+            ],
+            "identifiers": {
+                "wikidata": [
+                    "Q147787"
+                ],
+                "librarything": [
+                    "2340"
+                ]
+            },
+            "number_of_pages": 877,
+            "translation_of": "Анна Каренина",
+            "by_statement": "Leo Tolstoj. [Aus d. Russ. übertr. von Fega Frisch].",
+            "subtitle": "Roman",
+            "translated_from": [
+                {
+                    "key": "/languages/rus"
+                }
+            ],
+            "contributors": [
+                {
+                    "role": "Translator",
+                    "name": "Fega Frisch"
+                }
+            ],
+            "publish_places": [
+                "Frankfurt am Main, Germany"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/ger"
+                }
+            ],
+            "physical_format": "Hardcover",
+            "oclc_numbers": [
+                "180095640"
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "**Anna Karenina** (russisch Анна Каренина, Aussprache: [ˈaˑnːə kɐˈrʲeˑnʲɪnə]) ist ein Roman von Lew Tolstoi, der in den Jahren 1873 bis 1878 entstand und als ein Vertreter des russischen Realismus gilt. Die Erstveröffentlichung in Buchform war 1877/78, zuvor wurden die Kapitel zwischen 1875 und 1877 schrittweise in der Zeitschrift Russischer Bote abgedruckt. Anna Karenina erzählt von Ehe, Liebe, Familie und Moral in der adligen russischen Gesellschaft des 19. Jahrhunderts und stellt zudem eine detaillierte Sozialstudie über die Verhältnisse kurz nach Abschaffung der Leibeigenschaft in den ländlichen Regionen Russlands dar. Es gilt nicht nur als eines von Tolstois bedeutendsten Werken, sondern auch als eines der größten Werke der Literaturgeschichte.\r\n\r\n(Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Anna_Karenina))"
+            },
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-05-07T13:45:51.498464"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-17T17:52:31.254639"
+            }
+        },
+        "/books/OL32338675M": {
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "title": "Anna Karenina",
+            "publishers": [
+                "RM-Buch- und Medien-Vertrieb"
+            ],
+            "publish_date": "2000",
+            "key": "/books/OL32338675M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                10960348
+            ],
+            "identifiers": {
+                "dnb": [
+                    "960613390"
+                ],
+                "wikidata": [
+                    "Q147787"
+                ],
+                "librarything": [
+                    "2340"
+                ]
+            },
+            "oclc_numbers": [
+                "76242869"
+            ],
+            "classifications": {},
+            "translation_of": "Анна Каренина",
+            "translated_from": [
+                {
+                    "key": "/languages/rus"
+                }
+            ],
+            "publish_places": [
+                "Rheda-Wiedenbrück, Germany"
+            ],
+            "series": [
+                "Meisterwerke, 5"
+            ],
+            "number_of_pages": 831,
+            "languages": [
+                {
+                    "key": "/languages/ger"
+                }
+            ],
+            "physical_format": "Paperback",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-05-07T13:23:00.857459"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-07T13:26:46.169431"
+            }
+        },
+        "/books/OL31881940M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "1977",
+            "publish_country": "enk",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "oclc_numbers": [
+                "7119158"
+            ],
+            "dewey_decimal_class": [
+                "891.7/3/3"
+            ],
+            "work_titles": [
+                "Anna Karenina"
+            ],
+            "contributions": [
+                "Garnett, Constance, 1861-1946"
+            ],
+            "subjects": [
+                "Fiction",
+                "Romance fiction"
+            ],
+            "title": "Anna Karenina",
+            "by_statement": "Leo Tolstoy ; translated from the Russian by Constance Garnett",
+            "publishers": [
+                "Pan Books in association with William Heinemann"
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "isbn_10": [
+                "0330248022",
+                "0434787507"
+            ],
+            "isbn_13": [
+                "9780330248020",
+                "9780434787500"
+            ],
+            "pagination": "783 pages",
+            "number_of_pages": 783,
+            "ocaid": "annakarenina0000tols_k1b8",
+            "source_records": [
+                "ia:annakarenina0000tols_k1b8",
+                "bwb:9780330248020",
+                "promise:bwb_daily_pallets_2020-11-19"
+            ],
+            "full_title": "Anna Karenina",
+            "covers": [
+                10559218
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL31881940M",
+            "local_id": [
+                "urn:bwbsku:KO-248-932"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-01-23T01:41:14.495021"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-09T12:23:54.986012"
+            }
+        },
+        "/books/OL31445780M": {
+            "publishers": [
+                "Bantam"
+            ],
+            "source_records": [
+                "amazon:0553138642"
+            ],
+            "title": "Anna Karenina",
+            "isbn_13": [
+                "9780553138641"
+            ],
+            "covers": [
+                10521266
+            ],
+            "physical_format": "mass market paperback",
+            "full_title": "Anna Karenina",
+            "isbn_10": [
+                "0553138642"
+            ],
+            "publish_date": "Nov 28, 1980",
+            "key": "/books/OL31445780M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-11-28T17:13:21.041388"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-05T19:08:26.913752"
+            }
+        },
+        "/books/OL30325554M": {
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798618296434"
+            ],
+            "title": "Anna Karenina",
+            "number_of_pages": 379,
+            "isbn_13": [
+                "9798618296434"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Anna Karenina",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL30325554M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-17T21:49:19.055803"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-05T19:22:07.714003"
+            }
+        },
+        "/books/OL30548004M": {
+            "publishers": [
+                "Azbuka"
+            ],
+            "source_records": [
+                "amazon:5389052641"
+            ],
+            "title": "Anna Karenina",
+            "number_of_pages": 960,
+            "isbn_13": [
+                "9785389052642"
+            ],
+            "covers": [
+                10470462
+            ],
+            "physical_format": "paperback",
+            "full_title": "Anna Karenina",
+            "isbn_10": [
+                "5389052641"
+            ],
+            "publish_date": "Jan 15, 2013",
+            "key": "/books/OL30548004M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-10-07T16:47:21.767069"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-05T19:22:07.714003"
+            }
+        },
+        "/books/OL29908955M": {
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9781098834326"
+            ],
+            "title": "Anna Karenina",
+            "number_of_pages": 753,
+            "isbn_13": [
+                "9781098834326"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Anna Karenina",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2019",
+            "key": "/books/OL29908955M",
+            "authors": [
+                {
+                    "key": "/authors/OL8381345A"
+                },
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-01T14:06:12.844125"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-05T19:08:26.913752"
+            }
+        },
+        "/books/OL29710879M": {
+            "publishers": [
+                "Lerner Publishing Group"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "bwb:9781467777926",
+                "marc:marc_loc_2016/BooksAll.2016.part41.utf8:186940739:885"
+            ],
+            "title": "Anna Karenina",
+            "lccn": [
+                "2014031179"
+            ],
+            "number_of_pages": 1256,
+            "isbn_13": [
+                "9781467777926"
+            ],
+            "full_title": "Anna Karenina",
+            "lc_classifications": [
+                "",
+                "PG3366 .A6 2015"
+            ],
+            "publish_date": "2015",
+            "key": "/books/OL29710879M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Continental european fiction (fictional works by one author)",
+                "Married people, fiction"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-30T06:56:06.397055"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-05T19:08:26.913752"
+            }
+        },
+        "/books/OL52968196M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "1965",
+            "copyright_date": "1965",
+            "publish_country": "nyu",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "work_titles": [
+                "Anna Karenina"
+            ],
+            "title": "Anna Karenina",
+            "by_statement": "Leo Tolstoy ; edited and introduced by Leonard J. Kent and Nina Berberova ; the Constance Garnett translation has been revised throughout by the editors",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "oclc_numbers": [
+                "8922120"
+            ],
+            "series": [
+                "Modern Library college editions"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Bibliography: p. [853]-855."
+            },
+            "publishers": [
+                "The Modern Library"
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "isbn_10": [
+                "0394309367"
+            ],
+            "pagination": "xxiii, 855 pages",
+            "number_of_pages": 855,
+            "source_records": [
+                "marc:marc_columbia/Columbia-extract-20221130-004.mrc:420980792:1085"
+            ],
+            "full_title": "Anna Karenina",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL52968196M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-08-01T04:51:18.915094"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:58:47.103621"
+            }
+        },
+        "/books/OL50397708M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "1899",
+            "publish_country": "nyu",
+            "languages": [
+                {
+                    "key": "/languages/yid"
+                }
+            ],
+            "work_titles": [
+                "Anna Karenina"
+            ],
+            "title": "Anna Ḳarenina",
+            "subtitle": "... shilderung iber liebe, leydenshafṭ ...",
+            "by_statement": "bearbayṭeṭ fun D. M. Hermalin",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "oclc_numbers": [
+                "46373931",
+                "19314063"
+            ],
+            "series": [
+                "Judaica e-books : Yiddish books from the Harvard College Library - YI 0503",
+                "Yiddish books from the Harvard College Library -- YI 0503"
+            ],
+            "contributions": [
+                "Hermalin, D. M., 1865-1921"
+            ],
+            "publishers": [
+                "M. Ḥinsḳi"
+            ],
+            "publish_places": [
+                "Nyu Yorḳ"
+            ],
+            "pagination": "189 p.",
+            "number_of_pages": 189,
+            "source_records": [
+                "marc:harvard_bibliographic_metadata/ab.bib.00.20150123.full.mrc:421371966:784",
+                "marc:harvard_bibliographic_metadata/20220215_019.bib.mrc:189079889:1763"
+            ],
+            "full_title": "Anna Ḳarenina ... shilderung iber liebe, leydenshafṭ ...",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL50397708M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-12-11T07:50:07.008060"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-21T16:59:55.652628"
+            }
+        },
+        "/books/OL48027946M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "2007",
+            "publish_country": "is",
+            "languages": [
+                {
+                    "key": "/languages/heb"
+                }
+            ],
+            "work_titles": [
+                "Anna Karenina"
+            ],
+            "title": "אנה קרנינה",
+            "other_titles": [
+                "Anah Ḳareninah"
+            ],
+            "by_statement": "ʻal pi Lev Ṭolsṭoi ; ʻubad ʻal yede Helen Edmunson ; targum Rivḳah Meshulaḥ",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "oclc_numbers": [
+                "213383244"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Cover title.\n\nScript."
+            },
+            "contributions": [
+                "Edmunson, Helen",
+                "Meshulaḥ, Rivḳah",
+                "Habimah"
+            ],
+            "publishers": [
+                "Habimah"
+            ],
+            "publish_places": [
+                "Tel Aviv"
+            ],
+            "pagination": "74 p.",
+            "number_of_pages": 74,
+            "source_records": [
+                "marc:harvard_bibliographic_metadata/ab.bib.11.20150123.full.mrc:334376547:834"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL48027946M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-05-28T06:38:59.338078"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:58:47.103621"
+            }
+        },
+        "/books/OL42368981M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "isbn_13": [
+                "9798580926063"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "520",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798580926063"
+            ],
+            "title": "Anna Karénine - Tome I Illustree",
+            "weight": "0.755",
+            "full_title": "Anna Karénine - Tome I Illustree",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL42368981M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-01T21:07:06.048174"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:58:47.103621"
+            }
+        },
+        "/books/OL22483389M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Translation of: Anna Karienina."
+            },
+            "title": "Anna Karenina",
+            "authors": [
+                {
+                    "key": "/authors/OL6455593A"
+                }
+            ],
+            "publish_date": "1997",
+            "publishers": [
+                "Prózyński i S-ka"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "work_titles": [
+                "Anna Karienina."
+            ],
+            "series": [
+                "Klasyka Powieści"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/pol"
+                }
+            ],
+            "publish_country": "pl ",
+            "by_statement": "Lew Tołstoj ; Przełozyła Kazimiera Iłłakowiczówna. Tom 2.",
+            "publish_places": [
+                "Warszawa"
+            ],
+            "contributions": [
+                "Iłłakowiczówna, Kazimiera."
+            ],
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:1667602234:590"
+            ],
+            "key": "/books/OL22483389M",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-14T22:59:04.795485"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-12T06:05:03.971223"
+            }
+        },
+        "/books/OL9145698M": {
+            "publishers": [
+                "Edimat Libros"
+            ],
+            "number_of_pages": 424,
+            "weight": "1.8 pounds",
+            "covers": [
+                1048387
+            ],
+            "local_id": [
+                "urn:sfpl:31223049254270",
+                "urn:bwbsku:T2-BHT-318",
+                "urn:bwbsku:O7-AIM-093"
+            ],
+            "physical_format": "Hardcover",
+            "key": "/books/OL9145698M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "subjects": [
+                "Ancient, Classical & Medieval",
+                "Russian Novel And Short Story",
+                "Fiction",
+                "Literature - Classics / Criticism",
+                "Spanish: Adult Fiction",
+                "Literary Collections",
+                "Classics",
+                "Fiction / Classics",
+                "Romance - General"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "source_records": [
+                "ia:anakareninagrand00edim",
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run03.mrc:102671610:1609",
+                "promise:bwb_daily_pallets_2022-06-01",
+                "promise:bwb_daily_pallets_2021-05-19"
+            ],
+            "title": "Ana Karenina",
+            "identifiers": {
+                "goodreads": [
+                    "811047"
+                ]
+            },
+            "publish_date": "September 28, 2004",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9.2 x 6.1 x 1.6 inches",
+            "series": [
+                "Grandes clasicos series"
+            ],
+            "translated_from": [
+                {
+                    "key": "/languages/rus"
+                }
+            ],
+            "ocaid": "anakareninagrand00edim",
+            "isbn_10": [
+                "8484036553"
+            ],
+            "isbn_13": [
+                "9788484036555"
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T17:45:08.911876"
+            }
+        },
+        "/books/OL9876682M": {
+            "publishers": [
+                "Yoyo USA"
+            ],
+            "weight": "4 ounces",
+            "edition_name": "Abridged edition",
+            "physical_format": "Audio Cassette",
+            "key": "/books/OL9876682M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "subjects": [
+                "Continental European",
+                "Literary Collections",
+                "Audio Adult: Books On Tape"
+            ],
+            "isbn_13": [
+                "9789584301901"
+            ],
+            "source_records": [
+                "amazon:958430190X:2-ay:2477449045:149358"
+            ],
+            "title": "Ana Karenina / Ana Karenina",
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "isbn_10": [
+                "958430190X"
+            ],
+            "publish_date": "August 2002",
+            "oclc_numbers": [
+                "69939604"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "7.5 x 6.2 x 0.5 inches",
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-08-12T11:30:59.357126"
+            }
+        },
+        "/books/OL9150698M": {
+            "publishers": [
+                "Yoyo Music USA Inc"
+            ],
+            "weight": "3.2 ounces",
+            "edition_name": "Abridged edition",
+            "physical_format": "Audio CD",
+            "key": "/books/OL9150698M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "contributions": [
+                "Laura Garcia (Narrator)"
+            ],
+            "subjects": [
+                "Audio Adult: Books On Tape",
+                "Continental European",
+                "Literary Collections",
+                "Spanish: Adult Fiction"
+            ],
+            "isbn_13": [
+                "9789584301895"
+            ],
+            "source_records": [
+                "amazon:9584301896:ij:1804697743:170671"
+            ],
+            "title": "Ana Karenina",
+            "identifiers": {
+                "goodreads": [
+                    "867350"
+                ],
+                "librarything": [
+                    "2340"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "isbn_10": [
+                "9584301896"
+            ],
+            "publish_date": "March 2002",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "7.5 x 6.2 x 0.8 inches",
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-08-12T11:30:59.357126"
+            }
+        },
+        "/books/OL30128516M": {
+            "publishers": [
+                "Heinemann"
+            ],
+            "isbn_10": [
+                "0434787558"
+            ],
+            "covers": [
+                10440040
+            ],
+            "full_title": "Anna Karenin",
+            "lc_classifications": [
+                "PG3366.A6 T68 1972"
+            ],
+            "key": "/books/OL30128516M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "ocaid": "annakarenin0000tols",
+            "publish_places": [
+                "London"
+            ],
+            "contributions": [
+                "Garnett, Constance, 1861-1946"
+            ],
+            "isbn_13": [
+                "9780434787555"
+            ],
+            "pagination": "784 pages",
+            "source_records": [
+                "ia:annakarenin0000tols",
+                "ia:anakarenin0000unse",
+                "promise:bwb_daily_pallets_2020-06-24",
+                "bwb:9780434787555"
+            ],
+            "title": "Anna Karenin",
+            "dewey_decimal_class": [
+                "891.7/3/3"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "This translation originally published: 1901."
+            },
+            "number_of_pages": 784,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Translations into English",
+                "Russian fiction",
+                "Translations from Russian",
+                "English fiction"
+            ],
+            "publish_date": "1972",
+            "publish_country": "enk",
+            "by_statement": "Leo Tolstoy ; translated from the Russian by Constance Garnett",
+            "oclc_numbers": [
+                "16252643"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:KN-950-156"
+            ],
+            "identifiers": {
+                "amazon": [
+                    ""
+                ]
+            },
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-13T04:40:45.042258"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-07-17T01:49:04.905223"
+            }
+        },
+        "/books/OL27130412M": {
+            "publishers": [
+                "Shinchōsha"
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "In nineteenth-century Russia, the wife of an important government official loses her family and social status when she chooses the love of Count Vronsky over a passionless marriage."
+            },
+            "series": [
+                "Shinchō bunko"
+            ],
+            "local_id": [
+                "urn:sfpl:31223098432348",
+                "urn:sfpl:31223098432355",
+                "urn:sfpl:31223063747449"
+            ],
+            "full_title": "Anna Karēnina",
+            "key": "/books/OL27130412M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "publish_places": [
+                "Tōkyō"
+            ],
+            "contributions": [
+                "Kimura, Hiroshi, 1925-"
+            ],
+            "isbn_13": [
+                "9784102060018",
+                "9784102060025",
+                "9784102060032"
+            ],
+            "pagination": "3 v.",
+            "source_records": [
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run04.mrc:187700175:2549"
+            ],
+            "title": "Anna Karēnina",
+            "work_titles": [
+                "Anna Karenina"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Fiction.\n\nTranslation of: Anna Karenina.\n\nAccelerated Reader UG 9.6 69 69 702"
+            },
+            "languages": [
+                {
+                    "key": "/languages/jpn"
+                }
+            ],
+            "isbn_10": [
+                "4102060014",
+                "4102060022",
+                "4102060030"
+            ],
+            "publish_date": "1972",
+            "publish_country": "ja",
+            "by_statement": "Torusutoi ; Kimura Hiroshi yaku",
+            "oclc_numbers": [
+                "33742000"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-07-17T02:30:39.112288"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-07-14T15:04:54.119879"
+            }
+        },
+        "/books/OL26984834M": {
+            "pagination": "2 v.",
+            "source_records": [
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run01.mrc:213748452:966"
+            ],
+            "title": "Anna Karénin",
+            "work_titles": [
+                "Anna Karenina"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Translation of: Anna Karenina."
+            },
+            "languages": [
+                {
+                    "key": "/languages/dan"
+                }
+            ],
+            "full_title": "Anna Karénin",
+            "local_id": [
+                "urn:sfpl:31223013587531"
+            ],
+            "publish_date": "1918",
+            "key": "/books/OL26984834M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "by_statement": "Leo Tolstoj ; paa dansk ved Clara Gulmann",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-06-01T11:15:07.648227"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-07-14T15:04:54.119879"
+            }
+        },
+        "/books/OL26793195M": {
+            "title": "Anna Kalienina",
+            "subtitle": "Anna Karenina",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "publish_date": "2007",
+            "isbn_10": [
+                "7532132250"
+            ],
+            "series": [
+                "Shi jie shi da wen xue ming zhu"
+            ],
+            "covers": [
+                8447382
+            ],
+            "ocaid": "annakalieninaann0000tols",
+            "contributions": [
+                "Caoying, 1923- translator"
+            ],
+            "subject_times": [
+                "Jin dai",
+                "1533-1917"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/chi"
+                }
+            ],
+            "pagination": "2 volumes (788 pages) ;",
+            "source_records": [
+                "ia:annakalieninaann0000tols",
+                "amazon:7532132250"
+            ],
+            "work_titles": [
+                "Anna Karenina"
+            ],
+            "isbn_13": [
+                "9787532132256"
+            ],
+            "edition_name": "Di 1 ban",
+            "subject_places": [
+                "E luo si",
+                "Russia"
+            ],
+            "subjects": [
+                "Social life and customs",
+                "Married women",
+                "Adultery",
+                "Chang pian xiao shuo",
+                "Manners and customs",
+                "Fiction"
+            ],
+            "publish_country": "cc",
+            "by_statement": "(E) Liefu Tuoersitai zhu ; Caoying yi",
+            "oclc_numbers": [
+                "879964583"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "key": "/books/OL26793195M",
+            "number_of_pages": 788,
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-03-19T11:03:41.854296"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-04-19T04:35:15.888072"
+            }
+        },
+        "/books/OL12338503M": {
+            "publishers": [
+                "Fonolibro Inc"
+            ],
+            "weight": "1.6 ounces",
+            "covers": [
+                3062541
+            ],
+            "physical_format": "Audio CD",
+            "key": "/books/OL12338503M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "subjects": [
+                "Literature & Fiction / Drama",
+                "Classics",
+                "Fiction",
+                "1828-1910",
+                "Audio adaptations",
+                "Tolstoy, Leo,",
+                "graf,",
+                "Spanish: Adult Fiction"
+            ],
+            "isbn_13": [
+                "9781933499246"
+            ],
+            "source_records": [
+                "amazon:1933499249"
+            ],
+            "title": "Anna Karerina",
+            "identifiers": {
+                "goodreads": [
+                    "626834"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "isbn_10": [
+                "1933499249"
+            ],
+            "publish_date": "September 30, 2006",
+            "oclc_numbers": [
+                "76041855"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "5.8 x 5 x 0.6 inches",
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-07-14T15:04:54.119879"
+            }
+        },
+        "/books/OL32491712M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Anna Karenina Leatherbound Classics Edition",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "publish_date": "May 22, 2012",
+            "source_records": [
+                "amazon:1435139623",
+                "bwb:9781435139626"
+            ],
+            "number_of_pages": 808,
+            "publishers": [
+                "Sterling"
+            ],
+            "isbn_10": [
+                "1435139623"
+            ],
+            "isbn_13": [
+                "9781435139626"
+            ],
+            "physical_format": "leather bound",
+            "covers": [
+                11145902
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL32491712M",
+            "lc_classifications": [
+                "PG3365.A6"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-05-22T17:51:54.064836"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T19:03:58.505396"
+            }
+        },
+        "/books/OL31483454M": {
+            "publishers": [
+                "GALLIMARD"
+            ],
+            "physical_format": "paperback",
+            "source_records": [
+                "amazon:2070367673",
+                "promise:bwb_daily_pallets_2020-11-19"
+            ],
+            "title": "ANNA KARENINE",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: ANNA KARENINE (FOLIO (DOMAINE PUBLIC))"
+            },
+            "number_of_pages": 512,
+            "covers": [
+                10523810
+            ],
+            "isbn_13": [
+                "9782070367672"
+            ],
+            "full_title": "ANNA KARENINE",
+            "isbn_10": [
+                "2070367673"
+            ],
+            "publish_date": "Nov 09, 2001",
+            "key": "/books/OL31483454M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                },
+                {
+                    "key": "/authors/OL3113223A"
+                },
+                {
+                    "key": "/authors/OL136735A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:KO-003-565"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-12-02T16:27:58.340727"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-25T07:45:48.348900"
+            }
+        },
+        "/books/OL26988433M": {
+            "publishers": [
+                "Nabu Press"
+            ],
+            "source_records": [
+                "amazon:1276526962"
+            ],
+            "title": "Anna Karénin",
+            "number_of_pages": 452,
+            "covers": [
+                8583364
+            ],
+            "full_title": "The Complete Works Of Count Tolstoy: Anna Karénin...",
+            "publish_date": "Mar 01, 2012",
+            "key": "/books/OL26988433M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_10": [
+                "1276526962"
+            ],
+            "isbn_13": [
+                "9781276526968"
+            ],
+            "classifications": {},
+            "series": [
+                "The Complete Works of Count Tolstoy"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-06-04T06:44:50.921830"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-05-02T20:36:50.679982"
+            }
+        },
+        "/books/OL20255384M": {
+            "publishers": [
+                "Les Belles Éditions"
+            ],
+            "lc_classifications": [
+                "PG'3367'F5'A6'1938"
+            ],
+            "key": "/books/OL20255384M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "publish_places": [
+                "Paris"
+            ],
+            "pagination": "2 v. en 1",
+            "source_records": [
+                "marc:marc_laurentian/openlibrary.mrc:155044745:751"
+            ],
+            "title": "Anna Karénine",
+            "notes": {
+                "type": "/type/text",
+                "value": "1"
+            },
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "subjects": [
+                "Tolstoy, Leo, -- graf, -- 1828-1910"
+            ],
+            "publish_date": "1938",
+            "publish_country": "fr ",
+            "by_statement": "traduction nouvelle de A. Minousky.",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-26T09:42:42.361028"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-07-14T15:00:21.405792"
+            }
+        },
+        "/books/OL20427576M": {
+            "publishers": [
+                "Gallimard"
+            ],
+            "subtitle": "résurrection",
+            "series": [
+                "Bibliothèque de la Pléiade -- v. 87"
+            ],
+            "lc_classifications": [
+                "PG'3367'F5'A6'1951"
+            ],
+            "key": "/books/OL20427576M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "publish_places": [
+                "Paris"
+            ],
+            "pagination": "1630 p.",
+            "source_records": [
+                "marc:marc_laurentian/openlibrary.mrc:187261500:846"
+            ],
+            "title": "Anna Karénine",
+            "notes": {
+                "type": "/type/text",
+                "value": "1"
+            },
+            "number_of_pages": 1630,
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "publish_date": "1951",
+            "publish_country": "fr ",
+            "by_statement": "traductions et notes de Henri Mongault, Sylvie Luneau et E. Beaux ; introduction de Pierre Pascal.",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-26T23:08:27.612625"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-07-14T15:00:21.405792"
+            }
+        },
+        "/books/OL18650193M": {
+            "title": "Anna Karenine",
+            "subtitle": "II",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "publish_date": "1968",
+            "publishers": [
+                "Rencontre"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "publish_country": "fr ",
+            "by_statement": "Leon Tolstoi.",
+            "publish_places": [
+                "Lausanne"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:2306834998:378"
+            ],
+            "key": "/books/OL18650193M",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-18T22:24:00.714976"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-02-04T08:53:41.553744"
+            }
+        },
+        "/books/OL9439753M": {
+            "publishers": [
+                "French & European Pubns"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "2340"
+                ],
+                "goodreads": [
+                    "58573"
+                ]
+            },
+            "classifications": {},
+            "source_records": [
+                "amazon:0828835470:2-ah:487429331:235081",
+                "bwb:9780828835473"
+            ],
+            "title": "Anna Karenine (French Edition)",
+            "notes": {
+                "type": "/type/text",
+                "value": "Bibliotheque de la Pleiade"
+            },
+            "number_of_pages": 1696,
+            "isbn_13": [
+                "9780828835473"
+            ],
+            "physical_format": "Leather-bound",
+            "isbn_10": [
+                "0828835470"
+            ],
+            "publish_date": "1951",
+            "key": "/books/OL9439753M",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 12,
+            "revision": 12,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-08-17T16:06:33.637451"
+            }
+        },
+        "/books/OL6403836M": {
+            "publishers": [
+                "Illustrated editions company"
+            ],
+            "lc_classifications": [
+                "PZ3.T588 A24"
+            ],
+            "key": "/books/OL6403836M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "contributions": [
+                "Townsend, A. C., tr.",
+                "Zaidenberg, Arthur, 1908- illus."
+            ],
+            "pagination": "212 p.",
+            "source_records": [
+                "marc:marc_records_scriblio_net/part03.dat:102449552:673",
+                "marc:marc_loc_updates/v36.i40.records.utf8:422002:678",
+                "marc:marc_loc_2016/BooksAll.2016.part03.utf8:186764402:678"
+            ],
+            "title": "Anna Karenine",
+            "lccn": [
+                "40014086"
+            ],
+            "number_of_pages": 212,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1940",
+            "publish_country": "nyu",
+            "by_statement": "by Count Leo Tolstoi...translated by A. C. Townsend; illustrations by A. Zaidenberg.",
+            "oclc_numbers": [
+                "4744726"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-07-14T15:00:21.405792"
+            }
+        },
+        "/books/OL28510300M": {
+            "publishers": [
+                "Penguin Books, Limited"
+            ],
+            "source_records": [
+                "bwb:9780141199610"
+            ],
+            "title": "Anna Karenina",
+            "number_of_pages": 864,
+            "isbn_13": [
+                "9780141199610"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Anna Karenina",
+            "lc_classifications": [
+                "PG3366.A6 2013"
+            ],
+            "publish_date": "2014",
+            "key": "/books/OL28510300M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                },
+                {
+                    "key": "/authors/OL5436174A"
+                },
+                {
+                    "key": "/authors/OL2403326A"
+                },
+                {
+                    "key": "/authors/OL7533555A"
+                },
+                {
+                    "key": "/authors/OL2974055A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Married people, fiction",
+                "Continental european fiction (fictional works by one author)"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-03T13:23:17.983082"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-07-14T14:59:13.816265"
+            }
+        },
+        "/books/OL28584227M": {
+            "publishers": [
+                "Oxford University Press"
+            ],
+            "source_records": [
+                "bwb:9780198748847",
+                "amazon:0198748841",
+                "ia:annakarenina0000tols_s6m6",
+                "promise:bwb_daily_pallets_2022-08-30"
+            ],
+            "title": "Anna Karenina",
+            "number_of_pages": 896,
+            "isbn_13": [
+                "9780198748847"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Anna Karenina",
+            "lc_classifications": [
+                "PG3365.A6",
+                "PG3366 .A6 2016"
+            ],
+            "publish_date": "2016",
+            "key": "/books/OL28584227M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                },
+                {
+                    "key": "/authors/OL577322A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Slavic philology"
+            ],
+            "covers": [
+                12987316
+            ],
+            "ocaid": "annakarenina0000tols_s6m6",
+            "lccn": [
+                "2015943753"
+            ],
+            "oclc_numbers": [
+                "925500010"
+            ],
+            "local_id": [
+                "urn:bwbsku:O8-BYF-089"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-04T22:17:37.032344"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-04T14:06:38.000605"
+            }
+        },
+        "/books/OL28634984M": {
+            "publishers": [
+                "Oxford University Press"
+            ],
+            "source_records": [
+                "bwb:9780198800538"
+            ],
+            "title": "Anna Karenina",
+            "number_of_pages": 896,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Anna Karenina",
+            "publish_date": "2017",
+            "key": "/books/OL28634984M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                },
+                {
+                    "key": "/authors/OL577322A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Slavic philology"
+            ],
+            "covers": [
+                14376088
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9780198800538"
+            ],
+            "isbn_10": [
+                "0198800533"
+            ],
+            "classifications": {},
+            "lc_classifications": [
+                "PG3365.A6"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-05T17:04:14.723977"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-07-13T15:06:30.155434"
+            }
+        },
+        "/books/OL29295018M": {
+            "publishers": [
+                "Lerner Publishing Group"
+            ],
+            "source_records": [
+                "bwb:9781322508160"
+            ],
+            "title": "Anna Karenina",
+            "number_of_pages": 1258,
+            "isbn_13": [
+                "9781322508160"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Anna Karenina",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2015",
+            "key": "/books/OL29295018M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-24T08:28:44.399583"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-07-14T14:59:13.816265"
+            }
+        },
+        "/books/OL32026313M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Anna Karenina",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                },
+                {
+                    "key": "/authors/OL9110215A"
+                }
+            ],
+            "publish_date": "Apr 24, 2017",
+            "source_records": [
+                "amazon:8416763321"
+            ],
+            "number_of_pages": 200,
+            "publishers": [
+                "La Otra H"
+            ],
+            "isbn_10": [
+                "8416763321"
+            ],
+            "isbn_13": [
+                "9788416763320"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Anna Karenina El manga",
+            "subtitle": "El manga",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Anna Karenina: El manga (Spanish Edition)"
+            },
+            "covers": [
+                10692942
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL32026313M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-03-09T11:53:43.207160"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-05T19:22:07.714003"
+            }
+        },
+        "/books/OL32160408M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Anna Karenina",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                },
+                {
+                    "key": "/authors/OL8007991A"
+                },
+                {
+                    "key": "/authors/OL2913279A"
+                }
+            ],
+            "publish_date": "Feb 18, 2020",
+            "source_records": [
+                "amazon:1799744655"
+            ],
+            "publishers": [
+                "Brilliance Audio"
+            ],
+            "isbn_10": [
+                "1799744655"
+            ],
+            "isbn_13": [
+                "9781799744658"
+            ],
+            "physical_format": "audio cd",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Anna Karenina (AmazonClassics Edition)"
+            },
+            "full_title": "Anna Karenina",
+            "covers": [
+                10827899
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL32160408M",
+            "contributors": [
+                {
+                    "role": "Translator",
+                    "name": "Constance Black Garnett"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-03-29T20:55:17.508972"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-02-28T20:13:30.391312"
+            }
+        },
+        "/books/OL30941085M": {
+            "publishers": [
+                "Wildside Press"
+            ],
+            "source_records": [
+                "amazon:0809596814",
+                "bwb:9780809596812"
+            ],
+            "title": "Anna Karenina",
+            "number_of_pages": 740,
+            "covers": [
+                10510091
+            ],
+            "physical_format": "hardcover",
+            "publish_date": "Jan 01, 2004",
+            "key": "/books/OL30941085M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                },
+                {
+                    "key": "/authors/OL2913279A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_10": [
+                "0809596814"
+            ],
+            "isbn_13": [
+                "9780809596812"
+            ],
+            "classifications": {},
+            "contributors": [
+                {
+                    "role": "Translator",
+                    "name": "Constance Black Garnett"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-11-11T08:40:47.925967"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-02-28T20:11:41.378079"
+            }
+        },
+        "/books/OL30516852M": {
+            "publishers": [
+                "Simon & Schuster Paperbacks"
+            ],
+            "isbn_10": [
+                "1439169462"
+            ],
+            "series": [
+                "Simon & Schuster enriched classic"
+            ],
+            "subject_times": [
+                "1533-1917"
+            ],
+            "full_title": "Anna Karenina",
+            "lc_classifications": [
+                "PG3366.A6 G35 2010",
+                "PG3366.A6G35 2010"
+            ],
+            "key": "/books/OL30516852M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "contributions": [
+                "Garnett, Constance, 1861-1946",
+                "Reed, Cory A."
+            ],
+            "lccn": [
+                "2011280251"
+            ],
+            "isbn_13": [
+                "9781439169469"
+            ],
+            "pagination": "xviii, 1208 p.",
+            "source_records": [
+                "marc:marc_loc_2016/BooksAll.2016.part38.utf8:233652560:1256",
+                "bwb:9781439169469"
+            ],
+            "title": "Anna Karenina",
+            "work_titles": [
+                "Anna Karenina"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Includes bibliographical references."
+            },
+            "number_of_pages": 1208,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "dewey_decimal_class": [
+                "891.73/3"
+            ],
+            "subject_places": [
+                "Russia"
+            ],
+            "subjects": [
+                "Social life and customs",
+                "Married women",
+                "Adultery",
+                "Fiction"
+            ],
+            "publish_date": "2010",
+            "publish_country": "nyu",
+            "by_statement": "Leo Tolstoy ; translated from the Russian by Constance Garnett ; supplementary materials written by Cory Reed",
+            "oclc_numbers": [
+                "464592653"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-25T18:07:38.507935"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-08-17T17:27:28.661322"
+            }
+        },
+        "/books/OL30270395M": {
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798600469204"
+            ],
+            "title": "Anna Karenina",
+            "number_of_pages": 486,
+            "isbn_13": [
+                "9798600469204"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Anna Karenina",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL30270395M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-17T07:47:40.233806"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-05T19:22:07.714003"
+            }
+        },
+        "/books/OL30027598M": {
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798639978890"
+            ],
+            "title": "Anna Karenina",
+            "number_of_pages": 480,
+            "isbn_13": [
+                "9798639978890"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Anna Karenina",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL30027598M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-02T16:45:01.516028"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-05T19:22:07.714003"
+            }
+        },
+        "/books/OL30001841M": {
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798644085682"
+            ],
+            "title": "Anna Karenina",
+            "number_of_pages": 548,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL30001841M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                },
+                {
+                    "key": "/authors/OL2913279A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_13": [
+                "9798644085682"
+            ],
+            "classifications": {},
+            "subtitle": "The New Complete Unabridged and Annotated Classic Version",
+            "contributors": [
+                {
+                    "role": "Translator",
+                    "name": "Constance Black Garnett"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-02T10:58:32.639101"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-02-28T20:13:32.718544"
+            }
+        },
+        "/books/OL29778512M": {
+            "publishers": [
+                "Lerner Publishing Group"
+            ],
+            "source_records": [
+                "bwb:9781467787154"
+            ],
+            "title": "Anna Karenina",
+            "number_of_pages": 1256,
+            "isbn_13": [
+                "9781467787154"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Anna Karenina",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2015",
+            "key": "/books/OL29778512M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-31T03:16:34.891467"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-05T19:08:26.913752"
+            }
+        },
+        "/books/OL29779684M": {
+            "publishers": [
+                "Lerner Publishing Group"
+            ],
+            "source_records": [
+                "bwb:9781467787161"
+            ],
+            "title": "Anna Karenina",
+            "number_of_pages": 1256,
+            "isbn_13": [
+                "9781467787161"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Anna Karenina",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2015",
+            "key": "/books/OL29779684M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-31T03:32:35.913139"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-05T19:08:26.913752"
+            }
+        },
+        "/books/OL51160785M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "isbn_10": [
+                "1582881057"
+            ],
+            "isbn_13": [
+                "9781582881058"
+            ],
+            "local_id": [
+                "urn:bwbsku:P9-BBD-716"
+            ],
+            "publish_date": "2002",
+            "publishers": [
+                "SpellBinders"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2024-02-23:P9-BBD-716"
+            ],
+            "title": "Anna Karenina",
+            "full_title": "Anna Karenina",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL51160785M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-02-25T01:04:14.298153"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:58:47.103621"
+            }
+        },
+        "/books/OL48351584M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL2913279A"
+                },
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "isbn_13": [
+                "9798673850824"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "723",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798673850824",
+                "promise:bwb_daily_pallets_2024-02-22:KT-287-870"
+            ],
+            "title": "Anna Karenina",
+            "weight": "1.405",
+            "full_title": "Anna Karenina",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL48351584M",
+            "local_id": [
+                "urn:bwbsku:KT-287-870"
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B011QZH334"
+                ],
+                "better_world_books": [
+                    "BWBM59170202"
+                ]
+            },
+            "contributors": [
+                {
+                    "role": "Translator",
+                    "name": "Constance Black Garnett"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-17T16:57:34.126679"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-02-28T20:15:19.711043"
+            }
+        },
+        "/books/OL48595424M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B001LZG1PG"
+                ],
+                "better_world_books": [
+                    "BWB22301683"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:P8-BXO-843"
+            ],
+            "publish_date": "1944-01-01",
+            "publishers": [
+                "Nelson Doubleday, Inc."
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-07-07:P8-BXO-843"
+            ],
+            "title": "Anna Karenina",
+            "full_title": "Anna Karenina",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL48595424M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-07-09T01:01:37.340008"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:58:47.103621"
+            }
+        },
+        "/books/OL48338990M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "isbn_13": [
+                "9798736555468"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "558",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798736555468"
+            ],
+            "title": "Anna Karénine - Tome II",
+            "weight": "0.805",
+            "full_title": "Anna Karénine - Tome II",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL48338990M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-17T16:19:56.884064"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:58:47.103621"
+            }
+        },
+        "/books/OL48958282M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "isbn_13": [
+                "9798455286124"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "557",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798455286124"
+            ],
+            "title": "Anna Karénine - Tome II",
+            "weight": "0.805",
+            "full_title": "Anna Karénine - Tome II",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL48958282M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-07-17T23:37:51.667740"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:58:47.103621"
+            }
+        },
+        "/books/OL47191644M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Anna Karenina",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "publish_date": "Nov 08, 2012",
+            "source_records": [
+                "amazon:9020413767"
+            ],
+            "number_of_pages": 945,
+            "publishers": [
+                "Veen, L.J."
+            ],
+            "isbn_10": [
+                "9020413767"
+            ],
+            "isbn_13": [
+                "9789020413762"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Anna Karenina roman in acht delen",
+            "subtitle": "roman in acht delen",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Anna Karenina: roman in acht delen (Veen klassiek) (Dutch Edition)"
+            },
+            "covers": [
+                13616086
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL47191644M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-03-18T14:58:42.206400"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:58:47.103621"
+            }
+        },
+        "/books/OL8900679M": {
+            "identifiers": {
+                "goodreads": [
+                    "93049"
+                ]
+            },
+            "title": "Anna Karenina (Highbridge Classics)",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "publish_date": "February 1, 2007",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "weight": "4 ounces",
+            "publishers": [
+                "Highbridge Audio"
+            ],
+            "edition_name": "Abridged edition",
+            "physical_format": "Audio CD",
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Russian Novel And Short Story",
+                "Fiction",
+                "Unabridged Audio - Literature Classics",
+                "Literature: Classics",
+                "Classics",
+                "Fiction / Classics"
+            ],
+            "physical_dimensions": "5.8 x 5.1 x 0.6 inches",
+            "isbn_10": [
+                "1598870807"
+            ],
+            "isbn_13": [
+                "9781598870800"
+            ],
+            "source_records": [
+                "amazon:1598870807"
+            ],
+            "key": "/books/OL8900679M",
+            "number_of_pages": 180,
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-04-03T06:46:03.009808"
+            }
+        },
+        "/books/OL9401414M": {
+            "publishers": [
+                "Andres Bello"
+            ],
+            "covers": [
+                4972201
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL9401414M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "subjects": [
+                "General",
+                "Fiction - General"
+            ],
+            "isbn_13": [
+                "9789561313880"
+            ],
+            "source_records": [
+                "amazon:956131388X:2-af:391605506:157114"
+            ],
+            "title": "Ana Karenina",
+            "identifiers": {
+                "librarything": [
+                    "2340"
+                ],
+                "goodreads": [
+                    "836159"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "isbn_10": [
+                "956131388X"
+            ],
+            "publish_date": "October 1996",
+            "oclc_numbers": [
+                "49645986"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-08-12T11:30:59.357126"
+            }
+        },
+        "/books/OL31236710M": {
+            "title": "Anna Kalienina",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "publish_date": "2012",
+            "publishers": [
+                "Sheng huo, du shu, xin zhi san lian shu dian"
+            ],
+            "series": [
+                "San lian jing dian wen ku -- 068"
+            ],
+            "full_title": "Anna Kalienina",
+            "lc_classifications": [
+                "PG3365 .A6127 2012"
+            ],
+            "publish_places": [
+                "Beijing Shi"
+            ],
+            "contributions": [
+                "Zhou, Yang, 1908-1989",
+                "Luo, Jinan, 1898-1971"
+            ],
+            "edition_name": "Beijing di 1 ban",
+            "pagination": "4 volumes (1, 1562 pages)",
+            "source_records": [
+                "marc:marc_loc_2016/BooksAll.2016.part41.utf8:318806233:1471"
+            ],
+            "work_titles": [
+                "Anna Karenina"
+            ],
+            "isbn_13": [
+                "9787108039057"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/chi"
+                }
+            ],
+            "lccn": [
+                "2014442722"
+            ],
+            "subject_places": [
+                "Russia"
+            ],
+            "subjects": [
+                "Married women",
+                "Fiction",
+                "Social life and customs"
+            ],
+            "publish_country": "cc",
+            "by_statement": "L. Tuoersitai zhu ; Zhou Jian, Luo Jinan yi",
+            "subject_times": [
+                "1533-1917"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "key": "/books/OL31236710M",
+            "number_of_pages": 1562,
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-11-14T16:49:04.516753"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-04-25T04:03:48.652339"
+            }
+        },
+        "/books/OL31483458M": {
+            "publishers": [
+                "GALLIMARD",
+                "Gallimard Education"
+            ],
+            "physical_format": "misc. supplies",
+            "source_records": [
+                "amazon:2070439860"
+            ],
+            "title": "Anna Karenine Etui",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Anna Karenine Etui (Folio Luxe) (French Edition)"
+            },
+            "number_of_pages": 928,
+            "covers": [
+                10523811
+            ],
+            "isbn_13": [
+                "9782070439867"
+            ],
+            "isbn_10": [
+                "2070439860"
+            ],
+            "publish_date": "Oct 01, 2010",
+            "key": "/books/OL31483458M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-12-02T16:28:08.767718"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-07-14T15:04:54.119879"
+            }
+        },
+        "/books/OL28247288M": {
+            "publishers": [
+                "Penguin Group(CA)"
+            ],
+            "source_records": [
+                "amazon:014062449X",
+                "bwb:9780140624496"
+            ],
+            "title": "Anna Karenin",
+            "number_of_pages": 864,
+            "isbn_13": [
+                "9780140624496"
+            ],
+            "covers": [
+                10177683
+            ],
+            "physical_format": "paperback",
+            "full_title": "Anna Karenin",
+            "isbn_10": [
+                "014062449X"
+            ],
+            "publish_date": "Feb 01, 2009",
+            "key": "/books/OL28247288M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                },
+                {
+                    "key": "/authors/OL7976282A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "lc_classifications": [
+                "PG3365"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-06-13T05:13:52.693972"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-11-18T03:51:00.394824"
+            }
+        },
+        "/books/OL27144011M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Translation of: Anna Karenina.\n\nXiao shuo.\n\nIncludes bibliographical references."
+            },
+            "title": "Anna Kalienina",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "publish_date": "2003",
+            "publishers": [
+                "Mu ma wen hua"
+            ],
+            "series": [
+                "Tuo'ersitai xiao shuo quan ji -- 2-3"
+            ],
+            "local_id": [
+                "urn:sfpl:31223106292098",
+                "urn:sfpl:31223106292148",
+                "urn:sfpl:31223106292049",
+                "urn:sfpl:31223106292155",
+                "urn:sfpl:31223106292072",
+                "urn:sfpl:31223106292122"
+            ],
+            "subject_times": [
+                "1533-1917"
+            ],
+            "full_title": "Anna Kalienina",
+            "publish_places": [
+                "Taibei Xian Xindian Shi"
+            ],
+            "contributions": [
+                "Cao, Ying"
+            ],
+            "subjects": [
+                "Social life and customs",
+                "Adultery",
+                "Fiction"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/chi"
+                }
+            ],
+            "pagination": "2 v.(1029 p.)",
+            "source_records": [
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run04.mrc:319604618:3345"
+            ],
+            "work_titles": [
+                "Anna Karenina"
+            ],
+            "isbn_13": [
+                "9789861200569",
+                "9789861200576"
+            ],
+            "edition_name": "Chu ban",
+            "subject_places": [
+                "Russia"
+            ],
+            "isbn_10": [
+                "9861200568",
+                "9861200576"
+            ],
+            "publish_country": "ch",
+            "by_statement": "Liefu Tuo'ersitai zhu ; Cao Ying yi",
+            "oclc_numbers": [
+                "852900749"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "key": "/books/OL27144011M",
+            "number_of_pages": 1029,
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-07-18T01:12:45.967819"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-05-05T11:21:35.564192"
+            }
+        },
+        "/books/OL19984765M": {
+            "publishers": [
+                "Xingzhou shi jie shu ju you xing gong si"
+            ],
+            "key": "/books/OL19984765M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "publish_places": [
+                "Xingzhou"
+            ],
+            "pagination": "2, 2, 151 p.",
+            "source_records": [
+                "marc:marc_university_of_toronto/uoft.marc:4117353261:967"
+            ],
+            "title": "Anna Kalienina",
+            "work_titles": [
+                "Ann Karenina."
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Translation of: Anna Karenina."
+            },
+            "number_of_pages": 151,
+            "languages": [
+                {
+                    "key": "/languages/chi"
+                }
+            ],
+            "publish_date": "1973",
+            "publish_country": "si ",
+            "by_statement": "L. Tuo'ersitai yuan zhu ; Huai Bing gai xie.",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-25T03:35:06.995077"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-07-14T15:04:54.119879"
+            }
+        },
+        "/books/OL23070190M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Translation of: Anna Karenina."
+            },
+            "title": "Anna Kalieningna",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "publish_date": "1989",
+            "series": [
+                "Wai guo gu dian chang pian xiao shuo xuan cui"
+            ],
+            "contributions": [
+                "Zhou, Yang, 1908-"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/chi"
+                }
+            ],
+            "work_titles": [
+                "Anna Karenina."
+            ],
+            "edition_name": "Di 3 ban",
+            "publish_country": "cc ",
+            "by_statement": "Liefu Tuo'ersitai zhu ; Zhou Yang, Xie Sutai yi.",
+            "type": {
+                "key": "/type/edition"
+            },
+            "publishers": [
+                "Ren min wen xue chu ban she",
+                "Xin hua shu dian Beijing fa xing suo fa xing"
+            ],
+            "publish_places": [
+                "Beijing"
+            ],
+            "pagination": "2 v. ;",
+            "isbn_10": [
+                "7020001084"
+            ],
+            "source_records": [
+                "marc:SanFranPL10/SanFranPL10.out:79917361:1957"
+            ],
+            "key": "/books/OL23070190M",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-02-18T09:37:11.539029"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-13T14:44:09.306841"
+            }
+        },
+        "/books/OL32238381M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Anna Karenina",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "publish_date": "Feb 28, 2010",
+            "source_records": [
+                "amazon:386647475X"
+            ],
+            "publishers": [
+                "Anaconda Verlag"
+            ],
+            "isbn_10": [
+                "386647475X"
+            ],
+            "isbn_13": [
+                "9783866474758"
+            ],
+            "physical_format": "hardcover",
+            "full_title": "Anna Karenina Roman",
+            "subtitle": "Roman",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Anna Karenina: Roman"
+            },
+            "covers": [
+                10871759
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL32238381M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-04-25T11:27:37.642597"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-07-14T15:19:28.306843"
+            }
+        },
+        "/books/OL27274853M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Translation of: Anna Karenina."
+            },
+            "title": "Anna Kalienina",
+            "subtitle": "Anna Karenina",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "publish_date": "2005",
+            "series": [
+                "Shi jie wen xue wen ku = -- Library of world literature",
+                "Shi jie wen xue wen ku"
+            ],
+            "covers": [
+                8758750
+            ],
+            "full_title": "Anna Kalienina = Anna Karenina",
+            "lc_classifications": [
+                "PG3367.C6 A6 2005"
+            ],
+            "ocaid": "annakalieninaann0002tols",
+            "contributions": [
+                "Yang, Nan, translator"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/chi"
+                }
+            ],
+            "pagination": "580 pages",
+            "source_records": [
+                "ia:annakalieninaann0002tols"
+            ],
+            "work_titles": [
+                "Anna Karenina"
+            ],
+            "isbn_13": [
+                "9787540206604"
+            ],
+            "edition_name": "Di 1 ban",
+            "isbn_10": [
+                "7540206608"
+            ],
+            "publish_country": "cc",
+            "by_statement": "Liefu Tuo'ersitai zhu ; Yang Nan yi",
+            "oclc_numbers": [
+                "888212221"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "key": "/books/OL27274853M",
+            "number_of_pages": 580,
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-08-21T21:53:02.127596"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-04-19T05:45:09.780773"
+            }
+        },
+        "/books/OL27868320M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Fiction.\n\nYing Han tui chao."
+            },
+            "title": "Anna Kalienina",
+            "subtitle": "Anna Karenina",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "publish_date": "1988",
+            "publishers": [
+                "Shanghai yi wen chu ban she"
+            ],
+            "series": [
+                "Shi jie wen xue cong shu"
+            ],
+            "covers": [
+                9245164
+            ],
+            "full_title": "Anna Kalienina = Anna Karenina",
+            "ocaid": "annakalieninaann0000tols_g2t5",
+            "publish_places": [
+                "Shanghai"
+            ],
+            "contributions": [
+                "Johnston, Frances",
+                "West, Michael",
+                "Shi, Yanshan"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/chi"
+                }
+            ],
+            "pagination": "281 pages",
+            "source_records": [
+                "ia:annakalieninaann0000tols_g2t5"
+            ],
+            "work_titles": [
+                "Anna Karenina"
+            ],
+            "isbn_13": [
+                "9787532701032"
+            ],
+            "edition_name": "Di 1 ban",
+            "isbn_10": [
+                "7532701034"
+            ],
+            "publish_country": "cc",
+            "by_statement": "Liefu Tuo'ersitai ; Frances Johnston, Michael West kai hsieh ; Shi Yanshan yi",
+            "oclc_numbers": [
+                "38403929"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "key": "/books/OL27868320M",
+            "number_of_pages": 281,
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-01-01T08:32:42.363947"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-04-21T04:56:00.220777"
+            }
+        },
+        "/books/OL22148916M": {
+            "title": "Anna Karénine",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "publishers": [
+                "Nelson"
+            ],
+            "pagination": "2 v.",
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "location": [
+                "BIN"
+            ],
+            "by_statement": "par Léon Tolstoi. Introduction par Émile Faguet de l'Académie française.",
+            "publish_places": [
+                "Paris"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_country": "fr ",
+            "source_records": [
+                "marc:marc_binghamton_univ/bgm_openlib_final_0-5.mrc:381488901:581"
+            ],
+            "key": "/books/OL22148916M",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-07T13:32:45.105800"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-02-22T20:26:29.147994"
+            }
+        },
+        "/books/OL13993210M": {
+            "publishers": [
+                "Nelson"
+            ],
+            "subtitle": "Introd. par Émile Faguet.",
+            "source_records": [
+                "ia:annakarnineint01tolsuoft",
+                "ia:annakarnineint02tolsuoft"
+            ],
+            "title": "Anna Karénine.",
+            "covers": [
+                5947677
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "lc_classifications": [
+                "PG3367 F5 A6 1910"
+            ],
+            "publish_date": "1910",
+            "key": "/books/OL13993210M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "ocaid": "annakarnineint01tolsuoft",
+            "publish_places": [
+                "Paris"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-02T18:02:35.931494"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-07-14T15:00:21.405792"
+            }
+        },
+        "/books/OL19974346M": {
+            "publishers": [
+                "Gallimard"
+            ],
+            "series": [
+                "Livre de poche classique -- 636-637, 638-639"
+            ],
+            "lc_classifications": [
+                "PG'3367'F5'A6'1966"
+            ],
+            "key": "/books/OL19974346M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "publish_places": [
+                "Paris"
+            ],
+            "pagination": "2v.",
+            "source_records": [
+                "marc:marc_laurentian/openlibrary.mrc:75100210:961"
+            ],
+            "title": "Anna Karénine",
+            "notes": {
+                "type": "/type/text",
+                "value": "1"
+            },
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "publish_date": "1966",
+            "publish_country": "fr ",
+            "by_statement": "Léon Tolstoï ; traduction et notes de Henri Mongault ; préface de Françoise Mallet-Joris",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-25T02:52:18.569922"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-07-14T15:00:21.405792"
+            }
+        },
+        "/books/OL7225066M": {
+            "publishers": [
+                "World Pub. Co."
+            ],
+            "source_records": [
+                "ia:annakarenine00tolsuoft"
+            ],
+            "title": "Anna Karenine",
+            "covers": [
+                5923377
+            ],
+            "lc_classifications": [
+                "PG3366A6 T6 1900"
+            ],
+            "publish_date": "1900",
+            "publish_country": "ohu",
+            "key": "/books/OL7225066M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "ocaid": "annakarenine00tolsuoft",
+            "publish_places": [
+                "Cleveland"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "by_statement": "by Leo Tolstoi ; translated by A.C. Townsend ; illus. by A. Zaidenberg.",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                },
+                {
+                    "key": "/languages/rus"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-04-24T23:20:28.014338"
+            }
+        },
+        "/books/OL24197483M": {
+            "publishers": [
+                "Scott"
+            ],
+            "ia_box_id": [
+                "IA115208"
+            ],
+            "covers": [
+                6377251
+            ],
+            "key": "/books/OL24197483M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "ocaid": "annakarnina00tols",
+            "publish_places": [
+                "London"
+            ],
+            "contributions": [
+                "Dole, Nathan Haskell, 1852-1935.",
+                "Frénzeny, Paul."
+            ],
+            "pagination": "769p :",
+            "source_records": [
+                "ia:annakarnina00tols"
+            ],
+            "title": "Anna Karénina",
+            "number_of_pages": 769,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1900",
+            "publish_country": "enk",
+            "by_statement": "by Count Lyof N. Tolstoy ; translated by Nathan Haskell Dole.",
+            "oclc_numbers": [
+                "230240315"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-04-29T17:07:10.423027"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-07-14T14:59:16.648185"
+            }
+        },
+        "/books/OL29225501M": {
+            "publishers": [
+                "Alma Classics"
+            ],
+            "source_records": [
+                "bwb:9781847493682"
+            ],
+            "title": "Anna Karenina",
+            "number_of_pages": 912,
+            "isbn_13": [
+                "9781847493682"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Anna Karenina",
+            "lc_classifications": [
+                "PG3366.A6 2014"
+            ],
+            "publish_date": "2014",
+            "key": "/books/OL29225501M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                },
+                {
+                    "key": "/authors/OL5772473A"
+                },
+                {
+                    "key": "/authors/OL3087281A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Continental european fiction (fictional works by one author)",
+                "Married people, fiction"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-23T14:34:02.768508"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-07-14T14:59:13.816265"
+            }
+        },
+        "/books/OL29274295M": {
+            "publishers": [
+                "Yale University Press"
+            ],
+            "source_records": [
+                "bwb:9780300216820"
+            ],
+            "title": "Anna Karenina",
+            "number_of_pages": 792,
+            "isbn_13": [
+                "9780300216820"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Anna Karenina",
+            "lc_classifications": [
+                "PG3366.A6 2015"
+            ],
+            "publish_date": "2015",
+            "key": "/books/OL29274295M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                },
+                {
+                    "key": "/authors/OL1657412A"
+                },
+                {
+                    "key": "/authors/OL6532345A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Slavic philology"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-24T03:03:42.500557"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-07-14T14:59:13.816265"
+            }
+        },
+        "/books/OL29316612M": {
+            "publishers": [
+                "Real Reads Ltd."
+            ],
+            "source_records": [
+                "bwb:9781911091042"
+            ],
+            "title": "Anna Karenina",
+            "number_of_pages": 64,
+            "isbn_13": [
+                "9781911091042"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Anna Karenina",
+            "lc_classifications": [
+                "PZ7.1.E932Ann 2016"
+            ],
+            "publish_date": "2016",
+            "key": "/books/OL29316612M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                },
+                {
+                    "key": "/authors/OL6864110A"
+                },
+                {
+                    "key": "/authors/OL8258798A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Children's fiction"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-24T13:56:09.280778"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-07-14T14:59:13.816265"
+            }
+        },
+        "/books/OL32160407M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Anna Karenina - Classic Illustrated Edition",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                },
+                {
+                    "key": "/authors/OL5787979A"
+                },
+                {
+                    "key": "/authors/OL2913279A"
+                }
+            ],
+            "publish_date": "Aug 17, 2019",
+            "source_records": [
+                "amazon:168694991X"
+            ],
+            "number_of_pages": 283,
+            "publishers": [
+                "Independently published"
+            ],
+            "isbn_10": [
+                "168694991X"
+            ],
+            "isbn_13": [
+                "9781686949913"
+            ],
+            "physical_format": "paperback",
+            "covers": [
+                10827898
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL32160407M",
+            "contributors": [
+                {
+                    "role": "Translator",
+                    "name": "Constance Black Garnett"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-03-29T20:55:07.943550"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-02-28T20:12:22.045330"
+            }
+        },
+        "/books/OL32077398M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "2012",
+            "publish_country": "enk",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "oclc_numbers": [
+                "776772456"
+            ],
+            "dewey_decimal_class": [
+                "891.733"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Film tie-in.\n\nThis translation originally published: London: Allen Lane, 2000.\n\nIncludes bibliographical references.\n\nTranslated from the Russian."
+            },
+            "contributions": [
+                "Pevear, Richard, 1943-",
+                "Volokhonsky, Larissa"
+            ],
+            "subjects": [
+                "Anna Karenina (Fictitious character)",
+                "Fiction",
+                "Social conditions"
+            ],
+            "subject_places": [
+                "Russia"
+            ],
+            "title": "Anna Karenina",
+            "by_statement": "Leo Tolstoy ; translated by Richard Pevear and Larissa Volokhonsky",
+            "publishers": [
+                "Penguin"
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "isbn_13": [
+                "9780141391892"
+            ],
+            "isbn_10": [
+                "0141391898"
+            ],
+            "pagination": "1 volume",
+            "ocaid": "annakarenina0000tols_j1f6",
+            "source_records": [
+                "ia:annakarenina0000tols_j1f6",
+                "bwb:9780141391892",
+                "promise:bwb_daily_pallets_2020-06-24"
+            ],
+            "full_title": "Anna Karenina",
+            "covers": [
+                10729772
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL32077398M",
+            "lc_classifications": [
+                "PG3366.A6 2012"
+            ],
+            "local_id": [
+                "urn:bwbsku:KN-931-859"
+            ],
+            "identifiers": {
+                "amazon": [
+                    ""
+                ]
+            },
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-03-26T05:28:16.965254"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-10T06:40:27.834790"
+            }
+        }
+    }
+}

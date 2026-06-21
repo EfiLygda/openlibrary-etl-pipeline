@@ -1,0 +1,5910 @@
+{
+    "status": "ok",
+    "result": {
+        "/books/OL14908235M": {
+            "publishers": [
+                "Arrow Books"
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2011-04-26T15:18:19.895076"
+            },
+            "latest_revision": 7,
+            "key": "/books/OL14908235M",
+            "authors": [
+                {
+                    "key": "/authors/OL23108A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:422484976:429"
+            ],
+            "title": "A pirate's love",
+            "notes": {
+                "type": "/type/text",
+                "value": "First published 1979."
+            },
+            "identifiers": {
+                "goodreads": [
+                    "1363472"
+                ],
+                "librarything": [
+                    "77505"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T12:36:31.273138"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0099501309"
+            ],
+            "publish_date": "1987",
+            "publish_country": "xxk",
+            "by_statement": "Johanna Lindsey.",
+            "oclc_numbers": [
+                "655795647"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL15685W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 7
+        },
+        "/books/OL975749M": {
+            "publishers": [
+                "Thorndike Press"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "3962836"
+                ]
+            },
+            "ia_box_id": [
+                "IA176801"
+            ],
+            "subject_place": [
+                "Caribbean Area"
+            ],
+            "pagination": "482 p. (large print) ;",
+            "covers": [
+                1469593
+            ],
+            "local_id": [
+                "urn:sfpl:31223043571877"
+            ],
+            "ia_loaded_id": [
+                "pirateslove00lind_0"
+            ],
+            "lc_classifications": [
+                "PS3562.I5123 P57 1996",
+                "PS3562.I5123P57 1996"
+            ],
+            "key": "/books/OL975749M",
+            "authors": [
+                {
+                    "key": "/authors/OL23108A"
+                }
+            ],
+            "ocaid": "pirateslove00lind_0",
+            "publish_places": [
+                "Thorndike, Me"
+            ],
+            "subjects": [
+                "Large type books",
+                "Caribbean Area -- History -- Fiction"
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "source_records": [
+                "marc:marc_records_scriblio_net/part25.dat:175952125:780",
+                "ia:pirateslove00lind_0",
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run02.mrc:142303100:1524",
+                "marc:marc_loc_2016/BooksAll.2016.part25.utf8:81902383:780",
+                "bwb:9780786207244"
+            ],
+            "title": "A pirate's love",
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "number_of_pages": 482,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lccn": [
+                "96012830"
+            ],
+            "isbn_10": [
+                "0786207248"
+            ],
+            "publish_date": "1996",
+            "publish_country": "meu",
+            "series": [
+                "Thorndike large print Americana series"
+            ],
+            "by_statement": "Johanna Lindsey.",
+            "works": [
+                {
+                    "key": "/works/OL15685W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T14:28:04.810523"
+            }
+        },
+        "/books/OL24948511M": {
+            "publishers": [
+                "Avon"
+            ],
+            "description": "Sailing westward toward the Caribbean sun, young Bettina Verlaine is obediently setting out to fulfill a promise made by her father - a prearranged marriage. But it is a wedding not to be... Abducted by the bold and handsome pirate, the notorious Captain Tristan, the pale-haired beauty finds herself helpless in his arms. Detesting her virile captor for enslaving her, yet held by the passionate spell he casts over her, she surrenders her innocence in the warm caress of the tropical winds, finding love's fulfillment in the magic of a pirate's powerful embrace.",
+            "covers": [
+                6943266
+            ],
+            "ia_loaded_id": [
+                "pirateslove00lind"
+            ],
+            "key": "/books/OL24948511M",
+            "authors": [
+                {
+                    "key": "/authors/OL23108A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "ia_box_id": [
+                "IA118412"
+            ],
+            "pagination": "373 p. ;",
+            "source_records": [
+                "ia:pirateslove00lind",
+                "bwb:9780380400485",
+                "promise:bwb_daily_pallets_2022-11-10"
+            ],
+            "title": "A Pirate's Love",
+            "number_of_pages": 373,
+            "full_title": "A pirate's love",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Pirates",
+                "Fiction"
+            ],
+            "publish_date": "1978",
+            "publish_country": "nyu",
+            "by_statement": "Johanna Lindsey",
+            "works": [
+                {
+                    "key": "/works/OL15685W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "classifications": {},
+            "ocaid": "pirateslove00lind",
+            "isbn_10": [
+                "0380400480"
+            ],
+            "isbn_13": [
+                "9780380400485"
+            ],
+            "lccn": [
+                "78060757"
+            ],
+            "oclc_numbers": [
+                "4410806"
+            ],
+            "dewey_decimal_class": [
+                "fic"
+            ],
+            "lc_classifications": [
+                "PS3562.I5123 P57 1978"
+            ],
+            "local_id": [
+                "urn:bwbsku:839-BAC-687"
+            ],
+            "latest_revision": 14,
+            "revision": 14,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2011-08-11T00:40:45.602286"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-04T06:50:20.179796"
+            }
+        },
+        "/books/OL7645381M": {
+            "publishers": [
+                "Audioworks"
+            ],
+            "weight": "5.6 ounces",
+            "physical_format": "Audio cassette",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2012-09-15T07:23:37.563825"
+            },
+            "latest_revision": 6,
+            "key": "/books/OL7645381M",
+            "contributions": [
+                "Harriet Walter (Narrator)"
+            ],
+            "subjects": [
+                "Romance - General",
+                "Audio Adult: Books On Tape",
+                "Fiction",
+                "Abridged Audio - Fiction/Romance",
+                "Audio - Romance",
+                "Romance - Historical",
+                "Fiction / General",
+                "Audiobooks"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "amazon:0671044265:ce:2580569949:230264"
+            ],
+            "title": "Prince Charming",
+            "identifiers": {
+                "goodreads": [
+                    "2992153"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "isbn_13": [
+                "9780671044268"
+            ],
+            "isbn_10": [
+                "0671044265"
+            ],
+            "publish_date": "January 1, 2001",
+            "works": [
+                {
+                    "key": "/works/OL26954W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "7.2 x 4.5 x 0.8 inches",
+            "revision": 6
+        },
+        "/books/OL1094654M": {
+            "publishers": [
+                "Wheeler Pub."
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "2543409"
+                ]
+            },
+            "subject_place": [
+                "Montana"
+            ],
+            "key": "/books/OL1094654M",
+            "authors": [
+                {
+                    "key": "/authors/OL26230A"
+                }
+            ],
+            "publish_places": [
+                "[Accord, MA]"
+            ],
+            "pagination": "587 p. (large print) ;",
+            "source_records": [
+                "marc:marc_records_scriblio_net/part24.dat:55591712:722",
+                "marc:marc_loc_2016/BooksAll.2016.part23.utf8:130085114:722"
+            ],
+            "title": "Prince Charming",
+            "number_of_pages": 587,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Large type books",
+                "Montana -- Fiction"
+            ],
+            "publish_date": "1994",
+            "publish_country": "mau",
+            "series": [
+                "Wheeler large print book series"
+            ],
+            "by_statement": "Julie Garwood.",
+            "works": [
+                {
+                    "key": "/works/OL26954W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_10": [
+                "1568951094"
+            ],
+            "lccn": [
+                "94019122"
+            ],
+            "oclc_numbers": [
+                "30474275"
+            ],
+            "classifications": {},
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "lc_classifications": [
+                "PS3557.A8427 P68 1994"
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-02T11:49:34.981979"
+            }
+        },
+        "/books/OL9741990M": {
+            "notes": "Harlequin Romance",
+            "identifiers": {
+                "goodreads": [
+                    "2583616"
+                ],
+                "librarything": [
+                    "4960860"
+                ]
+            },
+            "title": "The Silver Veil",
+            "authors": [
+                {
+                    "key": "/authors/OL1175057A"
+                }
+            ],
+            "publish_date": "March 1, 1983",
+            "publishers": [
+                "Harlequin"
+            ],
+            "ia_box_id": [
+                "IA117506"
+            ],
+            "covers": [
+                6690057
+            ],
+            "physical_format": "Paperback",
+            "subjects": [
+                "Non-Classifiable",
+                "Nonfiction - General"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-03-17:P7-DZA-327",
+                "bwb:9780373025398",
+                "promise:bwb_daily_pallets_2021-06-28:W6-AVY-288",
+                "promise:bwb_daily_pallets_2024-01-catchup:W8-BFT-336"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:P7-DZA-327",
+                "urn:bwbsku:W6-AVY-288",
+                "urn:bwbsku:W8-BFT-336"
+            ],
+            "key": "/books/OL9741990M",
+            "number_of_pages": 189,
+            "works": [
+                {
+                    "key": "/works/OL5236238W"
+                }
+            ],
+            "ocaid": "silverveil00waym",
+            "isbn_10": [
+                "0373025394"
+            ],
+            "isbn_13": [
+                "9780373025398"
+            ],
+            "oclc_numbers": [
+                "9247902"
+            ],
+            "classifications": {},
+            "latest_revision": 19,
+            "revision": 19,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-27T00:48:12.572072"
+            }
+        },
+        "/books/OL38275983M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "isbn_13": [
+                "9781299308121"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2013",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781299308121"
+            ],
+            "title": "Lady Arabella's Scandalous Marriage",
+            "full_title": "Lady Arabella's Scandalous Marriage",
+            "works": [
+                {
+                    "key": "/works/OL17400582W"
+                }
+            ],
+            "key": "/books/OL38275983M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-17T12:51:20.678852"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-28T19:19:42.727637"
+            }
+        },
+        "/books/OL29108863M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781408923108"
+            ],
+            "title": "Lady Arabella's Scandalous Marriage",
+            "number_of_pages": 304,
+            "isbn_13": [
+                "9781408923108"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Lady Arabella's Scandalous Marriage",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2011",
+            "key": "/books/OL29108863M",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL17400582W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-22T04:33:49.580935"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-29T02:27:52.672249"
+            }
+        },
+        "/books/OL28272090M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "What is Lady Arabella letting herself in for? Sinister whispers surround the death of Darius's first wife--could Arabella be in jeopardy? Or will the infamous duke prove all of society wrong?One thing's for sure--after the compromising situation that led to this marriage, Arabella will soon discover the exquisite pleasures of the marriage bed ..."
+            },
+            "isbn_10": [
+                "0263218600"
+            ],
+            "covers": [
+                10199518
+            ],
+            "full_title": "Lady Arabella's scandalous marriage",
+            "lc_classifications": [
+                "PR6063.O814 L33 2011"
+            ],
+            "key": "/books/OL28272090M",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "ocaid": "ladyarabellassca0000mort",
+            "publish_places": [
+                "Richmond, Surrey [UK]"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "382 pages (large print)",
+            "source_records": [
+                "ia:ladyarabellassca0000mort",
+                "bwb:9780263218602",
+                "promise:bwb_daily_pallets_2021-05-07"
+            ],
+            "title": "Lady Arabella's scandalous marriage",
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "number_of_pages": 382,
+            "isbn_13": [
+                "9780263218602"
+            ],
+            "edition_name": "Large print ed.",
+            "subjects": [
+                "Large type books",
+                "Large print books"
+            ],
+            "publish_date": "2011",
+            "publish_country": "enk",
+            "by_statement": "Carole Mortimer",
+            "oclc_numbers": [
+                "704379954"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL17400582W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:KO-788-864"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-06-19T04:56:49.030562"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-08T13:12:48.822873"
+            }
+        },
+        "/books/OL25981542M": {
+            "title": "Lady Arabella's Scandalous Marriage",
+            "publish_date": "2010",
+            "publishers": [
+                "Harlequin"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-06-01:T2-CNI-650",
+                "ia:isbn_9780373295876",
+                "bwb:9780373295876",
+                "marc:marc_loc_2016/BooksAll.2016.part38.utf8:133199336:1178",
+                "amazon:0373295871",
+                "promise:bwb_daily_pallets_2022-03-17:P7-CAG-825"
+            ],
+            "covers": [
+                7504005
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "series": [
+                "The Notorious St. Claire's Book 4"
+            ],
+            "local_id": [
+                "urn:bwbsku:T2-CNI-650",
+                "urn:bwbsku:P7-CAG-825"
+            ],
+            "key": "/books/OL25981542M",
+            "works": [
+                {
+                    "key": "/works/OL17400582W"
+                }
+            ],
+            "identifiers": {},
+            "ocaid": "isbn_9780373295876",
+            "isbn_13": [
+                "9780373295876"
+            ],
+            "lccn": [
+                "2010668299"
+            ],
+            "classifications": {},
+            "lc_classifications": [
+                "CPB Box no. 3106 vol. 16"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "latest_revision": 21,
+            "revision": 21,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2016-10-14T03:49:21.702335"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-22T13:11:45.088879"
+            }
+        },
+        "/books/OL16566024M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "1901150"
+                ]
+            },
+            "key": "/books/OL16566024M",
+            "authors": [
+                {
+                    "key": "/authors/OL579518A"
+                }
+            ],
+            "pagination": "187p.",
+            "source_records": [
+                "bwb:9780263763393",
+                "promise:bwb_daily_pallets_2020-11-19"
+            ],
+            "title": "A matter of will.",
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "number_of_pages": 187,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263763390"
+            ],
+            "publish_date": "1989",
+            "publish_country": "xxk",
+            "oclc_numbers": [
+                "20167966"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3476056W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:KO-477-835"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-24T19:35:52.456461"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-09T15:36:16.470526"
+            }
+        },
+        "/books/OL38368070M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "isbn_13": [
+                "9781460348123"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2014",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781460348123"
+            ],
+            "subjects": [
+                "Fiction, general"
+            ],
+            "title": "Relative Sins",
+            "full_title": "Relative Sins",
+            "works": [
+                {
+                    "key": "/works/OL3771237W"
+                }
+            ],
+            "key": "/books/OL38368070M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-18T14:03:33.694982"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL10240516M": {
+            "publishers": [
+                "Thorndike Pr"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "1739489"
+                ],
+                "librarything": [
+                    "2088305"
+                ]
+            },
+            "weight": "1 pounds",
+            "physical_format": "Hardcover",
+            "key": "/books/OL10240516M",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "subjects": [
+                "Romance",
+                "Large type books",
+                "Large Print"
+            ],
+            "edition_name": "Largeprint edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "title": "Relative Sins",
+            "number_of_pages": 288,
+            "isbn_13": [
+                "9780263147179"
+            ],
+            "isbn_10": [
+                "0263147177"
+            ],
+            "publish_date": "November 1996",
+            "oclc_numbers": [
+                "35833471"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3771237W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.4 x 5.6 x 1.1 inches",
+            "local_id": [
+                "urn:bwbsku:T2-EFK-014"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-10-26"
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL10739151M": {
+            "identifiers": {
+                "goodreads": [
+                    "617423"
+                ],
+                "librarything": [
+                    "2088305"
+                ]
+            },
+            "title": "Relative Sins",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "publish_date": "October 1, 1996",
+            "publishers": [
+                "Harlequin"
+            ],
+            "ia_box_id": [
+                "IA123520"
+            ],
+            "weight": "3.2 ounces",
+            "series": [
+                "Harlequin Presents, No 1845"
+            ],
+            "covers": [
+                6603463,
+                5074078
+            ],
+            "physical_format": "Paperback",
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-06-01:T2-BPE-716",
+                "bwb:9780373118458",
+                "promise:bwb_daily_pallets_2021-03-29:W6-CPB-729",
+                "promise:bwb_daily_pallets_2021-03-08:O7-AFL-259",
+                "promise:bwb_daily_pallets_2020-06-04:951-BAA-846"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Romance - Contemporary",
+                "Non-Classifiable",
+                "Romance - General",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Regency"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.5 x 4 x 0.5 inches",
+            "local_id": [
+                "urn:bwbsku:T2-BPE-716",
+                "urn:bwbsku:W6-CPB-729",
+                "urn:bwbsku:O7-AFL-259",
+                "urn:bwbsku:951-BAA-846"
+            ],
+            "key": "/books/OL10739151M",
+            "number_of_pages": 186,
+            "works": [
+                {
+                    "key": "/works/OL3771237W"
+                }
+            ],
+            "ocaid": "relativesins00math",
+            "isbn_10": [
+                "0373118457"
+            ],
+            "isbn_13": [
+                "9780373118458"
+            ],
+            "oclc_numbers": [
+                "35315836"
+            ],
+            "classifications": {},
+            "latest_revision": 27,
+            "revision": 27,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL29590137M": {
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "source_records": [
+                "bwb:9781426864339"
+            ],
+            "title": "Italian Duke's Virgin Mistress",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781426864339"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Italian Duke's Virgin Mistress",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2010",
+            "key": "/books/OL29590137M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL17388216W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, erotica",
+                "Italy, fiction"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-28T17:02:07.576189"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-02-11T09:34:02.544445"
+            }
+        },
+        "/books/OL26008588M": {
+            "publishers": [
+                "M&b",
+                "Publishing"
+            ],
+            "source_records": [
+                "bwb:9780263213171",
+                "promise:bwb_daily_pallets_2020-11-19"
+            ],
+            "title": "The Italian Duke's Virgin Mistress",
+            "identifiers": {},
+            "covers": [
+                7553841
+            ],
+            "publish_date": "2010",
+            "key": "/books/OL26008588M",
+            "works": [
+                {
+                    "key": "/works/OL17388216W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9780263213171"
+            ],
+            "classifications": {},
+            "lc_classifications": [
+                "PR6060.O6257"
+            ],
+            "local_id": [
+                "urn:bwbsku:KO-476-605"
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2016-10-14T06:26:51.154911"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-09T14:45:25.735224"
+            }
+        },
+        "/books/OL25986256M": {
+            "title": "The Italian Duke's Virgin Mistress",
+            "subtitle": "Needed: Eligible Billionaires, Book Two",
+            "publishers": [
+                "Harlequin"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-10-04:P7-DRI-904",
+                "ia:isbn_9780373129331",
+                "bwb:9780373129331",
+                "marc:marc_loc_2016/BooksAll.2016.part38.utf8:141115552:1711",
+                "promise:bwb_daily_pallets_2021-03-22:O7-CZC-897"
+            ],
+            "covers": [
+                7512802
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:P7-DRI-904",
+                "urn:bwbsku:O7-CZC-897"
+            ],
+            "key": "/books/OL25986256M",
+            "works": [
+                {
+                    "key": "/works/OL17388216W"
+                }
+            ],
+            "publish_date": "2010-08-01",
+            "identifiers": {},
+            "ocaid": "isbn_9780373129331",
+            "isbn_13": [
+                "9780373129331"
+            ],
+            "lccn": [
+                "2010713896"
+            ],
+            "classifications": {},
+            "lc_classifications": [
+                "CPB Box no. 3174 vol. 5"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "latest_revision": 16,
+            "revision": 16,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2016-10-14T04:16:32.988733"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-22T12:42:32.558582"
+            }
+        },
+        "/books/OL9791375M": {
+            "publishers": [
+                "Harlequin Mills & Boon"
+            ],
+            "number_of_pages": 187,
+            "covers": [
+                1155164
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL9791375M",
+            "authors": [
+                {
+                    "key": "/authors/OL584493A"
+                }
+            ],
+            "subjects": [
+                "Romance",
+                "Genre Fiction"
+            ],
+            "edition_name": "New Ed edition",
+            "classifications": {},
+            "title": "The Hired Fiancee",
+            "notes": {
+                "type": "/type/text",
+                "value": "Modern Romance"
+            },
+            "identifiers": {
+                "goodreads": [
+                    "3652681"
+                ],
+                "librarything": [
+                    "1980135"
+                ]
+            },
+            "isbn_13": [
+                "9780263820294"
+            ],
+            "isbn_10": [
+                "0263820297"
+            ],
+            "publish_date": "November 3, 2000",
+            "oclc_numbers": [
+                "59578269"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3498760W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "bwb:9780263820294"
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-16T11:25:25.135770"
+            }
+        },
+        "/books/OL26386300M": {
+            "source_records": [
+                "ia:devilsmountharle00harl"
+            ],
+            "title": "Devil's Mount",
+            "openlibrary": "/books/OL10737999M",
+            "covers": [
+                9322246,
+                8080069
+            ],
+            "key": "/books/OL26386300M",
+            "works": [
+                {
+                    "key": "/works/OL3771214W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "classifications": {},
+            "publishers": [
+                "Harlequin"
+            ],
+            "publish_date": "1977",
+            "ocaid": "devilsmountharle00harl",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2017-10-13T05:08:18.394735"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-23T13:56:21.994269"
+            }
+        },
+        "/books/OL27713031M": {
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "10379827"
+                ]
+            },
+            "covers": [
+                9145522
+            ],
+            "physical_format": "Mass Market Paperback",
+            "key": "/books/OL27713031M",
+            "publish_places": [
+                "USA"
+            ],
+            "edition_name": "Harlequin Presents #205",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "classifications": {},
+            "source_records": [
+                "bwb:9780373102051"
+            ],
+            "title": "Devil's Mount",
+            "number_of_pages": 188,
+            "publish_date": "1977",
+            "copyright_date": "1976",
+            "works": [
+                {
+                    "key": "/works/OL3771214W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9780373102051"
+            ],
+            "isbn_10": [
+                "0373102054"
+            ],
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "The Viking raised the silver goblet to his lips and drank deeply of the fiery spirit, his flashing blue eyes raking the faces around him, searching for that one face which could bring the light of proud possession to their depths."
+            },
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-11-20T07:38:41.435635"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-02-24T12:16:10.853476"
+            }
+        },
+        "/books/OL14980471M": {
+            "identifiers": {
+                "goodreads": [
+                    "24235533"
+                ]
+            },
+            "title": "Devil's Mount",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "publish_date": "1982",
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "covers": [
+                15130609,
+                9145506
+            ],
+            "physical_format": "Mass Market Paperback",
+            "publish_places": [
+                "UK"
+            ],
+            "edition_name": "Mills & Boon Bestseller #366",
+            "pagination": "sC8.192. n.e.",
+            "publish_country": "xxk",
+            "copyright_date": "1976",
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:P8-AUS-264"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-03-17:P8-AUS-264",
+                "ia:devilsmount0000anne"
+            ],
+            "key": "/books/OL14980471M",
+            "number_of_pages": 192,
+            "works": [
+                {
+                    "key": "/works/OL3771214W"
+                }
+            ],
+            "ocaid": "devilsmount0000anne",
+            "isbn_10": [
+                "0263739937"
+            ],
+            "isbn_13": [
+                "9780263739930"
+            ],
+            "classifications": {},
+            "latest_revision": 12,
+            "revision": 12,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T23:22:25.349312"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-09T14:12:51.620380"
+            }
+        },
+        "/books/OL51092759M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL11086929A"
+                }
+            ],
+            "isbn_13": [
+                "9781665955454"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "512",
+            "publish_date": "2024",
+            "publishers": [
+                "Simon & Schuster Books For Young Readers"
+            ],
+            "source_records": [
+                "bwb:9781665955454"
+            ],
+            "title": "Reckless",
+            "full_title": "Reckless",
+            "works": [
+                {
+                    "key": "/works/OL37855093W"
+                }
+            ],
+            "key": "/books/OL51092759M",
+            "latest_revision": 1,
+            "revision": 1,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-02-17T11:48:14.744253"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-02-17T11:48:14.744253"
+            }
+        },
+        "/books/OL28049722M": {
+            "publishers": [
+                "Muza"
+            ],
+            "translated_from": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "title": "Test na miłość",
+            "translation_of": "The Bride Test",
+            "number_of_pages": 446,
+            "covers": [
+                9444115,
+                9444113
+            ],
+            "languages": [
+                {
+                    "key": "/languages/pol"
+                }
+            ],
+            "publish_date": "2020",
+            "key": "/books/OL28049722M",
+            "series": [
+                "The Kiss Quotient ; 2"
+            ],
+            "publish_places": [
+                "Warszawa, Polska"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL19800269W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "20 x  x  centimeters",
+            "identifiers": {},
+            "isbn_13": [
+                "9788328713512"
+            ],
+            "classifications": {},
+            "source_records": [
+                "amazon:8328713519"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-05-15T09:41:59.429107"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-11-15T06:55:37.654736"
+            }
+        },
+        "/books/OL32561228M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "The Bride Test",
+            "authors": [
+                {
+                    "key": "/authors/OL7536754A"
+                }
+            ],
+            "source_records": [
+                "amazon:176087602X"
+            ],
+            "publishers": [
+                "Allen & Unwin"
+            ],
+            "isbn_10": [
+                "176087602X"
+            ],
+            "isbn_13": [
+                "9781760876029"
+            ],
+            "physical_format": "paperback",
+            "full_title": "The Bride Test",
+            "covers": [
+                11206178
+            ],
+            "works": [
+                {
+                    "key": "/works/OL19800269W"
+                }
+            ],
+            "key": "/books/OL32561228M",
+            "latest_revision": 1,
+            "revision": 1,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-06-02T19:24:40.472163"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-06-02T19:24:40.472163"
+            }
+        },
+        "/books/OL32561226M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "The Bride Test",
+            "authors": [
+                {
+                    "key": "/authors/OL7536754A"
+                }
+            ],
+            "publish_date": "Jun 06, 2019",
+            "source_records": [
+                "amazon:1786499630",
+                "promise:bwb_daily_pallets_2024-12-09:Y0-CAA-373"
+            ],
+            "number_of_pages": 336,
+            "publishers": [
+                "Corvus"
+            ],
+            "isbn_10": [
+                "1786499630"
+            ],
+            "isbn_13": [
+                "9781786499639"
+            ],
+            "physical_format": "paperback",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: The Bride Test (Kiss Quotient Series)"
+            },
+            "full_title": "The Bride Test",
+            "covers": [
+                11206176
+            ],
+            "works": [
+                {
+                    "key": "/works/OL19800269W"
+                }
+            ],
+            "key": "/books/OL32561226M",
+            "local_id": [
+                "urn:bwbsku:Y0-CAA-373"
+            ],
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-06-02T19:23:50.285461"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-02T02:00:58.863965"
+            }
+        },
+        "/books/OL38271588M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL811660A"
+                }
+            ],
+            "isbn_13": [
+                "9781283666886"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2013",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781283666886"
+            ],
+            "subjects": [
+                "Fiction, general"
+            ],
+            "title": "Passionate Scandal",
+            "full_title": "Passionate Scandal",
+            "works": [
+                {
+                    "key": "/works/OL4233148W"
+                }
+            ],
+            "key": "/books/OL38271588M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-17T11:51:52.485192"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-18T14:52:35.763386"
+            }
+        },
+        "/books/OL28974638M": {
+            "title": "Passionate Scandal",
+            "authors": [
+                {
+                    "key": "/authors/OL811660A"
+                }
+            ],
+            "publish_date": "1994",
+            "publishers": [
+                "Harlequin Mills & Boon, Limited",
+                "Mills & Boon"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-05-10:KP-008-549",
+                "bwb:9780263784473",
+                "promise:bwb_daily_pallets_2021-05-07:KO-664-965",
+                "promise:bwb_daily_pallets_2021-05-06:KP-466-880"
+            ],
+            "isbn_13": [
+                "9780263784473"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Passionate Scandal",
+            "lc_classifications": [
+                ""
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, general"
+            ],
+            "local_id": [
+                "urn:bwbsku:KP-008-549",
+                "urn:bwbsku:KO-664-965",
+                "urn:bwbsku:KP-466-880"
+            ],
+            "key": "/books/OL28974638M",
+            "number_of_pages": 187,
+            "works": [
+                {
+                    "key": "/works/OL4233148W"
+                }
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T23:11:50.492604"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T14:07:16.019881"
+            }
+        },
+        "/books/OL9746950M": {
+            "publishers": [
+                "MacMillan Publishing Company"
+            ],
+            "weight": "14.4 ounces",
+            "physical_format": "Hardcover",
+            "key": "/books/OL9746950M",
+            "authors": [
+                {
+                    "key": "/authors/OL811660A"
+                }
+            ],
+            "subjects": [
+                "Romance",
+                "Romance - General",
+                "Fiction - Romance",
+                "Large Print"
+            ],
+            "edition_name": "Large Prnt edition",
+            "title": "Passionate Scandal (Harlequin Romance)",
+            "number_of_pages": 288,
+            "isbn_13": [
+                "9780263138993"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263138992"
+            ],
+            "publish_date": "October 1994",
+            "works": [
+                {
+                    "key": "/works/OL4233148W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.8 x 6 x 1.2 inches",
+            "source_records": [
+                "amazon:0263138992"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-18T14:52:35.763386"
+            }
+        },
+        "/books/OL9742578M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "weight": "4 ounces",
+            "series": [
+                "Harlequin Presents Plus, No 1695"
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL9742578M",
+            "authors": [
+                {
+                    "key": "/authors/OL811660A"
+                }
+            ],
+            "subjects": [
+                "Non-Classifiable",
+                "Romance - General",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Regency"
+            ],
+            "isbn_13": [
+                "9780373116959"
+            ],
+            "classifications": {},
+            "source_records": [
+                "bwb:9780373116959"
+            ],
+            "title": "Passionate Scandal",
+            "identifiers": {
+                "goodreads": [
+                    "6308767"
+                ],
+                "librarything": [
+                    "5539150"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373116950"
+            ],
+            "publish_date": "October 1, 1994",
+            "oclc_numbers": [
+                "31315518"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4233148W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "7 x 4.2 x 0.8 inches",
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-18T14:52:35.763386"
+            }
+        },
+        "/books/OL17413527M": {
+            "publishers": [
+                "Mills & B."
+            ],
+            "covers": [
+                10199624
+            ],
+            "key": "/books/OL17413527M",
+            "authors": [
+                {
+                    "key": "/authors/OL811660A"
+                }
+            ],
+            "pagination": "(192)p. ;",
+            "source_records": [
+                "ia:passionatescanda0000reid"
+            ],
+            "title": "Passionate Scandal",
+            "number_of_pages": 192,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1994",
+            "publish_country": "enk",
+            "by_statement": "Michelle Reid.",
+            "works": [
+                {
+                    "key": "/works/OL4233148W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "ocaid": "passionatescanda0000reid",
+            "isbn_10": [
+                "0263138380"
+            ],
+            "oclc_numbers": [
+                "29917088"
+            ],
+            "dewey_decimal_class": [
+                "823.914"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-28T18:12:07.710211"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-22T09:24:40.208148"
+            }
+        },
+        "/books/OL14981685M": {
+            "identifiers": {
+                "goodreads": [
+                    "35058020"
+                ]
+            },
+            "title": "Captive Loving",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "publish_date": "1989",
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "covers": [
+                9286033
+            ],
+            "physical_format": "Paperback",
+            "publish_places": [
+                "UK"
+            ],
+            "edition_name": "Mills & Boon Best Seller Romance #627",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_13": [
+                "9780263763942"
+            ],
+            "isbn_10": [
+                "0263763943"
+            ],
+            "publish_country": "xxk",
+            "copyright_date": "1983",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:517882937:447"
+            ],
+            "key": "/books/OL14981685M",
+            "number_of_pages": 192,
+            "works": [
+                {
+                    "key": "/works/OL3775418W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T23:30:45.003386"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-11T21:25:35.126010"
+            }
+        },
+        "/books/OL28974154M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited",
+                "Mills & Boon"
+            ],
+            "source_records": [
+                "bwb:9780263776423",
+                "amazon:0263776425"
+            ],
+            "title": "Winter of Dreams",
+            "number_of_pages": 187,
+            "isbn_13": [
+                "9780263776423"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Winter of Dreams",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "1992",
+            "key": "/books/OL28974154M",
+            "authors": [
+                {
+                    "key": "/authors/OL584492A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3498694W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "covers": [
+                13344566
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T22:42:19.719680"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-27T01:58:28.966411"
+            }
+        },
+        "/books/OL9745786M": {
+            "title": "Winter of Dreams",
+            "authors": [
+                {
+                    "key": "/authors/OL584492A"
+                }
+            ],
+            "publish_date": "February 1993",
+            "publishers": [
+                "MacMillan Publishing Company"
+            ],
+            "physical_format": "Hardcover",
+            "isbn_13": [
+                "9780263131994"
+            ],
+            "edition_name": "Largeprint edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263131998"
+            ],
+            "oclc_numbers": [
+                "221539323"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Romance",
+                "General",
+                "Fiction - General",
+                "Large type books",
+                "Large Print"
+            ],
+            "source_records": [
+                "amazon:0263131998"
+            ],
+            "key": "/books/OL9745786M",
+            "number_of_pages": 288,
+            "works": [
+                {
+                    "key": "/works/OL3498694W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-27T01:58:28.966411"
+            }
+        },
+        "/books/OL23735936M": {
+            "identifiers": {
+                "amazon": [
+                    ""
+                ]
+            },
+            "title": "A pirate's love",
+            "authors": [
+                {
+                    "key": "/authors/OL23108A"
+                }
+            ],
+            "publish_date": "2010",
+            "publishers": [
+                "Thorndike Press"
+            ],
+            "isbn_10": [
+                "1410420957"
+            ],
+            "series": [
+                "Thorndike Press large print famous authors"
+            ],
+            "pagination": "p. cm.",
+            "lc_classifications": [
+                "PS3562.I5123 P57 2010"
+            ],
+            "publish_places": [
+                "Waterville, Me"
+            ],
+            "isbn_13": [
+                "9781410420954"
+            ],
+            "genres": [
+                "Fiction"
+            ],
+            "source_records": [
+                "marc:marc_loc_updates/v37.i39.records.utf8:18796687:792",
+                "marc:marc_loc_2016/BooksAll.2016.part36.utf8:141277782:949",
+                "ia:pirateslove0000lind",
+                "promise:bwb_daily_pallets_2020-06-24"
+            ],
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lccn": [
+                "2009038136"
+            ],
+            "subjects": [
+                "Large type books",
+                "Caribbean Area -- History -- Fiction"
+            ],
+            "publish_country": "meu",
+            "by_statement": "by Johanna Lindsey.",
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                11695349
+            ],
+            "ocaid": "pirateslove0000lind",
+            "local_id": [
+                "urn:bwbsku:KN-807-584"
+            ],
+            "key": "/books/OL23735936M",
+            "works": [
+                {
+                    "key": "/works/OL15685W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-10-01T01:07:59.602237"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-19T01:38:52.389234"
+            }
+        },
+        "/books/OL1013302M": {
+            "publishers": [
+                "Five Star"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "3914532"
+                ],
+                "librarything": [
+                    "77505"
+                ]
+            },
+            "isbn_10": [
+                "0786209534"
+            ],
+            "subject_place": [
+                "Caribbean Area"
+            ],
+            "lc_classifications": [
+                "PS3562.I5123 P57 1997"
+            ],
+            "key": "/books/OL1013302M",
+            "authors": [
+                {
+                    "key": "/authors/OL23108A"
+                }
+            ],
+            "publish_places": [
+                "Unity, Me"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "300 p. ;",
+            "source_records": [
+                "marc:marc_records_scriblio_net/part25.dat:209859536:798",
+                "marc:marc_loc_2016/BooksAll.2016.part25.utf8:115869862:798",
+                "ia:pirateslove0000lind_r2y9"
+            ],
+            "title": "A pirate's love",
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Originally published: New York : Avon, c1978."
+            },
+            "number_of_pages": 300,
+            "edition_name": "Standard print hardcover ed.",
+            "lccn": [
+                "96054265"
+            ],
+            "subjects": [
+                "Caribbean Area -- History -- Fiction"
+            ],
+            "publish_date": "1997",
+            "publish_country": "meu",
+            "series": [
+                "Five Star standard print romance series"
+            ],
+            "by_statement": "Johanna Lindsey.",
+            "oclc_numbers": [
+                "36225879"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL15685W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                12489229
+            ],
+            "ocaid": "pirateslove0000lind_r2y9",
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-12-24T12:39:46.610082"
+            }
+        },
+        "/books/OL15088411M": {
+            "publishers": [
+                "Hamlyn"
+            ],
+            "number_of_pages": 373,
+            "isbn_10": [
+                "0600372278"
+            ],
+            "key": "/books/OL15088411M",
+            "authors": [
+                {
+                    "key": "/authors/OL23108A"
+                }
+            ],
+            "publish_places": [
+                "Feltham"
+            ],
+            "pagination": "(5),373p. ;",
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:639878426:584",
+                "bwb:9780600372271"
+            ],
+            "title": "A pirate's love",
+            "dewey_decimal_class": [
+                "823/.9/1"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "6589358"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Fiction in English"
+            ],
+            "publish_date": "1979",
+            "publish_country": "xxk",
+            "by_statement": "Johanna Lindsey.",
+            "oclc_numbers": [
+                "59258351"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL15685W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-17T23:05:10.598046"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T04:49:59.233918"
+            }
+        },
+        "/books/OL22926514M": {
+            "publishers": [
+                "Javier Vergara"
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2011-11-22T21:24:41.222642"
+            },
+            "latest_revision": 17,
+            "key": "/books/OL22926514M",
+            "authors": [
+                {
+                    "key": "/authors/OL23108A"
+                }
+            ],
+            "publish_places": [
+                "Buenos Aires"
+            ],
+            "pagination": "366 p. ;",
+            "source_records": [
+                "marc:SanFranPL05/SanFranPL05.out:11599461:1001"
+            ],
+            "title": "El amor del pirata",
+            "work_titles": [
+                "Pirate's love."
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Translation of: A pirate's love."
+            },
+            "number_of_pages": 366,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-02-12T11:24:24.936997"
+            },
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "isbn_10": [
+                "9684970927"
+            ],
+            "publish_date": "1985",
+            "publish_country": "ag ",
+            "by_statement": "Johanna Lindsey ; [traducción, Alicia Steimberg].",
+            "oclc_numbers": [
+                "19091457"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL15685W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 17
+        },
+        "/books/OL1211953M": {
+            "identifiers": {
+                "goodreads": [
+                    "1940478"
+                ],
+                "librarything": [
+                    "2540760"
+                ]
+            },
+            "title": "Prince Charming",
+            "authors": [
+                {
+                    "key": "/authors/OL26230A"
+                }
+            ],
+            "publish_date": "1994",
+            "publishers": [
+                "Pocket Books",
+                "Atria"
+            ],
+            "ia_box_id": [
+                "IA180101"
+            ],
+            "covers": [
+                3904824
+            ],
+            "ia_loaded_id": [
+                "princecharming00garw_0"
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "pagination": "387 p. ;",
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-03-08:O7-COD-921",
+                "marc:marc_records_scriblio_net/part24.dat:158416946:559",
+                "marc:CollingswoodLibraryMarcDump10-27-2008/Collingswood.out:13233749:1027",
+                "ia:princecharming00garw_0",
+                "ia:princecharming0000garw",
+                "marc:marc_loc_2016/BooksAll.2016.part24.utf8:13366914:558",
+                "promise:bwb_daily_pallets_2021-02-10:O7-BFF-840",
+                "promise:bwb_daily_pallets_2021-01-06:O7-ARV-677",
+                "promise:bwb_daily_pallets_2021-01-06:O7-AWG-114",
+                "promise:bwb_daily_pallets_2020-11-16:P6-BCA-052",
+                "promise:bwb_daily_pallets_2020-11-12:O7-AKW-575",
+                "promise:bwb_daily_pallets_2020-11-02:W6-BVZ-913",
+                "bwb:9780671870959"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_country": "nyu",
+            "by_statement": "Julie Garwood.",
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "princecharming00garw_0",
+            "isbn_10": [
+                "0671870955"
+            ],
+            "lccn": [
+                "94208430"
+            ],
+            "oclc_numbers": [
+                "30380326"
+            ],
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "lc_classifications": [
+                "PS3557.A8427 P68 1994",
+                "PS3557.A8427P68 1994"
+            ],
+            "local_id": [
+                "urn:bwbsku:O7-COD-921",
+                "urn:bwbsku:O7-BFF-840",
+                "urn:bwbsku:O7-ARV-677",
+                "urn:bwbsku:O7-AWG-114",
+                "urn:bwbsku:P6-BCA-052",
+                "urn:bwbsku:O7-AKW-575",
+                "urn:bwbsku:W6-BVZ-913"
+            ],
+            "key": "/books/OL1211953M",
+            "number_of_pages": 387,
+            "works": [
+                {
+                    "key": "/works/OL26954W"
+                }
+            ],
+            "latest_revision": 27,
+            "revision": 27,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-03-17T04:39:32.031655"
+            }
+        },
+        "/books/OL7952653M": {
+            "publishers": [
+                "Simon & Schuster Audio"
+            ],
+            "weight": "4.5 ounces",
+            "covers": [
+                480689
+            ],
+            "edition_name": "Abridged edition",
+            "physical_format": "Audio CD",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2010-08-06T09:52:02.064115"
+            },
+            "latest_revision": 6,
+            "key": "/books/OL7952653M",
+            "authors": [
+                {
+                    "key": "/authors/OL26230A"
+                }
+            ],
+            "contributions": [
+                "Harriet Walter (Narrator)"
+            ],
+            "subjects": [
+                "Romance - Western",
+                "General",
+                "Fiction",
+                "Unabridged Audio - Fiction/Romance",
+                "Audio Adult: Books On Tape",
+                "Mystery & Detective - General",
+                "Romance - Historical",
+                "Fiction / General"
+            ],
+            "isbn_13": [
+                "9780743532990"
+            ],
+            "source_records": [
+                "amazon:0743532996:cq:1743226811:244723"
+            ],
+            "title": "Prince Charming",
+            "identifiers": {
+                "goodreads": [
+                    "1679256"
+                ],
+                "librarything": [
+                    "2540760"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0743532996"
+            ],
+            "publish_date": "August 1, 2003",
+            "works": [
+                {
+                    "key": "/works/OL26954W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.3 x 6.3 x 0.8 inches",
+            "revision": 6
+        },
+        "/books/OL24217305M": {
+            "title": "Prince Charming",
+            "authors": [
+                {
+                    "key": "/authors/OL26230A"
+                }
+            ],
+            "publish_date": "1995",
+            "publishers": [
+                "Pocket Star Books",
+                "Pocket"
+            ],
+            "ia_box_id": [
+                "IA109720"
+            ],
+            "pagination": "533 p. ;",
+            "covers": [
+                6553714
+            ],
+            "local_id": [
+                "urn:bwbsku:O7-BSG-175",
+                "urn:sfpl:31223112170064",
+                "urn:sfpl:31223112169694",
+                "urn:sfpl:31223112170056",
+                "urn:bwbsku:P7-BTP-871",
+                "urn:bwbsku:P7-AQC-852"
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-06-28:O7-BSG-175",
+                "ia:princecharming00garw",
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run05.mrc:150674263:2333",
+                "bwb:9780671870966",
+                "amazon:0671870963",
+                "promise:bwb_daily_pallets_2021-05-27:P7-BTP-871",
+                "promise:bwb_daily_pallets_2021-05-12:P7-AQC-852"
+            ],
+            "subjects": [
+                "Montana -- Fiction."
+            ],
+            "publish_country": "nyu",
+            "by_statement": "Julie Garwood.",
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "princecharming00garw",
+            "isbn_10": [
+                "0671870963"
+            ],
+            "isbn_13": [
+                "9780671870966"
+            ],
+            "oclc_numbers": [
+                "31922755"
+            ],
+            "key": "/books/OL24217305M",
+            "number_of_pages": 533,
+            "works": [
+                {
+                    "key": "/works/OL26954W"
+                }
+            ],
+            "latest_revision": 19,
+            "revision": 19,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-05-05T14:48:45.384275"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T13:51:24.132381"
+            }
+        },
+        "/books/OL11152977M": {
+            "publishers": [
+                "Sound Library"
+            ],
+            "physical_format": "Audio Cassette",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2010-08-17T13:16:27.395362"
+            },
+            "source_records": [
+                "amazon:0792727150"
+            ],
+            "title": "Prince Charming",
+            "identifiers": {
+                "goodreads": [
+                    "3407837"
+                ]
+            },
+            "isbn_13": [
+                "9780792727156"
+            ],
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0792727150"
+            ],
+            "publish_date": "November 2002",
+            "key": "/books/OL11152977M",
+            "authors": [
+                {
+                    "key": "/authors/OL26230A"
+                }
+            ],
+            "latest_revision": 5,
+            "works": [
+                {
+                    "key": "/works/OL26954W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "General",
+                "Abridged Audio - Fiction/General"
+            ],
+            "revision": 5
+        },
+        "/books/OL23008478M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Translation of: Prince charming"
+            },
+            "title": "Bai ma wang zi",
+            "authors": [
+                {
+                    "key": "/authors/OL26230A"
+                }
+            ],
+            "publish_date": "1994",
+            "publishers": [
+                "Lin bai chu ban she you xian gong si"
+            ],
+            "series": [
+                "Lang man jing dian -- 200"
+            ],
+            "publish_places": [
+                "Taibei Shi"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/chi"
+                }
+            ],
+            "pagination": "365 p. ;",
+            "source_records": [
+                "marc:SanFranPL06/SanFranPL06.out:51851235:1443"
+            ],
+            "work_titles": [
+                "Prince charming."
+            ],
+            "edition_name": "Chu ban",
+            "isbn_10": [
+                "9575936418"
+            ],
+            "publish_country": "ch ",
+            "by_statement": "yuan zhu zhe Zhuli Jiawude ; yi zhe Li Xiwei.",
+            "oclc_numbers": [
+                "32029389"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "key": "/books/OL23008478M",
+            "number_of_pages": 365,
+            "works": [
+                {
+                    "key": "/works/OL26954W"
+                }
+            ],
+            "latest_revision": 14,
+            "revision": 14,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-02-17T23:50:41.456356"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-04-21T05:51:21.034899"
+            }
+        },
+        "/books/OL29038809M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263214765"
+            ],
+            "title": "Lady Arabella's Scandalous Marriage",
+            "number_of_pages": 250,
+            "isbn_13": [
+                "9780263214765"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Lady Arabella's Scandalous Marriage",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2010",
+            "key": "/books/OL29038809M",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL17400582W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-21T05:27:33.186230"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-29T02:27:52.672249"
+            }
+        },
+        "/books/OL10738764M": {
+            "identifiers": {
+                "goodreads": [
+                    "6172860"
+                ],
+                "librarything": [
+                    "1901150"
+                ]
+            },
+            "title": "A Matter of Will",
+            "authors": [
+                {
+                    "key": "/authors/OL2834702A"
+                }
+            ],
+            "publish_date": "March 1991",
+            "publishers": [
+                "Harlequin"
+            ],
+            "ia_box_id": [
+                "IA115218"
+            ],
+            "series": [
+                "Harlequin Presents #1343"
+            ],
+            "covers": [
+                6708388,
+                6708387,
+                6694544
+            ],
+            "physical_format": "Paperback",
+            "subjects": [
+                "General",
+                "Non-Classifiable",
+                "Romance - General",
+                "Fiction",
+                "Fiction - General",
+                "Romance: Regency"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-07-26:O8-ABX-353",
+                "bwb:9780373113439",
+                "promise:bwb_daily_pallets_2021-06-28:W6-AVH-108"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:O8-ABX-353",
+                "urn:bwbsku:W6-AVH-108"
+            ],
+            "key": "/books/OL10738764M",
+            "works": [
+                {
+                    "key": "/works/OL3476056W"
+                }
+            ],
+            "ocaid": "matterofwill00dona",
+            "isbn_10": [
+                "0373113439"
+            ],
+            "isbn_13": [
+                "9780373113439"
+            ],
+            "oclc_numbers": [
+                "23089257"
+            ],
+            "copyright_date": "1989",
+            "latest_revision": 22,
+            "revision": 22,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-06-20T11:44:14.157504"
+            }
+        },
+        "/books/OL38352879M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2011",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781459276772",
+                "promise:bwb_daily_pallets_2020-11-13"
+            ],
+            "subjects": [
+                "Fiction, general"
+            ],
+            "title": "Relative Sins",
+            "full_title": "Relative Sins",
+            "works": [
+                {
+                    "key": "/works/OL3771237W"
+                }
+            ],
+            "key": "/books/OL38352879M",
+            "local_id": [
+                "urn:bwbsku:807-BAB-272"
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9781459276772"
+            ],
+            "classifications": {},
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-18T09:37:01.643006"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL38274992M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2013",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781299374102"
+            ],
+            "subjects": [
+                "Fiction, general"
+            ],
+            "title": "Relative Sins",
+            "full_title": "Relative Sins",
+            "works": [
+                {
+                    "key": "/works/OL3771237W"
+                }
+            ],
+            "key": "/books/OL38274992M",
+            "identifiers": {},
+            "isbn_13": [
+                "9781299374102"
+            ],
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-17T12:41:31.238523"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL28952969M": {
+            "title": "Relative Sins",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "publish_date": "1996",
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263794700",
+                "promise:bwb_daily_pallets_2022-03-17",
+                "ia:relativesins0000anne"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Relative Sins",
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, general"
+            ],
+            "local_id": [
+                "urn:bwbsku:KQ-362-906"
+            ],
+            "key": "/books/OL28952969M",
+            "number_of_pages": 186,
+            "works": [
+                {
+                    "key": "/works/OL3771237W"
+                }
+            ],
+            "covers": [
+                13355059
+            ],
+            "identifiers": {},
+            "ocaid": "relativesins0000anne",
+            "isbn_13": [
+                "9780263794700"
+            ],
+            "classifications": {},
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T05:47:59.334715"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL29582131M": {
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "source_records": [
+                "bwb:9780373236978"
+            ],
+            "title": "The Italian Duke's Virgin Mistress",
+            "number_of_pages": 256,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Italian Duke's Virgin Mistress",
+            "publish_date": "2010",
+            "key": "/books/OL29582131M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL17388216W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, erotica",
+                "Italy, fiction"
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9780373236978"
+            ],
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-28T12:50:06.973867"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-02-11T09:34:02.544445"
+            }
+        },
+        "/books/OL29107922M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781408918777"
+            ],
+            "title": "The Italian Duke's Virgin Mistress",
+            "number_of_pages": 192,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2010",
+            "key": "/books/OL29107922M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL17388216W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, erotica",
+                "Italy, fiction"
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9781408918777"
+            ],
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-22T04:21:05.524066"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-02-11T09:34:02.544445"
+            }
+        },
+        "/books/OL39960514M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7544679A"
+                }
+            ],
+            "isbn_13": [
+                "9781728278391"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "384",
+            "publish_date": "2022",
+            "publishers": [
+                "Sourcebooks, Incorporated"
+            ],
+            "source_records": [
+                "bwb:9781728278391",
+                "promise:bwb_daily_pallets_2024-06-27:KT-439-944"
+            ],
+            "title": "Sinner",
+            "full_title": "Sinner",
+            "works": [
+                {
+                    "key": "/works/OL24753705W"
+                }
+            ],
+            "key": "/books/OL39960514M",
+            "local_id": [
+                "urn:bwbsku:KT-439-944"
+            ],
+            "covers": [
+                14786172
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-10-18T05:38:07.536476"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-24T08:55:29.956589"
+            }
+        },
+        "/books/OL32866670M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Sinner",
+            "authors": [
+                {
+                    "key": "/authors/OL7544679A"
+                }
+            ],
+            "publish_date": "Mar 15, 2018",
+            "source_records": [
+                "amazon:1732172250",
+                "bwb:9781732172258",
+                "promise:bwb_daily_pallets_2024-07-26:W9-AGJ-592"
+            ],
+            "number_of_pages": 478,
+            "publishers": [
+                "Sierra Simone"
+            ],
+            "physical_format": "paperback",
+            "notes": "Source title: Sinner (Priest)",
+            "full_title": "Sinner",
+            "covers": [
+                11499086
+            ],
+            "works": [
+                {
+                    "key": "/works/OL24753705W"
+                }
+            ],
+            "key": "/books/OL32866670M",
+            "local_id": [
+                "urn:bwbsku:W9-AGJ-592"
+            ],
+            "identifiers": {},
+            "isbn_10": [
+                "1732172250"
+            ],
+            "isbn_13": [
+                "9781732172258"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-07-25T05:09:01.837606"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-03T06:31:42.063234"
+            }
+        },
+        "/books/OL7421443M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "number_of_pages": 192,
+            "classifications": {},
+            "title": "The Hired Fiancee'",
+            "notes": {
+                "type": "/type/text",
+                "value": "Harlequin Presents"
+            },
+            "identifiers": {
+                "goodreads": [
+                    "2525271"
+                ],
+                "librarything": [
+                    "1980135"
+                ]
+            },
+            "isbn_13": [
+                "9780373806317"
+            ],
+            "covers": [
+                221637
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373806310"
+            ],
+            "publish_date": "November 1, 2004",
+            "key": "/books/OL7421443M",
+            "authors": [
+                {
+                    "key": "/authors/OL584493A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3498760W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "bwb:9780373806317",
+                "promise:bwb_daily_pallets_2020-12-22"
+            ],
+            "local_id": [
+                "urn:bwbsku:P6-ATH-119"
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-16T11:25:25.135770"
+            }
+        },
+        "/books/OL52565256M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL11086929A"
+                }
+            ],
+            "isbn_13": [
+                "9781398540675"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 400,
+            "publish_date": "2024",
+            "publishers": [
+                "Simon & Schuster, Limited"
+            ],
+            "source_records": [
+                "bwb:9781398540675"
+            ],
+            "title": "Reckless",
+            "full_title": "Reckless",
+            "works": [
+                {
+                    "key": "/works/OL37855093W"
+                }
+            ],
+            "key": "/books/OL52565256M",
+            "latest_revision": 1,
+            "revision": 1,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-07-17T10:24:51.072586"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-07-17T10:24:51.072586"
+            }
+        },
+        "/books/OL47161220M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "El test del amor",
+            "authors": [
+                {
+                    "key": "/authors/OL7536754A"
+                },
+                {
+                    "key": "/authors/OL12565456A"
+                }
+            ],
+            "publish_date": "Feb 01, 2023",
+            "source_records": [
+                "amazon:8417421998"
+            ],
+            "number_of_pages": 320,
+            "publishers": [
+                "Titania"
+            ],
+            "isbn_10": [
+                "8417421998"
+            ],
+            "isbn_13": [
+                "9788417421991"
+            ],
+            "physical_format": "paperback",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: El test del amor (Spanish Edition)"
+            },
+            "covers": [
+                13570397
+            ],
+            "works": [
+                {
+                    "key": "/works/OL19800269W"
+                }
+            ],
+            "key": "/books/OL47161220M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-03-17T17:21:01.008889"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-06-14T16:05:25.913399"
+            }
+        },
+        "/books/OL28296707M": {
+            "publishers": [
+                "Center Point Pub"
+            ],
+            "source_records": [
+                "amazon:1643582135",
+                "bwb:9781643582139",
+                "promise:bwb_daily_pallets_2022-12-15"
+            ],
+            "title": "The Bride Test",
+            "number_of_pages": 423,
+            "isbn_13": [
+                "9781643582139"
+            ],
+            "covers": [
+                10221393
+            ],
+            "physical_format": "library binding",
+            "full_title": "The Bride Test",
+            "isbn_10": [
+                "1643582135"
+            ],
+            "publish_date": "Jun 01, 2019",
+            "key": "/books/OL28296707M",
+            "authors": [
+                {
+                    "key": "/authors/OL7536754A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL19800269W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:P8-BHO-715"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-06-29T18:40:06.701249"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-22T08:57:15.206539"
+            }
+        },
+        "/books/OL32561227M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "The Bride Test",
+            "authors": [
+                {
+                    "key": "/authors/OL7536754A"
+                },
+                {
+                    "key": "/authors/OL7941962A"
+                }
+            ],
+            "publish_date": "May 07, 2019",
+            "source_records": [
+                "amazon:1974926664"
+            ],
+            "publishers": [
+                "Dreamscape Media"
+            ],
+            "isbn_10": [
+                "1974926664"
+            ],
+            "isbn_13": [
+                "9781974926664"
+            ],
+            "physical_format": "audio cd",
+            "full_title": "The Bride Test",
+            "covers": [
+                11206177
+            ],
+            "works": [
+                {
+                    "key": "/works/OL19800269W"
+                }
+            ],
+            "key": "/books/OL32561227M",
+            "latest_revision": 1,
+            "revision": 1,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-06-02T19:24:11.060369"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-06-02T19:24:11.060369"
+            }
+        },
+        "/books/OL38344800M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL811660A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "publish_date": "2001",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9780373349487"
+            ],
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "title": "Scandaleuses promesses",
+            "works": [
+                {
+                    "key": "/works/OL4233148W"
+                }
+            ],
+            "key": "/books/OL38344800M",
+            "identifiers": {},
+            "isbn_13": [
+                "9780373349487"
+            ],
+            "classifications": {},
+            "translated_from": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "Dominic Stanton...\r\nQuatre ans après leur rupture, la seule mention de ce nom suffit encore à faire battre le coeur de Madeline à coups redoublés. Pourtant, au cours de ces quatres années, elle a tout fait pour oublier ses brèves fiançailles avec l'irrésistible héros de son adolescence : elle est allée jusqu'à quitter le pays et couper les ponts avec tous ses amis dans l'espoir de guérir son terrible chagrin d'amour.\r\ny est-elle parvenue ? elle ne va pas tarder à le découvrir : en effet, elle vient de recevoir une lettre de sa soeur la suppliant de venir en Angleterre pour assiter à son mariage. Nul doute qu'elle sera alors amenée à revoir Dominic...\r\nL'heure de vérité à sonné !"
+            },
+            "translation_of": "Passionate Scandal",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-18T05:11:09.944715"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-18T16:28:27.232383"
+            }
+        },
+        "/books/OL38357055M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL811660A"
+                }
+            ],
+            "isbn_13": [
+                "9781459284265"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2012",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781459284265"
+            ],
+            "subjects": [
+                "Fiction, general"
+            ],
+            "title": "Passionate Scandal",
+            "full_title": "Passionate Scandal",
+            "works": [
+                {
+                    "key": "/works/OL4233148W"
+                }
+            ],
+            "key": "/books/OL38357055M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-18T10:32:54.184730"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-18T14:52:35.763386"
+            }
+        },
+        "/books/OL29793484M": {
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "source_records": [
+                "bwb:9781488036682"
+            ],
+            "title": "Passionate Scandal",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781488036682"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Passionate Scandal",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2018",
+            "key": "/books/OL29793484M",
+            "authors": [
+                {
+                    "key": "/authors/OL811660A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4233148W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, general"
+            ],
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-31T07:23:59.096678"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-18T14:52:35.763386"
+            }
+        },
+        "/books/OL9749585M": {
+            "title": "Passionate Scandal (Harlequin Romance)",
+            "authors": [
+                {
+                    "key": "/authors/OL811660A"
+                }
+            ],
+            "publish_date": "October 1994",
+            "publishers": [
+                "MacMillan Publishing Company"
+            ],
+            "weight": "14.4 ounces",
+            "physical_format": "Hardcover",
+            "subjects": [
+                "Romance",
+                "Romance - General",
+                "Fiction - Romance",
+                "Large Print"
+            ],
+            "edition_name": "Large Prnt edition",
+            "isbn_13": [
+                "9780263138993"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263138992"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.8 x 6 x 1.2 inches",
+            "source_records": [
+                "amazon:0263138992"
+            ],
+            "key": "/books/OL9749585M",
+            "number_of_pages": 288,
+            "works": [
+                {
+                    "key": "/works/OL4233148W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-31T03:39:24.799052"
+            }
+        },
+        "/books/OL9623680M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "number_of_pages": 192,
+            "covers": [
+                9311279,
+                9286032,
+                4995515
+            ],
+            "physical_format": "Paperback",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T22:23:04.362691"
+            },
+            "latest_revision": 14,
+            "key": "/books/OL9623680M",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "publish_places": [
+                "UK"
+            ],
+            "subjects": [
+                "Non-Classifiable",
+                "Romance - General",
+                "Fiction",
+                "Nonfiction - General",
+                "Romance: Regency"
+            ],
+            "edition_name": "Mills & Boon Romance #2055",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "classifications": {},
+            "source_records": [
+                "bwb:9780263742190"
+            ],
+            "title": "Captive Loving",
+            "identifiers": {},
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "isbn_13": [
+                "9780263742190"
+            ],
+            "isbn_10": [
+                "0263742199"
+            ],
+            "publish_date": "April 1983",
+            "copyright_date": "1983",
+            "oclc_numbers": [
+                "9512106"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3775418W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 14
+        },
+        "/books/OL9748053M": {
+            "title": "Winter of Dreams",
+            "authors": [
+                {
+                    "key": "/authors/OL584492A"
+                }
+            ],
+            "publish_date": "February 1993",
+            "publishers": [
+                "MacMillan Publishing Company"
+            ],
+            "physical_format": "Hardcover",
+            "isbn_13": [
+                "9780263131994"
+            ],
+            "edition_name": "Largeprint edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263131998"
+            ],
+            "oclc_numbers": [
+                "221539323"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Romance",
+                "General",
+                "Fiction - General",
+                "Large type books",
+                "Large Print"
+            ],
+            "source_records": [
+                "amazon:0263131998"
+            ],
+            "key": "/books/OL9748053M",
+            "number_of_pages": 288,
+            "works": [
+                {
+                    "key": "/works/OL3498694W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-05-05T04:13:05.056357"
+            }
+        },
+        "/books/OL7866874M": {
+            "publishers": [
+                "Severn House Publishers"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "77505"
+                ],
+                "goodreads": [
+                    "412966"
+                ]
+            },
+            "weight": "1.1 pounds",
+            "covers": [
+                8033832
+            ],
+            "physical_format": "Hardcover",
+            "key": "/books/OL7866874M",
+            "authors": [
+                {
+                    "key": "/authors/OL23108A"
+                }
+            ],
+            "ocaid": "pirateslove00joha",
+            "subjects": [
+                "Romance: Historical",
+                "Romance - General",
+                "American Light Romantic Fiction",
+                "Fiction - Romance"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "Bettina Verlaine was more than apprehensive when she entered the sun-filled drawing room that morning and stood before her mother and father."
+            },
+            "source_records": [
+                "amazon:072781592X:cn:3082751116:244852",
+                "ia:pirateslove00joha",
+                "bwb:9780727815927"
+            ],
+            "title": "A Pirate's Love",
+            "number_of_pages": 384,
+            "isbn_13": [
+                "9780727815927"
+            ],
+            "isbn_10": [
+                "072781592X"
+            ],
+            "publish_date": "December 1988",
+            "works": [
+                {
+                    "key": "/works/OL15685W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9 x 5.8 x 1 inches",
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T04:47:04.865176"
+            }
+        },
+        "/books/OL7431651M": {
+            "publishers": [
+                "Avon"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "724994"
+                ],
+                "librarything": [
+                    "77505"
+                ]
+            },
+            "source_records": [
+                "amazon:0380400480:19:2421576388:256618"
+            ],
+            "title": "A Pirate's Love",
+            "number_of_pages": 384,
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2010-08-05T23:33:25.745900"
+            },
+            "covers": [
+                234754
+            ],
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "isbn_13": [
+                "9780380400485"
+            ],
+            "isbn_10": [
+                "0380400480"
+            ],
+            "publish_date": "October 1, 1978",
+            "key": "/books/OL7431651M",
+            "authors": [
+                {
+                    "key": "/authors/OL23108A"
+                }
+            ],
+            "latest_revision": 6,
+            "works": [
+                {
+                    "key": "/works/OL15685W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "Bettina Verlaine was more than apprehensive when she entered the sun-filled drawing room that morning and stood before her mother and father."
+            },
+            "revision": 6
+        },
+        "/books/OL11152981M": {
+            "publishers": [
+                "Sound Library"
+            ],
+            "weight": "1.2 pounds",
+            "edition_name": "Unabridged edition",
+            "physical_format": "Audio Cassette",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2011-06-08T03:03:16.351025"
+            },
+            "latest_revision": 5,
+            "key": "/books/OL11152981M",
+            "authors": [
+                {
+                    "key": "/authors/OL26230A"
+                }
+            ],
+            "subjects": [
+                "Audio Adult: Books On Tape"
+            ],
+            "isbn_13": [
+                "9780792728412"
+            ],
+            "source_records": [
+                "amazon:0792728416"
+            ],
+            "title": "Prince Charming",
+            "identifiers": {
+                "goodreads": [
+                    "7235334"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0792728416"
+            ],
+            "publish_date": "April 2002",
+            "oclc_numbers": [
+                "51462645"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL26954W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "7.3 x 6.4 x 1.6 inches",
+            "revision": 5
+        },
+        "/books/OL11073752M": {
+            "publishers": [
+                "Simon & Schuster Books"
+            ],
+            "weight": "5.8 ounces",
+            "physical_format": "Audio Cassette",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2010-08-17T13:16:27.395362"
+            },
+            "latest_revision": 5,
+            "key": "/books/OL11073752M",
+            "authors": [
+                {
+                    "key": "/authors/OL26230A"
+                }
+            ],
+            "subjects": [
+                "Radio - General",
+                "Romance - General",
+                "Audio - Radio"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "amazon:067157891X"
+            ],
+            "title": "Prince Charming",
+            "identifiers": {
+                "goodreads": [
+                    "3407836"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "isbn_13": [
+                "9780671578916"
+            ],
+            "isbn_10": [
+                "067157891X"
+            ],
+            "publish_date": "December 1997",
+            "works": [
+                {
+                    "key": "/works/OL26954W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "7.1 x 4.6 x 0.8 inches",
+            "revision": 5
+        },
+        "/books/OL22984309M": {
+            "publishers": [
+                "Izd-vo AST"
+            ],
+            "subtitle": "roman",
+            "isbn_10": [
+                "5170076223"
+            ],
+            "series": [
+                "Serii︠a︡ \"Sharm\""
+            ],
+            "pagination": "430 p. ;",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2011-11-22T21:39:48.344714"
+            },
+            "latest_revision": 13,
+            "key": "/books/OL22984309M",
+            "authors": [
+                {
+                    "key": "/authors/OL26230A"
+                }
+            ],
+            "publish_places": [
+                "Moskva"
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "source_records": [
+                "marc:SanFranPL12/SanFranPL12.out:2077061:1732"
+            ],
+            "title": "Prekrasnyĭ print́s̀",
+            "work_titles": [
+                "Prince charming."
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Translation of: Prince charming."
+            },
+            "number_of_pages": 430,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-02-17T19:43:24.819588"
+            },
+            "languages": [
+                {
+                    "key": "/languages/rus"
+                }
+            ],
+            "subjects": [
+                "Nobility -- England -- Fiction",
+                "Ranchers -- Montana -- Fiction",
+                "Marriage -- Fiction",
+                "Montana -- Fiction"
+            ],
+            "publish_date": "2003",
+            "publish_country": "ru ",
+            "by_statement": "Dzhuliíà Garvud ; [perevod s angliĭskogo M.D. Timm.].",
+            "oclc_numbers": [
+                "54665539"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL26954W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 13
+        },
+        "/books/OL47708234M": {
+            "title": "The Silver Veil",
+            "authors": [
+                {
+                    "key": "/authors/OL1175057A"
+                }
+            ],
+            "publish_date": "1982-09-24",
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:KS-309-627"
+            ],
+            "publishers": [
+                "Harlequin Mills & Boon"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-03-31:KS-309-627"
+            ],
+            "full_title": "Silver Veil",
+            "key": "/books/OL47708234M",
+            "works": [
+                {
+                    "key": "/works/OL5236238W"
+                }
+            ],
+            "identifiers": {},
+            "ocaid": "silverveil0000marg",
+            "isbn_10": [
+                "0263739147"
+            ],
+            "isbn_13": [
+                "9780263739145"
+            ],
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-05-04T02:54:34.744582"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-28T13:23:58.214828"
+            }
+        },
+        "/books/OL14977517M": {
+            "publishers": [
+                "Mills and Boon",
+                "Harlequin Mills & Boon"
+            ],
+            "number_of_pages": 189,
+            "key": "/books/OL14977517M",
+            "authors": [
+                {
+                    "key": "/authors/OL1175057A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "189p. ;",
+            "source_records": [
+                "bwb:9780263100921",
+                "amazon:0263100928"
+            ],
+            "title": "The Silver Veil",
+            "identifiers": {
+                "librarything": [
+                    "4960860"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1982",
+            "publish_country": "xxk",
+            "by_statement": "by Margaret Way.",
+            "works": [
+                {
+                    "key": "/works/OL5236238W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                13346068
+            ],
+            "isbn_10": [
+                "0263100928"
+            ],
+            "oclc_numbers": [
+                "9208547"
+            ],
+            "classifications": {},
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T23:01:36.432186"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-28T12:10:08.315075"
+            }
+        },
+        "/books/OL20500695M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Originally published, London , Mills & Boon, 1982."
+            },
+            "title": "The Silver Veil",
+            "authors": [
+                {
+                    "key": "/authors/OL1175057A"
+                }
+            ],
+            "publish_date": "1984",
+            "publishers": [
+                "Chivers"
+            ],
+            "series": [
+                "A Lythway book"
+            ],
+            "publish_places": [
+                "Bath"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "iii,209p. ;",
+            "edition_name": "Large Print Edition",
+            "publish_country": "xxk",
+            "by_statement": "Margaret Way.",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_10": [
+                "0745100449"
+            ],
+            "oclc_numbers": [
+                "11302669"
+            ],
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "lc_classifications": [
+                "PR6073.A9/"
+            ],
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:3240020339:706"
+            ],
+            "key": "/books/OL20500695M",
+            "number_of_pages": 209,
+            "works": [
+                {
+                    "key": "/works/OL5236238W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-27T05:07:36.586320"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-05-21T13:57:38.792099"
+            }
+        },
+        "/books/OL25994251M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "source_records": [
+                "bwb:9780263878622"
+            ],
+            "title": "Lady Arabellas Scandalous Marriage",
+            "identifiers": {},
+            "covers": [
+                7527599
+            ],
+            "isbn_13": [
+                "9780263878622"
+            ],
+            "publish_date": "2010",
+            "key": "/books/OL25994251M",
+            "works": [
+                {
+                    "key": "/works/OL17400582W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "lc_classifications": [
+                "PR6063.O814"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2016-10-14T05:03:00.167108"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-10-04T20:52:08.820168"
+            }
+        },
+        "/books/OL24302318M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "physical_format": "eBook",
+            "source_records": [
+                "marc:marc_overdrive/InternetArchiveCrMarc-2010-06-11b.mrc:1278974:2248",
+                "bwb:9781426852282"
+            ],
+            "title": "Lady Arabella's Scandalous Marriage",
+            "identifiers": {
+                "overdrive": [
+                    "44CC786D-6658-4F7E-9708-0F444628FE46"
+                ]
+            },
+            "isbn_13": [
+                "9781426852282"
+            ],
+            "covers": [
+                6428249
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2010",
+            "publish_country": "nyu",
+            "key": "/books/OL24302318M",
+            "publish_places": [
+                "Toronto, Ontario"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL17400582W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-06-30T01:30:42.887703"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-29T02:27:52.672249"
+            }
+        },
+        "/books/OL10239205M": {
+            "identifiers": {
+                "librarything": [
+                    "1901150"
+                ]
+            },
+            "title": "A Matter of Will",
+            "authors": [
+                {
+                    "key": "/authors/OL579518A"
+                }
+            ],
+            "publish_date": "March 9, 1990",
+            "publishers": [
+                "Harlequin Mills & Boon Ltd (Large Print Books)"
+            ],
+            "isbn_13": [
+                "9780263123432"
+            ],
+            "edition_name": "Large Print Ed edition",
+            "physical_format": "Hardcover",
+            "isbn_10": [
+                "026312343X"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Romance"
+            ],
+            "source_records": [
+                "amazon:026312343X"
+            ],
+            "key": "/books/OL10239205M",
+            "number_of_pages": 288,
+            "works": [
+                {
+                    "key": "/works/OL3476056W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-14T05:45:58.785384"
+            }
+        },
+        "/books/OL38371812M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2015",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781460393109"
+            ],
+            "subjects": [
+                "Fiction, general"
+            ],
+            "title": "Relative Sins",
+            "full_title": "Relative Sins",
+            "works": [
+                {
+                    "key": "/works/OL3771237W"
+                }
+            ],
+            "key": "/books/OL38371812M",
+            "identifiers": {},
+            "isbn_13": [
+                "9781460393109"
+            ],
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-18T15:00:26.530259"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-16T23:21:28.055957"
+            }
+        },
+        "/books/OL29151960M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781408986059"
+            ],
+            "title": "Relative Sins",
+            "number_of_pages": 192,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Relative Sins",
+            "publish_date": "2012",
+            "key": "/books/OL29151960M",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3771237W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, general"
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9781408986059"
+            ],
+            "classifications": {},
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-22T15:55:46.322880"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL14978932M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "number_of_pages": 186,
+            "covers": [
+                7321453
+            ],
+            "key": "/books/OL14978932M",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "publish_places": [
+                "Richmond, Surrey"
+            ],
+            "pagination": "186p. ;",
+            "source_records": [
+                "bwb:9780263147049"
+            ],
+            "title": "Relative sins",
+            "identifiers": {
+                "librarything": [
+                    "2088305"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263147045"
+            ],
+            "publish_date": "1996",
+            "publish_country": "enk",
+            "by_statement": "by Anne Mather.",
+            "oclc_numbers": [
+                "34620760"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3771237W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 12,
+            "revision": 12,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T23:12:14.177685"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL26071714M": {
+            "publishers": [
+                "Harlequin Mills & Boon"
+            ],
+            "source_records": [
+                "bwb:9780263212280",
+                "ia:italiandukesvirg0000jord"
+            ],
+            "title": "The Italian Duke's Virgin Mistress",
+            "identifiers": {},
+            "covers": [
+                7672138
+            ],
+            "publish_date": "2010",
+            "key": "/books/OL26071714M",
+            "works": [
+                {
+                    "key": "/works/OL17388216W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "classifications": {},
+            "edition_name": "Large Print Edition",
+            "ocaid": "italiandukesvirg0000jord",
+            "isbn_13": [
+                "9780263212280"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2016-10-14T12:48:59.578478"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T10:09:53.979180"
+            }
+        },
+        "/books/OL25968281M": {
+            "publishers": [
+                "M&b",
+                "Publishing"
+            ],
+            "source_records": [
+                "bwb:9780263877830",
+                "ia:italiandukesvirg0000jord_x9k8",
+                "amazon:0263877833",
+                "promise:bwb_daily_pallets_2020-11-19"
+            ],
+            "title": "The Italian Duke's Virgin Mistress",
+            "identifiers": {},
+            "covers": [
+                7479322
+            ],
+            "key": "/books/OL25968281M",
+            "works": [
+                {
+                    "key": "/works/OL17388216W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "italiandukesvirg0000jord_x9k8",
+            "isbn_13": [
+                "9780263877830"
+            ],
+            "classifications": {},
+            "lc_classifications": [
+                "PR6060.O6257"
+            ],
+            "local_id": [
+                "urn:bwbsku:KO-478-220"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2016-10-14T02:32:04.571433"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-09T15:37:09.881391"
+            }
+        },
+        "/books/OL40112093M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7544679A"
+                }
+            ],
+            "isbn_13": [
+                "9781949364262"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "384",
+            "publish_date": "2022",
+            "publishers": [
+                "Sourcebooks, Incorporated"
+            ],
+            "source_records": [
+                "bwb:9781949364262",
+                "amazon:1949364267"
+            ],
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "title": "Sinner",
+            "weight": "0.360",
+            "full_title": "Sinner",
+            "works": [
+                {
+                    "key": "/works/OL24753705W"
+                }
+            ],
+            "key": "/books/OL40112093M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-10-19T15:21:20.192729"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-14T15:15:57.205898"
+            }
+        },
+        "/books/OL44278508M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7544679A"
+                }
+            ],
+            "isbn_13": [
+                "9781949364040"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2018",
+            "publishers": [
+                "No Bird Press"
+            ],
+            "source_records": [
+                "bwb:9781949364040"
+            ],
+            "subjects": [
+                "Fiction, romance, general",
+                "Fiction, religious"
+            ],
+            "title": "Sinner",
+            "full_title": "Sinner",
+            "works": [
+                {
+                    "key": "/works/OL24753705W"
+                }
+            ],
+            "key": "/books/OL44278508M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-17T21:28:50.396188"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-14T15:15:57.205898"
+            }
+        },
+        "/books/OL44278794M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7544679A"
+                }
+            ],
+            "isbn_13": [
+                "9781986322621"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "398",
+            "publish_date": "2018",
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "source_records": [
+                "bwb:9781986322621",
+                "amazon:1986322629"
+            ],
+            "title": "Sinner",
+            "weight": "0.514",
+            "full_title": "Sinner",
+            "works": [
+                {
+                    "key": "/works/OL24753705W"
+                }
+            ],
+            "key": "/books/OL44278794M",
+            "covers": [
+                13181980
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-17T21:29:42.934669"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-14T15:15:57.205898"
+            }
+        },
+        "/books/OL9731888M": {
+            "publishers": [
+                "Thorndike Press"
+            ],
+            "weight": "15.2 ounces",
+            "covers": [
+                15208035,
+                5007690
+            ],
+            "edition_name": "Largeprint edition",
+            "physical_format": "Hardcover",
+            "key": "/books/OL9731888M",
+            "authors": [
+                {
+                    "key": "/authors/OL584493A"
+                }
+            ],
+            "ocaid": "hiredfiancee00lind",
+            "subjects": [
+                "Romance",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern",
+                "Romance - General",
+                "Romance - Contemporary"
+            ],
+            "isbn_13": [
+                "9780263167498"
+            ],
+            "title": "The Hired Fiancee",
+            "number_of_pages": 288,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263167496"
+            ],
+            "publish_date": "June 2001",
+            "works": [
+                {
+                    "key": "/works/OL3498760W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.4 x 5.6 x 1 inches",
+            "source_records": [
+                "amazon:0263167496",
+                "bwb:9780263167498"
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-04-09T21:12:03.213774"
+            }
+        },
+        "/books/OL14976319M": {
+            "publishers": [
+                "Millsand Boon"
+            ],
+            "number_of_pages": 188,
+            "key": "/books/OL14976319M",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "188p. ;",
+            "title": "Devils Mount",
+            "identifiers": {
+                "librarything": [
+                    "4927808"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Fiction in English."
+            ],
+            "publish_date": "1976",
+            "publish_country": "xxk",
+            "by_statement": "by Anne Mather.",
+            "works": [
+                {
+                    "key": "/works/OL3771214W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                13171249
+            ],
+            "source_records": [
+                "amazon:0263090256"
+            ],
+            "isbn_10": [
+                "0263090256"
+            ],
+            "oclc_numbers": [
+                "3124945"
+            ],
+            "classifications": {},
+            "dewey_decimal_class": [
+                "823/.9/1F"
+            ],
+            "latest_revision": 12,
+            "revision": 12,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T22:52:03.111998"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL27713010M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "identifiers": {},
+            "covers": [
+                9145518
+            ],
+            "edition_name": "Mills & Boon Romance #1189",
+            "physical_format": "Mass Market Paperback",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2019-11-20T07:36:49.061415"
+            },
+            "latest_revision": 3,
+            "key": "/books/OL27713010M",
+            "publish_places": [
+                "UK"
+            ],
+            "isbn_13": [
+                "9780263723083"
+            ],
+            "classifications": {},
+            "title": "Devil's Mount",
+            "number_of_pages": 188,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-11-20T07:25:43.411815"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263723089"
+            ],
+            "publish_date": "November 1976",
+            "copyright_date": "1976",
+            "works": [
+                {
+                    "key": "/works/OL3771214W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 3
+        },
+        "/books/OL27712992M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "24235518"
+                ]
+            },
+            "covers": [
+                9145515
+            ],
+            "physical_format": "Hardcover",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T22:04:47.104574"
+            },
+            "latest_revision": 4,
+            "key": "/books/OL27712992M",
+            "publish_places": [
+                "UK"
+            ],
+            "edition_name": "First Edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "classifications": {},
+            "source_records": [
+                "bwb:9780263090253"
+            ],
+            "title": "Devil's Mount",
+            "number_of_pages": 192,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-11-20T07:18:13.224616"
+            },
+            "isbn_13": [
+                "9780263090253"
+            ],
+            "isbn_10": [
+                "0263090256"
+            ],
+            "publish_date": "August 1976",
+            "copyright_date": "1976",
+            "works": [
+                {
+                    "key": "/works/OL3771214W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 4
+        },
+        "/books/OL53328384M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL11086929A"
+                }
+            ],
+            "dewey_decimal_class": [
+                "[Fic]"
+            ],
+            "isbn_13": [
+                "9781665955447"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lc_classifications": [
+                "PZ7.1.R5936Re 2025"
+            ],
+            "lccn": [
+                "2024011331"
+            ],
+            "publish_date": "2024",
+            "publishers": [
+                "Simon & Schuster Books For Young Readers"
+            ],
+            "source_records": [
+                "bwb:9781665955447"
+            ],
+            "subjects": [
+                "Young adult fiction, fantasy, romance",
+                "Young adult fiction, fantasy, dark fantasy",
+                "Young adult fiction, social themes, class differences"
+            ],
+            "title": "Reckless",
+            "full_title": "Reckless",
+            "works": [
+                {
+                    "key": "/works/OL37855093W"
+                }
+            ],
+            "key": "/books/OL53328384M",
+            "latest_revision": 1,
+            "revision": 1,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-08-17T21:53:26.116595"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-17T21:53:26.116595"
+            }
+        },
+        "/books/OL51039088M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL11086929A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "400",
+            "publish_date": "July 2, 2024",
+            "publishers": [
+                "Simon & Schuster, Limited"
+            ],
+            "source_records": [
+                "bwb:9781398530126",
+                "promise:bwb_daily_pallets_2024-12-06:KU-640-446"
+            ],
+            "title": "Reckless",
+            "subtitle": "Traitor. Tormented. Destined for each other.",
+            "works": [
+                {
+                    "key": "/works/OL37855093W"
+                }
+            ],
+            "key": "/books/OL51039088M",
+            "covers": [
+                14644120
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9781398530126"
+            ],
+            "isbn_10": [
+                "1398530123"
+            ],
+            "series": [
+                "The Powerless Trilogy"
+            ],
+            "physical_format": "Paperback",
+            "number_of_pages": 400,
+            "local_id": [
+                "urn:bwbsku:KU-640-446"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-02-17T06:30:19.722272"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-02T03:37:11.838280"
+            }
+        },
+        "/books/OL51103283M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL11086929A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "512",
+            "publish_date": "2024",
+            "publishers": [
+                "Simon & Schuster Books For Young Readers"
+            ],
+            "source_records": [
+                "bwb:9781665955430"
+            ],
+            "title": "Reckless",
+            "full_title": "Reckless",
+            "works": [
+                {
+                    "key": "/works/OL37855093W"
+                }
+            ],
+            "key": "/books/OL51103283M",
+            "covers": [
+                14636384,
+                -1
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9781665955430"
+            ],
+            "classifications": {},
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-02-17T13:34:57.719849"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-15T15:16:33.388761"
+            }
+        },
+        "/books/OL47161227M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "El test del amor",
+            "authors": [
+                {
+                    "key": "/authors/OL7536754A"
+                },
+                {
+                    "key": "/authors/OL12565456A"
+                }
+            ],
+            "publish_date": "May 15, 2021",
+            "source_records": [
+                "amazon:8416327955",
+                "promise:bwb_daily_pallets_2025-11-04:C0-APX-428"
+            ],
+            "number_of_pages": 320,
+            "publishers": [
+                "Urano",
+                "Titania"
+            ],
+            "isbn_10": [
+                "8416327955"
+            ],
+            "isbn_13": [
+                "9788416327959"
+            ],
+            "physical_format": "paperback",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: El test del amor (Spanish Edition)"
+            },
+            "full_title": "El test del amor",
+            "covers": [
+                13570411
+            ],
+            "works": [
+                {
+                    "key": "/works/OL19800269W"
+                }
+            ],
+            "key": "/books/OL47161227M",
+            "local_id": [
+                "urn:bwbsku:C0-APX-428"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-03-17T17:21:26.487846"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-11T01:08:40.904394"
+            }
+        },
+        "/books/OL35545183M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7536754A"
+                }
+            ],
+            "isbn_13": [
+                "9781786499622"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2019",
+            "publishers": [
+                "Atlantic Books, Limited"
+            ],
+            "source_records": [
+                "bwb:9781786499622"
+            ],
+            "title": "Bride Test",
+            "full_title": "Bride Test",
+            "works": [
+                {
+                    "key": "/works/OL19800269W"
+                }
+            ],
+            "key": "/books/OL35545183M",
+            "latest_revision": 1,
+            "revision": 1,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-03T02:11:32.766463"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-11-03T02:11:32.766463"
+            }
+        },
+        "/books/OL33040725M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "The Bride Test",
+            "authors": [
+                {
+                    "key": "/authors/OL7536754A"
+                }
+            ],
+            "publish_date": "2019",
+            "source_records": [
+                "amazon:1643852868",
+                "promise:bwb_daily_pallets_2023-05-16:W8-BSJ-869"
+            ],
+            "publishers": [
+                "Jove"
+            ],
+            "physical_format": "hardcover",
+            "full_title": "Bride Test",
+            "covers": [
+                14635954
+            ],
+            "works": [
+                {
+                    "key": "/works/OL19800269W"
+                }
+            ],
+            "key": "/books/OL33040725M",
+            "local_id": [
+                "urn:bwbsku:W8-BSJ-869"
+            ],
+            "identifiers": {},
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "ocaid": "bridetest0000hele",
+            "isbn_10": [
+                "1643852868"
+            ],
+            "isbn_13": [
+                "9781643852867"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-08-21T05:26:52.596079"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-06-14T15:35:46.666310"
+            }
+        },
+        "/books/OL32558531M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "The Bride Test",
+            "authors": [
+                {
+                    "key": "/authors/OL7536754A"
+                },
+                {
+                    "key": "/authors/OL7941962A"
+                }
+            ],
+            "publish_date": "May 07, 2019",
+            "source_records": [
+                "amazon:1974926702"
+            ],
+            "publishers": [
+                "Dreamscape Media"
+            ],
+            "isbn_10": [
+                "1974926702"
+            ],
+            "isbn_13": [
+                "9781974926701"
+            ],
+            "physical_format": "audio cd",
+            "full_title": "The Bride Test",
+            "covers": [
+                11204250
+            ],
+            "works": [
+                {
+                    "key": "/works/OL19800269W"
+                }
+            ],
+            "key": "/books/OL32558531M",
+            "latest_revision": 1,
+            "revision": 1,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-06-02T03:01:27.285086"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-06-02T03:01:27.285086"
+            }
+        },
+        "/books/OL27011746M": {
+            "publishers": [
+                "Jove"
+            ],
+            "identifiers": {},
+            "covers": [
+                14817815,
+                14635935
+            ],
+            "physical_format": "paperback",
+            "key": "/books/OL27011746M",
+            "publish_places": [
+                "New York, USA"
+            ],
+            "source_records": [
+                "bwb:9780451490827",
+                "promise:bwb_daily_pallets_2021-06-03"
+            ],
+            "title": "The Bride Test",
+            "number_of_pages": 300,
+            "publish_date": "2019",
+            "copyright_date": "2019",
+            "works": [
+                {
+                    "key": "/works/OL19800269W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:P7-BFL-975"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "ocaid": "bridetest0000hoan",
+            "isbn_13": [
+                "9780451490827"
+            ],
+            "lc_classifications": [
+                "PS3608.O1775B75 2019"
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-06-24T21:40:03.757070"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-31T15:18:40.415903"
+            }
+        },
+        "/books/OL29151999M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781408986875"
+            ],
+            "title": "Passionate Scandal",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781408986875"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Passionate Scandal",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2012",
+            "key": "/books/OL29151999M",
+            "authors": [
+                {
+                    "key": "/authors/OL811660A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4233148W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, general"
+            ],
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-22T15:56:17.681555"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-18T14:52:35.763386"
+            }
+        },
+        "/books/OL9752484M": {
+            "title": "Passionate Scandal",
+            "subtitle": "Harlequin Presents - 1695",
+            "authors": [
+                {
+                    "key": "/authors/OL811660A"
+                }
+            ],
+            "publish_date": "October 1994",
+            "publishers": [
+                "MacMillan Publishing Company"
+            ],
+            "weight": "14.4 ounces",
+            "covers": [
+                9654285
+            ],
+            "physical_format": "Hardcover",
+            "subjects": [
+                "Romance",
+                "Romance - General",
+                "Fiction - Romance",
+                "Large Print"
+            ],
+            "edition_name": "Large Print Edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.8 x 6 x 1.2 inches",
+            "series": [
+                "Harlequin Presents - 1695, Mills & Boon Modern (Australia), Mills & Boon Romance - 4062"
+            ],
+            "ocaid": "passionatescanda00mich",
+            "isbn_10": [
+                "0263138992"
+            ],
+            "isbn_13": [
+                "9780263138993"
+            ],
+            "source_records": [
+                "amazon:0263138992"
+            ],
+            "key": "/books/OL9752484M",
+            "number_of_pages": 288,
+            "works": [
+                {
+                    "key": "/works/OL4233148W"
+                }
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-18T10:55:28.804105"
+            }
+        },
+        "/books/OL29264481M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781474029698"
+            ],
+            "title": "Captive Loving",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781474029698"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Captive Loving",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2015",
+            "key": "/books/OL29264481M",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3775418W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, contemporary"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-24T00:42:58.322513"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-28T18:19:24.833945"
+            }
+        },
+        "/books/OL14977653M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "number_of_pages": 192,
+            "covers": [
+                9286034,
+                8262861
+            ],
+            "physical_format": "Hardcover",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T22:12:59.052622"
+            },
+            "latest_revision": 9,
+            "key": "/books/OL14977653M",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "edition_name": "First Edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "classifications": {},
+            "source_records": [
+                "bwb:9780263102222"
+            ],
+            "title": "Captive Loving",
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "2386609"
+                ],
+                "goodreads": [
+                    "38220906"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T23:02:29.791824"
+            },
+            "isbn_13": [
+                "9780263102222"
+            ],
+            "isbn_10": [
+                "026310222X"
+            ],
+            "publish_date": "February 1983",
+            "publish_country": "xxk",
+            "copyright_date": "1983",
+            "works": [
+                {
+                    "key": "/works/OL3775418W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 9
+        },
+        "/books/OL24950263M": {
+            "title": "Captive Loving",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "publish_date": "June 1983",
+            "publishers": [
+                "Harlequin"
+            ],
+            "ia_box_id": [
+                "IA125409"
+            ],
+            "covers": [
+                9311259,
+                9286036,
+                9242799,
+                6947731
+            ],
+            "physical_format": "Paperback",
+            "ia_loaded_id": [
+                "captiveloving00mort"
+            ],
+            "publish_places": [
+                "Canada"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-03-08:O7-AQM-192",
+                "ia:captiveloving00mort",
+                "bwb:9780373106035",
+                "promise:bwb_daily_pallets_2020-12-16:386-BAC-965"
+            ],
+            "full_title": "Captive loving",
+            "edition_name": "Harlequin Presents #603",
+            "publish_country": "onc",
+            "copyright_date": "1983",
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:O7-AQM-192",
+                "urn:bwbsku:386-BAC-965"
+            ],
+            "key": "/books/OL24950263M",
+            "number_of_pages": 192,
+            "works": [
+                {
+                    "key": "/works/OL3775418W"
+                }
+            ],
+            "identifiers": {},
+            "ocaid": "captiveloving00mort",
+            "isbn_10": [
+                "0373106033"
+            ],
+            "isbn_13": [
+                "9780373106035"
+            ],
+            "oclc_numbers": [
+                "9512106"
+            ],
+            "classifications": {},
+            "latest_revision": 18,
+            "revision": 18,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2011-08-11T02:03:56.235164"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-22T14:40:03.696908"
+            }
+        },
+        "/books/OL9750795M": {
+            "title": "Winter of Dreams",
+            "authors": [
+                {
+                    "key": "/authors/OL584492A"
+                }
+            ],
+            "publish_date": "February 1993",
+            "publishers": [
+                "MacMillan Publishing Company"
+            ],
+            "physical_format": "Hardcover",
+            "isbn_13": [
+                "9780263131994"
+            ],
+            "edition_name": "Largeprint edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263131998"
+            ],
+            "oclc_numbers": [
+                "221539323"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Romance",
+                "General",
+                "Fiction - General",
+                "Large type books",
+                "Large Print"
+            ],
+            "source_records": [
+                "amazon:0263131998"
+            ],
+            "key": "/books/OL9750795M",
+            "number_of_pages": 288,
+            "works": [
+                {
+                    "key": "/works/OL3498694W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-27T01:58:28.966411"
+            }
+        },
+        "/books/OL17196749M": {
+            "identifiers": {
+                "goodreads": [
+                    "5705366"
+                ]
+            },
+            "title": "Winter of dreams",
+            "authors": [
+                {
+                    "key": "/authors/OL584492A"
+                }
+            ],
+            "publish_date": "1992",
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "publish_places": [
+                "Richmond, Surrey"
+            ],
+            "pagination": "(192)p. ;",
+            "dewey_decimal_class": [
+                "823.914"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263132129"
+            ],
+            "publish_country": "enk",
+            "by_statement": "Susan Napier.",
+            "oclc_numbers": [
+                "26153216"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:1339910382:504"
+            ],
+            "key": "/books/OL17196749M",
+            "number_of_pages": 192,
+            "works": [
+                {
+                    "key": "/works/OL3498694W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-27T23:02:13.038736"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-27T01:58:28.966411"
+            }
+        }
+    }
+}

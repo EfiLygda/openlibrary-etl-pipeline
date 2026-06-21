@@ -1,8 +1,8 @@
 {
-    "numFound": 223352,
+    "numFound": 222215,
     "start": 100,
     "numFoundExact": true,
-    "num_found": 223352,
+    "num_found": 222215,
     "documentation_url": "https://openlibrary.org/dev/docs/api/search",
     "q": "",
     "offset": null,
@@ -247,39 +247,6 @@
             "lending_identifier_s": "distrusthershado00jess",
             "public_scan_b": false,
             "title": "Distrust Her Shadow"
-        },
-        {
-            "author_key": [
-                "OL687900A"
-            ],
-            "author_name": [
-                "Jessica Steele"
-            ],
-            "cover_i": 9319969,
-            "ebook_access": "borrowable",
-            "edition_count": 8,
-            "first_publish_year": 1987,
-            "has_fulltext": true,
-            "ia": [
-                "unfriendlyallian00stee"
-            ],
-            "ia_collection": [
-                "inlibrary",
-                "internetarchivebooks",
-                "printdisabled"
-            ],
-            "key": "/works/OL3845174W",
-            "language": [
-                "por",
-                "dut",
-                "eng",
-                "ita",
-                "fre"
-            ],
-            "lending_edition_s": "OL10691603M",
-            "lending_identifier_s": "unfriendlyallian00stee",
-            "public_scan_b": false,
-            "title": "Unfriendly Alliance"
         },
         {
             "author_key": [
@@ -547,6 +514,7 @@
             "ia_collection": [
                 "inlibrary",
                 "internetarchivebooks",
+                "openlibrary-d-ol",
                 "printdisabled"
             ],
             "key": "/works/OL11327950W",
@@ -681,6 +649,38 @@
         },
         {
             "author_key": [
+                "OL3319143A"
+            ],
+            "author_name": [
+                "Anne Mather"
+            ],
+            "cover_edition_key": "OL1648661M",
+            "cover_i": 7321450,
+            "ebook_access": "borrowable",
+            "edition_count": 5,
+            "first_publish_year": 1991,
+            "has_fulltext": true,
+            "ia": [
+                "suchsweetpoison00math",
+                "suchsweetpoison00anne"
+            ],
+            "ia_collection": [
+                "americana",
+                "inlibrary",
+                "internetarchivebooks",
+                "printdisabled"
+            ],
+            "key": "/works/OL3771243W",
+            "language": [
+                "eng"
+            ],
+            "lending_edition_s": "OL1648661M",
+            "lending_identifier_s": "suchsweetpoison00math",
+            "public_scan_b": false,
+            "title": "Such Sweet Poison"
+        },
+        {
+            "author_key": [
                 "OL22168A"
             ],
             "author_name": [
@@ -721,38 +721,6 @@
         },
         {
             "author_key": [
-                "OL3319143A"
-            ],
-            "author_name": [
-                "Anne Mather"
-            ],
-            "cover_edition_key": "OL1648661M",
-            "cover_i": 7321450,
-            "ebook_access": "borrowable",
-            "edition_count": 5,
-            "first_publish_year": 1991,
-            "has_fulltext": true,
-            "ia": [
-                "suchsweetpoison00math",
-                "suchsweetpoison00anne"
-            ],
-            "ia_collection": [
-                "americana",
-                "inlibrary",
-                "internetarchivebooks",
-                "printdisabled"
-            ],
-            "key": "/works/OL3771243W",
-            "language": [
-                "eng"
-            ],
-            "lending_edition_s": "OL1648661M",
-            "lending_identifier_s": "suchsweetpoison00math",
-            "public_scan_b": false,
-            "title": "Such Sweet Poison"
-        },
-        {
-            "author_key": [
                 "OL4728806A"
             ],
             "author_name": [
@@ -781,6 +749,70 @@
             "lending_identifier_s": "secretintimacy00char",
             "public_scan_b": false,
             "title": "A Secret Intimacy"
+        },
+        {
+            "author_key": [
+                "OL687900A"
+            ],
+            "author_name": [
+                "Jessica Steele"
+            ],
+            "cover_i": 9319969,
+            "ebook_access": "borrowable",
+            "edition_count": 8,
+            "first_publish_year": 1987,
+            "has_fulltext": true,
+            "ia": [
+                "unfriendlyallian00stee"
+            ],
+            "ia_collection": [
+                "inlibrary",
+                "internetarchivebooks",
+                "printdisabled"
+            ],
+            "key": "/works/OL3845174W",
+            "language": [
+                "dut",
+                "ita",
+                "fre",
+                "eng",
+                "por"
+            ],
+            "lending_edition_s": "OL10691603M",
+            "lending_identifier_s": "unfriendlyallian00stee",
+            "public_scan_b": false,
+            "title": "Unfriendly Alliance"
+        },
+        {
+            "author_key": [
+                "OL808883A"
+            ],
+            "author_name": [
+                "Yvonne Whittal"
+            ],
+            "cover_edition_key": "OL10691074M",
+            "cover_i": 8578150,
+            "ebook_access": "borrowable",
+            "edition_count": 1,
+            "first_publish_year": 1979,
+            "has_fulltext": true,
+            "ia": [
+                "loveiseternalhar00harl"
+            ],
+            "ia_collection": [
+                "inlibrary",
+                "internetarchivebooks",
+                "openlibrary-d-ol",
+                "printdisabled"
+            ],
+            "key": "/works/OL17809871W",
+            "language": [
+                "eng"
+            ],
+            "lending_edition_s": "OL10691074M",
+            "lending_identifier_s": "loveiseternalhar00harl",
+            "public_scan_b": false,
+            "title": "Love is Eternal"
         },
         {
             "author_key": [
@@ -813,37 +845,6 @@
             "lending_identifier_s": "bondofdestiny00wils",
             "public_scan_b": false,
             "title": "Bond of Destiny"
-        },
-        {
-            "author_key": [
-                "OL808883A"
-            ],
-            "author_name": [
-                "Yvonne Whittal"
-            ],
-            "cover_edition_key": "OL10691074M",
-            "cover_i": 8578150,
-            "ebook_access": "borrowable",
-            "edition_count": 1,
-            "first_publish_year": 1979,
-            "has_fulltext": true,
-            "ia": [
-                "loveiseternalhar00harl"
-            ],
-            "ia_collection": [
-                "inlibrary",
-                "internetarchivebooks",
-                "openlibrary-d-ol",
-                "printdisabled"
-            ],
-            "key": "/works/OL17809871W",
-            "language": [
-                "eng"
-            ],
-            "lending_edition_s": "OL10691074M",
-            "lending_identifier_s": "loveiseternalhar00harl",
-            "public_scan_b": false,
-            "title": "Love is Eternal"
         },
         {
             "author_key": [
@@ -938,36 +939,6 @@
         },
         {
             "author_key": [
-                "OL9096427A"
-            ],
-            "author_name": [
-                "Ali Hazelwood"
-            ],
-            "cover_i": 10601402,
-            "ebook_access": "printdisabled",
-            "edition_count": 13,
-            "first_publish_year": 2021,
-            "has_fulltext": true,
-            "ia": [
-                "bwb_S0-ATZ-444"
-            ],
-            "ia_collection": [
-                "internetarchivebooks",
-                "printdisabled"
-            ],
-            "key": "/works/OL24178205W",
-            "language": [
-                "eng",
-                "spa",
-                "ita",
-                "por",
-                "dut"
-            ],
-            "public_scan_b": false,
-            "title": "The Love Hypothesis"
-        },
-        {
-            "author_key": [
                 "OL661093A"
             ],
             "author_name": [
@@ -995,6 +966,36 @@
             ],
             "public_scan_b": false,
             "title": "Escape from Desire"
+        },
+        {
+            "author_key": [
+                "OL9096427A"
+            ],
+            "author_name": [
+                "Ali Hazelwood"
+            ],
+            "cover_i": 10601402,
+            "ebook_access": "printdisabled",
+            "edition_count": 13,
+            "first_publish_year": 2021,
+            "has_fulltext": true,
+            "ia": [
+                "bwb_S0-ATZ-444"
+            ],
+            "ia_collection": [
+                "internetarchivebooks",
+                "printdisabled"
+            ],
+            "key": "/works/OL24178205W",
+            "language": [
+                "eng",
+                "spa",
+                "ita",
+                "por",
+                "dut"
+            ],
+            "public_scan_b": false,
+            "title": "The Love Hypothesis"
         },
         {
             "author_key": [
@@ -1225,6 +1226,32 @@
         },
         {
             "author_key": [
+                "OL3319143A"
+            ],
+            "author_name": [
+                "Anne Mather"
+            ],
+            "cover_i": 6916537,
+            "ebook_access": "printdisabled",
+            "edition_count": 8,
+            "first_publish_year": 1975,
+            "has_fulltext": true,
+            "ia": [
+                "takewhatyouwant00math"
+            ],
+            "ia_collection": [
+                "internetarchivebooks",
+                "printdisabled"
+            ],
+            "key": "/works/OL3771297W",
+            "language": [
+                "eng"
+            ],
+            "public_scan_b": false,
+            "title": "Take What You Want"
+        },
+        {
+            "author_key": [
                 "OL7315784A"
             ],
             "author_name": [
@@ -1252,32 +1279,6 @@
             ],
             "public_scan_b": false,
             "title": "All your perfects"
-        },
-        {
-            "author_key": [
-                "OL3319143A"
-            ],
-            "author_name": [
-                "Anne Mather"
-            ],
-            "cover_i": 6916537,
-            "ebook_access": "printdisabled",
-            "edition_count": 8,
-            "first_publish_year": 1975,
-            "has_fulltext": true,
-            "ia": [
-                "takewhatyouwant00math"
-            ],
-            "ia_collection": [
-                "internetarchivebooks",
-                "printdisabled"
-            ],
-            "key": "/works/OL3771297W",
-            "language": [
-                "eng"
-            ],
-            "public_scan_b": false,
-            "title": "Take What You Want"
         },
         {
             "author_key": [
@@ -1472,25 +1473,6 @@
         },
         {
             "author_key": [
-                "OL7922247A"
-            ],
-            "author_name": [
-                "Lucy Score"
-            ],
-            "cover_i": 14418599,
-            "ebook_access": "no_ebook",
-            "edition_count": 7,
-            "first_publish_year": 2022,
-            "has_fulltext": false,
-            "key": "/works/OL26955716W",
-            "language": [
-                "eng"
-            ],
-            "public_scan_b": false,
-            "title": "Things We Never Got Over"
-        },
-        {
-            "author_key": [
                 "OL687900A"
             ],
             "author_name": [
@@ -1522,6 +1504,25 @@
             "lending_identifier_s": "noholdsbarred0000stee",
             "public_scan_b": false,
             "title": "No Holds Barred"
+        },
+        {
+            "author_key": [
+                "OL7922247A"
+            ],
+            "author_name": [
+                "Lucy Score"
+            ],
+            "cover_i": 14418599,
+            "ebook_access": "no_ebook",
+            "edition_count": 7,
+            "first_publish_year": 2022,
+            "has_fulltext": false,
+            "key": "/works/OL26955716W",
+            "language": [
+                "eng"
+            ],
+            "public_scan_b": false,
+            "title": "Things We Never Got Over"
         },
         {
             "author_key": [
@@ -1850,34 +1851,6 @@
             "author_name": [
                 "Carole Mortimer"
             ],
-            "cover_edition_key": "OL9741352M",
-            "cover_i": 10006794,
-            "ebook_access": "printdisabled",
-            "edition_count": 9,
-            "first_publish_year": 1986,
-            "has_fulltext": true,
-            "ia": [
-                "glassslippersuni00car_ix5"
-            ],
-            "ia_collection": [
-                "americana",
-                "internetarchivebooks",
-                "printdisabled"
-            ],
-            "key": "/works/OL3775471W",
-            "language": [
-                "eng"
-            ],
-            "public_scan_b": false,
-            "title": "Glass Slippers and Unicorns"
-        },
-        {
-            "author_key": [
-                "OL666139A"
-            ],
-            "author_name": [
-                "Carole Mortimer"
-            ],
             "cover_edition_key": "OL14977653M",
             "cover_i": 9286034,
             "ebook_access": "borrowable",
@@ -2050,6 +2023,34 @@
             "lending_identifier_s": "exorcism0000jord",
             "public_scan_b": false,
             "title": "Exorcism"
+        },
+        {
+            "author_key": [
+                "OL666139A"
+            ],
+            "author_name": [
+                "Carole Mortimer"
+            ],
+            "cover_edition_key": "OL9741352M",
+            "cover_i": 10006794,
+            "ebook_access": "printdisabled",
+            "edition_count": 9,
+            "first_publish_year": 1986,
+            "has_fulltext": true,
+            "ia": [
+                "glassslippersuni00car_ix5"
+            ],
+            "ia_collection": [
+                "americana",
+                "internetarchivebooks",
+                "printdisabled"
+            ],
+            "key": "/works/OL3775471W",
+            "language": [
+                "eng"
+            ],
+            "public_scan_b": false,
+            "title": "Glass Slippers and Unicorns"
         },
         {
             "author_key": [
@@ -2349,37 +2350,6 @@
         },
         {
             "author_key": [
-                "OL4728806A"
-            ],
-            "author_name": [
-                "Charlotte Lamb"
-            ],
-            "cover_edition_key": "OL14976436M",
-            "cover_i": 6916488,
-            "ebook_access": "borrowable",
-            "edition_count": 3,
-            "first_publish_year": 1977,
-            "has_fulltext": true,
-            "ia": [
-                "kingfishermornin00lamb"
-            ],
-            "ia_collection": [
-                "americana",
-                "inlibrary",
-                "internetarchivebooks",
-                "printdisabled"
-            ],
-            "key": "/works/OL11277296W",
-            "language": [
-                "eng"
-            ],
-            "lending_edition_s": "OL10691427M",
-            "lending_identifier_s": "kingfishermornin00lamb",
-            "public_scan_b": false,
-            "title": "Kingfisher Morning"
-        },
-        {
-            "author_key": [
                 "OL665753A"
             ],
             "author_name": [
@@ -2445,34 +2415,6 @@
         },
         {
             "author_key": [
-                "OL666139A"
-            ],
-            "author_name": [
-                "Carole Mortimer"
-            ],
-            "cover_i": 8262888,
-            "ebook_access": "printdisabled",
-            "edition_count": 7,
-            "first_publish_year": 1982,
-            "has_fulltext": true,
-            "ia": [
-                "hiddenlove0000mort",
-                "hiddenlove00mort"
-            ],
-            "ia_collection": [
-                "internetarchivebooks",
-                "openlibrary-d-ol",
-                "printdisabled"
-            ],
-            "key": "/works/OL3775475W",
-            "language": [
-                "eng"
-            ],
-            "public_scan_b": false,
-            "title": "Hidden Love"
-        },
-        {
-            "author_key": [
                 "OL6976866A"
             ],
             "author_name": [
@@ -2500,6 +2442,34 @@
             "lending_identifier_s": "betweenpridepass00kidd",
             "public_scan_b": false,
             "title": "Between Pride and Passion"
+        },
+        {
+            "author_key": [
+                "OL666139A"
+            ],
+            "author_name": [
+                "Carole Mortimer"
+            ],
+            "cover_i": 8262888,
+            "ebook_access": "printdisabled",
+            "edition_count": 7,
+            "first_publish_year": 1982,
+            "has_fulltext": true,
+            "ia": [
+                "hiddenlove0000mort",
+                "hiddenlove00mort"
+            ],
+            "ia_collection": [
+                "internetarchivebooks",
+                "openlibrary-d-ol",
+                "printdisabled"
+            ],
+            "key": "/works/OL3775475W",
+            "language": [
+                "eng"
+            ],
+            "public_scan_b": false,
+            "title": "Hidden Love"
         },
         {
             "author_key": [
@@ -2651,34 +2621,34 @@
         },
         {
             "author_key": [
-                "OL579518A"
+                "OL1175057A"
             ],
             "author_name": [
-                "Robyn Donald"
+                "Margaret Way"
             ],
-            "cover_edition_key": "OL17411507M",
-            "cover_i": 10138865,
+            "cover_edition_key": "OL10691328M",
+            "cover_i": 6690054,
             "ebook_access": "borrowable",
-            "edition_count": 4,
-            "first_publish_year": 1993,
+            "edition_count": 3,
+            "first_publish_year": 1982,
             "has_fulltext": true,
             "ia": [
-                "suchdarkmagic0000dona_a4v0",
-                "suchdarkmagic0000dona"
+                "huntersmoon00waym"
             ],
             "ia_collection": [
+                "americana",
                 "inlibrary",
                 "internetarchivebooks",
                 "printdisabled"
             ],
-            "key": "/works/OL3476087W",
+            "key": "/works/OL5236219W",
             "language": [
                 "eng"
             ],
-            "lending_edition_s": "OL29559097M",
-            "lending_identifier_s": "suchdarkmagic0000dona_a4v0",
+            "lending_edition_s": "OL10691328M",
+            "lending_identifier_s": "huntersmoon00waym",
             "public_scan_b": false,
-            "title": "Such Dark Magic"
+            "title": "Hunter's Moon"
         },
         {
             "author_key": [
@@ -2711,37 +2681,6 @@
             ],
             "public_scan_b": false,
             "title": "The Italian's Inexperienced Mistress"
-        },
-        {
-            "author_key": [
-                "OL1175057A"
-            ],
-            "author_name": [
-                "Margaret Way"
-            ],
-            "cover_edition_key": "OL10691328M",
-            "cover_i": 6690054,
-            "ebook_access": "borrowable",
-            "edition_count": 3,
-            "first_publish_year": 1982,
-            "has_fulltext": true,
-            "ia": [
-                "huntersmoon00waym"
-            ],
-            "ia_collection": [
-                "americana",
-                "inlibrary",
-                "internetarchivebooks",
-                "printdisabled"
-            ],
-            "key": "/works/OL5236219W",
-            "language": [
-                "eng"
-            ],
-            "lending_edition_s": "OL10691328M",
-            "lending_identifier_s": "huntersmoon00waym",
-            "public_scan_b": false,
-            "title": "Hunter's Moon"
         },
         {
             "author_key": [
@@ -2832,97 +2771,6 @@
             "lending_identifier_s": "fidelity00lake",
             "public_scan_b": false,
             "title": "Fidelity"
-        },
-        {
-            "author_key": [
-                "OL883651A"
-            ],
-            "author_name": [
-                "Violet Winspear"
-            ],
-            "cover_i": 7260688,
-            "ebook_access": "borrowable",
-            "edition_count": 4,
-            "first_publish_year": 1984,
-            "has_fulltext": true,
-            "ia": [
-                "bylovebewitched0000wins"
-            ],
-            "ia_collection": [
-                "inlibrary",
-                "internetarchivebooks",
-                "printdisabled"
-            ],
-            "key": "/works/OL4440535W",
-            "language": [
-                "eng"
-            ],
-            "lending_edition_s": "OL10738301M",
-            "lending_identifier_s": "bylovebewitched0000wins",
-            "public_scan_b": false,
-            "title": "By Love Bewitched"
-        },
-        {
-            "author_key": [
-                "OL7991171A"
-            ],
-            "author_name": [
-                "Rachel Reid"
-            ],
-            "cover_edition_key": "OL62083534M",
-            "cover_i": 15226452,
-            "ebook_access": "no_ebook",
-            "edition_count": 7,
-            "first_publish_year": 2019,
-            "has_fulltext": false,
-            "key": "/works/OL25434351W",
-            "language": [
-                "eng",
-                "spa"
-            ],
-            "public_scan_b": false,
-            "series_key": [
-                "OL331100L"
-            ],
-            "series_name": [
-                "Game Changers"
-            ],
-            "series_position": [
-                "2"
-            ],
-            "title": "Heated Rivalry"
-        },
-        {
-            "author_key": [
-                "OL687900A"
-            ],
-            "author_name": [
-                "Jessica Steele"
-            ],
-            "cover_edition_key": "OL10691123M",
-            "cover_i": 11404781,
-            "ebook_access": "borrowable",
-            "edition_count": 3,
-            "first_publish_year": 1979,
-            "has_fulltext": true,
-            "ia": [
-                "hostileengagemen0000stee"
-            ],
-            "ia_collection": [
-                "inlibrary",
-                "internetarchivebooks",
-                "openlibrary-d-ol",
-                "printdisabled"
-            ],
-            "key": "/works/OL8433267W",
-            "language": [
-                "und",
-                "eng"
-            ],
-            "lending_edition_s": "OL10691123M",
-            "lending_identifier_s": "hostileengagemen0000stee",
-            "public_scan_b": false,
-            "title": "Hostile Engagement"
         },
         {
             "author_key": [
@@ -3149,6 +2997,149 @@
             "lending_identifier_s": "bargainwife00harl",
             "public_scan_b": false,
             "title": "Bargain Wife"
+        },
+        {
+            "author_key": [
+                "OL661093A"
+            ],
+            "author_name": [
+                "Penny Jordan"
+            ],
+            "cover_edition_key": "OL9750671M",
+            "cover_i": 1155071,
+            "ebook_access": "printdisabled",
+            "edition_count": 10,
+            "first_publish_year": 2005,
+            "has_fulltext": true,
+            "ia": [
+                "expectingplayboy00penn",
+                "expectingplayboy0000jord"
+            ],
+            "ia_collection": [
+                "internetarchivebooks",
+                "printdisabled"
+            ],
+            "key": "/works/OL3759292W",
+            "language": [
+                "eng"
+            ],
+            "public_scan_b": false,
+            "title": "Expecting the Playboy's Heir"
+        },
+        {
+            "author_key": [
+                "OL9397555A"
+            ],
+            "author_name": [
+                "Emily McIntire"
+            ],
+            "cover_edition_key": "OL40120396M",
+            "cover_i": 14420484,
+            "ebook_access": "no_ebook",
+            "edition_count": 7,
+            "first_publish_year": 2021,
+            "has_fulltext": false,
+            "key": "/works/OL25555522W",
+            "language": [
+                "eng"
+            ],
+            "public_scan_b": false,
+            "title": "Hooked"
+        },
+        {
+            "author_key": [
+                "OL3292941A"
+            ],
+            "author_name": [
+                "Helen Bianchin"
+            ],
+            "cover_edition_key": "OL9736303M",
+            "cover_i": 215102,
+            "ebook_access": "printdisabled",
+            "edition_count": 10,
+            "first_publish_year": 2005,
+            "has_fulltext": true,
+            "ia": [
+                "greeksboughtwife00hele"
+            ],
+            "ia_collection": [
+                "americana",
+                "delawarecountydistrictlibrary",
+                "internetarchivebooks",
+                "library_of_atlantis",
+                "openlibrary-d-ol",
+                "printdisabled"
+            ],
+            "key": "/works/OL3498559W",
+            "language": [
+                "eng"
+            ],
+            "public_scan_b": false,
+            "title": "The Greek's Bought Wife"
+        },
+        {
+            "author_key": [
+                "OL575932A"
+            ],
+            "author_name": [
+                "Betty Neels"
+            ],
+            "cover_edition_key": "OL7421953M",
+            "cover_i": 221872,
+            "ebook_access": "printdisabled",
+            "edition_count": 18,
+            "first_publish_year": 1957,
+            "has_fulltext": true,
+            "ia": [
+                "starsthroughmist00neel",
+                "starsthroughmist00neel"
+            ],
+            "ia_collection": [
+                "americana",
+                "delawarecountydistrictlibrary",
+                "internetarchivebooks",
+                "printdisabled"
+            ],
+            "key": "/works/OL3457886W",
+            "language": [
+                "eng"
+            ],
+            "public_scan_b": false,
+            "title": "Stars Through the Mist"
+        },
+        {
+            "author_key": [
+                "OL30714A"
+            ],
+            "author_name": [
+                "Linda Howard"
+            ],
+            "cover_edition_key": "OL8137613M",
+            "cover_i": 1474178,
+            "ebook_access": "printdisabled",
+            "edition_count": 10,
+            "first_publish_year": 1985,
+            "has_fulltext": true,
+            "ia": [
+                "sarahschildsilho00lind",
+                "sarahschild00howa_0",
+                "sarahschild00lind"
+            ],
+            "ia_collection": [
+                "americana",
+                "delawarecountydistrictlibrary",
+                "internetarchivebooks",
+                "library_of_atlantis",
+                "openlibrary-d-ol",
+                "printdisabled",
+                "stmaryscountylibrary"
+            ],
+            "key": "/works/OL491810W",
+            "language": [
+                "eng"
+            ],
+            "public_scan_b": false,
+            "title": "Sarah's Child"
         }
     ]
 }

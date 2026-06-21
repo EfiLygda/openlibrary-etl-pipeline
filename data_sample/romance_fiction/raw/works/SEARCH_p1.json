@@ -1,8 +1,8 @@
 {
-    "numFound": 223352,
+    "numFound": 222215,
     "start": 0,
     "numFoundExact": true,
-    "num_found": 223352,
+    "num_found": 222215,
     "documentation_url": "https://openlibrary.org/dev/docs/api/search",
     "q": "",
     "offset": null,
@@ -105,28 +105,6 @@
         },
         {
             "author_key": [
-                "OL11086929A"
-            ],
-            "author_name": [
-                "Lauren Roberts"
-            ],
-            "cover_edition_key": "OL48316907M",
-            "cover_i": 14567864,
-            "ebook_access": "no_ebook",
-            "edition_count": 13,
-            "first_publish_year": 2023,
-            "has_fulltext": false,
-            "key": "/works/OL34774028W",
-            "language": [
-                "eng",
-                "spa",
-                "por"
-            ],
-            "public_scan_b": false,
-            "title": "Powerless"
-        },
-        {
-            "author_key": [
                 "OL7680979A"
             ],
             "author_name": [
@@ -155,6 +133,50 @@
             "lending_identifier_s": "punk570000rene",
             "public_scan_b": false,
             "title": "Punk 57"
+        },
+        {
+            "author_key": [
+                "OL11086929A"
+            ],
+            "author_name": [
+                "Lauren Roberts"
+            ],
+            "cover_edition_key": "OL48316907M",
+            "cover_i": 14567864,
+            "ebook_access": "no_ebook",
+            "edition_count": 13,
+            "first_publish_year": 2023,
+            "has_fulltext": false,
+            "key": "/works/OL34774028W",
+            "language": [
+                "eng",
+                "spa",
+                "por"
+            ],
+            "public_scan_b": false,
+            "title": "Powerless"
+        },
+        {
+            "author_key": [
+                "OL7620131A"
+            ],
+            "author_name": [
+                "Casey McQuiston"
+            ],
+            "cover_edition_key": "OL27270721M",
+            "cover_i": 9171544,
+            "ebook_access": "no_ebook",
+            "edition_count": 20,
+            "first_publish_year": 2019,
+            "has_fulltext": false,
+            "key": "/works/OL20090688W",
+            "language": [
+                "spa",
+                "eng",
+                "ger"
+            ],
+            "public_scan_b": false,
+            "title": "Red, White & Royal Blue"
         },
         {
             "author_key": [
@@ -187,28 +209,6 @@
         },
         {
             "author_key": [
-                "OL7620131A"
-            ],
-            "author_name": [
-                "Casey McQuiston"
-            ],
-            "cover_edition_key": "OL27270721M",
-            "cover_i": 9171544,
-            "ebook_access": "no_ebook",
-            "edition_count": 20,
-            "first_publish_year": 2019,
-            "has_fulltext": false,
-            "key": "/works/OL20090688W",
-            "language": [
-                "spa",
-                "eng",
-                "ger"
-            ],
-            "public_scan_b": false,
-            "title": "Red, White & Royal Blue"
-        },
-        {
-            "author_key": [
                 "OL7315784A",
                 "OL12660191A"
             ],
@@ -232,10 +232,10 @@
             ],
             "key": "/works/OL20564687W",
             "language": [
-                "pol",
                 "tur",
-                "eng",
+                "pol",
                 "fre",
+                "eng",
                 "spa"
             ],
             "public_scan_b": false,
@@ -269,39 +269,6 @@
                 "3"
             ],
             "title": "Twisted Hate"
-        },
-        {
-            "author_key": [
-                "OL451969A"
-            ],
-            "author_name": [
-                "Emma Darcy"
-            ],
-            "cover_edition_key": "OL10280988M",
-            "cover_i": 10387434,
-            "ebook_access": "borrowable",
-            "edition_count": 3,
-            "first_publish_year": 1992,
-            "has_fulltext": true,
-            "ia": [
-                "breakingpoint0000darc",
-                "breakingpoint0000darc_a8r4",
-                "breakingpoint0000darc_j4q6"
-            ],
-            "ia_collection": [
-                "inlibrary",
-                "internetarchivebooks",
-                "openlibrary-d-ol",
-                "printdisabled"
-            ],
-            "key": "/works/OL2959315W",
-            "language": [
-                "eng"
-            ],
-            "lending_edition_s": "OL10738837M",
-            "lending_identifier_s": "breakingpoint0000darc",
-            "public_scan_b": false,
-            "title": "Breaking Point"
         },
         {
             "author_key": [
@@ -351,8 +318,8 @@
             "key": "/works/OL27310398W",
             "language": [
                 "spa",
-                "eng",
-                "ger"
+                "ger",
+                "eng"
             ],
             "public_scan_b": false,
             "series_key": [
@@ -400,6 +367,39 @@
         },
         {
             "author_key": [
+                "OL451969A"
+            ],
+            "author_name": [
+                "Emma Darcy"
+            ],
+            "cover_edition_key": "OL10280988M",
+            "cover_i": 10387434,
+            "ebook_access": "borrowable",
+            "edition_count": 3,
+            "first_publish_year": 1992,
+            "has_fulltext": true,
+            "ia": [
+                "breakingpoint0000darc_a8r4",
+                "breakingpoint0000darc_j4q6",
+                "breakingpoint0000darc"
+            ],
+            "ia_collection": [
+                "inlibrary",
+                "internetarchivebooks",
+                "openlibrary-d-ol",
+                "printdisabled"
+            ],
+            "key": "/works/OL2959315W",
+            "language": [
+                "eng"
+            ],
+            "lending_edition_s": "OL10280988M",
+            "lending_identifier_s": "breakingpoint0000darc_a8r4",
+            "public_scan_b": false,
+            "title": "Breaking Point"
+        },
+        {
+            "author_key": [
                 "OL7315784A"
             ],
             "author_name": [
@@ -413,82 +413,16 @@
             "has_fulltext": false,
             "key": "/works/OL20068530W",
             "language": [
-                "heb",
+                "eng",
+                "chi",
+                "spa",
                 "pol",
                 "ger",
                 "tur",
-                "eng",
-                "chi",
-                "spa"
+                "heb"
             ],
             "public_scan_b": false,
             "title": "Verity"
-        },
-        {
-            "author_key": [
-                "OL661093A"
-            ],
-            "author_name": [
-                "Penny Jordan"
-            ],
-            "cover_i": 7248501,
-            "ebook_access": "borrowable",
-            "edition_count": 8,
-            "first_publish_year": 1982,
-            "has_fulltext": true,
-            "ia": [
-                "boughtwithhisnam00penn"
-            ],
-            "ia_collection": [
-                "americana",
-                "inlibrary",
-                "internetarchivebooks",
-                "openlibrary-d-ol",
-                "printdisabled"
-            ],
-            "key": "/works/OL3759285W",
-            "language": [
-                "eng"
-            ],
-            "lending_edition_s": "OL9315113M",
-            "lending_identifier_s": "boughtwithhisnam00penn",
-            "public_scan_b": false,
-            "title": "Bought with His Name"
-        },
-        {
-            "author_key": [
-                "OL575932A"
-            ],
-            "author_name": [
-                "Betty Neels"
-            ],
-            "cover_edition_key": "OL9306847M",
-            "cover_i": 1186940,
-            "ebook_access": "borrowable",
-            "edition_count": 10,
-            "first_publish_year": 1990,
-            "has_fulltext": true,
-            "ia": [
-                "bestofbettyneels0000neel_g5k8",
-                "girlwithgreeneye00neel"
-            ],
-            "ia_collection": [
-                "americana",
-                "delawarecountydistrictlibrary",
-                "inlibrary",
-                "internetarchivebooks",
-                "library_of_atlantis",
-                "openlibrary-d-ol",
-                "printdisabled"
-            ],
-            "key": "/works/OL3458001W",
-            "language": [
-                "eng"
-            ],
-            "lending_edition_s": "OL9306847M",
-            "lending_identifier_s": "bestofbettyneels0000neel_g5k8",
-            "public_scan_b": false,
-            "title": "The Girl with Green Eyes"
         },
         {
             "author_key": [
@@ -641,6 +575,37 @@
             "lending_identifier_s": "tocatchbutterfly00harl",
             "public_scan_b": false,
             "title": "To Catch A Butterfly"
+        },
+        {
+            "author_key": [
+                "OL661093A"
+            ],
+            "author_name": [
+                "Penny Jordan"
+            ],
+            "cover_i": 7248501,
+            "ebook_access": "borrowable",
+            "edition_count": 8,
+            "first_publish_year": 1982,
+            "has_fulltext": true,
+            "ia": [
+                "boughtwithhisnam00penn"
+            ],
+            "ia_collection": [
+                "americana",
+                "inlibrary",
+                "internetarchivebooks",
+                "openlibrary-d-ol",
+                "printdisabled"
+            ],
+            "key": "/works/OL3759285W",
+            "language": [
+                "eng"
+            ],
+            "lending_edition_s": "OL9315113M",
+            "lending_identifier_s": "boughtwithhisnam00penn",
+            "public_scan_b": false,
+            "title": "Bought with His Name"
         },
         {
             "author_key": [
@@ -1012,37 +977,6 @@
         },
         {
             "author_key": [
-                "OL579518A"
-            ],
-            "author_name": [
-                "Robyn Donald"
-            ],
-            "cover_edition_key": "OL14977691M",
-            "cover_i": 12147555,
-            "ebook_access": "borrowable",
-            "edition_count": 5,
-            "first_publish_year": 1983,
-            "has_fulltext": true,
-            "ia": [
-                "guardedheartharl0000roby",
-                "guardedheart0000dona"
-            ],
-            "ia_collection": [
-                "inlibrary",
-                "internetarchivebooks",
-                "printdisabled"
-            ],
-            "key": "/works/OL3475982W",
-            "language": [
-                "eng"
-            ],
-            "lending_edition_s": "OL9745124M",
-            "lending_identifier_s": "guardedheartharl0000roby",
-            "public_scan_b": false,
-            "title": "The Guarded Heart"
-        },
-        {
-            "author_key": [
                 "OL661093A"
             ],
             "author_name": [
@@ -1068,6 +1002,41 @@
             ],
             "public_scan_b": false,
             "title": "Past Passion"
+        },
+        {
+            "author_key": [
+                "OL575932A"
+            ],
+            "author_name": [
+                "Betty Neels"
+            ],
+            "cover_edition_key": "OL9306847M",
+            "cover_i": 1186940,
+            "ebook_access": "borrowable",
+            "edition_count": 10,
+            "first_publish_year": 1990,
+            "has_fulltext": true,
+            "ia": [
+                "bestofbettyneels0000neel_g5k8",
+                "girlwithgreeneye00neel"
+            ],
+            "ia_collection": [
+                "americana",
+                "delawarecountydistrictlibrary",
+                "inlibrary",
+                "internetarchivebooks",
+                "library_of_atlantis",
+                "openlibrary-d-ol",
+                "printdisabled"
+            ],
+            "key": "/works/OL3458001W",
+            "language": [
+                "eng"
+            ],
+            "lending_edition_s": "OL9306847M",
+            "lending_identifier_s": "bestofbettyneels0000neel_g5k8",
+            "public_scan_b": false,
+            "title": "The Girl with Green Eyes"
         },
         {
             "author_key": [
@@ -1104,37 +1073,6 @@
         },
         {
             "author_key": [
-                "OL661093A"
-            ],
-            "author_name": [
-                "Penny Jordan"
-            ],
-            "cover_edition_key": "OL9805839M",
-            "cover_i": 12394501,
-            "ebook_access": "borrowable",
-            "edition_count": 6,
-            "first_publish_year": 1989,
-            "has_fulltext": true,
-            "ia": [
-                "loverstouch00penn"
-            ],
-            "ia_collection": [
-                "inlibrary",
-                "internetarchivebooks",
-                "printdisabled"
-            ],
-            "key": "/works/OL3759116W",
-            "language": [
-                "eng",
-                "ita"
-            ],
-            "lending_edition_s": "OL9805839M",
-            "lending_identifier_s": "loverstouch00penn",
-            "public_scan_b": false,
-            "title": "Lover's Touch"
-        },
-        {
-            "author_key": [
                 "OL2763201A"
             ],
             "author_name": [
@@ -1153,7 +1091,6 @@
                 "americana",
                 "inlibrary",
                 "internetarchivebooks",
-                "openlibrary-d-ol",
                 "printdisabled"
             ],
             "key": "/works/OL8315359W",
@@ -1227,6 +1164,37 @@
             "lending_identifier_s": "manpossessed00penn_w8y",
             "public_scan_b": false,
             "title": "A Man Possessed"
+        },
+        {
+            "author_key": [
+                "OL661093A"
+            ],
+            "author_name": [
+                "Penny Jordan"
+            ],
+            "cover_edition_key": "OL9805839M",
+            "cover_i": 12394501,
+            "ebook_access": "borrowable",
+            "edition_count": 6,
+            "first_publish_year": 1989,
+            "has_fulltext": true,
+            "ia": [
+                "loverstouch00penn"
+            ],
+            "ia_collection": [
+                "inlibrary",
+                "internetarchivebooks",
+                "printdisabled"
+            ],
+            "key": "/works/OL3759116W",
+            "language": [
+                "eng",
+                "ita"
+            ],
+            "lending_edition_s": "OL9805839M",
+            "lending_identifier_s": "loverstouch00penn",
+            "public_scan_b": false,
+            "title": "Lover's Touch"
         },
         {
             "author_key": [
@@ -1378,9 +1346,9 @@
                 "bluecastle0000lmmo",
                 "isbn_9781987467802",
                 "bluecastle0000unse_a1b9",
+                "bluecastle0000lucy_y0h3",
                 "bluecastle0000mont_n3v9",
-                "bluecastle0000unse",
-                "bluecastle0000lucy_y0h3"
+                "bluecastle0000unse"
             ],
             "ia_collection": [
                 "hamiltonpubliclibrary-ol",
@@ -1391,8 +1359,8 @@
             ],
             "key": "/works/OL77775W",
             "language": [
-                "chi",
                 "eng",
+                "chi",
                 "fre"
             ],
             "lending_edition_s": "OL46930495M",
@@ -1499,6 +1467,36 @@
         },
         {
             "author_key": [
+                "OL4728806A"
+            ],
+            "author_name": [
+                "Charlotte Lamb"
+            ],
+            "cover_i": 7265400,
+            "ebook_access": "borrowable",
+            "edition_count": 6,
+            "first_publish_year": 1979,
+            "has_fulltext": true,
+            "ia": [
+                "twistoffate00lamb"
+            ],
+            "ia_collection": [
+                "americana",
+                "inlibrary",
+                "internetarchivebooks",
+                "printdisabled"
+            ],
+            "key": "/works/OL11277315W",
+            "language": [
+                "eng"
+            ],
+            "lending_edition_s": "OL9774846M",
+            "lending_identifier_s": "twistoffate00lamb",
+            "public_scan_b": false,
+            "title": "Twist of Fate"
+        },
+        {
+            "author_key": [
                 "OL7315784A"
             ],
             "author_name": [
@@ -1529,33 +1527,34 @@
         },
         {
             "author_key": [
-                "OL4728806A"
+                "OL579518A"
             ],
             "author_name": [
-                "Charlotte Lamb"
+                "Robyn Donald"
             ],
-            "cover_i": 7265400,
+            "cover_edition_key": "OL14977691M",
+            "cover_i": 12147555,
             "ebook_access": "borrowable",
-            "edition_count": 6,
-            "first_publish_year": 1979,
+            "edition_count": 5,
+            "first_publish_year": 1983,
             "has_fulltext": true,
             "ia": [
-                "twistoffate00lamb"
+                "guardedheartharl0000roby",
+                "guardedheart0000dona"
             ],
             "ia_collection": [
-                "americana",
                 "inlibrary",
                 "internetarchivebooks",
                 "printdisabled"
             ],
-            "key": "/works/OL11277315W",
+            "key": "/works/OL3475982W",
             "language": [
                 "eng"
             ],
-            "lending_edition_s": "OL9774846M",
-            "lending_identifier_s": "twistoffate00lamb",
+            "lending_edition_s": "OL9745124M",
+            "lending_identifier_s": "guardedheartharl0000roby",
             "public_scan_b": false,
-            "title": "Twist of Fate"
+            "title": "The Guarded Heart"
         },
         {
             "author_key": [
@@ -1804,6 +1803,35 @@
         },
         {
             "author_key": [
+                "OL811660A"
+            ],
+            "author_name": [
+                "Michelle Reid"
+            ],
+            "cover_edition_key": "OL17413527M",
+            "cover_i": 10199624,
+            "ebook_access": "printdisabled",
+            "edition_count": 11,
+            "first_publish_year": 1994,
+            "has_fulltext": true,
+            "ia": [
+                "passionatescanda00mich",
+                "passionatescanda0000reid"
+            ],
+            "ia_collection": [
+                "internetarchivebooks",
+                "printdisabled"
+            ],
+            "key": "/works/OL4233148W",
+            "language": [
+                "eng",
+                "fre"
+            ],
+            "public_scan_b": false,
+            "title": "Passionate Scandal"
+        },
+        {
+            "author_key": [
                 "OL7231968A"
             ],
             "author_name": [
@@ -1831,35 +1859,6 @@
             ],
             "public_scan_b": false,
             "title": "After We Collided (After Series, Book 2)"
-        },
-        {
-            "author_key": [
-                "OL811660A"
-            ],
-            "author_name": [
-                "Michelle Reid"
-            ],
-            "cover_edition_key": "OL17413527M",
-            "cover_i": 10199624,
-            "ebook_access": "printdisabled",
-            "edition_count": 11,
-            "first_publish_year": 1994,
-            "has_fulltext": true,
-            "ia": [
-                "passionatescanda00mich",
-                "passionatescanda0000reid"
-            ],
-            "ia_collection": [
-                "internetarchivebooks",
-                "printdisabled"
-            ],
-            "key": "/works/OL4233148W",
-            "language": [
-                "eng",
-                "fre"
-            ],
-            "public_scan_b": false,
-            "title": "Passionate Scandal"
         },
         {
             "author_key": [
@@ -1931,37 +1930,6 @@
         },
         {
             "author_key": [
-                "OL665753A"
-            ],
-            "author_name": [
-                "Lynne Graham"
-            ],
-            "cover_edition_key": "OL9739060M",
-            "cover_i": 214576,
-            "ebook_access": "printdisabled",
-            "edition_count": 11,
-            "first_publish_year": 1998,
-            "has_fulltext": true,
-            "ia": [
-                "reluctanthusband0000grah",
-                "reluctanthusband0000grah_g8d5",
-                "reluctanthusband00grah",
-                "reluctanthusband00grah"
-            ],
-            "ia_collection": [
-                "americana",
-                "internetarchivebooks",
-                "printdisabled"
-            ],
-            "key": "/works/OL7990767W",
-            "language": [
-                "eng"
-            ],
-            "public_scan_b": false,
-            "title": "The Reluctant Husband"
-        },
-        {
-            "author_key": [
                 "OL4728806A"
             ],
             "author_name": [
@@ -1990,6 +1958,37 @@
             "lending_identifier_s": "spellbinding00lamb",
             "public_scan_b": false,
             "title": "Spellbinding"
+        },
+        {
+            "author_key": [
+                "OL665753A"
+            ],
+            "author_name": [
+                "Lynne Graham"
+            ],
+            "cover_edition_key": "OL9739060M",
+            "cover_i": 214576,
+            "ebook_access": "printdisabled",
+            "edition_count": 11,
+            "first_publish_year": 1998,
+            "has_fulltext": true,
+            "ia": [
+                "reluctanthusband0000grah",
+                "reluctanthusband0000grah_g8d5",
+                "reluctanthusband00grah",
+                "reluctanthusband00grah"
+            ],
+            "ia_collection": [
+                "americana",
+                "internetarchivebooks",
+                "printdisabled"
+            ],
+            "key": "/works/OL7990767W",
+            "language": [
+                "eng"
+            ],
+            "public_scan_b": false,
+            "title": "The Reluctant Husband"
         },
         {
             "author_key": [
@@ -2491,37 +2490,6 @@
         },
         {
             "author_key": [
-                "OL7231968A"
-            ],
-            "author_name": [
-                "Anna Todd"
-            ],
-            "cover_i": 14418944,
-            "ebook_access": "printdisabled",
-            "edition_count": 11,
-            "first_publish_year": 2014,
-            "has_fulltext": true,
-            "ia": [
-                "isbn_9781476792484"
-            ],
-            "ia_collection": [
-                "denverpubliclibrary-ol",
-                "internetarchivebooks",
-                "miltonpubliclibrary-ol",
-                "occidentalcollegelibrary-ol",
-                "printdisabled",
-                "worthingtonlibraries-ol"
-            ],
-            "key": "/works/OL17719508W",
-            "language": [
-                "fre",
-                "eng"
-            ],
-            "public_scan_b": false,
-            "title": "After (After Series, Book 1)"
-        },
-        {
-            "author_key": [
                 "OL4728806A"
             ],
             "author_name": [
@@ -2553,6 +2521,37 @@
         },
         {
             "author_key": [
+                "OL7231968A"
+            ],
+            "author_name": [
+                "Anna Todd"
+            ],
+            "cover_i": 14418944,
+            "ebook_access": "printdisabled",
+            "edition_count": 11,
+            "first_publish_year": 2014,
+            "has_fulltext": true,
+            "ia": [
+                "isbn_9781476792484"
+            ],
+            "ia_collection": [
+                "denverpubliclibrary-ol",
+                "internetarchivebooks",
+                "miltonpubliclibrary-ol",
+                "occidentalcollegelibrary-ol",
+                "printdisabled",
+                "worthingtonlibraries-ol"
+            ],
+            "key": "/works/OL17719508W",
+            "language": [
+                "fre",
+                "eng"
+            ],
+            "public_scan_b": false,
+            "title": "After (After Series, Book 1)"
+        },
+        {
+            "author_key": [
                 "OL579518A"
             ],
             "author_name": [
@@ -2581,41 +2580,6 @@
             "lending_identifier_s": "iceberg00dona",
             "public_scan_b": false,
             "title": "Iceberg"
-        },
-        {
-            "author_key": [
-                "OL687900A"
-            ],
-            "author_name": [
-                "Jessica Steele"
-            ],
-            "cover_edition_key": "OL17491809M",
-            "cover_i": 6796572,
-            "ebook_access": "borrowable",
-            "edition_count": 8,
-            "first_publish_year": 1990,
-            "has_fulltext": true,
-            "ia": [
-                "passporttohappin00stee"
-            ],
-            "ia_collection": [
-                "inlibrary",
-                "internetarchivebooks",
-                "printdisabled"
-            ],
-            "key": "/works/OL3845173W",
-            "language": [
-                "fin",
-                "dut",
-                "nor",
-                "eng",
-                "swe",
-                "spa"
-            ],
-            "lending_edition_s": "OL17491809M",
-            "lending_identifier_s": "passporttohappin00stee",
-            "public_scan_b": false,
-            "title": "Passport to Happiness"
         },
         {
             "author_key": [
@@ -2746,35 +2710,38 @@
         },
         {
             "author_key": [
-                "OL1175057A"
+                "OL687900A"
             ],
             "author_name": [
-                "Margaret Way"
+                "Jessica Steele"
             ],
-            "cover_edition_key": "OL24238814M",
-            "cover_i": 6642068,
+            "cover_edition_key": "OL17491809M",
+            "cover_i": 6796572,
             "ebook_access": "borrowable",
-            "edition_count": 5,
-            "first_publish_year": 1979,
+            "edition_count": 8,
+            "first_publish_year": 1990,
             "has_fulltext": true,
             "ia": [
-                "butterflybaron00waym"
+                "passporttohappin00stee"
             ],
             "ia_collection": [
-                "americana",
                 "inlibrary",
                 "internetarchivebooks",
                 "printdisabled"
             ],
-            "key": "/works/OL5236211W",
+            "key": "/works/OL3845173W",
             "language": [
-                "und",
-                "eng"
+                "swe",
+                "eng",
+                "spa",
+                "dut",
+                "nor",
+                "fin"
             ],
-            "lending_edition_s": "OL24238814M",
-            "lending_identifier_s": "butterflybaron00waym",
+            "lending_edition_s": "OL17491809M",
+            "lending_identifier_s": "passporttohappin00stee",
             "public_scan_b": false,
-            "title": "The Butterfly and the Baron"
+            "title": "Passport to Happiness"
         },
         {
             "author_key": [
@@ -2807,37 +2774,35 @@
         },
         {
             "author_key": [
-                "OL661093A"
+                "OL1175057A"
             ],
             "author_name": [
-                "Penny Jordan"
+                "Margaret Way"
             ],
-            "cover_edition_key": "OL9396517M",
-            "cover_i": 6383650,
+            "cover_edition_key": "OL24238814M",
+            "cover_i": 6642068,
             "ebook_access": "borrowable",
-            "edition_count": 8,
-            "first_publish_year": 1982,
+            "edition_count": 5,
+            "first_publish_year": 1979,
             "has_fulltext": true,
             "ia": [
-                "blackmail0000jord",
-                "blackmailjord00jord",
-                "blackmail00jord"
+                "butterflybaron00waym"
             ],
             "ia_collection": [
                 "americana",
                 "inlibrary",
                 "internetarchivebooks",
-                "openlibrary-d-ol",
                 "printdisabled"
             ],
-            "key": "/works/OL11327982W",
+            "key": "/works/OL5236211W",
             "language": [
+                "und",
                 "eng"
             ],
-            "lending_edition_s": "OL14977422M",
-            "lending_identifier_s": "blackmail0000jord",
+            "lending_edition_s": "OL24238814M",
+            "lending_identifier_s": "butterflybaron00waym",
             "public_scan_b": false,
-            "title": "Blackmail"
+            "title": "The Butterfly and the Baron"
         },
         {
             "author_key": [
@@ -2872,6 +2837,40 @@
             "lending_identifier_s": "hiddenheart0000stee",
             "public_scan_b": false,
             "title": "Hidden Heart"
+        },
+        {
+            "author_key": [
+                "OL661093A"
+            ],
+            "author_name": [
+                "Penny Jordan"
+            ],
+            "cover_edition_key": "OL9396517M",
+            "cover_i": 6383650,
+            "ebook_access": "borrowable",
+            "edition_count": 8,
+            "first_publish_year": 1982,
+            "has_fulltext": true,
+            "ia": [
+                "blackmail0000jord",
+                "blackmailjord00jord",
+                "blackmail00jord"
+            ],
+            "ia_collection": [
+                "americana",
+                "inlibrary",
+                "internetarchivebooks",
+                "openlibrary-d-ol",
+                "printdisabled"
+            ],
+            "key": "/works/OL11327982W",
+            "language": [
+                "eng"
+            ],
+            "lending_edition_s": "OL14977422M",
+            "lending_identifier_s": "blackmail0000jord",
+            "public_scan_b": false,
+            "title": "Blackmail"
         },
         {
             "author_key": [
@@ -2969,6 +2968,35 @@
         },
         {
             "author_key": [
+                "OL808883A"
+            ],
+            "author_name": [
+                "Yvonne Whittal"
+            ],
+            "cover_i": 7283671,
+            "ebook_access": "borrowable",
+            "edition_count": 4,
+            "first_publish_year": 1982,
+            "has_fulltext": true,
+            "ia": [
+                "houseofmirrors00yvon"
+            ],
+            "ia_collection": [
+                "inlibrary",
+                "internetarchivebooks",
+                "printdisabled"
+            ],
+            "key": "/works/OL4225414W",
+            "language": [
+                "eng"
+            ],
+            "lending_edition_s": "OL10691317M",
+            "lending_identifier_s": "houseofmirrors00yvon",
+            "public_scan_b": false,
+            "title": "House of Mirrors"
+        },
+        {
+            "author_key": [
                 "OL2763201A"
             ],
             "author_name": [
@@ -2998,35 +3026,6 @@
             "lending_identifier_s": "isbn_0373348428",
             "public_scan_b": false,
             "title": "The Gift of Loving"
-        },
-        {
-            "author_key": [
-                "OL808883A"
-            ],
-            "author_name": [
-                "Yvonne Whittal"
-            ],
-            "cover_i": 7283671,
-            "ebook_access": "borrowable",
-            "edition_count": 4,
-            "first_publish_year": 1982,
-            "has_fulltext": true,
-            "ia": [
-                "houseofmirrors00yvon"
-            ],
-            "ia_collection": [
-                "inlibrary",
-                "internetarchivebooks",
-                "printdisabled"
-            ],
-            "key": "/works/OL4225414W",
-            "language": [
-                "eng"
-            ],
-            "lending_edition_s": "OL10691317M",
-            "lending_identifier_s": "houseofmirrors00yvon",
-            "public_scan_b": false,
-            "title": "House of Mirrors"
         },
         {
             "author_key": [

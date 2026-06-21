@@ -1,0 +1,6201 @@
+{
+    "status": "ok",
+    "result": {
+        "/books/OL2213330M": {
+            "publishers": [
+                "G.K. Hall"
+            ],
+            "series": [
+                "G.K. Hall large print book series"
+            ],
+            "key": "/books/OL2213330M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "publish_places": [
+                "Boston, Mass"
+            ],
+            "pagination": "p. cm.",
+            "source_records": [
+                "marc:marc_records_scriblio_net/part20.dat:155829961:760",
+                "marc:marc_loc_updates/v36.i04.records.utf8:6836807:750",
+                "marc:marc_loc_updates/v37.i38.records.utf8:4177955:750",
+                "ia:silverthaw0000neel_k5k1",
+                "amazon:0816148759",
+                "promise:bwb_daily_pallets_2022-03-17"
+            ],
+            "title": "The Silver Thaw",
+            "notes": "\"Published in large print by arrangement with Harlequin Enterprises\"--T.p. verso.",
+            "identifiers": {
+                "goodreads": [
+                    "4812412"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Large type books"
+            ],
+            "publish_date": "1989",
+            "publish_country": "mau",
+            "by_statement": "by Betty Neels.",
+            "works": [
+                {
+                    "key": "/works/OL3457874W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                12779894
+            ],
+            "ocaid": "silverthaw0000neel_k5k1",
+            "isbn_10": [
+                "0816148759"
+            ],
+            "lccn": [
+                "89036207"
+            ],
+            "oclc_numbers": [
+                "20056247"
+            ],
+            "classifications": {},
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "lc_classifications": [
+                "PR6064.E42 S55 1989"
+            ],
+            "local_id": [
+                "urn:bwbsku:P7-DYT-810"
+            ],
+            "latest_revision": 12,
+            "revision": 12,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-08T22:05:21.042925"
+            }
+        },
+        "/books/OL18078973M": {
+            "publishers": [
+                "Mills and Boon"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "971074"
+                ]
+            },
+            "key": "/books/OL18078973M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "187p. ;",
+            "source_records": [
+                "bwb:9780263097085",
+                "ia:bwb_W9-CUR-721"
+            ],
+            "title": "The Silver Thaw",
+            "number_of_pages": 187,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Fiction in English."
+            ],
+            "publish_date": "1980",
+            "publish_country": "xxk",
+            "by_statement": "by Betty Neels.",
+            "works": [
+                {
+                    "key": "/works/OL3457874W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_10": [
+                "0263097080"
+            ],
+            "oclc_numbers": [
+                "7121092"
+            ],
+            "dewey_decimal_class": [
+                "823/.9/1F"
+            ],
+            "covers": [
+                14920954
+            ],
+            "ocaid": "bwb_W9-CUR-721",
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-09T18:29:50.323980"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-04-28T02:40:08.313975"
+            }
+        },
+        "/books/OL7416936M": {
+            "publishers": [
+                "Harlequin",
+                "Harlequin Readers' Choice"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "1594193"
+                ],
+                "librarything": [
+                    "971074"
+                ]
+            },
+            "source_records": [
+                "bwb:9780373470617",
+                "marc:marc_loc_2016/BooksAll.2016.part34.utf8:78843964:719",
+                "promise:bwb_daily_pallets_2023-01-16:P8-DGC-424"
+            ],
+            "title": "The Silver Thaw (The Best of Betty Neels)",
+            "number_of_pages": 224,
+            "covers": [
+                218731
+            ],
+            "isbn_13": [
+                "9780373470617"
+            ],
+            "isbn_10": [
+                "0373470614"
+            ],
+            "publish_date": "April 11, 2006",
+            "key": "/books/OL7416936M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "oclc_numbers": [
+                "66525738"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3457874W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "lccn": [
+                "2006576324"
+            ],
+            "lc_classifications": [
+                "CPB Box no. 2446 vol. 21",
+                "CPB"
+            ],
+            "local_id": [
+                "urn:bwbsku:P8-DGC-424"
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T00:56:07.670226"
+            }
+        },
+        "/books/OL10280449M": {
+            "publishers": [
+                "Mills&Boon"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "6784914"
+                ]
+            },
+            "source_records": [
+                "bwb:9780263518009",
+                "amazon:0263518000"
+            ],
+            "title": "Bauhinia Junction",
+            "physical_format": "Hardcover",
+            "number_of_pages": 192,
+            "contributions": [
+                "DJ is Illustrated (Illustrator)"
+            ],
+            "isbn_13": [
+                "9780263518009"
+            ],
+            "isbn_10": [
+                "0263518000"
+            ],
+            "publish_date": "1971",
+            "key": "/books/OL10280449M",
+            "authors": [
+                {
+                    "key": "/authors/OL1175057A"
+                }
+            ],
+            "oclc_numbers": [
+                "47641806"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL5236089W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                13235199
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-03T18:38:24.863834"
+            }
+        },
+        "/books/OL24935092M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "number_of_pages": 192,
+            "ia_box_id": [
+                "IA123403"
+            ],
+            "series": [
+                "Harlequin presents -- 94"
+            ],
+            "covers": [
+                6980491
+            ],
+            "ia_loaded_id": [
+                "bauhiniajunction00waym"
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-10-04T21:04:07.409885"
+            },
+            "latest_revision": 6,
+            "key": "/books/OL24935092M",
+            "authors": [
+                {
+                    "key": "/authors/OL1175057A"
+                }
+            ],
+            "ocaid": "bauhiniajunction00waym",
+            "publish_places": [
+                "Toronto"
+            ],
+            "pagination": "192 p. ;",
+            "classifications": {},
+            "source_records": [
+                "ia:bauhiniajunction00waym"
+            ],
+            "title": "Bauhinia Junction",
+            "identifiers": {},
+            "full_title": "Bauhinia Junction",
+            "created": {
+                "type": "/type/datetime",
+                "value": "2011-08-08T02:18:49.028295"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1975",
+            "publish_country": "onc",
+            "copyright_date": "1971",
+            "by_statement": "Margaret Way",
+            "oclc_numbers": [
+                "12046939"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL5236089W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 6
+        },
+        "/books/OL29632106M": {
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "source_records": [
+                "bwb:9781459205215"
+            ],
+            "title": "The Promise of Happiness",
+            "number_of_pages": 384,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Promise of Happiness",
+            "publish_date": "2011",
+            "key": "/books/OL29632106M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3457845W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_13": [
+                "9781459205215"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-29T05:08:34.714130"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-03-03T10:07:42.949334"
+            }
+        },
+        "/books/OL10280561M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "title": "The Promise of Happiness",
+            "identifiers": {
+                "goodreads": [
+                    "414625"
+                ],
+                "librarything": [
+                    "2248129"
+                ]
+            },
+            "physical_format": "Paperback",
+            "isbn_10": [
+                "0263730530"
+            ],
+            "publish_date": "1983",
+            "key": "/books/OL10280561M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3457845W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:KQ-842-407"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-07-11"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-08T22:03:37.660229"
+            }
+        },
+        "/books/OL10691122M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "covers": [
+                9805187
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL10691122M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "source_records": [
+                "bwb:9780373023011",
+                "amazon:0373023014",
+                "promise:bwb_daily_pallets_2021-05-13"
+            ],
+            "title": "The Promise of Happiness",
+            "identifiers": {
+                "librarything": [
+                    "2248129"
+                ],
+                "goodreads": [
+                    "414622"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1979",
+            "works": [
+                {
+                    "key": "/works/OL3457845W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "promiseofhappine00bett",
+            "isbn_10": [
+                "0373023014"
+            ],
+            "isbn_13": [
+                "9780373023011"
+            ],
+            "oclc_numbers": [
+                "6848652"
+            ],
+            "classifications": {},
+            "local_id": [
+                "urn:bwbsku:O7-AIC-948"
+            ],
+            "latest_revision": 13,
+            "revision": 13,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-08T22:03:37.660229"
+            }
+        },
+        "/books/OL10748936M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "414624"
+                ]
+            },
+            "subtitle": "(Promise Of Happiness) (Harlequin Jazmin (Spanish))",
+            "weight": "2.4 ounces",
+            "covers": [
+                2410851
+            ],
+            "physical_format": "Mass Market Paperback",
+            "key": "/books/OL10748936M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "subjects": [
+                "Romance - General",
+                "Fiction / Romance / General",
+                "Romance - Contemporary",
+                "Fiction",
+                "Fiction - Romance",
+                "Spanish: Adult Fiction"
+            ],
+            "isbn_13": [
+                "9780373683154"
+            ],
+            "source_records": [
+                "amazon:0373683154",
+                "marc:marc_loc_updates/v37.i25.records.utf8:36793488:917",
+                "bwb:9780373683154",
+                "marc:marc_loc_2016/BooksAll.2016.part36.utf8:228028244:917"
+            ],
+            "title": "Promesa De Felicidad",
+            "number_of_pages": 160,
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "isbn_10": [
+                "0373683154"
+            ],
+            "publish_date": "July 11, 2006",
+            "oclc_numbers": [
+                "70253555"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3457845W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.5 x 4.2 x 0.3 inches",
+            "lccn": [
+                "2009368100"
+            ],
+            "lc_classifications": [
+                "CPB Box no. 2817 vol. 11"
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-12-23T12:32:42.320517"
+            }
+        },
+        "/books/OL38277899M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "isbn_13": [
+                "9781299351127"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2011",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781299351127"
+            ],
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "title": "Vengeful Husband",
+            "full_title": "Vengeful Husband",
+            "works": [
+                {
+                    "key": "/works/OL3773983W"
+                }
+            ],
+            "key": "/books/OL38277899M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-17T13:10:40.009459"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-27T22:26:44.788452"
+            }
+        },
+        "/books/OL29783150M": {
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "source_records": [
+                "bwb:9781488097348"
+            ],
+            "title": "The Vengeful Husband",
+            "number_of_pages": 192,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Vengeful Husband",
+            "publish_date": "2018",
+            "key": "/books/OL29783150M",
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3773983W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "identifiers": {},
+            "classifications": {},
+            "series": [
+                "The Husband Hunters Book 2"
+            ],
+            "isbn_13": [
+                "9781488097348"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-31T04:23:03.224917"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-02-23T10:24:38.516727"
+            }
+        },
+        "/books/OL29263520M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781408996225"
+            ],
+            "title": "The Vengeful Husband",
+            "number_of_pages": 250,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Vengeful Husband",
+            "publish_date": "2014",
+            "key": "/books/OL29263520M",
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3773983W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "identifiers": {},
+            "classifications": {},
+            "series": [
+                "The Husband Hunters Book 2"
+            ],
+            "isbn_13": [
+                "9781408996225"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-24T00:30:21.212681"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-02-23T10:24:38.516727"
+            }
+        },
+        "/books/OL18238620M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "3831250"
+                ],
+                "goodreads": [
+                    "3200872"
+                ]
+            },
+            "series": [
+                "Romance"
+            ],
+            "key": "/books/OL18238620M",
+            "authors": [
+                {
+                    "key": "/authors/OL451969A"
+                }
+            ],
+            "publish_places": [
+                "Richmond"
+            ],
+            "pagination": "186p. ;",
+            "source_records": [
+                "bwb:9780263788662",
+                "promise:bwb_daily_pallets_2021-02-04"
+            ],
+            "title": "The last grand passion",
+            "dewey_decimal_class": [
+                "823.914"
+            ],
+            "number_of_pages": 186,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263788660"
+            ],
+            "publish_date": "1995",
+            "publish_country": "enk",
+            "by_statement": "by Emma Darcy.",
+            "oclc_numbers": [
+                "60224146"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL2959362W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:KP-008-565"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-15T08:04:45.646706"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-08T22:57:26.566426"
+            }
+        },
+        "/books/OL9735147M": {
+            "identifiers": {
+                "goodreads": [
+                    "1526558"
+                ],
+                "librarything": [
+                    "3475991"
+                ]
+            },
+            "title": "The Greek Tycoon's Virgin Wife (Harlequin Presents)",
+            "authors": [
+                {
+                    "key": "/authors/OL3292941A"
+                }
+            ],
+            "publish_date": "October 1, 2007",
+            "publishers": [
+                "Harlequin"
+            ],
+            "weight": "3.5 ounces",
+            "covers": [
+                5008094
+            ],
+            "physical_format": "Mass Market Paperback",
+            "subjects": [
+                "American Light Romantic Fiction",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern",
+                "Romance - Contemporary",
+                "Fiction / Romance / General"
+            ],
+            "isbn_13": [
+                "9780373126699"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373126697"
+            ],
+            "oclc_numbers": [
+                "156729328"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.6 x 4.1 x 0.6 inches",
+            "source_records": [
+                "amazon:0373126697"
+            ],
+            "key": "/books/OL9735147M",
+            "number_of_pages": 192,
+            "works": [
+                {
+                    "key": "/works/OL3498560W"
+                }
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-08T00:13:16.332335"
+            }
+        },
+        "/books/OL28953629M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263153569"
+            ],
+            "title": "Ideal Marriage?",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9780263153569"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Ideal Marriage?",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "1997",
+            "key": "/books/OL28953629M",
+            "authors": [
+                {
+                    "key": "/authors/OL3292941A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3498542W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, general"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T06:09:09.116844"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-17T23:14:29.760792"
+            }
+        },
+        "/books/OL9738779M": {
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "number_of_pages": 288,
+            "weight": "13.3 ounces",
+            "covers": [
+                152746
+            ],
+            "physical_format": "Hardcover",
+            "key": "/books/OL9738779M",
+            "authors": [
+                {
+                    "key": "/authors/OL3292941A"
+                }
+            ],
+            "ocaid": "idealmarriage00hele",
+            "subjects": [
+                "Romance",
+                "Romance - General",
+                "Fiction - Romance",
+                "Westerns"
+            ],
+            "edition_name": "Largeprint edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "bwb:9780263153712",
+                "amazon:0263153711",
+                "promise:bwb_daily_pallets_2022-07-26"
+            ],
+            "title": "An Ideal Marriage?",
+            "identifiers": {
+                "librarything": [
+                    "1606075"
+                ],
+                "goodreads": [
+                    "6955968"
+                ]
+            },
+            "isbn_13": [
+                "9780263153712"
+            ],
+            "isbn_10": [
+                "0263153711"
+            ],
+            "publish_date": "February 1998",
+            "works": [
+                {
+                    "key": "/works/OL3498542W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.4 x 5.6 x 1 inches",
+            "local_id": [
+                "urn:bwbsku:960-BAC-056"
+            ],
+            "latest_revision": 13,
+            "revision": 13,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-04T21:59:48.825533"
+            }
+        },
+        "/books/OL29674616M": {
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "source_records": [
+                "bwb:9780373249787"
+            ],
+            "title": "The Vicar's Daughter",
+            "number_of_pages": 192,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Vicar's Daughter",
+            "publish_date": "2013",
+            "key": "/books/OL29674616M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3457919W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9780373249787"
+            ],
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-29T18:09:50.234420"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-06T11:40:04.483241"
+            }
+        },
+        "/books/OL29127372M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781408983188"
+            ],
+            "title": "The Vicar's Daughter",
+            "number_of_pages": 220,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Vicar's Daughter",
+            "publish_date": "2012",
+            "key": "/books/OL29127372M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3457919W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9781408983188"
+            ],
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-22T09:29:02.521730"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-06T11:40:04.483241"
+            }
+        },
+        "/books/OL3388774M": {
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "number_of_pages": 218,
+            "series": [
+                "Harlequin romance"
+            ],
+            "covers": [
+                4257606
+            ],
+            "key": "/books/OL3388774M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "publish_places": [
+                "Toronto",
+                "New York"
+            ],
+            "contributions": [
+                "Copyright Paperback Collection (Library of Congress)"
+            ],
+            "pagination": "218 p. ;",
+            "source_records": [
+                "bwb:9780373810741",
+                "marc:marc_loc_2016/BooksAll.2016.part32.utf8:106641282:780",
+                "amazon:0373810741"
+            ],
+            "title": "The Vicar's Daughter",
+            "identifiers": {
+                "librarything": [
+                    "1919733"
+                ],
+                "goodreads": [
+                    "2582737"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2004",
+            "publish_country": "onc",
+            "by_statement": "by Betty Neels.",
+            "works": [
+                {
+                    "key": "/works/OL3457919W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_10": [
+                "0373810741"
+            ],
+            "lccn": [
+                "2004597232"
+            ],
+            "oclc_numbers": [
+                "56622350"
+            ],
+            "classifications": {},
+            "lc_classifications": [
+                "CPB Box no. 2234 vol. 7",
+                "CPB"
+            ],
+            "edition_name": "The Best of Betty Beels",
+            "latest_revision": 12,
+            "revision": 12,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-06T11:40:04.483241"
+            }
+        },
+        "/books/OL9534681M": {
+            "publishers": [
+                "Thorndike Pr"
+            ],
+            "number_of_pages": 288,
+            "weight": "13.6 ounces",
+            "covers": [
+                4985502
+            ],
+            "physical_format": "Hardcover",
+            "key": "/books/OL9534681M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "subjects": [
+                "Romance",
+                "Fiction",
+                "Fiction - Romance",
+                "Large Print",
+                "Romance - General",
+                "Religious - General"
+            ],
+            "edition_name": "Large Print Edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "bwb:9780263150087"
+            ],
+            "title": "The Vicar's Daughter",
+            "identifiers": {
+                "goodreads": [
+                    "2422415"
+                ]
+            },
+            "publish_date": "June 1997",
+            "works": [
+                {
+                    "key": "/works/OL3457919W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.5 x 5.5 x 1 inches",
+            "isbn_10": [
+                "0263150089"
+            ],
+            "isbn_13": [
+                "9780263150087"
+            ],
+            "classifications": {},
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-06T11:40:04.483241"
+            }
+        },
+        "/books/OL9636194M": {
+            "publishers": [
+                "Ulverscroft Large Print"
+            ],
+            "number_of_pages": 287,
+            "weight": "13.6 ounces",
+            "covers": [
+                1155132
+            ],
+            "physical_format": "Hardcover",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-08-20T07:32:03.372929"
+            },
+            "latest_revision": 9,
+            "key": "/books/OL9636194M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "subjects": [
+                "Romance",
+                "General",
+                "Fiction - General"
+            ],
+            "edition_name": "Large Print Ed edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "bwb:9780263198423"
+            ],
+            "title": "The Girl with Green Eyes (Betty Neels Large Print Collection)",
+            "identifiers": {
+                "goodreads": [
+                    "2090958"
+                ],
+                "librarything": [
+                    "601750"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "isbn_13": [
+                "9780263198423"
+            ],
+            "isbn_10": [
+                "0263198421"
+            ],
+            "publish_date": "March 2007",
+            "oclc_numbers": [
+                "73954253"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3458001W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.2 x 5.3 x 1 inches",
+            "revision": 9
+        },
+        "/books/OL24208250M": {
+            "title": "The Girl with Green Eyes",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "publish_date": "1991",
+            "publishers": [
+                "Harlequin Books",
+                "Harlequin"
+            ],
+            "ia_box_id": [
+                "IA107914"
+            ],
+            "series": [
+                "Harlequin Romance -- 3105"
+            ],
+            "covers": [
+                6507331
+            ],
+            "publish_places": [
+                "Toronto",
+                "New York"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "189 p. ;",
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-06-01:W7-BUG-361",
+                "ia:girlwithgreeneye00neel",
+                "bwb:9780373031054",
+                "promise:bwb_daily_pallets_2022-06-01:O8-AWC-612",
+                "promise:bwb_daily_pallets_2021-03-08:o7-aav-956"
+            ],
+            "edition_name": "Harlequin Romance 1st ed.",
+            "publish_country": "onc",
+            "by_statement": "Betty Neels",
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "girlwithgreeneye00neel",
+            "isbn_10": [
+                "037303105X"
+            ],
+            "isbn_13": [
+                "9780373031054"
+            ],
+            "oclc_numbers": [
+                "22994753"
+            ],
+            "dewey_decimal_class": [
+                "823"
+            ],
+            "local_id": [
+                "urn:bwbsku:W7-BUG-361",
+                "urn:bwbsku:O8-AWC-612",
+                "urn:bwbsku:O7-AAV-956"
+            ],
+            "key": "/books/OL24208250M",
+            "number_of_pages": 189,
+            "works": [
+                {
+                    "key": "/works/OL3458001W"
+                }
+            ],
+            "latest_revision": 18,
+            "revision": 18,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-05-05T09:10:27.638440"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-19T02:02:28.087602"
+            }
+        },
+        "/books/OL9743615M": {
+            "publishers": [
+                "MacMillan Publishing Company"
+            ],
+            "number_of_pages": 288,
+            "weight": "15.2 ounces",
+            "series": [
+                "(Large Print Harlequin Romance Series)"
+            ],
+            "physical_format": "Hardcover",
+            "key": "/books/OL9743615M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "subjects": [
+                "Romance",
+                "Large Print"
+            ],
+            "edition_name": "Largeprint edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "classifications": {},
+            "title": "The Girl With Green Eyes",
+            "identifiers": {
+                "goodreads": [
+                    "2090964"
+                ]
+            },
+            "isbn_13": [
+                "9780263124200"
+            ],
+            "isbn_10": [
+                "0263124207"
+            ],
+            "publish_date": "December 1990",
+            "works": [
+                {
+                    "key": "/works/OL3458001W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.8 x 5.8 x 1.2 inches",
+            "source_records": [
+                "bwb:9780263124200"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-08-17T05:01:57.385323"
+            }
+        },
+        "/books/OL29264488M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781408998588"
+            ],
+            "title": "An Unforgettable Man",
+            "number_of_pages": 192,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2015",
+            "key": "/books/OL29264488M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3759317W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9781408998588"
+            ],
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-24T00:43:05.106870"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-15T23:12:52.924123"
+            }
+        },
+        "/books/OL16432158M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "number_of_pages": 186,
+            "key": "/books/OL16432158M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "publish_places": [
+                "Richmond, Surrey"
+            ],
+            "pagination": "186p. ;",
+            "source_records": [
+                "bwb:9780263145366"
+            ],
+            "title": "An Unforgettable Man",
+            "identifiers": {
+                "librarything": [
+                    "1710840"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1995",
+            "publish_country": "enk",
+            "by_statement": "by Penny Jordan.",
+            "works": [
+                {
+                    "key": "/works/OL3759317W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_10": [
+                "0263145360"
+            ],
+            "oclc_numbers": [
+                "34137579"
+            ],
+            "classifications": {},
+            "dewey_decimal_class": [
+                "823.914"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-23T23:39:14.385521"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-15T23:12:27.221962"
+            }
+        },
+        "/books/OL10739118M": {
+            "identifiers": {
+                "librarything": [
+                    "1710840"
+                ],
+                "goodreads": [
+                    "755331"
+                ]
+            },
+            "title": "An Unforgettable Man",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "publish_date": "March 1, 1996",
+            "publishers": [
+                "Harlequin"
+            ],
+            "weight": "4 ounces",
+            "physical_format": "Mass Market Paperback",
+            "subjects": [
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Regency",
+                "Romance - Contemporary",
+                "Non-Classifiable",
+                "Romance - General"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-06-20:W7-BZJ-432",
+                "bwb:9780373118052",
+                "promise:bwb_daily_pallets_2021-04-14:P7-AWT-368"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.8 x 4.2 x 0.5 inches",
+            "local_id": [
+                "urn:bwbsku:W7-BZJ-432",
+                "urn:bwbsku:P7-AWT-368"
+            ],
+            "key": "/books/OL10739118M",
+            "number_of_pages": 186,
+            "works": [
+                {
+                    "key": "/works/OL3759317W"
+                }
+            ],
+            "isbn_10": [
+                "0373118058"
+            ],
+            "isbn_13": [
+                "9780373118052"
+            ],
+            "classifications": {},
+            "latest_revision": 14,
+            "revision": 14,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-15T23:13:32.177876"
+            }
+        },
+        "/books/OL29593029M": {
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "source_records": [
+                "bwb:9781426869778"
+            ],
+            "title": "Innocent Secretary... Accidentally Pregnant",
+            "number_of_pages": 192,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Innocent Secretary... Accidentally Pregnant",
+            "publish_date": "2010",
+            "key": "/books/OL29593029M",
+            "authors": [
+                {
+                    "key": "/authors/OL1386209A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL16772680W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, erotica",
+                "Pregnancy, fiction"
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9781426869778"
+            ],
+            "classifications": {},
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-28T18:06:19.201922"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-05-18T11:47:45.140280"
+            }
+        },
+        "/books/OL29107826M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781408918500"
+            ],
+            "title": "Innocent Secretary... Accidentally Pregnant",
+            "number_of_pages": 192,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Innocent Secretary... Accidentally Pregnant",
+            "publish_date": "2010",
+            "key": "/books/OL29107826M",
+            "authors": [
+                {
+                    "key": "/authors/OL1386209A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL16772680W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, erotica",
+                "Pregnancy, fiction"
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9781408918500"
+            ],
+            "classifications": {},
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-22T04:19:06.209692"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-05-18T11:47:45.140280"
+            }
+        },
+        "/books/OL18340657M": {
+            "publishers": [
+                "Silhouette Sensation"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "6062974"
+                ],
+                "librarything": [
+                    "367094"
+                ]
+            },
+            "key": "/books/OL18340657M",
+            "authors": [
+                {
+                    "key": "/authors/OL30714A"
+                }
+            ],
+            "pagination": "252p.",
+            "source_records": [
+                "bwb:9780373582389",
+                "ia:duncansbride0000howa",
+                "promise:bwb_daily_pallets_2020-12-14"
+            ],
+            "title": "Duncan's bride.",
+            "dewey_decimal_class": [
+                "813.54"
+            ],
+            "number_of_pages": 252,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373582382"
+            ],
+            "publish_date": "1991",
+            "publish_country": "enk",
+            "oclc_numbers": [
+                "24742580"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL491708W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                10980994
+            ],
+            "ocaid": "duncansbride0000howa",
+            "local_id": [
+                "urn:bwbsku:KH-755-391"
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-16T07:34:31.283314"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-15T10:03:10.356318"
+            }
+        },
+        "/books/OL3301852M": {
+            "publishers": [
+                "Thorndike Press",
+                "Chivers Press"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "5147978",
+                    "6945342"
+                ],
+                "librarything": [
+                    "367094"
+                ]
+            },
+            "ia_box_id": [
+                "IA171401"
+            ],
+            "isbn_10": [
+                "078626392X",
+                "075409880X",
+                "0754095959"
+            ],
+            "subject_place": [
+                "Montana"
+            ],
+            "pagination": "327 p. (large print) ;",
+            "covers": [
+                4244744,
+                4244409,
+                1471851
+            ],
+            "ia_loaded_id": [
+                "duncansbride00howa"
+            ],
+            "lc_classifications": [
+                "PS3558.O88217 D86 2004"
+            ],
+            "key": "/books/OL3301852M",
+            "authors": [
+                {
+                    "key": "/authors/OL30714A"
+                }
+            ],
+            "ocaid": "duncansbride00howa",
+            "publish_places": [
+                "Waterville, Me",
+                "Bath, England"
+            ],
+            "subjects": [
+                "Mail order brides -- Fiction.",
+                "Large type books.",
+                "Montana -- Fiction."
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "source_records": [
+                "ia:duncansbride00howa",
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run03.mrc:66412983:1823",
+                "marc:marc_loc_2016/BooksAll.2016.part31.utf8:173621028:938"
+            ],
+            "title": "Duncan's bride",
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "number_of_pages": 327,
+            "edition_name": "Large print ed.",
+            "lccn": [
+                "2004041210"
+            ],
+            "local_id": [
+                "urn:sfpl:31223066582520"
+            ],
+            "publish_date": "2004",
+            "publish_country": "meu",
+            "by_statement": "Linda Howard.",
+            "works": [
+                {
+                    "key": "/works/OL491708W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-12-08T11:13:38.259990"
+            }
+        },
+        "/books/OL10748310M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "ia:silverthaw0000neel",
+                "promise:bwb_daily_pallets_2021-10-04",
+                "promise:bwb_daily_pallets_2024-10-21:W9-CUR-721"
+            ],
+            "title": "The Silver Thaw (Ruby Collector's Edition)",
+            "covers": [
+                9306564
+            ],
+            "physical_format": "Paperback",
+            "publish_date": "1999",
+            "key": "/books/OL10748310M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3457874W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "ocaid": "silverthaw0000neel",
+            "isbn_10": [
+                "0373631103"
+            ],
+            "isbn_13": [
+                "9780373631100"
+            ],
+            "oclc_numbers": [
+                "43687489"
+            ],
+            "classifications": {},
+            "edition_name": "Collector's Edition",
+            "local_id": [
+                "urn:bwbsku:P7-DLI-802",
+                "urn:bwbsku:W9-CUR-721"
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-04T11:22:01.689464"
+            }
+        },
+        "/books/OL38294416M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2011",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781322215600"
+            ],
+            "title": "The Promise of Happiness",
+            "full_title": "Promise of Happiness",
+            "works": [
+                {
+                    "key": "/works/OL3457845W"
+                }
+            ],
+            "key": "/books/OL38294416M",
+            "identifiers": {},
+            "isbn_13": [
+                "9781322215600"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-17T17:29:51.274897"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-03-03T10:06:28.114138"
+            }
+        },
+        "/books/OL29106556M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781408952207"
+            ],
+            "title": "The Promise of Happiness",
+            "number_of_pages": 192,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Promise of Happiness",
+            "publish_date": "2011",
+            "key": "/books/OL29106556M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3457845W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_13": [
+                "9781408952207"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-22T04:00:25.158760"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-03-03T10:07:04.893108"
+            }
+        },
+        "/books/OL18293262M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "number_of_pages": 219,
+            "series": [
+                "Collector's edition -- 23"
+            ],
+            "key": "/books/OL18293262M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "publish_places": [
+                "Richmond"
+            ],
+            "pagination": "219p. ;",
+            "source_records": [
+                "bwb:9780263799040"
+            ],
+            "title": "The Promise of Happiness",
+            "notes": "Originally published: London : Mills & Boon, 1979.",
+            "identifiers": {
+                "goodreads": [
+                    "5832968"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1997",
+            "publish_country": "enk",
+            "by_statement": "Betty Neels.",
+            "works": [
+                {
+                    "key": "/works/OL3457845W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_10": [
+                "0263799042"
+            ],
+            "oclc_numbers": [
+                "35830318"
+            ],
+            "dewey_decimal_class": [
+                "823.914"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-15T16:58:29.716310"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-03-03T10:05:02.335464"
+            }
+        },
+        "/books/OL23168142M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "number_of_pages": 218,
+            "ia_box_id": [
+                "IA112911"
+            ],
+            "series": [
+                "Best of Betty Neels"
+            ],
+            "ia_loaded_id": [
+                "promiseofhappine00neel"
+            ],
+            "key": "/books/OL23168142M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "publish_places": [
+                "Toronto",
+                "New York"
+            ],
+            "contributions": [
+                "Copyright Paperback Collection (Library of Congress)"
+            ],
+            "pagination": "218 p. ;",
+            "source_records": [
+                "marc:marc_loc_updates/v37.i09.records.utf8:4702141:754"
+            ],
+            "title": "The Promise of Happiness",
+            "oclc_number": [
+                "70911138"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "414623"
+                ],
+                "librarything": [
+                    "2248129"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1979",
+            "publish_country": "onc",
+            "copyright_date": "2006",
+            "by_statement": "Betty Neels.",
+            "works": [
+                {
+                    "key": "/works/OL3457845W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_10": [
+                "0373470789"
+            ],
+            "isbn_13": [
+                "9780373470785"
+            ],
+            "lccn": [
+                "2007582966"
+            ],
+            "lc_classifications": [
+                "CPB Box no. 2661 vol. 12"
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-05-14T06:29:13.583247"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-03-03T10:08:55.348806"
+            }
+        },
+        "/books/OL38353865M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "isbn_13": [
+                "9781459251595"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2011",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781459251595"
+            ],
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "title": "Vengeful Husband",
+            "full_title": "Vengeful Husband",
+            "works": [
+                {
+                    "key": "/works/OL3773983W"
+                }
+            ],
+            "key": "/books/OL38353865M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-18T09:46:27.248950"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-27T22:26:44.788452"
+            }
+        },
+        "/books/OL33041013M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "2012",
+            "publish_country": "enk",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "series": [
+                "The Husband Hunters Book 2"
+            ],
+            "notes": "Originally published: 1998.",
+            "title": "The Vengeful Husband",
+            "by_statement": "Lynne Graham",
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "publish_places": [
+                "Richmond"
+            ],
+            "pagination": "pages cm",
+            "source_records": [
+                "ia:vengefulhusband0000grah_p9i3",
+                "promise:bwb_daily_pallets_2021-02-03",
+                "bwb:9780263237344"
+            ],
+            "full_title": "The vengeful husband",
+            "covers": [
+                11738164
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3773983W"
+                }
+            ],
+            "key": "/books/OL33041013M",
+            "identifiers": {},
+            "classifications": {},
+            "edition_name": "Large Print Edition",
+            "ocaid": "vengefulhusband0000grah_p9i3",
+            "isbn_10": [
+                "0263237346"
+            ],
+            "isbn_13": [
+                "9780263237344"
+            ],
+            "oclc_numbers": [
+                "810947075"
+            ],
+            "dewey_decimal_class": [
+                "823.92"
+            ],
+            "local_id": [
+                "urn:bwbsku:KO-780-212"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-08-21T05:52:39.566967"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-17T09:38:25.628165"
+            }
+        },
+        "/books/OL28951084M": {
+            "identifiers": {
+                "amazon": [
+                    ""
+                ]
+            },
+            "title": "The Vengeful Husband",
+            "subtitle": "The Husband Hunters, Book 2",
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "publish_date": "1998",
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263812015",
+                "ia:vengefulhusband0000grah_y4l6",
+                "amazon:0263812014",
+                "promise:bwb_daily_pallets_2020-09-09"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Vengeful Husband",
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "covers": [
+                11738166
+            ],
+            "ocaid": "vengefulhusband0000grah_y4l6",
+            "isbn_13": [
+                "9780263812015"
+            ],
+            "series": [
+                "The Husband Hunters Book 2"
+            ],
+            "local_id": [
+                "urn:bwbsku:KN-581-385"
+            ],
+            "key": "/books/OL28951084M",
+            "number_of_pages": 192,
+            "works": [
+                {
+                    "key": "/works/OL3773983W"
+                }
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T04:47:56.636389"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-19T04:02:40.763758"
+            }
+        },
+        "/books/OL9605988M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "number_of_pages": 185,
+            "weight": "3.2 ounces",
+            "series": [
+                "The Husband Hunters"
+            ],
+            "covers": [
+                214610
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL9605988M",
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "classifications": {},
+            "source_records": [
+                "ia:vengefulhusband0000grah",
+                "bwb:9780373120079",
+                "promise:bwb_daily_pallets_2022-04-18",
+                "promise:bwb_daily_pallets_2021-05-19"
+            ],
+            "title": "The Vengeful Husband",
+            "identifiers": {
+                "librarything": [
+                    "1414747"
+                ],
+                "goodreads": [
+                    "1389814"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Romance - General",
+                "Non-Classifiable",
+                "Romance - Contemporary",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern"
+            ],
+            "publish_date": "January 1, 1999",
+            "works": [
+                {
+                    "key": "/works/OL3773983W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.4 x 4 x 0.6 inches",
+            "ocaid": "vengefulhusband0000grah",
+            "isbn_10": [
+                "0373120079"
+            ],
+            "isbn_13": [
+                "9780373120079"
+            ],
+            "oclc_numbers": [
+                "40324682"
+            ],
+            "local_id": [
+                "urn:bwbsku:W7-AQP-827",
+                "urn:bwbsku:P3-BXI-752"
+            ],
+            "latest_revision": 14,
+            "revision": 14,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-14T19:09:47.818051"
+            }
+        },
+        "/books/OL9744911M": {
+            "publishers": [
+                "Thorndike Press"
+            ],
+            "number_of_pages": 288,
+            "weight": "13.4 ounces",
+            "covers": [
+                5008770
+            ],
+            "physical_format": "Hardcover",
+            "key": "/books/OL9744911M",
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "subjects": [
+                "Romance",
+                "Fiction - Romance",
+                "Fiction",
+                "Romance - General"
+            ],
+            "edition_name": "Large Print Edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "classifications": {},
+            "source_records": [
+                "bwb:9780263159240",
+                "ia:vengefulhusband0000grah_e3m3",
+                "promise:bwb_daily_pallets_2022-03-17"
+            ],
+            "title": "The Vengeful Husband",
+            "identifiers": {},
+            "publish_date": "April 1999",
+            "works": [
+                {
+                    "key": "/works/OL3773983W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.4 x 5.6 x 1 inches",
+            "series": [
+                "The Husband Hunters Book 2"
+            ],
+            "isbn_10": [
+                "0263159248"
+            ],
+            "isbn_13": [
+                "9780263159240"
+            ],
+            "ocaid": "vengefulhusband0000grah_e3m3",
+            "oclc_numbers": [
+                "40930074"
+            ],
+            "local_id": [
+                "urn:bwbsku:P7-DBV-385"
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-07T15:10:41.898476"
+            }
+        },
+        "/books/OL28973803M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263742459"
+            ],
+            "title": "Fantasy Girl",
+            "number_of_pages": 186,
+            "isbn_13": [
+                "9780263742459"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Fantasy Girl",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "1983",
+            "key": "/books/OL28973803M",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3775422W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, general"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T22:23:19.314462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-29T03:03:40.790172"
+            }
+        },
+        "/books/OL14981744M": {
+            "publishers": [
+                "Mills & B."
+            ],
+            "pagination": "17cm.192. n.e.",
+            "number_of_pages": 192,
+            "source_records": [
+                "bwb:9780263765373"
+            ],
+            "title": "Fantasy Girl.",
+            "series": [
+                "Bestseller Romance S"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "2249059"
+                ]
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T22:23:18.267796"
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T23:31:19.113659"
+            },
+            "languages": [
+                {
+                    "key": "/languages/und"
+                }
+            ],
+            "isbn_10": [
+                "0263765377"
+            ],
+            "publish_date": "1989",
+            "publish_country": "xxk",
+            "key": "/books/OL14981744M",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "latest_revision": 5,
+            "works": [
+                {
+                    "key": "/works/OL3775422W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 5
+        },
+        "/books/OL10738221M": {
+            "identifiers": {
+                "librarything": [
+                    "2249059"
+                ],
+                "goodreads": [
+                    "3084743"
+                ]
+            },
+            "title": "Fantasy Girl",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "publish_date": "June 1, 1983",
+            "publishers": [
+                "harlequin",
+                "Harlequin"
+            ],
+            "series": [
+                "Harlequin Presents # 611"
+            ],
+            "covers": [
+                8790834,
+                8494551,
+                8337298
+            ],
+            "physical_format": "Paperback",
+            "ocaid": "fantasygirl0000mort",
+            "subjects": [
+                "Non-Classifiable",
+                "Nonfiction - General"
+            ],
+            "isbn_13": [
+                "9780373106110"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-06-28:P6-CDY-521",
+                "ia:fantasygirl0000mort",
+                "bwb:9780373106110",
+                "amazon:0373106114",
+                "promise:bwb_daily_pallets_2021-03-08:O7-AOM-132",
+                "promise:bwb_daily_pallets_2020-11-12:O7-AKV-815",
+                "promise:bwb_daily_pallets_2020-10-08:W6-BOR-757"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373106114"
+            ],
+            "oclc_numbers": [
+                "9511916"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:P6-CDY-521",
+                "urn:bwbsku:O7-AOM-132",
+                "urn:bwbsku:O7-AKV-815",
+                "urn:bwbsku:W6-BOR-757"
+            ],
+            "key": "/books/OL10738221M",
+            "number_of_pages": 186,
+            "works": [
+                {
+                    "key": "/works/OL3775422W"
+                }
+            ],
+            "latest_revision": 22,
+            "revision": 22,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T17:36:49.255230"
+            }
+        },
+        "/books/OL10807425M": {
+            "identifiers": {
+                "goodreads": [
+                    "3200874"
+                ]
+            },
+            "title": "The Last Grand Passion",
+            "authors": [
+                {
+                    "key": "/authors/OL451969A"
+                }
+            ],
+            "publish_date": "January 1998",
+            "publishers": [
+                "Ulverscroft Large Print"
+            ],
+            "physical_format": "Hardcover",
+            "subjects": [
+                "Romance - General",
+                "Romance",
+                "Fiction - Romance"
+            ],
+            "edition_name": "Large Print Ed edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_13": [
+                "9780750510974"
+            ],
+            "isbn_10": [
+                "0750510978"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:0750510978"
+            ],
+            "key": "/books/OL10807425M",
+            "number_of_pages": 320,
+            "works": [
+                {
+                    "key": "/works/OL2959362W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-15T03:21:36.574229"
+            }
+        },
+        "/books/OL29152333M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781408941577"
+            ],
+            "title": "Greek Tycoon's Virgin Wife",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781408941577"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Greek Tycoon's Virgin Wife",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2012",
+            "key": "/books/OL29152333M",
+            "authors": [
+                {
+                    "key": "/authors/OL3292941A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3498560W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-22T16:01:09.324745"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-17T22:48:45.135952"
+            }
+        },
+        "/books/OL24973353M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "number_of_pages": 187,
+            "ia_box_id": [
+                "IA125810"
+            ],
+            "series": [
+                "Greek Tycoons"
+            ],
+            "covers": [
+                6890819
+            ],
+            "full_title": "The Greek tycoon's virgin wife",
+            "key": "/books/OL24973353M",
+            "authors": [
+                {
+                    "key": "/authors/OL3292941A"
+                }
+            ],
+            "publish_places": [
+                "Toronto",
+                "New York"
+            ],
+            "pagination": "187 p. ;",
+            "source_records": [
+                "ia:greektycoonsvirg00bian"
+            ],
+            "title": "The Greek Tycoon's Virgin Wife",
+            "notes": "\"They're the men who have everything--except brides...\"--P. [4] of cover.",
+            "identifiers": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Socialites",
+                "Greeks",
+                "Fiction",
+                "Virginity",
+                "Arranged marriage"
+            ],
+            "publish_date": "2007",
+            "publish_country": "onc",
+            "by_statement": "Helen Bianchin",
+            "works": [
+                {
+                    "key": "/works/OL3498560W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "greektycoonsvirg00bian",
+            "isbn_10": [
+                "0373126697",
+                "026385356X"
+            ],
+            "isbn_13": [
+                "9780373126699",
+                "9780263853568"
+            ],
+            "oclc_numbers": [
+                "156729328"
+            ],
+            "dewey_decimal_class": [
+                "823.92"
+            ],
+            "latest_revision": 13,
+            "revision": 13,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2011-08-17T22:00:09.620507"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-22T09:30:52.789381"
+            }
+        },
+        "/books/OL24946931M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "\"They're the men who have everything--except brides...\"--P. [4] of cover."
+            },
+            "title": "The Greek tycoon's virgin wife",
+            "authors": [
+                {
+                    "key": "/authors/OL3292941A"
+                }
+            ],
+            "publish_date": "2007",
+            "publishers": [
+                "Harlequin",
+                "Harlequin Mills & Boon"
+            ],
+            "ia_box_id": [
+                "IA125810"
+            ],
+            "isbn_10": [
+                "0373126697",
+                "026385356X"
+            ],
+            "series": [
+                "Harlequin presents -- 2669",
+                "Greek tycoons"
+            ],
+            "ia_loaded_id": [
+                "greektycoonsvirg00bian"
+            ],
+            "publish_places": [
+                "Toronto",
+                "New York"
+            ],
+            "isbn_13": [
+                "9780373126699",
+                "9780263853568"
+            ],
+            "pagination": "187 p. ;",
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-06-28:O7-DHV-410",
+                "ia:greektycoonsvirg00bian",
+                "bwb:9780263853568",
+                "bwb:9780373126699",
+                "promise:bwb_daily_pallets_2021-05-24:KO-577-294",
+                "promise:bwb_daily_pallets_2021-05-20:KP-025-457",
+                "promise:bwb_daily_pallets_2020-12-15:O7-AGI-004",
+                "promise:bwb_daily_pallets_2020-10-07:P4-BIH-695"
+            ],
+            "dewey_decimal_class": [
+                "823.92"
+            ],
+            "full_title": "The Greek tycoon's virgin wife",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Socialites",
+                "Greeks",
+                "Fiction",
+                "Virginity",
+                "Arranged marriage"
+            ],
+            "publish_country": "onc",
+            "by_statement": "Helen Bianchin",
+            "oclc_numbers": [
+                "156729328"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:O7-DHV-410",
+                "urn:bwbsku:KO-577-294",
+                "urn:bwbsku:KP-025-457",
+                "urn:bwbsku:O7-AGI-004",
+                "urn:bwbsku:P4-BIH-695"
+            ],
+            "lc_classifications": [
+                "PR6052.I17"
+            ],
+            "key": "/books/OL24946931M",
+            "number_of_pages": 187,
+            "works": [
+                {
+                    "key": "/works/OL3498560W"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    ""
+                ]
+            },
+            "latest_revision": 21,
+            "revision": 21,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2011-08-09T05:09:39.483837"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T17:37:24.641782"
+            }
+        },
+        "/books/OL9752127M": {
+            "title": "The Greek Tycoon's Virgin Wife (Harlequin Presents: Greek Tycoons)",
+            "authors": [
+                {
+                    "key": "/authors/OL3292941A"
+                }
+            ],
+            "publish_date": "October 1, 2007",
+            "publishers": [
+                "Harlequin"
+            ],
+            "weight": "4 ounces",
+            "covers": [
+                5010353,
+                5009900,
+                5009365
+            ],
+            "edition_name": "Lgr edition",
+            "physical_format": "Mass Market Paperback",
+            "subjects": [
+                "American Light Romantic Fiction",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern",
+                "Romance - Contemporary",
+                "Fiction / Romance / General"
+            ],
+            "isbn_13": [
+                "9780373234332"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373234333"
+            ],
+            "oclc_numbers": [
+                "165449494"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.6 x 4.1 x 0.8 inches",
+            "source_records": [
+                "amazon:0373234333"
+            ],
+            "key": "/books/OL9752127M",
+            "number_of_pages": 256,
+            "works": [
+                {
+                    "key": "/works/OL3498560W"
+                }
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-21T06:30:31.696651"
+            }
+        },
+        "/books/OL9749263M": {
+            "title": "The Greek Tycoon's Virgin Wife (Harlequin Presents: Greek Tycoons)",
+            "authors": [
+                {
+                    "key": "/authors/OL3292941A"
+                }
+            ],
+            "publish_date": "October 1, 2007",
+            "publishers": [
+                "Harlequin"
+            ],
+            "weight": "4 ounces",
+            "covers": [
+                5010352,
+                5009899,
+                5009364
+            ],
+            "edition_name": "Lgr edition",
+            "physical_format": "Mass Market Paperback",
+            "subjects": [
+                "American Light Romantic Fiction",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern",
+                "Romance - Contemporary",
+                "Fiction / Romance / General"
+            ],
+            "isbn_13": [
+                "9780373234332"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373234333"
+            ],
+            "oclc_numbers": [
+                "165449494"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.6 x 4.1 x 0.8 inches",
+            "source_records": [
+                "amazon:0373234333"
+            ],
+            "key": "/books/OL9749263M",
+            "number_of_pages": 256,
+            "works": [
+                {
+                    "key": "/works/OL3498560W"
+                }
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-16T20:56:44.936306"
+            }
+        },
+        "/books/OL24269275M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "covers": [
+                6418461
+            ],
+            "physical_format": "Electronic resource",
+            "key": "/books/OL24269275M",
+            "authors": [
+                {
+                    "key": "/authors/OL3292941A"
+                }
+            ],
+            "publish_places": [
+                "Toronto, Ontario"
+            ],
+            "isbn_13": [
+                "9781426806681"
+            ],
+            "source_records": [
+                "marc_overdrive/InternetArchiveCrMarc-2010-06-11p.mrc:851072:1882",
+                "bwb:9781426806681"
+            ],
+            "title": "The Greek Tycoon's Virgin Wife",
+            "identifiers": {
+                "overdrive": [
+                    "7B8AE7BC-86B0-4CCF-AC11-CBB04A4E4F07"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2007",
+            "publish_country": "nyu",
+            "oclc_numbers": [
+                "227809947"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3498560W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-06-17T23:50:32.512737"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-10-23T07:07:57.609059"
+            }
+        },
+        "/books/OL29675497M": {
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "source_records": [
+                "bwb:9781460321553"
+            ],
+            "title": "The Vicar's Daughter",
+            "number_of_pages": 192,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Vicar's Daughter",
+            "publish_date": "2013",
+            "key": "/books/OL29675497M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3457919W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "identifiers": {},
+            "classifications": {},
+            "isbn_13": [
+                "9781460321553"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-29T18:28:22.787764"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-06T11:40:04.483241"
+            }
+        },
+        "/books/OL28952574M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited",
+                "Harlequin Mills & Boon"
+            ],
+            "source_records": [
+                "bwb:9780263824674",
+                "amazon:0263824675"
+            ],
+            "title": "The Vicar's Daughter",
+            "number_of_pages": 221,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Vicar's Daughter",
+            "publish_date": "2001",
+            "key": "/books/OL28952574M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3457919W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9780263824674"
+            ],
+            "classifications": {},
+            "covers": [
+                14228849
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T05:36:22.050243"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-04-20T07:56:53.220046"
+            }
+        },
+        "/books/OL28953454M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263149883"
+            ],
+            "title": "The Vicar's Daughter",
+            "number_of_pages": 192,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Vicar's Daughter",
+            "publish_date": "1996",
+            "key": "/books/OL28953454M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3457919W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9780263149883"
+            ],
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T06:04:42.303764"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-06T11:40:04.483241"
+            }
+        },
+        "/books/OL28953456M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263798524",
+                "promise:bwb_daily_pallets_2020-11-19"
+            ],
+            "title": "The Vicar's Daughter",
+            "number_of_pages": 186,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Vicar's Daughter",
+            "publish_date": "1996",
+            "key": "/books/OL28953456M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3457919W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9780263798524"
+            ],
+            "classifications": {},
+            "local_id": [
+                "urn:bwbsku:KO-266-800"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T06:04:43.464269"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-09T14:40:48.573559"
+            }
+        },
+        "/books/OL9867501M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "number_of_pages": 253,
+            "physical_format": "Paperback",
+            "key": "/books/OL9867501M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "subjects": [
+                "Romance - General",
+                "Non-Classifiable",
+                "Fiction - Romance"
+            ],
+            "classifications": {},
+            "source_records": [
+                "bwb:9780373157730"
+            ],
+            "title": "The Vicar's Daughter",
+            "notes": "Harlequin Romance",
+            "identifiers": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "October 1, 1998",
+            "works": [
+                {
+                    "key": "/works/OL3457919W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_10": [
+                "0373157738"
+            ],
+            "isbn_13": [
+                "9780373157730"
+            ],
+            "edition_name": "Larger Print Edition",
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-06T11:40:04.483241"
+            }
+        },
+        "/books/OL9779228M": {
+            "identifiers": {
+                "goodreads": [
+                    "1368581"
+                ],
+                "librarything": [
+                    "1919733"
+                ]
+            },
+            "title": "The Vicar's Daughter",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "publish_date": "October 1, 1998",
+            "publishers": [
+                "Harlequin",
+                "Harlequin Books"
+            ],
+            "weight": "3.2 ounces",
+            "series": [
+                "Harlequin Romance, 3527"
+            ],
+            "covers": [
+                214096
+            ],
+            "physical_format": "Paperback",
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-06-01:T2-CUJ-837",
+                "bwb:9780373035274",
+                "promise:bwb_daily_pallets_2020-11-04:P6-AUI-072"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Romance - General",
+                "Non-Classifiable",
+                "Religious - General",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.8 x 4.2 x 0.5 inches",
+            "local_id": [
+                "urn:bwbsku:T2-CUJ-837",
+                "urn:bwbsku:P6-AUI-072"
+            ],
+            "key": "/books/OL9779228M",
+            "number_of_pages": 186,
+            "works": [
+                {
+                    "key": "/works/OL3457919W"
+                }
+            ],
+            "ocaid": "vicarsdaughter00bett",
+            "isbn_10": [
+                "0373035276"
+            ],
+            "isbn_13": [
+                "9780373035274"
+            ],
+            "oclc_numbers": [
+                "39672710"
+            ],
+            "classifications": {},
+            "latest_revision": 19,
+            "revision": 19,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-03-14T01:33:16.867655"
+            }
+        },
+        "/books/OL9366442M": {
+            "publishers": [
+                "Ulverscroft Large Print"
+            ],
+            "number_of_pages": 288,
+            "physical_format": "Paperback",
+            "key": "/books/OL9366442M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "subjects": [
+                "Modern fiction"
+            ],
+            "edition_name": "Large Print Edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "classifications": {},
+            "source_records": [
+                "bwb:9780263201833",
+                "promise:bwb_daily_pallets_2022-08-23"
+            ],
+            "title": "The Vicar's Daughter",
+            "notes": "Betty Neels Largeprint",
+            "identifiers": {
+                "librarything": [
+                    "1919733"
+                ]
+            },
+            "publish_date": "September 2007",
+            "works": [
+                {
+                    "key": "/works/OL3457919W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:KR-245-373"
+            ],
+            "isbn_10": [
+                "026320183X"
+            ],
+            "isbn_13": [
+                "9780263201833"
+            ],
+            "oclc_numbers": [
+                "124952478"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-05T00:18:09.308959"
+            }
+        },
+        "/books/OL37438695M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2016",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781459296176"
+            ],
+            "subjects": [
+                "Fiction, romance, contemporary"
+            ],
+            "title": "Girl with the Green Eyes",
+            "full_title": "Girl with the Green Eyes",
+            "works": [
+                {
+                    "key": "/works/OL3458001W"
+                }
+            ],
+            "key": "/books/OL37438695M",
+            "identifiers": {},
+            "isbn_13": [
+                "9781459296176"
+            ],
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-03-01T18:53:39.370305"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-08T21:53:52.653580"
+            }
+        },
+        "/books/OL29592696M": {
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "source_records": [
+                "bwb:9780373199815"
+            ],
+            "title": "Girl with Green Eyes",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9780373199815"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Girl with Green Eyes",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2011",
+            "key": "/books/OL29592696M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3458001W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, suspense",
+                "Sisters, fiction"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-28T17:59:12.132313"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-08T21:53:52.653580"
+            }
+        },
+        "/books/OL18138181M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "601750"
+                ],
+                "goodreads": [
+                    "6282323"
+                ]
+            },
+            "key": "/books/OL18138181M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "pagination": "189p.",
+            "source_records": [
+                "bwb:9780263767179",
+                "promise:bwb_daily_pallets_2020-09-09"
+            ],
+            "title": "The girl with green eyes.",
+            "dewey_decimal_class": [
+                "823.914"
+            ],
+            "number_of_pages": 189,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263767175"
+            ],
+            "publish_date": "1990",
+            "publish_country": "enk",
+            "oclc_numbers": [
+                "59787307"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3458001W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:KO-188-521"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-11T03:23:56.467573"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-10T01:07:26.912976"
+            }
+        },
+        "/books/OL14978700M": {
+            "identifiers": {
+                "librarything": [
+                    "601750"
+                ]
+            },
+            "title": "The girl with green eyes",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "publish_date": "1990",
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263124118"
+            ],
+            "publish_country": "xxk",
+            "by_statement": "by Betty Neels.",
+            "publish_places": [
+                "Richmond"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "oclc_numbers": [
+                "59787307"
+            ],
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:516425340:398"
+            ],
+            "key": "/books/OL14978700M",
+            "works": [
+                {
+                    "key": "/works/OL3458001W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T23:10:25.045071"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-24T10:49:37.332928"
+            }
+        },
+        "/books/OL25640955M": {
+            "publishers": [
+                "mills and boon"
+            ],
+            "publish_date": "1995",
+            "key": "/books/OL25640955M",
+            "title": "An Unforgettable Man",
+            "works": [
+                {
+                    "key": "/works/OL3759317W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "classifications": {},
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2014-11-09T11:03:34.214058"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-15T23:10:45.743684"
+            }
+        },
+        "/books/OL40427900M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Innocent Secretary...Accidentally Pregnant",
+            "authors": [
+                {
+                    "key": "/authors/OL1386209A"
+                }
+            ],
+            "source_records": [
+                "amazon:0263212076",
+                "bwb:9780263212075"
+            ],
+            "publishers": [
+                "Harlequin Mills & Boon Ltd (Large Print Books)"
+            ],
+            "physical_format": "hardcover",
+            "notes": "Source title: Innocent Secretary...Accidentally Pregnant (Mills & Boon Largeprint Romance)",
+            "full_title": "Innocent Secretary...Accidentally Pregnant",
+            "works": [
+                {
+                    "key": "/works/OL16772680W"
+                }
+            ],
+            "key": "/books/OL40427900M",
+            "identifiers": {},
+            "isbn_10": [
+                "0263212076"
+            ],
+            "isbn_13": [
+                "9780263212075"
+            ],
+            "classifications": {},
+            "edition_name": "Large Print Edition",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-18T18:13:24.098451"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-05-18T11:47:45.140280"
+            }
+        },
+        "/books/OL25407654M": {
+            "title": "Innocent Secretary...Accidentally Pregnant",
+            "authors": [
+                {
+                    "key": "/authors/OL1386209A"
+                }
+            ],
+            "publish_date": "2010",
+            "publishers": [
+                "Harlequin"
+            ],
+            "series": [
+                "Harlequin presents -- 2947"
+            ],
+            "covers": [
+                10075252
+            ],
+            "publish_places": [
+                "Toronto",
+                "New York"
+            ],
+            "contributions": [
+                "Copyright Paperback Collection (Library of Congress)"
+            ],
+            "pagination": "192 p. ;",
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-03-08:O7-DNQ-392",
+                "marc:marc_loc_updates/v40.i32.records.utf8:13721012:930",
+                "bwb:9780373129478",
+                "marc:marc_loc_2016/BooksAll.2016.part40.utf8:171169882:930",
+                "promise:bwb_daily_pallets_2020-10-20:W6-AOT-721"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Sex in the workplace",
+                "Man-woman relationships",
+                "Secretaries",
+                "Fiction"
+            ],
+            "publish_country": "onc",
+            "by_statement": "Carol Marinelli",
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:O7-DNQ-392",
+                "urn:bwbsku:W6-AOT-721"
+            ],
+            "key": "/books/OL25407654M",
+            "number_of_pages": 192,
+            "works": [
+                {
+                    "key": "/works/OL16772680W"
+                }
+            ],
+            "identifiers": {},
+            "ocaid": "isbn_9780373129478",
+            "isbn_10": [
+                "0373129475"
+            ],
+            "isbn_13": [
+                "9780373129478"
+            ],
+            "lccn": [
+                "2012659178"
+            ],
+            "oclc_numbers": [
+                "648764937"
+            ],
+            "classifications": {},
+            "lc_classifications": [
+                "CPB Box no. 3266 vol. 14"
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2012-08-08T08:35:06.225668"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-05-18T10:14:50.630957"
+            }
+        },
+        "/books/OL10747802M": {
+            "publishers": [
+                "Chivers North Amer"
+            ],
+            "weight": "15.2 ounces",
+            "edition_name": "Lrg edition",
+            "physical_format": "Hardcover",
+            "key": "/books/OL10747802M",
+            "authors": [
+                {
+                    "key": "/authors/OL30714A"
+                }
+            ],
+            "subjects": [
+                "Romance",
+                "Large type books",
+                "Large Print"
+            ],
+            "isbn_13": [
+                "9780373588381"
+            ],
+            "title": "Duncan's Bride (Silhouette Sensation Large Print)",
+            "number_of_pages": 384,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373588380"
+            ],
+            "publish_date": "December 1993",
+            "works": [
+                {
+                    "key": "/works/OL491708W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.5 x 5.5 x 1 inches",
+            "source_records": [
+                "bwb:9780373588381"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-02-28T19:58:38.394639"
+            }
+        },
+        "/books/OL9752717M": {
+            "identifiers": {
+                "goodreads": [
+                    "2278368"
+                ],
+                "librarything": [
+                    "1712054"
+                ]
+            },
+            "title": "The Italian Doctor's Mistress",
+            "subtitle": "Harlequin Presents",
+            "authors": [
+                {
+                    "key": "/authors/OL968989A"
+                }
+            ],
+            "publish_date": "November 1, 2005",
+            "publishers": [
+                "Harlequin"
+            ],
+            "weight": "2.4 ounces",
+            "covers": [
+                215104
+            ],
+            "physical_format": "Mass Market Paperback",
+            "subjects": [
+                "Romance - Contemporary",
+                "Fiction / Romance / General",
+                "American Light Romantic Fiction",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-06-28:O7-BXX-614",
+                "ia:italiandoctorsmi00cath",
+                "bwb:9780373125036",
+                "promise:bwb_daily_pallets_2021-05-12:P7-BAE-204"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.4 x 4.1 x 0.6 inches",
+            "ocaid": "italiandoctorsmi00cath",
+            "isbn_10": [
+                "0373125038"
+            ],
+            "isbn_13": [
+                "9780373125036"
+            ],
+            "oclc_numbers": [
+                "61265614"
+            ],
+            "local_id": [
+                "urn:bwbsku:O7-BXX-614",
+                "urn:bwbsku:P7-BAE-204"
+            ],
+            "key": "/books/OL9752717M",
+            "number_of_pages": 192,
+            "works": [
+                {
+                    "key": "/works/OL4689750W"
+                }
+            ],
+            "latest_revision": 14,
+            "revision": 14,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T13:51:09.630237"
+            }
+        },
+        "/books/OL24248261M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "physical_format": "Electronic resource",
+            "source_records": [
+                "marc_overdrive/InternetArchiveCrMarc-2010-06-11b.mrc:4092930:1977",
+                "bwb:9781426857805"
+            ],
+            "title": "The Italian Doctor's Mistress",
+            "identifiers": {
+                "overdrive": [
+                    "A3F9E733-EC3A-4AB3-9F4C-13932D05100C"
+                ]
+            },
+            "isbn_13": [
+                "9781426857805"
+            ],
+            "covers": [
+                6395462
+            ],
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-06-16T23:53:59.383768"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-08-29T06:03:14.874308"
+            },
+            "publish_date": "2010",
+            "publish_country": "nyu",
+            "key": "/books/OL24248261M",
+            "authors": [
+                {
+                    "key": "/authors/OL968989A"
+                }
+            ],
+            "latest_revision": 4,
+            "publish_places": [
+                "Toronto, Ontario"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4689750W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 4
+        },
+        "/books/OL29127381M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781408982488"
+            ],
+            "title": "The Promise of Happiness",
+            "number_of_pages": 220,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Promise of Happiness",
+            "publish_date": "2012",
+            "key": "/books/OL29127381M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3457845W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_13": [
+                "9781408982488"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-22T09:29:11.629718"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-03-03T10:05:56.570237"
+            }
+        },
+        "/books/OL17151468M": {
+            "publishers": [
+                "Mills and Boon"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "2248129"
+                ]
+            },
+            "key": "/books/OL17151468M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "187p. ;",
+            "source_records": [
+                "bwb:9780263094930"
+            ],
+            "title": "The Promise of Happiness",
+            "number_of_pages": 187,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Fiction in English."
+            ],
+            "publish_date": "1979",
+            "publish_country": "xxk",
+            "by_statement": "by Betty Neels.",
+            "works": [
+                {
+                    "key": "/works/OL3457845W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_10": [
+                "0263094936"
+            ],
+            "dewey_decimal_class": [
+                "823/.9/1F"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-27T18:02:33.166267"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-03-03T10:08:19.625727"
+            }
+        },
+        "/books/OL10748313M": {
+            "identifiers": {
+                "librarything": [
+                    "2248129"
+                ],
+                "goodreads": [
+                    "1672378"
+                ]
+            },
+            "title": "The Promise of Happiness",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "publish_date": "September 1999",
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_13": [
+                "9780373631131"
+            ],
+            "physical_format": "Mass Market Paperback",
+            "isbn_10": [
+                "0373631138"
+            ],
+            "oclc_numbers": [
+                "43687526"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Romance - General",
+                "Fiction - Romance"
+            ],
+            "source_records": [
+                "amazon:0373631138"
+            ],
+            "key": "/books/OL10748313M",
+            "works": [
+                {
+                    "key": "/works/OL3457845W"
+                }
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-21T00:56:33.500581"
+            }
+        },
+        "/books/OL10280367M": {
+            "publishers": [
+                "Ulverscroft Large Print"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "1287071"
+                ]
+            },
+            "weight": "13.6 ounces",
+            "covers": [
+                2343299
+            ],
+            "physical_format": "Hardcover",
+            "key": "/books/OL10280367M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "classifications": {},
+            "source_records": [
+                "bwb:9780263193114",
+                "ia:promiseofhappine0000neel",
+                "promise:bwb_daily_pallets_2022-03-17"
+            ],
+            "title": "The Promise of Happiness",
+            "notes": "Betty Neels Largeprint",
+            "number_of_pages": 284,
+            "edition_name": "Large Print Edition",
+            "subjects": [
+                "Romance",
+                "Romance - General",
+                "Fiction - Romance"
+            ],
+            "publish_date": "October 2006",
+            "works": [
+                {
+                    "key": "/works/OL3457845W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.2 x 5.4 x 1 inches",
+            "ocaid": "promiseofhappine0000neel",
+            "isbn_10": [
+                "026319311X"
+            ],
+            "isbn_13": [
+                "9780263193114"
+            ],
+            "oclc_numbers": [
+                "65467769"
+            ],
+            "local_id": [
+                "urn:bwbsku:KQ-609-837"
+            ],
+            "latest_revision": 13,
+            "revision": 13,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-08T22:03:37.660229"
+            }
+        },
+        "/books/OL10746574M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "number_of_pages": 224,
+            "ia_box_id": [
+                "IA112911"
+            ],
+            "weight": "4 ounces",
+            "covers": [
+                2410549
+            ],
+            "physical_format": "Mass Market Paperback",
+            "key": "/books/OL10746574M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "subjects": [
+                "American Light Romantic Fiction",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern",
+                "Romance - General",
+                "Fiction / Romance / General",
+                "Romance - Contemporary"
+            ],
+            "source_records": [
+                "ia:promiseofhappine00neel",
+                "bwb:9780373470785",
+                "marc:marc_loc_2016/BooksAll.2016.part35.utf8:69284151:754",
+                "amazon:0373470789"
+            ],
+            "title": "The Promise of Happiness (Best of Betty Neels)",
+            "identifiers": {
+                "librarything": [
+                    "2248129"
+                ],
+                "goodreads": [
+                    "414623"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "August 8, 2006",
+            "works": [
+                {
+                    "key": "/works/OL3457845W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.6 x 4.2 x 0.8 inches",
+            "ocaid": "promiseofhappine00neel",
+            "isbn_10": [
+                "0373470789"
+            ],
+            "isbn_13": [
+                "9780373470785"
+            ],
+            "lccn": [
+                "2007582966"
+            ],
+            "lc_classifications": [
+                "CPB Box no. 2661 vol. 12"
+            ],
+            "latest_revision": 13,
+            "revision": 13,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-03-03T10:04:13.017818"
+            }
+        },
+        "/books/OL28950955M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263158649"
+            ],
+            "title": "Vengeful Husband",
+            "number_of_pages": 185,
+            "isbn_13": [
+                "9780263158649"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Vengeful Husband",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "1998",
+            "key": "/books/OL28950955M",
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3773983W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T04:45:08.768232"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-02-23T10:24:38.516727"
+            }
+        },
+        "/books/OL29758396M": {
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "source_records": [
+                "bwb:9781488031892"
+            ],
+            "title": "Fantasy Girl",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781488031892"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Fantasy Girl",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2017",
+            "key": "/books/OL29758396M",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3775422W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-30T21:42:42.854576"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-29T03:03:40.790172"
+            }
+        },
+        "/books/OL29264338M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781474029780"
+            ],
+            "title": "Fantasy Girl",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781474029780"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Fantasy Girl",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2015",
+            "key": "/books/OL29264338M",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3775422W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-24T00:40:54.916337"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-05-29T03:03:40.790172"
+            }
+        },
+        "/books/OL14977676M": {
+            "publishers": [
+                "Mills and Boon"
+            ],
+            "number_of_pages": 186,
+            "key": "/books/OL14977676M",
+            "authors": [
+                {
+                    "key": "/authors/OL666139A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "186p. ;",
+            "source_records": [
+                "bwb:9780263102390",
+                "ia:fantasygirl0000mort_s1b6",
+                "amazon:0263102394",
+                "promise:bwb_daily_pallets_2020-04-09"
+            ],
+            "title": "Fantasy girl",
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "2249059"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263102394"
+            ],
+            "publish_date": "1983",
+            "publish_country": "xxk",
+            "by_statement": "by Carole Mortimer.",
+            "oclc_numbers": [
+                "9988541"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3775422W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                11339560
+            ],
+            "ocaid": "fantasygirl0000mort_s1b6",
+            "local_id": [
+                "urn:bwbsku:O6-BRV-900"
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T23:02:38.074969"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-10T12:57:25.404518"
+            }
+        },
+        "/books/OL24574077M": {
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "ia_box_id": [
+                "IA116106"
+            ],
+            "series": [
+                "Harlequin presents plus -- 1592"
+            ],
+            "covers": [
+                6692258,
+                6821146
+            ],
+            "full_title": "The last grand passion",
+            "key": "/books/OL24574077M",
+            "authors": [
+                {
+                    "key": "/authors/OL451969A"
+                }
+            ],
+            "ocaid": "lastgrandpassion00darc",
+            "publish_places": [
+                "Toronto",
+                "New York"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "219 p. ;",
+            "source_records": [
+                "ia:lastgrandpassion00darc"
+            ],
+            "title": "The last grand passion",
+            "dewey_decimal_class": [
+                "823"
+            ],
+            "number_of_pages": 219,
+            "isbn_13": [
+                "9780373115921"
+            ],
+            "edition_name": "Harlequin presents plus 1st ed.",
+            "isbn_10": [
+                "037311592X"
+            ],
+            "publish_date": "1993",
+            "publish_country": "onc",
+            "by_statement": "Emma Darcy",
+            "oclc_numbers": [
+                "28322598"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL2959362W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2011-01-06T20:32:08.965738"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-10T23:19:12.522881"
+            }
+        },
+        "/books/OL17403922M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "3200873"
+                ]
+            },
+            "key": "/books/OL17403922M",
+            "authors": [
+                {
+                    "key": "/authors/OL451969A"
+                }
+            ],
+            "publish_places": [
+                "Richmond"
+            ],
+            "pagination": "186p. ;",
+            "title": "The last grand passion",
+            "dewey_decimal_class": [
+                "823.914"
+            ],
+            "number_of_pages": 186,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263141969"
+            ],
+            "publish_date": "1994",
+            "publish_country": "enk",
+            "by_statement": "by Emma Darcy.",
+            "oclc_numbers": [
+                "31810501"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL2959362W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                11340751
+            ],
+            "ocaid": "lastgrandpassion0000darc",
+            "source_records": [
+                "ia:lastgrandpassion0000darc"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-28T17:19:07.697553"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-07-02T06:19:25.038140"
+            }
+        },
+        "/books/OL44103209M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL3292941A"
+                }
+            ],
+            "isbn_13": [
+                "9780263200188"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2008",
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263200188"
+            ],
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "title": "Greek Tycoon's Virgin Wife",
+            "full_title": "Greek Tycoon's Virgin Wife",
+            "works": [
+                {
+                    "key": "/works/OL3498560W"
+                }
+            ],
+            "key": "/books/OL44103209M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-17T04:18:12.896074"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-17T22:48:45.135952"
+            }
+        },
+        "/books/OL24975352M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "ia_box_id": [
+                "IA125810"
+            ],
+            "series": [
+                "Harlequin presents -- 2669"
+            ],
+            "covers": [
+                6894009
+            ],
+            "full_title": "The Greek tycoon's virgin wife",
+            "key": "/books/OL24975352M",
+            "authors": [
+                {
+                    "key": "/authors/OL3292941A"
+                }
+            ],
+            "publish_places": [
+                "Toronto",
+                "New York"
+            ],
+            "pagination": "187 p. ;",
+            "source_records": [
+                "ia:greektycoonsvirg00bian"
+            ],
+            "title": "The Greek Tycoon's Virgin Wife",
+            "notes": "\"They're the men who have everything--except brides...\"--P. [4] of cover.",
+            "number_of_pages": 187,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Socialites",
+                "Greeks",
+                "Fiction",
+                "Virginity",
+                "Arranged marriage"
+            ],
+            "publish_date": "2007",
+            "publish_country": "onc",
+            "by_statement": "Helen Bianchin",
+            "works": [
+                {
+                    "key": "/works/OL3498560W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "ocaid": "greektycoonsvirg00bian",
+            "isbn_10": [
+                "0373126697",
+                "026385356X"
+            ],
+            "isbn_13": [
+                "9780373126699",
+                "9780263853568"
+            ],
+            "oclc_numbers": [
+                "156729328"
+            ],
+            "classifications": {},
+            "dewey_decimal_class": [
+                "823.92"
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2011-08-23T00:02:49.570422"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-17T22:48:45.135952"
+            }
+        },
+        "/books/OL9746700M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "weight": "4 ounces",
+            "covers": [
+                5010351,
+                5009898,
+                5009363
+            ],
+            "physical_format": "Mass Market Paperback",
+            "key": "/books/OL9746700M",
+            "authors": [
+                {
+                    "key": "/authors/OL3292941A"
+                }
+            ],
+            "subjects": [
+                "American Light Romantic Fiction",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern",
+                "Romance - Contemporary",
+                "Fiction / Romance / General"
+            ],
+            "edition_name": "Lgr edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "bwb:9780373234332"
+            ],
+            "title": "The Greek Tycoon's Virgin Wife (Harlequin Presents: Greek Tycoons)",
+            "number_of_pages": 256,
+            "isbn_13": [
+                "9780373234332"
+            ],
+            "isbn_10": [
+                "0373234333"
+            ],
+            "publish_date": "October 1, 2007",
+            "oclc_numbers": [
+                "165449494"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3498560W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.6 x 4.1 x 0.8 inches",
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-17T22:48:45.135952"
+            }
+        },
+        "/books/OL38352629M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL3292941A"
+                }
+            ],
+            "isbn_13": [
+                "9781459269255"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2011",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781459269255"
+            ],
+            "subjects": [
+                "Fiction, general"
+            ],
+            "title": "Ideal Marriage?",
+            "full_title": "Ideal Marriage?",
+            "works": [
+                {
+                    "key": "/works/OL3498542W"
+                }
+            ],
+            "key": "/books/OL38352629M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-18T09:34:17.731362"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-17T23:14:29.760792"
+            }
+        },
+        "/books/OL29151866M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781408983782"
+            ],
+            "title": "Ideal Marriage?",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781408983782"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Ideal Marriage?",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2012",
+            "key": "/books/OL29151866M",
+            "authors": [
+                {
+                    "key": "/authors/OL3292941A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3498542W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-22T15:54:16.576351"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-17T23:14:29.760792"
+            }
+        },
+        "/books/OL28950630M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263802214",
+                "ia:idealmarriage0000bian_y5w1",
+                "ia:idealmarriage0000bian",
+                "amazon:0263802213",
+                "promise:bwb_daily_pallets_2020-06-24"
+            ],
+            "title": "Ideal Marriage?",
+            "number_of_pages": 187,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1997",
+            "key": "/books/OL28950630M",
+            "authors": [
+                {
+                    "key": "/authors/OL3292941A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3498542W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, general"
+            ],
+            "covers": [
+                11348002
+            ],
+            "identifiers": {
+                "amazon": [
+                    ""
+                ]
+            },
+            "ocaid": "idealmarriage0000bian_y5w1",
+            "isbn_13": [
+                "9780263802214"
+            ],
+            "classifications": {},
+            "lc_classifications": [
+                "PN6071 .I33 1997"
+            ],
+            "local_id": [
+                "urn:bwbsku:KN-642-474"
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T04:35:42.167341"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-17T23:14:29.760792"
+            }
+        },
+        "/books/OL9598708M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "number_of_pages": 187,
+            "weight": "3.2 ounces",
+            "series": [
+                "Harlequin Presents, No. 1905"
+            ],
+            "covers": [
+                4992630
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL9598708M",
+            "authors": [
+                {
+                    "key": "/authors/OL3292941A"
+                }
+            ],
+            "subjects": [
+                "Romance - General",
+                "Non-Classifiable",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Regency"
+            ],
+            "isbn_13": [
+                "9780373119059"
+            ],
+            "classifications": {},
+            "source_records": [
+                "bwb:9780373119059",
+                "promise:bwb_daily_pallets_2021-01-06",
+                "promise:bwb_daily_pallets_2020-11-13"
+            ],
+            "title": "Ideal Marriage",
+            "identifiers": {
+                "librarything": [
+                    "1606075"
+                ],
+                "goodreads": [
+                    "489092"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373119054"
+            ],
+            "publish_date": "August 1, 1997",
+            "oclc_numbers": [
+                "37523900"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3498542W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.4 x 4.1 x 0.4 inches",
+            "local_id": [
+                "urn:bwbsku:W2-DRA-977",
+                "urn:bwbsku:W2-BRH-124"
+            ],
+            "latest_revision": 15,
+            "revision": 15,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-15T14:56:26.472393"
+            }
+        },
+        "/books/OL38273808M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2014",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781299842434"
+            ],
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "title": "The Vicar's Daughter",
+            "full_title": "Vicar's Daughter",
+            "works": [
+                {
+                    "key": "/works/OL3457919W"
+                }
+            ],
+            "key": "/books/OL38273808M",
+            "identifiers": {},
+            "isbn_13": [
+                "9781299842434"
+            ],
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-17T12:23:51.273622"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-06T11:40:04.483241"
+            }
+        },
+        "/books/OL38276954M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2013",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781299352131"
+            ],
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "title": "The Vicar's Daughter",
+            "full_title": "Vicar's Daughter",
+            "works": [
+                {
+                    "key": "/works/OL3457919W"
+                }
+            ],
+            "key": "/books/OL38276954M",
+            "identifiers": {},
+            "isbn_13": [
+                "9781299352131"
+            ],
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-17T13:00:51.464160"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-06T11:40:04.483241"
+            }
+        },
+        "/books/OL38353024M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2011",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781459263147"
+            ],
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "title": "The Vicar's Daughter",
+            "full_title": "Vicar's Daughter",
+            "works": [
+                {
+                    "key": "/works/OL3457919W"
+                }
+            ],
+            "key": "/books/OL38353024M",
+            "identifiers": {},
+            "isbn_13": [
+                "9781459263147"
+            ],
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-18T09:38:33.123186"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-06T11:40:04.483241"
+            }
+        },
+        "/books/OL29136677M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781408982884"
+            ],
+            "title": "Girl with Green Eyes",
+            "number_of_pages": 220,
+            "isbn_13": [
+                "9781408982884"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Girl with Green Eyes",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2012",
+            "key": "/books/OL29136677M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3458001W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-22T11:56:20.768299"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-08T21:53:52.653580"
+            }
+        },
+        "/books/OL9306847M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "601750"
+                ],
+                "goodreads": [
+                    "630375"
+                ]
+            },
+            "weight": "3.7 ounces",
+            "covers": [
+                1186940
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL9306847M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "subjects": [
+                "Romance - Adult",
+                "Fiction / Romance / General",
+                "Romance - Contemporary",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern"
+            ],
+            "source_records": [
+                "bwb:9780373512331",
+                "ia:bestofbettyneels0000neel_g5k8",
+                "promise:bwb_daily_pallets_2020-12-16"
+            ],
+            "title": "The Girl with Green Eyes",
+            "number_of_pages": 224,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "March 1, 2003",
+            "works": [
+                {
+                    "key": "/works/OL3458001W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.8 x 4.2 x 0.6 inches",
+            "local_id": [
+                "urn:bwbsku:KM-341-084"
+            ],
+            "ocaid": "bestofbettyneels0000neel_g5k8",
+            "isbn_10": [
+                "0373512333"
+            ],
+            "isbn_13": [
+                "9780373512331"
+            ],
+            "classifications": {},
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-03-20T20:42:21.044476"
+            }
+        },
+        "/books/OL10282198M": {
+            "publishers": [
+                "Harlequin Mills & Boon"
+            ],
+            "number_of_pages": 224,
+            "physical_format": "Paperback",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T05:10:25.394152"
+            },
+            "latest_revision": 9,
+            "key": "/books/OL10282198M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "subjects": [
+                "Romance"
+            ],
+            "edition_name": "New edition",
+            "classifications": {},
+            "source_records": [
+                "bwb:9780263811674"
+            ],
+            "title": "The Girl with Green Eyes",
+            "notes": {
+                "type": "/type/text",
+                "value": "Betty Neels Collector's Editions"
+            },
+            "identifiers": {
+                "librarything": [
+                    "601750"
+                ],
+                "goodreads": [
+                    "2090961"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "isbn_13": [
+                "9780263811674"
+            ],
+            "isbn_10": [
+                "0263811670"
+            ],
+            "publish_date": "November 5, 1999",
+            "oclc_numbers": [
+                "60209485"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3458001W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 9
+        },
+        "/books/OL10281739M": {
+            "publishers": [
+                "Harlequin Mills & Boon"
+            ],
+            "number_of_pages": 192,
+            "physical_format": "Mass Market Paperback",
+            "key": "/books/OL10281739M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "subjects": [
+                "Romance"
+            ],
+            "edition_name": "UK edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "bwb:9780263793406",
+                "ia:unforgettableman0000jord",
+                "promise:bwb_daily_pallets_2022-03-17"
+            ],
+            "title": "An Unforgettable Man (Dangerous Liaisons) (Harlequin Presents, No 1805)",
+            "identifiers": {
+                "goodreads": [
+                    "6305865"
+                ],
+                "librarything": [
+                    "1710840"
+                ]
+            },
+            "isbn_13": [
+                "9780263793406"
+            ],
+            "isbn_10": [
+                "0263793400"
+            ],
+            "publish_date": "January 12, 1996",
+            "oclc_numbers": [
+                "60279055"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3759317W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                12789663
+            ],
+            "ocaid": "unforgettableman0000jord",
+            "local_id": [
+                "urn:bwbsku:KQ-574-383"
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-07T18:10:50.567141"
+            }
+        },
+        "/books/OL10240413M": {
+            "publishers": [
+                "Thorndike Press"
+            ],
+            "number_of_pages": 288,
+            "weight": "13.6 ounces",
+            "covers": [
+                9609658
+            ],
+            "physical_format": "Hardcover",
+            "key": "/books/OL10240413M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "subjects": [
+                "Romance",
+                "Romance - General",
+                "Fiction - Romance",
+                "Large type books",
+                "Large Print"
+            ],
+            "edition_name": "Large Print Edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "bwb:9780263145502",
+                "amazon:0263145506"
+            ],
+            "title": "An Unforgettable Man",
+            "identifiers": {
+                "goodreads": [
+                    "1951142"
+                ]
+            },
+            "publish_date": "July 1996",
+            "works": [
+                {
+                    "key": "/works/OL3759317W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.2 x 5.8 x 1 inches",
+            "ocaid": "unforgettableman00penn",
+            "isbn_10": [
+                "0263145506"
+            ],
+            "isbn_13": [
+                "9780263145502"
+            ],
+            "classifications": {},
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-15T23:11:47.005154"
+            }
+        },
+        "/books/OL29004464M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263208764"
+            ],
+            "title": "Innocent Secretary...Accidentally Pregnant",
+            "number_of_pages": 192,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Innocent Secretary Accident",
+            "publish_date": "2009",
+            "key": "/books/OL29004464M",
+            "authors": [
+                {
+                    "key": "/authors/OL1386209A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL16772680W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general",
+                "Pregnancy, fiction"
+            ],
+            "identifiers": {},
+            "classifications": {},
+            "isbn_13": [
+                "9780263208764"
+            ],
+            "lc_classifications": [
+                "PR9619.4.M36"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-20T13:18:23.959377"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-05-18T11:47:45.140280"
+            }
+        },
+        "/books/OL27681745M": {
+            "publishers": [
+                "Harlequin Presents Large Print"
+            ],
+            "number_of_pages": 256,
+            "source_records": [
+                "amazon:0373237111",
+                "bwb:9780373237111"
+            ],
+            "title": "Innocent Secretary...Accidentally Pregnant",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {
+                "amazon": [
+                    "0373237111"
+                ]
+            },
+            "covers": [
+                9122152
+            ],
+            "publish_date": "Sep 28, 2010",
+            "key": "/books/OL27681745M",
+            "authors": [
+                {
+                    "key": "/authors/OL1386209A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL16772680W"
+                }
+            ],
+            "physical_format": "mass market paperback",
+            "isbn_10": [
+                "0373237111"
+            ],
+            "isbn_13": [
+                "9780373237111"
+            ],
+            "classifications": {},
+            "edition_name": "Larger Print Edition",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-11-13T17:13:17.489784"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-05-18T11:47:45.140280"
+            }
+        },
+        "/books/OL26092715M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "source_records": [
+                "bwb:9780263877564",
+                "ia:innocentsecretar0000mari"
+            ],
+            "title": "Innocent Secretary...Accidentally Pregnant",
+            "identifiers": {},
+            "covers": [
+                7711274
+            ],
+            "key": "/books/OL26092715M",
+            "works": [
+                {
+                    "key": "/works/OL16772680W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "innocentsecretar0000mari",
+            "isbn_13": [
+                "9780263877564"
+            ],
+            "classifications": {},
+            "lc_classifications": [
+                "PR9619.4.M36"
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2016-10-14T15:03:02.476199"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-05-18T11:47:45.140280"
+            }
+        },
+        "/books/OL9851309M": {
+            "identifiers": {
+                "librarything": [
+                    "367094"
+                ],
+                "goodreads": [
+                    "3052739"
+                ]
+            },
+            "title": "Duncan's Bride",
+            "authors": [
+                {
+                    "key": "/authors/OL30714A"
+                }
+            ],
+            "publish_date": "August 1, 1990",
+            "publishers": [
+                "silhouette",
+                "Silhouette"
+            ],
+            "covers": [
+                12619431,
+                -1
+            ],
+            "physical_format": "Paperback",
+            "subjects": [
+                "Romance - General",
+                "Non-Classifiable",
+                "Fiction - Romance"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-03-08:O7-DTV-687",
+                "ia:duncansbride00lind_1",
+                "bwb:9780373073498",
+                "amazon:0373073496",
+                "promise:bwb_daily_pallets_2020-10-22:W6-ACB-028"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "duncansbride00lind_1",
+            "isbn_10": [
+                "0373073496"
+            ],
+            "isbn_13": [
+                "9780373073498"
+            ],
+            "oclc_numbers": [
+                "22298502"
+            ],
+            "local_id": [
+                "urn:bwbsku:O7-DTV-687",
+                "urn:bwbsku:W6-ACB-028"
+            ],
+            "key": "/books/OL9851309M",
+            "works": [
+                {
+                    "key": "/works/OL491708W"
+                }
+            ],
+            "latest_revision": 20,
+            "revision": 20,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T17:19:16.628858"
+            }
+        },
+        "/books/OL8553127M": {
+            "identifiers": {
+                "goodreads": [
+                    "420736"
+                ],
+                "librarything": [
+                    "367094"
+                ],
+                "amazon": [
+                    ""
+                ]
+            },
+            "title": "Duncan'S Bride",
+            "authors": [
+                {
+                    "key": "/authors/OL30714A"
+                }
+            ],
+            "publish_date": "June 1, 1998",
+            "publishers": [
+                "Mira"
+            ],
+            "weight": "4.8 ounces",
+            "covers": [
+                771287
+            ],
+            "physical_format": "Paperback",
+            "ocaid": "duncansbride00lind",
+            "subjects": [
+                "Romance",
+                "Romance - General",
+                "Non-Classifiable",
+                "Fiction - Romance",
+                "Fiction"
+            ],
+            "isbn_13": [
+                "9781551664798"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-08-12:T2-ATK-379",
+                "ia:duncansbride00lind",
+                "bwb:9781551664798",
+                "promise:bwb_daily_pallets_2020-10-07:P4-BHQ-650"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "1551664798"
+            ],
+            "oclc_numbers": [
+                "57482807"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "7.2 x 4.2 x 0.8 inches",
+            "local_id": [
+                "urn:bwbsku:T2-ATK-379",
+                "urn:bwbsku:P4-BHQ-650"
+            ],
+            "key": "/books/OL8553127M",
+            "works": [
+                {
+                    "key": "/works/OL491708W"
+                }
+            ],
+            "latest_revision": 18,
+            "revision": 18,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T06:33:27.187047"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T17:38:53.716381"
+            }
+        },
+        "/books/OL8552949M": {
+            "publishers": [
+                "Mira"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "1723925"
+                ],
+                "librarything": [
+                    "367094"
+                ]
+            },
+            "weight": "4 ounces",
+            "covers": [
+                771142
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL8552949M",
+            "authors": [
+                {
+                    "key": "/authors/OL30714A"
+                }
+            ],
+            "subjects": [
+                "Modern fiction",
+                "Romance",
+                "Romance: Modern",
+                "Fiction",
+                "Fiction - Romance",
+                "FIC027020",
+                "FIC",
+                "Romance - Contemporary",
+                "Non-Classifiable"
+            ],
+            "isbn_13": [
+                "9781551660516"
+            ],
+            "source_records": [
+                "ia:duncansbride00howa_424",
+                "bwb:9781551660516"
+            ],
+            "title": "Duncan'S Bride",
+            "number_of_pages": 256,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "1551660512"
+            ],
+            "publish_date": "June 1, 1995",
+            "works": [
+                {
+                    "key": "/works/OL491708W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.8 x 4.2 x 0.8 inches",
+            "latest_revision": 13,
+            "revision": 13,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T06:33:27.187047"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-03-28T16:10:20.662188"
+            }
+        },
+        "/books/OL60332985M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL1391136A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B000KE4DOU"
+                ],
+                "better_world_books": [
+                    " "
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:Y0-CDD-006"
+            ],
+            "publish_date": "1925",
+            "publishers": [
+                "Grosset & Dunlap"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2024-12-09:Y0-CDD-006"
+            ],
+            "title": "Certain Crossing",
+            "works": [
+                {
+                    "key": "/works/OL14851678W"
+                }
+            ],
+            "key": "/books/OL60332985M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-10-02T02:08:24.163576"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-05-01T06:32:06.207515"
+            }
+        }
+    }
+}

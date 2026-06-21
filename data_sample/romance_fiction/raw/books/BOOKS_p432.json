@@ -1,0 +1,6007 @@
+{
+    "status": "ok",
+    "result": {
+        "/books/OL22828978M": {
+            "publishers": [
+                "Penguin"
+            ],
+            "subtitle": "Simply stories levelthree.",
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:1248400649:429"
+            ],
+            "title": "Far from the madding crowd",
+            "work_titles": [
+                "Far from the madding crowd"
+            ],
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-01-05T06:50:49.573601"
+            },
+            "languages": [
+                {
+                    "key": "/languages/und"
+                }
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2010-12-07T11:22:48.672562"
+            },
+            "publish_date": "1991",
+            "publish_country": "xx ",
+            "key": "/books/OL22828978M",
+            "authors": [
+                {
+                    "key": "/authors/OL18277A"
+                }
+            ],
+            "latest_revision": 3,
+            "works": [
+                {
+                    "key": "/works/OL44995W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 3
+        },
+        "/books/OL22178151M": {
+            "publishers": [
+                "H. Holt"
+            ],
+            "series": [
+                "Leisure hour series"
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2010-12-07T11:22:48.672562"
+            },
+            "latest_revision": 3,
+            "key": "/books/OL22178151M",
+            "authors": [
+                {
+                    "key": "/authors/OL18277A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "edition_name": "[Author's ed.]",
+            "pagination": "[1], iv, 474 p.",
+            "source_records": [
+                "marc:marc_university_of_toronto/uoft.marc:3349520876:563"
+            ],
+            "title": "Far from the madding crowd.",
+            "notes": {
+                "type": "/type/text",
+                "value": "First American edition.\n\nPurdy, p. 17."
+            },
+            "number_of_pages": 474,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-08T10:45:59.080638"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1874",
+            "publish_country": "nyu",
+            "works": [
+                {
+                    "key": "/works/OL44995W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 3
+        },
+        "/books/OL22632905M": {
+            "publishers": [
+                "Cambridge University Press"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "14414"
+                ],
+                "goodreads": [
+                    "4395145"
+                ],
+                "amazon": [
+                    ""
+                ]
+            },
+            "series": [
+                "Cambridge literature"
+            ],
+            "key": "/books/OL22632905M",
+            "authors": [
+                {
+                    "key": "/authors/OL18277A"
+                }
+            ],
+            "publish_places": [
+                "Cambridge"
+            ],
+            "contributions": [
+                "George, Patricia, 1947-"
+            ],
+            "pagination": "430p. ;",
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:1835485169:688",
+                "bwb:9780521567671",
+                "ia:farfrommaddingcr0000hard_d9e0",
+                "promise:bwb_daily_pallets_2020-06-24"
+            ],
+            "title": "Far from the madding crowd",
+            "dewey_decimal_class": [
+                "823.8"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Bibliography: 429-430."
+            },
+            "number_of_pages": 430,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "052156767X"
+            ],
+            "publish_date": "1996",
+            "publish_country": "enk",
+            "by_statement": "Thomas Hardy ; edited by Patricia George.",
+            "works": [
+                {
+                    "key": "/works/OL44995W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                11630749
+            ],
+            "ocaid": "farfrommaddingcr0000hard_d9e0",
+            "local_id": [
+                "urn:bwbsku:KN-836-663"
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-18T01:27:49.920937"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-10T06:55:30.778821"
+            }
+        },
+        "/books/OL7820420M": {
+            "publishers": [
+                "Bantam Classics"
+            ],
+            "physical_format": "Mass Market Paperback",
+            "source_records": [
+                "amazon:0553212575:bx:1510368239:170406",
+                "bwb:9780553212570"
+            ],
+            "title": "Far from the Madding Crowd",
+            "identifiers": {
+                "goodreads": [
+                    "1991889"
+                ],
+                "librarything": [
+                    "14414"
+                ]
+            },
+            "isbn_13": [
+                "9780553212570"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0553212575"
+            ],
+            "publish_date": "June 1, 1983",
+            "key": "/books/OL7820420M",
+            "authors": [
+                {
+                    "key": "/authors/OL18277A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL44995W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Non-Classifiable",
+                "Literature - Classics / Criticism"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-07-17T09:00:35.624652"
+            }
+        },
+        "/books/OL13920615M": {
+            "publishers": [
+                "Harper"
+            ],
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:257862885:364"
+            ],
+            "title": "Far from the madding crowd.",
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-02T03:22:53.969865"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2010-12-07T11:22:48.672562"
+            },
+            "publish_date": "1899",
+            "publish_country": "xxu",
+            "key": "/books/OL13920615M",
+            "authors": [
+                {
+                    "key": "/authors/OL18277A"
+                }
+            ],
+            "latest_revision": 3,
+            "publish_places": [
+                "New York"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL44995W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 3
+        },
+        "/books/OL22166027M": {
+            "publishers": [
+                "Everyman"
+            ],
+            "number_of_pages": 377,
+            "series": [
+                "Everyman's library"
+            ],
+            "lc_classifications": [
+                "PR4745.A2 F3 1993b"
+            ],
+            "key": "/books/OL22166027M",
+            "authors": [
+                {
+                    "key": "/authors/OL18277A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "contributions": [
+                "Gibson, James, 1919-"
+            ],
+            "pagination": "xxxviii, 377, [1] p.",
+            "source_records": [
+                "marc:marc_university_of_toronto/uoft.marc:3334290178:923",
+                "bwb:9780460872553"
+            ],
+            "title": "Far from the madding crowd",
+            "dewey_decimal_class": [
+                "823.8"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "2660319"
+                ],
+                "librarything": [
+                    "14414"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0460872559"
+            ],
+            "publish_date": "1993",
+            "publish_country": "enk",
+            "by_statement": "Thomas Hardy ; edited by James Gibson.",
+            "works": [
+                {
+                    "key": "/works/OL44995W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-07T20:01:29.717765"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-09-29T01:52:37.442908"
+            }
+        },
+        "/books/OL3951270M": {
+            "publishers": [
+                "Modern Library"
+            ],
+            "number_of_pages": 468,
+            "isbn_10": [
+                "037575797X"
+            ],
+            "subject_place": [
+                "Wessex (England)"
+            ],
+            "dewey_decimal_class": [
+                "823/.8"
+            ],
+            "pagination": "xxii, 468 p. :",
+            "covers": [
+                230418
+            ],
+            "lc_classifications": [
+                "PR4745 .A1 2001",
+                "PR4745.A1 2001"
+            ],
+            "key": "/books/OL3951270M",
+            "authors": [
+                {
+                    "key": "/authors/OL18277A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "contributions": [
+                "Drabble, Margaret, 1939-",
+                "O'Toole, Tess."
+            ],
+            "uri_descriptions": [
+                "Contributor biographical information",
+                "Sample text",
+                "Publisher description"
+            ],
+            "edition_name": "2001 Modern Library ed.",
+            "genres": [
+                "Fiction."
+            ],
+            "source_records": [
+                "marc:marc_records_scriblio_net/part13.dat:141613704:1411",
+                "bwb:9780375757976",
+                "marc:marc_loc_2016/BooksAll.2016.part28.utf8:222072931:1411"
+            ],
+            "title": "Far from the madding crowd",
+            "lccn": [
+                "2001045036"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Includes bibliographical references"
+            },
+            "identifiers": {
+                "goodreads": [
+                    "33013"
+                ],
+                "librarything": [
+                    "14414"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "url": [
+                "http://www.loc.gov/catdir/bios/random053/2001045036.html",
+                "http://www.loc.gov/catdir/samples/random041/2001045036.html",
+                "http://www.loc.gov/catdir/description/random041/2001045036.html"
+            ],
+            "subjects": [
+                "Women farmers -- Fiction",
+                "Farm life -- Fiction",
+                "Triangles (Interpersonal relations) -- Fiction",
+                "Wessex (England) -- Fiction"
+            ],
+            "publish_date": "2001",
+            "publish_country": "nyu",
+            "series": [
+                "The Modern Library classics"
+            ],
+            "by_statement": "Thomas Hardy ; introduction by Margaret Drabble ; notes by Tess O'Toole.",
+            "works": [
+                {
+                    "key": "/works/OL44995W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "uris": [
+                "http://www.loc.gov/catdir/bios/random053/2001045036.html",
+                "http://www.loc.gov/catdir/samples/random041/2001045036.html",
+                "http://www.loc.gov/catdir/description/random041/2001045036.html"
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-12-03T17:08:01.831554"
+            }
+        },
+        "/books/OL22719966M": {
+            "publishers": [
+                "Macmillan"
+            ],
+            "key": "/books/OL22719966M",
+            "authors": [
+                {
+                    "key": "/authors/OL18277A"
+                }
+            ],
+            "publish_places": [
+                "Basingstoke"
+            ],
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:485744631:480",
+                "bwb:9780174324478"
+            ],
+            "title": "Far from the madding crowd",
+            "notes": {
+                "type": "/type/text",
+                "value": "First published.\n\n1874."
+            },
+            "identifiers": {
+                "goodreads": [
+                    "3155428"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0174324472"
+            ],
+            "publish_date": "1992",
+            "publish_country": "enk",
+            "by_statement": "Thomas Hardy.",
+            "oclc_numbers": [
+                "313913265"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL44995W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-12-19T09:31:01.772702"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-07-17T04:45:46.241132"
+            }
+        },
+        "/books/OL45807924M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL12245280A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B003SWD70C"
+                ],
+                "better_world_books": [
+                    "BWB39963037"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:P3-ABK-435"
+            ],
+            "publish_date": "1961-01-01",
+            "publishers": [
+                "Bertelsmann Lesering"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-05-05"
+            ],
+            "title": "Ein gewisses Lächeln",
+            "works": [
+                {
+                    "key": "/works/OL584283W"
+                }
+            ],
+            "key": "/books/OL45807924M",
+            "classifications": {},
+            "translated_from": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/ger"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-01-14T20:31:10.613908"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-03T10:05:54.113234"
+            }
+        },
+        "/books/OL45799689M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL42805A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B0000BN44L"
+                ],
+                "better_world_books": [
+                    "BWB33232400"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:W1-AUN-230"
+            ],
+            "publish_date": "1956-01-01",
+            "publishers": [
+                "Ullstein Verlag"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-07-02"
+            ],
+            "title": "Ein gewisses Lächeln",
+            "full_title": "Ein gewisses Lächeln",
+            "works": [
+                {
+                    "key": "/works/OL584283W"
+                }
+            ],
+            "key": "/books/OL45799689M",
+            "classifications": {},
+            "translated_from": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/ger"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-01-14T17:55:01.425401"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-05-22T15:44:38.464329"
+            }
+        },
+        "/books/OL43410414M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL11536858A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B0010K396G"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:KP-550-900"
+            ],
+            "publish_date": "1958-01-01",
+            "publishers": [
+                "The Reprint Society"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-03-24"
+            ],
+            "title": "A Certain Smile",
+            "full_title": "A Certain Smile",
+            "works": [
+                {
+                    "key": "/works/OL584283W"
+                }
+            ],
+            "key": "/books/OL43410414M",
+            "classifications": {},
+            "translated_from": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-08T18:00:44.231880"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-03T10:05:54.113234"
+            }
+        },
+        "/books/OL45801381M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL11536858A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B003CZTM9U"
+                ],
+                "better_world_books": [
+                    "BWB33754372"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:KL-019-111"
+            ],
+            "publish_date": "1965-01-01",
+            "publishers": [
+                "John Murray"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-06-17"
+            ],
+            "title": "A Certain Smile",
+            "full_title": "A Certain Smile",
+            "works": [
+                {
+                    "key": "/works/OL584283W"
+                }
+            ],
+            "key": "/books/OL45801381M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-01-14T18:28:52.375253"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-03T10:05:54.113234"
+            }
+        },
+        "/books/OL22947900M": {
+            "other_titles": [
+                "Prelestnye kartinki.",
+                "Filosofskiĭ kamenʹ."
+            ],
+            "publishers": [
+                "Moskovskiĭ rabochiĭ"
+            ],
+            "key": "/books/OL22947900M",
+            "authors": [
+                {
+                    "key": "/authors/OL42805A"
+                }
+            ],
+            "publish_places": [
+                "[Moskva]"
+            ],
+            "contributions": [
+                "Beauvoir, Simone de, 1908-1986.",
+                "Yourcenar, Marguerite.",
+                "I︠A︡khnina, I︠U︡liana I︠A︡kovlevna."
+            ],
+            "pagination": "495 p. :",
+            "source_records": [
+                "marc:SanFranPL05/SanFranPL05.out:63616408:1353"
+            ],
+            "title": "Smutnai︠a︡ ulybka",
+            "work_titles": [
+                "Certain sourire."
+            ],
+            "number_of_pages": 495,
+            "languages": [
+                {
+                    "key": "/languages/rus"
+                }
+            ],
+            "publish_date": "1993",
+            "publish_country": "ru ",
+            "by_statement": "Fransuaza Sagan.  Prelestnye kartinki / Simona de Bovuar.  Filosofskiĭ kamen' / Margerit I︠U︡rsenar ; [vstupitel'nai︠a︡ stat'i︠a︡ E.A., Zlobina ; sostavitel' I︠U︡liana I︠A︡kovlevna I︠A︡khnina].",
+            "works": [
+                {
+                    "key": "/works/OL584283W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_10": [
+                "523901230X"
+            ],
+            "classifications": {},
+            "translated_from": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-02-12T15:06:44.928844"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-03T10:05:54.113234"
+            }
+        },
+        "/books/OL23000713M": {
+            "publishers": [
+                "Bertelsmann Lesering"
+            ],
+            "key": "/books/OL23000713M",
+            "authors": [
+                {
+                    "key": "/authors/OL42805A"
+                }
+            ],
+            "publish_places": [
+                "[Gütersloh]"
+            ],
+            "contributions": [
+                "Sagan, Françoise, 1935-"
+            ],
+            "pagination": "190 p. ; ;",
+            "source_records": [
+                "marc:SanFranPL09/SanFranPL09.out:35884563:930"
+            ],
+            "title": "Ein gewisses Lächeln",
+            "work_titles": [
+                "Certaine sourire."
+            ],
+            "notes": "Translation of: Un certain sourire.",
+            "number_of_pages": 190,
+            "languages": [
+                {
+                    "key": "/languages/ger"
+                }
+            ],
+            "publish_date": "1961",
+            "publish_country": "gw ",
+            "by_statement": "Françoise Sagan ; [übertragen von Helga Treichl].",
+            "works": [
+                {
+                    "key": "/works/OL584283W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "classifications": {},
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-02-17T23:02:24.054537"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-03T10:05:54.113234"
+            }
+        },
+        "/books/OL25202306M": {
+            "publishers": [
+                "The University of Chicago Press"
+            ],
+            "subtitle": "a novel",
+            "covers": [
+                15142220,
+                8348062
+            ],
+            "full_title": "A certain smile a novel",
+            "key": "/books/OL25202306M",
+            "authors": [
+                {
+                    "key": "/authors/OL42805A"
+                }
+            ],
+            "publish_places": [
+                "Chicago"
+            ],
+            "pagination": "128 p. ;",
+            "source_records": [
+                "marc:marc_loc_updates/v40.i07.records.utf8:7258889:767",
+                "ia:certainsmilenove0000saga",
+                "marc:marc_loc_2016/BooksAll.2016.part38.utf8:172014046:767",
+                "bwb:9780226733470",
+                "promise:bwb_daily_pallets_2022-06-13",
+                "marc:harvard_bibliographic_metadata/ab.bib.12.20150123.full.mrc:843088387:936",
+                "marc:harvard_bibliographic_metadata/20220215_015.bib.mrc:93915351:2110"
+            ],
+            "title": "A certain smile",
+            "work_titles": [
+                "Certain sourire"
+            ],
+            "number_of_pages": 128,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2011",
+            "publish_country": "ilu",
+            "by_statement": "Françoise Sagan ; translated from the French by Anne Green ; with a new foreword by Diane Johnson",
+            "works": [
+                {
+                    "key": "/works/OL584283W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:O8-AYA-553"
+            ],
+            "identifiers": {},
+            "ocaid": "certainsmilenove0000saga",
+            "isbn_10": [
+                "0226733475"
+            ],
+            "isbn_13": [
+                "9780226733470"
+            ],
+            "lccn": [
+                "2011010517"
+            ],
+            "classifications": {},
+            "dewey_decimal_class": [
+                "843/.914"
+            ],
+            "lc_classifications": [
+                "PQ2633.U74 C413 2011",
+                "PQ2633.U74C413 2011"
+            ],
+            "contributors": [
+                {
+                    "name": "Anne Green",
+                    "role": "Translator"
+                },
+                {
+                    "name": "Diane Johnson",
+                    "role": "Foreword"
+                }
+            ],
+            "translated_from": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "oclc_numbers": [
+                "708243781"
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "\"This novel is set in Paris in the 1950s and told by a young student, bored, restless, and curious about love and sex. Frank and spontaneous, vulnerable and cruel, Sagan's young narrator explores unrequited love and the precarious balance of irrational emotions and self-restraint.\"--Page 4 of cover."
+            },
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2012-02-15T08:36:43.724348"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-12T18:57:50.279412"
+            }
+        },
+        "/books/OL19505455M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Originally published as Un certain sourire. Juillard, Sequara, 1956.\r\nDell #D206.\r\nCover art by René Saint-Paul."
+            },
+            "title": "A Certain Smile",
+            "authors": [
+                {
+                    "key": "/authors/OL42805A"
+                }
+            ],
+            "publish_date": "October 1957",
+            "covers": [
+                5541022
+            ],
+            "contributions": [
+                "Anne Green (Translator)"
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "work_titles": [
+                "Un certain sourire"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_country": "xxk",
+            "type": {
+                "key": "/type/edition"
+            },
+            "by_statement": "by Françoise Sagan; translated from the French by Anne Green.",
+            "physical_dimensions": "17 cm",
+            "publishers": [
+                "Dell Publishing Co."
+            ],
+            "physical_format": "Paperback",
+            "publish_places": [
+                "New York, NY"
+            ],
+            "pagination": "159 p.",
+            "dewey_decimal_class": [
+                "843.91F"
+            ],
+            "contributors": [
+                {
+                    "name": "Anne Green",
+                    "role": "Translator"
+                }
+            ],
+            "translated_from": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:2620858946:554"
+            ],
+            "key": "/books/OL19505455M",
+            "number_of_pages": 159,
+            "works": [
+                {
+                    "key": "/works/OL584283W"
+                }
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-22T16:42:35.191186"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-31T02:15:39.031748"
+            }
+        },
+        "/books/OL18991838M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "This translation originally published London: John Murray, 1956."
+            },
+            "title": "A certain smile",
+            "authors": [
+                {
+                    "key": "/authors/OL42805A"
+                }
+            ],
+            "publish_date": "1960",
+            "publishers": [
+                "Penguin"
+            ],
+            "publish_places": [
+                "Harmondsworth"
+            ],
+            "pagination": "112p.,18cm",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "work_titles": [
+                "Un certain sourire."
+            ],
+            "publish_country": "xxk",
+            "by_statement": "translated by Irene Ash.",
+            "type": {
+                "key": "/type/edition"
+            },
+            "dewey_decimal_class": [
+                "843.91F"
+            ],
+            "contributors": [
+                {
+                    "name": "Irene Ash",
+                    "role": "Translator"
+                }
+            ],
+            "translated_from": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:2631524050:624"
+            ],
+            "key": "/books/OL18991838M",
+            "number_of_pages": 112,
+            "works": [
+                {
+                    "key": "/works/OL584283W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-20T17:14:04.375122"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-26T02:57:42.514474"
+            }
+        },
+        "/books/OL18679827M": {
+            "title": "Un certain sourire.",
+            "authors": [
+                {
+                    "key": "/authors/OL42805A"
+                }
+            ],
+            "publish_date": "1986",
+            "pagination": " pbk (124p.)",
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "publish_country": "fr ",
+            "publish_places": [
+                "Julliard"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:2316891298:368"
+            ],
+            "key": "/books/OL18679827M",
+            "number_of_pages": 124,
+            "works": [
+                {
+                    "key": "/works/OL584283W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-19T01:14:04.941355"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-31T01:53:09.422422"
+            }
+        },
+        "/books/OL19882915M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "French text."
+            },
+            "title": "Un certain sourire.",
+            "authors": [
+                {
+                    "key": "/authors/OL42805A"
+                }
+            ],
+            "publish_date": "1979",
+            "publishers": [
+                "Julliard"
+            ],
+            "publish_places": [
+                "Paris"
+            ],
+            "pagination": "177p.",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_country": "xxk",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:2900975960:422"
+            ],
+            "key": "/books/OL19882915M",
+            "number_of_pages": 177,
+            "works": [
+                {
+                    "key": "/works/OL584283W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-24T13:46:51.768297"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-31T17:51:42.920721"
+            }
+        },
+        "/books/OL13742525M": {
+            "title": "Un certain sourire",
+            "subtitle": "roman.",
+            "authors": [
+                {
+                    "key": "/authors/OL42805A"
+                }
+            ],
+            "publish_date": "1957",
+            "publishers": [
+                "Presses de la Cite"
+            ],
+            "series": [
+                "Presses club"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "publish_country": "fr ",
+            "publish_places": [
+                "Paris"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:83950029:405"
+            ],
+            "key": "/books/OL13742525M",
+            "works": [
+                {
+                    "key": "/works/OL584283W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-08-31T15:42:59.209967"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-23T10:20:14.184956"
+            }
+        },
+        "/books/OL21585647M": {
+            "title": "A certain smile",
+            "authors": [
+                {
+                    "key": "/authors/OL42805A"
+                }
+            ],
+            "publish_date": "1960",
+            "publishers": [
+                "Penguin"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "by_statement": "by F. Sagan ; translated by I. Ash.",
+            "contributors": [
+                {
+                    "name": "Irene Ash",
+                    "role": "Translator"
+                }
+            ],
+            "translated_from": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:3034224658:363"
+            ],
+            "key": "/books/OL21585647M",
+            "works": [
+                {
+                    "key": "/works/OL584283W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-03T05:54:44.164298"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-19T09:00:42.549989"
+            }
+        },
+        "/books/OL21440911M": {
+            "source_records": [
+                "marc:marc_laurentian/openlibrary.mrc:415726892:548"
+            ],
+            "title": "Un certain sourire.",
+            "notes": {
+                "type": "/type/text",
+                "value": "6"
+            },
+            "key": "/books/OL21440911M",
+            "authors": [
+                {
+                    "key": "/authors/OL42805A"
+                }
+            ],
+            "publish_places": [
+                "Paris"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL584283W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-02T15:12:52.638594"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-03T10:05:54.113234"
+            }
+        },
+        "/books/OL17235020M": {
+            "publishers": [
+                "Julliard",
+                "Brand: Presses Pocket",
+                "Presses Pocket"
+            ],
+            "title": "Un certain sourire.",
+            "series": [
+                "Chez presses pocket -- 4061"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "6413382"
+                ],
+                "librarything": [
+                    "170879"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "2266049461"
+            ],
+            "publish_date": "1956",
+            "publish_country": "fr ",
+            "key": "/books/OL17235020M",
+            "authors": [
+                {
+                    "key": "/authors/OL42805A"
+                }
+            ],
+            "publish_places": [
+                "Paris"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL584283W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                13542185
+            ],
+            "source_records": [
+                "amazon:2266049461"
+            ],
+            "number_of_pages": 124,
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-28T02:11:29.730450"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-03T10:05:54.113234"
+            }
+        },
+        "/books/OL6209256M": {
+            "publishers": [
+                "R. Juillard"
+            ],
+            "subtitle": "roman",
+            "lc_classifications": [
+                "PQ2633.U74 C4",
+                "PQ2633.U7 C4",
+                "PQ2633.U7 C4 1956"
+            ],
+            "key": "/books/OL6209256M",
+            "authors": [
+                {
+                    "key": "/authors/OL42805A"
+                }
+            ],
+            "publish_places": [
+                "Paris"
+            ],
+            "pagination": "188 p.",
+            "source_records": [
+                "marc:marc_loc_2016/BooksAll.2016.part05.utf8:31001752:502",
+                "marc:marc_columbia/Columbia-extract-20221130-004.mrc:205420913:715",
+                "marc:harvard_bibliographic_metadata/ab.bib.01.20150123.full.mrc:471062689:829",
+                "marc:harvard_bibliographic_metadata/20220215_031.bib.mrc:31574073:1667"
+            ],
+            "title": "Un certain sourire",
+            "lccn": [
+                "56033558"
+            ],
+            "number_of_pages": 188,
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "publish_date": "1956",
+            "publish_country": "fr ",
+            "by_statement": "[par] Françoise Sagan [pseud.]",
+            "oclc_numbers": [
+                "777740"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL584283W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-02-12T04:20:40.461990"
+            }
+        },
+        "/books/OL15502913M": {
+            "publishers": [
+                "Julliard"
+            ],
+            "number_of_pages": 177,
+            "ia_box_id": [
+                "IA151401"
+            ],
+            "series": [
+                "Le livre de poche"
+            ],
+            "covers": [
+                7106805
+            ],
+            "ia_loaded_id": [
+                "uncertainsourire00saga"
+            ],
+            "key": "/books/OL15502913M",
+            "authors": [
+                {
+                    "key": "/authors/OL42805A"
+                }
+            ],
+            "publish_places": [
+                "Paris"
+            ],
+            "description": "Love story between a young woman and an older man.",
+            "pagination": "177 p. ;",
+            "source_records": [
+                "marc:marc_university_of_toronto/uoft.marc:629680428:583",
+                "ia:uncertainsourire00saga",
+                "amazon:2253006270",
+                "marc:marc_columbia/Columbia-extract-20221130-001.mrc:515839223:877",
+                "marc:marc_columbia/Columbia-extract-20221130-001.mrc:544436431:874",
+                "marc:harvard_bibliographic_metadata/ab.bib.00.20150123.full.mrc:618205668:448"
+            ],
+            "title": "Un certain sourire",
+            "identifiers": {
+                "goodreads": [
+                    "3396983"
+                ],
+                "librarything": [
+                    "170879"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "publish_date": "1978",
+            "publish_country": "fr ",
+            "by_statement": "Françoise Sagan.",
+            "works": [
+                {
+                    "key": "/works/OL584283W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "uncertainsourire00saga",
+            "isbn_10": [
+                "2253006270"
+            ],
+            "oclc_numbers": [
+                "361245431",
+                "505716394",
+                "3054096"
+            ],
+            "latest_revision": 14,
+            "revision": 14,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-20T06:44:01.036049"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-04-27T10:09:41.181085"
+            }
+        },
+        "/books/OL20634997M": {
+            "title": "Un certain sourire.",
+            "authors": [
+                {
+                    "key": "/authors/OL42805A"
+                }
+            ],
+            "publish_date": "1957",
+            "publishers": [
+                "René Julliard"
+            ],
+            "pagination": "188 s",
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "publish_country": "fr ",
+            "publish_places": [
+                "Paris"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:3175620604:396"
+            ],
+            "key": "/books/OL20634997M",
+            "number_of_pages": 188,
+            "works": [
+                {
+                    "key": "/works/OL584283W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-29T06:23:46.765827"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-10T04:44:28.115507"
+            }
+        },
+        "/books/OL6199502M": {
+            "publishers": [
+                "Dutton"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "170879"
+                ]
+            },
+            "ia_box_id": [
+                "IA126110"
+            ],
+            "covers": [
+                6660362
+            ],
+            "key": "/books/OL6199502M",
+            "authors": [
+                {
+                    "key": "/authors/OL42805A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "work_title": [
+                "Un certain sourire."
+            ],
+            "description": "The scanned book is missing pages 50 & 51. And pages 90 & 91.",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                },
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "128 p.",
+            "classifications": {},
+            "source_records": [
+                "marc:marc_records_scriblio_net/part04.dat:120708524:636",
+                "marc:marc_ithaca_college/ic_marc.mrc:31163014:695",
+                "ia:certainsmile00saga",
+                "marc:marc_loc_2016/BooksAll.2016.part05.utf8:24517635:642",
+                "marc:marc_columbia/Columbia-extract-20221130-004.mrc:205422352:905",
+                "marc:marc_columbia/Columbia-extract-20221130-005.mrc:618510202:930",
+                "marc:harvard_bibliographic_metadata/20220215_021.bib.mrc:148102106:1798"
+            ],
+            "title": "A certain smile",
+            "number_of_pages": 128,
+            "edition_name": "[1st American ed.]",
+            "publish_date": "1956",
+            "publish_country": "nyu",
+            "by_statement": "[by] Françoise Sagan [pseud.] Translated from the French by Anne Green.",
+            "works": [
+                {
+                    "key": "/works/OL584283W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "certainsmile00saga",
+            "lccn": [
+                "56008276"
+            ],
+            "oclc_numbers": [
+                "1029190"
+            ],
+            "lc_classifications": [
+                "PZ4.Q9 Ce",
+                "PZ4.Q9 Ce2",
+                "PQ2633.U74 C413"
+            ],
+            "translated_from": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "latest_revision": 19,
+            "revision": 19,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-08T22:47:29.189474"
+            }
+        },
+        "/books/OL16843335M": {
+            "title": "A certain smile",
+            "authors": [
+                {
+                    "key": "/authors/OL42805A"
+                }
+            ],
+            "publishers": [
+                "Murray"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "by_statement": "by Francoise Sagan ; translated by Irene Ash.",
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:1274053418:413"
+            ],
+            "key": "/books/OL16843335M",
+            "works": [
+                {
+                    "key": "/works/OL584283W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-26T08:20:04.300429"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-31T18:02:46.671042"
+            }
+        },
+        "/books/OL38275251M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL584492A"
+                }
+            ],
+            "isbn_13": [
+                "9781299369368"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2014",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781299369368"
+            ],
+            "title": "Mistress of the Groom",
+            "full_title": "Mistress of the Groom",
+            "works": [
+                {
+                    "key": "/works/OL18173277W"
+                }
+            ],
+            "key": "/books/OL38275251M",
+            "latest_revision": 1,
+            "revision": 1,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-17T12:43:56.921558"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-06-17T12:43:56.921558"
+            }
+        },
+        "/books/OL37388727M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL584492A"
+                }
+            ],
+            "isbn_13": [
+                "9781459269415"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2011",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781459269415"
+            ],
+            "title": "Mistress of the Groom",
+            "full_title": "Mistress of the Groom",
+            "works": [
+                {
+                    "key": "/works/OL18173277W"
+                }
+            ],
+            "key": "/books/OL37388727M",
+            "latest_revision": 1,
+            "revision": 1,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-03-01T05:40:51.572859"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-03-01T05:40:51.572859"
+            }
+        },
+        "/books/OL9735041M": {
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "number_of_pages": 284,
+            "weight": "14.7 ounces",
+            "covers": [
+                1154931
+            ],
+            "physical_format": "Hardcover",
+            "key": "/books/OL9735041M",
+            "authors": [
+                {
+                    "key": "/authors/OL584492A"
+                },
+                {
+                    "key": "/authors/OL3318103A"
+                }
+            ],
+            "subjects": [
+                "Romance",
+                "Romance - General",
+                "Fiction - Romance",
+                "Large type books",
+                "Romance: Modern"
+            ],
+            "edition_name": "Large Print Edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "classifications": {},
+            "source_records": [
+                "ia:mistressofgroom00susa",
+                "bwb:9780263154030",
+                "amazon:0263154033"
+            ],
+            "title": "Mistress of the Groom",
+            "identifiers": {
+                "goodreads": [
+                    "3210110"
+                ]
+            },
+            "publish_date": "March 1998",
+            "works": [
+                {
+                    "key": "/works/OL18173277W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.3 x 5.5 x 0.8 inches",
+            "ocaid": "mistressofgroom00susa",
+            "isbn_10": [
+                "0263154033"
+            ],
+            "isbn_13": [
+                "9780263154030"
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-11-15T00:33:54.366940"
+            }
+        },
+        "/books/OL29264334M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781408998977"
+            ],
+            "title": "Daughter of Hassan",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781408998977"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Daughter of Hassan",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2015",
+            "key": "/books/OL29264334M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL11327984W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, general"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-24T00:40:52.466232"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-02T22:32:59.868818"
+            }
+        },
+        "/books/OL9750730M": {
+            "identifiers": {
+                "goodreads": [
+                    "173718"
+                ],
+                "librarything": [
+                    "2648220"
+                ]
+            },
+            "title": "Daughter of Hassan",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "publish_date": "October 1982",
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "ia_box_id": [
+                "IA116014"
+            ],
+            "covers": [
+                6485114
+            ],
+            "physical_format": "Paperback",
+            "subjects": [
+                "Mystery/Suspense"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-06-01:038-AAY-758",
+                "ia:daughterofhassan00jord",
+                "bwb:9780373105373",
+                "promise:bwb_daily_pallets_2021-04-22:O7-CVP-895",
+                "promise:bwb_daily_pallets_2021-03-08:o7-aaz-491"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "by_statement": "Penny Jordan",
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:038-AAY-758",
+                "urn:bwbsku:O7-CVP-895",
+                "urn:bwbsku:O7-AAZ-491"
+            ],
+            "key": "/books/OL9750730M",
+            "number_of_pages": 187,
+            "works": [
+                {
+                    "key": "/works/OL11327984W"
+                }
+            ],
+            "ocaid": "daughterofhassan00jord",
+            "isbn_10": [
+                "0373105371"
+            ],
+            "isbn_13": [
+                "9780373105373"
+            ],
+            "oclc_numbers": [
+                "8724484"
+            ],
+            "series": [
+                "Harlequin Presents #537"
+            ],
+            "latest_revision": 24,
+            "revision": 24,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-02-20T11:43:07.424836"
+            }
+        },
+        "/books/OL9608111M": {
+            "publishers": [
+                "Audio Literature"
+            ],
+            "physical_format": "Audio cassette",
+            "source_records": [
+                "amazon:0787121363:2-bc:2570313845:228939",
+                "amazon:0787121363"
+            ],
+            "title": "The Flame and the Flower",
+            "identifiers": {
+                "goodreads": [
+                    "6986136"
+                ]
+            },
+            "isbn_13": [
+                "9780787121365"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0787121363"
+            ],
+            "publish_date": "November 1999",
+            "key": "/books/OL9608111M",
+            "works": [
+                {
+                    "key": "/works/OL59383W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Romance - Historical",
+                "Audio - Romance"
+            ],
+            "physical_dimensions": "7 x 4.8 x 0.7 inches",
+            "covers": [
+                13543248
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-03-17T03:45:52.614700"
+            }
+        },
+        "/books/OL9045088M": {
+            "publishers": [
+                "Avon Books"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "amazon:5552680855:hj:75391284:252436",
+                "amazon:5552680855"
+            ],
+            "title": "Flame and the Flower",
+            "identifiers": {
+                "librarything": [
+                    "72686"
+                ]
+            },
+            "isbn_13": [
+                "9785552680856"
+            ],
+            "physical_format": "Mass Market Paperback",
+            "isbn_10": [
+                "5552680855"
+            ],
+            "publish_date": "October 1990",
+            "key": "/books/OL9045088M",
+            "authors": [
+                {
+                    "key": "/authors/OL20452A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL59383W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Romance - Historical",
+                "Fiction - Romance"
+            ],
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "Somewhere in the world, time no doubt whistled by on taut and widespread wings, but here in the English country it plodded slowly, painfully, as if it trod the rutted road that stretched across the moors on blistered feet."
+            },
+            "covers": [
+                13266157
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-09T20:08:39.353193"
+            }
+        },
+        "/books/OL17465127M": {
+            "publishers": [
+                "Macdonald Futura",
+                "Macdonald & J"
+            ],
+            "number_of_pages": 430,
+            "key": "/books/OL17465127M",
+            "authors": [
+                {
+                    "key": "/authors/OL20452A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "430p. ;",
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:1565406100:663",
+                "bwb:9780354045797",
+                "amazon:0354045792"
+            ],
+            "title": "The flame and the flower",
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Originally published, New York , Avon Books, 1972 ; London , Futura, 1975."
+            },
+            "identifiers": {
+                "goodreads": [
+                    "3610352"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0354045792"
+            ],
+            "publish_date": "1980",
+            "publish_country": "xxk",
+            "by_statement": "Kathleen E. Woodiwiss.",
+            "works": [
+                {
+                    "key": "/works/OL59383W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                14153331
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-28T22:12:10.486423"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-04-19T02:32:18.975838"
+            }
+        },
+        "/books/OL24207257M": {
+            "title": "The Flame and the Flower",
+            "authors": [
+                {
+                    "key": "/authors/OL20452A"
+                }
+            ],
+            "publish_date": "1972",
+            "publishers": [
+                "Avon Books",
+                "Avon"
+            ],
+            "ia_box_id": [
+                "IA104915"
+            ],
+            "pagination": "372 p. ;",
+            "covers": [
+                6501594
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-06-01:P7-CIQ-395",
+                "ia:flameflower00wood",
+                "bwb:9780380005253",
+                "ia:flameflower0000wood",
+                "promise:bwb_daily_pallets_2021-05-27:P7-AEH-096",
+                "promise:bwb_daily_pallets_2021-05-24:P7-ABE-638",
+                "promise:bwb_daily_pallets_2021-05-19:543-BAB-173",
+                "promise:bwb_daily_pallets_2021-05-19:543-BAB-489",
+                "promise:bwb_daily_pallets_2021-05-12:P7-AFU-789",
+                "promise:bwb_daily_pallets_2021-04-22:T1-AZK-736"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "London (England) -- Social life and customs -- 19th century -- Fiction."
+            ],
+            "publish_country": "mau",
+            "by_statement": "Kathleen E. Woodiwiss",
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:P7-CIQ-395",
+                "urn:bwbsku:P7-AEH-096",
+                "urn:bwbsku:P7-ABE-638",
+                "urn:bwbsku:543-BAB-173",
+                "urn:bwbsku:543-BAB-489",
+                "urn:bwbsku:P7-AFU-789",
+                "urn:bwbsku:T1-AZK-736"
+            ],
+            "key": "/books/OL24207257M",
+            "number_of_pages": 372,
+            "works": [
+                {
+                    "key": "/works/OL59383W"
+                }
+            ],
+            "identifiers": {},
+            "ocaid": "flameflower00wood",
+            "isbn_10": [
+                "0380005255"
+            ],
+            "isbn_13": [
+                "9780380005253"
+            ],
+            "oclc_numbers": [
+                "11182001"
+            ],
+            "classifications": {},
+            "lc_classifications": [
+                "PS3573.O625 F65 1972"
+            ],
+            "latest_revision": 29,
+            "revision": 29,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-05-05T08:37:04.995145"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-07-07T22:00:58.662559"
+            }
+        },
+        "/books/OL7431138M": {
+            "publishers": [
+                "Avon"
+            ],
+            "number_of_pages": 512,
+            "source_records": [
+                "amazon:0380005255:19:2300315475:261840"
+            ],
+            "title": "The Flame and the Flower",
+            "identifiers": {
+                "librarything": [
+                    "72686"
+                ],
+                "goodreads": [
+                    "896623"
+                ]
+            },
+            "isbn_13": [
+                "9780380005253"
+            ],
+            "covers": [
+                234717
+            ],
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0380005255"
+            ],
+            "publish_date": "August 28, 2007",
+            "key": "/books/OL7431138M",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2014-11-09T18:14:01.348263"
+            },
+            "latest_revision": 13,
+            "works": [
+                {
+                    "key": "/works/OL59383W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "Somewhere in the world, time no doubt whistled by on taut and widespread wings, but here in the English country it plodded slowly, painfully, as if it trod the rutted road that stretched across the moors on blistered feet."
+            },
+            "revision": 13
+        },
+        "/books/OL9619128M": {
+            "publishers": [
+                "Romance Alive Audio Books"
+            ],
+            "weight": "2.4 ounces",
+            "covers": [
+                1915967
+            ],
+            "physical_format": "Audio cassette",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2013-08-04T12:59:33.722139"
+            },
+            "latest_revision": 8,
+            "key": "/books/OL9619128M",
+            "subjects": [
+                "Romance - Historical",
+                "Unabridged Audio - Fiction/Romance",
+                "Audio Adult: Books On Tape"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "amazon:1570960186:2-ao:969187740:270960"
+            ],
+            "title": "Flame and the Flower (Abridged Audio Cassette Edition)",
+            "identifiers": {
+                "librarything": [
+                    "72686"
+                ],
+                "goodreads": [
+                    "7326317"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "isbn_13": [
+                "9781570960185"
+            ],
+            "isbn_10": [
+                "1570960186"
+            ],
+            "publish_date": "November 1994",
+            "works": [
+                {
+                    "key": "/works/OL59383W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "7.2 x 4.5 x 0.8 inches",
+            "revision": 8
+        },
+        "/books/OL7279368M": {
+            "publishers": [
+                "Harper Perennial"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "8623"
+                ],
+                "goodreads": [
+                    "1430"
+                ]
+            },
+            "subtitle": "A Novel (P.S.)",
+            "covers": [
+                31228
+            ],
+            "key": "/books/OL7279368M",
+            "authors": [
+                {
+                    "key": "/authors/OL66700A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "title": "Eleven Minutes",
+            "number_of_pages": 320,
+            "isbn_13": [
+                "9780060589288"
+            ],
+            "isbn_10": [
+                "0060589280"
+            ],
+            "publish_date": "March 29, 2005",
+            "oclc_numbers": [
+                "60326493"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL796601W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "Once upon a time, there was prostitute called Maria."
+            },
+            "source_records": [
+                "bwb:9780060589288",
+                "amazon:0060589280",
+                "marc:marc_columbia/Columbia-extract-20221130-011.mrc:291078143:1373"
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-31T23:04:35.470474"
+            }
+        },
+        "/books/OL7279367M": {
+            "identifiers": {
+                "goodreads": [
+                    "500993"
+                ],
+                "librarything": [
+                    "8623"
+                ]
+            },
+            "title": "Eleven Minutes",
+            "subtitle": "A Novel",
+            "authors": [
+                {
+                    "key": "/authors/OL66700A"
+                }
+            ],
+            "publish_date": "March 30, 2004",
+            "publishers": [
+                "HarperCollins"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "covers": [
+                31227
+            ],
+            "isbn_13": [
+                "9780060589271"
+            ],
+            "isbn_10": [
+                "0060589272"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "Once upon a time, there was prostitute called Maria."
+            },
+            "source_records": [
+                "amazon:0060589272"
+            ],
+            "key": "/books/OL7279367M",
+            "number_of_pages": 288,
+            "works": [
+                {
+                    "key": "/works/OL796601W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-02-01T21:43:49.223639"
+            }
+        },
+        "/books/OL8964920M": {
+            "publishers": [
+                "Paperbackshop.Co.UK Ltd - Echo Library"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "1831763"
+                ]
+            },
+            "weight": "2.2 pounds",
+            "covers": [
+                2039422
+            ],
+            "edition_name": "Largeprint edition",
+            "physical_format": "Paperback",
+            "key": "/books/OL8964920M",
+            "authors": [
+                {
+                    "key": "/authors/OL18277A"
+                }
+            ],
+            "subjects": [
+                "Classic fiction",
+                "Literature: Classics",
+                "Fiction",
+                "Literature - Classics / Criticism",
+                "Classics"
+            ],
+            "isbn_13": [
+                "9781847022196"
+            ],
+            "source_records": [
+                "amazon:1847022197:fx:3073220078:190589",
+                "bwb:9781847022196"
+            ],
+            "title": "Far from the Madding Crowd",
+            "number_of_pages": 452,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "1847022197"
+            ],
+            "publish_date": "April 30, 2006",
+            "works": [
+                {
+                    "key": "/works/OL44995W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "10.9 x 8.2 x 1.2 inches",
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-07-17T04:54:22.616960"
+            }
+        },
+        "/books/OL13815862M": {
+            "publishers": [
+                "Macmillan"
+            ],
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:156498388:467"
+            ],
+            "title": "Far from the madding crowd.",
+            "dewey_decimal_class": [
+                "823.8"
+            ],
+            "series": [
+                "The Wessex novels -- v.2"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Previous ed., 1895."
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-08-31T20:18:49.776633"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2010-12-07T11:22:48.672562"
+            },
+            "publish_date": "1902",
+            "publish_country": "xxk",
+            "key": "/books/OL13815862M",
+            "authors": [
+                {
+                    "key": "/authors/OL18277A"
+                }
+            ],
+            "latest_revision": 3,
+            "publish_places": [
+                "London"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL44995W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 3
+        },
+        "/books/OL22819207M": {
+            "publishers": [
+                "Penguin"
+            ],
+            "number_of_pages": 374,
+            "series": [
+                "Penguin popular classics",
+                "Penguin Popular Classics"
+            ],
+            "key": "/books/OL22819207M",
+            "authors": [
+                {
+                    "key": "/authors/OL18277A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "edition_name": "New ed.",
+            "pagination": "374p. ;",
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:1043629734:611",
+                "ia:farfrommaddingcr0000hard_o1y7",
+                "bwb:9780140620474",
+                "promise:bwb_daily_pallets_2020-06-24"
+            ],
+            "title": "Far from the madding crowd",
+            "dewey_decimal_class": [
+                "823.8"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "31466"
+                ],
+                "librarything": [
+                    "14414"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0140620478"
+            ],
+            "publish_date": "1994",
+            "publish_country": "enk",
+            "by_statement": "Thomas Hardy.",
+            "works": [
+                {
+                    "key": "/works/OL44995W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                11630751
+            ],
+            "ocaid": "farfrommaddingcr0000hard_o1y7",
+            "lc_classifications": [
+                "PR4740.A1 1994"
+            ],
+            "local_id": [
+                "urn:bwbsku:KN-796-983"
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-01-04T00:16:58.639258"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-10T08:04:19.326322"
+            }
+        },
+        "/books/OL24291162M": {
+            "publishers": [
+                "Fictionwise, Inc."
+            ],
+            "physical_format": "E-book",
+            "description": {
+                "type": "/type/text",
+                "value": "Set in his fictional Wessex countryside in southwest England, Far from the Madding Crowd was Thomas Hardy's breakthrough work. Though it was first published anonymously in 1874, the quick and tremendous success of Far from the Madding Crowd persuaded Hardy to give up his first profession, architecture, to concentrate on writing fiction. The story of the ill-fated passions of the beautiful Bathsheba Everdene and her three suitors offers a spectacle of country life brimming with an energy and charm not customarily associated with Hardy."
+            },
+            "source_records": [
+                "marc_overdrive/InternetArchiveCrMarc-2010-06-11k.mrc:2053565:1755"
+            ],
+            "title": "Far From The Madding Crowd",
+            "identifiers": {
+                "overdrive": [
+                    "F9BBCD86-39F2-4CF2-AE5F-89F19D6D71B3"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-06-23T01:16:33.377575"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2012-12-14T20:49:28.061023"
+            },
+            "publish_date": "2004",
+            "publish_country": "nyu",
+            "key": "/books/OL24291162M",
+            "latest_revision": 2,
+            "publish_places": [
+                "Chatham"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL44995W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 2
+        },
+        "/books/OL11685205M": {
+            "publishers": [
+                "Hard Press"
+            ],
+            "weight": "14.9 ounces",
+            "covers": [
+                2761152
+            ],
+            "physical_format": "Paperback",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2010-12-07T11:22:48.672562"
+            },
+            "latest_revision": 6,
+            "key": "/books/OL11685205M",
+            "authors": [
+                {
+                    "key": "/authors/OL18277A"
+                }
+            ],
+            "isbn_13": [
+                "9781406941647"
+            ],
+            "source_records": [
+                "amazon:1406941646"
+            ],
+            "title": "Far from the Madding Crowd",
+            "number_of_pages": 240,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "1406941646"
+            ],
+            "publish_date": "November 3, 2006",
+            "works": [
+                {
+                    "key": "/works/OL44995W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9 x 6 x 0.6 inches",
+            "revision": 6
+        },
+        "/books/OL11682870M": {
+            "publishers": [
+                "Hard Press"
+            ],
+            "number_of_pages": 358,
+            "weight": "1.3 pounds",
+            "covers": [
+                2758784
+            ],
+            "physical_format": "Paperback",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2010-12-07T11:22:48.672562"
+            },
+            "latest_revision": 8,
+            "key": "/books/OL11682870M",
+            "authors": [
+                {
+                    "key": "/authors/OL18277A"
+                }
+            ],
+            "isbn_13": [
+                "9781406903430"
+            ],
+            "source_records": [
+                "amazon:1406903434"
+            ],
+            "title": "Far from the Madding Crowd",
+            "identifiers": {
+                "goodreads": [
+                    "2636997"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "1406903434"
+            ],
+            "publish_date": "November 8, 2006",
+            "works": [
+                {
+                    "key": "/works/OL44995W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "22 x 9 x 6 inches",
+            "revision": 8
+        },
+        "/books/OL45846295M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL42805A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B0047I1RZS"
+                ],
+                "better_world_books": [
+                    "BWB38010238"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:KM-851-838"
+            ],
+            "publish_date": "1966-01-01",
+            "publishers": [
+                "Penguin"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-03-29"
+            ],
+            "title": "A certain smile",
+            "full_title": "A Certain Smile",
+            "works": [
+                {
+                    "key": "/works/OL584283W"
+                }
+            ],
+            "key": "/books/OL45846295M",
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "translated_from": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-01-15T00:33:42.528900"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-05-22T15:44:38.464329"
+            }
+        },
+        "/books/OL45839572M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL42805A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B0016SAGHM"
+                ],
+                "better_world_books": [
+                    "BWB32430379"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:KG-980-913"
+            ],
+            "publish_date": "1964-01-01",
+            "publishers": [
+                "PENGUIN BOOKS"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-03-31"
+            ],
+            "title": "A Certain Smile",
+            "full_title": "A Certain Smile",
+            "works": [
+                {
+                    "key": "/works/OL584283W"
+                }
+            ],
+            "key": "/books/OL45839572M",
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "translated_from": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-01-14T23:52:01.590408"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-05-22T15:44:38.464329"
+            }
+        },
+        "/books/OL45694505M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL42805A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B002BKG7N6"
+                ],
+                "better_world_books": [
+                    "BWB26526429"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:UR-349-200"
+            ],
+            "publish_date": "1958-01-01",
+            "publishers": [
+                "Ullstein Verlag"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-05-23"
+            ],
+            "title": "Ein gewisses Lächeln",
+            "works": [
+                {
+                    "key": "/works/OL584283W"
+                }
+            ],
+            "key": "/books/OL45694505M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-01-14T07:18:10.544796"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-05-22T15:44:38.464329"
+            }
+        },
+        "/books/OL43545082M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL42805A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B0000DM32U"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:W6-BDI-696"
+            ],
+            "publish_date": "1956-01-01",
+            "publishers": [
+                "Julliard"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2020-11-27"
+            ],
+            "title": "Un certain sourire",
+            "full_title": "Un certain sourire",
+            "works": [
+                {
+                    "key": "/works/OL584283W"
+                }
+            ],
+            "key": "/books/OL43545082M",
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-09T10:39:06.119341"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-05-22T15:44:38.464329"
+            }
+        },
+        "/books/OL38359559M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL42805A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2011",
+            "publishers": [
+                "University of Chicago Press"
+            ],
+            "source_records": [
+                "bwb:9780226733487"
+            ],
+            "title": "Certain Smile",
+            "subtitle": "A Novel",
+            "full_title": "Certain Smile A Novel",
+            "works": [
+                {
+                    "key": "/works/OL584283W"
+                }
+            ],
+            "key": "/books/OL38359559M",
+            "identifiers": {},
+            "isbn_13": [
+                "9780226733487"
+            ],
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-18T11:04:12.873394"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-03T10:05:54.113234"
+            }
+        },
+        "/books/OL19229146M": {
+            "publishers": [
+                "Julliard"
+            ],
+            "subtitle": "roman",
+            "series": [
+                "Le Livre de poche, 868"
+            ],
+            "key": "/books/OL19229146M",
+            "authors": [
+                {
+                    "key": "/authors/OL42805A"
+                }
+            ],
+            "publish_places": [
+                "[Paris]"
+            ],
+            "pagination": "177 p. ;",
+            "title": "Un certain sourire",
+            "number_of_pages": 177,
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "publish_date": "1966",
+            "publish_country": "xx ",
+            "by_statement": "[par] Françoise Sagan.",
+            "works": [
+                {
+                    "key": "/works/OL584283W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-21T09:45:42.718237"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-03T10:05:54.113234"
+            }
+        },
+        "/books/OL19704581M": {
+            "title": "Un certain sourire",
+            "authors": [
+                {
+                    "key": "/authors/OL42805A"
+                }
+            ],
+            "publish_date": "1956",
+            "publishers": [
+                "Julliard"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "by_statement": "[by] F. Sagan.",
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:3040883804:346"
+            ],
+            "key": "/books/OL19704581M",
+            "works": [
+                {
+                    "key": "/works/OL584283W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-23T15:09:59.535163"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-21T04:15:26.069974"
+            }
+        },
+        "/books/OL8890352M": {
+            "publishers": [
+                "Pocket"
+            ],
+            "weight": "2.6 ounces",
+            "covers": [
+                980276
+            ],
+            "physical_format": "Mass Market Paperback",
+            "key": "/books/OL8890352M",
+            "authors": [
+                {
+                    "key": "/authors/OL2751052A"
+                }
+            ],
+            "subjects": [
+                "Essays, journals, letters & other prose works"
+            ],
+            "title": "Un certain sourire",
+            "identifiers": {
+                "librarything": [
+                    "170879"
+                ],
+                "goodreads": [
+                    "1711487"
+                ],
+                "doi": [
+                    "10.1604/9782266116053"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "publish_date": "July 1974",
+            "works": [
+                {
+                    "key": "/works/OL584283W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "classifications": {},
+            "isbn_10": [
+                "2266116053"
+            ],
+            "isbn_13": [
+                "9782266116053"
+            ],
+            "oclc_numbers": [
+                "181775325"
+            ],
+            "source_records": [
+                "bwb:9782266116053"
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-17T04:37:14.444896"
+            }
+        },
+        "/books/OL9656640M": {
+            "identifiers": {
+                "librarything": [
+                    "170879"
+                ],
+                "goodreads": [
+                    "1053866"
+                ]
+            },
+            "title": "UN Certain Sourire",
+            "authors": [
+                {
+                    "key": "/authors/OL42805A"
+                }
+            ],
+            "publish_date": "October 9, 1985",
+            "publishers": [
+                "French & European Pubns"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_13": [
+                "9780686553816"
+            ],
+            "physical_format": "Paperback",
+            "isbn_10": [
+                "0686553810"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Language"
+            ],
+            "source_records": [
+                "amazon:0686553810"
+            ],
+            "key": "/books/OL9656640M",
+            "works": [
+                {
+                    "key": "/works/OL584283W"
+                }
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-20T00:50:48.450680"
+            }
+        },
+        "/books/OL11038236M": {
+            "identifiers": {
+                "goodreads": [
+                    "471819"
+                ]
+            },
+            "title": "Un certain sourire",
+            "authors": [
+                {
+                    "key": "/authors/OL42805A"
+                }
+            ],
+            "publish_date": "October 1, 1992",
+            "publishers": [
+                "French & European Pubns"
+            ],
+            "physical_format": "Paperback",
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:KO-011-641"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2020-11-19",
+                "amazon:0785914889"
+            ],
+            "covers": [
+                13802893
+            ],
+            "isbn_10": [
+                "0785914889"
+            ],
+            "isbn_13": [
+                "9780785914884"
+            ],
+            "oclc_numbers": [
+                "228382987"
+            ],
+            "key": "/books/OL11038236M",
+            "number_of_pages": 124,
+            "works": [
+                {
+                    "key": "/works/OL584283W"
+                }
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-18T01:43:17.206261"
+            }
+        },
+        "/books/OL16852902M": {
+            "title": "Un certain sourire",
+            "subtitle": "roman.",
+            "authors": [
+                {
+                    "key": "/authors/OL42805A"
+                }
+            ],
+            "publish_date": "1956",
+            "publishers": [
+                "Julliard"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "publish_country": "fr ",
+            "publish_places": [
+                "Paris"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:1275167828:368"
+            ],
+            "key": "/books/OL16852902M",
+            "works": [
+                {
+                    "key": "/works/OL584283W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-26T09:07:30.768972"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-05-23T21:28:36.782560"
+            }
+        },
+        "/books/OL14281271M": {
+            "publishers": [
+                "R. Julliard"
+            ],
+            "subtitle": "roman",
+            "lc_classifications": [
+                "PQ2633 U74C4"
+            ],
+            "key": "/books/OL14281271M",
+            "authors": [
+                {
+                    "key": "/authors/OL42805A"
+                }
+            ],
+            "publish_places": [
+                "Paris"
+            ],
+            "pagination": "188 p.",
+            "source_records": [
+                "marc:marc_university_of_toronto/uoft.marc:67502506:494"
+            ],
+            "title": "Un certain sourire",
+            "number_of_pages": 188,
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "publish_date": "1957",
+            "publish_country": "fr ",
+            "works": [
+                {
+                    "key": "/works/OL584283W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "by_statement": "Françoise Sagan.",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-11T20:48:40.259776"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-03T10:05:54.113234"
+            }
+        },
+        "/books/OL18917870M": {
+            "publishers": [
+                "Penguin"
+            ],
+            "number_of_pages": 111,
+            "lc_classifications": [
+                "PQ2637.I547",
+                "PQ2633.U74 C47 1960"
+            ],
+            "key": "/books/OL18917870M",
+            "authors": [
+                {
+                    "key": "/authors/OL42805A"
+                }
+            ],
+            "publish_places": [
+                "Harmondsworth"
+            ],
+            "pagination": "111 p. ;",
+            "source_records": [
+                "marc:marc_university_of_toronto/uoft.marc:3557455161:870",
+                "ia:certainsmile0000saga",
+                "promise:bwb_daily_pallets_2020-09-09"
+            ],
+            "title": "A certain smile",
+            "work_titles": [
+                "Un certain sourive."
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Translation of: Un certain sourive.\n\nOriginally published: London : Murray, 1956."
+            },
+            "identifiers": {
+                "goodreads": [
+                    "2294593"
+                ],
+                "librarything": [
+                    "170879"
+                ],
+                "amazon": [
+                    ""
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "dewey_decimal_class": [
+                "843/.914"
+            ],
+            "isbn_10": [
+                "0140014446"
+            ],
+            "publish_date": "1960",
+            "publish_country": "enk",
+            "works": [
+                {
+                    "key": "/works/OL584283W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "by_statement": "Françoise Sagan ; translated by Irene Ash.",
+            "covers": [
+                11601726
+            ],
+            "ocaid": "certainsmile0000saga",
+            "local_id": [
+                "urn:bwbsku:KN-857-886"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-20T13:14:47.655399"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-03T10:05:54.113234"
+            }
+        },
+        "/books/OL17469862M": {
+            "publishers": [
+                "R. Juillard"
+            ],
+            "key": "/books/OL17469862M",
+            "authors": [
+                {
+                    "key": "/authors/OL42805A"
+                }
+            ],
+            "publish_places": [
+                "Paris"
+            ],
+            "pagination": "188p.",
+            "source_records": [
+                "marc:marc_university_of_toronto/uoft.marc:1469800167:500"
+            ],
+            "number_of_pages": 188,
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "publish_date": "1957",
+            "title": "Un certain sourire",
+            "works": [
+                {
+                    "key": "/works/OL584283W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "classifications": {},
+            "lc_classifications": [
+                "PQ2633 U74 C38"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-28T22:32:12.912864"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-02T14:58:30.275765"
+            }
+        },
+        "/books/OL28950550M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited",
+                "Harlequin Mills & Boon"
+            ],
+            "source_records": [
+                "bwb:9780263153910",
+                "amazon:0263153916"
+            ],
+            "title": "Mistress of the Groom",
+            "number_of_pages": 188,
+            "isbn_13": [
+                "9780263153910"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Mistress of the Groom",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "1997",
+            "key": "/books/OL28950550M",
+            "authors": [
+                {
+                    "key": "/authors/OL584492A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL18173277W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "covers": [
+                13341008
+            ],
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T04:30:00.474206"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-24T11:02:16.363463"
+            }
+        },
+        "/books/OL20121198M": {
+            "title": "Daughter of Hassan",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "publish_date": "1982",
+            "publishers": [
+                "Mills and Boon"
+            ],
+            "pagination": "187p.",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_country": "xxk",
+            "by_statement": "by Penny Jordan.",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:2911979392:404"
+            ],
+            "key": "/books/OL20121198M",
+            "number_of_pages": 187,
+            "works": [
+                {
+                    "key": "/works/OL11327984W"
+                }
+            ],
+            "identifiers": {},
+            "isbn_10": [
+                "0263738779"
+            ],
+            "isbn_13": [
+                "9780263738773"
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "copyright_date": "1982",
+            "series": [
+                "Mills & Boon Romance - 1940"
+            ],
+            "physical_format": "Paperback",
+            "covers": [
+                15171605
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-26T00:35:46.820603"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-02-20T11:54:02.010843"
+            }
+        },
+        "/books/OL14981532M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:517830115:412",
+                "promise:bwb_daily_pallets_2024-09-02:KU-477-019"
+            ],
+            "title": "Daughter of Hassan.",
+            "series": [
+                "Bestseller Romance Series"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "026376060X"
+            ],
+            "publish_date": "1988",
+            "publish_country": "xxk",
+            "key": "/books/OL14981532M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "oclc_numbers": [
+                "655059156"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL11327984W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:KU-477-019"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T23:29:33.888067"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-09-04T01:16:03.135034"
+            }
+        },
+        "/books/OL24277227M": {
+            "publishers": [
+                "HarperCollins"
+            ],
+            "physical_format": "Electronic resource",
+            "source_records": [
+                "marc_overdrive/InternetArchiveCrMarc-2010-06-11k.mrc:4245604:2333",
+                "bwb:9780060531874",
+                "bwb:9780061743696",
+                "promise:bwb_daily_pallets_2020-04-02"
+            ],
+            "title": "The Flame and the Flower",
+            "identifiers": {
+                "overdrive": [
+                    "310597D9-E351-4719-9DF5-8D3B061132BB"
+                ],
+                "amazon": [
+                    ""
+                ]
+            },
+            "isbn_13": [
+                "9780060531874",
+                "9780061743696",
+                "9780060768515"
+            ],
+            "covers": [
+                6410615
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2003",
+            "publish_country": "nyu",
+            "key": "/books/OL24277227M",
+            "publish_places": [
+                "New York"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL59383W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "lc_classifications": [
+                "PS3573.O625F56 2003"
+            ],
+            "local_id": [
+                "urn:bwbsku:363-BAA-253"
+            ],
+            "latest_revision": 13,
+            "revision": 13,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-06-18T10:09:29.838555"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-10T13:17:53.472680"
+            }
+        },
+        "/books/OL9244336M": {
+            "publishers": [
+                "Avon"
+            ],
+            "number_of_pages": 512,
+            "physical_format": "Mass Market Paperback",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2012-01-26T22:39:18.473758"
+            },
+            "latest_revision": 7,
+            "key": "/books/OL9244336M",
+            "authors": [
+                {
+                    "key": "/authors/OL20452A"
+                }
+            ],
+            "subjects": [
+                "Fiction / General",
+                "Romance - Historical",
+                "Woodiwiss, Kathleen - Prose & Criticism",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Historical"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "amazon:0061260444:o-3:3720632828:246328",
+                "amazon:0061260444:4:3239918353:246493"
+            ],
+            "title": "The Flame and the Flower",
+            "identifiers": {
+                "goodreads": [
+                    "532850"
+                ],
+                "librarything": [
+                    "72686"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "isbn_13": [
+                "9780061260445"
+            ],
+            "isbn_10": [
+                "0061260444"
+            ],
+            "publish_date": "May 1, 2007",
+            "oclc_numbers": [
+                "586163580"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL59383W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "Somewhere in the world, time no doubt whistled by on taut and widespread wings, but here in the English country it plodded slowly, painfully, as if it trod the rutted road that stretched across the moors on blistered feet."
+            },
+            "revision": 7
+        },
+        "/books/OL7726638M": {
+            "publishers": [
+                "William Morrow & Co",
+                "Brand: William Morrow n Co"
+            ],
+            "weight": "1.5 pounds",
+            "covers": [
+                7941486
+            ],
+            "physical_format": "Hardcover",
+            "key": "/books/OL7726638M",
+            "ocaid": "isbn_9780688125035",
+            "subjects": [
+                "Romance - Historical",
+                "Test Prep",
+                "Woodiwiss, Kathleen - Prose & Criticism",
+                "Fiction - Romance"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "Somewhere in the world, time no doubt whistled by on taut and widespread wings, but here in the English country it plodded slowly, painfully, as if it trod the rutted road that stretched across the moors on blistered feet."
+            },
+            "source_records": [
+                "amazon:0688125034:ci:1201462023:252705",
+                "ia:isbn_9780688125035",
+                "bwb:9780688125035",
+                "amazon:0688125034"
+            ],
+            "title": "The Flame and the Flower",
+            "identifiers": {
+                "librarything": [
+                    "72686"
+                ],
+                "goodreads": [
+                    "603389"
+                ]
+            },
+            "isbn_13": [
+                "9780688125035"
+            ],
+            "isbn_10": [
+                "0688125034"
+            ],
+            "publish_date": "April 1995",
+            "oclc_numbers": [
+                "32194843"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL59383W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.8 x 6 x 1.5 inches",
+            "latest_revision": 16,
+            "revision": 16,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-03-17T02:14:17.748793"
+            }
+        },
+        "/books/OL20141310M": {
+            "publishers": [
+                "G.K. Hall"
+            ],
+            "isbn_10": [
+                "0816136718"
+            ],
+            "lc_classifications": [
+                "PS3573.O625"
+            ],
+            "key": "/books/OL20141310M",
+            "authors": [
+                {
+                    "key": "/authors/OL20452A"
+                }
+            ],
+            "publish_places": [
+                "Boston"
+            ],
+            "pagination": "p. cm",
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:3280900044:621",
+                "amazon:0816136718"
+            ],
+            "title": "The flame and the flower",
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "\"Published in large print\"--Verso t.p."
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Large type books"
+            ],
+            "publish_date": "1984",
+            "publish_country": "xxu",
+            "by_statement": "Kathleen E. Woodiwiss.",
+            "works": [
+                {
+                    "key": "/works/OL59383W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-26T02:41:59.581525"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-11-15T17:27:37.520425"
+            }
+        },
+        "/books/OL24972574M": {
+            "publishers": [
+                "avon publishets"
+            ],
+            "created": {
+                "type": "/type/datetime",
+                "value": "2011-08-17T00:30:31.147612"
+            },
+            "publish_date": "1972",
+            "key": "/books/OL24972574M",
+            "title": "The Flame and the Flower",
+            "latest_revision": 1,
+            "works": [
+                {
+                    "key": "/works/OL59383W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2011-08-17T00:30:31.147612"
+            },
+            "revision": 1
+        },
+        "/books/OL18791831M": {
+            "publishers": [
+                "HarperCollins Publishers"
+            ],
+            "number_of_pages": 273,
+            "isbn_10": [
+                "0060589272"
+            ],
+            "dewey_decimal_class": [
+                "869.3/42"
+            ],
+            "pagination": "273 p. ;",
+            "lc_classifications": [
+                "PQ9698.13.O3546 O5913 2004",
+                "PQ9698.13.O3546 O5913 2003",
+                "PQ9698.13.O3546O5913"
+            ],
+            "key": "/books/OL18791831M",
+            "authors": [
+                {
+                    "key": "/authors/OL66700A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "contributions": [
+                "Costa, Margaret Jull."
+            ],
+            "subjects": [
+                "Prostitutes -- Brazil -- Fiction",
+                "Brazilians -- Switzerland -- Geneva -- Fiction"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "source_records": [
+                "marc:marc_oregon_summit_records/catalog_files/washs02192008.mrc_revrev.mrc:1719562572:1043",
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run03.mrc:62032194:3980",
+                "marc:marc_loc_2016/BooksAll.2016.part30.utf8:199807610:706",
+                "ia:elevenminutes0000coel_g0w2",
+                "bwb:9780060589271",
+                "amazon:0060589272",
+                "marc:harvard_bibliographic_metadata/ab.bib.11.20150123.full.mrc:411901264:892",
+                "marc:harvard_bibliographic_metadata/20220215_017.bib.mrc:173957885:5489"
+            ],
+            "title": "Eleven minutes",
+            "work_titles": [
+                "Onze minutos."
+            ],
+            "identifiers": {
+                "librarything": [
+                    "8623"
+                ],
+                "goodreads": [
+                    "500993"
+                ]
+            },
+            "edition_name": "1st U.S. ed.",
+            "lccn": [
+                "2003061131"
+            ],
+            "local_id": [
+                "urn:sfpl:31223059395302",
+                "urn:sfpl:31223114360093",
+                "urn:sfpl:31223059395336",
+                "urn:sfpl:31223114360028",
+                "urn:sfpl:31223101470368",
+                "urn:sfpl:31223121596028",
+                "urn:sfpl:31223121596036",
+                "urn:sfpl:31223114360077",
+                "urn:sfpl:31223114360036",
+                "urn:sfpl:31223114360044",
+                "urn:sfpl:31223114359996",
+                "urn:sfpl:31223114360002"
+            ],
+            "publish_date": "2004",
+            "publish_country": "nyu",
+            "by_statement": "Paulo Coelho ; translated from the Portuguese by Margaret Jull Costa.",
+            "oclc_numbers": [
+                "52838961"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL796601W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                10590546
+            ],
+            "ocaid": "elevenminutes0000coel_g0w2",
+            "description": {
+                "type": "/type/text",
+                "value": "Embittered by her first experiences of love, a young Brazilian girl travels to Geneva in search of fame and fortune and finds her beliefs about sex and romance challenged by her relationship with a young painter."
+            },
+            "latest_revision": 12,
+            "revision": 12,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-19T23:02:26.884840"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T20:45:25.190940"
+            }
+        },
+        "/books/OL7262948M": {
+            "publishers": [
+                "Harper Collins"
+            ],
+            "number_of_pages": 304,
+            "title": "Eleven Minutes",
+            "identifiers": {
+                "goodreads": [
+                    "1163303"
+                ],
+                "librarything": [
+                    "8623"
+                ]
+            },
+            "covers": [
+                11741
+            ],
+            "isbn_13": [
+                "9780007166039"
+            ],
+            "isbn_10": [
+                "0007166036"
+            ],
+            "publish_date": "2003",
+            "key": "/books/OL7262948M",
+            "authors": [
+                {
+                    "key": "/authors/OL66700A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL796601W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "Once upon a time, there was prostitute called Maria."
+            },
+            "local_id": [
+                "urn:bwbsku:KO-581-695"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2020-11-19",
+                "bwb:9780007166039"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-17T03:24:12.405639"
+            }
+        },
+        "/books/OL9217663M": {
+            "identifiers": {
+                "goodreads": [
+                    "1163303"
+                ],
+                "librarything": [
+                    "8623"
+                ]
+            },
+            "title": "Eleven Minutes",
+            "authors": [
+                {
+                    "key": "/authors/OL66700A"
+                }
+            ],
+            "publish_date": "2003",
+            "publishers": [
+                "Harper Collins"
+            ],
+            "weight": "12 ounces",
+            "covers": [
+                11742
+            ],
+            "physical_format": "Paperback",
+            "isbn_13": [
+                "9780007166039"
+            ],
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "Once upon a time, there was prostitute called Maria."
+            },
+            "isbn_10": [
+                "0007166036"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.4 x 5.4 x 0.9 inches",
+            "source_records": [
+                "amazon:0007166036"
+            ],
+            "key": "/books/OL9217663M",
+            "number_of_pages": 304,
+            "works": [
+                {
+                    "key": "/works/OL796601W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-05-12T01:29:50.221217"
+            }
+        },
+        "/books/OL9235115M": {
+            "publishers": [
+                "HarperCollins Publishers"
+            ],
+            "number_of_pages": 273,
+            "weight": "3.5 ounces",
+            "covers": [
+                32987
+            ],
+            "physical_format": "Paperback",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2010-08-12T02:22:39.505256"
+            },
+            "latest_revision": 6,
+            "key": "/books/OL9235115M",
+            "authors": [
+                {
+                    "key": "/authors/OL66700A"
+                }
+            ],
+            "subjects": [
+                "Literary",
+                "Fiction - General"
+            ],
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "Once upon a time, there was prostitute called Maria."
+            },
+            "title": "Eleven Minutes",
+            "identifiers": {
+                "goodreads": [
+                    "1177502"
+                ],
+                "librarything": [
+                    "8623"
+                ]
+            },
+            "isbn_13": [
+                "9780060726751"
+            ],
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "006072675X"
+            ],
+            "publish_date": "January 2009",
+            "works": [
+                {
+                    "key": "/works/OL796601W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.6 x 4.1 x 0.9 inches",
+            "revision": 6
+        },
+        "/books/OL9217664M": {
+            "publishers": [
+                "HarperCollins Publishers Ltd"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "8623"
+                ],
+                "goodreads": [
+                    "816721"
+                ]
+            },
+            "weight": "9.1 ounces",
+            "covers": [
+                11743
+            ],
+            "physical_format": "Paperback",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2014-04-05T20:55:59.950042"
+            },
+            "latest_revision": 7,
+            "key": "/books/OL9217664M",
+            "authors": [
+                {
+                    "key": "/authors/OL66700A"
+                }
+            ],
+            "ocaid": "elevenminutes00paul_0",
+            "subjects": [
+                "Mind, Body, Spirit",
+                "Modern fiction",
+                "Brazilian Portuguese",
+                "New Age"
+            ],
+            "edition_name": "New Ed edition",
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "Once upon a time, there was prostitute called Maria."
+            },
+            "title": "Eleven Minutes",
+            "number_of_pages": 320,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "isbn_13": [
+                "9780007166046"
+            ],
+            "isbn_10": [
+                "0007166044"
+            ],
+            "publish_date": "June 7, 2004",
+            "works": [
+                {
+                    "key": "/works/OL796601W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "7.7 x 5 x 1.1 inches",
+            "revision": 7
+        },
+        "/books/OL5608701M": {
+            "publishers": [
+                "Dodd, Mead"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "14414"
+                ]
+            },
+            "subtitle": "With photos. of the author, his environment and the setting of the book, together with an introd.",
+            "subject_place": [
+                "Wessex (England)"
+            ],
+            "pagination": "xvi, 383 p.",
+            "covers": [
+                9809660
+            ],
+            "lc_classifications": [
+                "PZ3.H222 F36",
+                "PR4745 F36"
+            ],
+            "latest_revision": 6,
+            "key": "/books/OL5608701M",
+            "authors": [
+                {
+                    "key": "/authors/OL18277A"
+                }
+            ],
+            "ocaid": "farfrommaddingcr00hard_2",
+            "publish_places": [
+                "New York"
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "source_records": [
+                "marc:marc_records_scriblio_net/part06.dat:61141412:977",
+                "marc:marc_loc_2016/BooksAll.2016.part06.utf8:143506998:977"
+            ],
+            "title": "Far from the madding crowd.",
+            "lccn": [
+                "68016181"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Bibliographical footnotes."
+            },
+            "number_of_pages": 383,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Farm life -- Fiction",
+                "Women farmers -- Fiction",
+                "Triangles (Interpersonal relations) -- Fiction",
+                "Wessex (England) -- Fiction"
+            ],
+            "publish_date": "1968",
+            "publish_country": "nyu",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-10-05T05:54:10.110191"
+            },
+            "series": [
+                "Great illustrated classics"
+            ],
+            "by_statement": "by E. P. Lawrence.",
+            "works": [
+                {
+                    "key": "/works/OL44995W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 6
+        },
+        "/books/OL22839271M": {
+            "publishers": [
+                "Macmillan"
+            ],
+            "number_of_pages": 368,
+            "key": "/books/OL22839271M",
+            "authors": [
+                {
+                    "key": "/authors/OL18277A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "edition_name": "New Wessex ed. / introduction by James Gibson / notes by Christine Winfield.",
+            "pagination": "368p. :",
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:1413018725:682",
+                "bwb:9780333408131"
+            ],
+            "title": "Far from the madding crowd",
+            "dewey_decimal_class": [
+                "823/.8"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Bibliography, p23."
+            },
+            "identifiers": {
+                "goodreads": [
+                    "1291760"
+                ],
+                "librarything": [
+                    "14414"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0333408136"
+            ],
+            "publish_date": "1985",
+            "publish_country": "xxk",
+            "by_statement": "Thomas Hardy.",
+            "works": [
+                {
+                    "key": "/works/OL44995W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-01-06T18:49:59.965767"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-07-17T04:21:55.916114"
+            }
+        },
+        "/books/OL24245432M": {
+            "publishers": [
+                "Smith, Elder & Co."
+            ],
+            "pagination": "2 v. :",
+            "source_records": [
+                "ia:farfrommaddingcr02hard",
+                "ia:farfrommaddingcr01hard"
+            ],
+            "title": "Far from the madding crowd",
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-06-15T23:38:50.571264"
+            },
+            "covers": [
+                6499434
+            ],
+            "latest_revision": 4,
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2010-09-02T07:31:37.750723"
+            },
+            "publish_date": "1874",
+            "publish_country": "enk",
+            "key": "/books/OL24245432M",
+            "authors": [
+                {
+                    "key": "/authors/OL18277A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "ocaid": "farfrommaddingcr02hard",
+            "oclc_numbers": [
+                "2481962"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL44995W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "by_statement": "by Thomas Hardy.",
+            "revision": 4
+        },
+        "/books/OL22802842M": {
+            "publishers": [
+                "Macmillan"
+            ],
+            "pagination": "ix, 463 p. ;",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2010-12-07T11:22:48.672562"
+            },
+            "latest_revision": 3,
+            "key": "/books/OL22802842M",
+            "authors": [
+                {
+                    "key": "/authors/OL18277A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "oclc_number": [
+                "1990536"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "genres": [
+                "Fiction"
+            ],
+            "revision": 3,
+            "source_records": [
+                "marc:wfm_bk_marc/wfm_bk_marc:155510543:837"
+            ],
+            "title": "Far from the madding crowd",
+            "notes": {
+                "type": "/type/text",
+                "value": "Map on lining-papers"
+            },
+            "number_of_pages": 463,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-01-02T13:40:16.612994"
+            },
+            "edition_name": "[Library edition]",
+            "subjects": [
+                "Women farmers -- Fiction",
+                "Farm life -- Fiction",
+                "Wessex (England) -- Fiction"
+            ],
+            "publish_date": "1952",
+            "location": [
+                "NBuC"
+            ],
+            "by_statement": "by Thomas Hardy",
+            "works": [
+                {
+                    "key": "/works/OL44995W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_country": "xx "
+        },
+        "/books/OL45804365M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL42805A"
+                }
+            ],
+            "local_id": [
+                "urn:bwbsku:W2-CMH-340"
+            ],
+            "publish_date": "2017-05-01",
+            "publishers": [
+                "Wagenbach Klaus Gmbh"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-05-05"
+            ],
+            "title": "Ein gewisses Lächeln",
+            "full_title": "Ein gewisses Lächeln",
+            "works": [
+                {
+                    "key": "/works/OL584283W"
+                }
+            ],
+            "key": "/books/OL45804365M",
+            "identifiers": {},
+            "classifications": {},
+            "isbn_10": [
+                "3803127750"
+            ],
+            "isbn_13": [
+                "9783803127754"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/ger"
+                }
+            ],
+            "translated_from": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-01-14T20:11:21.134921"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-05-22T15:44:38.464329"
+            }
+        },
+        "/books/OL45741505M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL11450414A"
+                }
+            ],
+            "local_id": [
+                "urn:bwbsku:O4-BTU-588",
+                "urn:bwbsku:S0-BMY-082"
+            ],
+            "publish_date": "1956-01-01",
+            "publishers": [
+                "Dutton"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-03-17",
+                "promise:bwb_daily_pallets_2024-11-08:S0-BMY-082"
+            ],
+            "title": "A certain smile",
+            "full_title": "A certain smile",
+            "works": [
+                {
+                    "key": "/works/OL584283W"
+                }
+            ],
+            "key": "/books/OL45741505M",
+            "identifiers": {},
+            "classifications": {},
+            "isbn_10": [
+                "9997413393"
+            ],
+            "isbn_13": [
+                "9789997413390"
+            ],
+            "translated_from": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-01-14T11:32:52.062767"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-03T17:00:48.427989"
+            }
+        },
+        "/books/OL43400744M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL42805A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B004125GAC"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:P7-AYH-266"
+            ],
+            "publish_date": "1956-01-01",
+            "publishers": [
+                "New York : Dutton"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-04-01"
+            ],
+            "title": "A certain smile",
+            "works": [
+                {
+                    "key": "/works/OL584283W"
+                }
+            ],
+            "key": "/books/OL43400744M",
+            "classifications": {},
+            "translated_from": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-08T17:10:51.842689"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-05-22T15:44:38.464329"
+            }
+        },
+        "/books/OL40257691M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "1956",
+            "publish_country": "nyu",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lccn": [
+                "sup61963413"
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL42805A"
+                }
+            ],
+            "lc_classifications": [
+                "PZ4.Q9 Ce"
+            ],
+            "edition_name": "1st American ed.",
+            "title": "A certain smile",
+            "by_statement": "[by] Françoise Sagan. Translated from the French by Anne Green",
+            "publishers": [
+                "Dutton"
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "pagination": "128 p.",
+            "number_of_pages": 128,
+            "source_records": [
+                "marc:marc_scms/20220805_ADAM_MARC_records.mrc:120363586:1223"
+            ],
+            "local_id": [
+                "urn:scms:0188500513893"
+            ],
+            "full_title": "A certain smile",
+            "works": [
+                {
+                    "key": "/works/OL584283W"
+                }
+            ],
+            "key": "/books/OL40257691M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-11T09:12:46.903105"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-03T10:05:54.113234"
+            }
+        },
+        "/books/OL23829575M": {
+            "title": "A certain smile",
+            "authors": [
+                {
+                    "key": "/authors/OL42805A"
+                }
+            ],
+            "publish_date": "1956",
+            "publishers": [
+                "Dutton"
+            ],
+            "pagination": "128 p. ;",
+            "publish_country": "nyu",
+            "by_statement": "Françoise Quoirez. Translated from the French by Anne Green.",
+            "publish_places": [
+                "New York"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "key": "/books/OL23829575M",
+            "number_of_pages": 128,
+            "works": [
+                {
+                    "key": "/works/OL584283W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-10-17T19:06:26.115231"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-03T05:47:45.418697"
+            }
+        },
+        "/books/OL23829573M": {
+            "title": "Un certain sourire",
+            "authors": [
+                {
+                    "key": "/authors/OL42805A"
+                }
+            ],
+            "publish_date": "1956",
+            "publishers": [
+                "R. Juillard"
+            ],
+            "pagination": "188 p. ;",
+            "publish_country": "fr ",
+            "by_statement": "Françoise Quoirez.",
+            "publish_places": [
+                "Paris"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "key": "/books/OL23829573M",
+            "number_of_pages": 188,
+            "works": [
+                {
+                    "key": "/works/OL584283W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-10-17T19:06:09.419249"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-03T08:16:40.895677"
+            }
+        },
+        "/books/OL20488838M": {
+            "publishers": [
+                "publishe"
+            ],
+            "title": "A certain smile.",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_country": "xxk",
+            "key": "/books/OL20488838M",
+            "authors": [
+                {
+                    "key": "/authors/OL42805A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL584283W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-27T04:39:15.629300"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-03T10:05:54.113234"
+            }
+        },
+        "/books/OL19586304M": {
+            "title": "Un certain sourire",
+            "authors": [
+                {
+                    "key": "/authors/OL42805A"
+                }
+            ],
+            "publish_date": "1958",
+            "publishers": [
+                "Club des Éditeurs"
+            ],
+            "edition_name": "Éd. nouvelle.",
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "publish_country": "fr ",
+            "publish_places": [
+                "[Paris]"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "by_statement": "Françoise Sagan.",
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:2962514156:422"
+            ],
+            "key": "/books/OL19586304M",
+            "works": [
+                {
+                    "key": "/works/OL584283W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-23T02:08:04.429023"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-31T12:42:17.309900"
+            }
+        },
+        "/books/OL17345383M": {
+            "publishers": [
+                "Presses de la Cité"
+            ],
+            "subtitle": "roman [par] Francoise Sagan.",
+            "key": "/books/OL17345383M",
+            "authors": [
+                {
+                    "key": "/authors/OL42805A"
+                }
+            ],
+            "publish_places": [
+                "Paris"
+            ],
+            "pagination": "220p.",
+            "source_records": [
+                "marc:marc_university_of_toronto/uoft.marc:1354363141:514"
+            ],
+            "title": "Un certain sourire",
+            "number_of_pages": 220,
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "lc_classifications": [
+                "PQ2633 U74 C38 1966"
+            ],
+            "publish_date": "1966",
+            "works": [
+                {
+                    "key": "/works/OL584283W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-28T11:55:38.595192"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-03T10:05:54.113234"
+            }
+        },
+        "/books/OL6215244M": {
+            "publishers": [
+                "J. Murray"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "791003"
+                ],
+                "librarything": [
+                    "170879"
+                ]
+            },
+            "subtitle": "A Novel",
+            "lc_classifications": [
+                "PZ4.Q9 Ce 2"
+            ],
+            "key": "/books/OL6215244M",
+            "authors": [
+                {
+                    "key": "/authors/OL42805A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "contributions": [
+                "Irene Ash (Translator)"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "132 p.",
+            "source_records": [
+                "marc:marc_loc_2016/BooksAll.2016.part05.utf8:35270081:685",
+                "promise:bwb_daily_pallets_2022-12-21",
+                "bwb:9780719512049"
+            ],
+            "title": "A Certain Smile",
+            "lccn": [
+                "56058400"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Originally published as Un certain sourire. Juillard, Sequara, 1956."
+            },
+            "number_of_pages": 132,
+            "edition_name": "1st edition",
+            "dewey_decimal_class": [
+                "843.91F"
+            ],
+            "isbn_10": [
+                "0719512042"
+            ],
+            "publish_date": "1956",
+            "publish_country": "enk",
+            "by_statement": "by Françoise Sagan [pseudonym]; translated by Irene Ash.",
+            "oclc_numbers": [
+                "4939154"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL584283W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "20 cm",
+            "local_id": [
+                "urn:bwbsku:O8-CYU-842"
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-17T04:45:37.039041"
+            }
+        },
+        "/books/OL14977483M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "2648220"
+                ]
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T22:11:46.172578"
+            },
+            "latest_revision": 7,
+            "key": "/books/OL14977483M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "187p. ;",
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:515953868:558",
+                "bwb:9780263100693"
+            ],
+            "title": "Daughter of Hassan",
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "number_of_pages": 187,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T23:01:23.763603"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263100693"
+            ],
+            "publish_date": "1982",
+            "publish_country": "xxk",
+            "by_statement": "by Penny Jordan.",
+            "oclc_numbers": [
+                "9075910"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL11327984W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 7
+        },
+        "/books/OL20652783M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Originally published, London , Mills & Boon,1982."
+            },
+            "title": "Daughter of Hassan",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "publish_date": "1983",
+            "publishers": [
+                "Chivers"
+            ],
+            "series": [
+                "Atlantic large print",
+                "A Seymour large print romance"
+            ],
+            "lc_classifications": [
+                "PR6060.O/"
+            ],
+            "publish_places": [
+                "Bath"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "248p. ;",
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "edition_name": "Large print ed.",
+            "isbn_10": [
+                "0851195644"
+            ],
+            "publish_country": "xxk",
+            "by_statement": "Penny Jordan.",
+            "oclc_numbers": [
+                "12461813"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:3315349976:762"
+            ],
+            "key": "/books/OL20652783M",
+            "number_of_pages": 248,
+            "works": [
+                {
+                    "key": "/works/OL11327984W"
+                }
+            ],
+            "covers": [
+                15171606
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-29T07:57:01.819402"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-02-20T12:01:23.578366"
+            }
+        },
+        "/books/OL23133983M": {
+            "identifiers": {
+                "librarything": [
+                    "72686"
+                ],
+                "goodreads": [
+                    "896623"
+                ]
+            },
+            "title": "The flame and the flower.",
+            "authors": [
+                {
+                    "key": "/authors/OL20452A"
+                }
+            ],
+            "publish_date": "1972",
+            "publishers": [
+                "Jove Books"
+            ],
+            "pagination": "491p.",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0380005255"
+            ],
+            "publish_country": "xxu",
+            "publish_places": [
+                "New York"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:2171960324:413"
+            ],
+            "key": "/books/OL23133983M",
+            "number_of_pages": 491,
+            "works": [
+                {
+                    "key": "/works/OL59383W"
+                }
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-03-02T13:37:21.764452"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-30T20:29:57.834449"
+            }
+        },
+        "/books/OL20122480M": {
+            "publishers": [
+                "G.K. Hall"
+            ],
+            "pagination": "691p.",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:2912418468:466"
+            ],
+            "title": "The flame and the flower",
+            "number_of_pages": 691,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-26T00:44:36.672731"
+            },
+            "edition_name": "Large Print ed.",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2012-01-26T22:39:18.473758"
+            },
+            "publish_date": "1984",
+            "publish_country": "xxk",
+            "key": "/books/OL20122480M",
+            "authors": [
+                {
+                    "key": "/authors/OL20452A"
+                }
+            ],
+            "by_statement": "Kathleen E. Woodiwiss.",
+            "publish_places": [
+                "Boston, Ma"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL59383W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 5,
+            "revision": 5
+        },
+        "/books/OL3180229M": {
+            "publishers": [
+                "G.K. Hall"
+            ],
+            "isbn_10": [
+                "0816136920"
+            ],
+            "lc_classifications": [
+                "PS3573.O625 F56 1984"
+            ],
+            "latest_revision": 13,
+            "key": "/books/OL3180229M",
+            "publish_places": [
+                "Boston"
+            ],
+            "pagination": "p. cm.",
+            "source_records": [
+                "marc:marc_records_scriblio_net/part16.dat:116418701:663",
+                "marc:marc_loc_updates/v36.i04.records.utf8:4458610:653"
+            ],
+            "title": "The flame and the flower",
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Cataloging based on CIP information.\n\"Published in large print\"--Verso t.p."
+            },
+            "identifiers": {
+                "goodreads": [
+                    "3843058"
+                ],
+                "librarything": [
+                    "72686"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lccn": [
+                "83022845"
+            ],
+            "subjects": [
+                "Large type books"
+            ],
+            "publish_date": "1984",
+            "publish_country": "mau",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2014-11-09T18:14:01.348263"
+            },
+            "by_statement": "Kathleen E. Woodiwiss.",
+            "works": [
+                {
+                    "key": "/works/OL59383W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 13
+        },
+        "/books/OL9366762M": {
+            "publishers": [
+                "Avon Books"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "amazon:0380972514:2-ad:1174349473:251671",
+                "bwb:9780380972517"
+            ],
+            "title": "The Flame and the Flower",
+            "identifiers": {
+                "goodreads": [
+                    "7040704"
+                ]
+            },
+            "isbn_13": [
+                "9780380972517"
+            ],
+            "physical_format": "Hardcover",
+            "isbn_10": [
+                "0380972514"
+            ],
+            "publish_date": "January 2000",
+            "key": "/books/OL9366762M",
+            "authors": [
+                {
+                    "key": "/authors/OL20452A"
+                }
+            ],
+            "oclc_numbers": [
+                "227973194"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL59383W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "Somewhere in the world, time no doubt whistled by on taut and widespread wings, but here in the English country it plodded slowly, painfully, as if it trod the rutted road that stretched across the moors on blistered feet."
+            },
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-02-28T16:50:26.461140"
+            }
+        },
+        "/books/OL7289631M": {
+            "publishers": [
+                "Avon"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "532850"
+                ],
+                "librarything": [
+                    "72686"
+                ]
+            },
+            "source_records": [
+                "amazon:0061260444:o-3:3720632828:246328",
+                "amazon:0061260444:4:3239918353:246493",
+                "bwb:9780061260445",
+                "amazon:0061260444"
+            ],
+            "title": "The Flame and the Flower",
+            "number_of_pages": 512,
+            "isbn_13": [
+                "9780061260445"
+            ],
+            "isbn_10": [
+                "0061260444"
+            ],
+            "publish_date": "May 1, 2007",
+            "key": "/books/OL7289631M",
+            "authors": [
+                {
+                    "key": "/authors/OL20452A"
+                }
+            ],
+            "oclc_numbers": [
+                "586163580"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL59383W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "Somewhere in the world, time no doubt whistled by on taut and widespread wings, but here in the English country it plodded slowly, painfully, as if it trod the rutted road that stretched across the moors on blistered feet."
+            },
+            "covers": [
+                13497109
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-03-16T08:48:59.850931"
+            }
+        },
+        "/books/OL22057060M": {
+            "publishers": [
+                "Wilhelm Goldmann Verlag"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "3205226"
+                ],
+                "librarything": [
+                    "72686"
+                ]
+            },
+            "subtitle": "Roman",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2012-01-26T22:39:18.473758"
+            },
+            "latest_revision": 17,
+            "key": "/books/OL22057060M",
+            "authors": [
+                {
+                    "key": "/authors/OL20452A"
+                }
+            ],
+            "publish_places": [
+                "Munchen"
+            ],
+            "contributions": [
+                "Pommer, Ursula."
+            ],
+            "pagination": "414p.",
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:1007449682:669"
+            ],
+            "title": "Wohin der Sturm uns tragt",
+            "work_titles": [
+                "The Flame and the flower."
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Translation of: The Flame and the flower."
+            },
+            "number_of_pages": 414,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-06T10:29:31.951485"
+            },
+            "languages": [
+                {
+                    "key": "/languages/ger"
+                }
+            ],
+            "isbn_10": [
+                "3442063418"
+            ],
+            "publish_date": "1981",
+            "publish_country": "gw ",
+            "by_statement": "Kathleen E. Woodiwiss ; aus dem Amerikanischen von Ursula Pommer.",
+            "works": [
+                {
+                    "key": "/works/OL59383W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 17
+        },
+        "/books/OL16199571M": {
+            "publishers": [
+                "HarperCollins",
+                "TheBookPeople"
+            ],
+            "number_of_pages": 288,
+            "isbn_10": [
+                "0007712987"
+            ],
+            "pagination": "288 p. ;",
+            "key": "/books/OL16199571M",
+            "authors": [
+                {
+                    "key": "/authors/OL66700A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "title": "Eleven minutes",
+            "dewey_decimal_class": [
+                "869.342"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Translated from the Portuguese."
+            },
+            "identifiers": {
+                "goodreads": [
+                    "6658083"
+                ],
+                "librarything": [
+                    "8623"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Prostitutes -- Switzerland -- Geneva -- Fiction.",
+                "Sex -- Fiction.",
+                "Love -- Fiction."
+            ],
+            "publish_date": "2003",
+            "publish_country": "enk",
+            "by_statement": "Paulo Coelho.",
+            "works": [
+                {
+                    "key": "/works/OL796601W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                11625598
+            ],
+            "ocaid": "elevenminutes0000coel_d6f2",
+            "source_records": [
+                "ia:elevenminutes0000coel_d6f2",
+                "promise:bwb_daily_pallets_2020-09-09"
+            ],
+            "local_id": [
+                "urn:bwbsku:KO-230-961"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-22T13:29:07.915333"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-09T23:52:30.239900"
+            }
+        },
+        "/books/OL24247574M": {
+            "publishers": [
+                "HarperCollins"
+            ],
+            "physical_format": "Electronic resource",
+            "source_records": [
+                "marc_overdrive/InternetArchiveCrMarc-2010-06-11b.mrc:225804:2260",
+                "bwb:9780061835575",
+                "bwb:9780061194917"
+            ],
+            "title": "Eleven Minutes",
+            "identifiers": {
+                "overdrive": [
+                    "D21D33D6-85DF-4A83-9413-0DAA475088DC"
+                ]
+            },
+            "isbn_13": [
+                "9780061194917",
+                "9780061835575",
+                "9780061194924"
+            ],
+            "covers": [
+                6394695
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2006",
+            "publish_country": "nyu",
+            "key": "/books/OL24247574M",
+            "authors": [
+                {
+                    "key": "/authors/OL66700A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL796601W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-06-16T23:37:51.143489"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-02-28T21:05:20.215218"
+            }
+        },
+        "/books/OL9234074M": {
+            "identifiers": {
+                "goodreads": [
+                    "500993"
+                ],
+                "librarything": [
+                    "8623"
+                ]
+            },
+            "title": "Eleven Minutes",
+            "subtitle": "A Novel",
+            "authors": [
+                {
+                    "key": "/authors/OL66700A"
+                }
+            ],
+            "publish_date": "March 30, 2004",
+            "publishers": [
+                "HarperCollins"
+            ],
+            "weight": "1 pounds",
+            "covers": [
+                31226
+            ],
+            "physical_format": "Hardcover",
+            "subjects": [
+                "Literary",
+                "Fiction - General",
+                "Fiction",
+                "Fiction / General",
+                "General"
+            ],
+            "edition_name": "1 edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "Once upon a time, there was prostitute called Maria."
+            },
+            "isbn_13": [
+                "9780060589271"
+            ],
+            "isbn_10": [
+                "0060589272"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.3 x 5.9 x 1.1 inches",
+            "source_records": [
+                "amazon:0060589272"
+            ],
+            "key": "/books/OL9234074M",
+            "number_of_pages": 288,
+            "works": [
+                {
+                    "key": "/works/OL796601W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-31T09:35:12.103227"
+            }
+        },
+        "/books/OL7262947M": {
+            "publishers": [
+                "HarperCollins Publishers Ltd"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "526269"
+                ],
+                "librarything": [
+                    "8623"
+                ]
+            },
+            "title": "Eleven Minutes",
+            "number_of_pages": 304,
+            "covers": [
+                11739
+            ],
+            "isbn_13": [
+                "9780007166022"
+            ],
+            "isbn_10": [
+                "0007166028"
+            ],
+            "publish_date": "August 18, 2003",
+            "key": "/books/OL7262947M",
+            "authors": [
+                {
+                    "key": "/authors/OL66700A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL796601W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "Once upon a time, there was prostitute called Maria."
+            },
+            "lc_classifications": [
+                "PQ9698.I3.O3456"
+            ],
+            "source_records": [
+                "bwb:9780007166022",
+                "marc:harvard_bibliographic_metadata/ab.bib.09.20150123.full.mrc:158719174:708"
+            ],
+            "oclc_numbers": [
+                "52395462"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-09-06T01:26:12.277560"
+            }
+        }
+    }
+}

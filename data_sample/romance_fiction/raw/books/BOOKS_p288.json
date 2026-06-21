@@ -1,0 +1,4445 @@
+{
+    "status": "ok",
+    "result": {
+        "/books/OL35664438M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "O Morro dos Ventos Uivantes",
+            "authors": [
+                {
+                    "key": "/authors/OL2965820A"
+                }
+            ],
+            "source_records": [
+                "amazon:853781752X"
+            ],
+            "publishers": [
+                "Zahar"
+            ],
+            "physical_format": "hardcover",
+            "notes": "Source title: O Morro dos Ventos Uivantes. Edicao Bolso de Luxo (Em Portugues do Brasil)",
+            "covers": [
+                12370160
+            ],
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "key": "/books/OL35664438M",
+            "identifiers": {},
+            "isbn_10": [
+                "853781752X"
+            ],
+            "isbn_13": [
+                "9788537817520"
+            ],
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/por"
+                }
+            ],
+            "edition_name": "Edicao Bolso de Luxo",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-13T22:10:04.075311"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-12-17T16:07:14.374963"
+            }
+        },
+        "/books/OL35152516M": {
+            "title": "ቁመቶች ቁመት",
+            "subtitle": "Wuthering Heights, Amharic Edition",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "languages": [
+                {
+                    "key": "/languages/amh"
+                }
+            ],
+            "publishers": [
+                "Blurb, Incorporated"
+            ],
+            "source_records": [
+                "bwb:9781034230748"
+            ],
+            "weight": "0.559 ",
+            "pagination": "418",
+            "isbn_13": [
+                "9781034230748"
+            ],
+            "key": "/books/OL35152516M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-10T19:01:32.527637"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:44:03.211225"
+            }
+        },
+        "/books/OL35460148M": {
+            "title": "Wuthering Heights",
+            "publish_date": "2008",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781406588057"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "312",
+            "publishers": [
+                "Simon & Schuster"
+            ],
+            "source_records": [
+                "bwb:9781406588057"
+            ],
+            "subjects": [
+                "England, fiction",
+                "Heathcliff (fictitious character), fiction",
+                "Man-woman relationships, fiction",
+                "British and irish fiction (fictional works by one author)",
+                "Fiction, psychological",
+                "Fiction, romance, general",
+                "Fiction, family life, general"
+            ],
+            "weight": "0.464",
+            "full_title": "Wuthering Heights",
+            "key": "/books/OL35460148M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T07:06:28.997449"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:45:18.104765"
+            }
+        },
+        "/books/OL35460364M": {
+            "title": "Wuthering Heights",
+            "publish_date": "2008",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781437826340"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "304",
+            "publishers": [
+                "IndyPublish.com"
+            ],
+            "source_records": [
+                "bwb:9781437826340"
+            ],
+            "subjects": [
+                "England, fiction",
+                "Heathcliff (fictitious character), fiction",
+                "Man-woman relationships, fiction",
+                "British and irish fiction (fictional works by one author)",
+                "Fiction, psychological",
+                "Fiction, romance, general",
+                "Fiction, family life, general"
+            ],
+            "weight": "0.586",
+            "full_title": "Wuthering Heights",
+            "key": "/books/OL35460364M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T07:09:52.549637"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:46:18.656343"
+            }
+        },
+        "/books/OL35468283M": {
+            "title": "Wuthering Heights",
+            "publish_date": "2010",
+            "type": {
+                "key": "/type/edition"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "394p.",
+            "publishers": [
+                "Penguin Books"
+            ],
+            "source_records": [
+                "bwb:9780141196039",
+                "promise:bwb_daily_pallets_2020-07-30"
+            ],
+            "subjects": [
+                "Heathcliff (fictitious character), fiction",
+                "Fiction, family life, general",
+                "Fiction, psychological",
+                "Fiction, romance, general",
+                "Man-woman relationships, fiction",
+                "British and irish fiction (fictional works by one author)",
+                "England, fiction"
+            ],
+            "full_title": "Wuthering Heights",
+            "local_id": [
+                "urn:bwbsku:KN-834-581"
+            ],
+            "isbn_13": [
+                "9780141196039"
+            ],
+            "ocaid": "isbn_9780141196039",
+            "edition_name": "Angus & Robinson exclusive edition",
+            "physical_format": "paperback",
+            "publish_places": [
+                "Victoria, Australia"
+            ],
+            "covers": [
+                14543374
+            ],
+            "key": "/books/OL35468283M",
+            "number_of_pages": 397,
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T09:46:34.705914"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:44:51.555314"
+            }
+        },
+        "/books/OL35472480M": {
+            "title": "Wuthering Heights",
+            "publish_date": "2010",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781936041589"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "336",
+            "publishers": [
+                "Simon & Brown"
+            ],
+            "source_records": [
+                "bwb:9781936041589",
+                "amazon:1936041588"
+            ],
+            "subjects": [
+                "Heathcliff (fictitious character), fiction",
+                "Fiction, family life, general",
+                "Fiction, psychological",
+                "Fiction, romance, general",
+                "Man-woman relationships, fiction",
+                "British and irish fiction (fictional works by one author)",
+                "England, fiction"
+            ],
+            "weight": "0.495",
+            "full_title": "Wuthering Heights",
+            "key": "/books/OL35472480M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T10:42:50.327139"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:45:44.330352"
+            }
+        },
+        "/books/OL35475145M": {
+            "title": "Wuthering Heights",
+            "publish_date": "2001",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781459310360"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Broadview Press"
+            ],
+            "source_records": [
+                "bwb:9781459310360"
+            ],
+            "subjects": [
+                "Heathcliff (fictitious character), fiction",
+                "Fiction, family life, general",
+                "Fiction, psychological",
+                "Fiction, romance, general",
+                "Man-woman relationships, fiction",
+                "British and irish fiction (fictional works by one author)",
+                "England, fiction"
+            ],
+            "full_title": "Wuthering Heights",
+            "key": "/books/OL35475145M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T11:18:57.210568"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:45:46.926802"
+            }
+        },
+        "/books/OL35475531M": {
+            "title": "Wuthering Heights",
+            "publish_date": "2010",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781147725490"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "378",
+            "publishers": [
+                "Creative Media Partners, LLC"
+            ],
+            "source_records": [
+                "bwb:9781147725490"
+            ],
+            "subjects": [
+                "Heathcliff (fictitious character), fiction",
+                "Fiction, family life, general",
+                "Fiction, psychological",
+                "Fiction, romance, general",
+                "Man-woman relationships, fiction",
+                "British and irish fiction (fictional works by one author)",
+                "England, fiction"
+            ],
+            "weight": "0.677",
+            "full_title": "Wuthering Heights",
+            "key": "/books/OL35475531M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T11:24:26.994098"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:45:42.936391"
+            }
+        },
+        "/books/OL35477062M": {
+            "title": "Wuthering Heights",
+            "publish_date": "2010",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781143614163"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "614",
+            "publishers": [
+                "Creative Media Partners, LLC"
+            ],
+            "source_records": [
+                "bwb:9781143614163"
+            ],
+            "subjects": [
+                "Heathcliff (fictitious character), fiction",
+                "Fiction, family life, general",
+                "Fiction, psychological",
+                "Fiction, romance, general",
+                "Man-woman relationships, fiction",
+                "British and irish fiction (fictional works by one author)",
+                "England, fiction"
+            ],
+            "weight": "1.086",
+            "full_title": "Wuthering Heights",
+            "key": "/books/OL35477062M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T11:44:51.942776"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:45:56.709646"
+            }
+        },
+        "/books/OL35480769M": {
+            "title": "Wuthering Heights",
+            "publish_date": "2010",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781143253522"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "640",
+            "publishers": [
+                "Creative Media Partners, LLC"
+            ],
+            "source_records": [
+                "bwb:9781143253522"
+            ],
+            "subjects": [
+                "Heathcliff (fictitious character), fiction",
+                "Fiction, family life, general",
+                "Fiction, psychological",
+                "Fiction, romance, general",
+                "Man-woman relationships, fiction",
+                "British and irish fiction (fictional works by one author)",
+                "England, fiction"
+            ],
+            "weight": "1.132",
+            "full_title": "Wuthering Heights",
+            "key": "/books/OL35480769M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T12:35:59.998250"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:45:55.080515"
+            }
+        },
+        "/books/OL35494067M": {
+            "title": "Wuthering Heights",
+            "publish_date": "2012",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781907832758"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "274",
+            "publishers": [
+                "Bollinger, Max"
+            ],
+            "source_records": [
+                "bwb:9781907832758"
+            ],
+            "subjects": [
+                "Heathcliff (fictitious character), fiction",
+                "Fiction, family life, general",
+                "Fiction, psychological",
+                "Fiction, romance, general",
+                "Man-woman relationships, fiction",
+                "British and irish fiction (fictional works by one author)",
+                "England, fiction"
+            ],
+            "full_title": "Wuthering Heights",
+            "key": "/books/OL35494067M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T15:58:23.194111"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:46:07.362937"
+            }
+        },
+        "/books/OL33898876M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Emily Bronte, Wuthering heights (THE CLASSICS)"
+            },
+            "title": "Emily Bronte, Wuthering heights",
+            "publish_date": "Jul 30, 2017",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:1974096378"
+            ],
+            "publishers": [
+                "Createspace Independent Publishing Platform",
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "isbn_10": [
+                "1974096378"
+            ],
+            "isbn_13": [
+                "9781974096374"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Emily Bronte, Wuthering heights",
+            "covers": [
+                12009636
+            ],
+            "key": "/books/OL33898876M",
+            "number_of_pages": 290,
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-09-27T18:06:33.591605"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:44:19.321488"
+            }
+        },
+        "/books/OL35051869M": {
+            "title": "Wuthering Heights :(Annotated Edition)",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798549093133"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798549093133"
+            ],
+            "weight": "0.573",
+            "pagination": "334",
+            "key": "/books/OL35051869M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-10T03:41:06.986241"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:45:02.951582"
+            }
+        },
+        "/books/OL35022875M": {
+            "title": "Wuthering Heights by Emily - Illustrated",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798532212046"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798532212046"
+            ],
+            "weight": "0.559",
+            "pagination": "325",
+            "key": "/books/OL35022875M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-09T23:22:46.053478"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:45:06.506975"
+            }
+        },
+        "/books/OL34915474M": {
+            "description": {
+                "type": "/type/text",
+                "value": "Raised together on the Yorkshire moors, Heathcliff and Catherine become lovers and soul mates so utterly inseparable that their destiny seems inevitable. But when Catherine’s desire for social status results in her marriage to Heathcliff’s wealthy rival, Heathcliff is consumed by revenge. And no one in his path will be spared.\r\n\r\nAdmired for its stark originality and condemned for its fiendish affront to the senses, Wuthering Heights polarized critics. For generations of readers since, its themes of gender inequality, religious hypocrisy, social climbing, and the violent extremes of romantic obsession resonate to this day."
+            },
+            "identifiers": {
+                "goodreads": [
+                    "36295788"
+                ]
+            },
+            "title": "Wuthering Heights",
+            "publish_date": "2017",
+            "type": {
+                "key": "/type/edition"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Amazon Classics"
+            ],
+            "source_records": [
+                "bwb:9781542047654",
+                "promise:bwb_daily_pallets_2021-08-26"
+            ],
+            "weight": "0.386 ",
+            "pagination": "371p.",
+            "full_title": "Wuthering Heights (AmazonClassics Edition)",
+            "publish_places": [
+                "Seattle"
+            ],
+            "physical_format": "Paperback",
+            "ocaid": "wutheringheights0000bron_s9x5",
+            "isbn_10": [
+                "154204765X"
+            ],
+            "isbn_13": [
+                "9781542047654"
+            ],
+            "covers": [
+                12721913
+            ],
+            "local_id": [
+                "urn:bwbsku:P7-AKK-511"
+            ],
+            "key": "/books/OL34915474M",
+            "number_of_pages": 371,
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-09T05:59:24.639554"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:45:52.546078"
+            }
+        },
+        "/books/OL34198748M": {
+            "title": "Wuthering Heights :(illustrated Edition)",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798507407989"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798507407989"
+            ],
+            "weight": "0.586",
+            "key": "/books/OL34198748M",
+            "number_of_pages": 398,
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-09-30T23:22:48.902421"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:45:27.823668"
+            }
+        },
+        "/books/OL37396837M": {
+            "title": "Wuthering Heights",
+            "publish_date": "2012",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9780062249975"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "448",
+            "publishers": [
+                "HarperCollins Publishers"
+            ],
+            "source_records": [
+                "bwb:9780062249975"
+            ],
+            "subjects": [
+                "Heathcliff (fictitious character), fiction",
+                "Fiction, family life, general",
+                "Fiction, psychological",
+                "Fiction, romance, general",
+                "Man-woman relationships, fiction",
+                "British and irish fiction (fictional works by one author)",
+                "England, fiction"
+            ],
+            "full_title": "Wuthering Heights",
+            "key": "/books/OL37396837M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-03-01T07:42:44.526471"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:44:21.024040"
+            }
+        },
+        "/books/OL37696659M": {
+            "title": "Wuthering Heights",
+            "subtitle": "Large Print Gothic Romances Story and Beautiful Font and Formatting",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798523426254"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "280",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798523426254"
+            ],
+            "weight": "0.809",
+            "full_title": "Wuthering Heights Large Print Gothic Romances Story and Beautiful Font and Formatting",
+            "key": "/books/OL37696659M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-03-03T21:07:42.122581"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:35:39.946983"
+            }
+        },
+        "/books/OL36941874M": {
+            "title": "Wuthering Heights",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798595759816"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "200",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798595759816"
+            ],
+            "weight": "0.359",
+            "full_title": "Wuthering Heights",
+            "key": "/books/OL36941874M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-01-29T05:13:18.352004"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:33:55.998858"
+            }
+        },
+        "/books/OL36967390M": {
+            "title": "Wuthering Heights",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798521955664"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "101",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798521955664"
+            ],
+            "weight": "0.205",
+            "full_title": "Wuthering Heights",
+            "key": "/books/OL36967390M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-01-29T09:30:53.901651"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:34:50.955592"
+            }
+        },
+        "/books/OL35245301M": {
+            "title": "Wuthering Heights:(illustrated Edition)",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798538462087"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798538462087"
+            ],
+            "weight": "0.586",
+            "pagination": "398",
+            "key": "/books/OL35245301M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-11T08:36:41.653212"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:44:54.812004"
+            }
+        },
+        "/books/OL34197056M": {
+            "title": "Wuthering Heights Illustrated",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798510499087"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798510499087"
+            ],
+            "weight": "0.586",
+            "key": "/books/OL34197056M",
+            "number_of_pages": 398,
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-09-30T23:08:18.595167"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:48:14.125242"
+            }
+        },
+        "/books/OL34199943M": {
+            "title": "Wuthering Heights Illustrated",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798732812862"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798732812862"
+            ],
+            "weight": "0.573",
+            "full_title": "Wuthering Heights Illustrated",
+            "key": "/books/OL34199943M",
+            "number_of_pages": 333,
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-09-30T23:32:45.169888"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:45:55.514075"
+            }
+        },
+        "/books/OL34207774M": {
+            "title": "Wuthering Heights Illustrated",
+            "subtitle": "Fiction, Romance",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798738355998"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798738355998"
+            ],
+            "weight": "0.586",
+            "full_title": "Wuthering Heights Illustrated Fiction, Romance",
+            "key": "/books/OL34207774M",
+            "number_of_pages": 396,
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-01T00:51:59.718116"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:44:57.686711"
+            }
+        },
+        "/books/OL34211046M": {
+            "title": "Wuthering Heights Illustrated",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798523151446"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798523151446"
+            ],
+            "weight": "0.586",
+            "full_title": "Wuthering Heights Illustrated",
+            "key": "/books/OL34211046M",
+            "number_of_pages": 398,
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-01T01:23:50.443904"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:45:25.273878"
+            }
+        },
+        "/books/OL34266168M": {
+            "title": "Wuthering Heights Illustrated",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798733773742"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798733773742"
+            ],
+            "weight": "0.586",
+            "full_title": "Wuthering Heights Illustrated",
+            "key": "/books/OL34266168M",
+            "number_of_pages": 398,
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-01T17:19:40.430757"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:45:48.555500"
+            }
+        },
+        "/books/OL34302979M": {
+            "title": "Wuthering Heights Illustrated",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798505387924"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798505387924"
+            ],
+            "weight": "0.586",
+            "full_title": "Wuthering Heights Illustrated",
+            "key": "/books/OL34302979M",
+            "number_of_pages": 398,
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-01T23:14:31.985055"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:46:14.007765"
+            }
+        },
+        "/books/OL34345518M": {
+            "title": "Wuthering Heights Illustrated",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798523085604"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798523085604"
+            ],
+            "weight": "0.586",
+            "full_title": "Wuthering Heights Illustrated",
+            "key": "/books/OL34345518M",
+            "number_of_pages": 398,
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-02T05:43:34.778402"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:45:07.651390"
+            }
+        },
+        "/books/OL34360384M": {
+            "title": "Wuthering Heights Illustrated",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798542104898"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798542104898"
+            ],
+            "weight": "0.586",
+            "full_title": "Wuthering Heights Illustrated",
+            "key": "/books/OL34360384M",
+            "number_of_pages": 398,
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-02T08:06:52.555117"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:45:35.421822"
+            }
+        },
+        "/books/OL34363049M": {
+            "title": "Wuthering Heights Illustrated",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798718170122"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798718170122"
+            ],
+            "weight": "0.586",
+            "full_title": "Wuthering Heights Illustrated",
+            "key": "/books/OL34363049M",
+            "number_of_pages": 398,
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-02T08:32:17.979156"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:45:32.759929"
+            }
+        },
+        "/books/OL35008240M": {
+            "title": "Wuthering Heights Illustrated",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798501518681"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798501518681"
+            ],
+            "weight": "0.586",
+            "pagination": "398",
+            "full_title": "Wuthering Heights Illustrated",
+            "key": "/books/OL35008240M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-09T21:19:14.625128"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:48:18.565859"
+            }
+        },
+        "/books/OL35020245M": {
+            "title": "Wuthering Heights Illustrated",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798524621535"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798524621535"
+            ],
+            "weight": "0.586",
+            "pagination": "398",
+            "full_title": "Wuthering Heights Illustrated",
+            "key": "/books/OL35020245M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-09T22:59:48.696051"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:45:52.926144"
+            }
+        },
+        "/books/OL35047162M": {
+            "title": "Wuthering Heights Illustrated",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798528373973"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798528373973"
+            ],
+            "weight": "0.586",
+            "pagination": "398",
+            "full_title": "Wuthering Heights Illustrated",
+            "key": "/books/OL35047162M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-10T03:00:05.037205"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:45:34.060599"
+            }
+        },
+        "/books/OL35127646M": {
+            "title": "Wuthering Heights Illustrated",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798597914688"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798597914688"
+            ],
+            "weight": "0.586",
+            "pagination": "398",
+            "full_title": "Wuthering Heights Illustrated",
+            "key": "/books/OL35127646M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-10T15:02:55.543676"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:46:15.277271"
+            }
+        },
+        "/books/OL34497703M": {
+            "title": "Wuthering Heights",
+            "subtitle": "the Wild and Wanton Edition",
+            "publish_date": "2014",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781283474849"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Adams Media Corporation"
+            ],
+            "source_records": [
+                "bwb:9781283474849"
+            ],
+            "subjects": [
+                "England, fiction",
+                "Fiction, erotica, general"
+            ],
+            "full_title": "Wuthering Heights the Wild and Wanton Edition",
+            "key": "/books/OL34497703M",
+            "number_of_pages": 432,
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-05T08:05:35.951076"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:46:01.277093"
+            }
+        },
+        "/books/OL34563794M": {
+            "title": "Wuthering Heights",
+            "publish_date": "2005",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781405073202"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Macmillan Education Australia"
+            ],
+            "source_records": [
+                "bwb:9781405073202"
+            ],
+            "subjects": [
+                "England, fiction",
+                "Heathcliff (fictitious character), fiction",
+                "Man-woman relationships, fiction",
+                "British and irish fiction (fictional works by one author)",
+                "Fiction, psychological",
+                "Fiction, romance, general",
+                "Fiction, family life"
+            ],
+            "weight": "0.125",
+            "full_title": "Wuthering Heights",
+            "key": "/books/OL34563794M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-06T01:38:28.917417"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:45:23.675843"
+            }
+        },
+        "/books/OL34564167M": {
+            "title": "Wuthering Heights",
+            "publish_date": "2012",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781444740387"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lc_classifications": [
+                "PR4172"
+            ],
+            "publishers": [
+                "Hodder & Stoughton"
+            ],
+            "source_records": [
+                "bwb:9781444740387"
+            ],
+            "subjects": [
+                "Fiction, general",
+                "Great britain, fiction"
+            ],
+            "full_title": "Wuthering Heights",
+            "key": "/books/OL34564167M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-06T01:51:01.304000"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:46:15.683501"
+            }
+        },
+        "/books/OL34837980M": {
+            "title": "Wuthering Heights",
+            "subtitle": "A Kaplan SAT Score-Raising Classic",
+            "publish_date": "2013",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781618650702"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Kaplan Publishing"
+            ],
+            "source_records": [
+                "bwb:9781618650702"
+            ],
+            "subjects": [
+                "Fiction, historical, general",
+                "Man-woman relationships, fiction",
+                "England, fiction"
+            ],
+            "full_title": "Wuthering Heights A Kaplan SAT Score-Raising Classic",
+            "key": "/books/OL34837980M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-08T14:02:49.320956"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:48:16.938698"
+            }
+        },
+        "/books/OL35131432M": {
+            "title": "Wuthering Heights",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798734351376"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798734351376"
+            ],
+            "weight": "0.432",
+            "pagination": "243",
+            "full_title": "Wuthering Heights",
+            "key": "/books/OL35131432M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-10T15:36:10.529494"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:45:43.891108"
+            }
+        },
+        "/books/OL35221804M": {
+            "title": "Wuthering Heights",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798457122222"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798457122222"
+            ],
+            "weight": "0.573",
+            "pagination": "333",
+            "full_title": "Wuthering Heights",
+            "key": "/books/OL35221804M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-11T05:03:34.558827"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:45:28.256537"
+            }
+        },
+        "/books/OL35457278M": {
+            "title": "Wuthering Heights",
+            "publish_date": "2007",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781604591200"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "220",
+            "publishers": [
+                "Wilder Publications, Incorporated"
+            ],
+            "source_records": [
+                "bwb:9781604591200"
+            ],
+            "subjects": [
+                "British and irish fiction (fictional works by one author)",
+                "Heathcliff (fictitious character), fiction",
+                "England, fiction",
+                "Man-woman relationships, fiction",
+                "Fiction, psychological",
+                "Fiction, romance, general",
+                "Fiction, family life, general"
+            ],
+            "weight": "0.495",
+            "full_title": "Wuthering Heights",
+            "key": "/books/OL35457278M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T06:02:56.684404"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:46:05.271047"
+            }
+        },
+        "/books/OL35461618M": {
+            "title": "Wuthering Heights",
+            "publish_date": "2007",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781604591170"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "220",
+            "publishers": [
+                "Wilder Publications, Incorporated"
+            ],
+            "source_records": [
+                "bwb:9781604591170"
+            ],
+            "subjects": [
+                "British and irish fiction (fictional works by one author)",
+                "Heathcliff (fictitious character), fiction",
+                "England, fiction",
+                "Man-woman relationships, fiction",
+                "Fiction, psychological",
+                "Fiction, romance, general",
+                "Fiction, family life, general"
+            ],
+            "weight": "0.332",
+            "full_title": "Wuthering Heights",
+            "key": "/books/OL35461618M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T07:35:04.785118"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:45:03.397232"
+            }
+        },
+        "/books/OL35462347M": {
+            "title": "Wuthering Heights",
+            "publish_date": "1998",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781407016023"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Penguin Random House"
+            ],
+            "source_records": [
+                "bwb:9781407016023"
+            ],
+            "subjects": [
+                "England, fiction",
+                "Heathcliff (fictitious character), fiction",
+                "Man-woman relationships, fiction",
+                "British and irish fiction (fictional works by one author)",
+                "Fiction, family life, general"
+            ],
+            "full_title": "Wuthering Heights",
+            "key": "/books/OL35462347M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T07:46:55.304337"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:44:51.955560"
+            }
+        },
+        "/books/OL35464461M": {
+            "title": "Wuthering Heights",
+            "publish_date": "2008",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781434464040"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "392",
+            "publishers": [
+                "Wildside Press, LLC"
+            ],
+            "source_records": [
+                "bwb:9781434464040"
+            ],
+            "subjects": [
+                "England, fiction",
+                "Heathcliff (fictitious character), fiction",
+                "Man-woman relationships, fiction",
+                "British and irish fiction (fictional works by one author)",
+                "Fiction, family life, general"
+            ],
+            "weight": "0.645",
+            "full_title": "Wuthering Heights",
+            "key": "/books/OL35464461M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T08:32:59.945138"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:45:54.673628"
+            }
+        },
+        "/books/OL35465471M": {
+            "identifiers": {
+                "amazon": [
+                    ""
+                ]
+            },
+            "title": "Wuthering Heights",
+            "publish_date": "2006",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781847022264"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "624",
+            "publishers": [
+                "Echo Library"
+            ],
+            "source_records": [
+                "bwb:9781847022264",
+                "promise:bwb_daily_pallets_2020-04-30"
+            ],
+            "subjects": [
+                "England, fiction",
+                "British and irish fiction (fictional works by one author)",
+                "Heathcliff (fictitious character), fiction",
+                "Man-woman relationships, fiction",
+                "Fiction, psychological",
+                "Fiction, family life, general",
+                "Fiction, romance, general"
+            ],
+            "full_title": "Wuthering Heights",
+            "local_id": [
+                "urn:bwbsku:O6-BGW-877"
+            ],
+            "key": "/books/OL35465471M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T08:53:42.362691"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:46:11.040361"
+            }
+        },
+        "/books/OL35471374M": {
+            "title": "Wuthering Heights",
+            "publish_date": "2010",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781849892070"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "327",
+            "publishers": [
+                "Andrews UK Ltd."
+            ],
+            "source_records": [
+                "bwb:9781849892070"
+            ],
+            "subjects": [
+                "Heathcliff (fictitious character), fiction",
+                "Fiction, family life, general",
+                "Fiction, psychological",
+                "Fiction, romance, general",
+                "Man-woman relationships, fiction",
+                "British and irish fiction (fictional works by one author)",
+                "England, fiction"
+            ],
+            "full_title": "Wuthering Heights",
+            "key": "/books/OL35471374M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T10:28:20.188325"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:48:22.552478"
+            }
+        },
+        "/books/OL35471665M": {
+            "title": "Wuthering Heights",
+            "publish_date": "2009",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781151271280"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "354",
+            "publishers": [
+                "General Books LLC"
+            ],
+            "source_records": [
+                "bwb:9781151271280"
+            ],
+            "subjects": [
+                "Heathcliff (fictitious character), fiction",
+                "Fiction, family life, general",
+                "Fiction, psychological",
+                "Fiction, romance, general",
+                "Man-woman relationships, fiction",
+                "British and irish fiction (fictional works by one author)",
+                "England, fiction"
+            ],
+            "weight": "0.523",
+            "full_title": "Wuthering Heights",
+            "key": "/books/OL35471665M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T10:31:50.487951"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:45:08.644360"
+            }
+        },
+        "/books/OL35471953M": {
+            "title": "Wuthering Heights",
+            "publish_date": "2010",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781144674074"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "718",
+            "publishers": [
+                "Creative Media Partners, LLC"
+            ],
+            "source_records": [
+                "bwb:9781144674074"
+            ],
+            "subjects": [
+                "Heathcliff (fictitious character), fiction",
+                "Fiction, family life, general",
+                "Fiction, psychological",
+                "Fiction, romance, general",
+                "Man-woman relationships, fiction",
+                "British and irish fiction (fictional works by one author)",
+                "England, fiction"
+            ],
+            "weight": "1.264",
+            "full_title": "Wuthering Heights",
+            "key": "/books/OL35471953M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T10:35:38.917768"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:45:31.923743"
+            }
+        },
+        "/books/OL35472350M": {
+            "title": "Wuthering Heights",
+            "publish_date": "2011",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781241576516"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "254",
+            "publishers": [
+                "Creative Media Partners, LLC"
+            ],
+            "source_records": [
+                "bwb:9781241576516"
+            ],
+            "subjects": [
+                "Heathcliff (fictitious character), fiction",
+                "Fiction, family life, general",
+                "Fiction, psychological",
+                "Fiction, romance, general",
+                "Man-woman relationships, fiction",
+                "British and irish fiction (fictional works by one author)",
+                "England, fiction"
+            ],
+            "weight": "0.464",
+            "full_title": "Wuthering Heights",
+            "key": "/books/OL35472350M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T10:41:29.940620"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:45:39.613396"
+            }
+        },
+        "/books/OL35474222M": {
+            "title": "Wuthering Heights",
+            "publish_date": "2011",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781607963516"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "254",
+            "publishers": [
+                "Editorial Benei Noaj"
+            ],
+            "source_records": [
+                "bwb:9781607963516"
+            ],
+            "subjects": [
+                "Heathcliff (fictitious character), fiction",
+                "Fiction, family life, general",
+                "Fiction, psychological",
+                "Fiction, romance, general",
+                "Man-woman relationships, fiction",
+                "British and irish fiction (fictional works by one author)",
+                "England, fiction"
+            ],
+            "weight": "0.382",
+            "full_title": "Wuthering Heights",
+            "key": "/books/OL35474222M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T11:05:51.950690"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:46:10.660480"
+            }
+        },
+        "/books/OL35476147M": {
+            "title": "Wuthering Heights",
+            "publish_date": "2011",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781848703841"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "272",
+            "publishers": [
+                "Wordsworth Editions, Limited"
+            ],
+            "source_records": [
+                "bwb:9781848703841"
+            ],
+            "subjects": [
+                "Heathcliff (fictitious character), fiction",
+                "Fiction, family life, general",
+                "Fiction, psychological",
+                "Fiction, romance, general",
+                "Man-woman relationships, fiction",
+                "British and irish fiction (fictional works by one author)",
+                "England, fiction"
+            ],
+            "full_title": "Wuthering Heights",
+            "key": "/books/OL35476147M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T11:33:00.705897"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:45:37.636913"
+            }
+        },
+        "/books/OL35476158M": {
+            "title": "Wuthering Heights",
+            "publish_date": "2010",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781907439025"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "258",
+            "publishers": [
+                "Samphire Press"
+            ],
+            "source_records": [
+                "bwb:9781907439025"
+            ],
+            "subjects": [
+                "Heathcliff (fictitious character), fiction",
+                "Fiction, family life, general",
+                "Fiction, psychological",
+                "Fiction, romance, general",
+                "Man-woman relationships, fiction",
+                "British and irish fiction (fictional works by one author)",
+                "England, fiction"
+            ],
+            "full_title": "Wuthering Heights",
+            "key": "/books/OL35476158M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T11:33:22.814570"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:46:16.522727"
+            }
+        },
+        "/books/OL35477091M": {
+            "title": "Wuthering Heights",
+            "publish_date": "2010",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781141935390"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "474",
+            "publishers": [
+                "Creative Media Partners, LLC"
+            ],
+            "source_records": [
+                "bwb:9781141935390"
+            ],
+            "subjects": [
+                "Heathcliff (fictitious character), fiction",
+                "Fiction, family life, general",
+                "Fiction, psychological",
+                "Fiction, romance, general",
+                "Man-woman relationships, fiction",
+                "British and irish fiction (fictional works by one author)",
+                "England, fiction"
+            ],
+            "weight": "0.841",
+            "full_title": "Wuthering Heights",
+            "key": "/books/OL35477091M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T11:45:09.401429"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:48:17.357016"
+            }
+        },
+        "/books/OL35492217M": {
+            "title": "Wuthering Heights",
+            "publish_date": "2012",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781908533036"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lc_classifications": [
+                "PR4172"
+            ],
+            "pagination": "368",
+            "publishers": [
+                "Transatlantic Press"
+            ],
+            "source_records": [
+                "bwb:9781908533036",
+                "amazon:190853303X"
+            ],
+            "subjects": [
+                "Heathcliff (fictitious character), fiction",
+                "Fiction, family life, general",
+                "Fiction, psychological",
+                "Fiction, romance, general",
+                "Man-woman relationships, fiction",
+                "British and irish fiction (fictional works by one author)",
+                "England, fiction"
+            ],
+            "full_title": "Wuthering Heights",
+            "key": "/books/OL35492217M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T15:28:15.227657"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:45:17.239730"
+            }
+        },
+        "/books/OL35547795M": {
+            "title": "Wuthering Heights",
+            "subtitle": "a-Level Set Text Student Edition",
+            "publish_date": "2019",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9780008371821"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lc_classifications": [
+                "PR4172"
+            ],
+            "pagination": "416",
+            "publishers": [
+                "HarperCollins Publishers Limited",
+                "Collins"
+            ],
+            "source_records": [
+                "bwb:9780008371821",
+                "amazon:0008371822"
+            ],
+            "subjects": [
+                "English literature"
+            ],
+            "weight": "0.230",
+            "full_title": "Wuthering Heights a-Level Set Text Student Edition",
+            "covers": [
+                13542730
+            ],
+            "key": "/books/OL35547795M",
+            "number_of_pages": 464,
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-03T02:44:04.468280"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:45:12.236035"
+            }
+        },
+        "/books/OL35590437M": {
+            "title": "Wuthering Heights",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781350290648"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "112",
+            "publishers": [
+                "Bloomsbury Publishing Plc",
+                "Methuen Drama"
+            ],
+            "source_records": [
+                "bwb:9781350290648",
+                "marc:marc_columbia/Columbia-extract-20221130-034.mrc:78542877:1319",
+                "amazon:1350290645"
+            ],
+            "full_title": "Wuthering Heights",
+            "lc_classifications": [
+                "PR6118.I34 W88 2021"
+            ],
+            "oclc_numbers": [
+                "1273670232"
+            ],
+            "covers": [
+                13854968
+            ],
+            "key": "/books/OL35590437M",
+            "number_of_pages": 112,
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-03T09:48:55.232559"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:48:21.678398"
+            }
+        },
+        "/books/OL35135007M": {
+            "title": "Wuthering Heights Annotated",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798530368431"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798530368431"
+            ],
+            "weight": "0.664",
+            "pagination": "452",
+            "full_title": "Wuthering Heights Annotated",
+            "key": "/books/OL35135007M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-10T16:07:47.754980"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:35:40.844766"
+            }
+        },
+        "/books/OL35220842M": {
+            "title": "Wuthering Heights Annotated",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798456753151"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798456753151"
+            ],
+            "weight": "0.664",
+            "pagination": "452",
+            "full_title": "Wuthering Heights Annotated",
+            "key": "/books/OL35220842M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-11T04:54:54.736500"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:44:01.155088"
+            }
+        },
+        "/books/OL35234281M": {
+            "title": "Wuthering Heights Annotated",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798461960063"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798461960063"
+            ],
+            "weight": "0.586",
+            "pagination": "398",
+            "full_title": "Wuthering Heights Annotated",
+            "key": "/books/OL35234281M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-11T06:57:44.516811"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:45:38.041355"
+            }
+        },
+        "/books/OL34282944M": {
+            "title": "Wuthering Heights (Annotated)",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798522764449"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798522764449"
+            ],
+            "weight": "0.559",
+            "full_title": "Wuthering Heights (Annotated)",
+            "key": "/books/OL34282944M",
+            "number_of_pages": 325,
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-01T19:58:54.438504"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:45:25.686261"
+            }
+        },
+        "/books/OL37345957M": {
+            "title": "Wuthering Heights",
+            "publish_date": "1901",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9780134354576"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Savvas Learning Company"
+            ],
+            "source_records": [
+                "bwb:9780134354576"
+            ],
+            "subjects": [
+                "Fiction, general"
+            ],
+            "weight": "0.541",
+            "full_title": "Wuthering Heights",
+            "key": "/books/OL37345957M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-02-28T13:18:40.035786"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:44:04.912294"
+            }
+        },
+        "/books/OL37589396M": {
+            "title": "Wuthering Heights",
+            "subtitle": "With Original Illustrations",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798490999249"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "333",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798490999249"
+            ],
+            "weight": "0.573",
+            "full_title": "Wuthering Heights With Original Illustrations",
+            "key": "/books/OL37589396M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-03-03T01:02:38.264576"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:35:45.861154"
+            }
+        },
+        "/books/OL36958592M": {
+            "title": "Wuthering Heights",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798599403814"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "200",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798599403814"
+            ],
+            "weight": "0.359",
+            "full_title": "Wuthering Heights",
+            "key": "/books/OL36958592M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-01-29T08:05:18.871814"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:34:41.970620"
+            }
+        },
+        "/books/OL34214190M": {
+            "title": "Wuthering Heights Illustrated",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798522434052"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798522434052"
+            ],
+            "weight": "0.586",
+            "full_title": "Wuthering Heights Illustrated",
+            "key": "/books/OL34214190M",
+            "number_of_pages": 398,
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-01T01:52:41.576244"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:48:22.131717"
+            }
+        },
+        "/books/OL34233287M": {
+            "title": "Wuthering Heights Illustrated",
+            "publish_date": "2020",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798669935009"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798669935009"
+            ],
+            "weight": "0.586",
+            "full_title": "Wuthering Heights Illustrated",
+            "key": "/books/OL34233287M",
+            "number_of_pages": 398,
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-01T12:02:34.087373"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:46:08.695451"
+            }
+        },
+        "/books/OL34285526M": {
+            "title": "Wuthering Heights Illustrated",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798733425795"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798733425795"
+            ],
+            "weight": "0.586",
+            "full_title": "Wuthering Heights Illustrated",
+            "key": "/books/OL34285526M",
+            "number_of_pages": 398,
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-01T20:23:26.727476"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:45:48.993848"
+            }
+        },
+        "/books/OL34330570M": {
+            "title": "Wuthering Heights Illustrated",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798527563580"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798527563580"
+            ],
+            "weight": "0.586",
+            "full_title": "Wuthering Heights Illustrated",
+            "key": "/books/OL34330570M",
+            "number_of_pages": 398,
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-02T03:24:17.681218"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:44:48.610690"
+            }
+        },
+        "/books/OL34336940M": {
+            "title": "Wuthering Heights Illustrated",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798542151960"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798542151960"
+            ],
+            "weight": "0.586",
+            "full_title": "Wuthering Heights Illustrated",
+            "key": "/books/OL34336940M",
+            "number_of_pages": 398,
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-02T04:22:44.433240"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:45:32.350450"
+            }
+        },
+        "/books/OL34349844M": {
+            "title": "Wuthering Heights Illustrated",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798540456371"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798540456371"
+            ],
+            "weight": "0.586",
+            "full_title": "Wuthering Heights Illustrated",
+            "key": "/books/OL34349844M",
+            "number_of_pages": 398,
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-02T06:26:36.378705"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:46:17.837300"
+            }
+        },
+        "/books/OL35073740M": {
+            "title": "Wuthering Heights Illustrated",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798511400860"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798511400860"
+            ],
+            "weight": "0.586",
+            "pagination": "398",
+            "full_title": "Wuthering Heights Illustrated",
+            "key": "/books/OL35073740M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-10T06:57:30.602285"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:44:49.006859"
+            }
+        },
+        "/books/OL34533539M": {
+            "title": "Wuthering Heights",
+            "publish_date": "2016",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781911238041"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lc_classifications": [
+                "PZ7.7.M533Wut 2016"
+            ],
+            "publishers": [
+                "Classic Comic Store, Limited"
+            ],
+            "source_records": [
+                "bwb:9781911238041"
+            ],
+            "subjects": [
+                "Fiction, general"
+            ],
+            "full_title": "Wuthering Heights",
+            "key": "/books/OL34533539M",
+            "number_of_pages": 51,
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-05T17:38:06.895079"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:45:20.291751"
+            }
+        },
+        "/books/OL34535761M": {
+            "title": "Wuthering Heights",
+            "publish_date": "2016",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781783226078"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "ReadZone Books"
+            ],
+            "source_records": [
+                "bwb:9781783226078"
+            ],
+            "weight": "0.132",
+            "full_title": "Wuthering Heights",
+            "key": "/books/OL34535761M",
+            "number_of_pages": 56,
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-05T18:08:03.714896"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:45:26.964775"
+            }
+        },
+        "/books/OL34551659M": {
+            "title": "Wuthering Heights",
+            "publish_date": "2018?",
+            "type": {
+                "key": "/type/edition"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Legend Press"
+            ],
+            "source_records": [
+                "bwb:9781787198487",
+                "promise:bwb_daily_pallets_2022-03-17"
+            ],
+            "subjects": [
+                "Fiction, general"
+            ],
+            "weight": "0.179 ",
+            "full_title": "Wuthering Heights",
+            "local_id": [
+                "urn:bwbsku:W7-AIT-715"
+            ],
+            "key": "/books/OL34551659M",
+            "number_of_pages": 352,
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9781787198487"
+            ],
+            "ocaid": "isbn_9789941028519",
+            "classifications": {},
+            "lc_classifications": [
+                "PR4172"
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "physical_format": "paperback",
+            "pagination": "352p.",
+            "covers": [
+                14553476
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-05T21:49:42.746043"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-12-10T10:09:10.642070"
+            }
+        },
+        "/books/OL34673191M": {
+            "title": "Wuthering Heights",
+            "publish_date": "2020",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9780198834786"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lc_classifications": [
+                "PR4172.W7 2020b"
+            ],
+            "publishers": [
+                "Oxford University Press"
+            ],
+            "source_records": [
+                "bwb:9780198834786"
+            ],
+            "subjects": [
+                "Fiction, general"
+            ],
+            "weight": "0.680",
+            "pagination": "416",
+            "full_title": "Wuthering Heights",
+            "key": "/books/OL34673191M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-07T01:05:49.285771"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:48:16.499092"
+            }
+        },
+        "/books/OL34789403M": {
+            "title": "Wuthering Heights",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9780008515072"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "HarperCollins Publishers Limited"
+            ],
+            "source_records": [
+                "bwb:9780008515072"
+            ],
+            "pagination": "56",
+            "full_title": "Wuthering Heights",
+            "key": "/books/OL34789403M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-08T02:07:17.137898"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:45:09.703942"
+            }
+        },
+        "/books/OL34836242M": {
+            "title": "Wuthering Heights",
+            "publish_date": "Jun 01, 2017",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:1547094907"
+            ],
+            "publishers": [
+                "CreateSpace Independent Publishing Platform",
+                "Createspace Independent Publishing Platform"
+            ],
+            "isbn_10": [
+                "1547094907"
+            ],
+            "isbn_13": [
+                "9781547094905"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Wuthering Heights",
+            "covers": [
+                12053596
+            ],
+            "key": "/books/OL34836242M",
+            "number_of_pages": 194,
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-08T13:41:10.803592"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:44:58.056174"
+            }
+        },
+        "/books/OL34994257M": {
+            "title": "Wuthering Heights",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798710050071"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798710050071"
+            ],
+            "weight": "0.550",
+            "pagination": "319",
+            "full_title": "Wuthering Heights",
+            "key": "/books/OL34994257M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-09T19:19:16.636904"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:46:01.704848"
+            }
+        },
+        "/books/OL35459668M": {
+            "title": "Wuthering Heights",
+            "publish_date": "2008",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781407016016"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Penguin Random House"
+            ],
+            "source_records": [
+                "bwb:9781407016016"
+            ],
+            "subjects": [
+                "Heathcliff (fictitious character), fiction",
+                "Fiction, family life, general",
+                "Fiction, psychological",
+                "Fiction, romance, general",
+                "Man-woman relationships, fiction",
+                "British and irish fiction (fictional works by one author)",
+                "England, fiction"
+            ],
+            "full_title": "Wuthering Heights",
+            "key": "/books/OL35459668M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T06:52:24.270928"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:46:09.480766"
+            }
+        },
+        "/books/OL35463823M": {
+            "title": "Wuthering Heights",
+            "publish_date": "2008",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781407016009"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Penguin Random House"
+            ],
+            "source_records": [
+                "bwb:9781407016009"
+            ],
+            "subjects": [
+                "England, fiction",
+                "Heathcliff (fictitious character), fiction",
+                "Man-woman relationships, fiction",
+                "British and irish fiction (fictional works by one author)",
+                "Fiction, family life, general"
+            ],
+            "full_title": "Wuthering Heights",
+            "key": "/books/OL35463823M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T08:16:41.009896"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:45:41.389658"
+            }
+        },
+        "/books/OL35464228M": {
+            "title": "Wuthering Heights",
+            "publish_date": "2006",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781406790566"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "464",
+            "publishers": [
+                "Read Books"
+            ],
+            "source_records": [
+                "bwb:9781406790566"
+            ],
+            "subjects": [
+                "British and irish fiction (fictional works by one author)",
+                "Heathcliff (fictitious character), fiction",
+                "England, fiction",
+                "Man-woman relationships, fiction",
+                "Fiction, psychological",
+                "Fiction, romance, general",
+                "Fiction, family life, general"
+            ],
+            "weight": "0.586",
+            "full_title": "Wuthering Heights",
+            "key": "/books/OL35464228M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T08:27:21.562583"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:45:39.189269"
+            }
+        },
+        "/books/OL35465777M": {
+            "title": "Wuthering Heights",
+            "publish_date": "2008",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781434464033"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "392",
+            "publishers": [
+                "Wildside Press, LLC"
+            ],
+            "source_records": [
+                "bwb:9781434464033"
+            ],
+            "subjects": [
+                "England, fiction",
+                "Heathcliff (fictitious character), fiction",
+                "Man-woman relationships, fiction",
+                "British and irish fiction (fictional works by one author)",
+                "Fiction, family life, general"
+            ],
+            "weight": "0.500",
+            "full_title": "Wuthering Heights",
+            "key": "/books/OL35465777M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T09:03:35.752396"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:45:45.540972"
+            }
+        },
+        "/books/OL35472190M": {
+            "title": "Wuthering Heights",
+            "publish_date": "2011",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781613060247"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Bookbyte Digital"
+            ],
+            "source_records": [
+                "bwb:9781613060247"
+            ],
+            "subjects": [
+                "Heathcliff (fictitious character), fiction",
+                "Fiction, family life, general",
+                "Fiction, psychological",
+                "Fiction, romance, general",
+                "Man-woman relationships, fiction",
+                "British and irish fiction (fictional works by one author)",
+                "England, fiction"
+            ],
+            "full_title": "Wuthering Heights",
+            "key": "/books/OL35472190M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T10:38:58.283960"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:46:04.452199"
+            }
+        },
+        "/books/OL35484537M": {
+            "title": "Wuthering Heights",
+            "publish_date": "2012",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9780141974255"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lc_classifications": [
+                "PR4172"
+            ],
+            "pagination": "336",
+            "publishers": [
+                "Penguin Books, Limited"
+            ],
+            "source_records": [
+                "bwb:9780141974255"
+            ],
+            "subjects": [
+                "Heathcliff (fictitious character), fiction",
+                "Fiction, family life, general",
+                "Fiction, psychological",
+                "Fiction, romance, general",
+                "Man-woman relationships, fiction",
+                "British and irish fiction (fictional works by one author)",
+                "England, fiction"
+            ],
+            "full_title": "Wuthering Heights",
+            "key": "/books/OL35484537M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T13:34:18.537209"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:44:58.895048"
+            }
+        },
+        "/books/OL35693007M": {
+            "identifiers": {
+                "goodreads": [
+                    "59746260"
+                ]
+            },
+            "title": "Wuthering Heights",
+            "publish_date": "1963",
+            "publishers": [
+                "W. W. Norton & Company"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_places": [
+                "New York"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "edition_name": "Norton Critical Edition; First Edition (1)",
+            "pagination": "vi, 380p.",
+            "copyright_date": "1963",
+            "series": [
+                "Norton Critical Editions"
+            ],
+            "physical_format": "paperback",
+            "covers": [
+                12390912
+            ],
+            "ocaid": "wutheringheights0000unse_u0y8",
+            "lccn": [
+                "63008036"
+            ],
+            "oclc_numbers": [
+                "504451864"
+            ],
+            "lc_classifications": [
+                "PZ3.B7902 W58"
+            ],
+            "source_records": [
+                "ia:wutheringheights0000unse_u0y8"
+            ],
+            "key": "/books/OL35693007M",
+            "number_of_pages": 380,
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-12-03T10:28:28.858833"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-08-12T01:31:59.134471"
+            }
+        },
+        "/books/OL35693004M": {
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "title": "Wuthering Heights",
+            "publishers": [
+                "Scholastic Book Services"
+            ],
+            "publish_date": "1973",
+            "key": "/books/OL35693004M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {
+                "goodreads": [
+                    "59746244"
+                ]
+            },
+            "classifications": {},
+            "publish_places": [
+                "New York"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "edition_name": "Scholastic Library Edition, 11th printing",
+            "pagination": "ix, 406p.",
+            "copyright_date": "1961",
+            "series": [
+                "Campus Classics"
+            ],
+            "physical_format": "paperback",
+            "description": "CATHY —Her love is so great it transcends even death.\r\n\r\nHEATHCLIFF - His burning passion de- stroys two generations.\r\n\r\nThese are two of the most unforgettable lov- ers of all time, driven to a tragic fate by wild, intense emotion and strange imagination.\r\n\r\nWUTHERING HEIGHTS has called \"the most haunting love story in the English language.\"\r\n--back cover",
+            "number_of_pages": 406,
+            "covers": [
+                12390907
+            ],
+            "ocaid": "wutheringheights0000unse_h0g2",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-12-03T10:20:48.647288"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-12-03T10:26:50.828374"
+            }
+        },
+        "/books/OL35225151M": {
+            "title": "Wuthering Heights Annotated",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798462003639"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798462003639"
+            ],
+            "weight": "0.664",
+            "pagination": "452",
+            "full_title": "Wuthering Heights Annotated",
+            "key": "/books/OL35225151M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-11T05:33:34.364838"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:35:26.640430"
+            }
+        },
+        "/books/OL35230691M": {
+            "title": "Wuthering Heights Annotated",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798737714833"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798737714833"
+            ],
+            "weight": "0.664",
+            "pagination": "452",
+            "full_title": "Wuthering Heights Annotated",
+            "key": "/books/OL35230691M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-11T06:24:17.766026"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:37:17.179262"
+            }
+        },
+        "/books/OL34995186M": {
+            "title": "Wuthering Heights (Illustrated)",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798537009160"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798537009160"
+            ],
+            "weight": "0.586",
+            "pagination": "398",
+            "full_title": "Wuthering Heights (Illustrated)",
+            "key": "/books/OL34995186M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-09T19:27:16.904430"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:46:02.531468"
+            }
+        },
+        "/books/OL37395793M": {
+            "title": "Wuthering Heights",
+            "publish_date": "2012",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781434103413"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "258",
+            "publishers": [
+                "The Editorium, LLC"
+            ],
+            "source_records": [
+                "bwb:9781434103413"
+            ],
+            "subjects": [
+                "Heathcliff (fictitious character), fiction",
+                "Fiction, family life, general",
+                "Fiction, psychological",
+                "Fiction, romance, general",
+                "Man-woman relationships, fiction",
+                "British and irish fiction (fictional works by one author)",
+                "England, fiction"
+            ],
+            "weight": "0.386",
+            "full_title": "Wuthering Heights",
+            "key": "/books/OL37395793M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-03-01T07:27:38.248262"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:35:09.671561"
+            }
+        },
+        "/books/OL37522521M": {
+            "title": "Wuthering Heights",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798590558544"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "200",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798590558544"
+            ],
+            "weight": "0.186",
+            "full_title": "Wuthering Heights",
+            "key": "/books/OL37522521M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-03-02T11:56:20.993283"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:44:12.723821"
+            }
+        },
+        "/books/OL37568679M": {
+            "title": "Wuthering Heights",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798482306451"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "319",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798482306451"
+            ],
+            "weight": "0.550",
+            "full_title": "Wuthering Heights",
+            "key": "/books/OL37568679M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-03-02T21:03:42.734003"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:44:43.335234"
+            }
+        },
+        "/books/OL37719925M": {
+            "title": "Wuthering Heights",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798476612407"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "184",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798476612407"
+            ],
+            "weight": "0.545",
+            "full_title": "Wuthering Heights",
+            "key": "/books/OL37719925M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-03-04T01:56:12.991401"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:44:39.527468"
+            }
+        },
+        "/books/OL36943765M": {
+            "title": "Wuthering Heights",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798595759977"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "200",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798595759977"
+            ],
+            "weight": "0.359",
+            "full_title": "Wuthering Heights",
+            "key": "/books/OL36943765M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-01-29T05:31:42.558741"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:34:24.219943"
+            }
+        },
+        "/books/OL36963616M": {
+            "title": "Wuthering Heights",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798703272633"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "200",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798703272633"
+            ],
+            "weight": "0.359",
+            "full_title": "Wuthering Heights",
+            "key": "/books/OL36963616M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-01-29T08:53:56.374991"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:34:35.767275"
+            }
+        },
+        "/books/OL34208589M": {
+            "title": "Wuthering Heights Illustrated",
+            "publish_date": "2020",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798680275771"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798680275771"
+            ],
+            "weight": "0.586",
+            "full_title": "Wuthering Heights Illustrated",
+            "key": "/books/OL34208589M",
+            "number_of_pages": 398,
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-01T00:59:40.063474"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:45:57.124666"
+            }
+        },
+        "/books/OL34256455M": {
+            "title": "Wuthering Heights Illustrated",
+            "publish_date": "2020",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798686237162"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798686237162"
+            ],
+            "weight": "0.586",
+            "full_title": "Wuthering Heights Illustrated",
+            "key": "/books/OL34256455M",
+            "number_of_pages": 398,
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-01T15:49:53.934098"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:45:26.065997"
+            }
+        },
+        "/books/OL34344642M": {
+            "title": "Wuthering Heights Illustrated",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798526313087"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798526313087"
+            ],
+            "weight": "0.586",
+            "full_title": "Wuthering Heights Illustrated",
+            "key": "/books/OL34344642M",
+            "number_of_pages": 398,
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-02T05:35:29.298921"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:45:31.148096"
+            }
+        },
+        "/books/OL34361910M": {
+            "title": "Wuthering Heights Illustrated",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798510783230"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798510783230"
+            ],
+            "weight": "0.586",
+            "full_title": "Wuthering Heights Illustrated",
+            "key": "/books/OL34361910M",
+            "number_of_pages": 398,
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-02T08:21:25.550593"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:44:48.159309"
+            }
+        },
+        "/books/OL35046032M": {
+            "title": "Wuthering Heights Illustrated",
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798450319995"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798450319995"
+            ],
+            "weight": "0.586",
+            "pagination": "398",
+            "full_title": "Wuthering Heights Illustrated",
+            "key": "/books/OL35046032M",
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-10T02:50:45.517481"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:44:59.686625"
+            }
+        },
+        "/books/OL33608810M": {
+            "title": "Wuthering Heights (Legend Classics)",
+            "publish_date": "2018",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781787198470"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Legend Press"
+            ],
+            "source_records": [
+                "bwb:9781787198470"
+            ],
+            "full_title": "Wuthering Heights (Legend Classics)",
+            "key": "/books/OL33608810M",
+            "number_of_pages": 352,
+            "works": [
+                {
+                    "key": "/works/OL21177W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-09-20T01:21:34.175956"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-13T13:48:13.734708"
+            }
+        }
+    }
+}

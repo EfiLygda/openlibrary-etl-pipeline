@@ -1,0 +1,5550 @@
+{
+    "status": "ok",
+    "result": {
+        "/books/OL24398942M": {
+            "publishers": [
+                "Putnam"
+            ],
+            "ia_box_id": [
+                "IA127906"
+            ],
+            "covers": [
+                6655976
+            ],
+            "key": "/books/OL24398942M",
+            "authors": [
+                {
+                    "key": "/authors/OL887481A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "473 p. ;",
+            "source_records": [
+                "ia:thisotheredenhar00harr"
+            ],
+            "title": "This other Eden",
+            "notes": "Sequel: The Prince of Eden.",
+            "number_of_pages": 473,
+            "edition_name": "Book Club ed.",
+            "publish_date": "1977",
+            "publish_country": "nyu",
+            "by_statement": "by Marilyn Harris",
+            "works": [
+                {
+                    "key": "/works/OL4454529W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "ocaid": "thisotheredenhar00harr",
+            "classifications": {},
+            "dewey_decimal_class": [
+                "813/.5/4"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-10-28T07:19:01.206475"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-24T02:02:27.027863"
+            }
+        },
+        "/books/OL24373648M": {
+            "publishers": [
+                "Avon"
+            ],
+            "ia_box_id": [
+                "IA124705"
+            ],
+            "covers": [
+                6614972
+            ],
+            "key": "/books/OL24373648M",
+            "authors": [
+                {
+                    "key": "/authors/OL887481A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "pagination": "561 p. ;",
+            "source_records": [
+                "ia:thisotheredenharr00harr",
+                "bwb:9780380018406",
+                "amazon:0380018403",
+                "promise:bwb_daily_pallets_2021-09-20"
+            ],
+            "title": "This Other Eden",
+            "notes": "Avon, 36301.",
+            "number_of_pages": 561,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1978",
+            "publish_country": "nyu",
+            "copyright_date": "1977",
+            "by_statement": "Marilyn Harris",
+            "works": [
+                {
+                    "key": "/works/OL4454529W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:P7-ASK-413"
+            ],
+            "identifiers": {},
+            "classifications": {},
+            "ocaid": "thisotheredenharr00harr",
+            "isbn_10": [
+                "0380018403"
+            ],
+            "isbn_13": [
+                "9780380018406"
+            ],
+            "oclc_numbers": [
+                "12635839"
+            ],
+            "dewey_decimal_class": [
+                "813/.5/4"
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-10-06T09:41:16.209235"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-06-21T13:53:29.714740"
+            }
+        },
+        "/books/OL4892530M": {
+            "publishers": [
+                "Putnam"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "4884837"
+                ],
+                "librarything": [
+                    "344422"
+                ]
+            },
+            "ia_box_id": [
+                "IA118215"
+            ],
+            "covers": [
+                6985391
+            ],
+            "ia_loaded_id": [
+                "thisothereden00harr"
+            ],
+            "key": "/books/OL4892530M",
+            "authors": [
+                {
+                    "key": "/authors/OL887481A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "pagination": "448 p. ;",
+            "source_records": [
+                "marc:marc_records_scriblio_net/part09.dat:90458318:617",
+                "marc:CollingswoodLibraryMarcDump10-27-2008/Collingswood.out:1189669:908",
+                "ia:thisothereden00harr",
+                "marc:marc_loc_2016/BooksAll.2016.part09.utf8:181907987:605",
+                "ia:thisothereden0000harr",
+                "bwb:9780399118449"
+            ],
+            "title": "This other Eden",
+            "notes": "Sequel: The prince of Eden.",
+            "number_of_pages": 448,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1977",
+            "publish_country": "nyu",
+            "by_statement": "by Marilyn Harris.",
+            "works": [
+                {
+                    "key": "/works/OL4454529W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "thisothereden00harr",
+            "isbn_10": [
+                "0399118446"
+            ],
+            "lccn": [
+                "76025236"
+            ],
+            "oclc_numbers": [
+                "2346216"
+            ],
+            "classifications": {},
+            "dewey_decimal_class": [
+                "813/.5/4"
+            ],
+            "lc_classifications": [
+                "PS3558.A648 T48 1977",
+                "PS3558.A648T48 1977"
+            ],
+            "latest_revision": 12,
+            "revision": 12,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-03-26T02:19:23.559569"
+            }
+        },
+        "/books/OL14422774M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Sequel: The Prince of Eden."
+            },
+            "title": "This other Eden",
+            "authors": [
+                {
+                    "key": "/authors/OL887481A"
+                }
+            ],
+            "publish_date": "1977",
+            "publishers": [
+                "Putnam"
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "edition_name": "[Book Club ed.]",
+            "pagination": "473 p. ;",
+            "dewey_decimal_class": [
+                "813/.5/4"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_country": "nyu",
+            "by_statement": "by Marilyn Harris.",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:marc_oregon_summit_records/catalog_files/pcc_bibs.mrc_rev.mrc:81162151:632"
+            ],
+            "key": "/books/OL14422774M",
+            "number_of_pages": 473,
+            "works": [
+                {
+                    "key": "/works/OL4454529W"
+                }
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-12T14:05:23.167551"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-05T10:06:04.483016"
+            }
+        },
+        "/books/OL33021537M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "2007",
+            "publish_country": "enk",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL1402850A"
+                }
+            ],
+            "oclc_numbers": [
+                "137221913"
+            ],
+            "dewey_decimal_class": [
+                "823.92"
+            ],
+            "edition_name": "Large print ed.",
+            "notes": {
+                "type": "/type/text",
+                "value": "Originally published: Delhi: Rupa, 2005; London: Black Swan, 2007."
+            },
+            "description": {
+                "type": "/type/text",
+                "value": "\"Press 1 for technical support. Press 2 for broken hearts. Press 3 if your life has totally crashed. . . . Six friends work nights at a call center in India, providing technical support for a major U.S. appliance corporation. Skilled in patience- and accent management- they help American consumers keep their lives running. Yet behind the headsets, everybody's heart is on the line. Shyam (Sam to his callers) has lost his self-confidence after being dumped by the girl who just so happens to be sitting next to him. Priyanka's domineering mother has arranged for her daughter's upscale marriage to an Indian man in Seattle. Esha\" \"longs to be a model but discovers it's a horizontal romp to the runway. Lost, dissatisfied Vroom has high ideals, but compromises them by talking on the phone to idiots each night. Traditional Radhika has just found out that her husband is sleeping with his secretary. And Military Uncle (nobody knows his real name) sits alone working the online chat. They all try to make it through their shifts- and maintain their sanity- under the eagle eye of a boss whose ego rivals his incompetence. But tonight is no ordinary night. Tonight is Thanksgiving in America: Appliances are going haywire, and the phones are ringing off their hooks. Then one call, from one very special caller, changes everything. Chetan Bhagat's delicious romantic comedy takes us inside the world of the international call center, where cultural cross-wires come together with perfect pathos, hilarity, and spice.\" - BOOK JACKET."
+            },
+            "subject_places": [
+                "India"
+            ],
+            "subjects": [
+                "Call centers",
+                "Fiction",
+                "Employees",
+                "Friendship",
+                "Social life and customs",
+                "Manners and customs"
+            ],
+            "title": "One night at the call centre",
+            "by_statement": "Chetan Bhagat",
+            "publishers": [
+                "Windsor"
+            ],
+            "publish_places": [
+                "Bath"
+            ],
+            "isbn_13": [
+                "9781405617543",
+                "9781405617550"
+            ],
+            "isbn_10": [
+                "1405617543",
+                "1405617551"
+            ],
+            "pagination": "266 pages",
+            "number_of_pages": 266,
+            "ocaid": "onenightatcallce0000bhag_z2h7",
+            "source_records": [
+                "ia:onenightatcallce0000bhag_z2h7",
+                "promise:bwb_daily_pallets_2020-07-30"
+            ],
+            "full_title": "One night at the call centre",
+            "covers": [
+                11689842
+            ],
+            "works": [
+                {
+                    "key": "/works/OL5762087W"
+                }
+            ],
+            "key": "/books/OL33021537M",
+            "local_id": [
+                "urn:bwbsku:KN-513-356"
+            ],
+            "identifiers": {
+                "amazon": [
+                    ""
+                ]
+            },
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-08-18T09:25:44.576151"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-10T03:15:15.527660"
+            }
+        },
+        "/books/OL28483664M": {
+            "publishers": [
+                "Transworld Publishers Limited"
+            ],
+            "source_records": [
+                "bwb:9780552778930"
+            ],
+            "title": "One Night at the Call Centre",
+            "number_of_pages": 320,
+            "isbn_13": [
+                "9780552778930"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "One Night at the Call Centre",
+            "lc_classifications": [
+                "PR9499.3.B"
+            ],
+            "publish_date": "2013",
+            "key": "/books/OL28483664M",
+            "authors": [
+                {
+                    "key": "/authors/OL1402850A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL5762087W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general",
+                "Friendship, fiction",
+                "India, fiction"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-03T02:38:35.329524"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-12-10T15:19:10.350695"
+            }
+        },
+        "/books/OL21222841M": {
+            "notes": "Originally published, 1991.",
+            "title": "Desperate measures",
+            "authors": [
+                {
+                    "key": "/authors/OL577983A"
+                }
+            ],
+            "publish_date": "1992",
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "publish_places": [
+                "Richmond"
+            ],
+            "edition_name": "Large print ed.",
+            "pagination": "288p. ;",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_country": "enk",
+            "by_statement": "Sara Craven.",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "ia:desperatemeasure0000crav",
+                "amazon:0263130266",
+                "promise:bwb_daily_pallets_2021-01-22"
+            ],
+            "key": "/books/OL21222841M",
+            "number_of_pages": 288,
+            "works": [
+                {
+                    "key": "/works/OL11327657W"
+                }
+            ],
+            "local_id": [
+                "urn:bwbsku:O7-DKC-870"
+            ],
+            "covers": [
+                13059562
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "799184"
+                ]
+            },
+            "ocaid": "desperatemeasure0000crav",
+            "isbn_10": [
+                "0263130266"
+            ],
+            "classifications": {},
+            "dewey_decimal_class": [
+                "823.914"
+            ],
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "‘But this treatment is totally revolutionary!"
+            },
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-01T09:38:51.725209"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-14T01:13:13.671555"
+            }
+        },
+        "/books/OL29583074M": {
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "source_records": [
+                "bwb:9780373235292"
+            ],
+            "title": "One Night with His Virgin Mistress",
+            "number_of_pages": 256,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "One Night with His Virgin Mistress",
+            "publish_date": "2008",
+            "key": "/books/OL29583074M",
+            "authors": [
+                {
+                    "key": "/authors/OL577983A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3467552W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9780373235292"
+            ],
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-28T13:54:01.669486"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-10-24T07:58:11.128830"
+            }
+        },
+        "/books/OL29009747M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263203219",
+                "ia:onenightwithhisv0000crav",
+                "promise:bwb_daily_pallets_2020-09-09"
+            ],
+            "title": "One Night with His Virgin Mistress",
+            "number_of_pages": 185,
+            "isbn_13": [
+                "9780263203219"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "One Night with His Virgin Mistress",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2008",
+            "key": "/books/OL29009747M",
+            "authors": [
+                {
+                    "key": "/authors/OL577983A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3467552W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                11689850
+            ],
+            "ocaid": "onenightwithhisv0000crav",
+            "local_id": [
+                "urn:bwbsku:KN-867-161"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-20T15:58:44.452315"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-10T01:08:11.785348"
+            }
+        },
+        "/books/OL48818734M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL9931663A"
+                }
+            ],
+            "isbn_13": [
+                "9781960854209"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2023",
+            "publishers": [
+                "Bookish Box & Shop, The"
+            ],
+            "source_records": [
+                "bwb:9781960854209"
+            ],
+            "subjects": [
+                "Fiction, romance, multicultural & interracial",
+                "Fiction, romance, billionaires",
+                "Fiction, romance, clean & wholesome",
+                "Fiction, romance, new adult"
+            ],
+            "title": "Spanish Love Deception",
+            "subtitle": "A Novel",
+            "full_title": "Spanish Love Deception A Novel",
+            "works": [
+                {
+                    "key": "/works/OL26345722W"
+                }
+            ],
+            "key": "/books/OL48818734M",
+            "latest_revision": 1,
+            "revision": 1,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-07-17T15:19:02.748307"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-07-17T15:19:02.748307"
+            }
+        },
+        "/books/OL37853066M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "The Spanish Love Deception",
+            "authors": [
+                {
+                    "key": "/authors/OL9931663A"
+                }
+            ],
+            "publish_date": "Nov 23, 2021",
+            "source_records": [
+                "amazon:1797141341"
+            ],
+            "number_of_pages": 438,
+            "publishers": [
+                "Simon & Schuster Audio and Blackstone Publishing"
+            ],
+            "physical_format": "audio cd",
+            "full_title": "The Spanish Love Deception A Novel",
+            "subtitle": "A Novel",
+            "notes": "Source title: The Spanish Love Deception: A Novel",
+            "works": [
+                {
+                    "key": "/works/OL26345722W"
+                }
+            ],
+            "key": "/books/OL37853066M",
+            "identifiers": {},
+            "isbn_10": [
+                "1797141341"
+            ],
+            "isbn_13": [
+                "9781797141343"
+            ],
+            "classifications": {},
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "\"I'II be your date to the wedding.\""
+            },
+            "covers": [
+                13116183
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-05-04T15:58:57.160351"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-26T06:56:10.254695"
+            }
+        },
+        "/books/OL37063016M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "The Spanish Love Deception",
+            "authors": [
+                {
+                    "key": "/authors/OL9931663A"
+                }
+            ],
+            "publish_date": "Nov 23, 2021",
+            "source_records": [
+                "amazon:1668003279"
+            ],
+            "number_of_pages": 480,
+            "publishers": [
+                "Atria Books"
+            ],
+            "physical_format": "Paperback",
+            "full_title": "The Spanish Love Deception",
+            "works": [
+                {
+                    "key": "/works/OL26345722W"
+                }
+            ],
+            "key": "/books/OL37063016M",
+            "covers": [
+                12649413,
+                -1
+            ],
+            "identifiers": {},
+            "classifications": {},
+            "physical_dimensions": "216 x 27 x 1.2 centimeters",
+            "weight": "608 grams",
+            "description": {
+                "type": "/type/text",
+                "value": "A wedding in Spain. An infuriating man. Three days to convince her family she’s actually in love.\r\n\r\nCatalina Martín desperately needs a date to her sister’s wedding. Especially since her little white lie about her American boyfriend has spiralled out of control. Now everyone she knows—including her ex and his fiancée—will be there and eager to meet him.\r\n\r\nShe only has four weeks to find someone willing to cross the Atlantic and aid in her deception. New York to Spain is no short flight and her raucous family won’t be easy to fool.\r\n\r\nEnter Aaron Blackford—her tall, handsome, condescending colleague—who surprisingly offers to step in. She’d rather refuse; never has there been a more aggravating, blood-boiling, and insufferable man.\r\n\r\nBut Catalina is desperate, and as the wedding draws nearer, Aaron looks like her best option. And she begins to realize he might not be as terrible in the real world as he is at the office."
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "1668003279"
+            ],
+            "isbn_13": [
+                "9781668003275"
+            ],
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "\" I'II be your date to the wedding \""
+            },
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-02-16T20:29:04.356230"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-07-23T05:52:30.699196"
+            }
+        },
+        "/books/OL36020774M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL9931663A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "482",
+            "publish_date": "February 22, 2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798705893843",
+                "promise:bwb_daily_pallets_2022-08-30"
+            ],
+            "title": "The Spanish Love Deception",
+            "weight": "0.705 ",
+            "full_title": "Spanish Love Deception",
+            "works": [
+                {
+                    "key": "/works/OL26345722W"
+                }
+            ],
+            "key": "/books/OL36020774M",
+            "local_id": [
+                "urn:bwbsku:O8-BCY-149"
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B08X7RKXGK"
+                ]
+            },
+            "covers": [
+                15129811
+            ],
+            "series": [
+                "Love Deception"
+            ],
+            "physical_format": "Paperback",
+            "number_of_pages": 482,
+            "isbn_13": [
+                "9798705893843"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-12-27T21:04:02.271957"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-19T09:45:32.246889"
+            }
+        },
+        "/books/OL44097994M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL3292941A"
+                }
+            ],
+            "isbn_13": [
+                "9780263175974"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2002",
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263175974"
+            ],
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "title": "Greek Bridegroom",
+            "full_title": "Greek Bridegroom",
+            "works": [
+                {
+                    "key": "/works/OL3498643W"
+                }
+            ],
+            "key": "/books/OL44097994M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-17T03:39:35.191751"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-17T22:42:45.030256"
+            }
+        },
+        "/books/OL29596423M": {
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "source_records": [
+                "bwb:9781426883149"
+            ],
+            "title": "Greek Bridegroom",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781426883149"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Greek Bridegroom",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2010",
+            "key": "/books/OL29596423M",
+            "authors": [
+                {
+                    "key": "/authors/OL3292941A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3498643W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-28T19:34:13.378259"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-17T22:42:45.030256"
+            }
+        },
+        "/books/OL9744801M": {
+            "publishers": [
+                "Thorndike Press"
+            ],
+            "weight": "13.6 ounces",
+            "covers": [
+                1155005
+            ],
+            "physical_format": "Hardcover",
+            "key": "/books/OL9744801M",
+            "authors": [
+                {
+                    "key": "/authors/OL3292941A"
+                }
+            ],
+            "subjects": [
+                "Romance",
+                "English Light Romantic Fiction",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern",
+                "Romance - Contemporary"
+            ],
+            "edition_name": "Largeprint edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "bwb:9780263178913"
+            ],
+            "title": "The Greek Bridegroom",
+            "number_of_pages": 288,
+            "isbn_13": [
+                "9780263178913"
+            ],
+            "isbn_10": [
+                "0263178919"
+            ],
+            "publish_date": "May 2003",
+            "works": [
+                {
+                    "key": "/works/OL3498643W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.2 x 5.2 x 0.8 inches",
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-10-23T07:07:57.609059"
+            }
+        },
+        "/books/OL9712634M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "1526555"
+                ],
+                "librarything": [
+                    "1690781"
+                ]
+            },
+            "weight": "3.5 ounces",
+            "covers": [
+                214903
+            ],
+            "physical_format": "Mass Market Paperback",
+            "key": "/books/OL9712634M",
+            "authors": [
+                {
+                    "key": "/authors/OL3292941A"
+                }
+            ],
+            "subjects": [
+                "Romance - Adult",
+                "Fiction / Romance / Adult",
+                "Romance - Contemporary",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern"
+            ],
+            "classifications": {},
+            "source_records": [
+                "ia:greekbridegroom00hele_0",
+                "bwb:9780373122844",
+                "promise:bwb_daily_pallets_2021-09-22",
+                "promise:bwb_daily_pallets_2021-06-08",
+                "promise:bwb_daily_pallets_2021-05-14"
+            ],
+            "title": "The Greek Bridegroom",
+            "number_of_pages": 192,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "November 1, 2002",
+            "works": [
+                {
+                    "key": "/works/OL3498643W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.9 x 4.2 x 0.6 inches",
+            "local_id": [
+                "urn:bwbsku:P7-DZY-659",
+                "urn:bwbsku:O6-CCP-568",
+                "urn:bwbsku:P6-ATG-989"
+            ],
+            "subtitle": "Dimitriades Book 2",
+            "ocaid": "greekbridegroom00hele_0",
+            "isbn_10": [
+                "0373122845"
+            ],
+            "isbn_13": [
+                "9780373122844"
+            ],
+            "oclc_numbers": [
+                "50585432"
+            ],
+            "latest_revision": 19,
+            "revision": 19,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-14T19:39:32.044719"
+            }
+        },
+        "/books/OL61112346M": {
+            "works": [
+                {
+                    "key": "/works/OL3773929W"
+                }
+            ],
+            "title": "Desejo Arrebatador",
+            "publishers": [
+                "Harlequin Books Brasil"
+            ],
+            "publish_date": "2008",
+            "key": "/books/OL61112346M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                15161574
+            ],
+            "isbn_13": [
+                "9788576876335"
+            ],
+            "series": [
+                "Harlequin Paixão"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/por"
+                }
+            ],
+            "translation_of": "The Italian Billionaire's Pregnant Bride",
+            "translated_from": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "A ingênua Kathy Galvin trabalha noite e dia para esquecer um trauma do passado. Até o momento em que é seduzida por Sergio Torrente, seu patrão charmoso e rico. Mas os momentos de paixão resultaram em uma gravidez inesperada! E não demora muito para ele descobrir toda a verdade sobre o passado dela e sobre o bebê."
+            },
+            "number_of_pages": 183,
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2026-01-15T14:51:27.119589"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-15T14:54:51.480375"
+            }
+        },
+        "/books/OL29573928M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "description": "Kathy waitresses by day and cleans by night, trying to escape the wrongs of her past. She's not remotely in the same class as impossibly rich, ruthless and handsome Sergio Torrente. And then one night at his London offices Sergio notices Kathy's shapely form beneath her dowdy overalls and takes her virginity. Kathy thinks that will be the end of it - until she discovers she's pregnant with the Italian billionaire's baby. Sergio has found out about the secret that darkens Kathy's background. He doesn't believe her when she says she's innocent, but he is prepared to overlook what he thinks is her guilt - he may not be able to love her, but he will marry her and be a father to his child.",
+            "series": [
+                "Mills & Boon romance"
+            ],
+            "covers": [
+                10400478
+            ],
+            "full_title": "The Italian billionaire's pregnant bride",
+            "key": "/books/OL29573928M",
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "publish_places": [
+                "Richmond, Surrey"
+            ],
+            "pagination": "287 pages",
+            "source_records": [
+                "ia:italianbillionai0000grah"
+            ],
+            "title": "The Italian Billionaire's Pregnant Bride",
+            "number_of_pages": 287,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Billionaires",
+                "Italians",
+                "Fiction"
+            ],
+            "publish_date": "2008",
+            "publish_country": "enk",
+            "by_statement": "by Lynne Graham",
+            "works": [
+                {
+                    "key": "/works/OL3773929W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "ocaid": "italianbillionai0000grah",
+            "isbn_10": [
+                "0263200663"
+            ],
+            "isbn_13": [
+                "9780263200669"
+            ],
+            "oclc_numbers": [
+                "973605089"
+            ],
+            "classifications": {},
+            "dewey_decimal_class": [
+                "823.914"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-28T07:27:20.241724"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-09-29T05:24:31.963670"
+            }
+        },
+        "/books/OL24271341M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "covers": [
+                6420812
+            ],
+            "physical_format": "Electronic resource",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-08-28T13:51:18.046254"
+            },
+            "latest_revision": 7,
+            "key": "/books/OL24271341M",
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "publish_places": [
+                "Toronto, Ontario"
+            ],
+            "isbn_13": [
+                "9781426813658"
+            ],
+            "source_records": [
+                "marc_overdrive/InternetArchiveCrMarc-2010-06-11q.mrc:4246120:1811",
+                "bwb:9781426813658"
+            ],
+            "title": "The Italian Billionaire's Pregnant Bride",
+            "identifiers": {
+                "overdrive": [
+                    "306E7F84-7FD4-4058-8142-DE764256C614"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-06-18T00:35:39.762740"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2008",
+            "publish_country": "nyu",
+            "oclc_numbers": [
+                "229894223"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3773929W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 7
+        },
+        "/books/OL34306445M": {
+            "title": "Illustrated Scarlet Letter",
+            "subtitle": "Unabridged with the Original Illustrations, World Literature Collection - Zokur Design",
+            "authors": [
+                {
+                    "key": "/authors/OL7496784A"
+                },
+                {
+                    "key": "/authors/OL8210572A"
+                },
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798525080881"
+            ],
+            "weight": "0.477 ",
+            "isbn_13": [
+                "9798525080881"
+            ],
+            "contributors": [
+                {
+                    "role": "Contributor",
+                    "name": "L. S. Ipsen"
+                },
+                {
+                    "role": "Contributor",
+                    "name": "Mary Hallock Foote"
+                }
+            ],
+            "key": "/books/OL34306445M",
+            "number_of_pages": 273,
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-01T23:44:11.883382"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-13T08:45:53.957709"
+            }
+        },
+        "/books/OL56366531M": {
+            "title": "Scarlet Letter : By Nathaniel Hawthorne",
+            "subtitle": "Illustrated and Unabridged",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                },
+                {
+                    "key": "/authors/OL2939652A"
+                }
+            ],
+            "publish_date": "2016",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781530905003"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "source_records": [
+                "bwb:9781530905003"
+            ],
+            "weight": "0.318",
+            "full_title": "Scarlet Letter : By Nathaniel Hawthorne Illustrated and Unabridged",
+            "contributors": [
+                {
+                    "role": "Illustrator",
+                    "name": "Julie"
+                }
+            ],
+            "key": "/books/OL56366531M",
+            "number_of_pages": 172,
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-10-03T00:48:31.057550"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-13T08:45:53.957709"
+            }
+        },
+        "/books/OL56112996M": {
+            "title": "Scarlet Letter : (Original Edition)",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "2017",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781543171532"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "source_records": [
+                "bwb:9781543171532"
+            ],
+            "weight": "0.505",
+            "full_title": "Scarlet Letter : (Original Edition)",
+            "key": "/books/OL56112996M",
+            "number_of_pages": 168,
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-10-01T10:22:57.513687"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-13T08:45:53.957709"
+            }
+        },
+        "/books/OL55230035M": {
+            "title": "Scarlet Letter : (Annotated)",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "2018",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781723112676"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "source_records": [
+                "bwb:9781723112676"
+            ],
+            "weight": "0.282",
+            "full_title": "Scarlet Letter : (Annotated)",
+            "key": "/books/OL55230035M",
+            "number_of_pages": 148,
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-09-26T01:48:36.336135"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-13T08:45:53.957709"
+            }
+        },
+        "/books/OL54833349M": {
+            "title": "Scarlet Letter : By Nathaniel Hawthorne",
+            "subtitle": "Illustrated",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "2016",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781540692689"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "source_records": [
+                "bwb:9781540692689"
+            ],
+            "weight": "0.318",
+            "full_title": "Scarlet Letter : By Nathaniel Hawthorne Illustrated",
+            "key": "/books/OL54833349M",
+            "number_of_pages": 172,
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-09-23T15:26:07.224850"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-13T08:45:53.957709"
+            }
+        },
+        "/books/OL38427714M": {
+            "title": "Scarlet Letter Annotated",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798451125540"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "314",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798451125540"
+            ],
+            "weight": "0.473",
+            "full_title": "Scarlet Letter Annotated",
+            "key": "/books/OL38427714M",
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T02:26:39.146590"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-13T08:45:53.957709"
+            }
+        },
+        "/books/OL38434910M": {
+            "title": "Scarlet Letter Annotated",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798454283995"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "314",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798454283995"
+            ],
+            "weight": "0.473",
+            "full_title": "Scarlet Letter Annotated",
+            "key": "/books/OL38434910M",
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T03:38:56.462811"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-13T08:45:53.957709"
+            }
+        },
+        "/books/OL38435654M": {
+            "title": "Scarlet Letter Annotated",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798505224366"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "314",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798505224366"
+            ],
+            "weight": "0.473",
+            "full_title": "Scarlet Letter Annotated",
+            "key": "/books/OL38435654M",
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T03:47:28.337701"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-13T08:45:53.957709"
+            }
+        },
+        "/books/OL38444155M": {
+            "title": "Scarlet Letter Annotated",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798533827843"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "314",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798533827843"
+            ],
+            "weight": "0.473",
+            "full_title": "Scarlet Letter Annotated",
+            "key": "/books/OL38444155M",
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T05:11:19.703709"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-13T08:45:53.957709"
+            }
+        },
+        "/books/OL38444502M": {
+            "title": "Scarlet Letter Annotated",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798480832839"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "314",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798480832839"
+            ],
+            "weight": "0.473",
+            "full_title": "Scarlet Letter Annotated",
+            "key": "/books/OL38444502M",
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T05:15:22.210745"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-13T08:45:53.957709"
+            }
+        },
+        "/books/OL38451036M": {
+            "title": "Scarlet Letter Annotated",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "2022",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798446055425"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "314",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798446055425"
+            ],
+            "weight": "0.473",
+            "full_title": "Scarlet Letter Annotated",
+            "key": "/books/OL38451036M",
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T06:27:07.288390"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-13T08:45:53.957709"
+            }
+        },
+        "/books/OL38460786M": {
+            "title": "Scarlet Letter Annotated",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798732457728"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "314",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798732457728"
+            ],
+            "weight": "0.473",
+            "full_title": "Scarlet Letter Annotated",
+            "key": "/books/OL38460786M",
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T08:03:12.980591"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-13T08:45:53.957709"
+            }
+        },
+        "/books/OL38461413M": {
+            "title": "Scarlet Letter Annotated",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798486695261"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "314",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798486695261"
+            ],
+            "weight": "0.473",
+            "full_title": "Scarlet Letter Annotated",
+            "key": "/books/OL38461413M",
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T08:09:51.340219"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-13T08:45:53.957709"
+            }
+        },
+        "/books/OL38471733M": {
+            "title": "Scarlet Letter Annotated",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "2022",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798421660293"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "314",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798421660293"
+            ],
+            "weight": "0.473",
+            "full_title": "Scarlet Letter Annotated",
+            "key": "/books/OL38471733M",
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T09:52:56.471575"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-13T08:45:53.957709"
+            }
+        },
+        "/books/OL38478130M": {
+            "title": "Scarlet Letter Annotated",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798752477102"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "314",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798752477102"
+            ],
+            "weight": "0.473",
+            "full_title": "Scarlet Letter Annotated",
+            "key": "/books/OL38478130M",
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T10:55:34.820535"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-13T08:45:53.957709"
+            }
+        },
+        "/books/OL38478367M": {
+            "title": "Scarlet Letter Annotated",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798718919660"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "233",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798718919660"
+            ],
+            "weight": "0.414",
+            "full_title": "Scarlet Letter Annotated",
+            "key": "/books/OL38478367M",
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T10:58:03.479334"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-13T08:45:53.957709"
+            }
+        },
+        "/books/OL38479423M": {
+            "title": "Scarlet Letter Annotated",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798461326043"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "264",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798461326043"
+            ],
+            "weight": "0.459",
+            "full_title": "Scarlet Letter Annotated",
+            "key": "/books/OL38479423M",
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T11:08:42.812618"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-13T08:45:53.957709"
+            }
+        },
+        "/books/OL38483157M": {
+            "title": "Scarlet Letter Annotated",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798532180208"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "314",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798532180208"
+            ],
+            "weight": "0.473",
+            "full_title": "Scarlet Letter Annotated",
+            "key": "/books/OL38483157M",
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T11:45:17.776918"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-13T08:45:53.957709"
+            }
+        },
+        "/books/OL38485116M": {
+            "title": "Scarlet Letter Annotated",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798468213834"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "314",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798468213834"
+            ],
+            "weight": "0.473",
+            "full_title": "Scarlet Letter Annotated",
+            "key": "/books/OL38485116M",
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T12:04:23.601785"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-13T08:45:53.957709"
+            }
+        },
+        "/books/OL38493938M": {
+            "title": "Scarlet Letter Annotated",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798791223944"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "264",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798791223944"
+            ],
+            "weight": "0.459",
+            "full_title": "Scarlet Letter Annotated",
+            "key": "/books/OL38493938M",
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T13:37:27.025554"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-13T08:45:53.957709"
+            }
+        },
+        "/books/OL38504333M": {
+            "title": "Scarlet Letter Annotated",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798455856389"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "314",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798455856389"
+            ],
+            "weight": "0.473",
+            "full_title": "Scarlet Letter Annotated",
+            "key": "/books/OL38504333M",
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T15:28:19.174000"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-13T08:45:53.957709"
+            }
+        },
+        "/books/OL7431505M": {
+            "identifiers": {
+                "librarything": [
+                    "476938"
+                ],
+                "goodreads": [
+                    "6496141"
+                ]
+            },
+            "title": "This Other Eden",
+            "publish_date": "November 1985",
+            "publishers": [
+                "Ballantine Books"
+            ],
+            "isbn_13": [
+                "9780380018406"
+            ],
+            "isbn_10": [
+                "0380018403"
+            ],
+            "oclc_numbers": [
+                "12635839"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:0380018403"
+            ],
+            "key": "/books/OL7431505M",
+            "works": [
+                {
+                    "key": "/works/OL4454529W"
+                }
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-02-01T03:03:11.062143"
+            }
+        },
+        "/books/OL15121343M": {
+            "publishers": [
+                "Macdonald Futura"
+            ],
+            "series": [
+                "A Troubadour spectacular"
+            ],
+            "key": "/books/OL15121343M",
+            "authors": [
+                {
+                    "key": "/authors/OL2688764A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "561p. ;",
+            "title": "This other Eden",
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Originally published, New York , Putnam, 1977."
+            },
+            "number_of_pages": 561,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0708817467"
+            ],
+            "publish_date": "1981",
+            "publish_country": "xxk",
+            "by_statement": "Marilyn Harris.",
+            "oclc_numbers": [
+                "16546020"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4454529W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:0708817467"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-18T13:15:12.164542"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-24T02:02:27.027863"
+            }
+        },
+        "/books/OL9071392M": {
+            "identifiers": {
+                "goodreads": [
+                    "105580"
+                ],
+                "librarything": [
+                    "972920"
+                ]
+            },
+            "title": "One Night @ The Call Center",
+            "authors": [
+                {
+                    "key": "/authors/OL1402850A"
+                }
+            ],
+            "publish_date": "February 2, 2006",
+            "publishers": [
+                "Rupa & Co."
+            ],
+            "weight": "11.4 ounces",
+            "covers": [
+                7251983
+            ],
+            "physical_format": "Paperback",
+            "ocaid": "onenightcallcent0000bhag",
+            "subjects": [
+                "Modern fiction",
+                "Literature & Fiction / Genre Fiction"
+            ],
+            "isbn_13": [
+                "9788129108180"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-05-10:KP-040-571",
+                "ia:onenightcallcent0000bhag",
+                "marc:marc_loc_2016/BooksAll.2016.part32.utf8:255532653:621",
+                "amazon:8129108186",
+                "marc:marc_columbia/Columbia-extract-20221130-013.mrc:152244362:940",
+                "promise:bwb_daily_pallets_2021-03-08:O7-AHP-388",
+                "promise:bwb_daily_pallets_2020-10-22:W6-BWN-134"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "8129108186"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.3 x 5.5 x 0.8 inches",
+            "lccn": [
+                "2005389956"
+            ],
+            "lc_classifications": [
+                "MLCM 2005/00074 (P)",
+                "PR9499.3.B",
+                "PR9499.3.B424 O54 2005"
+            ],
+            "local_id": [
+                "urn:bwbsku:KP-040-571",
+                "urn:bwbsku:O7-AHP-388",
+                "urn:bwbsku:W6-BWN-134"
+            ],
+            "oclc_numbers": [
+                "63276386"
+            ],
+            "key": "/books/OL9071392M",
+            "number_of_pages": 289,
+            "works": [
+                {
+                    "key": "/works/OL5762087W"
+                }
+            ],
+            "latest_revision": 17,
+            "revision": 17,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T17:19:07.277988"
+            }
+        },
+        "/books/OL1280773M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "series": [
+                "Romance ;",
+                "3592"
+            ],
+            "lc_classifications": [
+                "MLCS 92/02800 (P)"
+            ],
+            "latest_revision": 6,
+            "key": "/books/OL1280773M",
+            "authors": [
+                {
+                    "key": "/authors/OL577983A"
+                }
+            ],
+            "publish_places": [
+                "Richmond, Surrey"
+            ],
+            "pagination": "188 p. ;",
+            "source_records": [
+                "bwb:9780263129663",
+                "marc:marc_loc_2016/BooksAll.2016.part22.utf8:29732417:492"
+            ],
+            "title": "Desperate measures",
+            "lccn": [
+                "92137789"
+            ],
+            "number_of_pages": 188,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263129667"
+            ],
+            "publish_date": "1991",
+            "publish_country": "enk",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-11-16T00:35:15.250168"
+            },
+            "by_statement": "by Sara Craven.",
+            "oclc_numbers": [
+                "25134569"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL11327657W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 6
+        },
+        "/books/OL22404693M": {
+            "publishers": [
+                "Mills &Boon"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "1601807"
+                ],
+                "goodreads": [
+                    "6041502"
+                ]
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T22:48:08.911834"
+            },
+            "latest_revision": 7,
+            "key": "/books/OL22404693M",
+            "authors": [
+                {
+                    "key": "/authors/OL577983A"
+                }
+            ],
+            "publish_places": [
+                "Richmond"
+            ],
+            "pagination": "188p.",
+            "source_records": [
+                "bwb:9780263773910"
+            ],
+            "title": "Desperate measures",
+            "dewey_decimal_class": [
+                "823.914"
+            ],
+            "number_of_pages": 188,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-12T16:26:49.327191"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263773914"
+            ],
+            "publish_date": "1992",
+            "publish_country": "enk",
+            "by_statement": "Sara Craven.",
+            "oclc_numbers": [
+                "26304175"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL11327657W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 7
+        },
+        "/books/OL10738891M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "series": [
+                "Harlequin Presents, No 1503"
+            ],
+            "physical_format": "Paperback",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-08-27T13:39:19.381920"
+            },
+            "latest_revision": 9,
+            "key": "/books/OL10738891M",
+            "authors": [
+                {
+                    "key": "/authors/OL577983A"
+                }
+            ],
+            "subjects": [
+                "General",
+                "Non-Classifiable",
+                "Romance - General",
+                "Fiction",
+                "Fiction - General",
+                "Romance: Regency"
+            ],
+            "isbn_13": [
+                "9780373115037"
+            ],
+            "classifications": {},
+            "source_records": [
+                "bwb:9780373115037"
+            ],
+            "title": "Desperate Measures",
+            "identifiers": {
+                "goodreads": [
+                    "799184"
+                ],
+                "librarything": [
+                    "1601807"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373115032"
+            ],
+            "publish_date": "October 1, 1992",
+            "oclc_numbers": [
+                "26298758"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL11327657W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 9
+        },
+        "/books/OL29106853M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781408903315"
+            ],
+            "title": "One Night with His Virgin Mistress",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781408903315"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "One Night with His Virgin Mistress",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2008",
+            "key": "/books/OL29106853M",
+            "authors": [
+                {
+                    "key": "/authors/OL577983A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3467552W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-22T04:04:43.148693"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-10-24T07:58:11.128830"
+            }
+        },
+        "/books/OL23085191M": {
+            "identifiers": {
+                "goodreads": [
+                    "4621559"
+                ],
+                "librarything": [
+                    "5754357"
+                ]
+            },
+            "title": "One Night with His Virgin Mistress",
+            "authors": [
+                {
+                    "key": "/authors/OL577983A"
+                }
+            ],
+            "publish_date": "2008",
+            "publishers": [
+                "Harlequin"
+            ],
+            "ia_box_id": [
+                "IA125407"
+            ],
+            "series": [
+                "Harlequin presents -- 2765"
+            ],
+            "pagination": "185 p. ;",
+            "covers": [
+                6943748
+            ],
+            "ia_loaded_id": [
+                "onenightwithhisv00crav"
+            ],
+            "publish_places": [
+                "Toronto",
+                "New York"
+            ],
+            "contributions": [
+                "Copyright Paperback Collection (Library of Congress)"
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-03-08:O7-DEG-023",
+                "ia:onenightwithhisv00crav",
+                "bwb:9780373127658",
+                "marc:marc_loc_2016/BooksAll.2016.part36.utf8:219172439:1048",
+                "promise:bwb_daily_pallets_2021-03-04:O7-DNK-765"
+            ],
+            "oclc_number": [
+                "226356554"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Millionaires -- Fiction.",
+                "Women novelists -- Fiction.",
+                "Housesitting -- Fiction.",
+                "London (England) -- Fiction."
+            ],
+            "publish_country": "onc",
+            "by_statement": "Sara Craven.",
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "onenightwithhisv00crav",
+            "isbn_10": [
+                "0373127650"
+            ],
+            "isbn_13": [
+                "9780373127658"
+            ],
+            "lccn": [
+                "2009358466"
+            ],
+            "lc_classifications": [
+                "CPB Box no. 2838 vol. 19"
+            ],
+            "local_id": [
+                "urn:bwbsku:O7-DEG-023",
+                "urn:bwbsku:O7-DNK-765"
+            ],
+            "key": "/books/OL23085191M",
+            "number_of_pages": 185,
+            "works": [
+                {
+                    "key": "/works/OL3467552W"
+                }
+            ],
+            "latest_revision": 15,
+            "revision": 15,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-02-18T12:27:33.691253"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T15:25:34.473001"
+            }
+        },
+        "/books/OL24254346M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "covers": [
+                6402220
+            ],
+            "physical_format": "Electronic resource",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-08-28T02:47:41.159134"
+            },
+            "latest_revision": 5,
+            "key": "/books/OL24254346M",
+            "authors": [
+                {
+                    "key": "/authors/OL577983A"
+                }
+            ],
+            "publish_places": [
+                "Toronto, Ontario"
+            ],
+            "isbn_13": [
+                "9781426822728"
+            ],
+            "source_records": [
+                "marc_overdrive/InternetArchiveCrMarc-2010-06-11f.mrc:3908952:1787",
+                "bwb:9781426822728"
+            ],
+            "title": "One Night with His Virgin Mistress",
+            "identifiers": {
+                "overdrive": [
+                    "7C221B46-546F-4F5E-9E82-49D565CEBE12"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-06-17T02:16:18.384371"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2008",
+            "publish_country": "nyu",
+            "oclc_numbers": [
+                "436867062"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3467552W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 5
+        },
+        "/books/OL10738638M": {
+            "identifiers": {
+                "librarything": [
+                    "2013221"
+                ],
+                "goodreads": [
+                    "1445310"
+                ]
+            },
+            "title": "Heat Of The Moment",
+            "authors": [
+                {
+                    "key": "/authors/OL584493A"
+                }
+            ],
+            "publish_date": "June 1, 1989",
+            "publishers": [
+                "Harlequin"
+            ],
+            "ia_box_id": [
+                "IA118017"
+            ],
+            "series": [
+                "Harlequin Presents, No 1183"
+            ],
+            "covers": [
+                6628339
+            ],
+            "physical_format": "Paperback",
+            "ocaid": "heatofmoment00arms",
+            "subjects": [
+                "General",
+                "Non-Classifiable",
+                "Romance - General",
+                "Fiction",
+                "Fiction - General",
+                "Romance: Regency"
+            ],
+            "isbn_13": [
+                "9780373111831"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-05-27:P7-ADU-411",
+                "marc:marc_loc_updates/v40.i18.records.utf8:1547508:590",
+                "bwb:9780373111831",
+                "marc:marc_loc_2016/BooksAll.2016.part35.utf8:68633118:801",
+                "amazon:0373111835",
+                "promise:bwb_daily_pallets_2021-04-07:O7-BVB-680"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373111835"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "lccn": [
+                "2007581476"
+            ],
+            "lc_classifications": [
+                "CPB Box no. 2574 vol. 12",
+                "CPB"
+            ],
+            "local_id": [
+                "urn:bwbsku:P7-ADU-411",
+                "urn:bwbsku:O7-BVB-680"
+            ],
+            "key": "/books/OL10738638M",
+            "number_of_pages": 187,
+            "works": [
+                {
+                    "key": "/works/OL3498757W"
+                }
+            ],
+            "latest_revision": 20,
+            "revision": 20,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T14:27:36.497672"
+            }
+        },
+        "/books/OL35573945M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL9931663A"
+                }
+            ],
+            "isbn_13": [
+                "9781398515628"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "480",
+            "publish_date": "2021",
+            "publishers": [
+                "Simon & Schuster, Limited"
+            ],
+            "source_records": [
+                "bwb:9781398515628",
+                "promise:bwb_daily_pallets_2022-09-21"
+            ],
+            "title": "Spanish Love Deception",
+            "works": [
+                {
+                    "key": "/works/OL26345722W"
+                }
+            ],
+            "key": "/books/OL35573945M",
+            "local_id": [
+                "urn:bwbsku:KR-284-461"
+            ],
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-03T07:20:37.250285"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-04T07:19:37.860721"
+            }
+        },
+        "/books/OL29243235M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781472031549"
+            ],
+            "title": "Greek Bridegroom",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781472031549"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Greek Bridegroom",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2014",
+            "key": "/books/OL29243235M",
+            "authors": [
+                {
+                    "key": "/authors/OL3292941A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3498643W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-23T19:28:30.100114"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-17T22:42:45.030256"
+            }
+        },
+        "/books/OL23139962M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "physical_format": "Mass Market Paperback",
+            "weight": "3.5 ounces",
+            "title": "THE Greek Bridegroom",
+            "number_of_pages": 192,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Romance - Adult",
+                "Fiction / Romance / Adult",
+                "Romance - Contemporary",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern"
+            ],
+            "publish_date": "November 1, 2002",
+            "key": "/books/OL23139962M",
+            "authors": [
+                {
+                    "key": "/authors/OL3292941A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3498643W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.9 x 4.2 x 0.6 inches",
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-04-22T16:25:46.757425"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-10-23T07:07:57.609059"
+            }
+        },
+        "/books/OL15493667M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "series": [
+                "Modern romance -- MR233"
+            ],
+            "key": "/books/OL15493667M",
+            "authors": [
+                {
+                    "key": "/authors/OL3292941A"
+                }
+            ],
+            "publish_places": [
+                "Richmond, Surrey"
+            ],
+            "pagination": "184p. ;",
+            "source_records": [
+                "bwb:9780263829846",
+                "promise:bwb_daily_pallets_2021-01-21"
+            ],
+            "title": "The Greek bridegroom",
+            "number_of_pages": 184,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263829847"
+            ],
+            "publish_date": "2002",
+            "publish_country": "enk",
+            "by_statement": "by Helen Bianchin.",
+            "works": [
+                {
+                    "key": "/works/OL3498643W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:KO-870-051"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-20T05:07:43.321008"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-09T02:03:28.383678"
+            }
+        },
+        "/books/OL28997700M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263216981",
+                "ia:youoweme0000jord_n5a9"
+            ],
+            "title": "You Owe Me",
+            "number_of_pages": 288,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "You Owe Me",
+            "publish_date": "2010",
+            "key": "/books/OL28997700M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL11327981W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                11339223
+            ],
+            "identifiers": {},
+            "ocaid": "youoweme0000jord_n5a9",
+            "isbn_13": [
+                "9780263216981"
+            ],
+            "classifications": {},
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-20T10:39:16.492582"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-02T22:28:42.355671"
+            }
+        },
+        "/books/OL9744719M": {
+            "title": "You Owe Me",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "publish_date": "August 2000",
+            "publishers": [
+                "Soundings"
+            ],
+            "physical_format": "Audio Cassette",
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                2063971
+            ],
+            "isbn_13": [
+                "9781860428333"
+            ],
+            "isbn_10": [
+                "1860428339"
+            ],
+            "oclc_numbers": [
+                "155467588"
+            ],
+            "contributions": [
+                "Elizabeth Henry (Reader)"
+            ],
+            "subjects": [
+                "Genre Fiction",
+                "Romance"
+            ],
+            "source_records": [
+                "amazon:1860428339"
+            ],
+            "key": "/books/OL9744719M",
+            "works": [
+                {
+                    "key": "/works/OL11327981W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-08T00:04:26.915458"
+            }
+        },
+        "/books/OL10282158M": {
+            "publishers": [
+                "Mills And Boon"
+            ],
+            "number_of_pages": 221,
+            "source_records": [
+                "bwb:9780263808322",
+                "ia:youoweme0000jord",
+                "promise:bwb_daily_pallets_2020-06-24"
+            ],
+            "title": "You Owe Me",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {
+                "goodreads": [
+                    "4632933"
+                ],
+                "librarything": [
+                    "833677"
+                ]
+            },
+            "isbn_13": [
+                "9780263808322"
+            ],
+            "isbn_10": [
+                "0263808327"
+            ],
+            "publish_date": "1998",
+            "key": "/books/OL10282158M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "oclc_numbers": [
+                "39045928"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL11327981W"
+                }
+            ],
+            "physical_format": "Paperback",
+            "covers": [
+                11748729
+            ],
+            "ocaid": "youoweme0000jord",
+            "local_id": [
+                "urn:bwbsku:KN-752-233"
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-10T07:24:08.073844"
+            }
+        },
+        "/books/OL17382564M": {
+            "identifiers": {
+                "librarything": [
+                    "833677"
+                ]
+            },
+            "title": "You owe me.",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "publish_date": "1985",
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263750752"
+            ],
+            "publish_country": "xxk",
+            "publish_places": [
+                "London"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:1492762962:380"
+            ],
+            "key": "/books/OL17382564M",
+            "works": [
+                {
+                    "key": "/works/OL11327981W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-28T15:16:26.455436"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-18T02:00:39.200259"
+            }
+        },
+        "/books/OL9712561M": {
+            "publishers": [
+                "harlequin"
+            ],
+            "number_of_pages": 186,
+            "series": [
+                "Harlequin Presents # 833"
+            ],
+            "covers": [
+                7283458,
+                5005262
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL9712561M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "subjects": [
+                "Non-Classifiable",
+                "Romance - Contemporary",
+                "Fiction",
+                "Romance: Modern"
+            ],
+            "isbn_13": [
+                "9780373108336"
+            ],
+            "classifications": {},
+            "source_records": [
+                "bwb:9780373108336",
+                "promise:bwb_daily_pallets_2022-06-06"
+            ],
+            "title": "You Owe Me",
+            "identifiers": {
+                "goodreads": [
+                    "3187152"
+                ],
+                "librarything": [
+                    "833677"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373108338"
+            ],
+            "publish_date": "October 1, 1985",
+            "oclc_numbers": [
+                "12385749"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL11327981W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:W7-AOW-259"
+            ],
+            "latest_revision": 12,
+            "revision": 12,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-05T03:04:16.863733"
+            }
+        },
+        "/books/OL17253282M": {
+            "identifiers": {
+                "goodreads": [
+                    "6305877"
+                ],
+                "librarything": [
+                    "2045128"
+                ]
+            },
+            "title": "Shadow marriage.",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "publish_date": "1984",
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "series": [
+                "Romance"
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "187p. ;",
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263104826",
+                "0263745813"
+            ],
+            "publish_country": "xxk",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:1379201235:587"
+            ],
+            "key": "/books/OL17253282M",
+            "number_of_pages": 187,
+            "works": [
+                {
+                    "key": "/works/OL3759211W"
+                }
+            ],
+            "latest_revision": 15,
+            "revision": 15,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-28T03:46:04.429552"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-19T15:39:30.861530"
+            }
+        },
+        "/books/OL29264498M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781408999035"
+            ],
+            "title": "Shadow Marriage",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781408999035"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Shadow Marriage",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2015",
+            "key": "/books/OL29264498M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3759211W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-24T00:43:13.845846"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-26T09:07:45.864713"
+            }
+        },
+        "/books/OL48577403M": {
+            "works": [
+                {
+                    "key": "/works/OL3759211W"
+                }
+            ],
+            "title": "Shadow Marriage",
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "publish_date": "1984-07",
+            "key": "/books/OL48577403M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_10": [
+                "0373107064"
+            ],
+            "ocaid": "shadowmarriage00penn",
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "covers": [
+                14361773
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-26T09:00:18.294350"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-26T09:00:50.944464"
+            }
+        },
+        "/books/OL9676908M": {
+            "title": "Goblin Hill",
+            "authors": [
+                {
+                    "key": "/authors/OL395577A"
+                }
+            ],
+            "publish_date": "April 1977",
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "physical_format": "Paperback",
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                10550948
+            ],
+            "isbn_10": [
+                "0263723763"
+            ],
+            "isbn_13": [
+                "9780263723762"
+            ],
+            "series": [
+                "Mills & Boon Romance #1244"
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "source_records": [
+                "amazon:0263723763"
+            ],
+            "key": "/books/OL9676908M",
+            "number_of_pages": 187,
+            "works": [
+                {
+                    "key": "/works/OL2705589W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-28T13:18:30.240128"
+            }
+        },
+        "/books/OL29263510M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781408999851"
+            ],
+            "title": "Italian Billionaire's Pregnant Bride",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781408999851"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Italian Billionaire's Pregnant Bride",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2014",
+            "key": "/books/OL29263510M",
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3773929W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general",
+                "Married people, fiction",
+                "Pregnancy, fiction",
+                "Italy, fiction",
+                "New york (n.y.), fiction"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-24T00:30:14.183734"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-04T15:36:14.353771"
+            }
+        },
+        "/books/OL10743080M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "number_of_pages": 256,
+            "covers": [
+                2408904
+            ],
+            "physical_format": "Mass Market Paperback",
+            "key": "/books/OL10743080M",
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "subjects": [
+                "English Light Romantic Fiction",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern",
+                "Romance - Contemporary",
+                "Fiction / Romance / General"
+            ],
+            "edition_name": "Lgr edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "classifications": {},
+            "source_records": [
+                "bwb:9780373234714",
+                "promise:bwb_daily_pallets_2021-01-13"
+            ],
+            "title": "The Italian Billionaire's Pregnant Bride",
+            "notes": {
+                "type": "/type/text",
+                "value": "Larger Print Harlequin Presents"
+            },
+            "identifiers": {
+                "goodreads": [
+                    "7315621"
+                ]
+            },
+            "isbn_13": [
+                "9780373234714"
+            ],
+            "isbn_10": [
+                "0373234716"
+            ],
+            "publish_date": "March 1, 2008",
+            "oclc_numbers": [
+                "191799049"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3773929W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:017-AAY-512"
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-09T03:11:04.985095"
+            }
+        },
+        "/books/OL54828417M": {
+            "title": "Scarlet Letter : By Nathaniel Hawthorne",
+            "subtitle": "Illustrated",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                },
+                {
+                    "key": "/authors/OL2867124A"
+                }
+            ],
+            "publish_date": "2016",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781533282965"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "source_records": [
+                "bwb:9781533282965"
+            ],
+            "weight": "0.318",
+            "key": "/books/OL54828417M",
+            "number_of_pages": 172,
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-09-23T14:36:02.008877"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-13T08:45:53.957709"
+            }
+        },
+        "/books/OL40740068M": {
+            "title": "Scarlet Letter : (Annotated)(Biography)",
+            "authors": [
+                {
+                    "key": "/authors/OL8353201A"
+                },
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "2017",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781520948928"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "325",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9781520948928"
+            ],
+            "weight": "0.559",
+            "contributors": [
+                {
+                    "role": "Editor",
+                    "name": "Jan Oliveira"
+                }
+            ],
+            "key": "/books/OL40740068M",
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-20T23:16:16.855225"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-13T08:45:53.957709"
+            }
+        },
+        "/books/OL38426508M": {
+            "title": "Scarlet Letter Annotated",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798782390938"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "314",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798782390938"
+            ],
+            "weight": "0.473",
+            "full_title": "Scarlet Letter Annotated",
+            "key": "/books/OL38426508M",
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T02:14:19.675083"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-13T08:45:53.957709"
+            }
+        },
+        "/books/OL38452475M": {
+            "title": "Scarlet Letter Annotated",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798454662790"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "296",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798454662790"
+            ],
+            "weight": "0.450",
+            "full_title": "Scarlet Letter Annotated",
+            "key": "/books/OL38452475M",
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T06:42:03.401715"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-13T08:45:53.957709"
+            }
+        },
+        "/books/OL38460640M": {
+            "title": "Scarlet Letter Annotated",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798455823138"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "314",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798455823138"
+            ],
+            "weight": "0.473",
+            "full_title": "Scarlet Letter Annotated",
+            "key": "/books/OL38460640M",
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T08:01:47.765962"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-13T08:45:53.957709"
+            }
+        },
+        "/books/OL38461976M": {
+            "title": "Scarlet Letter Annotated",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "2020",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798688348187"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "314",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798688348187"
+            ],
+            "weight": "0.473",
+            "full_title": "Scarlet Letter Annotated",
+            "key": "/books/OL38461976M",
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T08:15:26.411181"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-13T08:45:53.957709"
+            }
+        },
+        "/books/OL38467676M": {
+            "title": "Scarlet Letter Annotated",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "2022",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798801011752"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "314",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798801011752"
+            ],
+            "weight": "0.473",
+            "full_title": "Scarlet Letter Annotated",
+            "key": "/books/OL38467676M",
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T09:13:26.156349"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-13T08:45:53.957709"
+            }
+        },
+        "/books/OL38471724M": {
+            "title": "Scarlet Letter Annotated",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798462284397"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "314",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798462284397"
+            ],
+            "weight": "0.473",
+            "full_title": "Scarlet Letter Annotated",
+            "key": "/books/OL38471724M",
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T09:52:51.950714"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-13T08:45:53.957709"
+            }
+        },
+        "/books/OL38478391M": {
+            "title": "Scarlet Letter Annotated",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798748635912"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "314",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798748635912"
+            ],
+            "weight": "0.473",
+            "full_title": "Scarlet Letter Annotated",
+            "key": "/books/OL38478391M",
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T10:58:17.742011"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-13T08:45:53.957709"
+            }
+        },
+        "/books/OL38478434M": {
+            "title": "Scarlet Letter Annotated",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798515535940"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "264",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798515535940"
+            ],
+            "weight": "0.459",
+            "full_title": "Scarlet Letter Annotated",
+            "key": "/books/OL38478434M",
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T10:58:44.244138"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-13T08:45:53.957709"
+            }
+        },
+        "/books/OL38510780M": {
+            "title": "Scarlet Letter Annotated",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798769399619"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "314",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798769399619"
+            ],
+            "weight": "0.473",
+            "full_title": "Scarlet Letter Annotated",
+            "key": "/books/OL38510780M",
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T16:32:00.672601"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-13T08:45:53.957709"
+            }
+        },
+        "/books/OL20120530M": {
+            "title": "This other Eden.",
+            "authors": [
+                {
+                    "key": "/authors/OL2688764A"
+                }
+            ],
+            "publish_date": "1980",
+            "publishers": [
+                "Futura Publications"
+            ],
+            "pagination": "561p.",
+            "edition_name": "Pbk. ed.",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_country": "xxk",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:2911809133:414"
+            ],
+            "key": "/books/OL20120530M",
+            "number_of_pages": 561,
+            "works": [
+                {
+                    "key": "/works/OL4454529W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-26T00:31:58.698580"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-27T11:05:03.361625"
+            }
+        },
+        "/books/OL9446542M": {
+            "identifiers": {
+                "goodreads": [
+                    "1055842"
+                ],
+                "librarything": [
+                    "344422"
+                ]
+            },
+            "title": "This Other Eden",
+            "authors": [
+                {
+                    "key": "/authors/OL2688764A"
+                }
+            ],
+            "publish_date": "October 12, 1985",
+            "publishers": [
+                "Ballantine Books"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_13": [
+                "9780345325914"
+            ],
+            "physical_format": "Mass Market Paperback",
+            "isbn_10": [
+                "0345325915"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Romance - General",
+                "Non-Classifiable",
+                "Romance - Historical",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Historical"
+            ],
+            "source_records": [
+                "amazon:0345325915"
+            ],
+            "key": "/books/OL9446542M",
+            "works": [
+                {
+                    "key": "/works/OL4454529W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-02-01T04:18:20.030874"
+            }
+        },
+        "/books/OL7816034M": {
+            "publishers": [
+                "Black Swan"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "972920"
+                ],
+                "goodreads": [
+                    "105579"
+                ],
+                "amazon": [
+                    ""
+                ]
+            },
+            "weight": "7 ounces",
+            "covers": [
+                1283630
+            ],
+            "physical_format": "Paperback",
+            "lc_classifications": [
+                "PR9499.3.B424 A15 2015"
+            ],
+            "key": "/books/OL7816034M",
+            "authors": [
+                {
+                    "key": "/authors/OL1402850A"
+                }
+            ],
+            "ocaid": "onenightatcallce0000bhag",
+            "subjects": [
+                "Modern fiction"
+            ],
+            "isbn_13": [
+                "9780552773867"
+            ],
+            "source_records": [
+                "ia:onenightatcallce0000bhag",
+                "promise:bwb_daily_pallets_2020-06-24"
+            ],
+            "title": "One Night @t the Call Centre",
+            "number_of_pages": 320,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0552773867"
+            ],
+            "publish_date": "May 7, 2007",
+            "works": [
+                {
+                    "key": "/works/OL5762087W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "7.6 x 5 x 0.9 inches",
+            "local_id": [
+                "urn:bwbsku:KN-658-761"
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-10T06:45:03.789933"
+            }
+        },
+        "/books/OL25423407M": {
+            "publishers": [
+                "Rupa & Co"
+            ],
+            "covers": [
+                7251982
+            ],
+            "key": "/books/OL25423407M",
+            "title": "one night@ at call center",
+            "publish_date": "2005",
+            "works": [
+                {
+                    "key": "/works/OL5762087W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2013-03-02T12:20:31.669148"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-12-10T15:19:10.350695"
+            }
+        },
+        "/books/OL9625314M": {
+            "publishers": [
+                "Ballantine Books"
+            ],
+            "number_of_pages": 310,
+            "subtitle": "A Novel",
+            "weight": "8 ounces",
+            "isbn_10": [
+                "0345498321"
+            ],
+            "covers": [
+                212576
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL9625314M",
+            "authors": [
+                {
+                    "key": "/authors/OL1402850A"
+                }
+            ],
+            "ocaid": "onenightatcallce00chet",
+            "subjects": [
+                "Indian Novel And Short Story In English",
+                "Fiction",
+                "Fiction - General",
+                "Humorous",
+                "Fiction / General",
+                "General"
+            ],
+            "isbn_13": [
+                "9780345498328"
+            ],
+            "source_records": [
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run04.mrc:73612321:2209",
+                "marc:marc_loc_2016/BooksAll.2016.part33.utf8:155933488:991",
+                "bwb:9780345498328",
+                "marc:harvard_bibliographic_metadata/ab.bib.10.20150123.full.mrc:390701721:852"
+            ],
+            "title": "One Night at the Call Center",
+            "identifiers": {
+                "librarything": [
+                    "972920"
+                ],
+                "goodreads": [
+                    "105578"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "local_id": [
+                "urn:sfpl:31223091299157"
+            ],
+            "publish_date": "May 1, 2007",
+            "works": [
+                {
+                    "key": "/works/OL5762087W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "7.7 x 5.2 x 0.8 inches",
+            "lccn": [
+                "2006101288"
+            ],
+            "lc_classifications": [
+                "PR9499.3.B424 O54 2007"
+            ],
+            "oclc_numbers": [
+                "123907503"
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-10-01T06:11:35.586922"
+            }
+        },
+        "/books/OL51639314M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL9931663A"
+                }
+            ],
+            "isbn_13": [
+                "9781420514520"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "772",
+            "publish_date": "2024",
+            "publishers": [
+                "Cengage Gale"
+            ],
+            "source_records": [
+                "bwb:9781420514520"
+            ],
+            "title": "Spanish Love Deception",
+            "subtitle": "A Novel",
+            "full_title": "Spanish Love Deception A Novel",
+            "works": [
+                {
+                    "key": "/works/OL26345722W"
+                }
+            ],
+            "key": "/books/OL51639314M",
+            "latest_revision": 1,
+            "revision": 1,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-04-17T18:54:52.026050"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-17T18:54:52.026050"
+            }
+        },
+        "/books/OL8137511M": {
+            "publishers": [
+                "Thorndike Press"
+            ],
+            "subtitle": "Fear the Desire",
+            "weight": "12.2 ounces",
+            "covers": [
+                1474085
+            ],
+            "physical_format": "Hardcover",
+            "key": "/books/OL8137511M",
+            "authors": [
+                {
+                    "key": "/authors/OL3292941A"
+                }
+            ],
+            "subjects": [
+                "Spanish: Adult Fiction",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance - General"
+            ],
+            "edition_name": "Largeprint edition",
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "source_records": [
+                "amazon:0786291052:cy:1551137583:157735",
+                "marc:marc_loc_updates/v35.i11.records.utf8:9236657:897",
+                "marc:marc_loc_2016/BooksAll.2016.part33.utf8:122503706:897"
+            ],
+            "title": "Miedo Al Deseo",
+            "number_of_pages": 194,
+            "isbn_13": [
+                "9780786291052"
+            ],
+            "isbn_10": [
+                "0786291052"
+            ],
+            "publish_date": "November 22, 2006",
+            "works": [
+                {
+                    "key": "/works/OL3498643W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.8 x 6.4 x 0.7 inches",
+            "lccn": [
+                "2006025053"
+            ],
+            "lc_classifications": [
+                "PR6052.I17 G7418 2006"
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-10-23T07:07:57.609059"
+            }
+        },
+        "/books/OL29242976M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781408998069"
+            ],
+            "title": "You Owe Me",
+            "number_of_pages": 224,
+            "isbn_13": [
+                "9781408998069"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "You Owe Me",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2013",
+            "key": "/books/OL29242976M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL11327981W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-23T19:24:54.885149"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-02T22:28:42.355671"
+            }
+        },
+        "/books/OL14978266M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:516288491:376",
+                "ia:youoweme0000jord_l0k1",
+                "amazon:0263108376",
+                "promise:bwb_daily_pallets_2022-04-21"
+            ],
+            "title": "You Owe Me",
+            "identifiers": {
+                "librarything": [
+                    "833677"
+                ],
+                "goodreads": [
+                    "4632929"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1985",
+            "publish_country": "xxk",
+            "key": "/books/OL14978266M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL11327981W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                12665032
+            ],
+            "local_id": [
+                "urn:bwbsku:KQ-155-469"
+            ],
+            "ocaid": "youoweme0000jord_l0k1",
+            "isbn_10": [
+                "0263108376"
+            ],
+            "oclc_numbers": [
+                "12778064"
+            ],
+            "classifications": {},
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T23:07:06.554207"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-28T15:10:04.807786"
+            }
+        },
+        "/books/OL29756123M": {
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "source_records": [
+                "bwb:9781488029073"
+            ],
+            "title": "Shadow Marriage",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781488029073"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Shadow Marriage",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2017",
+            "key": "/books/OL29756123M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3759211W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-30T21:04:16.642195"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-26T09:07:45.864713"
+            }
+        },
+        "/books/OL10738291M": {
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "number_of_pages": 187,
+            "weight": "3.2 ounces",
+            "physical_format": "Paperback",
+            "key": "/books/OL10738291M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "subjects": [
+                "General",
+                "Non-Classifiable",
+                "Fiction - General"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "title": "Shadow Marriage",
+            "identifiers": {
+                "librarything": [
+                    "2045128"
+                ]
+            },
+            "publish_date": "1984-07",
+            "works": [
+                {
+                    "key": "/works/OL3759211W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.9 x 4 x 0.7 inches",
+            "isbn_10": [
+                "0373107064"
+            ],
+            "isbn_13": [
+                "9780373107063"
+            ],
+            "ocaid": "shadowmarriage00jord",
+            "classifications": {},
+            "covers": [
+                14361772
+            ],
+            "source_records": [
+                "amazon:0373107064"
+            ],
+            "latest_revision": 19,
+            "revision": 19,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-03-02T07:01:54.763568"
+            }
+        },
+        "/books/OL31872720M": {
+            "works": [
+                {
+                    "key": "/works/OL2705589W"
+                }
+            ],
+            "title": "Goblin Hill",
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "publish_date": "January 1977",
+            "key": "/books/OL31872720M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                11132392,
+                -1
+            ],
+            "isbn_10": [
+                "0263090905"
+            ],
+            "classifications": {},
+            "publish_places": [
+                "London"
+            ],
+            "number_of_pages": 192,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "physical_format": "Hardcover",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-01-19T12:27:10.356010"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-05-01T04:46:22.300498"
+            }
+        },
+        "/books/OL9724394M": {
+            "title": "Goblin Hill",
+            "authors": [
+                {
+                    "key": "/authors/OL395577A"
+                }
+            ],
+            "publish_date": "April 1992",
+            "publishers": [
+                "Ulverscroft Large Print"
+            ],
+            "weight": "1.2 pounds",
+            "series": [
+                "(Ulverscroft Large Print Series)"
+            ],
+            "physical_format": "Hardcover",
+            "subjects": [
+                "Romance",
+                "Romance - General",
+                "Fiction - Romance",
+                "Large Print"
+            ],
+            "edition_name": "Lrg edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_13": [
+                "9780708926338"
+            ],
+            "isbn_10": [
+                "0708926339"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.5 x 5.5 x 1.2 inches",
+            "source_records": [
+                "amazon:0708926339"
+            ],
+            "key": "/books/OL9724394M",
+            "number_of_pages": 336,
+            "works": [
+                {
+                    "key": "/works/OL2705589W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-29T02:08:11.324159"
+            }
+        },
+        "/books/OL9620956M": {
+            "identifiers": {
+                "goodreads": [
+                    "429478"
+                ],
+                "librarything": [
+                    "1322120"
+                ]
+            },
+            "title": "Goblin Hill",
+            "authors": [
+                {
+                    "key": "/authors/OL395577A"
+                }
+            ],
+            "publish_date": "1977",
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "table_of_contents": [
+                {
+                    "level": 0,
+                    "type": {
+                        "key": "/type/toc_item"
+                    },
+                    "title": "Only after the tragic deaths of her adoptive parents, did Faith learn the whereabouts of her real father. She could not rest until she had gone to New Zealand in search of him. But the real problem, she soon realized, was her father's grim stepson Gareth Morgan, who could not forget the family scandal -- or forgive Faith for it!"
+                }
+            ],
+            "series": [
+                "Harlequin Romance, No. 2068"
+            ],
+            "covers": [
+                9552720
+            ],
+            "physical_format": "Mass Market Paperback",
+            "ocaid": "goblinhill00essi",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_13": [
+                "9780373020683"
+            ],
+            "isbn_10": [
+                "0373020686"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:0373020686"
+            ],
+            "key": "/books/OL9620956M",
+            "works": [
+                {
+                    "key": "/works/OL2705589W"
+                }
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-13T21:59:29.482224"
+            }
+        },
+        "/books/OL29033338M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263864168",
+                "promise:bwb_daily_pallets_2020-11-19"
+            ],
+            "title": "Italian Billionaires Pregnant Bride",
+            "number_of_pages": 187,
+            "isbn_13": [
+                "9780263864168"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lc_classifications": [
+                "PR6057.R2374"
+            ],
+            "publish_date": "2008",
+            "key": "/books/OL29033338M",
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3773929W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general",
+                "Married people, fiction",
+                "Pregnancy, fiction"
+            ],
+            "local_id": [
+                "urn:bwbsku:KO-116-235"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-21T03:15:10.800182"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-09T13:22:35.462254"
+            }
+        },
+        "/books/OL24936907M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "description": "His baby, his bride...but his love isn't part of the bargain...\r\n\r\nA waitress by day and office cleaner by night, Kathy Galvin labors to forget her traumatic past. Until the evening when impossibly rich, ruthless and handsome Sergio Torrente takes her virginity.\r\n\r\nIt doesn't take Sergio long to find out about Kathy's damning history--or that she's carrying his baby. He cannot love her, but he will marry her and be a father to their child!",
+            "series": [
+                "Harlequin presents -- 2707"
+            ],
+            "covers": [
+                6927977
+            ],
+            "ia_loaded_id": [
+                "italianbillionai00grah"
+            ],
+            "key": "/books/OL24936907M",
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "publish_places": [
+                "Toronto",
+                "New York"
+            ],
+            "ia_box_id": [
+                "IA123916"
+            ],
+            "pagination": "187 p. ;",
+            "source_records": [
+                "ia:italianbillionai00grah"
+            ],
+            "title": "The Italian Billionaire's Pregnant Bride",
+            "number_of_pages": 187,
+            "full_title": "The Italian billionaire's pregnant bride",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Pregnancy",
+                "Italians",
+                "Waitresses",
+                "Fiction"
+            ],
+            "publish_date": "2008",
+            "publish_country": "onc",
+            "by_statement": "Lynne Graham",
+            "works": [
+                {
+                    "key": "/works/OL3773929W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "classifications": {},
+            "ocaid": "italianbillionai00grah",
+            "isbn_10": [
+                "0373127073"
+            ],
+            "isbn_13": [
+                "9780373127078"
+            ],
+            "oclc_numbers": [
+                "178133860"
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2011-08-08T04:35:03.525508"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-09-29T05:29:54.340054"
+            }
+        },
+        "/books/OL10739564M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "number_of_pages": 192,
+            "covers": [
+                2407614
+            ],
+            "physical_format": "Mass Market Paperback",
+            "key": "/books/OL10739564M",
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "subjects": [
+                "English Light Romantic Fiction",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern",
+                "Romance - Contemporary",
+                "Fiction / Romance / General"
+            ],
+            "isbn_13": [
+                "9780373127078"
+            ],
+            "source_records": [
+                "bwb:9780373127078",
+                "promise:bwb_daily_pallets_2021-03-08",
+                "promise:bwb_daily_pallets_2021-05-27"
+            ],
+            "title": "The Italian Billionaire's Pregnant Bride (Harlequin Presents)",
+            "identifiers": {
+                "librarything": [
+                    "4517646"
+                ],
+                "goodreads": [
+                    "2806570"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373127073"
+            ],
+            "publish_date": "March 1, 2008",
+            "oclc_numbers": [
+                "178133860"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3773929W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:W6-AEM-446",
+                "urn:bwbsku:KN-984-976"
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-14T18:50:51.115445"
+            }
+        },
+        "/books/OL56343340M": {
+            "title": "Scarlet Letter : (Snowball Classics)",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "2016",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9781533490797"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "source_records": [
+                "bwb:9781533490797"
+            ],
+            "weight": "0.327",
+            "full_title": "Scarlet Letter : (Snowball Classics)",
+            "key": "/books/OL56343340M",
+            "number_of_pages": 178,
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-10-02T21:40:25.929738"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-13T08:45:53.957709"
+            }
+        },
+        "/books/OL55571214M": {
+            "title": "The Scarlet Letter",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "2016",
+            "type": {
+                "key": "/type/edition"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "source_records": [
+                "bwb:9781539701002"
+            ],
+            "weight": "0.318 ",
+            "full_title": "Scarlet Letter : By Nathaniel Hawthorne Illustrated",
+            "isbn_13": [
+                "9781539701002"
+            ],
+            "edition_name": "Illustrated",
+            "contributors": [
+                {
+                    "role": "Illustrator",
+                    "name": "Judy"
+                }
+            ],
+            "key": "/books/OL55571214M",
+            "number_of_pages": 172,
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-09-28T03:45:04.100698"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-13T08:45:53.957709"
+            }
+        },
+        "/books/OL38402113M": {
+            "title": "Scarlet Letter Annotated",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798547085147"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "145",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798547085147"
+            ],
+            "weight": "0.445",
+            "full_title": "Scarlet Letter Annotated",
+            "key": "/books/OL38402113M",
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-18T22:02:53.441458"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-13T08:45:53.957709"
+            }
+        },
+        "/books/OL38460591M": {
+            "title": "Scarlet Letter Annotated",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "2022",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798403217507"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "314",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798403217507"
+            ],
+            "weight": "0.473",
+            "full_title": "Scarlet Letter Annotated",
+            "key": "/books/OL38460591M",
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T08:01:09.879663"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-13T08:45:53.957709"
+            }
+        },
+        "/books/OL38469672M": {
+            "title": "Scarlet Letter Annotated",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798486530432"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "314",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798486530432"
+            ],
+            "weight": "0.473",
+            "full_title": "Scarlet Letter Annotated",
+            "key": "/books/OL38469672M",
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T09:33:20.018320"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-13T08:45:53.957709"
+            }
+        },
+        "/books/OL38479724M": {
+            "title": "Scarlet Letter Annotated",
+            "authors": [
+                {
+                    "key": "/authors/OL26681A"
+                }
+            ],
+            "publish_date": "2021",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9798495488939"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "281",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798495488939"
+            ],
+            "weight": "0.432",
+            "full_title": "Scarlet Letter Annotated",
+            "key": "/books/OL38479724M",
+            "works": [
+                {
+                    "key": "/works/OL455305W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T11:11:38.487932"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-13T08:45:53.957709"
+            }
+        }
+    }
+}

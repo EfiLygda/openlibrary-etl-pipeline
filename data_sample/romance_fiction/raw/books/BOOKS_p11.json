@@ -1,0 +1,5708 @@
+{
+    "status": "ok",
+    "result": {
+        "/books/OL17198714M": {
+            "publishers": [
+                "Corgi"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "1363462"
+                ],
+                "librarything": [
+                    "79809"
+                ]
+            },
+            "key": "/books/OL17198714M",
+            "authors": [
+                {
+                    "key": "/authors/OL23108A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "(419)p. ;",
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:1341193736:490",
+                "bwb:9780552142229",
+                "amazon:0552142220"
+            ],
+            "title": "The magic of you",
+            "dewey_decimal_class": [
+                "813.54"
+            ],
+            "number_of_pages": 419,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0552142220"
+            ],
+            "publish_date": "1994",
+            "publish_country": "enk",
+            "by_statement": "Johanna Lindsey.",
+            "oclc_numbers": [
+                "59859474"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL15660W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                13220250
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-27T23:13:37.954825"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-02T21:54:20.889825"
+            }
+        },
+        "/books/OL29598762M": {
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "source_records": [
+                "bwb:9781459200425"
+            ],
+            "title": "Husband Test",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781459200425"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Husband Test",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2011",
+            "key": "/books/OL29598762M",
+            "authors": [
+                {
+                    "key": "/authors/OL3292941A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3498567W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-28T20:31:58.077153"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-17T23:03:18.526237"
+            }
+        },
+        "/books/OL24764645M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "ia_box_id": [
+                "IA133317"
+            ],
+            "isbn_10": [
+                "0263172856"
+            ],
+            "covers": [
+                6818483
+            ],
+            "full_title": "The husband test",
+            "key": "/books/OL24764645M",
+            "authors": [
+                {
+                    "key": "/authors/OL3292941A"
+                }
+            ],
+            "ocaid": "husbandtest00bian",
+            "publish_places": [
+                "Richmond"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "1 v. ((large print) )",
+            "source_records": [
+                "ia:husbandtest00bian"
+            ],
+            "title": "The husband test",
+            "dewey_decimal_class": [
+                "823.914"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Originally published: 2001."
+            },
+            "isbn_13": [
+                "9780263172850"
+            ],
+            "edition_name": "Large print ed.",
+            "subjects": [
+                "Large type books"
+            ],
+            "publish_date": "2002",
+            "publish_country": "enk",
+            "by_statement": "by Helen Bianchin",
+            "oclc_numbers": [
+                "59418428"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3498567W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2011-07-13T15:31:20.293750"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-17T23:03:18.526237"
+            }
+        },
+        "/books/OL25572962M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "covers": [
+                8717038
+            ],
+            "full_title": "Saturday's child",
+            "key": "/books/OL25572962M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "isbn_13": [
+                "9780263051926"
+            ],
+            "pagination": "187 p. :",
+            "source_records": [
+                "ia:saturdayschild00neel_666",
+                "ia:saturdayschild00neel",
+                "bwb:9780263051926",
+                "amazon:0263051927"
+            ],
+            "title": "Saturday's child",
+            "dewey_decimal_class": [
+                "823/.9/1"
+            ],
+            "number_of_pages": 187,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263051927"
+            ],
+            "publish_date": "1972",
+            "publish_country": "enk",
+            "by_statement": "by Betty Neels",
+            "oclc_numbers": [
+                "7498478"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL16471161W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2014-07-30T18:40:58.000110"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-03-28T22:44:25.223967"
+            }
+        },
+        "/books/OL45993398M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "isbn_10": [
+                "0263133109"
+            ],
+            "isbn_13": [
+                "9780263133103"
+            ],
+            "local_id": [
+                "urn:bwbsku:KH-315-531"
+            ],
+            "publish_date": "1992-10-09",
+            "publishers": [
+                "Harlequin Mills & Boon"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2020-11-13"
+            ],
+            "title": "Tidewater Seduction",
+            "full_title": "Tidewater Seduction",
+            "works": [
+                {
+                    "key": "/works/OL3771182W"
+                }
+            ],
+            "key": "/books/OL45993398M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-01-15T15:09:43.240550"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL29241841M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781472099402"
+            ],
+            "title": "Tidewater Seduction",
+            "number_of_pages": 192,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Tidewater Seduction",
+            "publish_date": "2014",
+            "key": "/books/OL29241841M",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3771182W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, general"
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9781472099402"
+            ],
+            "classifications": {},
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-23T19:07:09.786669"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL10239688M": {
+            "publishers": [
+                "MacMillan Publishing Company"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "1739509"
+                ]
+            },
+            "weight": "13.6 ounces",
+            "physical_format": "Hardcover",
+            "key": "/books/OL10239688M",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "subjects": [
+                "Romance",
+                "Romance - General",
+                "Fiction - Romance",
+                "Large Print"
+            ],
+            "edition_name": "Large Print Edition",
+            "title": "Tidewater Seduction",
+            "number_of_pages": 288,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "June 1993",
+            "works": [
+                {
+                    "key": "/works/OL3771182W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.8 x 5.8 x 1 inches",
+            "covers": [
+                11729548
+            ],
+            "source_records": [
+                "ia:tidewaterseducti0000math"
+            ],
+            "ocaid": "tidewaterseducti0000math",
+            "isbn_10": [
+                "0263133567"
+            ],
+            "isbn_13": [
+                "9780263133561"
+            ],
+            "classifications": {},
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL10280943M": {
+            "publishers": [
+                "Mills and Boon"
+            ],
+            "number_of_pages": 192,
+            "source_records": [
+                "bwb:9780263778267",
+                "promise:bwb_daily_pallets_2021-02-03"
+            ],
+            "title": "Tidewater Seduction",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {
+                "librarything": [
+                    "2082227"
+                ]
+            },
+            "covers": [
+                7321563
+            ],
+            "isbn_13": [
+                "9780263778267"
+            ],
+            "isbn_10": [
+                "0263778266"
+            ],
+            "publish_date": "1992",
+            "key": "/books/OL10280943M",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "oclc_numbers": [
+                "26884206"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3771182W"
+                }
+            ],
+            "physical_format": "Paperback",
+            "local_id": [
+                "urn:bwbsku:KP-008-753"
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL20026631M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Originally published as 'Tidewater seduction'."
+            },
+            "title": "Ta xidi sto parelthon",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "publish_date": "1995",
+            "publishers": [
+                "Harlequin"
+            ],
+            "pagination": "157p.",
+            "work_titles": [
+                "Tidewater seduction."
+            ],
+            "languages": [
+                {
+                    "key": "/languages/gre"
+                }
+            ],
+            "publish_country": "gr ",
+            "by_statement": "Anne Mather.",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:2724322027:505"
+            ],
+            "key": "/books/OL20026631M",
+            "number_of_pages": 157,
+            "works": [
+                {
+                    "key": "/works/OL3771182W"
+                }
+            ],
+            "latest_revision": 16,
+            "revision": 16,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-25T07:12:20.459931"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-13T05:34:37.103344"
+            }
+        },
+        "/books/OL10691031M": {
+            "identifiers": {
+                "librarything": [
+                    "9446105"
+                ],
+                "goodreads": [
+                    "6741470"
+                ]
+            },
+            "title": "Bargain for Paradise (Harlequin Romance, 2201)",
+            "publish_date": "1978",
+            "publishers": [
+                "Harlequin"
+            ],
+            "covers": [
+                9742119
+            ],
+            "physical_format": "Paperback",
+            "edition_name": "2201 edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-07-26:O8-BZX-111",
+                "ia:bargainforparadi0000stra",
+                "amazon:0373022018",
+                "promise:bwb_daily_pallets_2021-05-04:O7-CVG-927"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "bargainforparadi0000stra",
+            "isbn_10": [
+                "0373022018"
+            ],
+            "isbn_13": [
+                "9780373022014"
+            ],
+            "oclc_numbers": [
+                "8022115"
+            ],
+            "local_id": [
+                "urn:bwbsku:O8-BZX-111",
+                "urn:bwbsku:O7-CVG-927"
+            ],
+            "key": "/books/OL10691031M",
+            "number_of_pages": 188,
+            "works": [
+                {
+                    "key": "/works/OL18027952W"
+                }
+            ],
+            "latest_revision": 14,
+            "revision": 14,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T14:18:49.756848"
+            }
+        },
+        "/books/OL12514497M": {
+            "identifiers": {
+                "librarything": [
+                    "8366164"
+                ],
+                "goodreads": [
+                    "4064660"
+                ]
+            },
+            "title": "Séréna",
+            "authors": [
+                {
+                    "key": "/authors/OL22022A"
+                }
+            ],
+            "publish_date": "November 2, 1998",
+            "publishers": [
+                "J'ai lu"
+            ],
+            "weight": "10.4 ounces",
+            "covers": [
+                3111182
+            ],
+            "physical_format": "Paperback",
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.7 x 4.3 x 1.2 inches",
+            "isbn_10": [
+                "2290050792"
+            ],
+            "isbn_13": [
+                "9782290050798"
+            ],
+            "oclc_numbers": [
+                "467776375"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "translation_of": "A Hazard of Hearts",
+            "translated_from": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "amazon:2290050792"
+            ],
+            "key": "/books/OL12514497M",
+            "number_of_pages": 637,
+            "works": [
+                {
+                    "key": "/works/OL137222W"
+                }
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-05-10T21:02:30.002504"
+            }
+        },
+        "/books/OL24405464M": {
+            "publishers": [
+                "Rich & Cowan"
+            ],
+            "classifications": {},
+            "title": "A Hazard of Hearts",
+            "identifiers": {},
+            "covers": [
+                6666562
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1949",
+            "key": "/books/OL24405464M",
+            "works": [
+                {
+                    "key": "/works/OL137222W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-11-04T20:19:24.291913"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-09-25T09:46:36.617151"
+            }
+        },
+        "/books/OL24405466M": {
+            "title": "A Hazard of Hearts",
+            "publish_date": "1969",
+            "publishers": [
+                "Pyramid Books"
+            ],
+            "physical_format": "Paperback",
+            "covers": [
+                6666565
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "key": "/books/OL24405466M",
+            "works": [
+                {
+                    "key": "/works/OL137222W"
+                }
+            ],
+            "identifiers": {},
+            "isbn_10": [
+                "0515020206"
+            ],
+            "isbn_13": [
+                "9780515020205"
+            ],
+            "classifications": {},
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-11-04T20:36:36.191198"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-09-25T09:47:15.666443"
+            }
+        },
+        "/books/OL14993675M": {
+            "publishers": [
+                "Pan"
+            ],
+            "covers": [
+                6666567
+            ],
+            "key": "/books/OL14993675M",
+            "authors": [
+                {
+                    "key": "/authors/OL22022A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:539196862:395",
+                "bwb:9780330304337"
+            ],
+            "title": "A Hazard of Hearts",
+            "identifiers": {
+                "librarything": [
+                    "8535257"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1988",
+            "publish_country": "xxk",
+            "by_statement": "Barbara Cartland.",
+            "works": [
+                {
+                    "key": "/works/OL137222W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_10": [
+                "033030433X"
+            ],
+            "oclc_numbers": [
+                "220983672"
+            ],
+            "classifications": {},
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-17T01:57:19.947795"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-09-25T09:49:05.249378"
+            }
+        },
+        "/books/OL24202708M": {
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "ia_box_id": [
+                "IA116002"
+            ],
+            "series": [
+                "Harlequin presents -- 1175"
+            ],
+            "covers": [
+                6469963
+            ],
+            "key": "/books/OL24202708M",
+            "authors": [
+                {
+                    "key": "/authors/OL3285874A"
+                }
+            ],
+            "publish_places": [
+                "Toronto"
+            ],
+            "pagination": "188 p. ;",
+            "source_records": [
+                "ia:caprice00carp"
+            ],
+            "title": "Caprice",
+            "number_of_pages": 188,
+            "edition_name": "Harlequin presents 1st ed. June 1989.",
+            "publish_date": "1989",
+            "publish_country": "onc",
+            "by_statement": "Amanda Carpenter.",
+            "works": [
+                {
+                    "key": "/works/OL8531476W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "ocaid": "caprice00carp",
+            "isbn_10": [
+                "0373111754"
+            ],
+            "isbn_13": [
+                "9780373111756"
+            ],
+            "lccn": [
+                "2007580879"
+            ],
+            "oclc_numbers": [
+                "19503089"
+            ],
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-05-05T05:53:56.554136"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-27T04:57:22.688051"
+            }
+        },
+        "/books/OL29651242M": {
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "source_records": [
+                "bwb:9781459237742"
+            ],
+            "title": "The Seduction Business",
+            "number_of_pages": 192,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Seduction Business",
+            "publish_date": "2012",
+            "key": "/books/OL29651242M",
+            "authors": [
+                {
+                    "key": "/authors/OL4728806A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3294391W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, contemporary"
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9781459237742"
+            ],
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-29T09:55:59.368319"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-04T06:40:35.883556"
+            }
+        },
+        "/books/OL10241312M": {
+            "publishers": [
+                "Thorndike Press"
+            ],
+            "weight": "13.8 ounces",
+            "covers": [
+                5046476
+            ],
+            "physical_format": "Hardcover",
+            "key": "/books/OL10241312M",
+            "authors": [
+                {
+                    "key": "/authors/OL4728806A"
+                }
+            ],
+            "subjects": [
+                "Romance",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern",
+                "Romance - General"
+            ],
+            "edition_name": "Large Print Edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "bwb:9780263163094"
+            ],
+            "title": "The Seduction Business",
+            "number_of_pages": 288,
+            "publish_date": "February 2000",
+            "works": [
+                {
+                    "key": "/works/OL3294391W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.4 x 5.6 x 1 inches",
+            "identifiers": {},
+            "isbn_10": [
+                "0263163091"
+            ],
+            "isbn_13": [
+                "9780263163094"
+            ],
+            "classifications": {},
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-04T06:40:35.883556"
+            }
+        },
+        "/books/OL38386931M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "isbn_13": [
+                "9780373101481"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1979",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9780373101481"
+            ],
+            "title": "For the Love of Sara",
+            "full_title": "For the Love of Sara",
+            "works": [
+                {
+                    "key": "/works/OL3771217W"
+                }
+            ],
+            "key": "/books/OL38386931M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-18T18:47:50.776101"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL34872135M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2014",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781460347775",
+                "promise:bwb_daily_pallets_2024-08-28:P9-DVA-967"
+            ],
+            "subjects": [
+                "Fiction, general"
+            ],
+            "title": "For the Love of Sara",
+            "full_title": "For the Love of Sara",
+            "works": [
+                {
+                    "key": "/works/OL3771217W"
+                }
+            ],
+            "key": "/books/OL34872135M",
+            "identifiers": {
+                "amazon": [
+                    ""
+                ]
+            },
+            "isbn_13": [
+                "9781460347775"
+            ],
+            "classifications": {},
+            "local_id": [
+                "urn:bwbsku:P9-DVA-967"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-08T21:32:06.282002"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-30T01:38:56.518199"
+            }
+        },
+        "/books/OL14979848M": {
+            "publishers": [
+                "Mills and Boon"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "2658794"
+                ],
+                "librarything": [
+                    "4804499"
+                ]
+            },
+            "isbn_10": [
+                "0263719006"
+            ],
+            "covers": [
+                7321455
+            ],
+            "key": "/books/OL14979848M",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "186p. ;",
+            "source_records": [
+                "bwb:9780263719000",
+                "promise:bwb_daily_pallets_2023-08-11:KS-795-355"
+            ],
+            "title": "For the love of Sara",
+            "dewey_decimal_class": [
+                "823/.9/1F"
+            ],
+            "number_of_pages": 186,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Fiction in English."
+            ],
+            "publish_date": "1975",
+            "publish_country": "xxk",
+            "by_statement": "by Anne Mather.",
+            "works": [
+                {
+                    "key": "/works/OL3771217W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:KS-795-355"
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T23:18:33.474096"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL19999773M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Large print.\n\nOriginally published, London: Mills and Boon, 1976."
+            },
+            "title": "For the love of Sara",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "publish_date": "1982",
+            "publishers": [
+                "Magna"
+            ],
+            "lc_classifications": [
+                "PR6063.A/"
+            ],
+            "publish_places": [
+                "Long Preston"
+            ],
+            "pagination": "321p. ;",
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0860094022"
+            ],
+            "publish_country": "xxk",
+            "by_statement": "by Anne Mather.",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:3403756968:655"
+            ],
+            "key": "/books/OL19999773M",
+            "number_of_pages": 321,
+            "works": [
+                {
+                    "key": "/works/OL3771217W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-25T04:47:18.703127"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-12T11:30:33.858733"
+            }
+        },
+        "/books/OL29647222M": {
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "source_records": [
+                "bwb:9780373238316",
+                "promise:bwb_daily_pallets_2020-04-02"
+            ],
+            "title": "Deal at the Altar",
+            "number_of_pages": 256,
+            "isbn_13": [
+                "9780373238316"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Deal at the Altar",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2012",
+            "key": "/books/OL29647222M",
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL17396365W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "local_id": [
+                "urn:bwbsku:280-BAB-074"
+            ],
+            "identifiers": {
+                "amazon": [
+                    ""
+                ]
+            },
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-29T08:39:44.253498"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-10T13:59:34.721465"
+            }
+        },
+        "/books/OL29127046M": {
+            "title": "Deal at the Altar",
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "publish_date": "2012",
+            "publishers": [
+                "Harlequin Mills & Boon, Limited",
+                "Thorndike Press"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-03-17:KQ-051-584",
+                "bwb:9780263225983",
+                "promise:bwb_daily_pallets_2021-05-25:KO-553-618"
+            ],
+            "isbn_13": [
+                "9780263225983"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Deal at the Altar",
+            "lc_classifications": [
+                ""
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general",
+                "Man-woman relationships, fiction"
+            ],
+            "local_id": [
+                "urn:bwbsku:KQ-051-584",
+                "urn:bwbsku:KO-553-618"
+            ],
+            "key": "/books/OL29127046M",
+            "number_of_pages": 288,
+            "works": [
+                {
+                    "key": "/works/OL17396365W"
+                }
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-22T09:24:08.097189"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T12:56:27.538842"
+            }
+        },
+        "/books/OL29129488M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781408973882"
+            ],
+            "title": "Deal at the Altar",
+            "number_of_pages": 186,
+            "isbn_13": [
+                "9781408973882"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Deal at the Altar",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2012",
+            "key": "/books/OL29129488M",
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL17396365W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-22T10:04:59.906538"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-04T15:20:10.972350"
+            }
+        },
+        "/books/OL25977023M": {
+            "title": "A Deal at the Altar",
+            "subtitle": "Marriage by Command",
+            "publish_date": "2012",
+            "publishers": [
+                "Harlequin (UK)",
+                "Mills & Boon S/O"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-09-06:KR-046-053",
+                "ia:dealatalter0000grah",
+                "bwb:9780263890563",
+                "promise:bwb_daily_pallets_2021-05-19:KO-645-103",
+                "promise:bwb_daily_pallets_2021-05-06:KO-837-564"
+            ],
+            "covers": [
+                7495611
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:KR-046-053",
+                "urn:bwbsku:KO-645-103",
+                "urn:bwbsku:KO-837-564"
+            ],
+            "key": "/books/OL25977023M",
+            "works": [
+                {
+                    "key": "/works/OL17396365W"
+                }
+            ],
+            "identifiers": {},
+            "ocaid": "dealatalter0000grah",
+            "isbn_13": [
+                "9780263890563"
+            ],
+            "classifications": {},
+            "lc_classifications": [
+                "PR6057.R2374"
+            ],
+            "latest_revision": 15,
+            "revision": 15,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2016-10-14T03:22:53.414165"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-22T15:21:37.397780"
+            }
+        },
+        "/books/OL59030227M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "the secret agent",
+            "authors": [
+                {
+                    "key": "/authors/OL19441A"
+                }
+            ],
+            "publish_date": "1968",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 354,
+            "publishers": [
+                "Heron Books"
+            ],
+            "source_records": [
+                "ia:secretagent0000jose_s2w0"
+            ],
+            "ocaid": "secretagent0000jose_s2w0",
+            "full_title": "the secret agent",
+            "works": [
+                {
+                    "key": "/works/OL39108W"
+                }
+            ],
+            "key": "/books/OL59030227M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-05-12T00:18:16.451282"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-27T05:56:34.412195"
+            }
+        },
+        "/books/OL56703744M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL19441A"
+                }
+            ],
+            "isbn_13": [
+                "9781727608564"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 548,
+            "publish_date": "2018",
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "source_records": [
+                "bwb:9781727608564"
+            ],
+            "title": "Secret Agent",
+            "weight": "1.541",
+            "subtitle": "Large Print",
+            "full_title": "Secret Agent Large Print",
+            "works": [
+                {
+                    "key": "/works/OL39108W"
+                }
+            ],
+            "key": "/books/OL56703744M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-10-05T01:36:30.399986"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-27T05:56:34.412195"
+            }
+        },
+        "/books/OL7433760M": {
+            "identifiers": {
+                "goodreads": [
+                    "350710"
+                ],
+                "librarything": [
+                    "79809"
+                ]
+            },
+            "title": "The Magic Of You (Malory Novels)",
+            "authors": [
+                {
+                    "key": "/authors/OL23108A"
+                }
+            ],
+            "publish_date": "March 29, 2005",
+            "publishers": [
+                "Avon"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "covers": [
+                235670
+            ],
+            "isbn_13": [
+                "9780380756292"
+            ],
+            "isbn_10": [
+                "0380756293"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "The barmaid sighed and sighed again, because the three handsome gentlemen, all young lords by the look of them, had requested no more than drinks from her, despite her best efforts to offer them her favors as well."
+            },
+            "source_records": [
+                "amazon:0380756293"
+            ],
+            "key": "/books/OL7433760M",
+            "number_of_pages": 407,
+            "works": [
+                {
+                    "key": "/works/OL15660W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-13T15:10:02.625093"
+            }
+        },
+        "/books/OL23056322M": {
+            "publishers": [
+                "AST"
+            ],
+            "series": [
+                "Sobranie sochineniĭ -- vyp. 28"
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2011-11-22T21:24:16.744386"
+            },
+            "latest_revision": 17,
+            "key": "/books/OL23056322M",
+            "authors": [
+                {
+                    "key": "/authors/OL23108A"
+                }
+            ],
+            "publish_places": [
+                "Moskva"
+            ],
+            "pagination": "318 p. ;",
+            "source_records": [
+                "marc:SanFranPL09/SanFranPL09.out:86254204:1111"
+            ],
+            "title": "Magii︠a︡ li︠u︡bvi",
+            "work_titles": [
+                "Magic of you."
+            ],
+            "number_of_pages": 318,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-02-18T07:30:07.964828"
+            },
+            "languages": [
+                {
+                    "key": "/languages/rus"
+                }
+            ],
+            "isbn_10": [
+                "5237053122"
+            ],
+            "publish_date": "2000",
+            "publish_country": "ru ",
+            "by_statement": "Dzhoanna Lindseĭ ; [perevod s angliĭskogo E.G. Shabalovoĭ].",
+            "oclc_numbers": [
+                "46593848"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL15660W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 17
+        },
+        "/books/OL29105852M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781408940129"
+            ],
+            "title": "Husband Test",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781408940129"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Husband Test",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2011",
+            "key": "/books/OL29105852M",
+            "authors": [
+                {
+                    "key": "/authors/OL3292941A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3498567W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-22T03:50:14.160211"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-17T23:03:18.526237"
+            }
+        },
+        "/books/OL28952811M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited",
+                "Harlequin Mills & Boon"
+            ],
+            "source_records": [
+                "bwb:9780263170931",
+                "amazon:0263170934"
+            ],
+            "title": "Husband Test",
+            "number_of_pages": 186,
+            "isbn_13": [
+                "9780263170931"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Husband Test",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2001",
+            "key": "/books/OL28952811M",
+            "authors": [
+                {
+                    "key": "/authors/OL3292941A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3498567W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "covers": [
+                13855216
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T05:43:51.252194"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-04-07T16:41:17.160212"
+            }
+        },
+        "/books/OL28953002M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263825541"
+            ],
+            "title": "Husband Test",
+            "number_of_pages": 186,
+            "isbn_13": [
+                "9780263825541"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Husband Test",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2001",
+            "key": "/books/OL28953002M",
+            "authors": [
+                {
+                    "key": "/authors/OL3292941A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3498567W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T05:49:17.060893"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-17T23:03:18.526237"
+            }
+        },
+        "/books/OL58723715M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Saturday's Child",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "publish_date": "1972",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 194,
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "ocaid": "bwb_W9-COF-418",
+            "source_records": [
+                "ia:bwb_W9-COF-418"
+            ],
+            "full_title": "Saturday's Child",
+            "works": [
+                {
+                    "key": "/works/OL16471161W"
+                }
+            ],
+            "key": "/books/OL58723715M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-04-28T02:05:07.432291"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-05-31T12:29:02.711681"
+            }
+        },
+        "/books/OL37438694M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "isbn_13": [
+                "9781459296169"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2016",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781459296169"
+            ],
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "title": "Saturday's Child",
+            "full_title": "Saturday's Child",
+            "works": [
+                {
+                    "key": "/works/OL16471161W"
+                }
+            ],
+            "key": "/books/OL37438694M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-03-01T18:53:36.519231"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-08T21:51:26.503088"
+            }
+        },
+        "/books/OL37824318M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "1998",
+            "copyright_date": "1972",
+            "publish_country": "onc",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "edition_name": "Collector's Edition",
+            "title": "Saturday's Child",
+            "by_statement": "Betty Neels",
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "publish_places": [
+                "Toronto"
+            ],
+            "pagination": "221 p.",
+            "number_of_pages": 221,
+            "source_records": [
+                "ia:saturdayschild0000neel_a7i0",
+                "bwb:9780373833948",
+                "promise:bwb_daily_pallets_2022-03-17"
+            ],
+            "full_title": "Saturday's child",
+            "covers": [
+                12725230
+            ],
+            "works": [
+                {
+                    "key": "/works/OL16471161W"
+                }
+            ],
+            "key": "/books/OL37824318M",
+            "identifiers": {},
+            "local_id": [
+                "urn:bwbsku:P7-BWA-693"
+            ],
+            "ocaid": "saturdayschild0000neel_a7i0",
+            "isbn_10": [
+                "0373833946"
+            ],
+            "isbn_13": [
+                "9780373833948"
+            ],
+            "oclc_numbers": [
+                "46564051"
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-04-20T06:13:29.398328"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-03-02T13:16:12.837421"
+            }
+        },
+        "/books/OL29136676M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781408982167"
+            ],
+            "title": "Saturday's Child",
+            "number_of_pages": 220,
+            "isbn_13": [
+                "9781408982167"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Saturday's Child",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2012",
+            "key": "/books/OL29136676M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL16471161W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-22T11:56:19.340228"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-06-23T20:07:22.232316"
+            }
+        },
+        "/books/OL14980165M": {
+            "title": "Saturday's child.",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "publish_date": "1980",
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263732606"
+            ],
+            "publish_country": "xxk",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:517258134:368"
+            ],
+            "key": "/books/OL14980165M",
+            "works": [
+                {
+                    "key": "/works/OL16471161W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T23:20:43.204518"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-25T20:39:35.095182"
+            }
+        },
+        "/books/OL9635879M": {
+            "publishers": [
+                "Ulverscroft Large Print"
+            ],
+            "number_of_pages": 336,
+            "weight": "13.1 ounces",
+            "series": [
+                "Harlequin Romance, 1666"
+            ],
+            "covers": [
+                4996673
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL9635879M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "subjects": [
+                "Romance",
+                "Romance: Modern",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance - General"
+            ],
+            "edition_name": "Largeprint edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "classifications": {},
+            "title": "Saturday's Child",
+            "identifiers": {
+                "goodreads": [
+                    "7038023"
+                ]
+            },
+            "isbn_13": [
+                "9781842620885"
+            ],
+            "isbn_10": [
+                "1842620886"
+            ],
+            "publish_date": "August 2001",
+            "works": [
+                {
+                    "key": "/works/OL16471161W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.4 x 5.5 x 0.8 inches",
+            "local_id": [
+                "urn:bwbsku:KR-216-109"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-08-30"
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-04T15:27:49.348481"
+            }
+        },
+        "/books/OL47719042M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL22022A"
+                }
+            ],
+            "local_id": [
+                "urn:bwbsku:KS-258-964"
+            ],
+            "publish_date": "1999-01-01",
+            "publishers": [
+                "J'Ai Lu"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-03-24:KS-258-964"
+            ],
+            "title": "Un amour exceptionnel",
+            "works": [
+                {
+                    "key": "/works/OL137222W"
+                }
+            ],
+            "key": "/books/OL47719042M",
+            "identifiers": {},
+            "isbn_10": [
+                "2277241016"
+            ],
+            "isbn_13": [
+                "9782277241010"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "translation_of": "Hazard of Hearts",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-05-04T03:50:55.907281"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-05-10T21:02:30.002504"
+            }
+        },
+        "/books/OL7656934M": {
+            "publishers": [
+                "Jove"
+            ],
+            "classifications": {},
+            "title": "Hazard Of Hearts",
+            "identifiers": {
+                "goodreads": [
+                    "1224369"
+                ],
+                "librarything": [
+                    "8535257"
+                ]
+            },
+            "isbn_13": [
+                "9780515095128"
+            ],
+            "physical_format": "Paperback",
+            "isbn_10": [
+                "0515095125"
+            ],
+            "publish_date": "January 1, 1988",
+            "key": "/books/OL7656934M",
+            "authors": [
+                {
+                    "key": "/authors/OL20452A"
+                }
+            ],
+            "oclc_numbers": [
+                "17391817"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL137222W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction - Romance",
+                "Romance - General",
+                "Romance: Regency",
+                "Fiction"
+            ],
+            "source_records": [
+                "bwb:9780515095128",
+                "marc:harvard_bibliographic_metadata/ab.bib.13.20150123.full.mrc:791168065:599",
+                "marc:harvard_bibliographic_metadata/20220215_038.bib.mrc:152544728:1865"
+            ],
+            "number_of_pages": 287,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "\"Serena was happy at Staverley. She loved to roam the stately gardens of her family manor and dream of her future love. But then cruel fate dealt her a shattering blow. Her father was killed in a duel after losing her hand, her inheritance and her home in a game of cards. All this was now the property of the infamous Marquis of Vulcan -- a man whose reputation made it unwise for any decent woman to be seen in his company. A strange, cold man whose clifftop mansion echoed with terrible secrets.\" --Back cover."
+            },
+            "latest_revision": 13,
+            "revision": 13,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-05-04T05:12:08.849406"
+            }
+        },
+        "/books/OL10428667M": {
+            "publishers": [
+                "Pyramid Press"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "title": "A Hazard of Hearts",
+            "identifiers": {
+                "librarything": [
+                    "8535257"
+                ]
+            },
+            "isbn_13": [
+                "9780515036480"
+            ],
+            "physical_format": "Mass Market Paperback",
+            "isbn_10": [
+                "051503648X"
+            ],
+            "publish_date": "1975",
+            "key": "/books/OL10428667M",
+            "works": [
+                {
+                    "key": "/works/OL137222W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                13495939
+            ],
+            "source_records": [
+                "amazon:051503648X"
+            ],
+            "number_of_pages": 287,
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-03-16T08:21:50.115468"
+            }
+        },
+        "/books/OL14905209M": {
+            "publishers": [
+                "Arrow Books"
+            ],
+            "number_of_pages": 256,
+            "covers": [
+                6666566
+            ],
+            "key": "/books/OL14905209M",
+            "authors": [
+                {
+                    "key": "/authors/OL20452A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "256p. ;",
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:421587850:628",
+                "bwb:9780099076704"
+            ],
+            "title": "A Hazard of Hearts",
+            "notes": "Originally published, London, Rich and Cowan, 1949.",
+            "identifiers": {
+                "goodreads": [
+                    "1394220"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1973",
+            "publish_country": "xxk",
+            "by_statement": "Barbara Cartland.",
+            "works": [
+                {
+                    "key": "/works/OL137222W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "classifications": {},
+            "isbn_10": [
+                "0099076705"
+            ],
+            "oclc_numbers": [
+                "16236864"
+            ],
+            "dewey_decimal_class": [
+                "823/.9/1"
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T12:14:54.737208"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-09-25T09:48:24.023538"
+            }
+        },
+        "/books/OL24405468M": {
+            "publishers": [
+                "Pyramid Books"
+            ],
+            "pagination": "287 pages",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "title": "A Hazard of Hearts",
+            "number_of_pages": 287,
+            "physical_format": "Mass Market Paperback",
+            "publish_date": "1975",
+            "key": "/books/OL24405468M",
+            "works": [
+                {
+                    "key": "/works/OL137222W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_10": [
+                "051503648X"
+            ],
+            "isbn_13": [
+                "9780515036480"
+            ],
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-11-04T20:43:00.923740"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-09-25T09:47:50.931466"
+            }
+        },
+        "/books/OL9816067M": {
+            "publishers": [
+                "Magna Large Print Books"
+            ],
+            "source_records": [
+                "amazon:1850573638:2-av:1567930975:228537",
+                "bwb:9781850573630"
+            ],
+            "title": "A Hazard of Hearts",
+            "number_of_pages": 250,
+            "physical_format": "Hardcover",
+            "publish_date": "1995",
+            "key": "/books/OL9816067M",
+            "authors": [
+                {
+                    "key": "/authors/OL22022A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL137222W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Romance"
+            ],
+            "identifiers": {},
+            "isbn_10": [
+                "1850573638"
+            ],
+            "isbn_13": [
+                "9781850573630"
+            ],
+            "oclc_numbers": [
+                "17259707"
+            ],
+            "classifications": {},
+            "lc_classifications": [
+                "PR6005.A765"
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T03:24:27.176320"
+            }
+        },
+        "/books/OL14899178M": {
+            "publishers": [
+                "Hurst & Blackett"
+            ],
+            "key": "/books/OL14899178M",
+            "authors": [
+                {
+                    "key": "/authors/OL22022A"
+                }
+            ],
+            "pagination": "256p.,19cm",
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:418845641:537",
+                "bwb:9780090889709",
+                "promise:bwb_daily_pallets_2022-05-23"
+            ],
+            "title": "A Hazard of Hearts",
+            "notes": "Originally published, Rich & Cowan, 1949.",
+            "number_of_pages": 256,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1968",
+            "publish_country": "xxk",
+            "works": [
+                {
+                    "key": "/works/OL137222W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:KQ-915-668"
+            ],
+            "identifiers": {},
+            "isbn_10": [
+                "0090889703"
+            ],
+            "oclc_numbers": [
+                "30276222"
+            ],
+            "classifications": {},
+            "dewey_decimal_class": [
+                "823.91"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T11:26:50.634391"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-09-25T09:49:39.549633"
+            }
+        },
+        "/books/OL10241535M": {
+            "publishers": [
+                "Thorndike Press"
+            ],
+            "weight": "13.6 ounces",
+            "covers": [
+                5046520
+            ],
+            "physical_format": "Hardcover",
+            "key": "/books/OL10241535M",
+            "authors": [
+                {
+                    "key": "/authors/OL1386224A"
+                }
+            ],
+            "subjects": [
+                "Romance",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern",
+                "Romance - General",
+                "Romance - Contemporary"
+            ],
+            "edition_name": "Large Print Edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "bwb:9780263167696"
+            ],
+            "title": "Her Secret Bridegroom",
+            "number_of_pages": 288,
+            "publish_date": "July 2001",
+            "works": [
+                {
+                    "key": "/works/OL5695642W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.5 x 5.5 x 1.1 inches",
+            "identifiers": {},
+            "isbn_10": [
+                "0263167690"
+            ],
+            "isbn_13": [
+                "9780263167696"
+            ],
+            "classifications": {},
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-03-27T09:17:54.002304"
+            }
+        },
+        "/books/OL10280652M": {
+            "identifiers": {
+                "librarything": [
+                    "3742982"
+                ],
+                "goodreads": [
+                    "2150271"
+                ]
+            },
+            "title": "Caprice",
+            "subtitle": "Mills & Boon Romance #2592",
+            "authors": [
+                {
+                    "key": "/authors/OL3285874A"
+                }
+            ],
+            "publish_date": "August 1986",
+            "publishers": [
+                "Mills And Boon"
+            ],
+            "covers": [
+                8577702
+            ],
+            "physical_format": "Paperback",
+            "publish_places": [
+                "London"
+            ],
+            "isbn_13": [
+                "9780263754292"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263754294"
+            ],
+            "oclc_numbers": [
+                "655157096"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:0263754294"
+            ],
+            "key": "/books/OL10280652M",
+            "number_of_pages": 190,
+            "works": [
+                {
+                    "key": "/works/OL8531476W"
+                }
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-30T09:32:35.917545"
+            }
+        },
+        "/books/OL29246240M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781472031976"
+            ],
+            "title": "The Seduction Business",
+            "number_of_pages": 192,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Seduction Business",
+            "publish_date": "2014",
+            "key": "/books/OL29246240M",
+            "authors": [
+                {
+                    "key": "/authors/OL4728806A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3294391W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, contemporary"
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9781472031976"
+            ],
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-23T20:09:47.181445"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-04T06:40:35.883556"
+            }
+        },
+        "/books/OL38291199M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "isbn_13": [
+                "9781322062402"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2014",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781322062402"
+            ],
+            "title": "For the Love of Sara",
+            "full_title": "For the Love of Sara",
+            "works": [
+                {
+                    "key": "/works/OL3771217W"
+                }
+            ],
+            "key": "/books/OL38291199M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-17T16:43:11.188842"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL29241948M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781472099365"
+            ],
+            "title": "Dangerous Temptation",
+            "number_of_pages": 192,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Dangerous Temptation",
+            "publish_date": "2014",
+            "key": "/books/OL29241948M",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3771264W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9781472099365"
+            ],
+            "classifications": {},
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-23T19:08:41.691860"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL9599958M": {
+            "publishers": [
+                "Mira Books"
+            ],
+            "physical_format": "Hardcover",
+            "source_records": [
+                "bwb:9781551663593"
+            ],
+            "title": "Dangerous Temptation",
+            "number_of_pages": 556,
+            "edition_name": "Large Print Ed edition",
+            "isbn_13": [
+                "9781551663593"
+            ],
+            "isbn_10": [
+                "1551663597"
+            ],
+            "publish_date": "August 15, 1997",
+            "key": "/books/OL9599958M",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "oclc_numbers": [
+                "222310706"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3771264W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Modern fiction",
+                "Romance"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL9784792M": {
+            "publishers": [
+                "Mira Books"
+            ],
+            "physical_format": "Hardcover",
+            "source_records": [
+                "bwb:9781551663623"
+            ],
+            "title": "Dangerous Temptation",
+            "number_of_pages": 378,
+            "covers": [
+                5013864
+            ],
+            "isbn_13": [
+                "9781551663623"
+            ],
+            "isbn_10": [
+                "1551663627"
+            ],
+            "publish_date": "March 21, 1997",
+            "key": "/books/OL9784792M",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "oclc_numbers": [
+                "59649975"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3771264W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Modern fiction",
+                "Romance"
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL8553028M": {
+            "identifiers": {
+                "librarything": [
+                    "1802700"
+                ],
+                "goodreads": [
+                    "1739364"
+                ]
+            },
+            "title": "Dangerous Temptation",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "publish_date": "January 1, 1997",
+            "publishers": [
+                "Mira"
+            ],
+            "weight": "8 ounces",
+            "covers": [
+                4817202
+            ],
+            "physical_format": "Paperback",
+            "subjects": [
+                "Romance - General",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern",
+                "FIC",
+                "FIC027020",
+                "Non-Classifiable",
+                "Romance",
+                "Romance - Contemporary"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-01-11:O7-AWI-874",
+                "bwb:9781551662695",
+                "amazon:1551662698",
+                "promise:bwb_daily_pallets_2020-11-30:O7-AOK-999",
+                "promise:bwb_daily_pallets_2020-11-12:o7-biv-298",
+                "promise:bwb_daily_pallets_2020-10-20:W6-ABB-649",
+                "promise:bwb_daily_pallets_2020-07-07:P6-BXK-111"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.6 x 4 x 1.1 inches",
+            "local_id": [
+                "urn:bwbsku:O7-AWI-874",
+                "urn:bwbsku:O7-AOK-999",
+                "urn:bwbsku:O7-BIV-298",
+                "urn:bwbsku:W6-ABB-649",
+                "urn:bwbsku:P6-BXK-111"
+            ],
+            "key": "/books/OL8553028M",
+            "number_of_pages": 378,
+            "works": [
+                {
+                    "key": "/works/OL3771264W"
+                }
+            ],
+            "ocaid": "dangeroustemptat00anne",
+            "isbn_10": [
+                "1551662698"
+            ],
+            "isbn_13": [
+                "9781551662695"
+            ],
+            "oclc_numbers": [
+                "36221790"
+            ],
+            "classifications": {},
+            "latest_revision": 25,
+            "revision": 25,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T06:33:27.187047"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL7433758M": {
+            "identifiers": {
+                "librarything": [
+                    "69750"
+                ],
+                "goodreads": [
+                    "419280"
+                ],
+                "amazon": [
+                    ""
+                ]
+            },
+            "title": "Once a Princess",
+            "authors": [
+                {
+                    "key": "/authors/OL23108A"
+                }
+            ],
+            "publish_date": "June 1, 1991",
+            "publishers": [
+                "Avon Books",
+                "Avon"
+            ],
+            "ia_box_id": [
+                "IA116702"
+            ],
+            "covers": [
+                235666,
+                6796454
+            ],
+            "full_title": "Once a princess",
+            "ocaid": "onceprincess00lind",
+            "publish_places": [
+                "New York"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-05-13:KO-962-199",
+                "ia:onceprincess00lind",
+                "bwb:9780380756254",
+                "promise:bwb_daily_pallets_2021-03-08:O7-AAP-580",
+                "promise:bwb_daily_pallets_2021-03-08:W6-BWJ-374",
+                "promise:bwb_daily_pallets_2021-03-08:O7-DKK-157",
+                "promise:bwb_daily_pallets_2021-03-08:O7-DRU-923",
+                "promise:bwb_daily_pallets_2020-10-07:P4-BHG-223"
+            ],
+            "isbn_13": [
+                "9780380756254"
+            ],
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "The Crown Prince of Cardinia drew to a halt upon entering the anteroom outside the royal bedchamber."
+            },
+            "isbn_10": [
+                "0380756250"
+            ],
+            "publish_country": "xxu",
+            "by_statement": "Johanna Lindsey",
+            "type": {
+                "key": "/type/edition"
+            },
+            "lc_classifications": [
+                "CPB Box no.329 vol.2"
+            ],
+            "local_id": [
+                "urn:bwbsku:KO-962-199",
+                "urn:bwbsku:O7-AAP-580",
+                "urn:bwbsku:W6-BWJ-374",
+                "urn:bwbsku:O7-DKK-157",
+                "urn:bwbsku:O7-DRU-923",
+                "urn:bwbsku:P4-BHG-223"
+            ],
+            "key": "/books/OL7433758M",
+            "number_of_pages": 428,
+            "works": [
+                {
+                    "key": "/works/OL15622W"
+                }
+            ],
+            "latest_revision": 25,
+            "revision": 25,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T17:38:55.067624"
+            }
+        },
+        "/books/OL9850583M": {
+            "publishers": [
+                "G K Hall & Co"
+            ],
+            "weight": "1.6 pounds",
+            "isbn_10": [
+                "0816153124"
+            ],
+            "edition_name": "Largeprint edition",
+            "physical_format": "Hardcover",
+            "key": "/books/OL9850583M",
+            "authors": [
+                {
+                    "key": "/authors/OL23108A"
+                }
+            ],
+            "subjects": [
+                "Large Print",
+                "Large type books",
+                "Love stories",
+                "Historical fiction"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "The Crown Prince of Cardinia drew to a halt upon entering the anteroom outside the royal bedchamber."
+            },
+            "source_records": [
+                "amazon:0816153124:2-ax:762079557:244158",
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run01.mrc:132304823:1494",
+                "ia:onceprincess0000lind",
+                "amazon:0816153124"
+            ],
+            "title": "Once a Princess (G K Hall Large Print Book Series)",
+            "identifiers": {
+                "goodreads": [
+                    "7079404"
+                ]
+            },
+            "isbn_13": [
+                "9780816153121"
+            ],
+            "local_id": [
+                "urn:sfpl:31223030152483"
+            ],
+            "publish_date": "February 1992",
+            "works": [
+                {
+                    "key": "/works/OL15622W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9.5 x 6.5 x 1 inches",
+            "covers": [
+                11963975
+            ],
+            "ocaid": "onceprincess0000lind",
+            "lccn": [
+                "91030158"
+            ],
+            "lc_classifications": [
+                "PS3562.I5123 O5 1992"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-11-15T00:53:18.660132"
+            }
+        },
+        "/books/OL9873828M": {
+            "publishers": [
+                "G K Hall & Co"
+            ],
+            "weight": "1.3 pounds",
+            "physical_format": "Paperback",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2010-08-12T14:05:39.322396"
+            },
+            "latest_revision": 5,
+            "key": "/books/OL9873828M",
+            "authors": [
+                {
+                    "key": "/authors/OL23108A"
+                }
+            ],
+            "subjects": [
+                "Large Print",
+                "Romance - General",
+                "Large type books",
+                "Love stories",
+                "Historical fiction"
+            ],
+            "edition_name": "Largeprint edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "The Crown Prince of Cardinia drew to a halt upon entering the anteroom outside the royal bedchamber."
+            },
+            "source_records": [
+                "amazon:0816153132:2-ay:1796249135:253947"
+            ],
+            "title": "Once a Princess (G K Hall Large Print Book Series)",
+            "identifiers": {
+                "goodreads": [
+                    "7079403"
+                ],
+                "librarything": [
+                    "69750"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "isbn_13": [
+                "9780816153138"
+            ],
+            "isbn_10": [
+                "0816153132"
+            ],
+            "publish_date": "February 1992",
+            "works": [
+                {
+                    "key": "/works/OL15622W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9.1 x 5.9 x 0.4 inches",
+            "revision": 5
+        },
+        "/books/OL29651805M": {
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "source_records": [
+                "bwb:9781459227170"
+            ],
+            "title": "Deal at the Altar",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781459227170"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Deal at the Altar",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2012",
+            "key": "/books/OL29651805M",
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL17396365W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-29T10:08:37.008788"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-04T15:20:10.972350"
+            }
+        },
+        "/books/OL29672083M": {
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "source_records": [
+                "bwb:9781459253971"
+            ],
+            "title": "Deal at the Altar",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781459253971"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Deal at the Altar",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2013",
+            "key": "/books/OL29672083M",
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL17396365W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, contemporary"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-29T17:23:19.360101"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-04T15:20:10.972350"
+            }
+        },
+        "/books/OL59030224M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "The Secret Agent",
+            "authors": [
+                {
+                    "key": "/authors/OL19441A"
+                }
+            ],
+            "publish_date": "2001",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 300,
+            "publishers": [
+                "The Folio Society"
+            ],
+            "source_records": [
+                "ia:secretagent0000jose"
+            ],
+            "ocaid": "secretagent0000jose",
+            "full_title": "The Secret Agent",
+            "works": [
+                {
+                    "key": "/works/OL39108W"
+                }
+            ],
+            "key": "/books/OL59030224M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-05-12T00:18:13.108450"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-27T05:56:34.412195"
+            }
+        },
+        "/books/OL59030243M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "The Secret Agent",
+            "authors": [
+                {
+                    "key": "/authors/OL19441A"
+                }
+            ],
+            "publish_date": "1953",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 258,
+            "publishers": [
+                "Doubleday & Company, Inc."
+            ],
+            "source_records": [
+                "ia:secretagentsimpl0000conr_c1x4"
+            ],
+            "ocaid": "secretagentsimpl0000conr_c1x4",
+            "subtitle": "A Simple Tale",
+            "full_title": "The Secret Agent A Simple Tale",
+            "works": [
+                {
+                    "key": "/works/OL39108W"
+                }
+            ],
+            "key": "/books/OL59030243M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-05-12T00:19:04.855376"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-27T05:56:34.412195"
+            }
+        },
+        "/books/OL56748171M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL19441A"
+                }
+            ],
+            "dewey_decimal_class": [
+                "823/.912"
+            ],
+            "isbn_13": [
+                "9781729605820"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 502,
+            "publish_date": "2018",
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "source_records": [
+                "bwb:9781729605820"
+            ],
+            "subjects": [
+                "Drama (dramatic works by one author)"
+            ],
+            "title": "Secret Agent",
+            "weight": "0.836",
+            "full_title": "Secret Agent",
+            "works": [
+                {
+                    "key": "/works/OL39108W"
+                }
+            ],
+            "key": "/books/OL56748171M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-10-05T07:59:09.088885"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-27T05:56:34.412195"
+            }
+        },
+        "/books/OL56771980M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL19441A"
+                }
+            ],
+            "dewey_decimal_class": [
+                "823/.912"
+            ],
+            "isbn_13": [
+                "9781717326768"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 234,
+            "publish_date": "2019",
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "source_records": [
+                "bwb:9781717326768"
+            ],
+            "subjects": [
+                "Drama (dramatic works by one author)"
+            ],
+            "title": "Secret Agent",
+            "weight": "0.318",
+            "full_title": "Secret Agent",
+            "works": [
+                {
+                    "key": "/works/OL39108W"
+                }
+            ],
+            "key": "/books/OL56771980M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-10-05T11:21:56.102105"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-27T05:56:34.412195"
+            }
+        },
+        "/books/OL56779605M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL19441A"
+                }
+            ],
+            "dewey_decimal_class": [
+                "823/.912"
+            ],
+            "isbn_13": [
+                "9781726229166"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 242,
+            "publish_date": "2018",
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "source_records": [
+                "bwb:9781726229166"
+            ],
+            "subjects": [
+                "Drama (dramatic works by one author)"
+            ],
+            "title": "Secret Agent",
+            "weight": "0.427",
+            "full_title": "Secret Agent",
+            "works": [
+                {
+                    "key": "/works/OL39108W"
+                }
+            ],
+            "key": "/books/OL56779605M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-10-05T12:30:40.874883"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-27T05:56:34.412195"
+            }
+        },
+        "/books/OL56704121M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL19441A"
+                }
+            ],
+            "isbn_13": [
+                "9781727578379"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 236,
+            "publish_date": "2018",
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "source_records": [
+                "bwb:9781727578379"
+            ],
+            "title": "Secret Agent",
+            "weight": "0.323",
+            "subtitle": "a Simple Tale",
+            "full_title": "Secret Agent a Simple Tale",
+            "works": [
+                {
+                    "key": "/works/OL39108W"
+                }
+            ],
+            "key": "/books/OL56704121M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-10-05T01:37:43.399767"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-27T05:56:34.412195"
+            }
+        },
+        "/books/OL56716345M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL19441A"
+                }
+            ],
+            "isbn_13": [
+                "9781725750173"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 330,
+            "publish_date": "2018",
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "source_records": [
+                "bwb:9781725750173"
+            ],
+            "title": "Secret Agent",
+            "weight": "0.945",
+            "subtitle": "Large Print",
+            "full_title": "Secret Agent Large Print",
+            "works": [
+                {
+                    "key": "/works/OL39108W"
+                }
+            ],
+            "key": "/books/OL56716345M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-10-05T03:19:33.724855"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-27T05:56:34.412195"
+            }
+        },
+        "/books/OL56740331M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL19441A"
+                }
+            ],
+            "isbn_13": [
+                "9781726478267"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 164,
+            "publish_date": "2018",
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "source_records": [
+                "bwb:9781726478267"
+            ],
+            "title": "Secret Agent",
+            "weight": "0.305",
+            "subtitle": "Second Edition",
+            "full_title": "Secret Agent Second Edition",
+            "works": [
+                {
+                    "key": "/works/OL39108W"
+                }
+            ],
+            "key": "/books/OL56740331M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-10-05T06:18:16.972368"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-27T05:56:34.412195"
+            }
+        },
+        "/books/OL23040945M": {
+            "publishers": [
+                "Xi dai shu ban you xian gong si"
+            ],
+            "series": [
+                "Rou qing xi lie -- 242"
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2011-11-22T21:24:16.744386"
+            },
+            "latest_revision": 17,
+            "key": "/books/OL23040945M",
+            "authors": [
+                {
+                    "key": "/authors/OL23108A"
+                }
+            ],
+            "publish_places": [
+                "Taibei Shi"
+            ],
+            "pagination": "332 p. ;",
+            "source_records": [
+                "marc:SanFranPL06/SanFranPL06.out:79184992:1305"
+            ],
+            "title": "Qi qin Xiao lang",
+            "work_titles": [
+                "Magic of you."
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Translation of: The magic of you."
+            },
+            "number_of_pages": 332,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-02-18T04:38:32.555691"
+            },
+            "languages": [
+                {
+                    "key": "/languages/chi"
+                }
+            ],
+            "isbn_10": [
+                "9575448537"
+            ],
+            "publish_date": "1994",
+            "publish_country": "ch ",
+            "by_statement": "Qiao'anna Linsai ; yi zhe Chen Bocang.",
+            "oclc_numbers": [
+                "32996385"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL15660W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 17
+        },
+        "/books/OL24709638M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "table_of_contents": [
+                {
+                    "level": 0,
+                    "title": "Marriage on trial...",
+                    "type": {
+                        "key": "/type/toc_item"
+                    }
+                },
+                {
+                    "level": 0,
+                    "title": "For months, Katrina has tried to forget she's still married to Nicos Kasoulis! As newlyweds, they were bonded by desire. Then Katrina became convinced her powerful, sexy, property tycoon husband was having an affair....",
+                    "type": {
+                        "key": "/type/toc_item"
+                    }
+                },
+                {
+                    "level": 0,
+                    "title": "Now Katrina discovers that, under her father's will, she can only gain control of the family business if she's reconciled with Nicos -- for one year! Knowing Nicos expects her to refuse, should Katrina surprise him and put their marriage to the test?",
+                    "type": {
+                        "key": "/type/toc_item"
+                    }
+                }
+            ],
+            "ia_box_id": [
+                "IA133317"
+            ],
+            "isbn_10": [
+                "0263172856"
+            ],
+            "covers": [
+                6782895
+            ],
+            "full_title": "The husband test",
+            "key": "/books/OL24709638M",
+            "authors": [
+                {
+                    "key": "/authors/OL3292941A"
+                }
+            ],
+            "ocaid": "husbandtest00bian",
+            "publish_places": [
+                "Richmond"
+            ],
+            "edition_name": "Large print ed.",
+            "pagination": "1 v. ((large print) )",
+            "source_records": [
+                "ia:husbandtest00bian",
+                "bwb:9780263172850",
+                "promise:bwb_daily_pallets_2022-06-01"
+            ],
+            "title": "The husband test",
+            "dewey_decimal_class": [
+                "823.914"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Originally published: 2001."
+            },
+            "isbn_13": [
+                "9780263172850"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Large type books"
+            ],
+            "publish_date": "2002",
+            "publish_country": "enk",
+            "by_statement": "by Helen Bianchin",
+            "oclc_numbers": [
+                "59418428"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3498567W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:959-BAC-942"
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2011-06-29T17:13:03.860325"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-17T23:03:18.526237"
+            }
+        },
+        "/books/OL9613153M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "number_of_pages": 192,
+            "weight": "3.7 ounces",
+            "series": [
+                "Harlequin Presents, No. 2218"
+            ],
+            "covers": [
+                214834
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL9613153M",
+            "authors": [
+                {
+                    "key": "/authors/OL3292941A"
+                }
+            ],
+            "subjects": [
+                "Non-Classifiable",
+                "Romance - Contemporary",
+                "Romance - General",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern"
+            ],
+            "isbn_13": [
+                "9780373122189"
+            ],
+            "classifications": {},
+            "source_records": [
+                "bwb:9780373122189",
+                "ia:husbandtest0000bian"
+            ],
+            "title": "Husband Test (Presents Passion)",
+            "identifiers": {
+                "goodreads": [
+                    "808258"
+                ],
+                "librarything": [
+                    "1630500"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373122187"
+            ],
+            "publish_date": "December 1, 2001",
+            "oclc_numbers": [
+                "48123701"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3498567W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.9 x 4.2 x 0.5 inches",
+            "ocaid": "husbandtest0000bian",
+            "latest_revision": 13,
+            "revision": 13,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-10-23T07:07:57.609059"
+            }
+        },
+        "/books/OL50063268M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "local_id": [
+                "urn:bwbsku:KT-089-522"
+            ],
+            "publish_date": "1972-12-01",
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-11-22:KT-089-522"
+            ],
+            "title": "Saturday's Child",
+            "full_title": "Saturday's Child",
+            "works": [
+                {
+                    "key": "/works/OL16471161W"
+                }
+            ],
+            "key": "/books/OL50063268M",
+            "identifiers": {},
+            "isbn_10": [
+                "0263714055"
+            ],
+            "isbn_13": [
+                "9780263714050"
+            ],
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-11-29T01:23:27.686329"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-13T21:04:08.047259"
+            }
+        },
+        "/books/OL10690606M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "title": "Saturday's Child",
+            "identifiers": {
+                "librarything": [
+                    "2248104"
+                ],
+                "goodreads": [
+                    "94096"
+                ]
+            },
+            "edition_name": "1st American edition",
+            "physical_format": "Paperback",
+            "publish_date": "1973",
+            "key": "/books/OL10690606M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "works": [
+                {
+                    "key": "/works/OL16471161W"
+                }
+            ],
+            "local_id": [
+                "urn:bwbsku:T2-CUJ-876"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-05-16"
+            ],
+            "isbn_10": [
+                "0373016662"
+            ],
+            "isbn_13": [
+                "9780373016662"
+            ],
+            "oclc_numbers": [
+                "35901845"
+            ],
+            "classifications": {},
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-03-18T15:34:03.113553"
+            }
+        },
+        "/books/OL28950558M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263799118",
+                "ia:saturdayschild0000neel_a2e6",
+                "amazon:0263799115",
+                "promise:bwb_daily_pallets_2020-09-09"
+            ],
+            "title": "Saturday's Child",
+            "number_of_pages": 221,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Saturday's Child",
+            "publish_date": "1997",
+            "key": "/books/OL28950558M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL16471161W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, contemporary",
+                "Fiction, medical",
+                "Netherlands, fiction"
+            ],
+            "covers": [
+                11709403
+            ],
+            "identifiers": {},
+            "ocaid": "saturdayschild0000neel_a2e6",
+            "isbn_13": [
+                "9780263799118"
+            ],
+            "classifications": {},
+            "edition_name": "Collector's Edition",
+            "local_id": [
+                "urn:bwbsku:KN-788-407"
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T04:30:14.126229"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-10T01:23:06.819082"
+            }
+        },
+        "/books/OL9424675M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "number_of_pages": 224,
+            "weight": "3.2 ounces",
+            "covers": [
+                1186172
+            ],
+            "physical_format": "Mass Market Paperback",
+            "key": "/books/OL9424675M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "subjects": [
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern",
+                "Romance - General",
+                "Fiction / Romance / General",
+                "General",
+                "Love stories"
+            ],
+            "isbn_13": [
+                "9780373198665"
+            ],
+            "source_records": [
+                "bwb:9780373198665"
+            ],
+            "title": "Saturday's Child (The Best of Betty Neels)",
+            "identifiers": {
+                "goodreads": [
+                    "129659"
+                ],
+                "librarything": [
+                    "2248104"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373198663"
+            ],
+            "publish_date": "April 10, 2007",
+            "oclc_numbers": [
+                "123119257"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL16471161W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.4 x 4.1 x 0.9 inches",
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-06-23T20:07:22.232316"
+            }
+        },
+        "/books/OL25177214M": {
+            "publishers": [
+                "Thorndike Press"
+            ],
+            "series": [
+                "Thorndike Press large print gentle romance"
+            ],
+            "covers": [
+                11300086,
+                8114282
+            ],
+            "full_title": "Saturday's child",
+            "key": "/books/OL25177214M",
+            "authors": [
+                {
+                    "key": "/authors/OL575932A"
+                }
+            ],
+            "publish_places": [
+                "Detroit"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "369 p. (large print) ;",
+            "source_records": [
+                "marc:marc_loc_updates/v40.i04.records.utf8:12820791:694",
+                "ia:saturdayschild0000neel",
+                "marc:marc_loc_2016/BooksAll.2016.part38.utf8:199912255:694",
+                "bwb:9781410442277",
+                "promise:bwb_daily_pallets_2021-05-13"
+            ],
+            "title": "Saturday's Child",
+            "number_of_pages": 369,
+            "edition_name": "Large Print Edition",
+            "subjects": [
+                "Large type books",
+                "Love stories"
+            ],
+            "publish_date": "2011",
+            "publish_country": "miu",
+            "by_statement": "Betty Neels",
+            "works": [
+                {
+                    "key": "/works/OL16471161W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "classifications": {},
+            "ocaid": "saturdayschild0000neel",
+            "isbn_10": [
+                "1410442276"
+            ],
+            "isbn_13": [
+                "9781410442277"
+            ],
+            "lccn": [
+                "2011032086"
+            ],
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "lc_classifications": [
+                "PR6064.E42 S28 2011"
+            ],
+            "local_id": [
+                "urn:bwbsku:O7-CKS-693"
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2012-01-25T10:35:04.538069"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-14T19:43:58.467502"
+            }
+        },
+        "/books/OL10738957M": {
+            "notes": "Harlequin Presents Plus",
+            "identifiers": {
+                "librarything": [
+                    "2082227"
+                ]
+            },
+            "title": "Tidewater Seduction",
+            "authors": [
+                {
+                    "key": "/authors/OL2705359A"
+                }
+            ],
+            "publish_date": "September 1, 1993",
+            "publishers": [
+                "Harlequin"
+            ],
+            "weight": "1.6 ounces",
+            "covers": [
+                9322247,
+                7999201
+            ],
+            "physical_format": "Paperback",
+            "subjects": [
+                "Non-Classifiable",
+                "Romance - General",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Regency"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-04-18:O8-AGU-838",
+                "ia:tidewaterseducti00math_0",
+                "bwb:9780373115914",
+                "promise:bwb_daily_pallets_2021-08-03:P7-CNW-964",
+                "promise:bwb_daily_pallets_2021-06-21:P7-BSM-461"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.7 x 4.1 x 0.6 inches",
+            "local_id": [
+                "urn:bwbsku:O8-AGU-838",
+                "urn:bwbsku:P7-CNW-964",
+                "urn:bwbsku:P7-BSM-461"
+            ],
+            "key": "/books/OL10738957M",
+            "works": [
+                {
+                    "key": "/works/OL3771182W"
+                }
+            ],
+            "ocaid": "tidewaterseducti00math_0",
+            "isbn_10": [
+                "0373115911"
+            ],
+            "isbn_13": [
+                "9780373115914"
+            ],
+            "oclc_numbers": [
+                "28322533"
+            ],
+            "classifications": {},
+            "latest_revision": 17,
+            "revision": 17,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-18T05:54:12.975325"
+            }
+        },
+        "/books/OL9727577M": {
+            "publishers": [
+                "MacMillan Publishing Company"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "amazon:1850573646:2-ar:3004702718:225354",
+                "bwb:9781850573647",
+                "ia:hazardofhearts0000cart",
+                "promise:bwb_daily_pallets_2022-03-17"
+            ],
+            "title": "A Hazard of Hearts",
+            "number_of_pages": 250,
+            "edition_name": "Large Print Edition",
+            "physical_format": "Paperback",
+            "publish_date": "June 1988",
+            "key": "/books/OL9727577M",
+            "authors": [
+                {
+                    "key": "/authors/OL20452A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL137222W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Romance",
+                "Romance - General",
+                "Fiction - Romance"
+            ],
+            "covers": [
+                12679703
+            ],
+            "local_id": [
+                "urn:bwbsku:P7-CXO-025"
+            ],
+            "identifiers": {},
+            "classifications": {},
+            "ocaid": "hazardofhearts0000cart",
+            "isbn_10": [
+                "1850573646"
+            ],
+            "isbn_13": [
+                "9781850573647"
+            ],
+            "lc_classifications": [
+                "PR6005.A765"
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-09-25T09:45:56.331294"
+            }
+        },
+        "/books/OL29632051M": {
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "source_records": [
+                "bwb:9781459202993"
+            ],
+            "title": "Her Secret Bridegroom",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781459202993"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Her Secret Bridegroom",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2011",
+            "key": "/books/OL29632051M",
+            "authors": [
+                {
+                    "key": "/authors/OL7071481A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL5695642W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-29T05:07:44.168653"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-23T12:04:47.596125"
+            }
+        },
+        "/books/OL28952295M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263166576"
+            ],
+            "title": "Her Secret Bridegroom",
+            "number_of_pages": 185,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Her Secret Bridegroom",
+            "publish_date": "2000",
+            "key": "/books/OL28952295M",
+            "authors": [
+                {
+                    "key": "/authors/OL7071481A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL5695642W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9780263166576"
+            ],
+            "classifications": {},
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T05:28:43.392477"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-23T12:04:47.596125"
+            }
+        },
+        "/books/OL28952419M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263820485",
+                "amazon:0263820483"
+            ],
+            "title": "Her Secret Bridegroom",
+            "number_of_pages": 185,
+            "isbn_13": [
+                "9780263820485"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Her Secret Bridegroom",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2001",
+            "key": "/books/OL28952419M",
+            "authors": [
+                {
+                    "key": "/authors/OL7071481A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL5695642W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T05:31:53.095893"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-23T12:04:47.596125"
+            }
+        },
+        "/books/OL10739407M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "3205179"
+                ],
+                "librarything": [
+                    "1178664"
+                ]
+            },
+            "weight": "0.8 ounces",
+            "covers": [
+                2407461,
+                214804
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL10739407M",
+            "authors": [
+                {
+                    "key": "/authors/OL1386224A"
+                }
+            ],
+            "subjects": [
+                "Non-Classifiable",
+                "Romance - Contemporary",
+                "Romance - General",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern"
+            ],
+            "classifications": {},
+            "source_records": [
+                "ia:hersecretbridegr00kate",
+                "bwb:9780373121915",
+                "promise:bwb_daily_pallets_2021-06-30"
+            ],
+            "title": "Her Secret Bridegroom",
+            "number_of_pages": 192,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "July 1, 2001",
+            "works": [
+                {
+                    "key": "/works/OL5695642W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.5 x 3.9 x 0.4 inches",
+            "local_id": [
+                "urn:bwbsku:P7-ACL-222"
+            ],
+            "ocaid": "hersecretbridegr00kate",
+            "isbn_10": [
+                "0373121911"
+            ],
+            "isbn_13": [
+                "9780373121915"
+            ],
+            "oclc_numbers": [
+                "47061170"
+            ],
+            "series": [
+                "Latin Lovers"
+            ],
+            "latest_revision": 15,
+            "revision": 15,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-23T12:04:47.596125"
+            }
+        },
+        "/books/OL10738630M": {
+            "identifiers": {
+                "librarything": [
+                    "3742982"
+                ]
+            },
+            "title": "Caprice",
+            "authors": [
+                {
+                    "key": "/authors/OL2854752A"
+                }
+            ],
+            "publish_date": "May 1, 1989",
+            "publishers": [
+                "Harlequin"
+            ],
+            "series": [
+                "Harlequin Presents, No 1175"
+            ],
+            "covers": [
+                5073485
+            ],
+            "physical_format": "Paperback",
+            "subjects": [
+                "General",
+                "Non-Classifiable",
+                "Romance - General",
+                "Fiction",
+                "Fiction - General",
+                "Romance: Regency"
+            ],
+            "isbn_13": [
+                "9780373111756"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-06-28:W6-AVH-078",
+                "amazon:0373111754",
+                "marc:marc_loc_updates/v35.i24.records.utf8:17237429:830",
+                "bwb:9780373111756",
+                "marc:marc_loc_2016/BooksAll.2016.part35.utf8:68098621:830",
+                "promise:bwb_daily_pallets_2021-06-28:P6-CEP-731",
+                "promise:bwb_daily_pallets_2021-03-08:371-BAC-780"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373111754"
+            ],
+            "oclc_numbers": [
+                "19503089"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "lccn": [
+                "2007580879"
+            ],
+            "lc_classifications": [
+                "CPB Box no. 2554 vol. 15"
+            ],
+            "local_id": [
+                "urn:bwbsku:W6-AVH-078",
+                "urn:bwbsku:P6-CEP-731",
+                "urn:bwbsku:371-BAC-780"
+            ],
+            "key": "/books/OL10738630M",
+            "number_of_pages": 188,
+            "works": [
+                {
+                    "key": "/works/OL8531476W"
+                }
+            ],
+            "latest_revision": 15,
+            "revision": 15,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T15:02:28.276400"
+            }
+        },
+        "/books/OL38270430M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL4728806A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2013",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781283674089"
+            ],
+            "subjects": [
+                "Fiction, romance, contemporary"
+            ],
+            "title": "The Seduction Business",
+            "full_title": "Seduction Business",
+            "works": [
+                {
+                    "key": "/works/OL3294391W"
+                }
+            ],
+            "key": "/books/OL38270430M",
+            "identifiers": {},
+            "isbn_13": [
+                "9781283674089"
+            ],
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-17T11:40:14.283833"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-04T06:40:35.883556"
+            }
+        },
+        "/books/OL28951567M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263162967"
+            ],
+            "title": "Seduction Business",
+            "number_of_pages": 185,
+            "isbn_13": [
+                "9780263162967"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Seduction Business",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "1999",
+            "key": "/books/OL28951567M",
+            "authors": [
+                {
+                    "key": "/authors/OL4728806A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3294391W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, contemporary"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T05:04:55.981510"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-04T06:40:35.883556"
+            }
+        },
+        "/books/OL28951690M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263817775",
+                "ia:seductionbusines0000lamb",
+                "amazon:0263817776",
+                "promise:bwb_daily_pallets_2021-02-01"
+            ],
+            "title": "The Seduction Business",
+            "number_of_pages": 185,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Seduction Business",
+            "publish_date": "1999",
+            "key": "/books/OL28951690M",
+            "authors": [
+                {
+                    "key": "/authors/OL4728806A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3294391W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, contemporary"
+            ],
+            "covers": [
+                11341033
+            ],
+            "local_id": [
+                "urn:bwbsku:KO-647-108"
+            ],
+            "identifiers": {},
+            "ocaid": "seductionbusines0000lamb",
+            "isbn_13": [
+                "9780263817775"
+            ],
+            "classifications": {},
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T05:07:53.896554"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-04T06:40:35.883556"
+            }
+        },
+        "/books/OL11901264M": {
+            "title": "The Seduction Business",
+            "authors": [
+                {
+                    "key": "/authors/OL4728806A"
+                }
+            ],
+            "publish_date": "April 29, 2001",
+            "publishers": [
+                "Soundings"
+            ],
+            "physical_format": "Audio Cassette",
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                2989796
+            ],
+            "isbn_13": [
+                "9781842830062"
+            ],
+            "isbn_10": [
+                "1842830066"
+            ],
+            "oclc_numbers": [
+                "222991325"
+            ],
+            "contributions": [
+                "Annie Aldington (Narrator)"
+            ],
+            "source_records": [
+                "amazon:1842830066"
+            ],
+            "key": "/books/OL11901264M",
+            "works": [
+                {
+                    "key": "/works/OL3294391W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-11T12:29:22.939663"
+            }
+        },
+        "/books/OL10739332M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "number_of_pages": 192,
+            "weight": "3.2 ounces",
+            "covers": [
+                2407388,
+                214690
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL10739332M",
+            "authors": [
+                {
+                    "key": "/authors/OL4728806A"
+                }
+            ],
+            "subjects": [
+                "Non-Classifiable",
+                "Romance - Contemporary",
+                "Romance - General",
+                "Fiction - Romance",
+                "Fiction"
+            ],
+            "source_records": [
+                "bwb:9780373120857"
+            ],
+            "title": "The Seduction Business",
+            "identifiers": {
+                "librarything": [
+                    "1607057"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "February 1, 2000",
+            "works": [
+                {
+                    "key": "/works/OL3294391W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.8 x 4.2 x 0.5 inches",
+            "classifications": {},
+            "ocaid": "seductionbusines00char",
+            "isbn_10": [
+                "0373120850"
+            ],
+            "isbn_13": [
+                "9780373120857"
+            ],
+            "latest_revision": 23,
+            "revision": 23,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-03T19:02:28.810203"
+            }
+        },
+        "/books/OL29248583M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781472097583"
+            ],
+            "title": "For the Love of Sara",
+            "number_of_pages": 192,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "For the Love of Sara",
+            "publish_date": "2014",
+            "key": "/books/OL29248583M",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3771217W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, general"
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9781472097583"
+            ],
+            "classifications": {},
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-23T20:40:58.482618"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL24405970M": {
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "ia_box_id": [
+                "IA128519"
+            ],
+            "series": [
+                "Harlequin presents -- 148"
+            ],
+            "covers": [
+                6703636
+            ],
+            "key": "/books/OL24405970M",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "publish_places": [
+                "Toronto",
+                "New York"
+            ],
+            "pagination": "186 p. ;",
+            "source_records": [
+                "ia:forloveofsara00math"
+            ],
+            "title": "For the Love of Sara",
+            "notes": "Original hardcover edition published in 1975 by Mills & Boon Limited.",
+            "number_of_pages": 186,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1976",
+            "publish_country": "onc",
+            "copyright_date": "1975",
+            "by_statement": "Anne Mather",
+            "works": [
+                {
+                    "key": "/works/OL3771217W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "classifications": {},
+            "ocaid": "forloveofsara00math",
+            "isbn_10": [
+                "0373706480"
+            ],
+            "isbn_13": [
+                "9780373706488"
+            ],
+            "oclc_numbers": [
+                "9214884"
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-11-08T20:41:32.000467"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL17527768M": {
+            "publishers": [
+                "Corgi"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "1885003"
+                ]
+            },
+            "lc_classifications": [
+                ""
+            ],
+            "latest_revision": 6,
+            "key": "/books/OL17527768M",
+            "authors": [
+                {
+                    "key": "/authors/OL23108A"
+                }
+            ],
+            "pagination": "428p.",
+            "source_records": [
+                "bwb:9780552139090"
+            ],
+            "title": "Once a princess.",
+            "dewey_decimal_class": [
+                "813.54"
+            ],
+            "number_of_pages": 428,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-29T04:13:29.072905"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0552139092"
+            ],
+            "publish_date": "1992",
+            "publish_country": "enk",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-10-08T18:15:01.621532"
+            },
+            "oclc_numbers": [
+                "27218118"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL15622W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 6
+        },
+        "/books/OL38270627M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "isbn_13": [
+                "9781283671422"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2013",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781283671422"
+            ],
+            "subjects": [
+                "Fiction, romance, general",
+                "Marriage, fiction"
+            ],
+            "title": "Deal at the Altar",
+            "full_title": "Deal at the Altar",
+            "works": [
+                {
+                    "key": "/works/OL17396365W"
+                }
+            ],
+            "key": "/books/OL38270627M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-17T11:42:11.143697"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-28T13:22:23.875551"
+            }
+        },
+        "/books/OL33338061M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "2013",
+            "publish_country": "ru",
+            "languages": [
+                {
+                    "key": "/languages/rus"
+                }
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "oclc_numbers": [
+                "865174619"
+            ],
+            "work_titles": [
+                "Deal at the altar"
+            ],
+            "series": [
+                "Arlekin, li͡ubovnyĭ roman"
+            ],
+            "subjects": [
+                "Man-woman relationships",
+                "Fiction",
+                "Arranged marriage"
+            ],
+            "title": "Chuvstvitelʹnai͡a osoba",
+            "subtitle": "roman",
+            "by_statement": "Linn Grėkhem ; [perevod s angliĭskogo I͡U.S. Mashkovoĭ]",
+            "publishers": [
+                "T͡sentrpoligraf"
+            ],
+            "publish_places": [
+                "Moskva"
+            ],
+            "isbn_13": [
+                "9785227046345"
+            ],
+            "isbn_10": [
+                "5227046344"
+            ],
+            "pagination": "157 pages",
+            "number_of_pages": 157,
+            "ocaid": "chuvstvitelnaiao0000grah",
+            "source_records": [
+                "ia:chuvstvitelnaiao0000grah",
+                "promise:bwb_daily_pallets_2021-05-05"
+            ],
+            "covers": [
+                11962460
+            ],
+            "works": [
+                {
+                    "key": "/works/OL17396365W"
+                }
+            ],
+            "key": "/books/OL33338061M",
+            "local_id": [
+                "urn:bwbsku:UN-760-504"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-09-15T07:26:17.232278"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-14T20:27:06.621500"
+            }
+        },
+        "/books/OL29109796M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263226935"
+            ],
+            "title": "Deal at the Altar",
+            "number_of_pages": 186,
+            "isbn_13": [
+                "9780263226935"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Deal at the Altar",
+            "lc_classifications": [
+                "PR6057.R2374"
+            ],
+            "publish_date": "2012",
+            "key": "/books/OL29109796M",
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL17396365W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-22T04:47:46.275060"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-04T15:20:10.972350"
+            }
+        },
+        "/books/OL25991716M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "source_records": [
+                "bwb:9780373130672"
+            ],
+            "title": "A Deal At The Altar",
+            "identifiers": {},
+            "covers": [
+                7522883
+            ],
+            "publish_date": "2012",
+            "key": "/books/OL25991716M",
+            "works": [
+                {
+                    "key": "/works/OL17396365W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9780373130672"
+            ],
+            "classifications": {},
+            "series": [
+                "Marruage By Command Book 2"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2016-10-14T04:48:10.068435"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-04T15:20:10.972350"
+            }
+        },
+        "/books/OL59030231M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "The Secret Agent A Simple Tale",
+            "authors": [
+                {
+                    "key": "/authors/OL19441A"
+                }
+            ],
+            "publish_date": "1907",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "LANGUAGE. LINGUISTICS. LITERATURE",
+                "Literature",
+                "Literary criticism. Literary studies"
+            ],
+            "number_of_pages": 456,
+            "publishers": [
+                "Methuen And Company, Limited"
+            ],
+            "source_records": [
+                "ia:secretagentasimp031220mbp"
+            ],
+            "ocaid": "secretagentasimp031220mbp",
+            "full_title": "The Secret Agent A Simple Tale",
+            "works": [
+                {
+                    "key": "/works/OL39108W"
+                }
+            ],
+            "key": "/books/OL59030231M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-05-12T00:18:24.010975"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-27T05:56:34.412195"
+            }
+        },
+        "/books/OL59030228M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "The Secret Agent",
+            "authors": [
+                {
+                    "key": "/authors/OL19441A"
+                }
+            ],
+            "publish_date": "1928",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 330,
+            "publishers": [
+                "Methuen & Co. Ltd."
+            ],
+            "source_records": [
+                "ia:secretagent0000unse_l9d1"
+            ],
+            "ocaid": "secretagent0000unse_l9d1",
+            "full_title": "The Secret Agent",
+            "works": [
+                {
+                    "key": "/works/OL39108W"
+                }
+            ],
+            "key": "/books/OL59030228M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-05-12T00:18:20.651484"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-27T05:56:34.412195"
+            }
+        },
+        "/books/OL56792387M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL19441A"
+                }
+            ],
+            "dewey_decimal_class": [
+                "823/.912"
+            ],
+            "isbn_13": [
+                "9781978117099"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 132,
+            "publish_date": "2018",
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "source_records": [
+                "bwb:9781978117099"
+            ],
+            "subjects": [
+                "Drama (dramatic works by one author)"
+            ],
+            "title": "Secret Agent",
+            "weight": "0.223",
+            "full_title": "Secret Agent",
+            "works": [
+                {
+                    "key": "/works/OL39108W"
+                }
+            ],
+            "key": "/books/OL56792387M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-10-05T15:01:57.130576"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-27T05:56:34.412195"
+            }
+        },
+        "/books/OL56725540M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL19441A"
+                }
+            ],
+            "dewey_decimal_class": [
+                "823/.912"
+            ],
+            "isbn_13": [
+                "9781727673272"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 548,
+            "publish_date": "2018",
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "source_records": [
+                "bwb:9781727673272"
+            ],
+            "subjects": [
+                "Drama (dramatic works by one author)"
+            ],
+            "title": "Secret Agent",
+            "weight": "0.909",
+            "full_title": "Secret Agent",
+            "works": [
+                {
+                    "key": "/works/OL39108W"
+                }
+            ],
+            "key": "/books/OL56725540M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-10-05T04:24:39.056344"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-27T05:56:34.412195"
+            }
+        },
+        "/books/OL56731894M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL19441A"
+                }
+            ],
+            "isbn_13": [
+                "9781724549341"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 254,
+            "publish_date": "2018",
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "source_records": [
+                "bwb:9781724549341"
+            ],
+            "title": "Secret Agent",
+            "weight": "0.741",
+            "subtitle": "Large Print",
+            "full_title": "Secret Agent Large Print",
+            "works": [
+                {
+                    "key": "/works/OL39108W"
+                }
+            ],
+            "key": "/books/OL56731894M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-10-05T05:12:11.179453"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-27T05:56:34.412195"
+            }
+        },
+        "/books/OL56440186M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL19441A"
+                }
+            ],
+            "dewey_decimal_class": [
+                "823/.912"
+            ],
+            "isbn_13": [
+                "9781519465023"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 248,
+            "publish_date": "2015",
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "source_records": [
+                "bwb:9781519465023"
+            ],
+            "subjects": [
+                "Drama (dramatic works by one author)"
+            ],
+            "title": "Secret Agent",
+            "weight": "0.723",
+            "full_title": "Secret Agent",
+            "works": [
+                {
+                    "key": "/works/OL39108W"
+                }
+            ],
+            "key": "/books/OL56440186M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-10-03T11:08:09.249242"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-27T05:56:34.412195"
+            }
+        },
+        "/books/OL56441199M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL19441A"
+                },
+                {
+                    "key": "/authors/OL8021053A"
+                }
+            ],
+            "isbn_13": [
+                "9781530203444"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 214,
+            "publish_date": "2016",
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "source_records": [
+                "bwb:9781530203444"
+            ],
+            "title": "Secret Agent",
+            "weight": "0.386",
+            "subtitle": "By Joseph Conrad - Illustrated",
+            "full_title": "Secret Agent By Joseph Conrad - Illustrated",
+            "works": [
+                {
+                    "key": "/works/OL39108W"
+                }
+            ],
+            "key": "/books/OL56441199M",
+            "contributors": [
+                {
+                    "role": "Illustrator",
+                    "name": "Vincent Illustrator"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-10-03T11:16:04.869837"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-11-27T05:56:34.412195"
+            }
+        }
+    }
+}

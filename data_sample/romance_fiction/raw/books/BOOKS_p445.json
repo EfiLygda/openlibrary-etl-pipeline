@@ -1,0 +1,6199 @@
+{
+    "status": "ok",
+    "result": {
+        "/books/OL34114266M": {
+            "title": "Carol",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "publish_date": "2016",
+            "type": {
+                "key": "/type/edition"
+            },
+            "languages": [
+                {
+                    "key": "/languages/chi"
+                }
+            ],
+            "publishers": [
+                "Shanghai Translation Publishing House"
+            ],
+            "source_records": [
+                "bwb:9787532771653",
+                "promise:bwb_daily_pallets_2023-08-02:O9-BOM-655"
+            ],
+            "full_title": "Carol",
+            "isbn_13": [
+                "9787532771653"
+            ],
+            "local_id": [
+                "urn:bwbsku:O9-BOM-655"
+            ],
+            "ocaid": "carol0000patr_l5y1",
+            "key": "/books/OL34114266M",
+            "number_of_pages": 328,
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-09-30T09:38:54.531199"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-03-19T19:13:11.954106"
+            }
+        },
+        "/books/OL35277358M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Carol",
+            "authors": [
+                {
+                    "key": "/authors/OL9292220A"
+                },
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "publish_date": "Jan 21, 2016",
+            "source_records": [
+                "amazon:8488839936"
+            ],
+            "number_of_pages": 336,
+            "publishers": [
+                "L'AVENÇ, S.L."
+            ],
+            "physical_format": "paperback",
+            "notes": "Source title: Carol (Sèrie Literatures) (Catalan Edition)",
+            "full_title": "Carol",
+            "covers": [
+                12090427
+            ],
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "key": "/books/OL35277358M",
+            "identifiers": {},
+            "isbn_10": [
+                "8488839936"
+            ],
+            "isbn_13": [
+                "9788488839930"
+            ],
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-15T05:34:49.622842"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-07-17T15:24:53.738433"
+            }
+        },
+        "/books/OL38470163M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "222",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798493563881"
+            ],
+            "title": "Price of Salt",
+            "weight": "0.650 ",
+            "full_title": "Price of Salt",
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "key": "/books/OL38470163M",
+            "identifiers": {},
+            "isbn_13": [
+                "9798493563881"
+            ],
+            "classifications": {},
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T09:38:18.030904"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-31T18:12:52.478932"
+            }
+        },
+        "/books/OL47115297M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "CAROL",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "publish_date": "Oct 01, 1998",
+            "source_records": [
+                "amazon:8483002973"
+            ],
+            "number_of_pages": 1,
+            "publishers": [
+                "Columna CAT"
+            ],
+            "physical_format": "paperback",
+            "notes": "Source title: CAROL (COL.LECCIO CLASSICA) (Catalan Edition)",
+            "full_title": "CAROL",
+            "covers": [
+                13496350
+            ],
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "key": "/books/OL47115297M",
+            "identifiers": {},
+            "isbn_10": [
+                "8483002973"
+            ],
+            "isbn_13": [
+                "9788483002971"
+            ],
+            "classifications": {},
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-03-16T08:31:20.542324"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-31T18:12:52.478932"
+            }
+        },
+        "/books/OL40439367M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "The Price of Salt",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "publish_date": "Nov 16, 2012",
+            "source_records": [
+                "amazon:1469971879",
+                "marc:marc_columbia/Columbia-extract-20221130-019.mrc:144368669:1428",
+                "bwb:9781469971872"
+            ],
+            "number_of_pages": 224,
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "physical_format": "paperback",
+            "full_title": "The Price of Salt",
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "key": "/books/OL40439367M",
+            "identifiers": {},
+            "isbn_10": [
+                "1469971879"
+            ],
+            "isbn_13": [
+                "9781469971872"
+            ],
+            "oclc_numbers": [
+                "781744832"
+            ],
+            "classifications": {},
+            "lc_classifications": [
+                "PS3558.I366"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-18T19:54:34.192581"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-09-17T11:03:40.484640"
+            }
+        },
+        "/books/OL35458146M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "320",
+            "publish_date": "2010",
+            "publishers": [
+                "Bloomsbury Publishing Plc"
+            ],
+            "source_records": [
+                "bwb:9781408808979"
+            ],
+            "subjects": [
+                "Fiction, lgbtq+, lesbian",
+                "Fiction, romance, fantasy"
+            ],
+            "title": "Carol",
+            "weight": "0.230 ",
+            "full_title": "Carol",
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "key": "/books/OL35458146M",
+            "identifiers": {},
+            "isbn_13": [
+                "9781408808979"
+            ],
+            "classifications": {},
+            "lc_classifications": [
+                "PS3558.I366"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T06:18:36.089311"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-31T18:12:52.478932"
+            }
+        },
+        "/books/OL33703387M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                },
+                {
+                    "key": "/authors/OL534680A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2021",
+            "publishers": [
+                "Norton & Company Limited, W. W."
+            ],
+            "source_records": [
+                "bwb:9780393918168"
+            ],
+            "title": "Price of Salt - a Norton Critical Edition",
+            "weight": "0.666 ",
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "key": "/books/OL33703387M",
+            "identifiers": {},
+            "isbn_13": [
+                "9780393918168"
+            ],
+            "classifications": {},
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-09-20T23:18:53.010938"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-07-17T15:21:28.282540"
+            }
+        },
+        "/books/OL38370153M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "256",
+            "publish_date": "2015",
+            "publishers": [
+                "Dover Publications, Incorporated"
+            ],
+            "source_records": [
+                "bwb:9780486802299"
+            ],
+            "subjects": [
+                "Fiction, lgbtq+, lesbian",
+                "Lesbians, fiction"
+            ],
+            "title": "Price of Salt",
+            "weight": "0.294 ",
+            "subtitle": "Or Carol",
+            "full_title": "Price of Salt Or Carol",
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "key": "/books/OL38370153M",
+            "identifiers": {},
+            "isbn_13": [
+                "9780486802299"
+            ],
+            "classifications": {},
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-18T14:36:18.943981"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-31T18:12:52.478932"
+            }
+        },
+        "/books/OL46648150M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "208",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798444594131"
+            ],
+            "title": "Price of Salt",
+            "weight": "0.614 ",
+            "full_title": "Price of Salt",
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "key": "/books/OL46648150M",
+            "identifiers": {},
+            "isbn_13": [
+                "9798444594131"
+            ],
+            "classifications": {},
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-02-17T09:27:07.963019"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-31T18:12:52.478932"
+            }
+        },
+        "/books/OL34571815M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                },
+                {
+                    "key": "/authors/OL534680A"
+                },
+                {
+                    "key": "/authors/OL23135A"
+                },
+                {
+                    "key": "/authors/OL8064496A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2019",
+            "publishers": [
+                "Norton & Company, Incorporated, W. W."
+            ],
+            "source_records": [
+                "bwb:9780393936919",
+                "promise:bwb_daily_pallets_2022-03-17",
+                "marc:harvard_bibliographic_metadata/20220215_006.bib.mrc:30653066:2851"
+            ],
+            "title": "Price of Salt",
+            "weight": "0.666 ",
+            "subtitle": "A Norton Critical Edition",
+            "full_title": "Price of Salt A Norton Critical Edition",
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "key": "/books/OL34571815M",
+            "local_id": [
+                "urn:bwbsku:P7-ARY-411"
+            ],
+            "identifiers": {},
+            "classifications": {},
+            "isbn_13": [
+                "9780393936919"
+            ],
+            "lccn": [
+                "2019019413"
+            ],
+            "lc_classifications": [
+                "JC143 .M3813 2020"
+            ],
+            "oclc_numbers": [
+                "1099544581"
+            ],
+            "number_of_pages": 352,
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-06T04:47:43.775297"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-05-31T06:17:48.785749"
+            }
+        },
+        "/books/OL40738078M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "isbn_13": [
+                "9781520632964"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "245",
+            "publish_date": "2017",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9781520632964"
+            ],
+            "title": "Price of Salt",
+            "weight": "0.432",
+            "full_title": "Price of Salt",
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "key": "/books/OL40738078M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-20T22:58:48.619210"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-31T18:12:52.478932"
+            }
+        },
+        "/books/OL37796624M": {
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "title": "Carol",
+            "publishers": [
+                "Diogenes"
+            ],
+            "publish_date": "1992",
+            "key": "/books/OL37796624M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {
+                "bookbrainz": [
+                    "c1af8eec-22dc-41eb-99a4-55f676212519"
+                ]
+            },
+            "covers": [
+                12705540
+            ],
+            "translated_from": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/ger"
+                }
+            ],
+            "number_of_pages": 405,
+            "subtitle": "Roman einer ungewöhnlichen Liebe",
+            "copyright_date": "1984; 1990",
+            "edition_name": "2. Auflage",
+            "by_statement": "Patricia Highsmith",
+            "translation_of": "The Price of Salt",
+            "physical_format": "Taschenbuch",
+            "isbn_10": [
+                "3257224877"
+            ],
+            "series": [
+                "detebe 22487"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-04-02T07:44:02.717750"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-02-06T13:56:23.475146"
+            }
+        },
+        "/books/OL32472482M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "The Price of Salt",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "publish_date": "Mar 10, 2021",
+            "source_records": [
+                "amazon:1774642360",
+                "bwb:9781774642368",
+                "promise:bwb_daily_pallets_2023-04-04:P8-CZE-644"
+            ],
+            "number_of_pages": 168,
+            "publishers": [
+                "Must Have Books"
+            ],
+            "isbn_10": [
+                "1774642360"
+            ],
+            "isbn_13": [
+                "9781774642368"
+            ],
+            "physical_format": "paperback",
+            "full_title": "The Price of Salt",
+            "covers": [
+                11128873
+            ],
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "key": "/books/OL32472482M",
+            "local_id": [
+                "urn:bwbsku:P8-CZE-644"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-05-20T00:32:38.544973"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-05-04T02:42:28.829821"
+            }
+        },
+        "/books/OL7457646M": {
+            "publishers": [
+                "W. W. Norton & Company"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "112217"
+                ],
+                "goodreads": [
+                    "52258"
+                ]
+            },
+            "covers": [
+                250778
+            ],
+            "key": "/books/OL7457646M",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                },
+                {
+                    "key": "/authors/OL2685466A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "ia:priceofsalt00high"
+            ],
+            "title": "The Price of Salt",
+            "number_of_pages": 288,
+            "isbn_13": [
+                "9780393325997"
+            ],
+            "isbn_10": [
+                "0393325997"
+            ],
+            "publish_date": "February 23, 2004",
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "The lunch hour in the co-workers' cafeteria at Frankenberg's had reached its peak."
+            },
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-03-28T22:24:21.382159"
+            }
+        },
+        "/books/OL31968552M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "The Price of Salt",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "publish_date": "Jul 13, 2016",
+            "source_records": [
+                "amazon:168422005X"
+            ],
+            "number_of_pages": 254,
+            "publishers": [
+                "Martino Fine Books"
+            ],
+            "isbn_10": [
+                "168422005X"
+            ],
+            "isbn_13": [
+                "9781684220052"
+            ],
+            "physical_format": "paperback",
+            "full_title": "The Price of Salt",
+            "covers": [
+                10646051
+            ],
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "key": "/books/OL31968552M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-02-18T01:22:41.615409"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-03T17:07:10.622347"
+            }
+        },
+        "/books/OL23047209M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Earlier ed. published under title: The price of salt.\n\nBarbara Grier and Donna McBride collection."
+            },
+            "identifiers": {
+                "librarything": [
+                    "112217"
+                ]
+            },
+            "title": "Carol",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "publish_date": "1990",
+            "publishers": [
+                "Bloomsbury",
+                "Bloomsbury Publishing Plc"
+            ],
+            "isbn_10": [
+                "0747507198"
+            ],
+            "pagination": "262 p. ;",
+            "local_id": [
+                "urn:sfpl:31223114367767",
+                "urn:sfpl:31223092283333",
+                "urn:sfpl:31223037121226",
+                "urn:sfpl:31223114367759",
+                "urn:sfpl:31223114367742",
+                "urn:sfpl:31223114367775"
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "contributions": [
+                "Morgan, Claire, 1921-"
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "source_records": [
+                "marc:SanFranPL06/SanFranPL06.out:85751333:1181",
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run02.mrc:115905543:2363",
+                "amazon:0747507198",
+                "bwb:9780747507192",
+                "marc:harvard_bibliographic_metadata/ab.bib.01.20150123.full.mrc:894290422:533",
+                "marc:harvard_bibliographic_metadata/20220215_030.bib.mrc:344853995:1008"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Lesbian couples -- Fiction",
+                "Lesbians -- Fiction",
+                "Lesbian love stories"
+            ],
+            "publish_country": "enk",
+            "by_statement": "Patricia Highsmith.",
+            "oclc_numbers": [
+                "22925547"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "key": "/books/OL23047209M",
+            "number_of_pages": 262,
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "covers": [
+                13332840
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-02-18T05:39:29.909874"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-02-10T01:26:04.111364"
+            }
+        },
+        "/books/OL7348831M": {
+            "identifiers": {
+                "goodreads": [
+                    "2020309"
+                ],
+                "librarything": [
+                    "112217"
+                ]
+            },
+            "title": "Carol",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "publish_date": "June 1999",
+            "publishers": [
+                "Penguin Books"
+            ],
+            "source_records": [
+                "amazon:0140149066:o-9:3033378960:168077",
+                "amazon:0140149066:10:2605669288:166520",
+                "bwb:9780140149067"
+            ],
+            "isbn_13": [
+                "9780140149067"
+            ],
+            "covers": [
+                95912
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "isbn_10": [
+                "0140149066"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "key": "/books/OL7348831M",
+            "number_of_pages": 272,
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-11-17T15:50:08.718076"
+            }
+        },
+        "/books/OL9128836M": {
+            "identifiers": {
+                "librarything": [
+                    "112217"
+                ],
+                "goodreads": [
+                    "396339"
+                ]
+            },
+            "title": "Carol",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "publish_date": "November 15, 2004",
+            "publishers": [
+                "Anagrama"
+            ],
+            "weight": "11.2 ounces",
+            "covers": [
+                1047222
+            ],
+            "physical_format": "Paperback",
+            "subjects": [
+                "Lesbian",
+                "Fiction",
+                "Fiction - Espionage / Thriller",
+                "Spanish: Adult Fiction",
+                "Suspense",
+                "General"
+            ],
+            "isbn_13": [
+                "9788433914750"
+            ],
+            "source_records": [
+                "amazon:8433914758:hr:56498282:170493",
+                "bwb:9788433914750",
+                "amazon:8433914758",
+                "promise:bwb_daily_pallets_2023-03-31:KS-301-454"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "isbn_10": [
+                "8433914758"
+            ],
+            "oclc_numbers": [
+                "55337109"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.6 x 5.6 x 0.7 inches",
+            "key": "/books/OL9128836M",
+            "number_of_pages": 318,
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "lc_classifications": [
+                "PS"
+            ],
+            "local_id": [
+                "urn:bwbsku:KS-301-454"
+            ],
+            "latest_revision": 13,
+            "revision": 13,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-03-28T15:31:50.347434"
+            }
+        },
+        "/books/OL1865466M": {
+            "identifiers": {
+                "librarything": [
+                    "112217"
+                ],
+                "goodreads": [
+                    "962419"
+                ]
+            },
+            "title": "The price of salt",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "publish_date": "1991",
+            "publishers": [
+                "Naiad Press"
+            ],
+            "ia_box_id": [
+                "IA113602"
+            ],
+            "covers": [
+                10671718
+            ],
+            "ia_loaded_id": [
+                "priceofsalt00morg"
+            ],
+            "publish_places": [
+                "Tallahassee, FL"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "276 p. ;",
+            "source_records": [
+                "ia:priceofsalt00morg",
+                "amazon:1562800035",
+                "marc:marc_loc_2016/BooksAll.2016.part20.utf8:46056799:708",
+                "bwb:9781562800031",
+                "marc:marc_columbia/Columbia-extract-20221130-005.mrc:121912389:1523"
+            ],
+            "edition_name": "Rev. ed. / with an afterword by the author, Patricia Highsmith.",
+            "subjects": [
+                "Lesbians -- Fiction."
+            ],
+            "publish_country": "flu",
+            "by_statement": "Patricia Highsmith (writing as Claire Morgan).",
+            "type": {
+                "key": "/type/edition"
+            },
+            "key": "/books/OL1865466M",
+            "number_of_pages": 276,
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "ocaid": "priceofsalt00morg",
+            "isbn_10": [
+                "1562800035"
+            ],
+            "lccn": [
+                "90023482"
+            ],
+            "classifications": {},
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "lc_classifications": [
+                "PS3558.I366 P7 1991",
+                "PS3558.I366P7 1991"
+            ],
+            "oclc_numbers": [
+                "22860658"
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "This novel, arguably Patricia Highsmith's finest, was first published in 1952 under the pseudonym Clare Morgan. The Price of Salt tells the riveting story of Therese Belivet, a stage designer trapped in a department-store day job, whose salvation arrives one day in the form of Carol Aird, an alluring suburban housewife in the throes of a divorce. They fall in love and set out across the United States, pursued by a private investigator who eventually blackmails Carol into a choice between her daughter and her lover."
+            },
+            "latest_revision": 17,
+            "revision": 17,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-07-13T00:56:59.931048"
+            }
+        },
+        "/books/OL22729080M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Published in Great Britain under the title Carol.\n\nFirst published as a Norton papeback 2004."
+            },
+            "identifiers": {
+                "librarything": [
+                    "112217"
+                ],
+                "goodreads": [
+                    "52258"
+                ]
+            },
+            "title": "The price of salt",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "publish_date": "2004",
+            "publishers": [
+                "W. W. Norton",
+                "W.W. Norton"
+            ],
+            "pagination": "262p. ;",
+            "covers": [
+                9730059
+            ],
+            "local_id": [
+                "urn:sfpl:31223120644829",
+                "urn:sfpl:31223120660478",
+                "urn:sfpl:31223064403489",
+                "urn:sfpl:31223129418787",
+                "urn:sfpl:31223103619905",
+                "urn:sfpl:31223120644837",
+                "urn:sfpl:31223120644845",
+                "urn:sfpl:31223120660502",
+                "urn:sfpl:31223120687661",
+                "urn:sfpl:31223120687679",
+                "urn:sfpl:31223098344006",
+                "urn:sfpl:31223120402624",
+                "urn:sfpl:31223120402673",
+                "urn:sfpl:31223120402665",
+                "urn:sfpl:31223120687729",
+                "urn:sfpl:31223120644860",
+                "urn:sfpl:31223120660528",
+                "urn:sfpl:31223103619913",
+                "urn:sfpl:31223120402640",
+                "urn:sfpl:31223114498604",
+                "urn:sfpl:31223120660536",
+                "urn:sfpl:31223120660544",
+                "urn:sfpl:31223120687687",
+                "urn:sfpl:31223120644894",
+                "urn:sfpl:31223120660569",
+                "urn:sfpl:31223120660577",
+                "urn:sfpl:31223120644902",
+                "urn:sfpl:31223120687695",
+                "urn:sfpl:31223120644910",
+                "urn:sfpl:31223120660593",
+                "urn:sfpl:31223120644936",
+                "urn:sfpl:31223120644944",
+                "urn:sfpl:31223120660627",
+                "urn:sfpl:31223120687711",
+                "urn:sfpl:31223103619921",
+                "urn:sfpl:31223121177514",
+                "urn:sfpl:31223120644969",
+                "urn:sfpl:31223120660635",
+                "urn:sfpl:31223103619889",
+                "urn:sfpl:31223129418803",
+                "urn:nuls:31786102448203"
+            ],
+            "lc_classifications": [
+                "PS3558.I366",
+                "PS3558.I366 P7 2004"
+            ],
+            "ocaid": "priceofsalt00high",
+            "publish_places": [
+                "New York"
+            ],
+            "subjects": [
+                "Lesbians -- Fiction"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "source_records": [
+                "marc:marc_university_of_toronto/uoft.marc:5284534594:720",
+                "marc:marc_ithaca_college/ic_marc.mrc:210569352:803",
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run03.mrc:62473886:8618",
+                "bwb:9780393325997",
+                "marc:marc_nuls/NULS_PHC_180925.mrc:95235330:1548",
+                "marc:harvard_bibliographic_metadata/ab.bib.09.20150123.full.mrc:434022343:1826",
+                "marc:harvard_bibliographic_metadata/20220215_028.bib.mrc:14969006:2665"
+            ],
+            "edition_name": "Rev. ed. / with an afterword by the author, Patricia Highsmith.",
+            "isbn_10": [
+                "0393325997"
+            ],
+            "publish_country": "flu",
+            "by_statement": "Patricia Highsmith",
+            "type": {
+                "key": "/type/edition"
+            },
+            "key": "/books/OL22729080M",
+            "number_of_pages": 262,
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "oclc_numbers": [
+                "55121342"
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "From the Publisher: \"I have long had a theory that Nabokov knew The Price of Salt and modeled the climactic cross-country car chase in Lolita on Therese and Carol's frenzied bid for freedom,\" writes Terry Castle in The New Republic about this novel, arguably Patricia Highsmith's finest, first published in 1952 under the pseudonym Clare Morgan. Soon to be a new film, The Price of Salt tells the riveting story of Therese Belivet, a stage designer trapped in a department-store day job, whose salvation arrives one day in the form of Carol Aird, an alluring suburban housewife in the throes of a divorce. They fall in love and set out across the United States, pursued by a private investigator who eventually blackmails Carol into a choice between her daughter and her lover. With this reissue, The Price of Salt may finally be recognized as a major twentieth-century American novel."
+            },
+            "latest_revision": 15,
+            "revision": 15,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-12-19T19:00:43.084319"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-09T13:52:18.013056"
+            }
+        },
+        "/books/OL2902057M": {
+            "identifiers": {
+                "librarything": [
+                    "112217"
+                ],
+                "goodreads": [
+                    "572031"
+                ]
+            },
+            "title": "The price of salt",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "publish_date": "1984",
+            "publishers": [
+                "Naiad Press"
+            ],
+            "isbn_10": [
+                "0930044495"
+            ],
+            "covers": [
+                13151909,
+                4201347
+            ],
+            "lc_classifications": [
+                "PS3558.I366 P7 1984"
+            ],
+            "publish_places": [
+                "Tallahassee, Fla"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "276 p. ;",
+            "source_records": [
+                "amazon:0930044495",
+                "marc:marc_loc_2016/BooksAll.2016.part15.utf8:169644078:662",
+                "promise:bwb_daily_pallets_2022-07-28",
+                "marc:marc_columbia/Columbia-extract-20221130-001.mrc:606078202:1636",
+                "marc:harvard_bibliographic_metadata/ab.bib.01.20150123.full.mrc:201553427:564",
+                "marc:harvard_bibliographic_metadata/20220215_029.bib.mrc:354472713:1132",
+                "marc:UniversityOfMichiganMarcCatalogRecords/umich_bib.mrc:201051890:533"
+            ],
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "edition_name": "Rev. ed. with an afterword / by the author, Claire Morgan.",
+            "lccn": [
+                "84130401"
+            ],
+            "subjects": [
+                "Lesbians -- Fiction."
+            ],
+            "publish_country": "flu",
+            "by_statement": "Claire Morgan.",
+            "oclc_numbers": [
+                "10824113"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "key": "/books/OL2902057M",
+            "number_of_pages": 276,
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "local_id": [
+                "urn:bwbsku:W7-COO-243"
+            ],
+            "latest_revision": 16,
+            "revision": 16,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-05-09T01:48:05.419318"
+            }
+        },
+        "/books/OL29724114M": {
+            "publishers": [
+                "Norton & Company, Incorporated, W. W."
+            ],
+            "source_records": [
+                "bwb:9780393352757"
+            ],
+            "title": "Carol",
+            "number_of_pages": 304,
+            "isbn_13": [
+                "9780393352757"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Carol",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2015",
+            "key": "/books/OL29724114M",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, lesbian",
+                "Fiction, romance, fantasy"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-30T10:36:13.803620"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-10-15T17:25:29.320069"
+            }
+        },
+        "/books/OL30708792M": {
+            "publishers": [
+                "Editorial Anagrama S.A."
+            ],
+            "source_records": [
+                "amazon:8433911465",
+                "bwb:9788433911469"
+            ],
+            "title": "Carol",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Carol (Panorama de narrativas) (Spanish Edition)"
+            },
+            "number_of_pages": 328,
+            "isbn_13": [
+                "9788433911469"
+            ],
+            "covers": [
+                10494046
+            ],
+            "physical_format": "hardcover",
+            "full_title": "Carol",
+            "isbn_10": [
+                "8433911465"
+            ],
+            "publish_date": "Oct 01, 1993",
+            "key": "/books/OL30708792M",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                },
+                {
+                    "key": "/authors/OL8659218A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-10-28T01:48:14.918552"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-17T06:38:31.810385"
+            }
+        },
+        "/books/OL31968553M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Carol",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "publish_date": "Aug 04, 2015",
+            "source_records": [
+                "amazon:1504647564"
+            ],
+            "number_of_pages": 1,
+            "publishers": [
+                "Blackstone Audio, Inc.",
+                "Blackstone Audiobooks"
+            ],
+            "isbn_10": [
+                "1504647564"
+            ],
+            "isbn_13": [
+                "9781504647564"
+            ],
+            "physical_format": "mp3 cd",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Carol (The Price of Salt)"
+            },
+            "full_title": "Carol",
+            "covers": [
+                10646052
+            ],
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "key": "/books/OL31968553M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-02-18T01:22:45.381961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-10-15T17:25:29.320069"
+            }
+        },
+        "/books/OL28417839M": {
+            "description": {
+                "type": "/type/text",
+                "value": "Therese is just an ordinary sales assistant working in a New York department store when a beautiful, alluring woman in her thirties walks up to her counter. Standing there, Therese is wholly unprepared for the first shock of love. Therese is an awkward nineteen-year-old with a job she hates and a boyfriend she doesn't love; Carol is a sophisticated, bored suburban housewife in the throes of a divorce and a custody battle for her only daughter. As Therese becomes irresistibly drawn into Carol's world, she soon realizes how much they both stand to lose...First published pseudonymously in 1952 as The Price of Salt, Carol is a hauntingly atmospheric love story set against the backdrop of fifties' New York."
+            },
+            "notes": {
+                "type": "/type/text",
+                "value": "This edition originally published as The price of salt by Claire Morgan, 1952; as Carol by Patricia Highsmith. London: Bloomsbury, 1990."
+            },
+            "title": "Carol",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "publish_date": "2015",
+            "publishers": [
+                "Bloomsbury",
+                "Bloomsbury Publishing PLC"
+            ],
+            "isbn_10": [
+                "140886567X"
+            ],
+            "covers": [
+                10317626
+            ],
+            "full_title": "Carol",
+            "ocaid": "carol0000high",
+            "publish_places": [
+                "London"
+            ],
+            "contributions": [
+                "Morgan, Claire, 1921-1995"
+            ],
+            "edition_name": "Revised edition.",
+            "pagination": "320 pages",
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-08-11:KP-238-171",
+                "ia:carol0000high",
+                "bwb:9781408865675",
+                "promise:bwb_daily_pallets_2021-05-24:KO-927-755",
+                "promise:bwb_daily_pallets_2021-05-06:KO-879-953"
+            ],
+            "dewey_decimal_class": [
+                "823.914"
+            ],
+            "isbn_13": [
+                "9781408865675"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Lesbians",
+                "Fiction"
+            ],
+            "publish_country": "enk",
+            "by_statement": "Patricia Highsmith",
+            "oclc_numbers": [
+                "929572230"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "lc_classifications": [
+                "PS3558.I366"
+            ],
+            "local_id": [
+                "urn:bwbsku:KP-238-171",
+                "urn:bwbsku:KO-927-755",
+                "urn:bwbsku:KO-879-953"
+            ],
+            "key": "/books/OL28417839M",
+            "number_of_pages": 320,
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-07-29T07:20:22.632686"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T14:06:05.202620"
+            }
+        },
+        "/books/OL27727149M": {
+            "publishers": [
+                "Diogenes Verlag AG"
+            ],
+            "source_records": [
+                "amazon:3257243243"
+            ],
+            "title": "Carol oder Salz und sein Preis",
+            "identifiers": {
+                "amazon": [
+                    "3257243243"
+                ]
+            },
+            "isbn_13": [
+                "9783257243246"
+            ],
+            "covers": [
+                9153142
+            ],
+            "physical_format": "paperback",
+            "isbn_10": [
+                "3257243243"
+            ],
+            "publish_date": "Jun 01, 2015",
+            "key": "/books/OL27727149M",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-11-26T05:22:37.562250"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-10-15T17:25:29.320069"
+            }
+        },
+        "/books/OL27460954M": {
+            "publishers": [
+                "Churchill & Dunn, Ltd"
+            ],
+            "number_of_pages": 256,
+            "source_records": [
+                "amazon:1626543127",
+                "bwb:9781626543126"
+            ],
+            "title": "Carol",
+            "identifiers": {
+                "amazon": [
+                    "1626543127"
+                ]
+            },
+            "isbn_13": [
+                "9781626543126"
+            ],
+            "covers": [
+                8919447
+            ],
+            "physical_format": "paperback",
+            "full_title": "Carol",
+            "isbn_10": [
+                "1626543127"
+            ],
+            "publish_date": "Nov 10, 2015",
+            "key": "/books/OL27460954M",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-10-15T17:51:04.324170"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T20:32:16.666135"
+            }
+        },
+        "/books/OL28955582M": {
+            "publishers": [
+                "Bloomsbury Publishing Plc"
+            ],
+            "source_records": [
+                "bwb:9780747554004",
+                "amazon:0747554005"
+            ],
+            "title": "Carol",
+            "number_of_pages": 272,
+            "isbn_13": [
+                "9780747554004"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Carol",
+            "lc_classifications": [
+                "PS3558.I366"
+            ],
+            "publish_date": "2003",
+            "key": "/books/OL28955582M",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, action & adventure"
+            ],
+            "covers": [
+                13179848
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T07:59:10.425164"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-31T21:05:48.180546"
+            }
+        },
+        "/books/OL29303601M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited",
+                "HARPER COLLINS"
+            ],
+            "source_records": [
+                "bwb:9780263922561",
+                "promise:bwb_daily_pallets_2023-02-28:KS-226-349"
+            ],
+            "title": "Untamed",
+            "number_of_pages": 304,
+            "isbn_13": [
+                "9780263922561"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Untamed",
+            "lc_classifications": [
+                "PS3566.A513"
+            ],
+            "publish_date": "2016",
+            "key": "/books/OL29303601M",
+            "authors": [
+                {
+                    "key": "/authors/OL227751A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL17925545W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "local_id": [
+                "urn:bwbsku:KS-226-349"
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B00VS0KBX2"
+                ]
+            },
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-24T10:29:55.988640"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-03T15:27:26.535400"
+            }
+        },
+        "/books/OL9242565M": {
+            "publishers": [
+                "Avon"
+            ],
+            "number_of_pages": 384,
+            "weight": "5.6 ounces",
+            "covers": [
+                45070
+            ],
+            "physical_format": "Mass Market Paperback",
+            "key": "/books/OL9242565M",
+            "authors": [
+                {
+                    "key": "/authors/OL1386167A"
+                }
+            ],
+            "subjects": [
+                "Fiction - Romance",
+                "Fiction",
+                "Romance: Historical",
+                "Romance: Medieval",
+                "Fiction / Romance / Historical"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "first_sentence": "\"All a woman ever needs know about men is that they are creatures of their codpieces.",
+            "source_records": [
+                "amazon:0061087130:o-3:3270282026:251868",
+                "amazon:0061087130:4:2786006607:253028",
+                "ia:masterofdesire00kinl_0"
+            ],
+            "title": "Master of Desire",
+            "identifiers": {
+                "goodreads": [
+                    "247091"
+                ],
+                "librarything": [
+                    "905771"
+                ]
+            },
+            "publish_date": "February 1, 2001",
+            "works": [
+                {
+                    "key": "/works/OL274910W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.8 x 4.1 x 1.3 inches",
+            "ocaid": "masterofdesire00kinl_0",
+            "isbn_10": [
+                "0061087130"
+            ],
+            "isbn_13": [
+                "9780061087134"
+            ],
+            "classifications": {},
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-03-16T11:00:29.946926"
+            }
+        },
+        "/books/OL9758485M": {
+            "publishers": [
+                "Avon Books"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2011-11-04T23:43:05.390892"
+            },
+            "title": "Master of desire",
+            "number_of_pages": 376,
+            "isbn_13": [
+                "9780739415627"
+            ],
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "physical_format": "Unknown Binding",
+            "isbn_10": [
+                "073941562X"
+            ],
+            "publish_date": "2001",
+            "key": "/books/OL9758485M",
+            "authors": [
+                {
+                    "key": "/authors/OL1386167A"
+                }
+            ],
+            "latest_revision": 4,
+            "oclc_numbers": [
+                "49992715"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL274910W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Historical fiction",
+                "Love stories"
+            ],
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "\"All a woman ever needs know about men is that they are creatures of their codpieces."
+            },
+            "revision": 4
+        },
+        "/books/OL29243010M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781408998274"
+            ],
+            "title": "Free Spirit",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781408998274"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Free Spirit",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2013",
+            "key": "/books/OL29243010M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3759296W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-23T19:25:22.370220"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-02T22:30:26.221683"
+            }
+        },
+        "/books/OL22638176M": {
+            "identifiers": {
+                "librarything": [
+                    "765770"
+                ]
+            },
+            "title": "Free spirit.",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "publish_date": "1989",
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "series": [
+                "Collector's edition"
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "219p. ;",
+            "source_records": [
+                "bwb:9780263808582",
+                "promise:bwb_daily_pallets_2020-11-19"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263808580"
+            ],
+            "publish_country": "xxk",
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:KO-375-446"
+            ],
+            "ocaid": "isbn_9780263808582",
+            "key": "/books/OL22638176M",
+            "number_of_pages": 219,
+            "works": [
+                {
+                    "key": "/works/OL3759296W"
+                }
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-18T08:17:37.098184"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-03-22T05:22:56.858642"
+            }
+        },
+        "/books/OL22323918M": {
+            "publishers": [
+                "Mills & Boon",
+                "Harlequin Mills & Boon"
+            ],
+            "pagination": "187p.",
+            "number_of_pages": 187,
+            "source_records": [
+                "bwb:9780263764475",
+                "amazon:0263764478"
+            ],
+            "title": "Free spirit.",
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "765770"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263764478"
+            ],
+            "publish_date": "1989",
+            "publish_country": "xxk",
+            "key": "/books/OL22323918M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3759296W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                13307106
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-10T08:59:50.025165"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-12T00:01:49.054486"
+            }
+        },
+        "/books/OL47007177M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL1391085A"
+                }
+            ],
+            "local_id": [
+                "urn:bwbsku:O8-CLH-288"
+            ],
+            "publish_date": "2006",
+            "publishers": [
+                "Little, Brown and Company"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-07-26:O8-CLH-288"
+            ],
+            "title": "New Moon",
+            "full_title": "New Moon",
+            "works": [
+                {
+                    "key": "/works/OL5720027W"
+                }
+            ],
+            "key": "/books/OL47007177M",
+            "identifiers": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "covers": [
+                15171422
+            ],
+            "weight": "1.65 pounds",
+            "edition_name": "Later Printing edtion",
+            "physical_format": "Hardcover",
+            "ocaid": "newmoon0000step",
+            "isbn_10": [
+                "0316065226"
+            ],
+            "isbn_13": [
+                "9780316065221"
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T07:15:07.149447"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-02-19T15:12:54.348826"
+            }
+        },
+        "/books/OL43347561M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL1391085A"
+                }
+            ],
+            "isbn_10": [
+                "9743573550"
+            ],
+            "isbn_13": [
+                "9789743573552"
+            ],
+            "local_id": [
+                "urn:bwbsku:P7-BKP-382"
+            ],
+            "publish_date": "2007-01-01",
+            "publishers": [
+                "n/a"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-05-28"
+            ],
+            "title": "Twilight New Moon",
+            "subtitle": "Eclipse",
+            "works": [
+                {
+                    "key": "/works/OL5720027W"
+                }
+            ],
+            "key": "/books/OL43347561M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-08T09:56:20.753234"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-14T11:54:11.403973"
+            }
+        },
+        "/books/OL40441329M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "New Moon",
+            "authors": [
+                {
+                    "key": "/authors/OL1391085A"
+                }
+            ],
+            "publish_date": "Nov 16, 2009",
+            "source_records": [
+                "amazon:1594133301"
+            ],
+            "number_of_pages": 649,
+            "publishers": [
+                "Large Print Pr",
+                "Brand: Large Print Press"
+            ],
+            "isbn_10": [
+                "1594133301"
+            ],
+            "isbn_13": [
+                "9781594133305"
+            ],
+            "physical_format": "paperback",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: New Moon (The Twilight Saga)"
+            },
+            "full_title": "New Moon",
+            "works": [
+                {
+                    "key": "/works/OL5720027W"
+                }
+            ],
+            "key": "/books/OL40441329M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-18T20:12:56.926833"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-14T11:54:11.403973"
+            }
+        },
+        "/books/OL42921398M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "New Moon",
+            "authors": [
+                {
+                    "key": "/authors/OL1391085A"
+                }
+            ],
+            "publish_date": "Mar 15, 2008",
+            "source_records": [
+                "amazon:0316032549",
+                "bwb:9780316032544"
+            ],
+            "number_of_pages": 608,
+            "publishers": [
+                "Little, Brown Books for Young Readers"
+            ],
+            "isbn_10": [
+                "0316032549"
+            ],
+            "isbn_13": [
+                "9780316032544"
+            ],
+            "physical_format": "paperback",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: New Moon (The Twilight Saga)"
+            },
+            "full_title": "New Moon",
+            "works": [
+                {
+                    "key": "/works/OL5720027W"
+                }
+            ],
+            "key": "/books/OL42921398M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-04T18:06:30.599089"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-17T05:38:02.517655"
+            }
+        },
+        "/books/OL25762502M": {
+            "publishers": [
+                "Little, Brown and Company"
+            ],
+            "classifications": {},
+            "title": "TheTwilight Saga - New Moon",
+            "table_of_contents": [
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "PREFACE",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "1. PARTY",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "2 STITCHES",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "3. THE END",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "OCTOBER",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "NOVEMBER",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "DECEMBER",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "JANUARY",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "4. WAKING UP",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "5. CHEATER",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "6. FRIENDS",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "7. REPETITION",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "8. ADRENALINE",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "9. THIRD WHEEL",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "10. THE MEADOW",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "11. CULT",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "12. INTRUDER",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "13. KILLER",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "14. FAMILY",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "15. PRESSURE",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "16. PARIS",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "17. VISITOR",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "18. THE FUNERAL",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "19. HATE",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "20. VOLTERRA",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "21. VERDICT",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "22. FLIGHT",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "23. THE TRUTH",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "24. VOTE",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "EPILOGUE TREATY",
+                    "pagenum": ""
+                }
+            ],
+            "identifiers": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2006",
+            "key": "/books/OL25762502M",
+            "subtitle": "New Moon",
+            "works": [
+                {
+                    "key": "/works/OL5720027W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2015-08-25T14:00:23.264363"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-14T11:54:11.403973"
+            }
+        },
+        "/books/OL47780875M": {
+            "title": "Carol",
+            "subtitle": "Les eaux dérobées, roman",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "publish_date": "1998-02-01",
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:KM-402-495"
+            ],
+            "publishers": [
+                "Succès Du Livre Éditions"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-05-15:KM-402-495"
+            ],
+            "full_title": "Carol Les eaux dérobées, roman",
+            "isbn_10": [
+                "2738205925"
+            ],
+            "isbn_13": [
+                "9782738205926"
+            ],
+            "ocaid": "carolleseauxdrob0000patr",
+            "key": "/books/OL47780875M",
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-05-17T01:36:57.478447"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-03-19T19:14:25.327756"
+            }
+        },
+        "/books/OL12520246M": {
+            "publishers": [
+                "Calmann-Lévy"
+            ],
+            "number_of_pages": 297,
+            "weight": "1 pounds",
+            "title": "Carol (Les Eaux dérobées)",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {
+                "goodreads": [
+                    "6802014"
+                ],
+                "librarything": [
+                    "112217"
+                ]
+            },
+            "covers": [
+                3115502
+            ],
+            "publish_date": "January 1, 1990",
+            "key": "/books/OL12520246M",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                },
+                {
+                    "key": "/authors/OL2150098A"
+                }
+            ],
+            "physical_format": "Paperback",
+            "physical_dimensions": "9.2 x 6.1 x 1 inches",
+            "isbn_10": [
+                "2702118968"
+            ],
+            "isbn_13": [
+                "9782702118962"
+            ],
+            "classifications": {},
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "local_id": [
+                "urn:bwbsku:P9-BAB-261"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2024-02-29:P9-BAB-261"
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-03-02T01:02:57.191907"
+            }
+        },
+        "/books/OL47579739M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Carol",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                },
+                {
+                    "key": "/authors/OL8945544A"
+                },
+                {
+                    "key": "/authors/OL9945519A"
+                }
+            ],
+            "publish_date": "Sep 01, 2022",
+            "source_records": [
+                "amazon:8419213152"
+            ],
+            "number_of_pages": 384,
+            "publishers": [
+                "Kalandraka"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Carol",
+            "covers": [
+                14201474
+            ],
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "key": "/books/OL47579739M",
+            "identifiers": {},
+            "isbn_10": [
+                "8419213152"
+            ],
+            "isbn_13": [
+                "9788419213150"
+            ],
+            "classifications": {},
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-04-19T23:20:29.211573"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-31T18:12:52.478932"
+            }
+        },
+        "/books/OL47579740M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Carol",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                },
+                {
+                    "key": "/authors/OL8945544A"
+                },
+                {
+                    "key": "/authors/OL9945519A"
+                }
+            ],
+            "publish_date": "Sep 01, 2022",
+            "source_records": [
+                "amazon:8419213152"
+            ],
+            "number_of_pages": 384,
+            "publishers": [
+                "Kalandraka"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Carol",
+            "covers": [
+                14201473
+            ],
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "key": "/books/OL47579740M",
+            "identifiers": {},
+            "isbn_10": [
+                "8419213152"
+            ],
+            "isbn_13": [
+                "9788419213150"
+            ],
+            "classifications": {},
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-04-19T23:20:29.237980"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-31T18:12:52.478932"
+            }
+        },
+        "/books/OL33467839M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 320,
+            "publish_date": "2014",
+            "publishers": [
+                "Little, Brown Book Group Limited"
+            ],
+            "source_records": [
+                "bwb:9780349004686"
+            ],
+            "title": "Carol",
+            "subtitle": "A Virago Modern Classic",
+            "full_title": "Carol A Virago Modern Classic",
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "key": "/books/OL33467839M",
+            "identifiers": {},
+            "isbn_13": [
+                "9780349004686"
+            ],
+            "classifications": {},
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-09-18T02:57:13.738203"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-07-17T15:24:01.739633"
+            }
+        },
+        "/books/OL47319986M": {
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "title": "Carol: Roman einer ungewöhnlichen Liebe",
+            "publishers": [
+                "Diogenes Verlag"
+            ],
+            "publish_date": "1990",
+            "key": "/books/OL47319986M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_10": [
+                "3763240071"
+            ],
+            "classifications": {},
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-04-06T15:27:09.410938"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-07-17T15:23:46.545323"
+            }
+        },
+        "/books/OL9799558M": {
+            "identifiers": {
+                "librarything": [
+                    "112217"
+                ]
+            },
+            "title": "Carol - Les Eaux dérobées",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "publish_date": "September 1, 1991",
+            "publishers": [
+                "LGF"
+            ],
+            "weight": "5.6 ounces",
+            "physical_format": "Mass Market Paperback",
+            "covers": [
+                2151584
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.7 x 5 x 0.7 inches",
+            "isbn_10": [
+                "2253057606"
+            ],
+            "isbn_13": [
+                "9782253057604"
+            ],
+            "oclc_numbers": [
+                "463628144"
+            ],
+            "source_records": [
+                "amazon:2253057606"
+            ],
+            "key": "/books/OL9799558M",
+            "number_of_pages": 314,
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-07T12:35:55.985793"
+            }
+        },
+        "/books/OL32202315M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Carol - Tuzun Bedeli",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "publish_date": "Apr 13, 2018",
+            "source_records": [
+                "amazon:9750739086"
+            ],
+            "number_of_pages": 352,
+            "publishers": [
+                "Can Yayinlari"
+            ],
+            "physical_format": "paperback",
+            "covers": [
+                10851493
+            ],
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "key": "/books/OL32202315M",
+            "identifiers": {},
+            "isbn_10": [
+                "9750739086"
+            ],
+            "isbn_13": [
+                "9789750739088"
+            ],
+            "classifications": {},
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-04-13T10:19:54.576843"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-07-17T15:23:31.566302"
+            }
+        },
+        "/books/OL42849597M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "number_of_pages": 272,
+            "physical_format": "paperback",
+            "publish_date": "Aug 29, 1991",
+            "publishers": [
+                "PENGUIN BOOKS LTD"
+            ],
+            "source_records": [
+                "amazon:0140156933"
+            ],
+            "title": "Carol",
+            "full_title": "Carol",
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "key": "/books/OL42849597M",
+            "identifiers": {},
+            "isbn_10": [
+                "0140156933"
+            ],
+            "isbn_13": [
+                "9780140156935"
+            ],
+            "classifications": {},
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-03T19:27:28.689989"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-31T18:12:52.478932"
+            }
+        },
+        "/books/OL38294647M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2015",
+            "publishers": [
+                "Dover Publications, Incorporated"
+            ],
+            "source_records": [
+                "bwb:9781322641089"
+            ],
+            "subjects": [
+                "Lesbians, fiction",
+                "Fiction, romance, general"
+            ],
+            "title": "Price of Salt",
+            "full_title": "Price of Salt",
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "key": "/books/OL38294647M",
+            "identifiers": {},
+            "isbn_13": [
+                "9781322641089"
+            ],
+            "classifications": {},
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-17T17:32:51.059970"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-31T18:12:52.478932"
+            }
+        },
+        "/books/OL7962799M": {
+            "identifiers": {
+                "goodreads": [
+                    "158886"
+                ],
+                "librarything": [
+                    "112217"
+                ]
+            },
+            "title": "Carol",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "publish_date": "June 20, 2005",
+            "publishers": [
+                "Bloomsbury Publishing PLC"
+            ],
+            "weight": "6.4 ounces",
+            "covers": [
+                488513
+            ],
+            "physical_format": "Paperback",
+            "subjects": [
+                "General & Literary Fiction"
+            ],
+            "edition_name": "New Ed edition",
+            "source_records": [
+                "amazon:0747580286:cr:319328425:155166",
+                "bwb:9780747580287"
+            ],
+            "isbn_13": [
+                "9780747580287"
+            ],
+            "isbn_10": [
+                "0747580286"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.8 x 4.4 x 1.1 inches",
+            "key": "/books/OL7962799M",
+            "number_of_pages": 320,
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "lc_classifications": [
+                "PS3558.I366"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-07-17T04:25:24.241765"
+            }
+        },
+        "/books/OL23050543M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "\"A1831\"--Spine.\n\nOriginally published: New York : Coward-McCann, 1952.\n\nBarbara Grier and Donna McBride collection."
+            },
+            "title": "The price of salt",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "publish_date": "1958",
+            "publishers": [
+                "Bantam Books"
+            ],
+            "pagination": "212 p. ;",
+            "publish_places": [
+                "New York"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "source_records": [
+                "marc:SanFranPL06/SanFranPL06.out:87380383:1077"
+            ],
+            "edition_name": "New Bantam ed.",
+            "subjects": [
+                "Lesbian couples -- Fiction",
+                "Lesbians -- Identity -- Fiction",
+                "Lesbians -- Fiction",
+                "Lesbian love stories"
+            ],
+            "publish_country": "nyu",
+            "by_statement": "by Claire Morgan.",
+            "oclc_numbers": [
+                "33149035"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "key": "/books/OL23050543M",
+            "number_of_pages": 212,
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-02-18T06:16:51.664009"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-03-03T13:02:10.173973"
+            }
+        },
+        "/books/OL22940772M": {
+            "description": {
+                "type": "/type/text",
+                "value": "Originally published by Coward-McCann Inc., New York, 1952.\r\n\r\nClaire Morgan – aka Patricia Highsmith."
+            },
+            "notes": {
+                "type": "/type/text",
+                "value": "Bantam Books # 1148\r\n\r\nBarbara Grier and Donna McBride collection."
+            },
+            "title": "The Price of Salt",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "publish_date": "1953",
+            "publishers": [
+                "Bantam Books"
+            ],
+            "pagination": "249 p. ;",
+            "covers": [
+                7913003
+            ],
+            "physical_format": "Paperback",
+            "publish_places": [
+                "New York, USA"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "edition_name": "Bantam ed.",
+            "subjects": [
+                "Lesbian couples -- Fiction.",
+                "Lesbians -- Identity -- Fiction.",
+                "Lesbians -- Fiction.",
+                "Lesbian love stories."
+            ],
+            "publish_country": "nyu",
+            "copyright_date": "1952",
+            "oclc_numbers": [
+                "32734256"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:SanFranPL08/SanFranPL08.out:46727273:980"
+            ],
+            "key": "/books/OL22940772M",
+            "number_of_pages": 249,
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-02-12T14:09:35.575801"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-16T05:40:34.712982"
+            }
+        },
+        "/books/OL7454129M": {
+            "identifiers": {
+                "librarything": [
+                    "112217"
+                ],
+                "goodreads": [
+                    "52258"
+                ]
+            },
+            "title": "The Price of Salt",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                },
+                {
+                    "key": "/authors/OL2685466A"
+                }
+            ],
+            "publish_date": "February 23, 2004",
+            "publishers": [
+                "W. W. Norton & Company"
+            ],
+            "isbn_13": [
+                "9780393325997"
+            ],
+            "covers": [
+                250777
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0393325997"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "The lunch hour in the co-workers' cafeteria at Frankenberg's had reached its peak."
+            },
+            "source_records": [
+                "amazon:0393325997"
+            ],
+            "key": "/books/OL7454129M",
+            "number_of_pages": 288,
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-17T09:48:11.531073"
+            }
+        },
+        "/books/OL27460727M": {
+            "publishers": [
+                "A.R. Shephard & Co."
+            ],
+            "identifiers": {
+                "amazon": [
+                    "1626543143"
+                ]
+            },
+            "covers": [
+                8919214
+            ],
+            "physical_format": "hardcover",
+            "full_title": "Carol",
+            "key": "/books/OL27460727M",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "source_records": [
+                "amazon:1626543143",
+                "bwb:9781626543140"
+            ],
+            "title": "Carol",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Carol (Movie Tie-In Editions)"
+            },
+            "number_of_pages": 256,
+            "isbn_13": [
+                "9781626543140"
+            ],
+            "isbn_10": [
+                "1626543143"
+            ],
+            "publish_date": "Nov 10, 2015",
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-10-15T17:27:59.904044"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T20:00:21.515123"
+            }
+        },
+        "/books/OL27460696M": {
+            "publishers": [
+                "Allegro Editions"
+            ],
+            "number_of_pages": 256,
+            "source_records": [
+                "amazon:1626543119",
+                "bwb:9781626543119"
+            ],
+            "title": "The Price of Salt, or Carol",
+            "identifiers": {
+                "amazon": [
+                    "1626543119"
+                ]
+            },
+            "isbn_13": [
+                "9781626543119"
+            ],
+            "covers": [
+                8919184
+            ],
+            "physical_format": "hardcover",
+            "isbn_10": [
+                "1626543119"
+            ],
+            "publish_date": "Nov 10, 2015",
+            "key": "/books/OL27460696M",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-10-15T17:25:06.050199"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T18:20:58.424170"
+            }
+        },
+        "/books/OL27279692M": {
+            "publishers": [
+                "Dover Publications"
+            ],
+            "identifiers": {
+                "amazon": [
+                    "0486800296"
+                ]
+            },
+            "source_records": [
+                "amazon:0486800296",
+                "bwb:9780486800295",
+                "ia:priceofsalt0000high",
+                "marc:marc_columbia/Columbia-extract-20221130-024.mrc:82755029:1365",
+                "promise:bwb_daily_pallets_2021-05-14"
+            ],
+            "title": "The Price of Salt",
+            "type": {
+                "key": "/type/edition"
+            },
+            "number_of_pages": 256,
+            "covers": [
+                8761877
+            ],
+            "full_title": "The Price of Salt",
+            "publish_date": "Jan 14, 2015",
+            "key": "/books/OL27279692M",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "physical_format": "paperback",
+            "local_id": [
+                "urn:bwbsku:O7-BQR-320"
+            ],
+            "ocaid": "priceofsalt0000high",
+            "isbn_10": [
+                "0486800296"
+            ],
+            "isbn_13": [
+                "9780486800295"
+            ],
+            "oclc_numbers": [
+                "898158663"
+            ],
+            "classifications": {},
+            "lc_classifications": [
+                "PS3558.I366 P7 2015b",
+                "PS3558.I366 P7 2015"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-08-24T10:13:31.727792"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-04-23T23:08:40.934668"
+            }
+        },
+        "/books/OL27460978M": {
+            "publishers": [
+                "Echo Point Books & Media"
+            ],
+            "identifiers": {
+                "amazon": [
+                    "1626543089"
+                ]
+            },
+            "subtitle": "OR Carol",
+            "covers": [
+                8919471
+            ],
+            "physical_format": "paperback",
+            "full_title": "The Price of Salt OR Carol",
+            "key": "/books/OL27460978M",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "source_records": [
+                "amazon:1626543089",
+                "bwb:9781626543089"
+            ],
+            "title": "The Price of Salt",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: The Price of Salt: OR Carol"
+            },
+            "number_of_pages": 256,
+            "isbn_13": [
+                "9781626543089"
+            ],
+            "isbn_10": [
+                "1626543089"
+            ],
+            "publish_date": "Nov 10, 2015",
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "lc_classifications": [
+                "PS3558.I366"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-10-15T17:53:15.410197"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T20:00:21.183944"
+            }
+        },
+        "/books/OL22940628M": {
+            "latest_revision": 3,
+            "contributions": [
+                "Morgan, Claire, 1921-"
+            ],
+            "id": 33663652,
+            "genres": [
+                "Fiction."
+            ],
+            "source_records": [
+                "marc:SanFranPL08/SanFranPL08.out:46352985:883"
+            ],
+            "title": "The price of salt",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Lesbians -- Fiction"
+            ],
+            "publish_country": "nyu",
+            "by_statement": "Patricia Highsmith.",
+            "oclc_numbers": [
+                "39920525"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 3,
+            "publishers": [
+                "Quality Paperback Book Club"
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2009-10-16T01:34:34.821908"
+            },
+            "key": "/books/OL22940628M",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "pagination": "276 p. ;",
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-02-12T14:07:51.416481"
+            },
+            "notes": {
+                "type": "/type/text",
+                "value": "\"First published in 1952 under the pseudonym Claire Morgan\"--T.p. verso."
+            },
+            "number_of_pages": 276,
+            "publish_date": "1996",
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ]
+        },
+        "/books/OL38532600M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL227751A"
+                }
+            ],
+            "isbn_13": [
+                "9780369723918"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "384",
+            "publish_date": "2023",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9780369723918"
+            ],
+            "title": "Untamed",
+            "full_title": "Untamed",
+            "works": [
+                {
+                    "key": "/works/OL17925545W"
+                }
+            ],
+            "key": "/books/OL38532600M",
+            "covers": [
+                14708965
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T20:28:45.739188"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-03T15:27:26.535400"
+            }
+        },
+        "/books/OL28833157M": {
+            "title": "Untamed",
+            "authors": [
+                {
+                    "key": "/authors/OL227751A"
+                }
+            ],
+            "publish_date": "2016",
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "source_records": [
+                "bwb:9780373789405",
+                "ia:untamed0000palm_c5o2",
+                "promise:bwb_daily_pallets_2021-01-26"
+            ],
+            "isbn_13": [
+                "9780373789405"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Untamed",
+            "lc_classifications": [
+                ""
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "ocaid": "untamed0000palm_c5o2",
+            "key": "/books/OL28833157M",
+            "number_of_pages": 384,
+            "works": [
+                {
+                    "key": "/works/OL17925545W"
+                }
+            ],
+            "local_id": [
+                "urn:bwbsku:O7-DKC-170"
+            ],
+            "covers": [
+                13047497
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-16T19:01:54.837092"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-03T15:27:26.535400"
+            }
+        },
+        "/books/OL27181797M": {
+            "isbn_10": [
+                "0373788436"
+            ],
+            "covers": [
+                10425598
+            ],
+            "local_id": [
+                "urn:sfpl:31223112991584",
+                "urn:sfpl:31223112991576",
+                "urn:sfpl:31223112991501"
+            ],
+            "full_title": "Untamed",
+            "lc_classifications": [
+                "PS3566.A513 U68 2015",
+                "PS3566.A513U58 2015b"
+            ],
+            "key": "/books/OL27181797M",
+            "authors": [
+                {
+                    "key": "/authors/OL227751A"
+                }
+            ],
+            "ocaid": "untamed0000palm_x2c7",
+            "isbn_13": [
+                "9780373788439"
+            ],
+            "pagination": "299 pages",
+            "source_records": [
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run05.mrc:173675719:1952",
+                "bwb:9780373788439",
+                "ia:untamed0000palm_x2c7",
+                "amazon:0373788436"
+            ],
+            "title": "Untamed",
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "number_of_pages": 299,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subject_places": [
+                "Texas"
+            ],
+            "subjects": [
+                "Women journalists",
+                "Amnesia",
+                "Fiction"
+            ],
+            "publish_date": "2015",
+            "publish_country": "onc",
+            "by_statement": "Diana Palmer",
+            "oclc_numbers": [
+                "905106791"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL17925545W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-07-18T21:44:41.561458"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-03T15:27:26.535400"
+            }
+        },
+        "/books/OL24263039M": {
+            "publishers": [
+                "HarperCollins"
+            ],
+            "covers": [
+                6411452
+            ],
+            "physical_format": "Electronic resource",
+            "key": "/books/OL24263039M",
+            "authors": [
+                {
+                    "key": "/authors/OL1386167A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "isbn_13": [
+                "9780060876876",
+                "9780061747397",
+                "9780060876869"
+            ],
+            "source_records": [
+                "marc_overdrive/InternetArchiveCrMarc-2010-06-11k.mrc:8585629:1969",
+                "bwb:9780061747397"
+            ],
+            "title": "Master of Desire",
+            "identifiers": {
+                "overdrive": [
+                    "935912C1-B33A-4F22-8316-93C8EE45FE90"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2005",
+            "publish_country": "nyu",
+            "works": [
+                {
+                    "key": "/works/OL274910W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-06-17T21:21:21.214785"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-03-28T17:58:49.543588"
+            }
+        },
+        "/books/OL1977525M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "765770"
+                ]
+            },
+            "lc_classifications": [
+                "MLCS 90/15885 (P)"
+            ],
+            "latest_revision": 6,
+            "key": "/books/OL1977525M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "publish_places": [
+                "Richmond, Surrey"
+            ],
+            "pagination": "187 p. ;",
+            "source_records": [
+                "bwb:9780263121650",
+                "marc:marc_loc_2016/BooksAll.2016.part20.utf8:165507200:443"
+            ],
+            "title": "Free spirit",
+            "lccn": [
+                "90220153"
+            ],
+            "number_of_pages": 187,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263121658"
+            ],
+            "publish_date": "1989",
+            "publish_country": "enk",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-11-12T12:47:19.473016"
+            },
+            "by_statement": "by Penny Jordan.",
+            "oclc_numbers": [
+                "20385751"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3759296W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 6
+        },
+        "/books/OL9813974M": {
+            "identifiers": {
+                "librarything": [
+                    "765770"
+                ]
+            },
+            "title": "Free Spirit",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "publish_date": "August 1, 1990",
+            "publishers": [
+                "Harlequin"
+            ],
+            "series": [
+                "Harlequin Presents, No 1297"
+            ],
+            "covers": [
+                9963635
+            ],
+            "physical_format": "Mass Market Paperback",
+            "ocaid": "freespirit00jord",
+            "subjects": [
+                "Non-Classifiable",
+                "Romance - General",
+                "Fiction",
+                "Nonfiction - General",
+                "Romance: Regency"
+            ],
+            "isbn_13": [
+                "9780373112975"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-06-01:W7-CHR-667",
+                "bwb:9780373112975",
+                "amazon:0373112971",
+                "promise:bwb_daily_pallets_2022-06-01:O8-ARS-804"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373112971"
+            ],
+            "oclc_numbers": [
+                "22276557"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:W7-CHR-667",
+                "urn:bwbsku:O8-ARS-804"
+            ],
+            "key": "/books/OL9813974M",
+            "number_of_pages": 187,
+            "works": [
+                {
+                    "key": "/works/OL3759296W"
+                }
+            ],
+            "latest_revision": 15,
+            "revision": 15,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T08:51:21.028126"
+            }
+        },
+        "/books/OL47468747M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "New moon",
+            "authors": [
+                {
+                    "key": "/authors/OL1391085A"
+                }
+            ],
+            "publish_date": "Oct 01, 2016",
+            "source_records": [
+                "amazon:8893250195"
+            ],
+            "publishers": [
+                "Fazi"
+            ],
+            "isbn_10": [
+                "8893250195"
+            ],
+            "isbn_13": [
+                "9788893250191"
+            ],
+            "physical_format": "paperback",
+            "full_title": "New moon",
+            "covers": [
+                14075307
+            ],
+            "works": [
+                {
+                    "key": "/works/OL5720027W"
+                }
+            ],
+            "key": "/books/OL47468747M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-04-17T02:19:34.875945"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-20T16:39:15.907593"
+            }
+        },
+        "/books/OL41351865M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "New Moon",
+            "authors": [
+                {
+                    "key": "/authors/OL1391085A"
+                }
+            ],
+            "publish_date": "May 31, 2008",
+            "source_records": [
+                "amazon:1417815426"
+            ],
+            "number_of_pages": 608,
+            "publishers": [
+                "Turtleback Books",
+                "Brand: Turtleback"
+            ],
+            "isbn_10": [
+                "1417815426"
+            ],
+            "isbn_13": [
+                "9781417815425"
+            ],
+            "physical_format": "library binding",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: New Moon (Turtleback School & Library Binding Edition) (Twilight Saga)"
+            },
+            "full_title": "New Moon",
+            "works": [
+                {
+                    "key": "/works/OL5720027W"
+                }
+            ],
+            "key": "/books/OL41351865M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-25T02:50:12.641483"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-14T11:54:11.403973"
+            }
+        },
+        "/books/OL39646065M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL1391085A"
+                }
+            ],
+            "isbn_13": [
+                "9781484485279"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "608",
+            "publish_date": "2008",
+            "publishers": [
+                "Little Brown & Company"
+            ],
+            "source_records": [
+                "bwb:9781484485279"
+            ],
+            "title": "New Moon",
+            "full_title": "New Moon",
+            "works": [
+                {
+                    "key": "/works/OL5720027W"
+                }
+            ],
+            "key": "/books/OL39646065M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-09-18T13:11:48.533149"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-14T11:54:11.403973"
+            }
+        },
+        "/books/OL47579741M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Carol",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                },
+                {
+                    "key": "/authors/OL8945544A"
+                },
+                {
+                    "key": "/authors/OL9945519A"
+                }
+            ],
+            "publish_date": "Sep 01, 2022",
+            "source_records": [
+                "amazon:8419213152"
+            ],
+            "number_of_pages": 384,
+            "publishers": [
+                "Kalandraka"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Carol",
+            "covers": [
+                14201475
+            ],
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "key": "/books/OL47579741M",
+            "identifiers": {},
+            "isbn_10": [
+                "8419213152"
+            ],
+            "isbn_13": [
+                "9788419213150"
+            ],
+            "classifications": {},
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-04-19T23:20:29.207478"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-31T18:12:52.478932"
+            }
+        },
+        "/books/OL47579742M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Carol",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                },
+                {
+                    "key": "/authors/OL8945544A"
+                },
+                {
+                    "key": "/authors/OL9945519A"
+                }
+            ],
+            "publish_date": "Sep 01, 2022",
+            "source_records": [
+                "amazon:8419213152"
+            ],
+            "number_of_pages": 384,
+            "publishers": [
+                "Kalandraka"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Carol",
+            "covers": [
+                14201476
+            ],
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "key": "/books/OL47579742M",
+            "identifiers": {},
+            "isbn_10": [
+                "8419213152"
+            ],
+            "isbn_13": [
+                "9788419213150"
+            ],
+            "classifications": {},
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-04-19T23:20:29.251765"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-31T18:12:52.478932"
+            }
+        },
+        "/books/OL40174920M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "208",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798843878061"
+            ],
+            "title": "Price of Salt",
+            "weight": "0.614 ",
+            "full_title": "Price of Salt",
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "key": "/books/OL40174920M",
+            "identifiers": {},
+            "classifications": {},
+            "isbn_13": [
+                "9798843878061"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-10-20T01:51:46.422318"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-31T18:12:52.478932"
+            }
+        },
+        "/books/OL12680062M": {
+            "publishers": [
+                "Diogenes Verlag"
+            ],
+            "physical_format": "Paperback",
+            "title": "Carol. Roman einer ungewöhnlichen Liebe.",
+            "identifiers": {
+                "goodreads": [
+                    "641090"
+                ],
+                "librarything": [
+                    "112217"
+                ],
+                "dnb": [
+                    "921444419"
+                ]
+            },
+            "covers": [
+                3176945
+            ],
+            "publish_date": "September 1, 1992",
+            "key": "/books/OL12680062M",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "source_records": [
+                "ia:carolromaneineru0000high",
+                "promise:bwb_daily_pallets_2022-03-17",
+                "amazon:3257224877"
+            ],
+            "local_id": [
+                "urn:bwbsku:W7-ALO-045"
+            ],
+            "ocaid": "carolromaneineru0000high",
+            "isbn_10": [
+                "3257224877"
+            ],
+            "isbn_13": [
+                "9783257224870"
+            ],
+            "oclc_numbers": [
+                "75318868"
+            ],
+            "classifications": {},
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-07-17T15:22:56.833247"
+            }
+        },
+        "/books/OL38209868M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "2015",
+            "publish_country": "xxu",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "notes": "Originally published: 1952.",
+            "description": "This novel was first published in 1952 under the pseudonym Clare Morgan. The Price of Salt tells the riveting story of Therese Belivet, a stage designer trapped in a department-store day job, whose salvation arrives one day in the form of Carol Aird, an alluring suburban housewife in the throes of a divorce. They fall in love and set out across the United States, pursued by a private investigator who eventually blackmails Carol into a choice between her daughter and her lover.",
+            "contributions": [
+                "Morgan, Claire, 1921-1995",
+                "Brayton, Heather E., illustrator"
+            ],
+            "subjects": [
+                "Lesbians",
+                "Fiction",
+                "Lesbiennes",
+                "Romans, nouvelles"
+            ],
+            "title": "The Price of Salt",
+            "publishers": [
+                "She Winked Press"
+            ],
+            "publish_places": [
+                "United States"
+            ],
+            "pagination": "256 pages",
+            "number_of_pages": 256,
+            "source_records": [
+                "ia:priceofsalt0000high_b6c4",
+                "amazon:1936456532",
+                "promise:bwb_daily_pallets_2022-03-17"
+            ],
+            "full_title": "The price of salt",
+            "covers": [
+                12754679
+            ],
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "key": "/books/OL38209868M",
+            "local_id": [
+                "urn:bwbsku:P7-EKG-912"
+            ],
+            "identifiers": {},
+            "ocaid": "priceofsalt0000high_b6c4",
+            "isbn_10": [
+                "1936456532"
+            ],
+            "isbn_13": [
+                "9781936456536"
+            ],
+            "oclc_numbers": [
+                "934807006"
+            ],
+            "classifications": {},
+            "contributors": [
+                {
+                    "role": "Illustrator",
+                    "name": "Heather E. Brayton"
+                }
+            ],
+            "edition_name": "Illustrated Edition",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-05-27T18:58:32.004963"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-07T20:16:54.417120"
+            }
+        },
+        "/books/OL20655085M": {
+            "title": "The price of salt.",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "publish_date": "1952",
+            "publishers": [
+                "Coward-McCann"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_country": "xxu",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:2522694483:340"
+            ],
+            "key": "/books/OL20655085M",
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-29T08:07:25.375585"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-02-14T21:24:44.097010"
+            }
+        },
+        "/books/OL25254797M": {
+            "title": "Carol",
+            "publish_date": "2001",
+            "publishers": [
+                "Tascabili Bompiani"
+            ],
+            "contributors": [
+                {
+                    "role": "Translator",
+                    "name": "Hilia Brinis"
+                }
+            ],
+            "physical_format": "Paperback",
+            "covers": [
+                7089236
+            ],
+            "languages": [
+                {
+                    "key": "/languages/ita"
+                }
+            ],
+            "isbn_10": [
+                "8845247899"
+            ],
+            "publish_places": [
+                "Milano"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "key": "/books/OL25254797M",
+            "number_of_pages": 284,
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "source_records": [
+                "amazon:8845247899"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2012-03-26T11:08:10.021698"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-03T20:22:43.639167"
+            }
+        },
+        "/books/OL9303483M": {
+            "identifiers": {
+                "goodreads": [
+                    "2020309"
+                ],
+                "librarything": [
+                    "112217"
+                ]
+            },
+            "title": "Carol",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "publish_date": "June 1999",
+            "publishers": [
+                "Penguin Books"
+            ],
+            "weight": "6.9 ounces",
+            "covers": [
+                95911
+            ],
+            "edition_name": "New Ed edition",
+            "physical_format": "Hardcover",
+            "subjects": [
+                "Literature of special Lesbian interest",
+                "Modern fiction",
+                "Suspense",
+                "Fiction - Espionage / Thriller"
+            ],
+            "isbn_13": [
+                "9780140149067"
+            ],
+            "source_records": [
+                "amazon:0140149066:o-9:3033378960:168077",
+                "amazon:0140149066:10:2605669288:166520"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "isbn_10": [
+                "0140149066"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "7.8 x 5.1 x 0.6 inches",
+            "key": "/books/OL9303483M",
+            "number_of_pages": 272,
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-03-03T13:02:10.173973"
+            }
+        },
+        "/books/OL7961124M": {
+            "description": {
+                "type": "/type/text",
+                "value": "'Their eyes met at the same instant, Therese glancing up from a box she was opening, and the woman just turning her head so she looked directly at Therese. She was tall and fair, her long figure graceful in the loose fur coat that she held open with a hand on her waist. Her eyes were grey, colourless, yet dominant as light or fire, and, caught by them, Therese could not look away.'\r\n\r\nWhen this remarkable novel was published under a pseudonym in 1952, it was said to be the first gay book with a happy ending. To encounter Therese and Carol four decades on is an enlightening experience. For this bold breakthrough, which prompted an avalanche of gratitude from readers, is as fresh, heartening and moving today.\r\n\r\nTherese was nineteen – loved by a young man she cared about, but could not desire. Secretly she dreaded their planned trip to Europe. It was in the Christmas rush of Frankenberg's toy department that Carol made her first appearance. She was a sophisticated married woman, buying gifts for her daughter; Therese a burgeoning stage designer whose temporary sales job – perhaps even her whole life – now seemed to have no other purpose than this startling meeting.\r\n\r\nTheirs was to be a love story gently, tentatively unfolding one moment, plunged into crisis and recrimination the next. In the hands of Patricia Highsmith it is a spellbinding journey of courage, self-discovery, and profound human feeling.\r\n\r\nBorn in Texas, Patricia Highsmith has spent much of her life in England, France and Switzerland. Best known for her mastery of suspense, her most recent publication is *Tales of Natural and Unnatural Catastrophes*. (*Dust jacket blurb*)"
+            },
+            "notes": {
+                "type": "/type/text",
+                "value": "First published in the USA under the title *The Price of Salt*, 1952\r\n\r\nAfterword by the Author\r\n\r\nJacket design by the Senate\r\nThe jacket shows 'L'Abandon, les Deux Amies' by Henri Toulouse-Lautrec\r\nAuthor's photograph by Sophie Bassouls/Sygma"
+            },
+            "identifiers": {
+                "librarything": [
+                    "112217"
+                ]
+            },
+            "title": "Carol",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "publish_date": "1990",
+            "other_titles": [
+                "The Price of Salt"
+            ],
+            "publishers": [
+                "Bloomsbury Publishing Plc"
+            ],
+            "isbn_10": [
+                "0747507198"
+            ],
+            "covers": [
+                7913188
+            ],
+            "physical_format": "Hardcover",
+            "publish_places": [
+                "London, UK"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "amazon:0747507198:cq:4150605061:157411"
+            ],
+            "isbn_13": [
+                "9780747507192"
+            ],
+            "edition_name": "First edition",
+            "subjects": [
+                "Modern fiction",
+                "Literature of special Lesbian interest"
+            ],
+            "copyright_date": "1991 by Patricia Highsmith",
+            "type": {
+                "key": "/type/edition"
+            },
+            "key": "/books/OL7961124M",
+            "number_of_pages": 240,
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-03-03T13:02:10.173973"
+            }
+        },
+        "/books/OL22407056M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Originally published  under the name Clair Morgan as \"The price of salt\", 1952."
+            },
+            "identifiers": {
+                "goodreads": [
+                    "933340"
+                ],
+                "librarything": [
+                    "112217"
+                ]
+            },
+            "title": "Carol",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "publish_date": "1993",
+            "publishers": [
+                "Bloomsbury"
+            ],
+            "series": [
+                "Bloomsbury classics"
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "344p. ;",
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:1569416151:661"
+            ],
+            "work_titles": [
+                "The price of salt"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "dewey_decimal_class": [
+                "813.54"
+            ],
+            "isbn_10": [
+                "0747516049"
+            ],
+            "publish_country": "enk",
+            "by_statement": "Patricia Highsmith.",
+            "type": {
+                "key": "/type/edition"
+            },
+            "key": "/books/OL22407056M",
+            "number_of_pages": 344,
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-12T17:30:18.524691"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-03-03T13:02:10.173973"
+            }
+        },
+        "/books/OL22949109M": {
+            "description": {
+                "type": "/type/text",
+                "value": "Originally published by Coward-McCann, New York, 1952."
+            },
+            "notes": {
+                "type": "/type/text",
+                "value": "Macfadden Books # 75-234\r\n\r\n\"A Macfadden-Bartell book.\""
+            },
+            "title": "The Price of Salt",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "publish_date": "1969",
+            "publishers": [
+                "Macfadden-Bartell Corp."
+            ],
+            "isbn_10": [
+                "52000234075"
+            ],
+            "pagination": "224 p. ;",
+            "covers": [
+                7987856
+            ],
+            "physical_format": "Paperback",
+            "lc_classifications": [
+                "PS3558.I366 P75x 1969"
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "source_records": [
+                "marc:SanFranPL08/SanFranPL08.out:64094499:1266"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Lesbian couples -- Fiction",
+                "Lesbians -- Identity -- Fiction"
+            ],
+            "publish_country": "nyu",
+            "copyright_date": "1952",
+            "by_statement": "Claire Morgan.",
+            "oclc_numbers": [
+                "36513732"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "key": "/books/OL22949109M",
+            "number_of_pages": 224,
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-02-12T15:26:05.664733"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-03-03T13:02:10.173973"
+            }
+        },
+        "/books/OL5191658M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Reprint Edition 1975 by Arno Press Inc.\r\n\r\nCopyright © 1952 by Coward-McCann, Inc.\r\nReprinted by permission of Claire Morgan\r\n\r\nHOMOSEXUALITY: Lesbians and Gay Men in Society, History and Literature\r\n\r\nReprint of the ed. published by Coward-McCann, New York."
+            },
+            "identifiers": {
+                "librarything": [
+                    "112217"
+                ],
+                "goodreads": [
+                    "1103729"
+                ]
+            },
+            "title": "The Price of Salt",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "publish_date": "1975",
+            "publishers": [
+                "Arno Press"
+            ],
+            "isbn_10": [
+                "0405073844"
+            ],
+            "series": [
+                "The Arno Series on Homosexuality"
+            ],
+            "covers": [
+                4482294
+            ],
+            "physical_format": "Hardcover",
+            "lc_classifications": [
+                "PS3558.I366 P7 1975",
+                "PZ3.H53985 Pr7",
+                "PS3558.I366 Pr7"
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "pagination": "276 p. ;",
+            "source_records": [
+                "marc:marc_loc_2016/BooksAll.2016.part09.utf8:26363921:690",
+                "marc:marc_columbia/Columbia-extract-20221130-001.mrc:395757087:1173",
+                "marc:harvard_bibliographic_metadata/20220215_037.bib.mrc:168813375:2895"
+            ],
+            "lccn": [
+                "75012340"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "dewey_decimal_class": [
+                "813/.5/4"
+            ],
+            "subjects": [
+                "Lesbians -- Fiction."
+            ],
+            "publish_country": "nyu",
+            "copyright_date": "1952",
+            "type": {
+                "key": "/type/edition"
+            },
+            "key": "/books/OL5191658M",
+            "number_of_pages": 276,
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "oclc_numbers": [
+                "1418745"
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "A chance encounter between two lonely women leads to a passionate romance in this lesbian cult classic. Therese, a struggling young sales clerk, and Carol, a homemaker in the midst of a bitter divorce, abandon their oppressive daily routines for the freedom of the open road, where their love can blossom. But their newly discovered bliss is shattered when Carol is forced to choose between her child and her lover. Highsmith's sensitive treatment of fully realized characters who defy stereotypes about homosexuality marks a departure from previous lesbian pulp fiction. Erotic, eloquent, and suspenseful, this story offers an honest look at the necessity of being true to one's nature."
+            },
+            "latest_revision": 12,
+            "revision": 12,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-05-05T00:50:32.121714"
+            }
+        },
+        "/books/OL6111394M": {
+            "description": {
+                "type": "/type/text",
+                "value": "Original pseudonymous edition.\r\n(Claire Morgan aka Patricia Highsmith)"
+            },
+            "notes": {
+                "type": "/type/text",
+                "value": "*Copyright page*:\r\n\r\nPublished simultaneously in the Dominion of Canada by Longmans, Green and Company, Toronto.\r\n \r\nThe lyrics quoted on pages 128 and 130 are from the song \"Easy Living,\" by Leo Robin and Ralph Rainger, copyright, 1937, by Famous Music Corporation, and are reprinted by courtesy of the Famous Music Corporation.\r\n \r\nThe lines quoted on page 16 are from \"The Love Song of J. Alfred Prufrock,\" by T. S. Eliot, and are reprinted by courtesy of Harcourt, Brace and Company. Copyright, 1934, 1936, by Harcourt, Brace and Company, Inc. \r\n\r\n*Dedication*:\r\n\r\n\r\n\r\nTo EDNA, JORDY, AND JEFF"
+            },
+            "identifiers": {
+                "librarything": [
+                    "112217"
+                ]
+            },
+            "title": "The Price of Salt",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "publish_date": "1952",
+            "other_titles": [
+                "Republished as \"Carol\" by Bloomsbury Publishing Plc, 1990, under Patricia Highsmith name."
+            ],
+            "publishers": [
+                "Coward-McCann Inc."
+            ],
+            "pagination": "276 p.",
+            "covers": [
+                7913112
+            ],
+            "physical_format": "Hardcover",
+            "lc_classifications": [
+                "PZ3.H53985 Pr"
+            ],
+            "publish_places": [
+                "New York, USA"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "genres": [
+                "Fiction."
+            ],
+            "source_records": [
+                "marc:marc_loc_2016/BooksAll.2016.part04.utf8:146599529:525"
+            ],
+            "lccn": [
+                "52008026"
+            ],
+            "edition_name": "First edition",
+            "subjects": [
+                "Lesbians -- Fiction."
+            ],
+            "publish_country": "nyu",
+            "copyright_date": "1952",
+            "oclc_numbers": [
+                "1738553"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "key": "/books/OL6111394M",
+            "number_of_pages": 276,
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "latest_revision": 15,
+            "revision": 15,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-03-03T13:02:10.173973"
+            }
+        },
+        "/books/OL29657284M": {
+            "publishers": [
+                "Norton & Company, Incorporated, W. W."
+            ],
+            "source_records": [
+                "bwb:9780393345643",
+                "idb:9780393345643"
+            ],
+            "title": "Price of Salt",
+            "number_of_pages": 304,
+            "isbn_13": [
+                "9780393345643"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Price of Salt",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2004",
+            "key": "/books/OL29657284M",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Lesbians, fiction",
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-29T12:14:44.943436"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-12-19T22:12:59.264368"
+            }
+        },
+        "/books/OL28837054M": {
+            "title": "Carol",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "publish_date": "2015",
+            "publishers": [
+                "Norton & Company, Incorporated, W. W.",
+                "W. W. Norton & Company"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-04-01:O7-AMF-642",
+                "bwb:9780393352689",
+                "marc:marc_loc_2016/BooksAll.2016.part42.utf8:68132351:831",
+                "ia:carol0000high_s5v7",
+                "marc:marc_columbia/Columbia-extract-20221130-024.mrc:162626596:2228",
+                "promise:bwb_daily_pallets_2020-03-26:163-ABB-550"
+            ],
+            "lccn": [
+                "2015022951"
+            ],
+            "isbn_13": [
+                "9780393352689"
+            ],
+            "full_title": "Carol",
+            "lc_classifications": [
+                "PS3558.I366P7 2015",
+                "PS3558.I366 P7 2015"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, lesbian",
+                "Fiction, romance, fantasy"
+            ],
+            "covers": [
+                11686074
+            ],
+            "ocaid": "carol0000high_s5v7",
+            "local_id": [
+                "urn:bwbsku:O7-AMF-642",
+                "urn:bwbsku:163-ABB-550"
+            ],
+            "oclc_numbers": [
+                "909974484"
+            ],
+            "key": "/books/OL28837054M",
+            "number_of_pages": 304,
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-16T20:22:56.993943"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T18:46:11.114057"
+            }
+        },
+        "/books/OL27460964M": {
+            "publishers": [
+                "Allegro Editions"
+            ],
+            "number_of_pages": 256,
+            "source_records": [
+                "amazon:1626543100",
+                "bwb:9781626543102",
+                "promise:bwb_daily_pallets_2024-07-30:W9-BCL-202"
+            ],
+            "title": "The Price of Salt, or Carol",
+            "identifiers": {
+                "amazon": [
+                    "1626543100"
+                ]
+            },
+            "isbn_13": [
+                "9781626543102"
+            ],
+            "covers": [
+                8919457
+            ],
+            "physical_format": "paperback",
+            "full_title": "The Price of Salt, or Carol",
+            "isbn_10": [
+                "1626543100"
+            ],
+            "publish_date": "Nov 10, 2015",
+            "key": "/books/OL27460964M",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:W9-BCL-202"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-10-15T17:51:53.968711"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-01T02:01:15.054895"
+            }
+        },
+        "/books/OL27460687M": {
+            "publishers": [
+                "Churchill & Dunn, Ltd"
+            ],
+            "number_of_pages": 256,
+            "source_records": [
+                "amazon:1626543135",
+                "bwb:9781626543133"
+            ],
+            "title": "Carol",
+            "identifiers": {
+                "amazon": [
+                    "1626543135"
+                ]
+            },
+            "isbn_13": [
+                "9781626543133"
+            ],
+            "covers": [
+                8919174
+            ],
+            "physical_format": "hardcover",
+            "full_title": "Carol",
+            "isbn_10": [
+                "1626543135"
+            ],
+            "publish_date": "Nov 10, 2015",
+            "key": "/books/OL27460687M",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-10-15T17:23:55.327341"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T21:02:58.121884"
+            }
+        },
+        "/books/OL27404329M": {
+            "publishers": [
+                "Digireads.com Publishing"
+            ],
+            "identifiers": {
+                "amazon": [
+                    "1420956051"
+                ]
+            },
+            "covers": [
+                8866486
+            ],
+            "physical_format": "paperback",
+            "full_title": "The Price of Salt",
+            "key": "/books/OL27404329M",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "source_records": [
+                "amazon:1420956051"
+            ],
+            "title": "The Price of Salt",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: The Price of Salt (Carol)"
+            },
+            "number_of_pages": 198,
+            "isbn_13": [
+                "9781420956054"
+            ],
+            "isbn_10": [
+                "1420956051"
+            ],
+            "publish_date": "Sep 22, 2017",
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-10-10T08:15:53.361461"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-10-15T17:25:29.320069"
+            }
+        },
+        "/books/OL27460679M": {
+            "publishers": [
+                "Echo Point Books & Media"
+            ],
+            "identifiers": {
+                "amazon": [
+                    "1626543097"
+                ]
+            },
+            "subtitle": "OR Carol",
+            "covers": [
+                8919168
+            ],
+            "physical_format": "hardcover",
+            "full_title": "The Price of Salt OR Carol",
+            "key": "/books/OL27460679M",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "source_records": [
+                "amazon:1626543097",
+                "bwb:9781626543096"
+            ],
+            "title": "The Price of Salt",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: The Price of Salt: OR Carol"
+            },
+            "number_of_pages": 256,
+            "isbn_13": [
+                "9781626543096"
+            ],
+            "isbn_10": [
+                "1626543097"
+            ],
+            "publish_date": "Nov 10, 2015",
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-10-15T17:23:05.467004"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T17:46:00.176601"
+            }
+        },
+        "/books/OL27214752M": {
+            "description": {
+                "type": "/type/text",
+                "value": "When Therese, a young sales clerk, meets Carol, a housewife in the midst of a bitter divorce, they share an immediate connection. Together, they leave New York and embark on a journey across the country to explore their new relationship. But their newfound bliss is strained and complicated when Carol's old life catches up with them and she is forced to choose between her lover and her child."
+            },
+            "notes": {
+                "type": "/type/text",
+                "value": "First published in the USA by Coward-McCann, Inc., New York in 1952 under the pseudonym Claire Morgan.\n\nTranslation of: Price of salt.\n\nIn Korean; translated from English."
+            },
+            "title": "K'aerol",
+            "subtitle": "Carol",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "publish_date": "2016",
+            "isbn_10": [
+                "8994040811",
+                "899404034X"
+            ],
+            "series": [
+                "EdisyŏnD Sirijŭ -- 09",
+                "EdisyŏnD Sirijŭ -- 09."
+            ],
+            "subject_places": [
+                "United States"
+            ],
+            "contributions": [
+                "Morgan, Claire, 1921-1995",
+                "Kim, Mi-jŏng, translator"
+            ],
+            "subjects": [
+                "Automobile travel",
+                "Lesbians",
+                "Nineteen fifties",
+                "Social conditions",
+                "Family relationships",
+                "Custody of children",
+                "Fiction"
+            ],
+            "edition_name": "Ch'op'an",
+            "pagination": "467 pages",
+            "source_records": [
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run05.mrc:345458393:3265"
+            ],
+            "work_titles": [
+                "Price of salt"
+            ],
+            "isbn_13": [
+                "9788994040813",
+                "9788994040349"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/kor"
+                }
+            ],
+            "dewey_decimal_class": [
+                "813"
+            ],
+            "local_id": [
+                "urn:sfpl:31223119212620",
+                "urn:sfpl:31223119212612"
+            ],
+            "publish_country": "ko",
+            "by_statement": "P'ŏt'ŭrisya Haisŭmisŭ chiŭm ; Kim Mi-jŏng omgim",
+            "oclc_numbers": [
+                "945104537"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "key": "/books/OL27214752M",
+            "number_of_pages": 467,
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-07-19T15:27:24.171281"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-04-27T07:57:05.695759"
+            }
+        },
+        "/books/OL27205811M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Translation of: The price of salt.\n\nText in traditional Chinese script."
+            },
+            "title": "Yan de dai jia",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "publish_date": "2016",
+            "isbn_10": [
+                "9863592005"
+            ],
+            "series": [
+                "Mu ma wen xue -- 20",
+                "Mu ma wen xue -- 20."
+            ],
+            "local_id": [
+                "urn:sfpl:31223118547679",
+                "urn:sfpl:31223118547687"
+            ],
+            "contributions": [
+                "Li, Yanhui, translator"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/chi"
+                }
+            ],
+            "pagination": "414 pages",
+            "source_records": [
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run05.mrc:297728783:2341",
+                "amazon:9863592005"
+            ],
+            "work_titles": [
+                "Price of salt"
+            ],
+            "isbn_13": [
+                "9789863592006"
+            ],
+            "edition_name": "Er ban",
+            "subjects": [
+                "Social conditions",
+                "Family relationships",
+                "Fiction",
+                "Lesbians",
+                "Mothers"
+            ],
+            "publish_country": "ch",
+            "by_statement": "Paicuixiya Haishimisi zhu ; Li Yanhui yi = The price of salt / Patricia Highsmith",
+            "oclc_numbers": [
+                "950885993"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                13179838
+            ],
+            "ocaid": "yandedaijia0000high",
+            "key": "/books/OL27205811M",
+            "number_of_pages": 414,
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-07-19T11:43:37.357646"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-03-30T02:47:11.435066"
+            }
+        },
+        "/books/OL26203879M": {
+            "publishers": [
+                "Editorial Anagrama"
+            ],
+            "title": "Carol. - 6. edición",
+            "identifiers": {},
+            "covers": [
+                7886351
+            ],
+            "isbn_13": [
+                "9786078441310"
+            ],
+            "publish_date": "2016",
+            "key": "/books/OL26203879M",
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2016-12-01T22:03:47.188172"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-03-03T13:01:34.104856"
+            }
+        },
+        "/books/OL1148512M": {
+            "other_titles": [
+                "The Price of Salt"
+            ],
+            "publishers": [
+                "Bloomsbury Publishing PLC"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "933340"
+                ],
+                "librarything": [
+                    "112217"
+                ]
+            },
+            "description": {
+                "type": "/type/text",
+                "value": "Originally published in 1952 by Coward-McCann as *The Price of Salt* under pseudonym of Claire Morgan.\r\nRepublished in 1990 by Bloomsbury Publishing under Patricia Highsmith name with an Afterword by author and retitled *Carol*."
+            },
+            "contributors": [
+                {
+                    "role": "Author",
+                    "name": "Patricia Highsmith"
+                }
+            ],
+            "isbn_10": [
+                "0747516049"
+            ],
+            "series": [
+                "Bloomsbury Classic Series"
+            ],
+            "covers": [
+                1390550
+            ],
+            "physical_format": "Hardcover",
+            "lc_classifications": [
+                "PS3558.I366 P7 1993",
+                "PS3558.I366P7 1993"
+            ],
+            "key": "/books/OL1148512M",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "344 p.",
+            "classifications": {},
+            "source_records": [
+                "bwb:9780747516040",
+                "marc:marc_loc_2016/BooksAll.2016.part23.utf8:180206233:610",
+                "amazon:0747516049"
+            ],
+            "title": "Carol",
+            "lccn": [
+                "94121362"
+            ],
+            "number_of_pages": 344,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "subjects": [
+                "Lesbians -- Fiction."
+            ],
+            "publish_date": "1993",
+            "publish_country": "enk",
+            "work_title": [
+                "Price of salt"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 14,
+            "revision": 14,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-07-17T04:17:27.965834"
+            }
+        },
+        "/books/OL20717841M": {
+            "publishers": [
+                "Arno Press"
+            ],
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:2975608690:463"
+            ],
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-29T13:02:17.209527"
+            },
+            "series": [
+                "Homosexuality"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Originally published under the name Claire Morgan, 1952."
+            },
+            "title": "The price of salt.",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2009-10-16T01:34:34.821908"
+            },
+            "latest_revision": 2,
+            "publish_country": "xxu",
+            "key": "/books/OL20717841M",
+            "authors": [
+                {
+                    "key": "/authors/OL28577A"
+                }
+            ],
+            "publish_date": "1975",
+            "publish_places": [
+                "New York"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL59448W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "id": 30914826,
+            "revision": 2
+        },
+        "/books/OL38440215M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL227751A"
+                }
+            ],
+            "isbn_13": [
+                "9781335447890"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "320",
+            "publish_date": "2023",
+            "publishers": [
+                "Harlequin Enterprises ULC",
+                "HQN"
+            ],
+            "source_records": [
+                "bwb:9781335447890",
+                "promise:bwb_daily_pallets_2023-04-04:T3-AFZ-829"
+            ],
+            "title": "Untamed",
+            "weight": "0.150",
+            "full_title": "Untamed",
+            "works": [
+                {
+                    "key": "/works/OL17925545W"
+                }
+            ],
+            "key": "/books/OL38440215M",
+            "local_id": [
+                "urn:bwbsku:T3-AFZ-829"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T04:31:29.856422"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-03T15:27:26.535400"
+            }
+        },
+        "/books/OL29742727M": {
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "source_records": [
+                "bwb:9781460313138"
+            ],
+            "title": "Untamed",
+            "number_of_pages": 384,
+            "isbn_13": [
+                "9781460313138"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Untamed",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2016",
+            "key": "/books/OL29742727M",
+            "authors": [
+                {
+                    "key": "/authors/OL227751A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL17925545W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-30T16:29:27.151878"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-03T15:27:26.535400"
+            }
+        },
+        "/books/OL29714750M": {
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "source_records": [
+                "bwb:9781460382226"
+            ],
+            "title": "Untamed",
+            "number_of_pages": 384,
+            "isbn_13": [
+                "9781460382226"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Untamed",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2015",
+            "key": "/books/OL29714750M",
+            "authors": [
+                {
+                    "key": "/authors/OL227751A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL17925545W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, suspense",
+                "Texas, fiction",
+                "Man-woman relationships, fiction"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-30T07:52:00.321728"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-03T15:27:26.535400"
+            }
+        },
+        "/books/OL29276261M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781474033770"
+            ],
+            "title": "Untamed",
+            "number_of_pages": 352,
+            "isbn_13": [
+                "9781474033770"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Untamed",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2015",
+            "key": "/books/OL29276261M",
+            "authors": [
+                {
+                    "key": "/authors/OL227751A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL17925545W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, suspense",
+                "Texas, fiction",
+                "Man-woman relationships, fiction"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-24T03:34:46.657476"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-03T15:27:26.535400"
+            }
+        },
+        "/books/OL26498420M": {
+            "description": {
+                "type": "/type/text",
+                "value": "Stanton Rourke lives life on the edge. The steely mercenary is dangerous in every way ... especially to Clarisse Carrington's heart. She and Rourke were playmates as children, but she's not the innocent girl he once knew. When tragedy robbed Clarisse of her entire family, her life was changed forever. Besides, she's a grown woman now, and there are secrets that hold her back from succumbing to her pursuer. As she struggles to keep her distance, sparks as hot as a Texas summer fly between them. But danger is following Clarisse, leaving her no choice but to rely on Rourke, even as the old wounds lying dormant between them flare up again ..."
+            },
+            "title": "Untamed",
+            "authors": [
+                {
+                    "key": "/authors/OL227751A"
+                }
+            ],
+            "publish_date": "2015",
+            "isbn_10": [
+                "1410483444"
+            ],
+            "series": [
+                "Long, tall Texans -- bk. 51",
+                "Thorndike Press large print romance",
+                "Thorndike Press large print romance series"
+            ],
+            "covers": [
+                8252804
+            ],
+            "full_title": "Untamed",
+            "lc_classifications": [
+                "PS3566.A513 U58 2015"
+            ],
+            "ocaid": "untamed0000palm",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "445 pages (large print) ;",
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-06-20:W7-BYP-214",
+                "ia:untamed0000palm",
+                "marc:marc_loc_2016/BooksAll.2016.part42.utf8:71051472:1004",
+                "bwb:9781410483447",
+                "promise:bwb_daily_pallets_2022-06-01:O8-ASE-362"
+            ],
+            "lccn": [
+                "2015025031"
+            ],
+            "isbn_13": [
+                "9781410483447"
+            ],
+            "edition_name": "Large print edition.",
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "subjects": [
+                "Romance",
+                "Large type books",
+                "Contemporary",
+                "FICTION"
+            ],
+            "publish_country": "meu",
+            "copyright_date": "2015",
+            "by_statement": "Diana Palmer",
+            "oclc_numbers": [
+                "912045435"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:W7-BYP-214",
+                "urn:bwbsku:O8-ASE-362"
+            ],
+            "key": "/books/OL26498420M",
+            "number_of_pages": 445,
+            "works": [
+                {
+                    "key": "/works/OL17925545W"
+                }
+            ],
+            "publishers": [
+                "Thorndike Press"
+            ],
+            "latest_revision": 12,
+            "revision": 12,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2018-09-26T05:52:13.870114"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T08:51:46.676557"
+            }
+        },
+        "/books/OL7287859M": {
+            "identifiers": {
+                "librarything": [
+                    "905771"
+                ],
+                "goodreads": [
+                    "247091"
+                ]
+            },
+            "title": "Master of Desire",
+            "authors": [
+                {
+                    "key": "/authors/OL1386167A"
+                }
+            ],
+            "publish_date": "February 1, 2001",
+            "publishers": [
+                "Avon"
+            ],
+            "covers": [
+                45071
+            ],
+            "lc_classifications": [
+                "",
+                "PS3561.E545 M36 2001x"
+            ],
+            "isbn_13": [
+                "9780061087134"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-03-17:850-BAC-297",
+                "amazon:0061087130:o-3:3270282026:251868",
+                "amazon:0061087130:4:2786006607:253028",
+                "bwb:9780061087134",
+                "amazon:0061087130",
+                "promise:bwb_daily_pallets_2021-09-22:W7-ANE-253",
+                "marc:harvard_bibliographic_metadata/20220215_037.bib.mrc:63928323:2152"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0061087130"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "\"All a woman ever needs know about men is that they are creatures of their codpieces."
+            },
+            "local_id": [
+                "urn:bwbsku:850-BAC-297",
+                "urn:bwbsku:W7-ANE-253"
+            ],
+            "key": "/books/OL7287859M",
+            "number_of_pages": 384,
+            "works": [
+                {
+                    "key": "/works/OL274910W"
+                }
+            ],
+            "oclc_numbers": [
+                "45896964"
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "At the order of the king and to unite their two warring families, Draven de Montague, Earl of Ravenswood, is forced to take in his archenemy's lovely, youngest daughter, Lady Emily, for a year, never expecting that the gentle beauty will ignite a passion that will turn both their lives upside down."
+            },
+            "latest_revision": 15,
+            "revision": 15,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-04-30T17:53:15.808798"
+            }
+        },
+        "/books/OL28998625M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "bwb:9780263216752",
+                "ia:freespirit0000jord"
+            ],
+            "title": "Free Spirit",
+            "number_of_pages": 288,
+            "covers": [
+                10406772
+            ],
+            "full_title": "Free Spirit",
+            "publish_date": "2010",
+            "key": "/books/OL28998625M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3759296W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "ocaid": "freespirit0000jord",
+            "isbn_13": [
+                "9780263216752"
+            ],
+            "classifications": {},
+            "edition_name": "Large Print Edition",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-20T10:59:52.014271"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-28T12:21:26.281136"
+            }
+        },
+        "/books/OL7418474M": {
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "title": "Free Spirit",
+            "identifiers": {
+                "librarything": [
+                    "765770"
+                ]
+            },
+            "covers": [
+                9516530
+            ],
+            "isbn_13": [
+                "9780373630677"
+            ],
+            "isbn_10": [
+                "0373630670"
+            ],
+            "publish_date": "January 2000",
+            "key": "/books/OL7418474M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "ocaid": "freespirit00penn",
+            "oclc_numbers": [
+                "52479839"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3759296W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:0373630670",
+                "promise:bwb_daily_pallets_2022-09-01"
+            ],
+            "local_id": [
+                "urn:bwbsku:W7-CRW-594"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-04T13:15:50.735765"
+            }
+        },
+        "/books/OL39796241M": {
+            "description": "Second novel in the Twilight saga. For Bella Swan, there is one thing more important than life itself: Edward Cullen. But being in love with a vampire is even more dangerous than Bella could ever have imagined. Edward has already rescued Bella from the clutches of one evil vampire, but now, as their daring relationship threatens all that is near and dear to them, they realise their troubles may be just beginning.",
+            "notes": "Translation of: New moon.\r\n\r\nIn Polish.",
+            "title": "Księżyc w nowiu",
+            "authors": [
+                {
+                    "key": "/authors/OL1391085A"
+                }
+            ],
+            "publish_date": "2008",
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_country": "pl",
+            "languages": [
+                {
+                    "key": "/languages/pol"
+                }
+            ],
+            "work_titles": [
+                "New moon"
+            ],
+            "edition_name": "Wyd. 2.",
+            "contributions": [
+                "Urban, Joanna"
+            ],
+            "subjects": [
+                "Vampires",
+                "Fiction",
+                "Werewolves",
+                "Paranormal fiction",
+                "High schools",
+                "Schools",
+                "Juvenile fiction",
+                "Romans, nouvelles",
+                "Loups-garous",
+                "Écoles secondaires",
+                "Écoles",
+                "Romans, nouvelles, etc. pour la jeunesse"
+            ],
+            "subject_places": [
+                "Washington (State)",
+                "Washington (État)"
+            ],
+            "by_statement": "Stephenie Meyer ; przełożyła Joanna Urban",
+            "publishers": [
+                "Wydawn. Dolnośląskie"
+            ],
+            "publish_places": [
+                "Wrocław"
+            ],
+            "pagination": "478 pages",
+            "source_records": [
+                "ia:ksiezycwnowiu0000meye_i1b8",
+                "promise:bwb_daily_pallets_2022-07-11"
+            ],
+            "full_title": "Księżyc w nowiu",
+            "covers": [
+                15209623,
+                14350959
+            ],
+            "local_id": [
+                "urn:bwbsku:KQ-956-721"
+            ],
+            "key": "/books/OL39796241M",
+            "number_of_pages": 478,
+            "works": [
+                {
+                    "key": "/works/OL5720027W"
+                }
+            ],
+            "identifiers": {},
+            "ocaid": "ksiezycwnowiu0000meye_i1b8",
+            "isbn_10": [
+                "8324589147"
+            ],
+            "isbn_13": [
+                "9788324589142"
+            ],
+            "oclc_numbers": [
+                "630309680"
+            ],
+            "latest_revision": 14,
+            "revision": 14,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-09-21T05:09:54.488482"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-04-12T15:43:09.774975"
+            }
+        }
+    }
+}

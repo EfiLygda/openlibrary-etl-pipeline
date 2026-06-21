@@ -1,0 +1,5616 @@
+{
+    "status": "ok",
+    "result": {
+        "/books/OL45640399M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B007FG4DEG"
+                ],
+                "better_world_books": [
+                    "BWBM52873745"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:KS-041-374"
+            ],
+            "publish_date": "1934-01-01",
+            "publishers": [
+                "William Heinemann"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-01-10"
+            ],
+            "title": "These Old Shades",
+            "full_title": "These Old Shades",
+            "works": [
+                {
+                    "key": "/works/OL4092686W"
+                }
+            ],
+            "key": "/books/OL45640399M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-01-14T02:34:08.378137"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-02T09:25:25.295322"
+            }
+        },
+        "/books/OL42720143M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "isbn_13": [
+                "9781515456063"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "328",
+            "publish_date": "2022",
+            "publishers": [
+                "Wilder Publications, Incorporated"
+            ],
+            "source_records": [
+                "bwb:9781515456063"
+            ],
+            "title": "These Old Shades",
+            "weight": "0.482",
+            "full_title": "These Old Shades",
+            "works": [
+                {
+                    "key": "/works/OL4092686W"
+                }
+            ],
+            "key": "/books/OL42720143M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-03T10:07:21.536515"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-02T09:25:25.295322"
+            }
+        },
+        "/books/OL39491309M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "These Old Shades",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_date": "Sep 04, 2022",
+            "source_records": [
+                "amazon:1515456056",
+                "bwb:9781515456056"
+            ],
+            "number_of_pages": 328,
+            "publishers": [
+                "Wilder Publications"
+            ],
+            "isbn_10": [
+                "1515456056"
+            ],
+            "isbn_13": [
+                "9781515456056"
+            ],
+            "physical_format": "hardcover",
+            "full_title": "These Old Shades",
+            "works": [
+                {
+                    "key": "/works/OL4092686W"
+                }
+            ],
+            "key": "/books/OL39491309M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-09-14T21:05:45.729563"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-02T09:25:25.295322"
+            }
+        },
+        "/books/OL36925856M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7459594A"
+                }
+            ],
+            "isbn_13": [
+                "9781950330867"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2022",
+            "publishers": [
+                "Murine Publications LLC"
+            ],
+            "source_records": [
+                "bwb:9781950330867"
+            ],
+            "subjects": [
+                "Fiction, historical, general",
+                "Fiction, romance, general"
+            ],
+            "title": "These Old Shades",
+            "full_title": "These Old Shades",
+            "works": [
+                {
+                    "key": "/works/OL4092686W"
+                }
+            ],
+            "key": "/books/OL36925856M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-01-29T02:36:38.209758"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-03-02T04:34:27.652117"
+            }
+        },
+        "/books/OL35489544M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7459594A"
+                }
+            ],
+            "isbn_13": [
+                "9781282165915"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "386",
+            "publish_date": "2009",
+            "publishers": [
+                "Sourcebooks, Incorporated"
+            ],
+            "source_records": [
+                "bwb:9781282165915"
+            ],
+            "subjects": [
+                "Fiction, romance, historical, general"
+            ],
+            "title": "These Old Shades",
+            "full_title": "These Old Shades",
+            "works": [
+                {
+                    "key": "/works/OL4092686W"
+                }
+            ],
+            "key": "/books/OL35489544M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T14:45:16.350821"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-03-02T04:34:27.652117"
+            }
+        },
+        "/books/OL30400959M": {
+            "publishers": [
+                "Thorndike Press"
+            ],
+            "isbn_10": [
+                "1410486117"
+            ],
+            "series": [
+                "Thorndike Press large print clean reads"
+            ],
+            "full_title": "These old shades",
+            "lc_classifications": [
+                "PR6015.E795 T47 2016"
+            ],
+            "key": "/books/OL30400959M",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_places": [
+                "Waterville, Maine"
+            ],
+            "isbn_13": [
+                "9781410486110"
+            ],
+            "pagination": "pages cm.",
+            "source_records": [
+                "marc:marc_loc_2016/BooksAll.2016.part42.utf8:90906612:1080"
+            ],
+            "title": "These old shades",
+            "lccn": [
+                "2015039093"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "dewey_decimal_class": [
+                "823/.912"
+            ],
+            "subject_places": [
+                "England"
+            ],
+            "subjects": [
+                "Fiction",
+                "Large type books",
+                "FICTION / Romance / Regency",
+                "Social life and customs"
+            ],
+            "publish_date": "2016",
+            "publish_country": "meu",
+            "copyright_date": "1926",
+            "by_statement": "Georgette Heyer",
+            "subject_times": [
+                "18th century"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4092686W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-09-21T09:42:14.547162"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-02T09:25:25.295322"
+            }
+        },
+        "/books/OL13666483M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Originally published, London: Heinemann, 1926."
+            },
+            "title": "These old shades",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_date": "1962",
+            "publishers": [
+                "Pan Books"
+            ],
+            "edition_name": "Unabridged, new ed.",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_country": "xxk",
+            "by_statement": "Georgette Heyer.",
+            "publish_places": [
+                "London"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:19656791:476"
+            ],
+            "key": "/books/OL13666483M",
+            "works": [
+                {
+                    "key": "/works/OL4092686W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-08-30T19:44:52.663834"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-04T16:45:29.146557"
+            }
+        },
+        "/books/OL17374562M": {
+            "title": "These old shades",
+            "subtitle": "Sprig muslin ; Sylvester ; The Corinthian ; The convenient marriage",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_date": "1980",
+            "publishers": [
+                "Octopus Books"
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "862p.",
+            "dewey_decimal_class": [
+                "823/.9/1F"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "work_titles": [
+                "Selections"
+            ],
+            "publish_country": "xxk",
+            "by_statement": "Georgette Heyer.",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:1484815214:572"
+            ],
+            "key": "/books/OL17374562M",
+            "number_of_pages": 862,
+            "works": [
+                {
+                    "key": "/works/OL4092686W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-28T14:33:37.910440"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-04T01:35:59.041307"
+            }
+        },
+        "/books/OL24295818M": {
+            "publishers": [
+                "Sourcebooks, Inc."
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "marc_overdrive/InternetArchiveCrMarc-2010-06-11p.mrc:89308:2754",
+                "bwb:9781402228032"
+            ],
+            "title": "These Old Shades",
+            "identifiers": {
+                "overdrive": [
+                    "1FD2FDF9-95AF-4AE7-9E86-CA8AE919FE45"
+                ]
+            },
+            "isbn_13": [
+                "9781402228032",
+                "9781402228049"
+            ],
+            "physical_format": "eBook",
+            "publish_date": "2009",
+            "publish_country": "nyu",
+            "key": "/books/OL24295818M",
+            "publish_places": [
+                "Naperville"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4092686W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "lc_classifications": [
+                "PR6015.E795T47 2009"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-06-23T03:34:54.286451"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-11-19T01:30:09.020430"
+            }
+        },
+        "/books/OL5993720M": {
+            "publishers": [
+                "Dutton"
+            ],
+            "number_of_pages": 362,
+            "lc_classifications": [
+                "PZ3.H514 Th8",
+                "PR6015.E795 Th8"
+            ],
+            "key": "/books/OL5993720M",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "pagination": "vi, 362 p.",
+            "source_records": [
+                "marc:marc_loc_2016/BooksAll.2016.part06.utf8:59211270:485"
+            ],
+            "title": "These old shades.",
+            "lccn": [
+                "66025124"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "25002"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1966",
+            "publish_country": "nyu",
+            "oclc_numbers": [
+                "1356858"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4092686W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-02T09:25:25.295322"
+            }
+        },
+        "/books/OL3284174M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "25002"
+                ],
+                "goodreads": [
+                    "1309023"
+                ]
+            },
+            "covers": [
+                222012
+            ],
+            "key": "/books/OL3284174M",
+            "authors": [
+                {
+                    "key": "/authors/OL7459594A"
+                }
+            ],
+            "publish_places": [
+                "Toronto",
+                "New York"
+            ],
+            "contributions": [
+                "Laurens, Stephanie.",
+                "Copyright Paperback Collection (Library of Congress)"
+            ],
+            "pagination": "iv, 409 p.",
+            "source_records": [
+                "bwb:9780373835591",
+                "marc:marc_loc_2016/BooksAll.2016.part31.utf8:127972222:815"
+            ],
+            "title": "These Old Shades",
+            "notes": "\"Historical romance\"--Spine.",
+            "number_of_pages": 409,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2003",
+            "publish_country": "onc",
+            "by_statement": "Georgette Heyer ; with a foreword by Stephanie Laurens.",
+            "works": [
+                {
+                    "key": "/works/OL4092686W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_10": [
+                "0373835590"
+            ],
+            "lccn": [
+                "2003611401"
+            ],
+            "oclc_numbers": [
+                "52539191"
+            ],
+            "classifications": {},
+            "lc_classifications": [
+                "CPB Box no. 2064 vol. 5",
+                "PR6015.E795",
+                "CPB"
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-07T20:28:18.381933"
+            }
+        },
+        "/books/OL15039465M": {
+            "identifiers": {
+                "goodreads": [
+                    "7017724"
+                ],
+                "librarything": [
+                    "25002"
+                ]
+            },
+            "title": "These old shades.",
+            "authors": [
+                {
+                    "key": "/authors/OL7459594A"
+                }
+            ],
+            "publish_date": "1971",
+            "publishers": [
+                "Heinemann"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0434328022"
+            ],
+            "publish_country": "xxk",
+            "publish_places": [
+                "London"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:582813559:399"
+            ],
+            "key": "/books/OL15039465M",
+            "works": [
+                {
+                    "key": "/works/OL4092686W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-17T13:12:20.265627"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-02-16T22:46:36.900628"
+            }
+        },
+        "/books/OL24533727M": {
+            "classifications": {},
+            "description": "Set in the Georgian period, about 20 years before the Regency, \"These Old Shades\" features two of Heyer's most memorable characters: Justin Alastair, the Duke of Avon, and Leonie, whom he rescues from a life of ignominy and comes to love and marry.",
+            "source_records": [
+                "marc:marc_loc_updates/v38.i26.records.utf8:19905949:1080"
+            ],
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "notes": "Originally published in 1926.",
+            "identifiers": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lc_classifications": [
+                "PR6015.E795 T47 2009"
+            ],
+            "publish_country": "ilu",
+            "key": "/books/OL24533727M",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "by_statement": "Georgette Heyer",
+            "works": [
+                {
+                    "key": "/works/OL4092686W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-12-15T02:56:41.795626"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-02T09:25:25.295322"
+            }
+        },
+        "/books/OL24988769M": {
+            "publishers": [
+                "William Heinemann"
+            ],
+            "classifications": {},
+            "title": "These old shades",
+            "identifiers": {},
+            "covers": [
+                6920393
+            ],
+            "created": {
+                "type": "/type/datetime",
+                "value": "2011-09-12T10:29:55.733811"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2011-09-12T10:30:31.561561"
+            },
+            "publish_date": "1948",
+            "key": "/books/OL24988769M",
+            "latest_revision": 3,
+            "works": [
+                {
+                    "key": "/works/OL4092686W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 3
+        },
+        "/books/OL24988771M": {
+            "publishers": [
+                "Pan Books"
+            ],
+            "classifications": {},
+            "title": "These old shades",
+            "identifiers": {},
+            "covers": [
+                6920400
+            ],
+            "created": {
+                "type": "/type/datetime",
+                "value": "2011-09-12T10:42:21.689525"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2011-09-12T10:44:45.823879"
+            },
+            "publish_date": "1969",
+            "key": "/books/OL24988771M",
+            "latest_revision": 3,
+            "works": [
+                {
+                    "key": "/works/OL4092686W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 3
+        },
+        "/books/OL24941148M": {
+            "publishers": [
+                "Bantam"
+            ],
+            "ia_box_id": [
+                "IA119323"
+            ],
+            "covers": [
+                6920381
+            ],
+            "ia_loaded_id": [
+                "theseoldshades00heye"
+            ],
+            "key": "/books/OL24941148M",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "pagination": "282 p. ;",
+            "source_records": [
+                "ia:theseoldshades00heye"
+            ],
+            "title": "These Old Shades",
+            "notes": "A Bantam book, SB4004.",
+            "number_of_pages": 282,
+            "full_title": "These old shades",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1967",
+            "publish_country": "nyu",
+            "copyright_date": "1966",
+            "by_statement": "Georgette Heyer",
+            "works": [
+                {
+                    "key": "/works/OL4092686W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "ocaid": "theseoldshades00heye",
+            "oclc_numbers": [
+                "7477393"
+            ],
+            "classifications": {},
+            "series": [
+                "Alastair-Audley (1)"
+            ],
+            "subtitle": "Alastair-Audley #1",
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2011-08-08T10:44:23.072941"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-02T09:25:25.295322"
+            }
+        },
+        "/books/OL24390316M": {
+            "title": "Forbidden",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "publish_date": "1978",
+            "publishers": [
+                "Harlequin Books",
+                "Harlequin"
+            ],
+            "ia_box_id": [
+                "IA126105"
+            ],
+            "series": [
+                "Harlequin books"
+            ],
+            "covers": [
+                6642024
+            ],
+            "publish_places": [
+                "Toronto",
+                "New York"
+            ],
+            "pagination": "186 p. ;",
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-03-08:976-BAB-062",
+                "ia:forbidden00math",
+                "bwb:9780373707218",
+                "promise:bwb_daily_pallets_2020-12-08:O7-BBB-937",
+                "promise:bwb_daily_pallets_2020-11-12:W6-ABW-888",
+                "promise:bwb_daily_pallets_2020-07-30:KN-607-556"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_country": "onc",
+            "copyright_date": "1976",
+            "by_statement": "Anne Mather",
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:976-BAB-062",
+                "urn:bwbsku:O7-BBB-937",
+                "urn:bwbsku:W6-ABW-888",
+                "urn:bwbsku:KN-607-556"
+            ],
+            "key": "/books/OL24390316M",
+            "number_of_pages": 186,
+            "works": [
+                {
+                    "key": "/works/OL15421579W"
+                }
+            ],
+            "identifiers": {},
+            "ocaid": "forbidden00math",
+            "isbn_10": [
+                "0373707215"
+            ],
+            "isbn_13": [
+                "9780373707218"
+            ],
+            "oclc_numbers": [
+                "5229723"
+            ],
+            "classifications": {},
+            "latest_revision": 18,
+            "revision": 18,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-10-22T18:13:51.446952"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL31916858M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "2010",
+            "publish_country": "enk",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "series": [
+                "Mills & Boon large print romance"
+            ],
+            "description": "\"Niall Cameron didn't even know Lucy, but he quite happily jumped to all the wrong conclusions about her: rich, spoilt, uncaring and just the sort of woman he disliked most. Not that Lucy cared what he thought of her. She wasn't interested in stealing someone who was already committed to a long-term relationship with another woman. But Niall didn't seem to have any such scruples ...\"--Publisher description.",
+            "title": "Passionate Possession",
+            "by_statement": "Penny Jordan",
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "publish_places": [
+                "Richmond"
+            ],
+            "pagination": "pages cm",
+            "source_records": [
+                "ia:passionateposses0000jord",
+                "promise:bwb_daily_pallets_2020-11-19",
+                "bwb:9780263216882"
+            ],
+            "full_title": "Passionate possession",
+            "covers": [
+                10600276
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3759160W"
+                }
+            ],
+            "key": "/books/OL31916858M",
+            "local_id": [
+                "urn:bwbsku:KO-565-581"
+            ],
+            "identifiers": {},
+            "classifications": {},
+            "ocaid": "passionateposses0000jord",
+            "isbn_10": [
+                "0263216888"
+            ],
+            "isbn_13": [
+                "9780263216882"
+            ],
+            "oclc_numbers": [
+                "653082600"
+            ],
+            "dewey_decimal_class": [
+                "823.914"
+            ],
+            "edition_name": "Large Print Edition",
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-02-03T08:36:50.321810"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-28T12:23:41.553337"
+            }
+        },
+        "/books/OL29242966M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781408998519"
+            ],
+            "title": "Passionate Possession",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781408998519"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Passionate Possession",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2013",
+            "key": "/books/OL29242966M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3759160W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-23T19:24:45.770579"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-02T22:43:15.680663"
+            }
+        },
+        "/books/OL7418475M": {
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "ia:passionateposses00penn_0",
+                "amazon:0373630689",
+                "promise:bwb_daily_pallets_2021-06-28"
+            ],
+            "title": "Passionate Possession",
+            "identifiers": {
+                "librarything": [
+                    "1710864"
+                ]
+            },
+            "covers": [
+                7304921
+            ],
+            "isbn_13": [
+                "9780373630684"
+            ],
+            "isbn_10": [
+                "0373630689"
+            ],
+            "publish_date": "January 2000",
+            "key": "/books/OL7418475M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "ocaid": "passionateposses00penn_0",
+            "oclc_numbers": [
+                "43588931"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3759160W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:P6-CEC-502"
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-08T05:52:39.876751"
+            }
+        },
+        "/books/OL9464628M": {
+            "publishers": [
+                "Chivers North America"
+            ],
+            "number_of_pages": 288,
+            "series": [
+                "Romance Series"
+            ],
+            "physical_format": "Hardcover",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-08-27T16:01:59.843199"
+            },
+            "latest_revision": 7,
+            "key": "/books/OL9464628M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "subjects": [
+                "Romance",
+                "Romance - General",
+                "Fiction - Romance",
+                "Large Print"
+            ],
+            "edition_name": "Largeprint edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "classifications": {},
+            "source_records": [
+                "bwb:9780263132656"
+            ],
+            "title": "Passionate Possession",
+            "identifiers": {
+                "goodreads": [
+                    "41221"
+                ]
+            },
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "isbn_13": [
+                "9780263132656"
+            ],
+            "isbn_10": [
+                "026313265X"
+            ],
+            "publish_date": "March 1993",
+            "works": [
+                {
+                    "key": "/works/OL3759160W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 7
+        },
+        "/books/OL44732394M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "1821",
+            "publish_country": "fr",
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "oclc_numbers": [
+                "1144435983"
+            ],
+            "other_titles": [
+                "Ancienne inclination"
+            ],
+            "series": [
+                "Oeuvres de Mme. la Baronne Isabelle de Montolieu -- t. 15-16",
+                "Nineteenth Century Collections Online: European Literature, the Corvey Collection, 1790-1840",
+                "Nineteenth Century Collections Online: European Literature, the Corvey Collection, 1790-1840"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "\"Avec figures.\"\n\nWork of fiction.\n\nTranslated from English."
+            },
+            "links": [
+                {
+                    "url": "http://www.columbia.edu/cgi-bin/cul/resolve?clio10409312",
+                    "title": "Gale, Nineteenth Century Collections Online"
+                }
+            ],
+            "contributions": [
+                "Montolieu, Isabelle de, 1751-1832"
+            ],
+            "title": "La famille Elliot, ou, L'ancienne inclination",
+            "by_statement": "traduction libre de l'Anglais d'un roman posthume de Miss Jane Austen par Mme. de Montolieu",
+            "physical_format": "[electronic resource] /",
+            "publishers": [
+                "Chez A. Bertrand, Libr."
+            ],
+            "publish_places": [
+                "Paris"
+            ],
+            "pagination": "1 online resource (2 v.)",
+            "source_records": [
+                "marc:marc_columbia/Columbia-extract-20221130-021.mrc:156168430:1355"
+            ],
+            "full_title": "La famille Elliot, ou, L'ancienne inclination",
+            "works": [
+                {
+                    "key": "/works/OL66544W"
+                }
+            ],
+            "key": "/books/OL44732394M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-21T21:03:49.093893"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-04T16:39:15.809651"
+            }
+        },
+        "/books/OL40806014M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9781549754524"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "524",
+            "publish_date": "2017",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9781549754524"
+            ],
+            "title": "Famille Elliot",
+            "weight": "0.873",
+            "works": [
+                {
+                    "key": "/works/OL66544W"
+                }
+            ],
+            "key": "/books/OL40806014M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-21T09:15:59.645150"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-16T09:04:08.345669"
+            }
+        },
+        "/books/OL51339570M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9788418765384"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "pagination": "288",
+            "publish_date": "2023",
+            "publishers": [
+                "Mestas Ediciones Escolares La Escuela Nueva y Alinorma, S.L., Jorge A."
+            ],
+            "source_records": [
+                "bwb:9788418765384"
+            ],
+            "title": "Persuasión",
+            "full_title": "Persuasión",
+            "works": [
+                {
+                    "key": "/works/OL66544W"
+                }
+            ],
+            "key": "/books/OL51339570M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-03-17T08:24:48.464566"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-04T10:44:02.007711"
+            }
+        },
+        "/books/OL51025371M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9781909175341"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lc_classifications": [
+                "PR4034.P4 2012"
+            ],
+            "pagination": "208",
+            "publish_date": "2012",
+            "publishers": [
+                "Bollinger, Max"
+            ],
+            "source_records": [
+                "bwb:9781909175341"
+            ],
+            "subjects": [
+                "Fiction, psychological",
+                "Young women, fiction",
+                "British and irish fiction (fictional works by one author)",
+                "Man-woman relationships, fiction",
+                "England, fiction"
+            ],
+            "title": "Persuasion",
+            "full_title": "Persuasion",
+            "works": [
+                {
+                    "key": "/works/OL66544W"
+                }
+            ],
+            "key": "/books/OL51025371M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-02-17T05:18:02.043508"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-04T10:44:02.007711"
+            }
+        },
+        "/books/OL49376643M": {
+            "title": "Persuasion",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_date": "2013?",
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:O9-AZR-159"
+            ],
+            "publishers": [
+                "[publisher not identified]"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-09-13:O9-AZR-159",
+                "bwb:9781493599110"
+            ],
+            "full_title": "Persuasion by Jane Austen",
+            "key": "/books/OL49376643M",
+            "works": [
+                {
+                    "key": "/works/OL66544W"
+                }
+            ],
+            "identifiers": {},
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "covers": [
+                14617883
+            ],
+            "ocaid": "persuasionbyjane0000jane",
+            "isbn_10": [
+                "1493599119"
+            ],
+            "isbn_13": [
+                "9781493599110"
+            ],
+            "number_of_pages": 174,
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-09-15T01:05:29.523030"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-09-22T06:24:27.289117"
+            }
+        },
+        "/books/OL47117869M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Persuasión / Persuasion",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                },
+                {
+                    "key": "/authors/OL8465380A"
+                }
+            ],
+            "publish_date": "May 15, 2018",
+            "source_records": [
+                "amazon:8417079718"
+            ],
+            "number_of_pages": 448,
+            "publishers": [
+                "Plutón Ediciones"
+            ],
+            "isbn_10": [
+                "8417079718"
+            ],
+            "isbn_13": [
+                "9788417079710"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Persuasión / Persuasion",
+            "covers": [
+                13500472
+            ],
+            "works": [
+                {
+                    "key": "/works/OL66544W"
+                }
+            ],
+            "key": "/books/OL47117869M",
+            "contributors": [
+                {
+                    "role": "Translator",
+                    "name": "Benjamin Briggent"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-03-16T09:54:37.818870"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-20T17:33:24.249767"
+            }
+        },
+        "/books/OL42500559M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798635627730"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "152",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798635627730"
+            ],
+            "title": "Persuasion : Persuasion Est le Dernier Roman de la Romancière Anglaise Jane Austen, Publié Posthumément en décembre 1817 Mais Daté de 1818. en France, il a Paru Pour la Première Fois en 1821 Sous le Titre",
+            "weight": "0.286",
+            "subtitle": "la Famille Elliot, Ou l'ancienne Inclination. .",
+            "works": [
+                {
+                    "key": "/works/OL66544W"
+                }
+            ],
+            "key": "/books/OL42500559M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-02T15:21:49.801152"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-04T10:44:02.007711"
+            }
+        },
+        "/books/OL41456194M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL1478696A"
+                },
+                {
+                    "key": "/authors/OL11091868A"
+                },
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9781689232517"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "pagination": "268",
+            "publish_date": "2019",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9781689232517"
+            ],
+            "title": "Persuasi�n",
+            "weight": "0.309",
+            "works": [
+                {
+                    "key": "/works/OL66544W"
+                }
+            ],
+            "key": "/books/OL41456194M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-25T20:13:45.700762"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-06-03T00:32:42.109691"
+            }
+        },
+        "/books/OL34823288M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9781610421478"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2010",
+            "publishers": [
+                "Golgotha Press"
+            ],
+            "source_records": [
+                "bwb:9781610421478"
+            ],
+            "subjects": [
+                "Fiction, historical, general"
+            ],
+            "title": "Persusaion",
+            "works": [
+                {
+                    "key": "/works/OL66544W"
+                }
+            ],
+            "key": "/books/OL34823288M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-08T10:37:04.143234"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-04T10:44:02.007711"
+            }
+        },
+        "/books/OL34291876M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL2658421A"
+                },
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798745749278"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 229,
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798745749278"
+            ],
+            "title": "Persuasion",
+            "weight": "0.409",
+            "subtitle": "With the Classic Illustrated",
+            "full_title": "Persuasion With the Classic Illustrated",
+            "works": [
+                {
+                    "key": "/works/OL66544W"
+                }
+            ],
+            "key": "/books/OL34291876M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-01T21:36:18.249206"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-04T10:44:02.007711"
+            }
+        },
+        "/books/OL41397910M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL2658421A"
+                },
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9781073516414"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "396",
+            "publish_date": "2019",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9781073516414"
+            ],
+            "title": "Persuasion",
+            "weight": "0.668",
+            "full_title": "Persuasion",
+            "works": [
+                {
+                    "key": "/works/OL66544W"
+                }
+            ],
+            "key": "/books/OL41397910M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-25T10:41:08.062360"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-16T09:02:54.761732"
+            }
+        },
+        "/books/OL51681372M": {
+            "works": [
+                {
+                    "key": "/works/OL66544W"
+                }
+            ],
+            "title": "Persuasion",
+            "publishers": [
+                "John Grant"
+            ],
+            "publish_date": "1911",
+            "key": "/books/OL51681372M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                15097269,
+                14622024
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "ocaid": "novelsofjaneaust0010unse",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-05-03T17:24:53.469920"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-12T19:51:12.797597"
+            }
+        },
+        "/books/OL49347854M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B00HMREEU6"
+                ],
+                "better_world_books": [
+                    "BWB25098353"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:W8-BUX-162"
+            ],
+            "publish_date": "1968-01-01",
+            "publishers": [
+                "Magnum"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-08-23:W8-BUX-162"
+            ],
+            "title": "Jane Austen - Persuasion -- Magnum Easy Eye 1968 Paperback Complete & Unabridged",
+            "works": [
+                {
+                    "key": "/works/OL66544W"
+                }
+            ],
+            "key": "/books/OL49347854M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-08-25T01:05:52.672876"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-25T07:36:41.047863"
+            }
+        },
+        "/books/OL51656554M": {
+            "works": [
+                {
+                    "key": "/works/OL66544W"
+                }
+            ],
+            "title": "Persuasion",
+            "publishers": [
+                "Franklin Watts"
+            ],
+            "publish_date": "1971",
+            "key": "/books/OL51656554M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_10": [
+                "0851663842"
+            ],
+            "ocaid": "isbn_851663842",
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "covers": [
+                14618103
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-04-24T07:38:33.067174"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-24T07:39:09.852752"
+            }
+        },
+        "/books/OL48774896M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL11264413A"
+                },
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798707090233"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "136",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798707090233"
+            ],
+            "title": "Persuasion",
+            "weight": "0.205",
+            "subtitle": "Une Femme Sensible Rejetée Par l'homme Qu'elle Aime",
+            "full_title": "Persuasion Une Femme Sensible Rejetée Par l'homme Qu'elle Aime",
+            "works": [
+                {
+                    "key": "/works/OL66544W"
+                }
+            ],
+            "key": "/books/OL48774896M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-07-17T13:19:14.251331"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-01T17:13:32.025617"
+            }
+        },
+        "/books/OL48490474M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798516751998"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "290",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798516751998"
+            ],
+            "title": "Persuasion",
+            "weight": "0.500",
+            "full_title": "Persuasion",
+            "works": [
+                {
+                    "key": "/works/OL66544W"
+                }
+            ],
+            "key": "/books/OL48490474M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-18T01:17:36.657018"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-01T17:13:32.025617"
+            }
+        },
+        "/books/OL48573762M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_10": [
+                "1494206986"
+            ],
+            "isbn_13": [
+                "9781494206987"
+            ],
+            "local_id": [
+                "urn:bwbsku:O9-AAT-293"
+            ],
+            "publish_date": "2013-11-18",
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-06-21:O9-AAT-293",
+                "bwb:9781494206987"
+            ],
+            "title": "Persuasion",
+            "full_title": "Persuasion",
+            "works": [
+                {
+                    "key": "/works/OL66544W"
+                }
+            ],
+            "key": "/books/OL48573762M",
+            "number_of_pages": 204,
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-23T01:12:13.086882"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-09-20T02:36:37.650843"
+            }
+        },
+        "/books/OL48595385M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B001ZS8J0E"
+                ],
+                "better_world_books": [
+                    "BWB32674127"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:P8-CEF-782"
+            ],
+            "publish_date": "1996-01-01",
+            "publishers": [
+                "Book-of the-Month Club"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-07-07:P8-CEF-782"
+            ],
+            "title": "Persuasion",
+            "full_title": "Persuasion",
+            "works": [
+                {
+                    "key": "/works/OL66544W"
+                }
+            ],
+            "key": "/books/OL48595385M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-07-09T01:01:30.733950"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-01T17:13:32.025617"
+            }
+        },
+        "/books/OL43159808M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B0007E01K8"
+                ],
+                "better_world_books": [
+                    "BWB954351"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:W7-AJB-732"
+            ],
+            "publish_date": "1966-01-01",
+            "publishers": [
+                "Dutton"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-03-17"
+            ],
+            "title": "These Old Shades",
+            "full_title": "These Old Shades",
+            "works": [
+                {
+                    "key": "/works/OL4092686W"
+                }
+            ],
+            "key": "/books/OL43159808M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-07T15:32:54.978099"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-02T09:25:25.295322"
+            }
+        },
+        "/books/OL39207625M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "These Old Shades",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_date": "Apr 15, 2022",
+            "source_records": [
+                "amazon:1515456080"
+            ],
+            "number_of_pages": 328,
+            "publishers": [
+                "Unabridged Books"
+            ],
+            "isbn_10": [
+                "1515456080"
+            ],
+            "isbn_13": [
+                "9781515456087"
+            ],
+            "physical_format": "hardcover",
+            "full_title": "These Old Shades",
+            "works": [
+                {
+                    "key": "/works/OL4092686W"
+                }
+            ],
+            "key": "/books/OL39207625M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-07-27T03:33:14.432583"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-02T09:25:25.295322"
+            }
+        },
+        "/books/OL9032842M": {
+            "identifiers": {
+                "librarything": [
+                    "25002"
+                ],
+                "goodreads": [
+                    "1513558"
+                ]
+            },
+            "title": "Der Page und die Herzogin. Roman.",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_date": "August 1, 2002",
+            "publishers": [
+                "Dtv"
+            ],
+            "weight": "10.2 ounces",
+            "covers": [
+                2203044
+            ],
+            "physical_format": "Paperback",
+            "isbn_13": [
+                "9783423205535"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/ger"
+                }
+            ],
+            "isbn_10": [
+                "3423205539"
+            ],
+            "oclc_numbers": [
+                "76378247"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "7.6 x 4.8 x 1.1 inches",
+            "source_records": [
+                "amazon:3423205539"
+            ],
+            "key": "/books/OL9032842M",
+            "number_of_pages": 409,
+            "works": [
+                {
+                    "key": "/works/OL4092686W"
+                }
+            ],
+            "latest_revision": 12,
+            "revision": 12,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-04-18T00:36:39.073561"
+            }
+        },
+        "/books/OL23643449M": {
+            "publishers": [
+                "Sourcebooks Casablanca"
+            ],
+            "pagination": "p. cm.",
+            "lc_classifications": [
+                "PR6015.E795 T47 2009"
+            ],
+            "key": "/books/OL23643449M",
+            "authors": [
+                {
+                    "key": "/authors/OL7459594A"
+                }
+            ],
+            "publish_places": [
+                "Naperville, Ill"
+            ],
+            "genres": [
+                "Fiction"
+            ],
+            "source_records": [
+                "marc:marc_loc_updates/v37.i31.records.utf8:13918564:657"
+            ],
+            "title": "These old shades",
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lccn": [
+                "2009029781"
+            ],
+            "subjects": [
+                "England -- Social life and customs -- 18th century -- Fiction"
+            ],
+            "publish_date": "2009",
+            "publish_country": "ilu",
+            "by_statement": "Georgette Heyer.",
+            "works": [
+                {
+                    "key": "/works/OL4092686W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-08-05T09:25:29.983680"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-03-02T04:03:29.119494"
+            }
+        },
+        "/books/OL18217611M": {
+            "publishers": [
+                "Peerage Books",
+                "PEERAGE BOOKS"
+            ],
+            "subtitle": "(and)Sprig Muslin ; (and)Sylvester ; (and)the Corinthian.",
+            "title": "These old shades",
+            "notes": {
+                "type": "/type/text",
+                "value": "\"These old Shades\", originally published, 1926; \"Sprig muslin\", 1956; \"Sylvester, 1957; \"The Corinthian\", 1940. All by William Heinemann Ltd."
+            },
+            "identifiers": {
+                "librarything": [
+                    "5823931"
+                ],
+                "goodreads": [
+                    "3775425"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "1850521913"
+            ],
+            "publish_date": "1991",
+            "publish_country": "xxk",
+            "key": "/books/OL18217611M",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4092686W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "oclc_numbers": [
+                "220970560"
+            ],
+            "covers": [
+                13678458
+            ],
+            "source_records": [
+                "amazon:1850521913"
+            ],
+            "number_of_pages": 704,
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-12T00:55:30.110355"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-02T09:25:25.295322"
+            }
+        },
+        "/books/OL9793691M": {
+            "identifiers": {
+                "goodreads": [
+                    "7017725"
+                ]
+            },
+            "title": "These Old Shades",
+            "subtitle": "A Georgian Romance",
+            "publish_date": "January 1, 1984",
+            "publishers": [
+                "Books on Tape, Inc."
+            ],
+            "physical_format": "Audio cassette",
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                1364525
+            ],
+            "isbn_13": [
+                "9780736606448"
+            ],
+            "isbn_10": [
+                "0736606440"
+            ],
+            "oclc_numbers": [
+                "408291083"
+            ],
+            "contributions": [
+                "Wanda McCaddon (Reader)"
+            ],
+            "source_records": [
+                "amazon:0736606440"
+            ],
+            "key": "/books/OL9793691M",
+            "works": [
+                {
+                    "key": "/works/OL4092686W"
+                }
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-16T01:36:46.906236"
+            }
+        },
+        "/books/OL9467361M": {
+            "publishers": [
+                "Heinemann"
+            ],
+            "number_of_pages": 362,
+            "weight": "1.4 pounds",
+            "covers": [
+                1594723
+            ],
+            "physical_format": "Hardcover",
+            "key": "/books/OL9467361M",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "subjects": [
+                "Fiction"
+            ],
+            "title": "These Old Shades",
+            "identifiers": {
+                "goodreads": [
+                    "6289659"
+                ]
+            },
+            "isbn_13": [
+                "9780848808167"
+            ],
+            "isbn_10": [
+                "0848808169"
+            ],
+            "publish_date": "1957",
+            "oclc_numbers": [
+                "123097060"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4092686W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9 x 6 x 1.2 inches",
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-02T09:25:25.295322"
+            }
+        },
+        "/books/OL22367350M": {
+            "publishers": [
+                "Mandarin"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "2801050"
+                ],
+                "librarything": [
+                    "25002"
+                ]
+            },
+            "covers": [
+                6920398
+            ],
+            "key": "/books/OL22367350M",
+            "authors": [
+                {
+                    "key": "/authors/OL7459594A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "312p. ;",
+            "title": "These old shades",
+            "dewey_decimal_class": [
+                "823.914"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Originally published, Great Britain: William Heinemann, 1926."
+            },
+            "number_of_pages": 312,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0749305169"
+            ],
+            "publish_date": "1993",
+            "publish_country": "enk",
+            "by_statement": "Georgette Heyer.",
+            "oclc_numbers": [
+                "28709315"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4092686W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "bwb:9780749305161"
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-11T18:10:18.755590"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-03-02T04:03:29.119494"
+            }
+        },
+        "/books/OL24434279M": {
+            "publishers": [
+                "Sourcebooks Casablanca"
+            ],
+            "identifiers": {},
+            "description": "Set in the Georgian period, about 20 years before the Regency, \"These Old Shades\" features two of Heyer's most memorable characters: Justin Alastair, the Duke of Avon, and Leonie, whom he rescues from a life of ignominy and comes to love and marry.",
+            "covers": [
+                6716390
+            ],
+            "lc_classifications": [
+                "PR6015.E795 T47 2009",
+                "PR6015.E795T47 2009"
+            ],
+            "key": "/books/OL24434279M",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_places": [
+                "Naperville, Ill"
+            ],
+            "isbn_13": [
+                "9781402219474"
+            ],
+            "pagination": "378 p. ;",
+            "classifications": {},
+            "source_records": [
+                "marc:marc_loc_updates/v38.i27.records.utf8:9921868:1080",
+                "ia:theseoldshades00heye_885",
+                "marc:marc_loc_2016/BooksAll.2016.part36.utf8:130762492:1080",
+                "bwb:9781402219474"
+            ],
+            "title": "These Old Shades",
+            "lccn": [
+                "2009029781"
+            ],
+            "notes": "Originally published in 1926.",
+            "number_of_pages": 378,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "isbn_10": [
+                "1402219474"
+            ],
+            "publish_date": "2009",
+            "publish_country": "ilu",
+            "by_statement": "Georgette Heyer",
+            "oclc_numbers": [
+                "318410535"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4092686W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-11-16T08:45:50.175368"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-04-21T17:12:57.223284"
+            }
+        },
+        "/books/OL23039530M": {
+            "publishers": [
+                "T︠S︡entrpoligraf"
+            ],
+            "subtitle": "[roman]",
+            "series": [
+                "Serenada"
+            ],
+            "key": "/books/OL23039530M",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_places": [
+                "Moskva"
+            ],
+            "pagination": "376 p. ;",
+            "title": "Teni bylogo",
+            "work_titles": [
+                "These old shades."
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Translation of: These old shades.\n\nAdded t.p. in English."
+            },
+            "number_of_pages": 376,
+            "languages": [
+                {
+                    "key": "/languages/rus"
+                }
+            ],
+            "isbn_10": [
+                "5227007829"
+            ],
+            "publish_date": "2000",
+            "publish_country": "ru ",
+            "by_statement": "Dzhordzhett Kheǐer ; [perevod s angliǐskogo I.G. Gurovoǐ].",
+            "oclc_numbers": [
+                "49537135"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4092686W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:5227007829"
+            ],
+            "latest_revision": 20,
+            "revision": 20,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-02-18T04:27:35.993112"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-02T09:25:25.295322"
+            }
+        },
+        "/books/OL22821912M": {
+            "identifiers": {
+                "librarything": [
+                    "25002"
+                ],
+                "goodreads": [
+                    "6899661"
+                ]
+            },
+            "title": "These Old Shades / The Devil's Club",
+            "authors": [
+                {
+                    "key": "/authors/OL7459594A"
+                }
+            ],
+            "publish_date": "2004",
+            "other_titles": [
+                "devil's cub."
+            ],
+            "publishers": [
+                "Arrow"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0091904196"
+            ],
+            "publish_country": "xxk",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:1120342170:390"
+            ],
+            "key": "/books/OL22821912M",
+            "works": [
+                {
+                    "key": "/works/OL4092686W"
+                }
+            ],
+            "latest_revision": 13,
+            "revision": 13,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-01-04T08:53:34.828066"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-29T18:33:28.247318"
+            }
+        },
+        "/books/OL7572675M": {
+            "notes": "Signet Regency Romance",
+            "identifiers": {
+                "goodreads": [
+                    "969586"
+                ],
+                "librarything": [
+                    "214006"
+                ]
+            },
+            "title": "The Obedient Bride",
+            "authors": [
+                {
+                    "key": "/authors/OL22263A"
+                }
+            ],
+            "publish_date": "June 6, 1989",
+            "publishers": [
+                "Signet"
+            ],
+            "covers": [
+                291545
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-03-17:P7-DFO-142",
+                "amazon:0451159624:bm:2805927733:222909",
+                "marc:marc_loc_updates/v36.i17.records.utf8:15343742:859",
+                "marc:marc_loc_updates/v40.i23.records.utf8:5507963:977",
+                "ia:obedientbride00balo_0",
+                "marc:marc_loc_2016/BooksAll.2016.part36.utf8:71530327:977",
+                "bwb:9780451159625",
+                "promise:bwb_daily_pallets_2021-07-19:P7-CAN-304"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:P7-DFO-142",
+                "urn:bwbsku:P7-CAN-304"
+            ],
+            "key": "/books/OL7572675M",
+            "number_of_pages": 223,
+            "works": [
+                {
+                    "key": "/works/OL14920304W"
+                }
+            ],
+            "ocaid": "obedientbride00balo_0",
+            "isbn_10": [
+                "0451159624"
+            ],
+            "isbn_13": [
+                "9780451159625"
+            ],
+            "lccn": [
+                "2008571381"
+            ],
+            "oclc_numbers": [
+                "19757024"
+            ],
+            "classifications": {},
+            "lc_classifications": [
+                "CPB Box no. 2642 vol. 15"
+            ],
+            "latest_revision": 18,
+            "revision": 18,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-01T12:22:58.571354"
+            }
+        },
+        "/books/OL43157279M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "isbn_10": [
+                "0263722791"
+            ],
+            "isbn_13": [
+                "9780263722796"
+            ],
+            "local_id": [
+                "urn:bwbsku:W7-ADY-569"
+            ],
+            "publish_date": "1976-01-01",
+            "publishers": [
+                "Harlequin Mills & Boon",
+                "Harlequin Books"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-03-17",
+                "amazon:0263722791"
+            ],
+            "title": "Forbidden",
+            "full_title": "Forbidden",
+            "works": [
+                {
+                    "key": "/works/OL15421579W"
+                }
+            ],
+            "key": "/books/OL43157279M",
+            "covers": [
+                13903188
+            ],
+            "number_of_pages": 192,
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-07T15:20:15.902266"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL32195880M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Fobidden",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "publish_date": "Jan 05, 1978",
+            "source_records": [
+                "amazon:0373102216",
+                "bwb:9780373102211",
+                "promise:bwb_daily_pallets_2021-06-17"
+            ],
+            "number_of_pages": 186,
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "physical_format": "mass market paperback",
+            "notes": "Source title: FORBIDDEN (Harlequin Presents #221)",
+            "full_title": "FORBIDDEN",
+            "covers": [
+                10846779
+            ],
+            "works": [
+                {
+                    "key": "/works/OL15421579W"
+                }
+            ],
+            "key": "/books/OL32195880M",
+            "local_id": [
+                "urn:bwbsku:KI-381-199"
+            ],
+            "identifiers": {},
+            "isbn_10": [
+                "0373102216"
+            ],
+            "isbn_13": [
+                "9780373102211"
+            ],
+            "classifications": {},
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-04-11T20:53:06.722936"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL9536330M": {
+            "identifiers": {
+                "librarything": [
+                    "1710864"
+                ],
+                "goodreads": [
+                    "3179621"
+                ]
+            },
+            "title": "Passionate Possession",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "publish_date": "May 1, 1995",
+            "publishers": [
+                "Harlequin"
+            ],
+            "weight": "4 ounces",
+            "series": [
+                "Harlequin Presents, No 1746"
+            ],
+            "covers": [
+                10268469
+            ],
+            "physical_format": "Mass Market Paperback",
+            "ocaid": "passionateposses00penn",
+            "subjects": [
+                "Non-Classifiable",
+                "Romance - General",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Regency"
+            ],
+            "isbn_13": [
+                "9780373117468"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-06-28:W6-AVH-131",
+                "bwb:9780373117468",
+                "promise:bwb_daily_pallets_2021-01-29:O6-CSB-496"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373117469"
+            ],
+            "oclc_numbers": [
+                "32039847"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.8 x 4 x 0.8 inches",
+            "local_id": [
+                "urn:bwbsku:W6-AVH-131",
+                "urn:bwbsku:O6-CSB-496"
+            ],
+            "key": "/books/OL9536330M",
+            "works": [
+                {
+                    "key": "/works/OL3759160W"
+                }
+            ],
+            "latest_revision": 16,
+            "revision": 16,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T15:37:17.716235"
+            }
+        },
+        "/books/OL20130286M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "number_of_pages": 216,
+            "series": [
+                "Penny Jordan"
+            ],
+            "key": "/books/OL20130286M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "publish_places": [
+                "Richmond"
+            ],
+            "pagination": "216p. ;",
+            "source_records": [
+                "bwb:9780263808537",
+                "amazon:026380853X",
+                "promise:bwb_daily_pallets_2020-09-09"
+            ],
+            "title": "Passionate possession.",
+            "notes": {
+                "type": "/type/text",
+                "value": "Originally published: 1992."
+            },
+            "identifiers": {
+                "librarything": [
+                    "1710864"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "026380853X"
+            ],
+            "publish_date": "1998",
+            "publish_country": "enk",
+            "works": [
+                {
+                    "key": "/works/OL3759160W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:KN-766-052"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-26T01:32:34.742363"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-10T01:24:24.974078"
+            }
+        },
+        "/books/OL61105097M": {
+            "works": [
+                {
+                    "key": "/works/OL66544W"
+                }
+            ],
+            "title": "Persuasão",
+            "publishers": [
+                "Zahar"
+            ],
+            "publish_date": "2016",
+            "key": "/books/OL61105097M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                15161243
+            ],
+            "isbn_13": [
+                "9788537815533"
+            ],
+            "table_of_contents": [
+                {
+                    "level": 0,
+                    "label": "Apresentação",
+                    "title": "7",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "Persuasão",
+                    "pagenum": ""
+                },
+                {
+                    "level": 1,
+                    "label": "Livro I",
+                    "title": "9",
+                    "pagenum": ""
+                },
+                {
+                    "level": 1,
+                    "label": "Livro II",
+                    "title": "173",
+                    "pagenum": ""
+                }
+            ],
+            "publish_places": [
+                "Rio de Janeiro, Brazil"
+            ],
+            "contributors": [
+                {
+                    "role": "Translator",
+                    "name": "Fernanda Abreu"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/por"
+                }
+            ],
+            "translation_of": "Persuasion",
+            "translated_from": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "Anne Elliot, filha de um vaidoso e esnobe baronete, apaixona-se por Frederick Wentworth, jovem ambicioso e inteligente, mas sem conexões familiares importantes. Persuadida por sua família, Anne sacrifica esse grande amor por conveniências sociais. Oito anos depois, Frederick, agora rico, ressurge, abalando a ordem estabelecida e a paz familiar.\r\n\r\nAmbientado na Inglaterra rural do século XIX, ***Persuasão***, último romance de Jane Austen, publicado postumamente em 1818, é uma obra-prima na qual a escritora atinge plena maturidade criativa."
+            },
+            "physical_format": "Hardcover",
+            "number_of_pages": 370,
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2026-01-14T14:25:45.767792"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-14T14:33:11.588869"
+            }
+        },
+        "/books/OL52703206M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "1954",
+            "publish_country": "enk",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "title": "Persuasion",
+            "by_statement": "by Jane Austen ; with an introduction by Forrest Reid",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "oclc_numbers": [
+                "13407963"
+            ],
+            "series": [
+                "World's classics -- 356"
+            ],
+            "contributions": [
+                "Reid, Forrest, 1875-1947"
+            ],
+            "publishers": [
+                "Oxford University Press",
+                "G. Cumberlege"
+            ],
+            "publish_places": [
+                "London",
+                "New York"
+            ],
+            "pagination": "290 pages",
+            "number_of_pages": 290,
+            "source_records": [
+                "marc:marc_columbia/Columbia-extract-20221130-005.mrc:525507940:943"
+            ],
+            "full_title": "Persuasion",
+            "works": [
+                {
+                    "key": "/works/OL66544W"
+                }
+            ],
+            "key": "/books/OL52703206M",
+            "latest_revision": 1,
+            "revision": 1,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-07-19T00:05:18.666109"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-07-19T00:05:18.666109"
+            }
+        },
+        "/books/OL24239613M": {
+            "publishers": [
+                "A. Bertrand"
+            ],
+            "pagination": "2 v. :",
+            "source_records": [
+                "ia:lafamilleellioto01aust"
+            ],
+            "title": "La famille Elliot, ou, L'ancienne inclination",
+            "publish_country": "fr ",
+            "key": "/books/OL24239613M",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_date": "1821",
+            "by_statement": "Traduction libre de l'Anglais ... par Mme. de Montolieu.",
+            "publish_places": [
+                "Paris"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "classifications": {},
+            "works": [
+                {
+                    "key": "/works/OL66544W"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "oclc_numbers": [
+                "77212705"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-06-05T00:37:22.920901"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-04T16:39:15.809651"
+            }
+        },
+        "/books/OL51023524M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9781909175358"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "208",
+            "publish_date": "2012",
+            "publishers": [
+                "Bollinger, Max"
+            ],
+            "source_records": [
+                "bwb:9781909175358"
+            ],
+            "subjects": [
+                "Fiction, psychological",
+                "Young women, fiction",
+                "British and irish fiction (fictional works by one author)",
+                "Man-woman relationships, fiction",
+                "England, fiction"
+            ],
+            "title": "Persuasion",
+            "full_title": "Persuasion",
+            "works": [
+                {
+                    "key": "/works/OL66544W"
+                }
+            ],
+            "key": "/books/OL51023524M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-02-17T05:05:15.880796"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-04T10:44:02.007711"
+            }
+        },
+        "/books/OL50649513M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9781035040490"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "312",
+            "publish_date": "2024",
+            "publishers": [
+                "Pan Macmillan"
+            ],
+            "source_records": [
+                "bwb:9781035040490"
+            ],
+            "title": "Persuasion",
+            "weight": "0.455",
+            "full_title": "Persuasion",
+            "works": [
+                {
+                    "key": "/works/OL66544W"
+                }
+            ],
+            "key": "/books/OL50649513M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-01-31T01:18:24.288627"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-04T10:44:02.007711"
+            }
+        },
+        "/books/OL50678584M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9783956760228"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "246",
+            "publish_date": "2015",
+            "publishers": [
+                "Liese. Outside The Box, Andreas"
+            ],
+            "source_records": [
+                "bwb:9783956760228"
+            ],
+            "title": "Persuasion",
+            "subtitle": "Revised Edition of Original Version",
+            "full_title": "Persuasion Revised Edition of Original Version",
+            "works": [
+                {
+                    "key": "/works/OL66544W"
+                }
+            ],
+            "key": "/books/OL50678584M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-01-31T04:04:08.380527"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-04T10:44:02.007711"
+            }
+        },
+        "/books/OL48597636M": {
+            "title": "Überredung",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_date": "2007",
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:O9-AQP-407"
+            ],
+            "publishers": [
+                "Philipp Reclam Jun."
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-07-10:O9-AQP-407"
+            ],
+            "key": "/books/OL48597636M",
+            "works": [
+                {
+                    "key": "/works/OL66544W"
+                }
+            ],
+            "identifiers": {},
+            "ocaid": "berredung0000jane",
+            "isbn_10": [
+                "3150200547"
+            ],
+            "isbn_13": [
+                "9783150200544"
+            ],
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/ger"
+                }
+            ],
+            "covers": [
+                14617834
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-07-12T01:02:41.424568"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-04T10:44:02.007711"
+            }
+        },
+        "/books/OL40574759M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9781520690568"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "207",
+            "publish_date": "2017",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9781520690568",
+                "amazon:1520690568"
+            ],
+            "title": "Persuation",
+            "weight": "0.373",
+            "subtitle": "1909 Edition with 24 Illustrations by C. E. Brock",
+            "works": [
+                {
+                    "key": "/works/OL66544W"
+                }
+            ],
+            "key": "/books/OL40574759M",
+            "covers": [
+                13254574
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-19T22:06:53.719241"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-04T10:44:02.007711"
+            }
+        },
+        "/books/OL13157770M": {
+            "publishers": [
+                "Editorial Presenca"
+            ],
+            "physical_format": "Paperback",
+            "title": "PERSUASÃO (Colecção: Grandes Narrativas, 20)",
+            "identifiers": {
+                "librarything": [
+                    "1500"
+                ],
+                "goodreads": [
+                    "6135871"
+                ]
+            },
+            "isbn_13": [
+                "9789722321136"
+            ],
+            "covers": [
+                3356282
+            ],
+            "edition_name": "3th edition",
+            "languages": [
+                {
+                    "key": "/languages/por"
+                }
+            ],
+            "isbn_10": [
+                "9722321137"
+            ],
+            "publish_date": "2001",
+            "key": "/books/OL13157770M",
+            "oclc_numbers": [
+                "38328700"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "works": [
+                {
+                    "key": "/works/OL66544W"
+                }
+            ],
+            "source_records": [
+                "amazon:9722321137"
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-04T10:44:02.007711"
+            }
+        },
+        "/books/OL38433304M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798430515416"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "329",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798430515416"
+            ],
+            "title": "Persuison Illustration",
+            "weight": "0.495",
+            "works": [
+                {
+                    "key": "/works/OL66544W"
+                }
+            ],
+            "key": "/books/OL38433304M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T03:23:06.942705"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-04T10:44:02.007711"
+            }
+        },
+        "/books/OL35664321M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Persuasão",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "publish_date": "2012",
+            "source_records": [
+                "amazon:8537808113"
+            ],
+            "publishers": [
+                "Zahar"
+            ],
+            "physical_format": "Hardcover",
+            "notes": "Source title: Persuasao (Em Portugues do Brasil)",
+            "covers": [
+                12370043
+            ],
+            "works": [
+                {
+                    "key": "/works/OL66544W"
+                }
+            ],
+            "key": "/books/OL35664321M",
+            "identifiers": {},
+            "isbn_10": [
+                "8537808113"
+            ],
+            "isbn_13": [
+                "9788537808115"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-13T22:09:01.150731"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-14T14:21:51.583936"
+            }
+        },
+        "/books/OL35664929M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Persuasão",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "source_records": [
+                "amazon:8544001866"
+            ],
+            "publishers": [
+                "Martin Claret"
+            ],
+            "physical_format": "Hardcover",
+            "notes": "Source title: Persuasao (Em Portugues do Brasil)",
+            "full_title": "Persuasao",
+            "covers": [
+                12370538
+            ],
+            "works": [
+                {
+                    "key": "/works/OL66544W"
+                }
+            ],
+            "key": "/books/OL35664929M",
+            "identifiers": {},
+            "isbn_10": [
+                "8544001866"
+            ],
+            "isbn_13": [
+                "9788544001868"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/por"
+                }
+            ],
+            "translation_of": "Persuasion",
+            "translated_from": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-14T00:13:54.409258"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-14T14:23:40.342906"
+            }
+        },
+        "/books/OL35552606M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                },
+                {
+                    "key": "/authors/OL8244423A"
+                },
+                {
+                    "key": "/authors/OL8176681A"
+                }
+            ],
+            "isbn_13": [
+                "9780008437770"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2020",
+            "publishers": [
+                "HarperCollins Publishers Limited"
+            ],
+            "source_records": [
+                "bwb:9780008437770"
+            ],
+            "title": "Persuasion Ebook",
+            "subtitle": "Course Licence",
+            "works": [
+                {
+                    "key": "/works/OL66544W"
+                }
+            ],
+            "key": "/books/OL35552606M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-03T03:46:25.098285"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-04T10:44:02.007711"
+            }
+        },
+        "/books/OL32778605M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Persuasión",
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                },
+                {
+                    "key": "/authors/OL8262446A"
+                },
+                {
+                    "key": "/authors/OL8262446A"
+                }
+            ],
+            "publish_date": "Mar 26, 2017",
+            "source_records": [
+                "amazon:1544926235",
+                "bwb:9781544926230"
+            ],
+            "number_of_pages": 142,
+            "publishers": [
+                "Createspace Independent Publishing Platform",
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "isbn_10": [
+                "1544926235"
+            ],
+            "isbn_13": [
+                "9781544926230"
+            ],
+            "physical_format": "paperback",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Persuasión (Spanish Edition)"
+            },
+            "full_title": "Persuasión",
+            "covers": [
+                11410499
+            ],
+            "works": [
+                {
+                    "key": "/works/OL66544W"
+                }
+            ],
+            "key": "/books/OL32778605M",
+            "contributors": [
+                {
+                    "role": "Editor",
+                    "name": "Andrea Gouveia"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-07-11T05:17:18.844666"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-02-15T22:23:42.353226"
+            }
+        },
+        "/books/OL51678715M": {
+            "works": [
+                {
+                    "key": "/works/OL66544W"
+                }
+            ],
+            "title": "Persuasion",
+            "publishers": [
+                "Penguin Books"
+            ],
+            "publish_date": "1970",
+            "key": "/books/OL51678715M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "covers": [
+                14621274
+            ],
+            "ocaid": "janeaustenpersua0000unse_p2y0",
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "oclc_numbers": [
+                "1382393"
+            ],
+            "source_records": [
+                "ia:janeaustenpersua0000unse_p2y0",
+                "marc:harvard_bibliographic_metadata/20220215_034.bib.mrc:102979831:2970"
+            ],
+            "number_of_pages": 399,
+            "lccn": [
+                "65029846"
+            ],
+            "lc_classifications": [
+                "PZ3.A93 P17"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-05-01T19:00:04.557707"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-30T00:25:03.872468"
+            }
+        },
+        "/books/OL48572336M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B0000CL0CF"
+                ],
+                "better_world_books": [
+                    "BWB33575327"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:KS-567-998"
+            ],
+            "publish_date": "1961-01-01",
+            "publishers": [
+                "Folio Society"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-06-21:KS-567-998"
+            ],
+            "title": "Persuasion.",
+            "full_title": "Persuasion.",
+            "works": [
+                {
+                    "key": "/works/OL66544W"
+                }
+            ],
+            "key": "/books/OL48572336M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-23T01:02:47.703953"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-01T17:13:32.025617"
+            }
+        },
+        "/books/OL37729030M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "isbn_13": [
+                "9781420980899"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2022",
+            "publishers": [
+                "Digireads.com Publishing"
+            ],
+            "source_records": [
+                "bwb:9781420980899"
+            ],
+            "title": "These Old Shades",
+            "full_title": "These Old Shades",
+            "works": [
+                {
+                    "key": "/works/OL4092686W"
+                }
+            ],
+            "key": "/books/OL37729030M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-03-04T03:44:11.024549"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-02T09:25:25.295322"
+            }
+        },
+        "/books/OL37729151M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "isbn_13": [
+                "9781420980769"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2022",
+            "publishers": [
+                "Digireads.com Publishing"
+            ],
+            "source_records": [
+                "bwb:9781420980769"
+            ],
+            "title": "These Old Shades",
+            "full_title": "These Old Shades",
+            "works": [
+                {
+                    "key": "/works/OL4092686W"
+                }
+            ],
+            "key": "/books/OL37729151M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-03-04T03:45:33.500329"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-02T09:25:25.295322"
+            }
+        },
+        "/books/OL27113002M": {
+            "publishers": [
+                "Belgorod",
+                "Izd-vo Klub Semeĭnogo Dosuga"
+            ],
+            "isbn_10": [
+                "5991005141"
+            ],
+            "local_id": [
+                "urn:sfpl:31223087316221"
+            ],
+            "key": "/books/OL27113002M",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_places": [
+                "Kharʹkov"
+            ],
+            "isbn_13": [
+                "9785991005142"
+            ],
+            "pagination": "397 p.",
+            "source_records": [
+                "marc:marc_openlibraries_sanfranciscopubliclibrary/sfpl_chq_2018_12_24_run04.mrc:12712647:1822"
+            ],
+            "title": "Teni predkov",
+            "work_titles": [
+                "These old shades"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Added t.p. in English."
+            },
+            "number_of_pages": 397,
+            "languages": [
+                {
+                    "key": "/languages/rus"
+                }
+            ],
+            "subject_places": [
+                "England",
+                "France"
+            ],
+            "subjects": [
+                "Social life and customs",
+                "Fiction"
+            ],
+            "publish_date": "2008",
+            "publish_country": "un",
+            "by_statement": "Dzhorzhett Kheĭer ; perevodchik, Anatoliĭ Mikahĭlov",
+            "oclc_numbers": [
+                "436089429"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4092686W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-07-16T11:58:52.078765"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-02T09:25:25.295322"
+            }
+        },
+        "/books/OL36762281M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7459594A"
+                }
+            ],
+            "isbn_13": [
+                "9781504072991"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "673",
+            "publish_date": "2022",
+            "publishers": [
+                "Open Road Integrated Media, Inc."
+            ],
+            "source_records": [
+                "bwb:9781504072991"
+            ],
+            "title": "These Old Shades",
+            "full_title": "These Old Shades",
+            "works": [
+                {
+                    "key": "/works/OL4092686W"
+                }
+            ],
+            "key": "/books/OL36762281M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-01-27T17:23:50.102660"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-03-02T04:34:27.652117"
+            }
+        },
+        "/books/OL35455491M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7459594A"
+                }
+            ],
+            "isbn_13": [
+                "9780753167380"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "488",
+            "publish_date": "2003",
+            "publishers": [
+                "ISIS Large Print Books"
+            ],
+            "source_records": [
+                "bwb:9780753167380"
+            ],
+            "subjects": [
+                "Fiction, romance, historical, general",
+                "Literature and fiction (general)"
+            ],
+            "title": "These Old Shades",
+            "full_title": "These Old Shades",
+            "works": [
+                {
+                    "key": "/works/OL4092686W"
+                }
+            ],
+            "key": "/books/OL35455491M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T04:48:21.444969"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-03-02T04:34:27.652117"
+            }
+        },
+        "/books/OL34455918M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7459594A"
+                }
+            ],
+            "isbn_13": [
+                "9781446456552"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 352,
+            "publish_date": "2011",
+            "publishers": [
+                "Penguin Random House"
+            ],
+            "source_records": [
+                "bwb:9781446456552"
+            ],
+            "subjects": [
+                "Fiction, romance, historical"
+            ],
+            "title": "These Old Shades",
+            "subtitle": "Gossip, Scandal and an Unforgettable Regency Romance",
+            "full_title": "These Old Shades Gossip, Scandal and an Unforgettable Regency Romance",
+            "works": [
+                {
+                    "key": "/works/OL4092686W"
+                }
+            ],
+            "key": "/books/OL34455918M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-04T21:44:32.712765"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-03-02T04:25:36.828127"
+            }
+        },
+        "/books/OL27343653M": {
+            "publishers": [
+                "Sourcebooks Casablanca"
+            ],
+            "identifiers": {
+                "amazon": [
+                    "1492677655"
+                ]
+            },
+            "covers": [
+                8807754
+            ],
+            "physical_format": "paperback",
+            "full_title": "These Old Shades",
+            "key": "/books/OL27343653M",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "source_records": [
+                "amazon:1492677655",
+                "bwb:9781492677659",
+                "promise:bwb_daily_pallets_2023-12-28:P8-BYI-454"
+            ],
+            "title": "These Old Shades",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: These Old Shades (The Georgette Heyer Signature Collection)"
+            },
+            "number_of_pages": 400,
+            "isbn_13": [
+                "9781492677659"
+            ],
+            "isbn_10": [
+                "1492677655"
+            ],
+            "publish_date": "Jan 01, 2019",
+            "works": [
+                {
+                    "key": "/works/OL4092686W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:P8-BYI-454"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-10-04T20:31:27.916256"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-12-30T01:06:33.308696"
+            }
+        },
+        "/books/OL28428349M": {
+            "publishers": [
+                "Penguin Random House"
+            ],
+            "source_records": [
+                "bwb:9780099465829"
+            ],
+            "title": "These Old Shades",
+            "number_of_pages": 352,
+            "isbn_13": [
+                "9780099465829"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "These Old Shades",
+            "lc_classifications": [
+                "PR6015.E795"
+            ],
+            "publish_date": "2004",
+            "key": "/books/OL28428349M",
+            "authors": [
+                {
+                    "key": "/authors/OL7459594A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4092686W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, historical"
+            ],
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-01T02:46:21.736408"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-03-02T04:25:36.828127"
+            }
+        },
+        "/books/OL26328717M": {
+            "publishers": [
+                "HQN"
+            ],
+            "table_of_contents": [
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "Foreword / Stephanie Laurens",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "His Grace of Avon buys a soul",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "Introducing the Comte de Saint-Vire",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "Which tells of a debt unpaid",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "His Grace of Avon becomes further acquainted with his page",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "His Grace of Avon visits Versailles",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "His Grace of Avon refuses to sell his page",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "Satan and priest at one",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "Hugh Davenant is amazed",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "Leon and Leonie",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "Lady Fanny's virtue is outraged",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "Mr. Marling's heart is won",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "His Grace of Avon's ward",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "The education of Leonie",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "The appearance of the scene of Lord Rupert Alastair",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "Lord Rupert makes the acquaintance of Leonie",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "The coming of the Comte de Saint-Vire",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "Of a capture, a chase, and confusion",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "The indignation of Mr. Manvers",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "Lord Rupert wins the second trick",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "His Grace of Avon takes command of the game",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "The discomfiture of the Comte de Saint-Vire",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "The arrival of another player in the game",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "Mr. Marling allows himself to be persuaded",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "Hugh Davenant is agreeably surprised",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "Leonie curtsies to the polite world",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "The presentation of Leonie",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "The hand of Madame de Verchoureux",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "The Comte de Saint-Vire discovers an ace in his hand",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "The disappearance of Leonie",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "His Grace of Avon trumps the Comte's ace",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "His Grace of Avon wins all",
+                    "pagenum": ""
+                },
+                {
+                    "level": 0,
+                    "label": "",
+                    "title": "His Grace of Avon astonishes everyone for the last time.",
+                    "pagenum": ""
+                }
+            ],
+            "covers": [
+                11204257,
+                8005245
+            ],
+            "full_title": "These old shades",
+            "key": "/books/OL26328717M",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_places": [
+                "Don Mills, Ont"
+            ],
+            "subject_times": [
+                "Louis XV, 1715-1774"
+            ],
+            "pagination": "iv, 334 pages ;",
+            "source_records": [
+                "ia:isbn_9780373773404",
+                "bwb:9780373773404",
+                "marc:harvard_bibliographic_metadata/ab.bib.11.20150123.full.mrc:793586414:2163"
+            ],
+            "title": "These Old Shades",
+            "number_of_pages": 334,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subject_places": [
+                "Paris",
+                "Paris (France)",
+                "France"
+            ],
+            "subjects": [
+                "Fiction",
+                "Aristocracy (Social class)",
+                "History"
+            ],
+            "publish_date": "2003",
+            "publish_country": "onc",
+            "copyright_date": "1926",
+            "by_statement": "Georgette Heyer ; with a foreword by Stephanie Laurens",
+            "works": [
+                {
+                    "key": "/works/OL4092686W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "series": [
+                "Alastair-Audley (1)"
+            ],
+            "subtitle": "Alastair-Audley #1",
+            "ocaid": "isbn_9780373773404",
+            "isbn_10": [
+                "0373773404"
+            ],
+            "isbn_13": [
+                "9780373773404"
+            ],
+            "oclc_numbers": [
+                "234179635"
+            ],
+            "lc_classifications": [
+                "PR6015.E795 T48 2003"
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2017-06-23T22:49:07.160655"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-10T20:36:39.558761"
+            }
+        },
+        "/books/OL36329971M": {
+            "works": [
+                {
+                    "key": "/works/OL4092686W"
+                }
+            ],
+            "title": "Der Page und die Herzogin",
+            "publishers": [
+                "Rowohlt"
+            ],
+            "publish_date": "1966-09",
+            "key": "/books/OL36329971M",
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                12506266
+            ],
+            "identifiers": {},
+            "classifications": {},
+            "copyright_date": "1960",
+            "series": [
+                "Alastair-Audley #1"
+            ],
+            "edition_name": "56.-65. Tausend September 1966",
+            "number_of_pages": 349,
+            "translated_from": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "physical_format": "Taschenbuch",
+            "languages": [
+                {
+                    "key": "/languages/ger"
+                }
+            ],
+            "translation_of": "These Old Shades",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-12-30T11:58:30.849240"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-12-30T12:00:01.321433"
+            }
+        },
+        "/books/OL24061984M": {
+            "publishers": [
+                "Sourcebooks Casablanca"
+            ],
+            "pagination": "p. cm.",
+            "lc_classifications": [
+                "PR6015.E795 T47 2009"
+            ],
+            "key": "/books/OL24061984M",
+            "authors": [
+                {
+                    "key": "/authors/OL7459594A"
+                }
+            ],
+            "publish_places": [
+                "Naperville, Ill"
+            ],
+            "genres": [
+                "Fiction"
+            ],
+            "source_records": [
+                "marc:marc_loc_updates/v38.i08.records.utf8:31304575:657"
+            ],
+            "title": "These old shades",
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lccn": [
+                "2009029781"
+            ],
+            "subjects": [
+                "England -- Social life and customs -- 18th century -- Fiction"
+            ],
+            "publish_date": "2009",
+            "publish_country": "ilu",
+            "by_statement": "Georgette Heyer.",
+            "works": [
+                {
+                    "key": "/works/OL4092686W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-03-02T03:58:09.537270"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-03-02T04:03:29.119494"
+            }
+        },
+        "/books/OL7567661M": {
+            "publishers": [
+                "Fawcett"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "title": "These Old Shades",
+            "identifiers": {
+                "goodreads": [
+                    "2801052"
+                ],
+                "librarything": [
+                    "25002"
+                ],
+                "amazon": [
+                    ""
+                ]
+            },
+            "covers": [
+                6920395
+            ],
+            "isbn_13": [
+                "9780449240007"
+            ],
+            "isbn_10": [
+                "0449240002"
+            ],
+            "publish_date": "January 12, 1980",
+            "key": "/books/OL7567661M",
+            "authors": [
+                {
+                    "key": "/authors/OL7459594A"
+                }
+            ],
+            "oclc_numbers": [
+                "5209254"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4092686W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:O6-BEE-366"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2020-04-02"
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-10T13:39:14.168323"
+            }
+        },
+        "/books/OL6694382M": {
+            "publishers": [
+                "Small, Maynard & Company"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "25002"
+                ]
+            },
+            "lc_classifications": [
+                "PZ3.H514 Th",
+                "pR6015.E795 Th",
+                "PZ3.H514 Ta"
+            ],
+            "key": "/books/OL6694382M",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_places": [
+                "Boston"
+            ],
+            "pagination": "viii, 430 p.",
+            "source_records": [
+                "marc:marc_loc_2016/BooksAll.2016.part03.utf8:17812230:527",
+                "marc:harvard_bibliographic_metadata/20220215_018.bib.mrc:74910243:779"
+            ],
+            "title": "These old shades",
+            "lccn": [
+                "26019346"
+            ],
+            "number_of_pages": 430,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1926",
+            "publish_country": "mau",
+            "by_statement": "by Georgette Heyer ...",
+            "oclc_numbers": [
+                "1375153"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4092686W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-05T14:42:28.324791"
+            }
+        },
+        "/books/OL9725683M": {
+            "publishers": [
+                "Amereon Ltd"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "weight": "1.4 pounds",
+            "title": "These Old Shades",
+            "identifiers": {
+                "goodreads": [
+                    "2801047"
+                ],
+                "librarything": [
+                    "25002"
+                ]
+            },
+            "isbn_13": [
+                "9781567230581"
+            ],
+            "covers": [
+                1907246
+            ],
+            "physical_format": "Hardcover",
+            "isbn_10": [
+                "156723058X"
+            ],
+            "publish_date": "June 1993",
+            "key": "/books/OL9725683M",
+            "authors": [
+                {
+                    "key": "/authors/OL7459594A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4092686W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.8 x 6 x 1.2 inches",
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-03-02T04:03:29.119494"
+            }
+        },
+        "/books/OL7572323M": {
+            "publishers": [
+                "Signet"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "title": "These Old Shades",
+            "identifiers": {
+                "librarything": [
+                    "25002"
+                ],
+                "goodreads": [
+                    "2801048"
+                ]
+            },
+            "covers": [
+                6920397,
+                6920396
+            ],
+            "isbn_13": [
+                "9780451151353"
+            ],
+            "isbn_10": [
+                "0451151356"
+            ],
+            "publish_date": "January 5, 1988",
+            "key": "/books/OL7572323M",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "oclc_numbers": [
+                "23897890"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4092686W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "bwb:9780451151353"
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-02T09:25:25.295322"
+            }
+        },
+        "/books/OL14991507M": {
+            "identifiers": {
+                "librarything": [
+                    "25002"
+                ],
+                "goodreads": [
+                    "2122859"
+                ]
+            },
+            "title": "These old shades",
+            "authors": [
+                {
+                    "key": "/authors/OL7459594A"
+                }
+            ],
+            "publish_date": "1980",
+            "publishers": [
+                "Pan in association with Heinemann"
+            ],
+            "covers": [
+                6920394
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "312p. ;",
+            "dewey_decimal_class": [
+                "823/.912"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0330202693"
+            ],
+            "publish_country": "xxk",
+            "by_statement": "Georgette Heyer.",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:537947843:604"
+            ],
+            "key": "/books/OL14991507M",
+            "number_of_pages": 312,
+            "works": [
+                {
+                    "key": "/works/OL4092686W"
+                }
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-17T01:24:09.115187"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-04-02T05:28:57.697588"
+            }
+        },
+        "/books/OL18382906M": {
+            "title": "These old shades [Book].",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_date": "1964",
+            "publishers": [
+                "Heinemann"
+            ],
+            "pagination": "Hbk",
+            "languages": [
+                {
+                    "key": "/languages/und"
+                }
+            ],
+            "publish_country": "xx ",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:1820728404:410"
+            ],
+            "key": "/books/OL18382906M",
+            "works": [
+                {
+                    "key": "/works/OL4092686W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-16T11:41:49.394550"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-14T11:50:03.213542"
+            }
+        },
+        "/books/OL8299571M": {
+            "identifiers": {
+                "goodreads": [
+                    "2801049"
+                ],
+                "librarything": [
+                    "25002"
+                ]
+            },
+            "title": "These Old Shades",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_date": "December 1990",
+            "publishers": [
+                "Ulverscroft Large Print"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_13": [
+                "9780854565429"
+            ],
+            "isbn_10": [
+                "0854565426"
+            ],
+            "physical_format": "Hardcover",
+            "subjects": [
+                "Mystery & Detective - General",
+                "Fiction - Mystery/ Detective"
+            ],
+            "source_records": [
+                "amazon:0854565426"
+            ],
+            "key": "/books/OL8299571M",
+            "number_of_pages": 612,
+            "works": [
+                {
+                    "key": "/works/OL4092686W"
+                }
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-10T19:33:02.930033"
+            }
+        },
+        "/books/OL17166220M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Reprint from August 1931."
+            },
+            "title": "These old shades.",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_date": "1926",
+            "publishers": [
+                "William Heinemann"
+            ],
+            "dewey_decimal_class": [
+                "823.912"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_country": "xxk",
+            "publish_places": [
+                "London"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:1320014728:436"
+            ],
+            "key": "/books/OL17166220M",
+            "works": [
+                {
+                    "key": "/works/OL4092686W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-27T19:22:01.365510"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-05-20T03:02:40.524552"
+            }
+        },
+        "/books/OL24988770M": {
+            "publishers": [
+                "Arrow Books"
+            ],
+            "pagination": "320 pages",
+            "number_of_pages": 320,
+            "classifications": {},
+            "title": "These old shades",
+            "physical_format": "Paperback",
+            "identifiers": {},
+            "covers": [
+                6920399
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0099429829"
+            ],
+            "publish_date": "1993",
+            "key": "/books/OL24988770M",
+            "works": [
+                {
+                    "key": "/works/OL4092686W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "19.6 x 13 x 2.4 centimeters",
+            "source_records": [
+                "bwb:9780099429821"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2011-09-12T10:37:46.812822"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-11-03T03:50:58.364621"
+            }
+        },
+        "/books/OL28071048M": {
+            "publishers": [
+                "Class Ebook Editions Ltd."
+            ],
+            "source_records": [
+                "bwb:9781944654344"
+            ],
+            "title": "The Obedient Bride",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Obedient Bride",
+            "publish_date": "2020",
+            "key": "/books/OL28071048M",
+            "authors": [
+                {
+                    "key": "/authors/OL22263A"
+                },
+                {
+                    "key": "/authors/OL7900046A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL14920304W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general",
+                "Fiction, historical"
+            ],
+            "identifiers": {},
+            "isbn_13": [
+                "9781944654344"
+            ],
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-05-17T05:16:24.208257"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-22T19:50:47.093822"
+            }
+        },
+        "/books/OL28973707M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263722178"
+            ],
+            "title": "Forbidden",
+            "number_of_pages": 186,
+            "isbn_13": [
+                "9780263722178"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Forbidden",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "1976",
+            "key": "/books/OL28973707M",
+            "authors": [
+                {
+                    "key": "/authors/OL3319143A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL15421579W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T22:19:28.709029"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-27T08:23:49.975400"
+            }
+        },
+        "/books/OL17462573M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "number_of_pages": 192,
+            "key": "/books/OL17462573M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "pagination": "(192)p. ;",
+            "source_records": [
+                "bwb:9780263777222",
+                "amazon:0263777227"
+            ],
+            "title": "Passionate possession",
+            "dewey_decimal_class": [
+                "823.914"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "1710864"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263777227"
+            ],
+            "publish_date": "1992",
+            "publish_country": "enk",
+            "by_statement": "Penny Jordan.",
+            "works": [
+                {
+                    "key": "/works/OL3759160W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-28T22:00:17.973314"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-03T20:16:14.943931"
+            }
+        },
+        "/books/OL50623913M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                },
+                {
+                    "key": "/authors/OL7093148A"
+                }
+            ],
+            "isbn_13": [
+                "9781324070740"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2024",
+            "publishers": [
+                "Norton & Company Limited, W. W."
+            ],
+            "source_records": [
+                "bwb:9781324070740"
+            ],
+            "title": "Persuasion",
+            "weight": "0.666",
+            "full_title": "Persuasion",
+            "works": [
+                {
+                    "key": "/works/OL66544W"
+                }
+            ],
+            "key": "/books/OL50623913M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-01-30T23:38:17.320169"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-04T10:44:02.007711"
+            }
+        },
+        "/books/OL48564814M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B000NZICTI"
+                ],
+                "better_world_books": [
+                    "BWB25335582"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:KS-563-048"
+            ],
+            "publish_date": "1947-01-01",
+            "publishers": [
+                "Hamish Hamilton"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-06-16:KS-563-048"
+            ],
+            "title": "Persuasion",
+            "full_title": "Persuasion",
+            "works": [
+                {
+                    "key": "/works/OL66544W"
+                }
+            ],
+            "key": "/books/OL48564814M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-18T05:15:35.219377"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-04T10:44:02.007711"
+            }
+        },
+        "/books/OL35968216M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL2658421A"
+                },
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9781081522193"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "209",
+            "publish_date": "2019",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9781081522193"
+            ],
+            "title": "Persuasion",
+            "weight": "0.377",
+            "subtitle": "Illustrated and Annotated",
+            "full_title": "Persuasion Illustrated and Annotated",
+            "works": [
+                {
+                    "key": "/works/OL66544W"
+                }
+            ],
+            "key": "/books/OL35968216M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-12-27T10:17:27.396274"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-04T10:44:02.007711"
+            }
+        },
+        "/books/OL47754622M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL2704230A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B00E28WPAO"
+                ],
+                "better_world_books": [
+                    "BWB29083536"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:P8-AYF-452"
+            ],
+            "publishers": [
+                "Penguin Classics"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-03-01:P8-AYF-452"
+            ],
+            "title": "Persuasion (Penguin Classics) a Edition by Austen, Jane published by Penguin Classics (2003)",
+            "full_title": "Persuasion (Penguin Classics) a Edition by Austen, Jane published by Penguin Classics (2003)",
+            "works": [
+                {
+                    "key": "/works/OL66544W"
+                }
+            ],
+            "key": "/books/OL47754622M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-05-04T07:07:23.254764"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-01T18:26:39.336726"
+            }
+        },
+        "/books/OL48527083M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL9602912A"
+                },
+                {
+                    "key": "/authors/OL10704969A"
+                },
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "344",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798579141576"
+            ],
+            "title": "Persuasion - Unabridged",
+            "weight": "0.586 ",
+            "works": [
+                {
+                    "key": "/works/OL66544W"
+                }
+            ],
+            "key": "/books/OL48527083M",
+            "identifiers": {},
+            "isbn_13": [
+                "9798579141576"
+            ],
+            "classifications": {},
+            "contributors": [
+                {
+                    "role": "Editor",
+                    "name": "Bryan Hunt"
+                },
+                {
+                    "role": "Editor",
+                    "name": "A. J. Alexander"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-18T03:13:39.184555"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-19T23:24:31.946290"
+            }
+        },
+        "/books/OL48496727M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL21594A"
+                }
+            ],
+            "isbn_13": [
+                "9798749120851"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "281",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798749120851"
+            ],
+            "title": "Persuasion",
+            "weight": "0.491",
+            "full_title": "Persuasion",
+            "works": [
+                {
+                    "key": "/works/OL66544W"
+                }
+            ],
+            "key": "/books/OL48496727M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-18T01:38:01.345806"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-09-01T17:13:32.025617"
+            }
+        }
+    }
+}

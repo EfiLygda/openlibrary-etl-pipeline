@@ -1,0 +1,6040 @@
+{
+    "status": "ok",
+    "result": {
+        "/books/OL25763719M": {
+            "publishers": [
+                "tyndale house"
+            ],
+            "created": {
+                "type": "/type/datetime",
+                "value": "2015-08-29T05:21:01.626034"
+            },
+            "publish_date": "1993",
+            "key": "/books/OL25763719M",
+            "title": "the voice in the wind",
+            "latest_revision": 2,
+            "works": [
+                {
+                    "key": "/works/OL13015028W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-03-06T16:52:48.026538"
+            },
+            "revision": 2
+        },
+        "/books/OL24272846M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "physical_format": "Electronic resource",
+            "source_records": [
+                "marc_overdrive/InternetArchiveCrMarc-2010-06-11r.mrc:4053596:2105",
+                "bwb:9781426858932"
+            ],
+            "title": "A Scandalous Marriage",
+            "identifiers": {
+                "overdrive": [
+                    "FE939B5C-AF5B-4928-AF2C-EBA0A6BE7094"
+                ]
+            },
+            "isbn_13": [
+                "9781426858932"
+            ],
+            "covers": [
+                6422506
+            ],
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-06-18T01:09:50.179472"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-08-29T05:58:39.538571"
+            },
+            "publish_date": "2010",
+            "publish_country": "nyu",
+            "key": "/books/OL24272846M",
+            "authors": [
+                {
+                    "key": "/authors/OL673823A"
+                }
+            ],
+            "latest_revision": 6,
+            "publish_places": [
+                "Toronto, Ontario"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3803114W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 6
+        },
+        "/books/OL38276180M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "isbn_13": [
+                "9781299334588"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2011",
+            "publishers": [
+                "Harlequin Enterprises ULC"
+            ],
+            "source_records": [
+                "bwb:9781299334588"
+            ],
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "title": "Sicilian's Mistress",
+            "full_title": "Sicilian's Mistress",
+            "works": [
+                {
+                    "key": "/works/OL3773971W"
+                }
+            ],
+            "key": "/books/OL38276180M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-17T12:53:17.114292"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-29T14:32:34.965021"
+            }
+        },
+        "/books/OL10241340M": {
+            "publishers": [
+                "Thorndike Press"
+            ],
+            "number_of_pages": 288,
+            "weight": "13.6 ounces",
+            "covers": [
+                2343035
+            ],
+            "physical_format": "Hardcover",
+            "key": "/books/OL10241340M",
+            "authors": [
+                {
+                    "key": "/authors/OL665753A"
+                }
+            ],
+            "subjects": [
+                "Romance",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern",
+                "Romance - General",
+                "Romance - Contemporary",
+                "Large type books"
+            ],
+            "edition_name": "Large Print Edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "classifications": {},
+            "source_records": [
+                "bwb:9780263163704",
+                "promise:bwb_daily_pallets_2022-06-01"
+            ],
+            "title": "The Sicilian's Mistress",
+            "identifiers": {
+                "goodreads": [
+                    "1389874"
+                ],
+                "librarything": [
+                    "1625559"
+                ]
+            },
+            "publish_date": "March 2000",
+            "works": [
+                {
+                    "key": "/works/OL3773971W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.1 x 5.5 x 1.2 inches",
+            "local_id": [
+                "urn:bwbsku:T2-BHB-044"
+            ],
+            "ocaid": "sicilliansmistre00lynn",
+            "isbn_10": [
+                "0263163709"
+            ],
+            "isbn_13": [
+                "9780263163704"
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-10-06T18:10:41.917830"
+            }
+        },
+        "/books/OL9481954M": {
+            "identifiers": {
+                "librarything": [
+                    "3089939"
+                ],
+                "amazon": [
+                    ""
+                ]
+            },
+            "title": "Don't Call It Love",
+            "authors": [
+                {
+                    "key": "/authors/OL584493A"
+                }
+            ],
+            "publish_date": "October 1, 1984",
+            "publishers": [
+                "harlequin",
+                "Harlequin"
+            ],
+            "series": [
+                "Harlequin Romance, No. 2653"
+            ],
+            "covers": [
+                15110161,
+                8081494
+            ],
+            "physical_format": "Paperback",
+            "ocaid": "dontcallitlove00lind",
+            "subjects": [
+                "General",
+                "Non-Classifiable",
+                "Fiction - General"
+            ],
+            "isbn_13": [
+                "9780373026531"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-06-28:W6-BAF-888",
+                "ia:dontcallitlove00lind",
+                "ia:dontcallitlove0000arms",
+                "bwb:9780373026531",
+                "promise:bwb_daily_pallets_2021-05-19:P4-AVW-140",
+                "promise:bwb_daily_pallets_2020-12-16:386-BAC-904"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373026536"
+            ],
+            "oclc_numbers": [
+                "11085082"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:W6-BAF-888",
+                "urn:bwbsku:P4-AVW-140",
+                "urn:bwbsku:386-BAC-904"
+            ],
+            "key": "/books/OL9481954M",
+            "number_of_pages": 191,
+            "works": [
+                {
+                    "key": "/works/OL3498747W"
+                }
+            ],
+            "latest_revision": 16,
+            "revision": 16,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-03T05:48:28.598619"
+            }
+        },
+        "/books/OL14979987M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "7313802"
+                ]
+            },
+            "key": "/books/OL14979987M",
+            "authors": [
+                {
+                    "key": "/authors/OL194979A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "189p. ;",
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:517183315:597",
+                "bwb:9780263723816",
+                "ia:tocatchbutterfly0000lewt",
+                "amazon:026372381X"
+            ],
+            "title": "To Catch A Butterfly",
+            "number_of_pages": 189,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Fiction in English"
+            ],
+            "publish_date": "1977",
+            "publish_country": "xxk",
+            "by_statement": "by Marjorie Lewty.",
+            "works": [
+                {
+                    "key": "/works/OL1708087W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                12735669,
+                10599967
+            ],
+            "ocaid": "tocatchbutterfly0000lewt",
+            "isbn_10": [
+                "026372381X"
+            ],
+            "oclc_numbers": [
+                "3124840"
+            ],
+            "classifications": {},
+            "dewey_decimal_class": [
+                "823/.9/1F"
+            ],
+            "lc_classifications": [
+                "PN6071.L7 M5 no.1252"
+            ],
+            "physical_format": "Hardcover",
+            "latest_revision": 12,
+            "revision": 12,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T23:19:27.863846"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-10-28T20:03:49.729547"
+            }
+        },
+        "/books/OL9852042M": {
+            "identifiers": {
+                "librarything": [
+                    "9311814"
+                ],
+                "goodreads": [
+                    "2942714"
+                ]
+            },
+            "title": "Come Love Me",
+            "authors": [
+                {
+                    "key": "/authors/OL584494A"
+                }
+            ],
+            "publish_date": "March 1, 1984",
+            "publishers": [
+                "Harlequin"
+            ],
+            "covers": [
+                5020552
+            ],
+            "physical_format": "Paperback",
+            "subjects": [
+                "General",
+                "Non-Classifiable",
+                "Fiction - General",
+                "Fiction"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_13": [
+                "9780373026142"
+            ],
+            "isbn_10": [
+                "0373026145"
+            ],
+            "oclc_numbers": [
+                "10321033"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:0373026145"
+            ],
+            "key": "/books/OL9852042M",
+            "number_of_pages": 186,
+            "works": [
+                {
+                    "key": "/works/OL11327156W"
+                }
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-12T01:15:24.211364"
+            }
+        },
+        "/books/OL24267217M": {
+            "publishers": [
+                "HarperCollins"
+            ],
+            "covers": [
+                6416137
+            ],
+            "physical_format": "Electronic resource",
+            "key": "/books/OL24267217M",
+            "authors": [
+                {
+                    "key": "/authors/OL1385857A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "isbn_13": [
+                "9780061944789",
+                "9780061944796",
+                "9780061944802"
+            ],
+            "source_records": [
+                "marc_overdrive/InternetArchiveCrMarc-2010-06-11n.mrc:6629965:2275",
+                "ia:hisscandal00call_854",
+                "ia:hisscandal00call",
+                "bwb:9780061944796",
+                "bwb:9780061944802",
+                "promise:bwb_daily_pallets_2020-10-08"
+            ],
+            "title": "His Scandal",
+            "identifiers": {
+                "overdrive": [
+                    "FFD79C70-9FD8-4BCE-9E8F-B961853D77A8"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2009",
+            "publish_country": "nyu",
+            "works": [
+                {
+                    "key": "/works/OL5689129W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:768-BAB-899"
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2010-06-17T23:01:07.515121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-03-28T16:59:50.615171"
+            }
+        },
+        "/books/OL21051555M": {
+            "title": "Dark fires.",
+            "authors": [
+                {
+                    "key": "/authors/OL1081479A"
+                }
+            ],
+            "publish_date": "1977",
+            "publishers": [
+                "Futura Press"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_country": "xxk",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:2911414303:356"
+            ],
+            "key": "/books/OL21051555M",
+            "works": [
+                {
+                    "key": "/works/OL4996159W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-31T14:44:45.938451"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-10T23:51:54.448324"
+            }
+        },
+        "/books/OL13884899M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Originally published, New York , Avon, 1975; London, Futura, 1977."
+            },
+            "title": "Dark fires",
+            "authors": [
+                {
+                    "key": "/authors/OL1081479A"
+                }
+            ],
+            "publish_date": "1979",
+            "publishers": [
+                "BookClub"
+            ],
+            "pagination": "604p.",
+            "series": [
+                "A Book Club Associates book"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_country": "xxk",
+            "by_statement": "Rosemary Rogers.",
+            "publish_places": [
+                "London"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:220716312:574"
+            ],
+            "key": "/books/OL13884899M",
+            "number_of_pages": 604,
+            "works": [
+                {
+                    "key": "/works/OL4996159W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-01T23:20:23.386479"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-21T07:57:01.574472"
+            }
+        },
+        "/books/OL19999097M": {
+            "publishers": [
+                "Futura"
+            ],
+            "series": [
+                "A Troubadour book"
+            ],
+            "covers": [
+                10437904
+            ],
+            "key": "/books/OL19999097M",
+            "authors": [
+                {
+                    "key": "/authors/OL1081479A"
+                }
+            ],
+            "ocaid": "darkfires0000roge",
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "604p. ;",
+            "source_records": [
+                "ia:darkfires0000roge",
+                "bwb:9780860074595",
+                "promise:bwb_daily_pallets_2020-06-24"
+            ],
+            "title": "Dark fires",
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Originally published, New York , Avon, 1975."
+            },
+            "number_of_pages": 604,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0860074595"
+            ],
+            "publish_date": "1977",
+            "publish_country": "enk",
+            "by_statement": "Rosemary Rogers.",
+            "oclc_numbers": [
+                "16538069"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4996159W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:KN-851-081"
+            ],
+            "identifiers": {
+                "amazon": [
+                    ""
+                ]
+            },
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-25T04:43:56.289374"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-10T07:45:35.193420"
+            }
+        },
+        "/books/OL11901330M": {
+            "publishers": [
+                "Soundings Ltd"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "6772957"
+                ]
+            },
+            "title": "Payment Due",
+            "contributions": [
+                "Annie Aldington (Reader)"
+            ],
+            "number_of_pages": 284,
+            "isbn_13": [
+                "9781842834985"
+            ],
+            "physical_format": "Audio Cassette",
+            "isbn_10": [
+                "1842834983"
+            ],
+            "publish_date": "March 2003",
+            "key": "/books/OL11901330M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "oclc_numbers": [
+                "156029547"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3759345W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Romance"
+            ],
+            "covers": [
+                13841525
+            ],
+            "source_records": [
+                "amazon:1842834983"
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-04-06T01:52:42.780347"
+            }
+        },
+        "/books/OL17516145M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "number_of_pages": 189,
+            "covers": [
+                5376124
+            ],
+            "key": "/books/OL17516145M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "publish_places": [
+                "Richmond"
+            ],
+            "pagination": "189p.",
+            "source_records": [
+                "bwb:9780263770834",
+                "promise:bwb_daily_pallets_2020-07-30"
+            ],
+            "title": "Payment Due",
+            "identifiers": {
+                "librarything": [
+                    "833740"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1991",
+            "publish_country": "enk",
+            "works": [
+                {
+                    "key": "/works/OL3759345W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:KN-581-639"
+            ],
+            "isbn_10": [
+                "0263770834"
+            ],
+            "dewey_decimal_class": [
+                "823.914"
+            ],
+            "edition_name": "Large Print Edition",
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-29T03:10:10.705336"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-27T01:49:01.661843"
+            }
+        },
+        "/books/OL17087228M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "number_of_pages": 192,
+            "ia_box_id": [
+                "IA116717"
+            ],
+            "covers": [
+                6795883
+            ],
+            "full_title": "Long cold winter",
+            "key": "/books/OL17087228M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "pagination": "192p.",
+            "source_records": [
+                "ia:longcoldwinter00jord",
+                "bwb:9780263737929",
+                "amazon:0263737926",
+                "promise:bwb_daily_pallets_2021-05-14",
+                "promise:bwb_daily_pallets_2021-05-26"
+            ],
+            "title": "Long Cold Winter",
+            "identifiers": {
+                "librarything": [
+                    "1937463"
+                ],
+                "goodreads": [
+                    "6379669"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1982",
+            "publish_country": "xxk",
+            "works": [
+                {
+                    "key": "/works/OL11327992W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "longcoldwinter00jord",
+            "isbn_10": [
+                "0263737926"
+            ],
+            "classifications": {},
+            "local_id": [
+                "urn:bwbsku:KP-523-513",
+                "urn:bwbsku:KJ-287-322"
+            ],
+            "latest_revision": 13,
+            "revision": 13,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-27T10:30:11.263059"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-14T18:52:53.923116"
+            }
+        },
+        "/books/OL10738719M": {
+            "identifiers": {
+                "librarything": [
+                    "3475770"
+                ],
+                "goodreads": [
+                    "1407431"
+                ]
+            },
+            "title": "The Ultimate Choice",
+            "authors": [
+                {
+                    "key": "/authors/OL451969A"
+                }
+            ],
+            "publish_date": "July 1, 1990",
+            "publishers": [
+                "Harlequin"
+            ],
+            "weight": "2.4 ounces",
+            "series": [
+                "Harlequin Presents, No 1288"
+            ],
+            "covers": [
+                5073878
+            ],
+            "physical_format": "Paperback",
+            "subjects": [
+                "General",
+                "Non-Classifiable",
+                "Romance - General",
+                "Fiction",
+                "Fiction - General",
+                "Romance: Regency"
+            ],
+            "isbn_13": [
+                "9780373112883"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-06-01:O8-AIC-439",
+                "bwb:9780373112883",
+                "promise:bwb_daily_pallets_2021-06-28:W6-AVH-181"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373112882"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.9 x 4.2 x 0.5 inches",
+            "local_id": [
+                "urn:bwbsku:O8-AIC-439",
+                "urn:bwbsku:W6-AVH-181"
+            ],
+            "key": "/books/OL10738719M",
+            "number_of_pages": 187,
+            "works": [
+                {
+                    "key": "/works/OL2959296W"
+                }
+            ],
+            "latest_revision": 13,
+            "revision": 13,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T12:36:33.041569"
+            }
+        },
+        "/books/OL25794204M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "weight": "3.2 ounces",
+            "source_records": [
+                "bwb:9780373100996"
+            ],
+            "title": "Love Made The Choice",
+            "series": [
+                "Harlequin Presents #99"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "5220192"
+                ]
+            },
+            "covers": [
+                15110765,
+                7374933
+            ],
+            "publish_date": "July 1975",
+            "key": "/books/OL25794204M",
+            "works": [
+                {
+                    "key": "/works/OL17221584W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.7 x 4.2 x 0.6 inches",
+            "isbn_10": [
+                "0373705999"
+            ],
+            "isbn_13": [
+                "9780373705993"
+            ],
+            "oclc_numbers": [
+                "15981371"
+            ],
+            "ocaid": "piratemoon0000suth",
+            "publish_places": [
+                "Toronto, Canada"
+            ],
+            "copyright_date": "1942",
+            "edition_name": "Third printing April 1978",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "Has the same ISBN as Pirate Moon by Peg Sutherland"
+            },
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2015-11-01T08:45:51.461044"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-05T14:04:38.851648"
+            }
+        },
+        "/books/OL25794198M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "number_of_pages": 192,
+            "classifications": {},
+            "weight": "3.5 ounces",
+            "title": "Love Made the Choice",
+            "identifiers": {},
+            "covers": [
+                7374932
+            ],
+            "physical_format": "Paperback",
+            "isbn_10": [
+                "0263711013"
+            ],
+            "publish_date": "February 1970",
+            "key": "/books/OL25794198M",
+            "works": [
+                {
+                    "key": "/works/OL17221584W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.7 x 4.3 x 0.7 inches",
+            "source_records": [
+                "amazon:0263711013"
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2015-11-01T08:16:13.569733"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-24T18:38:35.108293"
+            }
+        },
+        "/books/OL58762692M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "A Civil Contract",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_date": "1965",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 410,
+            "publishers": [
+                "Heinemann, London"
+            ],
+            "ocaid": "civilcontract0000geor_v4r1",
+            "source_records": [
+                "ia:civilcontract0000geor_v4r1"
+            ],
+            "full_title": "A Civil Contract",
+            "works": [
+                {
+                    "key": "/works/OL4092664W"
+                }
+            ],
+            "key": "/books/OL58762692M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-04-29T00:08:47.105109"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-10T20:43:28.908597"
+            }
+        },
+        "/books/OL48218421M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "isbn_13": [
+                "9781492640387"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "512",
+            "publish_date": "2017",
+            "publishers": [
+                "Sourcebooks, Incorporated"
+            ],
+            "source_records": [
+                "bwb:9781492640387"
+            ],
+            "title": "Civil Contract",
+            "weight": "0.010",
+            "full_title": "Civil Contract",
+            "works": [
+                {
+                    "key": "/works/OL4092664W"
+                }
+            ],
+            "key": "/books/OL48218421M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-06-17T09:30:52.200772"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-30T01:56:18.360347"
+            }
+        },
+        "/books/OL46957924M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B001AGY8AQ"
+                ],
+                "better_world_books": [
+                    "BWB32471862"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:KR-136-730"
+            ],
+            "publish_date": "1961-01-01",
+            "publishers": [
+                "Heinemann Ltd"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-09-13:KR-136-730"
+            ],
+            "title": "A Civil Contract",
+            "full_title": "A Civil Contract",
+            "works": [
+                {
+                    "key": "/works/OL4092664W"
+                }
+            ],
+            "key": "/books/OL46957924M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T03:57:45.259784"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-02T09:25:25.295322"
+            }
+        },
+        "/books/OL40494880M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "432",
+            "publish_date": "2011",
+            "publishers": [
+                "Sourcebooks, Incorporated"
+            ],
+            "source_records": [
+                "bwb:9781402269585"
+            ],
+            "subjects": [
+                "Fiction, romance, historical, regency"
+            ],
+            "title": "A Civil Contract",
+            "full_title": "Civil Contract",
+            "works": [
+                {
+                    "key": "/works/OL4092664W"
+                }
+            ],
+            "key": "/books/OL40494880M",
+            "identifiers": {},
+            "isbn_13": [
+                "9781402269585"
+            ],
+            "classifications": {},
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-19T08:27:22.862922"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-18T06:30:57.380208"
+            }
+        },
+        "/books/OL39221181M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "A Civil Contract",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_date": "Aug 10, 1971",
+            "source_records": [
+                "amazon:0399101446",
+                "bwb:9780399101441"
+            ],
+            "publishers": [
+                "Putnam"
+            ],
+            "isbn_10": [
+                "0399101446"
+            ],
+            "isbn_13": [
+                "9780399101441"
+            ],
+            "physical_format": "hardcover",
+            "full_title": "A Civil Contract",
+            "works": [
+                {
+                    "key": "/works/OL4092664W"
+                }
+            ],
+            "key": "/books/OL39221181M",
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-08-10T18:42:24.291831"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-02T09:25:25.295322"
+            }
+        },
+        "/books/OL34455923M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7459594A"
+                }
+            ],
+            "isbn_13": [
+                "9781446456736"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 384,
+            "publish_date": "2011",
+            "publishers": [
+                "Penguin Random House"
+            ],
+            "source_records": [
+                "bwb:9781446456736"
+            ],
+            "subjects": [
+                "Fiction, romance, regency"
+            ],
+            "title": "Civil Contract",
+            "full_title": "Civil Contract",
+            "works": [
+                {
+                    "key": "/works/OL4092664W"
+                }
+            ],
+            "key": "/books/OL34455923M",
+            "covers": [
+                14774393
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-04T21:44:36.052048"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-08-24T04:02:31.721345"
+            }
+        },
+        "/books/OL26708164M": {
+            "publishers": [
+                "Arrow"
+            ],
+            "lc_classifications": [
+                "PR6015.E795"
+            ],
+            "source_records": [
+                "amazon:0099474441",
+                "bwb:9780099474449",
+                "promise:bwb_daily_pallets_2022-06-30"
+            ],
+            "title": "A Civil Contract",
+            "number_of_pages": 320,
+            "covers": [
+                8369773
+            ],
+            "isbn_13": [
+                "9780099474449"
+            ],
+            "full_title": "A Civil Contract",
+            "isbn_10": [
+                "0099474441"
+            ],
+            "publish_date": "Jul 26, 2005",
+            "key": "/books/OL26708164M",
+            "authors": [
+                {
+                    "key": "/authors/OL7459594A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4092664W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:W7-CGH-742"
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2019-02-15T16:48:04.687119"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-05T01:39:10.689174"
+            }
+        },
+        "/books/OL9240969M": {
+            "identifiers": {
+                "goodreads": [
+                    "1513549"
+                ],
+                "librarything": [
+                    "18495"
+                ]
+            },
+            "title": "A Civil Contract (Harper Monogram Regency)",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_date": "September 1994",
+            "publishers": [
+                "Harpercollins (Mm)"
+            ],
+            "physical_format": "Paperback",
+            "weight": "8 ounces",
+            "isbn_13": [
+                "9780061001772"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0061001775"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Romance: Historical",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance - Historical"
+            ],
+            "physical_dimensions": "6.8 x 4.2 x 1.2 inches",
+            "source_records": [
+                "amazon:0061001775"
+            ],
+            "key": "/books/OL9240969M",
+            "works": [
+                {
+                    "key": "/works/OL4092664W"
+                }
+            ],
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-19T03:52:40.624778"
+            }
+        },
+        "/books/OL7500833M": {
+            "publishers": [
+                "Berkley Pub Group (Mm)"
+            ],
+            "title": "A Civil Contract",
+            "identifiers": {
+                "librarything": [
+                    "18495"
+                ],
+                "goodreads": [
+                    "2522975"
+                ]
+            },
+            "publish_date": "October 1977",
+            "key": "/books/OL7500833M",
+            "authors": [
+                {
+                    "key": "/authors/OL7459594A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4092664W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:P8-BCP-277"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-11-18"
+            ],
+            "isbn_10": [
+                "0425035786"
+            ],
+            "isbn_13": [
+                "9780425035788"
+            ],
+            "oclc_numbers": [
+                "5915172"
+            ],
+            "classifications": {},
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-18T06:35:18.875282"
+            }
+        },
+        "/books/OL19451937M": {
+            "title": "A civil contract.",
+            "authors": [
+                {
+                    "key": "/authors/OL7459594A"
+                }
+            ],
+            "publish_date": "1961",
+            "publishers": [
+                "Heinemann"
+            ],
+            "pagination": "394p.,21cm",
+            "dewey_decimal_class": [
+                "823.91"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_country": "xxk",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:2637557299:433"
+            ],
+            "key": "/books/OL19451937M",
+            "number_of_pages": 394,
+            "works": [
+                {
+                    "key": "/works/OL4092664W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-10-22T11:28:23.859136"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-30T19:00:10.273804"
+            }
+        },
+        "/books/OL5828367M": {
+            "publishers": [
+                "Putnam"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "18495"
+                ]
+            },
+            "ia_box_id": [
+                "IA121402"
+            ],
+            "subject_place": [
+                "Great Britain"
+            ],
+            "covers": [
+                6956023
+            ],
+            "ia_loaded_id": [
+                "civilcontract00heye"
+            ],
+            "key": "/books/OL5828367M",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "393 p.",
+            "source_records": [
+                "ia:civilcontract00heye",
+                "marc:marc_loc_2016/BooksAll.2016.part05.utf8:114001868:532",
+                "marc:marc_columbia/Columbia-extract-20221130-004.mrc:457476783:787",
+                "ia:civilcontract0000geor"
+            ],
+            "title": "A Civil Contract",
+            "number_of_pages": 393,
+            "edition_name": "[1st American ed.]",
+            "subjects": [
+                "Great Britain -- History -- Fiction."
+            ],
+            "publish_date": "1961",
+            "publish_country": "nyu",
+            "works": [
+                {
+                    "key": "/works/OL4092664W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "civilcontract00heye",
+            "lccn": [
+                "61016720"
+            ],
+            "oclc_numbers": [
+                "1861655"
+            ],
+            "classifications": {},
+            "lc_classifications": [
+                "PZ3 .H514 Ci2",
+                "PR6015.E795 .H514 Ci2",
+                "PZ3.H514 Ci2"
+            ],
+            "description": {
+                "type": "/type/text",
+                "value": "On inheriting an almost bankrupt estate, a Regency aristocrat decides to contract a marriage of convenience."
+            },
+            "latest_revision": 12,
+            "revision": 12,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-04-29T00:08:49.931574"
+            }
+        },
+        "/books/OL8258397M": {
+            "identifiers": {
+                "goodreads": [
+                    "311206"
+                ],
+                "librarything": [
+                    "18495"
+                ]
+            },
+            "title": "A Civil Contract",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_date": "July 1998",
+            "publishers": [
+                "Amereon Limited"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_13": [
+                "9780848823177"
+            ],
+            "physical_format": "Hardcover",
+            "isbn_10": [
+                "0848823176"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Romance - Historical",
+                "Fiction - Romance"
+            ],
+            "source_records": [
+                "amazon:0848823176"
+            ],
+            "key": "/books/OL8258397M",
+            "works": [
+                {
+                    "key": "/works/OL4092664W"
+                }
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-27T03:56:08.125594"
+            }
+        },
+        "/books/OL17462614M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Originally published, London: Heinemann, 1961."
+            },
+            "identifiers": {
+                "librarything": [
+                    "18495"
+                ]
+            },
+            "title": "A Civil Contract",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_date": "1992",
+            "publishers": [
+                "Chivers"
+            ],
+            "series": [
+                "The Windsor Selection"
+            ],
+            "publish_places": [
+                "Bath"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "624p. ;",
+            "edition_name": "Large Print Edition",
+            "publish_country": "enk",
+            "by_statement": "Georgette Heyer.",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_10": [
+                "0745174086"
+            ],
+            "dewey_decimal_class": [
+                "823.912"
+            ],
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:1563319447:671"
+            ],
+            "key": "/books/OL17462614M",
+            "number_of_pages": 624,
+            "works": [
+                {
+                    "key": "/works/OL4092664W"
+                }
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-28T22:00:28.120230"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-04-21T22:09:29.179110"
+            }
+        },
+        "/books/OL29281237M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "subtitle": "for His Convenience or Pleasure? / a Night with Consequences",
+            "source_records": [
+                "bwb:9781474004077"
+            ],
+            "title": "His Virgin Bride : The Fiorenza Forced Marriage / Bought",
+            "number_of_pages": 560,
+            "isbn_13": [
+                "9781474004077"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "His Virgin Bride : The Fiorenza Forced Marriage / Bought for His Convenience or Pleasure? / a Night with Consequences",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2015",
+            "key": "/books/OL29281237M",
+            "authors": [
+                {
+                    "key": "/authors/OL1423504A"
+                },
+                {
+                    "key": "/authors/OL1423505A"
+                },
+                {
+                    "key": "/authors/OL26954A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL21572618W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-24T04:54:19.253280"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-04-27T17:19:44.244995"
+            }
+        },
+        "/books/OL7417175M": {
+            "identifiers": {
+                "goodreads": [
+                    "225218"
+                ],
+                "librarything": [
+                    "8268812"
+                ]
+            },
+            "title": "Unlikely Lover / The Princess Bride / Callaghan's Bride",
+            "subtitle": "Weddings in White: Three Complete Novels",
+            "publish_date": "September 1, 2000",
+            "publishers": [
+                "silhouette",
+                "Silhouette"
+            ],
+            "covers": [
+                218842
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-06-01:T2-BEW-031",
+                "ia:weddingsinwhite0000palm",
+                "bwb:9780373484140",
+                "promise:bwb_daily_pallets_2021-05-24:P7-ABJ-745",
+                "promise:bwb_daily_pallets_2021-05-19:975-BAB-870",
+                "promise:bwb_daily_pallets_2021-03-08:697-BAC-982",
+                "amazon:0373484143"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:T2-BEW-031",
+                "urn:bwbsku:P7-ABJ-745",
+                "urn:bwbsku:975-BAB-870",
+                "urn:bwbsku:697-BAC-982"
+            ],
+            "key": "/books/OL7417175M",
+            "number_of_pages": 410,
+            "works": [
+                {
+                    "key": "/works/OL1902417W"
+                }
+            ],
+            "ocaid": "weddingsinwhite0000palm",
+            "isbn_10": [
+                "0373484143"
+            ],
+            "isbn_13": [
+                "9780373484140"
+            ],
+            "oclc_numbers": [
+                "45007396"
+            ],
+            "classifications": {},
+            "lc_classifications": [
+                "PS3566.A516 W43 2000"
+            ],
+            "latest_revision": 25,
+            "revision": 25,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-07-05T01:16:05.774816"
+            }
+        },
+        "/books/OL34596608M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL20452A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2010",
+            "publishers": [
+                "Piatkus"
+            ],
+            "source_records": [
+                "bwb:9780749952914"
+            ],
+            "subjects": [
+                "Fiction, romance, paranormal",
+                "London (england), fiction",
+                "Fiction, romance, historical"
+            ],
+            "title": "Burning Lamp",
+            "weight": "0.470 ",
+            "pagination": "352",
+            "full_title": "Burning Lamp",
+            "works": [
+                {
+                    "key": "/works/OL14913333W"
+                }
+            ],
+            "key": "/books/OL34596608M",
+            "identifiers": {},
+            "isbn_13": [
+                "9780749952914"
+            ],
+            "ocaid": "burninglamp0000quic",
+            "classifications": {},
+            "lc_classifications": [
+                "PS3561.R44"
+            ],
+            "covers": [
+                12396550
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-06T09:50:24.280820"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-24T18:51:03.948331"
+            }
+        },
+        "/books/OL9735909M": {
+            "identifiers": {
+                "goodreads": [
+                    "1152554"
+                ],
+                "librarything": [
+                    "909489"
+                ]
+            },
+            "title": "A Scandalous Marriage",
+            "authors": [
+                {
+                    "key": "/authors/OL673823A"
+                }
+            ],
+            "publish_date": "October 1, 2005",
+            "publishers": [
+                "Harlequin"
+            ],
+            "weight": "5 ounces",
+            "covers": [
+                215097
+            ],
+            "physical_format": "Mass Market Paperback",
+            "subjects": [
+                "American Light Romantic Fiction",
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Modern",
+                "Romance - Contemporary",
+                "Fiction / Romance / General"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-03-17:P7-CWO-635",
+                "bwb:9780373124961",
+                "promise:bwb_daily_pallets_2021-09-03:o7-dqu-862",
+                "promise:bwb_daily_pallets_2021-06-28:O7-BXX-613",
+                "promise:bwb_daily_pallets_2021-06-21:P7-AFB-595"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.5 x 3.9 x 0.6 inches",
+            "ocaid": "scandalousmarria00mira",
+            "isbn_10": [
+                "0373124961"
+            ],
+            "isbn_13": [
+                "9780373124961"
+            ],
+            "oclc_numbers": [
+                "61160623"
+            ],
+            "local_id": [
+                "urn:bwbsku:P7-CWO-635",
+                "urn:bwbsku:O7-DQU-862",
+                "urn:bwbsku:O7-BXX-613",
+                "urn:bwbsku:P7-AFB-595"
+            ],
+            "key": "/books/OL9735909M",
+            "number_of_pages": 192,
+            "works": [
+                {
+                    "key": "/works/OL3803114W"
+                }
+            ],
+            "latest_revision": 19,
+            "revision": 19,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-19T06:37:32.296736"
+            }
+        },
+        "/books/OL10747003M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "source_records": [
+                "amazon:0373515332",
+                "bwb:9780373515332"
+            ],
+            "title": "The Girl at Smuggler's Rest",
+            "covers": [
+                10064731
+            ],
+            "physical_format": "Mass Market Paperback",
+            "publish_date": "1972",
+            "key": "/books/OL10747003M",
+            "authors": [
+                {
+                    "key": "/authors/OL2163127A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL156401W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "ocaid": "girlatsmugglersr00lucy",
+            "isbn_10": [
+                "0373515332"
+            ],
+            "classifications": {},
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-09-07T12:21:15.325038"
+            }
+        },
+        "/books/OL28973637M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9780263105254"
+            ],
+            "title": "Don't Call It Love",
+            "number_of_pages": 191,
+            "isbn_13": [
+                "9780263105254"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Don't Call It Love",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "1984",
+            "key": "/books/OL28973637M",
+            "authors": [
+                {
+                    "key": "/authors/OL584493A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3498747W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, general"
+            ],
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T22:15:30.325816"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-16T11:26:45.719367"
+            }
+        },
+        "/books/OL1875303M": {
+            "publishers": [
+                "Chivers Press",
+                "Curley Pub."
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "4988958",
+                    "1323929"
+                ]
+            },
+            "isbn_10": [
+                "0745198570",
+                "0745198694",
+                "079270309X"
+            ],
+            "series": [
+                "Atlantic large print",
+                "Large print romance"
+            ],
+            "covers": [
+                15123509,
+                7946621
+            ],
+            "lc_classifications": [
+                "PR6051.R574 D66 1990"
+            ],
+            "key": "/books/OL1875303M",
+            "authors": [
+                {
+                    "key": "/authors/OL584493A"
+                }
+            ],
+            "ocaid": "dontcallitlove00arms",
+            "publish_places": [
+                "Bath, England",
+                "South Yarmouth, Mass., USA"
+            ],
+            "pagination": "292 p. ;",
+            "source_records": [
+                "ia:dontcallitlove00arms",
+                "marc:marc_loc_2016/BooksAll.2016.part20.utf8:54767413:804",
+                "promise:bwb_daily_pallets_2022-03-17",
+                "promise:bwb_daily_pallets_2021-05-20"
+            ],
+            "title": "Don't call it love",
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "\"Atlantic romance.\""
+            },
+            "number_of_pages": 292,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lccn": [
+                "90035268"
+            ],
+            "subjects": [
+                "Large type books."
+            ],
+            "publish_date": "1990",
+            "publish_country": "enk",
+            "by_statement": "Lindsay Armstrong.",
+            "works": [
+                {
+                    "key": "/works/OL3498747W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:P7-CXO-000",
+                "urn:bwbsku:P3-ELE-988"
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-16T13:09:14.788503"
+            }
+        },
+        "/books/OL14980922M": {
+            "publishers": [
+                "Mills & Boon",
+                "Harlequin Mills & Boon"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "3089939"
+                ]
+            },
+            "key": "/books/OL14980922M",
+            "authors": [
+                {
+                    "key": "/authors/OL584493A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "191p. ;",
+            "source_records": [
+                "bwb:9780263746655",
+                "amazon:0263746658"
+            ],
+            "title": "Don't call it love",
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "number_of_pages": 191,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263746658"
+            ],
+            "publish_date": "1984",
+            "publish_country": "xxk",
+            "by_statement": "by Lindsay Armstrong.",
+            "oclc_numbers": [
+                "11362745"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3498747W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                13630192
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T23:25:31.344969"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-08-16T11:26:45.719367"
+            }
+        },
+        "/books/OL10690923M": {
+            "publishers": [
+                "Harlequin Romance",
+                "Harlequin"
+            ],
+            "physical_format": "Mass Market Paperback",
+            "classifications": {},
+            "title": "To Catch a Butterfly",
+            "identifiers": {},
+            "covers": [
+                9783303
+            ],
+            "publish_date": "1977",
+            "key": "/books/OL10690923M",
+            "works": [
+                {
+                    "key": "/works/OL1708087W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "ia:tocatchbutterfly0000lewt_z2a5",
+                "promise:bwb_daily_pallets_2021-03-08",
+                "amazon:0373020759",
+                "marc:harvard_bibliographic_metadata/ab.bib.11.20150123.full.mrc:512224857:749",
+                "marc:harvard_bibliographic_metadata/20220215_015.bib.mrc:271097885:1659"
+            ],
+            "local_id": [
+                "urn:bwbsku:755-BAC-313"
+            ],
+            "number_of_pages": 189,
+            "ocaid": "tocatchbutterfly00harl",
+            "isbn_10": [
+                "0373020759"
+            ],
+            "isbn_13": [
+                "9780373020751"
+            ],
+            "oclc_numbers": [
+                "7980682"
+            ],
+            "lc_classifications": [
+                "PN6120.95.L7 H37 no.2075"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-10-04T17:43:39.615845"
+            }
+        },
+        "/books/OL10749883M": {
+            "publishers": [
+                "harlequin"
+            ],
+            "physical_format": "Paperback",
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-08-27T20:39:08.131624"
+            },
+            "source_records": [
+                "bwb:9780373806584"
+            ],
+            "title": "To Catch A Butterfly",
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "isbn_13": [
+                "9780373806584"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373806582"
+            ],
+            "publish_date": "March 1, 1985",
+            "key": "/books/OL10749883M",
+            "authors": [
+                {
+                    "key": "/authors/OL194979A"
+                }
+            ],
+            "latest_revision": 4,
+            "works": [
+                {
+                    "key": "/works/OL1708087W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction",
+                "Romance - Contemporary",
+                "Non-Classifiable"
+            ],
+            "revision": 4
+        },
+        "/books/OL22358201M": {
+            "identifiers": {
+                "goodreads": [
+                    "4762779"
+                ]
+            },
+            "title": "Come love me.",
+            "authors": [
+                {
+                    "key": "/authors/OL584494A"
+                }
+            ],
+            "publish_date": "1988",
+            "publishers": [
+                "Chivers"
+            ],
+            "pagination": "243p.(large print)",
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "edition_name": "(Large print ed.).",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0745193625",
+                "1555045553"
+            ],
+            "publish_country": "xxk",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:1509723052:583"
+            ],
+            "key": "/books/OL22358201M",
+            "number_of_pages": 243,
+            "works": [
+                {
+                    "key": "/works/OL11327156W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-11T13:13:58.557917"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-13T14:28:44.022174"
+            }
+        },
+        "/books/OL14977833M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "key": "/books/OL14977833M",
+            "authors": [
+                {
+                    "key": "/authors/OL584494A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "186p. ;",
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:516117120:552",
+                "bwb:9780263104134"
+            ],
+            "title": "Come love me",
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "number_of_pages": 186,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263104133"
+            ],
+            "publish_date": "1983",
+            "publish_country": "xxk",
+            "by_statement": "by Lilian Peake.",
+            "oclc_numbers": [
+                "10820408"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL11327156W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T23:03:45.760886"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-08-30T20:11:06.515079"
+            }
+        },
+        "/books/OL14980828M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "9311814"
+                ]
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2020-08-19T22:25:11.790634"
+            },
+            "latest_revision": 7,
+            "key": "/books/OL14980828M",
+            "authors": [
+                {
+                    "key": "/authors/OL584494A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "186p. ;",
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:517555708:535",
+                "bwb:9780263744835"
+            ],
+            "title": "Come love men",
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "number_of_pages": 186,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T23:24:53.403558"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263744833"
+            ],
+            "publish_date": "1983",
+            "publish_country": "xxk",
+            "by_statement": "by LilianPeake.",
+            "oclc_numbers": [
+                "12451976"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL11327156W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 7
+        },
+        "/books/OL16671110M": {
+            "identifiers": {
+                "goodreads": [
+                    "4875797"
+                ],
+                "librarything": [
+                    "3743047"
+                ]
+            },
+            "title": "Dark night dawning.",
+            "authors": [
+                {
+                    "key": "/authors/OL3486735A"
+                }
+            ],
+            "publish_date": "1985",
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "covers": [
+                7090383
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "188p. ;",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "026374907X"
+            ],
+            "publish_country": "xxk",
+            "oclc_numbers": [
+                "225543100"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:1207848749:413"
+            ],
+            "key": "/books/OL16671110M",
+            "number_of_pages": 188,
+            "works": [
+                {
+                    "key": "/works/OL9468121W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-25T13:27:04.582378"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-12T22:03:11.603686"
+            }
+        },
+        "/books/OL23375042M": {
+            "publishers": [
+                "Avon Books"
+            ],
+            "identifiers": {},
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2017-05-29T15:59:53.739038"
+            },
+            "latest_revision": 4,
+            "key": "/books/OL23375042M",
+            "authors": [
+                {
+                    "key": "/authors/OL1081479A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "pagination": "604 p. ;",
+            "classifications": {},
+            "source_records": [
+                "marc:marc_ithaca_college/ic_marc.mrc:133504611:445"
+            ],
+            "title": "Dark fires",
+            "number_of_pages": 604,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2009-06-08T01:18:13.843331"
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1975",
+            "publish_country": "xx ",
+            "by_statement": "Rosemary Rogers.",
+            "works": [
+                {
+                    "key": "/works/OL4996159W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 4
+        },
+        "/books/OL7431098M": {
+            "identifiers": {
+                "librarything": [
+                    "950905"
+                ],
+                "goodreads": [
+                    "576537"
+                ]
+            },
+            "title": "Dark Fires",
+            "subtitle": "Steve & Ginny Book 2",
+            "authors": [
+                {
+                    "key": "/authors/OL1081479A"
+                }
+            ],
+            "publish_date": "March 1996",
+            "publishers": [
+                "Avon Books"
+            ],
+            "isbn_13": [
+                "9780380004256"
+            ],
+            "covers": [
+                234715
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0380004259"
+            ],
+            "oclc_numbers": [
+                "416123765"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:0380004259"
+            ],
+            "key": "/books/OL7431098M",
+            "works": [
+                {
+                    "key": "/works/OL4996159W"
+                }
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-03-16T01:57:32.953978"
+            }
+        },
+        "/books/OL29264401M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781408998397"
+            ],
+            "title": "Payment Due",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781408998397"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Payment Due",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2015",
+            "key": "/books/OL29264401M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3759345W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, historical"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-24T00:41:47.705446"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-02T22:25:19.789455"
+            }
+        },
+        "/books/OL29022917M": {
+            "title": "Payment Due",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "publish_date": "2010",
+            "publishers": [
+                "Harlequin Mills & Boon, Limited",
+                "Harlequin Mills & Boon"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-02-03:KO-755-801",
+                "bwb:9780263216646",
+                "ia:paymentdue0000jord_k8j0",
+                "amazon:0263216640",
+                "promise:bwb_daily_pallets_2020-11-19:KN-844-946"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Payment Due",
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, historical"
+            ],
+            "covers": [
+                10554812
+            ],
+            "ocaid": "paymentdue0000jord_k8j0",
+            "isbn_13": [
+                "9780263216646"
+            ],
+            "local_id": [
+                "urn:bwbsku:KO-755-801",
+                "urn:bwbsku:KN-844-946"
+            ],
+            "key": "/books/OL29022917M",
+            "number_of_pages": 288,
+            "works": [
+                {
+                    "key": "/works/OL3759345W"
+                }
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-20T23:06:54.180215"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T16:47:39.328503"
+            }
+        },
+        "/books/OL22433934M": {
+            "publishers": [
+                "Mills & Boon",
+                "Harlequin Mills & Boon"
+            ],
+            "title": "Payment Due",
+            "identifiers": {
+                "librarything": [
+                    "833740"
+                ],
+                "goodreads": [
+                    "3311301"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1991",
+            "publish_country": "xxk",
+            "key": "/books/OL22433934M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "by_statement": "Penny Jordan.",
+            "publish_places": [
+                "Richmond, Surrey"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3759345W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:0263127427"
+            ],
+            "number_of_pages": 192,
+            "isbn_10": [
+                "0263127427"
+            ],
+            "oclc_numbers": [
+                "23612723"
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-13T05:06:41.583979"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-27T01:48:19.411299"
+            }
+        },
+        "/books/OL10239355M": {
+            "publishers": [
+                "John Curley & Assoc"
+            ],
+            "number_of_pages": 288,
+            "weight": "15.2 ounces",
+            "covers": [
+                5046392
+            ],
+            "physical_format": "Hardcover",
+            "key": "/books/OL10239355M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "subjects": [
+                "Romance",
+                "Large Print"
+            ],
+            "edition_name": "Large Print Edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "bwb:9780263127171"
+            ],
+            "title": "Payment Due",
+            "identifiers": {
+                "goodreads": [
+                    "3311300"
+                ]
+            },
+            "publish_date": "September 1991",
+            "works": [
+                {
+                    "key": "/works/OL3759345W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.8 x 6 x 1.2 inches",
+            "isbn_10": [
+                "0263127176"
+            ],
+            "isbn_13": [
+                "9780263127171"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-27T01:49:40.557575"
+            }
+        },
+        "/books/OL10738881M": {
+            "identifiers": {
+                "librarything": [
+                    "833740"
+                ]
+            },
+            "title": "Payment Due",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "publish_date": "September 1992",
+            "publishers": [
+                "Harlequin"
+            ],
+            "ia_box_id": [
+                "IA115318"
+            ],
+            "weight": "3.2 ounces",
+            "isbn_10": [
+                "0373114915"
+            ],
+            "covers": [
+                7248500,
+                6709356,
+                6709353,
+                6698938,
+                6698937,
+                6693427
+            ],
+            "physical_format": "Mass Market Paperback",
+            "ocaid": "paymentdue00jord",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-06-28:W6-AVY-013",
+                "bwb:9780373114917",
+                "promise:bwb_daily_pallets_2021-03-08:W6-BSC-010",
+                "promise:bwb_daily_pallets_2020-11-12:W6-AAT-016"
+            ],
+            "isbn_13": [
+                "9780373114917"
+            ],
+            "edition_name": "Harlequin Presents #1491",
+            "subjects": [
+                "Non-Classifiable",
+                "Romance - General",
+                "Fiction",
+                "Nonfiction - General",
+                "Romance: Regency"
+            ],
+            "copyright_date": "1991",
+            "oclc_numbers": [
+                "26019673"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.8 x 4.3 x 0.6 inches",
+            "local_id": [
+                "urn:bwbsku:W6-AVY-013",
+                "urn:bwbsku:W6-BSC-010",
+                "urn:bwbsku:W6-AAT-016"
+            ],
+            "key": "/books/OL10738881M",
+            "works": [
+                {
+                    "key": "/works/OL3759345W"
+                }
+            ],
+            "latest_revision": 23,
+            "revision": 23,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T17:04:13.784937"
+            }
+        },
+        "/books/OL14977401M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "number_of_pages": 188,
+            "key": "/books/OL14977401M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "188p. ;",
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:515922889:555",
+                "bwb:9780263100075",
+                "amazon:0263100073"
+            ],
+            "title": "Long coldwinter",
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "1937463"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263100073"
+            ],
+            "publish_date": "1982",
+            "publish_country": "xxk",
+            "by_statement": "by Penny Jordan.",
+            "works": [
+                {
+                    "key": "/works/OL11327992W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T23:00:40.055773"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-04T00:54:26.157127"
+            }
+        },
+        "/books/OL9646965M": {
+            "identifiers": {
+                "goodreads": [
+                    "830514"
+                ],
+                "librarything": [
+                    "1937463"
+                ]
+            },
+            "title": "Long Cold Winter",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "publish_date": "June 1982",
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "series": [
+                "Harlequin Presents # 489"
+            ],
+            "physical_format": "Paperback",
+            "isbn_13": [
+                "9780373104895"
+            ],
+            "source_records": [
+                "bwb:9780373104895",
+                "promise:bwb_daily_pallets_2022-11-22"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0373104898"
+            ],
+            "oclc_numbers": [
+                "8101663"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:O8-BVR-973"
+            ],
+            "ocaid": "longcoldwinter0000penn",
+            "key": "/books/OL9646965M",
+            "number_of_pages": 191,
+            "works": [
+                {
+                    "key": "/works/OL11327992W"
+                }
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-03-23T06:08:12.643164"
+            }
+        },
+        "/books/OL24950278M": {
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "ia_box_id": [
+                "IA125409"
+            ],
+            "series": [
+                "Harlequin Presents -- 1288"
+            ],
+            "covers": [
+                6947696
+            ],
+            "ia_loaded_id": [
+                "ultimatechoice00darc"
+            ],
+            "key": "/books/OL24950278M",
+            "authors": [
+                {
+                    "key": "/authors/OL451969A"
+                }
+            ],
+            "publish_places": [
+                "Toronto",
+                "New York"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "187 p.",
+            "source_records": [
+                "ia:ultimatechoice00darc"
+            ],
+            "title": "The Ultimate Choice",
+            "number_of_pages": 187,
+            "full_title": "The ultimate choice",
+            "edition_name": "Harlequin Presents 1st ed.",
+            "publish_date": "1990",
+            "publish_country": "onc",
+            "copyright_date": "1989",
+            "by_statement": "Emma Darcy",
+            "works": [
+                {
+                    "key": "/works/OL2959296W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "ocaid": "ultimatechoice00darc",
+            "isbn_10": [
+                "0373112882"
+            ],
+            "isbn_13": [
+                "9780373112883"
+            ],
+            "oclc_numbers": [
+                "21579859"
+            ],
+            "classifications": {},
+            "dewey_decimal_class": [
+                "823"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2011-08-11T02:04:31.933158"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-23T21:22:26.333374"
+            }
+        },
+        "/books/OL1975868M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "key": "/books/OL1975868M",
+            "authors": [
+                {
+                    "key": "/authors/OL451969A"
+                }
+            ],
+            "publish_places": [
+                "Richmond, Surrey"
+            ],
+            "pagination": "187 p. ;",
+            "source_records": [
+                "bwb:9780263121087",
+                "marc:marc_loc_2016/BooksAll.2016.part20.utf8:163180041:447",
+                "amazon:0263121089"
+            ],
+            "title": "The Ultimate Choice",
+            "number_of_pages": 187,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1989",
+            "publish_country": "enk",
+            "by_statement": "by Emma Darcy,",
+            "works": [
+                {
+                    "key": "/works/OL2959296W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                14094924
+            ],
+            "identifiers": {},
+            "isbn_10": [
+                "0263121089"
+            ],
+            "lccn": [
+                "90217192"
+            ],
+            "oclc_numbers": [
+                "59786465"
+            ],
+            "classifications": {},
+            "lc_classifications": [
+                "MLCS 90/15665 (P)"
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-23T21:25:07.935609"
+            }
+        },
+        "/books/OL14981676M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "number_of_pages": 187,
+            "covers": [
+                10342024
+            ],
+            "key": "/books/OL14981676M",
+            "authors": [
+                {
+                    "key": "/authors/OL451969A"
+                }
+            ],
+            "pagination": "187p.",
+            "source_records": [
+                "ia:ultimatechoice0000darc",
+                "bwb:9780263763683",
+                "amazon:0263763684",
+                "promise:bwb_daily_pallets_2021-05-21"
+            ],
+            "title": "The Ultimate Choice",
+            "identifiers": {
+                "librarything": [
+                    "3475770"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1989",
+            "publish_country": "xxk",
+            "works": [
+                {
+                    "key": "/works/OL2959296W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "classifications": {},
+            "local_id": [
+                "urn:bwbsku:KP-249-440"
+            ],
+            "ocaid": "ultimatechoice0000darc",
+            "isbn_10": [
+                "0263763684"
+            ],
+            "oclc_numbers": [
+                "59786465"
+            ],
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "latest_revision": 12,
+            "revision": 12,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T23:30:42.469455"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-23T21:21:45.485937"
+            }
+        },
+        "/books/OL25794197M": {
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "classifications": {},
+            "title": "Love Made the Choice",
+            "identifiers": {},
+            "created": {
+                "type": "/type/datetime",
+                "value": "2015-11-01T08:11:48.695789"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2015-11-01T08:13:57.304371"
+            },
+            "publish_date": "1942",
+            "key": "/books/OL25794197M",
+            "latest_revision": 2,
+            "works": [
+                {
+                    "key": "/works/OL17221584W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "revision": 2
+        },
+        "/books/OL10738099M": {
+            "identifiers": {
+                "goodreads": [
+                    "6503560"
+                ],
+                "librarything": [
+                    "3486668"
+                ]
+            },
+            "title": "Second-Best Bride",
+            "publish_date": "1981",
+            "publishers": [
+                "Harlequin Books"
+            ],
+            "ia_box_id": [
+                "IA123701"
+            ],
+            "covers": [
+                6613254
+            ],
+            "physical_format": "Paperback",
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-08-29:O8-DAQ-492",
+                "ia:secondbestbride00rome",
+                "bwb:9780373104383",
+                "promise:bwb_daily_pallets_2022-06-01:T2-BGR-556"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "secondbestbride00rome",
+            "isbn_10": [
+                "0373104383"
+            ],
+            "isbn_13": [
+                "9780373104383"
+            ],
+            "oclc_numbers": [
+                "7341261"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "local_id": [
+                "urn:bwbsku:O8-DAQ-492",
+                "urn:bwbsku:T2-BGR-556"
+            ],
+            "key": "/books/OL10738099M",
+            "works": [
+                {
+                    "key": "/works/OL16481385W"
+                }
+            ],
+            "latest_revision": 17,
+            "revision": 17,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T08:40:30.396168"
+            }
+        },
+        "/books/OL40482199M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "432",
+            "publish_date": "2011",
+            "publishers": [
+                "Sourcebooks, Incorporated"
+            ],
+            "source_records": [
+                "bwb:9781402239007"
+            ],
+            "subjects": [
+                "Fiction, romance, historical, regency"
+            ],
+            "title": "A Civil Contract",
+            "full_title": "Civil Contract",
+            "works": [
+                {
+                    "key": "/works/OL4092664W"
+                }
+            ],
+            "key": "/books/OL40482199M",
+            "identifiers": {},
+            "isbn_13": [
+                "9781402239007"
+            ],
+            "classifications": {},
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-11-19T04:52:17.368500"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-18T06:30:30.485088"
+            }
+        },
+        "/books/OL35497327M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7459594A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "432",
+            "publish_date": "2014",
+            "publishers": [
+                "Sourcebooks, Incorporated"
+            ],
+            "source_records": [
+                "bwb:9781283297745"
+            ],
+            "subjects": [
+                "Fiction, romance, historical, regency"
+            ],
+            "title": "A Civil Contract",
+            "full_title": "Civil Contract",
+            "works": [
+                {
+                    "key": "/works/OL4092664W"
+                }
+            ],
+            "key": "/books/OL35497327M",
+            "identifiers": {},
+            "isbn_13": [
+                "9781283297745"
+            ],
+            "classifications": {},
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T16:43:03.969490"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-18T06:29:26.620398"
+            }
+        },
+        "/books/OL35461186M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7459594A"
+                }
+            ],
+            "isbn_13": [
+                "9781407080680"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1998",
+            "publishers": [
+                "Penguin Random House"
+            ],
+            "source_records": [
+                "bwb:9781407080680"
+            ],
+            "subjects": [
+                "Fiction, romance, historical, general",
+                "Fiction, romance, historical, regency",
+                "Great britain, fiction",
+                "Marriage, fiction",
+                "Lawyers, fiction"
+            ],
+            "title": "Civil Contract",
+            "full_title": "Civil Contract",
+            "works": [
+                {
+                    "key": "/works/OL4092664W"
+                }
+            ],
+            "key": "/books/OL35461186M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T07:21:30.414285"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-03-02T04:31:49.122849"
+            }
+        },
+        "/books/OL35465199M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7459594A"
+                }
+            ],
+            "isbn_13": [
+                "9781407095684"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1998",
+            "publishers": [
+                "Penguin Random House"
+            ],
+            "source_records": [
+                "bwb:9781407095684"
+            ],
+            "subjects": [
+                "Fiction, romance, historical, general",
+                "Fiction, romance, historical, regency",
+                "Great britain, fiction",
+                "Marriage, fiction",
+                "Lawyers, fiction"
+            ],
+            "title": "Civil Contract",
+            "full_title": "Civil Contract",
+            "works": [
+                {
+                    "key": "/works/OL4092664W"
+                }
+            ],
+            "key": "/books/OL35465199M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T08:46:12.798294"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-03-02T04:31:49.122849"
+            }
+        },
+        "/books/OL25220545M": {
+            "publishers": [
+                "Sourcebooks Casablanca"
+            ],
+            "full_title": "A civil contract",
+            "key": "/books/OL25220545M",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_places": [
+                "Naperville, Ill"
+            ],
+            "pagination": "p. cm.",
+            "source_records": [
+                "marc:marc_loc_updates/v40.i09.records.utf8:10186356:606",
+                "marc:marc_loc_2016/BooksAll.2016.part38.utf8:193957785:679",
+                "bwb:9781402238772"
+            ],
+            "title": "A Civil Contract",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2011",
+            "publish_country": "ilu",
+            "by_statement": "Georgette Heyer",
+            "works": [
+                {
+                    "key": "/works/OL4092664W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "isbn_13": [
+                "9781402238772"
+            ],
+            "lccn": [
+                "2011027391"
+            ],
+            "classifications": {},
+            "dewey_decimal_class": [
+                "823/.912"
+            ],
+            "lc_classifications": [
+                "PR6015.E795 C58 2011",
+                "PR6015.E795C58 2011"
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2012-02-29T11:32:49.514468"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-18T06:29:58.451007"
+            }
+        },
+        "/books/OL7286262M": {
+            "publishers": [
+                "Harpercollins (Mm)"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "title": "A Civil Contract (Harper Monogram Regency)",
+            "identifiers": {
+                "goodreads": [
+                    "1513549"
+                ],
+                "librarything": [
+                    "18495"
+                ]
+            },
+            "isbn_13": [
+                "9780061001772"
+            ],
+            "isbn_10": [
+                "0061001775"
+            ],
+            "publish_date": "September 1994",
+            "key": "/books/OL7286262M",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4092664W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "bwb:9780061001772",
+                "marc:harvard_bibliographic_metadata/ab.bib.09.20150123.full.mrc:4146109:576",
+                "marc:harvard_bibliographic_metadata/20220215_029.bib.mrc:235349324:1018"
+            ],
+            "oclc_numbers": [
+                "45836220"
+            ],
+            "number_of_pages": 454,
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-02-05T12:15:29.368506"
+            }
+        },
+        "/books/OL7656297M": {
+            "publishers": [
+                "Jove"
+            ],
+            "number_of_pages": 416,
+            "title": "A Civil Contract",
+            "physical_format": "Paperback",
+            "identifiers": {
+                "librarything": [
+                    "18495"
+                ],
+                "goodreads": [
+                    "3052972"
+                ]
+            },
+            "publish_date": "March 1, 1982",
+            "key": "/books/OL7656297M",
+            "authors": [
+                {
+                    "key": "/authors/OL7459594A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4092664W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Romance - Historical",
+                "Fiction - Romance"
+            ],
+            "source_records": [
+                "bwb:9780515060249"
+            ],
+            "isbn_10": [
+                "0515060240"
+            ],
+            "isbn_13": [
+                "9780515060249"
+            ],
+            "oclc_numbers": [
+                "9262587"
+            ],
+            "classifications": {},
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-18T06:33:18.596135"
+            }
+        },
+        "/books/OL5294325M": {
+            "publishers": [
+                "Putnam"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "18495"
+                ]
+            },
+            "lc_classifications": [
+                "PZ3.H514 Ci4",
+                "PR6015.E795 Ci4"
+            ],
+            "key": "/books/OL5294325M",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "393 p.",
+            "source_records": [
+                "marc:marc_loc_2016/BooksAll.2016.part07.utf8:100047588:533"
+            ],
+            "title": "A civil contract.",
+            "dewey_decimal_class": [
+                "823/.9/12"
+            ],
+            "number_of_pages": 393,
+            "edition_name": "[2d American ed.]",
+            "lccn": [
+                "72022194"
+            ],
+            "publish_date": "1971",
+            "publish_country": "nyu",
+            "works": [
+                {
+                    "key": "/works/OL4092664W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-02T09:25:25.295322"
+            }
+        },
+        "/books/OL21365289M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Originally published, Heinemann, 1961."
+            },
+            "title": "A Civil Contract",
+            "authors": [
+                {
+                    "key": "/authors/OL7459594A"
+                }
+            ],
+            "publish_date": "1993",
+            "publishers": [
+                "Chivers Press"
+            ],
+            "series": [
+                "Paragon Softcover Large Print Books"
+            ],
+            "publish_places": [
+                "Bath"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "624p. ;",
+            "edition_name": "Large Print Edition",
+            "publish_country": "enk",
+            "by_statement": "Georgette Heyer.",
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_10": [
+                "0745133479"
+            ],
+            "oclc_numbers": [
+                "59882741"
+            ],
+            "dewey_decimal_class": [
+                "823.912"
+            ],
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:3240527374:661"
+            ],
+            "key": "/books/OL21365289M",
+            "number_of_pages": 624,
+            "works": [
+                {
+                    "key": "/works/OL4092664W"
+                }
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-02T08:40:30.825263"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-18T04:30:36.040711"
+            }
+        },
+        "/books/OL3473598M": {
+            "publishers": [
+                "Harlequin"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "311155"
+                ],
+                "librarything": [
+                    "18495"
+                ]
+            },
+            "covers": [
+                221684
+            ],
+            "key": "/books/OL3473598M",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_places": [
+                "Toronto",
+                "New York"
+            ],
+            "contributions": [
+                "Beverley, Jo.",
+                "Copyright Paperback Collection (Library of Congress)"
+            ],
+            "pagination": "v, 409 p. ;",
+            "source_records": [
+                "bwb:9780373810895",
+                "marc:marc_loc_2016/BooksAll.2016.part33.utf8:65142401:925"
+            ],
+            "title": "A Civil Contract",
+            "notes": "\"This edition published by arrangement with Harlequin Books S.A.\"--T.p. verso.",
+            "number_of_pages": 409,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2005",
+            "publish_country": "onc",
+            "by_statement": "Georgette Heyer with a foreward by Jo Beverley.",
+            "works": [
+                {
+                    "key": "/works/OL4092664W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_10": [
+                "037381089X"
+            ],
+            "lccn": [
+                "2005575264"
+            ],
+            "oclc_numbers": [
+                "57443146"
+            ],
+            "classifications": {},
+            "lc_classifications": [
+                "CPB Box no. 2334 vol. 4",
+                "CPB"
+            ],
+            "latest_revision": 12,
+            "revision": 12,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-18T06:34:51.392889"
+            }
+        },
+        "/books/OL2028198M": {
+            "publishers": [
+                "Thorndike Press"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "1934448"
+                ],
+                "librarything": [
+                    "18495"
+                ]
+            },
+            "subject_place": [
+                "Great Britain"
+            ],
+            "covers": [
+                8548744
+            ],
+            "key": "/books/OL2028198M",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_places": [
+                "Thorndike, Me"
+            ],
+            "subject_time": [
+                "1714-1837"
+            ],
+            "edition_name": "Large Print Edition",
+            "pagination": "624 p. (large print) ;",
+            "source_records": [
+                "marc:marc_records_scriblio_net/part21.dat:210131552:792",
+                "marc:marc_loc_updates/v36.i04.records.utf8:7468574:780",
+                "amazon:1560541997",
+                "marc:marc_loc_2016/BooksAll.2016.part20.utf8:219987559:780"
+            ],
+            "title": "A Civil Contract",
+            "number_of_pages": 624,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Large type books",
+                "Great Britain -- History -- 1714-1837 -- Fiction"
+            ],
+            "publish_date": "1991",
+            "publish_country": "meu",
+            "by_statement": "Georgette Heyer.",
+            "works": [
+                {
+                    "key": "/works/OL4092664W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "isbn_10": [
+                "1560541997"
+            ],
+            "lccn": [
+                "91004318"
+            ],
+            "oclc_numbers": [
+                "23869321"
+            ],
+            "classifications": {},
+            "dewey_decimal_class": [
+                "823/.912"
+            ],
+            "lc_classifications": [
+                "PR6015.E795 C58 1991"
+            ],
+            "latest_revision": 12,
+            "revision": 12,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-18T06:36:29.437921"
+            }
+        },
+        "/books/OL14979052M": {
+            "publishers": [
+                "Mills & Boon",
+                "Harlequin Mills & Boon"
+            ],
+            "key": "/books/OL14979052M",
+            "authors": [
+                {
+                    "key": "/authors/OL2163127A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "192p. ;",
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:516753613:508",
+                "bwb:9780263514209",
+                "amazon:026351420X",
+                "promise:bwb_daily_pallets_2026-01-13:T5-ADZ-734"
+            ],
+            "title": "The Girl at Smuggler's Rest",
+            "number_of_pages": 192,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1970",
+            "publish_country": "xxk",
+            "by_statement": "by Lucy Gillen.",
+            "works": [
+                {
+                    "key": "/works/OL156401W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                13895487
+            ],
+            "identifiers": {},
+            "isbn_10": [
+                "026351420X"
+            ],
+            "oclc_numbers": [
+                "59778831"
+            ],
+            "classifications": {},
+            "dewey_decimal_class": [
+                "823/.91"
+            ],
+            "local_id": [
+                "urn:bwbsku:T5-ADZ-734"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T23:13:01.676271"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-04-30T06:17:42.895363"
+            }
+        },
+        "/books/OL24934047M": {
+            "notes": {
+                "type": "/type/text",
+                "value": "Original hardcover edition published in 1983 by Mills & Boon Limited."
+            },
+            "title": "Come Love Me",
+            "authors": [
+                {
+                    "key": "/authors/OL584494A"
+                }
+            ],
+            "publish_date": "1984",
+            "publishers": [
+                "Harlequin Books",
+                "Harlequin"
+            ],
+            "ia_box_id": [
+                "IA118721"
+            ],
+            "series": [
+                "Harlequin Romance"
+            ],
+            "covers": [
+                6947262
+            ],
+            "ia_loaded_id": [
+                "comeloveme00peak"
+            ],
+            "publish_places": [
+                "Toronto",
+                "New York"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "186 p. ;",
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-06-28:W6-AWC-993",
+                "ia:comeloveme00peak",
+                "bwb:9780373026142",
+                "promise:bwb_daily_pallets_2021-06-28:O7-BQI-761"
+            ],
+            "full_title": "Come love me",
+            "edition_name": "Harlequin Romance 1st ed.",
+            "publish_country": "onc",
+            "by_statement": "Lilian Peake",
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "comeloveme00peak",
+            "isbn_10": [
+                "0373026145"
+            ],
+            "isbn_13": [
+                "9780373026142"
+            ],
+            "oclc_numbers": [
+                "10321033"
+            ],
+            "local_id": [
+                "urn:bwbsku:W6-AWC-993",
+                "urn:bwbsku:O7-BQI-761"
+            ],
+            "key": "/books/OL24934047M",
+            "number_of_pages": 186,
+            "works": [
+                {
+                    "key": "/works/OL11327156W"
+                }
+            ],
+            "latest_revision": 16,
+            "revision": 16,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2011-08-08T01:17:48.903243"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T12:46:01.207494"
+            }
+        },
+        "/books/OL2406365M": {
+            "publishers": [
+                "Chivers Press",
+                "J. Curley"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "4762779"
+                ]
+            },
+            "isbn_10": [
+                "1555045553"
+            ],
+            "series": [
+                "Atlantic large print"
+            ],
+            "lc_classifications": [
+                "PR6066.E14 C6 1988"
+            ],
+            "key": "/books/OL2406365M",
+            "authors": [
+                {
+                    "key": "/authors/OL584494A"
+                }
+            ],
+            "publish_places": [
+                "Bath, England",
+                "South Yarmouth, Mass., USA"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "243 p. (large print) ;",
+            "source_records": [
+                "marc:marc_records_scriblio_net/part19.dat:105841483:741",
+                "marc:marc_loc_updates/v36.i04.records.utf8:6072167:731",
+                "marc:marc_loc_2016/BooksAll.2016.part18.utf8:20775379:731"
+            ],
+            "title": "Come love me",
+            "dewey_decimal_class": [
+                "823/.914"
+            ],
+            "notes": {
+                "type": "/type/text",
+                "value": "\"Atlantic romance\"--Cover."
+            },
+            "number_of_pages": 243,
+            "edition_name": "Large print ed.",
+            "lccn": [
+                "87037598"
+            ],
+            "subjects": [
+                "Large type books"
+            ],
+            "publish_date": "1988",
+            "publish_country": "enk",
+            "by_statement": "Lilian Peake.",
+            "oclc_numbers": [
+                "17354629"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL11327156W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-08-30T20:11:06.515079"
+            }
+        },
+        "/books/OL14978106M": {
+            "title": "Dark night dawning.",
+            "authors": [
+                {
+                    "key": "/authors/OL3486735A"
+                }
+            ],
+            "publish_date": "1984",
+            "publishers": [
+                "Mills & Boon"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0263106853"
+            ],
+            "publish_country": "xxk",
+            "publish_places": [
+                "London"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "oclc_numbers": [
+                "12001972"
+            ],
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:516235889:378"
+            ],
+            "key": "/books/OL14978106M",
+            "works": [
+                {
+                    "key": "/works/OL9468121W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-16T23:06:03.431434"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-23T00:52:59.814553"
+            }
+        },
+        "/books/OL10691421M": {
+            "publishers": [
+                "harlequin"
+            ],
+            "identifiers": {
+                "librarything": [
+                    "3743047"
+                ],
+                "goodreads": [
+                    "3092726"
+                ]
+            },
+            "covers": [
+                10260322
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL10691421M",
+            "authors": [
+                {
+                    "key": "/authors/OL3486735A"
+                }
+            ],
+            "subjects": [
+                "Non-Classifiable",
+                "Fiction"
+            ],
+            "source_records": [
+                "bwb:9780373026890",
+                "promise:bwb_daily_pallets_2021-06-28",
+                "promise:bwb_daily_pallets_2021-05-14"
+            ],
+            "title": "Dark Night Dawning",
+            "number_of_pages": 188,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "April 1, 1985",
+            "works": [
+                {
+                    "key": "/works/OL9468121W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "ocaid": "darknightdawning00sta_i6a",
+            "isbn_10": [
+                "0373026897"
+            ],
+            "isbn_13": [
+                "9780373026890"
+            ],
+            "classifications": {},
+            "local_id": [
+                "urn:bwbsku:P6-CEA-665",
+                "urn:bwbsku:O4-AWO-472"
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-01-14T19:37:52.449165"
+            }
+        },
+        "/books/OL7435685M": {
+            "publishers": [
+                "Avon"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "1936067"
+                ],
+                "librarything": [
+                    "78376"
+                ]
+            },
+            "title": "His Scandal (Avon Historical Romance)",
+            "number_of_pages": 377,
+            "covers": [
+                237507
+            ],
+            "isbn_13": [
+                "9780380821099"
+            ],
+            "isbn_10": [
+                "0380821095"
+            ],
+            "publish_date": "April 30, 2002",
+            "key": "/books/OL7435685M",
+            "authors": [
+                {
+                    "key": "/authors/OL1385857A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL5689129W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "first_sentence": {
+                "type": "/type/text",
+                "value": "Alex Thornton was fresh out of new scandals."
+            },
+            "ocaid": "hisscandal0000call",
+            "source_records": [
+                "ia:hisscandal0000call",
+                "bwb:9780380821099"
+            ],
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T04:10:48.853008"
+            }
+        },
+        "/books/OL21333795M": {
+            "identifiers": {
+                "goodreads": [
+                    "576537"
+                ],
+                "librarything": [
+                    "950905"
+                ]
+            },
+            "title": "Dark fires",
+            "authors": [
+                {
+                    "key": "/authors/OL1081479A"
+                }
+            ],
+            "publish_date": "1975",
+            "publishers": [
+                "Avon",
+                "Avon Books"
+            ],
+            "ia_box_id": [
+                "IA120016"
+            ],
+            "covers": [
+                6598812
+            ],
+            "publish_places": [
+                "New York"
+            ],
+            "pagination": "604p. ;",
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-03-17:W7-AKG-884",
+                "ia:darkfire00roge",
+                "bwb:9780380004256",
+                "promise:bwb_daily_pallets_2021-05-27:P7-ADG-313",
+                "promise:bwb_daily_pallets_2021-05-04:P7-BLB-375",
+                "ia:darkfires0000rose"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_country": "xxu",
+            "by_statement": "Rosemary Rogers.",
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:W7-AKG-884",
+                "urn:bwbsku:P7-ADG-313",
+                "urn:bwbsku:P7-BLB-375"
+            ],
+            "key": "/books/OL21333795M",
+            "number_of_pages": 604,
+            "works": [
+                {
+                    "key": "/works/OL4996159W"
+                }
+            ],
+            "ocaid": "darkfires00roge",
+            "isbn_10": [
+                "0380004259"
+            ],
+            "oclc_numbers": [
+                "416123765"
+            ],
+            "classifications": {},
+            "dewey_decimal_class": [
+                "813/.54"
+            ],
+            "latest_revision": 24,
+            "revision": 24,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-11-01T21:17:04.091891"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-04-29T23:23:00.975798"
+            }
+        },
+        "/books/OL10688266M": {
+            "publishers": [
+                "Macmillan & Co"
+            ],
+            "number_of_pages": 604,
+            "weight": "1.7 pounds",
+            "title": "Dark Fires",
+            "identifiers": {
+                "librarything": [
+                    "950905"
+                ]
+            },
+            "isbn_13": [
+                "9780356086446"
+            ],
+            "physical_format": "Unknown Binding",
+            "isbn_10": [
+                "0356086445"
+            ],
+            "publish_date": "1982",
+            "key": "/books/OL10688266M",
+            "authors": [
+                {
+                    "key": "/authors/OL1081479A"
+                }
+            ],
+            "oclc_numbers": [
+                "10729924"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4996159W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "bwb:9780356086446",
+                "amazon:0356086445"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-08-04T17:16:55.344143"
+            }
+        },
+        "/books/OL7431868M": {
+            "publishers": [
+                "Avon"
+            ],
+            "title": "Dark Fires",
+            "identifiers": {
+                "goodreads": [
+                    "576536"
+                ],
+                "librarything": [
+                    "950905"
+                ]
+            },
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "0380468131"
+            ],
+            "publish_date": "1975",
+            "key": "/books/OL7431868M",
+            "authors": [
+                {
+                    "key": "/authors/OL1081479A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4996159W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:O8-CPN-653"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-10-12",
+                "ia:bwb_S0-ALL-795"
+            ],
+            "covers": [
+                14912190
+            ],
+            "ocaid": "bwb_S0-ALL-795",
+            "number_of_pages": 558,
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T13:35:46.876380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-04-27T14:54:11.593690"
+            }
+        },
+        "/books/OL15238959M": {
+            "title": "Insolente passion.",
+            "authors": [
+                {
+                    "key": "/authors/OL1081479A"
+                }
+            ],
+            "publish_date": "1978",
+            "publishers": [
+                "Éditions de Tréise"
+            ],
+            "work_titles": [
+                "Dark fires."
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "isbn_10": [
+                "2711202135"
+            ],
+            "publish_country": "fr ",
+            "publish_places": [
+                "Paris"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "oclc_numbers": [
+                "461651804"
+            ],
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:721327232:448"
+            ],
+            "key": "/books/OL15238959M",
+            "works": [
+                {
+                    "key": "/works/OL4996159W"
+                }
+            ],
+            "latest_revision": 14,
+            "revision": 14,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-19T00:48:10.035057"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-18T12:28:09.306369"
+            }
+        },
+        "/books/OL29794532M": {
+            "publishers": [
+                "Harlequin Enterprises, Limited"
+            ],
+            "source_records": [
+                "bwb:9781488037467"
+            ],
+            "title": "Payment Due",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781488037467"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Payment Due",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2018",
+            "key": "/books/OL29794532M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3759345W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, romance, historical"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-31T07:40:28.565406"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-02T22:25:19.789455"
+            }
+        },
+        "/books/OL10282161M": {
+            "publishers": [
+                "Mills And Boon"
+            ],
+            "number_of_pages": 224,
+            "title": "Payment Due",
+            "physical_format": "Paperback",
+            "identifiers": {
+                "goodreads": [
+                    "3311302"
+                ]
+            },
+            "isbn_13": [
+                "9780263808377"
+            ],
+            "isbn_10": [
+                "0263808378"
+            ],
+            "publish_date": "1998",
+            "key": "/books/OL10282161M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "oclc_numbers": [
+                "43785605"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL3759345W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "covers": [
+                11693214
+            ],
+            "ocaid": "paymentdue0000jord",
+            "source_records": [
+                "ia:paymentdue0000jord",
+                "amazon:0263808378",
+                "promise:bwb_daily_pallets_2020-06-24"
+            ],
+            "local_id": [
+                "urn:bwbsku:KN-752-052"
+            ],
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-10T07:41:13.347418"
+            }
+        },
+        "/books/OL10750237M": {
+            "identifiers": {
+                "librarything": [
+                    "833740"
+                ]
+            },
+            "title": "Payment Due",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "publish_date": "May 1, 1999",
+            "publishers": [
+                "harlequin"
+            ],
+            "covers": [
+                7248498
+            ],
+            "physical_format": "Paperback",
+            "subjects": [
+                "Non-Classifiable",
+                "Nonfiction - General"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_13": [
+                "9780373833771"
+            ],
+            "isbn_10": [
+                "0373833776"
+            ],
+            "oclc_numbers": [
+                "40145005"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:0373833776"
+            ],
+            "key": "/books/OL10750237M",
+            "number_of_pages": 220,
+            "works": [
+                {
+                    "key": "/works/OL3759345W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-24T21:25:58.435023"
+            }
+        },
+        "/books/OL29264453M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "source_records": [
+                "bwb:9781408998953"
+            ],
+            "title": "Long Cold Winter",
+            "number_of_pages": 192,
+            "isbn_13": [
+                "9781408998953"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "full_title": "Long Cold Winter",
+            "lc_classifications": [
+                ""
+            ],
+            "publish_date": "2015",
+            "key": "/books/OL29264453M",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL11327992W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Fiction, general"
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-24T00:42:36.722593"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-12-02T22:44:44.256142"
+            }
+        },
+        "/books/OL17359729M": {
+            "title": "Long Cold Winter.",
+            "authors": [
+                {
+                    "key": "/authors/OL661093A"
+                }
+            ],
+            "publish_date": "1988",
+            "publishers": [
+                "Mills & B."
+            ],
+            "pagination": "sC8.190. n.e.",
+            "series": [
+                "Bestseller Romance S"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/und"
+                }
+            ],
+            "isbn_10": [
+                "0263760677"
+            ],
+            "publish_country": "xxk",
+            "oclc_numbers": [
+                "315733068"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "marc:talis_openlibrary_contribution/talis-openlibrary-contribution.mrc:1470602516:432"
+            ],
+            "key": "/books/OL17359729M",
+            "number_of_pages": 190,
+            "works": [
+                {
+                    "key": "/works/OL11327992W"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-28T13:13:04.248508"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-07T15:12:49.330947"
+            }
+        },
+        "/books/OL10281525M": {
+            "publishers": [
+                "Harlequin Mills & Boon"
+            ],
+            "number_of_pages": 384,
+            "source_records": [
+                "bwb:9780263789539"
+            ],
+            "title": "The Ultimate Choice",
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {
+                "librarything": [
+                    "3475770"
+                ],
+                "goodreads": [
+                    "311410"
+                ]
+            },
+            "publish_date": "February 10, 1995",
+            "key": "/books/OL10281525M",
+            "authors": [
+                {
+                    "key": "/authors/OL451969A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL2959296W"
+                }
+            ],
+            "physical_format": "Paperback",
+            "subjects": [
+                "Romance"
+            ],
+            "isbn_10": [
+                "0263789535"
+            ],
+            "isbn_13": [
+                "9780263789539"
+            ],
+            "classifications": {},
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-04-23T21:24:32.870617"
+            }
+        },
+        "/books/OL10239202M": {
+            "title": "The Ultimate Choice",
+            "authors": [
+                {
+                    "key": "/authors/OL451969A"
+                }
+            ],
+            "publish_date": "April 1990",
+            "publishers": [
+                "MacMillan Publishing Company"
+            ],
+            "weight": "13.6 ounces",
+            "physical_format": "Hardcover",
+            "subjects": [
+                "Romance",
+                "Romance - General",
+                "Fiction - Romance",
+                "Large Print"
+            ],
+            "edition_name": "Large Print Edition",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.6 x 5.9 x 1 inches",
+            "isbn_10": [
+                "0263123367"
+            ],
+            "isbn_13": [
+                "9780263123364"
+            ],
+            "source_records": [
+                "amazon:0263123367"
+            ],
+            "key": "/books/OL10239202M",
+            "number_of_pages": 288,
+            "works": [
+                {
+                    "key": "/works/OL2959296W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-19T04:11:58.682881"
+            }
+        },
+        "/books/OL9711301M": {
+            "description": {
+                "type": "/type/text",
+                "value": "Behaving badly at the office party! \r\nHarriet attended the company's New Year's Eve party in all innocence. It wasn't her fault that the punch she'd been drinking was stronger than expected so that she'd ended up confiding in a gorgeous stranger about her broken engagement. How was she to know she'd been pouring her heart out to the chairman himself, Marcus Fox? \r\nNow Harriet has to work with Marcus. Luckily, she's since changed her image, dyed her hair blond and is a model secretary. Unluckily, Marcus still recognizes her and seems determined to punish Harriet for her reckless conduct!"
+            },
+            "identifiers": {
+                "librarything": [
+                    "1473640"
+                ],
+                "goodreads": [
+                    "2604217"
+                ]
+            },
+            "title": "Reckless Conduct",
+            "subtitle": "9 to 5, Book 5",
+            "authors": [
+                {
+                    "key": "/authors/OL584492A"
+                }
+            ],
+            "publish_date": "November, 1996",
+            "publishers": [
+                "Harlequin Books",
+                "Harlequin"
+            ],
+            "weight": "3.2 ounces",
+            "series": [
+                "Harlequin Presents, No 1847"
+            ],
+            "covers": [
+                6602771
+            ],
+            "physical_format": "Paperback",
+            "ia_box_id": [
+                "IA122721"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-08-03:O7-DLE-013",
+                "ia:recklessconduct00napi",
+                "bwb:9780373118472",
+                "promise:bwb_daily_pallets_2021-06-30:P7-CAT-646",
+                "promise:bwb_daily_pallets_2021-06-28:W6-AVX-988",
+                "promise:bwb_daily_pallets_2021-06-28:p7-cht-674"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Fiction",
+                "Fiction - Romance",
+                "Romance: Regency",
+                "Romance - Contemporary",
+                "Non-Classifiable",
+                "Romance - General"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "6.5 x 4 x 0.5 inches",
+            "ocaid": "recklessconduct00napi",
+            "isbn_10": [
+                "0373118473"
+            ],
+            "isbn_13": [
+                "9780373118472"
+            ],
+            "oclc_numbers": [
+                "35315183"
+            ],
+            "local_id": [
+                "urn:bwbsku:O7-DLE-013",
+                "urn:bwbsku:P7-CAT-646",
+                "urn:bwbsku:W6-AVX-988",
+                "urn:bwbsku:P7-CHT-674"
+            ],
+            "key": "/books/OL9711301M",
+            "number_of_pages": 186,
+            "works": [
+                {
+                    "key": "/works/OL3498681W"
+                }
+            ],
+            "latest_revision": 27,
+            "revision": 27,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-01-19T07:45:08.248698"
+            }
+        },
+        "/books/OL49349289M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B000TZ30H6"
+                ],
+                "better_world_books": [
+                    "BWB25391116"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:O9-BOY-192"
+            ],
+            "publish_date": "1961-01-01",
+            "publishers": [
+                "Ace Star"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-08-24:O9-BOY-192"
+            ],
+            "title": "A Civil Contract",
+            "full_title": "A Civil Contract",
+            "works": [
+                {
+                    "key": "/works/OL4092664W"
+                }
+            ],
+            "key": "/books/OL49349289M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-08-26T01:04:42.554141"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-10-28T00:57:58.634386"
+            }
+        },
+        "/books/OL47065656M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B008ARZ6GI"
+                ],
+                "better_world_books": [
+                    "BWB20017257"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:O8-AHK-674"
+            ],
+            "publish_date": "1961-01-01",
+            "publishers": [
+                "Putnam"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2022-04-01:O8-AHK-674"
+            ],
+            "title": "A civil contract",
+            "full_title": "A civil contract",
+            "works": [
+                {
+                    "key": "/works/OL4092664W"
+                }
+            ],
+            "key": "/books/OL47065656M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-02-28T11:24:16.735485"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-02T09:25:25.295322"
+            }
+        },
+        "/books/OL47307980M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "A Civil Contract",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                },
+                {
+                    "key": "/authors/OL2829769A"
+                }
+            ],
+            "publish_date": "Mar 24, 2015",
+            "source_records": [
+                "amazon:1501256580"
+            ],
+            "publishers": [
+                "Brilliance Audio"
+            ],
+            "isbn_10": [
+                "1501256580"
+            ],
+            "isbn_13": [
+                "9781501256585"
+            ],
+            "physical_format": "audio cd",
+            "full_title": "A Civil Contract",
+            "covers": [
+                13772607
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4092664W"
+                }
+            ],
+            "key": "/books/OL47307980M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-03-26T21:15:42.220272"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-02T09:25:25.295322"
+            }
+        },
+        "/books/OL35459671M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7459594A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1998",
+            "publishers": [
+                "Penguin Random House"
+            ],
+            "source_records": [
+                "bwb:9781407075686"
+            ],
+            "subjects": [
+                "Fiction, romance, historical, general",
+                "Fiction, romance, historical, regency",
+                "Great britain, fiction",
+                "Marriage, fiction",
+                "Lawyers, fiction"
+            ],
+            "title": "A Civil Contract",
+            "full_title": "Civil Contract",
+            "works": [
+                {
+                    "key": "/works/OL4092664W"
+                }
+            ],
+            "key": "/books/OL35459671M",
+            "identifiers": {},
+            "isbn_13": [
+                "9781407075686"
+            ],
+            "classifications": {},
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T06:53:14.404083"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-18T06:31:23.156479"
+            }
+        },
+        "/books/OL35466525M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7459594A"
+                }
+            ],
+            "isbn_13": [
+                "9781407090689"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1998",
+            "publishers": [
+                "Penguin Random House"
+            ],
+            "source_records": [
+                "bwb:9781407090689"
+            ],
+            "subjects": [
+                "Fiction, romance, historical, general",
+                "Fiction, romance, historical, regency",
+                "Great britain, fiction",
+                "Marriage, fiction",
+                "Lawyers, fiction"
+            ],
+            "title": "Civil Contract",
+            "full_title": "Civil Contract",
+            "works": [
+                {
+                    "key": "/works/OL4092664W"
+                }
+            ],
+            "key": "/books/OL35466525M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T09:14:45.736747"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-03-02T04:31:49.122849"
+            }
+        },
+        "/books/OL35467905M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL7459594A"
+                }
+            ],
+            "isbn_13": [
+                "9781407085685"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1998",
+            "publishers": [
+                "Penguin Random House"
+            ],
+            "source_records": [
+                "bwb:9781407085685"
+            ],
+            "subjects": [
+                "Fiction, romance, historical, general",
+                "Fiction, romance, historical, regency",
+                "Great britain, fiction",
+                "Marriage, fiction",
+                "Lawyers, fiction"
+            ],
+            "title": "Civil Contract",
+            "full_title": "Civil Contract",
+            "works": [
+                {
+                    "key": "/works/OL4092664W"
+                }
+            ],
+            "key": "/books/OL35467905M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-02T09:40:25.923488"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-03-02T04:31:49.122849"
+            }
+        },
+        "/books/OL25561005M": {
+            "publishers": [
+                "HQN Books"
+            ],
+            "description": "When his family is faced with financial disaster, a young aristocrat finds he must contend with a financier's social ambitions for his young daughter.",
+            "covers": [
+                9516707
+            ],
+            "full_title": "A civil contract",
+            "key": "/books/OL25561005M",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_places": [
+                "Ontario"
+            ],
+            "contributions": [
+                "Beverley, Jo"
+            ],
+            "subject_times": [
+                "19th century"
+            ],
+            "pagination": "v, 410 p. ;",
+            "source_records": [
+                "ia:civilcontract00heye_796",
+                "bwb:9780373773978",
+                "ia:civilcontract0000heye_y4q4",
+                "amazon:0373773978",
+                "promise:bwb_daily_pallets_2020-10-14"
+            ],
+            "title": "A Civil Contract",
+            "number_of_pages": 410,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subject_places": [
+                "England"
+            ],
+            "subjects": [
+                "Fiction",
+                "Arranged marriage",
+                "Man-woman relationships",
+                "Social life and customs"
+            ],
+            "publish_date": "2009",
+            "publish_country": "onc",
+            "by_statement": "Georgette Heyer ; with a foreward by Jo Beverley",
+            "works": [
+                {
+                    "key": "/works/OL4092664W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:O6-EUD-357"
+            ],
+            "identifiers": {},
+            "isbn_10": [
+                "0373773978"
+            ],
+            "isbn_13": [
+                "9780373773978"
+            ],
+            "oclc_numbers": [
+                "310399628"
+            ],
+            "classifications": {},
+            "dewey_decimal_class": [
+                "823/.912"
+            ],
+            "lc_classifications": [
+                "PR6015.E795 C58 2009"
+            ],
+            "latest_revision": 11,
+            "revision": 11,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2014-07-29T18:47:07.467345"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-03-28T15:37:52.553069"
+            }
+        },
+        "/books/OL9468433M": {
+            "publishers": [
+                "Chivers Audio Books"
+            ],
+            "weight": "1.3 pounds",
+            "covers": [
+                4978991
+            ],
+            "physical_format": "Audio Cassette",
+            "key": "/books/OL9468433M",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "contributions": [
+                "Phyllida Nash (Narrator)"
+            ],
+            "subjects": [
+                "Historical fiction",
+                "Modern fiction",
+                "General",
+                "Romance - Historical",
+                "Fiction",
+                "Unabridged Audio - Fiction/Romance",
+                "Audio Adult: Books On Tape"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "title": "A Civil Contract",
+            "identifiers": {
+                "goodreads": [
+                    "5384169"
+                ]
+            },
+            "isbn_13": [
+                "9780754003267"
+            ],
+            "isbn_10": [
+                "0754003264"
+            ],
+            "publish_date": "July 1999",
+            "works": [
+                {
+                    "key": "/works/OL4092664W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.6 x 4.8 x 2.1 inches",
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-06-02T09:25:25.295322"
+            }
+        },
+        "/books/OL9344298M": {
+            "publishers": [
+                "William Heinemann"
+            ],
+            "number_of_pages": 394,
+            "title": "A Civil Contract",
+            "physical_format": "Hardcover",
+            "identifiers": {
+                "librarything": [
+                    "18495"
+                ]
+            },
+            "isbn_13": [
+                "9780434328284"
+            ],
+            "isbn_10": [
+                "0434328286"
+            ],
+            "publish_date": "January 1, 1977",
+            "key": "/books/OL9344298M",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "works": [
+                {
+                    "key": "/works/OL4092664W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Historical fiction",
+                "Romance: historical"
+            ],
+            "source_records": [
+                "bwb:9780434328284"
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T09:38:13.731961"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-07-17T00:48:49.558665"
+            }
+        },
+        "/books/OL5843620M": {
+            "publishers": [
+                "Heinemann"
+            ],
+            "key": "/books/OL5843620M",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "393 p.",
+            "source_records": [
+                "marc:marc_loc_2016/BooksAll.2016.part05.utf8:125140656:514",
+                "ia:bwb_P9-ECZ-519"
+            ],
+            "title": "A Civil Contract",
+            "number_of_pages": 393,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "1961",
+            "publish_country": "enk",
+            "works": [
+                {
+                    "key": "/works/OL4092664W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "lccn": [
+                "62000164"
+            ],
+            "oclc_numbers": [
+                "3505647"
+            ],
+            "classifications": {},
+            "lc_classifications": [
+                "PZ3.H514 Ci",
+                "PR6015.E795 Ci"
+            ],
+            "covers": [
+                14910861
+            ],
+            "ocaid": "bwb_P9-ECZ-519",
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-04-27T11:57:17.437785"
+            }
+        },
+        "/books/OL22771322M": {
+            "notes": "Originally published, London: Heinemann, 1961.",
+            "identifiers": {
+                "librarything": [
+                    "18495"
+                ],
+                "goodreads": [
+                    "3195159"
+                ]
+            },
+            "title": "A Civil Contract",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_date": "1973",
+            "publishers": [
+                "Pan Books"
+            ],
+            "covers": [
+                10126419
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "248p. ;",
+            "source_records": [
+                "promise:bwb_daily_pallets_2021-08-11:KP-338-863",
+                "ia:civilcontract0000heye",
+                "promise:bwb_daily_pallets_2021-05-21:KO-860-006",
+                "promise:bwb_daily_pallets_2021-05-06:KO-814-416"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_country": "xxk",
+            "by_statement": "(by) Georgette Heyer.",
+            "type": {
+                "key": "/type/edition"
+            },
+            "local_id": [
+                "urn:bwbsku:KP-338-863",
+                "urn:bwbsku:KO-860-006",
+                "urn:bwbsku:KO-814-416"
+            ],
+            "key": "/books/OL22771322M",
+            "number_of_pages": 248,
+            "works": [
+                {
+                    "key": "/works/OL4092664W"
+                }
+            ],
+            "ocaid": "civilcontract0000heye",
+            "isbn_10": [
+                "0330235192"
+            ],
+            "classifications": {},
+            "dewey_decimal_class": [
+                "823/.9/1F"
+            ],
+            "latest_revision": 15,
+            "revision": 15,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-12-29T15:25:14.387187"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-17T22:29:23.176331"
+            }
+        },
+        "/books/OL17399561M": {
+            "notes": "Originally published, London : William Heinemann, 1961.",
+            "identifiers": {
+                "librarything": [
+                    "18495"
+                ],
+                "goodreads": [
+                    "3422159"
+                ]
+            },
+            "title": "A Civil Contract",
+            "authors": [
+                {
+                    "key": "/authors/OL766555A"
+                }
+            ],
+            "publish_date": "1992",
+            "publishers": [
+                "Mandarin"
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "394p. ;",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_country": "enk",
+            "by_statement": "Georgette Heyer.",
+            "type": {
+                "key": "/type/edition"
+            },
+            "source_records": [
+                "amazon:0749304472",
+                "ia:civilcontract0000heye_d0w3",
+                "promise:bwb_daily_pallets_2021-03-03"
+            ],
+            "key": "/books/OL17399561M",
+            "number_of_pages": 394,
+            "works": [
+                {
+                    "key": "/works/OL4092664W"
+                }
+            ],
+            "local_id": [
+                "urn:bwbsku:KO-709-670"
+            ],
+            "covers": [
+                13050609
+            ],
+            "ocaid": "civilcontract0000heye_d0w3",
+            "isbn_10": [
+                "0749304472"
+            ],
+            "classifications": {},
+            "dewey_decimal_class": [
+                "823.912"
+            ],
+            "latest_revision": 13,
+            "revision": 13,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-09-28T16:54:05.959924"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-18T06:27:23.758754"
+            }
+        },
+        "/books/OL29278146M": {
+            "publishers": [
+                "Harlequin Mills & Boon, Limited"
+            ],
+            "subtitle": "Fiorenza Forced Marriage / For His Convenience or Pleasure? / Night with Consequences",
+            "covers": [
+                10422180
+            ],
+            "key": "/books/OL29278146M",
+            "authors": [
+                {
+                    "key": "/authors/OL1423504A"
+                },
+                {
+                    "key": "/authors/OL1423505A"
+                },
+                {
+                    "key": "/authors/OL26954A"
+                }
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "source_records": [
+                "bwb:9780263252286",
+                "ia:hisvirginbride0000unse"
+            ],
+            "title": "His Virgin Bride",
+            "number_of_pages": 560,
+            "subjects": [
+                "Fiction, romance, general"
+            ],
+            "publish_date": "2015",
+            "works": [
+                {
+                    "key": "/works/OL21572618W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "identifiers": {},
+            "ocaid": "hisvirginbride0000unse",
+            "isbn_13": [
+                "9780263252286"
+            ],
+            "classifications": {},
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2020-08-24T04:04:05.409931"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2024-05-14T01:09:19.725333"
+            }
+        }
+    }
+}

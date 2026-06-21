@@ -1,0 +1,5368 @@
+{
+    "status": "ok",
+    "result": {
+        "/books/OL37059106M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Anna Karenina",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "publish_date": "Jan 01, 2022",
+            "source_records": [
+                "amazon:551972007X"
+            ],
+            "number_of_pages": 1050,
+            "publishers": [
+                "Book on Demand Ltd."
+            ],
+            "isbn_10": [
+                "551972007X"
+            ],
+            "isbn_13": [
+                "9785519720076"
+            ],
+            "physical_format": "hardcover",
+            "full_title": "Anna Karenina",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL37059106M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-02-14T22:44:23.258530"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-05-23T13:13:14.752175"
+            }
+        },
+        "/books/OL34691019M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                },
+                {
+                    "key": "/authors/OL8370471A"
+                }
+            ],
+            "isbn_13": [
+                "9781513264967"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lc_classifications": [
+                "PG3366.A6 2020"
+            ],
+            "publish_date": "2020",
+            "publishers": [
+                "West Margin Press"
+            ],
+            "source_records": [
+                "bwb:9781513264967"
+            ],
+            "subjects": [
+                "Married people, fiction",
+                "Literature and fiction, historical fiction"
+            ],
+            "title": "Anna Karenina",
+            "pagination": "946",
+            "full_title": "Anna Karenina",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL34691019M",
+            "covers": [
+                14712451
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-07T04:19:05.536598"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-12T19:30:07.015755"
+            }
+        },
+        "/books/OL33929518M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                },
+                {
+                    "key": "/authors/OL8370471A"
+                }
+            ],
+            "isbn_13": [
+                "9781513220703"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "lc_classifications": [
+                "PG3365.A6"
+            ],
+            "number_of_pages": 948,
+            "publish_date": "2020",
+            "publishers": [
+                "West Margin Press"
+            ],
+            "source_records": [
+                "bwb:9781513220703"
+            ],
+            "subjects": [
+                "Slavic philology"
+            ],
+            "title": "Anna Karenina",
+            "full_title": "Anna Karenina",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL33929518M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-09-28T11:42:19.123794"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-12T19:30:18.403628"
+            }
+        },
+        "/books/OL3598644M": {
+            "identifiers": {
+                "goodreads": [
+                    "3105193"
+                ]
+            },
+            "subtitle": "roman",
+            "series": [
+                "Novyĭ russkiĭ roman"
+            ],
+            "lc_classifications": [
+                "PG3484.I3977 A84 2001",
+                "PG3484.I3915 A65 2001"
+            ],
+            "title": "Anna Karenina",
+            "languages": [
+                {
+                    "key": "/languages/rus"
+                }
+            ],
+            "publish_country": "ru ",
+            "by_statement": "Lev Nikolaev.",
+            "oclc_numbers": [
+                "48419842"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "publishers": [
+                "Zakharov"
+            ],
+            "key": "/books/OL3598644M",
+            "authors": [
+                {
+                    "key": "/authors/OL1488953A"
+                }
+            ],
+            "publish_places": [
+                "Moskva"
+            ],
+            "pagination": "302 p. ;",
+            "lccn": [
+                "2002323460"
+            ],
+            "number_of_pages": 302,
+            "isbn_10": [
+                "5815901512"
+            ],
+            "publish_date": "2001",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "source_records": [
+                "marc:marc_loc_2016/BooksAll.2016.part30.utf8:3540830:544",
+                "marc:marc_columbia/Columbia-extract-20221130-007.mrc:81576845:834"
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-01T03:28:50.625462"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-11-14T03:17:27.516118"
+            }
+        },
+        "/books/OL13299309M": {
+            "title": "Anna Karenina",
+            "publish_date": "November 1988",
+            "physical_format": "Paperback",
+            "publishers": [
+                "New American Library"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Literature: Classics"
+            ],
+            "isbn_10": [
+                "9993735647"
+            ],
+            "isbn_13": [
+                "9789993735649"
+            ],
+            "source_records": [
+                "amazon:9993735647"
+            ],
+            "key": "/books/OL13299309M",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-12-23T10:27:10.693581"
+            }
+        },
+        "/books/OL50793262M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                },
+                {
+                    "key": "/authors/OL2797380A"
+                }
+            ],
+            "isbn_13": [
+                "9781020411861"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "296",
+            "publish_date": "2023",
+            "publishers": [
+                "Creative Media Partners, LLC"
+            ],
+            "source_records": [
+                "bwb:9781020411861"
+            ],
+            "title": "Novels and Other Works of Lyof N. Tolstoï",
+            "weight": "0.591",
+            "subtitle": "The Death of Ivan Ilyitch, and Other Stories",
+            "full_title": "Novels and Other Works of Lyof N. Tolstoï The Death of Ivan Ilyitch, and Other Stories",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL50793262M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-01-31T14:56:45.192560"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL50829755M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                },
+                {
+                    "key": "/authors/OL2797380A"
+                }
+            ],
+            "isbn_13": [
+                "9781021216380"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "478",
+            "publish_date": "2023",
+            "publishers": [
+                "Creative Media Partners, LLC"
+            ],
+            "source_records": [
+                "bwb:9781021216380"
+            ],
+            "title": "Novels and Other Works of Lyof N. Tolstoï",
+            "weight": "0.664",
+            "subtitle": "My Confession. My Religion. the Gospel in Brief",
+            "full_title": "Novels and Other Works of Lyof N. Tolstoï My Confession. My Religion. the Gospel in Brief",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL50829755M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-01-31T17:27:17.555086"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL49323954M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "isbn_13": [
+                "9789358561111"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "776",
+            "publish_date": "2023",
+            "publishers": [
+                "Prakash Book Depot"
+            ],
+            "source_records": [
+                "bwb:9789358561111"
+            ],
+            "title": "Anna Karenina",
+            "full_title": "Anna Karenina",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL49323954M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-08-17T10:23:06.905721"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL49732707M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "isbn_13": [
+                "9781105517785"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "310",
+            "publish_date": "2012",
+            "publishers": [
+                "Lulu Press, Inc."
+            ],
+            "source_records": [
+                "bwb:9781105517785"
+            ],
+            "title": "Anna Karenina",
+            "subtitle": "English-Russian Parallel Text Edition Volume Seven",
+            "full_title": "Anna Karenina English-Russian Parallel Text Edition Volume Seven",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL49732707M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-10-17T06:03:06.599503"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL39384692M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "isbn_13": [
+                "9798429313634"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "560",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798429313634"
+            ],
+            "title": "Anna Karénine - Tome II",
+            "weight": "0.809",
+            "full_title": "Anna Karénine - Tome II",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL39384692M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-08-18T14:31:43.929100"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL39684428M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "isbn_13": [
+                "9798425342812"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "560",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798425342812"
+            ],
+            "title": "Anna Karénine - Tome II",
+            "weight": "0.809",
+            "full_title": "Anna Karénine - Tome II",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL39684428M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-09-18T20:50:50.820241"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL44299851M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "isbn_13": [
+                "9798355891138"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "559",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798355891138"
+            ],
+            "title": "Anna Karénine - Tome II",
+            "weight": "0.809",
+            "full_title": "Anna Karénine - Tome II",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL44299851M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-17T22:41:47.644861"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL42271413M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "isbn_13": [
+                "9798580592114"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "558",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798580592114"
+            ],
+            "title": "Anna Karénine - Tome II Illustree",
+            "weight": "0.805",
+            "full_title": "Anna Karénine - Tome II Illustree",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL42271413M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-01T05:07:54.214912"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL42292121M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "isbn_13": [
+                "9798559432908"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "558",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798559432908"
+            ],
+            "title": "Anna Karénine - Tome II Illustree",
+            "weight": "0.805",
+            "full_title": "Anna Karénine - Tome II Illustree",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL42292121M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-01T08:19:56.583137"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL42369161M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "isbn_13": [
+                "9798577115883"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "558",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798577115883"
+            ],
+            "title": "Anna Karénine - Tome II Illustree",
+            "weight": "0.805",
+            "full_title": "Anna Karénine - Tome II Illustree",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL42369161M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-01T21:07:58.179794"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL42391189M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "isbn_13": [
+                "9798737430146"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "557",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798737430146"
+            ],
+            "title": "Anna Karénine - Tome II Illustree",
+            "weight": "0.805",
+            "full_title": "Anna Karénine - Tome II Illustree",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL42391189M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-02T00:17:07.625131"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL11859435M": {
+            "publishers": [
+                "ReadHowYouWant.com"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "331455"
+                ]
+            },
+            "weight": "1.3 pounds",
+            "covers": [
+                2822452
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL11859435M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "subjects": [
+                "Fiction / Classics"
+            ],
+            "isbn_13": [
+                "9781425060145"
+            ],
+            "source_records": [
+                "amazon:1425060145"
+            ],
+            "title": "Anna Karenina Volume VI [EasyRead Large Edition]",
+            "number_of_pages": 356,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "1425060145"
+            ],
+            "publish_date": "January 1, 2007",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9 x 6 x 0.9 inches",
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL11859365M": {
+            "publishers": [
+                "ReadHowYouWant.com"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "1744132"
+                ]
+            },
+            "weight": "15.2 ounces",
+            "covers": [
+                2822382
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL11859365M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "subjects": [
+                "Fiction / Classics"
+            ],
+            "isbn_13": [
+                "9781425059224"
+            ],
+            "source_records": [
+                "amazon:1425059228"
+            ],
+            "title": "Anna Karenina Volume V [EasyRead Comfort Edition]",
+            "number_of_pages": 248,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "1425059228"
+            ],
+            "publish_date": "January 1, 2007",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9 x 6 x 0.6 inches",
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL11859295M": {
+            "publishers": [
+                "ReadHowYouWant.com"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "1744133"
+                ]
+            },
+            "weight": "13.3 ounces",
+            "covers": [
+                2822312
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL11859295M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "subjects": [
+                "Fiction / Classics"
+            ],
+            "isbn_13": [
+                "9781425058319"
+            ],
+            "source_records": [
+                "amazon:1425058310"
+            ],
+            "title": "Anna Karenina Volume V [EasyRead Edition]",
+            "number_of_pages": 212,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "1425058310"
+            ],
+            "publish_date": "January 1, 2007",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9 x 6 x 0.5 inches",
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL11859363M": {
+            "publishers": [
+                "ReadHowYouWant.com"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "1744127"
+                ]
+            },
+            "weight": "15.5 ounces",
+            "covers": [
+                2822380
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL11859363M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "subjects": [
+                "Fiction / Classics"
+            ],
+            "isbn_13": [
+                "9781425059200"
+            ],
+            "source_records": [
+                "amazon:1425059201"
+            ],
+            "title": "Anna Karenina Volume III [EasyRead Comfort Edition]",
+            "number_of_pages": 252,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "1425059201"
+            ],
+            "publish_date": "January 1, 2007",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9 x 6 x 0.6 inches",
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL8502106M": {
+            "publishers": [
+                "www.ReadHowYouWant.com"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "1166547"
+                ]
+            },
+            "weight": "7.8 ounces",
+            "covers": [
+                1826943
+            ],
+            "edition_name": "Lrg edition",
+            "physical_format": "Paperback",
+            "key": "/books/OL8502106M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "subjects": [
+                "19th century fiction",
+                "Fiction",
+                "Literature - Classics / Criticism",
+                "Literature: Classics",
+                "Classics",
+                "Fiction / Classics"
+            ],
+            "isbn_13": [
+                "9781425052904"
+            ],
+            "source_records": [
+                "amazon:1425052908:fh:1151555993:191738",
+                "bwb:9781425052904"
+            ],
+            "title": "Anna Karenina Volume 8 [EasyRead Large Edition]",
+            "number_of_pages": 152,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "1425052908"
+            ],
+            "publish_date": "November 1, 2006",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9.2 x 6.1 x 0.3 inches",
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL8502088M": {
+            "publishers": [
+                "www.ReadHowYouWant.com"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "161096"
+                ]
+            },
+            "weight": "8.2 ounces",
+            "covers": [
+                1826924
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL8502088M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "subjects": [
+                "19th century fiction",
+                "Fiction",
+                "Literature - Classics / Criticism",
+                "Literature: Classics",
+                "Classics",
+                "Fiction / Classics"
+            ],
+            "isbn_13": [
+                "9781425052706"
+            ],
+            "source_records": [
+                "amazon:1425052703:fh:1148656644:150225",
+                "bwb:9781425052706"
+            ],
+            "title": "Anna Karenina Volume 4 [EasyRead Edition]",
+            "number_of_pages": 160,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "1425052703"
+            ],
+            "publish_date": "November 1, 2006",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9.2 x 6.1 x 0.3 inches",
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL8501397M": {
+            "publishers": [
+                "www.ReadHowYouWant.com"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "161080"
+                ]
+            },
+            "weight": "1 pounds",
+            "covers": [
+                1825819
+            ],
+            "edition_name": "Lrg edition",
+            "physical_format": "Paperback",
+            "key": "/books/OL8501397M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "subjects": [
+                "General & Literary Fiction",
+                "Fiction",
+                "Fiction - General",
+                "General",
+                "Fiction / General"
+            ],
+            "isbn_13": [
+                "9781425017064"
+            ],
+            "source_records": [
+                "amazon:1425017061:fh:1023868065:150933",
+                "bwb:9781425017064"
+            ],
+            "title": "Anna Karenina, Volume 3 (Large Print)",
+            "number_of_pages": 320,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "1425017061"
+            ],
+            "publish_date": "January 1, 2006",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9.3 x 6.3 x 0.7 inches",
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL8502093M": {
+            "publishers": [
+                "www.ReadHowYouWant.com"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "1047406"
+                ]
+            },
+            "weight": "13 ounces",
+            "covers": [
+                1826929
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL8502093M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "subjects": [
+                "19th century fiction",
+                "Fiction",
+                "Literature - Classics / Criticism",
+                "Literature: Classics",
+                "Classics",
+                "Fiction / Classics"
+            ],
+            "isbn_13": [
+                "9781425052768"
+            ],
+            "source_records": [
+                "amazon:1425052762:fh:1149404449:188832",
+                "bwb:9781425052768"
+            ],
+            "title": "Anna Karenina Volume 1 [EasyRead Comfort Edition]",
+            "number_of_pages": 260,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "1425052762"
+            ],
+            "publish_date": "November 1, 2006",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9.2 x 6.1 x 0.6 inches",
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL8502086M": {
+            "publishers": [
+                "www.ReadHowYouWant.com"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "909030"
+                ]
+            },
+            "weight": "11 ounces",
+            "covers": [
+                1826922
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL8502086M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "subjects": [
+                "19th century fiction",
+                "Fiction",
+                "Literature - Classics / Criticism",
+                "Literature: Classics",
+                "Classics",
+                "Fiction / Classics"
+            ],
+            "isbn_13": [
+                "9781425052683"
+            ],
+            "source_records": [
+                "amazon:1425052681:fh:1148354877:151506",
+                "bwb:9781425052683"
+            ],
+            "title": "Anna Karenina Volume 1 [EasyRead Edition]",
+            "number_of_pages": 220,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "1425052681"
+            ],
+            "publish_date": "November 1, 2006",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9.2 x 6.1 x 0.5 inches",
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL8501395M": {
+            "publishers": [
+                "www.ReadHowYouWant.com"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "1038121"
+                ]
+            },
+            "weight": "15.8 ounces",
+            "covers": [
+                1825817
+            ],
+            "edition_name": "Lrg edition",
+            "physical_format": "Paperback",
+            "key": "/books/OL8501395M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "subjects": [
+                "General & Literary Fiction",
+                "Biography & Autobiography",
+                "Fiction - General",
+                "Biography/Autobiography",
+                "General",
+                "Fiction / General",
+                "Women"
+            ],
+            "isbn_13": [
+                "9781425017040"
+            ],
+            "source_records": [
+                "amazon:1425017045:fh:1023577876:146166",
+                "bwb:9781425017040"
+            ],
+            "title": "Anna Karenina, Volume 1",
+            "number_of_pages": 320,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "1425017045"
+            ],
+            "publish_date": "January 1, 2006",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9.2 x 6.1 x 0.7 inches",
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL8502100M": {
+            "publishers": [
+                "www.ReadHowYouWant.com"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "466152"
+                ]
+            },
+            "weight": "1.1 pounds",
+            "covers": [
+                1826937
+            ],
+            "edition_name": "Lrg edition",
+            "physical_format": "Paperback",
+            "key": "/books/OL8502100M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "subjects": [
+                "19th century fiction",
+                "Fiction",
+                "Literature - Classics / Criticism",
+                "Literature: Classics",
+                "Classics",
+                "Fiction / Classics"
+            ],
+            "isbn_13": [
+                "9781425052843"
+            ],
+            "source_records": [
+                "amazon:1425052843:fh:1150569605:154524",
+                "bwb:9781425052843"
+            ],
+            "title": "Anna Karenina Volume 1 [EasyRead Large Edition]",
+            "number_of_pages": 348,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "1425052843"
+            ],
+            "publish_date": "November 1, 2006",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9.2 x 6.1 x 0.9 inches",
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL56180205M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "isbn_13": [
+                "9781548856045"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 324,
+            "publish_date": "2017",
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "source_records": [
+                "bwb:9781548856045"
+            ],
+            "title": "Anna Karenina",
+            "weight": "0.932",
+            "subtitle": "8. 5 X 11",
+            "full_title": "Anna Karenina 8. 5 X 11",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL56180205M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-10-01T21:05:24.326011"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:58:47.103621"
+            }
+        },
+        "/books/OL56230345M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "isbn_13": [
+                "9781530053537"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 532,
+            "publish_date": "2016",
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "source_records": [
+                "bwb:9781530053537"
+            ],
+            "title": "Anna Karenina",
+            "weight": "1.136",
+            "subtitle": "Part 1-4",
+            "full_title": "Anna Karenina Part 1-4",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL56230345M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-10-02T03:59:20.388750"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:58:47.103621"
+            }
+        },
+        "/books/OL55500538M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                },
+                {
+                    "key": "/authors/OL8654052A"
+                }
+            ],
+            "isbn_13": [
+                "9781984028549"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "number_of_pages": 426,
+            "publish_date": "2018",
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "source_records": [
+                "bwb:9781984028549"
+            ],
+            "title": "Anna Karénine",
+            "weight": "0.718",
+            "subtitle": "Tome I",
+            "full_title": "Anna Karénine Tome I",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL55500538M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-09-27T17:07:41.618083"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:58:47.103621"
+            }
+        },
+        "/books/OL56673333M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                },
+                {
+                    "key": "/authors/OL14704102A"
+                },
+                {
+                    "key": "/authors/OL8342407A"
+                }
+            ],
+            "isbn_13": [
+                "9781535293037"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "number_of_pages": 452,
+            "publish_date": "2016",
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "source_records": [
+                "bwb:9781535293037"
+            ],
+            "title": "Anna Karénine",
+            "weight": "0.759",
+            "full_title": "Anna Karénine",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL56673333M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-10-04T21:15:21.735882"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:58:47.103621"
+            }
+        },
+        "/books/OL34852633M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "isbn_13": [
+                "9781625586070"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2013",
+            "publishers": [
+                "Start Publishing LLC"
+            ],
+            "source_records": [
+                "bwb:9781625586070"
+            ],
+            "subjects": [
+                "Married people, fiction",
+                "Continental european fiction (fictional works by one author)"
+            ],
+            "title": "Anna Karenina",
+            "pagination": "1083",
+            "full_title": "Anna Karenina",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL34852633M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-08T16:52:53.870431"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-15T03:11:49.727755"
+            }
+        },
+        "/books/OL34400529M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "isbn_13": [
+                "9788491051930"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/spa"
+                }
+            ],
+            "number_of_pages": 1040,
+            "publish_date": "2016",
+            "publishers": [
+                "Penguin Random House Grupo Editorial"
+            ],
+            "source_records": [
+                "bwb:9788491051930"
+            ],
+            "title": "Anna Karenina",
+            "weight": "0.691",
+            "full_title": "Anna Karenina",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL34400529M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-03T19:44:52.157015"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-05-21T20:20:20.487297"
+            }
+        },
+        "/books/OL34048785M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "isbn_13": [
+                "9781927854525"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 865,
+            "publish_date": "2014",
+            "publishers": [
+                "Joe Books Inc."
+            ],
+            "source_records": [
+                "bwb:9781927854525"
+            ],
+            "subjects": [
+                "Married people, fiction",
+                "Literature and fiction, historical fiction"
+            ],
+            "title": "Anna Karenina",
+            "full_title": "Anna Karenina",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL34048785M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-09-29T21:42:42.979992"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-04-07T16:17:07.616726"
+            }
+        },
+        "/books/OL34043510M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "isbn_13": [
+                "9781772753684"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 640,
+            "publish_date": "2016",
+            "publishers": [
+                "Joe Books Inc."
+            ],
+            "source_records": [
+                "bwb:9781772753684"
+            ],
+            "subjects": [
+                "Married people, fiction",
+                "Literature and fiction, historical fiction"
+            ],
+            "title": "Anna Karenina",
+            "full_title": "Anna Karenina",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL34043510M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-09-29T20:47:23.274099"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-15T03:11:31.250229"
+            }
+        },
+        "/books/OL34064732M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "isbn_13": [
+                "9781772751048"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 865,
+            "publish_date": "2015",
+            "publishers": [
+                "Joe Books Inc."
+            ],
+            "source_records": [
+                "bwb:9781772751048"
+            ],
+            "subjects": [
+                "Married people, fiction",
+                "Literature and fiction, historical fiction"
+            ],
+            "title": "Anna Karenina",
+            "full_title": "Anna Karenina",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL34064732M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-09-30T00:31:50.787196"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-11-01T10:17:29.696993"
+            }
+        },
+        "/books/OL34876948M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "isbn_13": [
+                "9781629920122"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "publish_date": "2015",
+            "publishers": [
+                "Fairhaven Press"
+            ],
+            "source_records": [
+                "bwb:9781629920122"
+            ],
+            "subjects": [
+                "Fiction, historical, general"
+            ],
+            "title": "Anna Karenina",
+            "subtitle": "FHP Masters of Literature Series",
+            "full_title": "Anna Karenina FHP Masters of Literature Series",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL34876948M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-10-08T22:28:06.070172"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-15T03:11:50.864501"
+            }
+        },
+        "/books/OL32974110M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "1960",
+            "publish_country": "enk",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "series": [
+                "Everyman's library -- no. 612-3"
+            ],
+            "title": "Anna Karenina",
+            "by_statement": "translated by Rochelle S. Townsend ; introduction by Nikolay Andreyev. --",
+            "publishers": [
+                "Dent"
+            ],
+            "publish_places": [
+                "London"
+            ],
+            "pagination": "2 v. --",
+            "ocaid": "annakarenina0002tols",
+            "source_records": [
+                "ia:annakarenina0002tols"
+            ],
+            "full_title": "Anna Karenina",
+            "covers": [
+                11589221
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL32974110M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-08-12T08:23:42.137925"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2022-05-23T13:13:14.752175"
+            }
+        },
+        "/books/OL33873632M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Anna Karenina",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "publish_date": "May 10, 2020",
+            "source_records": [
+                "amazon:1800602014"
+            ],
+            "number_of_pages": 542,
+            "publishers": [
+                "USA Public Domain Books"
+            ],
+            "isbn_10": [
+                "1800602014"
+            ],
+            "isbn_13": [
+                "9781800602014"
+            ],
+            "physical_format": "paperback",
+            "full_title": "Anna Karenina",
+            "covers": [
+                11986443
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL33873632M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-09-23T05:37:23.083763"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-15T03:11:38.998999"
+            }
+        },
+        "/books/OL8350089M": {
+            "title": "Anna Karenina",
+            "publish_date": "September 1, 1985",
+            "publishers": [
+                "Random House Audio"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_13": [
+                "9780871881939"
+            ],
+            "physical_format": "Audio cassette",
+            "isbn_10": [
+                "0871881934"
+            ],
+            "oclc_numbers": [
+                "13074746"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Non-Classifiable",
+                "Audio Adult: Books On Tape"
+            ],
+            "source_records": [
+                "amazon:0871881934"
+            ],
+            "key": "/books/OL8350089M",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "latest_revision": 6,
+            "revision": 6,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-02-28T03:35:30.979213"
+            }
+        },
+        "/books/OL58674380M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Anna Karenina",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "publish_date": "1961",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 810,
+            "publishers": [
+                "A Signet Classic"
+            ],
+            "ocaid": "bwb_P9-DUB-468",
+            "source_records": [
+                "ia:bwb_P9-DUB-468"
+            ],
+            "full_title": "Anna Karenina",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL58674380M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-04-27T11:11:08.034809"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL58677765M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Anna Karenina",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "publish_date": "1944",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 750,
+            "ocaid": "bwb_P9-EDA-938",
+            "source_records": [
+                "ia:bwb_P9-EDA-938"
+            ],
+            "full_title": "Anna Karenina",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL58677765M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-04-27T11:55:50.202685"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL49812963M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "isbn_10": [
+                "102062566X"
+            ],
+            "isbn_13": [
+                "9781020625664"
+            ],
+            "local_id": [
+                "urn:bwbsku:O9-ACL-314"
+            ],
+            "publish_date": "2023-07-18",
+            "publishers": [
+                "Legare Street Press"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2023-10-24:O9-ACL-314",
+                "bwb:9781020625664"
+            ],
+            "title": "The Novels And Other Works Of Lyof N. Tolstoï",
+            "subtitle": "Anna Karenina",
+            "full_title": "The Novels And Other Works Of Lyof N. Tolstoï Anna Karenina",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL49812963M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-10-26T01:05:27.968481"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL50912519M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                },
+                {
+                    "key": "/authors/OL2797380A"
+                }
+            ],
+            "isbn_13": [
+                "9781021434098"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "472",
+            "publish_date": "2023",
+            "publishers": [
+                "Creative Media Partners, LLC"
+            ],
+            "source_records": [
+                "bwb:9781021434098"
+            ],
+            "title": "Novels and Other Works of Lyof N. Tolstoï",
+            "weight": "0.655",
+            "subtitle": "Master and Man. the Kreutzer Sonata. Dramas",
+            "full_title": "Novels and Other Works of Lyof N. Tolstoï Master and Man. the Kreutzer Sonata. Dramas",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL50912519M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-01-31T23:35:52.431470"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL49076012M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL13070569A"
+                },
+                {
+                    "key": "/authors/OL12935156A"
+                },
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "isbn_13": [
+                "9798480112405"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "550",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798480112405",
+                "promise:bwb_daily_pallets_2024-01-16:P9-AVT-655"
+            ],
+            "title": "Anna Karenina",
+            "weight": "1.545",
+            "full_title": "Anna Karenina",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL49076012M",
+            "local_id": [
+                "urn:bwbsku:P9-AVT-655"
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B00XF75QZ4"
+                ],
+                "better_world_books": [
+                    "BWBM59015957"
+                ]
+            },
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-07-18T07:01:19.039380"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL49687591M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "isbn_13": [
+                "9781105494840"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "360",
+            "publish_date": "2012",
+            "publishers": [
+                "Lulu Press, Inc."
+            ],
+            "source_records": [
+                "bwb:9781105494840"
+            ],
+            "title": "Anna Karenina",
+            "weight": "0.627",
+            "subtitle": "English-Russian Parallel Text Edition Volume Five",
+            "full_title": "Anna Karenina English-Russian Parallel Text Edition Volume Five",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL49687591M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-10-17T03:29:54.114265"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL49700499M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "isbn_13": [
+                "9781105519314"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "168",
+            "publish_date": "2012",
+            "publishers": [
+                "Lulu Press, Inc."
+            ],
+            "source_records": [
+                "bwb:9781105519314"
+            ],
+            "title": "Anna Karenina",
+            "weight": "0.305",
+            "subtitle": "English-Russian Parallel Text Edition Volume Eight",
+            "full_title": "Anna Karenina English-Russian Parallel Text Edition Volume Eight",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL49700499M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-10-17T04:11:28.660104"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL49700578M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "isbn_13": [
+                "9781105517693"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "366",
+            "publish_date": "2012",
+            "publishers": [
+                "Lulu Press, Inc."
+            ],
+            "source_records": [
+                "bwb:9781105517693"
+            ],
+            "title": "Anna Karenina",
+            "subtitle": "English-Russian Parallel Text Edition Volume Six",
+            "full_title": "Anna Karenina English-Russian Parallel Text Edition Volume Six",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL49700578M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-10-17T04:11:39.721944"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL49708789M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "isbn_13": [
+                "9781105494499"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "376",
+            "publish_date": "2012",
+            "publishers": [
+                "Lulu Press, Inc."
+            ],
+            "source_records": [
+                "bwb:9781105494499"
+            ],
+            "title": "Anna Karenina",
+            "subtitle": "English-Russian Parallel Text Edition Volume Two",
+            "full_title": "Anna Karenina English-Russian Parallel Text Edition Volume Two",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL49708789M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-10-17T04:38:53.427318"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL49724659M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "isbn_13": [
+                "9781105494628"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "254",
+            "publish_date": "2012",
+            "publishers": [
+                "Lulu Press, Inc."
+            ],
+            "source_records": [
+                "bwb:9781105494628"
+            ],
+            "title": "Anna Karenina",
+            "subtitle": "English-Russian Parallel Text Edition Volume Four",
+            "full_title": "Anna Karenina English-Russian Parallel Text Edition Volume Four",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL49724659M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-10-17T05:32:41.250444"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL49748801M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "isbn_13": [
+                "9781105494406"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "364",
+            "publish_date": "2012",
+            "publishers": [
+                "Lulu Press, Inc."
+            ],
+            "source_records": [
+                "bwb:9781105494406"
+            ],
+            "title": "Anna Karenina",
+            "subtitle": "English-Russian Parallel Text Edition Volume One",
+            "full_title": "Anna Karenina English-Russian Parallel Text Edition Volume One",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL49748801M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-10-17T07:12:14.009680"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL50562972M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "identifiers": {
+                "amazon": [
+                    "B0010A5OMI"
+                ],
+                "better_world_books": [
+                    "BWB21552742"
+                ]
+            },
+            "local_id": [
+                "urn:bwbsku:P9-CWL-411"
+            ],
+            "publish_date": "1946",
+            "publishers": [
+                "Fine Editions Press"
+            ],
+            "source_records": [
+                "promise:bwb_daily_pallets_2024-01-24:P9-CWL-411"
+            ],
+            "title": "Anna Karenina",
+            "full_title": "Anna Karenina",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL50562972M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-01-26T01:10:46.400523"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL40145571M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "isbn_13": [
+                "9798834862031"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "560",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798834862031"
+            ],
+            "title": "Anna Karénine - Tome II",
+            "weight": "0.809",
+            "full_title": "Anna Karénine - Tome II",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL40145571M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-10-19T21:08:57.643200"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL42664770M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "isbn_13": [
+                "9798431785221"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "558",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798431785221"
+            ],
+            "title": "Anna Karénine - Tome II",
+            "weight": "0.805",
+            "full_title": "Anna Karénine - Tome II",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL42664770M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-03T06:23:59.546226"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL46155671M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "isbn_13": [
+                "9798361220144"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "560",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798361220144"
+            ],
+            "title": "Anna Karénine - Tome II",
+            "weight": "0.809",
+            "full_title": "Anna Karénine - Tome II",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL46155671M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-01-17T11:49:19.465832"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL11859296M": {
+            "publishers": [
+                "ReadHowYouWant.com"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "331452"
+                ]
+            },
+            "weight": "13.8 ounces",
+            "covers": [
+                2822313
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL11859296M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "subjects": [
+                "Fiction / Classics"
+            ],
+            "isbn_13": [
+                "9781425058326"
+            ],
+            "source_records": [
+                "amazon:1425058329"
+            ],
+            "title": "Anna Karenina Volume VI [EasyRead Edition]",
+            "number_of_pages": 220,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "1425058329"
+            ],
+            "publish_date": "January 1, 2007",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9 x 6 x 0.6 inches",
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL11859434M": {
+            "publishers": [
+                "ReadHowYouWant.com"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "921129"
+                ]
+            },
+            "weight": "1.3 pounds",
+            "covers": [
+                2822451
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL11859434M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "subjects": [
+                "Fiction / Classics"
+            ],
+            "isbn_13": [
+                "9781425060138"
+            ],
+            "source_records": [
+                "amazon:1425060137"
+            ],
+            "title": "Anna Karenina Volume V [EasyRead Large Edition]",
+            "number_of_pages": 336,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "1425060137"
+            ],
+            "publish_date": "January 1, 2007",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9 x 6 x 0.8 inches",
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL11859364M": {
+            "publishers": [
+                "ReadHowYouWant.com"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "921221"
+                ]
+            },
+            "weight": "11.7 ounces",
+            "covers": [
+                2822381
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL11859364M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "subjects": [
+                "Fiction / Classics"
+            ],
+            "isbn_13": [
+                "9781425059217"
+            ],
+            "source_records": [
+                "amazon:142505921X"
+            ],
+            "title": "Anna Karenina Volume IV [EasyRead Comfort Edition]",
+            "number_of_pages": 184,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "142505921X"
+            ],
+            "publish_date": "January 1, 2007",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9 x 6 x 0.5 inches",
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL11859294M": {
+            "publishers": [
+                "ReadHowYouWant.com"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "1744130"
+                ]
+            },
+            "weight": "10.4 ounces",
+            "covers": [
+                2822311
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL11859294M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "subjects": [
+                "Fiction / Classics"
+            ],
+            "isbn_13": [
+                "9781425058302"
+            ],
+            "source_records": [
+                "amazon:1425058302"
+            ],
+            "title": "Anna Karenina Volume IV [EasyRead Edition]",
+            "number_of_pages": 160,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "1425058302"
+            ],
+            "publish_date": "January 1, 2007",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9 x 6 x 0.4 inches",
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL11859232M": {
+            "number_of_pages": 336,
+            "weight": "1.3 pounds",
+            "covers": [
+                2822248
+            ],
+            "source_records": [
+                "amazon:1425057381"
+            ],
+            "title": "Anna Karenina Volume III (Large Print)",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Fiction / Classics"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9 x 6 x 0.8 inches",
+            "publishers": [
+                "ReadHowYouWant.com"
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL11859232M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "1688432"
+                ]
+            },
+            "isbn_13": [
+                "9781425057381"
+            ],
+            "isbn_10": [
+                "1425057381"
+            ],
+            "publish_date": "January 1, 2007",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL11859432M": {
+            "publishers": [
+                "ReadHowYouWant.com"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "1744129"
+                ]
+            },
+            "weight": "1.3 pounds",
+            "covers": [
+                2822449
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL11859432M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "subjects": [
+                "Fiction / Classics"
+            ],
+            "isbn_13": [
+                "9781425060114"
+            ],
+            "source_records": [
+                "amazon:1425060110"
+            ],
+            "title": "Anna Karenina Volume III [EasyRead Large Edition]",
+            "number_of_pages": 352,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "1425060110"
+            ],
+            "publish_date": "January 1, 2007",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9 x 6 x 0.9 inches",
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL11859293M": {
+            "publishers": [
+                "ReadHowYouWant.com"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "1744128"
+                ]
+            },
+            "weight": "13.8 ounces",
+            "covers": [
+                2822310
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL11859293M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "subjects": [
+                "Fiction / Classics"
+            ],
+            "isbn_13": [
+                "9781425058296"
+            ],
+            "source_records": [
+                "amazon:1425058299"
+            ],
+            "title": "Anna Karenina Volume III [EasyRead Edition]",
+            "number_of_pages": 220,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "1425058299"
+            ],
+            "publish_date": "January 1, 2007",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9 x 6 x 0.6 inches",
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL8501402M": {
+            "publishers": [
+                "www.ReadHowYouWant.com"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "903507"
+                ]
+            },
+            "weight": "7.7 ounces",
+            "covers": [
+                1825824
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL8501402M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "subjects": [
+                "General & Literary Fiction",
+                "General",
+                "Fiction / General",
+                "Fiction",
+                "Fiction - General"
+            ],
+            "isbn_13": [
+                "9781425017118"
+            ],
+            "source_records": [
+                "amazon:1425017118:fh:1024634161:143410",
+                "bwb:9781425017118"
+            ],
+            "title": "Anna Karenina, Volume 8",
+            "number_of_pages": 148,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "1425017118"
+            ],
+            "publish_date": "January 1, 2006",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9.2 x 6.1 x 0.3 inches",
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL8502099M": {
+            "publishers": [
+                "www.ReadHowYouWant.com"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "482499"
+                ]
+            },
+            "weight": "6.1 ounces",
+            "covers": [
+                1826935
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL8502099M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "subjects": [
+                "19th century fiction",
+                "Fiction",
+                "Literature - Classics / Criticism",
+                "Literature: Classics",
+                "Classics",
+                "Fiction / Classics"
+            ],
+            "isbn_13": [
+                "9781425052829"
+            ],
+            "source_records": [
+                "amazon:1425052827:fh:1150418960:150627",
+                "bwb:9781425052829"
+            ],
+            "title": "Anna Karenina Volume 8 [EasyRead Comfort Edition]",
+            "number_of_pages": 116,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "1425052827"
+            ],
+            "publish_date": "November 1, 2006",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9.2 x 6.1 x 0.2 inches",
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL8501400M": {
+            "publishers": [
+                "www.ReadHowYouWant.com"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "1047399"
+                ]
+            },
+            "weight": "1.1 pounds",
+            "covers": [
+                1825822
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL8501400M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "subjects": [
+                "General & Literary Fiction",
+                "General",
+                "Fiction / General",
+                "Fiction",
+                "Fiction - General"
+            ],
+            "isbn_13": [
+                "9781425017095"
+            ],
+            "source_records": [
+                "amazon:1425017096:fh:1024305049:185390",
+                "bwb:9781425017095"
+            ],
+            "title": "Anna Karenina, Volume 6",
+            "number_of_pages": 344,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "1425017096"
+            ],
+            "publish_date": "January 1, 2006",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9.2 x 6.1 x 0.7 inches",
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL8502104M": {
+            "publishers": [
+                "www.ReadHowYouWant.com"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "921235"
+                ]
+            },
+            "weight": "1.1 pounds",
+            "covers": [
+                1826941
+            ],
+            "edition_name": "Lrg edition",
+            "physical_format": "Paperback",
+            "key": "/books/OL8502104M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "subjects": [
+                "19th century fiction",
+                "Fiction",
+                "Literature - Classics / Criticism",
+                "Literature: Classics",
+                "Classics",
+                "Fiction / Classics"
+            ],
+            "isbn_13": [
+                "9781425052881"
+            ],
+            "source_records": [
+                "amazon:1425052886:fh:1151171777:191787",
+                "amazon:1425052886",
+                "bwb:9781425052881"
+            ],
+            "title": "Anna Karenina Volume 6 [EasyRead Large Edition]",
+            "number_of_pages": 356,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "1425052886"
+            ],
+            "publish_date": "November 1, 2006",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9.2 x 6.1 x 0.7 inches",
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL8502097M": {
+            "publishers": [
+                "www.ReadHowYouWant.com"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "921228"
+                ]
+            },
+            "weight": "13 ounces",
+            "covers": [
+                1826933
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL8502097M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "subjects": [
+                "19th century fiction",
+                "Fiction",
+                "Literature - Classics / Criticism",
+                "Literature: Classics",
+                "Classics",
+                "Fiction / Classics"
+            ],
+            "isbn_13": [
+                "9781425052805"
+            ],
+            "source_records": [
+                "amazon:1425052800:fh:1150083765:185249",
+                "bwb:9781425052805"
+            ],
+            "title": "Anna Karenina Volume 6 [EasyRead Comfort Edition]",
+            "number_of_pages": 260,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "1425052800"
+            ],
+            "publish_date": "November 1, 2006",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9.2 x 6.1 x 0.6 inches",
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL8502090M": {
+            "publishers": [
+                "www.ReadHowYouWant.com"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "1047404"
+                ]
+            },
+            "weight": "11.2 ounces",
+            "covers": [
+                1826926
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL8502090M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "subjects": [
+                "19th century fiction",
+                "Fiction",
+                "Literature - Classics / Criticism",
+                "Literature: Classics",
+                "Classics",
+                "Fiction / Classics"
+            ],
+            "isbn_13": [
+                "9781425052720"
+            ],
+            "source_records": [
+                "amazon:142505272X:fh:1148954380:151010",
+                "bwb:9781425052720"
+            ],
+            "title": "Anna Karenina Volume 6 [EasyRead Edition]",
+            "number_of_pages": 224,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "142505272X"
+            ],
+            "publish_date": "November 1, 2006",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9.2 x 6.1 x 0.5 inches",
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL8502095M": {
+            "publishers": [
+                "www.ReadHowYouWant.com"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "989528"
+                ]
+            },
+            "weight": "9.6 ounces",
+            "covers": [
+                1826931
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL8502095M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "subjects": [
+                "19th century fiction",
+                "Fiction",
+                "Literature - Classics / Criticism",
+                "Literature: Classics",
+                "Classics",
+                "Fiction / Classics"
+            ],
+            "isbn_13": [
+                "9781425052782"
+            ],
+            "source_records": [
+                "amazon:1425052789:fh:1149783671:149104",
+                "bwb:9781425052782"
+            ],
+            "title": "Anna Karenina Volume 4 [EasyRead Comfort Edition]",
+            "number_of_pages": 188,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "1425052789"
+            ],
+            "publish_date": "November 1, 2006",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9.2 x 6.1 x 0.4 inches",
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL8502094M": {
+            "publishers": [
+                "www.ReadHowYouWant.com"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "1047407"
+                ]
+            },
+            "weight": "12.8 ounces",
+            "covers": [
+                1826930
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL8502094M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "subjects": [
+                "19th century fiction",
+                "Fiction",
+                "Literature - Classics / Criticism",
+                "Literature: Classics",
+                "Classics",
+                "Fiction / Classics"
+            ],
+            "isbn_13": [
+                "9781425052775"
+            ],
+            "source_records": [
+                "amazon:1425052770:fh:1149593299:190354",
+                "bwb:9781425052775"
+            ],
+            "title": "Anna Karenina Volume 3 [EasyRead Comfort Edition]",
+            "number_of_pages": 256,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "1425052770"
+            ],
+            "publish_date": "November 1, 2006",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9.2 x 6.1 x 0.5 inches",
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL12325386M": {
+            "publishers": [
+                "IndyPublish.com"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "3986956"
+                ]
+            },
+            "weight": "1.1 pounds",
+            "covers": [
+                2946218
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL12325386M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                },
+                {
+                    "key": "/authors/OL2913279A"
+                }
+            ],
+            "subjects": [
+                "Classic fiction",
+                "Modern fiction",
+                "Classics",
+                "Fiction",
+                "Literature - Classics / Criticism"
+            ],
+            "isbn_13": [
+                "9781588276018"
+            ],
+            "source_records": [
+                "amazon:1588276015",
+                "bwb:9781588276018"
+            ],
+            "title": "Anna Karenina (Volume 1)",
+            "number_of_pages": 324,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "1588276015"
+            ],
+            "publish_date": "December 2001",
+            "oclc_numbers": [
+                "52989561"
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "8.7 x 6.5 x 0.8 inches",
+            "contributors": [
+                {
+                    "role": "Translator",
+                    "name": "Constance Black Garnett"
+                }
+            ],
+            "latest_revision": 12,
+            "revision": 12,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-02-28T20:16:07.377271"
+            }
+        },
+        "/books/OL53593756M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "publish_date": "2007",
+            "publish_country": "is",
+            "languages": [
+                {
+                    "key": "/languages/heb"
+                }
+            ],
+            "work_titles": [
+                "Anna Karenina"
+            ],
+            "title": "אנה קרנינה",
+            "other_titles": [
+                "Anah Ḳareninah"
+            ],
+            "by_statement": "L.N. Ṭolsṭoi ; me-Anglit Eṿelin Leṿi",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "oclc_numbers": [
+                "124504726"
+            ],
+            "edition_name": "Mahadurah meḳutseret.",
+            "contributions": [
+                "Levy, Evelyn"
+            ],
+            "publishers": [
+                "ʻOfarim"
+            ],
+            "publish_places": [
+                "Kefar Monash"
+            ],
+            "pagination": "127 p.",
+            "number_of_pages": 127,
+            "source_records": [
+                "marc:harvard_bibliographic_metadata/ab.bib.10.20150123.full.mrc:234553822:833"
+            ],
+            "full_title": "אנה קרנינה",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL53593756M",
+            "latest_revision": 2,
+            "revision": 2,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-09-02T12:48:41.388714"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:58:47.103621"
+            }
+        },
+        "/books/OL35620070M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Anna Karenina",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                },
+                {
+                    "key": "/authors/OL2764435A"
+                }
+            ],
+            "publish_date": "Nov 05, 2013",
+            "source_records": [
+                "amazon:8420678449"
+            ],
+            "number_of_pages": 1120,
+            "publishers": [
+                "Alianza Editorial"
+            ],
+            "isbn_10": [
+                "8420678449"
+            ],
+            "isbn_13": [
+                "9788420678443"
+            ],
+            "physical_format": "hardcover",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Anna Karenina (13/20) (Spanish Edition)"
+            },
+            "full_title": "Anna Karenina",
+            "covers": [
+                12327217
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL35620070M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-11-05T18:16:58.496835"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2023-05-21T20:20:20.487297"
+            }
+        },
+        "/books/OL34198366M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL2913279A"
+                },
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "isbn_13": [
+                "9798715915443"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 579,
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798715915443"
+            ],
+            "title": "Anna Karenina",
+            "weight": "1.627",
+            "subtitle": "Original Classics and Annotated",
+            "full_title": "Anna Karenina Original Classics and Annotated",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL34198366M",
+            "contributors": [
+                {
+                    "role": "Translator",
+                    "name": "Constance Black Garnett"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-09-30T23:19:30.905028"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-02-28T20:10:31.718955"
+            }
+        },
+        "/books/OL32922126M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Anna Karenina",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                },
+                {
+                    "key": "/authors/OL81120A"
+                }
+            ],
+            "publish_date": "Mar 17, 2020",
+            "source_records": [
+                "amazon:1094015288"
+            ],
+            "publishers": [
+                "Blackstone Pub",
+                "Naxos"
+            ],
+            "isbn_10": [
+                "1094015288"
+            ],
+            "isbn_13": [
+                "9781094015286"
+            ],
+            "physical_format": "audio cd",
+            "full_title": "Anna Karenina Library Edition",
+            "subtitle": "Library Edition",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: Anna Karenina: Library Edition (The Complete Classics)"
+            },
+            "covers": [
+                11545728
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL32922126M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-08-02T18:31:34.621635"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-15T03:12:17.176263"
+            }
+        },
+        "/books/OL33054334M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "ANNA KARENINA",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "publish_date": "Nov 14, 2019",
+            "source_records": [
+                "amazon:1641814020",
+                "bwb:9781641814027"
+            ],
+            "number_of_pages": 388,
+            "publishers": [
+                "Iboo Press",
+                "iBoo Press House"
+            ],
+            "isbn_10": [
+                "1641814020"
+            ],
+            "isbn_13": [
+                "9781641814027"
+            ],
+            "physical_format": "hardcover",
+            "notes": {
+                "type": "/type/text",
+                "value": "Source title: ANNA KARENINA (The Best Leo Tolstoy Books)"
+            },
+            "full_title": "ANNA KARENINA",
+            "covers": [
+                11756171
+            ],
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL33054334M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2021-08-23T02:48:47.753149"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-01-15T03:12:19.545481"
+            }
+        },
+        "/books/OL13331801M": {
+            "identifiers": {
+                "librarything": [
+                    "2340"
+                ]
+            },
+            "title": "Anna Karenina",
+            "publish_date": "July 1988",
+            "publishers": [
+                "Bantam Books(Classic & Loveswept)"
+            ],
+            "physical_format": "Paperback",
+            "edition_name": "Reissue edition",
+            "type": {
+                "key": "/type/edition"
+            },
+            "subjects": [
+                "Literature: Classics"
+            ],
+            "isbn_10": [
+                "9994542222"
+            ],
+            "isbn_13": [
+                "9789994542222"
+            ],
+            "source_records": [
+                "amazon:9994542222"
+            ],
+            "key": "/books/OL13331801M",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2026-01-30T04:00:31.753808"
+            }
+        },
+        "/books/OL58640159M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Anna Karenina",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "publish_date": "1975",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 874,
+            "publishers": [
+                "Folio Society"
+            ],
+            "ocaid": "bwb_KU-755-807",
+            "source_records": [
+                "ia:bwb_KU-755-807"
+            ],
+            "full_title": "Anna Karenina",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL58640159M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-04-26T21:33:30.109469"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL58685107M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "title": "Anna Karenina",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "publish_date": "1991",
+            "number_of_pages": 880,
+            "publishers": [
+                "Quality Paperback Book Club"
+            ],
+            "ocaid": "bwb_S0-AGN-923",
+            "source_records": [
+                "ia:bwb_S0-AGN-923"
+            ],
+            "full_title": "Anna Karenina",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL58685107M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2025-04-27T13:58:02.214974"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL50749683M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                },
+                {
+                    "key": "/authors/OL2797380A"
+                }
+            ],
+            "isbn_13": [
+                "9781021247339"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "352",
+            "publish_date": "2023",
+            "publishers": [
+                "Creative Media Partners, LLC"
+            ],
+            "source_records": [
+                "bwb:9781021247339"
+            ],
+            "title": "Novels and Other Works of Lyof N. Tolstoï",
+            "weight": "0.495",
+            "subtitle": "The Kingdom of God Is Within You. What Is Art?",
+            "full_title": "Novels and Other Works of Lyof N. Tolstoï The Kingdom of God Is Within You. What Is Art?",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL50749683M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-01-31T11:24:03.838288"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL50764349M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                },
+                {
+                    "key": "/authors/OL2797380A"
+                }
+            ],
+            "isbn_13": [
+                "9781019433461"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "478",
+            "publish_date": "2023",
+            "publishers": [
+                "Creative Media Partners, LLC"
+            ],
+            "source_records": [
+                "bwb:9781019433461"
+            ],
+            "title": "Novels and Other Works of Lyof N. Tolstoï",
+            "weight": "0.845",
+            "subtitle": "My Confession. My Religion. the Gospel in Brief",
+            "full_title": "Novels and Other Works of Lyof N. Tolstoï My Confession. My Religion. the Gospel in Brief",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL50764349M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-01-31T12:28:26.693245"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL49085863M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "isbn_13": [
+                "9798615106729"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "35",
+            "publish_date": "2020",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798615106729"
+            ],
+            "title": "Anna Karenina",
+            "weight": "0.100",
+            "full_title": "Anna Karenina",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL49085863M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-07-18T07:41:37.040641"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL49700601M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "isbn_13": [
+                "9781105494543"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "pagination": "362",
+            "publish_date": "2012",
+            "publishers": [
+                "Lulu Press, Inc."
+            ],
+            "source_records": [
+                "bwb:9781105494543"
+            ],
+            "title": "Anna Karenina",
+            "subtitle": "English-Russian Parallel Text Edition Volume Three",
+            "full_title": "Anna Karenina English-Russian Parallel Text Edition Volume Three",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL49700601M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-10-17T04:11:43.226456"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL39668047M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "isbn_13": [
+                "9798835602841"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "560",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798835602841"
+            ],
+            "title": "Anna Karénine - Tome II",
+            "weight": "0.809",
+            "full_title": "Anna Karénine - Tome II",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL39668047M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-09-18T17:48:31.445681"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL44316920M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "isbn_13": [
+                "9798361557981"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "560",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798361557981"
+            ],
+            "title": "Anna Karénine - Tome II",
+            "weight": "0.809",
+            "full_title": "Anna Karénine - Tome II",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL44316920M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-17T23:44:39.673421"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL44321622M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "isbn_13": [
+                "9798832134673"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "560",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798832134673"
+            ],
+            "title": "Anna Karénine - Tome II",
+            "weight": "0.809",
+            "full_title": "Anna Karénine - Tome II",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL44321622M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-12-17T23:59:22.863197"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL46693946M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "isbn_13": [
+                "9798360098300"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "560",
+            "publish_date": "2022",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798360098300"
+            ],
+            "title": "Anna Karénine - Tome II",
+            "weight": "0.809",
+            "full_title": "Anna Karénine - Tome II",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL46693946M",
+            "latest_revision": 4,
+            "revision": 4,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2023-02-17T12:04:25.520705"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL38495772M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "isbn_13": [
+                "9798517447692"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "pagination": "560",
+            "publish_date": "2021",
+            "publishers": [
+                "Independently Published"
+            ],
+            "source_records": [
+                "bwb:9798517447692"
+            ],
+            "title": "Anna Karénine - Tome II Illustree",
+            "weight": "0.809",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL38495772M",
+            "latest_revision": 3,
+            "revision": 3,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2022-06-19T13:55:23.222482"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL11859366M": {
+            "publishers": [
+                "ReadHowYouWant.com"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "1744135"
+                ]
+            },
+            "weight": "15.7 ounces",
+            "covers": [
+                2822383
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL11859366M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "subjects": [
+                "Fiction / Classics"
+            ],
+            "isbn_13": [
+                "9781425059231"
+            ],
+            "source_records": [
+                "amazon:1425059236"
+            ],
+            "title": "Anna Karenina Volume VI [EasyRead Comfort Edition]",
+            "number_of_pages": 256,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "1425059236"
+            ],
+            "publish_date": "January 1, 2007",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9 x 6 x 0.6 inches",
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL11859235M": {
+            "number_of_pages": 344,
+            "weight": "1.3 pounds",
+            "covers": [
+                2822251
+            ],
+            "source_records": [
+                "amazon:1425057411"
+            ],
+            "title": "Anna Karenina Volume VI (Large Print)",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Fiction / Classics"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9 x 6 x 0.9 inches",
+            "publishers": [
+                "ReadHowYouWant.com"
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL11859235M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "1744134"
+                ]
+            },
+            "isbn_13": [
+                "9781425057411"
+            ],
+            "isbn_10": [
+                "1425057411"
+            ],
+            "publish_date": "January 1, 2007",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL11859234M": {
+            "number_of_pages": 328,
+            "weight": "1.2 pounds",
+            "covers": [
+                2822250
+            ],
+            "source_records": [
+                "amazon:1425057403"
+            ],
+            "title": "Anna Karenina Volume V (Large Print)",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Fiction / Classics"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9 x 6 x 0.8 inches",
+            "publishers": [
+                "ReadHowYouWant.com"
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL11859234M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "1744131"
+                ]
+            },
+            "isbn_13": [
+                "9781425057404"
+            ],
+            "isbn_10": [
+                "1425057403"
+            ],
+            "publish_date": "January 1, 2007",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL11859233M": {
+            "number_of_pages": 244,
+            "weight": "15 ounces",
+            "covers": [
+                2822249
+            ],
+            "source_records": [
+                "amazon:142505739X"
+            ],
+            "title": "Anna Karenina Volume IV (Large Print)",
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "subjects": [
+                "Fiction / Classics"
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9 x 6 x 0.6 inches",
+            "publishers": [
+                "ReadHowYouWant.com"
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL11859233M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "249377"
+                ]
+            },
+            "isbn_13": [
+                "9781425057398"
+            ],
+            "isbn_10": [
+                "142505739X"
+            ],
+            "publish_date": "January 1, 2007",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "latest_revision": 7,
+            "revision": 7,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL11859433M": {
+            "publishers": [
+                "ReadHowYouWant.com"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "482493"
+                ]
+            },
+            "weight": "15.2 ounces",
+            "covers": [
+                2822450
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL11859433M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "subjects": [
+                "Fiction / Classics"
+            ],
+            "isbn_13": [
+                "9781425060121"
+            ],
+            "source_records": [
+                "amazon:1425060129"
+            ],
+            "title": "Anna Karenina Volume IV [EasyRead Large Edition]",
+            "number_of_pages": 248,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "1425060129"
+            ],
+            "publish_date": "January 1, 2007",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9 x 6 x 0.6 inches",
+            "latest_revision": 8,
+            "revision": 8,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-30T20:50:18.033121"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL8502092M": {
+            "publishers": [
+                "www.ReadHowYouWant.com"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "1047405"
+                ]
+            },
+            "weight": "5.1 ounces",
+            "covers": [
+                1826928
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL8502092M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "subjects": [
+                "19th century fiction",
+                "Fiction",
+                "Literature - Classics / Criticism",
+                "Literature: Classics",
+                "Classics",
+                "Fiction / Classics"
+            ],
+            "isbn_13": [
+                "9781425052744"
+            ],
+            "source_records": [
+                "amazon:1425052746:fh:1149253908:150523",
+                "bwb:9781425052744"
+            ],
+            "title": "Anna Karenina Volume 8 [EasyRead Edition]",
+            "number_of_pages": 96,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "1425052746"
+            ],
+            "publish_date": "November 1, 2006",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9.2 x 6.1 x 0.2 inches",
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL8501398M": {
+            "publishers": [
+                "www.ReadHowYouWant.com"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "2333538"
+                ]
+            },
+            "weight": "12.2 ounces",
+            "covers": [
+                1825820
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL8501398M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "subjects": [
+                "General & Literary Fiction",
+                "General",
+                "Fiction / General",
+                "Fiction",
+                "Fiction - General"
+            ],
+            "isbn_13": [
+                "9781425017071"
+            ],
+            "source_records": [
+                "amazon:142501707X:fh:1024019016:143843",
+                "bwb:9781425017071"
+            ],
+            "title": "Anna Karenina, Volume 4",
+            "number_of_pages": 244,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "142501707X"
+            ],
+            "publish_date": "January 1, 2006",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9.2 x 6.1 x 0.5 inches",
+            "latest_revision": 10,
+            "revision": 10,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL8502102M": {
+            "publishers": [
+                "www.ReadHowYouWant.com"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "1166557"
+                ]
+            },
+            "weight": "12.5 ounces",
+            "covers": [
+                1826939
+            ],
+            "edition_name": "Lrg edition",
+            "physical_format": "Paperback",
+            "key": "/books/OL8502102M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "subjects": [
+                "19th century fiction",
+                "Fiction",
+                "Literature - Classics / Criticism",
+                "Literature: Classics",
+                "Classics",
+                "Fiction / Classics"
+            ],
+            "isbn_13": [
+                "9781425052867"
+            ],
+            "source_records": [
+                "amazon:142505286X:fh:1150873473:149525",
+                "bwb:9781425052867"
+            ],
+            "title": "Anna Karenina Volume 4 [EasyRead Large Edition]",
+            "number_of_pages": 248,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "142505286X"
+            ],
+            "publish_date": "November 1, 2006",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9.2 x 6.1 x 0.5 inches",
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL8502101M": {
+            "publishers": [
+                "www.ReadHowYouWant.com"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "1057070"
+                ]
+            },
+            "weight": "1.1 pounds",
+            "covers": [
+                1826938
+            ],
+            "edition_name": "Lrg edition",
+            "physical_format": "Paperback",
+            "key": "/books/OL8502101M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "subjects": [
+                "19th century fiction",
+                "Fiction",
+                "Literature - Classics / Criticism",
+                "Literature: Classics",
+                "Classics",
+                "Fiction / Classics"
+            ],
+            "isbn_13": [
+                "9781425052850"
+            ],
+            "source_records": [
+                "amazon:1425052851:fh:1150724147:149308",
+                "bwb:9781425052850"
+            ],
+            "title": "Anna Karenina Volume 3 [EasyRead Large Edition]",
+            "number_of_pages": 352,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "1425052851"
+            ],
+            "publish_date": "November 1, 2006",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9.2 x 6.1 x 0.7 inches",
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL8502087M": {
+            "publishers": [
+                "www.ReadHowYouWant.com"
+            ],
+            "identifiers": {
+                "goodreads": [
+                    "482490"
+                ]
+            },
+            "weight": "11 ounces",
+            "covers": [
+                1826923
+            ],
+            "physical_format": "Paperback",
+            "key": "/books/OL8502087M",
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                }
+            ],
+            "subjects": [
+                "19th century fiction",
+                "Fiction",
+                "Literature - Classics / Criticism",
+                "Literature: Classics",
+                "Classics",
+                "Fiction / Classics"
+            ],
+            "isbn_13": [
+                "9781425052690"
+            ],
+            "source_records": [
+                "amazon:142505269X:fh:1148506401:150225",
+                "bwb:9781425052690"
+            ],
+            "title": "Anna Karenina Volume 3 [EasyRead Edition]",
+            "number_of_pages": 220,
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "isbn_10": [
+                "142505269X"
+            ],
+            "publish_date": "November 1, 2006",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "type": {
+                "key": "/type/edition"
+            },
+            "physical_dimensions": "9.2 x 6.1 x 0.5 inches",
+            "latest_revision": 9,
+            "revision": 9,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2008-04-29T15:03:11.581851"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:59:11.433702"
+            }
+        },
+        "/books/OL56208313M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                },
+                {
+                    "key": "/authors/OL8345577A"
+                }
+            ],
+            "isbn_13": [
+                "9781548158378"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/eng"
+                }
+            ],
+            "number_of_pages": 518,
+            "publish_date": "2017",
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "source_records": [
+                "bwb:9781548158378"
+            ],
+            "title": "Anna Karenina",
+            "weight": "1.459",
+            "subtitle": "Part I",
+            "full_title": "Anna Karenina Part I",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL56208313M",
+            "contributors": [
+                {
+                    "role": "Editor",
+                    "name": "Sheba Blake"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-10-02T00:48:12.409796"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:58:47.103621"
+            }
+        },
+        "/books/OL54998027M": {
+            "type": {
+                "key": "/type/edition"
+            },
+            "authors": [
+                {
+                    "key": "/authors/OL26783A"
+                },
+                {
+                    "key": "/authors/OL8654052A"
+                },
+                {
+                    "key": "/authors/OL9082707A"
+                }
+            ],
+            "isbn_13": [
+                "9781544098111"
+            ],
+            "languages": [
+                {
+                    "key": "/languages/fre"
+                }
+            ],
+            "number_of_pages": 452,
+            "publish_date": "2017",
+            "publishers": [
+                "CreateSpace Independent Publishing Platform"
+            ],
+            "source_records": [
+                "bwb:9781544098111"
+            ],
+            "title": "Anna Karénine",
+            "weight": "0.759",
+            "subtitle": "Tome II",
+            "full_title": "Anna Karénine Tome II",
+            "works": [
+                {
+                    "key": "/works/OL267096W"
+                }
+            ],
+            "key": "/books/OL54998027M",
+            "contributors": [
+                {
+                    "role": "Editor",
+                    "name": "Sir Angels"
+                }
+            ],
+            "latest_revision": 5,
+            "revision": 5,
+            "created": {
+                "type": "/type/datetime",
+                "value": "2024-09-24T16:24:25.232321"
+            },
+            "last_modified": {
+                "type": "/type/datetime",
+                "value": "2025-09-23T16:58:47.103621"
+            }
+        }
+    }
+}
