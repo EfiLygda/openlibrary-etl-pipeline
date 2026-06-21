@@ -1,8 +1,17 @@
 """
 Navigation Router
 
-Endpoints:
+This module defines API endpoints related to API navigation links. These
+endpoints provide discoverable links to related resources for a given entity
+key, allowing clients to navigate between works, editions, authors, and
+associated metadata endpoints.
 
+Endpoints:
+- GET /links/
+  Root endpoint for the links collection (Not Supported)
+
+- GET /links/{key}
+  Retrieve navigation links for a record by key
 """
 
 import psycopg2
