@@ -34,6 +34,7 @@ This project is an independent work and is not affiliated with or endorsed by Op
     * [Error Handling](#error-handling)
       * [HTTP Status Codes](#http-status-codes)
       * [Error Types](#error-types)
+      * [Testing](#testing)
 <!-- TOC -->
 
 ---
@@ -106,7 +107,8 @@ What the project is trying to achieve:
     ├── open_library/             # Core package for Open Library API access and record management
     │
     ├── utilities/                # Reusable helper functions for ETL operations (I/O, logging, validation, DB, and pipeline utilities)
-    │   └───io                    # Input/output utilities for handling CSV and JSON data files
+    │   ├── data/                 # Data batching, parsing, validation and table preparation scripts
+    │   └───io/                   # Input/output utilities for handling CSV and JSON data files
     │
     │── extract.py                # Entry point for extraction stage
     │── transform.py              # Entry point for transformation stage
@@ -143,6 +145,8 @@ This project leverages the following technologies across the ETL and API layers:
     python-dateutil==2.9.0.post0
     tzdata==2026.2
     six==1.17.0
+    pytest==9.1.1
+    httpx2==2.4.0
 
 ---
 
@@ -313,3 +317,13 @@ Each error response includes a domain-specific identifier:
 | `404`          | Not Found - The requested resource does not exist                                   | `WORK_NOT_FOUND_ERROR`, `AUTHOR_NOT_FOUND_ERROR`, `EDITION_NOT_FOUND_ERROR`                                    |
 | `405`          | Method Not Allowed - The HTTP method is not supported for this endpoint             | `LISTING_NOT_SUPPORTED`                                                                                        |
 | `422`          | Unprocessable Content - The request is syntactically valid but semantically invalid | `INVALID_WORK_KEY_ERROR`, `INVALID_AUTHOR_KEY_ERROR`, `INVALID_EDITION_KEY_ERROR`, `INVALID_QUERY_COMBINATION` |
+
+#### Testing
+
+This project uses `pytest` to test FastAPI API endpoints.
+
+Tests are focused on validating request/response behavior, endpoint correctness, and error handling using FastAPI’s `TestClient` without requiring a running server.
+
+To run all tests in the terminal run:
+
+    pytest
