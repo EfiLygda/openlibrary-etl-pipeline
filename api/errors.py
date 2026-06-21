@@ -110,11 +110,6 @@ class WorksErrors:
         description='Work key is invalid'
     )
 
-    QueryConflict = _APIErrorDefinition(
-        status_code=422,
-        error_code='INVALID_QUERY_COMBINATION',
-        description='Only fields \'q\', \'limit\' and \'offset\' can be used for search'
-    )
 
 class AuthorsErrors:
     """
@@ -165,4 +160,20 @@ class LinksErrors:
         status_code=422,
         error_code='INVALID_KEY',
         description='Key is invalid'
+    )
+
+class SearchErrors:
+    """
+    Search definitions
+    """
+    NotFound = _APIErrorDefinition(
+        status_code=404,
+        error_code='NOT_FOUND',
+        description='No data found'
+    )
+
+    QueryConflict = _APIErrorDefinition(
+        status_code=422,
+        error_code='INVALID_QUERY_COMBINATION',
+        description='Only fields \'q\', \'limit\' and \'offset\' can be used for search'
     )

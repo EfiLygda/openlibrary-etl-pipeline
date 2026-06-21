@@ -27,7 +27,7 @@ from fastapi import Request
 
 from api.dependencies import DB_DEPENDENCY
 import api.repository.search as search_repo
-from api.errors import WorksErrors
+from api.errors import SearchErrors
 
 from api.schemas.search import SearchWork
 from api.schemas.responses import RelationshipResponse
@@ -53,8 +53,8 @@ router = APIRouter(
     path="",
     response_model=RelationshipResponse[SearchWork],
     responses={
-        '404': WorksErrors.NotFound.response,
-        '422': WorksErrors.QueryConflict.response
+        '404': SearchErrors.NotFound.response,
+        '422': SearchErrors.QueryConflict.response
     }
 )
 async def search(
@@ -89,7 +89,7 @@ async def search(
     current_query = parse_qs(url_parts.query)
 
     if not all([param_name in ['q', 'limit', 'offset'] for param_name in current_query.keys()]):
-        raise WorksErrors.QueryConflict(query)
+        raise SearchErrors.QueryConflict(query)
 
     # Fetch data
     results = search_repo.search(
@@ -101,7 +101,7 @@ async def search(
 
     # If no data is returned then error is raised
     if results['total_results'] == 0:
-        raise WorksErrors.NotFound(query)
+        raise SearchErrors.NotFound(query)
 
     # Build links
     links = build_pagination_links(
