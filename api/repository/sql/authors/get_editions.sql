@@ -4,11 +4,13 @@ SELECT
     e.subtitle,
     e.edition_name
 FROM
-    authors_works AS aw
+    authors AS a
+    LEFT JOIN authors_works AS aw
+    ON a.author_key = aw.author_key
     LEFT JOIN editions AS e
     ON aw.work_key = e.work_key
 WHERE
-    aw.author_key = %(filter_key)s
+    a.author_key = %(filter_key)s
 ORDER BY
     e.title
 LIMIT

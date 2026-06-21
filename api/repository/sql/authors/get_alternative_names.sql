@@ -1,12 +1,14 @@
 SELECT
     COALESCE(
-        array_agg(author_alternative_name)
-            FILTER (WHERE author_alternative_name IS NOT NULL),
+        array_agg(altnames.author_alternative_name)
+            FILTER (WHERE altnames.author_alternative_name IS NOT NULL),
         ARRAY[]::text[]
     ) AS author_alternative_names
 FROM
-    authors_alternative_names AS altnames
+    authors AS a
+    LEFT JOIN authors_alternative_names AS altnames
+    ON a.author_key = altnames.author_key
 WHERE
-    author_key = %(filter_key)s
+    a.author_key = %(filter_key)s
 GROUP BY
-    author_key
+    a.author_key

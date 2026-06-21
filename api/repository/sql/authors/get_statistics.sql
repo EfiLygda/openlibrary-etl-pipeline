@@ -1,20 +1,22 @@
 SELECT
-    author_key,
+    a.author_key,
 
-    top_work,
-    work_count,
+    astats.top_work,
+    astats.work_count,
 
-    ratings_count_1,
-    ratings_count_2,
-    ratings_count_3,
-    ratings_count_4,
-    ratings_count_5,
+    astats.ratings_count_1,
+    astats.ratings_count_2,
+    astats.ratings_count_3,
+    astats.ratings_count_4,
+    astats.ratings_count_5,
 
-    readinglog_count,
-    want_to_read_count,
-    currently_reading_count,
-    already_read_count
+    astats.readinglog_count,
+    astats.want_to_read_count,
+    astats.currently_reading_count,
+    astats.already_read_count
 FROM
-    authors_statistics
+    authors AS a
+    LEFT JOIN authors_statistics AS astats
+    ON a.author_key = astats.author_key
 WHERE
-    author_key = %(filter_key)s
+    a.author_key = %(filter_key)s
