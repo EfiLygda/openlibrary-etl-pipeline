@@ -12,6 +12,9 @@ Endpoints:
 - GET /editions/{edition_key}
   Retrieve edition records by edition_key
 
+- GET /editions/{edition_key}/works
+  Retrieve work records by edition_key
+
 - GET /editions/{edition_key}/details
   Retrieve detailed edition metadata by edition_key, including structured descriptive fields
 
