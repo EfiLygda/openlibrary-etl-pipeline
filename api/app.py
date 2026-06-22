@@ -29,17 +29,18 @@ load_dotenv()
 GENRE = os.getenv("GENRE")
 API_VERSION = os.getenv("API_VERSION")
 
-# Main FastAPI application instance
-
+# API description
 API_description = ('A FastAPI-based API for searching and retrieving '
                    'structured book metadata stored in a relational '
                    'database derived from Open Library data.')
 
+# API license
 api_license = {
         "name": "Apache 2.0",
         "url": "https://www.apache.org/licenses/LICENSE-2.0.html",
     }
 
+# Main FastAPI application instance
 app = FastAPI(
     dependencies=[DB_DEPENDENCY],
     title=f'{GENRE.title()} API',
