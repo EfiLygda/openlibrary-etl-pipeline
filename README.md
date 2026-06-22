@@ -34,7 +34,10 @@ This project is an independent work and is not affiliated with or endorsed by Op
     * [Error Handling](#error-handling)
       * [HTTP Status Codes](#http-status-codes)
       * [Error Types](#error-types)
-      * [Testing](#testing)
+    * [Testing](#testing)
+    * [Performance Benchmarking](#performance-benchmarking)
+      * [Summary of Results](#summary-of-results)
+      * [Key Findings](#key-findings)
 <!-- TOC -->
 
 ---
@@ -257,6 +260,8 @@ For the complete logging specification, see [events.md](docs/logging/events.md).
 
 This project provides a REST-style API built with FastAPI that exposes structured access to works, authors, editions, ratings, availability, and related metadata stored in a relational database derived from Open Library data.
 
+---
+
 ### How to Run
 
 **STEP 1**: Navigate to the project's directory
@@ -281,6 +286,8 @@ INFO:   Uvicorn running on {BASE_URL} (Press CTRL+C to quit)
 
 `BASE_URL` is your Base URL for accessing the API.
 
+---
+
 ### API Documentation
 
 FastAPI provides interactive documentation out of the box.
@@ -292,9 +299,13 @@ You can access it via:
 
 These interfaces allow you to explore and test all API endpoints directly in the browser.
 
+---
+
 ### Suggested Usage Flow
 
 In [examples.md](docs/api/examples.md) a suggested usage flow is presented and some response examples.
+
+---
 
 ### Error Handling
 
@@ -318,7 +329,9 @@ Each error response includes a domain-specific identifier:
 | `405`          | Method Not Allowed - The HTTP method is not supported for this endpoint             | `LISTING_NOT_SUPPORTED`                                                                                        |
 | `422`          | Unprocessable Content - The request is syntactically valid but semantically invalid | `INVALID_WORK_KEY_ERROR`, `INVALID_AUTHOR_KEY_ERROR`, `INVALID_EDITION_KEY_ERROR`, `INVALID_QUERY_COMBINATION` |
 
-#### Testing
+---
+
+### Testing
 
 This project uses `pytest` to test FastAPI API endpoints.
 
@@ -327,3 +340,28 @@ Tests are focused on validating request/response behavior, endpoint correctness,
 To run all tests in the terminal run:
 
     pytest
+
+
+---
+
+### Performance Benchmarking
+
+To evaluate the impact of database indexing on query performance, execution times were measured before and after introducing indexes.
+
+#### Summary of Results
+
+Bellow a summary of the results is presented for the queries that use non-primary key indexes:
+
+| Endpoint                                   | No Index (ms) | With Index (ms) | Improvement (%) |  Speedup |
+|--------------------------------------------|--------------:|----------------:|----------------:|---------:|
+| `GET /works/{work_key}/editions`           |          0.03 |            0.02 |          99.61% |     253× |
+| `GET /editions/{edition_key}/contributors` |          4.70 |            0.02 |          99.51% |     204× |
+| `GET /editions/{edition_key}/details`      |         17.80 |            0.06 |          99.86% |     711× |
+| `GET /editions/{edition_key}/publishing`   |         27.96 |            0.04 |      **99.89%** | **888×** |
+| `GET /search?q={query}`                    |   **1195.61** |      **226.39** |          81.03% |    5.27× |
+
+#### Key Findings
+
+- Indexing reduced execution time by **~99.5–99.9%** for most queries
+- The largest absolute improvement was observed in `search_works`
+- Read-heavy lookup queries benefit most from indexing strategies
