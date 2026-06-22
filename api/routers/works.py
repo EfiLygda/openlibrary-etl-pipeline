@@ -6,8 +6,8 @@ work details and associated data such as authors, editions, series, availability
 overview, and ratings
 
 Endpoints:
-- GET /works/
-  Retrieve all work's related metadata (Not Supported)
+- GET /works?keys=OLxxxW,OLxxxW,...
+  Retrieve all work's related metadata via their work key
 
 - GET /works/{work_key}
   Retrieve full work details and all related metadata
@@ -36,8 +36,7 @@ from dotenv import load_dotenv
 
 import psycopg2
 
-from fastapi import APIRouter
-from fastapi import Request
+from fastapi import APIRouter, Request
 
 from open_library import KeyHandler
 
@@ -68,17 +67,104 @@ router = APIRouter(
 )
 
 # --- Defining all endpoints ---
-@router.get("/",  responses={'405': BaseErrors.ListingNotSupported.response})
-async def works_root() -> None:
+@router.get(
+    path="",
+    response_model=RelationshipResponse[Work],
+    responses={
+        '404': WorksErrors.NotFound.response,
+        '405': BaseErrors.ListingNotSupported.response,
+        '422': WorksErrors.InvalidKey.response
+    }
+)
+async def get_batch_works(
+        request: Request,
+        keys: str | None = None,
+        limit: int = API_LIMIT,
+        offset: int = 0,
+        connection: psycopg2.extensions.connection = DB_DEPENDENCY
+) -> RelationshipResponse[Work]:
     """
-    Root endpoint for the works collection
+    Retrieve works records by their **work_keys**.
 
-    This endpoint is intentionally not supported for listing operations
+    Returns a standardized response dictionary containing:
 
-    It exists to explicitly reject requests made to `/works/` without a
-    valid `work_key`, and returns a standardized error response
+    - **data**: the works
+    - **meta**: metadata for the query (entity type)
+    - **links**: current link used
     """
-    raise BaseErrors.ListingNotSupported(query="/works/")
+
+    # Fetch current request's path and parameters query
+    path_url = request.url.path
+    query_url = request.url.query
+
+    # Current query
+    query = f'{path_url}?{query_url}' if query_url else path_url
+
+    # Intentionally not supported for listing operations
+    if keys is None:
+        raise BaseErrors.ListingNotSupported(query)
+
+    # Split and strip key string
+    work_keys = [
+        key.strip()
+        for key in keys.split(',')
+        if key.strip()
+    ]
+
+    # For each key validate key type
+    for work_key in work_keys:
+
+        # Validate if any of the keys is an invalid work key
+        if KeyHandler.detect_key(work_key) != 'work':
+            raise WorksErrors.InvalidKey(query)
+
+    # Fetch data
+    results = works_repo.get_works_by_work_key(
+        connection=connection,
+        work_key=work_keys,
+        limit=limit,
+        offset=offset
+    )
+
+    # If no data is returned then error is raised
+    if len(results['data']) == 0:
+        raise WorksErrors.NotFound(query)
+
+    # Build links
+    links = build_pagination_links(
+        url=query,
+        total=results['total_works'],
+        limit=limit,
+        offset=offset
+    )
+
+    # Format and return consistent API response structure
+    return format_response_relationship(
+        records=results['data'],
+        column_names=results['column_names'],
+        meta={
+            'total': results['total_works'],
+            'limit': limit,
+            'offset': offset
+        },
+        links=links,
+        model=Work
+    )
+
+# ----------------------------------------------------------------------------------
+# --- DEPRECATED ---
+# @router.get("/",  responses={'405': BaseErrors.ListingNotSupported.response})
+# async def works_root() -> None:
+#     """
+#     Root endpoint for the works collection
+#
+#     This endpoint is intentionally not supported for listing operations
+#
+#     It exists to explicitly reject requests made to `/works/` without a
+#     valid `work_key`, and returns a standardized error response
+#     """
+#     raise BaseErrors.ListingNotSupported(query="/works/")
+# ----------------------------------------------------------------------------------
 
 @router.get(
     path="/{work_key}",
@@ -91,6 +177,8 @@ async def works_root() -> None:
 async def get_work(
         request: Request,
         work_key: str,
+        limit: int = API_LIMIT,
+        offset: int = 0,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> EntityResponse[Work]:
     """
@@ -117,7 +205,9 @@ async def get_work(
     # Fetch data
     results = works_repo.get_works_by_work_key(
         connection=connection,
-        work_key=work_key
+        work_key=work_key,
+        limit=limit,
+        offset=offset
     )
 
     # If no data is returned then error is raised

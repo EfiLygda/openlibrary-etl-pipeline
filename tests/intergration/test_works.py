@@ -30,6 +30,9 @@ TEST_WORK_KEYS = {
     'only_subjects': 'OL21487810W',         # Existing work with subjects but no people, places or time periods
     'only_subjects_people': 'OL27245843W',  # Existing work with subjects, people but no places or time periods
     'only_no_time_periods': 'OL27733867W',  # Existing work with subjects, people, places but no time periods
+    'existing_batch': 'OL18020194W,OL24390422W',
+    'missing_batch': 'OL1020194W,OL1800194W',
+    'invalid_batch': 'OL18020194W,OL1800194'
 }
 
 # Parametrized list of the HTTP responses for each endpoint
@@ -39,11 +42,22 @@ HTTP_response_tests = [
     (TEST_WORK_KEYS['invalid'], 422),
 ]
 
+HTTP_batch_response_tests = [
+    (TEST_WORK_KEYS['existing_batch'], 200),
+    (TEST_WORK_KEYS['missing_batch'], 404),
+    (TEST_WORK_KEYS['invalid_batch'], 422),
+]
+
 # --------------------------------------------------------------------------
 # --- GET /works/ ---
 def test_get_all_works_listing():
     response = client.get('/works')
     assert response.status_code == 405
+
+@pytest.mark.parametrize('keys,status', HTTP_batch_response_tests)
+def test_get_batch_work(keys, status):
+    response = client.get(f'/works?keys={keys}')
+    assert response.status_code == status
 # --------------------------------------------------------------------------
 
 # --------------------------------------------------------------------------

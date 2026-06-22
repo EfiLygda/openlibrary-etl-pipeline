@@ -9,14 +9,19 @@ import psycopg2
 from api.repository.base import execute_query
 
 def get_works_by_work_key(
-    connection: psycopg2.extensions.connection,
-    work_key: str
+        connection: psycopg2.extensions.connection,
+        work_key: str | list[str],
+        limit: int | None = None,
+        offset: int | None = None,
 ) -> dict:
     """
     Retrieve all work records associated with a given work key
 
     :param connection: psycopg2.extensions.connection, active PostgreSQL database connection
     :param work_key: str, unique identifier of the work to retrieve
+    :param limit: int, maximum number of records to return (used for pagination)
+    :param offset: int, number of records to skip before starting to return results
+
     :returns: A dictionary containing:
 
         * `data` - list of matching work records returned by the query
@@ -24,9 +29,28 @@ def get_works_by_work_key(
     """
 
     # Set up the query parameters
-    params = {
-        'filter_key': work_key
-    }
+    if isinstance(work_key, str):
+        params = {
+            'filter_key': [work_key]
+        }
+    elif isinstance(work_key, list):
+        params = {
+            'filter_key': work_key
+        }
+
+    if not limit is None:
+        params['limit'] = limit
+
+    if not offset is None:
+        params['offset'] = offset
+
+    # Calculate total works before pagination
+    totals, _ = execute_query(
+        connection=connection,
+        params=params,
+        query_module='works',
+        query_filename='total_works.sql'
+    )
 
     # Fetch the records
     works, works_column_names = execute_query(
@@ -37,6 +61,7 @@ def get_works_by_work_key(
     )
 
     return {
+        'total_works': totals[0][0],
         'data': works,
         'column_names': works_column_names
     }
