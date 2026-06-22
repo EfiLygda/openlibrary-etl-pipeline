@@ -9,12 +9,12 @@
 * [API Examples](#api-examples)
   * [Table of Contents](#table-of-contents)
   * [Overview](#overview)
+  * [Suggested Usage Flow](#suggested-usage-flow)
   * [Common Response Format](#common-response-format)
     * [Entities](#entities)
     * [Entity Response](#entity-response)
     * [Relationship/Search Response](#relationshipsearch-response)
     * [Navigation Links Response](#navigation-links-response)
-  * [Suggested Usage Flow](#suggested-usage-flow)
 <!-- TOC -->
 
 ---
@@ -28,65 +28,6 @@ It follows a REST-style design with consistent response envelopes:
 - `data`: actual payload
 - `meta`: pagination / entity metadata
 - `links`: navigation and related resources
-
----
-
-## Common Response Format
-
-### Entities
-
-The three main entities included are `works` for general works, `authors` for the authors and `editions` for the editions associated with the works.
-
----
-
-### Entity Response
-
-For each of the three main entities the response metadata are structured as:
-
-    {
-      "data": [],
-      "meta": {
-        "type": "work" | "author" | "edition" 
-      },
-      "links": {
-        "self": ""
-      }
-    }
-
----
-
-### Relationship/Search Response
-
-For each of the three main entities there can be relationships response metadata, that are structured as:
-
-    {
-      "data": [],
-      "meta": {
-        "total": 0,
-        "limit": 20,
-        "offset": 0
-      },
-      "links": {
-        "self": "",
-        "next": null,
-        "prev": null
-      }
-    }
-
----
-
-### Navigation Links Response
-
-For each of the three main entities navigation links can be fetched and relationships can be found:
-
-    {
-      "key": "string",
-      "type":"work" | "author" | "edition" | null,
-      "links": {
-        "self": "string",
-        ...
-      }
-    }
 
 ---
 
@@ -353,5 +294,64 @@ Response:
 > - ReDoc: `{BASE_URL}/redoc`
 > 
 > for more relationships and endpoints, or the `link/{key}` endpoint for navigation links.
+
+---
+
+## Common Response Format
+
+### Entities
+
+The three main entities included are `works` for general works, `authors` for the authors and `editions` for the editions associated with the works.
+
+---
+
+### Entity Response
+
+For each of the three main entities the response metadata are structured as:
+
+    {
+      "data": [],
+      "meta": {
+        "type": "work" | "author" | "edition" 
+      },
+      "links": {
+        "self": ""
+      }
+    }
+
+---
+
+### Relationship/Search Response
+
+For each of the three main entities there can be relationships response metadata, that are structured as:
+
+    {
+      "data": [],
+      "meta": {
+        "total": 0,
+        "limit": 20,
+        "offset": 0
+      },
+      "links": {
+        "self": "",
+        "next": null,
+        "prev": null
+      }
+    }
+
+---
+
+### Navigation Links Response
+
+For each of the three main entities navigation links can be fetched and relationships can be found:
+
+    {
+      "key": "string",
+      "type":"work" | "author" | "edition" | null,
+      "links": {
+        "self": "string",
+        ...
+      }
+    }
 
 ---
