@@ -19,7 +19,7 @@ from api.app import app
 client = TestClient(app)
 
 # Dictionary with test keys
-TEST_editions_keyS = {
+TEST_EDITION_KEYS = {
     'existing': 'OL37490633M' ,             # Existing edition in the database
     'missing': 'OL5864068M',                # Nonexisting edition in the database
     'invalid': 'OL5864068',                 # Invalid edition key (i.e. OLxxxxM)
@@ -31,9 +31,9 @@ TEST_editions_keyS = {
 
 # Parametrized list of the HTTP responses for each endpoint
 HTTP_response_tests = [
-    (TEST_editions_keyS['existing'], 200),
-    (TEST_editions_keyS['missing'], 404),
-    (TEST_editions_keyS['invalid'], 422),
+    (TEST_EDITION_KEYS['existing'], 200),
+    (TEST_EDITION_KEYS['missing'], 404),
+    (TEST_EDITION_KEYS['invalid'], 422),
 ]
 
 # --------------------------------------------------------------------------
@@ -59,7 +59,7 @@ def test_get_edition_details(editions_key, status):
     assert response.status_code == status
 
 def test_get_edition_nonexisting_details():
-    response = client.get(f'/editions/{TEST_editions_keyS['no_details']}/details')
+    response = client.get(f'/editions/{TEST_EDITION_KEYS['no_details']}/details')
     assert response.json()['data'] == []
 # --------------------------------------------------------------------------
 
@@ -71,7 +71,7 @@ def test_get_edition_contents(editions_key, status):
     assert response.status_code == status
 
 def test_get_edition_nonexisting_contents():
-    response = client.get(f'/editions/{TEST_editions_keyS['no_contents']}/contents')
+    response = client.get(f'/editions/{TEST_EDITION_KEYS['no_contents']}/contents')
     assert response.json()['data'] == []
 # --------------------------------------------------------------------------
 
@@ -83,7 +83,7 @@ def test_get_edition_publishing(editions_key, status):
     assert response.status_code == status
 
 def test_get_edition_nonexisting_publishing():
-    response = client.get(f'/editions/{TEST_editions_keyS['no_publishing']}/publishing')
+    response = client.get(f'/editions/{TEST_EDITION_KEYS['no_publishing']}/publishing')
     assert response.json()['data'] == []
 # --------------------------------------------------------------------------
 
@@ -95,6 +95,6 @@ def test_get_edition_contributors(editions_key, status):
     assert response.status_code == status
 
 def test_get_edition_nonexisting_contributors():
-    response = client.get(f'/editions/{TEST_editions_keyS['no_contributors']}/contributors')
+    response = client.get(f'/editions/{TEST_EDITION_KEYS['no_contributors']}/contributors')
     assert response.json()['data'] == []
 # --------------------------------------------------------------------------
