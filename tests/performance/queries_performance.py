@@ -12,6 +12,7 @@ from utilities.database import DB_NAME, db_connection
 INDEX = True
 
 # SQL queries' parameters
+work_key = 'OL18020194W'
 edition_key = 'OL37490633M'
 search_query = 'pride prejudice'
 limit=20
@@ -30,8 +31,10 @@ execution_time_pattern = r'([\d.]+)\s*ms'
 
 # Query modules and queries that have non-primary key indexes
 query_modules = {
+    'works': [
+        'get_editions.sql',
+    ],
     'editions': [
-        'get_edition.sql',
         'get_contributors.sql',
         'get_details.sql',
         'get_publishing.sql',
@@ -51,7 +54,11 @@ connection = db_connection(database=DB_NAME)
 for query_module in query_modules.keys():
 
     # Make the query parameters depending on the current query module
-    if query_module == 'editions':
+    if query_module == 'works':
+        params = {
+            'filter_key': work_key
+        }
+    elif query_module == 'editions':
         params = {
             'filter_key': edition_key
         }
@@ -71,6 +78,9 @@ for query_module in query_modules.keys():
     for query_filename in query_modules[query_module]:
 
         for i in range(max_reps):
+
+            # Progress message
+            print(f'({i+1}/{max_reps}) Executing {query_filename}...', end='\r')
 
             # Execute the current query for maximum number of repetitions
             data, column_names = execute_query(
