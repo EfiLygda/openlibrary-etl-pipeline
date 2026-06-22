@@ -43,7 +43,7 @@ def execute_query(
     Retrieve all records associated with a given key using a structured query
 
     :param connection: psycopg2.extensions.connection, active PostgreSQL database connection
-    :param filter_key: str, unique identifier of the record to retrieve
+    :param params: dict, dictionary of the parameters to use for the SQL query
     :param query_module: str, module name where the SQL query file is located
     :param query_filename: str, name of the SQL file to load and execute.
 
