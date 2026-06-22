@@ -6,7 +6,7 @@ import os
 from config.openlibrary_api import GENRE_facet
 
 # Project directory
-ROOT_DIR = os.path.abspath('./')
+ROOT_DIR = str(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 # Log messages directories
 LOG_DIR = os.path.join(ROOT_DIR, 'logs')
