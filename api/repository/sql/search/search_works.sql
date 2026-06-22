@@ -58,7 +58,7 @@
 
 -- Setting the similarity score limit for filtering out works from the results
 -- Works where a similarity score is lower than 0.3 will be filtered out
-SELECT set_limit(0.3);
+--SELECT set_limit(0.3); -- default is 0.3
 ------------------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------------------
