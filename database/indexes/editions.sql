@@ -1,4 +1,4 @@
- -- For get_editions.sql
+ -- For get_editions.sql from works
  CREATE INDEX IF NOT EXISTS idx_editions_work_key
  ON editions (work_key);
 
