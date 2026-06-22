@@ -54,7 +54,7 @@
 -- Install pg_trgm in order to use trigram operator for filtering
 -- and 'similarity' function for calculating the trigram similarity
 -- between the given query and a string
-CREATE EXTENSION IF NOT EXISTS pg_trgm;
+--CREATE EXTENSION IF NOT EXISTS pg_trgm;
 
 -- Setting the similarity score limit for filtering out works from the results
 -- Works where a similarity score is lower than 0.3 will be filtered out
