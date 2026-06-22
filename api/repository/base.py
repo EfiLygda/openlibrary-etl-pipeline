@@ -9,7 +9,11 @@ from psycopg2.sql import SQL
 from config import ROOT_DIR
 from utilities.database import get_column_names
 
-def load_query(module: str, filename: str) -> str:
+def load_query(
+        module: str,
+        filename: str,
+        performance: bool = False
+) -> str:
     """
     Load a SQL query from the repository SQL directory
 
@@ -20,6 +24,8 @@ def load_query(module: str, filename: str) -> str:
     :param module: str, the module name (e.g. "authors", "works", "editions")
                         used to locate the correct SQL subfolder
     :param filename: str, name of the SQL file to load
+    :param performance: bool, whether the current query to run with EXPLAIN ANALYZE
+                              before it for performance analysis
 
     :returns: str, the raw SQL query string read from the file
     """
@@ -31,13 +37,17 @@ def load_query(module: str, filename: str) -> str:
     with open(filepath, encoding='utf-8', mode='r') as f:
         query = f.read()
 
+    if performance:
+        return 'EXPLAIN ANALYZE\n' + query
+
     return query
 
 def execute_query(
         connection: psycopg2.extensions.connection,
         params: dict,
         query_module: str,
-        query_filename: str
+        query_filename: str,
+        performance: bool = False
 ) -> tuple:
     """
     Retrieve all records associated with a given key using a structured query
@@ -46,6 +56,8 @@ def execute_query(
     :param params: dict, dictionary of the parameters to use for the SQL query
     :param query_module: str, module name where the SQL query file is located
     :param query_filename: str, name of the SQL file to load and execute.
+    :param performance: bool, whether the current query to run with EXPLAIN ANALYZE
+                              before it for performance analysis
 
     :returns: A tuple containing:
 
@@ -53,7 +65,11 @@ def execute_query(
         * `data_column_names` - column names corresponding to the records
     """
     # --- Read Query ---
-    query = load_query(module=query_module, filename=query_filename)
+    query = load_query(
+        module=query_module,
+        filename=query_filename,
+        performance=performance
+    )
 
     # --- Query the database ---
     with connection.cursor() as cursor:
