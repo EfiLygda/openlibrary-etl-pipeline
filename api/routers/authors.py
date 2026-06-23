@@ -47,7 +47,8 @@ from api.schemas.responses import EntityResponse, RelationshipResponse, BatchRes
 
 from api.utils.query import build_query
 from api.utils.validation import validate_key
-from api.utils.pagination import build_pagination_links
+from api.utils.links import build_entity_links, build_pagination_links
+from api.utils.metadata import build_entity_meta, build_relationship_meta, build_batch_meta
 from api.utils.parsing import parse_entity_keys
 
 from api.errors import BaseErrors, AuthorsErrors
@@ -136,17 +137,20 @@ async def get_batch_works(
         offset=offset
     )
 
+    # Build metadata
+    meta = build_batch_meta(
+        entity_type='author',
+        keys=author_keys,
+        total=results['total_authors'],
+        limit=limit,
+        offset=offset
+    )
+
     # Format and return consistent API response structure
     return format_response_batch(
         records=results['data'],
         column_names=results['column_names'],
-        meta={
-            'type': 'author',
-            'keys': author_keys,
-            'total': results['total_authors'],
-            'limit': limit,
-            'offset': offset
-        },
+        meta=meta,
         links=links,
         model=Author
     )
@@ -214,12 +218,18 @@ async def get_author(
     if len(results['data']) == 0:
         raise AuthorsErrors.NotFound(query)
 
+    # Build links
+    links = build_entity_links(query=query)
+
+    # Build metadata
+    meta = build_entity_meta(entity_type='author')
+
     # Format and return consistent API response structure
     return format_response_entity(
         records=results['data'],
         column_names=results['column_names'],
-        meta={'type': 'author'},
-        links={'self': query},
+        meta=meta,
+        links=links,
         model=Author
     )
 
@@ -279,18 +289,21 @@ async def get_authors_works(
         offset=offset
     )
 
+    # Build metadata
+    meta = build_relationship_meta(
+        parent_type='author',
+        parent_key=author_key,
+        child_type='work',
+        total_children=results['total_works'],
+        limit=limit,
+        offset=offset
+    )
+
     # Format and return consistent API response structure
     return format_response_relationship(
         records=results['data'],
         column_names=results['column_names'],
-        meta={
-            'parent_type': 'author',
-            'parent_key': author_key,
-            'child_type': 'work',
-            'total_children': results['total_works'],
-            'limit': limit,
-            'offset': offset
-        },
+        meta=meta,
         links=links,
         model=WorkSummary,
     )
@@ -351,18 +364,21 @@ async def get_authors_editions(
         offset=offset
     )
 
+    # Build metadata
+    meta = build_relationship_meta(
+        parent_type='author',
+        parent_key=author_key,
+        child_type='edition',
+        total_children=results['total_editions'],
+        limit=limit,
+        offset=offset
+    )
+
     # Format and return consistent API response structure
     return format_response_relationship(
         records=results['data'],
         column_names=results['column_names'],
-        meta={
-            'parent_type': 'author',
-            'parent_key': author_key,
-            'child_type': 'edition',
-            'total_children': results['total_editions'],
-            'limit': limit,
-            'offset': offset
-        },
+        meta=meta,
         links=links,
         model=EditionSummary,
     )
@@ -415,12 +431,18 @@ async def get_authors_statistics(
     if len(results['data']) == 0:
         raise AuthorsErrors.NotFound(query)
 
+    # Build links
+    links = links = build_entity_links(query=query)
+
+    # Build meta
+    meta = build_entity_meta(entity_type='author')
+
     # Format and return consistent API response structure
     return format_response_entity(
         records=results['data'],
         column_names=results['column_names'],
-        meta={'type': 'author'},
-        links={'self': query},
+        meta=meta,
+        links=links,
         model=AuthorStatistics
     )
 
@@ -472,11 +494,17 @@ async def get_authors_alternative_names(
     if len(results['data']) == 0:
         raise AuthorsErrors.NotFound(query)
 
+    # Build links
+    links = build_entity_links(query=query)
+
+    # Build meta
+    meta = build_entity_meta(entity_type='author')
+
     # Format and return consistent API response structure
     return format_response_entity(
         records=results['data'],
         column_names=results['column_names'],
-        meta={'type': 'author'},
-        links={'self': query},
+        meta=meta,
+        links=links,
         model=AuthorAlternativeNames
     )
