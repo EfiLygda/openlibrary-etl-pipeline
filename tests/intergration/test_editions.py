@@ -27,6 +27,9 @@ TEST_EDITION_KEYS = {
     'no_contents': 'OL58640668M',           # Existing edition with no contents
     'no_publishing': 'OL43136091M',         # Existing edition with no publishing
     'no_contributors': 'OL37986988M',       # Existing edition with no contributors
+    'existing_batch': 'OL37490633M,OL7502900M',
+    'missing_batch': 'OL3790633M,OL752900M',
+    'invalid_batch': 'OL37490633M,OL7502900'
 }
 
 # Parametrized list of the HTTP responses for each endpoint
@@ -36,11 +39,23 @@ HTTP_response_tests = [
     (TEST_EDITION_KEYS['invalid'], 422),
 ]
 
+HTTP_batch_response_tests = [
+    (TEST_EDITION_KEYS['existing_batch'], 200),
+    (TEST_EDITION_KEYS['missing_batch'], 404),
+    (TEST_EDITION_KEYS['invalid_batch'], 422),
+]
+
+
 # --------------------------------------------------------------------------
 # --- GET /editions/ ---
 def test_get_all_editions_listing():
     response = client.get('/editions')
     assert response.status_code == 405
+
+@pytest.mark.parametrize('keys,status', HTTP_batch_response_tests)
+def test_get_batch_editions(keys, status):
+    response = client.get(f'/editions?keys={keys}')
+    assert response.status_code == status
 # --------------------------------------------------------------------------
 
 # --------------------------------------------------------------------------
