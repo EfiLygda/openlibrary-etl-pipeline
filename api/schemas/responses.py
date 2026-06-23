@@ -19,13 +19,6 @@ T = TypeVar('T')
 # Final API responses
 # --------------------------------------------------------------------
 
-# --- Basic API response ---
-class APIResponse(BaseModel, Generic[T]):
-    query: str
-    self: str
-    entity_count: int
-    results: list[T]
-
 # --- Links API response ---
 class LinksResponse(BaseModel, Generic[T]):
     key: str
@@ -35,20 +28,20 @@ class LinksResponse(BaseModel, Generic[T]):
 # --- Entity Response ---
 class EntityResponse(BaseModel, Generic[T]):
     data: list[T]
-    meta: EntityMeta # dict[str, EntityType]
-    links: SelfLink # dict[str, str]
+    meta: EntityMeta
+    links: SelfLink
 
 # --- Relationship Response ---
 class RelationshipResponse(BaseModel, Generic[T]):
     data: list[T]
-    meta: RelationshipMeta # dict[str, int]
-    links: PaginationLinks # dict[str, Optional[str]]
+    meta: RelationshipMeta
+    links: PaginationLinks
 
 # --- Search Response ---
 class SearchResponse(BaseModel, Generic[T]):
     data: list[T]
-    meta: SearchMeta # dict[str, int]
-    links: PaginationLinks # dict[str, Optional[str]]
+    meta: SearchMeta
+    links: PaginationLinks
 
 # --- Batch Response ---
 class BatchResponse(BaseModel, Generic[T]):

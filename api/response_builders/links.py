@@ -2,11 +2,11 @@
 Transformation utilities for formatting database links query results
 """
 
-from typing import TypeVar, Type
+from typing import TypeVar
 from pydantic import BaseModel
 
 from api.schemas.entities.core import EntityType
-from api.schemas.responses import APIResponse, LinksResponse
+from api.schemas.responses import LinksResponse
 
 T = TypeVar('T', bound=BaseModel)
 
