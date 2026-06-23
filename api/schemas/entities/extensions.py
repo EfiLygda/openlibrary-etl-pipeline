@@ -53,7 +53,9 @@ class AuthorStatistics(BaseModel):
     currently_reading_count: Optional[int]
     already_read_count: Optional[int]
 
-AuthorAlternativeNames: TypeAlias = str # for data of list[str]
+class AuthorAlternativeNames(BaseModel):
+    author_name: Optional[str]
+    alternative_names: Optional[list[str]]
 
 # - EDITIONS -
 class EditionDetails(BaseModel):
