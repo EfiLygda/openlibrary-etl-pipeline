@@ -126,7 +126,7 @@ async def get_batch_works(
     )
 
     # If no data is returned then error is raised
-    if len(results['data']) == 0:
+    if results['total_authors'] == 0:
         raise AuthorsErrors.NotFound(query)
 
     # Build links

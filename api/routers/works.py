@@ -57,19 +57,26 @@ from api.errors import BaseErrors, WorksErrors
 from api.response_builders.entities import format_response_entity, format_response_relationship
 from api.response_builders.batches import format_response_batch
 
+# -----------------------------------------------------------------------------
 # --- Load API LIMIT from environment variables ---
 # Load variables from the .env file to the environment
 load_dotenv()
 
-# Save the hidden info to variables
-API_LIMIT = int(os.getenv("API_LIMIT"))
+# --- Setting up parameters ---
+LIMIT = int(os.getenv("API_LIMIT"))
+OFFSET = 0
+ENTITY_TYPE = 'work'
+# -----------------------------------------------------------------------------
 
+# -----------------------------------------------------------------------------
 # --- Defining the works router ---
 router = APIRouter(
     prefix="/works",
     tags=["Works"]
 )
+# -----------------------------------------------------------------------------
 
+# -----------------------------------------------------------------------------
 # --- Defining all endpoints ---
 @router.get(
     path="",
@@ -83,12 +90,12 @@ router = APIRouter(
 async def get_batch_works(
         request: Request,
         keys: str | None = None,
-        limit: int = API_LIMIT,
-        offset: int = 0,
+        limit: int = LIMIT,
+        offset: int = OFFSET,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> BatchResponse[Work]:
     """
-    Retrieve works records by their **work_keys**.
+    Retrieve works batch records by their **work_keys**.
 
     Returns a standardized response dictionary containing:
 
@@ -127,7 +134,7 @@ async def get_batch_works(
     )
 
     # If no data is returned then error is raised
-    if len(results['data']) == 0:
+    if results['total_works'] == 0:
         raise WorksErrors.NotFound(query)
 
     # Build links
@@ -140,7 +147,7 @@ async def get_batch_works(
 
     # Build metadata
     meta = build_batch_meta(
-        entity_type='work',
+        entity_type=ENTITY_TYPE,
         keys=work_keys,
         total=results['total_works'],
         limit=limit,
@@ -182,8 +189,8 @@ async def get_batch_works(
 async def get_work(
         request: Request,
         work_key: str,
-        limit: int = API_LIMIT,
-        offset: int = 0,
+        limit: int = LIMIT,
+        offset: int = OFFSET,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> EntityResponse[Work]:
     """
@@ -223,7 +230,7 @@ async def get_work(
     links = build_entity_links(self=query)
 
     # Build metadata
-    meta = build_entity_meta(entity_type='work')
+    meta = build_entity_meta(entity_type=ENTITY_TYPE)
 
     # Format and return consistent API response structure
     return format_response_entity(
@@ -245,8 +252,8 @@ async def get_work(
 async def get_work_authors(
         request: Request,
         work_key: str,
-        limit: int = API_LIMIT,
-        offset: int = 0,
+        limit: int = LIMIT,
+        offset: int = OFFSET,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> RelationshipResponse[AuthorSummary]:
     """
@@ -292,7 +299,7 @@ async def get_work_authors(
 
     # Build metadata
     meta = build_relationship_meta(
-        parent_type='work',
+        parent_type=ENTITY_TYPE,
         parent_key=work_key,
         child_type='author',
         total_children=results['total_authors'],
@@ -320,8 +327,8 @@ async def get_work_authors(
 async def get_work_editions(
         request: Request,
         work_key: str,
-        limit: int = API_LIMIT,
-        offset: int = 0,
+        limit: int = LIMIT,
+        offset: int = OFFSET,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> RelationshipResponse[EditionSummary]:
     """
@@ -367,7 +374,7 @@ async def get_work_editions(
 
     # Build metadata
     meta = build_relationship_meta(
-        parent_type='work',
+        parent_type=ENTITY_TYPE,
         parent_key=work_key,
         child_type='edition',
         total_children=results['total_editions'],
@@ -395,8 +402,8 @@ async def get_work_editions(
 async def get_work_series(
         request: Request,
         work_key: str,
-        limit: int = API_LIMIT,
-        offset: int = 0,
+        limit: int = LIMIT,
+        offset: int = OFFSET,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> RelationshipResponse[WorkSeries]:
     """
@@ -442,7 +449,7 @@ async def get_work_series(
 
     # Build metadata
     meta = build_relationship_meta(
-        parent_type='work',
+        parent_type=ENTITY_TYPE,
         parent_key=work_key,
         child_type='series',
         total_children=results['total_series'],
@@ -470,8 +477,8 @@ async def get_work_series(
 async def get_work_availability(
         request: Request,
         work_key: str,
-        limit: int = API_LIMIT,
-        offset: int = 0,
+        limit: int = LIMIT,
+        offset: int = OFFSET,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> EntityResponse[WorkAvailability]:
     """
@@ -511,7 +518,7 @@ async def get_work_availability(
     links = build_entity_links(self=query)
 
     # Build metadata
-    meta = build_entity_meta(entity_type='work')
+    meta = build_entity_meta(entity_type=ENTITY_TYPE)
 
     # Format and return consistent API response structure
     return format_response_entity(
@@ -533,8 +540,8 @@ async def get_work_availability(
 async def get_work_ratings(
         request: Request,
         work_key: str,
-        limit: int = API_LIMIT,
-        offset: int = 0,
+        limit: int = LIMIT,
+        offset: int = OFFSET,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> EntityResponse[WorkRatings]:
     """
@@ -574,7 +581,7 @@ async def get_work_ratings(
     links = build_entity_links(self=query)
 
     # Build metadata
-    meta = build_entity_meta(entity_type='work')
+    meta = build_entity_meta(entity_type=ENTITY_TYPE)
 
     # Format and return consistent API response structure
     return format_response_entity(
@@ -596,8 +603,8 @@ async def get_work_ratings(
 async def get_work_overview(
         request: Request,
         work_key: str,
-        limit: int = API_LIMIT,
-        offset: int = 0,
+        limit: int = LIMIT,
+        offset: int = OFFSET,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> EntityResponse[WorkOverview]:
     """
@@ -637,7 +644,7 @@ async def get_work_overview(
     links = build_entity_links(self=query)
 
     # Build metadata
-    meta = build_entity_meta(entity_type='work')
+    meta = build_entity_meta(entity_type=ENTITY_TYPE)
 
     # Format and return consistent API response structure
     return format_response_entity(
@@ -647,3 +654,4 @@ async def get_work_overview(
         links=links,
         model=WorkOverview
     )
+# -----------------------------------------------------------------------------

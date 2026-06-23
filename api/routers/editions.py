@@ -125,7 +125,7 @@ async def get_batch_editions(
     )
 
     # If no data is returned then error is raised
-    if len(results['data']) == 0:
+    if results['total_editions'] == 0:
         raise EditionsErrors.NotFound(query)
 
     # Build links
