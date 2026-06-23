@@ -48,7 +48,8 @@ from api.schemas.responses import EntityResponse, RelationshipResponse, BatchRes
 
 from api.utils.query import build_query
 from api.utils.validation import validate_key
-from api.utils.pagination import build_pagination_links
+from api.utils.links import build_entity_links, build_pagination_links
+from api.utils.metadata import build_entity_meta, build_relationship_meta, build_batch_meta
 from api.utils.parsing import parse_entity_keys
 
 from api.errors import BaseErrors, WorksErrors
@@ -137,17 +138,20 @@ async def get_batch_works(
         offset=offset
     )
 
+    # Build metadata
+    meta = build_batch_meta(
+        entity_type='work',
+        keys=work_keys,
+        total=results['total_works'],
+        limit=limit,
+        offset=offset
+    )
+
     # Format and return consistent API response structure
     return format_response_batch(
         records=results['data'],
         column_names=results['column_names'],
-        meta={
-            'type': 'work',
-            'keys': work_keys,
-            'total': results['total_works'],
-            'limit': limit,
-            'offset': offset
-        },
+        meta=meta,
         links=links,
         model=Work
     )
@@ -215,12 +219,18 @@ async def get_work(
     if len(results['data']) == 0:
         raise WorksErrors.NotFound(query)
 
+    # Build links
+    links = build_entity_links(self=query)
+
+    # Build metadata
+    meta = build_entity_meta(entity_type='work')
+
     # Format and return consistent API response structure
     return format_response_entity(
         records=results['data'],
         column_names=results['column_names'],
-        meta={'type': 'work'},
-        links={'self': query},
+        meta=meta,
+        links=links,
         model=Work
     )
 
@@ -280,18 +290,21 @@ async def get_work_authors(
         offset=offset
     )
 
+    # Build metadata
+    meta = build_relationship_meta(
+        parent_type='work',
+        parent_key=work_key,
+        child_type='author',
+        total_children=results['total_authors'],
+        limit=limit,
+        offset=offset
+    )
+
     # Format and return consistent API response structure
     return format_response_relationship(
         records=results['data'],
         column_names=results['column_names'],
-        meta={
-            'parent_type': 'work',
-            'parent_key': work_key,
-            'child_type': 'author',
-            'total_children': results['total_authors'],
-            'limit': limit,
-            'offset': offset
-        },
+        meta=meta,
         links=links,
         model=AuthorSummary,
     )
@@ -352,18 +365,21 @@ async def get_work_editions(
         offset=offset
     )
 
+    # Build metadata
+    meta = build_relationship_meta(
+        parent_type='work',
+        parent_key=work_key,
+        child_type='edition',
+        total_children=results['total_editions'],
+        limit=limit,
+        offset=offset
+    )
+
     # Format and return consistent API response structure
     return format_response_relationship(
         records=results['data'],
         column_names=results['column_names'],
-        meta={
-            'parent_type': 'work',
-            'parent_key': work_key,
-            'child_type': 'edition',
-            'total_children': results['total_editions'],
-            'limit': limit,
-            'offset': offset
-        },
+        meta=meta,
         links=links,
         model=EditionSummary,
     )
@@ -424,18 +440,21 @@ async def get_work_series(
         offset=offset
     )
 
+    # Build metadata
+    meta = build_relationship_meta(
+        parent_type='work',
+        parent_key=work_key,
+        child_type='series',
+        total_children=results['total_series'],
+        limit=limit,
+        offset=offset
+    )
+
     # Format and return consistent API response structure
     return format_response_relationship(
         records=results['data'],
         column_names=results['column_names'],
-        meta={
-            'parent_type': 'work',
-            'parent_key': work_key,
-            'child_type': 'series',
-            'total_children': results['total_series'],
-            'limit': limit,
-            'offset': offset
-        },
+        meta=meta,
         links=links,
         model=WorkSeries,
     )
@@ -488,12 +507,18 @@ async def get_work_availability(
     if len(results['data']) == 0:
         raise WorksErrors.NotFound(query)
 
+    # Build links
+    links = build_entity_links(self=query)
+
+    # Build metadata
+    meta = build_entity_meta(entity_type='work')
+
     # Format and return consistent API response structure
     return format_response_entity(
         records=results['data'],
         column_names=results['column_names'],
-        meta={'type': 'work'},
-        links={'self': query},
+        meta=meta,
+        links=links,
         model=WorkAvailability
     )
 
@@ -545,12 +570,18 @@ async def get_work_ratings(
     if len(results['data']) == 0:
         raise WorksErrors.NotFound(query)
 
+    # Build links
+    links = build_entity_links(self=query)
+
+    # Build metadata
+    meta = build_entity_meta(entity_type='work')
+
     # Format and return consistent API response structure
     return format_response_entity(
         records=results['data'],
         column_names=results['column_names'],
-        meta={'type': 'work'},
-        links={'self': query},
+        meta=meta,
+        links=links,
         model=WorkRatings
     )
 
@@ -602,11 +633,17 @@ async def get_work_overview(
     if len(results['data']) == 0:
         raise WorksErrors.NotFound(query)
 
+    # Build links
+    links = build_entity_links(self=query)
+
+    # Build metadata
+    meta = build_entity_meta(entity_type='work')
+
     # Format and return consistent API response structure
     return format_response_entity(
         records=results['data'],
         column_names=results['column_names'],
-        meta={'type': 'work'},
-        links={'self': query},
+        meta=meta,
+        links=links,
         model=WorkOverview
     )
