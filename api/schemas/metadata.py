@@ -2,7 +2,6 @@
 Module for the type definitions of metadata in entity and relationship
 `meta` (metadata) fields
 """
-from optparse import Option
 
 from pydantic import BaseModel
 from typing import TypeVar, Optional

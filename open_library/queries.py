@@ -13,11 +13,10 @@ The client supports:
 - Redirect handling
 - JSON export of API responses
 """
-from typing import Any
 
 import requests
 import config
-from utilities.io import load_json, save_json
+from utilities.io import save_json
 from open_library import KeyHandler
 
 class Client:

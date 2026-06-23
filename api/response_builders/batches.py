@@ -8,7 +8,7 @@ from pydantic import BaseModel
 from api.response_builders.entities import _format_records
 from api.schemas.links import PaginationLinks
 from api.schemas.metadata import BatchMeta
-from api.schemas.responses import SearchResponse, BatchResponse
+from api.schemas.responses import BatchResponse
 
 T = TypeVar('T', bound=BaseModel)
 

@@ -1,11 +1,7 @@
 """
 Load tables to romance_fiction PostgreSQL database
 """
-
-import os
-
-from config.paths import LOG_DIR
-from utilities.logging import config_logger, set_logger
+from utilities.logging import set_logger
 
 from etl.load.create_database import run as create_database
 from etl.load.create_tables import run as create_tables

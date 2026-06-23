@@ -161,7 +161,6 @@ def check_if_table_exists(
 def check_if_index_exists(
         cursor: psycopg2.extensions.cursor,
         index_name: str,
-        schema: str = 'public',
         logger: Logger | LoggerAdapter[Logger] | None = None
 ) -> bool:
     """

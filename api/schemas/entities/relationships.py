@@ -6,7 +6,7 @@ Note:
 """
 
 from pydantic import BaseModel
-from typing import TypeVar, Optional, TypeAlias
+from typing import TypeVar, Optional
 
 # Define a flexible variable type to be used as generic placeholder
 T = TypeVar('T')
