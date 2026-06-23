@@ -2,9 +2,10 @@
 Module for the type definitions of metadata in entity and relationship
 `meta` (metadata) fields
 """
+from optparse import Option
 
 from pydantic import BaseModel
-from typing import TypeVar
+from typing import TypeVar, Optional
 
 from api.schemas.entities.core import EntityType
 
@@ -17,6 +18,15 @@ class EntityMeta(BaseModel):
 
 # --- Relationship Response Metadata ---
 class RelationshipMeta(BaseModel):
+    parent_type: EntityType
+    parent_key: str
+    child_type: Optional[str]
+    total_children: int = 0
+    limit: int = 0
+    offset: int = 0
+
+# --- Search Response Metadata ---
+class SearchMeta(BaseModel):
     total: int = 0
     limit: int = 0
     offset: int = 0
