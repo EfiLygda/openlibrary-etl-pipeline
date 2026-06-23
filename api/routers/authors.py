@@ -10,8 +10,8 @@ data from multiple related tables while keeping endpoints focused and consistent
 
 Endpoints:
 
-- GET /authors/
-  Retrieve all authors' related metadata (Not Supported)
+- GET /authors?keys=OLxxxA,OLxxxA,...
+  Retrieve all work's related metadata via their author key
 
 - GET /authors/{author_key}
   Retrieve full author profile including core metadata and optional enriched fields
@@ -43,7 +43,7 @@ import api.repository.authors as authors_repo
 from api.schemas.entities.core import Author
 from api.schemas.entities.summaries import WorkSummary, EditionSummary
 from api.schemas.entities.extensions import AuthorStatistics, AuthorAlternativeNames
-from api.schemas.responses import EntityResponse, RelationshipResponse
+from api.schemas.responses import EntityResponse, RelationshipResponse, BatchResponse
 
 from api.utils.query import build_query
 from api.utils.validation import validate_key
@@ -53,6 +53,7 @@ from api.utils.parsing import parse_entity_keys
 from api.errors import BaseErrors, AuthorsErrors
 
 from api.response_builders.entities import format_response_entity, format_response_relationship
+from api.response_builders.batches import format_response_batch
 
 # --- Load API LIMIT from environment variables ---
 # Load variables from the .env file to the environment
@@ -68,17 +69,102 @@ router = APIRouter(
 )
 
 # --- Defining all endpoints ---
-@router.get("/",  responses={'405': BaseErrors.ListingNotSupported.response})
-async def authors_root() -> None:
+@router.get(
+    path="",
+    response_model=BatchResponse[Author],
+    responses={
+        '404': AuthorsErrors.NotFound.response,
+        '405': BaseErrors.ListingNotSupported.response,
+        '422': AuthorsErrors.InvalidKey.response
+    }
+)
+async def get_batch_works(
+        request: Request,
+        keys: str | None = None,
+        limit: int = API_LIMIT,
+        offset: int = 0,
+        connection: psycopg2.extensions.connection = DB_DEPENDENCY
+) -> BatchResponse[Author]:
     """
-    Root endpoint for the authors collection
+    Retrieve works records by their **work_keys**.
 
-    This endpoint is intentionally not supported for listing operations
+    Returns a standardized response dictionary containing:
 
-    It exists to explicitly reject requests made to `/authors/` without a
-    valid `author_key`, and returns a standardized error response
+    - **data**: the works
+    - **meta**: metadata for the query (entity type)
+    - **links**: current link used
     """
-    raise BaseErrors.ListingNotSupported(query="/authors/")
+
+    # Build the current query
+    # Like '{path_url}?{query_url}'
+    query = build_query(request)
+
+    # Intentionally not supported for listing operations
+    if keys is None:
+        raise BaseErrors.ListingNotSupported(query)
+
+    # Split and strip key string
+    author_keys = parse_entity_keys(keys=keys)
+
+    # For each key validate key type
+    for author_key in author_keys:
+
+        # Validate if any of the keys is an invalid work key
+        validate_key(
+            key=author_key,
+            entity='author',
+            query=query
+        )
+
+    # Fetch data
+    results = authors_repo.get_authors_by_author_key(
+        connection=connection,
+        author_key=author_keys,
+        limit=limit,
+        offset=offset
+    )
+
+    # If no data is returned then error is raised
+    if len(results['data']) == 0:
+        raise AuthorsErrors.NotFound(query)
+
+    # Build links
+    links = build_pagination_links(
+        url=query,
+        total=results['total_authors'],
+        limit=limit,
+        offset=offset
+    )
+
+    # Format and return consistent API response structure
+    return format_response_batch(
+        records=results['data'],
+        column_names=results['column_names'],
+        meta={
+            'type': 'author',
+            'keys': author_keys,
+            'total': results['total_authors'],
+            'limit': limit,
+            'offset': offset
+        },
+        links=links,
+        model=Author
+    )
+
+# ----------------------------------------------------------------------------------
+# --- DEPRECATED ---
+# @router.get("/",  responses={'405': BaseErrors.ListingNotSupported.response})
+# async def authors_root() -> None:
+#     """
+#     Root endpoint for the authors collection
+#
+#     This endpoint is intentionally not supported for listing operations
+#
+#     It exists to explicitly reject requests made to `/authors/` without a
+#     valid `author_key`, and returns a standardized error response
+#     """
+#     raise BaseErrors.ListingNotSupported(query="/authors/")
+# ----------------------------------------------------------------------------------
 
 @router.get(
     path="/{author_key}",
@@ -115,7 +201,7 @@ async def get_author(
     )
 
     # Fetch data
-    results = authors_repo.get_author_by_author_key(
+    results = authors_repo.get_authors_by_author_key(
         connection=connection,
         author_key=author_key
     )
