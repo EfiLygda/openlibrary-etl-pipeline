@@ -432,7 +432,7 @@ async def get_authors_statistics(
         raise AuthorsErrors.NotFound(query)
 
     # Build links
-    links = links = build_entity_links(self=query)
+    links = build_entity_links(self=query)
 
     # Build meta
     meta = build_entity_meta(entity_type='author')
