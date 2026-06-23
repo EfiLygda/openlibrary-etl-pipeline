@@ -9,7 +9,7 @@ Note:
 from pydantic import BaseModel
 from typing import Generic, TypeVar, Optional
 from api.schemas.entities.core import EntityType
-from api.schemas.links import EntityLinks, RelationshipLinks
+from api.schemas.links import SelfLink, PaginationLinks
 from api.schemas.metadata import EntityMeta, RelationshipMeta, SearchMeta
 
 # Define a flexible variable type to be used as generic placeholder
@@ -36,16 +36,16 @@ class LinksResponse(BaseModel, Generic[T]):
 class EntityResponse(BaseModel, Generic[T]):
     data: list[T]
     meta: EntityMeta # dict[str, EntityType]
-    links: EntityLinks # dict[str, str]
+    links: SelfLink # dict[str, str]
 
 # --- Relationship Response ---
 class RelationshipResponse(BaseModel, Generic[T]):
     data: list[T]
     meta: RelationshipMeta # dict[str, int]
-    links: RelationshipLinks # dict[str, Optional[str]]
+    links: PaginationLinks # dict[str, Optional[str]]
 
 # --- Search Response ---
 class SearchResponse(BaseModel, Generic[T]):
     data: list[T]
     meta: SearchMeta # dict[str, int]
-    links: RelationshipLinks # dict[str, Optional[str]]
+    links: PaginationLinks # dict[str, Optional[str]]

@@ -6,7 +6,7 @@ from typing import TypeVar, Type
 from pydantic import BaseModel
 
 from api.response_builders.entities import _format_records
-from api.schemas.links import RelationshipLinks
+from api.schemas.links import PaginationLinks
 from api.schemas.metadata import SearchMeta
 from api.schemas.responses import SearchResponse
 
@@ -44,5 +44,5 @@ def format_response_search(
         ),
 
         meta = SearchMeta(**meta),
-        links = RelationshipLinks(**links)
+        links = PaginationLinks(**links)
     )

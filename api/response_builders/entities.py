@@ -5,7 +5,7 @@ Transformation utilities for formatting database entity query results
 from typing import TypeVar, Type
 from pydantic import BaseModel
 
-from api.schemas.links import RelationshipLinks, EntityLinks
+from api.schemas.links import PaginationLinks, SelfLink
 from api.schemas.metadata import EntityMeta, RelationshipMeta
 from api.schemas.responses import EntityResponse, RelationshipResponse
 
@@ -84,7 +84,7 @@ def format_response_entity(
         ),
 
         meta = EntityMeta(**meta),
-        links = EntityLinks(**links)
+        links = SelfLink(**links)
     )
 
 def format_response_relationship(
@@ -115,5 +115,5 @@ def format_response_relationship(
         ),
 
         meta = RelationshipMeta(**meta),
-        links = RelationshipLinks(**links)
+        links = PaginationLinks(**links)
     )

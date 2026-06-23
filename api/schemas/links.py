@@ -15,12 +15,12 @@ T = TypeVar('T')
 # Response Links
 # --------------------------------------------------------------------
 
-# --- Entity Response Links ---
-class EntityLinks(BaseModel):
+# --- Self Response Link ---
+class SelfLink(BaseModel):
     self: str
 
-# --- Entity Response Links ---
-class RelationshipLinks(BaseModel):
+# --- Pagination Response Links ---
+class PaginationLinks(BaseModel):
     self: str
     next: Optional[str]
     prev: Optional[str]
