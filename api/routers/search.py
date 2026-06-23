@@ -30,10 +30,10 @@ import api.repository.search as search_repo
 from api.errors import SearchErrors
 
 from api.schemas.search import SearchWork
-from api.schemas.responses import RelationshipResponse
+from api.schemas.responses import SearchResponse
 
 from api.utils.pagination import build_pagination_links
-from api.response_builders.entities import format_response_relationship
+from api.response_builders.search import format_response_search
 
 # Load variables from the .env file to the environment
 load_dotenv()
@@ -51,7 +51,7 @@ router = APIRouter(
 # --- Defining all endpoints ---
 @router.get(
     path="",
-    response_model=RelationshipResponse[SearchWork],
+    response_model=SearchResponse[SearchWork],
     responses={
         '404': SearchErrors.NotFound.response,
         '422': SearchErrors.QueryConflict.response
@@ -63,7 +63,7 @@ async def search(
         limit: int = API_LIMIT,
         offset: int = 0,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
-) -> RelationshipResponse[SearchWork]:
+) -> SearchResponse[SearchWork]:
     """
     Retrieve works via a **query**.
 
@@ -112,7 +112,7 @@ async def search(
     )
 
     # Format and return consistent API response structure
-    return format_response_relationship(
+    return format_response_search(
         records=results['data'],
         column_names=results['column_names'],
         meta={
