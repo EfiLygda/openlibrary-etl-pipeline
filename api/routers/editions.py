@@ -218,7 +218,7 @@ async def get_edition(
         raise EditionsErrors.NotFound(query)
 
     # Build links
-    links = build_entity_links(query=query)
+    links = build_entity_links(self=query)
 
     # Build metadata
     meta = build_entity_meta(entity_type='edition')

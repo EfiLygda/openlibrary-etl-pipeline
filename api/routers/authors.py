@@ -219,7 +219,7 @@ async def get_author(
         raise AuthorsErrors.NotFound(query)
 
     # Build links
-    links = build_entity_links(query=query)
+    links = build_entity_links(self=query)
 
     # Build metadata
     meta = build_entity_meta(entity_type='author')
@@ -432,7 +432,7 @@ async def get_authors_statistics(
         raise AuthorsErrors.NotFound(query)
 
     # Build links
-    links = links = build_entity_links(query=query)
+    links = links = build_entity_links(self=query)
 
     # Build meta
     meta = build_entity_meta(entity_type='author')
@@ -495,7 +495,7 @@ async def get_authors_alternative_names(
         raise AuthorsErrors.NotFound(query)
 
     # Build links
-    links = build_entity_links(query=query)
+    links = build_entity_links(self=query)
 
     # Build meta
     meta = build_entity_meta(entity_type='author')
