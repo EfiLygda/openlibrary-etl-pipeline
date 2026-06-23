@@ -93,3 +93,19 @@ def build_pagination_links(
         'next': next_url,
         'prev': prev_url
     }
+
+def build_entity_links(query: str) -> dict:
+    """
+    Build link metadata for a single-entity response
+
+    This function currently only returns a `self` link, representing the
+    canonical URL used to fetch the entity
+
+    :param query: str, the full request URL for the entity
+
+    :return: dict, dictionary containing link metadata
+    """
+
+    return {
+        'self': query
+    }
