@@ -86,7 +86,7 @@ router = APIRouter(
         '422': AuthorsErrors.InvalidKey.response
     }
 )
-async def get_batch_works(
+async def get_batch_authors(
         request: Request,
         keys: str | None = None,
         limit: int = LIMIT,

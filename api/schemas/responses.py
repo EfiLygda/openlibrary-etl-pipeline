@@ -19,11 +19,11 @@ T = TypeVar('T')
 # Final API responses
 # --------------------------------------------------------------------
 
-# --- Links API response ---
-class LinksResponse(BaseModel, Generic[T]):
-    key: str
-    type: Optional[EntityType] = None
-    links: Optional[T] = None
+# --- Search Response ---
+class SearchResponse(BaseModel, Generic[T]):
+    data: list[T]
+    meta: SearchMeta
+    links: PaginationLinks
 
 # --- Entity Response ---
 class EntityResponse(BaseModel, Generic[T]):
@@ -37,14 +37,14 @@ class RelationshipResponse(BaseModel, Generic[T]):
     meta: RelationshipMeta
     links: PaginationLinks
 
-# --- Search Response ---
-class SearchResponse(BaseModel, Generic[T]):
-    data: list[T]
-    meta: SearchMeta
-    links: PaginationLinks
-
 # --- Batch Response ---
 class BatchResponse(BaseModel, Generic[T]):
     data: list[T]
-    meta: BatchMeta # dict[str, int]
-    links: PaginationLinks # dict[str, Optional[str]]
+    meta: BatchMeta
+    links: PaginationLinks
+
+# --- Links API response ---
+class LinksResponse(BaseModel, Generic[T]):
+    key: str
+    type: Optional[EntityType] = None
+    links: Optional[T] = None
