@@ -101,5 +101,5 @@ def test_get_author_alternative_names(author_key, status):
 
 def test_get_author_nonexisting_alternative_names():
     response = client.get(f'/authors/{TEST_AUTHOR_KEYS['no_alternative_names']}/alternative_names')
-    assert response.json()['data'][0]['author_alternative_names'] == []
+    assert response.json()['data'][0]['alternative_names'] == []
 # --------------------------------------------------------------------------
