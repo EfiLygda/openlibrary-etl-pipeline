@@ -7,7 +7,7 @@ publishing data, and contributors.
 
 Endpoints:
 - GET /editions/
-  Retrieve all editions' related metadata (Not Supported)
+  Retrieve all editions' related metadata via their edition key
 
 - GET /editions/{edition_key}
   Retrieve edition records by edition_key
@@ -42,7 +42,7 @@ import api.repository.editions as editions_repo
 from api.schemas.entities.core import Edition
 from api.schemas.entities.summaries import WorkSummary
 from api.schemas.entities.extensions import EditionDetails, EditionContents, EditionPublishing, EditionContributor
-from api.schemas.responses import EntityResponse, RelationshipResponse
+from api.schemas.responses import EntityResponse, RelationshipResponse, BatchResponse
 
 from api.utils.query import build_query
 from api.utils.validation import validate_key
@@ -52,6 +52,7 @@ from api.utils.parsing import parse_entity_keys
 from api.errors import BaseErrors, EditionsErrors
 
 from api.response_builders.entities import format_response_entity, format_response_relationship
+from api.response_builders.batches import format_response_batch
 
 # --- Load API LIMIT from environment variables ---
 # Load variables from the .env file to the environment
@@ -67,17 +68,102 @@ router = APIRouter(
 )
 
 # --- Defining all endpoints ---
-@router.get("/",  responses={'405': BaseErrors.ListingNotSupported.response})
-async def editions_root() -> None:
+@router.get(
+    path="",
+    response_model=BatchResponse[Edition],
+    responses={
+        '404': EditionsErrors.NotFound.response,
+        '405': BaseErrors.ListingNotSupported.response,
+        '422': EditionsErrors.InvalidKey.response
+    }
+)
+async def get_batch_editions(
+        request: Request,
+        keys: str | None = None,
+        limit: int = API_LIMIT,
+        offset: int = 0,
+        connection: psycopg2.extensions.connection = DB_DEPENDENCY
+) -> BatchResponse[Edition]:
     """
-    Root endpoint for the editions collection
+    Retrieve edition records by their **edition_keys**.
 
-    This endpoint is intentionally not supported for listing operations
+    Returns a standardized response dictionary containing:
 
-    It exists to explicitly reject requests made to `/editions/` without a
-    valid `edition_key`, and returns a standardized error response
+    - **data**: the works
+    - **meta**: metadata for the query (entity type)
+    - **links**: current link used
     """
-    raise BaseErrors.ListingNotSupported(query="/editions/")
+
+    # Build the current query
+    # Like '{path_url}?{query_url}'
+    query = build_query(request)
+
+    # Intentionally not supported for listing operations
+    if keys is None:
+        raise BaseErrors.ListingNotSupported(query)
+
+    # Split and strip key string
+    edition_keys = parse_entity_keys(keys=keys)
+
+    # For each key validate key type
+    for edition_key in edition_keys:
+
+        # Validate if any of the keys is an invalid edition key
+        validate_key(
+            key=edition_key,
+            entity='edition',
+            query=query
+        )
+
+    # Fetch data
+    results = editions_repo.get_editions_by_edition_key(
+        connection=connection,
+        edition_key=edition_keys,
+        limit=limit,
+        offset=offset
+    )
+
+    # If no data is returned then error is raised
+    if len(results['data']) == 0:
+        raise EditionsErrors.NotFound(query)
+
+    # Build links
+    links = build_pagination_links(
+        url=query,
+        total=results['total_editions'],
+        limit=limit,
+        offset=offset
+    )
+
+    # Format and return consistent API response structure
+    return format_response_batch(
+        records=results['data'],
+        column_names=results['column_names'],
+        meta={
+            'type': 'edition',
+            'keys': edition_keys,
+            'total': results['total_editions'],
+            'limit': limit,
+            'offset': offset
+        },
+        links=links,
+        model=Edition
+    )
+
+# ----------------------------------------------------------------------------------
+# --- DEPRECATED ---
+# @router.get("/",  responses={'405': BaseErrors.ListingNotSupported.response})
+# async def editions_root() -> None:
+#     """
+#     Root endpoint for the editions collection
+# 
+#     This endpoint is intentionally not supported for listing operations
+# 
+#     It exists to explicitly reject requests made to `/editions/` without a
+#     valid `edition_key`, and returns a standardized error response
+#     """
+#     raise BaseErrors.ListingNotSupported(query="/editions/")
+# ----------------------------------------------------------------------------------
 
 @router.get(
     path="/{edition_key}",
@@ -90,6 +176,8 @@ async def editions_root() -> None:
 async def get_edition(
         request: Request,
         edition_key: str,
+        limit: int = API_LIMIT,
+        offset: int = 0,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> EntityResponse[Edition]:
     """
@@ -114,7 +202,12 @@ async def get_edition(
     )
 
     # Fetch data
-    results = editions_repo.get_edition_by_edition_key(connection, edition_key)
+    results = editions_repo.get_editions_by_edition_key(
+        connection=connection,
+        edition_key=edition_key,
+        limit=limit,
+        offset=offset
+    )
 
     # If no data is returned then error is raised
     if len(results['data']) == 0:
