@@ -257,6 +257,14 @@ def get_author_alternative_names_by_author_key(
     if not offset is None:
         params['offset'] = offset
 
+    # Calculate total editions before pagination
+    totals, _ = execute_query(
+        connection=connection,
+        params=params,
+        query_module='authors',
+        query_filename='total_alternative_names.sql'
+    )
+
     # Fetch the records
     alternative_names_data, alternative_names_column_names = execute_query(
         connection=connection,
@@ -266,6 +274,8 @@ def get_author_alternative_names_by_author_key(
     )
 
     return {
+        'total_authors': totals[0][0],
+        'total_names': totals[0][1],
         'data': alternative_names_data,
         'column_names': alternative_names_column_names
     }

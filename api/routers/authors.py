@@ -455,7 +455,7 @@ async def get_authors_statistics(
 
 @router.get(
     path="/{author_key}/alternative_names",
-    response_model=EntityResponse[AuthorAlternativeNames],
+    response_model=RelationshipResponse[AuthorAlternativeNames],
     responses={
         '404': AuthorsErrors.NotFound.response,
         '422': AuthorsErrors.InvalidKey.response
@@ -467,7 +467,7 @@ async def get_authors_alternative_names(
         limit: int = LIMIT,
         offset: int = OFFSET,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
-) -> EntityResponse[AuthorAlternativeNames]:
+) -> RelationshipResponse[AuthorAlternativeNames]:
     """
     Retrieve an author's alternative name records by **author_key**.
 
@@ -502,13 +502,25 @@ async def get_authors_alternative_names(
         raise AuthorsErrors.NotFound(query)
 
     # Build links
-    links = build_entity_links(self=query)
+    links = build_pagination_links(
+        url=query,
+        total=results['total_names'],
+        limit=limit,
+        offset=offset
+    )
 
     # Build meta
-    meta = build_entity_meta(entity_type=ENTITY_TYPE)
+    meta = build_relationship_meta(
+        parent_type=ENTITY_TYPE,
+        parent_key=author_key,
+        child_type='alternative_name',
+        total_children=results['total_names'],
+        limit=limit,
+        offset=offset
+    )
 
     # Format and return consistent API response structure
-    return format_response_entity(
+    return format_response_relationship(
         records=results['data'],
         column_names=results['column_names'],
         meta=meta,

@@ -6,3 +6,7 @@ FROM
     ON a.author_key = altnames.author_key
 WHERE
     a.author_key = %(filter_key)s
+LIMIT
+    %(limit)s
+OFFSET
+    %(offset)s
