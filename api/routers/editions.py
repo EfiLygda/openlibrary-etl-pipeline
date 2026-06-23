@@ -55,19 +55,26 @@ from api.errors import BaseErrors, EditionsErrors
 from api.response_builders.entities import format_response_entity, format_response_relationship
 from api.response_builders.batches import format_response_batch
 
+# -----------------------------------------------------------------------------
 # --- Load API LIMIT from environment variables ---
 # Load variables from the .env file to the environment
 load_dotenv()
 
 # Save the hidden info to variables
 API_LIMIT = int(os.getenv("API_LIMIT"))
+OFFSET = 0
+ENTITY_TYPE = 'edition'
+# -----------------------------------------------------------------------------
 
+# -----------------------------------------------------------------------------
 # --- Defining the editions router ---
 router = APIRouter(
     prefix="/editions",
     tags=["Editions"]
 )
+# -----------------------------------------------------------------------------
 
+# -----------------------------------------------------------------------------
 # --- Defining all endpoints ---
 @router.get(
     path="",
@@ -112,7 +119,7 @@ async def get_batch_editions(
         # Validate if any of the keys is an invalid edition key
         validate_key(
             key=edition_key,
-            entity='edition',
+            entity_type=ENTITY_TYPE,
             query=query
         )
 
@@ -138,7 +145,7 @@ async def get_batch_editions(
 
     # Build metada
     meta = build_batch_meta(
-        entity_type='edition',
+        entity_type=ENTITY_TYPE,
         keys=edition_keys,
         total=results['total_editions'],
         limit=limit,
@@ -201,7 +208,7 @@ async def get_edition(
     # Validate if any of the keys is an invalid edition key
     validate_key(
         key=edition_key,
-        entity='edition',
+        entity_type=ENTITY_TYPE,
         query=query
     )
 
@@ -221,7 +228,7 @@ async def get_edition(
     links = build_entity_links(self=query)
 
     # Build metadata
-    meta = build_entity_meta(entity_type='edition')
+    meta = build_entity_meta(entity_type=ENTITY_TYPE)
 
     # Format and return consistent API response structure
     return format_response_entity(
@@ -264,7 +271,7 @@ async def get_editions_work(
     # Validate if any of the keys is an invalid edition key
     validate_key(
         key=edition_key,
-        entity='edition',
+        entity_type=ENTITY_TYPE,
         query=query
     )
 
@@ -334,7 +341,7 @@ async def get_editions_details(
     # Validate if any of the keys is an invalid edition key
     validate_key(
         key=edition_key,
-        entity='edition',
+        entity_type=ENTITY_TYPE,
         query=query
     )
 
@@ -404,7 +411,7 @@ async def get_editions_contents(
     # Validate if any of the keys is an invalid edition key
     validate_key(
         key=edition_key,
-        entity='edition',
+        entity_type=ENTITY_TYPE,
         query=query
     )
 
@@ -474,7 +481,7 @@ async def get_editions_publishing(
     # Validate if any of the keys is an invalid edition key
     validate_key(
         key=edition_key,
-        entity='edition',
+        entity_type=ENTITY_TYPE,
         query=query
     )
 
@@ -544,7 +551,7 @@ async def get_editions_contributors(
     # Validate if any of the keys is an invalid edition key
     validate_key(
         key=edition_key,
-        entity='edition',
+        entity_type=ENTITY_TYPE,
         query=query
     )
 
@@ -581,3 +588,4 @@ async def get_editions_contributors(
         links=links,
         model=EditionContributor,
     )
+# -----------------------------------------------------------------------------
