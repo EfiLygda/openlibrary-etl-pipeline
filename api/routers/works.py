@@ -141,6 +141,9 @@ async def get_batch_works(
         records=results['data'],
         column_names=results['column_names'],
         meta={
+            'parent_type': 'work',
+            'parent_key': keys,
+            'child_type': None,
             'total': results['total_works'],
             'limit': limit,
             'offset': offset
@@ -282,7 +285,10 @@ async def get_work_authors(
         records=results['data'],
         column_names=results['column_names'],
         meta={
-            'total': results['total_authors'],
+            'parent_type': 'work',
+            'parent_key': work_key,
+            'child_type': 'author',
+            'total_children': results['total_authors'],
             'limit': limit,
             'offset': offset
         },
@@ -351,6 +357,9 @@ async def get_work_editions(
         records=results['data'],
         column_names=results['column_names'],
         meta={
+            'parent_type': 'work',
+            'parent_key': work_key,
+            'child_type': 'edition',
             'total': results['total_editions'],
             'limit': limit,
             'offset': offset
@@ -420,6 +429,9 @@ async def get_work_series(
         records=results['data'],
         column_names=results['column_names'],
         meta={
+            'parent_type': 'work',
+            'parent_key': work_key,
+            'child_type': 'series',
             'total': results['total_series'],
             'limit': limit,
             'offset': offset

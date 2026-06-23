@@ -194,6 +194,9 @@ async def get_authors_works(
         records=results['data'],
         column_names=results['column_names'],
         meta={
+            'parent_type': 'author',
+            'parent_key': author_key,
+            'child_type': 'work',
             'total': results['total_works'],
             'limit': limit,
             'offset': offset
@@ -263,6 +266,9 @@ async def get_authors_editions(
         records=results['data'],
         column_names=results['column_names'],
         meta={
+            'parent_type': 'author',
+            'parent_key': author_key,
+            'child_type': 'edition',
             'total': results['total_editions'],
             'limit': limit,
             'offset': offset
