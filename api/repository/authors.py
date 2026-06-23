@@ -8,15 +8,20 @@ to fetch author-related data
 import psycopg2
 from api.repository.base import execute_query
 
-def get_author_by_author_key(
+def get_authors_by_author_key(
         connection: psycopg2.extensions.connection,
-        author_key: str,
+        author_key: str | list[str],
+        limit: int | None = None,
+        offset: int | None = None,
 ) -> dict:
     """
     Retrieve all author records associated with a given author key
 
     :param connection: psycopg2.extensions.connection, active PostgreSQL database connection
     :param author_key: str, unique identifier of the author to retrieve
+    :param limit: int, maximum number of records to return (used for pagination)
+    :param offset: int, number of records to skip before starting to return results
+
     :returns: A dictionary containing:
 
         * `authors` - list of matching records returned by the query
@@ -24,9 +29,28 @@ def get_author_by_author_key(
     """
 
     # Set up the query parameters
-    params = {
-        'filter_key': author_key
-    }
+    if isinstance(author_key, str):
+        params = {
+            'filter_key': [author_key]
+        }
+    elif isinstance(author_key, list):
+        params = {
+            'filter_key': author_key
+        }
+
+    if not limit is None:
+        params['limit'] = limit
+
+    if not offset is None:
+        params['offset'] = offset
+
+    # Calculate total works before pagination
+    totals, _ = execute_query(
+        connection=connection,
+        params=params,
+        query_module='authors',
+        query_filename='total_authors.sql'
+    )
 
     # Fetch the records
     authors, authors_column_names = execute_query(
@@ -37,6 +61,7 @@ def get_author_by_author_key(
     )
 
     return {
+        'total_authors': totals[0][0],
         'data': authors,
         'column_names': authors_column_names
     }
