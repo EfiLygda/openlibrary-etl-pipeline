@@ -30,3 +30,11 @@ class SearchMeta(BaseModel):
     total: int = 0
     limit: int = 0
     offset: int = 0
+
+# --- Batch Response Metadata ---
+class BatchMeta(BaseModel):
+    type: EntityType
+    keys: list[str]
+    total: int = 0
+    limit: int = 0
+    offset: int = 0

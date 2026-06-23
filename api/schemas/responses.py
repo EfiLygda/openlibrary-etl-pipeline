@@ -10,7 +10,7 @@ from pydantic import BaseModel
 from typing import Generic, TypeVar, Optional
 from api.schemas.entities.core import EntityType
 from api.schemas.links import SelfLink, PaginationLinks
-from api.schemas.metadata import EntityMeta, RelationshipMeta, SearchMeta
+from api.schemas.metadata import EntityMeta, RelationshipMeta, SearchMeta, BatchMeta
 
 # Define a flexible variable type to be used as generic placeholder
 T = TypeVar('T')
@@ -48,4 +48,10 @@ class RelationshipResponse(BaseModel, Generic[T]):
 class SearchResponse(BaseModel, Generic[T]):
     data: list[T]
     meta: SearchMeta # dict[str, int]
+    links: PaginationLinks # dict[str, Optional[str]]
+
+# --- Batch Response ---
+class BatchResponse(BaseModel, Generic[T]):
+    data: list[T]
+    meta: BatchMeta # dict[str, int]
     links: PaginationLinks # dict[str, Optional[str]]

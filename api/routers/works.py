@@ -44,7 +44,7 @@ import api.repository.works as works_repo
 from api.schemas.entities.core import Work
 from api.schemas.entities.summaries import AuthorSummary, EditionSummary
 from api.schemas.entities.extensions import WorkSeries, WorkAvailability, WorkRatings, WorkOverview
-from api.schemas.responses import EntityResponse, RelationshipResponse
+from api.schemas.responses import EntityResponse, RelationshipResponse, BatchResponse
 
 from api.utils.query import build_query
 from api.utils.validation import validate_key
@@ -54,6 +54,7 @@ from api.utils.parsing import parse_entity_keys
 from api.errors import BaseErrors, WorksErrors
 
 from api.response_builders.entities import format_response_entity, format_response_relationship
+from api.response_builders.batches import format_response_batch
 
 # --- Load API LIMIT from environment variables ---
 # Load variables from the .env file to the environment
@@ -71,7 +72,7 @@ router = APIRouter(
 # --- Defining all endpoints ---
 @router.get(
     path="",
-    response_model=RelationshipResponse[Work],
+    response_model=BatchResponse[Work],
     responses={
         '404': WorksErrors.NotFound.response,
         '405': BaseErrors.ListingNotSupported.response,
@@ -84,7 +85,7 @@ async def get_batch_works(
         limit: int = API_LIMIT,
         offset: int = 0,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
-) -> RelationshipResponse[Work]:
+) -> BatchResponse[Work]:
     """
     Retrieve works records by their **work_keys**.
 
@@ -137,13 +138,12 @@ async def get_batch_works(
     )
 
     # Format and return consistent API response structure
-    return format_response_relationship(
+    return format_response_batch(
         records=results['data'],
         column_names=results['column_names'],
         meta={
-            'parent_type': 'work',
-            'parent_key': keys,
-            'child_type': None,
+            'type': 'work',
+            'keys': work_keys,
             'total': results['total_works'],
             'limit': limit,
             'offset': offset
