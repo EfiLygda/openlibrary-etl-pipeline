@@ -26,8 +26,8 @@ from api.routers import (
 load_dotenv()
 
 # Save the hidden info to variables
-GENRE = os.getenv("GENRE")
-API_VERSION = os.getenv("API_VERSION")
+GENRE = str(os.getenv("GENRE"))
+API_VERSION = str(os.getenv("API_VERSION"))
 
 # API description
 API_description = ('A FastAPI-based API for searching and retrieving '
