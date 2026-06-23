@@ -36,6 +36,13 @@ def _format_records(
     if not records or not fields:
         return []
 
+    # If the model is str then it will be one column records like ('value',)
+    if  model is str:
+        return [
+            record[0]
+            for record in records
+        ]
+
     # Set up results list
     results = []
 

@@ -6,7 +6,7 @@ Note:
 """
 
 from pydantic import BaseModel
-from typing import TypeVar, Optional
+from typing import TypeVar, Optional, TypeAlias
 
 # Define a flexible variable type to be used as generic placeholder
 T = TypeVar('T')
@@ -53,8 +53,7 @@ class AuthorStatistics(BaseModel):
     currently_reading_count: Optional[int]
     already_read_count: Optional[int]
 
-class AuthorAlternativeNames(BaseModel):
-    author_alternative_names: Optional[list[str]]
+AuthorAlternativeNames: TypeAlias = str # for data of list[str]
 
 # - EDITIONS -
 class EditionDetails(BaseModel):
