@@ -177,6 +177,8 @@ async def get_batch_works(
 async def get_author(
         request: Request,
         author_key: str,
+        limit: int = API_LIMIT,
+        offset: int = 0,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> EntityResponse[Author]:
     """
@@ -203,7 +205,9 @@ async def get_author(
     # Fetch data
     results = authors_repo.get_authors_by_author_key(
         connection=connection,
-        author_key=author_key
+        author_key=author_key,
+        limit=limit,
+        offset=offset
     )
 
     # If no data is returned then error is raised
