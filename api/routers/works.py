@@ -360,7 +360,7 @@ async def get_work_editions(
             'parent_type': 'work',
             'parent_key': work_key,
             'child_type': 'edition',
-            'total': results['total_editions'],
+            'total_children': results['total_editions'],
             'limit': limit,
             'offset': offset
         },
@@ -432,7 +432,7 @@ async def get_work_series(
             'parent_type': 'work',
             'parent_key': work_key,
             'child_type': 'series',
-            'total': results['total_series'],
+            'total_children': results['total_series'],
             'limit': limit,
             'offset': offset
         },

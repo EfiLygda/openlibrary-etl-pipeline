@@ -21,20 +21,20 @@ class RelationshipMeta(BaseModel):
     parent_type: EntityType
     parent_key: str
     child_type: Optional[str]
-    total_children: int = 0
-    limit: int = 0
-    offset: int = 0
+    total_children: int
+    limit: int
+    offset: int
 
 # --- Search Response Metadata ---
 class SearchMeta(BaseModel):
-    total: int = 0
-    limit: int = 0
-    offset: int = 0
+    total: int
+    limit: int
+    offset: int
 
 # --- Batch Response Metadata ---
 class BatchMeta(BaseModel):
     type: EntityType
     keys: list[str]
-    total: int = 0
-    limit: int = 0
-    offset: int = 0
+    total: int
+    limit: int
+    offset: int

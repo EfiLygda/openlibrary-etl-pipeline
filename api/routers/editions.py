@@ -281,7 +281,7 @@ async def get_editions_work(
             'parent_type': 'edition',
             'parent_key': edition_key,
             'child_type': 'work',
-            'total': results['total_works'],
+            'total_children': results['total_works'],
             'limit': limit,
             'offset': offset
         },
@@ -348,7 +348,7 @@ async def get_editions_details(
             'parent_type': 'edition',
             'parent_key': edition_key,
             'child_type': 'detail',
-            'total': results['total_details'],
+            'total_children': results['total_details'],
             'limit': limit,
             'offset': offset
         },
@@ -415,7 +415,7 @@ async def get_editions_contents(
             'parent_type': 'edition',
             'parent_key': edition_key,
             'child_type': 'content',
-            'total': results['total_contents'],
+            'total_children': results['total_contents'],
             'limit': limit,
             'offset': offset
         },
@@ -482,7 +482,7 @@ async def get_editions_publishing(
             'parent_type': 'edition',
             'parent_key': edition_key,
             'child_type': 'publishing',
-            'total': results['total_publishing'],
+            'total_children': results['total_publishing'],
             'limit': limit,
             'offset': offset
         },
@@ -549,7 +549,7 @@ async def get_editions_contributors(
             'parent_type': 'edition',
             'parent_key': edition_key,
             'child_type': 'contributor',
-            'total': results['total_contributors'],
+            'total_children': results['total_contributors'],
             'limit': limit,
             'offset': offset
         },
