@@ -41,7 +41,7 @@ import api.repository.editions as editions_repo
 
 from api.schemas.entities.core import Edition
 from api.schemas.entities.summaries import WorkSummary
-from api.schemas.entities.extensions import EditionDetails, EditionContents, EditionPublishing, EditionContributor
+from api.schemas.entities.relationships import EditionDetails, EditionContents, EditionPublishing, EditionContributor
 from api.schemas.responses import EntityResponse, RelationshipResponse, BatchResponse
 
 from api.utils.query import build_query

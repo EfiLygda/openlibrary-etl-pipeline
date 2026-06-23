@@ -43,7 +43,7 @@ import api.repository.works as works_repo
 
 from api.schemas.entities.core import Work
 from api.schemas.entities.summaries import AuthorSummary, EditionSummary
-from api.schemas.entities.extensions import WorkSeries, WorkAvailability, WorkRatings, WorkOverview
+from api.schemas.entities.relationships import WorkSeries, WorkAvailability, WorkRatings, WorkOverview
 from api.schemas.responses import EntityResponse, RelationshipResponse, BatchResponse
 
 from api.utils.query import build_query

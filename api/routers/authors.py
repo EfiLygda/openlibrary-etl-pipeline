@@ -42,7 +42,7 @@ import api.repository.authors as authors_repo
 
 from api.schemas.entities.core import Author
 from api.schemas.entities.summaries import WorkSummary, EditionSummary
-from api.schemas.entities.extensions import AuthorStatistics, AuthorAlternativeNames
+from api.schemas.entities.relationships import AuthorStatistics, AuthorAlternativeNames
 from api.schemas.responses import EntityResponse, RelationshipResponse, BatchResponse
 
 from api.utils.query import build_query
