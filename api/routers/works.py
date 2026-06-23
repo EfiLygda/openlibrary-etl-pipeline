@@ -121,7 +121,7 @@ async def get_batch_works(
         # Validate if any of the keys is an invalid work key
         validate_key(
             key=work_key,
-            entity='work',
+            entity_type=ENTITY_TYPE,
             query=query
         )
 
@@ -210,7 +210,7 @@ async def get_work(
     # Validate if the key is a valid work key
     validate_key(
         key=work_key,
-        entity='work',
+        entity_type=ENTITY_TYPE,
         query=query
     )
 
@@ -273,7 +273,7 @@ async def get_work_authors(
     # Validate if the key is a valid work key
     validate_key(
         key=work_key,
-        entity='work',
+        entity_type=ENTITY_TYPE,
         query=query
     )
 
@@ -348,7 +348,7 @@ async def get_work_editions(
     # Validate if the key is a valid work key
     validate_key(
         key=work_key,
-        entity='work',
+        entity_type=ENTITY_TYPE,
         query=query
     )
 
@@ -423,7 +423,7 @@ async def get_work_series(
     # Validate if the key is a valid work key
     validate_key(
         key=work_key,
-        entity='work',
+        entity_type=ENTITY_TYPE,
         query=query
     )
 
@@ -498,7 +498,7 @@ async def get_work_availability(
     # Validate if the key is a valid work key
     validate_key(
         key=work_key,
-        entity='work',
+        entity_type=ENTITY_TYPE,
         query=query
     )
 
@@ -561,7 +561,7 @@ async def get_work_ratings(
     # Validate if the key is a valid work key
     validate_key(
         key=work_key,
-        entity='work',
+        entity_type=ENTITY_TYPE,
         query=query
     )
 
@@ -624,7 +624,7 @@ async def get_work_overview(
     # Validate if the key is a valid work key
     validate_key(
         key=work_key,
-        entity='work',
+        entity_type=ENTITY_TYPE,
         query=query
     )
 
