@@ -32,7 +32,9 @@ from api.errors import SearchErrors
 from api.schemas.search import SearchWork
 from api.schemas.responses import SearchResponse
 
-from api.utils.pagination import build_pagination_links
+from api.utils.links import build_pagination_links
+from api.utils.metadata import build_search_meta
+
 from api.response_builders.search import format_response_search
 
 # Load variables from the .env file to the environment
@@ -111,15 +113,18 @@ async def search(
         offset=offset
     )
 
+    # Build metadata
+    meta = build_search_meta(
+        total=results['total_results'],
+        limit=limit,
+        offset=offset
+    )
+
     # Format and return consistent API response structure
     return format_response_search(
         records=results['data'],
         column_names=results['column_names'],
-        meta={
-            'total': results['total_results'],
-            'limit': limit,
-            'offset': offset
-        },
+        meta=meta,
         links=links,
         model=SearchWork,
     )

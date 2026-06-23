@@ -77,3 +77,23 @@ def build_batch_meta(
         'limit': limit,
         'offset': offset
     }
+
+def build_search_meta(
+        total: int,
+        limit: int,
+        offset: int
+) -> dict:
+    """
+    Build metadata for search entity responses
+
+    :param total: int, total number of records returned or matched
+    :param limit: int, maximum number of records returned in this response
+    :param offset: int, pagination offset for the current response
+
+    :return: dict, dictionary containing batch metadata
+    """
+    return {
+        'total': total,
+        'limit': limit,
+        'offset': offset
+    }
