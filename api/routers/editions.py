@@ -46,7 +46,8 @@ from api.schemas.responses import EntityResponse, RelationshipResponse, BatchRes
 
 from api.utils.query import build_query
 from api.utils.validation import validate_key
-from api.utils.pagination import build_pagination_links
+from api.utils.links import build_entity_links, build_pagination_links
+from api.utils.metadata import build_entity_meta, build_relationship_meta, build_batch_meta
 from api.utils.parsing import parse_entity_keys
 
 from api.errors import BaseErrors, EditionsErrors
@@ -135,17 +136,20 @@ async def get_batch_editions(
         offset=offset
     )
 
+    # Build metada
+    meta = build_batch_meta(
+        entity_type='edition',
+        keys=edition_keys,
+        total=results['total_editions'],
+        limit=limit,
+        offset=offset
+    )
+
     # Format and return consistent API response structure
     return format_response_batch(
         records=results['data'],
         column_names=results['column_names'],
-        meta={
-            'type': 'edition',
-            'keys': edition_keys,
-            'total': results['total_editions'],
-            'limit': limit,
-            'offset': offset
-        },
+        meta=meta,
         links=links,
         model=Edition
     )
@@ -213,12 +217,18 @@ async def get_edition(
     if len(results['data']) == 0:
         raise EditionsErrors.NotFound(query)
 
+    # Build links
+    links = build_entity_links(query=query)
+
+    # Build metadata
+    meta = build_entity_meta(entity_type='edition')
+
     # Format and return consistent API response structure
     return format_response_entity(
         records=results['data'],
         column_names=results['column_names'],
-        meta={'type': 'edition'},
-        links={'self': query},
+        meta=meta,
+        links=links,
         model=Edition
     )
 
@@ -273,18 +283,21 @@ async def get_editions_work(
         offset=offset
     )
 
+    # Build meta
+    meta = build_relationship_meta(
+        parent_type='edition',
+        parent_key=edition_key,
+        child_type='work',
+        total_children=results['total_works'],
+        limit=limit,
+        offset=offset
+    )
+
     # Format and return consistent API response structure
     return format_response_relationship(
         records=results['data'],
         column_names=results['column_names'],
-        meta={
-            'parent_type': 'edition',
-            'parent_key': edition_key,
-            'child_type': 'work',
-            'total_children': results['total_works'],
-            'limit': limit,
-            'offset': offset
-        },
+        meta=meta,
         links=links,
         model=WorkSummary,
     )
@@ -340,18 +353,21 @@ async def get_editions_details(
         offset=offset
     )
 
+    # Build meta
+    meta = build_relationship_meta(
+        parent_type='edition',
+        parent_key=edition_key,
+        child_type='detail',
+        total_children=results['total_details'],
+        limit=limit,
+        offset=offset
+    )
+
     # Format and return consistent API response structure
     return format_response_relationship(
         records=results['data'],
         column_names=results['column_names'],
-        meta={
-            'parent_type': 'edition',
-            'parent_key': edition_key,
-            'child_type': 'detail',
-            'total_children': results['total_details'],
-            'limit': limit,
-            'offset': offset
-        },
+        meta=meta,
         links=links,
         model=EditionDetails,
     )
@@ -407,18 +423,21 @@ async def get_editions_contents(
         offset=offset
     )
 
+    # Build meta
+    meta = build_relationship_meta(
+        parent_type='edition',
+        parent_key=edition_key,
+        child_type='content',
+        total_children=results['total_contents'],
+        limit=limit,
+        offset=offset
+    )
+
     # Format and return consistent API response structure
     return format_response_relationship(
         records=results['data'],
         column_names=results['column_names'],
-        meta={
-            'parent_type': 'edition',
-            'parent_key': edition_key,
-            'child_type': 'content',
-            'total_children': results['total_contents'],
-            'limit': limit,
-            'offset': offset
-        },
+        meta=meta,
         links=links,
         model=EditionContents,
     )
@@ -474,18 +493,21 @@ async def get_editions_publishing(
         offset=offset
     )
 
+    # Build meta
+    meta = build_relationship_meta(
+        parent_type='edition',
+        parent_key=edition_key,
+        child_type='publishing',
+        total_children=results['total_publishing'],
+        limit=limit,
+        offset=offset
+    )
+
     # Format and return consistent API response structure
     return format_response_relationship(
         records=results['data'],
         column_names=results['column_names'],
-        meta={
-            'parent_type': 'edition',
-            'parent_key': edition_key,
-            'child_type': 'publishing',
-            'total_children': results['total_publishing'],
-            'limit': limit,
-            'offset': offset
-        },
+        meta=meta,
         links=links,
         model=EditionPublishing,
     )
@@ -541,18 +563,21 @@ async def get_editions_contributors(
         offset=offset
     )
 
+    # Build meta
+    meta = build_relationship_meta(
+        parent_type='edition',
+        parent_key=edition_key,
+        child_type='contributor',
+        total_children=results['total_contributors'],
+        limit=limit,
+        offset=offset
+    )
+
     # Format and return consistent API response structure
     return format_response_relationship(
         records=results['data'],
         column_names=results['column_names'],
-        meta={
-            'parent_type': 'edition',
-            'parent_key': edition_key,
-            'child_type': 'contributor',
-            'total_children': results['total_contributors'],
-            'limit': limit,
-            'offset': offset
-        },
+        meta=meta,
         links=links,
         model=EditionContributor,
     )
