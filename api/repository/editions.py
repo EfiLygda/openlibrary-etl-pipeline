@@ -8,15 +8,20 @@ to fetch edition-related data
 import psycopg2
 from api.repository.base import execute_query
 
-def get_edition_by_edition_key(
-    connection: psycopg2.extensions.connection,
-    edition_key: str,
+def get_editions_by_edition_key(
+        connection: psycopg2.extensions.connection,
+        edition_key: str | list[str],
+        limit: int | None = None,
+        offset: int | None = None,
 ) -> dict:
     """
     Retrieve all edition records associated with a given edition key
 
     :param connection: psycopg2.extensions.connection, active PostgreSQL database connection
-    :param edition_key: str, unique identifier of the edition to retrieve
+    :param edition_key: str | list[str], unique identifier of the edition to retrieve or list of unique identifiers
+    :param limit: int, maximum number of records to return (used for pagination)
+    :param offset: int, number of records to skip before starting to return results
+
     :returns: A dictionary containing:
 
         * `editions` - list of matching records returned by the query
@@ -24,9 +29,28 @@ def get_edition_by_edition_key(
     """
 
     # Set up the query parameters
-    params = {
-        'filter_key': edition_key
-    }
+    if isinstance(edition_key, str):
+        params = {
+            'filter_key': [edition_key]
+        }
+    elif isinstance(edition_key, list):
+        params = {
+            'filter_key': edition_key
+        }
+
+    if not limit is None:
+        params['limit'] = limit
+
+    if not offset is None:
+        params['offset'] = offset
+
+    # Calculate total works before pagination
+    totals, _ = execute_query(
+        connection=connection,
+        params=params,
+        query_module='editions',
+        query_filename='total_editions.sql'
+    )
 
     # Fetch the records
     editions, editions_column_names = execute_query(
@@ -37,6 +61,7 @@ def get_edition_by_edition_key(
     )
 
     return {
+        'total_editions': totals[0][0],
         'data': editions,
         'column_names': editions_column_names
     }
