@@ -56,19 +56,26 @@ from api.errors import BaseErrors, AuthorsErrors
 from api.response_builders.entities import format_response_entity, format_response_relationship
 from api.response_builders.batches import format_response_batch
 
+# -----------------------------------------------------------------------------
 # --- Load API LIMIT from environment variables ---
 # Load variables from the .env file to the environment
 load_dotenv()
 
-# Save the hidden info to variables
-API_LIMIT = int(os.getenv("API_LIMIT"))
+# --- Setting up parameters ---
+LIMIT = int(os.getenv("API_LIMIT"))
+OFFSET = 0
+ENTITY_TYPE = 'author'
+# -----------------------------------------------------------------------------
 
+# -----------------------------------------------------------------------------
 # --- Defining the authors router ---
 router = APIRouter(
     prefix="/authors",
     tags=["Authors"]
 )
+# -----------------------------------------------------------------------------
 
+# -----------------------------------------------------------------------------
 # --- Defining all endpoints ---
 @router.get(
     path="",
@@ -82,8 +89,8 @@ router = APIRouter(
 async def get_batch_works(
         request: Request,
         keys: str | None = None,
-        limit: int = API_LIMIT,
-        offset: int = 0,
+        limit: int = LIMIT,
+        offset: int = OFFSET,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> BatchResponse[Author]:
     """
@@ -113,7 +120,7 @@ async def get_batch_works(
         # Validate if any of the keys is an invalid work key
         validate_key(
             key=author_key,
-            entity='author',
+            entity_type=ENTITY_TYPE,
             query=query
         )
 
@@ -139,7 +146,7 @@ async def get_batch_works(
 
     # Build metadata
     meta = build_batch_meta(
-        entity_type='author',
+        entity_type=ENTITY_TYPE,
         keys=author_keys,
         total=results['total_authors'],
         limit=limit,
@@ -181,8 +188,8 @@ async def get_batch_works(
 async def get_author(
         request: Request,
         author_key: str,
-        limit: int = API_LIMIT,
-        offset: int = 0,
+        limit: int = LIMIT,
+        offset: int = OFFSET,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> EntityResponse[Author]:
     """
@@ -202,7 +209,7 @@ async def get_author(
     # Validate if any of the keys is an invalid author key
     validate_key(
         key=author_key,
-        entity='author',
+        entity_type=ENTITY_TYPE,
         query=query
     )
 
@@ -222,7 +229,7 @@ async def get_author(
     links = build_entity_links(self=query)
 
     # Build metadata
-    meta = build_entity_meta(entity_type='author')
+    meta = build_entity_meta(entity_type=ENTITY_TYPE)
 
     # Format and return consistent API response structure
     return format_response_entity(
@@ -244,8 +251,8 @@ async def get_author(
 async def get_authors_works(
         request: Request,
         author_key: str,
-        limit: int = API_LIMIT,
-        offset: int = 0,
+        limit: int = LIMIT,
+        offset: int = OFFSET,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> RelationshipResponse[WorkSummary]:
     """
@@ -265,7 +272,7 @@ async def get_authors_works(
     # Validate if any of the keys is an invalid author key
     validate_key(
         key=author_key,
-        entity='author',
+        entity_type=ENTITY_TYPE,
         query=query
     )
 
@@ -319,8 +326,8 @@ async def get_authors_works(
 async def get_authors_editions(
         request: Request,
         author_key: str,
-        limit: int = API_LIMIT,
-        offset: int = 0,
+        limit: int = LIMIT,
+        offset: int = OFFSET,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> RelationshipResponse[EditionSummary]:
     """
@@ -340,7 +347,7 @@ async def get_authors_editions(
     # Validate if any of the keys is an invalid author key
     validate_key(
         key=author_key,
-        entity='author',
+        entity_type=ENTITY_TYPE,
         query=query
     )
 
@@ -394,8 +401,8 @@ async def get_authors_editions(
 async def get_authors_statistics(
         request: Request,
         author_key: str,
-        limit: int = API_LIMIT,
-        offset: int = 0,
+        limit: int = LIMIT,
+        offset: int = OFFSET,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> EntityResponse[AuthorStatistics]:
     """
@@ -415,7 +422,7 @@ async def get_authors_statistics(
     # Validate if any of the keys is an invalid author key
     validate_key(
         key=author_key,
-        entity='author',
+        entity_type=ENTITY_TYPE,
         query=query
     )
 
@@ -435,7 +442,7 @@ async def get_authors_statistics(
     links = build_entity_links(self=query)
 
     # Build meta
-    meta = build_entity_meta(entity_type='author')
+    meta = build_entity_meta(entity_type=ENTITY_TYPE)
 
     # Format and return consistent API response structure
     return format_response_entity(
@@ -457,8 +464,8 @@ async def get_authors_statistics(
 async def get_authors_alternative_names(
         request: Request,
         author_key: str,
-        limit: int = API_LIMIT,
-        offset: int = 0,
+        limit: int = LIMIT,
+        offset: int = OFFSET,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> EntityResponse[AuthorAlternativeNames]:
     """
@@ -478,7 +485,7 @@ async def get_authors_alternative_names(
     # Validate if any of the keys is an invalid author key
     validate_key(
         key=author_key,
-        entity='author',
+        entity_type=ENTITY_TYPE,
         query=query
     )
 
@@ -498,7 +505,7 @@ async def get_authors_alternative_names(
     links = build_entity_links(self=query)
 
     # Build meta
-    meta = build_entity_meta(entity_type='author')
+    meta = build_entity_meta(entity_type=ENTITY_TYPE)
 
     # Format and return consistent API response structure
     return format_response_entity(
@@ -508,3 +515,4 @@ async def get_authors_alternative_names(
         links=links,
         model=AuthorAlternativeNames
     )
+# -----------------------------------------------------------------------------
