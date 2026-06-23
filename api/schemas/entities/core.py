@@ -36,7 +36,7 @@ class Work(BaseModel):
 
 class Author(BaseModel):
     author_key: str
-    author_name: str
+    author_name: Optional[str] = None
     bio: Optional[str] = None
     birth_date: Optional[str] = None
     death_date: Optional[str] = None

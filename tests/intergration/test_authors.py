@@ -26,6 +26,9 @@ TEST_AUTHOR_KEYS = {
     'no_works': 'OL1393290A',               # Existing author with no works
     'no_statistics': 'OL12903718A',         # Existing author with no statistics
     'no_alternative_names': 'OL6216069A',   # Existing author with no alternative names
+    'existing_batch': 'OL1386221A,OL1393290A',
+    'missing_batch': 'OL138621A,OL13320A',
+    'invalid_batch': 'OL1386221A,OL1393290'
 }
 
 # Parametrized list of the HTTP responses for each endpoint
@@ -35,11 +38,22 @@ HTTP_response_tests = [
     (TEST_AUTHOR_KEYS['invalid'], 422),
 ]
 
+HTTP_batch_response_tests = [
+    (TEST_AUTHOR_KEYS['existing_batch'], 200),
+    (TEST_AUTHOR_KEYS['missing_batch'], 404),
+    (TEST_AUTHOR_KEYS['invalid_batch'], 422),
+]
+
 # --------------------------------------------------------------------------
 # --- GET /authors/ ---
 def test_get_all_authors_listing():
     response = client.get('/authors')
     assert response.status_code == 405
+
+@pytest.mark.parametrize('keys,status', HTTP_batch_response_tests)
+def test_get_batch_author(keys, status):
+    response = client.get(f'/authors?keys={keys}')
+    assert response.status_code == status
 # --------------------------------------------------------------------------
 
 # --------------------------------------------------------------------------
