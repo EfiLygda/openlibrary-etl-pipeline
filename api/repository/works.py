@@ -10,7 +10,7 @@ from api.repository.base import execute_query
 
 def get_works_by_work_key(
         connection: psycopg2.extensions.connection,
-        work_key: str | list[str],
+        work_keys: str | list[str],
         limit: int | None = None,
         offset: int | None = None,
 ) -> dict:
@@ -18,7 +18,7 @@ def get_works_by_work_key(
     Retrieve all work records associated with a given work key
 
     :param connection: psycopg2.extensions.connection, active PostgreSQL database connection
-    :param work_key: str, unique identifier of the work to retrieve
+    :param work_keys: str | list[str], unique identifier of the work to retrieve or list of unique identifiers
     :param limit: int, maximum number of records to return (used for pagination)
     :param offset: int, number of records to skip before starting to return results
 
@@ -29,13 +29,13 @@ def get_works_by_work_key(
     """
 
     # Set up the query parameters
-    if isinstance(work_key, str):
+    if isinstance(work_keys, str):
         params = {
-            'filter_key': [work_key]
+            'filter_key': [work_keys]
         }
-    elif isinstance(work_key, list):
+    elif isinstance(work_keys, list):
         params = {
-            'filter_key': work_key
+            'filter_key': work_keys
         }
 
     if not limit is None:

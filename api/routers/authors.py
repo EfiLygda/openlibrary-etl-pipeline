@@ -37,26 +37,28 @@ import psycopg2
 from fastapi import APIRouter
 from fastapi import Request
 
-from open_library import KeyHandler
-
 from api.dependencies import DB_DEPENDENCY
 import api.repository.authors as authors_repo
-
-from api.utils.pagination import build_pagination_links
-from api.errors import BaseErrors, AuthorsErrors
 
 from api.schemas.entities.core import Author
 from api.schemas.entities.summaries import WorkSummary, EditionSummary
 from api.schemas.entities.extensions import AuthorStatistics, AuthorAlternativeNames
 from api.schemas.responses import EntityResponse, RelationshipResponse
 
+from api.utils.query import build_query
+from api.utils.validation import validate_key
+from api.utils.pagination import build_pagination_links
+from api.utils.parsing import parse_entity_keys
+
+from api.errors import BaseErrors, AuthorsErrors
+
 from api.response_builders.entities import format_response_entity, format_response_relationship
 
+# --- Load API LIMIT from environment variables ---
 # Load variables from the .env file to the environment
 load_dotenv()
 
 # Save the hidden info to variables
-GENRE = os.getenv("API_LIMIT")
 API_LIMIT = int(os.getenv("API_LIMIT"))
 
 # --- Defining the authors router ---
@@ -101,16 +103,16 @@ async def get_author(
     - **links**: current link used
     """
 
-    # Fetch current request's path and parameters query
-    path_url = request.url.path
-    query_url = request.url.query
+    # Build the current query
+    # Like '{path_url}?{query_url}'
+    query = build_query(request)
 
-    # Current query
-    query = f'{path_url}?{query_url}' if query_url else path_url
-
-    # Validate if the key is a valid work key
-    if KeyHandler.detect_key(author_key) != 'author':
-        raise AuthorsErrors.InvalidKey(query)
+    # Validate if any of the keys is an invalid author key
+    validate_key(
+        key=author_key,
+        entity='author',
+        query=query
+    )
 
     # Fetch data
     results = authors_repo.get_author_by_author_key(
@@ -156,16 +158,16 @@ async def get_authors_works(
     - **links**: pagination links for navigation
     """
 
-    # Fetch current request's path and parameters query
-    path_url = request.url.path
-    query_url = request.url.query
+    # Build the current query
+    # Like '{path_url}?{query_url}'
+    query = build_query(request)
 
-    # Current query
-    query = f'{path_url}?{query_url}' if query_url else path_url
-
-    # Validate if the key is a valid work key
-    if KeyHandler.detect_key(author_key) != 'author':
-        raise AuthorsErrors.InvalidKey(query)
+    # Validate if any of the keys is an invalid author key
+    validate_key(
+        key=author_key,
+        entity='author',
+        query=query
+    )
 
     # Fetch data
     results = authors_repo.get_works_by_author_key(
@@ -225,16 +227,16 @@ async def get_authors_editions(
     - **links**: pagination links for navigation
     """
 
-    # Fetch current request's path and parameters query
-    path_url = request.url.path
-    query_url = request.url.query
+    # Build the current query
+    # Like '{path_url}?{query_url}'
+    query = build_query(request)
 
-    # Current query
-    query = f'{path_url}?{query_url}' if query_url else path_url
-
-    # Validate if the key is a valid work key
-    if KeyHandler.detect_key(author_key) != 'author':
-        raise AuthorsErrors.InvalidKey(query)
+    # Validate if any of the keys is an invalid author key
+    validate_key(
+        key=author_key,
+        entity='author',
+        query=query
+    )
 
     # Fetch data
     results = authors_repo.get_editions_by_author_key(
@@ -294,16 +296,16 @@ async def get_authors_statistics(
     - **links**: current link used
     """
 
-    # Fetch current request's path and parameters query
-    path_url = request.url.path
-    query_url = request.url.query
+    # Build the current query
+    # Like '{path_url}?{query_url}'
+    query = build_query(request)
 
-    # Current query
-    query = f'{path_url}?{query_url}' if query_url else path_url
-
-    # Validate if the key is a valid work key
-    if KeyHandler.detect_key(author_key) != 'author':
-        raise AuthorsErrors.InvalidKey(query)
+    # Validate if any of the keys is an invalid author key
+    validate_key(
+        key=author_key,
+        entity='author',
+        query=query
+    )
 
     # Fetch data
     results = authors_repo.get_author_statistics_by_author_key(
@@ -351,16 +353,16 @@ async def get_authors_alternative_names(
     - **links**: current link used
     """
 
-    # Fetch current request's path and parameters query
-    path_url = request.url.path
-    query_url = request.url.query
+    # Build the current query
+    # Like '{path_url}?{query_url}'
+    query = build_query(request)
 
-    # Current query
-    query = f'{path_url}?{query_url}' if query_url else path_url
-
-    # Validate if the key is a valid work key
-    if KeyHandler.detect_key(author_key) != 'author':
-        raise AuthorsErrors.InvalidKey(query)
+    # Validate if any of the keys is an invalid author key
+    validate_key(
+        key=author_key,
+        entity='author',
+        query=query
+    )
 
     # Fetch data
     results = authors_repo.get_author_alternative_names_by_author_key(

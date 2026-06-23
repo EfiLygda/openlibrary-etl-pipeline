@@ -36,26 +36,28 @@ import psycopg2
 from fastapi import APIRouter
 from fastapi import Request
 
-from api.utils.pagination import build_pagination_links
-from open_library import KeyHandler
-
 from api.dependencies import DB_DEPENDENCY
 import api.repository.editions as editions_repo
-
-from api.errors import BaseErrors, EditionsErrors
 
 from api.schemas.entities.core import Edition
 from api.schemas.entities.summaries import WorkSummary
 from api.schemas.entities.extensions import EditionDetails, EditionContents, EditionPublishing, EditionContributor
 from api.schemas.responses import EntityResponse, RelationshipResponse
 
+from api.utils.query import build_query
+from api.utils.validation import validate_key
+from api.utils.pagination import build_pagination_links
+from api.utils.parsing import parse_entity_keys
+
+from api.errors import BaseErrors, EditionsErrors
+
 from api.response_builders.entities import format_response_entity, format_response_relationship
 
+# --- Load API LIMIT from environment variables ---
 # Load variables from the .env file to the environment
 load_dotenv()
 
 # Save the hidden info to variables
-GENRE = os.getenv("API_LIMIT")
 API_LIMIT = int(os.getenv("API_LIMIT"))
 
 # --- Defining the editions router ---
@@ -100,16 +102,16 @@ async def get_edition(
     - **links**: current link used
     """
 
-    # Fetch current request's path and parameters query
-    path_url = request.url.path
-    query_url = request.url.query
+    # Build the current query
+    # Like '{path_url}?{query_url}'
+    query = build_query(request)
 
-    # Current query
-    query = f'{path_url}?{query_url}' if query_url else path_url
-
-    # Validate if the key is a valid work key
-    if KeyHandler.detect_key(edition_key) != 'edition':
-        raise EditionsErrors.InvalidKey(query)
+    # Validate if any of the keys is an invalid edition key
+    validate_key(
+        key=edition_key,
+        entity='edition',
+        query=query
+    )
 
     # Fetch data
     results = editions_repo.get_edition_by_edition_key(connection, edition_key)
@@ -152,16 +154,16 @@ async def get_editions_work(
     - **links**: pagination links for navigation
     """
 
-    # Fetch current request's path and parameters query
-    path_url = request.url.path
-    query_url = request.url.query
+    # Build the current query
+    # Like '{path_url}?{query_url}'
+    query = build_query(request)
 
-    # Current query
-    query = f'{path_url}?{query_url}' if query_url else path_url
-
-    # Validate if the key is a valid work key
-    if KeyHandler.detect_key(edition_key) != 'edition':
-        raise EditionsErrors.InvalidKey(query)
+    # Validate if any of the keys is an invalid edition key
+    validate_key(
+        key=edition_key,
+        entity='edition',
+        query=query
+    )
 
     # Fetch data
     results = editions_repo.get_works_by_edition_key(connection, edition_key)
@@ -216,16 +218,16 @@ async def get_editions_details(
     - **links**: pagination links for navigation
     """
 
-    # Fetch current request's path and parameters query
-    path_url = request.url.path
-    query_url = request.url.query
+    # Build the current query
+    # Like '{path_url}?{query_url}'
+    query = build_query(request)
 
-    # Current query
-    query = f'{path_url}?{query_url}' if query_url else path_url
-
-    # Validate if the key is a valid work key
-    if KeyHandler.detect_key(edition_key) != 'edition':
-        raise EditionsErrors.InvalidKey(query)
+    # Validate if any of the keys is an invalid edition key
+    validate_key(
+        key=edition_key,
+        entity='edition',
+        query=query
+    )
 
     # Fetch data
     results = editions_repo.get_details_by_edition_key(connection, edition_key)
@@ -280,16 +282,16 @@ async def get_editions_contents(
     - **links**: pagination links for navigation
     """
 
-    # Fetch current request's path and parameters query
-    path_url = request.url.path
-    query_url = request.url.query
+    # Build the current query
+    # Like '{path_url}?{query_url}'
+    query = build_query(request)
 
-    # Current query
-    query = f'{path_url}?{query_url}' if query_url else path_url
-
-    # Validate if the key is a valid work key
-    if KeyHandler.detect_key(edition_key) != 'edition':
-        raise EditionsErrors.InvalidKey(query)
+    # Validate if any of the keys is an invalid edition key
+    validate_key(
+        key=edition_key,
+        entity='edition',
+        query=query
+    )
 
     # Fetch data
     results = editions_repo.get_contents_by_edition_key(connection, edition_key)
@@ -344,16 +346,16 @@ async def get_editions_publishing(
     - **links**: pagination links for navigation
     """
 
-    # Fetch current request's path and parameters query
-    path_url = request.url.path
-    query_url = request.url.query
+    # Build the current query
+    # Like '{path_url}?{query_url}'
+    query = build_query(request)
 
-    # Current query
-    query = f'{path_url}?{query_url}' if query_url else path_url
-
-    # Validate if the key is a valid work key
-    if KeyHandler.detect_key(edition_key) != 'edition':
-        raise EditionsErrors.InvalidKey(query)
+    # Validate if any of the keys is an invalid edition key
+    validate_key(
+        key=edition_key,
+        entity='edition',
+        query=query
+    )
 
     # Fetch data
     results = editions_repo.get_publishing_by_edition_key(connection, edition_key)
@@ -408,16 +410,16 @@ async def get_editions_contributors(
     - **links**: pagination links for navigation
     """
 
-    # Fetch current request's path and parameters query
-    path_url = request.url.path
-    query_url = request.url.query
+    # Build the current query
+    # Like '{path_url}?{query_url}'
+    query = build_query(request)
 
-    # Current query
-    query = f'{path_url}?{query_url}' if query_url else path_url
-
-    # Validate if the key is a valid work key
-    if KeyHandler.detect_key(edition_key) != 'edition':
-        raise EditionsErrors.InvalidKey(query)
+    # Validate if any of the keys is an invalid edition key
+    validate_key(
+        key=edition_key,
+        entity='edition',
+        query=query
+    )
 
     # Fetch data
     results = editions_repo.get_contributors_by_edition_key(connection, edition_key)

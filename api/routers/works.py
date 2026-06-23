@@ -38,26 +38,28 @@ import psycopg2
 
 from fastapi import APIRouter, Request
 
-from open_library import KeyHandler
-
 from api.dependencies import DB_DEPENDENCY
 import api.repository.works as works_repo
-
-from api.utils.pagination import build_pagination_links
-from api.errors import BaseErrors, WorksErrors
 
 from api.schemas.entities.core import Work
 from api.schemas.entities.summaries import AuthorSummary, EditionSummary
 from api.schemas.entities.extensions import WorkSeries, WorkAvailability, WorkRatings, WorkOverview
 from api.schemas.responses import EntityResponse, RelationshipResponse
 
+from api.utils.query import build_query
+from api.utils.validation import validate_key
+from api.utils.pagination import build_pagination_links
+from api.utils.parsing import parse_entity_keys
+
+from api.errors import BaseErrors, WorksErrors
+
 from api.response_builders.entities import format_response_entity, format_response_relationship
 
+# --- Load API LIMIT from environment variables ---
 # Load variables from the .env file to the environment
 load_dotenv()
 
 # Save the hidden info to variables
-GENRE = os.getenv("API_LIMIT")
 API_LIMIT = int(os.getenv("API_LIMIT"))
 
 # --- Defining the works router ---
@@ -93,35 +95,31 @@ async def get_batch_works(
     - **links**: current link used
     """
 
-    # Fetch current request's path and parameters query
-    path_url = request.url.path
-    query_url = request.url.query
-
-    # Current query
-    query = f'{path_url}?{query_url}' if query_url else path_url
+    # Build the current query
+    # Like '{path_url}?{query_url}'
+    query = build_query(request)
 
     # Intentionally not supported for listing operations
     if keys is None:
         raise BaseErrors.ListingNotSupported(query)
 
     # Split and strip key string
-    work_keys = [
-        key.strip()
-        for key in keys.split(',')
-        if key.strip()
-    ]
+    work_keys = parse_entity_keys(keys=keys)
 
     # For each key validate key type
     for work_key in work_keys:
 
         # Validate if any of the keys is an invalid work key
-        if KeyHandler.detect_key(work_key) != 'work':
-            raise WorksErrors.InvalidKey(query)
+        validate_key(
+            key=work_key,
+            entity='work',
+            query=query
+        )
 
     # Fetch data
     results = works_repo.get_works_by_work_key(
         connection=connection,
-        work_key=work_keys,
+        work_keys=work_keys,
         limit=limit,
         offset=offset
     )
@@ -191,21 +189,21 @@ async def get_work(
     - **links**: current link used
     """
 
-    # Fetch current request's path and parameters query
-    path_url = request.url.path
-    query_url = request.url.query
-
-    # Current query
-    query = f'{path_url}?{query_url}' if query_url else path_url
+    # Build the current query
+    # Like '{path_url}?{query_url}'
+    query = build_query(request)
 
     # Validate if the key is a valid work key
-    if KeyHandler.detect_key(work_key) != 'work':
-        raise WorksErrors.InvalidKey(query)
+    validate_key(
+        key=work_key,
+        entity='work',
+        query=query
+    )
 
     # Fetch data
     results = works_repo.get_works_by_work_key(
         connection=connection,
-        work_key=work_key,
+        work_keys=work_key,
         limit=limit,
         offset=offset
     )
@@ -248,16 +246,16 @@ async def get_work_authors(
     - **links**: pagination links for navigation
     """
 
-    # Fetch current request's path and parameters query
-    path_url = request.url.path
-    query_url = request.url.query
-
-    # Current query
-    query = f'{path_url}?{query_url}' if query_url else path_url
+    # Build the current query
+    # Like '{path_url}?{query_url}'
+    query = build_query(request)
 
     # Validate if the key is a valid work key
-    if KeyHandler.detect_key(work_key) != 'work':
-        raise WorksErrors.InvalidKey(query)
+    validate_key(
+        key=work_key,
+        entity='work',
+        query=query
+    )
 
     # Fetch data
     results = works_repo.get_authors_by_work_key(
@@ -317,16 +315,16 @@ async def get_work_editions(
     - **links**: pagination links for navigation
     """
 
-    # Fetch current request's path and parameters query
-    path_url = request.url.path
-    query_url = request.url.query
-
-    # Current query
-    query = f'{path_url}?{query_url}' if query_url else path_url
+    # Build the current query
+    # Like '{path_url}?{query_url}'
+    query = build_query(request)
 
     # Validate if the key is a valid work key
-    if KeyHandler.detect_key(work_key) != 'work':
-        raise WorksErrors.InvalidKey(query)
+    validate_key(
+        key=work_key,
+        entity='work',
+        query=query
+    )
 
     # Fetch data
     results = works_repo.get_editions_by_work_key(
@@ -386,16 +384,16 @@ async def get_work_series(
     - **links**: pagination links for navigation
     """
 
-    # Fetch current request's path and parameters query
-    path_url = request.url.path
-    query_url = request.url.query
-
-    # Current query
-    query = f'{path_url}?{query_url}' if query_url else path_url
+    # Build the current query
+    # Like '{path_url}?{query_url}'
+    query = build_query(request)
 
     # Validate if the key is a valid work key
-    if KeyHandler.detect_key(work_key) != 'work':
-        raise WorksErrors.InvalidKey(query)
+    validate_key(
+        key=work_key,
+        entity='work',
+        query=query
+    )
 
     # Fetch data
     results = works_repo.get_series_by_work_key(
@@ -455,16 +453,16 @@ async def get_work_availability(
     - **links**: current link used
     """
 
-    # Fetch current request's path and parameters query
-    path_url = request.url.path
-    query_url = request.url.query
-
-    # Current query
-    query = f'{path_url}?{query_url}' if query_url else path_url
+    # Build the current query
+    # Like '{path_url}?{query_url}'
+    query = build_query(request)
 
     # Validate if the key is a valid work key
-    if KeyHandler.detect_key(work_key) != 'work':
-        raise WorksErrors.InvalidKey(query)
+    validate_key(
+        key=work_key,
+        entity='work',
+        query=query
+    )
 
     # Fetch data
     results = works_repo.get_availability_by_work_key(
@@ -512,16 +510,16 @@ async def get_work_ratings(
     - **links**: current link used
     """
 
-    # Fetch current request's path and parameters query
-    path_url = request.url.path
-    query_url = request.url.query
-
-    # Current query
-    query = f'{path_url}?{query_url}' if query_url else path_url
+    # Build the current query
+    # Like '{path_url}?{query_url}'
+    query = build_query(request)
 
     # Validate if the key is a valid work key
-    if KeyHandler.detect_key(work_key) != 'work':
-        raise WorksErrors.InvalidKey(query)
+    validate_key(
+        key=work_key,
+        entity='work',
+        query=query
+    )
 
     # Fetch data
     results = works_repo.get_ratings_by_work_key(
@@ -569,16 +567,16 @@ async def get_work_overview(
     - **links**: current link used
     """
 
-    # Fetch current request's path and parameters query
-    path_url = request.url.path
-    query_url = request.url.query
-
-    # Current query
-    query = f'{path_url}?{query_url}' if query_url else path_url
+    # Build the current query
+    # Like '{path_url}?{query_url}'
+    query = build_query(request)
 
     # Validate if the key is a valid work key
-    if KeyHandler.detect_key(work_key) != 'work':
-        raise WorksErrors.InvalidKey(query)
+    validate_key(
+        key=work_key,
+        entity='work',
+        query=query
+    )
 
     # Fetch data
     results = works_repo.get_overview_by_work_key(
