@@ -240,7 +240,7 @@ async def get_edition(
     )
 
 @router.get(
-    path="/{edition_key}/works",
+    path="/{edition_key}/work",
     response_model=RelationshipResponse[WorkSummary],
     responses={
         '404': EditionsErrors.NotFound.response,

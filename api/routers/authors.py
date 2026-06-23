@@ -94,11 +94,11 @@ async def get_batch_works(
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
 ) -> BatchResponse[Author]:
     """
-    Retrieve works records by their **work_keys**.
+    Retrieve authors records by their **author_keys**.
 
     Returns a standardized response dictionary containing:
 
-    - **data**: the works
+    - **data**: the authors
     - **meta**: metadata for the query (entity type)
     - **links**: current link used
     """
