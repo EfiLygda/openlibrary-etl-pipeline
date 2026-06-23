@@ -16,8 +16,14 @@ def parse_entity_keys(keys: str | None) -> list[str]:
     if not keys:
         return []
 
-    return [
+    # Make list of striped keys
+    normalized_keys = [
         key.strip()
         for key in keys.split(',')
         if key.strip()
     ]
+
+    # Remove duplicates by keeping original order
+    removed_duplicates = list(dict.fromkeys(normalized_keys))
+
+    return removed_duplicates
