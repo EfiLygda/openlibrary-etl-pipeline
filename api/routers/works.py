@@ -162,6 +162,7 @@ async def get_batch_works(
         links=links,
         model=Work
     )
+# ----------------------------------------------------------------------------------
 
 # ----------------------------------------------------------------------------------
 # --- DEPRECATED ---
@@ -178,6 +179,7 @@ async def get_batch_works(
 #     raise BaseErrors.ListingNotSupported(query="/works/")
 # ----------------------------------------------------------------------------------
 
+# ----------------------------------------------------------------------------------
 @router.get(
     path="/{work_key}",
     response_model=EntityResponse[Work],
@@ -240,7 +242,9 @@ async def get_work(
         links=links,
         model=Work
     )
+# ----------------------------------------------------------------------------------
 
+# ----------------------------------------------------------------------------------
 @router.get(
     path="/{work_key}/authors",
     response_model=RelationshipResponse[AuthorSummary],
@@ -315,7 +319,9 @@ async def get_work_authors(
         links=links,
         model=AuthorSummary,
     )
+# ----------------------------------------------------------------------------------
 
+# ----------------------------------------------------------------------------------
 @router.get(
     path="/{work_key}/editions",
     response_model=RelationshipResponse[EditionSummary],
@@ -390,7 +396,9 @@ async def get_work_editions(
         links=links,
         model=EditionSummary,
     )
+# ----------------------------------------------------------------------------------
 
+# ----------------------------------------------------------------------------------
 @router.get(
     path="/{work_key}/series",
     response_model=RelationshipResponse[WorkSeries],
@@ -465,7 +473,9 @@ async def get_work_series(
         links=links,
         model=WorkSeries,
     )
+# ----------------------------------------------------------------------------------
 
+# ----------------------------------------------------------------------------------
 @router.get(
     path="/{work_key}/availability",
     response_model=EntityResponse[WorkAvailability],
@@ -528,7 +538,9 @@ async def get_work_availability(
         links=links,
         model=WorkAvailability
     )
+# ----------------------------------------------------------------------------------
 
+# ----------------------------------------------------------------------------------
 @router.get(
     path="/{work_key}/ratings",
     response_model=EntityResponse[WorkRatings],
@@ -591,7 +603,9 @@ async def get_work_ratings(
         links=links,
         model=WorkRatings
     )
+# ----------------------------------------------------------------------------------
 
+# ----------------------------------------------------------------------------------
 @router.get(
     path="/{work_key}/overview",
     response_model=EntityResponse[WorkOverview],

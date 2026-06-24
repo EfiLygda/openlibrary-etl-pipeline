@@ -160,6 +160,7 @@ async def get_batch_editions(
         links=links,
         model=Edition
     )
+# ----------------------------------------------------------------------------------
 
 # ----------------------------------------------------------------------------------
 # --- DEPRECATED ---
@@ -238,7 +239,9 @@ async def get_edition(
         links=links,
         model=Edition
     )
+# ----------------------------------------------------------------------------------
 
+# ----------------------------------------------------------------------------------
 @router.get(
     path="/{edition_key}/work",
     response_model=RelationshipResponse[WorkSummary],
@@ -308,7 +311,9 @@ async def get_editions_work(
         links=links,
         model=WorkSummary,
     )
+# ----------------------------------------------------------------------------------
 
+# ----------------------------------------------------------------------------------
 @router.get(
     path="/{edition_key}/details",
     response_model=RelationshipResponse[EditionDetails],
@@ -378,7 +383,9 @@ async def get_editions_details(
         links=links,
         model=EditionDetails,
     )
+# ----------------------------------------------------------------------------------
 
+# ----------------------------------------------------------------------------------
 @router.get(
     path="/{edition_key}/contents",
     response_model=RelationshipResponse[EditionContents],
@@ -448,7 +455,9 @@ async def get_editions_contents(
         links=links,
         model=EditionContents,
     )
+# ----------------------------------------------------------------------------------
 
+# ----------------------------------------------------------------------------------
 @router.get(
     path="/{edition_key}/publishing",
     response_model=RelationshipResponse[EditionPublishing],
@@ -518,7 +527,9 @@ async def get_editions_publishing(
         links=links,
         model=EditionPublishing,
     )
+# ----------------------------------------------------------------------------------
 
+# ----------------------------------------------------------------------------------
 @router.get(
     path="/{edition_key}/contributors",
     response_model=RelationshipResponse[EditionContributor],

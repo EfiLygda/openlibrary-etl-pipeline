@@ -161,6 +161,7 @@ async def get_batch_authors(
         links=links,
         model=Author
     )
+# ----------------------------------------------------------------------------------
 
 # ----------------------------------------------------------------------------------
 # --- DEPRECATED ---
@@ -239,7 +240,9 @@ async def get_author(
         links=links,
         model=Author
     )
+# ----------------------------------------------------------------------------------
 
+# ----------------------------------------------------------------------------------
 @router.get(
     path="/{author_key}/works",
     response_model=RelationshipResponse[WorkSummary],
@@ -314,7 +317,9 @@ async def get_authors_works(
         links=links,
         model=WorkSummary,
     )
+# ----------------------------------------------------------------------------------
 
+# ----------------------------------------------------------------------------------
 @router.get(
     path="/{author_key}/editions",
     response_model=RelationshipResponse[EditionSummary],
@@ -389,7 +394,9 @@ async def get_authors_editions(
         links=links,
         model=EditionSummary,
     )
+# ----------------------------------------------------------------------------------
 
+# ----------------------------------------------------------------------------------
 @router.get(
     path="/{author_key}/statistics",
     response_model=EntityResponse[AuthorStatistics],
@@ -452,7 +459,9 @@ async def get_authors_statistics(
         links=links,
         model=AuthorStatistics
     )
+# ----------------------------------------------------------------------------------
 
+# ----------------------------------------------------------------------------------
 @router.get(
     path="/{author_key}/alternative_names",
     response_model=RelationshipResponse[AuthorAlternativeNames],
