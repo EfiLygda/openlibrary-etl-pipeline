@@ -58,8 +58,8 @@ def execute_repository_queries(
         connection: psycopg2.extensions.connection,
         filter_key: str | list[str],
         query_module: str,
-        totals_query_filename: str,
         data_query_filename: str,
+        totals_query_filename: str | None = None,
         limit: int | None = None,
         offset: int | None = None,
         used_for_batches: bool = False,
@@ -92,7 +92,7 @@ def execute_repository_queries(
     :param has_children: bool, whether totals include child entity counts
 
     :return: dict, raw database result structure containing:
-        - total_parents
+        - total_parents (optional)
         - total_children (optional)
         - data
         - column_names
@@ -106,20 +106,26 @@ def execute_repository_queries(
         used_for_batches=used_for_batches
     )
 
-    # Calculate total parents (and children) before pagination
-    totals, _ = execute_query(
-        connection=connection,
-        params=params,
-        query_module=query_module,
-        query_filename=totals_query_filename
-    )
-
     # Fetch the records and the column names
     records, column_names = execute_query(
         connection=connection,
         params=params,
         query_module=query_module,
         query_filename=data_query_filename
+    )
+
+    if not totals_query_filename:
+        return {
+            'data': records,
+            'column_names': column_names
+        }
+
+    # Calculate total parents (and children) before pagination
+    totals, _ = execute_query(
+        connection=connection,
+        params=params,
+        query_module=query_module,
+        query_filename=totals_query_filename
     )
 
     # If the response should have children (for relationships 1-n or 1-1)

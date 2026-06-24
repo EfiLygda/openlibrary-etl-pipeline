@@ -132,13 +132,13 @@ async def get_batch_editions(
     )
 
     # If no data is returned then error is raised
-    if results['total_editions'] == 0:
+    if results['total_parents'] == 0:
         raise EditionsErrors.NotFound(query)
 
     # Build links
     links = build_pagination_links(
         url=query,
-        total=results['total_editions'],
+        total=results['total_parents'],
         limit=limit,
         offset=offset
     )
@@ -147,7 +147,7 @@ async def get_batch_editions(
     meta = build_batch_meta(
         entity_type=ENTITY_TYPE,
         keys=edition_keys,
-        total=results['total_editions'],
+        total=results['total_parents'],
         limit=limit,
         offset=offset
     )
@@ -279,13 +279,13 @@ async def get_editions_work(
     results = editions_repo.get_works_by_edition_key(connection, edition_key)
 
     # If no data is returned then error is raised
-    if results['total_editions'] == 0:
+    if results['total_parents'] == 0:
         raise EditionsErrors.NotFound(query)
 
     # Build links
     links = build_pagination_links(
         url=query,
-        total=results['total_works'],
+        total=results['total_children'],
         limit=limit,
         offset=offset
     )
@@ -295,7 +295,7 @@ async def get_editions_work(
         parent_type='edition',
         parent_key=edition_key,
         child_type='work',
-        total_children=results['total_works'],
+        total_children=results['total_children'],
         limit=limit,
         offset=offset
     )
@@ -349,13 +349,13 @@ async def get_editions_details(
     results = editions_repo.get_details_by_edition_key(connection, edition_key)
 
     # If no data is returned then error is raised
-    if results['total_editions'] == 0:
+    if results['total_parents'] == 0:
         raise EditionsErrors.NotFound(query)
 
     # Build links
     links = build_pagination_links(
         url=query,
-        total=results['total_details'],
+        total=results['total_children'],
         limit=limit,
         offset=offset
     )
@@ -365,7 +365,7 @@ async def get_editions_details(
         parent_type='edition',
         parent_key=edition_key,
         child_type='detail',
-        total_children=results['total_details'],
+        total_children=results['total_children'],
         limit=limit,
         offset=offset
     )
@@ -419,13 +419,13 @@ async def get_editions_contents(
     results = editions_repo.get_contents_by_edition_key(connection, edition_key)
 
     # If no data is returned then error is raised
-    if results['total_editions'] == 0:
+    if results['total_parents'] == 0:
         raise EditionsErrors.NotFound(query)
 
     # Build links
     links = build_pagination_links(
         url=query,
-        total=results['total_contents'],
+        total=results['total_children'],
         limit=limit,
         offset=offset
     )
@@ -435,7 +435,7 @@ async def get_editions_contents(
         parent_type='edition',
         parent_key=edition_key,
         child_type='content',
-        total_children=results['total_contents'],
+        total_children=results['total_children'],
         limit=limit,
         offset=offset
     )
@@ -489,13 +489,13 @@ async def get_editions_publishing(
     results = editions_repo.get_publishing_by_edition_key(connection, edition_key)
 
     # If no data is returned then error is raised
-    if results['total_editions'] == 0:
+    if results['total_parents'] == 0:
         raise EditionsErrors.NotFound(query)
 
     # Build links
     links = build_pagination_links(
         url=query,
-        total=results['total_publishing'],
+        total=results['total_children'],
         limit=limit,
         offset=offset
     )
@@ -505,7 +505,7 @@ async def get_editions_publishing(
         parent_type='edition',
         parent_key=edition_key,
         child_type='publishing',
-        total_children=results['total_publishing'],
+        total_children=results['total_children'],
         limit=limit,
         offset=offset
     )
@@ -559,13 +559,13 @@ async def get_editions_contributors(
     results = editions_repo.get_contributors_by_edition_key(connection, edition_key)
 
     # If no data is returned then error is raised
-    if results['total_editions'] == 0:
+    if results['total_parents'] == 0:
         raise EditionsErrors.NotFound(query)
 
     # Build links
     links = build_pagination_links(
         url=query,
-        total=results['total_contributors'],
+        total=results['total_children'],
         limit=limit,
         offset=offset
     )
@@ -575,7 +575,7 @@ async def get_editions_contributors(
         parent_type='edition',
         parent_key=edition_key,
         child_type='contributor',
-        total_children=results['total_contributors'],
+        total_children=results['total_children'],
         limit=limit,
         offset=offset
     )

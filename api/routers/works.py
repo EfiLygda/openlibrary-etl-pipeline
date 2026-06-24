@@ -134,13 +134,13 @@ async def get_batch_works(
     )
 
     # If no data is returned then error is raised
-    if results['total_works'] == 0:
+    if results['total_parents'] == 0:
         raise WorksErrors.NotFound(query)
 
     # Build links
     links = build_pagination_links(
         url=query,
-        total=results['total_works'],
+        total=results['total_parents'],
         limit=limit,
         offset=offset
     )
@@ -149,7 +149,7 @@ async def get_batch_works(
     meta = build_batch_meta(
         entity_type=ENTITY_TYPE,
         keys=work_keys,
-        total=results['total_works'],
+        total=results['total_parents'],
         limit=limit,
         offset=offset
     )
@@ -223,7 +223,7 @@ async def get_work(
     )
 
     # If no data is returned then error is raised
-    if len(results['data']) == 0:
+    if results['total_parents'] == 0:
         raise WorksErrors.NotFound(query)
 
     # Build links
@@ -286,13 +286,13 @@ async def get_work_authors(
     )
 
     # If no data is returned then error is raised
-    if results['total_works'] == 0:
+    if results['total_parents'] == 0:
         raise WorksErrors.NotFound(query)
 
     # Build links
     links = build_pagination_links(
         url=query,
-        total=results['total_authors'],
+        total=results['total_children'],
         limit=limit,
         offset=offset
     )
@@ -302,7 +302,7 @@ async def get_work_authors(
         parent_type=ENTITY_TYPE,
         parent_key=work_key,
         child_type='author',
-        total_children=results['total_authors'],
+        total_children=results['total_children'],
         limit=limit,
         offset=offset
     )
@@ -361,13 +361,13 @@ async def get_work_editions(
     )
 
     # If no data is returned then error is raised
-    if results['total_works'] == 0:
+    if results['total_parents'] == 0:
         raise WorksErrors.NotFound(query)
 
     # Build links
     links = build_pagination_links(
         url=query,
-        total=results['total_editions'],
+        total=results['total_children'],
         limit=limit,
         offset=offset
     )
@@ -377,7 +377,7 @@ async def get_work_editions(
         parent_type=ENTITY_TYPE,
         parent_key=work_key,
         child_type='edition',
-        total_children=results['total_editions'],
+        total_children=results['total_children'],
         limit=limit,
         offset=offset
     )
@@ -436,13 +436,13 @@ async def get_work_series(
     )
 
     # If no data is returned then error is raised
-    if results['total_works'] == 0:
+    if results['total_parents'] == 0:
         raise WorksErrors.NotFound(query)
 
     # Build links
     links = build_pagination_links(
         url=query,
-        total=results['total_series'],
+        total=results['total_children'],
         limit=limit,
         offset=offset
     )
@@ -452,7 +452,7 @@ async def get_work_series(
         parent_type=ENTITY_TYPE,
         parent_key=work_key,
         child_type='series',
-        total_children=results['total_series'],
+        total_children=results['total_children'],
         limit=limit,
         offset=offset
     )
@@ -511,7 +511,7 @@ async def get_work_availability(
     )
 
     # If no data is returned then error is raised
-    if len(results['data']) == 0:
+    if results['total_parents'] == 0:
         raise WorksErrors.NotFound(query)
 
     # Build links
@@ -574,7 +574,7 @@ async def get_work_ratings(
     )
 
     # If no data is returned then error is raised
-    if len(results['data']) == 0:
+    if results['total_parents'] == 0:
         raise WorksErrors.NotFound(query)
 
     # Build links
@@ -637,7 +637,7 @@ async def get_work_overview(
     )
 
     # If no data is returned then error is raised
-    if len(results['data']) == 0:
+    if results['total_parents'] == 0:
         raise WorksErrors.NotFound(query)
 
     # Build links
