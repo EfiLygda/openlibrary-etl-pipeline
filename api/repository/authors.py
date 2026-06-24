@@ -6,7 +6,7 @@ to fetch author-related data
 """
 
 import psycopg2
-from api.repository.base import execute_query
+from api.repository.builder import build_data
 
 def get_authors_by_author_key(
         connection: psycopg2.extensions.connection,
@@ -29,43 +29,17 @@ def get_authors_by_author_key(
         * `authors_column_names` - column names corresponding to the records
     """
 
-    # Set up the query parameters
-    if isinstance(author_key, str):
-        params = {
-            'filter_key': [author_key]
-        }
-    elif isinstance(author_key, list):
-        params = {
-            'filter_key': author_key
-        }
-
-    if not limit is None:
-        params['limit'] = limit
-
-    if not offset is None:
-        params['offset'] = offset
-
-    # Calculate total works before pagination
-    totals, _ = execute_query(
+    return build_data(
         connection=connection,
-        params=params,
+        filter_key=author_key,
         query_module='authors',
-        query_filename='total_authors.sql'
+        totals_query_filename='total_authors.sql',
+        data_query_filename='get_author.sql',
+        limit=limit,
+        offset=offset,
+        used_for_batches=True,
+        has_children=False
     )
-
-    # Fetch the records
-    authors, authors_column_names = execute_query(
-        connection=connection,
-        params=params,
-        query_module='authors',
-        query_filename='get_author.sql'
-    )
-
-    return {
-        'total_authors': totals[0][0],
-        'data': authors,
-        'column_names': authors_column_names
-    }
 
 def get_works_by_author_key(
         connection: psycopg2.extensions.connection,
@@ -84,45 +58,23 @@ def get_works_by_author_key(
 
     :returns: A dictionary containing:
 
-        * `total_authors` - total authors (used for error handling)
-        * `total_works` - total works before pagination
+        * `total_parents` - total authors (used for error handling)
+        * `total_children` - total works before pagination
         * `work_data` - aggregated work records for the author
         * `work_column_names` - column names corresponding to the query result
     """
 
-    # Set up the query parameters
-    params = {
-        'filter_key': author_key
-    }
-
-    if not limit is None:
-        params['limit'] = limit
-
-    if not offset is None:
-        params['offset'] = offset
-
-    # Calculate total works before pagination
-    totals, _ = execute_query(
+    return build_data(
         connection=connection,
-        params=params,
+        filter_key=author_key,
         query_module='authors',
-        query_filename='total_works.sql'
+        totals_query_filename='total_works.sql',
+        data_query_filename='get_works.sql',
+        limit=limit,
+        offset=offset,
+        used_for_batches=False,
+        has_children=True
     )
-
-    # Fetch the records
-    work_data, work_column_names = execute_query(
-        connection=connection,
-        params=params,
-        query_module='authors',
-        query_filename='get_works.sql'
-    )
-
-    return {
-        'total_authors': totals[0][0],
-        'total_works': totals[0][1],
-        'data': work_data,
-        'column_names': work_column_names
-    }
 
 def get_editions_by_author_key(
         connection: psycopg2.extensions.connection,
@@ -141,45 +93,23 @@ def get_editions_by_author_key(
 
     :returns: A dictionary containing:
 
-        * `total_authors` - total authors (used for error handling)
-        * `total_editions` - total editions before pagination
+        * `total_parents` - total authors (used for error handling)
+        * `total_children` - total editions before pagination
         * `edition_data` - aggregated edition records for the author
         * `edition_column_names` - column names corresponding to the query result
     """
 
-    # Set up the query parameters
-    params = {
-        'filter_key': author_key
-    }
-
-    if not limit is None:
-        params['limit'] = limit
-
-    if not offset is None:
-        params['offset'] = offset
-
-    # Calculate total editions before pagination
-    totals, _ = execute_query(
-        connection=connection,
-        params=params,
-        query_module='authors',
-        query_filename='total_editions.sql'
-    )
-
-    # Fetch the records
-    edition_data, edition_column_names = execute_query(
-        connection=connection,
-        params=params,
-        query_module='authors',
-        query_filename='get_editions.sql'
-    )
-
-    return {
-        'total_authors': totals[0][0],
-        'total_editions': totals[0][1],
-        'data': edition_data,
-        'column_names': edition_column_names
-    }
+    return build_data(
+            connection=connection,
+            filter_key=author_key,
+            query_module='authors',
+            totals_query_filename='total_editions.sql',
+            data_query_filename='get_editions.sql',
+            limit=limit,
+            offset=offset,
+            used_for_batches=False,
+            has_children=True
+        )
 
 def get_author_statistics_by_author_key(
         connection: psycopg2.extensions.connection,
@@ -198,42 +128,23 @@ def get_author_statistics_by_author_key(
 
     :returns: A dictionary containing:
 
+        * `total_parents` - total authors (used for error handling)
+        * `total_children` - total statistics records before pagination
         * `statistics_data` - statistic records for the author
         * `statistics_column_names` - column names corresponding to the query result
     """
 
-    # Set up the query parameters
-    params = {
-        'filter_key': author_key
-    }
-
-    if not limit is None:
-        params['limit'] = limit
-
-    if not offset is None:
-        params['offset'] = offset
-
-    # Calculate total statistics before pagination
-    totals, _ = execute_query(
-        connection=connection,
-        params=params,
-        query_module='authors',
-        query_filename='total_statistics.sql'
-    )
-
-    # Fetch the records
-    statistics_data, statistics_column_names = execute_query(
-        connection=connection,
-        params=params,
-        query_module='authors',
-        query_filename='get_statistics.sql'
-    )
-
-    return {
-        'total_authors': totals[0][0],
-        'data': statistics_data,
-        'column_names': statistics_column_names
-    }
+    return build_data(
+            connection=connection,
+            filter_key=author_key,
+            query_module='authors',
+            totals_query_filename='total_statistics.sql',
+            data_query_filename='get_statistics.sql',
+            limit=limit,
+            offset=offset,
+            used_for_batches=False,
+            has_children=True
+        )
 
 def get_author_alternative_names_by_author_key(
         connection: psycopg2.extensions.connection,
@@ -252,40 +163,20 @@ def get_author_alternative_names_by_author_key(
 
     :returns: A dictionary containing:
 
+        * `total_parents` - total authors (used for error handling)
+        * `total_children` - total alternative names before pagination
         * `alternative_names_data` - alternative names records for the author
         * `alternative_names_column_names` - column names corresponding to the query result
     """
 
-    # Set up the query parameters
-    params = {
-        'filter_key': author_key
-    }
-
-    if not limit is None:
-        params['limit'] = limit
-
-    if not offset is None:
-        params['offset'] = offset
-
-    # Calculate total editions before pagination
-    totals, _ = execute_query(
-        connection=connection,
-        params=params,
-        query_module='authors',
-        query_filename='total_alternative_names.sql'
-    )
-
-    # Fetch the records
-    alternative_names_data, alternative_names_column_names = execute_query(
-        connection=connection,
-        params=params,
-        query_module='authors',
-        query_filename='get_alternative_names.sql'
-    )
-
-    return {
-        'total_authors': totals[0][0],
-        'total_names': totals[0][1],
-        'data': alternative_names_data,
-        'column_names': alternative_names_column_names
-    }
+    return build_data(
+            connection=connection,
+            filter_key=author_key,
+            query_module='authors',
+            totals_query_filename='total_alternative_names.sql',
+            data_query_filename='get_alternative_names.sql',
+            limit=limit,
+            offset=offset,
+            used_for_batches=False,
+            has_children=True
+        )

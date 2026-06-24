@@ -133,13 +133,13 @@ async def get_batch_authors(
     )
 
     # If no data is returned then error is raised
-    if results['total_authors'] == 0:
+    if results['total_parents'] == 0:
         raise AuthorsErrors.NotFound(query)
 
     # Build links
     links = build_pagination_links(
         url=query,
-        total=results['total_authors'],
+        total=results['total_parents'],
         limit=limit,
         offset=offset
     )
@@ -148,7 +148,7 @@ async def get_batch_authors(
     meta = build_batch_meta(
         entity_type=ENTITY_TYPE,
         keys=author_keys,
-        total=results['total_authors'],
+        total=results['total_parents'],
         limit=limit,
         offset=offset
     )
@@ -222,7 +222,7 @@ async def get_author(
     )
 
     # If no data is returned then error is raised
-    if results['total_authors'] == 0:
+    if results['total_parents'] == 0:
         raise AuthorsErrors.NotFound(query)
 
     # Build links
@@ -285,23 +285,23 @@ async def get_authors_works(
     )
 
     # If no data is returned then error is raised
-    if results['total_authors'] == 0:
+    if results['total_parents'] == 0:
         raise AuthorsErrors.NotFound(query)
 
     # Build links
     links = build_pagination_links(
         url=query,
-        total=results['total_works'],
+        total=results['total_children'],
         limit=limit,
         offset=offset
     )
 
     # Build metadata
     meta = build_relationship_meta(
-        parent_type='author',
+        parent_type=ENTITY_TYPE,
         parent_key=author_key,
         child_type='work',
-        total_children=results['total_works'],
+        total_children=results['total_children'],
         limit=limit,
         offset=offset
     )
@@ -360,23 +360,23 @@ async def get_authors_editions(
     )
 
     # If no data is returned then error is raised
-    if results['total_authors'] == 0:
+    if results['total_parents'] == 0:
         raise AuthorsErrors.NotFound(query)
 
     # Build links
     links = build_pagination_links(
         url=query,
-        total=results['total_editions'],
+        total=results['total_children'],
         limit=limit,
         offset=offset
     )
 
     # Build metadata
     meta = build_relationship_meta(
-        parent_type='author',
+        parent_type=ENTITY_TYPE,
         parent_key=author_key,
         child_type='edition',
-        total_children=results['total_editions'],
+        total_children=results['total_children'],
         limit=limit,
         offset=offset
     )
@@ -435,7 +435,7 @@ async def get_authors_statistics(
     )
 
     # If no data is returned then error is raised
-    if results['total_authors'] == 0:
+    if results['total_parents'] == 0:
         raise AuthorsErrors.NotFound(query)
 
     # Build links
@@ -498,13 +498,13 @@ async def get_authors_alternative_names(
     )
 
     # If no data is returned then error is raised
-    if results['total_authors'] == 0:
+    if results['total_parents'] == 0:
         raise AuthorsErrors.NotFound(query)
 
     # Build links
     links = build_pagination_links(
         url=query,
-        total=results['total_names'],
+        total=results['total_children'],
         limit=limit,
         offset=offset
     )
@@ -514,7 +514,7 @@ async def get_authors_alternative_names(
         parent_type=ENTITY_TYPE,
         parent_key=author_key,
         child_type='alternative_name',
-        total_children=results['total_names'],
+        total_children=results['total_children'],
         limit=limit,
         offset=offset
     )
