@@ -54,7 +54,7 @@ def _build_params(
 
     return params
 
-def build_data(
+def execute_repository_query(
         connection: psycopg2.extensions.connection,
         filter_key: str | list[str],
         query_module: str,

@@ -6,7 +6,7 @@ to fetch author-related data
 """
 
 import psycopg2
-from api.repository.builder import build_data
+from api.repository.repository_engine import execute_repository_query
 
 def get_authors_by_author_key(
         connection: psycopg2.extensions.connection,
@@ -29,7 +29,7 @@ def get_authors_by_author_key(
         * `authors_column_names` - column names corresponding to the records
     """
 
-    return build_data(
+    return execute_repository_query(
         connection=connection,
         filter_key=author_key,
         query_module='authors',
@@ -64,7 +64,7 @@ def get_works_by_author_key(
         * `work_column_names` - column names corresponding to the query result
     """
 
-    return build_data(
+    return execute_repository_query(
         connection=connection,
         filter_key=author_key,
         query_module='authors',
@@ -99,7 +99,7 @@ def get_editions_by_author_key(
         * `edition_column_names` - column names corresponding to the query result
     """
 
-    return build_data(
+    return execute_repository_query(
             connection=connection,
             filter_key=author_key,
             query_module='authors',
@@ -134,7 +134,7 @@ def get_author_statistics_by_author_key(
         * `statistics_column_names` - column names corresponding to the query result
     """
 
-    return build_data(
+    return execute_repository_query(
             connection=connection,
             filter_key=author_key,
             query_module='authors',
@@ -169,7 +169,7 @@ def get_author_alternative_names_by_author_key(
         * `alternative_names_column_names` - column names corresponding to the query result
     """
 
-    return build_data(
+    return execute_repository_query(
             connection=connection,
             filter_key=author_key,
             query_module='authors',
