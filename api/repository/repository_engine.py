@@ -6,7 +6,7 @@ and parameter handling
 """
 
 import psycopg2
-from api.repository.base import execute_query
+from api.repository.database_adapter import execute_query
 
 def _build_params(
         filter_key: str | list[str],
@@ -54,7 +54,7 @@ def _build_params(
 
     return params
 
-def execute_repository_query(
+def execute_repository_queries(
         connection: psycopg2.extensions.connection,
         filter_key: str | list[str],
         query_module: str,

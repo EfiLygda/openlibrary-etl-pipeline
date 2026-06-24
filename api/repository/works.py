@@ -6,7 +6,7 @@ to fetch work-related data
 """
 
 import psycopg2
-from api.repository.base import execute_query
+from api.repository.database_adapter import execute_query
 
 def get_works_by_work_key(
         connection: psycopg2.extensions.connection,

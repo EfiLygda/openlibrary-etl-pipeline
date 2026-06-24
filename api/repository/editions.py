@@ -6,7 +6,7 @@ to fetch edition-related data
 """
 
 import psycopg2
-from api.repository.base import execute_query
+from api.repository.database_adapter import execute_query
 
 def get_editions_by_edition_key(
         connection: psycopg2.extensions.connection,

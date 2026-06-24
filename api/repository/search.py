@@ -5,7 +5,7 @@ This module provides functions for querying the PostgreSQL database
 """
 
 import psycopg2
-from api.repository.base import execute_query
+from api.repository.database_adapter import execute_query
 
 def search(
         connection: psycopg2.extensions.connection,
