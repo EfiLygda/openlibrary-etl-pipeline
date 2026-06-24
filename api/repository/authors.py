@@ -24,6 +24,7 @@ def get_authors_by_author_key(
 
     :returns: A dictionary containing:
 
+        * `total_authors` - total authors (used for error handling)
         * `authors` - list of matching records returned by the query
         * `authors_column_names` - column names corresponding to the records
     """
@@ -221,6 +222,7 @@ def get_author_statistics_by_author_key(
     )
 
     return {
+        'total_authors': len(statistics_data),
         'data': statistics_data,
         'column_names': statistics_column_names
     }

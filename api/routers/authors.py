@@ -222,7 +222,7 @@ async def get_author(
     )
 
     # If no data is returned then error is raised
-    if len(results['data']) == 0:
+    if results['total_authors'] == 0:
         raise AuthorsErrors.NotFound(query)
 
     # Build links
@@ -435,7 +435,7 @@ async def get_authors_statistics(
     )
 
     # If no data is returned then error is raised
-    if len(results['data']) == 0:
+    if results['total_authors'] == 0:
         raise AuthorsErrors.NotFound(query)
 
     # Build links
@@ -498,7 +498,7 @@ async def get_authors_alternative_names(
     )
 
     # If no data is returned then error is raised
-    if len(results['data']) == 0:
+    if results['total_authors'] == 0:
         raise AuthorsErrors.NotFound(query)
 
     # Build links
