@@ -1,6 +1,6 @@
 SELECT
     COUNT(DISTINCT a.author_key) AS total_authors,
-    COUNT(aan.author_key) AS total_names
+    COUNT(DISTINCT aan.author_alternative_name) AS total_names
 FROM
     authors AS a
     LEFT JOIN authors_alternative_names AS aan

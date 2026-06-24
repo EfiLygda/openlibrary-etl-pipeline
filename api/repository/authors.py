@@ -213,6 +213,14 @@ def get_author_statistics_by_author_key(
     if not offset is None:
         params['offset'] = offset
 
+    # Calculate total statistics before pagination
+    totals, _ = execute_query(
+        connection=connection,
+        params=params,
+        query_module='authors',
+        query_filename='total_statistics.sql'
+    )
+
     # Fetch the records
     statistics_data, statistics_column_names = execute_query(
         connection=connection,
@@ -222,7 +230,7 @@ def get_author_statistics_by_author_key(
     )
 
     return {
-        'total_authors': len(statistics_data),
+        'total_authors': totals[0][0],
         'data': statistics_data,
         'column_names': statistics_column_names
     }
