@@ -167,7 +167,6 @@ def check_if_index_exists(
     Function for validating if an index exists in a schema
     :param cursor: psycopg2.extensions.cursor, cursor object for the current database
     :param index_name: str, the name of the table
-    :param schema: str, the name of the schema to check
     :param logger: Logger | LoggerAdapter[Logger] | None, the logger to be used
     :return: bool
     """

@@ -16,15 +16,12 @@ from api.response_builders.entities import format_response_entity
 from api.schemas.entities.core import Work, Author, Edition
 from api.schemas.entities.relationships import WorkRatings, WorkAvailability, WorkOverview, AuthorStatistics
 
-from api.utils.links import build_pagination_links, build_entity_links
-from api.utils.metadata import build_batch_meta, build_entity_meta
-from api.utils.parsing import parse_entity_keys
+from api.utils.links import build_entity_links
+from api.utils.metadata import build_entity_meta
 from api.utils.query import build_query
 from api.utils.validation import validate_key, validate_parent_existance
 
 from api.service.base import ServiceConfig
-
-from api.response_builders.batches import format_response_batch
 
 # Define configurations for batch services
 # --- WORKS ---

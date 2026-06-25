@@ -4,7 +4,7 @@ Service configuration registry for dynamic entity resolution
 This module defines the ServiceConfig structure and the concrete configurations
 used to drive generic service handlers for API endpoints
 """
-import psycopg2
+
 from pydantic import BaseModel
 from typing import TypeVar, Type, Callable, Any
 
