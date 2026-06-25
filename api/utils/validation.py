@@ -26,3 +26,19 @@ def validate_key(
     """
     if KeyHandler.detect_key(key) != entity_type:
         raise _Errors[entity_type].InvalidKey(query)
+
+def validate_parent_existance(
+        total_parents: int,
+        entity_type: str,
+        query: str
+) -> None:
+    """
+    Validate that a parent exists by raising appropriate entity error, if not
+
+    :param total_parents: int, total parents as returned from the repository
+    :param entity_type: Expected entity type (work, author or edition)
+    :param query: Original request query used in error messages
+    :return: None
+    """
+    if total_parents == 0:
+        raise _Errors[entity_type].NotFound(query)
