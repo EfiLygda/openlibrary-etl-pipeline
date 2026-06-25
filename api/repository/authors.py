@@ -43,7 +43,7 @@ def get_authors_by_author_key(
 
 def get_works_by_author_key(
         connection: psycopg2.extensions.connection,
-        author_key: str,
+        key: str,
         limit: int | None = None,
         offset: int | None = None
 ) -> dict:
@@ -51,7 +51,7 @@ def get_works_by_author_key(
     Retrieve work information associated with a given author key
 
     :param connection: psycopg2.extensions.connection, active PostgreSQL database connection
-    :param author_key: str, unique identifier of the work whose works are to
+    :param key: str, unique identifier of the work whose works are to
         be retrieved
     :param limit: int, maximum number of records to return (used for pagination)
     :param offset: int, number of records to skip before starting to return results
@@ -66,7 +66,7 @@ def get_works_by_author_key(
 
     return execute_repository_queries(
         connection=connection,
-        filter_key=author_key,
+        filter_key=key,
         query_module='authors',
         totals_query_filename='total_works.sql',
         data_query_filename='get_works.sql',
@@ -78,7 +78,7 @@ def get_works_by_author_key(
 
 def get_editions_by_author_key(
         connection: psycopg2.extensions.connection,
-        author_key: str,
+        key: str,
         limit: int | None = None,
         offset: int | None = None
 ) -> dict:
@@ -86,7 +86,7 @@ def get_editions_by_author_key(
     Retrieve edition information associated with a given author key
 
     :param connection: psycopg2.extensions.connection, active PostgreSQL database connection
-    :param author_key: str, unique identifier of the author whose editions are to
+    :param key: str, unique identifier of the author whose editions are to
         be retrieved
     :param limit: int, maximum number of records to return (used for pagination)
     :param offset: int, number of records to skip before starting to return results
@@ -101,7 +101,7 @@ def get_editions_by_author_key(
 
     return execute_repository_queries(
             connection=connection,
-            filter_key=author_key,
+            filter_key=key,
             query_module='authors',
             totals_query_filename='total_editions.sql',
             data_query_filename='get_editions.sql',
@@ -148,7 +148,7 @@ def get_author_statistics_by_author_key(
 
 def get_author_alternative_names_by_author_key(
         connection: psycopg2.extensions.connection,
-        author_key: str,
+        key: str,
         limit: int | None = None,
         offset: int | None = None
 ) -> dict:
@@ -156,7 +156,7 @@ def get_author_alternative_names_by_author_key(
     Retrieve author alternative names information associated with a given author key
 
     :param connection: psycopg2.extensions.connection, active PostgreSQL database connection
-    :param author_key: str, unique identifier of the author whose alternative names are to
+    :param key: str, unique identifier of the author whose alternative names are to
         be retrieved
     :param limit: int, maximum number of records to return (used for pagination)
     :param offset: int, number of records to skip before starting to return results
@@ -171,7 +171,7 @@ def get_author_alternative_names_by_author_key(
 
     return execute_repository_queries(
             connection=connection,
-            filter_key=author_key,
+            filter_key=key,
             query_module='authors',
             totals_query_filename='total_alternative_names.sql',
             data_query_filename='get_alternative_names.sql',

@@ -41,15 +41,20 @@ def get_editions_by_edition_key(
     )
 
 def get_works_by_edition_key(
-    connection: psycopg2.extensions.connection,
-    edition_key: str,
+        connection: psycopg2.extensions.connection,
+        key: str,
+        limit: int | None = None,
+        offset: int | None = None,
 ) -> dict:
     """
     Retrieve edition work associated with a given edition key
 
     :param connection: psycopg2.extensions.connection, active PostgreSQL database connection
-    :param edition_key: str, unique identifier of the edition whose details are to
+    :param key: str, unique identifier of the edition whose details are to
         be retrieved
+    :param limit: int, maximum number of records to return (used for pagination)
+    :param offset: int, number of records to skip before starting to return results
+
     :returns: A dictionary containing:
 
         * `total_parents` - total editions (used for error handling)
@@ -60,26 +65,31 @@ def get_works_by_edition_key(
 
     return execute_repository_queries(
         connection=connection,
-        filter_key=edition_key,
+        filter_key=key,
         query_module='editions',
         totals_query_filename='total_works.sql',
         data_query_filename='get_works.sql',
-        # limit=limit,
-        # offset=offset,
+        limit=limit,
+        offset=offset,
         used_for_batches=False,
         has_children=True
     )
 
 def get_details_by_edition_key(
-    connection: psycopg2.extensions.connection,
-    edition_key: str,
+        connection: psycopg2.extensions.connection,
+        key: str,
+        limit: int | None = None,
+        offset: int | None = None,
 ) -> dict:
     """
     Retrieve edition detailed information associated with a given edition key
 
     :param connection: psycopg2.extensions.connection, active PostgreSQL database connection
-    :param edition_key: str, unique identifier of the edition whose details are to
+    :param key: str, unique identifier of the edition whose details are to
         be retrieved
+    :param limit: int, maximum number of records to return (used for pagination)
+    :param offset: int, number of records to skip before starting to return results
+
     :returns: A dictionary containing:
 
         * `total_parents` - total editions (used for error handling)
@@ -90,26 +100,31 @@ def get_details_by_edition_key(
 
     return execute_repository_queries(
         connection=connection,
-        filter_key=edition_key,
+        filter_key=key,
         query_module='editions',
         totals_query_filename='total_details.sql',
         data_query_filename='get_details.sql',
-        # limit=limit,
-        # offset=offset,
+        limit=limit,
+        offset=offset,
         used_for_batches=False,
         has_children=True
     )
 
 def get_contents_by_edition_key(
-    connection: psycopg2.extensions.connection,
-    edition_key: str,
+        connection: psycopg2.extensions.connection,
+        key: str,
+        limit: int | None = None,
+        offset: int | None = None,
 ) -> dict:
     """
     Retrieve edition content information associated with a given edition key
 
     :param connection: psycopg2.extensions.connection, active PostgreSQL database connection
-    :param edition_key: str, unique identifier of the edition whose contents are to
+    :param key: str, unique identifier of the edition whose contents are to
         be retrieved
+    :param limit: int, maximum number of records to return (used for pagination)
+    :param offset: int, number of records to skip before starting to return results
+
     :returns: A dictionary containing:
 
         * `total_parents` - total editions (used for error handling)
@@ -120,26 +135,31 @@ def get_contents_by_edition_key(
 
     return execute_repository_queries(
         connection=connection,
-        filter_key=edition_key,
+        filter_key=key,
         query_module='editions',
         totals_query_filename='total_contents.sql',
         data_query_filename='get_contents.sql',
-        # limit=limit,
-        # offset=offset,
+        limit=limit,
+        offset=offset,
         used_for_batches=False,
         has_children=True
     )
 
 def get_publishing_by_edition_key(
-    connection: psycopg2.extensions.connection,
-    edition_key: str,
+        connection: psycopg2.extensions.connection,
+        key: str,
+        limit: int | None = None,
+        offset: int | None = None,
 ) -> dict:
     """
     Retrieve edition publishing information associated with a given edition key
 
     :param connection: psycopg2.extensions.connection, active PostgreSQL database connection
-    :param edition_key: str, unique identifier of the edition whose publishing details are to
+    :param key: str, unique identifier of the edition whose publishing details are to
         be retrieved
+    :param limit: int, maximum number of records to return (used for pagination)
+    :param offset: int, number of records to skip before starting to return results
+
     :returns: A dictionary containing:
 
         * `total_parents` - total editions (used for error handling)
@@ -150,26 +170,31 @@ def get_publishing_by_edition_key(
 
     return execute_repository_queries(
         connection=connection,
-        filter_key=edition_key,
+        filter_key=key,
         query_module='editions',
         totals_query_filename='total_publishing.sql',
         data_query_filename='get_publishing.sql',
-        # limit=limit,
-        # offset=offset,
+        limit=limit,
+        offset=offset,
         used_for_batches=False,
         has_children=True
     )
 
 def get_contributors_by_edition_key(
-    connection: psycopg2.extensions.connection,
-    edition_key: str,
+        connection: psycopg2.extensions.connection,
+        key: str,
+        limit: int | None = None,
+        offset: int | None = None,
 ) -> dict:
     """
     Retrieve edition contributors information associated with a given edition key
 
     :param connection: psycopg2.extensions.connection, active PostgreSQL database connection
-    :param edition_key: str, unique identifier of the edition whose contributors are to
+    :param key: str, unique identifier of the edition whose contributors are to
         be retrieved
+    :param limit: int, maximum number of records to return (used for pagination)
+    :param offset: int, number of records to skip before starting to return results
+
     :returns: A dictionary containing:
 
         * `total_parents` - total editions (used for error handling)
@@ -180,12 +205,12 @@ def get_contributors_by_edition_key(
 
     return execute_repository_queries(
         connection=connection,
-        filter_key=edition_key,
+        filter_key=key,
         query_module='editions',
         totals_query_filename='total_contributors.sql',
         data_query_filename='get_contributors.sql',
-        # limit=limit,
-        # offset=offset,
+        limit=limit,
+        offset=offset,
         used_for_batches=False,
         has_children=True
     )

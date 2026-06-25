@@ -67,6 +67,14 @@ def test_get_edition(editions_key, status):
 # --------------------------------------------------------------------------
 
 # --------------------------------------------------------------------------
+# --- GET /editions/{editions_key}/work ---
+@pytest.mark.parametrize('editions_key,status', HTTP_response_tests)
+def test_get_edition_work(editions_key, status):
+    response = client.get(f'/editions/{editions_key}/work')
+    assert response.status_code == status
+# --------------------------------------------------------------------------
+
+# --------------------------------------------------------------------------
 # --- GET /editions/{editions_key}/details ---
 @pytest.mark.parametrize('editions_key,status', HTTP_response_tests)
 def test_get_edition_details(editions_key, status):

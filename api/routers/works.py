@@ -39,7 +39,8 @@ import psycopg2
 from fastapi import APIRouter, Request
 
 from api.dependencies import DB_DEPENDENCY
-import api.repository.works as works_repo
+
+from api.errors import BaseErrors, WorksErrors
 
 from api.schemas.entities.core import Work
 from api.schemas.entities.summaries import AuthorSummary, EditionSummary
@@ -47,17 +48,7 @@ from api.schemas.entities.relationships import WorkSeries, WorkAvailability, Wor
 from api.schemas.responses import EntityResponse, RelationshipResponse, BatchResponse
 from api.service.batches import batch_service
 from api.service.entities import entity_service
-
-from api.utils.query import build_query
-from api.utils.validation import validate_key
-from api.utils.links import build_entity_links, build_pagination_links
-from api.utils.metadata import build_entity_meta, build_relationship_meta, build_batch_meta
-from api.utils.parsing import parse_entity_keys
-
-from api.errors import BaseErrors, WorksErrors
-
-from api.response_builders.entities import format_response_entity, format_response_relationship
-from api.response_builders.batches import format_response_batch
+from api.service.relationships import relationship_service
 
 # -----------------------------------------------------------------------------
 # --- Load API LIMIT from environment variables ---
@@ -178,54 +169,13 @@ async def get_work_authors(
     - **links**: pagination links for navigation
     """
 
-    # Build the current query
-    # Like '{path_url}?{query_url}'
-    query = build_query(request)
-
-    # Validate if the key is a valid work key
-    validate_key(
-        key=work_key,
-        entity_type=ENTITY_TYPE,
-        query=query
-    )
-
-    # Fetch data
-    results = works_repo.get_authors_by_work_key(
+    return relationship_service(
         connection=connection,
-        work_key=work_key,
+        request=request,
+        configuration='works_authors',
+        key=work_key,
         limit=limit,
-        offset=offset
-    )
-
-    # If no data is returned then error is raised
-    if results['total_parents'] == 0:
-        raise WorksErrors.NotFound(query)
-
-    # Build links
-    links = build_pagination_links(
-        url=query,
-        total=results['total_children'],
-        limit=limit,
-        offset=offset
-    )
-
-    # Build metadata
-    meta = build_relationship_meta(
-        parent_type=ENTITY_TYPE,
-        parent_key=work_key,
-        child_type='author',
-        total_children=results['total_children'],
-        limit=limit,
-        offset=offset
-    )
-
-    # Format and return consistent API response structure
-    return format_response_relationship(
-        records=results['data'],
-        column_names=results['column_names'],
-        meta=meta,
-        links=links,
-        model=AuthorSummary,
+        offset=offset,
     )
 # ----------------------------------------------------------------------------------
 
@@ -255,54 +205,13 @@ async def get_work_editions(
     - **links**: pagination links for navigation
     """
 
-    # Build the current query
-    # Like '{path_url}?{query_url}'
-    query = build_query(request)
-
-    # Validate if the key is a valid work key
-    validate_key(
-        key=work_key,
-        entity_type=ENTITY_TYPE,
-        query=query
-    )
-
-    # Fetch data
-    results = works_repo.get_editions_by_work_key(
+    return relationship_service(
         connection=connection,
-        work_key=work_key,
+        request=request,
+        configuration='works_editions',
+        key=work_key,
         limit=limit,
-        offset=offset
-    )
-
-    # If no data is returned then error is raised
-    if results['total_parents'] == 0:
-        raise WorksErrors.NotFound(query)
-
-    # Build links
-    links = build_pagination_links(
-        url=query,
-        total=results['total_children'],
-        limit=limit,
-        offset=offset
-    )
-
-    # Build metadata
-    meta = build_relationship_meta(
-        parent_type=ENTITY_TYPE,
-        parent_key=work_key,
-        child_type='edition',
-        total_children=results['total_children'],
-        limit=limit,
-        offset=offset
-    )
-
-    # Format and return consistent API response structure
-    return format_response_relationship(
-        records=results['data'],
-        column_names=results['column_names'],
-        meta=meta,
-        links=links,
-        model=EditionSummary,
+        offset=offset,
     )
 # ----------------------------------------------------------------------------------
 
@@ -332,54 +241,13 @@ async def get_work_series(
     - **links**: pagination links for navigation
     """
 
-    # Build the current query
-    # Like '{path_url}?{query_url}'
-    query = build_query(request)
-
-    # Validate if the key is a valid work key
-    validate_key(
-        key=work_key,
-        entity_type=ENTITY_TYPE,
-        query=query
-    )
-
-    # Fetch data
-    results = works_repo.get_series_by_work_key(
+    return relationship_service(
         connection=connection,
-        work_key=work_key,
+        request=request,
+        configuration='works_series',
+        key=work_key,
         limit=limit,
-        offset=offset
-    )
-
-    # If no data is returned then error is raised
-    if results['total_parents'] == 0:
-        raise WorksErrors.NotFound(query)
-
-    # Build links
-    links = build_pagination_links(
-        url=query,
-        total=results['total_children'],
-        limit=limit,
-        offset=offset
-    )
-
-    # Build metadata
-    meta = build_relationship_meta(
-        parent_type=ENTITY_TYPE,
-        parent_key=work_key,
-        child_type='series',
-        total_children=results['total_children'],
-        limit=limit,
-        offset=offset
-    )
-
-    # Format and return consistent API response structure
-    return format_response_relationship(
-        records=results['data'],
-        column_names=results['column_names'],
-        meta=meta,
-        links=links,
-        model=WorkSeries,
+        offset=offset,
     )
 # ----------------------------------------------------------------------------------
 

@@ -43,7 +43,7 @@ def get_works_by_work_key(
 
 def get_authors_by_work_key(
         connection: psycopg2.extensions.connection,
-        work_key: str,
+        key: str,
         limit: int | None = None,
         offset: int | None = None
 ) -> dict:
@@ -51,7 +51,7 @@ def get_authors_by_work_key(
     Retrieve author information associated with a given work key
 
     :param connection: psycopg2.extensions.connection, active PostgreSQL database connection
-    :param work_key: str, unique identifier of the work whose authors are to
+    :param key: str, unique identifier of the work whose authors are to
         be retrieved
     :param limit: int, maximum number of records to return (used for pagination)
     :param offset: int, number of records to skip before starting to return results
@@ -66,7 +66,7 @@ def get_authors_by_work_key(
 
     return execute_repository_queries(
         connection=connection,
-        filter_key=work_key,
+        filter_key=key,
         query_module='works',
         totals_query_filename='total_authors.sql',
         data_query_filename='get_authors.sql',
@@ -78,7 +78,7 @@ def get_authors_by_work_key(
 
 def get_editions_by_work_key(
     connection: psycopg2.extensions.connection,
-    work_key: str,
+    key: str,
     limit: int | None = None,
     offset: int | None = None
 ) -> dict:
@@ -86,7 +86,7 @@ def get_editions_by_work_key(
     Retrieve edition information associated with a given work key
 
     :param connection: active PostgreSQL database connection
-    :param work_key: unique identifier of the work whose editions are to
+    :param key: unique identifier of the work whose editions are to
         be retrieved
     :param limit: int, maximum number of records to return (used for pagination)
     :param offset: int, number of records to skip before starting to return results
@@ -101,7 +101,7 @@ def get_editions_by_work_key(
 
     return execute_repository_queries(
         connection=connection,
-        filter_key=work_key,
+        filter_key=key,
         query_module='works',
         totals_query_filename='total_editions.sql',
         data_query_filename='get_editions.sql',
@@ -113,7 +113,7 @@ def get_editions_by_work_key(
 
 def get_series_by_work_key(
     connection: psycopg2.extensions.connection,
-    work_key: str,
+    key: str,
     limit: int | None = None,
     offset: int | None = None
 ) -> dict:
@@ -121,7 +121,7 @@ def get_series_by_work_key(
     Retrieve series information associated with a given work key
 
     :param connection: active PostgreSQL database connection
-    :param work_key: unique identifier of the work whose series are to
+    :param key: unique identifier of the work whose series are to
         be retrieved
     :param limit: int, maximum number of records to return (used for pagination)
     :param offset: int, number of records to skip before starting to return results
@@ -136,7 +136,7 @@ def get_series_by_work_key(
 
     return execute_repository_queries(
         connection=connection,
-        filter_key=work_key,
+        filter_key=key,
         query_module='works',
         totals_query_filename='total_series.sql',
         data_query_filename='get_series.sql',

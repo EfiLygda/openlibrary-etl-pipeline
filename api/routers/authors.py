@@ -38,25 +38,17 @@ from fastapi import APIRouter
 from fastapi import Request
 
 from api.dependencies import DB_DEPENDENCY
-import api.repository.authors as authors_repo
+
+from api.errors import BaseErrors, AuthorsErrors
 
 from api.schemas.entities.core import Author
 from api.schemas.entities.summaries import WorkSummary, EditionSummary
 from api.schemas.entities.relationships import AuthorStatistics, AuthorAlternativeNames
 from api.schemas.responses import EntityResponse, RelationshipResponse, BatchResponse
+
 from api.service.batches import batch_service
 from api.service.entities import entity_service
-
-from api.utils.query import build_query
-from api.utils.validation import validate_key
-from api.utils.links import build_entity_links, build_pagination_links
-from api.utils.metadata import build_entity_meta, build_relationship_meta, build_batch_meta
-from api.utils.parsing import parse_entity_keys
-
-from api.errors import BaseErrors, AuthorsErrors
-
-from api.response_builders.entities import format_response_entity, format_response_relationship
-from api.response_builders.batches import format_response_batch
+from api.service.relationships import relationship_service
 
 # -----------------------------------------------------------------------------
 # --- Load API LIMIT from environment variables ---
@@ -177,54 +169,13 @@ async def get_authors_works(
     - **links**: pagination links for navigation
     """
 
-    # Build the current query
-    # Like '{path_url}?{query_url}'
-    query = build_query(request)
-
-    # Validate if any of the keys is an invalid author key
-    validate_key(
-        key=author_key,
-        entity_type=ENTITY_TYPE,
-        query=query
-    )
-
-    # Fetch data
-    results = authors_repo.get_works_by_author_key(
+    return relationship_service(
         connection=connection,
-        author_key=author_key,
+        request=request,
+        configuration='authors_works',
+        key=author_key,
         limit=limit,
-        offset=offset
-    )
-
-    # If no data is returned then error is raised
-    if results['total_parents'] == 0:
-        raise AuthorsErrors.NotFound(query)
-
-    # Build links
-    links = build_pagination_links(
-        url=query,
-        total=results['total_children'],
-        limit=limit,
-        offset=offset
-    )
-
-    # Build metadata
-    meta = build_relationship_meta(
-        parent_type=ENTITY_TYPE,
-        parent_key=author_key,
-        child_type='work',
-        total_children=results['total_children'],
-        limit=limit,
-        offset=offset
-    )
-
-    # Format and return consistent API response structure
-    return format_response_relationship(
-        records=results['data'],
-        column_names=results['column_names'],
-        meta=meta,
-        links=links,
-        model=WorkSummary,
+        offset=offset,
     )
 # ----------------------------------------------------------------------------------
 
@@ -254,54 +205,13 @@ async def get_authors_editions(
     - **links**: pagination links for navigation
     """
 
-    # Build the current query
-    # Like '{path_url}?{query_url}'
-    query = build_query(request)
-
-    # Validate if any of the keys is an invalid author key
-    validate_key(
-        key=author_key,
-        entity_type=ENTITY_TYPE,
-        query=query
-    )
-
-    # Fetch data
-    results = authors_repo.get_editions_by_author_key(
+    return relationship_service(
         connection=connection,
-        author_key=author_key,
+        request=request,
+        configuration='authors_editions',
+        key=author_key,
         limit=limit,
-        offset=offset
-    )
-
-    # If no data is returned then error is raised
-    if results['total_parents'] == 0:
-        raise AuthorsErrors.NotFound(query)
-
-    # Build links
-    links = build_pagination_links(
-        url=query,
-        total=results['total_children'],
-        limit=limit,
-        offset=offset
-    )
-
-    # Build metadata
-    meta = build_relationship_meta(
-        parent_type=ENTITY_TYPE,
-        parent_key=author_key,
-        child_type='edition',
-        total_children=results['total_children'],
-        limit=limit,
-        offset=offset
-    )
-
-    # Format and return consistent API response structure
-    return format_response_relationship(
-        records=results['data'],
-        column_names=results['column_names'],
-        meta=meta,
-        links=links,
-        model=EditionSummary,
+        offset=offset,
     )
 # ----------------------------------------------------------------------------------
 
@@ -367,53 +277,12 @@ async def get_authors_alternative_names(
     - **links**: current link used
     """
 
-    # Build the current query
-    # Like '{path_url}?{query_url}'
-    query = build_query(request)
-
-    # Validate if any of the keys is an invalid author key
-    validate_key(
-        key=author_key,
-        entity_type=ENTITY_TYPE,
-        query=query
-    )
-
-    # Fetch data
-    results = authors_repo.get_author_alternative_names_by_author_key(
+    return relationship_service(
         connection=connection,
-        author_key=author_key,
+        request=request,
+        configuration='authors_alternative_names',
+        key=author_key,
         limit=limit,
-        offset=offset
-    )
-
-    # If no data is returned then error is raised
-    if results['total_parents'] == 0:
-        raise AuthorsErrors.NotFound(query)
-
-    # Build links
-    links = build_pagination_links(
-        url=query,
-        total=results['total_children'],
-        limit=limit,
-        offset=offset
-    )
-
-    # Build meta
-    meta = build_relationship_meta(
-        parent_type=ENTITY_TYPE,
-        parent_key=author_key,
-        child_type='alternative_name',
-        total_children=results['total_children'],
-        limit=limit,
-        offset=offset
-    )
-
-    # Format and return consistent API response structure
-    return format_response_relationship(
-        records=results['data'],
-        column_names=results['column_names'],
-        meta=meta,
-        links=links,
-        model=AuthorAlternativeNames
+        offset=offset,
     )
 # -----------------------------------------------------------------------------
