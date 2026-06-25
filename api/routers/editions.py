@@ -106,7 +106,7 @@ async def get_batch_editions(
     return batch_service(
         connection=connection,
         request=request,
-        entity_type=ENTITY_TYPE,
+        configuration=ENTITY_TYPE,
         limit=limit,
         offset=offset,
         keys=keys

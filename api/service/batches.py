@@ -73,7 +73,7 @@ BATCH_CONFIGS = {
 def batch_service(
         connection: psycopg2.extensions.connection,
         request: Request,
-        entity_type: str,
+        configuration: str,
         limit: int,
         offset: int,
         keys: str | None = None,
@@ -96,7 +96,7 @@ def batch_service(
 
     :param connection: psycopg2.extensions.connection, active PostgreSQL database connection
     :param request: Request, current FastAPI request object used for query and link generation
-    :param entity_type: str, entity configuration to use. Must be one of 'work', 'author' or 'edition'
+    :param configuration: str, configuration to use. Must be one of 'work', 'author' or 'edition'
     :param limit: int, maximum number of records returned
     :param offset: int, number of records skipped before returning results
     :param keys: str | None, comma-separated entity keys used for filtering
@@ -105,13 +105,13 @@ def batch_service(
     """
 
     # Check mode value
-    if entity_type not in BATCH_CONFIGS.keys():
+    if configuration not in BATCH_CONFIGS.keys():
         raise ValueError(
-            f'Argument \'mode\' must be \'work\',\'author\' or \'edition\', \'{entity_type}\' was given'
+            f'Argument \'mode\' must be \'work\',\'author\' or \'edition\', \'{configuration}\' was given'
         )
 
     # Current batch configuration
-    batch_config = BATCH_CONFIGS[entity_type]
+    batch_config = BATCH_CONFIGS[configuration]
 
     # Build the current query
     # Like '{path_url}?{query_url}'
