@@ -44,6 +44,7 @@ from api.schemas.entities.core import Author
 from api.schemas.entities.summaries import WorkSummary, EditionSummary
 from api.schemas.entities.relationships import AuthorStatistics, AuthorAlternativeNames
 from api.schemas.responses import EntityResponse, RelationshipResponse, BatchResponse
+from api.service.batches import batch_service
 
 from api.utils.query import build_query
 from api.utils.validation import validate_key
@@ -103,81 +104,17 @@ async def get_batch_authors(
     - **links**: current link used
     """
 
-    # Build the current query
-    # Like '{path_url}?{query_url}'
-    query = build_query(request)
-
-    # Intentionally not supported for listing operations
-    if keys is None:
-        raise BaseErrors.ListingNotSupported(query)
-
-    # Split and strip key string
-    author_keys = parse_entity_keys(keys=keys)
-
-    # For each key validate key type
-    for author_key in author_keys:
-
-        # Validate if any of the keys is an invalid work key
-        validate_key(
-            key=author_key,
-            entity_type=ENTITY_TYPE,
-            query=query
-        )
-
-    # Fetch data
-    results = authors_repo.get_authors_by_author_key(
+    return batch_service(
         connection=connection,
-        author_key=author_keys,
-        limit=limit,
-        offset=offset
-    )
-
-    # If no data is returned then error is raised
-    if results['total_parents'] == 0:
-        raise AuthorsErrors.NotFound(query)
-
-    # Build links
-    links = build_pagination_links(
-        url=query,
-        total=results['total_parents'],
-        limit=limit,
-        offset=offset
-    )
-
-    # Build metadata
-    meta = build_batch_meta(
+        request=request,
         entity_type=ENTITY_TYPE,
-        keys=author_keys,
-        total=results['total_parents'],
         limit=limit,
-        offset=offset
-    )
-
-    # Format and return consistent API response structure
-    return format_response_batch(
-        records=results['data'],
-        column_names=results['column_names'],
-        meta=meta,
-        links=links,
-        model=Author
+        offset=offset,
+        keys=keys
     )
 # ----------------------------------------------------------------------------------
 
 # ----------------------------------------------------------------------------------
-# --- DEPRECATED ---
-# @router.get("/",  responses={'405': BaseErrors.ListingNotSupported.response})
-# async def authors_root() -> None:
-#     """
-#     Root endpoint for the authors collection
-#
-#     This endpoint is intentionally not supported for listing operations
-#
-#     It exists to explicitly reject requests made to `/authors/` without a
-#     valid `author_key`, and returns a standardized error response
-#     """
-#     raise BaseErrors.ListingNotSupported(query="/authors/")
-# ----------------------------------------------------------------------------------
-
 @router.get(
     path="/{author_key}",
     response_model=EntityResponse[Author],
@@ -217,7 +154,7 @@ async def get_author(
     # Fetch data
     results = authors_repo.get_authors_by_author_key(
         connection=connection,
-        author_key=author_key,
+        keys=author_key,
         limit=limit,
         offset=offset
     )

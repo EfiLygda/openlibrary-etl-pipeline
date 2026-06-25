@@ -10,7 +10,7 @@ from api.repository.repository_engine import execute_repository_queries
 
 def get_authors_by_author_key(
         connection: psycopg2.extensions.connection,
-        author_key: str | list[str],
+        keys: str | list[str],
         limit: int | None = None,
         offset: int | None = None,
 ) -> dict:
@@ -18,7 +18,7 @@ def get_authors_by_author_key(
     Retrieve all author records associated with a given author key
 
     :param connection: psycopg2.extensions.connection, active PostgreSQL database connection
-    :param author_key: str, unique identifier of the author to retrieve
+    :param keys: str, unique identifier of the author to retrieve
     :param limit: int, maximum number of records to return (used for pagination)
     :param offset: int, number of records to skip before starting to return results
 
@@ -31,7 +31,7 @@ def get_authors_by_author_key(
 
     return execute_repository_queries(
         connection=connection,
-        filter_key=author_key,
+        filter_key=keys,
         query_module='authors',
         totals_query_filename='total_authors.sql',
         data_query_filename='get_author.sql',

@@ -43,6 +43,7 @@ from api.schemas.entities.core import Edition
 from api.schemas.entities.summaries import WorkSummary
 from api.schemas.entities.relationships import EditionDetails, EditionContents, EditionPublishing, EditionContributor
 from api.schemas.responses import EntityResponse, RelationshipResponse, BatchResponse
+from api.service.batches import batch_service
 
 from api.utils.query import build_query
 from api.utils.validation import validate_key
@@ -102,81 +103,17 @@ async def get_batch_editions(
     - **links**: current link used
     """
 
-    # Build the current query
-    # Like '{path_url}?{query_url}'
-    query = build_query(request)
-
-    # Intentionally not supported for listing operations
-    if keys is None:
-        raise BaseErrors.ListingNotSupported(query)
-
-    # Split and strip key string
-    edition_keys = parse_entity_keys(keys=keys)
-
-    # For each key validate key type
-    for edition_key in edition_keys:
-
-        # Validate if any of the keys is an invalid edition key
-        validate_key(
-            key=edition_key,
-            entity_type=ENTITY_TYPE,
-            query=query
-        )
-
-    # Fetch data
-    results = editions_repo.get_editions_by_edition_key(
+    return batch_service(
         connection=connection,
-        edition_key=edition_keys,
-        limit=limit,
-        offset=offset
-    )
-
-    # If no data is returned then error is raised
-    if results['total_parents'] == 0:
-        raise EditionsErrors.NotFound(query)
-
-    # Build links
-    links = build_pagination_links(
-        url=query,
-        total=results['total_parents'],
-        limit=limit,
-        offset=offset
-    )
-
-    # Build metada
-    meta = build_batch_meta(
+        request=request,
         entity_type=ENTITY_TYPE,
-        keys=edition_keys,
-        total=results['total_parents'],
         limit=limit,
-        offset=offset
-    )
-
-    # Format and return consistent API response structure
-    return format_response_batch(
-        records=results['data'],
-        column_names=results['column_names'],
-        meta=meta,
-        links=links,
-        model=Edition
+        offset=offset,
+        keys=keys
     )
 # ----------------------------------------------------------------------------------
 
 # ----------------------------------------------------------------------------------
-# --- DEPRECATED ---
-# @router.get("/",  responses={'405': BaseErrors.ListingNotSupported.response})
-# async def editions_root() -> None:
-#     """
-#     Root endpoint for the editions collection
-# 
-#     This endpoint is intentionally not supported for listing operations
-# 
-#     It exists to explicitly reject requests made to `/editions/` without a
-#     valid `edition_key`, and returns a standardized error response
-#     """
-#     raise BaseErrors.ListingNotSupported(query="/editions/")
-# ----------------------------------------------------------------------------------
-
 @router.get(
     path="/{edition_key}",
     response_model=EntityResponse[Edition],
@@ -216,7 +153,7 @@ async def get_edition(
     # Fetch data
     results = editions_repo.get_editions_by_edition_key(
         connection=connection,
-        edition_key=edition_key,
+        keys=edition_key,
         limit=limit,
         offset=offset
     )

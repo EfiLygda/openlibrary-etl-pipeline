@@ -10,7 +10,7 @@ from api.repository.repository_engine import execute_repository_queries
 
 def get_works_by_work_key(
         connection: psycopg2.extensions.connection,
-        work_keys: str | list[str],
+        keys: str | list[str],
         limit: int | None = None,
         offset: int | None = None,
 ) -> dict:
@@ -18,7 +18,7 @@ def get_works_by_work_key(
     Retrieve all work records associated with a given work key
 
     :param connection: psycopg2.extensions.connection, active PostgreSQL database connection
-    :param work_keys: str | list[str], unique identifier of the work to retrieve or list of unique identifiers
+    :param keys: str | list[str], unique identifier of the work to retrieve or list of unique identifiers
     :param limit: int, maximum number of records to return (used for pagination)
     :param offset: int, number of records to skip before starting to return results
 
@@ -31,7 +31,7 @@ def get_works_by_work_key(
 
     return execute_repository_queries(
         connection=connection,
-        filter_key=work_keys,
+        filter_key=keys,
         query_module='works',
         totals_query_filename='total_works.sql',
         data_query_filename='get_work.sql',

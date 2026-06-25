@@ -45,6 +45,7 @@ from api.schemas.entities.core import Work
 from api.schemas.entities.summaries import AuthorSummary, EditionSummary
 from api.schemas.entities.relationships import WorkSeries, WorkAvailability, WorkRatings, WorkOverview
 from api.schemas.responses import EntityResponse, RelationshipResponse, BatchResponse
+from api.service.batches import batch_service
 
 from api.utils.query import build_query
 from api.utils.validation import validate_key
@@ -104,79 +105,14 @@ async def get_batch_works(
     - **links**: current link used
     """
 
-    # Build the current query
-    # Like '{path_url}?{query_url}'
-    query = build_query(request)
-
-    # Intentionally not supported for listing operations
-    if keys is None:
-        raise BaseErrors.ListingNotSupported(query)
-
-    # Split and strip key string
-    work_keys = parse_entity_keys(keys=keys)
-
-    # For each key validate key type
-    for work_key in work_keys:
-
-        # Validate if any of the keys is an invalid work key
-        validate_key(
-            key=work_key,
-            entity_type=ENTITY_TYPE,
-            query=query
-        )
-
-    # Fetch data
-    results = works_repo.get_works_by_work_key(
+    return batch_service(
         connection=connection,
-        work_keys=work_keys,
-        limit=limit,
-        offset=offset
-    )
-
-    # If no data is returned then error is raised
-    if results['total_parents'] == 0:
-        raise WorksErrors.NotFound(query)
-
-    # Build links
-    links = build_pagination_links(
-        url=query,
-        total=results['total_parents'],
-        limit=limit,
-        offset=offset
-    )
-
-    # Build metadata
-    meta = build_batch_meta(
+        request=request,
         entity_type=ENTITY_TYPE,
-        keys=work_keys,
-        total=results['total_parents'],
         limit=limit,
-        offset=offset
+        offset=offset,
+        keys=keys
     )
-
-    # Format and return consistent API response structure
-    return format_response_batch(
-        records=results['data'],
-        column_names=results['column_names'],
-        meta=meta,
-        links=links,
-        model=Work
-    )
-# ----------------------------------------------------------------------------------
-
-# ----------------------------------------------------------------------------------
-# --- DEPRECATED ---
-# @router.get("/",  responses={'405': BaseErrors.ListingNotSupported.response})
-# async def works_root() -> None:
-#     """
-#     Root endpoint for the works collection
-#
-#     This endpoint is intentionally not supported for listing operations
-#
-#     It exists to explicitly reject requests made to `/works/` without a
-#     valid `work_key`, and returns a standardized error response
-#     """
-#     raise BaseErrors.ListingNotSupported(query="/works/")
 # ----------------------------------------------------------------------------------
 
 # ----------------------------------------------------------------------------------
@@ -219,7 +155,7 @@ async def get_work(
     # Fetch data
     results = works_repo.get_works_by_work_key(
         connection=connection,
-        work_keys=work_key,
+        keys=work_key,
         limit=limit,
         offset=offset
     )
