@@ -214,6 +214,61 @@ text_relevance_scores AS (
 ------------------------------------------------------------------------------------------
 -- Calculating final results count
 SELECT
-    COUNT(DISTINCT work_key)
+    COUNT(DISTINCT w.work_key)
 FROM
-    text_relevance_scores;
+    works AS w
+    INNER JOIN text_relevance_scores AS trs
+    ON w.work_key = trs.work_key
+WHERE
+
+    -- Optional exact year filter
+    (
+        %(year)s IS NULL                            -- In case no year is passed this returns TRUE
+        OR (                                        -- If a year is given:
+            w.first_publish_year = %(year)s         -- 2. First publish year is the given year
+            AND w.first_publish_year IS NOT NULL    -- 1. First publish year is not null
+        )
+    )
+
+    AND
+
+    -- Optional EDITION language filter
+    -- NOTE: no primary language exists in the dataset for works
+    --       so this searches via the editions languages
+    (
+        %(lang)s IS NULL                                -- In case no language is passed this returns TRUE
+        OR (                                                -- If a language is given:
+            EXISTS (                                        -- Returns True if the current work is found to have
+                                                            -- at least one edition with the given language
+                SELECT                                      -- 1. Select only row
+                    1
+                FROM
+                    editions AS e                           -- 2. Add to editions, editions_details since it
+                    INNER JOIN editions_details AS ed       --    includes the language field
+                    ON e.edition_key = ed.edition_key
+                WHERE
+                    e.work_key = w.work_key                 -- 3. Filter for current work
+                    AND ed.language = %(lang)s          -- 4. Filter for current given language
+            )
+        )
+    )
+    
+    AND
+
+    (
+        %(published_by)s IS NULL
+        OR (
+            EXISTS (
+                SELECT
+                    1
+                FROM
+                    editions AS e
+                    INNER JOIN editions_publishing AS ep
+                    ON e.edition_key = ep.edition_key
+                WHERE
+                    e.work_key = w.work_key
+                    AND ep.publisher %% %(published_by)s
+            )
+        )
+    )
+;

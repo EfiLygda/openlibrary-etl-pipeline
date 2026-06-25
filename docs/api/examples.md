@@ -91,7 +91,12 @@ Response:
 > **Notes**: 
 > 1. `limit` and `offset` can be used for pagination
 > 2. Results are sorted by text relevance
-
+> 3. Some search-level filters are supported via `/search`:
+>    - `GET /search?q=pride&year=1813`
+>    - `GET /search?q=pride&lang=eng`
+>    - `GET /search?q=pride&published_by=penguin`
+>    - `GET /search?q=pride&year=1813&lang=eng&published_by=penguin` 
+> 4. Filters operate at the **work level**, even when data originates from editions
  
 **STEP 2**: Pick a general work:
 

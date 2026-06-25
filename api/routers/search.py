@@ -55,6 +55,18 @@ router = APIRouter(
 # ----------------------------------------------------------------------------------
 
 # ----------------------------------------------------------------------------------
+# --- Defining search fields ---
+SEARCH_FEILDS = [
+    'q',
+    'year',
+    'lang',
+    'published_by',
+    'limit',
+    'offset',
+]
+# ----------------------------------------------------------------------------------
+
+# ----------------------------------------------------------------------------------
 # --- Defining all endpoints ---
 @router.get(
     path="",
@@ -67,6 +79,9 @@ router = APIRouter(
 async def search(
         request: Request,
         q: str,
+        year: int | None = None,
+        lang: str | None = None,
+        published_by: str | None = None,
         limit: int = API_LIMIT,
         offset: int = 0,
         connection: psycopg2.extensions.connection = DB_DEPENDENCY
@@ -95,13 +110,16 @@ async def search(
     # Convert parameters to dictionary like {'q' = ['...'], 'limit' = ['20'], 'offset' = ['0']}
     current_query = parse_qs(url_parts.query)
 
-    if not all([param_name in ['q', 'limit', 'offset'] for param_name in current_query.keys()]):
+    if not all([param_name in SEARCH_FEILDS for param_name in current_query.keys()]):
         raise SearchErrors.QueryConflict(query)
 
     # Fetch data
     results = search_repo.search(
         connection=connection,
         q=q,
+        year=year,
+        lang=lang,
+        published_by=published_by,
         limit=limit,
         offset=offset
     )
