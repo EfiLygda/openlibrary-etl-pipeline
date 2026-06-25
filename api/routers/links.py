@@ -28,12 +28,15 @@ from api.schemas.entities.core import EntityType
 from api.schemas.links import Link
 from api.schemas.responses import LinksResponse
 
+# ----------------------------------------------------------------------------------
 # --- Defining the editions router ---
 router = APIRouter(
     prefix="/links",
     tags=["Links"]
 )
+# ----------------------------------------------------------------------------------
 
+# ----------------------------------------------------------------------------------
 # --- Defining all endpoints ---
 @router.get("/",  responses={'405': BaseErrors.ListingNotSupported.response})
 async def links_root() -> None:
@@ -46,8 +49,9 @@ async def links_root() -> None:
     valid `key`, and returns a standardized error response
     """
     raise BaseErrors.ListingNotSupported(query="/links/")
+# ----------------------------------------------------------------------------------
 
-
+# ----------------------------------------------------------------------------------
 @router.get(
     path="/{key}",
     response_model=LinksResponse[Link],
@@ -96,3 +100,4 @@ async def get_links_by_key(
         key=key,
         key_type=key_type
     )
+# ----------------------------------------------------------------------------------

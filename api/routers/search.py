@@ -37,19 +37,24 @@ from api.utils.metadata import build_search_meta
 
 from api.response_builders.search import format_response_search
 
+# ----------------------------------------------------------------------------------
 # Load variables from the .env file to the environment
 load_dotenv()
 
 # Save the hidden info to variables
 GENRE = os.getenv("API_LIMIT")
 API_LIMIT = int(os.getenv("API_LIMIT"))
+# ----------------------------------------------------------------------------------
 
+# ----------------------------------------------------------------------------------
 # --- Defining the works router ---
 router = APIRouter(
     prefix="/search",
     tags=["Search"]
 )
+# ----------------------------------------------------------------------------------
 
+# ----------------------------------------------------------------------------------
 # --- Defining all endpoints ---
 @router.get(
     path="",
@@ -128,3 +133,4 @@ async def search(
         links=links,
         model=SearchWork,
     )
+# ----------------------------------------------------------------------------------

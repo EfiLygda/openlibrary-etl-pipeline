@@ -5,7 +5,7 @@ Script for extracting execution times from queries
 import os
 import re
 import pandas as pd
-from api.repository.base import execute_query
+from api.repository.database_adapter import execute_query
 from utilities.database import DB_NAME, db_connection
 
 # Whether non-primary key indexes exist in the queries or not

@@ -37,23 +37,17 @@ from fastapi import APIRouter
 from fastapi import Request
 
 from api.dependencies import DB_DEPENDENCY
-import api.repository.editions as editions_repo
+
+from api.errors import BaseErrors, EditionsErrors
 
 from api.schemas.entities.core import Edition
 from api.schemas.entities.summaries import WorkSummary
 from api.schemas.entities.relationships import EditionDetails, EditionContents, EditionPublishing, EditionContributor
 from api.schemas.responses import EntityResponse, RelationshipResponse, BatchResponse
 
-from api.utils.query import build_query
-from api.utils.validation import validate_key
-from api.utils.links import build_entity_links, build_pagination_links
-from api.utils.metadata import build_entity_meta, build_relationship_meta, build_batch_meta
-from api.utils.parsing import parse_entity_keys
-
-from api.errors import BaseErrors, EditionsErrors
-
-from api.response_builders.entities import format_response_entity, format_response_relationship
-from api.response_builders.batches import format_response_batch
+from api.service.batches import batch_service
+from api.service.entities import entity_service
+from api.service.relationships import relationship_service
 
 # -----------------------------------------------------------------------------
 # --- Load API LIMIT from environment variables ---
@@ -102,80 +96,17 @@ async def get_batch_editions(
     - **links**: current link used
     """
 
-    # Build the current query
-    # Like '{path_url}?{query_url}'
-    query = build_query(request)
-
-    # Intentionally not supported for listing operations
-    if keys is None:
-        raise BaseErrors.ListingNotSupported(query)
-
-    # Split and strip key string
-    edition_keys = parse_entity_keys(keys=keys)
-
-    # For each key validate key type
-    for edition_key in edition_keys:
-
-        # Validate if any of the keys is an invalid edition key
-        validate_key(
-            key=edition_key,
-            entity_type=ENTITY_TYPE,
-            query=query
-        )
-
-    # Fetch data
-    results = editions_repo.get_editions_by_edition_key(
+    return batch_service(
         connection=connection,
-        edition_key=edition_keys,
+        request=request,
+        configuration=ENTITY_TYPE,
         limit=limit,
-        offset=offset
+        offset=offset,
+        key=keys
     )
-
-    # If no data is returned then error is raised
-    if results['total_editions'] == 0:
-        raise EditionsErrors.NotFound(query)
-
-    # Build links
-    links = build_pagination_links(
-        url=query,
-        total=results['total_editions'],
-        limit=limit,
-        offset=offset
-    )
-
-    # Build metada
-    meta = build_batch_meta(
-        entity_type=ENTITY_TYPE,
-        keys=edition_keys,
-        total=results['total_editions'],
-        limit=limit,
-        offset=offset
-    )
-
-    # Format and return consistent API response structure
-    return format_response_batch(
-        records=results['data'],
-        column_names=results['column_names'],
-        meta=meta,
-        links=links,
-        model=Edition
-    )
-
-# ----------------------------------------------------------------------------------
-# --- DEPRECATED ---
-# @router.get("/",  responses={'405': BaseErrors.ListingNotSupported.response})
-# async def editions_root() -> None:
-#     """
-#     Root endpoint for the editions collection
-# 
-#     This endpoint is intentionally not supported for listing operations
-# 
-#     It exists to explicitly reject requests made to `/editions/` without a
-#     valid `edition_key`, and returns a standardized error response
-#     """
-#     raise BaseErrors.ListingNotSupported(query="/editions/")
 # ----------------------------------------------------------------------------------
 
+# ----------------------------------------------------------------------------------
 @router.get(
     path="/{edition_key}",
     response_model=EntityResponse[Edition],
@@ -201,44 +132,17 @@ async def get_edition(
     - **links**: current link used
     """
 
-    # Build the current query
-    # Like '{path_url}?{query_url}'
-    query = build_query(request)
-
-    # Validate if any of the keys is an invalid edition key
-    validate_key(
-        key=edition_key,
-        entity_type=ENTITY_TYPE,
-        query=query
-    )
-
-    # Fetch data
-    results = editions_repo.get_editions_by_edition_key(
+    return entity_service(
         connection=connection,
-        edition_key=edition_key,
+        request=request,
+        configuration='editions',
+        key=edition_key,
         limit=limit,
-        offset=offset
+        offset=offset,
     )
+# ----------------------------------------------------------------------------------
 
-    # If no data is returned then error is raised
-    if len(results['data']) == 0:
-        raise EditionsErrors.NotFound(query)
-
-    # Build links
-    links = build_entity_links(self=query)
-
-    # Build metadata
-    meta = build_entity_meta(entity_type=ENTITY_TYPE)
-
-    # Format and return consistent API response structure
-    return format_response_entity(
-        records=results['data'],
-        column_names=results['column_names'],
-        meta=meta,
-        links=links,
-        model=Edition
-    )
-
+# ----------------------------------------------------------------------------------
 @router.get(
     path="/{edition_key}/work",
     response_model=RelationshipResponse[WorkSummary],
@@ -264,51 +168,17 @@ async def get_editions_work(
     - **links**: pagination links for navigation
     """
 
-    # Build the current query
-    # Like '{path_url}?{query_url}'
-    query = build_query(request)
-
-    # Validate if any of the keys is an invalid edition key
-    validate_key(
+    return relationship_service(
+        connection=connection,
+        request=request,
+        configuration='editions_work',
         key=edition_key,
-        entity_type=ENTITY_TYPE,
-        query=query
-    )
-
-    # Fetch data
-    results = editions_repo.get_works_by_edition_key(connection, edition_key)
-
-    # If no data is returned then error is raised
-    if results['total_editions'] == 0:
-        raise EditionsErrors.NotFound(query)
-
-    # Build links
-    links = build_pagination_links(
-        url=query,
-        total=results['total_works'],
         limit=limit,
-        offset=offset
+        offset=offset,
     )
+# ----------------------------------------------------------------------------------
 
-    # Build meta
-    meta = build_relationship_meta(
-        parent_type='edition',
-        parent_key=edition_key,
-        child_type='work',
-        total_children=results['total_works'],
-        limit=limit,
-        offset=offset
-    )
-
-    # Format and return consistent API response structure
-    return format_response_relationship(
-        records=results['data'],
-        column_names=results['column_names'],
-        meta=meta,
-        links=links,
-        model=WorkSummary,
-    )
-
+# ----------------------------------------------------------------------------------
 @router.get(
     path="/{edition_key}/details",
     response_model=RelationshipResponse[EditionDetails],
@@ -334,51 +204,17 @@ async def get_editions_details(
     - **links**: pagination links for navigation
     """
 
-    # Build the current query
-    # Like '{path_url}?{query_url}'
-    query = build_query(request)
-
-    # Validate if any of the keys is an invalid edition key
-    validate_key(
+    return relationship_service(
+        connection=connection,
+        request=request,
+        configuration='editions_details',
         key=edition_key,
-        entity_type=ENTITY_TYPE,
-        query=query
-    )
-
-    # Fetch data
-    results = editions_repo.get_details_by_edition_key(connection, edition_key)
-
-    # If no data is returned then error is raised
-    if results['total_editions'] == 0:
-        raise EditionsErrors.NotFound(query)
-
-    # Build links
-    links = build_pagination_links(
-        url=query,
-        total=results['total_details'],
         limit=limit,
-        offset=offset
+        offset=offset,
     )
+# ----------------------------------------------------------------------------------
 
-    # Build meta
-    meta = build_relationship_meta(
-        parent_type='edition',
-        parent_key=edition_key,
-        child_type='detail',
-        total_children=results['total_details'],
-        limit=limit,
-        offset=offset
-    )
-
-    # Format and return consistent API response structure
-    return format_response_relationship(
-        records=results['data'],
-        column_names=results['column_names'],
-        meta=meta,
-        links=links,
-        model=EditionDetails,
-    )
-
+# ----------------------------------------------------------------------------------
 @router.get(
     path="/{edition_key}/contents",
     response_model=RelationshipResponse[EditionContents],
@@ -404,51 +240,17 @@ async def get_editions_contents(
     - **links**: pagination links for navigation
     """
 
-    # Build the current query
-    # Like '{path_url}?{query_url}'
-    query = build_query(request)
-
-    # Validate if any of the keys is an invalid edition key
-    validate_key(
+    return relationship_service(
+        connection=connection,
+        request=request,
+        configuration='editions_contents',
         key=edition_key,
-        entity_type=ENTITY_TYPE,
-        query=query
-    )
-
-    # Fetch data
-    results = editions_repo.get_contents_by_edition_key(connection, edition_key)
-
-    # If no data is returned then error is raised
-    if results['total_editions'] == 0:
-        raise EditionsErrors.NotFound(query)
-
-    # Build links
-    links = build_pagination_links(
-        url=query,
-        total=results['total_contents'],
         limit=limit,
-        offset=offset
+        offset=offset,
     )
+# ----------------------------------------------------------------------------------
 
-    # Build meta
-    meta = build_relationship_meta(
-        parent_type='edition',
-        parent_key=edition_key,
-        child_type='content',
-        total_children=results['total_contents'],
-        limit=limit,
-        offset=offset
-    )
-
-    # Format and return consistent API response structure
-    return format_response_relationship(
-        records=results['data'],
-        column_names=results['column_names'],
-        meta=meta,
-        links=links,
-        model=EditionContents,
-    )
-
+# ----------------------------------------------------------------------------------
 @router.get(
     path="/{edition_key}/publishing",
     response_model=RelationshipResponse[EditionPublishing],
@@ -474,51 +276,17 @@ async def get_editions_publishing(
     - **links**: pagination links for navigation
     """
 
-    # Build the current query
-    # Like '{path_url}?{query_url}'
-    query = build_query(request)
-
-    # Validate if any of the keys is an invalid edition key
-    validate_key(
+    return relationship_service(
+        connection=connection,
+        request=request,
+        configuration='editions_publishing',
         key=edition_key,
-        entity_type=ENTITY_TYPE,
-        query=query
-    )
-
-    # Fetch data
-    results = editions_repo.get_publishing_by_edition_key(connection, edition_key)
-
-    # If no data is returned then error is raised
-    if results['total_editions'] == 0:
-        raise EditionsErrors.NotFound(query)
-
-    # Build links
-    links = build_pagination_links(
-        url=query,
-        total=results['total_publishing'],
         limit=limit,
-        offset=offset
+        offset=offset,
     )
+# ----------------------------------------------------------------------------------
 
-    # Build meta
-    meta = build_relationship_meta(
-        parent_type='edition',
-        parent_key=edition_key,
-        child_type='publishing',
-        total_children=results['total_publishing'],
-        limit=limit,
-        offset=offset
-    )
-
-    # Format and return consistent API response structure
-    return format_response_relationship(
-        records=results['data'],
-        column_names=results['column_names'],
-        meta=meta,
-        links=links,
-        model=EditionPublishing,
-    )
-
+# ----------------------------------------------------------------------------------
 @router.get(
     path="/{edition_key}/contributors",
     response_model=RelationshipResponse[EditionContributor],
@@ -544,48 +312,12 @@ async def get_editions_contributors(
     - **links**: pagination links for navigation
     """
 
-    # Build the current query
-    # Like '{path_url}?{query_url}'
-    query = build_query(request)
-
-    # Validate if any of the keys is an invalid edition key
-    validate_key(
+    return relationship_service(
+        connection=connection,
+        request=request,
+        configuration='editions_contributors',
         key=edition_key,
-        entity_type=ENTITY_TYPE,
-        query=query
-    )
-
-    # Fetch data
-    results = editions_repo.get_contributors_by_edition_key(connection, edition_key)
-
-    # If no data is returned then error is raised
-    if results['total_editions'] == 0:
-        raise EditionsErrors.NotFound(query)
-
-    # Build links
-    links = build_pagination_links(
-        url=query,
-        total=results['total_contributors'],
         limit=limit,
-        offset=offset
-    )
-
-    # Build meta
-    meta = build_relationship_meta(
-        parent_type='edition',
-        parent_key=edition_key,
-        child_type='contributor',
-        total_children=results['total_contributors'],
-        limit=limit,
-        offset=offset
-    )
-
-    # Format and return consistent API response structure
-    return format_response_relationship(
-        records=results['data'],
-        column_names=results['column_names'],
-        meta=meta,
-        links=links,
-        model=EditionContributor,
+        offset=offset,
     )
 # -----------------------------------------------------------------------------

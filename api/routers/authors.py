@@ -38,23 +38,17 @@ from fastapi import APIRouter
 from fastapi import Request
 
 from api.dependencies import DB_DEPENDENCY
-import api.repository.authors as authors_repo
+
+from api.errors import BaseErrors, AuthorsErrors
 
 from api.schemas.entities.core import Author
 from api.schemas.entities.summaries import WorkSummary, EditionSummary
 from api.schemas.entities.relationships import AuthorStatistics, AuthorAlternativeNames
 from api.schemas.responses import EntityResponse, RelationshipResponse, BatchResponse
 
-from api.utils.query import build_query
-from api.utils.validation import validate_key
-from api.utils.links import build_entity_links, build_pagination_links
-from api.utils.metadata import build_entity_meta, build_relationship_meta, build_batch_meta
-from api.utils.parsing import parse_entity_keys
-
-from api.errors import BaseErrors, AuthorsErrors
-
-from api.response_builders.entities import format_response_entity, format_response_relationship
-from api.response_builders.batches import format_response_batch
+from api.service.batches import batch_service
+from api.service.entities import entity_service
+from api.service.relationships import relationship_service
 
 # -----------------------------------------------------------------------------
 # --- Load API LIMIT from environment variables ---
@@ -103,80 +97,17 @@ async def get_batch_authors(
     - **links**: current link used
     """
 
-    # Build the current query
-    # Like '{path_url}?{query_url}'
-    query = build_query(request)
-
-    # Intentionally not supported for listing operations
-    if keys is None:
-        raise BaseErrors.ListingNotSupported(query)
-
-    # Split and strip key string
-    author_keys = parse_entity_keys(keys=keys)
-
-    # For each key validate key type
-    for author_key in author_keys:
-
-        # Validate if any of the keys is an invalid work key
-        validate_key(
-            key=author_key,
-            entity_type=ENTITY_TYPE,
-            query=query
-        )
-
-    # Fetch data
-    results = authors_repo.get_authors_by_author_key(
+    return batch_service(
         connection=connection,
-        author_key=author_keys,
+        request=request,
+        configuration=ENTITY_TYPE,
         limit=limit,
-        offset=offset
+        offset=offset,
+        key=keys
     )
-
-    # If no data is returned then error is raised
-    if results['total_authors'] == 0:
-        raise AuthorsErrors.NotFound(query)
-
-    # Build links
-    links = build_pagination_links(
-        url=query,
-        total=results['total_authors'],
-        limit=limit,
-        offset=offset
-    )
-
-    # Build metadata
-    meta = build_batch_meta(
-        entity_type=ENTITY_TYPE,
-        keys=author_keys,
-        total=results['total_authors'],
-        limit=limit,
-        offset=offset
-    )
-
-    # Format and return consistent API response structure
-    return format_response_batch(
-        records=results['data'],
-        column_names=results['column_names'],
-        meta=meta,
-        links=links,
-        model=Author
-    )
-
-# ----------------------------------------------------------------------------------
-# --- DEPRECATED ---
-# @router.get("/",  responses={'405': BaseErrors.ListingNotSupported.response})
-# async def authors_root() -> None:
-#     """
-#     Root endpoint for the authors collection
-#
-#     This endpoint is intentionally not supported for listing operations
-#
-#     It exists to explicitly reject requests made to `/authors/` without a
-#     valid `author_key`, and returns a standardized error response
-#     """
-#     raise BaseErrors.ListingNotSupported(query="/authors/")
 # ----------------------------------------------------------------------------------
 
+# ----------------------------------------------------------------------------------
 @router.get(
     path="/{author_key}",
     response_model=EntityResponse[Author],
@@ -202,44 +133,17 @@ async def get_author(
     - **links**: current link used
     """
 
-    # Build the current query
-    # Like '{path_url}?{query_url}'
-    query = build_query(request)
-
-    # Validate if any of the keys is an invalid author key
-    validate_key(
-        key=author_key,
-        entity_type=ENTITY_TYPE,
-        query=query
-    )
-
-    # Fetch data
-    results = authors_repo.get_authors_by_author_key(
+    return entity_service(
         connection=connection,
-        author_key=author_key,
+        request=request,
+        configuration='authors',
+        key=author_key,
         limit=limit,
-        offset=offset
+        offset=offset,
     )
+# ----------------------------------------------------------------------------------
 
-    # If no data is returned then error is raised
-    if len(results['data']) == 0:
-        raise AuthorsErrors.NotFound(query)
-
-    # Build links
-    links = build_entity_links(self=query)
-
-    # Build metadata
-    meta = build_entity_meta(entity_type=ENTITY_TYPE)
-
-    # Format and return consistent API response structure
-    return format_response_entity(
-        records=results['data'],
-        column_names=results['column_names'],
-        meta=meta,
-        links=links,
-        model=Author
-    )
-
+# ----------------------------------------------------------------------------------
 @router.get(
     path="/{author_key}/works",
     response_model=RelationshipResponse[WorkSummary],
@@ -265,56 +169,17 @@ async def get_authors_works(
     - **links**: pagination links for navigation
     """
 
-    # Build the current query
-    # Like '{path_url}?{query_url}'
-    query = build_query(request)
-
-    # Validate if any of the keys is an invalid author key
-    validate_key(
-        key=author_key,
-        entity_type=ENTITY_TYPE,
-        query=query
-    )
-
-    # Fetch data
-    results = authors_repo.get_works_by_author_key(
+    return relationship_service(
         connection=connection,
-        author_key=author_key,
+        request=request,
+        configuration='authors_works',
+        key=author_key,
         limit=limit,
-        offset=offset
+        offset=offset,
     )
+# ----------------------------------------------------------------------------------
 
-    # If no data is returned then error is raised
-    if results['total_authors'] == 0:
-        raise AuthorsErrors.NotFound(query)
-
-    # Build links
-    links = build_pagination_links(
-        url=query,
-        total=results['total_works'],
-        limit=limit,
-        offset=offset
-    )
-
-    # Build metadata
-    meta = build_relationship_meta(
-        parent_type='author',
-        parent_key=author_key,
-        child_type='work',
-        total_children=results['total_works'],
-        limit=limit,
-        offset=offset
-    )
-
-    # Format and return consistent API response structure
-    return format_response_relationship(
-        records=results['data'],
-        column_names=results['column_names'],
-        meta=meta,
-        links=links,
-        model=WorkSummary,
-    )
-
+# ----------------------------------------------------------------------------------
 @router.get(
     path="/{author_key}/editions",
     response_model=RelationshipResponse[EditionSummary],
@@ -340,56 +205,17 @@ async def get_authors_editions(
     - **links**: pagination links for navigation
     """
 
-    # Build the current query
-    # Like '{path_url}?{query_url}'
-    query = build_query(request)
-
-    # Validate if any of the keys is an invalid author key
-    validate_key(
-        key=author_key,
-        entity_type=ENTITY_TYPE,
-        query=query
-    )
-
-    # Fetch data
-    results = authors_repo.get_editions_by_author_key(
+    return relationship_service(
         connection=connection,
-        author_key=author_key,
+        request=request,
+        configuration='authors_editions',
+        key=author_key,
         limit=limit,
-        offset=offset
+        offset=offset,
     )
+# ----------------------------------------------------------------------------------
 
-    # If no data is returned then error is raised
-    if results['total_authors'] == 0:
-        raise AuthorsErrors.NotFound(query)
-
-    # Build links
-    links = build_pagination_links(
-        url=query,
-        total=results['total_editions'],
-        limit=limit,
-        offset=offset
-    )
-
-    # Build metadata
-    meta = build_relationship_meta(
-        parent_type='author',
-        parent_key=author_key,
-        child_type='edition',
-        total_children=results['total_editions'],
-        limit=limit,
-        offset=offset
-    )
-
-    # Format and return consistent API response structure
-    return format_response_relationship(
-        records=results['data'],
-        column_names=results['column_names'],
-        meta=meta,
-        links=links,
-        model=EditionSummary,
-    )
-
+# ----------------------------------------------------------------------------------
 @router.get(
     path="/{author_key}/statistics",
     response_model=EntityResponse[AuthorStatistics],
@@ -415,44 +241,17 @@ async def get_authors_statistics(
     - **links**: current link used
     """
 
-    # Build the current query
-    # Like '{path_url}?{query_url}'
-    query = build_query(request)
-
-    # Validate if any of the keys is an invalid author key
-    validate_key(
-        key=author_key,
-        entity_type=ENTITY_TYPE,
-        query=query
-    )
-
-    # Fetch data
-    results = authors_repo.get_author_statistics_by_author_key(
+    return entity_service(
         connection=connection,
-        author_key=author_key,
+        request=request,
+        configuration='authors_statistics',
+        key=author_key,
         limit=limit,
-        offset=offset
+        offset=offset,
     )
+# ----------------------------------------------------------------------------------
 
-    # If no data is returned then error is raised
-    if len(results['data']) == 0:
-        raise AuthorsErrors.NotFound(query)
-
-    # Build links
-    links = build_entity_links(self=query)
-
-    # Build meta
-    meta = build_entity_meta(entity_type=ENTITY_TYPE)
-
-    # Format and return consistent API response structure
-    return format_response_entity(
-        records=results['data'],
-        column_names=results['column_names'],
-        meta=meta,
-        links=links,
-        model=AuthorStatistics
-    )
-
+# ----------------------------------------------------------------------------------
 @router.get(
     path="/{author_key}/alternative_names",
     response_model=RelationshipResponse[AuthorAlternativeNames],
@@ -478,53 +277,12 @@ async def get_authors_alternative_names(
     - **links**: current link used
     """
 
-    # Build the current query
-    # Like '{path_url}?{query_url}'
-    query = build_query(request)
-
-    # Validate if any of the keys is an invalid author key
-    validate_key(
-        key=author_key,
-        entity_type=ENTITY_TYPE,
-        query=query
-    )
-
-    # Fetch data
-    results = authors_repo.get_author_alternative_names_by_author_key(
+    return relationship_service(
         connection=connection,
-        author_key=author_key,
+        request=request,
+        configuration='authors_alternative_names',
+        key=author_key,
         limit=limit,
-        offset=offset
-    )
-
-    # If no data is returned then error is raised
-    if len(results['data']) == 0:
-        raise AuthorsErrors.NotFound(query)
-
-    # Build links
-    links = build_pagination_links(
-        url=query,
-        total=results['total_names'],
-        limit=limit,
-        offset=offset
-    )
-
-    # Build meta
-    meta = build_relationship_meta(
-        parent_type=ENTITY_TYPE,
-        parent_key=author_key,
-        child_type='alternative_name',
-        total_children=results['total_names'],
-        limit=limit,
-        offset=offset
-    )
-
-    # Format and return consistent API response structure
-    return format_response_relationship(
-        records=results['data'],
-        column_names=results['column_names'],
-        meta=meta,
-        links=links,
-        model=AuthorAlternativeNames
+        offset=offset,
     )
 # -----------------------------------------------------------------------------

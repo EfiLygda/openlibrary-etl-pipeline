@@ -307,27 +307,52 @@ The three main entities included are `works` for general works, `authors` for th
 
 ### Entity Response
 
-For each of the three main entities the response metadata are structured as:
+For entity endpoints (`/works/{key}`, `/authors/{key}`, `/editions/{key}`) and 1-1 relationship endpoints (`/works/{key}/ratings`, `/works/{key}/availability`, etc.), responses are structured as:
 
     {
-      "data": [],
+      "data": {},
       "meta": {
-        "type": "work" | "author" | "edition" 
+        "type": "work" | "author" | "edition"
       },
       "links": {
-        "self": ""
+        "self": "string"
       }
     }
 
 ---
 
-### Relationship/Search Response
+### Relationship Response
 
-For each of the three main entities there can be relationships response metadata, that are structured as:
+For 1-many relationship endpoints (`/works/{key}/authors`, `/authors/{key}/works`, `/editions/{key}/contributors`, etc.), responses are structured as:
 
     {
       "data": [],
       "meta": {
+        "parent_type": "work" | "author" | "edition",
+        "parent_key": "string",
+        "child_type": "string",
+        "total_children": 0,
+        "limit": 20,
+        "offset": 0
+      },
+      "links": {
+        "self": "",
+        "next": null,
+        "prev": null
+      }
+    }
+
+---
+
+### Batch Response
+
+For batch endpoints (`/works?keys=...`, `/authors?keys=...`, `/editions?keys=...`), responses are structured as:
+
+    {
+      "data": [],
+      "meta": {
+        "type": "work" | "author" | "edition",
+        "keys": [],
         "total": 0,
         "limit": 20,
         "offset": 0
@@ -343,11 +368,11 @@ For each of the three main entities there can be relationships response metadata
 
 ### Navigation Links Response
 
-For each of the three main entities navigation links can be fetched and relationships can be found:
+For entity navigation and relationship discovery:
 
     {
       "key": "string",
-      "type":"work" | "author" | "edition" | null,
+      "type": "work" | "author" | "edition" | null,
       "links": {
         "self": "string",
         ...
