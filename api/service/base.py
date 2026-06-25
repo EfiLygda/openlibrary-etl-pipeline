@@ -17,7 +17,7 @@ class ServiceConfig:
     This class defines the minimal metadata required to dynamically resolve
     batch and relationship API behavior for a given entity type.
 
-    :param entity_type: str, logical identifier for the entity domain ("work", "author",
+    :param router_entity_type: str, logical identifier for the router's entity domain ("work", "author",
         "edition"). Used for validation, error handling, and metadata generation
     :param repository_function: Callable[..., dict[str, Any]], callable that retrieves data
         from the persistence layer.
@@ -39,10 +39,10 @@ class ServiceConfig:
     """
     def __init__(
             self,
-            entity_type: str,
+            router_entity_type: str,
             repository_function: Callable[..., dict[str, Any]],
             response_base_model: Type[T],
     ):
-        self.entity_type = entity_type
+        self.router_entity_type = router_entity_type
         self.repository_function = repository_function
         self.response_base_model = response_base_model

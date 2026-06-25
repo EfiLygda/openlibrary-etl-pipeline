@@ -46,19 +46,19 @@ from api.response_builders.batches import format_response_batch
 
 # Define configurations for batch services
 BATCH_WORKS = ServiceConfig(
-    entity_type='work',
+    router_entity_type='work',
     repository_function=works_repo.get_works_by_work_key,
     response_base_model=Work,
 )
 
 BATCH_AUTHORS = ServiceConfig(
-    entity_type='author',
+    router_entity_type='author',
     repository_function=authors_repo.get_authors_by_author_key,
     response_base_model=Author,
 )
 
 BATCH_EDITIONS = ServiceConfig(
-    entity_type='edition',
+    router_entity_type='edition',
     repository_function=editions_repo.get_editions_by_edition_key,
     response_base_model=Edition,
 )
@@ -130,7 +130,7 @@ def batch_service(
         # Validate if any of the keys is an invalid work key
         validate_key(
             key=normalized_key,
-            entity_type=batch_config.entity_type,
+            entity_type=batch_config.router_entity_type,
             query=query
         )
 
@@ -145,7 +145,7 @@ def batch_service(
     # If no data is returned then error is raised
     validate_parent_existance(
         total_parents=results['total_parents'],
-        entity_type=batch_config.entity_type,
+        entity_type=batch_config.router_entity_type,
         query=query
     )
 
@@ -159,7 +159,7 @@ def batch_service(
 
     # Build metadata
     meta = build_batch_meta(
-        entity_type=batch_config.entity_type,
+        entity_type=batch_config.router_entity_type,
         keys=normalized_keys,
         total=results['total_parents'],
         limit=limit,
