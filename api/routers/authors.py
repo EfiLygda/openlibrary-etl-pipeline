@@ -45,6 +45,7 @@ from api.schemas.entities.summaries import WorkSummary, EditionSummary
 from api.schemas.entities.relationships import AuthorStatistics, AuthorAlternativeNames
 from api.schemas.responses import EntityResponse, RelationshipResponse, BatchResponse
 from api.service.batches import batch_service
+from api.service.entities import entity_service
 
 from api.utils.query import build_query
 from api.utils.validation import validate_key
@@ -110,7 +111,7 @@ async def get_batch_authors(
         configuration=ENTITY_TYPE,
         limit=limit,
         offset=offset,
-        keys=keys
+        key=keys
     )
 # ----------------------------------------------------------------------------------
 
@@ -140,42 +141,13 @@ async def get_author(
     - **links**: current link used
     """
 
-    # Build the current query
-    # Like '{path_url}?{query_url}'
-    query = build_query(request)
-
-    # Validate if any of the keys is an invalid author key
-    validate_key(
-        key=author_key,
-        entity_type=ENTITY_TYPE,
-        query=query
-    )
-
-    # Fetch data
-    results = authors_repo.get_authors_by_author_key(
+    return entity_service(
         connection=connection,
-        keys=author_key,
+        request=request,
+        configuration='authors',
+        key=author_key,
         limit=limit,
-        offset=offset
-    )
-
-    # If no data is returned then error is raised
-    if results['total_parents'] == 0:
-        raise AuthorsErrors.NotFound(query)
-
-    # Build links
-    links = build_entity_links(self=query)
-
-    # Build metadata
-    meta = build_entity_meta(entity_type=ENTITY_TYPE)
-
-    # Format and return consistent API response structure
-    return format_response_entity(
-        records=results['data'],
-        column_names=results['column_names'],
-        meta=meta,
-        links=links,
-        model=Author
+        offset=offset,
     )
 # ----------------------------------------------------------------------------------
 
@@ -359,42 +331,13 @@ async def get_authors_statistics(
     - **links**: current link used
     """
 
-    # Build the current query
-    # Like '{path_url}?{query_url}'
-    query = build_query(request)
-
-    # Validate if any of the keys is an invalid author key
-    validate_key(
-        key=author_key,
-        entity_type=ENTITY_TYPE,
-        query=query
-    )
-
-    # Fetch data
-    results = authors_repo.get_author_statistics_by_author_key(
+    return entity_service(
         connection=connection,
-        author_key=author_key,
+        request=request,
+        configuration='authors_statistics',
+        key=author_key,
         limit=limit,
-        offset=offset
-    )
-
-    # If no data is returned then error is raised
-    if results['total_parents'] == 0:
-        raise AuthorsErrors.NotFound(query)
-
-    # Build links
-    links = build_entity_links(self=query)
-
-    # Build meta
-    meta = build_entity_meta(entity_type=ENTITY_TYPE)
-
-    # Format and return consistent API response structure
-    return format_response_entity(
-        records=results['data'],
-        column_names=results['column_names'],
-        meta=meta,
-        links=links,
-        model=AuthorStatistics
+        offset=offset,
     )
 # ----------------------------------------------------------------------------------
 

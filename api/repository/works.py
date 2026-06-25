@@ -10,7 +10,7 @@ from api.repository.repository_engine import execute_repository_queries
 
 def get_works_by_work_key(
         connection: psycopg2.extensions.connection,
-        keys: str | list[str],
+        key: str | list[str],
         limit: int | None = None,
         offset: int | None = None,
 ) -> dict:
@@ -18,7 +18,7 @@ def get_works_by_work_key(
     Retrieve all work records associated with a given work key
 
     :param connection: psycopg2.extensions.connection, active PostgreSQL database connection
-    :param keys: str | list[str], unique identifier of the work to retrieve or list of unique identifiers
+    :param key: str | list[str], unique identifier of the work to retrieve or list of unique identifiers
     :param limit: int, maximum number of records to return (used for pagination)
     :param offset: int, number of records to skip before starting to return results
 
@@ -31,7 +31,7 @@ def get_works_by_work_key(
 
     return execute_repository_queries(
         connection=connection,
-        filter_key=keys,
+        filter_key=key,
         query_module='works',
         totals_query_filename='total_works.sql',
         data_query_filename='get_work.sql',
@@ -148,7 +148,7 @@ def get_series_by_work_key(
 
 def get_availability_by_work_key(
     connection: psycopg2.extensions.connection,
-    work_key: str,
+    key: str,
     limit: int | None = None,
     offset: int | None = None
 ) -> dict:
@@ -156,7 +156,7 @@ def get_availability_by_work_key(
     Retrieve availability information associated with a given work key
 
     :param connection: active PostgreSQL database connection
-    :param work_key: unique identifier of the work whose availability are to
+    :param key: unique identifier of the work whose availability are to
         be retrieved
     :param limit: int, maximum number of records to return (used for pagination)
     :param offset: int, number of records to skip before starting to return results
@@ -169,7 +169,7 @@ def get_availability_by_work_key(
 
     return execute_repository_queries(
         connection=connection,
-        filter_key=work_key,
+        filter_key=key,
         query_module='works',
         totals_query_filename='total_availability.sql',
         data_query_filename='get_availability.sql',
@@ -181,7 +181,7 @@ def get_availability_by_work_key(
 
 def get_ratings_by_work_key(
     connection: psycopg2.extensions.connection,
-    work_key: str,
+    key: str,
     limit: int | None = None,
     offset: int | None = None
 ) -> dict:
@@ -189,7 +189,7 @@ def get_ratings_by_work_key(
     Retrieve rating information associated with a given work key
 
     :param connection: active PostgreSQL database connection
-    :param work_key: unique identifier of the work whose ratings are to
+    :param key: unique identifier of the work whose ratings are to
         be retrieved
     :param limit: int, maximum number of records to return (used for pagination)
     :param offset: int, number of records to skip before starting to return results
@@ -202,7 +202,7 @@ def get_ratings_by_work_key(
 
     return execute_repository_queries(
         connection=connection,
-        filter_key=work_key,
+        filter_key=key,
         query_module='works',
         totals_query_filename='total_ratings.sql',
         data_query_filename='get_ratings.sql',
@@ -214,7 +214,7 @@ def get_ratings_by_work_key(
 
 def get_overview_by_work_key(
     connection: psycopg2.extensions.connection,
-    work_key: str,
+    key: str,
     limit: int | None = None,
     offset: int | None = None
 ) -> dict:
@@ -222,7 +222,7 @@ def get_overview_by_work_key(
     Retrieve all subject, people, places and time periods information associated with a given work key
 
     :param connection: active PostgreSQL database connection
-    :param work_key: unique identifier of the work whose editions are to
+    :param key: unique identifier of the work whose editions are to
         be retrieved
     :param limit: int, maximum number of records to return (used for pagination)
     :param offset: int, number of records to skip before starting to return results
@@ -235,7 +235,7 @@ def get_overview_by_work_key(
 
     return execute_repository_queries(
         connection=connection,
-        filter_key=work_key,
+        filter_key=key,
         query_module='works',
         totals_query_filename='total_overview.sql',
         data_query_filename='get_overview.sql',

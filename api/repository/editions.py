@@ -10,7 +10,7 @@ from api.repository.repository_engine import execute_repository_queries
 
 def get_editions_by_edition_key(
         connection: psycopg2.extensions.connection,
-        keys: str | list[str],
+        key: str | list[str],
         limit: int | None = None,
         offset: int | None = None,
 ) -> dict:
@@ -18,7 +18,7 @@ def get_editions_by_edition_key(
     Retrieve all edition records associated with a given edition key
 
     :param connection: psycopg2.extensions.connection, active PostgreSQL database connection
-    :param keys: str | list[str], unique identifier of the edition to retrieve or list of unique identifiers
+    :param key: str | list[str], unique identifier of the edition to retrieve or list of unique identifiers
     :param limit: int, maximum number of records to return (used for pagination)
     :param offset: int, number of records to skip before starting to return results
 
@@ -30,7 +30,7 @@ def get_editions_by_edition_key(
 
     return execute_repository_queries(
         connection=connection,
-        filter_key=keys,
+        filter_key=key,
         query_module='editions',
         totals_query_filename='total_editions.sql',
         data_query_filename='get_edition.sql',

@@ -44,6 +44,7 @@ from api.schemas.entities.summaries import WorkSummary
 from api.schemas.entities.relationships import EditionDetails, EditionContents, EditionPublishing, EditionContributor
 from api.schemas.responses import EntityResponse, RelationshipResponse, BatchResponse
 from api.service.batches import batch_service
+from api.service.entities import entity_service
 
 from api.utils.query import build_query
 from api.utils.validation import validate_key
@@ -109,7 +110,7 @@ async def get_batch_editions(
         configuration=ENTITY_TYPE,
         limit=limit,
         offset=offset,
-        keys=keys
+        key=keys
     )
 # ----------------------------------------------------------------------------------
 
@@ -139,42 +140,13 @@ async def get_edition(
     - **links**: current link used
     """
 
-    # Build the current query
-    # Like '{path_url}?{query_url}'
-    query = build_query(request)
-
-    # Validate if any of the keys is an invalid edition key
-    validate_key(
-        key=edition_key,
-        entity_type=ENTITY_TYPE,
-        query=query
-    )
-
-    # Fetch data
-    results = editions_repo.get_editions_by_edition_key(
+    return entity_service(
         connection=connection,
-        keys=edition_key,
+        request=request,
+        configuration='editions',
+        key=edition_key,
         limit=limit,
-        offset=offset
-    )
-
-    # If no data is returned then error is raised
-    if len(results['data']) == 0:
-        raise EditionsErrors.NotFound(query)
-
-    # Build links
-    links = build_entity_links(self=query)
-
-    # Build metadata
-    meta = build_entity_meta(entity_type=ENTITY_TYPE)
-
-    # Format and return consistent API response structure
-    return format_response_entity(
-        records=results['data'],
-        column_names=results['column_names'],
-        meta=meta,
-        links=links,
-        model=Edition
+        offset=offset,
     )
 # ----------------------------------------------------------------------------------
 

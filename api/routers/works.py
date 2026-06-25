@@ -46,6 +46,7 @@ from api.schemas.entities.summaries import AuthorSummary, EditionSummary
 from api.schemas.entities.relationships import WorkSeries, WorkAvailability, WorkRatings, WorkOverview
 from api.schemas.responses import EntityResponse, RelationshipResponse, BatchResponse
 from api.service.batches import batch_service
+from api.service.entities import entity_service
 
 from api.utils.query import build_query
 from api.utils.validation import validate_key
@@ -111,7 +112,7 @@ async def get_batch_works(
         configuration=ENTITY_TYPE,
         limit=limit,
         offset=offset,
-        keys=keys
+        key=keys
     )
 # ----------------------------------------------------------------------------------
 
@@ -141,42 +142,13 @@ async def get_work(
     - **links**: current link used
     """
 
-    # Build the current query
-    # Like '{path_url}?{query_url}'
-    query = build_query(request)
-
-    # Validate if the key is a valid work key
-    validate_key(
-        key=work_key,
-        entity_type=ENTITY_TYPE,
-        query=query
-    )
-
-    # Fetch data
-    results = works_repo.get_works_by_work_key(
+    return entity_service(
         connection=connection,
-        keys=work_key,
+        request=request,
+        configuration='works',
+        key=work_key,
         limit=limit,
-        offset=offset
-    )
-
-    # If no data is returned then error is raised
-    if results['total_parents'] == 0:
-        raise WorksErrors.NotFound(query)
-
-    # Build links
-    links = build_entity_links(self=query)
-
-    # Build metadata
-    meta = build_entity_meta(entity_type=ENTITY_TYPE)
-
-    # Format and return consistent API response structure
-    return format_response_entity(
-        records=results['data'],
-        column_names=results['column_names'],
-        meta=meta,
-        links=links,
-        model=Work
+        offset=offset,
     )
 # ----------------------------------------------------------------------------------
 
@@ -437,42 +409,13 @@ async def get_work_availability(
     - **links**: current link used
     """
 
-    # Build the current query
-    # Like '{path_url}?{query_url}'
-    query = build_query(request)
-
-    # Validate if the key is a valid work key
-    validate_key(
-        key=work_key,
-        entity_type=ENTITY_TYPE,
-        query=query
-    )
-
-    # Fetch data
-    results = works_repo.get_availability_by_work_key(
+    return entity_service(
         connection=connection,
-        work_key=work_key,
+        request=request,
+        configuration='works_availability',
+        key=work_key,
         limit=limit,
-        offset=offset
-    )
-
-    # If no data is returned then error is raised
-    if results['total_parents'] == 0:
-        raise WorksErrors.NotFound(query)
-
-    # Build links
-    links = build_entity_links(self=query)
-
-    # Build metadata
-    meta = build_entity_meta(entity_type=ENTITY_TYPE)
-
-    # Format and return consistent API response structure
-    return format_response_entity(
-        records=results['data'],
-        column_names=results['column_names'],
-        meta=meta,
-        links=links,
-        model=WorkAvailability
+        offset=offset,
     )
 # ----------------------------------------------------------------------------------
 
@@ -502,42 +445,13 @@ async def get_work_ratings(
     - **links**: current link used
     """
 
-    # Build the current query
-    # Like '{path_url}?{query_url}'
-    query = build_query(request)
-
-    # Validate if the key is a valid work key
-    validate_key(
-        key=work_key,
-        entity_type=ENTITY_TYPE,
-        query=query
-    )
-
-    # Fetch data
-    results = works_repo.get_ratings_by_work_key(
+    return entity_service(
         connection=connection,
-        work_key=work_key,
+        request=request,
+        configuration='works_ratings',
+        key=work_key,
         limit=limit,
-        offset=offset
-    )
-
-    # If no data is returned then error is raised
-    if results['total_parents'] == 0:
-        raise WorksErrors.NotFound(query)
-
-    # Build links
-    links = build_entity_links(self=query)
-
-    # Build metadata
-    meta = build_entity_meta(entity_type=ENTITY_TYPE)
-
-    # Format and return consistent API response structure
-    return format_response_entity(
-        records=results['data'],
-        column_names=results['column_names'],
-        meta=meta,
-        links=links,
-        model=WorkRatings
+        offset=offset,
     )
 # ----------------------------------------------------------------------------------
 
@@ -567,41 +481,12 @@ async def get_work_overview(
     - **links**: current link used
     """
 
-    # Build the current query
-    # Like '{path_url}?{query_url}'
-    query = build_query(request)
-
-    # Validate if the key is a valid work key
-    validate_key(
-        key=work_key,
-        entity_type=ENTITY_TYPE,
-        query=query
-    )
-
-    # Fetch data
-    results = works_repo.get_overview_by_work_key(
+    return entity_service(
         connection=connection,
-        work_key=work_key,
+        request=request,
+        configuration='works_overview',
+        key=work_key,
         limit=limit,
-        offset=offset
-    )
-
-    # If no data is returned then error is raised
-    if results['total_parents'] == 0:
-        raise WorksErrors.NotFound(query)
-
-    # Build links
-    links = build_entity_links(self=query)
-
-    # Build metadata
-    meta = build_entity_meta(entity_type=ENTITY_TYPE)
-
-    # Format and return consistent API response structure
-    return format_response_entity(
-        records=results['data'],
-        column_names=results['column_names'],
-        meta=meta,
-        links=links,
-        model=WorkOverview
+        offset=offset,
     )
 # -----------------------------------------------------------------------------

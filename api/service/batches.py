@@ -76,7 +76,7 @@ def batch_service(
         configuration: str,
         limit: int,
         offset: int,
-        keys: str | None = None,
+        key: str | None = None,
 ):
     """
     Execute a standardized batch entity retrieval workflow
@@ -99,7 +99,7 @@ def batch_service(
     :param configuration: str, configuration to use. Must be one of 'work', 'author' or 'edition'
     :param limit: int, maximum number of records returned
     :param offset: int, number of records skipped before returning results
-    :param keys: str | None, comma-separated entity keys used for filtering
+    :param key: str | None, comma-separated entity keys used for filtering
 
     :returns: BatchResponse[T], standardized batch response containing 'data', 'meta' and 'links'
     """
@@ -118,11 +118,11 @@ def batch_service(
     query = build_query(request)
 
     # Intentionally not supported for listing operations
-    if keys is None:
+    if key is None:
         raise BaseErrors.ListingNotSupported(query)
 
     # Split and strip key string
-    normalized_keys = parse_entity_keys(keys=keys)
+    normalized_keys = parse_entity_keys(keys=key)
 
     # For each key validate key type
     for normalized_key in normalized_keys:
@@ -137,7 +137,7 @@ def batch_service(
     # Fetch data
     results = batch_config.repository_function(
         connection=connection,
-        keys=normalized_keys,
+        key=normalized_keys,
         limit=limit,
         offset=offset
     )
