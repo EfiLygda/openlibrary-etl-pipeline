@@ -1,10 +1,10 @@
 # OpenLibrary ETL Pipeline
 
-An end-to-end data engineering project that extracts book metadata from the Open Library API, transforms and normalizes it into a relational PostgreSQL database, and exposes the curated dataset through a FastAPI-powered RESTful API.
+An end-to-end data engineering project that ingests book metadata from the Open Library API, transforms and normalizes it into a relational PostgreSQL database, and exposes it through a FastAPI-based REST API featuring search, relationship navigation, and structured response models.
 
 The project implements a production-style ETL workflow with schema-driven transformations, structured data modeling, indexing, testing, structured logging, and performance benchmarking to provide efficient access to authors, works, editions, ratings, and related metadata.
 
-This repository contains sample data only for demonstration and testing purposes. Full source data can be obtained directly from Open Library.
+The repository includes a representative dataset for demonstration, testing, and reproducibility.
 
 Open Library metadata is provided by the Internet Archive. This project is an independent work and is not affiliated with, endorsed by, or sponsored by Open Library or the Internet Archive.
 
