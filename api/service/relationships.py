@@ -34,71 +34,82 @@ from api.response_builders.entities import format_response_relationship
 # Define configurations for batch services
 # --- WORKS ---
 WORKS_AUTHORS = ServiceConfig(
-    router_entity_type='work',
     repository_function=works_repo.get_authors_by_work_key,
     response_base_model=AuthorSummary,
+    router_entity_type='work',
+    endpoint_child_type='author',
 )
 
 WORKS_EDITIONS = ServiceConfig(
-    router_entity_type='work',
     repository_function=works_repo.get_editions_by_work_key,
-    response_base_model=EditionSummary
+    response_base_model=EditionSummary,
+    router_entity_type='work',
+    endpoint_child_type='edition',
 )
 
 WORKS_SERIES = ServiceConfig(
-    router_entity_type='work',
     repository_function=works_repo.get_series_by_work_key,
-    response_base_model=WorkSeries
+    response_base_model=WorkSeries,
+    router_entity_type='work',
+    endpoint_child_type='series',
 )
 
 # --- AUTHORS ---
 AUTHORS_WORKS = ServiceConfig(
-    router_entity_type='author',
     repository_function=authors_repo.get_works_by_author_key,
     response_base_model=WorkSummary,
+    router_entity_type='author',
+    endpoint_child_type='work',
 )
 
 AUTHORS_EDITIONS = ServiceConfig(
-    router_entity_type='author',
     repository_function=authors_repo.get_editions_by_author_key,
     response_base_model=EditionSummary,
+    router_entity_type='author',
+    endpoint_child_type='edition',
 )
 
 AUTHORS_ALTERNATIVE_NAMES = ServiceConfig(
-    router_entity_type='author',
     repository_function=authors_repo.get_author_alternative_names_by_author_key,
     response_base_model=AuthorAlternativeNames,
+    router_entity_type='author',
+    endpoint_child_type='alternative_name',
 )
 
 # --- EDITIONS ---
 EDITIONS_WORK = ServiceConfig(
-    router_entity_type='edition',
     repository_function=editions_repo.get_works_by_edition_key,
     response_base_model=WorkSummary,
+    router_entity_type='edition',
+    endpoint_child_type='work',
 )
 
 EDITIONS_DETAILS = ServiceConfig(
-    router_entity_type='edition',
     repository_function=editions_repo.get_details_by_edition_key,
     response_base_model=EditionDetails,
+    router_entity_type='edition',
+    endpoint_child_type='detail',
 )
 
 EDITIONS_CONTENTS = ServiceConfig(
-    router_entity_type='edition',
     repository_function=editions_repo.get_contents_by_edition_key,
     response_base_model=EditionContents,
+    router_entity_type='edition',
+    endpoint_child_type='content',
 )
 
 EDITIONS_PUBLISHING = ServiceConfig(
-    router_entity_type='edition',
     repository_function=editions_repo.get_publishing_by_edition_key,
     response_base_model=EditionPublishing,
+    router_entity_type='edition',
+    endpoint_child_type='publishing',
 )
 
 EDITIONS_CONTRIBUTORS = ServiceConfig(
-    router_entity_type='edition',
     repository_function=editions_repo.get_contributors_by_edition_key,
     response_base_model=EditionContributor,
+    router_entity_type='edition',
+    endpoint_child_type='contributor',
 )
 
 # Dictionary with all batch configurations
@@ -183,7 +194,7 @@ def relationship_service(
     meta = build_relationship_meta(
         parent_type=resource_config.router_entity_type,
         parent_key=key,
-        child_type='author',
+        child_type=resource_config.endpoint_child_type,
         total_children=results['total_children'],
         limit=limit,
         offset=offset
