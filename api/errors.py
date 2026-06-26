@@ -181,5 +181,7 @@ class SearchErrors:
     QueryConflict = _APIErrorDefinition(
         status_code=422,
         error_code='INVALID_QUERY_COMBINATION',
-        description='Only fields \'q\', \'limit\' and \'offset\' can be used for search'
+        description='Only fields \'q\', \'limit\','
+                    ' \'offset\', \'year\', \'lang\' or \'published_by\' '
+                    'can be used for search'
     )
