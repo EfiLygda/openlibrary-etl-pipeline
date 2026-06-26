@@ -11,6 +11,7 @@ from typing import Generic, TypeVar, Optional
 from api.schemas.entities.core import EntityType
 from api.schemas.links import SelfLink, PaginationLinks
 from api.schemas.metadata import EntityMeta, RelationshipMeta, SearchMeta, BatchMeta
+from api.schemas.languages import Language
 
 # Define a flexible variable type to be used as generic placeholder
 T = TypeVar('T')
@@ -43,8 +44,14 @@ class BatchResponse(BaseModel, Generic[T]):
     meta: BatchMeta
     links: PaginationLinks
 
-# --- Links API response ---
+# --- Links Response ---
 class LinksResponse(BaseModel, Generic[T]):
     key: str
     type: Optional[EntityType] = None
     links: Optional[T] = None
+
+# --- Languages Response ---
+class LanguagesResponse(BaseModel):
+    data: Optional[list[Language]] = None
+    meta: SearchMeta
+    links: PaginationLinks
