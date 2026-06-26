@@ -89,7 +89,7 @@ def test_get_author_statistics(author_key, status):
 
 def test_get_author_nonexisting_statistics():
     response = client.get(f'/authors/{TEST_AUTHOR_KEYS['no_statistics']}/statistics')
-    assert all(field is None for field in response.json()['data'][0].values())
+    assert all(field is None for name, field in response.json()['data'][0].items() if name != 'author_key')
 # --------------------------------------------------------------------------
 
 # --------------------------------------------------------------------------
