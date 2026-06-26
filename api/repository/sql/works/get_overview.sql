@@ -1,4 +1,5 @@
 SELECT
+    w.work_key,
     ws.subjects,
     wpl.people,
     wpc.places,

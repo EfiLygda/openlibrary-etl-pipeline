@@ -20,11 +20,13 @@ class WorkSeries(BaseModel):
     series_name: Optional[str] = None
 
 class WorkAvailability(BaseModel):
+    work_key: str
     ebook_access: Optional[str] = None
     has_fulltext: Optional[bool] = None
     has_public_scan: Optional[bool] = None
 
 class WorkRatings(BaseModel):
+    work_key: str
     ratings_count_1: Optional[int]
     ratings_count_2: Optional[int]
     ratings_count_3: Optional[int]
@@ -32,6 +34,7 @@ class WorkRatings(BaseModel):
     ratings_count_5: Optional[int]
 
 class WorkOverview(BaseModel):
+    work_key: str
     subjects: Optional[list[str]]
     people: Optional[list[str]]
     places: Optional[list[str]]
@@ -39,6 +42,8 @@ class WorkOverview(BaseModel):
 
 # - AUTHORS -
 class AuthorStatistics(BaseModel):
+    author_key: str
+
     top_work: Optional[str] = None
     work_count: Optional[int]
 
