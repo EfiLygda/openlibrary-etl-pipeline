@@ -19,7 +19,8 @@ from api.routers import (
     works,
     authors,
     editions,
-    search
+    search,
+    languages
 )
 
 # Load variables from the .env file to the environment
@@ -56,3 +57,4 @@ app.include_router(works.router)
 app.include_router(authors.router)
 app.include_router(editions.router)
 app.include_router(links.router)
+app.include_router(languages.router)
