@@ -32,6 +32,7 @@ from api.errors import SearchErrors
 from api.schemas.search import SearchWork
 from api.schemas.responses import SearchResponse
 
+from api.utils.query import build_query
 from api.utils.links import build_pagination_links
 from api.utils.metadata import build_search_meta
 
@@ -96,12 +97,9 @@ async def search(
     - **links**: pagination links for navigation
     """
 
-    # Fetch current request's path and parameters query
-    path_url = request.url.path
-    query_url = request.url.query
-
-    # Current query
-    query = f'{path_url}?{query_url}' if query_url else path_url
+    # Build the current query
+    # Like '{path_url}?{query_url}'
+    query = build_query(request)
 
     # Check if other params were given except 'q', 'limit', 'offset'
     # Parse url to components (here we need 'query' for parameters)
