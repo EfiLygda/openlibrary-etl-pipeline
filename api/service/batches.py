@@ -36,7 +36,7 @@ from api.schemas.entities.core import Work, Author, Edition
 
 from api.utils.links import build_pagination_links
 from api.utils.metadata import build_batch_meta
-from api.utils.parsing import parse_entity_keys
+from api.utils.parsing import parse_comma_separated_text
 from api.utils.query import build_query
 from api.utils.validation import validate_key, validate_parent_existance
 
@@ -122,7 +122,7 @@ def batch_service(
         raise BaseErrors.ListingNotSupported(query)
 
     # Split and strip key string
-    normalized_keys = parse_entity_keys(keys=key)
+    normalized_keys = parse_comma_separated_text(comma_separated_text=key)
 
     # For each key validate key type
     for normalized_key in normalized_keys:
