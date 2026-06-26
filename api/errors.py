@@ -93,6 +93,12 @@ class BaseErrors:
         description='Request contains invalid or missing input'
     )
 
+    NotFound = _APIErrorDefinition(
+        status_code=400,
+        error_code='NOT_FOUND',
+        description='Record not found'
+    )
+
 class WorksErrors:
     """
     Error definitions related to work entities
