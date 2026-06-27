@@ -155,7 +155,7 @@ This project leverages the following technologies across the ETL and API layers:
     six==1.17.0
     pytest==9.1.1
     httpx2==2.4.0
-
+    pycountry==26.2.16
 ---
 
 ## How to Run
