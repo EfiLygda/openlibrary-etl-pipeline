@@ -11,7 +11,7 @@ from config.paths import LIBRARY_RAW, LIBRARY_TABLES
 from utilities.io.json_io import save_json
 from utilities.logging import set_logger
 
-from library.simulators.sim_config import SEED, MAX_USERS
+from library.simulators.sim_config import SEED, MAX_USERS, END_DT, START_DT
 from library.simulators.utils.emails import generate_email
 
 # ---------------------------------------------------------------------------------------
@@ -57,7 +57,7 @@ def run():
 
             # Generate registration timestamp from before 3 years to now
             # using ISO-8601 format (i.e. "2026-06-29T14:32:10")
-            'timestamp': fake.date_time_between(start_date='-3y', end_date='now').isoformat(),
+            'timestamp': fake.date_time_between(start_date=START_DT, end_date=END_DT).isoformat(),
 
             # Generate whether the user is an active user or not
             # so that more users will be active by 3:1 proportion
