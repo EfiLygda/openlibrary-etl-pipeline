@@ -55,11 +55,11 @@ def run():
                 # Use edition key
                 'edition_key': edition_key,
 
-                # Generate copy status as 'AVAILABLE', 'BORROWED', 'LOST', 'DAMAGED', 'MAINTENANCE'
+                # Generate copy status as 'AVAILABLE', 'BORROWED', 'LOST', 'DAMAGED'
                 # with respective probabilities of choice
                 'status': np.random.choice(
-                    ['AVAILABLE', 'BORROWED', 'LOST', 'DAMAGED', 'MAINTENANCE'],
-                    p=[0.7, 0.2, 0.03, 0.03, 0.04]
+                    ['AVAILABLE', 'BORROWED', 'LOST', 'DAMAGED'],
+                    p=[0.7, 0.2, 0.05, 0.05]
                 ),
 
                 # Accusation of copy timestamp
