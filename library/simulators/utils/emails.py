@@ -3,9 +3,10 @@ Module for generating random emails
 """
 
 import random
+from library.simulators.sim_config import SEED
 
 # Seeding random functions for reproducible results
-random.seed(0)
+random.seed(SEED)
 
 # Email domain names to be used at random
 DOMAINS = [

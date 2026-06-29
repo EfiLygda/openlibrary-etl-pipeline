@@ -5,8 +5,11 @@ Configuration module for the simulations
 import numpy as np
 from utilities.database import db_connection, DB_NAME
 
+# --- Seed ---
+SEED = 0
+
 # --- Seeding numpy ---
-np.random.seed(0)
+np.random.seed(SEED)
 
 # ---------------------------------------------------------------------------------------
 # --- Set up Connection to Database ---
