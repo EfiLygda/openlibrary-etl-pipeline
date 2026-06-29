@@ -86,8 +86,11 @@ MAX_LIBRARIANS = np.random.randint(2, 15)
 # ---------------------------------------------------------------------------------------
 # --- Simulate number of borrowings ---
 
-# 500 <= BORROWINGS < 5000
-MAX_BORROWINGS = np.random.randint(500, 5000)
+# 5 <= MAX_BORROWINGS_PER_EDITION < 11
+MAX_BORROWINGS_PER_EDITION = np.random.randint(5, 11)
+
+# Maximum number of times that a user can renew a book borrowing
+MAX_BORROWING_RENEWALS = 1
 # ---------------------------------------------------------------------------------------
 
 # ---------------------------------------------------------------------------------------
