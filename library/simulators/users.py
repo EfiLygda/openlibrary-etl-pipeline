@@ -41,6 +41,10 @@ def run():
 
         # Simulate user record
         user = {
+
+            # User id is kept null as it will be updated later
+            'user_id': None,
+
             # Use generated first and last name
             'first_name': first_name,
             'last_name': last_name,
@@ -65,6 +69,10 @@ def run():
 
     # Order users by timestamp
     users_ordered = sorted(users, key=lambda u: u['timestamp'])
+
+    # Update user id
+    for i, user in enumerate(users_ordered):
+        user['user_id'] = i+1
 
     # Export raw records to json
     users_filename_json = 'users.json'

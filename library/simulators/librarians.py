@@ -41,6 +41,9 @@ def run():
         # Simulate librarian record
         librarian = {
 
+            # User id is kept null as it will be updated later
+            'librarian_id': None,
+
             # Use generated first and last name
             'first_name': first_name,
             'last_name': last_name,
@@ -58,6 +61,10 @@ def run():
 
     # Order librarians by timestamp
     librarians_ordered = sorted(librarians, key=lambda u: u['timestamp'])
+
+    # Update user id
+    for i, user in enumerate(librarians_ordered):
+        user['librarian_id'] = i+1
 
     # Export raw records to json
     librarians_filename_json = 'librarians.json'
