@@ -53,15 +53,15 @@ def run():
             'email': generate_email(first_name, last_name),
 
             # Generate passwords with max 10 characters
-            'password': fake.password(length=10),
+            # 'password': fake.password(length=10),
 
             # Generate registration timestamp from before 3 years to now
             # using ISO-8601 format (i.e. "2026-06-29T14:32:10")
             'timestamp': fake.date_time_between(start_date=START_DT, end_date=END_DT).isoformat(),
 
-            # Generate whether the user is an active user or not
-            # so that more users will be active by 3:1 proportion
-            'is_active': bool(np.random.choice([True, True, True, False]))
+            # # Generate whether the user is an active user or not
+            # # so that more users will be active by 3:1 proportion
+            # 'is_active': bool(np.random.choice([True, True, True, False]))
         }
 
         # Add user records to final list of users
@@ -72,7 +72,7 @@ def run():
 
     # Update user id
     for i, user in enumerate(users_ordered):
-        user['user_id'] = i+1
+        user['user_id'] = f'USR-{i+1}'
 
     # Export raw records to json
     users_filename_json = 'users.json'

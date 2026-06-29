@@ -19,7 +19,7 @@ DOMAINS = [
     'mail.com'
 ]
 
-def generate_email(first, last):
+def generate_email(first: str, last: str) -> str:
     """
     Function for generating emails by basing them to a full name
 

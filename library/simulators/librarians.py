@@ -64,7 +64,7 @@ def run():
 
     # Update user id
     for i, user in enumerate(librarians_ordered):
-        user['librarian_id'] = i+1
+        user['librarian_id'] = f'LIB-{i+1}'
 
     # Export raw records to json
     librarians_filename_json = 'librarians.json'
