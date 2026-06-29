@@ -11,7 +11,7 @@ from config.paths import LIBRARY_RAW, LIBRARY_TABLES
 from utilities.io.json_io import save_json
 from utilities.logging import set_logger
 
-from library.simulators.sim_config import SEED, COPIES
+from library.simulators.sim_config import SEED, COPIES, START_DT, END_DT
 
 # ---------------------------------------------------------------------------------------
 # Seeding numpy random for reproducible data
@@ -41,16 +41,19 @@ def run():
     # For each edition the previously simulated number of copies is used
     for edition_key, n_copies in COPIES.items():
 
+        # Current edition's copied
+        edition_copies = []
+
         # For each copy a record is simulated
         for i in range(1, n_copies+1):
 
             copy = {
 
+                # Copy id is kept null as it will be updated later
+                'copy_id': None,
+
                 # Use edition key
                 'edition_key': edition_key,
-
-                # Generate copy barcode (i.e. {edition_key}-00{copy_number } -> OL26338367M-001)
-                'barcode': f'{edition_key}-{i:03d}',
 
                 # Generate copy status as 'AVAILABLE', 'BORROWED', 'LOST', 'DAMAGED', 'MAINTENANCE'
                 # with respective probabilities of choice
@@ -59,15 +62,23 @@ def run():
                     p=[0.7, 0.2, 0.03, 0.03, 0.04]
                 ),
 
-                # Generate location of copy in the library ({section}{shelf})
-                'location': np.random.choice(["A1", "A2", "B1", "B2"]),
-
                 # Accusation of copy timestamp
-                'timestamp': fake.date_between(start_date="-5y", end_date="today").isoformat()
+                'timestamp': fake.date_time_between(start_date=START_DT, end_date=END_DT).isoformat()
             }
 
-            # Add copy record to final list of copies
-            copies.append(copy)
+            # Add copy record to final list of cureent edition's copies
+            edition_copies.append(copy)
+
+        # Copy current edition's keys by timestamp
+        edition_copies_ordered = sorted(edition_copies, key=lambda u: u['timestamp'])
+
+        # Add copy ids to ordered editions
+        for i, copy in enumerate(edition_copies_ordered):
+            # Generate copy id (i.e. {edition_key}-00{copy_number} -> OL26338367M-001)
+            copy['copy_id'] = f'{edition_key}-{i+1:03d}'
+
+        # Add copies to final list
+        copies += edition_copies_ordered
 
     # Order copies by timestamp
     copies_ordered = sorted(copies, key=lambda u: u['timestamp'])
