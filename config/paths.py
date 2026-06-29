@@ -5,6 +5,7 @@ Centralized project paths
 import os
 from config.openlibrary_api import GENRE_facet
 
+# ------------------------------------------------------------------------------------
 # Project directory
 ROOT_DIR = str(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
@@ -13,6 +14,10 @@ LOG_DIR = os.path.join(ROOT_DIR, 'logs')
 
 # Data directory
 DATA_DIR = os.path.join(ROOT_DIR, 'data')
+# ------------------------------------------------------------------------------------
+
+# ------------------------------------------------------------------------------------
+# --- Book dataset ---
 GENRE_DIR = os.path.join(DATA_DIR, GENRE_facet)
 
 # Raw JSON files directory root directory
@@ -36,3 +41,15 @@ SCHEMA_DIR = os.path.join(ROOT_DIR, 'database', 'schema')
 
 # Indexes directory
 INDEXES_DIR = os.path.join(ROOT_DIR, 'database', 'indexes')
+# ------------------------------------------------------------------------------------
+
+# ------------------------------------------------------------------------------------
+# --- Library dataset ---
+LIBRARY_DIR = os.path.join(DATA_DIR, 'library')
+
+# Raw library data directory (json)
+LIBRARY_RAW = os.path.join(LIBRARY_DIR, 'raw')
+
+# Library tables directory (csv)
+LIBRARY_TABLES = os.path.join(LIBRARY_DIR, 'tables')
+# ------------------------------------------------------------------------------------
