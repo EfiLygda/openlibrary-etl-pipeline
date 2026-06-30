@@ -10,7 +10,7 @@ from utilities.logging import config_logger, set_logger
 
 from library.simulators.users import run as users
 from library.simulators.librarians import run as librarians
-from library.simulators.edition_copies import run as copies
+from library.simulators.copies import run as copies
 from library.simulators.borrowings import run as borrowings
 
 # ----------------------------------------------------------------------------------
