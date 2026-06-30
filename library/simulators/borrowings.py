@@ -34,7 +34,7 @@ from utilities.io.csv_io import read_csv
 from utilities.io.json_io import save_json
 from utilities.logging import set_logger
 
-from library.simulators.sim_config import SEED, MAX_BORROWINGS_PER_EDITION, START_DT, END_DT
+from library.simulators.config import SEED, MAX_BORROWINGS_PER_EDITION, START_DT, END_DT
 
 # ---------------------------------------------------------------------------------------
 # Seeding for reproducible data
@@ -197,7 +197,7 @@ def run():
 
     # Update user id
     for i, borrowing in enumerate(borrowings_ordered):
-        borrowing['loan_id'] = i + 1
+        borrowing['loan_id'] = f'BR-{i + 1}'
 
     # Export raw records to json
     borrowings_filename_json = 'borrowings.json'

@@ -3,7 +3,7 @@ Module for generating random emails
 """
 
 import random
-from library.simulators.sim_config import SEED
+from library.simulators.config import SEED
 
 # Seeding random functions for reproducible results
 random.seed(SEED)

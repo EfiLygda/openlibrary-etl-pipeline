@@ -11,7 +11,7 @@ from config.paths import LIBRARY_RAW, LIBRARY_TABLES
 from utilities.io.json_io import save_json
 from utilities.logging import set_logger
 
-from library.simulators.sim_config import SEED, COPIES, START_DT, END_DT
+from library.simulators.config import SEED, COPIES, START_DT, END_DT
 
 # ---------------------------------------------------------------------------------------
 # Seeding numpy random for reproducible data
@@ -66,7 +66,7 @@ def run():
                 'timestamp': fake.date_time_between(start_date=START_DT, end_date=END_DT).isoformat()
             }
 
-            # Add copy record to final list of cureent edition's copies
+            # Add copy record to final list of current edition's copies
             edition_copies.append(copy)
 
         # Copy current edition's keys by timestamp
@@ -75,7 +75,7 @@ def run():
         # Add copy ids to ordered editions
         for i, copy in enumerate(edition_copies_ordered):
             # Generate copy id (i.e. {edition_key}-00{copy_number} -> OL26338367M-001)
-            copy['copy_id'] = f'{edition_key}-{i+1:03d}'
+            copy['copy_id'] = f'{edition_key}-C{i+1}'
 
         # Add copies to final list
         copies += edition_copies_ordered

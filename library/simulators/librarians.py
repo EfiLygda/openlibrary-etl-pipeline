@@ -10,7 +10,7 @@ from config.paths import LIBRARY_RAW, LIBRARY_TABLES
 from utilities.io.json_io import save_json
 from utilities.logging import set_logger
 
-from library.simulators.sim_config import SEED, MAX_LIBRARIANS, END_DT, START_DT
+from library.simulators.config import SEED, MAX_LIBRARIANS, END_DT, START_DT
 from library.simulators.utils.emails import generate_email
 
 # ---------------------------------------------------------------------------------------
