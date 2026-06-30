@@ -52,4 +52,7 @@ LIBRARY_RAW = os.path.join(LIBRARY_DIR, 'raw')
 
 # Library tables directory (csv)
 LIBRARY_TABLES = os.path.join(LIBRARY_DIR, 'tables')
+
+# Library tables directory (csv)
+LIBRARY_SCHEMA = os.path.join(ROOT_DIR, 'library',  'database', 'schema')
 # ------------------------------------------------------------------------------------
