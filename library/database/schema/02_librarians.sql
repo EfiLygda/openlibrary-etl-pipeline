@@ -1,7 +1,7 @@
 CREATE TABLE IF NOT EXISTS librarians (
-    librarian_id    TEXT PRIMARY KEY,
+    librarian_id    SERIAL PRIMARY KEY,
     first_name      TEXT,
     last_name       TEXT,
     email           TEXT UNIQUE,
-    registered_at   TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    registered_at   TIMESTAMP
 );
