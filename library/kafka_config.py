@@ -1,5 +1,5 @@
 """
-
+Configuration of Kafka via .env
 """
 
 import os
@@ -13,3 +13,4 @@ TOPIC = str(os.getenv('TOPIC'))
 BOOTSTRAP = str(os.getenv('BOOTSTRAP'))
 KAFKA_CONTAINER = str(os.getenv('KAFKA_CONTAINER'))
 KAFKA_TOPICS = str(os.getenv('KAFKA_TOPICS'))
+CONSUMER_GROUP_ID = str(os.getenv('CONSUMER_GROUP_ID'))
