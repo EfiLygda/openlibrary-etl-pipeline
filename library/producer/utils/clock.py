@@ -4,6 +4,7 @@ Clock used for producing event timestamps that simulate time passing in differen
 
 import time
 from datetime import datetime, timedelta
+from library.producer.config import START_DATE, END_DATE
 
 SIM_SPEED = 1 # 365 * 24 * 60 * 60  # 1 year per second
 
@@ -15,9 +16,13 @@ class SimClock:
     :param start: datetime.datetime
     """
 
-    def __init__(self, start: datetime):
+    def __init__(self, start: datetime = START_DATE, end: datetime = END_DATE):
+
         self.start_real = time.time()
+
         self.start_sim = start
+        self.end_sim = end
+
         self.speed = SIM_SPEED
 
     def now(self) -> datetime:
@@ -26,4 +31,10 @@ class SimClock:
         """
         elapsed_real = time.time() - self.start_real
         elapsed_sim = elapsed_real * self.speed
-        return self.start_sim + timedelta(seconds=elapsed_sim)
+
+        sim_time = self.start_sim + timedelta(seconds=elapsed_sim)
+
+        if sim_time < self.end_sim:
+            return sim_time
+        else:
+            raise ValueError('Simulation is done')

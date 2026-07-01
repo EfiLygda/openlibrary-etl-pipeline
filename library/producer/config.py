@@ -36,13 +36,14 @@ EDITION_KEYS = [records[0] for records in cursor.fetchall()]
 # ---------------------------------------------------------------------------------------
 
 # ---------------------------------------------------------------------------------------
-# --- Chosen starting and ending date of simulations ---
+# --- Simulated clock with speed ---
 
+# Starting and ending date of the clock
 START_DATE = datetime(2020, 1,1)
 END_DATE = datetime.now()
 
 # Setting up the simulated clock
-CLOCK = SimClock(START_DATE)
+CLOCK = SimClock(start=START_DATE, end=END_DATE)
 # ---------------------------------------------------------------------------------------
 
 # ---------------------------------------------------------------------------------------
