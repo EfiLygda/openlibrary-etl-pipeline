@@ -5,7 +5,7 @@ Clock used for producing event timestamps that simulate time passing in differen
 import time
 from datetime import datetime, timedelta
 
-SIM_SPEED = 1 # 365 * 24 * 60 * 60  # 1 year per second
+SIM_SPEED = 24 * 60 * 60 # 365 * 24 * 60 * 60  # 1 year per second
 
 class SimClock:
     """
