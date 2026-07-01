@@ -90,32 +90,10 @@ COPIES = {
 INITIAL_COPIES_PURCHASING_DEADLINE = START_DATE + timedelta(days=30)
 
 # --- Second month -> registering users ---
-START_USER_REGISTERING_DATE = START_DATE + timedelta(days=30)
+START_USER_REGISTRATIONS_DATE = START_DATE + timedelta(days=30)
 
 # --- Library Opening -> borrowing, reservations start ---
 LIBRARY_OPENING_DATE = START_DATE + timedelta(days=31)
-# ---------------------------------------------------------------------------------------
-
-# ---------------------------------------------------------------------------------------
-# --- Event weights definitions ---
-
-INITIAL_EVENT_WEIGHTS = {
-    'USER_REGISTERED': 0.35,
-    'COPY_PURCHASED': 0.30,
-    'BORROW': 0.15,
-    'RETURN': 0.10,
-    'RESERVE': 0.08,
-    'LIBRARIAN_HIRED': 0.02
-}
-
-FINAL_EVENT_WEIGHTS = {
-    'USER_REGISTERED': 0.03,
-    'COPY_PURCHASED': 0.08,
-    'BORROW': 0.52,
-    'RETURN': 0.30,
-    'RESERVE': 0.06,
-    'LIBRARIAN_HIRED': 0.01
-}
 # ---------------------------------------------------------------------------------------
 
 # ---------------------------------------------------------------------------------------
