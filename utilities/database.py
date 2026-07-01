@@ -7,6 +7,7 @@ a helper function for establishing database connections using psycopg2.
 
 import os
 import psycopg2
+from psycopg2.sql import SQL
 from dotenv import load_dotenv
 from typing import Generator
 
@@ -88,3 +89,52 @@ def get_column_names(cursor: psycopg2.extensions.cursor) -> list:
     """
 
     return [d[0] for d in cursor.description] if cursor.description else []
+
+def execute_query(
+        connection: psycopg2.extensions.connection,
+        query: str | None = None,
+        query_filepath: str | None = None,
+        params: dict | None = None,
+) -> tuple:
+    """
+    Helper function for executing queries via a connection
+
+    :param connection: psycopg2.extensions.connection, the connection object
+    :param query: str | None, the SQL query used
+    :param query_filepath: str | None, the path of the file with the SQL query
+        (either 'query' or 'query_filepath' should be used, if both are given then
+         only 'query' is used)
+    :param params: dict | None, dictionary with the parameters to be used in the query
+
+    :return: A tuple containing:
+
+        * `data` - list of matching records returned by the query
+        * `data_column_names` - column names corresponding to the records
+    """
+
+    # If a query filepath is given then the SQL file is read
+    # and used as the query
+    if query_filepath:
+        # Read SQL file
+        with open(query_filepath, encoding='utf-8', mode='r') as f:
+            query = f.read()
+
+    # --- Query the database ---
+    with connection.cursor() as cursor:
+
+        # Construct the query
+        query_to_execute = SQL(query)
+
+        # Execute the query
+        cursor.execute(
+            query=query_to_execute,
+            vars=params
+        )
+
+        # Fetch all records as returned
+        data = cursor.fetchall()
+
+        # Fetch column names as returned
+        data_column_names = get_column_names(cursor)
+
+    return data, data_column_names
