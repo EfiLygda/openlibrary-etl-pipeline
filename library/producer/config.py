@@ -3,7 +3,9 @@ Configuration module for the simulations
 """
 
 from datetime import datetime
+
 from utilities.database import db_connection, DB_NAME
+from library.producer.utils.clock import SimClock
 
 # ---------------------------------------------------------------------------------------
 # --- Chosen seed for reproducible results ---
@@ -38,6 +40,9 @@ EDITION_KEYS = [records[0] for records in cursor.fetchall()]
 
 START_DATE = datetime(2020, 1,1)
 END_DATE = datetime.now()
+
+# Setting up the simulated clock
+CLOCK = SimClock(START_DATE)
 # ---------------------------------------------------------------------------------------
 
 # ---------------------------------------------------------------------------------------

@@ -6,18 +6,14 @@ import numpy as np
 from faker import Faker
 from datetime import timedelta
 
-from library.producer.config import SEED, START_DATE, EDITION_KEYS
+from library.producer.config import SEED, EDITION_KEYS, CLOCK
 from library.producer.utils.emails import generate_email
-from library.producer.utils.clock import SimClock
 
 # Seeding faker for reproducible data
 Faker.seed(SEED)
 
 # Faker object for simulation
 fake = Faker()
-
-# Setting up the simulated clock
-CLOCK = SimClock(START_DATE)
 
 def user_registration() -> dict:
     """
