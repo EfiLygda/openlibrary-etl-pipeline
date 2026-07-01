@@ -6,7 +6,7 @@ import numpy as np
 from faker import Faker
 from datetime import timedelta
 
-from library.producer.config import SEED, EDITION_KEYS, CLOCK
+from library.producer.producer_config import SEED, EDITION_KEYS, CLOCK
 from library.producer.utils.emails import generate_email
 
 # Seeding faker for reproducible data

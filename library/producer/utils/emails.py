@@ -3,7 +3,7 @@ Module for generating random emails
 """
 
 import random
-from library.producer.config import SEED
+from library.producer.producer_config import SEED
 
 # Seeding random functions for reproducible results
 random.seed(SEED)
