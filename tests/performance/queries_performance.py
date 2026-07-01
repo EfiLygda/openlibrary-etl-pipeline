@@ -5,7 +5,7 @@ Script for extracting execution times from queries
 import os
 import re
 import pandas as pd
-from api.repository.database_adapter import execute_query
+from api.repository.database_adapter import fetch_records
 from utilities.database import DB_NAME, db_connection
 
 # Whether non-primary key indexes exist in the queries or not
@@ -83,7 +83,7 @@ for query_module in query_modules.keys():
             print(f'({i+1}/{max_reps}) Executing {query_filename}...', end='\r')
 
             # Execute the current query for maximum number of repetitions
-            data, column_names = execute_query(
+            data, column_names = fetch_records(
                 connection,
                 params=params,
                 query_module=query_module,

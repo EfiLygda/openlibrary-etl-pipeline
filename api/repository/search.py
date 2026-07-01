@@ -5,7 +5,7 @@ This module provides functions for querying the PostgreSQL database
 """
 
 import psycopg2
-from api.repository.database_adapter import execute_query
+from api.repository.database_adapter import fetch_records
 
 def search(
         connection: psycopg2.extensions.connection,
@@ -49,7 +49,7 @@ def search(
         params['offset'] = offset
 
     # Calculate total works before pagination
-    totals, _ = execute_query(
+    totals, _ = fetch_records(
         connection=connection,
         params=params,
         query_module='search',
@@ -57,7 +57,7 @@ def search(
     )
 
     # Fetch the records
-    work_data, work_column_names = execute_query(
+    work_data, work_column_names = fetch_records(
         connection=connection,
         params=params,
         query_module='search',

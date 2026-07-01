@@ -7,7 +7,7 @@ import psycopg2
 from psycopg2.sql import SQL
 
 from config import ROOT_DIR
-from utilities.database import get_column_names
+from utilities.database import get_column_names, execute_query
 
 def load_query(
         module: str,
@@ -42,7 +42,7 @@ def load_query(
 
     return query
 
-def execute_query(
+def fetch_records(
         connection: psycopg2.extensions.connection,
         params: dict,
         query_module: str,
@@ -71,22 +71,10 @@ def execute_query(
         performance=performance
     )
 
-    # --- Query the database ---
-    with connection.cursor() as cursor:
-
-        # Construct the query
-        query_to_execute = SQL(query)
-
-        # Execute the query
-        cursor.execute(
-            query=query_to_execute,
-            vars=params
-        )
-
-        # Fetch all records as returned
-        data = cursor.fetchall()
-
-        # Fetch column names as returned
-        data_column_names = get_column_names(cursor)
+    data, data_column_names = execute_query(
+        connection=connection,
+        query=query,
+        params=params
+    )
 
     return data, data_column_names

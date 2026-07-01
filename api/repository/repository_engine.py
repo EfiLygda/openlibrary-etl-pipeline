@@ -6,7 +6,7 @@ and parameter handling
 """
 
 import psycopg2
-from api.repository.database_adapter import execute_query
+from api.repository.database_adapter import fetch_records
 
 def _build_params(
         filter_key: str | list[str],
@@ -107,7 +107,7 @@ def execute_repository_queries(
     )
 
     # Fetch the records and the column names
-    records, column_names = execute_query(
+    records, column_names = fetch_records(
         connection=connection,
         params=params,
         query_module=query_module,
@@ -121,7 +121,7 @@ def execute_repository_queries(
         }
 
     # Calculate total parents (and children) before pagination
-    totals, _ = execute_query(
+    totals, _ = fetch_records(
         connection=connection,
         params=params,
         query_module=query_module,
