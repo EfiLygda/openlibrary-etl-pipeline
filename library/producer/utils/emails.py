@@ -29,12 +29,20 @@ def generate_email(first: str, last: str) -> str:
     :return: str, the email based on the full name
     """
 
+    first_name_n_chars = random.randint(0, len(first)-1)
+    last_name_n_chars = random.randint(0, len(last)-1)
+
     # Different email patterns
     patterns = [
         lambda f, l: f'{f.lower()}.{l.lower()}',
-        lambda f, l: f'{f[0].lower()}{l.lower()}',
+
+        lambda f, l: f'{f[first_name_n_chars].lower()}{l.lower()}',
+        lambda f, l: f'{f.lower()}.{l[last_name_n_chars].lower()}',
+        lambda f, l: f'{f[first_name_n_chars].lower()}.{l[last_name_n_chars].lower()}',
+
         lambda f, l: f'{f.lower()}{random.randint(1, 999)}',
-        lambda f, l: f'{f.lower()}.{l[0].lower()}',
+        lambda f, l: f'{l.lower()}{random.randint(1, 999)}',
+        lambda f, l: f'{f.lower()}{l.lower()}{random.randint(1, 999)}',
     ]
 
     # Choosing a random email pattern and passing the first and last name
