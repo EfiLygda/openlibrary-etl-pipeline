@@ -45,6 +45,11 @@ INDEXES_DIR = os.path.join(ROOT_DIR, 'database', 'indexes')
 
 # ------------------------------------------------------------------------------------
 # --- Library dataset ---
+
+# Library Root directory
+LIBRARY_ROOT = os.path.join(ROOT_DIR, 'library')
+
+# Library data directory
 LIBRARY_DIR = os.path.join(DATA_DIR, 'library')
 
 # Raw library data directory (json)
