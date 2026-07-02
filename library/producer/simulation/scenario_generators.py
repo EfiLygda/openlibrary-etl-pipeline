@@ -2,11 +2,11 @@
 Module containing all simulated events
 """
 
-import numpy as np
 from faker import Faker
 from datetime import timedelta
 
-from library.producer.producer_config import SEED, EDITION_KEYS, CLOCK
+from library.service.redis.service import RedisClient
+from library.producer.producer_config import SEED, CLOCK
 from library.producer.utils.emails import generate_email
 
 # Seeding faker for reproducible data
@@ -14,6 +14,9 @@ Faker.seed(SEED)
 
 # Faker object for simulation
 fake = Faker()
+
+# Redis client
+redis_client = RedisClient()
 
 def user_registration() -> dict:
     """
@@ -61,7 +64,7 @@ def copy_purchased() -> dict:
     """
 
     # Choose a random edition for purchasing a copy
-    edition_key = np.random.choice(EDITION_KEYS)
+    edition_key = redis_client.random_from_set('set:edition_keys')
 
     return {
         # Use edition key

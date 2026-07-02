@@ -19,7 +19,7 @@ from library.producer.producer_config import (
     LIBRARY_OPENING_DATE
 )
 
-from library.producer.scenario_generators import (
+from library.producer.simulation.scenario_generators import (
     user_registration,
     librarian_hired,
     copy_purchased,
@@ -29,7 +29,7 @@ from library.producer.scenario_generators import (
 )
 
 # Path for SQL commands used for generating data
-sql_dir = os.path.join(LIBRARY_ROOT, 'producer', 'sql')
+sql_dir = os.path.join(LIBRARY_ROOT, 'producer', '../sql')
 
 # Mapping event names to their respective generation functions
 EVENT_GENERATION_MAPPINGS = {
