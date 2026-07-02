@@ -1,9 +1,8 @@
 """
-
+Module with the library's event handlers
 """
 
 import os
-
 import psycopg2
 
 from config.paths import LIBRARY_ROOT
@@ -13,11 +12,18 @@ from utilities import execute_query
 SQL_DIR = os.path.join(LIBRARY_ROOT, 'consumer', 'sql')
 
 def handle_librarian_hired(
-        connection: psycopg2.extensions.connection ,
+        connection: psycopg2.extensions.connection,
         event: dict
 ) -> tuple:
     """
+    Inserts new hired librarian record to the 'librarians' table
 
+    :param connection: psycopg2.extensions.connection, the connection used for inserting the new record
+    :param event: dict, the event/dictionary used
+
+    :return: tuple, the tuple containing:
+        * `data` - list of matching records returned by the query
+        * `data_column_names` - column names corresponding to the records
     """
 
     # Setting up the loading query
@@ -40,7 +46,14 @@ def handle_user_registered(
         event: dict
 ) -> tuple:
     """
+    Inserts new registered user record to the 'users' table
 
+    :param connection: psycopg2.extensions.connection, the connection used for inserting the new record
+    :param event: dict, the event/dictionary used
+
+    :return: tuple, the tuple containing:
+        * `data` - list of matching records returned by the query
+        * `data_column_names` - column names corresponding to the records
     """
 
     # Setting up the loading query
@@ -63,7 +76,14 @@ def handle_copy_purchased(
         event: dict
 ) -> tuple:
     """
+    Inserts new purchased copy record to the 'copies' table
 
+    :param connection: psycopg2.extensions.connection, the connection used for inserting the new record
+    :param event: dict, the event/dictionary used
+
+    :return: tuple, the tuple containing:
+        * `data` - list of matching records returned by the query
+        * `data_column_names` - column names corresponding to the records
     """
 
     # Setting up the loading query
