@@ -99,14 +99,3 @@ def handle_copy_purchased(
             'registered_at': event['timestamp'],
         }
     )
-
-
-HANDLERS = {
-    'LIBRARIAN_HIRED': handle_librarian_hired,
-    'USER_REGISTERED': handle_user_registered,
-    'COPY_PURCHASED': handle_copy_purchased,
-
-    # 'BORROW': handle_borrow,
-    # 'RETURN': handle_return,
-    # 'RESERVE': handle_reserve,
-}
