@@ -1,5 +1,23 @@
 """
 Contains simple Redis wrapper used for counters and sets in the library system
+
+Redis naming conventions:
+* Global IDs' Pools
+    - users (SET) - runtime user ids
+    - librarians (SET) - runtime librarian ids
+    - copies (SET) - runtime copy ids
+
+* Maximum Allowable Values
+    - users:max (INT) - max users to register
+    - librarians:max (INT) - max librarians to hire
+    - editions:max_copies (HASH)
+        field: (STR) edition_key
+        value: (INT) max allowed copies to purchase for edition_key
+
+* Runtime Counters
+    - counter:users (INCR) - counting current registered users
+    - counter:librarians (INCR) - counting current hired librarians
+    - counter:edition:{edition_key}:copies (INCR) - counting current edition's copies purchased
 """
 
 import redis
@@ -30,6 +48,13 @@ class RedisClient:
         """
         self.redis.flushdb()
 
+    @staticmethod
+    def build_redis_key(*key_parts: str):
+        """
+        Helper method for building a Redis key
+        """
+        return ':'.join(key_parts)
+
     def increment_counter(self, name: str) -> int | Awaitable[int]:
         """
         Increment a Redis counter for the given name
@@ -38,7 +63,7 @@ class RedisClient:
         :return: int, the updated counter value
         """
 
-        return self.redis.incr(f'count:{name}')
+        return self.redis.incr(name)
 
     def get_counter(self, name: str) -> int:
         """
@@ -47,8 +72,7 @@ class RedisClient:
         :param name: str, name of the counter (e.g. `users`, `librarians`, `edition:OL123M`)
         :return: int, counter value (0 if missing)
         """
-
-        return int(self.redis.get(f'count:{name}') or 0)
+        return int(self.redis.get(name) or 0)
 
     def add_to_set(self, name: str, *values):
         """
@@ -59,7 +83,7 @@ class RedisClient:
         :return: int, number of elements added (0 or 1)
         """
 
-        return self.redis.sadd(f'set:{name}', *values)
+        return self.redis.sadd(name, *values)
 
     def get_set(self, name: str) -> set:
         """
@@ -69,7 +93,7 @@ class RedisClient:
         :return: set[str], Set of stored values
         """
 
-        return self.redis.smembers(f'set:{name}')
+        return self.redis.smembers(name)
 
     def get_random_from_set(self, name: str) -> bytes | str | list[bytes | str] | None:
         """
@@ -79,7 +103,7 @@ class RedisClient:
         :return: str, the random value
         """
 
-        return self.redis.srandmember(f'set:{name}')
+        return self.redis.srandmember(name)
 
     def add_hash(self, name: str, mapping: dict) -> int:
         """
@@ -91,7 +115,7 @@ class RedisClient:
         :return: int, the number of fields that were added
         """
 
-        return self.redis.hset(f'hash:{name}', mapping=mapping)
+        return self.redis.hset(name, mapping=mapping)
 
     def get_from_hash(self, name: str, key: str) -> bytes | str | None:
         """
@@ -103,4 +127,4 @@ class RedisClient:
         :return: bytes | str | None, the wanted value
         """
 
-        return self.redis.hget(f'hash:{name}', key=key)
+        return self.redis.hget(name, key=key)
