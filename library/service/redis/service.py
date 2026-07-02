@@ -49,16 +49,16 @@ class RedisClient:
 
         return int(self.redis.get(f'count:{entity}') or 0)
 
-    def add_to_set(self, entity: str, value: str | int):
+    def add_to_set(self, entity: str, *values):
         """
         Add a value to a Redis set
 
         :param entity: str, name of the set (e.g. `users`, `librarians`)
-        :param value: str | int, value to add to the set
+        :param values: values to add to the set
         :return: int, number of elements added (0 or 1)
         """
 
-        return self.redis.sadd(f'set:{entity}', value)
+        return self.redis.sadd(f'set:{entity}', *values)
 
     def get_set(self, entity: str) -> set:
         """
@@ -69,3 +69,13 @@ class RedisClient:
         """
 
         return self.redis.smembers(f'set:{entity}')
+
+    def random_from_set(self, entity: str) -> str:
+        """
+        Retrieve a random member from a Redis set
+
+        :param entity: str, name of the set used
+        :return: str, the random value
+        """
+
+        return str(self.redis.srandmember(f'set:{entity}'))
