@@ -3,6 +3,7 @@ Contains simple Redis wrapper used for counters and sets in the library system
 
 Redis naming conventions:
 * Global IDs' Pools
+    - editions (SET) - all edition keys available in the database
     - users (SET) - runtime user ids
     - librarians (SET) - runtime librarian ids
     - copies (SET) - runtime copy ids
@@ -55,7 +56,7 @@ class RedisClient:
         """
         return ':'.join(key_parts)
 
-    def set(self, name: str, value: int | str) -> bool | str | bytes | None:
+    def set_value(self, name: str, value: int | str) -> bool | str | bytes | None:
         """
         Set a ``value`` to key ``name``
 
@@ -64,7 +65,6 @@ class RedisClient:
 
         :return: bool | str | bytes | None, whether the value was set or not
         """
-
         return self.redis.set(name, value)
 
     def increment_counter(self, name: str) -> int | Awaitable[int]:
@@ -74,7 +74,6 @@ class RedisClient:
         :param name: str, name of the counter
         :return: int, the updated counter value
         """
-
         return self.redis.incr(name)
 
     def get_counter(self, name: str) -> int:
@@ -94,17 +93,15 @@ class RedisClient:
         :param values: values to add to the set
         :return: int, number of elements added (0 or 1)
         """
-
         return self.redis.sadd(name, *values)
 
-    def get_set(self, name: str) -> set:
+    def get_set(self, name: str) -> set_value:
         """
         Retrieve all members of a Redis set
 
         :param name: str, name of the set used
         :return: set[str], Set of stored values
         """
-
         return self.redis.smembers(name)
 
     def get_random_from_set(self, name: str) -> bytes | str | list[bytes | str] | None:
@@ -114,7 +111,6 @@ class RedisClient:
         :param name: str, name of the set used
         :return: str, the random value
         """
-
         return self.redis.srandmember(name)
 
     def add_hash(self, name: str, mapping: dict) -> int:
@@ -126,7 +122,6 @@ class RedisClient:
 
         :return: int, the number of fields that were added
         """
-
         return self.redis.hset(name, mapping=mapping)
 
     def get_from_hash(self, name: str, key: str) -> bytes | str | None:
@@ -138,5 +133,4 @@ class RedisClient:
 
         :return: bytes | str | None, the wanted value
         """
-
         return self.redis.hget(name, key=key)
