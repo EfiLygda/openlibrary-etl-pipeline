@@ -33,7 +33,7 @@ class RedisClient:
         """
         Increment a Redis counter for the given entity
 
-        :param entity: str, name of the counter (e.g. `users`, `librarians`)
+        :param entity: str, name of the counter (e.g. `users`, `librarians`, `edition:OL123M`)
         :return: int, the updated counter value
         """
 
@@ -43,7 +43,7 @@ class RedisClient:
         """
         Get the value of a Redis counter
 
-        :param entity: str, name of the counter
+        :param entity: str, name of the counter (e.g. `users`, `librarians`, `edition:OL123M`)
         :return: int, counter value (0 if missing)
         """
 
@@ -53,7 +53,7 @@ class RedisClient:
         """
         Add a value to a Redis set
 
-        :param entity: str, name of the set
+        :param entity: str, name of the set (e.g. `users`, `librarians`)
         :param value: str | int, value to add to the set
         :return: int, number of elements added (0 or 1)
         """
