@@ -12,7 +12,7 @@ from utilities import execute_query
 # Path for SQL commands used for generating data
 SQL_DIR = os.path.join(LIBRARY_ROOT, 'consumer', 'sql')
 
-def librarian_hired(
+def handle_librarian_hired(
         connection: psycopg2.extensions.connection ,
         event: dict
 ) -> tuple:
@@ -35,3 +35,25 @@ def librarian_hired(
         }
     )
 
+def handle_user_registered(
+        connection: psycopg2.extensions.connection ,
+        event: dict
+) -> tuple:
+    """
+
+    """
+
+    # Setting up the loading query
+    query_filepath = os.path.join(SQL_DIR, 'insert_user.sql')
+
+    # Execute the query
+    return execute_query(
+        connection=connection,
+        query_filepath=query_filepath,
+        params={
+            'first_name': event['data']['first_name'],
+            'last_name': event['data']['last_name'],
+            'email': event['data']['email'],
+            'registered_at': event['timestamp'],
+        }
+    )
