@@ -29,7 +29,7 @@ from library.producer.events import (
 )
 
 # Path for SQL commands used for generating data
-SQL_DIR = os.path.join(LIBRARY_ROOT, 'producer', 'sql')
+sql_dir = os.path.join(LIBRARY_ROOT, 'producer', 'sql')
 
 # Mapping event names to their respective generation functions
 EVENT_GENERATION_MAPPINGS = {
@@ -118,13 +118,13 @@ def generate_event(
         # Fetch random user from the database
         user_data, _ = execute_query(
             connection=connection,
-            query_filepath=os.path.join(SQL_DIR, 'random_user_id.sql')
+            query_filepath=os.path.join(sql_dir, 'random_user_id.sql')
         )
 
         # Fetch random copy from the database
         copy_data, _ = execute_query(
             connection=connection,
-            query_filepath=os.path.join(SQL_DIR, 'random_copy_id.sql')
+            query_filepath=os.path.join(sql_dir, 'random_copy_id.sql')
         )
 
         # If a user's data and a copy's data were available then generate
