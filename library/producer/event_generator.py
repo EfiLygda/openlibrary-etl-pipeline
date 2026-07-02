@@ -19,7 +19,7 @@ from library.producer.producer_config import (
     LIBRARY_OPENING_DATE
 )
 
-from library.producer.events import (
+from library.producer.scenario_generators import (
     user_registration,
     librarian_hired,
     copy_purchased,
