@@ -8,10 +8,16 @@ from utilities import execute_query
 from utilities.database import db_connection, DB_NAME
 from library.producer.producer_config import *
 
-
 def build_context() -> dict:
     """
     Function for building the simulation world once
+
+    :return: dict, dictionary with:
+        * ``edition_keys`` - list with all edition keys available in the database
+        * ``max_copies_per_edition`` - dictionary with all edition keys and their max copies in
+            the simulation
+        * ``max_users`` - the maximum number of users to be registered
+        * ``max_librarians`` - the maximum number of librarians to be hired
     """
     # -----------------------------------------------------------
     # --- Load Editions ---
