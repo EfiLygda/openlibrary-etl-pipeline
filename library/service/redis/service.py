@@ -55,11 +55,23 @@ class RedisClient:
         """
         return ':'.join(key_parts)
 
+    def set(self, name: str, value: int | str) -> bool | str | bytes | None:
+        """
+        Set a ``value`` to key ``name``
+
+        :param name: str, name of the variable
+        :param value: str, value of the variable
+
+        :return: bool | str | bytes | None, whether the value was set or not
+        """
+
+        return self.redis.set(name, value)
+
     def increment_counter(self, name: str) -> int | Awaitable[int]:
         """
         Increment a Redis counter for the given name
 
-        :param name: str, name of the counter (e.g. `users`, `librarians`, `edition:OL123M`)
+        :param name: str, name of the counter
         :return: int, the updated counter value
         """
 
@@ -69,7 +81,7 @@ class RedisClient:
         """
         Get the value of a Redis counter
 
-        :param name: str, name of the counter (e.g. `users`, `librarians`, `edition:OL123M`)
+        :param name: str, name of the counter
         :return: int, counter value (0 if missing)
         """
         return int(self.redis.get(name) or 0)
@@ -78,7 +90,7 @@ class RedisClient:
         """
         Add a value to a Redis set
 
-        :param name: str, name of the set (e.g. `users`, `librarians`)
+        :param name: str, name of the set
         :param values: values to add to the set
         :return: int, number of elements added (0 or 1)
         """
