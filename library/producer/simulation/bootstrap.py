@@ -44,8 +44,8 @@ def build_context() -> dict:
     # --- Copies Counts Simulation ---
     # Simulate total copies via Poisson distribution with expected
     # number of copies 2.8 (over 2 and close to 3 copies per edition)
-    POISSON_LAMBDA = 2.8
-    copies_counts = np.random.poisson(lam=POISSON_LAMBDA, size=num_editions)
+    poisson_lambda = 2.8
+    copies_counts = np.random.poisson(lam=poisson_lambda, size=num_editions)
 
     # Clip number of copies over a certain number
     copies_counts = np.clip(copies_counts, COPIES_PER_EDITION_RANGE[0], COPIES_PER_EDITION_RANGE[1])
