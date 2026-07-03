@@ -19,8 +19,11 @@ Redis naming conventions:
     - counter:edition:{edition_key}:copies (INCR) - counting current edition's copies purchased
 """
 
-import redis
 from typing import Awaitable
+
+import redis
+from redis.client import Pipeline
+
 from library.service.redis.config import REDIS_HOST, REDIS_PORT
 
 class RedisClient:
@@ -48,11 +51,19 @@ class RedisClient:
         self.redis.flushdb()
 
     @staticmethod
-    def build_redis_key(*key_parts: str):
+    def build_redis_key(*key_parts: str) -> str:
         """
         Helper method for building a Redis key
+
+        :return: str, the redis key
         """
         return ':'.join(key_parts)
+
+    def pipeline(self) -> Pipeline:
+        """
+        Redis pipeline for queuing multiple commands for later execution
+        """
+        return self.redis.pipeline()
 
     def set_value(self, name: str, value: int | str) -> bool | str | bytes | None:
         """
@@ -93,7 +104,7 @@ class RedisClient:
         """
         return int(self.redis.get(name) or 0)
 
-    def add_to_set(self, name: str, *values):
+    def add_to_set(self, name: str, *values) -> int:
         """
         Add a value to a Redis set
 
@@ -103,7 +114,7 @@ class RedisClient:
         """
         return self.redis.sadd(name, *values)
 
-    def get_set(self, name: str) -> set_value:
+    def get_set(self, name: str) -> set:
         """
         Retrieve all members of a Redis set
 
