@@ -22,9 +22,12 @@ def reject_event(
     # Save current event's type
     event_type = event['event_type']
 
+    # Fetch event spec
+    event_spec = EVENTS[event_type]
+
     # Get the current event's counter and max allowable name for Redis
-    counter_name = EVENTS[event_type].counter_name(event)
-    max_allowable_name = EVENTS[event_type].max_allowable_name(event)
+    counter_name = event_spec.counter_name(event)
+    max_allowable_name = event_spec.max_allowable_name(event)
 
     # Get the current event's counter and max_allowable values
     counter_value = redis_client.get_counter(counter_name)
