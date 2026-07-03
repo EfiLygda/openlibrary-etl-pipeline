@@ -112,33 +112,9 @@ def generate_event(
         data = EVENT_GENERATION_MAPPINGS[event_type]()
 
     # If the event type is 'BORROW' then additional data are needed and
-    # randomly fetched from the database
+    # randomly fetched from the database - placeholder
     elif event_type == 'BORROW':
-
-        # Fetch random user from the database
-        user_data, _ = execute_query(
-            connection=connection,
-            query_filepath=os.path.join(sql_dir, 'random_user_id.sql')
-        )
-
-        # Fetch random copy from the database
-        copy_data, _ = execute_query(
-            connection=connection,
-            query_filepath=os.path.join(sql_dir, 'random_copy_id.sql')
-        )
-
-        # If a user's data and a copy's data were available then generate
-        # the events data
-        if user_data and copy_data:
-
-            data = borrow(
-                user_id=user_data[0][0],
-                copy_id=copy_data[0][0],
-            )
-
-        # Else return null data
-        else:
-            data = None
+        data = None
 
     # Placeholder
     else:
