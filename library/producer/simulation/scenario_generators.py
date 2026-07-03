@@ -64,7 +64,7 @@ def copy_purchased() -> dict:
     """
 
     # Choose a random edition for purchasing a copy
-    edition_key = redis_client.random_from_set('set:edition_keys')
+    edition_key = redis_client.get_random_from_set('editions')
 
     return {
         # Use edition key
