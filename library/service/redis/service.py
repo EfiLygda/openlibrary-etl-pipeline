@@ -9,11 +9,9 @@ Redis naming conventions:
     - copies (SET) - runtime copy ids
 
 * Maximum Allowable Values
-    - users:max (INT) - max users to register
-    - librarians:max (INT) - max librarians to hire
-    - editions:max_copies (HASH)
-        field: (STR) edition_key
-        value: (INT) max allowed copies to purchase for edition_key
+    - max:users (INT) - max users to register
+    - max:librarians (INT) - max librarians to hire
+    - max:edition:{edition_key}:copies (INT) - max copies for current edition_key
 
 * Runtime Counters
     - counter:users (INCR) - counting current registered users
@@ -66,6 +64,16 @@ class RedisClient:
         :return: bool | str | bytes | None, whether the value was set or not
         """
         return self.redis.set(name, value)
+
+    def get_value(self, name: str) -> bytes | str | None:
+        """
+        Get a ``value`` from a key ``name``
+
+        :param name: str, name of the variable
+
+        :return: bytes | str | None, the value as str or None if it doesn't exist
+        """
+        return self.redis.get(name)
 
     def increment_counter(self, name: str) -> int | Awaitable[int]:
         """
