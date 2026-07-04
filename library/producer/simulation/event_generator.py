@@ -15,7 +15,6 @@ from utilities.database import execute_query
 from library.producer.producer_config import (
     CLOCK,
     LIBRARIANS_HIRINGS_DEADLINE,
-    INITIAL_COPIES_PURCHASING_DEADLINE,
     LIBRARY_OPENING_DATE
 )
 
