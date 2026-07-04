@@ -48,6 +48,12 @@ class RedisClient:
             decode_responses=True  # Returns strings instead of bytes
         )
 
+    def close(self) -> None:
+        """
+        Close the client connection
+        """
+        self.redis.close()
+
     def flush_database(self) -> None:
         """
         Delete all keys in the current Redis database
