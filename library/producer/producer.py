@@ -46,7 +46,7 @@ producer = KafkaProducer(
 simulation_context = build_context()
 
 # Add simulation context to Redis
-redis_client.add_to_set('editions', *simulation_context['edition_keys'])
+redis_client.add_to_set('editions:keys', *simulation_context['edition_keys'])
 redis_client.set_value('max:users', simulation_context['max_users'])
 redis_client.set_value('max:librarians', simulation_context['max_librarians'])
 
@@ -73,7 +73,7 @@ with redis_client.pipeline() as pipe:
 while True:
 
     # Generate an event
-    event = generate_event(connection=connection)
+    event = generate_event(redis_client=redis_client)
 
     # If the event's timestamp is over the end date of the simulation
     # then the simulation stops
