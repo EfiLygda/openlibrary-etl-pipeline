@@ -8,6 +8,11 @@ import psycopg2
 from config.paths import LIBRARY_ROOT
 from utilities import execute_query
 
+from library.service.redis.service import RedisClient
+
+# Redis client
+redis_client = RedisClient()
+
 # Path for SQL commands used for generating data
 SQL_DIR = os.path.join(LIBRARY_ROOT, 'consumer', 'sql')
 
@@ -29,7 +34,10 @@ def handle_librarian_hired(
     """
     
     # Generate new librarian ID
-    event['data']['librarian_id'] = f'LB-{counter}'
+    new_librarian_id = f'LB-{counter}'
+
+    # Add new ID to Redis set to be used later
+    redis_client.add_to_set('librarians', new_librarian_id)
 
     # Setting up the loading query
     query_filepath = os.path.join(SQL_DIR, 'insert_librarian.sql')
@@ -39,7 +47,7 @@ def handle_librarian_hired(
         connection=connection,
         query_filepath=query_filepath,
         params={
-            'librarian_id': event['data']['librarian_id'],
+            'librarian_id': new_librarian_id,
             'first_name': event['data']['first_name'],
             'last_name': event['data']['last_name'],
             'email': event['data']['email'],
@@ -65,7 +73,10 @@ def handle_user_registered(
     """
 
     # Generate new user ID
-    event['data']['user_id'] = f'USR-{counter}'
+    new_user_id = f'USR-{counter}'
+
+    # Add new ID to Redis set to be used later
+    redis_client.add_to_set('users', new_user_id)
 
     # Setting up the loading query
     query_filepath = os.path.join(SQL_DIR, 'insert_user.sql')
@@ -75,7 +86,7 @@ def handle_user_registered(
         connection=connection,
         query_filepath=query_filepath,
         params={
-            'user_id': event['data']['user_id'],
+            'user_id': new_user_id,
             'first_name': event['data']['first_name'],
             'last_name': event['data']['last_name'],
             'email': event['data']['email'],
@@ -101,7 +112,10 @@ def handle_copy_purchased(
     """
 
     # Generate new copy ID
-    event['data']['copy_id'] = f'{event['data']['edition_key']}-{counter}'
+    new_copy_id = f'{event['data']['edition_key']}-{counter}'
+
+    # Add new ID to Redis set to be used later
+    redis_client.add_to_set('copies', new_copy_id)
 
     # Setting up the loading query
     query_filepath = os.path.join(SQL_DIR, 'insert_copy.sql')
@@ -111,7 +125,7 @@ def handle_copy_purchased(
         connection=connection,
         query_filepath=query_filepath,
         params={
-            'copy_id': event['data']['copy_id'],
+            'copy_id': new_copy_id,
             'edition_key': event['data']['edition_key'],
             'status': 'AVAILABLE',
             'registered_at': event['timestamp'],
