@@ -7,11 +7,15 @@ import json
 
 from kafka import KafkaConsumer
 
-from library.service.redis.service import RedisClient
 from utilities.database import db_connection, DB_NAME
 
+from library.core.registry import EVENTS
+from library.core.validation import reject_event
+
+from library.service.redis.service import RedisClient
 from library.service.kafka.config import TOPIC, BOOTSTRAP, CONSUMER_GROUP_ID, AUTO_OFFSET_RESET
-from library.consumer.handlers import HANDLERS
+
+from library.consumer.handlers import handle_event
 
 # Establish database connection
 connection = db_connection(database=DB_NAME)
@@ -36,13 +40,30 @@ for msg in consumer:
     # Save the event's message
     event = msg.value
 
-    # Print basic event metadata
-    print("EVENT RECEIVED:")
-    print(event["event_type"], event["data"], event['timestamp'])
+    # Reject the event, if needed, else display it
+    if reject_event(redis_client, event):
+        continue
+    else:
+        # Print basic event metadata
+        print("EVENT RECEIVED:")
+        print(event["event_type"], event["data"], event['timestamp'])
 
     # Save event type
     event_type = event['event_type']
 
+    # Fetch event spec
+    event_spec = EVENTS[event_type]
+
+    # Get the current event's counter for Redis
+    counter_name = event_spec.counter_name(event)
+
+    # Increment event counter
+    redis_client.increment_counter(counter_name)
+
     # TODO: add bulk loading of db at end of day
-    if event_type in HANDLERS.keys():
-        HANDLERS[event_type](connection=connection, event=event)
+    # If current event type can be handled then use the proper
+    # handler and load data to database
+    data, _ = handle_event(
+        connection=connection,
+        event=event
+    )
