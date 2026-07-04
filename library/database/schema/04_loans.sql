@@ -1,7 +1,7 @@
 CREATE TABLE IF NOT EXISTS loans (
-    loan_id        SERIAL PRIMARY KEY,
-    user_id        SERIAL NOT NULL,
-    copy_id        SERIAL NOT NULL,
+    loan_id        TEXT PRIMARY KEY,
+    user_id        TEXT NOT NULL,
+    copy_id        TEXT NOT NULL,
 
     borrow_date    TIMESTAMP,
     due_date       TIMESTAMP,
@@ -9,7 +9,7 @@ CREATE TABLE IF NOT EXISTS loans (
 
     renewal_count  INTEGER DEFAULT 0,
     status         TEXT,
-    processed_by   INT,
+    processed_by   TEXT,
 
     CONSTRAINT fk_loans_user_id
         FOREIGN KEY (user_id)
