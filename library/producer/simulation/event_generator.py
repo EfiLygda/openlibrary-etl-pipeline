@@ -7,10 +7,7 @@ import uuid
 import numpy as np
 from datetime import datetime
 
-import psycopg2
-
 from config.paths import LIBRARY_ROOT
-from utilities.database import execute_query
 
 from library.producer.producer_config import (
     CLOCK,
@@ -26,6 +23,7 @@ from library.producer.simulation.scenario_generators import (
     return_,
     reservation
 )
+from library.service.redis.service import RedisClient
 
 # Path for SQL commands used for generating data
 sql_dir = os.path.join(LIBRARY_ROOT, 'producer', '../sql')
@@ -36,14 +34,19 @@ EVENT_GENERATION_MAPPINGS = {
     'LIBRARIAN_HIRED': librarian_hired,
     'COPY_PURCHASED': copy_purchased,
     'BORROW': borrow,
-    'RETURN': return_,
-    'RESERVE': reservation,
+    # 'RETURN': return_,
+    # 'RESERVE': reservation,
 }
 
-def get_event_weights_by_timeline(timestamp: datetime) -> dict:
+def get_event_weights_by_timeline(
+        redis_client: RedisClient,
+        timestamp: datetime
+) -> dict:
     """
     Builds the right weight dictionary considering the timestamps in the library timeline context
 
+    :param redis_client: RedisClient, the redis client used to fetch counters
+        and configuration values
     :param timestamp: datetime.datetime, the timestamp used
 
     :return: dict, dictionary with keys the proper events in the timeline and their
@@ -55,31 +58,63 @@ def get_event_weights_by_timeline(timestamp: datetime) -> dict:
             'LIBRARIAN_HIRED': 0.6,
             'COPY_PURCHASED': 0.4,
         }
-    elif LIBRARIANS_HIRINGS_DEADLINE <= timestamp < LIBRARY_OPENING_DATE:
+
+    if timestamp < LIBRARY_OPENING_DATE:
         return {
             'COPY_PURCHASED': 0.3,
             'USER_REGISTERED': 0.7
         }
-    elif timestamp >= LIBRARY_OPENING_DATE:
-        return {
-            'USER_REGISTERED': 0.03,
-            'COPY_PURCHASED': 0.08,
-            'BORROW': 0.52,
-            'RETURN': 0.30,
-            'RESERVE': 0.06,
-            'LIBRARIAN_HIRED': 0.01
-        }
-    else:
-        raise ValueError('No event is set up for this date')
 
-def generate_event(
-        connection: psycopg2.extensions.connection
-) -> dict:
+    has_available_copies = len(redis_client.get_set('copies:available:ids')) > 0
+    has_unavailable_copies = len(redis_client.get_set('copies:unavailable:ids')) > 0
+
+    base = {
+        "LIBRARIAN_HIRED": 0.01,
+        "COPY_PURCHASED": 0.08,
+        "USER_REGISTERED": 0.03,
+        "BORROW": 0.0,
+        "RETURN": 0.0,
+        "RESERVE": 0.0,
+    }
+
+    if has_available_copies and has_unavailable_copies:
+        return {
+            **base,
+            "BORROW": 0.52,
+            "RETURN": 0.30,
+            "RESERVE": 0.06,
+        }
+
+    if has_available_copies and not has_unavailable_copies:
+        return {
+            **base,
+            "BORROW": 0.88,
+        }
+
+    if not has_available_copies and has_unavailable_copies:
+        return {
+            **base,
+            "RETURN": 0.70,
+            "RESERVE": 0.18,
+        }
+
+    # fallback (still full distribution, librarian included)
+    return {
+        "LIBRARIAN_HIRED": 0.02,
+        "COPY_PURCHASED": 0.20,
+        "USER_REGISTERED": 0.78,
+        "BORROW": 0.0,
+        "RETURN": 0.0,
+        "RESERVE": 0.0,
+    }
+
+
+def generate_event(redis_client: RedisClient) -> dict:
     """
     Function that generates an event
 
-    :param connection: psycopg2.extensions.connection, the connection used for fetching data
-        from the database
+    :param redis_client: RedisClient, the redis client used to fetch counters
+        and configuration values
 
     :returns: dict, dictionary with:
         * 'event_id': a universally unique identifier
@@ -92,7 +127,10 @@ def generate_event(
     timestamp = CLOCK.now()
 
     # Fetching the proper event weights for current timestamp
-    weights = get_event_weights_by_timeline(timestamp)
+    weights = get_event_weights_by_timeline(
+        redis_client=redis_client,
+        timestamp=timestamp
+    )
 
     # Convert event names and weights to lists
     event_type = list(weights.keys())
@@ -101,19 +139,8 @@ def generate_event(
     # Choose a random proper event using the weights
     event_type = np.random.choice(event_type, p=event_weights)
 
-    # If the event type is 'USER_REGISTERED', 'LIBRARIAN_HIRED', 'COPY_PURCHASED'
-    # no additional data is needed and their respective generating functions are called
-    if event_type in ['USER_REGISTERED', 'LIBRARIAN_HIRED', 'COPY_PURCHASED']:
-        data = EVENT_GENERATION_MAPPINGS[event_type]()
-
-    # If the event type is 'BORROW' then additional data are needed and
-    # randomly fetched from the database - placeholder
-    elif event_type == 'BORROW':
-        data = None
-
-    # Placeholder
-    else:
-        data = None
+    # Generate the event's data via its event type
+    data = EVENT_GENERATION_MAPPINGS[event_type]()
 
     # Return the event
     return {
