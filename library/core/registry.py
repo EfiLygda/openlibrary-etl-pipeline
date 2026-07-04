@@ -20,7 +20,7 @@ class EventSpec:
     def __init__(
             self,
             counter_name: Callable[[dict], str],
-            max_allowable_name: Callable[[dict], str],
+            max_allowable_name: Callable[[dict], str] | None,
     ):
         self.counter_name = counter_name
         self.max_allowable_name = max_allowable_name
@@ -44,7 +44,11 @@ EVENTS = {
             f'max:edition:{event['data']['edition_key']}:copies'
     ),
 
-    # 'BORROW': handle_borrow,
+    'BORROW': EventSpec(
+        counter_name=lambda event: f'counter:loans',
+        max_allowable_name=None
+    ),
+
     # 'RETURN': handle_return,
     # 'RESERVE': handle_reserve,
 }
