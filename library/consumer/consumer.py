@@ -58,12 +58,13 @@ for msg in consumer:
     counter_name = event_spec.counter_name(event)
 
     # Increment event counter
-    redis_client.increment_counter(counter_name)
+    counter = redis_client.increment_counter(counter_name)
 
     # TODO: add bulk loading of db at end of day
     # If current event type can be handled then use the proper
     # handler and load data to database
     data, _ = handle_event(
         connection=connection,
-        event=event
+        event=event,
+        counter=counter
     )

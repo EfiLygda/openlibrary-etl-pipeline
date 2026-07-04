@@ -13,18 +13,23 @@ SQL_DIR = os.path.join(LIBRARY_ROOT, 'consumer', 'sql')
 
 def handle_librarian_hired(
         connection: psycopg2.extensions.connection,
-        event: dict
+        event: dict,
+        counter: int
 ) -> tuple:
     """
     Inserts new hired librarian record to the 'librarians' table
 
     :param connection: psycopg2.extensions.connection, the connection used for inserting the new record
     :param event: dict, the event/dictionary used
+    :param counter: int, the event counter used for generating a record's ID
 
     :return: tuple, the tuple containing:
         * `data` - list of matching records returned by the query
         * `data_column_names` - column names corresponding to the records
     """
+    
+    # Generate new librarian ID
+    event['data']['librarian_id'] = f'LB-{counter}'
 
     # Setting up the loading query
     query_filepath = os.path.join(SQL_DIR, 'insert_librarian.sql')
@@ -34,6 +39,7 @@ def handle_librarian_hired(
         connection=connection,
         query_filepath=query_filepath,
         params={
+            'librarian_id': event['data']['librarian_id'],
             'first_name': event['data']['first_name'],
             'last_name': event['data']['last_name'],
             'email': event['data']['email'],
@@ -43,18 +49,23 @@ def handle_librarian_hired(
 
 def handle_user_registered(
         connection: psycopg2.extensions.connection ,
-        event: dict
+        event: dict,
+        counter: int
 ) -> tuple:
     """
     Inserts new registered user record to the 'users' table
 
     :param connection: psycopg2.extensions.connection, the connection used for inserting the new record
     :param event: dict, the event/dictionary used
+    :param counter: int, the event counter used for generating a record's ID
 
     :return: tuple, the tuple containing:
         * `data` - list of matching records returned by the query
         * `data_column_names` - column names corresponding to the records
     """
+
+    # Generate new user ID
+    event['data']['user_id'] = f'USR-{counter}'
 
     # Setting up the loading query
     query_filepath = os.path.join(SQL_DIR, 'insert_user.sql')
@@ -64,6 +75,7 @@ def handle_user_registered(
         connection=connection,
         query_filepath=query_filepath,
         params={
+            'user_id': event['data']['user_id'],
             'first_name': event['data']['first_name'],
             'last_name': event['data']['last_name'],
             'email': event['data']['email'],
@@ -72,19 +84,24 @@ def handle_user_registered(
     )
 
 def handle_copy_purchased(
-        connection: psycopg2.extensions.connection ,
-        event: dict
+        connection: psycopg2.extensions.connection,
+        event: dict,
+        counter: int
 ) -> tuple:
     """
     Inserts new purchased copy record to the 'copies' table
 
     :param connection: psycopg2.extensions.connection, the connection used for inserting the new record
     :param event: dict, the event/dictionary used
+    :param counter: int, the event counter used for generating a record's ID
 
     :return: tuple, the tuple containing:
         * `data` - list of matching records returned by the query
         * `data_column_names` - column names corresponding to the records
     """
+
+    # Generate new copy ID
+    event['data']['copy_id'] = f'{event['data']['edition_key']}-{counter}'
 
     # Setting up the loading query
     query_filepath = os.path.join(SQL_DIR, 'insert_copy.sql')
@@ -94,6 +111,7 @@ def handle_copy_purchased(
         connection=connection,
         query_filepath=query_filepath,
         params={
+            'copy_id': event['data']['copy_id'],
             'edition_key': event['data']['edition_key'],
             'status': 'AVAILABLE',
             'registered_at': event['timestamp'],
@@ -112,13 +130,15 @@ HANDLERS = {
 
 def handle_event(
         connection: psycopg2.extensions.connection,
-        event: dict
+        event: dict,
+        counter: int
 ) -> tuple:
     """
     Function for handling all events regardless of type, by inserting new records
 
     :param connection: psycopg2.extensions.connection, the connection used for inserting the new record
     :param event: dict, the event/dictionary used
+    :param counter: int, the event counter used for generating a record's ID
 
     :return: tuple, the tuple containing:
         * `data` - list of matching records returned by the query
@@ -127,5 +147,6 @@ def handle_event(
 
     return HANDLERS[event['event_type']](
         connection=connection,
-        event=event
+        event=event,
+        counter=counter
     )
