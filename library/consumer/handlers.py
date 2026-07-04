@@ -10,14 +10,12 @@ from utilities import execute_query
 
 from library.service.redis.service import RedisClient
 
-# Redis client
-redis_client = RedisClient()
-
 # Path for SQL commands used for generating data
 SQL_DIR = os.path.join(LIBRARY_ROOT, 'consumer', 'sql')
 
 def handle_librarian_hired(
         connection: psycopg2.extensions.connection,
+        redis_client: RedisClient,
         event: dict,
         counter: int
 ) -> tuple:
@@ -25,6 +23,7 @@ def handle_librarian_hired(
     Inserts new hired librarian record to the 'librarians' table
 
     :param connection: psycopg2.extensions.connection, the connection used for inserting the new record
+    :param redis_client: RedisClient, the redis client used to fetch configuration values
     :param event: dict, the event/dictionary used
     :param counter: int, the event counter used for generating a record's ID
 
@@ -56,7 +55,8 @@ def handle_librarian_hired(
     )
 
 def handle_user_registered(
-        connection: psycopg2.extensions.connection ,
+        connection: psycopg2.extensions.connection,
+        redis_client: RedisClient,
         event: dict,
         counter: int
 ) -> tuple:
@@ -64,6 +64,7 @@ def handle_user_registered(
     Inserts new registered user record to the 'users' table
 
     :param connection: psycopg2.extensions.connection, the connection used for inserting the new record
+    :param redis_client: RedisClient, the redis client used to fetch configuration values
     :param event: dict, the event/dictionary used
     :param counter: int, the event counter used for generating a record's ID
 
@@ -96,6 +97,7 @@ def handle_user_registered(
 
 def handle_copy_purchased(
         connection: psycopg2.extensions.connection,
+        redis_client: RedisClient,
         event: dict,
         counter: int
 ) -> tuple:
@@ -103,6 +105,7 @@ def handle_copy_purchased(
     Inserts new purchased copy record to the 'copies' table
 
     :param connection: psycopg2.extensions.connection, the connection used for inserting the new record
+    :param redis_client: RedisClient, the redis client used to fetch configuration values
     :param event: dict, the event/dictionary used
     :param counter: int, the event counter used for generating a record's ID
 
@@ -134,6 +137,7 @@ def handle_copy_purchased(
 
 def handle_copy_borrowed(
         connection: psycopg2.extensions.connection,
+        redis_client: RedisClient,
         event: dict,
         counter: int
 ) -> tuple:
@@ -141,6 +145,7 @@ def handle_copy_borrowed(
     Inserts new record of a copy's borrowing to the 'loans' table
 
     :param connection: psycopg2.extensions.connection, the connection used for inserting the new record
+    :param redis_client: RedisClient, the redis client used to fetch configuration values
     :param event: dict, the event/dictionary used
     :param counter: int, the event counter used for generating a record's ID
 
@@ -179,7 +184,7 @@ def handle_copy_borrowed(
             'return_date': None,
 
             'renewal_count': 0,
-            'status': 'ACTIVE', # "active | returned | overdue"
+            'status': 'ACTIVE', # "ACTIVE | RETURNED"
             'processed_by':  event['data']['librarian_id']
         }
     )
@@ -196,6 +201,7 @@ HANDLERS = {
 
 def handle_event(
         connection: psycopg2.extensions.connection,
+        redis_client: RedisClient,
         event: dict,
         counter: int
 ) -> tuple:
@@ -203,6 +209,7 @@ def handle_event(
     Function for handling all events regardless of type, by inserting new records
 
     :param connection: psycopg2.extensions.connection, the connection used for inserting the new record
+    :param redis_client: RedisClient, the redis client used to fetch configuration values
     :param event: dict, the event/dictionary used
     :param counter: int, the event counter used for generating a record's ID
 
@@ -213,6 +220,7 @@ def handle_event(
 
     return HANDLERS[event['event_type']](
         connection=connection,
+        redis_client=redis_client,
         event=event,
         counter=counter
     )

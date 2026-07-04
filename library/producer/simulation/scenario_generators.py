@@ -15,13 +15,11 @@ Faker.seed(SEED)
 # Faker object for simulation
 fake = Faker()
 
-# Redis client
-redis_client = RedisClient()
-
-def user_registration() -> dict:
+def user_registration(redis_client: RedisClient) -> dict:
     """
     Simulates a new users registration
 
+    :param redis_client: RedisClient, the redis client used to fetch configuration values
     :return: dict, dictionary with the new user's first and last name and his/hers email
     """
 
@@ -37,10 +35,11 @@ def user_registration() -> dict:
         'email': generate_email(first_name, last_name),
     }
 
-def librarian_hired() -> dict:
+def librarian_hired(redis_client: RedisClient) -> dict:
     """
     Simulates a librarians hiring
 
+    :param redis_client: RedisClient, the redis client used to fetch configuration values
     :return: dict, dictionary with the new librarian's first and last name and his/hers email
     """
 
@@ -56,10 +55,11 @@ def librarian_hired() -> dict:
         'email': generate_email(first_name, last_name),
     }
 
-def copy_purchased() -> dict:
+def copy_purchased(redis_client: RedisClient) -> dict:
     """
     Simulates the purchase of a copy
 
+    :param redis_client: RedisClient, the redis client used to fetch configuration values
     :return: dict, dictionary with the new copy's original edition key
     """
 
@@ -71,10 +71,11 @@ def copy_purchased() -> dict:
         'edition_key': str(edition_key),
     }
 
-def borrow() -> dict:
+def borrow_available_copy(redis_client: RedisClient) -> dict:
     """
-    Simulates a copy's borrowing from a user
+    Simulates an available copy's borrowing from a user
 
+    :param redis_client: RedisClient, the redis client used to fetch configuration values
     :return: dict, dictionary with the user_id, the copy_id, and the due date for returning the copy
     """
 
@@ -91,6 +92,7 @@ def borrow() -> dict:
     }
 
 def return_(
+        redis_client: RedisClient,
         loan_id: int,
         user_id: int,
         copy_id: str
@@ -98,6 +100,7 @@ def return_(
     """
     Simulates a copy's return from a user
 
+    :param redis_client: RedisClient, the redis client used to fetch configuration values
     :param loan_id: str, the borrowing id that was returned
     :param user_id: str, the user's id that borrowed the copy
     :param copy_id: str, the copy's id that was borrowed
@@ -112,12 +115,14 @@ def return_(
     }
 
 def reservation(
+        redis_client: RedisClient,
         user_id: int,
         copy_id: str
 ) -> dict:
     """
     Simulates a copy's reservation from a user
 
+    :param redis_client: RedisClient, the redis client used to fetch configuration values
     :param user_id: str, the user's id that reserved the copy
     :param copy_id: str, the copy's id that was reserved
 

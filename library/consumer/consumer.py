@@ -44,9 +44,8 @@ for msg in consumer:
     if reject_event(redis_client, event):
         continue
     else:
-        # Print basic event metadata
-        print("EVENT RECEIVED:")
-        print(event["event_type"], event["data"], event['timestamp'])
+        # Display event
+        print(event)
 
     # Save event type
     event_type = event['event_type']
@@ -65,6 +64,7 @@ for msg in consumer:
     # handler and load data to database
     data, _ = handle_event(
         connection=connection,
+        redis_client=redis_client,
         event=event,
         counter=counter
     )
