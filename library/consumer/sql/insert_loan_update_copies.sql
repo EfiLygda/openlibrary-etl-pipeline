@@ -25,4 +25,5 @@ UPDATE
 SET
     status = 'UNAVAILABLE'
 WHERE
-    copy_id = %(copy_id)s;
+    copy_id = %(copy_id)s
+RETURNING copy_id;
