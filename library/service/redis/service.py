@@ -3,10 +3,12 @@ Contains simple Redis wrapper used for counters and sets in the library system
 
 Redis naming conventions:
 * Global IDs' Pools
-    - editions (SET) - all edition keys available in the database
-    - users (SET) - runtime user ids
-    - librarians (SET) - runtime librarian ids
-    - copies (SET) - runtime copy ids
+    - editions:keys (SET) - all edition keys available in the database
+    - users:ids (SET) - runtime user ids
+    - librarians:ids (SET) - runtime librarian ids
+    - copies:available:ids (SET) - runtime copy ids that are available to borrow
+    - copies:unavailable:ids (SET) - runtime copy ids that are not available to borrow
+    - loans:ids (SET) - runtime loan ids
 
 * Maximum Allowable Values
     - max:users (INT) - max users to register
@@ -17,6 +19,8 @@ Redis naming conventions:
     - counter:users (INCR) - counting current registered users
     - counter:librarians (INCR) - counting current hired librarians
     - counter:edition:{edition_key}:copies (INCR) - counting current edition's copies purchased
+    - counter:loans (INCR) - counting all borrowings of all copies
+
 """
 
 from typing import Awaitable
@@ -113,6 +117,16 @@ class RedisClient:
         :return: int, number of elements added (0 or 1)
         """
         return self.redis.sadd(name, *values)
+
+    def remove_from_set(self, name: str, *values) -> int:
+        """
+        Remove values from a Redis set
+
+        :param name: str, name of the set
+        :param values: values to remove from the set
+        :return: int, 1 if the value was removed or 0 if not
+        """
+        return self.redis.srem(name, *values)
 
     def get_set(self, name: str) -> set:
         """
