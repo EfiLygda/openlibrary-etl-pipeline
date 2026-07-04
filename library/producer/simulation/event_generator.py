@@ -56,14 +56,10 @@ def get_event_weights_by_timeline(timestamp: datetime) -> dict:
             'LIBRARIAN_HIRED': 0.6,
             'COPY_PURCHASED': 0.4,
         }
-    elif LIBRARIANS_HIRINGS_DEADLINE < timestamp <= INITIAL_COPIES_PURCHASING_DEADLINE:
+    elif LIBRARIANS_HIRINGS_DEADLINE <= timestamp < LIBRARY_OPENING_DATE:
         return {
-            'COPY_PURCHASED': 1
-        }
-    elif INITIAL_COPIES_PURCHASING_DEADLINE <= timestamp < LIBRARY_OPENING_DATE:
-        return {
-            'COPY_PURCHASED': 0.2,
-            'USER_REGISTERED': 0.8
+            'COPY_PURCHASED': 0.3,
+            'USER_REGISTERED': 0.7
         }
     elif timestamp >= LIBRARY_OPENING_DATE:
         return {

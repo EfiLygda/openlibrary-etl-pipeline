@@ -27,7 +27,7 @@ CLOCK = SimClock(start=START_DATE, end=END_DATE)
 
 # | Period                  | Events               | Notes                                                      |
 # | ----------------------- | -------------------- | ---------------------------------------------------------- |
-# | First 15 days           | Hire librarians      | 3–9 librarians depending on library size.                  |
+# | First 15 days           | Hire librarians      | Hire librarians depending on library size.                 |
 # | First 30 days           | Purchase book copies | Hundreds or thousands of copies purchased from publishers. |
 # | After 31 days           | Register users       | Members gradually join every day.                          |
 # | After 31 days           | Library opens        | Borrowing, reservations and returns begin.                 |
@@ -37,9 +37,6 @@ CLOCK = SimClock(start=START_DATE, end=END_DATE)
 
 # End date for hiring librarians
 LIBRARIANS_HIRINGS_DEADLINE = START_DATE + timedelta(days=15)
-
-# End date for purchasing initial copy catalogue
-INITIAL_COPIES_PURCHASING_DEADLINE = START_DATE + timedelta(days=30)
 
 # Library Opening -> user registration, borrowing, reservations start
 LIBRARY_OPENING_DATE = START_DATE + timedelta(days=31)
