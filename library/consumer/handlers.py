@@ -37,7 +37,7 @@ def handle_librarian_hired(
     new_librarian_id = f'LB-{counter}'
 
     # Add new ID to Redis set to be used later
-    redis_client.add_to_set('librarians', new_librarian_id)
+    redis_client.add_to_set('librarians:ids', new_librarian_id)
 
     # Setting up the loading query
     query_filepath = os.path.join(SQL_DIR, 'insert_librarian.sql')
@@ -76,7 +76,7 @@ def handle_user_registered(
     new_user_id = f'USR-{counter}'
 
     # Add new ID to Redis set to be used later
-    redis_client.add_to_set('users', new_user_id)
+    redis_client.add_to_set('users:ids', new_user_id)
 
     # Setting up the loading query
     query_filepath = os.path.join(SQL_DIR, 'insert_user.sql')
@@ -115,7 +115,7 @@ def handle_copy_purchased(
     new_copy_id = f'{event['data']['edition_key']}-{counter}'
 
     # Add new ID to Redis set to be used later
-    redis_client.add_to_set('copies', new_copy_id)
+    redis_client.add_to_set('copies:available:ids', new_copy_id)
 
     # Setting up the loading query
     query_filepath = os.path.join(SQL_DIR, 'insert_copy.sql')
@@ -132,12 +132,64 @@ def handle_copy_purchased(
         }
     )
 
+def handle_copy_borrowed(
+        connection: psycopg2.extensions.connection,
+        event: dict,
+        counter: int
+) -> tuple:
+    """
+    Inserts new record of a copy's borrowing to the 'loans' table
+
+    :param connection: psycopg2.extensions.connection, the connection used for inserting the new record
+    :param event: dict, the event/dictionary used
+    :param counter: int, the event counter used for generating a record's ID
+
+    :return: tuple, the tuple containing:
+        * `data` - list of matching records returned by the query
+        * `data_column_names` - column names corresponding to the records
+    """
+
+    # Generate new copy ID
+    new_loan_id = f'LN-{counter}'
+
+    # Add new ID to Redis set to be used later
+    redis_client.add_to_set('loans', new_loan_id)
+
+    # Move copy id from available to unavailable in Redis
+    redis_client.move_sets(
+        source='copies:available:ids',
+        destination='copies:unavailable:ids',
+        value=event['data']['copy_id']
+    )
+
+    # Setting up the loading query
+    query_filepath = os.path.join(SQL_DIR, 'insert_loan_update_copies.sql')
+
+    # Execute the query
+    return execute_query(
+        connection=connection,
+        query_filepath=query_filepath,
+        params={
+            'loan_id': new_loan_id,
+            'user_id': event['data']['user_id'],
+            'copy_id': event['data']['copy_id'],
+
+            'borrow_date': event['timestamp'],
+            'due_date': event['data']['due_date'],
+            'return_date': None,
+
+            'renewal_count': 0,
+            'status': 'ACTIVE', # "active | returned | overdue"
+            'processed_by':  event['data']['librarian_id']
+        }
+    )
+
 HANDLERS = {
     'LIBRARIAN_HIRED': handle_librarian_hired,
     'USER_REGISTERED': handle_user_registered,
     'COPY_PURCHASED': handle_copy_purchased,
+    'BORROW': handle_copy_borrowed,
 
-    # 'BORROW': handle_borrow,
     # 'RETURN': handle_return,
     # 'RESERVE': handle_reserve,
 }
