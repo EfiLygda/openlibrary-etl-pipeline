@@ -128,6 +128,19 @@ class RedisClient:
         """
         return self.redis.srem(name, *values)
 
+    def move_sets(self, source: str, destination: str, value: str | int) -> bool | Awaitable[bool]:
+        """
+        Move value from a Redis set to another
+
+        :param source: str, name of the source set
+        :param destination: str, name of the destination set
+        :param value: str | int, value to be moved
+
+        :return: bool, True if the value was moved, 0 if not
+        """
+
+        return self.redis.smove(source, destination, value)
+
     def get_set(self, name: str) -> set:
         """
         Retrieve all members of a Redis set
