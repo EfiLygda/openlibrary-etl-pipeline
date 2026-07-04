@@ -4,7 +4,7 @@ Run: python -m library.producer.producer.py
 """
 
 import json
-from random import random, seed, uniform
+from random import seed, uniform
 from datetime import datetime
 
 from kafka import KafkaProducer
@@ -12,9 +12,14 @@ from kafka import KafkaProducer
 from utilities.rate_limit import wait
 from utilities.database import db_connection, DB_NAME
 
-from library.kafka_config import BOOTSTRAP, TOPIC
-from library.producer.producer_config import SEED, END_DATE, MAX_USERS, MAX_LIBRARIANS, COPIES
-from library.producer.event_generator import generate_event
+from library.core.validation import reject_event
+
+from library.service.kafka.config import BOOTSTRAP, TOPIC
+from library.service.redis.service import RedisClient
+
+from library.producer.producer_config import SEED, END_DATE
+from library.producer.simulation.bootstrap import build_context
+from library.producer.simulation.event_generator import generate_event
 
 # Seeding random module
 seed(SEED)
@@ -22,33 +27,47 @@ seed(SEED)
 # Establish connection with the database
 connection = db_connection(database=DB_NAME)
 
+# Setting up redis for live state
+redis_client = RedisClient()
+
+# Delete everything from Redis database
+redis_client.flush_database()
+
 # Setting up the Kafka producer
 producer = KafkaProducer(
     bootstrap_servers=BOOTSTRAP,
     value_serializer=lambda v: json.dumps(v).encode("utf-8")
 )
 
-# Event counters used for validation
-event_counters = {
-    'USER_REGISTERED': 0,
-    'COPY_PURCHASED': {
-        k: 0 for k in COPIES.keys()
-    },
-    'BORROW': 0,
-    'RETURN': 0,
-    'RESERVE': 0,
-    'LIBRARIAN_HIRED': 0
-}
+# -------------------------------------------------------------
+# TODO: Add this to simulation_init.py and import it here
 
-# The maximum amounts of events that will be allowed
-max_event_values = {
-    'USER_REGISTERED': MAX_USERS,
-    'COPY_PURCHASED': COPIES,
-    'BORROW': 0,
-    'RETURN': 0,
-    'RESERVE': 0,
-    'LIBRARIAN_HIRED': MAX_LIBRARIANS
-}
+# Build simulation world context
+simulation_context = build_context()
+
+# Add simulation context to Redis
+redis_client.add_to_set('editions', *simulation_context['edition_keys'])
+redis_client.set_value('max:users', simulation_context['max_users'])
+redis_client.set_value('max:librarians', simulation_context['max_librarians'])
+
+# Loading all max edition copies to Redis database via pipeline
+# for decreasing loading time
+with redis_client.pipeline() as pipe:
+
+    # For each edition key and its respective simulation maximum allowable number of copies
+    # the pair is loaded to a Redis database in order to be used from the producer and
+    # the consumer (mainly for rejecting events)
+    for edition_key, max_allowable_copies in simulation_context['max_copies_per_edition'].items():
+
+        # Set the key, value pairs via the pipeline
+        pipe.set(
+            name=f'max:edition:{edition_key}:copies',
+            value=max_allowable_copies
+        )
+
+    # Execute whole pipeline at once
+    pipe.execute()
+# -------------------------------------------------------------
 
 # Starting producer simulation
 while True:
@@ -56,45 +75,27 @@ while True:
     # Generate an event
     event = generate_event(connection=connection)
 
-    # If the event's timestamp is over the end date
+    # If the event's timestamp is over the end date of the simulation
     # then the simulation stops
     if datetime.fromisoformat(event['timestamp']) >= END_DATE:
         break
 
-    # Save current event's type
-    event_type = event['event_type']
+    if reject_event(redis_client, event):
+        continue
 
-    # Counting events and validating if they should be used
-    # Mainly if their number is over the predetermined max
-    if event_type == 'COPY_PURCHASED':
-        copy_edition = event['data']['edition_key']
-        max_value = max_event_values['COPY_PURCHASED'][copy_edition]
-        counter = event_counters['COPY_PURCHASED'][copy_edition]
-
-        if counter <= max_value:
-            event_counters['COPY_PURCHASED'][copy_edition] += 1
-        else:
-            continue
-
-    else:
-        max_value = max_event_values[event_type]
-        counter = event_counters[event_type]
-
-        if counter <= max_value:
-            event_counters[event_type] += 1
-        else:
-            continue
-
-    # Display event
+    # Display allowed event
     print(event)
 
-    # Publish the event to chosen topic
+    # Publish the allowed event to chosen topic
     producer.send(TOPIC, value=event)
 
-    # All buffered events are immidietly available
+    # All buffered events are immediately available
     # TODO: add batches
     producer.flush()
 
     # Wait before next event with jitter
     jitter = uniform(-0.1, 0.1)
     wait(max(0, 0.5 + jitter))
+
+# Delete everything from Redis database after the end of the simulation
+redis_client.flush_database()
