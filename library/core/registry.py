@@ -3,6 +3,7 @@ Central registry of event metadata shared between the producer and consumer
 """
 
 from typing import Callable
+from library.service.redis.keys import RedisKeys
 
 class EventSpec:
     """
@@ -28,24 +29,24 @@ class EventSpec:
 
 EVENTS = {
     'LIBRARIAN_HIRED': EventSpec(
-        counter_name=lambda event: 'counter:librarians',
-        max_allowable_name=lambda event: 'max:librarians'
+        counter_name=lambda event: RedisKeys.Counters.LIBRARIANS,
+        max_allowable_name=lambda event: RedisKeys.MaxAllowableValues.LIBRARIANS
     ),
 
     'USER_REGISTERED': EventSpec(
-        counter_name=lambda event: 'counter:users',
-        max_allowable_name=lambda event: 'max:users'
+        counter_name=lambda event: RedisKeys.Counters.USERS,
+        max_allowable_name=lambda event: RedisKeys.MaxAllowableValues.USERS
     ),
 
     'COPY_PURCHASED': EventSpec(
         counter_name=lambda event:
-            f'counter:edition:{event['data']['edition_key']}:copies',
+            RedisKeys.Counters.edition_copies(event['data']['edition_key']),
         max_allowable_name=lambda event:
-            f'max:edition:{event['data']['edition_key']}:copies'
+            RedisKeys.MaxAllowableValues.edition_copies(event['data']['edition_key'])
     ),
 
     'BORROW': EventSpec(
-        counter_name=lambda event: f'counter:loans',
+        counter_name=lambda event: RedisKeys.Counters.LOANS,
         max_allowable_name=None
     ),
 

@@ -8,6 +8,7 @@ import psycopg2
 from config.paths import LIBRARY_ROOT
 from utilities import execute_query
 
+from library.service.redis.keys import RedisKeys
 from library.service.redis.service import RedisClient
 
 # Path for SQL commands used for generating data
@@ -36,7 +37,10 @@ def handle_librarian_hired(
     new_librarian_id = f'LB-{counter}'
 
     # Add new ID to Redis set to be used later
-    redis_client.add_to_set('librarians:ids', new_librarian_id)
+    redis_client.add_to_set(
+        RedisKeys.Sets.LIBRARIAN_IDS,
+        new_librarian_id
+    )
 
     # Setting up the loading query
     query_filepath = os.path.join(SQL_DIR, 'insert_librarian.sql')
@@ -77,7 +81,10 @@ def handle_user_registered(
     new_user_id = f'USR-{counter}'
 
     # Add new ID to Redis set to be used later
-    redis_client.add_to_set('users:ids', new_user_id)
+    redis_client.add_to_set(
+        RedisKeys.Sets.USER_IDS,
+        new_user_id
+    )
 
     # Setting up the loading query
     query_filepath = os.path.join(SQL_DIR, 'insert_user.sql')
@@ -118,7 +125,10 @@ def handle_copy_purchased(
     new_copy_id = f'{event['data']['edition_key']}-{counter}'
 
     # Add new ID to Redis set to be used later
-    redis_client.add_to_set('copies:available:ids', new_copy_id)
+    redis_client.add_to_set(
+        RedisKeys.Sets.AVAILABLE_COPIES_IDS,
+        new_copy_id
+    )
 
     # Setting up the loading query
     query_filepath = os.path.join(SQL_DIR, 'insert_copy.sql')
@@ -158,12 +168,15 @@ def handle_copy_borrowed(
     new_loan_id = f'LN-{counter}'
 
     # Add new ID to Redis set to be used later
-    redis_client.add_to_set('loans:active:ids', new_loan_id)
+    redis_client.add_to_set(
+        RedisKeys.Sets.ACTIVE_LOANS_IDS,
+        new_loan_id
+    )
 
     # Move copy id from available to unavailable in Redis
     redis_client.move_sets(
-        source='copies:available:ids',
-        destination='copies:unavailable:ids',
+        source=RedisKeys.Sets.AVAILABLE_COPIES_IDS,
+        destination=RedisKeys.Sets.UNAVAILABLE_COPIES_IDS,
         value=event['data']['copy_id']
     )
 

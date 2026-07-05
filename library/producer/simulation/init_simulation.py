@@ -10,9 +10,9 @@ This script:
 
 Intended to bootstrap the Redis state for the producer/consumer simulation workflow
 """
-
 from utilities.logging import set_logger
 
+from library.service.redis.keys import RedisKeys
 from library.service.redis.service import RedisClient
 from library.producer.simulation.bootstrap import build_context
 
@@ -32,9 +32,20 @@ def run():
     simulation_context = build_context()
 
     # Add simulation context to Redis
-    redis_client.add_to_set('editions:keys', *simulation_context['edition_keys'])
-    redis_client.set_value('max:users', simulation_context['max_users'])
-    redis_client.set_value('max:librarians', simulation_context['max_librarians'])
+    redis_client.add_to_set(
+        RedisKeys.Sets.EDITION_KEYS,
+        *simulation_context['edition_keys']
+    )
+
+    redis_client.set_value(
+        RedisKeys.MaxAllowableValues.USERS,
+        simulation_context['max_users']
+    )
+
+    redis_client.set_value(
+        RedisKeys.MaxAllowableValues.LIBRARIANS,
+        simulation_context['max_librarians']
+    )
 
     # Loading all max edition copies to Redis database via pipeline
     # for decreasing loading time
@@ -47,7 +58,7 @@ def run():
 
             # Set the key, value pairs via the pipeline
             pipe.set(
-                name=f'max:edition:{edition_key}:copies',
+                name=RedisKeys.MaxAllowableValues.edition_copies(edition_key),
                 value=max_allowable_copies
             )
 
