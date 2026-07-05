@@ -1,27 +1,5 @@
 """
 Contains simple Redis wrapper used for counters and sets in the library system
-
-Redis naming conventions:
-* Global IDs' Pools
-    - editions:keys (SET) - all edition keys available in the database
-    - users:ids (SET) - runtime user ids
-    - librarians:ids (SET) - runtime librarian ids
-    - copies:available:ids (SET) - runtime copy ids that are available to borrow
-    - copies:unavailable:ids (SET) - runtime copy ids that are not available to borrow
-    - loans:active:ids (SET) - runtime loan ids that are active
-    - loans:returned:ids (SET) - runtime loan ids with returned copies
-
-* Maximum Allowable Values
-    - max:users (INT) - max users to register
-    - max:librarians (INT) - max librarians to hire
-    - max:edition:{edition_key}:copies (INT) - max copies for current edition_key
-
-* Runtime Counters
-    - counter:users (INCR) - counting current registered users
-    - counter:librarians (INCR) - counting current hired librarians
-    - counter:edition:{edition_key}:copies (INCR) - counting current edition's copies purchased
-    - counter:loans (INCR) - counting all borrowings of all copies
-
 """
 
 from typing import Awaitable
