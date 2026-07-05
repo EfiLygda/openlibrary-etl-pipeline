@@ -24,7 +24,7 @@ Redis naming conventions:
 """
 
 class RedisKeys:
-    
+
     class Sets:
         EDITION_KEYS = 'editions:keys'
         USER_IDS = 'users:ids'
@@ -46,7 +46,14 @@ class RedisKeys:
         USERS = 'counter:users'
         LIBRARIANS = 'counter:librarians'
         LOANS = 'counter:loans'
+        RETURNS = 'counter:returns'
 
         @staticmethod
         def edition_copies(edition_key: str) -> str:
             return f'counter:edition:{edition_key}:copies'
+
+    class Hashes:
+
+        @staticmethod
+        def loan(loan_id: str) -> str:
+            return f'hash:laon:{loan_id}'
