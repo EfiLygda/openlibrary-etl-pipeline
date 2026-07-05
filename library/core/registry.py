@@ -50,6 +50,10 @@ EVENTS = {
         max_allowable_name=None
     ),
 
-    # 'RETURN': handle_return,
+    'RETURN': EventSpec(
+        counter_name=lambda event: RedisKeys.Counters.RETURNS,
+        max_allowable_name=None
+    ),
+
     # 'RESERVE': handle_reserve,
 }
