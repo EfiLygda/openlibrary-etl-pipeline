@@ -17,7 +17,6 @@ from library.service.kafka.config import BOOTSTRAP, TOPIC
 from library.service.redis.service import RedisClient
 
 from library.producer.producer_config import SEED, END_DATE
-from library.producer.simulation.bootstrap import build_context
 from library.producer.simulation.event_generator import generate_event
 
 # Seeding random module
