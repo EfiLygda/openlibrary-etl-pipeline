@@ -158,7 +158,7 @@ def handle_copy_borrowed(
     new_loan_id = f'LN-{counter}'
 
     # Add new ID to Redis set to be used later
-    redis_client.add_to_set('loans', new_loan_id)
+    redis_client.add_to_set('loans:active:ids', new_loan_id)
 
     # Move copy id from available to unavailable in Redis
     redis_client.move_sets(

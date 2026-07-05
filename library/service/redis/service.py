@@ -8,7 +8,8 @@ Redis naming conventions:
     - librarians:ids (SET) - runtime librarian ids
     - copies:available:ids (SET) - runtime copy ids that are available to borrow
     - copies:unavailable:ids (SET) - runtime copy ids that are not available to borrow
-    - loans:ids (SET) - runtime loan ids
+    - loans:active:ids (SET) - runtime loan ids that are active
+    - loans:returned:ids (SET) - runtime loan ids with returned copies
 
 * Maximum Allowable Values
     - max:users (INT) - max users to register
