@@ -10,6 +10,7 @@ from datetime import datetime
 from config.paths import LIBRARY_ROOT
 
 from library.service.redis.service import RedisClient
+from library.service.redis.keys import RedisKeys
 
 from library.producer.producer_config import (
     CLOCK,
@@ -22,13 +23,13 @@ from library.producer.simulation.scenario_generators import (
     librarian_hired,
     copy_purchased,
     borrow_available_copy,
-    return_,
-    reservation
+    return_copy,
+    reservation,
 )
 
 
 # Path for SQL commands used for generating data
-sql_dir = os.path.join(LIBRARY_ROOT, 'producer', '../sql')
+sql_dir = os.path.join(LIBRARY_ROOT, 'producer', 'sql')
 
 # Mapping event names to their respective generation functions
 EVENT_GENERATION_MAPPINGS = {
@@ -36,7 +37,7 @@ EVENT_GENERATION_MAPPINGS = {
     'LIBRARIAN_HIRED': librarian_hired,
     'COPY_PURCHASED': copy_purchased,
     'BORROW': borrow_available_copy,
-    # 'RETURN': return_,
+    'RETURN': return_copy,
     # 'RESERVE': reservation,
 }
 
@@ -67,8 +68,9 @@ def get_event_weights_by_timeline(
             'USER_REGISTERED': 0.7
         }
 
-    has_available_copies = len(redis_client.get_set('copies:available:ids')) > 0
-    has_unavailable_copies = len(redis_client.get_set('copies:unavailable:ids')) > 0
+    # Check if there are available or unavailable copies
+    has_available_copies = len(redis_client.get_set(RedisKeys.Sets.AVAILABLE_COPIES_IDS)) > 0
+    has_unavailable_copies = len(redis_client.get_set(RedisKeys.Sets.UNAVAILABLE_COPIES_IDS)) > 0
 
     base = {
         "LIBRARIAN_HIRED": 0.01,

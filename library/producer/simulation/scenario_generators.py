@@ -5,6 +5,7 @@ Module containing all simulated events
 from faker import Faker
 from datetime import timedelta
 
+from library.service.redis.keys import RedisKeys
 from library.service.redis.service import RedisClient
 from library.producer.producer_config import SEED, CLOCK
 from library.producer.utils.emails import generate_email
@@ -64,7 +65,9 @@ def copy_purchased(redis_client: RedisClient) -> dict:
     """
 
     # Choose a random edition for purchasing a copy
-    edition_key = redis_client.get_random_from_set('editions:keys')
+    edition_key = redis_client.get_random_from_set(
+        RedisKeys.Sets.EDITION_KEYS
+    )
 
     return {
         # Use edition key
@@ -80,9 +83,9 @@ def borrow_available_copy(redis_client: RedisClient) -> dict:
     """
 
     # Choose a random user and copy
-    user_id = redis_client.get_random_from_set('users:ids')
-    copy_id = redis_client.get_random_from_set('copies:available:ids')
-    librarian_id = redis_client.get_random_from_set('librarians:ids')
+    user_id = redis_client.get_random_from_set(RedisKeys.Sets.USER_IDS)
+    copy_id = redis_client.get_random_from_set(RedisKeys.Sets.AVAILABLE_COPIES_IDS)
+    librarian_id = redis_client.get_random_from_set(RedisKeys.Sets.LIBRARIAN_IDS)
 
     return {
         'user_id': user_id,
@@ -91,7 +94,7 @@ def borrow_available_copy(redis_client: RedisClient) -> dict:
         'due_date': (CLOCK.now() + timedelta(days=7)).isoformat()
     }
 
-def return_(
+def return_copy(
         redis_client: RedisClient,
         loan_id: int,
         user_id: int,
