@@ -56,4 +56,4 @@ class RedisKeys:
 
         @staticmethod
         def loan(loan_id: str) -> str:
-            return f'hash:laon:{loan_id}'
+            return f'hash:loan:{loan_id}'
