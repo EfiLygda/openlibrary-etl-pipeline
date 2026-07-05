@@ -24,7 +24,7 @@ from library.producer.simulation.scenario_generators import (
     copy_purchased,
     borrow_available_copy,
     return_copy,
-    reservation,
+    # reservation,
 )
 
 
@@ -69,8 +69,8 @@ def get_event_weights_by_timeline(
         }
 
     # Check if there are available or unavailable copies
-    has_available_copies = len(redis_client.get_set(RedisKeys.Sets.AVAILABLE_COPIES_IDS)) > 0
-    has_unavailable_copies = len(redis_client.get_set(RedisKeys.Sets.UNAVAILABLE_COPIES_IDS)) > 0
+    has_available_copies = redis_client.get_set_size(RedisKeys.Sets.AVAILABLE_COPIES_IDS) > 0
+    has_unavailable_copies = redis_client.get_set_size(RedisKeys.Sets.UNAVAILABLE_COPIES_IDS) > 0
 
     base = {
         "LIBRARIAN_HIRED": 0.01,

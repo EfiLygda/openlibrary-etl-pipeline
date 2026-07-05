@@ -135,6 +135,15 @@ class RedisClient:
         """
         return self.redis.smembers(name)
 
+    def get_set_size(self, name: str) -> int:
+        """
+        Retrieve the size of a Redis set
+
+        :param name: str, name of the set
+        :return: int, the size of the set
+        """
+        return self.redis.scard(name)
+
     def get_random_from_set(self, name: str) -> bytes | str | list[bytes | str] | None:
         """
         Retrieve a random member from a Redis set
