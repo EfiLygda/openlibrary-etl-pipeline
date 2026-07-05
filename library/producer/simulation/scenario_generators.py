@@ -82,7 +82,7 @@ def borrow_available_copy(redis_client: RedisClient) -> dict:
     :return: dict, dictionary with the user_id, the copy_id, and the due date for returning the copy
     """
 
-    # Choose a random user and copy
+    # Choose a random user, copy and librarian
     user_id = redis_client.get_random_from_set(RedisKeys.Sets.USER_IDS)
     copy_id = redis_client.get_random_from_set(RedisKeys.Sets.AVAILABLE_COPIES_IDS)
     librarian_id = redis_client.get_random_from_set(RedisKeys.Sets.LIBRARIAN_IDS)
@@ -94,27 +94,19 @@ def borrow_available_copy(redis_client: RedisClient) -> dict:
         'due_date': (CLOCK.now() + timedelta(days=7)).isoformat()
     }
 
-def return_copy(
-        redis_client: RedisClient,
-        loan_id: int,
-        user_id: int,
-        copy_id: str
-) -> dict:
+def return_copy(redis_client: RedisClient) -> dict:
     """
     Simulates a copy's return from a user
 
     :param redis_client: RedisClient, the redis client used to fetch configuration values
-    :param loan_id: str, the borrowing id that was returned
-    :param user_id: str, the user's id that borrowed the copy
-    :param copy_id: str, the copy's id that was borrowed
-
     :return: dict, dictionary with the loan_id, user_id and the copy_id
     """
 
+    # Choose a random active loan
+    loan_id = redis_client.get_random_from_set(RedisKeys.Sets.ACTIVE_LOANS_IDS)
+
     return {
         'loan_id': loan_id,
-        'user_id': user_id,
-        'copy_id': copy_id,
     }
 
 def reservation(
