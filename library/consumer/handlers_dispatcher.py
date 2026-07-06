@@ -5,7 +5,7 @@ Module responsible for dispatching events to their corresponding handlers
 import psycopg2
 from library.service.redis.service import RedisClient
 
-from library.consumer.handlers import people
+from library.consumer.handlers import people, demand
 from library.consumer.handlers import inventory
 from library.consumer.handlers import circulation
 
@@ -13,12 +13,14 @@ from library.consumer.handlers import circulation
 HANDLERS = {
     'LIBRARIAN_HIRED': people.handle_librarian_hired,
     'USER_REGISTERED': people.handle_user_registered,
+
     'COPY_PURCHASED': inventory.handle_copy_purchased,
+
     'BORROW': circulation.handle_copy_borrowed,
     'RETURN': circulation.handle_return_borrowed_copy,
     'RENEWAL': circulation.handle_renewal_of_borrowed_copy,
 
-    # 'RESERVE': handle_reserve,
+    'RESERVATION': demand.handle_reservation_of_unavailable_copy,
 }
 
 def handle_event(
