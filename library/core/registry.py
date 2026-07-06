@@ -28,6 +28,8 @@ class EventSpec:
 
 
 EVENTS = {
+
+    # --- People ---
     'LIBRARIAN_HIRED': EventSpec(
         counter_name=lambda event: RedisKeys.Counters.LIBRARIANS,
         max_allowable_name=lambda event: RedisKeys.MaxAllowableValues.LIBRARIANS
@@ -38,6 +40,7 @@ EVENTS = {
         max_allowable_name=lambda event: RedisKeys.MaxAllowableValues.USERS
     ),
 
+    # --- Inventory ---
     'COPY_PURCHASED': EventSpec(
         counter_name=lambda event:
             RedisKeys.Counters.edition_copies(event['data']['edition_key']),
@@ -45,6 +48,7 @@ EVENTS = {
             RedisKeys.MaxAllowableValues.edition_copies(event['data']['edition_key'])
     ),
 
+    # --- Circulation ---
     'BORROW': EventSpec(
         counter_name=lambda event: RedisKeys.Counters.LOANS,
         max_allowable_name=None
@@ -55,5 +59,11 @@ EVENTS = {
         max_allowable_name=None
     ),
 
+    'RENEWAL': EventSpec(
+        counter_name=lambda event: RedisKeys.Counters.RENEWALS,
+        max_allowable_name=None
+    ),
+
+    # --- Demand ---
     # 'RESERVE': handle_reserve,
 }
