@@ -187,3 +187,34 @@ class RedisClient:
         """
 
         return self.redis.hset(name=name, key=key, value=value)
+
+    def add_to_list(self, name: str, *values):
+        """
+        Append one or more values to the end of a Redis list
+
+        :param name: str, name of the Redis list
+        :param values: one or more values to push into the list
+
+        :return: int, the length of the list after the push operation
+        """
+        return self.redis.rpush(name, *values)
+
+    def pop_from_list(self, name: str) -> bytes | str | list[bytes | str] | None:
+        """
+        Remove and return the first element of a Redis list
+
+        :param name: str, name of the Redis list to pop from
+
+        :return: bytes | str | None, the popped value from the list,
+                 or None if the list does not exist or is empty
+        """
+        return self.redis.lpop(name)
+
+    def length_of_list(self, name: str) -> int:
+        """
+        Get the number of elements in a Redis list
+
+        :param name: str, name of the Redis list
+        :return: int, number of elements currently stored in the list
+        """
+        return self.redis.llen(name)
