@@ -89,12 +89,6 @@ def get_event_weights_by_timeline(
         return {
             **base,
 
-            # "BORROW": 0.50,
-            # "RETURN": 0.30,
-            # "RENEWAL": 0.02,
-            #
-            # "RESERVE": 0.06,
-
             "BORROW": 0.50,
             "RETURN": 0.20,
             "RENEWAL": 0.12,
