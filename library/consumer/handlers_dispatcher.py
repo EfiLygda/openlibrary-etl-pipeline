@@ -16,6 +16,7 @@ HANDLERS = {
     'COPY_PURCHASED': inventory.handle_copy_purchased,
     'BORROW': circulation.handle_copy_borrowed,
     'RETURN': circulation.handle_return_borrowed_copy,
+    'RENEWAL': circulation.handle_renewal_of_borrowed_copy,
 
     # 'RESERVE': handle_reserve,
 }
