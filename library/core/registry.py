@@ -65,7 +65,7 @@ EVENTS = {
     ),
 
     # --- Demand ---
-    'RESERVE': EventSpec(
+    'RESERVATION': EventSpec(
         counter_name=lambda event: RedisKeys.Counters.RESERVATIONS,
         max_allowable_name=None
     ),
