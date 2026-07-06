@@ -27,12 +27,20 @@ class RedisKeys:
 
     class Sets:
         EDITION_KEYS = 'editions:keys'
+
         USER_IDS = 'users:ids'
         LIBRARIAN_IDS = 'librarians:ids'
+
         AVAILABLE_COPIES_IDS = 'copies:available:ids'
         UNAVAILABLE_COPIES_IDS = 'copies:unavailable:ids'
+
         ACTIVE_LOANS_IDS = 'loans:active:ids'
         RETURNED_LOANS_IDS = 'loans:returned:ids'
+
+        ACTIVE_RESERVATIONS_IDS = 'reservations:active:ids'
+        FULFILLED_RESERVATIONS_IDS = 'reservations:fulfilled:ids'
+        CANCELLED_RESERVATIONS_IDS = 'reservations:canceled:ids'
+        # EXPIRED_RESERVATIONS_IDS = 'reservations:active:ids'
 
     class MaxAllowableValues:
         USERS = 'max:users'
