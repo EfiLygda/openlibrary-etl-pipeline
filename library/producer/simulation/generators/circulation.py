@@ -55,5 +55,17 @@ def return_copy(redis_client: RedisClient) -> dict:
         'loan_id': loan_id,
     }
 
-def renew_loan():
-    pass
+def renew_loan(redis_client: RedisClient):
+    """
+    Simulates the renewal of a loaned copy from the same user
+
+    :param redis_client: RedisClient, the redis client used to fetch configuration values
+    :return: dict, dictionary with the loan_id, user_id and the copy_id
+    """
+
+    # Choose a random active loan
+    loan_id = redis_client.get_random_from_set(RedisKeys.Sets.ACTIVE_LOANS_IDS)
+
+    return {
+        'loan_id': loan_id,
+    }

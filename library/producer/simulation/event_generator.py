@@ -34,6 +34,7 @@ EVENT_GENERATION_MAPPINGS = {
     'COPY_PURCHASED': inventory.copy_purchased,
     'BORROW': circulation.borrow_available_copy,
     'RETURN': circulation.return_copy,
+    'RENEWAL': circulation.renew_loan,
     # 'RESERVE': reservation,
 }
 
@@ -70,41 +71,71 @@ def get_event_weights_by_timeline(
 
     base = {
         "LIBRARIAN_HIRED": 0.01,
-        "COPY_PURCHASED": 0.08,
         "USER_REGISTERED": 0.03,
+
+        "COPY_PURCHASED": 0.08,
+
         "BORROW": 0.0,
         "RETURN": 0.0,
+        "RENEWAL": 0.0,
+
         "RESERVE": 0.0,
     }
 
+    # ----------------------------
+    # CASE 1: available + borrowed exist
+    # ----------------------------
     if has_available_copies and has_unavailable_copies:
         return {
             **base,
-            "BORROW": 0.52,
-            "RETURN": 0.30,
+
+            # "BORROW": 0.50,
+            # "RETURN": 0.30,
+            # "RENEWAL": 0.02,
+            #
+            # "RESERVE": 0.06,
+
+            "BORROW": 0.50,
+            "RETURN": 0.20,
+            "RENEWAL": 0.12,
+
             "RESERVE": 0.06,
         }
 
+    # ----------------------------
+    # CASE 2: only available copies
+    # ----------------------------
     if has_available_copies and not has_unavailable_copies:
         return {
             **base,
             "BORROW": 0.88,
         }
 
+    # ----------------------------
+    # CASE 3: only borrowed copies
+    # ----------------------------
     if not has_available_copies and has_unavailable_copies:
         return {
             **base,
-            "RETURN": 0.70,
+            "RETURN": 0.60,
+            "RENEWAL": 0.10,
+
             "RESERVE": 0.18,
         }
 
-    # fallback (still full distribution, librarian included)
+    # ----------------------------
+    # FALLBACK
+    # ----------------------------
     return {
         "LIBRARIAN_HIRED": 0.02,
-        "COPY_PURCHASED": 0.20,
         "USER_REGISTERED": 0.78,
+
+        "COPY_PURCHASED": 0.20,
+
         "BORROW": 0.0,
         "RETURN": 0.0,
+        "RENEWAL": 0.0,
+
         "RESERVE": 0.0,
     }
 
