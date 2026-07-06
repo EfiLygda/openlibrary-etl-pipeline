@@ -174,3 +174,16 @@ class RedisClient:
         :return: bytes | str | None, the wanted value
         """
         return self.redis.hget(name, key=key)
+
+    def set_in_hash(self, name: str, key: str, value: int | str) -> int:
+        """
+        Set the value of a key from a Redis hash
+
+        :param name: str, name of the hash used
+        :param key: str, key of the value to retrieve
+        :param value: str, the value to set
+
+        :return: int, number of fields set
+        """
+
+        return self.redis.hset(name=name, key=key, value=value)
