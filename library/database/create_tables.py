@@ -32,6 +32,7 @@ def run():
     # --- Drop the Tables (if they already exist)
 
     drop_sequence = [
+        'reservations',
         'loans',
         'copies',
         'librarians',
