@@ -42,6 +42,7 @@ while True:
     if datetime.fromisoformat(event['timestamp']) >= END_DATE:
         break
 
+    # Reject event if needed
     if reject_event(redis_client, event):
         continue
 
