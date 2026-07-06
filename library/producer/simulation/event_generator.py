@@ -18,14 +18,10 @@ from library.producer.producer_config import (
     LIBRARY_OPENING_DATE
 )
 
-from library.producer.simulation.scenario_generators import (
-    user_registration,
-    librarian_hired,
-    copy_purchased,
-    borrow_available_copy,
-    return_copy,
-    # reservation,
-)
+from library.producer.simulation.generators import people
+from library.producer.simulation.generators import inventory
+from library.producer.simulation.generators import circulation
+from library.producer.simulation.generators import demand
 
 
 # Path for SQL commands used for generating data
@@ -33,11 +29,11 @@ sql_dir = os.path.join(LIBRARY_ROOT, 'producer', 'sql')
 
 # Mapping event names to their respective generation functions
 EVENT_GENERATION_MAPPINGS = {
-    'USER_REGISTERED': user_registration,
-    'LIBRARIAN_HIRED': librarian_hired,
-    'COPY_PURCHASED': copy_purchased,
-    'BORROW': borrow_available_copy,
-    'RETURN': return_copy,
+    'USER_REGISTERED': people.user_registration,
+    'LIBRARIAN_HIRED': people.librarian_hired,
+    'COPY_PURCHASED': inventory.copy_purchased,
+    'BORROW': circulation.borrow_available_copy,
+    'RETURN': circulation.return_copy,
     # 'RESERVE': reservation,
 }
 
