@@ -48,6 +48,7 @@ class RedisKeys:
         LOANS = 'counter:loans'
         RETURNS = 'counter:returns'
         RENEWALS = 'counter:renewals'
+        RESERVATIONS = 'counter:reservations'
 
         @staticmethod
         def edition_copies(edition_key: str) -> str:
