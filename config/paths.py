@@ -60,4 +60,7 @@ LIBRARY_TABLES = os.path.join(LIBRARY_DIR, 'tables')
 
 # Library tables directory (csv)
 LIBRARY_SCHEMA = os.path.join(ROOT_DIR, 'library',  'database', 'schema')
+
+# Directory with the consumer's SQL commands used by the handlers
+CONSUMER_SQL_DIR = os.path.join(LIBRARY_ROOT, 'consumer', 'sql')
 # ------------------------------------------------------------------------------------
