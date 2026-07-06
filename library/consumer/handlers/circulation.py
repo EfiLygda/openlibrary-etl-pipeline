@@ -177,6 +177,13 @@ def handle_renewal_of_borrowed_copy(
         days=7
     )
 
+    # Add new due date to loan's hash
+    redis_client.set_in_hash(
+        name=RedisKeys.Hashes.loan(loan_id),
+        key='due_date',
+        value=new_due_date
+    )
+
     # Setting up the loading query
     query_filepath = os.path.join(CONSUMER_SQL_DIR, 'renewal_update_loans.sql')
 
