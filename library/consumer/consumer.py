@@ -15,7 +15,7 @@ from library.core.validation import reject_event
 from library.service.redis.service import RedisClient
 from library.service.kafka.config import TOPIC, BOOTSTRAP, CONSUMER_GROUP_ID, AUTO_OFFSET_RESET
 
-from library.consumer.handlers import handle_event
+from library.consumer.handlers_dispatcher import handle_event
 
 # Establish database connection
 connection = db_connection(database=DB_NAME)
