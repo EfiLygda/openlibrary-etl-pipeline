@@ -67,3 +67,9 @@ class RedisKeys:
         @staticmethod
         def loan(loan_id: str) -> str:
             return f'hash:loan:{loan_id}'
+
+    class Queues:
+
+        @staticmethod
+        def reservation_queue(copy_id: str) -> str:
+            return f'reservations:queue:{copy_id}'
