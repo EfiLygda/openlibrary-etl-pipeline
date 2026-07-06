@@ -23,8 +23,8 @@ from library.producer.simulation.generators import inventory
 from library.producer.simulation.generators import circulation
 from library.producer.simulation.generators import demand
 
-
 # Path for SQL commands used for generating data
+# TODO: add to config paths
 sql_dir = os.path.join(LIBRARY_ROOT, 'producer', 'sql')
 
 # Mapping event names to their respective generation functions
@@ -35,7 +35,7 @@ EVENT_GENERATION_MAPPINGS = {
     'BORROW': circulation.borrow_available_copy,
     'RETURN': circulation.return_copy,
     'RENEWAL': circulation.renew_loan,
-    # 'RESERVE': reservation,
+    'RESERVATION': demand.reserve_unavailable_copy,
 }
 
 def get_event_weights_by_timeline(
@@ -79,7 +79,7 @@ def get_event_weights_by_timeline(
         "RETURN": 0.0,
         "RENEWAL": 0.0,
 
-        "RESERVE": 0.0,
+        "RESERVATION": 0.0,
     }
 
     # ----------------------------
@@ -93,7 +93,7 @@ def get_event_weights_by_timeline(
             "RETURN": 0.20,
             "RENEWAL": 0.12,
 
-            "RESERVE": 0.06,
+            "RESERVATION": 0.06,
         }
 
     # ----------------------------
@@ -114,7 +114,7 @@ def get_event_weights_by_timeline(
             "RETURN": 0.60,
             "RENEWAL": 0.10,
 
-            "RESERVE": 0.18,
+            "RESERVATION": 0.18,
         }
 
     # ----------------------------
@@ -130,7 +130,7 @@ def get_event_weights_by_timeline(
         "RETURN": 0.0,
         "RENEWAL": 0.0,
 
-        "RESERVE": 0.0,
+        "RESERVATION": 0.0,
     }
 
 

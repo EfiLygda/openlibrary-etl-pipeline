@@ -17,20 +17,18 @@ Faker.seed(SEED)
 # Faker object for simulation
 fake = Faker()
 
-def reservation(
-        redis_client: RedisClient,
-        user_id: int,
-        copy_id: str
-) -> dict:
+def reserve_unavailable_copy(redis_client: RedisClient) -> dict:
     """
-    Simulates a copy's reservation from a user
+    Simulates an unavailable copy's reservation from a user
 
     :param redis_client: RedisClient, the redis client used to fetch configuration values
-    :param user_id: str, the user's id that reserved the copy
-    :param copy_id: str, the copy's id that was reserved
 
     :return: dict, dictionary with the user_id and the copy_id
     """
+
+    # Choose a random user, copy and librarian
+    user_id = redis_client.get_random_from_set(RedisKeys.Sets.USER_IDS)
+    copy_id = redis_client.get_random_from_set(RedisKeys.Sets.UNAVAILABLE_COPIES_IDS)
 
     return {
         'user_id': user_id,
