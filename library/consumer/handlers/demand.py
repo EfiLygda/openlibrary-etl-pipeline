@@ -42,6 +42,12 @@ def handle_reservation_of_unavailable_copy(
         new_reservation_id
     )
 
+    # Add user to copy's reservation queue
+    redis_client.add_to_list(
+        RedisKeys.Queues.reservation_queue(event['data']['copy_id']),
+        event['data']['user_id']
+    )
+
     # Setting up the loading query
     query_filepath = os.path.join(CONSUMER_SQL_DIR, 'insert_reservation.sql')
 
