@@ -33,7 +33,4 @@ class SimClock:
 
         sim_time = self.start_sim + timedelta(seconds=elapsed_sim)
 
-        if sim_time < self.end_sim:
-            return sim_time
-        else:
-            raise ValueError('Simulation is done')
+        return sim_time
