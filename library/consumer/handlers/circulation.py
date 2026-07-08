@@ -97,6 +97,79 @@ def handle_copy_borrowed(
         }
     )
 
+def fulfill_copy_reservation_on_return(
+        connection: psycopg2.extensions.connection,
+        redis_client: RedisClient,
+        event: dict,
+        producer: KafkaProducer,
+        copy_id: str,
+) -> tuple:
+    """
+    Updates the 'reservations' table in the database and emits a new borrow event for
+    the user that had reserved the returned copy
+
+    :param connection: psycopg2.extensions.connection, the connection used for inserting the new record
+    :param redis_client: RedisClient, the redis client used to fetch configuration values
+    :param event: dict, the event/dictionary used
+    :param producer: KafkaProducer, producer used for emitting chain events, when needed
+    :param copy_id: str, the returned copy's ID
+
+    :return: tuple, the tuple containing:
+        * `data` - list of matching records returned by the query
+        * `data_column_names` - column names corresponding to the records
+    """
+
+    # Remove and fetch user the reserved it first from the copy's reservation queue
+    item = redis_client.pop_from_list(
+        name=RedisKeys.Queues.reservation_queue(copy_id=copy_id)
+    )
+
+    reservation_data = json.loads(item)
+
+    reservation_id = reservation_data['reservation_id']
+    reservation_user_id = reservation_data['user_id']
+
+    # Generate data for the new borrow event
+    new_borrow_event_data = borrow_available_copy(
+        redis_client=redis_client,
+        user_id=reservation_user_id,
+        copy_id=copy_id
+    )
+
+    # Create event envelope
+    new_borrow_event = create_event(
+        event_type='BORROW',
+        timestamp=datetime.fromisoformat(event['timestamp']),
+        data=new_borrow_event_data
+    )
+
+    # Emit new borrow event from user that reserved it
+    emit_event(
+        producer=producer,
+        topic=TOPIC,
+        event=new_borrow_event
+    )
+
+    # Remove reservation id from redis active reservations set
+    redis_client.remove_from_set(
+        RedisKeys.Sets.ACTIVE_RESERVATIONS_IDS,
+        reservation_id
+    )
+
+    # Setting up the loading query
+    query_filepath = os.path.join(CONSUMER_SQL_DIR, 'return_reserved_update_reservations.sql')
+
+    # Execute the query
+    return execute_query(
+        connection=connection,
+        query_filepath=query_filepath,
+        params={
+            'fulfilled_at': event['timestamp'],
+            'reservation_id': reservation_id,
+        }
+    )
+
+
 def handle_return_borrowed_copy(
         connection: psycopg2.extensions.connection,
         redis_client: RedisClient,
@@ -143,59 +216,19 @@ def handle_return_borrowed_copy(
 
     if copy_is_reserved:
 
-        # Remove and fetch user the reserved it first from the copy's reservation queue
-        item = redis_client.pop_from_list(
-            name=RedisKeys.Queues.reservation_queue(copy_id=copy_id)
-        )
-
-        reservation_data = json.loads(item)
-
-        reservation_id = reservation_data['reservation_id']
-        reservation_user_id = reservation_data['user_id']
-
-        # Generate data for the new borrow event
-        new_borrow_event_data = borrow_available_copy(
-            redis_client=redis_client,
-            user_id=reservation_user_id,
-            copy_id=copy_id
-        )
-
-        # Create event envelope
-        new_borrow_event = create_event(
-            event_type='BORROW',
-            timestamp=datetime.fromisoformat(event['timestamp']),
-            data=new_borrow_event_data
-        )
-
-        # Emit new borrow event from user that reserved it
-        emit_event(
-            producer=producer,
-            topic=TOPIC,
-            event=new_borrow_event
-        )
-
-        # Remove reservation id from redis active reservations set
-        redis_client.remove_from_set(
-            RedisKeys.Sets.ACTIVE_RESERVATIONS_IDS,
-            reservation_id
-        )
-
-        # Setting up the loading query
-        query_filepath = os.path.join(CONSUMER_SQL_DIR, 'return_reserved_update_reservations.sql')
-
-        # Execute the query
-        execute_query(
+        # Update reservations table and emit new borrow event for the user
+        # that had reserved the returned copy
+        fulfill_copy_reservation_on_return(
             connection=connection,
-            query_filepath=query_filepath,
-            params={
-                'fulfilled_at': event['timestamp'],
-                'reservation_id': reservation_id,
-            }
+            redis_client=redis_client,
+            event=event,
+            producer=producer,
+            copy_id=copy_id,
         )
 
         # Have to update that the reservation was fulfilled
         # The current status of the copy
-        status = 'UNAVAILABLE'
+        copy_status = 'UNAVAILABLE'
 
     else:
         # Move copy id from unavailable to available in Redis
@@ -206,7 +239,7 @@ def handle_return_borrowed_copy(
         )
 
         # The current status of the copy
-        status = 'AVAILABLE'
+        copy_status = 'AVAILABLE'
 
     # Setting up the loading query
     query_filepath = os.path.join(CONSUMER_SQL_DIR, 'return_update_loans_update_copies.sql')
@@ -219,7 +252,7 @@ def handle_return_borrowed_copy(
             'loan_id': loan_id,
             'copy_id': copy_id,
             'return_date': event['timestamp'],
-            'status': status
+            'status': copy_status
         }
     )
 
