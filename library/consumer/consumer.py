@@ -3,17 +3,14 @@
 Run: python -m library.consumer.consumer.py
 """
 
-import json
-
-from kafka import KafkaConsumer
-
+from library.service.kafka.consumer import create_consumer
 from utilities.database import db_connection, DB_NAME
 
 from library.core.registry import EVENTS
 from library.core.validation import reject_event
 
 from library.service.redis.service import RedisClient
-from library.service.kafka.config import TOPIC, BOOTSTRAP, CONSUMER_GROUP_ID, AUTO_OFFSET_RESET
+from library.service.kafka.config import TOPIC, CONSUMER_GROUP_ID
 
 from library.consumer.handlers_dispatcher import handle_event
 
@@ -24,11 +21,8 @@ connection = db_connection(database=DB_NAME)
 redis_client = RedisClient()
 
 # Setting up consumer of events
-consumer = KafkaConsumer(
-    TOPIC,
-    bootstrap_servers=BOOTSTRAP,
-    value_deserializer=lambda v: json.loads(v.decode("utf-8")),
-    auto_offset_reset=AUTO_OFFSET_RESET,
+consumer = create_consumer(
+    topic=TOPIC,
     group_id=CONSUMER_GROUP_ID
 )
 

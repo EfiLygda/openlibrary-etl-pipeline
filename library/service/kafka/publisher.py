@@ -1,5 +1,8 @@
 """
 Kafka event publishing utilities
+
+This module provides helper functions for publishing application events
+to Kafka topics using configured Kafka producer instances.
 """
 
 import kafka

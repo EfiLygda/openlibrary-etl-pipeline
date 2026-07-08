@@ -3,20 +3,19 @@
 Run: python -m library.producer.producer.py
 """
 
-import json
 from random import seed, uniform
 from datetime import datetime
-
-from kafka import KafkaProducer
 
 from utilities.rate_limit import wait
 
 from library.core.validation import reject_event
 
-from library.service.kafka.config import BOOTSTRAP, TOPIC
+from library.service.kafka.config import TOPIC
+from library.service.kafka.producer import create_producer
 from library.service.redis.service import RedisClient
 
 from library.producer.producer_config import SEED, END_DATE
+from library.service.kafka.publisher import emit_event
 from library.producer.simulation.event_generator import generate_event
 
 # Seeding random module
@@ -26,10 +25,7 @@ seed(SEED)
 redis_client = RedisClient()
 
 # Setting up the Kafka producer
-producer = KafkaProducer(
-    bootstrap_servers=BOOTSTRAP,
-    value_serializer=lambda v: json.dumps(v).encode("utf-8")
-)
+producer = create_producer()
 
 # Starting producer simulation
 while True:
@@ -50,11 +46,11 @@ while True:
     print(event)
 
     # Publish the allowed event to chosen topic
-    producer.send(TOPIC, value=event)
-
-    # All buffered events are immediately available
-    # TODO: add batches
-    producer.flush()
+    emit_event(
+        producer=producer,
+        topic=TOPIC,
+        event=event
+    )
 
     # Wait before next event with jitter
     jitter = uniform(-0.1, 0.1)
