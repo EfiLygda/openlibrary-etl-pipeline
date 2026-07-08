@@ -4,7 +4,7 @@ Event handlers related to library demand.
 Handles events representing user intent to access unavailable resources, such as:
 * Reservation requests
 """
-
+import json
 import os
 import psycopg2
 
@@ -46,10 +46,15 @@ def handle_reservation_of_unavailable_copy(
         new_reservation_id
     )
 
-    # Add user to copy's reservation queue
+    # Add reservation ID and user ID to copy's reservation queue
+    queue_data = {
+        'reservation_id': new_reservation_id,
+        'user_id': event['data']['user_id'],
+    }
+
     redis_client.add_to_list(
         RedisKeys.Queues.reservation_queue(event['data']['copy_id']),
-        event['data']['user_id']
+        json.dumps(queue_data)
     )
 
     # Setting up the loading query
