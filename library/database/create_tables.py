@@ -51,7 +51,6 @@ def run():
         os.path.join(LIBRARY_SCHEMA, filename)
         for filename in sorted(os.listdir(LIBRARY_SCHEMA))
     ]
-    print(LIBRARY_SCHEMA)
 
     # For each table sql CREATE file create the table if it does not already exist
     for table_path in table_sql_paths:
