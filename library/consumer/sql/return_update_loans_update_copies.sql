@@ -11,7 +11,7 @@ RETURNING
 UPDATE
     copies
 SET
-    status = 'AVAILABLE'
+    status = %(status)s
 WHERE
     copy_id = %(copy_id)s
 RETURNING
