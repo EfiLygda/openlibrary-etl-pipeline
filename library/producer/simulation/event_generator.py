@@ -133,6 +133,33 @@ def get_event_weights_by_timeline(
         "RESERVATION": 0.0,
     }
 
+def create_event(
+        event_type: str,
+        timestamp: datetime,
+        data: dict
+) -> dict:
+    """
+    Creates a standardized event dictionary with a unique identifier
+
+    :param event_type: str, the type or name of the event.
+    :param timestamp: datetime, the date and time when the event occurred.
+    :param data: dict, a dictionary containing the event-specific payload.
+
+    :returns: dict, a dictionary representing the event with the following keys:
+
+        - ``event_id`` (str): A UUID4-generated unique identifier.
+        - ``event_type`` (str): The event type.
+        - ``timestamp`` (str): The event timestamp in ISO 8601 format.
+        - ``data`` (dict): The event payload.
+    """
+
+    # Return the event
+    return {
+      'event_id': str(uuid.uuid4()), # Universally Unique Identifier
+      'event_type': event_type,
+      'timestamp': timestamp.isoformat(),
+      'data': data
+    }
 
 def generate_event(redis_client: RedisClient) -> dict:
     """
@@ -167,10 +194,8 @@ def generate_event(redis_client: RedisClient) -> dict:
     # Generate the event's data via its event type
     data = EVENT_GENERATION_MAPPINGS[event_type](redis_client=redis_client)
 
-    # Return the event
-    return {
-      'event_id': str(uuid.uuid4()), # Universally Unique Identifier
-      'event_type': str(event_type),
-      'timestamp': timestamp.isoformat(),
-      'data': data
-    }
+    return create_event(
+        event_type=str(event_type),
+        timestamp=timestamp,
+        data=data
+    )
