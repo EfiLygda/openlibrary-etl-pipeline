@@ -20,7 +20,12 @@ Faker.seed(SEED)
 # Faker object for simulation
 fake = Faker()
 
-def borrow_available_copy(redis_client: RedisClient) -> dict:
+def borrow_available_copy(
+        redis_client: RedisClient,
+        user_id: str | None = None,
+        copy_id: str | None = None,
+
+) -> dict:
     """
     Simulates an available copy's borrowing from a user
 
@@ -28,9 +33,14 @@ def borrow_available_copy(redis_client: RedisClient) -> dict:
     :return: dict, dictionary with the user_id, the copy_id, and the due date for returning the copy
     """
 
-    # Choose a random user, copy and librarian
-    user_id = redis_client.get_random_from_set(RedisKeys.Sets.USER_IDS)
-    copy_id = redis_client.get_random_from_set(RedisKeys.Sets.AVAILABLE_COPIES_IDS)
+    # Choose a random user, copy when not given
+    if user_id is None:
+        user_id = redis_client.get_random_from_set(RedisKeys.Sets.USER_IDS)
+
+    if copy_id is None:
+        copy_id = redis_client.get_random_from_set(RedisKeys.Sets.AVAILABLE_COPIES_IDS)
+
+    # Choose random librarian
     librarian_id = redis_client.get_random_from_set(RedisKeys.Sets.LIBRARIAN_IDS)
 
     return {
