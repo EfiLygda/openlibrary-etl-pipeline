@@ -8,11 +8,18 @@ Handles events involving lending workflows, such as:
 """
 
 import os
+import json
+from datetime import datetime
+
 import psycopg2
 
 from kafka import KafkaProducer
 
 from config.paths import CONSUMER_SQL_DIR
+from library.producer.simulation.event_generator import create_event
+from library.producer.simulation.generators.circulation import borrow_available_copy
+from library.service.kafka.publisher import emit_event
+from library.start_library import TOPIC
 from library.utils.dates import add_days_to_str_date
 from utilities import execute_query
 
@@ -115,7 +122,7 @@ def handle_return_borrowed_copy(
     loan_id = event['data']['loan_id']
 
     # Fetch the copy from the loan's Redis hash
-    loan_copy_id = str(
+    copy_id = str(
         redis_client.get_from_hash(
             name=RedisKeys.Hashes.loan(loan_id),
             key='copy_id'
@@ -131,34 +138,62 @@ def handle_return_borrowed_copy(
 
     # Check if the copy was reserved
     copy_is_reserved = redis_client.length_of_list(
-            RedisKeys.Queues.reservation_queue(loan_copy_id)
+            RedisKeys.Queues.reservation_queue(copy_id)
     ) > 0
 
     if copy_is_reserved:
 
-        # When the reserved copy is returned, then the user
-        # that reserved it loans it
-        ###############################################
-        # Setting up the loading query
-        query_filepath = os.path.join(CONSUMER_SQL_DIR, 'insert_loan_update_copies.sql')
+        # Remove and fetch user the reserved it first from the copy's reservation queue
+        item = redis_client.pop_from_list(
+            name=RedisKeys.Queues.reservation_queue(copy_id=copy_id)
+        )
 
-        """
-        %(loan_id)s, %(user_id)s, %(copy_id)s,
-        %(borrow_date)s, %(due_date)s, %(return_date)s,
-        %(renewal_count)s, %(status)s, %(processed_by)s
-        """
+        reservation_data = json.loads(item)
+
+        reservation_id = reservation_data['reservation_id']
+        reservation_user_id = reservation_data['user_id']
+
+        # Generate data for the new borrow event
+        new_borrow_event_data = borrow_available_copy(
+            redis_client=redis_client,
+            user_id=reservation_user_id,
+            copy_id=copy_id
+        )
+
+        # Create event envelope
+        new_borrow_event = create_event(
+            event_type='BORROW',
+            timestamp=datetime.fromisoformat(event['timestamp']),
+            data=new_borrow_event_data
+        )
+
+        # Emit new borrow event from user that reserved it
+        emit_event(
+            producer=producer,
+            topic=TOPIC,
+            event=new_borrow_event
+        )
+
+        # Remove reservation id from redis active reservations set
+        redis_client.remove_from_set(
+            RedisKeys.Sets.ACTIVE_RESERVATIONS_IDS,
+            reservation_id
+        )
+
+        # Setting up the loading query
+        query_filepath = os.path.join(CONSUMER_SQL_DIR, 'return_reserved_update_reservations.sql')
+
+        # Execute the query
         execute_query(
             connection=connection,
             query_filepath=query_filepath,
             params={
-
-                'loan_id': loan_id,
-                'copy_id': loan_copy_id,
-                'return_date': event['timestamp'],
-                'status': status
+                'fulfilled_at': event['timestamp'],
+                'reservation_id': reservation_id,
             }
         )
 
+        # Have to update that the reservation was fulfilled
         # The current status of the copy
         status = 'UNAVAILABLE'
 
@@ -167,7 +202,7 @@ def handle_return_borrowed_copy(
         redis_client.move_sets(
             source=RedisKeys.Sets.UNAVAILABLE_COPIES_IDS,
             destination=RedisKeys.Sets.AVAILABLE_COPIES_IDS,
-            value=loan_copy_id
+            value=copy_id
         )
 
         # The current status of the copy
@@ -182,7 +217,7 @@ def handle_return_borrowed_copy(
         query_filepath=query_filepath,
         params={
             'loan_id': loan_id,
-            'copy_id': loan_copy_id,
+            'copy_id': copy_id,
             'return_date': event['timestamp'],
             'status': status
         }
