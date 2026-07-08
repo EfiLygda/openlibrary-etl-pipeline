@@ -10,6 +10,8 @@ Handles events involving lending workflows, such as:
 import os
 import psycopg2
 
+from kafka import KafkaProducer
+
 from config.paths import CONSUMER_SQL_DIR
 from library.utils.dates import add_days_to_str_date
 from utilities import execute_query
@@ -22,7 +24,8 @@ def handle_copy_borrowed(
         connection: psycopg2.extensions.connection,
         redis_client: RedisClient,
         event: dict,
-        counter: int
+        counter: int,
+        producer: KafkaProducer | None = None,
 ) -> tuple:
     """
     Inserts new record of a copy's borrowing to the 'loans' table
@@ -31,6 +34,7 @@ def handle_copy_borrowed(
     :param redis_client: RedisClient, the redis client used to fetch configuration values
     :param event: dict, the event/dictionary used
     :param counter: int, the event counter used for generating a record's ID
+    :param producer: KafkaProducer, producer used for emitting chain events, when needed
 
     :return: tuple, the tuple containing:
         * `data` - list of matching records returned by the query
@@ -90,7 +94,8 @@ def handle_return_borrowed_copy(
         connection: psycopg2.extensions.connection,
         redis_client: RedisClient,
         event: dict,
-        counter: int
+        counter: int,
+        producer: KafkaProducer,
 ) -> tuple:
     """
     Updates the loan's and the respective copy's status in the database
@@ -99,6 +104,7 @@ def handle_return_borrowed_copy(
     :param redis_client: RedisClient, the redis client used to fetch configuration values
     :param event: dict, the event/dictionary used
     :param counter: int, the event counter used for generating a record's ID
+    :param producer: KafkaProducer, producer used for emitting chain events, when needed
 
     :return: tuple, the tuple containing:
         * `data` - list of matching records returned by the query
@@ -123,12 +129,49 @@ def handle_return_borrowed_copy(
         loan_id
     )
 
-    # Move copy id from unavailable to available in Redis
-    redis_client.move_sets(
-        source=RedisKeys.Sets.UNAVAILABLE_COPIES_IDS,
-        destination=RedisKeys.Sets.AVAILABLE_COPIES_IDS,
-        value=loan_copy_id
-    )
+    # Check if the copy was reserved
+    copy_is_reserved = redis_client.length_of_list(
+            RedisKeys.Queues.reservation_queue(loan_copy_id)
+    ) > 0
+
+    if copy_is_reserved:
+
+        # When the reserved copy is returned, then the user
+        # that reserved it loans it
+        ###############################################
+        # Setting up the loading query
+        query_filepath = os.path.join(CONSUMER_SQL_DIR, 'insert_loan_update_copies.sql')
+
+        """
+        %(loan_id)s, %(user_id)s, %(copy_id)s,
+        %(borrow_date)s, %(due_date)s, %(return_date)s,
+        %(renewal_count)s, %(status)s, %(processed_by)s
+        """
+        execute_query(
+            connection=connection,
+            query_filepath=query_filepath,
+            params={
+
+                'loan_id': loan_id,
+                'copy_id': loan_copy_id,
+                'return_date': event['timestamp'],
+                'status': status
+            }
+        )
+
+        # The current status of the copy
+        status = 'UNAVAILABLE'
+
+    else:
+        # Move copy id from unavailable to available in Redis
+        redis_client.move_sets(
+            source=RedisKeys.Sets.UNAVAILABLE_COPIES_IDS,
+            destination=RedisKeys.Sets.AVAILABLE_COPIES_IDS,
+            value=loan_copy_id
+        )
+
+        # The current status of the copy
+        status = 'AVAILABLE'
 
     # Setting up the loading query
     query_filepath = os.path.join(CONSUMER_SQL_DIR, 'return_update_loans_update_copies.sql')
@@ -140,7 +183,8 @@ def handle_return_borrowed_copy(
         params={
             'loan_id': loan_id,
             'copy_id': loan_copy_id,
-            'return_date': event['timestamp']
+            'return_date': event['timestamp'],
+            'status': status
         }
     )
 
@@ -148,7 +192,8 @@ def handle_renewal_of_borrowed_copy(
         connection: psycopg2.extensions.connection,
         redis_client: RedisClient,
         event: dict,
-        counter: int
+        counter: int,
+        producer: KafkaProducer | None = None,
 ) -> tuple:
     """
     Updates the loans due date and renewal count in 'loans' table
@@ -157,6 +202,7 @@ def handle_renewal_of_borrowed_copy(
     :param redis_client: RedisClient, the redis client used to fetch configuration values
     :param event: dict, the event/dictionary used
     :param counter: int, the event counter used for generating a record's ID
+    :param producer: KafkaProducer, producer used for emitting chain events, when needed
 
     :return: tuple, the tuple containing:
         * `data` - list of matching records returned by the query

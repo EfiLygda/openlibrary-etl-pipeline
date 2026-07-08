@@ -8,6 +8,8 @@ Handles events involving physical copies of works, such as:
 import os
 import psycopg2
 
+from kafka import KafkaProducer
+
 from config.paths import CONSUMER_SQL_DIR
 from utilities import execute_query
 
@@ -19,7 +21,8 @@ def handle_copy_purchased(
         connection: psycopg2.extensions.connection,
         redis_client: RedisClient,
         event: dict,
-        counter: int
+        counter: int,
+        producer: KafkaProducer | None = None,
 ) -> tuple:
     """
     Inserts new purchased copy record to the 'copies' table
@@ -28,6 +31,7 @@ def handle_copy_purchased(
     :param redis_client: RedisClient, the redis client used to fetch configuration values
     :param event: dict, the event/dictionary used
     :param counter: int, the event counter used for generating a record's ID
+    :param producer: KafkaProducer, producer used for emitting chain events, when needed
 
     :return: tuple, the tuple containing:
         * `data` - list of matching records returned by the query

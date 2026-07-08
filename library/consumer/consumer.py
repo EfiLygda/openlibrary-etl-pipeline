@@ -3,7 +3,6 @@
 Run: python -m library.consumer.consumer.py
 """
 
-from library.service.kafka.consumer import create_consumer
 from utilities.database import db_connection, DB_NAME
 
 from library.core.registry import EVENTS
@@ -11,6 +10,8 @@ from library.core.validation import reject_event
 
 from library.service.redis.service import RedisClient
 from library.service.kafka.config import TOPIC, CONSUMER_GROUP_ID
+from library.service.kafka.consumer import create_consumer
+from library.service.kafka.producer import create_producer
 
 from library.consumer.handlers_dispatcher import handle_event
 
@@ -25,6 +26,9 @@ consumer = create_consumer(
     topic=TOPIC,
     group_id=CONSUMER_GROUP_ID
 )
+
+# Producer used for emitting chain events
+producer = create_producer()
 
 # For each message/event in the topic
 # the consumer fetches the event message
@@ -41,18 +45,6 @@ for msg in consumer:
         # Display event
         print(event)
 
-    # Save event type
-    event_type = event['event_type']
-
-    # Fetch event spec
-    event_spec = EVENTS[event_type]
-
-    # Get the current event's counter for Redis
-    counter_name = event_spec.counter_name(event)
-
-    # Increment event counter
-    counter = redis_client.increment_counter(counter_name)
-
     # TODO: add bulk loading of db at end of day
     # If current event type can be handled then use the proper
     # handler and load data to database
@@ -60,5 +52,5 @@ for msg in consumer:
         connection=connection,
         redis_client=redis_client,
         event=event,
-        counter=counter
+        producer=producer
     )

@@ -9,6 +9,8 @@ Handles events involving users and librarians, such as:
 import os
 import psycopg2
 
+from kafka import KafkaProducer
+
 from config.paths import CONSUMER_SQL_DIR
 from utilities import execute_query
 
@@ -19,7 +21,8 @@ def handle_librarian_hired(
         connection: psycopg2.extensions.connection,
         redis_client: RedisClient,
         event: dict,
-        counter: int
+        counter: int,
+        producer: KafkaProducer | None = None,
 ) -> tuple:
     """
     Inserts new hired librarian record to the 'librarians' table
@@ -28,6 +31,7 @@ def handle_librarian_hired(
     :param redis_client: RedisClient, the redis client used to fetch configuration values
     :param event: dict, the event/dictionary used
     :param counter: int, the event counter used for generating a record's ID
+    :param producer: KafkaProducer, producer used for emitting chain events, when needed
 
     :return: tuple, the tuple containing:
         * `data` - list of matching records returned by the query
@@ -63,7 +67,8 @@ def handle_user_registered(
         connection: psycopg2.extensions.connection,
         redis_client: RedisClient,
         event: dict,
-        counter: int
+        counter: int,
+        producer: KafkaProducer | None = None,
 ) -> tuple:
     """
     Inserts new registered user record to the 'users' table
@@ -72,6 +77,7 @@ def handle_user_registered(
     :param redis_client: RedisClient, the redis client used to fetch configuration values
     :param event: dict, the event/dictionary used
     :param counter: int, the event counter used for generating a record's ID
+    :param producer: KafkaProducer, producer used for emitting chain events, when needed
 
     :return: tuple, the tuple containing:
         * `data` - list of matching records returned by the query
