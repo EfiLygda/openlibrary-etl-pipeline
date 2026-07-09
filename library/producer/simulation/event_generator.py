@@ -15,20 +15,17 @@ from library.producer.producer_config import (
     LIBRARY_OPENING_DATE
 )
 
-from library.producer.simulation.generators import people
-from library.producer.simulation.generators import inventory
-from library.producer.simulation.generators import circulation
-from library.producer.simulation.generators import demand
+from library.producer.simulation import generators
 
 # Mapping event names to their respective generation functions
 EVENT_GENERATION_MAPPINGS = {
-    'USER_REGISTERED': people.user_registration,
-    'LIBRARIAN_HIRED': people.librarian_hired,
-    'COPY_PURCHASED': inventory.copy_purchased,
-    'BORROW': circulation.borrow_available_copy,
-    'RETURN': circulation.return_copy,
-    'RENEWAL': circulation.renew_loan,
-    'RESERVATION': demand.reserve_unavailable_copy,
+    'USER_REGISTERED': generators.people.user_registration,
+    'LIBRARIAN_HIRED': generators.people.librarian_hired,
+    'COPY_PURCHASED': generators.inventory.copy_purchased,
+    'BORROW': generators.circulation.borrow_available_copy,
+    'RETURN': generators.circulation.return_copy,
+    'RENEWAL': generators.circulation.renew_loan,
+    'RESERVATION': generators.demand.reserve_unavailable_copy,
 }
 
 def get_event_weights_by_timeline(
