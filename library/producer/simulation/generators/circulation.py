@@ -30,15 +30,18 @@ def borrow_available_copy(
     Simulates an available copy's borrowing from a user
 
     :param redis_client: RedisClient, the redis client used to fetch configuration values
+    :param user_id: str | None, the user id for generating the event, if given
+    :param copy_id: str | None, the copy id for generating the event, if given
+
     :return: dict, dictionary with the user_id, the copy_id, and the due date for returning the copy
     """
 
     # Choose a random user, copy when not given
     if user_id is None:
-        user_id = redis_client.get_random_from_set(RedisKeys.Sets.USER_IDS)
+        user_id = str(redis_client.get_random_from_set(RedisKeys.Sets.USER_IDS))
 
     if copy_id is None:
-        copy_id = redis_client.get_random_from_set(RedisKeys.Sets.AVAILABLE_COPIES_IDS)
+        copy_id = str(redis_client.get_random_from_set(RedisKeys.Sets.AVAILABLE_COPIES_IDS))
 
     # Choose random librarian
     librarian_id = redis_client.get_random_from_set(RedisKeys.Sets.LIBRARIAN_IDS)
