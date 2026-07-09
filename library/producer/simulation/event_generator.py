@@ -2,12 +2,9 @@
 Module for generating events
 """
 
-import os
 import uuid
 import numpy as np
 from datetime import datetime
-
-from config.paths import LIBRARY_ROOT
 
 from library.service.redis.service import RedisClient
 from library.service.redis.keys import RedisKeys
@@ -22,10 +19,6 @@ from library.producer.simulation.generators import people
 from library.producer.simulation.generators import inventory
 from library.producer.simulation.generators import circulation
 from library.producer.simulation.generators import demand
-
-# Path for SQL commands used for generating data
-# TODO: add to config paths
-sql_dir = os.path.join(LIBRARY_ROOT, 'producer', 'sql')
 
 # Mapping event names to their respective generation functions
 EVENT_GENERATION_MAPPINGS = {
