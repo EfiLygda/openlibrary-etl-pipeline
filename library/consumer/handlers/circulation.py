@@ -16,7 +16,7 @@ import psycopg2
 from kafka import KafkaProducer
 
 from config.paths import CONSUMER_SQL_DIR
-from library.producer.simulation.event_generator import create_event
+from library.producer.simulation.event_factory import create_event
 from library.producer.simulation.generators.circulation import borrow_available_copy
 from library.service.kafka.publisher import emit_event
 from library.start_library import TOPIC
