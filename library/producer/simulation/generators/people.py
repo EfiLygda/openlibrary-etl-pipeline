@@ -8,7 +8,7 @@ Includes events such as:
 
 from faker import Faker
 
-from library.service.redis.service import RedisClient
+from library.service.redis.client import RedisClient
 from library.producer.producer_config import SEED
 from library.producer.utils.emails import generate_email
 

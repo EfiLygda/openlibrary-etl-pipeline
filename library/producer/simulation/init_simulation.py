@@ -13,7 +13,7 @@ Intended to bootstrap the Redis state for the producer/consumer simulation workf
 from utilities.logging import set_logger
 
 from library.service.redis.keys import RedisKeys
-from library.service.redis.service import RedisClient
+from library.service.redis.client import RedisClient
 from library.producer.simulation.bootstrap import build_context
 
 logger = set_logger('INITIALIZE_SIMULATION')

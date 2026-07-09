@@ -24,7 +24,7 @@ from library.utils.dates import add_days_to_str_date
 from utilities import execute_query
 
 from library.service.redis.keys import RedisKeys
-from library.service.redis.service import RedisClient
+from library.service.redis.client import RedisClient
 
 
 def handle_copy_borrowed(

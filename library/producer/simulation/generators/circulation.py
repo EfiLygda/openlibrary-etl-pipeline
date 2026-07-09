@@ -11,7 +11,7 @@ from faker import Faker
 from datetime import timedelta
 
 from library.service.redis.keys import RedisKeys
-from library.service.redis.service import RedisClient
+from library.service.redis.client import RedisClient
 from library.producer.producer_config import SEED, CLOCK
 
 # Seeding faker for reproducible data

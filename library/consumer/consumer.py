@@ -8,7 +8,7 @@ from utilities.database import db_connection, DB_NAME
 from library.core.registry import EVENTS
 from library.core.validation import reject_event
 
-from library.service.redis.service import RedisClient
+from library.service.redis.client import RedisClient
 from library.service.kafka.config import TOPIC, CONSUMER_GROUP_ID
 from library.service.kafka.consumer import create_consumer
 from library.service.kafka.producer import create_producer

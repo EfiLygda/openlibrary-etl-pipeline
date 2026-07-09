@@ -14,7 +14,7 @@ from config.paths import CONSUMER_SQL_DIR
 from utilities import execute_query
 
 from library.service.redis.keys import RedisKeys
-from library.service.redis.service import RedisClient
+from library.service.redis.client import RedisClient
 
 def handle_reservation_of_unavailable_copy(
         connection: psycopg2.extensions.connection,

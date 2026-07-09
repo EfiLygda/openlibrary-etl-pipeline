@@ -12,7 +12,7 @@ from library.core.validation import reject_event
 
 from library.service.kafka.config import TOPIC
 from library.service.kafka.producer import create_producer
-from library.service.redis.service import RedisClient
+from library.service.redis.client import RedisClient
 
 from library.producer.producer_config import SEED, END_DATE
 from library.service.kafka.publisher import emit_event

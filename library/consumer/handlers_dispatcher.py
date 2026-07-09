@@ -6,7 +6,7 @@ import psycopg2
 
 from kafka import KafkaProducer
 
-from library.service.redis.service import RedisClient
+from library.service.redis.client import RedisClient
 from library.core.registry import EVENTS
 
 def handle_event(

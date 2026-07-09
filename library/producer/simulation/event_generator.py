@@ -6,7 +6,7 @@ import uuid
 import numpy as np
 from datetime import datetime
 
-from library.service.redis.service import RedisClient
+from library.service.redis.client import RedisClient
 from library.service.redis.keys import RedisKeys
 
 from library.producer.producer_config import (

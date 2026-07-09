@@ -3,7 +3,7 @@ Event validation module
 """
 
 from library.core.registry import EVENTS
-from library.service.redis.service import RedisClient
+from library.service.redis.client import RedisClient
 
 def is_over_max_allowed(
         redis_client: RedisClient,
