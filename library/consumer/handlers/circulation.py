@@ -93,7 +93,7 @@ def handle_copy_borrowed(
 
             'renewal_count': 0,
             'status': 'ACTIVE', # "ACTIVE | RETURNED"
-            'processed_by':  event['data']['librarian_id']
+            'loan_processed_by':  event['data']['librarian_id']
         }
     )
 

@@ -10,12 +10,12 @@ INSERT INTO loans (
 
     renewal_count,
     status,
-    processed_by
+    loan_processed_by
 )
 VALUES (
     %(loan_id)s, %(user_id)s, %(copy_id)s,
     %(borrow_date)s, %(due_date)s, %(return_date)s,
-    %(renewal_count)s, %(status)s, %(processed_by)s
+    %(renewal_count)s, %(status)s, %(loan_processed_by)s
 )
 RETURNING loan_id;
 
