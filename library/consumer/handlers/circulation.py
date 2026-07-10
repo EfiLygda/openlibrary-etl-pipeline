@@ -252,6 +252,7 @@ def handle_return_borrowed_copy(
             'loan_id': loan_id,
             'copy_id': copy_id,
             'return_date': event['timestamp'],
+            'librarian_id': event['data']['librarian_id'],
             'status': copy_status
         }
     )

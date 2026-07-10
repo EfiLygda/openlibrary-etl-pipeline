@@ -64,8 +64,12 @@ def return_copy(redis_client: RedisClient) -> dict:
     # Choose a random active loan
     loan_id = redis_client.get_random_from_set(RedisKeys.Sets.ACTIVE_LOANS_IDS)
 
+    # Choose random librarian
+    librarian_id = redis_client.get_random_from_set(RedisKeys.Sets.LIBRARIAN_IDS)
+
     return {
         'loan_id': loan_id,
+        'librarian_id': librarian_id,
     }
 
 def renew_loan(redis_client: RedisClient):
