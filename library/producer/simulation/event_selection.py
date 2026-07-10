@@ -50,10 +50,10 @@ def get_category_weights_by_timeline(
     # ----------------------------
     if has_available_copies and has_unavailable_copies:
         return {
-            'PEOPLE': 0.04, # LIBRARIAN_HIRED: 0.01, USER_REGISTERED: 0.03
-            'INVENTORY': 0.08, # COPY_PURCHASED: 0.08
-            'CIRCULATION': 0.82, # BORROW: O.5, RETURN: 0.2, RENEWAL: 0.12
-            'DEMAND': 0.06, # RESERVATION: 0.06
+            'PEOPLE': 0.04, # LIBRARIAN_HIRED, USER_REGISTERED
+            'INVENTORY': 0.08, # COPY_PURCHASED
+            'CIRCULATION': 0.82, # BORROW, RETURN, RENEWAL
+            'DEMAND': 0.06, # RESERVATION
         }
 
     # ----------------------------
@@ -61,9 +61,9 @@ def get_category_weights_by_timeline(
     # ----------------------------
     if has_available_copies and not has_unavailable_copies:
         return {
-            'PEOPLE': 0.04, # LIBRARIAN_HIRED: 0.01, USER_REGISTERED: 0.03
-            'INVENTORY': 0.08, # COPY_PURCHASED: 0.08
-            'CIRCULATION': 0.88, # BORROW: 0.88
+            'PEOPLE': 0.04, # LIBRARIAN_HIRED, USER_REGISTERED
+            'INVENTORY': 0.08, # COPY_PURCHASED
+            'CIRCULATION': 0.88, # BORROW
         }
 
     # ----------------------------
@@ -71,22 +71,23 @@ def get_category_weights_by_timeline(
     # ----------------------------
     if not has_available_copies and has_unavailable_copies:
         return {
-            'PEOPLE': 0.04,  # LIBRARIAN_HIRED: 0.01, USER_REGISTERED: 0.03
-            'INVENTORY': 0.08,  # COPY_PURCHASED: 0.08
-            'CIRCULATION': 0.70, # RETURN: 0.60, RENEWAL: 0.10
-            'DEMAND': 0.18, # RESERVATION: 0.18
+            'PEOPLE': 0.04,  # LIBRARIAN_HIRED, USER_REGISTERED
+            'INVENTORY': 0.08,  # COPY_PURCHASED
+            'CIRCULATION': 0.70, # RETURN, RENEWAL
+            'DEMAND': 0.18, # RESERVATION
         }
 
     # ----------------------------
     # FALLBACK
     # ----------------------------
     return {
-        'PEOPLE': 0.80, # LIBRARIAN_HIRED: 0.02, USER_REGISTERED: 0.78
-        'INVENTORY': 0.20, # COPY_PURCHASED: 0.20
+        'PEOPLE': 0.80, # LIBRARIAN_HIRED, USER_REGISTERED
+        'INVENTORY': 0.20, # COPY_PURCHASED
     }
 
 def get_event_weights(
         category: str,
+        timestamp: datetime,
         has_available_copies: bool,
         has_unavailable_copies: bool,
 ) -> dict:
@@ -96,6 +97,8 @@ def get_event_weights(
 
     :param category: str, the selected event category whose internal event
         probabilities should be calculated
+    :param timestamp: datetime.datetime, the current simulation timestamp used to determine
+        the current phase of the library lifecycle
     :param has_available_copies: bool, indicates whether there are currently
         available copies that can be borrowed
     :param has_unavailable_copies: bool, indicates whether there are currently
@@ -105,9 +108,19 @@ def get_event_weights(
         weights within the selected category
     """
     if category == 'PEOPLE':
+        if timestamp <= LIBRARIANS_HIRINGS_DEADLINE:
+            return {
+                "LIBRARIAN_HIRED": 1.0,
+            }
+
+        if timestamp < LIBRARY_OPENING_DATE:
+            return {
+                "USER_REGISTERED": 1.0,
+            }
+
         return {
-            'LIBRARIAN_HIRED': 0.25,
-            'USER_REGISTERED': 0.75
+            "LIBRARIAN_HIRED": 0.10,
+            "USER_REGISTERED": 0.90,
         }
 
     if category == "INVENTORY":
@@ -190,6 +203,7 @@ def get_event_by_timeline(
     # Get the event weights for the current event category
     event_weights = get_event_weights(
         category=category,
+        timestamp=timestamp,
         has_available_copies=has_available_copies,
         has_unavailable_copies=has_unavailable_copies,
     )
