@@ -9,7 +9,8 @@ CREATE TABLE IF NOT EXISTS loans (
 
     renewal_count  INTEGER DEFAULT 0,
     status         TEXT,
-    processed_by   TEXT,
+    loan_processed_by   TEXT,
+    return_processed_by   TEXT,
 
     CONSTRAINT fk_loans_user_id
         FOREIGN KEY (user_id)
@@ -19,7 +20,11 @@ CREATE TABLE IF NOT EXISTS loans (
         FOREIGN KEY (copy_id)
         REFERENCES copies(copy_id),
 
-    CONSTRAINT fk_loans_processed_by
-        FOREIGN KEY (processed_by)
+    CONSTRAINT fk_loans_loan_processed_by
+        FOREIGN KEY (loan_processed_by)
+        REFERENCES librarians(librarian_id),
+
+    CONSTRAINT fk_loans_return_processed_by
+        FOREIGN KEY (return_processed_by)
         REFERENCES librarians(librarian_id)
 );
