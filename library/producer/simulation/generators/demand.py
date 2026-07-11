@@ -34,3 +34,19 @@ def reserve_unavailable_copy(redis_client: RedisClient) -> dict:
         'user_id': user_id,
         'copy_id': copy_id,
     }
+
+def cancel_reservation(redis_client: RedisClient) -> dict:
+    """
+    Simulates an active reservation's cancellation
+
+    :param redis_client: RedisClient, the redis client used to fetch configuration values
+
+    :return: dict, dictionary with the reservation_id
+    """
+
+    # Fetch random active reservation to cancel
+    reservation_id = redis_client.get_random_from_set(RedisKeys.Sets.ACTIVE_RESERVATIONS_IDS)
+
+    return {
+        'reservation_id': reservation_id
+    }
