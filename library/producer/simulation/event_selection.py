@@ -35,14 +35,14 @@ def get_category_weights_by_timeline(
 
     if timestamp <= LIBRARIANS_HIRINGS_DEADLINE:
         return {
-            'PEOPLE': 0.6, # LIBRARIAN_HIRED
-            'INVENTORY': 0.4, # COPY_PURCHASED
+            'PEOPLE': 0.60, # LIBRARIAN_HIRED
+            'INVENTORY': 0.40, # COPY_PURCHASED
         }
 
     if timestamp < LIBRARY_OPENING_DATE:
         return {
-            'INVENTORY': 0.3, # COPY_PURCHASED
-            'PEOPLE': 0.7, # USER_REGISTERED
+            'PEOPLE': 0.30,  # USER_REGISTERED
+            'INVENTORY': 0.70, # COPY_PURCHASED
         }
 
     # ----------------------------
@@ -51,8 +51,8 @@ def get_category_weights_by_timeline(
     if has_available_copies and has_unavailable_copies:
         return {
             'PEOPLE': 0.04, # LIBRARIAN_HIRED, USER_REGISTERED
-            'INVENTORY': 0.08, # COPY_PURCHASED
-            'CIRCULATION': 0.82, # BORROW, RETURN, RENEWAL
+            'INVENTORY': 0.30, # COPY_PURCHASED
+            'CIRCULATION': 0.60, # BORROW, RETURN, RENEWAL
             'DEMAND': 0.06, # RESERVATION
         }
 
@@ -62,8 +62,8 @@ def get_category_weights_by_timeline(
     if has_available_copies and not has_unavailable_copies:
         return {
             'PEOPLE': 0.04, # LIBRARIAN_HIRED, USER_REGISTERED
-            'INVENTORY': 0.08, # COPY_PURCHASED
-            'CIRCULATION': 0.88, # BORROW
+            'INVENTORY': 0.30, # COPY_PURCHASED
+            'CIRCULATION': 0.66, # BORROW
         }
 
     # ----------------------------
@@ -72,8 +72,8 @@ def get_category_weights_by_timeline(
     if not has_available_copies and has_unavailable_copies:
         return {
             'PEOPLE': 0.04,  # LIBRARIAN_HIRED, USER_REGISTERED
-            'INVENTORY': 0.08,  # COPY_PURCHASED
-            'CIRCULATION': 0.70, # RETURN, RENEWAL
+            'INVENTORY': 0.30,  # COPY_PURCHASED
+            'CIRCULATION': 0.48, # RETURN, RENEWAL
             'DEMAND': 0.18, # RESERVATION
         }
 
@@ -81,8 +81,8 @@ def get_category_weights_by_timeline(
     # FALLBACK
     # ----------------------------
     return {
-        'PEOPLE': 0.80, # LIBRARIAN_HIRED, USER_REGISTERED
-        'INVENTORY': 0.20, # COPY_PURCHASED
+        'PEOPLE': 0.30, # LIBRARIAN_HIRED, USER_REGISTERED
+        'INVENTORY': 0.70, # COPY_PURCHASED
     }
 
 def get_event_weights(
