@@ -33,7 +33,7 @@ def handle_copy_borrowed(
         event: dict,
         counter: int,
         producer: KafkaProducer | None = None,
-) -> tuple:
+) -> None:
     """
     Inserts new record of a copy's borrowing to the 'loans' table
 
@@ -79,7 +79,7 @@ def handle_copy_borrowed(
     query_filepath = os.path.join(CONSUMER_SQL_DIR, 'insert_loan_update_copies.sql')
 
     # Execute the query
-    return execute_query(
+    execute_query(
         connection=connection,
         query_filepath=query_filepath,
         params={
@@ -96,6 +96,23 @@ def handle_copy_borrowed(
             'loan_processed_by':  event['data']['librarian_id']
         }
     )
+
+    # If the event was triggered for fulfilling a reservation
+    # then update the reservations table with the new loan ID
+    if event.get('trigger') == 'RESERVATION_FULFILLMENT':
+
+        # Setting up the loading query
+        query_filepath = os.path.join(CONSUMER_SQL_DIR, 'reservation_fulfillment_update_reservations.sql')
+
+        # Execute the query
+        execute_query(
+            connection=connection,
+            query_filepath=query_filepath,
+            params={
+                'fulfillment_loan_id': new_loan_id,
+                'reservation_id': event['data']['fulfilled_reservation_id']
+            }
+        )
 
 def fulfill_copy_reservation_on_return(
         connection: psycopg2.extensions.connection,
@@ -135,14 +152,16 @@ def fulfill_copy_reservation_on_return(
     new_borrow_event_data = borrow_available_copy(
         redis_client=redis_client,
         user_id=reservation_user_id,
-        copy_id=copy_id
+        copy_id=copy_id,
+        fulfilled_reservation_id=reservation_id,
     )
 
     # Create event envelope
     new_borrow_event = create_event(
         event_type='BORROW',
         timestamp=datetime.fromisoformat(event['timestamp']),
-        data=new_borrow_event_data
+        data=new_borrow_event_data,
+        trigger='RESERVATION_FULFILLMENT'
     )
 
     # Emit new borrow event from user that reserved it
