@@ -51,6 +51,10 @@ class RedisKeys:
             return f'max:edition:{edition_key}:copies'
 
     class Counters:
+        """
+        Counters are used for ID generation in tables, so not every event
+        will have its own counter
+        """
         USERS = 'counter:users'
         LIBRARIANS = 'counter:librarians'
         LOANS = 'counter:loans'
