@@ -119,13 +119,15 @@ def fulfill_copy_reservation_on_return(
         * `data_column_names` - column names corresponding to the records
     """
 
-    # Remove and fetch user the reserved it first from the copy's reservation queue
+    # Remove and fetch reservation data from the copy's reservation queue
     item = redis_client.pop_from_list(
         name=RedisKeys.Queues.reservation_queue(copy_id=copy_id)
     )
 
+    # Load reservation data
     reservation_data = json.loads(item)
 
+    # Unpack reservation ID and user ID
     reservation_id = reservation_data['reservation_id']
     reservation_user_id = reservation_data['user_id']
 
