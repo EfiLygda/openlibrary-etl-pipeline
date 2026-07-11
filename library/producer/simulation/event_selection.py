@@ -133,32 +133,33 @@ def get_event_weights(
             "RESERVATION": 1.0,
         }
 
-    # ----------------------------
-    # CASE 1: available + borrowed exist
-    # ----------------------------
-    if has_available_copies and has_unavailable_copies:
-        return {
-            "BORROW": 0.61,
-            "RETURN": 0.24,
-            "RENEWAL": 0.15,
-        }
+    if category == 'CIRCULATION':
+        # ----------------------------
+        # CASE 1: available + borrowed exist
+        # ----------------------------
+        if has_available_copies and has_unavailable_copies:
+            return {
+                "BORROW": 0.61,
+                "RETURN": 0.24,
+                "RENEWAL": 0.15,
+            }
 
-    # ----------------------------
-    # CASE 2: only available copies
-    # ----------------------------
-    if has_available_copies and not has_unavailable_copies:
-        return {
-            "BORROW": 1.0,
-        }
+        # ----------------------------
+        # CASE 2: only available copies
+        # ----------------------------
+        if has_available_copies and not has_unavailable_copies:
+            return {
+                "BORROW": 1.0,
+            }
 
-    # ----------------------------
-    # CASE 3: only borrowed copies
-    # ----------------------------
-    if not has_available_copies and has_unavailable_copies:
-        return {
-            "RETURN": 0.86,
-            "RENEWAL": 0.14,
-        }
+        # ----------------------------
+        # CASE 3: only borrowed copies
+        # ----------------------------
+        if not has_available_copies and has_unavailable_copies:
+            return {
+                "RETURN": 0.86,
+                "RENEWAL": 0.14,
+            }
 
     return {}
 
