@@ -24,6 +24,7 @@ def borrow_available_copy(
         redis_client: RedisClient,
         user_id: str | None = None,
         copy_id: str | None = None,
+        fulfilled_reservation_id: str | None = None,
 
 ) -> dict:
     """
@@ -32,6 +33,8 @@ def borrow_available_copy(
     :param redis_client: RedisClient, the redis client used to fetch configuration values
     :param user_id: str | None, the user id for generating the event, if given
     :param copy_id: str | None, the copy id for generating the event, if given
+    :param fulfilled_reservation_id: str | None, the reservation id of a fulfilled reservations
+        for generating the event, if given
 
     :return: dict, dictionary with the user_id, the copy_id, and the due date for returning the copy
     """
@@ -45,6 +48,15 @@ def borrow_available_copy(
 
     # Choose random librarian
     librarian_id = redis_client.get_random_from_set(RedisKeys.Sets.LIBRARIAN_IDS)
+
+    if fulfilled_reservation_id:
+        return {
+            'user_id': user_id,
+            'copy_id': copy_id,
+            'librarian_id': librarian_id,
+            'due_date': (CLOCK.now() + timedelta(days=7)).isoformat(),
+            'fulfilled_reservation_id': fulfilled_reservation_id,
+        }
 
     return {
         'user_id': user_id,
