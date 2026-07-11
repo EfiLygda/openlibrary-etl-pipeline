@@ -1,13 +1,14 @@
 CREATE TABLE IF NOT EXISTS reservations (
-    reservation_id    TEXT PRIMARY KEY,
-    user_id           TEXT NOT NULL,
-    copy_id           TEXT NOT NULL,
+    reservation_id      TEXT PRIMARY KEY,
+    user_id             TEXT NOT NULL,
+    copy_id             TEXT NOT NULL,
 
-    reserved_at       TIMESTAMP,
+    reserved_at         TIMESTAMP,
 
-    fulfilled_at      TIMESTAMP,
-    cancelled_at      TIMESTAMP,
-    status            TEXT,
+    fulfilled_at        TIMESTAMP,
+    fulfillment_loan_id TEXT,
+    cancelled_at        TIMESTAMP,
+    status              TEXT,
 
     CONSTRAINT fk_reservations_user_id
         FOREIGN KEY (user_id)
@@ -15,5 +16,9 @@ CREATE TABLE IF NOT EXISTS reservations (
 
     CONSTRAINT fk_reservations_copy_id
         FOREIGN KEY (copy_id)
-        REFERENCES copies(copy_id)
+        REFERENCES copies(copy_id),
+
+    CONSTRAINT fk_reservations_fulfillment_loan_id
+    FOREIGN KEY (fulfillment_loan_id)
+    REFERENCES loans(loan_id)
 );
