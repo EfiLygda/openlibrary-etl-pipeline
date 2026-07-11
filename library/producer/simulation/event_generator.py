@@ -17,6 +17,7 @@ EVENT_GENERATION_MAPPINGS = {
     'RETURN': generators.circulation.return_copy,
     'RENEWAL': generators.circulation.renew_loan,
     'RESERVATION': generators.demand.reserve_unavailable_copy,
+    'CANCELLED_RESERVATION': generators.demand.cancel_reservation,
 }
 
 def generate_event(redis_client: RedisClient) -> dict:
