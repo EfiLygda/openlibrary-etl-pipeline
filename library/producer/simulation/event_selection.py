@@ -90,6 +90,7 @@ def get_event_weights(
         timestamp: datetime,
         has_available_copies: bool,
         has_unavailable_copies: bool,
+        has_active_reservations: bool,
 ) -> dict:
     """
     Determines the probability distribution of events inside a specific
@@ -103,6 +104,8 @@ def get_event_weights(
         available copies that can be borrowed
     :param has_unavailable_copies: bool, indicates whether there are currently
         borrowed/unavailable copies in the system
+    :param has_active_reservations: bool, indicates whether there are currently
+        active reservations in the system
 
     :return: dict, a dictionary mapping event names to their respective probability
         weights within the selected category
@@ -129,9 +132,22 @@ def get_event_weights(
         }
 
     if category == "DEMAND":
-        return {
-            "RESERVATION": 1.0,
-        }
+        # ----------------------------
+        # CASE 1: active reservations
+        # ----------------------------
+        if has_active_reservations:
+            return {
+                'RESERVATION': 0.80,
+                'CANCELLED_RESERVATION': 0.20
+            }
+
+        # ----------------------------
+        # CASE 2: no active reservations
+        # ----------------------------
+        else:
+            return {
+                "RESERVATION": 1.0,
+            }
 
     if category == 'CIRCULATION':
         # ----------------------------
@@ -187,6 +203,9 @@ def get_event_by_timeline(
     has_available_copies = redis_client.get_set_size(RedisKeys.Sets.AVAILABLE_COPIES_IDS) > 0
     has_unavailable_copies = redis_client.get_set_size(RedisKeys.Sets.UNAVAILABLE_COPIES_IDS) > 0
 
+    # Check if there are active reservations
+    has_active_reservations = redis_client.get_set_size(RedisKeys.Sets.ACTIVE_RESERVATIONS_IDS) > 0
+
     # Fetch the category weights according to the timeline
     category_weights = get_category_weights_by_timeline(
         timestamp=timestamp,
@@ -207,6 +226,7 @@ def get_event_by_timeline(
         timestamp=timestamp,
         has_available_copies=has_available_copies,
         has_unavailable_copies=has_unavailable_copies,
+        has_active_reservations=has_active_reservations,
     )
 
     # Choose a random event from the available, according to the timeline
