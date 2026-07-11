@@ -48,7 +48,7 @@ for msg in consumer:
     # TODO: add bulk loading of db at end of day
     # If current event type can be handled then use the proper
     # handler and load data to database
-    data, _ = handle_event(
+    handle_event(
         connection=connection,
         redis_client=redis_client,
         event=event,
