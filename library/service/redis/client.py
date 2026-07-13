@@ -2,7 +2,7 @@
 Contains simple Redis wrapper used for counters and sets in the library system
 """
 
-from typing import Awaitable
+from typing import Awaitable, Any
 
 import redis
 from redis.client import Pipeline
@@ -209,6 +209,18 @@ class RedisClient:
                  or None if the list does not exist or is empty
         """
         return self.redis.lpop(name)
+
+    def remove_from_list(self, name: str, value: Any) -> int:
+        """
+        Removes a value from a Redis list
+
+        :param name: str, name of the Redis list
+        :param value: str, value to remove
+
+        :return: int, number of removed elements
+        """
+        # If count = 0 then all occurrences of the value are removed
+        return self.redis.lrem(name=name, count=0, value=value)
 
     def length_of_list(self, name: str) -> int:
         """
