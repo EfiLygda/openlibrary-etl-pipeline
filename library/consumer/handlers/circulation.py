@@ -14,7 +14,6 @@ from datetime import datetime
 import psycopg2
 from kafka import KafkaProducer
 
-from config.paths import CONSUMER_SQL_DIR
 from utilities.database import execute_query
 
 from library.start_library import TOPIC
@@ -28,7 +27,7 @@ from library.service.kafka.publisher import emit_event
 from library.producer.simulation.event_factory import create_event
 from library.producer.simulation.generators.circulation import borrow_available_copy
 
-CIRCULATION_SQL_DIR = os.path.join(CONSUMER_SQL_DIR, 'circulation')
+from library.consumer.handlers.paths import CIRCULATION_SQL_DIR
 
 def handle_copy_borrowed(
         connection: psycopg2.extensions.connection,

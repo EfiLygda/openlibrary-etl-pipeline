@@ -8,16 +8,13 @@ Handles events involving users and librarians, such as:
 
 import os
 import psycopg2
-
 from kafka import KafkaProducer
 
-from config.paths import CONSUMER_SQL_DIR
 from utilities import execute_query
 
 from library.service.redis.keys import RedisKeys
 from library.service.redis.client import RedisClient
-
-PEOPLE_SQL_DIR = os.path.join(CONSUMER_SQL_DIR, 'people')
+from library.consumer.handlers.paths import PEOPLE_SQL_DIR
 
 def handle_librarian_hired(
         connection: psycopg2.extensions.connection,

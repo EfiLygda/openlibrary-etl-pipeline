@@ -7,16 +7,13 @@ Handles events involving physical copies of works, such as:
 
 import os
 import psycopg2
-
 from kafka import KafkaProducer
 
-from config.paths import CONSUMER_SQL_DIR
 from utilities import execute_query
 
 from library.service.redis.keys import RedisKeys
 from library.service.redis.client import RedisClient
-
-INVENTORY_SQL_DIR = os.path.join(CONSUMER_SQL_DIR, 'inventory')
+from library.consumer.handlers.paths import INVENTORY_SQL_DIR
 
 def handle_copy_purchased(
         connection: psycopg2.extensions.connection,

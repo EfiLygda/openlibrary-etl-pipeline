@@ -4,19 +4,19 @@ Event handlers related to library demand.
 Handles events representing user intent to access unavailable resources, such as:
 * Reservation requests
 """
-import json
-import os
-import psycopg2
 
+import os
+import json
+
+import psycopg2
 from kafka import KafkaProducer
 
-from config.paths import CONSUMER_SQL_DIR
 from utilities import execute_query
 
 from library.service.redis.keys import RedisKeys
 from library.service.redis.client import RedisClient
 
-DEMAND_SQL_DIR = os.path.join(CONSUMER_SQL_DIR, 'demand')
+from library.consumer.handlers.paths import DEMAND_SQL_DIR
 
 def handle_reservation_of_unavailable_copy(
         connection: psycopg2.extensions.connection,
