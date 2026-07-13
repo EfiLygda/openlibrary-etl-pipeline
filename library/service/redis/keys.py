@@ -51,16 +51,13 @@ class RedisKeys:
             return f'max:edition:{edition_key}:copies'
 
     class Counters:
-        """
-        Counters are used for ID generation in tables, so not every event
-        will have its own counter
-        """
         USERS = 'counter:users'
         LIBRARIANS = 'counter:librarians'
         LOANS = 'counter:loans'
         RETURNS = 'counter:returns'
         RENEWALS = 'counter:renewals'
         RESERVATIONS = 'counter:reservations'
+        CANCELLED_RESERVATIONS = 'counter:reservations:canceled'
 
         @staticmethod
         def edition_copies(edition_key: str) -> str:
@@ -71,6 +68,10 @@ class RedisKeys:
         @staticmethod
         def loan(loan_id: str) -> str:
             return f'hash:loan:{loan_id}'
+
+        @staticmethod
+        def reservation(reservation_id: str) -> str:
+            return f'hash:reservation:{reservation_id}'
 
     class Queues:
 
