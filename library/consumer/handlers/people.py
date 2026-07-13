@@ -17,6 +17,8 @@ from utilities import execute_query
 from library.service.redis.keys import RedisKeys
 from library.service.redis.client import RedisClient
 
+PEOPLE_SQL_DIR = os.path.join(CONSUMER_SQL_DIR, 'people')
+
 def handle_librarian_hired(
         connection: psycopg2.extensions.connection,
         redis_client: RedisClient,
@@ -46,7 +48,7 @@ def handle_librarian_hired(
     )
 
     # Setting up the loading query
-    query_filepath = os.path.join(CONSUMER_SQL_DIR, 'insert_librarian.sql')
+    query_filepath = os.path.join(PEOPLE_SQL_DIR, 'librarian_hired.sql')
 
     # Execute the query
     execute_query(
@@ -90,7 +92,7 @@ def handle_user_registered(
     )
 
     # Setting up the loading query
-    query_filepath = os.path.join(CONSUMER_SQL_DIR, 'insert_user.sql')
+    query_filepath = os.path.join(PEOPLE_SQL_DIR, 'user_registered.sql')
 
     # Execute the query
     execute_query(

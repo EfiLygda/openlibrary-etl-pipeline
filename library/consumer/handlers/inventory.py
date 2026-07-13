@@ -16,6 +16,7 @@ from utilities import execute_query
 from library.service.redis.keys import RedisKeys
 from library.service.redis.client import RedisClient
 
+INVENTORY_SQL_DIR = os.path.join(CONSUMER_SQL_DIR, 'inventory')
 
 def handle_copy_purchased(
         connection: psycopg2.extensions.connection,
@@ -46,7 +47,7 @@ def handle_copy_purchased(
     )
 
     # Setting up the loading query
-    query_filepath = os.path.join(CONSUMER_SQL_DIR, 'insert_copy.sql')
+    query_filepath = os.path.join(INVENTORY_SQL_DIR, 'copy_purchased.sql')
 
     # Execute the query
     execute_query(
