@@ -120,7 +120,7 @@ def fulfill_copy_reservation_on_return(
         event: dict,
         producer: KafkaProducer,
         copy_id: str,
-) -> tuple:
+) -> None:
     """
     Updates the 'reservations' table in the database and emits a new borrow event for
     the user that had reserved the returned copy
@@ -164,24 +164,18 @@ def fulfill_copy_reservation_on_return(
         trigger='RESERVATION_FULFILLMENT'
     )
 
-    # Emit new borrow event from user that reserved it
-    emit_event(
-        producer=producer,
-        topic=TOPIC,
-        event=new_borrow_event
+    # Move reservation id from redis active reservations to fulfilled ids
+    redis_client.move_sets(
+        source=RedisKeys.Sets.ACTIVE_RESERVATIONS_IDS,
+        destination=RedisKeys.Sets.FULFILLED_RESERVATIONS_IDS,
+        value=reservation_id
     )
 
-    # Remove reservation id from redis active reservations set
-    redis_client.remove_from_set(
-        RedisKeys.Sets.ACTIVE_RESERVATIONS_IDS,
-        reservation_id
-    )
-
-    # Setting up the loading query
+    # Setting up the query
     query_filepath = os.path.join(CONSUMER_SQL_DIR, 'return_reserved_update_reservations.sql')
 
     # Execute the query
-    return execute_query(
+    execute_query(
         connection=connection,
         query_filepath=query_filepath,
         params={
@@ -190,6 +184,12 @@ def fulfill_copy_reservation_on_return(
         }
     )
 
+    # Finally emit new borrow event from user that reserved the copy
+    emit_event(
+        producer=producer,
+        topic=TOPIC,
+        event=new_borrow_event
+    )
 
 def handle_return_borrowed_copy(
         connection: psycopg2.extensions.connection,
