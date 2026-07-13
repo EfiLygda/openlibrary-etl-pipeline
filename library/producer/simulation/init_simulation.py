@@ -38,32 +38,19 @@ def run():
     )
 
     redis_client.set_value(
-        RedisKeys.MaxAllowableValues.USERS,
+        RedisKeys.Strings.MAX_USERS,
         simulation_context['max_users']
     )
 
     redis_client.set_value(
-        RedisKeys.MaxAllowableValues.LIBRARIANS,
+        RedisKeys.Strings.MAX_LIBRARIANS,
         simulation_context['max_librarians']
     )
 
-    # Loading all max edition copies to Redis database via pipeline
-    # for decreasing loading time
-    with redis_client.pipeline() as pipe:
-
-        # For each edition key and its respective simulation maximum allowable number of copies
-        # the pair is loaded to a Redis database in order to be used from the producer and
-        # the consumer (mainly for rejecting events)
-        for edition_key, max_allowable_copies in simulation_context['max_copies_per_edition'].items():
-
-            # Set the key, value pairs via the pipeline
-            pipe.set(
-                name=RedisKeys.MaxAllowableValues.edition_copies(edition_key),
-                value=max_allowable_copies
-            )
-
-        # Execute whole pipeline at once
-        pipe.execute()
+    redis_client.add_hash(
+        name=RedisKeys.Hashes.MAX_EDITION_COPIES,
+        mapping=simulation_context['max_copies_per_edition']
+    )
 
     # Close the client
     redis_client.close()
