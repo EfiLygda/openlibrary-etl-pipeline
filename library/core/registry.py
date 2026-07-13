@@ -5,7 +5,7 @@ Central registry of event metadata shared between the producer and consumer
 from typing import Callable
 
 from library.service.redis.keys import RedisKeys
-
+from library.core.events import EventType, EventCategory
 from library.producer.simulation import generators
 from library.consumer import handlers
 
@@ -24,21 +24,13 @@ class EventSpec:
 
     def __init__(
             self,
-            category: str,
+            category: EventCategory,
             generator: Callable[..., dict],
             handler: Callable[..., tuple],
             counter_name: Callable[[dict], str] | None,
             max_allowable_name: Callable[[dict], str] | None,
             produces_event: bool,
     ):
-
-        # The event categories
-        categories = [
-            'PEOPLE',
-            'INVENTORY',
-            'CIRCULATION',
-            'DEMAND'
-        ]
 
         # The event's category
         self.category = category
@@ -60,8 +52,8 @@ class EventSpec:
 EVENTS = {
 
     # --- People ---
-    'LIBRARIAN_HIRED': EventSpec(
-        category='PEOPLE',
+    EventType.LIBRARIAN_HIRED: EventSpec(
+        category=EventCategory.PEOPLE,
 
         generator=generators.people.librarian_hired,
         handler=handlers.people.handle_librarian_hired,
@@ -72,8 +64,8 @@ EVENTS = {
         produces_event=False,
     ),
 
-    'USER_REGISTERED': EventSpec(
-        category='PEOPLE',
+    EventType.USER_REGISTERED: EventSpec(
+        category=EventCategory.PEOPLE,
 
         generator=generators.people.user_registration,
         handler=handlers.people.handle_user_registered,
@@ -85,8 +77,8 @@ EVENTS = {
     ),
 
     # --- Inventory ---
-    'COPY_PURCHASED': EventSpec(
-        category='INVENTORY',
+    EventType.COPY_PURCHASED: EventSpec(
+        category=EventCategory.INVENTORY,
 
         generator=generators.inventory.copy_purchased,
         handler=handlers.inventory.handle_copy_purchased,
@@ -100,8 +92,8 @@ EVENTS = {
         ),
 
     # --- Circulation ---
-    'BORROW': EventSpec(
-        category='CIRCULATION',
+    EventType.BORROW: EventSpec(
+        category=EventCategory.CIRCULATION,
 
         generator=generators.circulation.borrow_available_copy,
         handler=handlers.circulation.handle_copy_borrowed,
@@ -112,8 +104,8 @@ EVENTS = {
         produces_event=False,
     ),
 
-    'RETURN': EventSpec(
-        category='CIRCULATION',
+    EventType.RETURN: EventSpec(
+        category=EventCategory.CIRCULATION,
 
         generator=generators.circulation.return_copy,
         handler=handlers.circulation.handle_return_borrowed_copy,
@@ -124,8 +116,8 @@ EVENTS = {
         produces_event=True, # In case of reserved copy emits BORROW from the user that reserved it
     ),
 
-    'RENEWAL': EventSpec(
-        category='CIRCULATION',
+    EventType.RENEWAL: EventSpec(
+        category=EventCategory.CIRCULATION,
 
         generator=generators.circulation.renew_loan,
         handler=handlers.circulation.handle_renewal_of_borrowed_copy,
@@ -137,8 +129,8 @@ EVENTS = {
     ),
 
     # --- Demand ---
-    'RESERVATION': EventSpec(
-        category='DEMAND',
+    EventType.RESERVATION: EventSpec(
+        category=EventCategory.DEMAND,
 
         generator=generators.demand.reserve_unavailable_copy,
         handler=handlers.demand.handle_reservation_of_unavailable_copy,
@@ -149,8 +141,8 @@ EVENTS = {
         produces_event=False,
     ),
 
-    'CANCELLED_RESERVATION': EventSpec(
-        category='DEMAND',
+    EventType.RESERVATION_CANCELLED: EventSpec(
+        category=EventCategory.DEMAND,
 
         generator=generators.demand.cancel_reservation,
         handler=handlers.demand.handle_cancellation_of_active_reservation,
