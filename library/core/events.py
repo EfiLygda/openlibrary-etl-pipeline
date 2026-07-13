@@ -1,5 +1,5 @@
 """
-Central definitions of event types used by the library system
+Central definitions of event types and categories used by the library system
 """
 
 from enum import Enum
@@ -34,3 +34,22 @@ class EventType(str, Enum):
     # Demand events
     RESERVATION = "RESERVATION"
     RESERVATION_CANCELLED = "RESERVATION_CANCELLED"
+
+
+class EventCategory(str, Enum):
+    """
+    Enumeration of all supported event categories.
+
+    Event categories group related events by their business domain.
+
+    Example:
+        EventCategory.CIRCULATION
+
+    Serialized value:
+        EventCategory.CIRCULATION.value -> "CIRCULATION"
+    """
+
+    PEOPLE = "PEOPLE"
+    INVENTORY = "INVENTORY"
+    CIRCULATION = "CIRCULATION"
+    DEMAND = "DEMAND"
