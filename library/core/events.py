@@ -4,7 +4,25 @@ Central definitions of event types and categories used by the library system
 
 from enum import Enum
 
-class EventType(str, Enum):
+class StringEnum(str, Enum):
+    """
+    Base class for string-backed enumerations.
+
+    String enums serialize to their value when converted to a string,
+    making them convenient for logging, JSON serialization, and external
+    interfaces such as Kafka events.
+    """
+
+    def __str__(self) -> str:
+        """
+        Return the object's string value.
+
+        This allows the enum to behave like its string value when
+        used by libraries that internally call str().
+        """
+        return self.value
+
+class EventType(StringEnum):
     """
     Enumeration of all supported library system events.
 
@@ -35,17 +53,8 @@ class EventType(str, Enum):
     RESERVATION_CREATED = "RESERVATION_CREATED"
     RESERVATION_CANCELLED = "RESERVATION_CANCELLED"
 
-    def __str__(self):
-        """
-        Return the serialized event category name.
 
-        This allows the enum to behave like its string value when
-        used by libraries that internally call str().
-        """
-        return self.value
-
-
-class EventCategory(str, Enum):
+class EventCategory(StringEnum):
     """
     Enumeration of all supported event categories.
 
@@ -63,11 +72,13 @@ class EventCategory(str, Enum):
     CIRCULATION = "CIRCULATION"
     DEMAND = "DEMAND"
 
-    def __str__(self):
-        """
-        Return the serialized event category name.
+class EventTrigger(StringEnum):
+    """
+    Enumeration of triggers describing why an event was produced.
 
-        This allows the enum to behave like its string value when
-        used by libraries that internally call str().
-        """
-        return self.value
+    Triggers provide additional context for an event, indicating whether it
+    was generated directly by the simulation or as a consequence of handling
+    another event.
+    """
+
+    RESERVATION_FULFILLMENT = "RESERVATION_FULFILLMENT"

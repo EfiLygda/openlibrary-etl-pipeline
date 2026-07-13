@@ -19,7 +19,7 @@ from utilities.database import execute_query
 
 from library.start_library import TOPIC
 from library.utils.dates import add_days_to_str_date
-from library.core.events import EventType
+from library.core.events import EventType, EventTrigger
 
 from library.service.redis.keys import RedisKeys
 from library.service.redis.client import RedisClient
@@ -100,7 +100,7 @@ def handle_copy_borrowed(
 
     # If the event was triggered for fulfilling a reservation
     # then update the reservations table with the new loan ID
-    if event.get('trigger') == 'RESERVATION_FULFILLMENT':
+    if event.get('trigger') == EventTrigger.RESERVATION_FULFILLMENT:
 
         # Setting up the loading query
         query_filepath = os.path.join(CIRCULATION_SQL_DIR, 'reservation_fulfillment.sql')
@@ -160,7 +160,7 @@ def fulfill_copy_reservation_on_return(
         event_type=EventType.COPY_BORROWED,
         timestamp=datetime.fromisoformat(event['timestamp']),
         data=new_borrow_event_data,
-        trigger='RESERVATION_FULFILLMENT'
+        trigger=EventTrigger.RESERVATION_FULFILLMENT
     )
 
     # Move reservation id from redis active reservations to fulfilled ids
