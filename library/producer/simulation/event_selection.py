@@ -8,6 +8,8 @@ from datetime import datetime
 from library.service.redis.keys import RedisKeys
 from library.service.redis.client import RedisClient
 
+from library.core.events import EventType, EventCategory
+
 from library.producer.producer_config import (
     LIBRARIANS_HIRINGS_DEADLINE,
     LIBRARY_OPENING_DATE
@@ -35,14 +37,14 @@ def get_category_weights_by_timeline(
 
     if timestamp <= LIBRARIANS_HIRINGS_DEADLINE:
         return {
-            'PEOPLE': 0.60, # LIBRARIAN_HIRED
-            'INVENTORY': 0.40, # COPY_PURCHASED
+            EventCategory.PEOPLE: 0.60, # LIBRARIAN_HIRED
+            EventCategory.INVENTORY: 0.40, # COPY_PURCHASED
         }
 
     if timestamp < LIBRARY_OPENING_DATE:
         return {
-            'PEOPLE': 0.30,  # USER_REGISTERED
-            'INVENTORY': 0.70, # COPY_PURCHASED
+            EventCategory.PEOPLE: 0.30,  # USER_REGISTERED
+            EventCategory.INVENTORY: 0.70, # COPY_PURCHASED
         }
 
     # ----------------------------
@@ -50,10 +52,10 @@ def get_category_weights_by_timeline(
     # ----------------------------
     if has_available_copies and has_unavailable_copies:
         return {
-            'PEOPLE': 0.04, # LIBRARIAN_HIRED, USER_REGISTERED
-            'INVENTORY': 0.30, # COPY_PURCHASED
-            'CIRCULATION': 0.60, # BORROW, RETURN, RENEWAL
-            'DEMAND': 0.06, # RESERVATION
+            EventCategory.PEOPLE: 0.04, # LIBRARIAN_HIRED, USER_REGISTERED
+            EventCategory.INVENTORY: 0.30, # COPY_PURCHASED
+            EventCategory.CIRCULATION: 0.60, # BORROW, RETURN, RENEWAL
+            EventCategory.DEMAND: 0.06, # RESERVATION
         }
 
     # ----------------------------
@@ -61,9 +63,9 @@ def get_category_weights_by_timeline(
     # ----------------------------
     if has_available_copies and not has_unavailable_copies:
         return {
-            'PEOPLE': 0.04, # LIBRARIAN_HIRED, USER_REGISTERED
-            'INVENTORY': 0.30, # COPY_PURCHASED
-            'CIRCULATION': 0.66, # BORROW
+            EventCategory.PEOPLE: 0.04, # LIBRARIAN_HIRED, USER_REGISTERED
+            EventCategory.INVENTORY: 0.30, # COPY_PURCHASED
+            EventCategory.CIRCULATION: 0.66, # BORROW
         }
 
     # ----------------------------
@@ -71,22 +73,22 @@ def get_category_weights_by_timeline(
     # ----------------------------
     if not has_available_copies and has_unavailable_copies:
         return {
-            'PEOPLE': 0.04,  # LIBRARIAN_HIRED, USER_REGISTERED
-            'INVENTORY': 0.30,  # COPY_PURCHASED
-            'CIRCULATION': 0.48, # RETURN, RENEWAL
-            'DEMAND': 0.18, # RESERVATION
+            EventCategory.PEOPLE: 0.04,  # LIBRARIAN_HIRED, USER_REGISTERED
+            EventCategory.INVENTORY: 0.30,  # COPY_PURCHASED
+            EventCategory.CIRCULATION: 0.48, # RETURN, RENEWAL
+            EventCategory.DEMAND: 0.18, # RESERVATION
         }
 
     # ----------------------------
     # FALLBACK
     # ----------------------------
     return {
-        'PEOPLE': 0.30, # LIBRARIAN_HIRED, USER_REGISTERED
-        'INVENTORY': 0.70, # COPY_PURCHASED
+        EventCategory.PEOPLE: 0.30, # LIBRARIAN_HIRED, USER_REGISTERED
+        EventCategory.INVENTORY: 0.70, # COPY_PURCHASED
     }
 
 def get_event_weights(
-        category: str,
+        category: EventCategory,
         timestamp: datetime,
         has_available_copies: bool,
         has_unavailable_copies: bool,
@@ -110,35 +112,35 @@ def get_event_weights(
     :return: dict, a dictionary mapping event names to their respective probability
         weights within the selected category
     """
-    if category == 'PEOPLE':
+    if category == EventCategory.PEOPLE:
         if timestamp <= LIBRARIANS_HIRINGS_DEADLINE:
             return {
-                "LIBRARIAN_HIRED": 1.0,
+                EventType.LIBRARIAN_HIRED: 1.0,
             }
 
         if timestamp < LIBRARY_OPENING_DATE:
             return {
-                "USER_REGISTERED": 1.0,
+                EventType.USER_REGISTERED: 1.0,
             }
 
         return {
-            "LIBRARIAN_HIRED": 0.10,
-            "USER_REGISTERED": 0.90,
+            EventType.LIBRARIAN_HIRED: 0.10,
+            EventType.USER_REGISTERED: 0.90,
         }
 
-    if category == "INVENTORY":
+    if category == EventCategory.INVENTORY:
         return {
-            "COPY_PURCHASED": 1.0,
+            EventType.COPY_PURCHASED: 1.0,
         }
 
-    if category == "DEMAND":
+    if category == EventCategory.DEMAND:
         # ----------------------------
         # CASE 1: active reservations
         # ----------------------------
         if has_active_reservations:
             return {
-                'RESERVATION': 0.80,
-                'CANCELLED_RESERVATION': 0.20
+                EventType.RESERVATION_CREATED: 0.80,
+                EventType.RESERVATION_CANCELLED: 0.20
             }
 
         # ----------------------------
@@ -146,18 +148,18 @@ def get_event_weights(
         # ----------------------------
         else:
             return {
-                "RESERVATION": 1.0,
+                EventType.RESERVATION_CREATED: 1.0,
             }
 
-    if category == 'CIRCULATION':
+    if category == EventCategory.CIRCULATION:
         # ----------------------------
         # CASE 1: available + borrowed exist
         # ----------------------------
         if has_available_copies and has_unavailable_copies:
             return {
-                "BORROW": 0.61,
-                "RETURN": 0.24,
-                "RENEWAL": 0.15,
+                EventType.COPY_BORROWED: 0.61,
+                EventType.COPY_RETURNED: 0.24,
+                EventType.LOAN_RENEWED: 0.15,
             }
 
         # ----------------------------
@@ -165,7 +167,7 @@ def get_event_weights(
         # ----------------------------
         if has_available_copies and not has_unavailable_copies:
             return {
-                "BORROW": 1.0,
+                EventType.COPY_BORROWED: 1.0,
             }
 
         # ----------------------------
@@ -173,8 +175,8 @@ def get_event_weights(
         # ----------------------------
         if not has_available_copies and has_unavailable_copies:
             return {
-                "RETURN": 0.86,
-                "RENEWAL": 0.14,
+                EventType.COPY_RETURNED: 0.86,
+                EventType.LOAN_RENEWED: 0.14,
             }
 
     return {}

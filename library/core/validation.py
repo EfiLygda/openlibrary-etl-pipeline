@@ -2,6 +2,7 @@
 Event validation module
 """
 
+from library.core.events import EventType
 from library.core.registry import EVENTS
 from library.service.redis.client import RedisClient
 
@@ -73,14 +74,18 @@ def reject_event(
 
     # Use maximum allowable event counts for 'LIBRARIAN_HIRED', 'USER_REGISTERED', 'COPY_PURCHASED'
     # and reject
-    if event_type in ['LIBRARIAN_HIRED', 'USER_REGISTERED', 'COPY_PURCHASED']:
+    if event_type in [
+        EventType.LIBRARIAN_HIRED,
+        EventType.USER_REGISTERED,
+        EventType.COPY_PURCHASED
+    ]:
         return is_over_max_allowed(
             redis_client=redis_client,
             event=event
         )
 
     # Check if no copy was available to borrow and reject
-    if event_type in ['BORROW']:
+    if event_type in [EventType.COPY_BORROWED]:
         return borrowed_copy_does_not_exist(event=event)
 
     return False

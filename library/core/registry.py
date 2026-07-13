@@ -26,7 +26,7 @@ class EventSpec:
             self,
             category: EventCategory,
             generator: Callable[..., dict],
-            handler: Callable[..., tuple],
+            handler: Callable[..., None],
             counter_name: Callable[[dict], str] | None,
             max_allowable_name: Callable[[dict], str] | None,
             produces_event: bool,
@@ -92,7 +92,7 @@ EVENTS = {
         ),
 
     # --- Circulation ---
-    EventType.BORROW: EventSpec(
+    EventType.COPY_BORROWED: EventSpec(
         category=EventCategory.CIRCULATION,
 
         generator=generators.circulation.borrow_available_copy,
@@ -104,7 +104,7 @@ EVENTS = {
         produces_event=False,
     ),
 
-    EventType.RETURN: EventSpec(
+    EventType.COPY_RETURNED: EventSpec(
         category=EventCategory.CIRCULATION,
 
         generator=generators.circulation.return_copy,
@@ -116,7 +116,7 @@ EVENTS = {
         produces_event=True, # In case of reserved copy emits BORROW from the user that reserved it
     ),
 
-    EventType.RENEWAL: EventSpec(
+    EventType.LOAN_RENEWED: EventSpec(
         category=EventCategory.CIRCULATION,
 
         generator=generators.circulation.renew_loan,
@@ -129,7 +129,7 @@ EVENTS = {
     ),
 
     # --- Demand ---
-    EventType.RESERVATION: EventSpec(
+    EventType.RESERVATION_CREATED: EventSpec(
         category=EventCategory.DEMAND,
 
         generator=generators.demand.reserve_unavailable_copy,

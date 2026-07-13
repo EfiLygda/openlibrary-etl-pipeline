@@ -27,13 +27,22 @@ class EventType(str, Enum):
     COPY_PURCHASED = "COPY_PURCHASED"
 
     # Circulation events
-    BORROW = "BORROW"
-    RETURN = "RETURN"
-    RENEWAL = "RENEWAL"
+    COPY_BORROWED = "COPY_BORROWED"
+    COPY_RETURNED = "COPY_RETURNED"
+    LOAN_RENEWED = "LOAN_RENEWED"
 
     # Demand events
-    RESERVATION = "RESERVATION"
+    RESERVATION_CREATED = "RESERVATION_CREATED"
     RESERVATION_CANCELLED = "RESERVATION_CANCELLED"
+
+    def __str__(self):
+        """
+        Return the serialized event category name.
+
+        This allows the enum to behave like its string value when
+        used by libraries that internally call str().
+        """
+        return self.value
 
 
 class EventCategory(str, Enum):
@@ -53,3 +62,12 @@ class EventCategory(str, Enum):
     INVENTORY = "INVENTORY"
     CIRCULATION = "CIRCULATION"
     DEMAND = "DEMAND"
+
+    def __str__(self):
+        """
+        Return the serialized event category name.
+
+        This allows the enum to behave like its string value when
+        used by libraries that internally call str().
+        """
+        return self.value

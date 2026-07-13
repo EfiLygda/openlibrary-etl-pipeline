@@ -12,19 +12,21 @@ import json
 from datetime import datetime
 
 import psycopg2
-
 from kafka import KafkaProducer
 
 from config.paths import CONSUMER_SQL_DIR
-from library.producer.simulation.event_factory import create_event
-from library.producer.simulation.generators.circulation import borrow_available_copy
-from library.service.kafka.publisher import emit_event
+from utilities.database import execute_query
+
 from library.start_library import TOPIC
 from library.utils.dates import add_days_to_str_date
-from utilities import execute_query
+from library.core.events import EventType
 
 from library.service.redis.keys import RedisKeys
 from library.service.redis.client import RedisClient
+from library.service.kafka.publisher import emit_event
+
+from library.producer.simulation.event_factory import create_event
+from library.producer.simulation.generators.circulation import borrow_available_copy
 
 CIRCULATION_SQL_DIR = os.path.join(CONSUMER_SQL_DIR, 'circulation')
 
@@ -155,7 +157,7 @@ def fulfill_copy_reservation_on_return(
 
     # Create event envelope
     new_borrow_event = create_event(
-        event_type='BORROW',
+        event_type=EventType.COPY_BORROWED,
         timestamp=datetime.fromisoformat(event['timestamp']),
         data=new_borrow_event_data,
         trigger='RESERVATION_FULFILLMENT'
