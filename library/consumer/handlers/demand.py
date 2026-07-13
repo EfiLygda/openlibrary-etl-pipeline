@@ -16,6 +16,8 @@ from utilities import execute_query
 from library.service.redis.keys import RedisKeys
 from library.service.redis.client import RedisClient
 
+DEMAND_SQL_DIR = os.path.join(CONSUMER_SQL_DIR, 'demand')
+
 def handle_reservation_of_unavailable_copy(
         connection: psycopg2.extensions.connection,
         redis_client: RedisClient,
@@ -67,7 +69,7 @@ def handle_reservation_of_unavailable_copy(
     )
 
     # Setting up the loading query
-    query_filepath = os.path.join(CONSUMER_SQL_DIR, 'insert_reservation.sql')
+    query_filepath = os.path.join(DEMAND_SQL_DIR, 'reservation_of_unavailable_copy.sql')
 
     # Execute the query
     execute_query(
@@ -138,7 +140,7 @@ def handle_cancellation_of_active_reservation(
     )
 
     # Setting up the loading query
-    query_filepath = os.path.join(CONSUMER_SQL_DIR, 'cancelled_reservation_update_reservation.sql')
+    query_filepath = os.path.join(DEMAND_SQL_DIR, 'cancellation_of_active_reservation.sql')
 
     # Execute the query
     execute_query(
