@@ -26,6 +26,7 @@ from utilities import execute_query
 from library.service.redis.keys import RedisKeys
 from library.service.redis.client import RedisClient
 
+CIRCULATION_SQL_DIR = os.path.join(CONSUMER_SQL_DIR, 'circulation')
 
 def handle_copy_borrowed(
         connection: psycopg2.extensions.connection,
@@ -74,7 +75,7 @@ def handle_copy_borrowed(
     )
 
     # Setting up the loading query
-    query_filepath = os.path.join(CONSUMER_SQL_DIR, 'insert_loan_update_copies.sql')
+    query_filepath = os.path.join(CIRCULATION_SQL_DIR, 'copy_borrowed.sql')
 
     # Execute the query
     execute_query(
@@ -100,7 +101,7 @@ def handle_copy_borrowed(
     if event.get('trigger') == 'RESERVATION_FULFILLMENT':
 
         # Setting up the loading query
-        query_filepath = os.path.join(CONSUMER_SQL_DIR, 'reservation_fulfillment_update_reservations.sql')
+        query_filepath = os.path.join(CIRCULATION_SQL_DIR, 'reservation_fulfillment.sql')
 
         # Execute the query
         execute_query(
@@ -168,7 +169,7 @@ def fulfill_copy_reservation_on_return(
     )
 
     # Setting up the query
-    query_filepath = os.path.join(CONSUMER_SQL_DIR, 'return_reserved_update_reservations.sql')
+    query_filepath = os.path.join(CIRCULATION_SQL_DIR, 'fulfill_copy_reservation_on_return.sql')
 
     # Execute the query
     execute_query(
@@ -257,7 +258,7 @@ def handle_return_borrowed_copy(
         copy_status = 'AVAILABLE'
 
     # Setting up the loading query
-    query_filepath = os.path.join(CONSUMER_SQL_DIR, 'return_update_loans_update_copies.sql')
+    query_filepath = os.path.join(CIRCULATION_SQL_DIR, 'return_borrowed_copy.sql')
 
     # Execute the query
     execute_query(
@@ -313,7 +314,7 @@ def handle_renewal_of_borrowed_copy(
     )
 
     # Setting up the loading query
-    query_filepath = os.path.join(CONSUMER_SQL_DIR, 'renewal_update_loans.sql')
+    query_filepath = os.path.join(CIRCULATION_SQL_DIR, 'renewal_of_borrowed_copy.sql')
 
     # Execute the query
     execute_query(
