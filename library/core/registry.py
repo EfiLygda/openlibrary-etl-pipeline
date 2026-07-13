@@ -27,7 +27,7 @@ class EventSpec:
             category: str,
             generator: Callable[..., dict],
             handler: Callable[..., tuple],
-            counter_name: Callable[[dict], str],
+            counter_name: Callable[[dict], str] | None,
             max_allowable_name: Callable[[dict], str] | None,
             produces_event: bool,
     ):
@@ -144,6 +144,18 @@ EVENTS = {
         handler=handlers.demand.handle_reservation_of_unavailable_copy,
 
         counter_name=lambda event: RedisKeys.Counters.RESERVATIONS,
+        max_allowable_name=None,
+
+        produces_event=False,
+    ),
+
+    'CANCELLED_RESERVATION': EventSpec(
+        category='DEMAND',
+
+        generator=generators.demand.reserve_unavailable_copy,
+        handler=handlers.demand.handle_cancellation_of_active_reservation,
+
+        counter_name=lambda event: RedisKeys.Counters.CANCELLED_RESERVATIONS,
         max_allowable_name=None,
 
         produces_event=False,
