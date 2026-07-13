@@ -152,7 +152,7 @@ EVENTS = {
     'CANCELLED_RESERVATION': EventSpec(
         category='DEMAND',
 
-        generator=generators.demand.reserve_unavailable_copy,
+        generator=generators.demand.cancel_reservation,
         handler=handlers.demand.handle_cancellation_of_active_reservation,
 
         counter_name=lambda event: RedisKeys.Counters.CANCELLED_RESERVATIONS,
