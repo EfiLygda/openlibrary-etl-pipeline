@@ -23,7 +23,7 @@ def handle_librarian_hired(
         event: dict,
         counter: int,
         producer: KafkaProducer | None = None,
-) -> tuple:
+) -> None:
     """
     Inserts new hired librarian record to the 'librarians' table
 
@@ -33,9 +33,7 @@ def handle_librarian_hired(
     :param counter: int, the event counter used for generating a record's ID
     :param producer: KafkaProducer, producer used for emitting chain events, when needed
 
-    :return: tuple, the tuple containing:
-        * `data` - list of matching records returned by the query
-        * `data_column_names` - column names corresponding to the records
+    :return: None
     """
 
     # Generate new librarian ID
@@ -51,7 +49,7 @@ def handle_librarian_hired(
     query_filepath = os.path.join(CONSUMER_SQL_DIR, 'insert_librarian.sql')
 
     # Execute the query
-    return execute_query(
+    execute_query(
         connection=connection,
         query_filepath=query_filepath,
         params={
@@ -69,7 +67,7 @@ def handle_user_registered(
         event: dict,
         counter: int,
         producer: KafkaProducer | None = None,
-) -> tuple:
+) -> None:
     """
     Inserts new registered user record to the 'users' table
 
@@ -79,9 +77,7 @@ def handle_user_registered(
     :param counter: int, the event counter used for generating a record's ID
     :param producer: KafkaProducer, producer used for emitting chain events, when needed
 
-    :return: tuple, the tuple containing:
-        * `data` - list of matching records returned by the query
-        * `data_column_names` - column names corresponding to the records
+    :return: None
     """
 
     # Generate new user ID
@@ -97,7 +93,7 @@ def handle_user_registered(
     query_filepath = os.path.join(CONSUMER_SQL_DIR, 'insert_user.sql')
 
     # Execute the query
-    return execute_query(
+    execute_query(
         connection=connection,
         query_filepath=query_filepath,
         params={

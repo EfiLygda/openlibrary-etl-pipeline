@@ -22,7 +22,7 @@ def handle_reservation_of_unavailable_copy(
         event: dict,
         counter: int,
         producer: KafkaProducer | None = None,
-) -> tuple:
+) -> None:
     """
     Inserts new record at 'reservations' table
 
@@ -32,9 +32,7 @@ def handle_reservation_of_unavailable_copy(
     :param counter: int, the event counter used for generating a record's ID
     :param producer: KafkaProducer, producer used for emitting chain events, when needed
 
-    :return: tuple, the tuple containing:
-        * `data` - list of matching records returned by the query
-        * `data_column_names` - column names corresponding to the records
+    :return: None
     """
 
     # Generate new copy ID
@@ -72,7 +70,7 @@ def handle_reservation_of_unavailable_copy(
     query_filepath = os.path.join(CONSUMER_SQL_DIR, 'insert_reservation.sql')
 
     # Execute the query
-    return execute_query(
+    execute_query(
         connection=connection,
         query_filepath=query_filepath,
         params={
@@ -82,7 +80,7 @@ def handle_reservation_of_unavailable_copy(
             "reserved_at": event['timestamp'],
             "fulfilled_at": None,
             "cancelled_at": None,
-            "status": 'ACTIVE', # 'ACTIVE', 'FULFILLED', 'CANCELLED', 'EXPIRED'
+            "status": 'ACTIVE',
         }
     )
 
@@ -92,7 +90,7 @@ def handle_cancellation_of_active_reservation(
         event: dict,
         counter: int,
         producer: KafkaProducer | None = None,
-) -> tuple:
+) -> None:
     """
     Updates reservations table after a cancellation
 
@@ -102,9 +100,7 @@ def handle_cancellation_of_active_reservation(
     :param counter: int, the event counter used for generating a record's ID
     :param producer: KafkaProducer, producer used for emitting chain events, when needed
 
-    :return: tuple, the tuple containing:
-        * `data` - list of matching records returned by the query
-        * `data_column_names` - column names corresponding to the records
+    :return: None
     """
 
     # Canceled reservation ID
@@ -145,7 +141,7 @@ def handle_cancellation_of_active_reservation(
     query_filepath = os.path.join(CONSUMER_SQL_DIR, 'cancelled_reservation_update_reservation.sql')
 
     # Execute the query
-    return execute_query(
+    execute_query(
         connection=connection,
         query_filepath=query_filepath,
         params={

@@ -23,7 +23,7 @@ def handle_copy_purchased(
         event: dict,
         counter: int,
         producer: KafkaProducer | None = None,
-) -> tuple:
+) -> None:
     """
     Inserts new purchased copy record to the 'copies' table
 
@@ -33,9 +33,7 @@ def handle_copy_purchased(
     :param counter: int, the event counter used for generating a record's ID
     :param producer: KafkaProducer, producer used for emitting chain events, when needed
 
-    :return: tuple, the tuple containing:
-        * `data` - list of matching records returned by the query
-        * `data_column_names` - column names corresponding to the records
+    :return: None
     """
 
     # Generate new copy ID
@@ -51,7 +49,7 @@ def handle_copy_purchased(
     query_filepath = os.path.join(CONSUMER_SQL_DIR, 'insert_copy.sql')
 
     # Execute the query
-    return execute_query(
+    execute_query(
         connection=connection,
         query_filepath=query_filepath,
         params={

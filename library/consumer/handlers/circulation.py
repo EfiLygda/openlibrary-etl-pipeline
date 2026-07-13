@@ -43,9 +43,7 @@ def handle_copy_borrowed(
     :param counter: int, the event counter used for generating a record's ID
     :param producer: KafkaProducer, producer used for emitting chain events, when needed
 
-    :return: tuple, the tuple containing:
-        * `data` - list of matching records returned by the query
-        * `data_column_names` - column names corresponding to the records
+    :return: None
     """
 
     # Generate new copy ID
@@ -131,9 +129,7 @@ def fulfill_copy_reservation_on_return(
     :param producer: KafkaProducer, producer used for emitting chain events, when needed
     :param copy_id: str, the returned copy's ID
 
-    :return: tuple, the tuple containing:
-        * `data` - list of matching records returned by the query
-        * `data_column_names` - column names corresponding to the records
+    :return: None
     """
 
     # Remove and fetch reservation data from the copy's reservation queue
@@ -197,7 +193,7 @@ def handle_return_borrowed_copy(
         event: dict,
         counter: int,
         producer: KafkaProducer,
-) -> tuple:
+) -> None:
     """
     Updates the loan's and the respective copy's status in the database
 
@@ -207,9 +203,7 @@ def handle_return_borrowed_copy(
     :param counter: int, the event counter used for generating a record's ID
     :param producer: KafkaProducer, producer used for emitting chain events, when needed
 
-    :return: tuple, the tuple containing:
-        * `data` - list of matching records returned by the query
-        * `data_column_names` - column names corresponding to the records
+    :return: None
     """
 
     # Fetch the loan it from the even
@@ -266,7 +260,7 @@ def handle_return_borrowed_copy(
     query_filepath = os.path.join(CONSUMER_SQL_DIR, 'return_update_loans_update_copies.sql')
 
     # Execute the query
-    return execute_query(
+    execute_query(
         connection=connection,
         query_filepath=query_filepath,
         params={
@@ -284,7 +278,7 @@ def handle_renewal_of_borrowed_copy(
         event: dict,
         counter: int,
         producer: KafkaProducer | None = None,
-) -> tuple:
+) -> None:
     """
     Updates the loans due date and renewal count in 'loans' table
 
@@ -294,9 +288,7 @@ def handle_renewal_of_borrowed_copy(
     :param counter: int, the event counter used for generating a record's ID
     :param producer: KafkaProducer, producer used for emitting chain events, when needed
 
-    :return: tuple, the tuple containing:
-        * `data` - list of matching records returned by the query
-        * `data_column_names` - column names corresponding to the records
+    :return: None
     """
 
     # Fetch the loan it from the even
@@ -324,7 +316,7 @@ def handle_renewal_of_borrowed_copy(
     query_filepath = os.path.join(CONSUMER_SQL_DIR, 'renewal_update_loans.sql')
 
     # Execute the query
-    return execute_query(
+    execute_query(
         connection=connection,
         query_filepath=query_filepath,
         params={
