@@ -49,7 +49,7 @@ def is_over_max_allowed(
             key=max_allowable_hash_key
         )
     else:
-        max_allowable_value = redis_client.strings.get_value(name=max_allowable_name)
+        max_allowable_value = redis_client.strings.get(name=max_allowable_name)
 
     # Convert fetched value to integer
     max_allowable_value = int(max_allowable_value)

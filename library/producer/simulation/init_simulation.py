@@ -37,12 +37,12 @@ def run():
         *simulation_context['edition_keys']
     )
 
-    redis_client.strings.set_value(
+    redis_client.strings.set(
         RedisKeys.Strings.MAX_USERS,
         simulation_context['max_users']
     )
 
-    redis_client.strings.set_value(
+    redis_client.strings.set(
         RedisKeys.Strings.MAX_LIBRARIANS,
         simulation_context['max_librarians']
     )

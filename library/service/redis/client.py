@@ -63,7 +63,7 @@ class _RedisInspection(_RedisBase):
 
 class _RedisString(_RedisBase):
 
-    def set_value(self, name: str, value: int | str) -> bool | str | bytes | None:
+    def set(self, name: str, value: int | str) -> bool | str | bytes | None:
         """
         Set a ``value`` to key ``name``
 
@@ -74,7 +74,7 @@ class _RedisString(_RedisBase):
         """
         return self.redis.set(name, value)
 
-    def get_value(self, name: str) -> bytes | str | None:
+    def get(self, name: str) -> bytes | str | None:
         """
         Get a ``value`` from a key ``name``
 
