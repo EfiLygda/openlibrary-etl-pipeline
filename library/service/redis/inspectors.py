@@ -1,5 +1,5 @@
 """
-
+Library inspection utilities for generating reports about library and Redis state
 """
 
 from library.service.redis.keys import RedisKeys
@@ -18,6 +18,30 @@ class Inspector:
         self.client = client
         self.number_format = '>10,'
 
+    def format_memmory(
+            self,
+            bytes: int,
+            digits: int,
+            decimals: int,
+            right_justified: bool = True
+    ) -> str:
+        """
+        Format a memory size in bytes as a human-readable megabyte string
+
+        :param bytes: int, memory size in bytes
+        :param digits: int, total field width used for formatting
+        :param decimals: int, number of decimal places to display
+        :param right_justified: bool, whether the formatted value should be right justified
+        :return: str, formatted memory size in megabytes
+        """
+
+        # Setting up the alignment
+        if right_justified:
+            alignment = '>'
+        else:
+            alignment = '<'
+
+        return f'{bytes / (1024 * 1024):{alignment}{digits}.{decimals}f} MB'
 
 class LibraryInspector(Inspector):
 
@@ -33,21 +57,21 @@ class LibraryInspector(Inspector):
 
         return {
             # People
-            "registered_users": redis_client.get_set_size(RedisKeys.Sets.USER_IDS),
-            "hired_librarians": redis_client.get_set_size(RedisKeys.Sets.LIBRARIAN_IDS),
+            "registered_users": redis_client.sets.get_size(RedisKeys.Sets.USER_IDS),
+            "hired_librarians": redis_client.sets.get_size(RedisKeys.Sets.LIBRARIAN_IDS),
 
             # Copies
-            "available_copies": redis_client.get_set_size(RedisKeys.Sets.AVAILABLE_COPIES_IDS),
-            "unavailable_copies": redis_client.get_set_size(RedisKeys.Sets.UNAVAILABLE_COPIES_IDS),
+            "available_copies": redis_client.sets.get_size(RedisKeys.Sets.AVAILABLE_COPIES_IDS),
+            "unavailable_copies": redis_client.sets.get_size(RedisKeys.Sets.UNAVAILABLE_COPIES_IDS),
 
             # Loans
-            "active_loans": redis_client.get_set_size(RedisKeys.Sets.ACTIVE_LOANS_IDS),
-            "returned_loans": redis_client.get_set_size(RedisKeys.Sets.RETURNED_LOANS_IDS),
+            "active_loans": redis_client.sets.get_size(RedisKeys.Sets.ACTIVE_LOANS_IDS),
+            "returned_loans": redis_client.sets.get_size(RedisKeys.Sets.RETURNED_LOANS_IDS),
 
             # Reservations
-            "active_reservations": redis_client.get_set_size(RedisKeys.Sets.ACTIVE_RESERVATIONS_IDS),
-            "fulfilled_reservations": redis_client.get_set_size(RedisKeys.Sets.FULFILLED_RESERVATIONS_IDS),
-            "cancelled_reservations": redis_client.get_set_size(RedisKeys.Sets.CANCELLED_RESERVATIONS_IDS),
+            "active_reservations": redis_client.sets.get_size(RedisKeys.Sets.ACTIVE_RESERVATIONS_IDS),
+            "fulfilled_reservations": redis_client.sets.get_size(RedisKeys.Sets.FULFILLED_RESERVATIONS_IDS),
+            "cancelled_reservations": redis_client.sets.get_size(RedisKeys.Sets.CANCELLED_RESERVATIONS_IDS),
         }
 
     def _overview(self, stats: dict) -> str:
@@ -122,14 +146,18 @@ Cancelled Reservations:  {stats["cancelled_reservations"]:{value_format}}
         # Timestamp of report
         timestamp = CLOCK.now()
 
+        # Calculate library's statistics
         library_stats = self._stats()
 
+        # Format the overview
         summary = self._overview(stats=library_stats)
 
+        # If details are to be added then add them to the summary
+        # after the overview
         if details:
             summary += 2*'\n' + self._details(stats=library_stats)
 
-
+        # Return formatted result
         return f"""
 ============= Library Summary =============
 
@@ -140,3 +168,132 @@ Generated: {timestamp}
 ===========================================
 """
 
+
+class RedisInspector(Inspector):
+
+    def _stats(self) -> dict:
+        """
+        Retrieve Redis database statistics
+
+        :return: dict, Redis statistics including key counts and memory usage
+        """
+
+        # Setting up the redis client
+        redis_client = self.client
+
+        # Setting up the stats used
+        stats = {
+            "total_keys": 0,
+            "total_memory": 0,
+            "keys": []
+        }
+
+        # For each redis key finds its stats
+        for key in redis_client.inspection.get_all_keys():
+
+            # Find the redis key type and its memmory usage
+            key_type = redis_client.inspection.get_type(key).upper()
+            memory = redis_client.inspection.get_memory_usage(key) or 0
+
+            # Add to the keys counters
+            stats["total_keys"] += 1
+
+            # Add to total memmory usage
+            stats["total_memory"] += memory
+
+            # Add the kye, its type and memmory usage to the list
+            stats["keys"].append(
+                {
+                    "key": key,
+                    "type": key_type,
+                    "memory": memory,
+                }
+            )
+
+        # Sort redis keys' metadata by descenting memmory usage
+        stats["keys"] = sorted(
+            stats["keys"],
+            key=lambda d: d['memory'],
+            reverse=True
+        )
+
+        return stats
+
+    def _overview(self, stats: dict) -> str:
+        """
+        Generate a short overview of Redis database statistics
+
+        :param stats: dict, Redis statistics retrieved from the database
+        :return: str, formatted Redis overview
+        """
+
+        return f"""
+Database
+--------
+Total Keys:     {stats["total_keys"]}
+Total Memory:   {self.format_memmory(stats["total_memory"], 5, 2, right_justified=False)}
+"""
+
+    def _details(self, stats: dict) -> str:
+        """
+        Generate a detailed summary of Redis keys and their memory usage
+
+        :param stats: dict, Redis statistics retrieved from the database
+        :return: str, formatted Redis key summary
+        """
+
+        # List that will contain all the redis keys lines for the details
+        lines = []
+
+        # For each redis key add a formatted line to the lines list
+        for item in stats["keys"]:
+            lines.append(
+                f"{item['key']:<40}"
+                f"{item['type']:<10}"
+                f"{self.format_memmory(item['memory'], 7, 2)}"
+            )
+
+        return f"""
+Details
+-------
+KEY                                     TYPE         MEMORY
+-------------------------------------------------------------
+{"\n".join(lines)}
+-------------------------------------------------------------
+""".strip()
+
+
+    def report(
+            self,
+            details: bool = True
+    ) -> str:
+        """
+        Generate a formatted Redis database report
+
+        :param details: bool, whether to include per-key Redis statistics
+        :return: str, formatted Redis report containing current database statistics
+        """
+
+        # Timestamp of report
+        timestamp = CLOCK.now()
+
+        # Calculate redis' statistics
+        redis_stats = self._stats()
+
+        # Add the overview to the redis report
+        summary = self._overview(stats=redis_stats)
+
+        # If details are chosen to be displayed then add them
+        # to the report
+        if details:
+            summary += 2*'\n' + self._details(stats=redis_stats)
+
+        return f"""
+======================= Redis Summary =======================
+
+Generated: {timestamp}
+
+{summary}
+
+=============================================================
+"""
