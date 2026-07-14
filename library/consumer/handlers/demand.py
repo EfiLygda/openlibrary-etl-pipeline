@@ -52,7 +52,7 @@ def handle_reservation_of_unavailable_copy(
         'user_id': event['data']['user_id'],
     }
 
-    redis_client.lists.add(
+    redis_client.queues.add(
         RedisKeys.Queues.reservation_queue(event['data']['copy_id']),
         json.dumps(queue_data)
     )
@@ -134,7 +134,7 @@ def handle_cancellation_of_active_reservation(
     })
 
     # Remove the reservation from the copy's reservation queue
-    redis_client.lists.remove(
+    redis_client.queues.remove(
         name=RedisKeys.Queues.reservation_queue(copy_id),
         value=queue_item
     )

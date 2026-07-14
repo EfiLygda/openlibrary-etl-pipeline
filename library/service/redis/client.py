@@ -295,7 +295,7 @@ class RedisClient:
         self.counters = _RedisCounter(connection)
         self.hashes = _RedisHash(connection)
         self.sets = _RedisSet(connection)
-        self.lists = _RedisQueue(connection)
+        self.queues = _RedisQueue(connection)
 
     def close(self) -> None:
         """

@@ -135,7 +135,7 @@ def fulfill_copy_reservation_on_return(
     """
 
     # Remove and fetch reservation data from the copy's reservation queue
-    item = redis_client.lists.pop(
+    item = redis_client.queues.pop(
         name=RedisKeys.Queues.reservation_queue(copy_id=copy_id)
     )
 
@@ -227,7 +227,7 @@ def handle_return_borrowed_copy(
     )
 
     # Check if the copy was reserved
-    copy_is_reserved = redis_client.lists.get_length(
+    copy_is_reserved = redis_client.queues.get_length(
             RedisKeys.Queues.reservation_queue(copy_id)
     ) > 0
 
