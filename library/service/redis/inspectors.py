@@ -18,7 +18,7 @@ class Inspector:
         self.client = client
         self.number_format = '>10,'
 
-    def format_memmory(
+    def format_memory(
             self,
             bytes: int,
             digits: int,
@@ -42,6 +42,23 @@ class Inspector:
             alignment = '<'
 
         return f'{bytes / (1024 * 1024):{alignment}{digits}.{decimals}f} MB'
+
+    def format_percent(self, percent: float) -> str:
+        """
+        Format a decimal ratio as a human-readable percentage.
+
+        Values below 0.1% are represented as '<0.1%' to avoid displaying
+        insignificant rounded values as 0.00%.
+
+        :param percent: float, percentage value represented as a ratio
+                        (for example, 0.534 means 53.4%)
+        :return: str, formatted percentage string
+        """
+
+        if percent*100 < 0.1:
+            return '<0.1%'
+
+        return f'{percent*100:.2f}%'
 
 class LibraryInspector(Inspector):
 
@@ -191,17 +208,17 @@ class RedisInspector(Inspector):
         # For each redis key finds its stats
         for key in redis_client.inspection.get_all_keys():
 
-            # Find the redis key type and its memmory usage
+            # Find the redis key type and its memory usage
             key_type = redis_client.inspection.get_type(key).upper()
             memory = redis_client.inspection.get_memory_usage(key) or 0
 
             # Add to the keys counters
             stats["total_keys"] += 1
 
-            # Add to total memmory usage
+            # Add to total memory usage
             stats["total_memory"] += memory
 
-            # Add the kye, its type and memmory usage to the list
+            # Add the kye, its type and memory usage to the list
             stats["keys"].append(
                 {
                     "key": key,
@@ -210,12 +227,16 @@ class RedisInspector(Inspector):
                 }
             )
 
-        # Sort redis keys' metadata by descenting memmory usage
+        # Sort redis keys' metadata by descenting memory usage
         stats["keys"] = sorted(
             stats["keys"],
             key=lambda d: d['memory'],
             reverse=True
         )
+
+        # Calculate total memory percent used by each redis key
+        for key in stats['keys']:
+            key['memory_percent'] = key['memory'] / stats['total_memory']
 
         return stats
 
@@ -231,7 +252,7 @@ class RedisInspector(Inspector):
 Database
 --------
 Total Keys:     {stats["total_keys"]}
-Total Memory:   {self.format_memmory(stats["total_memory"], 5, 2, right_justified=False)}
+Total Memory:   {self.format_memory(stats["total_memory"], 5, 2, right_justified=False)}
 """
 
     def _details(self, stats: dict) -> str:
@@ -250,16 +271,17 @@ Total Memory:   {self.format_memmory(stats["total_memory"], 5, 2, right_justifie
             lines.append(
                 f"{item['key']:<40}"
                 f"{item['type']:<10}"
-                f"{self.format_memmory(item['memory'], 7, 2)}"
+                f"{self.format_memory(item['memory'], 7, 2):>10}"
+                f"{self.format_percent(item['memory_percent']):>15}"
             )
 
         return f"""
 Details
 -------
-KEY                                     TYPE         MEMORY
--------------------------------------------------------------
+KEY                                     TYPE         MEMORY         MEMORY %
+----------------------------------------------------------------------------
 {"\n".join(lines)}
--------------------------------------------------------------
+----------------------------------------------------------------------------
 """.strip()
 
 
@@ -289,11 +311,11 @@ KEY                                     TYPE         MEMORY
             summary += 2*'\n' + self._details(stats=redis_stats)
 
         return f"""
-======================= Redis Summary =======================
+============================== Redis Summary ===============================
 
 Generated: {timestamp}
 
 {summary}
 
-=============================================================
+============================================================================
 """
