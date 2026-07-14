@@ -109,6 +109,16 @@ class _RedisString(_RedisBase):
         """
         return self.redis.get(name)
 
+    def get_length(self, name: str) -> int:
+        """
+        Get the length of the string value stored at key ``name``.
+
+        :param name: str, name of the key
+
+        :return: int, length of the stored string value (0 if the key does not exist)
+        """
+        return self.redis.strlen(name)
+
 class _RedisSet(_RedisBase):
     """
     Provides Redis set data structure operations
