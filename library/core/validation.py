@@ -35,7 +35,7 @@ def is_over_max_allowed(
     max_allowable_hash_key = event_spec.get_max_allowable_hash_key(event)
 
     # Fetch current counter value
-    counter_value = redis_client.get_counter(
+    counter_value = redis_client.counters.get_counter(
         name=counter_name,
         key=counter_hash_key
     )
@@ -44,12 +44,12 @@ def is_over_max_allowed(
     # In case a hash key is available then the value is stored in a redis hash,
     # else in a simple value
     if max_allowable_hash_key:
-        max_allowable_value = redis_client.get_from_hash(
+        max_allowable_value = redis_client.hashes.get_from_hash(
             name=max_allowable_name,
             key=max_allowable_hash_key
         )
     else:
-        max_allowable_value = redis_client.get_value(name=max_allowable_name)
+        max_allowable_value = redis_client.strings.get_value(name=max_allowable_name)
 
     # Convert fetched value to integer
     max_allowable_value = int(max_allowable_value)
