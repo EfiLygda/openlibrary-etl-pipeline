@@ -10,15 +10,31 @@ from library.consumer import handlers
 
 class EventSpec:
     """
-    Stores metadata associated with a specific event type.
+    Stores metadata associated with a specific event type
 
-    :param counter_name:
-        Function that receives an event dict and returns the Redis key
-        for the event counter.
+    :param category: EventCategory, category the event belongs to
 
-    :param max_allowable_name:
-        Function that receives an event dict and returns the Redis key
-        for the maximum allowed value.
+    :param generator: Callable[..., dict], function that generates the
+        event payload
+    :param handler: Callable[..., None], function that processes the
+        event
+
+    :param counter_name: str | None, Redis key used to track the number
+        of times the event has occurred
+    :param counter_hash_key: Callable[[dict], str] | None, function that
+        receives an event dictionary and returns the Redis hash field for
+        the event counter. If None, the counter is stored as a normal
+        Redis key
+
+    :param max_allowable_name: str | None, Redis key used to store the
+        maximum allowable value for the event counter
+    :param max_allowable_hash_key: Callable[[dict], str] | None, function
+        that receives an event dictionary and returns the Redis hash
+        field for the maximum allowable value. If None, the value is
+        stored as a normal Redis key
+
+    :param produces_event: bool, whether handling this event produces
+        another event
     """
 
     def __init__(
@@ -56,6 +72,34 @@ class EventSpec:
 
         # Whether the event produces another event, or not
         self.produces_event = produces_event
+
+    def get_counter_hash_key(self, event: dict) -> str | None:
+        """
+        Resolve the Redis hash field for the event counter
+
+        :param event: dict, event dictionary
+
+        :return: str | None, the Redis hash field for the event counter, or
+            None if the counter is stored as a normal Redis key
+        """
+        if self.counter_hash_key is not None:
+            return self.counter_hash_key(event)
+        else:
+            return None
+
+    def get_max_allowable_hash_key(self, event: dict) -> str | None:
+        """
+        Resolve the Redis hash field for the maximum allowable value
+
+        :param event: dict, event dictionary
+
+        :return: str | None, the Redis hash field for the maximum allowable
+            value, or None if the value is stored as a normal Redis key
+        """
+        if self.max_allowable_hash_key is not None:
+            return self.max_allowable_hash_key(event)
+        else:
+            return None
 
 EVENTS = {
 
