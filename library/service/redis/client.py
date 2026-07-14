@@ -228,7 +228,7 @@ class _RedisHash(_RedisBase):
         :param name: str, name of the hash used
         :param mapping: dict, the dictionary used
 
-        :return: int, the number of fields that were added
+        :return: int, number of new fields added to the hash
         """
         return self.redis.hset(name, mapping=mapping)
 
@@ -240,9 +240,8 @@ class _RedisHash(_RedisBase):
         :param key: str, key of the value to retrieve
         :param value: str, the value to set
 
-        :return: int, number of fields set
+        :return: int, number of fields added (1 for a new field, 0 for an updated field)
         """
-
         return self.redis.hset(name=name, key=key, value=value)
 
     def get(self, name: str, key: str) -> bytes | str | None:
@@ -255,6 +254,16 @@ class _RedisHash(_RedisBase):
         :return: bytes | str | None, the wanted value
         """
         return self.redis.hget(name, key=key)
+
+    def get_length(self, name: str) -> int:
+        """
+        Get the number of fields stored in a Redis hash.
+
+        :param name: str, name of the hash used
+
+        :return: int, number of fields in the hash
+        """
+        return self.redis.hlen(name)
 
 class _RedisQueue(_RedisBase):
     """
