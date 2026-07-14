@@ -218,12 +218,24 @@ class RedisInspector(Inspector):
             # Add to total memory usage
             stats["total_memory"] += memory
 
+            if key_type == 'SET':
+                items = redis_client.sets.get_size(key)
+            elif key_type == 'HASH':
+                items = redis_client.hashes.get_length(key)
+            elif key_type == 'LIST':
+                items = redis_client.queues.get_length(key)
+            elif key_type == 'STRING':
+                items = redis_client.strings.get_length(key)
+            else:
+                items = '-'
+
             # Add the kye, its type and memory usage to the list
             stats["keys"].append(
                 {
                     "key": key,
                     "type": key_type,
                     "memory": memory,
+                    'items': items,
                 }
             )
 
@@ -273,15 +285,16 @@ Total Memory:   {self.format_memory(stats["total_memory"], 5, 2, right_justified
                 f"{item['type']:<10}"
                 f"{self.format_memory(item['memory'], 7, 2):>10}"
                 f"{self.format_percent(item['memory_percent']):>15}"
+                f"{item['items']:>15,}"
             )
 
         return f"""
 Details
 -------
-KEY                                     TYPE         MEMORY         MEMORY %
-----------------------------------------------------------------------------
+KEY                                     TYPE         MEMORY         MEMORY %        ITEMS
+------------------------------------------------------------------------------------------
 {"\n".join(lines)}
-----------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
 """.strip()
 
 
@@ -311,11 +324,11 @@ KEY                                     TYPE         MEMORY         MEMORY %
             summary += 2*'\n' + self._details(stats=redis_stats)
 
         return f"""
-============================== Redis Summary ===============================
+===================================== Redis Summary ======================================
 
 Generated: {timestamp}
 
 {summary}
 
-============================================================================
+==========================================================================================
 """
