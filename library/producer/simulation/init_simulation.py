@@ -26,28 +26,28 @@ def run():
     redis_client = RedisClient()
 
     # Delete everything from Redis database
-    redis_client.flush_database()
+    redis_client.database.flush_database()
 
     # Build simulation world context
     simulation_context = build_context()
 
     # Add simulation context to Redis
-    redis_client.add_to_set(
+    redis_client.sets.add_to_set(
         RedisKeys.Sets.EDITION_KEYS,
         *simulation_context['edition_keys']
     )
 
-    redis_client.set_value(
+    redis_client.strings.set_value(
         RedisKeys.Strings.MAX_USERS,
         simulation_context['max_users']
     )
 
-    redis_client.set_value(
+    redis_client.strings.set_value(
         RedisKeys.Strings.MAX_LIBRARIANS,
         simulation_context['max_librarians']
     )
 
-    redis_client.add_hash(
+    redis_client.hashes.add_hash(
         name=RedisKeys.Hashes.MAX_EDITION_COPIES,
         mapping=simulation_context['max_copies_per_edition']
     )
