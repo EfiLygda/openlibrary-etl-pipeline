@@ -75,23 +75,42 @@ class RedisClient:
         """
         return self.redis.get(name)
 
-    def increment_counter(self, name: str) -> int | Awaitable[int]:
+    def increment_counter(
+            self,
+            name: str,
+            key: str,
+    ) -> int | Awaitable[int]:
         """
-        Increment a Redis counter for the given name
+        Increment a Redis counter or hash counter field
 
-        :param name: str, name of the counter
-        :return: int, the updated counter value
+        :param name: Redis key (or hash name)
+        :param key: Hash field name. If None, increment the key itself
+        :return: Updated counter value
         """
-        return self.redis.incr(name)
 
-    def get_counter(self, name: str) -> int:
-        """
-        Get the value of a Redis counter
+        if key is None:
+            return self.redis.incr(name)
 
-        :param name: str, name of the counter
-        :return: int, counter value (0 if missing)
+        return self.redis.hincrby(name, key, 1)
+
+    def get_counter(
+            self,
+            name: str,
+            key: str | None = None
+    ) -> int:
         """
-        return int(self.redis.get(name) or 0)
+        Get the value of a Redis counter or hash counter field
+
+        :param name: Redis key (or hash name)
+        :param key: Hash field name. If None, `name` is treated as a normal key.
+        :return: Counter value (0 if missing)
+        """
+        if key is None:
+            value = self.redis.get(name)
+        else:
+            value = self.redis.hget(name, key)
+
+        return int(value or 0)
 
     def add_to_set(self, name: str, *values) -> int:
         """
