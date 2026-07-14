@@ -58,7 +58,7 @@ def handle_reservation_of_unavailable_copy(
     )
 
     # Make a reservation hash with data
-    redis_client.hashes.add_hash(
+    redis_client.hashes.set_mapping(
         RedisKeys.Hashes.reservation(new_reservation_id),
         mapping={
             'copy_id': event['data']['copy_id'],
@@ -109,13 +109,13 @@ def handle_cancellation_of_active_reservation(
     cancelled_reservation_id = event['data']['reservation_id']
 
     # The copy id from the canceled reservation
-    copy_id = redis_client.hashes.get_from_hash(
+    copy_id = redis_client.hashes.get(
         name=RedisKeys.Hashes.reservation(cancelled_reservation_id),
         key='copy_id'
     )
 
     # The user id from the canceled reservation
-    user_id = redis_client.hashes.get_from_hash(
+    user_id = redis_client.hashes.get(
         name=RedisKeys.Hashes.reservation(cancelled_reservation_id),
         key='user_id'
     )

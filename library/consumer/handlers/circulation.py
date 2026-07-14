@@ -58,7 +58,7 @@ def handle_copy_borrowed(
     )
 
     # Setting up loan's hash
-    redis_client.hashes.add_hash(
+    redis_client.hashes.set_mapping(
         RedisKeys.Hashes.loan(new_loan_id),
         mapping={
             'copy_id': event['data']['copy_id'],
@@ -213,7 +213,7 @@ def handle_return_borrowed_copy(
 
     # Fetch the copy from the loan's Redis hash
     copy_id = str(
-        redis_client.hashes.get_from_hash(
+        redis_client.hashes.get(
             name=RedisKeys.Hashes.loan(loan_id),
             key='copy_id'
         )
@@ -299,7 +299,7 @@ def handle_renewal_of_borrowed_copy(
     # Build new due date after renewal
     new_due_date = add_days_to_str_date(
         date=str(
-            redis_client.hashes.get_from_hash(
+            redis_client.hashes.get(
                 name=RedisKeys.Hashes.loan(loan_id),
                 key='due_date'
             )
@@ -308,7 +308,7 @@ def handle_renewal_of_borrowed_copy(
     )
 
     # Add new due date to loan's hash
-    redis_client.hashes.set_in_hash(
+    redis_client.hashes.set(
         name=RedisKeys.Hashes.loan(loan_id),
         key='due_date',
         value=new_due_date

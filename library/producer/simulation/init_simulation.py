@@ -47,7 +47,7 @@ def run():
         simulation_context['max_librarians']
     )
 
-    redis_client.hashes.add_hash(
+    redis_client.hashes.set_mapping(
         name=RedisKeys.Hashes.MAX_EDITION_COPIES,
         mapping=simulation_context['max_copies_per_edition']
     )

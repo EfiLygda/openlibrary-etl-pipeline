@@ -44,7 +44,7 @@ def is_over_max_allowed(
     # In case a hash key is available then the value is stored in a redis hash,
     # else in a simple value
     if max_allowable_hash_key:
-        max_allowable_value = redis_client.hashes.get_from_hash(
+        max_allowable_value = redis_client.hashes.get(
             name=max_allowable_name,
             key=max_allowable_hash_key
         )

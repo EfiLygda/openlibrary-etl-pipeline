@@ -187,7 +187,7 @@ class _RedisCounter(_RedisBase):
 
 class _RedisHash(_RedisBase):
 
-    def add_hash(self, name: str, mapping: dict) -> int:
+    def set_mapping(self, name: str, mapping: dict) -> int:
         """
         Set a dictionary as a hash Redis in one go
 
@@ -198,18 +198,7 @@ class _RedisHash(_RedisBase):
         """
         return self.redis.hset(name, mapping=mapping)
 
-    def get_from_hash(self, name: str, key: str) -> bytes | str | None:
-        """
-        Retrieve the value of key from a Redis hash
-
-        :param name: str, name of the hash used
-        :param key: str, key of the value to retrieve
-
-        :return: bytes | str | None, the wanted value
-        """
-        return self.redis.hget(name, key=key)
-
-    def set_in_hash(self, name: str, key: str, value: int | str) -> int:
+    def set(self, name: str, key: str, value: int | str) -> int:
         """
         Set the value of a key from a Redis hash
 
@@ -222,6 +211,17 @@ class _RedisHash(_RedisBase):
 
         return self.redis.hset(name=name, key=key, value=value)
 
+    def get(self, name: str, key: str) -> bytes | str | None:
+        """
+        Retrieve the value of key from a Redis hash
+
+        :param name: str, name of the hash used
+        :param key: str, key of the value to retrieve
+
+        :return: bytes | str | None, the wanted value
+        """
+        return self.redis.hget(name, key=key)
+    
 class _RedisList(_RedisBase):
     # TODO: Change list to queue
     def add_to_list(self, name: str, *values):
