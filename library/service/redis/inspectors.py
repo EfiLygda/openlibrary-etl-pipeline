@@ -202,8 +202,16 @@ class RedisInspector(Inspector):
         stats = {
             "total_keys": 0,
             "total_memory": 0,
-            "keys": []
+            "keys": [],
+            'types': {}
         }
+
+        # Add dictionaries for each type used
+        for key_type in ['SET', 'HASH', 'LIST', 'STRING']:
+            stats['types'][key_type] = {
+                "total_keys": 0,
+                "total_memory": 0,
+            }
 
         # For each redis key finds its stats
         for key in redis_client.inspection.get_all_keys():
@@ -218,6 +226,7 @@ class RedisInspector(Inspector):
             # Add to total memory usage
             stats["total_memory"] += memory
 
+            # For each key type get the key's size or lenght
             if key_type == 'SET':
                 items = redis_client.sets.get_size(key)
             elif key_type == 'HASH':
@@ -228,6 +237,12 @@ class RedisInspector(Inspector):
                 items = redis_client.strings.get_length(key)
             else:
                 items = '-'
+
+            # Add to the keys counters by type
+            stats['types'][key_type]['total_keys'] += 1
+
+            # Add to total memory usage by type
+            stats['types'][key_type]['total_memory'] += memory
 
             # Add the kye, its type and memory usage to the list
             stats["keys"].append(
@@ -246,9 +261,22 @@ class RedisInspector(Inspector):
             reverse=True
         )
 
+        # Sort redis types' metadata by descenting memory usage
+        stats["types"] = dict(
+            sorted(
+                stats["types"].items(),
+                key=lambda item: item[1]['total_memory'],
+                reverse=True
+            )
+        )
+
         # Calculate total memory percent used by each redis key
         for key in stats['keys']:
             key['memory_percent'] = key['memory'] / stats['total_memory']
+
+        # Calculate total memory percent used by each redis type
+        for type, data in stats['types'].items():
+            stats['types'][type]['memory_percent'] = stats['types'][type]['total_memory'] / stats['total_memory']
 
         return stats
 
@@ -297,9 +325,38 @@ KEY                                     TYPE         MEMORY         MEMORY %    
 ------------------------------------------------------------------------------------------
 """.strip()
 
+    def _summary_by_type(self, stats: dict) -> str:
+        """
+        Generate a summary of Redis memory usage grouped by data type.
+
+        :param stats: dict, Redis statistics grouped by Redis data type
+        :return: str, formatted Redis type summary
+        """
+
+        # List that will contain all the redis keys lines for the details
+        lines = []
+
+        # For each redis key add a formatted line to the lines list
+        for type, data in stats["types"].items():
+            lines.append(
+                f"{type:<10}"
+                f"{data['total_keys']:>10}"
+                f"{self.format_memory(data['total_memory'], 7, 2):>15}"
+                f"{self.format_percent(data['memory_percent']):>15}"
+            )
+
+        return f"""
+Summary by Type
+---------------
+TYPE            KEYS         MEMORY       MEMORY %
+--------------------------------------------------
+{"\n".join(lines)}
+--------------------------------------------------
+"""
 
     def report(
             self,
+            summary_by_type: bool = True,
             details: bool = True
     ) -> str:
         """
@@ -317,6 +374,9 @@ KEY                                     TYPE         MEMORY         MEMORY %    
 
         # Add the overview to the redis report
         summary = self._overview(stats=redis_stats)
+
+        if summary_by_type:
+            summary += '\n' + self._summary_by_type(stats=redis_stats)
 
         # If details are chosen to be displayed then add them
         # to the report
