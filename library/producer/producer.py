@@ -57,7 +57,7 @@ while True:
     wait(max(0, 0.5 + jitter))
 
 # Delete everything from Redis database after the end of the simulation
-redis_client.database.flush_database()
+redis_client.database.flush()
 
 # Close the client
 redis_client.close()

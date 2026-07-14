@@ -19,13 +19,13 @@ class _RedisBase:
 
 class _RedisDatabase(_RedisBase):
 
-    def flush_database(self) -> None:
+    def flush(self) -> None:
         """
         Delete all keys in the current Redis database
         """
         self.redis.flushdb()
 
-    def get_database_size(self) -> int:
+    def get_size(self) -> int:
         """
         Retrieve total number of keys in database
 

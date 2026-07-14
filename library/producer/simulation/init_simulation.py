@@ -26,7 +26,7 @@ def run():
     redis_client = RedisClient()
 
     # Delete everything from Redis database
-    redis_client.database.flush_database()
+    redis_client.database.flush()
 
     # Build simulation world context
     simulation_context = build_context()
