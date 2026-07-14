@@ -40,7 +40,7 @@ def handle_event(
     counter_hash_key = event_spec.get_counter_hash_key(event)
 
     # Increment event counter
-    counter = redis_client.counters.increment_counter(
+    counter = redis_client.counters.increment(
         name=counter_name,
         key=counter_hash_key
     )

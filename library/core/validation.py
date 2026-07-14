@@ -35,7 +35,7 @@ def is_over_max_allowed(
     max_allowable_hash_key = event_spec.get_max_allowable_hash_key(event)
 
     # Fetch current counter value
-    counter_value = redis_client.counters.get_counter(
+    counter_value = redis_client.counters.get(
         name=counter_name,
         key=counter_hash_key
     )

@@ -146,28 +146,9 @@ class _RedisSet(_RedisBase):
         """
         return self.redis.srem(name, *values)
 
-
 class _RedisCounter(_RedisBase):
 
-    def increment_counter(
-            self,
-            name: str,
-            key: str | None = None,
-    ) -> int | Awaitable[int]:
-        """
-        Increment a Redis counter or hash counter field
-
-        :param name: str, Redis key (or hash name)
-        :param key: str | None, Hash field name. If None, increment the key itself
-        :return: Updated counter value
-        """
-
-        if key is None:
-            return self.redis.incr(name)
-
-        return self.redis.hincrby(name, key, 1)
-
-    def get_counter(
+    def get(
             self,
             name: str,
             key: str | None = None
@@ -185,6 +166,24 @@ class _RedisCounter(_RedisBase):
             value = self.redis.hget(name, key)
 
         return int(value or 0)
+
+    def increment(
+            self,
+            name: str,
+            key: str | None = None,
+    ) -> int | Awaitable[int]:
+        """
+        Increment a Redis counter or hash counter field
+
+        :param name: str, Redis key (or hash name)
+        :param key: str | None, Hash field name. If None, increment the key itself
+        :return: Updated counter value
+        """
+
+        if key is None:
+            return self.redis.incr(name)
+
+        return self.redis.hincrby(name, key, 1)
 
 class _RedisHash(_RedisBase):
 
