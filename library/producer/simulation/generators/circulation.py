@@ -41,13 +41,13 @@ def borrow_available_copy(
 
     # Choose a random user, copy when not given
     if user_id is None:
-        user_id = str(redis_client.get_random_from_set(RedisKeys.Sets.USER_IDS))
+        user_id = str(redis_client.sets.get_random_from_set(RedisKeys.Sets.USER_IDS))
 
     if copy_id is None:
-        copy_id = str(redis_client.get_random_from_set(RedisKeys.Sets.AVAILABLE_COPIES_IDS))
+        copy_id = str(redis_client.sets.get_random_from_set(RedisKeys.Sets.AVAILABLE_COPIES_IDS))
 
     # Choose random librarian
-    librarian_id = redis_client.get_random_from_set(RedisKeys.Sets.LIBRARIAN_IDS)
+    librarian_id = redis_client.sets.get_random_from_set(RedisKeys.Sets.LIBRARIAN_IDS)
 
     if fulfilled_reservation_id:
         return {
@@ -74,10 +74,10 @@ def return_copy(redis_client: RedisClient) -> dict:
     """
 
     # Choose a random active loan
-    loan_id = redis_client.get_random_from_set(RedisKeys.Sets.ACTIVE_LOANS_IDS)
+    loan_id = redis_client.sets.get_random_from_set(RedisKeys.Sets.ACTIVE_LOANS_IDS)
 
     # Choose random librarian
-    librarian_id = redis_client.get_random_from_set(RedisKeys.Sets.LIBRARIAN_IDS)
+    librarian_id = redis_client.sets.get_random_from_set(RedisKeys.Sets.LIBRARIAN_IDS)
 
     return {
         'loan_id': loan_id,
@@ -93,7 +93,7 @@ def renew_loan(redis_client: RedisClient):
     """
 
     # Choose a random active loan
-    loan_id = redis_client.get_random_from_set(RedisKeys.Sets.ACTIVE_LOANS_IDS)
+    loan_id = redis_client.sets.get_random_from_set(RedisKeys.Sets.ACTIVE_LOANS_IDS)
 
     return {
         'loan_id': loan_id,

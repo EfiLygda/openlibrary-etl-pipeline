@@ -41,7 +41,7 @@ def handle_reservation_of_unavailable_copy(
     new_reservation_id = f'RSRV-{counter}'
 
     # Add to active reservations keys
-    redis_client.add_to_set(
+    redis_client.sets.add_to_set(
         RedisKeys.Sets.ACTIVE_RESERVATIONS_IDS,
         new_reservation_id
     )
@@ -52,13 +52,13 @@ def handle_reservation_of_unavailable_copy(
         'user_id': event['data']['user_id'],
     }
 
-    redis_client.add_to_list(
+    redis_client.lists.add_to_list(
         RedisKeys.Queues.reservation_queue(event['data']['copy_id']),
         json.dumps(queue_data)
     )
 
     # Make a reservation hash with data
-    redis_client.add_hash(
+    redis_client.hashes.add_hash(
         RedisKeys.Hashes.reservation(new_reservation_id),
         mapping={
             'copy_id': event['data']['copy_id'],
@@ -109,19 +109,19 @@ def handle_cancellation_of_active_reservation(
     cancelled_reservation_id = event['data']['reservation_id']
 
     # The copy id from the canceled reservation
-    copy_id = redis_client.get_from_hash(
+    copy_id = redis_client.hashes.get_from_hash(
         name=RedisKeys.Hashes.reservation(cancelled_reservation_id),
         key='copy_id'
     )
 
     # The user id from the canceled reservation
-    user_id = redis_client.get_from_hash(
+    user_id = redis_client.hashes.get_from_hash(
         name=RedisKeys.Hashes.reservation(cancelled_reservation_id),
         key='user_id'
     )
 
     # Move to canceled reservation ids
-    redis_client.move_sets(
+    redis_client.sets.move_sets(
         source=RedisKeys.Sets.ACTIVE_RESERVATIONS_IDS,
         destination=RedisKeys.Sets.CANCELLED_RESERVATIONS_IDS,
         value=cancelled_reservation_id
@@ -134,7 +134,7 @@ def handle_cancellation_of_active_reservation(
     })
 
     # Remove the reservation from the copy's reservation queue
-    redis_client.remove_from_list(
+    redis_client.lists.remove_from_list(
         name=RedisKeys.Queues.reservation_queue(copy_id),
         value=queue_item
     )

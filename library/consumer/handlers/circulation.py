@@ -52,13 +52,13 @@ def handle_copy_borrowed(
     new_loan_id = f'LN-{counter}'
 
     # Add new ID to Redis set to be used later
-    redis_client.add_to_set(
+    redis_client.sets.add_to_set(
         RedisKeys.Sets.ACTIVE_LOANS_IDS,
         new_loan_id
     )
 
     # Setting up loan's hash
-    redis_client.add_hash(
+    redis_client.hashes.add_hash(
         RedisKeys.Hashes.loan(new_loan_id),
         mapping={
             'copy_id': event['data']['copy_id'],
@@ -69,7 +69,7 @@ def handle_copy_borrowed(
     )
 
     # Move copy id from available to unavailable in Redis
-    redis_client.move_sets(
+    redis_client.sets.move_sets(
         source=RedisKeys.Sets.AVAILABLE_COPIES_IDS,
         destination=RedisKeys.Sets.UNAVAILABLE_COPIES_IDS,
         value=event['data']['copy_id']
@@ -135,7 +135,7 @@ def fulfill_copy_reservation_on_return(
     """
 
     # Remove and fetch reservation data from the copy's reservation queue
-    item = redis_client.pop_from_list(
+    item = redis_client.lists.pop_from_list(
         name=RedisKeys.Queues.reservation_queue(copy_id=copy_id)
     )
 
@@ -163,7 +163,7 @@ def fulfill_copy_reservation_on_return(
     )
 
     # Move reservation id from redis active reservations to fulfilled ids
-    redis_client.move_sets(
+    redis_client.sets.move_sets(
         source=RedisKeys.Sets.ACTIVE_RESERVATIONS_IDS,
         destination=RedisKeys.Sets.FULFILLED_RESERVATIONS_IDS,
         value=reservation_id
@@ -213,21 +213,21 @@ def handle_return_borrowed_copy(
 
     # Fetch the copy from the loan's Redis hash
     copy_id = str(
-        redis_client.get_from_hash(
+        redis_client.hashes.get_from_hash(
             name=RedisKeys.Hashes.loan(loan_id),
             key='copy_id'
         )
     )
 
     # Move loan ID from active loans to returned loans set
-    redis_client.move_sets(
+    redis_client.sets.move_sets(
         RedisKeys.Sets.ACTIVE_LOANS_IDS,
         RedisKeys.Sets.RETURNED_LOANS_IDS,
         loan_id
     )
 
     # Check if the copy was reserved
-    copy_is_reserved = redis_client.length_of_list(
+    copy_is_reserved = redis_client.lists.length_of_list(
             RedisKeys.Queues.reservation_queue(copy_id)
     ) > 0
 
@@ -249,7 +249,7 @@ def handle_return_borrowed_copy(
 
     else:
         # Move copy id from unavailable to available in Redis
-        redis_client.move_sets(
+        redis_client.sets.move_sets(
             source=RedisKeys.Sets.UNAVAILABLE_COPIES_IDS,
             destination=RedisKeys.Sets.AVAILABLE_COPIES_IDS,
             value=copy_id
@@ -299,7 +299,7 @@ def handle_renewal_of_borrowed_copy(
     # Build new due date after renewal
     new_due_date = add_days_to_str_date(
         date=str(
-            redis_client.get_from_hash(
+            redis_client.hashes.get_from_hash(
                 name=RedisKeys.Hashes.loan(loan_id),
                 key='due_date'
             )
@@ -308,7 +308,7 @@ def handle_renewal_of_borrowed_copy(
     )
 
     # Add new due date to loan's hash
-    redis_client.set_in_hash(
+    redis_client.hashes.set_in_hash(
         name=RedisKeys.Hashes.loan(loan_id),
         key='due_date',
         value=new_due_date

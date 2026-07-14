@@ -38,7 +38,7 @@ def handle_copy_purchased(
     new_copy_id = f'{event['data']['edition_key']}-{counter}'
 
     # Add new ID to Redis set to be used later
-    redis_client.add_to_set(
+    redis_client.sets.add_to_set(
         RedisKeys.Sets.AVAILABLE_COPIES_IDS,
         new_copy_id
     )

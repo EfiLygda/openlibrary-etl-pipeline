@@ -27,8 +27,8 @@ def reserve_unavailable_copy(redis_client: RedisClient) -> dict:
     """
 
     # Choose a random user, copy and librarian
-    user_id = redis_client.get_random_from_set(RedisKeys.Sets.USER_IDS)
-    copy_id = redis_client.get_random_from_set(RedisKeys.Sets.UNAVAILABLE_COPIES_IDS)
+    user_id = redis_client.sets.get_random_from_set(RedisKeys.Sets.USER_IDS)
+    copy_id = redis_client.sets.get_random_from_set(RedisKeys.Sets.UNAVAILABLE_COPIES_IDS)
 
     return {
         'user_id': user_id,
@@ -45,7 +45,7 @@ def cancel_reservation(redis_client: RedisClient) -> dict:
     """
 
     # Fetch random active reservation to cancel
-    reservation_id = redis_client.get_random_from_set(RedisKeys.Sets.ACTIVE_RESERVATIONS_IDS)
+    reservation_id = redis_client.sets.get_random_from_set(RedisKeys.Sets.ACTIVE_RESERVATIONS_IDS)
 
     return {
         'reservation_id': reservation_id
