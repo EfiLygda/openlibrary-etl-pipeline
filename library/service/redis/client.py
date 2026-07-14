@@ -221,10 +221,10 @@ class _RedisHash(_RedisBase):
         :return: bytes | str | None, the wanted value
         """
         return self.redis.hget(name, key=key)
-    
-class _RedisList(_RedisBase):
-    # TODO: Change list to queue
-    def add_to_list(self, name: str, *values):
+
+class _RedisQueue(_RedisBase):
+
+    def add(self, name: str, *values):
         """
         Append one or more values to the end of a Redis list
 
@@ -235,7 +235,16 @@ class _RedisList(_RedisBase):
         """
         return self.redis.rpush(name, *values)
 
-    def pop_from_list(self, name: str) -> bytes | str | list[bytes | str] | None:
+    def get_length(self, name: str) -> int:
+        """
+        Get the number of elements in a Redis list
+
+        :param name: str, name of the Redis list
+        :return: int, number of elements currently stored in the list
+        """
+        return self.redis.llen(name)
+
+    def pop(self, name: str) -> bytes | str | list[bytes | str] | None:
         """
         Remove and return the first element of a Redis list
 
@@ -246,7 +255,7 @@ class _RedisList(_RedisBase):
         """
         return self.redis.lpop(name)
 
-    def remove_from_list(self, name: str, value: Any) -> int:
+    def remove(self, name: str, value: Any) -> int:
         """
         Removes a value from a Redis list
 
@@ -257,15 +266,6 @@ class _RedisList(_RedisBase):
         """
         # If count = 0 then all occurrences of the value are removed
         return self.redis.lrem(name=name, count=0, value=value)
-
-    def length_of_list(self, name: str) -> int:
-        """
-        Get the number of elements in a Redis list
-
-        :param name: str, name of the Redis list
-        :return: int, number of elements currently stored in the list
-        """
-        return self.redis.llen(name)
 
 class RedisClient:
     """
@@ -295,7 +295,7 @@ class RedisClient:
         self.counters = _RedisCounter(connection)
         self.hashes = _RedisHash(connection)
         self.sets = _RedisSet(connection)
-        self.lists = _RedisList(connection)
+        self.lists = _RedisQueue(connection)
 
     def close(self) -> None:
         """
