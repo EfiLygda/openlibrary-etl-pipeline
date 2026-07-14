@@ -34,11 +34,16 @@ def handle_event(
     # Fetch event spec
     event_spec = EVENTS[event_type]
 
-    # Get the current event's counter for Redis
-    counter_name = event_spec.counter_name(event)
+    # Get the current event's counter name and its key (if the counter is in a hash)
+    # for Redis
+    counter_name = event_spec.counter_name
+    counter_hash_key = event_spec.get_counter_hash_key(event)
 
     # Increment event counter
-    counter = redis_client.increment_counter(counter_name)
+    counter = redis_client.increment_counter(
+        name=counter_name,
+        key=counter_hash_key
+    )
 
     if event_spec.produces_event:
         return event_spec.handler(
