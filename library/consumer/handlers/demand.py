@@ -41,7 +41,7 @@ def handle_reservation_of_unavailable_copy(
     new_reservation_id = f'RSRV-{counter}'
 
     # Add to active reservations keys
-    redis_client.sets.add_to_set(
+    redis_client.sets.add(
         RedisKeys.Sets.ACTIVE_RESERVATIONS_IDS,
         new_reservation_id
     )
@@ -121,7 +121,7 @@ def handle_cancellation_of_active_reservation(
     )
 
     # Move to canceled reservation ids
-    redis_client.sets.move_sets(
+    redis_client.sets.move(
         source=RedisKeys.Sets.ACTIVE_RESERVATIONS_IDS,
         destination=RedisKeys.Sets.CANCELLED_RESERVATIONS_IDS,
         value=cancelled_reservation_id

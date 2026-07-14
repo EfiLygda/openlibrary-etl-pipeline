@@ -202,11 +202,11 @@ def get_event_by_timeline(
     """
 
     # Check if there are available or unavailable copies
-    has_available_copies = redis_client.sets.get_set_size(RedisKeys.Sets.AVAILABLE_COPIES_IDS) > 0
-    has_unavailable_copies = redis_client.sets.get_set_size(RedisKeys.Sets.UNAVAILABLE_COPIES_IDS) > 0
+    has_available_copies = redis_client.sets.get_size(RedisKeys.Sets.AVAILABLE_COPIES_IDS) > 0
+    has_unavailable_copies = redis_client.sets.get_size(RedisKeys.Sets.UNAVAILABLE_COPIES_IDS) > 0
 
     # Check if there are active reservations
-    has_active_reservations = redis_client.sets.get_set_size(RedisKeys.Sets.ACTIVE_RESERVATIONS_IDS) > 0
+    has_active_reservations = redis_client.sets.get_size(RedisKeys.Sets.ACTIVE_RESERVATIONS_IDS) > 0
 
     # Fetch the category weights according to the timeline
     category_weights = get_category_weights_by_timeline(

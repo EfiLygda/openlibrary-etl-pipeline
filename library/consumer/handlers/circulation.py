@@ -52,7 +52,7 @@ def handle_copy_borrowed(
     new_loan_id = f'LN-{counter}'
 
     # Add new ID to Redis set to be used later
-    redis_client.sets.add_to_set(
+    redis_client.sets.add(
         RedisKeys.Sets.ACTIVE_LOANS_IDS,
         new_loan_id
     )
@@ -69,7 +69,7 @@ def handle_copy_borrowed(
     )
 
     # Move copy id from available to unavailable in Redis
-    redis_client.sets.move_sets(
+    redis_client.sets.move(
         source=RedisKeys.Sets.AVAILABLE_COPIES_IDS,
         destination=RedisKeys.Sets.UNAVAILABLE_COPIES_IDS,
         value=event['data']['copy_id']
@@ -163,7 +163,7 @@ def fulfill_copy_reservation_on_return(
     )
 
     # Move reservation id from redis active reservations to fulfilled ids
-    redis_client.sets.move_sets(
+    redis_client.sets.move(
         source=RedisKeys.Sets.ACTIVE_RESERVATIONS_IDS,
         destination=RedisKeys.Sets.FULFILLED_RESERVATIONS_IDS,
         value=reservation_id
@@ -220,7 +220,7 @@ def handle_return_borrowed_copy(
     )
 
     # Move loan ID from active loans to returned loans set
-    redis_client.sets.move_sets(
+    redis_client.sets.move(
         RedisKeys.Sets.ACTIVE_LOANS_IDS,
         RedisKeys.Sets.RETURNED_LOANS_IDS,
         loan_id
@@ -249,7 +249,7 @@ def handle_return_borrowed_copy(
 
     else:
         # Move copy id from unavailable to available in Redis
-        redis_client.sets.move_sets(
+        redis_client.sets.move(
             source=RedisKeys.Sets.UNAVAILABLE_COPIES_IDS,
             destination=RedisKeys.Sets.AVAILABLE_COPIES_IDS,
             value=copy_id

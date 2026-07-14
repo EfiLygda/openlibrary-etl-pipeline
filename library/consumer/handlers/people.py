@@ -39,7 +39,7 @@ def handle_librarian_hired(
     new_librarian_id = f'LB-{counter}'
 
     # Add new ID to Redis set to be used later
-    redis_client.sets.add_to_set(
+    redis_client.sets.add(
         RedisKeys.Sets.LIBRARIAN_IDS,
         new_librarian_id
     )
@@ -83,7 +83,7 @@ def handle_user_registered(
     new_user_id = f'USR-{counter}'
 
     # Add new ID to Redis set to be used later
-    redis_client.sets.add_to_set(
+    redis_client.sets.add(
         RedisKeys.Sets.USER_IDS,
         new_user_id
     )

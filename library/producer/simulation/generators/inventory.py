@@ -26,7 +26,7 @@ def copy_purchased(redis_client: RedisClient) -> dict:
     """
 
     # Choose a random edition for purchasing a copy
-    edition_key = redis_client.sets.get_random_from_set(
+    edition_key = redis_client.sets.random(
         RedisKeys.Sets.EDITION_KEYS
     )
 

@@ -86,7 +86,7 @@ class _RedisString(_RedisBase):
 
 class _RedisSet(_RedisBase):
 
-    def add_to_set(self, name: str, *values) -> int:
+    def add(self, name: str, *values) -> int:
         """
         Add a value to a Redis set
 
@@ -96,17 +96,34 @@ class _RedisSet(_RedisBase):
         """
         return self.redis.sadd(name, *values)
 
-    def remove_from_set(self, name: str, *values) -> int:
+    def get(self, name: str) -> set:
         """
-        Remove values from a Redis set
+        Retrieve all members of a Redis set
+
+        :param name: str, name of the set used
+        :return: set[str], Set of stored values
+        """
+        return self.redis.smembers(name)
+
+    def get_size(self, name: str) -> int:
+        """
+        Retrieve the size of a Redis set
 
         :param name: str, name of the set
-        :param values: values to remove from the set
-        :return: int, 1 if the value was removed or 0 if not
+        :return: int, the size of the set
         """
-        return self.redis.srem(name, *values)
+        return self.redis.scard(name)
 
-    def move_sets(self, source: str, destination: str, value: str | int) -> bool | Awaitable[bool]:
+    def random(self, name: str) -> bytes | str | list[bytes | str] | None:
+        """
+        Retrieve a random member from a Redis set
+
+        :param name: str, name of the set used
+        :return: str, the random value
+        """
+        return self.redis.srandmember(name)
+
+    def move(self, source: str, destination: str, value: str | int) -> bool | Awaitable[bool]:
         """
         Move value from a Redis set to another
 
@@ -119,32 +136,16 @@ class _RedisSet(_RedisBase):
 
         return self.redis.smove(source, destination, value)
 
-    def get_set(self, name: str) -> set:
+    def remove(self, name: str, *values) -> int:
         """
-        Retrieve all members of a Redis set
-
-        :param name: str, name of the set used
-        :return: set[str], Set of stored values
-        """
-        return self.redis.smembers(name)
-
-    def get_set_size(self, name: str) -> int:
-        """
-        Retrieve the size of a Redis set
+        Remove values from a Redis set
 
         :param name: str, name of the set
-        :return: int, the size of the set
+        :param values: values to remove from the set
+        :return: int, 1 if the value was removed or 0 if not
         """
-        return self.redis.scard(name)
+        return self.redis.srem(name, *values)
 
-    def get_random_from_set(self, name: str) -> bytes | str | list[bytes | str] | None:
-        """
-        Retrieve a random member from a Redis set
-
-        :param name: str, name of the set used
-        :return: str, the random value
-        """
-        return self.redis.srandmember(name)
 
 class _RedisCounter(_RedisBase):
 

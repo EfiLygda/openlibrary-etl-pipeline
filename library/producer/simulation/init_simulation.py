@@ -32,7 +32,7 @@ def run():
     simulation_context = build_context()
 
     # Add simulation context to Redis
-    redis_client.sets.add_to_set(
+    redis_client.sets.add(
         RedisKeys.Sets.EDITION_KEYS,
         *simulation_context['edition_keys']
     )
