@@ -9,29 +9,15 @@ from redis.client import Pipeline
 
 from library.service.redis.config import REDIS_HOST, REDIS_PORT
 
-class RedisClient:
+class _RedisBase:
     """
-    Simple Redis wrapper used for counters and sets in the library system
-
-    This class encapsulates Redis operations and centralizes key naming conventions:
-    - Counters are stored under: count:<name>
-    - Sets are stored under: set:<name>
-    - Hashes are stored under: hash:<name>
+    Shared Redis client configuration and helpers
     """
 
-    def __init__(self, database: int = 0):
-        self.redis = redis.Redis(
-            host=REDIS_HOST,
-            port=REDIS_PORT,
-            db=database,
-            decode_responses=True  # Returns strings instead of bytes
-        )
+    def __init__(self, redis_connection: redis.client.Redis):
+        self.redis = redis_connection
 
-    def close(self) -> None:
-        """
-        Close the client connection
-        """
-        self.redis.close()
+class _RedisDatabase(_RedisBase):
 
     def flush_database(self) -> None:
         """
@@ -39,20 +25,43 @@ class RedisClient:
         """
         self.redis.flushdb()
 
-    @staticmethod
-    def build_redis_key(*key_parts: str) -> str:
+    def get_database_size(self) -> int:
         """
-        Helper method for building a Redis key
+        Retrieve total number of keys in database
 
-        :return: str, the redis key
+        :return: int, number of stored keys
         """
-        return ':'.join(key_parts)
+        return self.redis.dbsize()
 
-    def pipeline(self) -> Pipeline:
+class _RedisInspection(_RedisBase):
+
+    def get_all_keys(self):
         """
-        Redis pipeline for queuing multiple commands for later execution
+        Retrieve all keys from current Redis database
+
+        :return: iterator, Redis keys
         """
-        return self.redis.pipeline()
+        return self.redis.scan_iter()
+
+    def get_type(self, name: str) -> bytes | str:
+        """
+        Retrieve Redis data type of key
+
+        :param name: str, Redis key name
+        :return: str, Redis data type
+        """
+        return self.redis.type(name)
+
+    def get_memory_usage(self, name: str) -> int | None:
+        """
+        Retrieve memory usage of Redis key
+
+        :param name: str, Redis key name
+        :return: int, memory usage in bytes
+        """
+        return self.redis.memory_usage(name)
+
+class _RedisString(_RedisBase):
 
     def set_value(self, name: str, value: int | str) -> bool | str | bytes | None:
         """
@@ -75,42 +84,7 @@ class RedisClient:
         """
         return self.redis.get(name)
 
-    def increment_counter(
-            self,
-            name: str,
-            key: str,
-    ) -> int | Awaitable[int]:
-        """
-        Increment a Redis counter or hash counter field
-
-        :param name: Redis key (or hash name)
-        :param key: Hash field name. If None, increment the key itself
-        :return: Updated counter value
-        """
-
-        if key is None:
-            return self.redis.incr(name)
-
-        return self.redis.hincrby(name, key, 1)
-
-    def get_counter(
-            self,
-            name: str,
-            key: str | None = None
-    ) -> int:
-        """
-        Get the value of a Redis counter or hash counter field
-
-        :param name: Redis key (or hash name)
-        :param key: Hash field name. If None, `name` is treated as a normal key.
-        :return: Counter value (0 if missing)
-        """
-        if key is None:
-            value = self.redis.get(name)
-        else:
-            value = self.redis.hget(name, key)
-
-        return int(value or 0)
+class _RedisSet(_RedisBase):
 
     def add_to_set(self, name: str, *values) -> int:
         """
@@ -172,6 +146,47 @@ class RedisClient:
         """
         return self.redis.srandmember(name)
 
+class _RedisCounter(_RedisBase):
+
+    def increment_counter(
+            self,
+            name: str,
+            key: str | None = None,
+    ) -> int | Awaitable[int]:
+        """
+        Increment a Redis counter or hash counter field
+
+        :param name: str, Redis key (or hash name)
+        :param key: str | None, Hash field name. If None, increment the key itself
+        :return: Updated counter value
+        """
+
+        if key is None:
+            return self.redis.incr(name)
+
+        return self.redis.hincrby(name, key, 1)
+
+    def get_counter(
+            self,
+            name: str,
+            key: str | None = None
+    ) -> int:
+        """
+        Get the value of a Redis counter or hash counter field
+
+        :param name: Redis key (or hash name)
+        :param key: Hash field name. If None, `name` is treated as a normal key.
+        :return: Counter value (0 if missing)
+        """
+        if key is None:
+            value = self.redis.get(name)
+        else:
+            value = self.redis.hget(name, key)
+
+        return int(value or 0)
+
+class _RedisHash(_RedisBase):
+
     def add_hash(self, name: str, mapping: dict) -> int:
         """
         Set a dictionary as a hash Redis in one go
@@ -207,6 +222,8 @@ class RedisClient:
 
         return self.redis.hset(name=name, key=key, value=value)
 
+class _RedisList(_RedisBase):
+    # TODO: Change list to queue
     def add_to_list(self, name: str, *values):
         """
         Append one or more values to the end of a Redis list
@@ -249,3 +266,45 @@ class RedisClient:
         :return: int, number of elements currently stored in the list
         """
         return self.redis.llen(name)
+
+class RedisClient:
+    """
+    Redis wrapper used for counters and sets in the library system
+
+    This class encapsulates Redis operations and centralizes key naming conventions:
+    - Counters are stored under: count:<name>
+    - Sets are stored under: set:<name>
+    - Hashes are stored under: hash:<name>
+    """
+
+    def __init__(self, database: int = 0):
+
+        connection = redis.Redis(
+            host=REDIS_HOST,
+            port=REDIS_PORT,
+            db=database,
+            decode_responses=True  # Returns strings instead of bytes
+        )
+
+        self.redis = connection
+
+        self.database = _RedisDatabase(connection)
+        self.inspection = _RedisInspection(connection)
+
+        self.strings = _RedisString(connection)
+        self.counters = _RedisCounter(connection)
+        self.hashes = _RedisHash(connection)
+        self.sets = _RedisSet(connection)
+        self.lists = _RedisList(connection)
+
+    def close(self) -> None:
+        """
+        Close the client connection
+        """
+        self.redis.close()
+
+    def pipeline(self) -> Pipeline:
+        """
+        Redis pipeline for queuing multiple commands for later execution
+        """
+        return self.redis.pipeline()
