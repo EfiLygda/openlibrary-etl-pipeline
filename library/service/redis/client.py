@@ -1,5 +1,21 @@
 """
-Contains simple Redis wrapper used for counters and sets in the library system
+Redis service wrapper module.
+
+Provides a simplified interface around Redis commands used by the library
+system. The module groups Redis operations by data structure type while
+sharing a single Redis connection.
+
+Available wrappers:
+- RedisDatabase: Database-level operations such as flushing and key counts.
+- RedisInspection: Redis introspection and key metadata operations.
+- RedisString: String key operations.
+- RedisCounter: Numeric counter operations.
+- RedisHash: Hash data structure operations.
+- RedisSet: Set data structure operations.
+- RedisQueue: List-based queue operations.
+
+RedisClient acts as the main entry point and exposes each operation group
+through dedicated attributes.
 """
 
 from typing import Awaitable, Any
@@ -18,6 +34,9 @@ class _RedisBase:
         self.redis = redis_connection
 
 class _RedisDatabase(_RedisBase):
+    """
+    Provides Redis database management operations
+    """
 
     def flush(self) -> None:
         """
@@ -34,6 +53,9 @@ class _RedisDatabase(_RedisBase):
         return self.redis.dbsize()
 
 class _RedisInspection(_RedisBase):
+    """
+    Provides Redis key inspection operations
+    """
 
     def get_all_keys(self):
         """
@@ -62,6 +84,9 @@ class _RedisInspection(_RedisBase):
         return self.redis.memory_usage(name)
 
 class _RedisString(_RedisBase):
+    """
+    Provides Redis string value operations
+    """
 
     def set(self, name: str, value: int | str) -> bool | str | bytes | None:
         """
@@ -85,6 +110,9 @@ class _RedisString(_RedisBase):
         return self.redis.get(name)
 
 class _RedisSet(_RedisBase):
+    """
+    Provides Redis set data structure operations
+    """
 
     def add(self, name: str, *values) -> int:
         """
@@ -147,6 +175,9 @@ class _RedisSet(_RedisBase):
         return self.redis.srem(name, *values)
 
 class _RedisCounter(_RedisBase):
+    """
+    Provides Redis counter operations
+    """
 
     def get(
             self,
@@ -186,6 +217,9 @@ class _RedisCounter(_RedisBase):
         return self.redis.hincrby(name, key, 1)
 
 class _RedisHash(_RedisBase):
+    """
+    Provides Redis hash data structure operations
+    """
 
     def set_mapping(self, name: str, mapping: dict) -> int:
         """
@@ -223,6 +257,9 @@ class _RedisHash(_RedisBase):
         return self.redis.hget(name, key=key)
 
 class _RedisQueue(_RedisBase):
+    """
+    Provides Redis queue operations using Redis lists
+    """
 
     def add(self, name: str, *values):
         """
@@ -269,12 +306,7 @@ class _RedisQueue(_RedisBase):
 
 class RedisClient:
     """
-    Redis wrapper used for counters and sets in the library system
-
-    This class encapsulates Redis operations and centralizes key naming conventions:
-    - Counters are stored under: count:<name>
-    - Sets are stored under: set:<name>
-    - Hashes are stored under: hash:<name>
+    Provides a high-level interface for Redis operations used by the library system
     """
 
     def __init__(self, database: int = 0):
