@@ -7,16 +7,14 @@ Handles events involving lending workflows, such as:
 * Renewing loans
 """
 
-import os
 import json
 from datetime import datetime
 
 import psycopg2
 from kafka import KafkaProducer
 
-from utilities.database import execute_query
-
 from library.start_library import TOPIC
+from library.database.handler_queries import execute_handler_query
 from library.utils.dates import add_days_to_str_date
 from library.core.events import EventType, EventTrigger
 
@@ -75,13 +73,11 @@ def handle_copy_borrowed(
         value=event['data']['copy_id']
     )
 
-    # Setting up the loading query
-    query_filepath = os.path.join(CIRCULATION_SQL_DIR, 'copy_borrowed.sql')
-
     # Execute the query
-    execute_query(
+    execute_handler_query(
         connection=connection,
-        query_filepath=query_filepath,
+        event_category_dir=CIRCULATION_SQL_DIR,
+        sql_filename='copy_borrowed.sql',
         params={
             'loan_id': new_loan_id,
             'user_id': event['data']['user_id'],
@@ -101,18 +97,17 @@ def handle_copy_borrowed(
     # then update the reservations table with the new loan ID
     if event.get('trigger') == EventTrigger.RESERVATION_FULFILLMENT:
 
-        # Setting up the loading query
-        query_filepath = os.path.join(CIRCULATION_SQL_DIR, 'reservation_fulfillment.sql')
-
         # Execute the query
-        execute_query(
+        execute_handler_query(
             connection=connection,
-            query_filepath=query_filepath,
+            event_category_dir=CIRCULATION_SQL_DIR,
+            sql_filename='reservation_fulfillment.sql',
             params={
                 'fulfillment_loan_id': new_loan_id,
                 'reservation_id': event['data']['fulfilled_reservation_id']
             }
         )
+
 
 def fulfill_copy_reservation_on_return(
         connection: psycopg2.extensions.connection,
@@ -169,13 +164,11 @@ def fulfill_copy_reservation_on_return(
         value=reservation_id
     )
 
-    # Setting up the query
-    query_filepath = os.path.join(CIRCULATION_SQL_DIR, 'fulfill_copy_reservation_on_return.sql')
-
     # Execute the query
-    execute_query(
+    execute_handler_query(
         connection=connection,
-        query_filepath=query_filepath,
+        event_category_dir=CIRCULATION_SQL_DIR,
+        sql_filename='fulfill_copy_reservation_on_return.sql',
         params={
             'fulfilled_at': event['timestamp'],
             'reservation_id': reservation_id,
@@ -258,13 +251,11 @@ def handle_return_borrowed_copy(
         # The current status of the copy
         copy_status = 'AVAILABLE'
 
-    # Setting up the loading query
-    query_filepath = os.path.join(CIRCULATION_SQL_DIR, 'return_borrowed_copy.sql')
-
     # Execute the query
-    execute_query(
+    execute_handler_query(
         connection=connection,
-        query_filepath=query_filepath,
+        event_category_dir=CIRCULATION_SQL_DIR,
+        sql_filename='return_borrowed_copy.sql',
         params={
             'loan_id': loan_id,
             'copy_id': copy_id,
@@ -314,13 +305,11 @@ def handle_renewal_of_borrowed_copy(
         value=new_due_date
     )
 
-    # Setting up the loading query
-    query_filepath = os.path.join(CIRCULATION_SQL_DIR, 'renewal_of_borrowed_copy.sql')
-
     # Execute the query
-    execute_query(
+    execute_handler_query(
         connection=connection,
-        query_filepath=query_filepath,
+        event_category_dir=CIRCULATION_SQL_DIR,
+        sql_filename='renewal_of_borrowed_copy.sql',
         params={
             'loan_id': loan_id,
             'new_due_date': new_due_date,
