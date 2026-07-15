@@ -5,15 +5,13 @@ Handles events involving physical copies of works, such as:
 * Copy purchases
 """
 
-import os
 import psycopg2
 from kafka import KafkaProducer
-
-from utilities import execute_query
 
 from library.service.redis.keys import RedisKeys
 from library.service.redis.client import RedisClient
 from library.consumer.handlers.paths import INVENTORY_SQL_DIR
+from library.database.handler_queries import execute_handler_query
 
 def handle_copy_purchased(
         connection: psycopg2.extensions.connection,
@@ -43,13 +41,11 @@ def handle_copy_purchased(
         new_copy_id
     )
 
-    # Setting up the loading query
-    query_filepath = os.path.join(INVENTORY_SQL_DIR, 'copy_purchased.sql')
-
     # Execute the query
-    execute_query(
+    execute_handler_query(
         connection=connection,
-        query_filepath=query_filepath,
+        event_category_dir=INVENTORY_SQL_DIR,
+        sql_filename='copy_purchased.sql',
         params={
             'copy_id': new_copy_id,
             'edition_key': event['data']['edition_key'],
