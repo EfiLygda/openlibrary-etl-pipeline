@@ -15,11 +15,10 @@ from kafka import KafkaProducer
 
 from library.start_library import TOPIC
 from library.database.handler_queries import execute_handler_query
-from library.utils.dates import add_days_to_str_date
 from library.core.events import EventType, EventTrigger
 
-from library.service.redis.keys import RedisKeys
-from library.service.redis.client import RedisClient
+from library.service.redis.operations.registry import RedisOperations
+
 from library.service.kafka.publisher import emit_event
 
 from library.producer.simulation.event_factory import create_event
@@ -29,7 +28,7 @@ from library.consumer.handlers.paths import CIRCULATION_SQL_DIR
 
 def handle_copy_borrowed(
         connection: psycopg2.extensions.connection,
-        redis_client: RedisClient,
+        redis_operations: RedisOperations,
         event: dict,
         counter: int,
         producer: KafkaProducer | None = None,
@@ -38,7 +37,7 @@ def handle_copy_borrowed(
     Inserts new record of a copy's borrowing to the 'loans' table
 
     :param connection: psycopg2.extensions.connection, the connection used for inserting the new record
-    :param redis_client: RedisClient, the redis client used to fetch configuration values
+    :param redis_operations: RedisOperations, the Redis operations handler
     :param event: dict, the event/dictionary used
     :param counter: int, the event counter used for generating a record's ID
     :param producer: KafkaProducer, producer used for emitting chain events, when needed
@@ -49,28 +48,16 @@ def handle_copy_borrowed(
     # Generate new copy ID
     new_loan_id = f'LN-{counter}'
 
-    # Add new ID to Redis set to be used later
-    redis_client.sets.add(
-        RedisKeys.Sets.ACTIVE_LOANS_IDS,
-        new_loan_id
-    )
-
-    # Setting up loan's hash
-    redis_client.hashes.set_mapping(
-        RedisKeys.Hashes.loan(new_loan_id),
-        mapping={
-            'copy_id': event['data']['copy_id'],
-            'due_date': event['data']['due_date'],
-            # TODO: Maybe add more
-            # 'user_id': None,
-        }
-    )
-
     # Move copy id from available to unavailable in Redis
-    redis_client.sets.move(
-        source=RedisKeys.Sets.AVAILABLE_COPIES_IDS,
-        destination=RedisKeys.Sets.UNAVAILABLE_COPIES_IDS,
-        value=event['data']['copy_id']
+    redis_operations.copies.borrow_copy(
+        copy_id=event['data']['copy_id']
+    )
+
+    # Create new loan
+    redis_operations.loans.create_active_loan(
+        loan_id=new_loan_id,
+        copy_id=event['data']['copy_id'],
+        due_date=event['data']['due_date']
     )
 
     # Execute the query
@@ -111,7 +98,7 @@ def handle_copy_borrowed(
 
 def fulfill_copy_reservation_on_return(
         connection: psycopg2.extensions.connection,
-        redis_client: RedisClient,
+        redis_operations: RedisOperations,
         event: dict,
         producer: KafkaProducer,
         copy_id: str,
@@ -121,7 +108,7 @@ def fulfill_copy_reservation_on_return(
     the user that had reserved the returned copy
 
     :param connection: psycopg2.extensions.connection, the connection used for inserting the new record
-    :param redis_client: RedisClient, the redis client used to fetch configuration values
+    :param redis_operations: RedisOperations, the Redis operations handler
     :param event: dict, the event/dictionary used
     :param producer: KafkaProducer, producer used for emitting chain events, when needed
     :param copy_id: str, the returned copy's ID
@@ -130,8 +117,8 @@ def fulfill_copy_reservation_on_return(
     """
 
     # Remove and fetch reservation data from the copy's reservation queue
-    item = redis_client.queues.pop(
-        name=RedisKeys.Queues.reservation_queue(copy_id=copy_id)
+    item = redis_operations.reservations.pop_next(
+        copy_id=copy_id
     )
 
     # Load reservation data
@@ -143,7 +130,7 @@ def fulfill_copy_reservation_on_return(
 
     # Generate data for the new borrow event
     new_borrow_event_data = borrow_available_copy(
-        redis_client=redis_client,
+        redis_client=redis_operations.client,
         user_id=reservation_user_id,
         copy_id=copy_id,
         fulfilled_reservation_id=reservation_id,
@@ -158,10 +145,8 @@ def fulfill_copy_reservation_on_return(
     )
 
     # Move reservation id from redis active reservations to fulfilled ids
-    redis_client.sets.move(
-        source=RedisKeys.Sets.ACTIVE_RESERVATIONS_IDS,
-        destination=RedisKeys.Sets.FULFILLED_RESERVATIONS_IDS,
-        value=reservation_id
+    redis_operations.reservations.fulfill(
+        reservation_id=reservation_id
     )
 
     # Execute the query
@@ -184,7 +169,7 @@ def fulfill_copy_reservation_on_return(
 
 def handle_return_borrowed_copy(
         connection: psycopg2.extensions.connection,
-        redis_client: RedisClient,
+        redis_operations: RedisOperations,
         event: dict,
         counter: int,
         producer: KafkaProducer,
@@ -193,7 +178,7 @@ def handle_return_borrowed_copy(
     Updates the loan's and the respective copy's status in the database
 
     :param connection: psycopg2.extensions.connection, the connection used for inserting the new record
-    :param redis_client: RedisClient, the redis client used to fetch configuration values
+    :param redis_operations: RedisOperations, the Redis operations handler
     :param event: dict, the event/dictionary used
     :param counter: int, the event counter used for generating a record's ID
     :param producer: KafkaProducer, producer used for emitting chain events, when needed
@@ -205,24 +190,19 @@ def handle_return_borrowed_copy(
     loan_id = event['data']['loan_id']
 
     # Fetch the copy from the loan's Redis hash
-    copy_id = str(
-        redis_client.hashes.get(
-            name=RedisKeys.Hashes.loan(loan_id),
-            key='copy_id'
-        )
+    copy_id = redis_operations.loans.get_copy_id(
+        loan_id=loan_id
     )
 
     # Move loan ID from active loans to returned loans set
-    redis_client.sets.move(
-        RedisKeys.Sets.ACTIVE_LOANS_IDS,
-        RedisKeys.Sets.RETURNED_LOANS_IDS,
-        loan_id
+    redis_operations.loans.return_loan(
+        loan_id=loan_id
     )
 
     # Check if the copy was reserved
-    copy_is_reserved = redis_client.queues.get_length(
-            RedisKeys.Queues.reservation_queue(copy_id)
-    ) > 0
+    copy_is_reserved = redis_operations.copies.has_copy_reservations(
+        copy_id=copy_id
+    )
 
     if copy_is_reserved:
 
@@ -230,7 +210,7 @@ def handle_return_borrowed_copy(
         # that had reserved the returned copy
         fulfill_copy_reservation_on_return(
             connection=connection,
-            redis_client=redis_client,
+            redis_operations=redis_operations,
             event=event,
             producer=producer,
             copy_id=copy_id,
@@ -242,10 +222,8 @@ def handle_return_borrowed_copy(
 
     else:
         # Move copy id from unavailable to available in Redis
-        redis_client.sets.move(
-            source=RedisKeys.Sets.UNAVAILABLE_COPIES_IDS,
-            destination=RedisKeys.Sets.AVAILABLE_COPIES_IDS,
-            value=copy_id
+        redis_operations.copies.return_copy(
+            copy_id=copy_id
         )
 
         # The current status of the copy
@@ -267,7 +245,7 @@ def handle_return_borrowed_copy(
 
 def handle_renewal_of_borrowed_copy(
         connection: psycopg2.extensions.connection,
-        redis_client: RedisClient,
+        redis_operations: RedisOperations,
         event: dict,
         counter: int,
         producer: KafkaProducer | None = None,
@@ -276,7 +254,7 @@ def handle_renewal_of_borrowed_copy(
     Updates the loans due date and renewal count in 'loans' table
 
     :param connection: psycopg2.extensions.connection, the connection used for inserting the new record
-    :param redis_client: RedisClient, the redis client used to fetch configuration values
+    :param redis_operations: RedisOperations, the Redis operations handler
     :param event: dict, the event/dictionary used
     :param counter: int, the event counter used for generating a record's ID
     :param producer: KafkaProducer, producer used for emitting chain events, when needed
@@ -287,22 +265,9 @@ def handle_renewal_of_borrowed_copy(
     # Fetch the loan it from the even
     loan_id = event['data']['loan_id']
 
-    # Build new due date after renewal
-    new_due_date = add_days_to_str_date(
-        date=str(
-            redis_client.hashes.get(
-                name=RedisKeys.Hashes.loan(loan_id),
-                key='due_date'
-            )
-        ),
-        days=7
-    )
-
     # Add new due date to loan's hash
-    redis_client.hashes.set(
-        name=RedisKeys.Hashes.loan(loan_id),
-        key='due_date',
-        value=new_due_date
+    new_due_date = redis_operations.loans.renew_loan(
+        loan_id=loan_id
     )
 
     # Execute the query

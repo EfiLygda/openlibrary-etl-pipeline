@@ -6,12 +6,13 @@ import psycopg2
 
 from kafka import KafkaProducer
 
-from library.service.redis.client import RedisClient
 from library.core.registry import EVENTS
+from library.service.redis.operations.registry import RedisOperations
+
 
 def handle_event(
         connection: psycopg2.extensions.connection,
-        redis_client: RedisClient,
+        redis_operations: RedisOperations,
         event: dict,
         producer: KafkaProducer,
 ) -> tuple:
@@ -19,7 +20,7 @@ def handle_event(
     Function for handling all events regardless of type, by inserting new records
 
     :param connection: psycopg2.extensions.connection, the connection used for inserting the new record
-    :param redis_client: RedisClient, the redis client used to fetch configuration values
+    :param redis_operations: RedisOperations, the Redis operations handler
     :param event: dict, the event/dictionary used
     :param producer: KafkaProducer, producer used for emitting chain events, when needed
 
@@ -40,7 +41,7 @@ def handle_event(
     counter_hash_key = event_spec.get_counter_hash_key(event)
 
     # Increment event counter
-    counter = redis_client.counters.increment(
+    counter = redis_operations.client.counters.increment(
         name=counter_name,
         key=counter_hash_key
     )
@@ -48,7 +49,7 @@ def handle_event(
     if event_spec.produces_event:
         return event_spec.handler(
             connection=connection,
-            redis_client=redis_client,
+            redis_operations=redis_operations,
             event=event,
             counter=counter,
             producer=producer
@@ -56,7 +57,7 @@ def handle_event(
 
     return event_spec.handler(
         connection=connection,
-        redis_client=redis_client,
+        redis_operations=redis_operations,
         event=event,
         counter=counter
     )

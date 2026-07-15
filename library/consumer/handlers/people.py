@@ -9,14 +9,14 @@ Handles events involving users and librarians, such as:
 import psycopg2
 from kafka import KafkaProducer
 
-from library.service.redis.keys import RedisKeys
-from library.service.redis.client import RedisClient
+from library.service.redis.operations.registry import RedisOperations
 from library.consumer.handlers.paths import PEOPLE_SQL_DIR
 from library.database.handler_queries import execute_handler_query
 
+
 def handle_librarian_hired(
         connection: psycopg2.extensions.connection,
-        redis_client: RedisClient,
+        redis_operations: RedisOperations,
         event: dict,
         counter: int,
         producer: KafkaProducer | None = None,
@@ -25,7 +25,7 @@ def handle_librarian_hired(
     Inserts new hired librarian record to the 'librarians' table
 
     :param connection: psycopg2.extensions.connection, the connection used for inserting the new record
-    :param redis_client: RedisClient, the redis client used to fetch configuration values
+    :param redis_operations: RedisOperations, the Redis operations handler
     :param event: dict, the event/dictionary used
     :param counter: int, the event counter used for generating a record's ID
     :param producer: KafkaProducer, producer used for emitting chain events, when needed
@@ -37,9 +37,8 @@ def handle_librarian_hired(
     new_librarian_id = f'LB-{counter}'
 
     # Add new ID to Redis set to be used later
-    redis_client.sets.add(
-        RedisKeys.Sets.LIBRARIAN_IDS,
-        new_librarian_id
+    redis_operations.librarians.register_librarian(
+        librarian_id=new_librarian_id
     )
 
     # Execute the query
@@ -58,7 +57,7 @@ def handle_librarian_hired(
 
 def handle_user_registered(
         connection: psycopg2.extensions.connection,
-        redis_client: RedisClient,
+        redis_operations: RedisOperations,
         event: dict,
         counter: int,
         producer: KafkaProducer | None = None,
@@ -67,7 +66,7 @@ def handle_user_registered(
     Inserts new registered user record to the 'users' table
 
     :param connection: psycopg2.extensions.connection, the connection used for inserting the new record
-    :param redis_client: RedisClient, the redis client used to fetch configuration values
+    :param redis_operations: RedisOperations, the Redis operations handler
     :param event: dict, the event/dictionary used
     :param counter: int, the event counter used for generating a record's ID
     :param producer: KafkaProducer, producer used for emitting chain events, when needed
@@ -79,9 +78,8 @@ def handle_user_registered(
     new_user_id = f'USR-{counter}'
 
     # Add new ID to Redis set to be used later
-    redis_client.sets.add(
-        RedisKeys.Sets.USER_IDS,
-        new_user_id
+    redis_operations.users.register_user(
+        user_id=new_user_id
     )
 
     # Execute the query

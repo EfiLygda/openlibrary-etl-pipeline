@@ -10,13 +10,15 @@ import psycopg2
 from kafka import KafkaProducer
 
 from library.service.redis.keys import RedisKeys
-from library.service.redis.client import RedisClient
+from library.service.redis.operations.registry import RedisOperations
+
 from library.consumer.handlers.paths import DEMAND_SQL_DIR
 from library.database.handler_queries import execute_handler_query
 
+
 def handle_reservation_of_unavailable_copy(
         connection: psycopg2.extensions.connection,
-        redis_client: RedisClient,
+        redis_operations: RedisOperations,
         event: dict,
         counter: int,
         producer: KafkaProducer | None = None,
@@ -25,7 +27,7 @@ def handle_reservation_of_unavailable_copy(
     Inserts new record at 'reservations' table
 
     :param connection: psycopg2.extensions.connection, the connection used for inserting the new record
-    :param redis_client: RedisClient, the redis client used to fetch configuration values
+    :param redis_operations: RedisOperations, the Redis operations handler
     :param event: dict, the event/dictionary used
     :param counter: int, the event counter used for generating a record's ID
     :param producer: KafkaProducer, producer used for emitting chain events, when needed
@@ -37,31 +39,10 @@ def handle_reservation_of_unavailable_copy(
     new_reservation_id = f'RSRV-{counter}'
 
     # Add to active reservations keys
-    redis_client.sets.add(
-        RedisKeys.Sets.ACTIVE_RESERVATIONS_IDS,
-        new_reservation_id
-    )
-
-    # Add reservation ID and user ID to copy's reservation queue
-    queue_data = {
-        'reservation_id': new_reservation_id,
-        'user_id': event['data']['user_id'],
-    }
-
-    redis_client.queues.add(
-        RedisKeys.Queues.reservation_queue(event['data']['copy_id']),
-        json.dumps(queue_data)
-    )
-
-    # Make a reservation hash with data
-    redis_client.hashes.set_mapping(
-        RedisKeys.Hashes.reservation(new_reservation_id),
-        mapping={
-            'copy_id': event['data']['copy_id'],
-            'user_id': event['data']['user_id'],
-            # TODO: Maybe add more
-            # 'user_id': None,
-        }
+    redis_operations.reservations.create_reservation(
+        reservation_id=new_reservation_id,
+        copy_id=event['data']['copy_id'],
+        user_id=event['data']['user_id']
     )
 
     # Execute the query
@@ -83,7 +64,7 @@ def handle_reservation_of_unavailable_copy(
 
 def handle_cancellation_of_active_reservation(
         connection: psycopg2.extensions.connection,
-        redis_client: RedisClient,
+        redis_operations: RedisOperations,
         event: dict,
         counter: int,
         producer: KafkaProducer | None = None,
@@ -92,7 +73,7 @@ def handle_cancellation_of_active_reservation(
     Updates reservations table after a cancellation
 
     :param connection: psycopg2.extensions.connection, the connection used for inserting the new record
-    :param redis_client: RedisClient, the redis client used to fetch configuration values
+    :param redis_operations: RedisOperations, the Redis operations handler
     :param event: dict, the event/dictionary used
     :param counter: int, the event counter used for generating a record's ID
     :param producer: KafkaProducer, producer used for emitting chain events, when needed
@@ -103,35 +84,9 @@ def handle_cancellation_of_active_reservation(
     # Canceled reservation ID
     cancelled_reservation_id = event['data']['reservation_id']
 
-    # The copy id from the canceled reservation
-    copy_id = redis_client.hashes.get(
-        name=RedisKeys.Hashes.reservation(cancelled_reservation_id),
-        key='copy_id'
-    )
-
-    # The user id from the canceled reservation
-    user_id = redis_client.hashes.get(
-        name=RedisKeys.Hashes.reservation(cancelled_reservation_id),
-        key='user_id'
-    )
-
-    # Move to canceled reservation ids
-    redis_client.sets.move(
-        source=RedisKeys.Sets.ACTIVE_RESERVATIONS_IDS,
-        destination=RedisKeys.Sets.CANCELLED_RESERVATIONS_IDS,
-        value=cancelled_reservation_id
-    )
-
-    # Remove the reservation from the queue
-    queue_item = json.dumps({
-        "reservation_id": cancelled_reservation_id,
-        "user_id": user_id,
-    })
-
-    # Remove the reservation from the copy's reservation queue
-    redis_client.queues.remove(
-        name=RedisKeys.Queues.reservation_queue(copy_id),
-        value=queue_item
+    # Cancel the reservation in Redis
+    redis_operations.reservations.cancel(
+        reservation_id=cancelled_reservation_id
     )
 
     # Execute the query

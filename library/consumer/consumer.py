@@ -2,13 +2,13 @@
 
 Run: python -m library.consumer.consumer.py
 """
-
 from utilities.database import db_connection, DB_NAME
 
-from library.core.registry import EVENTS
 from library.core.validation import reject_event
 
 from library.service.redis.client import RedisClient
+from library.service.redis.operations.registry import RedisOperations
+
 from library.service.kafka.config import TOPIC, CONSUMER_GROUP_ID
 from library.service.kafka.consumer import create_consumer
 from library.service.kafka.producer import create_producer
@@ -20,6 +20,9 @@ connection = db_connection(database=DB_NAME)
 
 # Redis client for storing ids and counters
 redis_client = RedisClient()
+
+# Redis operations manager
+redis_operations = RedisOperations(redis_client)
 
 # Setting up consumer of events
 consumer = create_consumer(
@@ -50,7 +53,7 @@ for msg in consumer:
     # handler and load data to database
     handle_event(
         connection=connection,
-        redis_client=redis_client,
+        redis_operations=redis_operations,
         event=event,
         producer=producer
     )
