@@ -5,18 +5,14 @@ Handles events representing user intent to access unavailable resources, such as
 * Reservation requests
 """
 
-import os
 import json
-
 import psycopg2
 from kafka import KafkaProducer
 
-from utilities import execute_query
-
 from library.service.redis.keys import RedisKeys
 from library.service.redis.client import RedisClient
-
 from library.consumer.handlers.paths import DEMAND_SQL_DIR
+from library.database.handler_queries import execute_handler_query
 
 def handle_reservation_of_unavailable_copy(
         connection: psycopg2.extensions.connection,
@@ -68,13 +64,11 @@ def handle_reservation_of_unavailable_copy(
         }
     )
 
-    # Setting up the loading query
-    query_filepath = os.path.join(DEMAND_SQL_DIR, 'reservation_of_unavailable_copy.sql')
-
     # Execute the query
-    execute_query(
+    execute_handler_query(
         connection=connection,
-        query_filepath=query_filepath,
+        event_category_dir=DEMAND_SQL_DIR,
+        sql_filename='reservation_of_unavailable_copy.sql',
         params={
             "reservation_id": new_reservation_id,
             "user_id": event['data']['user_id'],
@@ -85,6 +79,7 @@ def handle_reservation_of_unavailable_copy(
             "status": 'ACTIVE',
         }
     )
+
 
 def handle_cancellation_of_active_reservation(
         connection: psycopg2.extensions.connection,
@@ -139,13 +134,11 @@ def handle_cancellation_of_active_reservation(
         value=queue_item
     )
 
-    # Setting up the loading query
-    query_filepath = os.path.join(DEMAND_SQL_DIR, 'cancellation_of_active_reservation.sql')
-
     # Execute the query
-    execute_query(
+    execute_handler_query(
         connection=connection,
-        query_filepath=query_filepath,
+        event_category_dir=DEMAND_SQL_DIR,
+        sql_filename='cancellation_of_active_reservation.sql',
         params={
             "reservation_id": cancelled_reservation_id,
             "cancelled_at": event['timestamp'],
