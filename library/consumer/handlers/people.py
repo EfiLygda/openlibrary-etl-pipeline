@@ -6,15 +6,13 @@ Handles events involving users and librarians, such as:
 * Librarian hiring
 """
 
-import os
 import psycopg2
 from kafka import KafkaProducer
-
-from utilities import execute_query
 
 from library.service.redis.keys import RedisKeys
 from library.service.redis.client import RedisClient
 from library.consumer.handlers.paths import PEOPLE_SQL_DIR
+from library.database.handler_queries import execute_handler_query
 
 def handle_librarian_hired(
         connection: psycopg2.extensions.connection,
@@ -44,13 +42,11 @@ def handle_librarian_hired(
         new_librarian_id
     )
 
-    # Setting up the loading query
-    query_filepath = os.path.join(PEOPLE_SQL_DIR, 'librarian_hired.sql')
-
     # Execute the query
-    execute_query(
+    execute_handler_query(
         connection=connection,
-        query_filepath=query_filepath,
+        event_category_dir=PEOPLE_SQL_DIR,
+        sql_filename='librarian_hired.sql',
         params={
             'librarian_id': new_librarian_id,
             'first_name': event['data']['first_name'],
@@ -88,13 +84,11 @@ def handle_user_registered(
         new_user_id
     )
 
-    # Setting up the loading query
-    query_filepath = os.path.join(PEOPLE_SQL_DIR, 'user_registered.sql')
-
     # Execute the query
-    execute_query(
+    execute_handler_query(
         connection=connection,
-        query_filepath=query_filepath,
+        event_category_dir=PEOPLE_SQL_DIR,
+        sql_filename='user_registered.sql',
         params={
             'user_id': new_user_id,
             'first_name': event['data']['first_name'],
