@@ -2,31 +2,22 @@
 Module responsible for dispatching events to their corresponding handlers
 """
 
-import psycopg2
-
-from kafka import KafkaProducer
-
 from library.core.registry import EVENTS
-from library.service.redis.operations.registry import RedisOperations
-
+from library.consumer.handlers.dependencies import HandlerDependencies
 
 def handle_event(
-        connection: psycopg2.extensions.connection,
-        redis_operations: RedisOperations,
+        dependencies: HandlerDependencies,
         event: dict,
-        producer: KafkaProducer,
-) -> tuple:
+) -> None:
     """
     Function for handling all events regardless of type, by inserting new records
 
-    :param connection: psycopg2.extensions.connection, the connection used for inserting the new record
-    :param redis_operations: RedisOperations, the Redis operations handler
+    :param dependencies: HandlerDependencies, contains shared resources required
+        by the handler, such as the database connection, Redis operations,
+        and event producer
     :param event: dict, the event/dictionary used
-    :param producer: KafkaProducer, producer used for emitting chain events, when needed
 
-    :return: tuple, the tuple containing:
-        * `data` - list of matching records returned by the query
-        * `data_column_names` - column names corresponding to the records
+    :return: None
     """
 
     # Save event type
@@ -41,23 +32,13 @@ def handle_event(
     counter_hash_key = event_spec.get_counter_hash_key(event)
 
     # Increment event counter
-    counter = redis_operations.client.counters.increment(
+    counter = dependencies.redis_operations.client.counters.increment(
         name=counter_name,
         key=counter_hash_key
     )
 
-    if event_spec.produces_event:
-        return event_spec.handler(
-            connection=connection,
-            redis_operations=redis_operations,
-            event=event,
-            counter=counter,
-            producer=producer
-        )
-
     return event_spec.handler(
-        connection=connection,
-        redis_operations=redis_operations,
+        dependencies=dependencies,
+        counter=counter,
         event=event,
-        counter=counter
     )
