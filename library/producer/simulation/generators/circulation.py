@@ -98,3 +98,20 @@ def renew_loan(redis_client: RedisClient):
     return {
         'loan_id': loan_id,
     }
+
+def issue_fine(
+        loan_id: str,
+        overdue_days: int
+) -> dict:
+    """
+    Simulates the issuing of a fine for an overdue loan
+
+    :param loan_id: str, the loan id for generating the event
+    :param overdue_days: int, number of days the borrowed copy was overdue
+
+    :return: dict, dictionary with the loan_id and the overdue_days
+    """
+    return {
+        'loan_id': loan_id,
+        'overdue_days': overdue_days,
+    }
