@@ -22,3 +22,24 @@ def add_days_to_str_date(
 
     # Add days and convert to ISO format
     return (dt + timedelta(days=days)).isoformat()
+
+def overdue_days(
+        due_date: str,
+        returned_date: str
+) -> int:
+    """
+    Calculate the number of overdue days between a due date and a return date.
+
+    Returns 0 if the item was returned on time or early.
+
+    :param due_date: str, ISO 8601 formatted due date
+    :param returned_date: str, ISO 8601 formatted return date
+
+    :return: int, number of overdue days
+    """
+
+    # Convert strings from ISO format to datetime objects
+    due = datetime.fromisoformat(due_date)
+    returned = datetime.fromisoformat(returned_date)
+
+    return max(0, (returned - due).days)
