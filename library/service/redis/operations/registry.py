@@ -408,6 +408,23 @@ class _Fines(RedisOperationsBase):
             fine_id,
         )
 
+    def pay(self, fine_id: str) -> None:
+        """
+        Marks a fine as paid.
+
+        Moves a fine from unpaid fines to paid fines.
+
+        :param fine_id: str, the fine ID
+
+        :return: None
+        """
+
+        # Add new ID to Redis set to be used later
+        self.client.sets.move(
+            RedisKeys.Sets.UNPAID_FINES_IDS,
+            RedisKeys.Sets.PAID_FINES_IDS,
+            fine_id,
+        )
 
 class RedisOperations:
     """
