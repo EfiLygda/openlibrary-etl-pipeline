@@ -1,16 +1,22 @@
+CREATE TYPE
+    loan_status AS ENUM (
+            'ACTIVE',
+            'RETURNED'
+        );
+
 CREATE TABLE IF NOT EXISTS loans (
-    loan_id        TEXT PRIMARY KEY,
-    user_id        TEXT NOT NULL,
-    copy_id        TEXT NOT NULL,
+    loan_id                 TEXT PRIMARY KEY,
+    user_id                 TEXT NOT NULL,
+    copy_id                 TEXT NOT NULL,
 
-    borrow_date    TIMESTAMP,
-    due_date       TIMESTAMP,
-    return_date    TIMESTAMP DEFAULT NULL,
+    borrow_date             TIMESTAMP,
+    due_date                TIMESTAMP,
+    return_date             TIMESTAMP DEFAULT NULL,
 
-    renewal_count  INTEGER DEFAULT 0,
-    status         TEXT,
-    loan_processed_by   TEXT,
-    return_processed_by   TEXT,
+    renewal_count           INTEGER DEFAULT 0,
+    status                  loan_status,
+    loan_processed_by       TEXT,
+    return_processed_by     TEXT,
 
     CONSTRAINT fk_loans_user_id
         FOREIGN KEY (user_id)

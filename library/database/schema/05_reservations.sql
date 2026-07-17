@@ -1,3 +1,10 @@
+CREATE TYPE
+    reservation_status AS ENUM (
+            'ACTIVE',
+            'FULFILLED',
+            'CANCELLED'
+        );
+
 CREATE TABLE IF NOT EXISTS reservations (
     reservation_id      TEXT PRIMARY KEY,
     user_id             TEXT NOT NULL,
@@ -8,7 +15,7 @@ CREATE TABLE IF NOT EXISTS reservations (
     fulfilled_at        TIMESTAMP,
     fulfillment_loan_id TEXT,
     cancelled_at        TIMESTAMP,
-    status              TEXT,
+    status              reservation_status,
 
     CONSTRAINT fk_reservations_user_id
         FOREIGN KEY (user_id)
