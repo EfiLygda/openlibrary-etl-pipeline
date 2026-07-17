@@ -8,7 +8,7 @@ from datetime import datetime
 def create_event(
         event_type: str,
         timestamp: datetime,
-        data: dict,
+        payload: dict,
         trigger: str | None = None,
 ) -> dict:
     """
@@ -16,7 +16,7 @@ def create_event(
 
     :param event_type: str, the type or name of the event.
     :param timestamp: datetime, the date and time when the event occurred.
-    :param data: dict, a dictionary containing the event-specific payload.
+    :param payload: dict, a dictionary containing the event-specific payload.
     :param trigger: str, indicates what caused the event to be generated
         (e.g., 'RESERVATION_FULFILLMENT'). ``None`` if the event
         was generated directly rather than triggered by another event.
@@ -25,21 +25,17 @@ def create_event(
         * 'event_id': str, a universally unique identifier
         * 'event_type': str, the type of the event
         * 'timestamp': str, the event's timestamp
-        * 'data': dict, additional data
+        * 'payload': dict, additional data
     """
 
-    if trigger is not None:
-        return {
-            'event_id': str(uuid.uuid4()),  # Universally Unique Identifier
-            'event_type': event_type,
-            'timestamp': timestamp.isoformat(),
-            'trigger': trigger,
-            'data': data
-        }
-
-    return {
-      'event_id': str(uuid.uuid4()), # Universally Unique Identifier
-      'event_type': event_type,
-      'timestamp': timestamp.isoformat(),
-      'data': data
+    event = {
+        'event_id': str(uuid.uuid4()),
+        'event_type': event_type,
+        'timestamp': timestamp.isoformat(),
+        'payload': payload,
     }
+
+    if trigger is not None:
+        event['trigger'] = trigger
+
+    return event
