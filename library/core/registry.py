@@ -178,7 +178,9 @@ EVENTS = {
         max_allowable_name=None,
         max_allowable_hash_key=None,
 
-        produces_event=True, # In case of reserved copy emits BORROW from the user that reserved it
+        # In case the return is overdue then it emits FINE_ISSUED for the loan
+        # In case of reserved copy emits COPY_BORROWED from the user that reserved it
+        produces_event=True,
     ),
 
     EventType.LOAN_RENEWED: EventSpec(
@@ -188,6 +190,21 @@ EVENTS = {
         handler=handlers.circulation.handle_renewal_of_borrowed_copy,
 
         counter_name=RedisKeys.Counters.RENEWALS,
+        counter_hash_key=None,
+
+        max_allowable_name=None,
+        max_allowable_hash_key=None,
+
+        produces_event=False,
+    ),
+
+    EventType.FINE_ISSUED: EventSpec(
+        category=EventCategory.CIRCULATION,
+
+        generator=generators.circulation.issue_fine,
+        handler=handlers.circulation.handle_fine_issued,
+
+        counter_name=RedisKeys.Counters.ISSUED_FINES,
         counter_hash_key=None,
 
         max_allowable_name=None,
