@@ -13,11 +13,12 @@ from datetime import datetime
 from library.start_library import TOPIC
 from library.database.handler_queries import execute_handler_query
 from library.core.events import EventType, EventTrigger
+from library.utils.dates import overdue_days
 
 from library.service.kafka.publisher import emit_event
 
 from library.producer.simulation.event_factory import create_event
-from library.producer.simulation.generators.circulation import borrow_available_copy
+from library.producer.simulation.generators.circulation import borrow_available_copy, issue_fine
 
 from library.consumer.handlers.paths import CIRCULATION_SQL_DIR
 from library.consumer.handlers.dependencies import HandlerDependencies
@@ -227,6 +228,21 @@ def handle_return_borrowed_copy(
         loan_id=loan_id
     )
 
+    # Calculate overdue days on return
+    due_date = dependencies.redis_operations.loans.get_due_date(loan_id=loan_id)
+    return_date = event['timestamp']
+    overdue_days_count = overdue_days(due_date, return_date)
+
+    # Check if the return is overdue
+    if overdue_days_count > 0:
+
+        # Emit new fine issued event to be handled later on
+        issue_fine_on_overdue_return(
+            dependencies=dependencies,
+            overdue_days_count=overdue_days_count,
+            event=event
+        )
+
     # Check if the copy was reserved
     copy_is_reserved = dependencies.redis_operations.copies.has_copy_reservations(
         copy_id=copy_id
@@ -263,7 +279,7 @@ def handle_return_borrowed_copy(
         params={
             'loan_id': loan_id,
             'copy_id': copy_id,
-            'return_date': event['timestamp'],
+            'return_date': return_date,
             'librarian_id': event['payload']['librarian_id'],
             'status': copy_status
         }
@@ -302,5 +318,47 @@ def handle_renewal_of_borrowed_copy(
         params={
             'loan_id': loan_id,
             'new_due_date': new_due_date,
+        }
+    )
+
+def handle_fine_issued(
+        dependencies: HandlerDependencies,
+        counter: int,
+        event: dict,
+) -> None:
+    """
+    Creates a new unpaid fine and stores it in the 'fines' table.
+
+    :param dependencies: HandlerDependencies, contains shared resources required
+        by the handler, such as the database connection, Redis operations,
+        and event producer
+    :param counter: int, the event counter used for generating a record's ID
+    :param event: dict, the event/dictionary used
+
+    :return: None
+    """
+    # Generate new fine ID
+    new_fine_id = f'FN-{counter}'
+
+    # Create new unpaid fine in redis
+    dependencies.redis_operations.fines.issue(
+        fine_id=new_fine_id
+    )
+
+    # Calculate fine
+    fine_amount = event['payload']['overdue_days'] * 0.50
+
+    # Execute the query
+    execute_handler_query(
+        connection=dependencies.connection,
+        event_category_dir=CIRCULATION_SQL_DIR,
+        sql_filename='fine_issued.sql',
+        params={
+            'fine_id': new_fine_id,
+            'loan_id': event['payload']['loan_id'],
+            'overdue_days': event['payload']['overdue_days'],
+            'amount': fine_amount,
+            'issued_at': event['timestamp'],
+            'status': 'UNPAID'
         }
     )
