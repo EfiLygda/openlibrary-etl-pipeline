@@ -12,6 +12,9 @@ from library.service.redis.operations.base import RedisOperationsBase
 
 
 class _Users(RedisOperationsBase):
+    """
+    Provides Redis operations related to library users
+    """
 
     def register_user(self, user_id: str) -> None:
         """
@@ -29,8 +32,10 @@ class _Users(RedisOperationsBase):
             user_id,
         )
 
-
 class _Librarians(RedisOperationsBase):
+    """
+    Provides Redis operations related to librarians
+    """
 
     def register_librarian(self, librarian_id: str) -> None:
         """
@@ -48,8 +53,10 @@ class _Librarians(RedisOperationsBase):
             librarian_id,
         )
 
-
 class _Copies(RedisOperationsBase):
+    """
+    Provides Redis operations related to book copies
+    """
 
     def register_copy(self, copy_id: str) -> None:
         """
@@ -114,9 +121,10 @@ class _Copies(RedisOperationsBase):
                 RedisKeys.Queues.reservation_queue(copy_id)
             ) > 0
 
-
-
 class _Loans(RedisOperationsBase):
+    """
+    Provides Redis operations related to book loans
+    """
 
     def create_active_loan(
             self,
@@ -221,8 +229,10 @@ class _Loans(RedisOperationsBase):
             value=loan_id,
         )
 
-
 class _Reservations(RedisOperationsBase):
+    """
+    Provides Redis operations related to copy reservations
+    """
 
     def create_reservation(
             self,
@@ -362,7 +372,7 @@ class _Reservations(RedisOperationsBase):
 
 class RedisOperations:
     """
-    Aggregates Redis operations by library domain.
+    Aggregates Redis operations by library domain
     """
 
     def __init__(self, redis_client: RedisClient):
