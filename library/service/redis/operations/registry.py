@@ -175,6 +175,22 @@ class _Loans(RedisOperationsBase):
             )
         )
 
+    def get_due_date(self, loan_id: str) -> str:
+        """
+        Retrieves the due date belonging to a loan.
+
+        :param loan_id: str, the loan ID
+
+        :return: str, the due date
+        """
+
+        return str(
+            self.client.hashes.get(
+                name=RedisKeys.Hashes.loan(loan_id),
+                key="due_date",
+            )
+        )
+
     def renew_loan(
             self,
             loan_id: str,
@@ -369,6 +385,29 @@ class _Reservations(RedisOperationsBase):
             value=reservation_id,
         )
 
+class _Fines(RedisOperationsBase):
+    """
+    Provides Redis operations related to fines
+    """
+
+    def issue(self, fine_id: str) -> None:
+        """
+        Marks a fine as unpaid.
+
+        Stores the fine ID in the unpaid fines set to track fines
+        that require payment.
+
+        :param fine_id: str, the fine ID
+
+        :return: None
+        """
+
+        # Add new ID to Redis set to be used later
+        self.client.sets.add(
+            RedisKeys.Sets.UNPAID_FINES_IDS,
+            fine_id,
+        )
+
 
 class RedisOperations:
     """
@@ -384,3 +423,4 @@ class RedisOperations:
         self.copies = _Copies(redis_client)
         self.loans = _Loans(redis_client)
         self.reservations = _Reservations(redis_client)
+        self.fines = _Fines(redis_client)
