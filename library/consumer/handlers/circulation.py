@@ -362,3 +362,37 @@ def handle_fine_issued(
             'status': 'UNPAID'
         }
     )
+
+def handle_fine_paid(
+        dependencies: HandlerDependencies,
+        counter: int,
+        event: dict,
+) -> None:
+    """
+    Updates the fine in the 'fines' table as paid.
+
+    :param dependencies: HandlerDependencies, contains shared resources required
+        by the handler, such as the database connection, Redis operations,
+        and event producer
+    :param counter: int, the event counter used for generating a record's ID
+    :param event: dict, the event/dictionary used
+
+    :return: None
+    """
+
+    # Move fine from unpaid redis set to paid fines redis set
+    dependencies.redis_operations.fines.pay(
+        fine_id=event['payload']['fine_id']
+    )
+
+    # Execute the query
+    execute_handler_query(
+        connection=dependencies.connection,
+        event_category_dir=CIRCULATION_SQL_DIR,
+        sql_filename='fine_paid.sql',
+        params={
+            'fine_id': event['payload']['fine_id'],
+            'paid_at': event['timestamp'],
+            'status': 'PAID'
+        }
+    )
