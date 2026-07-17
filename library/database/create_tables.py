@@ -31,7 +31,8 @@ def run():
     # ---------------------------------------------------------------------------------------
     # --- Drop the Tables (if they already exist)
 
-    drop_sequence = [
+    drop_table_sequence = [
+        'fines',
         'reservations',
         'loans',
         'copies',
@@ -39,8 +40,22 @@ def run():
         'users',
     ]
 
-    for table_name in drop_sequence:
+    for table_name in drop_table_sequence:
         cursor.execute(f"DROP TABLE IF EXISTS {table_name};")
+    # ---------------------------------------------------------------------------------------
+
+    # ---------------------------------------------------------------------------------------
+    # --- Drop the Types (if they already exist)
+
+    drop_type_sequence = [
+        'copy_status',
+        'loan_status',
+        'reservation_status',
+        'fine_status',
+    ]
+
+    for type_name in drop_type_sequence:
+        cursor.execute(f"DROP TYPE IF EXISTS {type_name};")
     # ---------------------------------------------------------------------------------------
 
     # ---------------------------------------------------------------------------------------
