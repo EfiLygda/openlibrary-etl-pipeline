@@ -158,6 +158,45 @@ def fulfill_copy_reservation_on_return(
         event=new_borrow_event
     )
 
+def issue_fine_on_overdue_return(
+        dependencies: HandlerDependencies,
+        overdue_days_count: int,
+        event: dict,
+) -> None:
+    """
+    Emits a new fine issued event for an overdue returned copy.
+
+    :param dependencies: HandlerDependencies, contains shared resources required
+        by the handler, such as the database connection, Redis operations,
+        and event producer
+    :param overdue_days_count: int, number of days the returned copy was overdue
+    :param event: dict, the event/dictionary used
+
+    :return: None
+    """
+
+    # Generate data for the new issued fine event
+    new_fine_issued_event_data = issue_fine(
+        loan_id=event['payload']['loan_id'],
+        overdue_days=overdue_days_count,
+    )
+
+    # Create event envelope
+    new_fine_issued_event = create_event(
+        event_type=EventType.FINE_ISSUED,
+        timestamp=datetime.fromisoformat(event['timestamp']),
+        payload=new_fine_issued_event_data,
+        trigger=EventTrigger.OVERDUE_RETURN
+    )
+
+    # Finally emit new fine issued event
+    emit_event(
+        producer=dependencies.chain_event_producer,
+        topic=TOPIC,
+        event=new_fine_issued_event
+    )
+
+
 def handle_return_borrowed_copy(
         dependencies: HandlerDependencies,
         counter: int,
