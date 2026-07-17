@@ -115,3 +115,18 @@ def issue_fine(
         'loan_id': loan_id,
         'overdue_days': overdue_days,
     }
+
+def pay_fine(redis_client: RedisClient) -> dict:
+    """
+    Simulates the payment of an unpaid fine
+
+    :param redis_client: RedisClient, the redis client used to fetch configuration values
+    :return: dict, dictionary with the fine_id
+    """
+
+    # Choose a random active loan
+    fine_id = redis_client.sets.random(RedisKeys.Sets.UNPAID_FINES_IDS)
+
+    return {
+        'fine_id': fine_id,
+    }
