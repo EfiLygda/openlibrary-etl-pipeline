@@ -89,6 +89,10 @@ class LibraryInspector(Inspector):
             "active_reservations": redis_client.sets.get_size(RedisKeys.Sets.ACTIVE_RESERVATIONS_IDS),
             "fulfilled_reservations": redis_client.sets.get_size(RedisKeys.Sets.FULFILLED_RESERVATIONS_IDS),
             "cancelled_reservations": redis_client.sets.get_size(RedisKeys.Sets.CANCELLED_RESERVATIONS_IDS),
+
+            # Fines
+            'paid_fines': redis_client.sets.get_size(RedisKeys.Sets.PAID_FINES_IDS),
+            'unpaid_fines': redis_client.sets.get_size(RedisKeys.Sets.UNPAID_FINES_IDS),
         }
 
     def _overview(self, stats: dict) -> str:
@@ -109,6 +113,7 @@ Active Users:           {stats["registered_users"]:{value_format}}
 Available Copies:       {stats["available_copies"]:{value_format}}
 Active Loans:           {stats["active_loans"]:{value_format}}
 Active Reservations:    {stats["active_reservations"]:{value_format}}
+Unpaid Fines:            {stats["unpaid_fines"]:{value_format}}
 """.strip()
 
     def _details(self, stats: dict) -> str:
@@ -127,26 +132,32 @@ Details
 -------
 Users
 -----
-Registered Users:        {stats["registered_users"]:{value_format}}
-Librarians:              {stats["hired_librarians"]:{value_format}}
+Registered Users:       {stats["registered_users"]:{value_format}}
+Librarians:             {stats["hired_librarians"]:{value_format}}
 
 Copies
 ------
-Available:               {stats["available_copies"]:{value_format}}
-Unavailable:             {stats["unavailable_copies"]:{value_format}}
-Total Copies:            {stats["available_copies"] + stats["unavailable_copies"]:{value_format}}
+Available:              {stats["available_copies"]:{value_format}}
+Unavailable:            {stats["unavailable_copies"]:{value_format}}
+Total Copies:           {stats["available_copies"] + stats["unavailable_copies"]:{value_format}}
 
 Loans
 -----
-Active Loans:            {stats["active_loans"]:{value_format}}
-Returned Loans:          {stats["returned_loans"]:{value_format}}
-Total Loans:             {stats["active_loans"] + stats["returned_loans"]:{value_format}}
+Active Loans:           {stats["active_loans"]:{value_format}}
+Returned Loans:         {stats["returned_loans"]:{value_format}}
+Total Loans:            {stats["active_loans"] + stats["returned_loans"]:{value_format}}
 
 Reservations
 ------------
-Active Reservations:     {stats["active_reservations"]:{value_format}}
-Fulfilled Reservations:  {stats["fulfilled_reservations"]:{value_format}}
-Cancelled Reservations:  {stats["cancelled_reservations"]:{value_format}}
+Active Reservations:    {stats["active_reservations"]:{value_format}}
+Fulfilled Reservations: {stats["fulfilled_reservations"]:{value_format}}
+Cancelled Reservations: {stats["cancelled_reservations"]:{value_format}}
+
+Fines
+-----
+Paid Fines:             {stats["paid_fines"]:{value_format}}
+Unpaid Fines:           {stats["unpaid_fines"]:{value_format}}
+Total Fines:            {stats["paid_fines"] + stats["unpaid_fines"]:{value_format}}
 """.strip()
 
     def report(
