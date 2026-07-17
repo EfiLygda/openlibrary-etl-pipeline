@@ -17,10 +17,10 @@ class HandlerDependencies:
 
     :param connection: psycopg2.extensions.connection, connection used for database operations
     :param redis_operations: RedisOperations, Redis operations facade used for Redis state changes
-    :param producer: KafkaProducer | None, Kafka producer used for emitting chain events
+    :param chain_event_producer: KafkaProducer | None, Kafka producer used for emitting chain events
         when needed
     """
 
     connection: psycopg2.extensions.connection
     redis_operations: RedisOperations
-    producer: Optional[KafkaProducer] = None
+    chain_event_producer: Optional[KafkaProducer] = None

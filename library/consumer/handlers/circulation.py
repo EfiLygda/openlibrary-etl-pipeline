@@ -154,7 +154,7 @@ def fulfill_copy_reservation_on_return(
 
     # Finally emit new borrow event from user that reserved the copy
     emit_event(
-        producer=dependencies.producer,
+        producer=dependencies.chain_event_producer,
         topic=TOPIC,
         event=new_borrow_event
     )

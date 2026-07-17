@@ -30,7 +30,7 @@ chain_event_producer = create_producer()
 handler_dependencies = HandlerDependencies(
     connection=connection,
     redis_operations=RedisOperations(redis_client),
-    producer=chain_event_producer
+    chain_event_producer=chain_event_producer
 )
 
 # Setting up consumer of events
