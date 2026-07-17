@@ -187,7 +187,7 @@ def issue_fine_on_overdue_return(
         event_type=EventType.FINE_ISSUED,
         timestamp=datetime.fromisoformat(event['timestamp']),
         payload=new_fine_issued_event_data,
-        trigger=EventTrigger.OVERDUE_RETURN
+        trigger=EventTrigger.OVERDUE_LOAN_RETURN
     )
 
     # Finally emit new fine issued event
