@@ -68,16 +68,16 @@ class RedisKeys:
 
     class Hashes:
 
-        MAX_EDITION_COPIES = 'hash:max:edition:copies'
-        COUNTER_EDITION_COPIES = 'hash:counter:edition:copies'
+        MAX_EDITION_COPIES = 'max:edition:copies'
+        COUNTER_EDITION_COPIES = 'counter:edition:copies'
 
         @staticmethod
         def loan(loan_id: str) -> str:
-            return f'hash:loan:{loan_id}'
+            return f'loan:{loan_id}'
 
         @staticmethod
         def reservation(reservation_id: str) -> str:
-            return f'hash:reservation:{reservation_id}'
+            return f'reservation:{reservation_id}'
 
     class Queues:
 
