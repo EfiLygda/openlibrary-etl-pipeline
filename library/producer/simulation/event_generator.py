@@ -20,7 +20,7 @@ def generate_event(redis_client: RedisClient) -> dict:
         * 'event_id': str, a universally unique identifier
         * 'event_type': str, the type of the event
         * 'timestamp': str, the event's timestamp
-        * 'data': dict, additional data
+        * 'payload': dict, additional data
     """
 
     # The 'current' timestamp (of course using the simulation clock)
@@ -33,10 +33,10 @@ def generate_event(redis_client: RedisClient) -> dict:
     )
 
     # Generate the event's data via its event spec
-    data = EVENTS[event_type].generator(redis_client=redis_client)
+    payload = EVENTS[event_type].generator(redis_client=redis_client)
 
     return create_event(
         event_type=str(event_type),
         timestamp=timestamp,
-        data=data
+        payload=payload
     )

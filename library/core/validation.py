@@ -65,7 +65,7 @@ def borrowed_copy_does_not_exist(event: dict) -> bool:
     :return: bool, true if the event should be rejected, False otherwise
     """
 
-    if event['data']['copy_id'] is None:
+    if event['payload']['copy_id'] is None:
         return True
 
     return  False

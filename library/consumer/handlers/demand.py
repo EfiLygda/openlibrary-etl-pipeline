@@ -33,8 +33,8 @@ def handle_reservation_of_unavailable_copy(
     # Add to active reservations keys
     dependencies.redis_operations.reservations.create_reservation(
         reservation_id=new_reservation_id,
-        copy_id=event['data']['copy_id'],
-        user_id=event['data']['user_id']
+        copy_id=event['payload']['copy_id'],
+        user_id=event['payload']['user_id']
     )
 
     # Execute the query
@@ -44,8 +44,8 @@ def handle_reservation_of_unavailable_copy(
         sql_filename='reservation_of_unavailable_copy.sql',
         params={
             "reservation_id": new_reservation_id,
-            "user_id": event['data']['user_id'],
-            "copy_id": event['data']['copy_id'],
+            "user_id": event['payload']['user_id'],
+            "copy_id": event['payload']['copy_id'],
             "reserved_at": event['timestamp'],
             "fulfilled_at": None,
             "cancelled_at": None,
@@ -72,7 +72,7 @@ def handle_cancellation_of_active_reservation(
     """
 
     # Canceled reservation ID
-    cancelled_reservation_id = event['data']['reservation_id']
+    cancelled_reservation_id = event['payload']['reservation_id']
 
     # Cancel the reservation in Redis
     dependencies.redis_operations.reservations.cancel(

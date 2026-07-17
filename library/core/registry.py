@@ -142,10 +142,10 @@ EVENTS = {
         handler=handlers.inventory.handle_copy_purchased,
 
         counter_name=RedisKeys.Hashes.COUNTER_EDITION_COPIES,
-        counter_hash_key=lambda event: event['data']['edition_key'],
+        counter_hash_key=lambda event: event['payload']['edition_key'],
 
         max_allowable_name=RedisKeys.Hashes.MAX_EDITION_COPIES,
-        max_allowable_hash_key=lambda event: event['data']['edition_key'],
+        max_allowable_hash_key=lambda event: event['payload']['edition_key'],
 
         produces_event=False,
         ),

@@ -42,9 +42,9 @@ def handle_librarian_hired(
         sql_filename='librarian_hired.sql',
         params={
             'librarian_id': new_librarian_id,
-            'first_name': event['data']['first_name'],
-            'last_name': event['data']['last_name'],
-            'email': event['data']['email'],
+            'first_name': event['payload']['first_name'],
+            'last_name': event['payload']['last_name'],
+            'email': event['payload']['email'],
             'registered_at': event['timestamp'],
         }
     )
@@ -81,9 +81,9 @@ def handle_user_registered(
         sql_filename='user_registered.sql',
         params={
             'user_id': new_user_id,
-            'first_name': event['data']['first_name'],
-            'last_name': event['data']['last_name'],
-            'email': event['data']['email'],
+            'first_name': event['payload']['first_name'],
+            'last_name': event['payload']['last_name'],
+            'email': event['payload']['email'],
             'registered_at': event['timestamp'],
         }
     )

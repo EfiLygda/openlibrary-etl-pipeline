@@ -44,14 +44,14 @@ def handle_copy_borrowed(
 
     # Move copy id from available to unavailable in Redis
     dependencies.redis_operations.copies.borrow_copy(
-        copy_id=event['data']['copy_id']
+        copy_id=event['payload']['copy_id']
     )
 
     # Create new loan
     dependencies.redis_operations.loans.create_active_loan(
         loan_id=new_loan_id,
-        copy_id=event['data']['copy_id'],
-        due_date=event['data']['due_date']
+        copy_id=event['payload']['copy_id'],
+        due_date=event['payload']['due_date']
     )
 
     # Execute the query
@@ -61,16 +61,16 @@ def handle_copy_borrowed(
         sql_filename='copy_borrowed.sql',
         params={
             'loan_id': new_loan_id,
-            'user_id': event['data']['user_id'],
-            'copy_id': event['data']['copy_id'],
+            'user_id': event['payload']['user_id'],
+            'copy_id': event['payload']['copy_id'],
 
             'borrow_date': event['timestamp'],
-            'due_date': event['data']['due_date'],
+            'due_date': event['payload']['due_date'],
             'return_date': None,
 
             'renewal_count': 0,
             'status': 'ACTIVE', # "ACTIVE | RETURNED"
-            'loan_processed_by':  event['data']['librarian_id']
+            'loan_processed_by':  event['payload']['librarian_id']
         }
     )
 
@@ -85,10 +85,9 @@ def handle_copy_borrowed(
             sql_filename='reservation_fulfillment.sql',
             params={
                 'fulfillment_loan_id': new_loan_id,
-                'reservation_id': event['data']['fulfilled_reservation_id']
+                'reservation_id': event['payload']['fulfilled_reservation_id']
             }
         )
-
 
 def fulfill_copy_reservation_on_return(
         dependencies: HandlerDependencies,
@@ -132,7 +131,7 @@ def fulfill_copy_reservation_on_return(
     new_borrow_event = create_event(
         event_type=EventType.COPY_BORROWED,
         timestamp=datetime.fromisoformat(event['timestamp']),
-        data=new_borrow_event_data,
+        payload=new_borrow_event_data,
         trigger=EventTrigger.RESERVATION_FULFILLMENT
     )
 
@@ -177,7 +176,7 @@ def handle_return_borrowed_copy(
     """
 
     # Fetch the loan it from the even
-    loan_id = event['data']['loan_id']
+    loan_id = event['payload']['loan_id']
 
     # Fetch the copy from the loan's Redis hash
     copy_id = dependencies.redis_operations.loans.get_copy_id(
@@ -226,7 +225,7 @@ def handle_return_borrowed_copy(
             'loan_id': loan_id,
             'copy_id': copy_id,
             'return_date': event['timestamp'],
-            'librarian_id': event['data']['librarian_id'],
+            'librarian_id': event['payload']['librarian_id'],
             'status': copy_status
         }
     )
@@ -249,7 +248,7 @@ def handle_renewal_of_borrowed_copy(
     """
 
     # Fetch the loan it from the even
-    loan_id = event['data']['loan_id']
+    loan_id = event['payload']['loan_id']
 
     # Add new due date to loan's hash
     new_due_date = dependencies.redis_operations.loans.renew_loan(

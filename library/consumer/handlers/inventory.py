@@ -27,7 +27,7 @@ def handle_copy_purchased(
     """
 
     # Generate new copy ID
-    new_copy_id = f'{event['data']['edition_key']}-{counter}'
+    new_copy_id = f'{event['payload']['edition_key']}-{counter}'
 
     # Add new ID to Redis set to be used later
     dependencies.redis_operations.copies.register_copy(
@@ -41,7 +41,7 @@ def handle_copy_purchased(
         sql_filename='copy_purchased.sql',
         params={
             'copy_id': new_copy_id,
-            'edition_key': event['data']['edition_key'],
+            'edition_key': event['payload']['edition_key'],
             'status': 'AVAILABLE',
             'registered_at': event['timestamp'],
         }
