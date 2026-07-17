@@ -93,6 +93,7 @@ def get_event_weights(
         has_available_copies: bool,
         has_unavailable_copies: bool,
         has_active_reservations: bool,
+        has_unpaid_fines: bool
 ) -> dict:
     """
     Determines the probability distribution of events inside a specific
@@ -152,32 +153,66 @@ def get_event_weights(
             }
 
     if category == EventCategory.CIRCULATION:
-        # ----------------------------
-        # CASE 1: available + borrowed exist
-        # ----------------------------
-        if has_available_copies and has_unavailable_copies:
-            return {
-                EventType.COPY_BORROWED: 0.61,
-                EventType.COPY_RETURNED: 0.24,
-                EventType.LOAN_RENEWED: 0.15,
-            }
 
-        # ----------------------------
-        # CASE 2: only available copies
-        # ----------------------------
-        if has_available_copies and not has_unavailable_copies:
-            return {
-                EventType.COPY_BORROWED: 1.0,
-            }
+        if has_unpaid_fines:
 
-        # ----------------------------
-        # CASE 3: only borrowed copies
-        # ----------------------------
-        if not has_available_copies and has_unavailable_copies:
-            return {
-                EventType.COPY_RETURNED: 0.86,
-                EventType.LOAN_RENEWED: 0.14,
-            }
+            # ----------------------------
+            # CASE 1: available + borrowed exist
+            # ----------------------------
+            if has_available_copies and has_unavailable_copies:
+                return {
+                    EventType.COPY_BORROWED: 0.60,
+                    EventType.COPY_RETURNED: 0.20,
+                    EventType.LOAN_RENEWED: 0.10,
+                    EventType.FINE_PAID: 0.10,
+                }
+
+            # ----------------------------
+            # CASE 2: only available copies
+            # ----------------------------
+            if has_available_copies and not has_unavailable_copies:
+                return {
+                    EventType.COPY_BORROWED: 0.90,
+                    EventType.FINE_PAID: 0.10,
+                }
+
+            # ----------------------------
+            # CASE 3: only borrowed copies
+            # ----------------------------
+            if not has_available_copies and has_unavailable_copies:
+                return {
+                    EventType.COPY_RETURNED: 0.80,
+                    EventType.LOAN_RENEWED: 0.10,
+                    EventType.FINE_PAID: 0.10,
+                }
+
+        else:
+            # ----------------------------
+            # CASE 1: available + borrowed exist
+            # ----------------------------
+            if has_available_copies and has_unavailable_copies:
+                return {
+                    EventType.COPY_BORROWED: 0.61,
+                    EventType.COPY_RETURNED: 0.24,
+                    EventType.LOAN_RENEWED: 0.15,
+                }
+
+            # ----------------------------
+            # CASE 2: only available copies
+            # ----------------------------
+            if has_available_copies and not has_unavailable_copies:
+                return {
+                    EventType.COPY_BORROWED: 1.0,
+                }
+
+            # ----------------------------
+            # CASE 3: only borrowed copies
+            # ----------------------------
+            if not has_available_copies and has_unavailable_copies:
+                return {
+                    EventType.COPY_RETURNED: 0.86,
+                    EventType.LOAN_RENEWED: 0.14,
+                }
 
     return {}
 
@@ -208,6 +243,9 @@ def get_event_by_timeline(
     # Check if there are active reservations
     has_active_reservations = redis_client.sets.get_size(RedisKeys.Sets.ACTIVE_RESERVATIONS_IDS) > 0
 
+    # Check if there are unpaid fines
+    has_unpaid_fines = redis_client.sets.get_size(RedisKeys.Sets.UNPAID_FINES_IDS) > 0
+
     # Fetch the category weights according to the timeline
     category_weights = get_category_weights_by_timeline(
         timestamp=timestamp,
@@ -229,6 +267,7 @@ def get_event_by_timeline(
         has_available_copies=has_available_copies,
         has_unavailable_copies=has_unavailable_copies,
         has_active_reservations=has_active_reservations,
+        has_unpaid_fines=has_unpaid_fines,
     )
 
     # Choose a random event from the available, according to the timeline
