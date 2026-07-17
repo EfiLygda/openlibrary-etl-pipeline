@@ -57,6 +57,9 @@ class RedisKeys:
         CANCELLED_RESERVATIONS_IDS = 'reservations:canceled:ids'
         # EXPIRED_RESERVATIONS_IDS = 'reservations:active:ids'
 
+        UNPAID_FINES_IDS = 'fines:unpaid:ids'
+        PAID_FINES_IDS = 'fines:paid:ids'
+
     class Counters:
         USERS = 'counter:users'
         LIBRARIANS = 'counter:librarians'
@@ -65,6 +68,8 @@ class RedisKeys:
         RENEWALS = 'counter:renewals'
         RESERVATIONS = 'counter:reservations'
         CANCELLED_RESERVATIONS = 'counter:reservations:canceled'
+        ISSUED_FINES = 'counter:fines:unpaid'
+        PAID_FINES = 'counter:fines:paid'
 
     class Hashes:
 
