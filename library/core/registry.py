@@ -213,6 +213,21 @@ EVENTS = {
         produces_event=False,
     ),
 
+    EventType.FINE_PAID: EventSpec(
+        category=EventCategory.CIRCULATION,
+
+        generator=generators.circulation.pay_fine,
+        handler=handlers.circulation.handle_fine_paid,
+
+        counter_name=RedisKeys.Counters.PAID_FINES,
+        counter_hash_key=None,
+
+        max_allowable_name=None,
+        max_allowable_hash_key=None,
+
+        produces_event=False,
+    ),
+
     # --- Demand ---
     EventType.RESERVATION_CREATED: EventSpec(
         category=EventCategory.DEMAND,
