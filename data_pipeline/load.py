@@ -4,6 +4,7 @@ Load tables to romance_fiction PostgreSQL database
 from utilities.logging import set_logger
 
 from data_pipeline.etl.load.create_database import run as create_database
+from data_pipeline.etl.load.create_schema import run as create_schema
 from data_pipeline.etl.load.create_tables import run as create_tables
 from data_pipeline.etl.load.load_tables import run as load_tables
 from data_pipeline.etl.load.create_indexes import run as create_indexes
@@ -29,6 +30,7 @@ def run():
 
     # The pipeline
     create_database()
+    create_schema()
     create_tables()
     load_tables()
     create_indexes()
