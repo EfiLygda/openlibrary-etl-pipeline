@@ -57,11 +57,11 @@ What the project is trying to achieve:
 
 ### Pipeline Phases
 
-1. `Extract`: fetch data from OpenLibrary API and store raw JSON responses in `data/romance_fiction/raw/`, preserving original structure for reproducibility and reprocessing.
+1. `Extract`: fetch data from OpenLibrary API and store raw JSON responses in `data_pipeline/data/romance_fiction/raw/`, preserving original structure for reproducibility and reprocessing.
 
-2. `Transform`: normalize nested OpenLibrary JSON into flat relational structures, standardize identifiers and key formats, clean and preprocess text fields (e.g. stripping, handling missing values), resolve and expand multi-value fields, validate primary keys and data integrity rules, and generate structured tables saved in `data/romance_fiction/processed/`.
+2. `Transform`: normalize nested OpenLibrary JSON into flat relational structures, standardize identifiers and key formats, clean and preprocess text fields (e.g. stripping, handling missing values), resolve and expand multi-value fields, validate primary keys and data integrity rules, and generate structured tables saved in `data_pipeline/data/romance_fiction/processed/`.
 
-3. `Load`: initialize PostgreSQL database, create schema and tables from SQL definition files, create indexes, and load processed CSV files into the romance_fiction database while enforcing relational constraints.
+3. `Load`: initialize PostgreSQL database, create schema and tables from SQL definition files, create indexes, and load processed CSV files into the `openlibrary_db` database while enforcing relational constraints.
 
 > **Note:** See [phases_stages.md](docs/logging/phases_stages.md) for more information on the phases and their respective steps.
 ---
@@ -70,58 +70,64 @@ What the project is trying to achieve:
 
     .
     ├── api/
-    │   ├── repository/           # Data access layer (DB queries)
-    │   │   └── sql/              # SQL query modules organized by entity
-    │   │       ├── authors/      # Authors-related queries
-    │   │       ├── editions/     # Editions-related queries
-    │   │       ├── search/       # Search-related queries
-    │   │       └── works/        # Works-related queries
-    │   ├── response_builders/    # API responses builders
-    │   ├── routers/              # FastAPI route definitions (endpoint controllers)
-    │   ├── schemas/              # Pydantic response models
-    │   │   └── entities/         # Entity schemas
-    │   └── utils/                # Pagination utility functions
+    │   ├── repository/              # Data access layer (DB queries)
+    │   │   └── sql/                 # SQL query modules organized by entity
+    │   │       ├── authors/         # Authors-related queries
+    │   │       ├── editions/        # Editions-related queries
+    │   │       ├── search/          # Search-related queries
+    │   │       └── works/           # Works-related queries
+    │   │
+    │   ├── response_builders/       # API responses builders
+    │   ├── routers/                 # FastAPI route definitions (endpoint controllers)
+    │   ├── schemas/                 # Pydantic response models
+    │   │   └── entities/            # Entity schemas
+    │   │
+    │   └── utils/                   # Pagination utility functions
     │
-    ├── config/                   # OpenLibrary API configuration and project paths
-    │  
-    ├── data/
-    │   └── romance_fiction/
-    │       ├── raw/              # Raw OpenLibrary API responses
-    │       ├── staging/          # Intermediate files used between ETL stages
-    │       └── processed/        # Final normalized tables
-    │ 
-    ├── database/
-    │   ├── indexes/              # SQL index definitions
-    │   └── schema/               # SQL table definitions
-    │ 
-    ├── docs                      # Project documentation
-    │   ├───api                   # API documentation (endpoints, usage, examples)
-    │   ├───database              # Database-related documentation
-    │   │    └───diagrams         # ER diagrams
-    │   └───logging               # Logging documentation (event taxonomy, naming conventions, log levels, and examples)
-    │ 
+    ├── config/                      # OpenLibrary API configuration and project paths
+    │
+    ├── data_pipeline/
+    │   │
+    │   ├── data/
+    │   │   └── romance_fiction/
+    │   │       ├── raw/             # Raw OpenLibrary API responses
+    │   │       ├── staging/         # Intermediate files used between ETL stages
+    │   │       └── processed/       # Final normalized tables
+    │   │
+    │   ├── database/
+    │   │   ├── indexes/             # SQL index definitions
+    │   │   └── schema/              # SQL table definitions
+    │   │
+    │   ├── etl/
+    │   │   ├── extract/             # Data extraction scripts
+    │   │   ├── transform/           # Data transformation scripts
+    │   │   └── load/                # PostgreSQL database loading scripts
+    │   │
+    │   ├── open_library/            # Core package for Open Library API access and record management
+    │   │
+    │   ├── utils/
+    │   │   └── data/                # Data batching, parsing, validation and table preparation scripts
+    │   │
+    │   ├── extract.py               # Entry point for extraction stage
+    │   ├── transform.py             # Entry point for transformation stage
+    │   ├── load.py                  # Entry point for loading stage
+    │   └── pipeline.py              # ETL pipeline entry point (orchestrates extract → transform → load)
+    │
+    ├── docs                         # Project documentation
+    │   ├── api                      # API documentation (endpoints, usage, examples)
+    │   ├── database                 # Database-related documentation
+    │   │   └── diagrams             # ER diagrams
+    │   └── logging                  # Logging documentation (event taxonomy, naming conventions, log levels, and examples)
+    │
     ├── tests/
-    │   ├── integration/            # API integration tests
-    │   └── performance/            # Database query benchmarking
-    │       └── results/            # Benchmark outputs and reports
-    │ 
-    ├── etl/
-    │   ├── extract/              # Data extraction scripts
-    │   ├── transform/            # Data transformation scripts
-    │   └── load/                 # PostgreSQL database loading scripts
-    │ 
-    ├── logs/                     # Pipeline execution logs
+    │   ├── integration/             # API integration tests
+    │   └── performance/             # Database query benchmarking
+    │       └── results/             # Benchmark outputs and reports
     │
-    ├── open_library/             # Core package for Open Library API access and record management
+    ├── logs/                        # Pipeline execution logs
     │
-    ├── utilities/                # Reusable helper functions for ETL operations (I/O, logging, validation, DB, and pipeline utilities)
-    │   ├── data/                 # Data batching, parsing, validation and table preparation scripts
-    │   └───io/                   # Input/output utilities for handling CSV and JSON data files
-    │
-    │── extract.py                # Entry point for extraction stage
-    │── transform.py              # Entry point for transformation stage
-    │── load.py                   # Entry point for loading stage
-    └── main.py                   # ETL pipeline entry point (orchestrates extract → transform → load)
+    └── utilities/                   # Reusable helper functions for ETL operations (I/O, logging, DB, and pipeline utilities)
+        └── io/                      # Input/output utilities for handling CSV and JSON data files
 
 ---
 
@@ -172,16 +178,16 @@ Create an `.env` file and add PostgreSQL configuration like in [.env.example](.e
 In the same file Open Library's API settings can be changed with options:
 - `GENRE`: the genre for querying general works
 - `LIMIT`: how many records to be returned via the `SEARCH` query for each page
-- `MAX_PAGES`: the maximum number fo pages to be returned via the `SEARCH` query (i.e. `LIMIT` $\times$ `MAX_PAGES` is the total number of works to be returned)
+- `MAX_PAGES`: the maximum number of pages to be returned via the `SEARCH` query (i.e. `LIMIT` $\times$ `MAX_PAGES` is the total number of works to be returned)
 - `MAX_ATTEMPTS`: maximum number of retries for a query, in case an error arises
 - `CONNECT_TIMEOUT`: timeout (in seconds) for establishing a connection to the API
 - `READ_TIMEOUT`: timeout (in seconds) for reading a response from the API
 
 **STEP 2**: Run the pipeline
 
-Run this project using only the following command:
+Run the pipeline from the root directory using the following command:
 
-    python main.py
+    python -m data_pipeline.pipeline
 
 ---
 
@@ -199,7 +205,7 @@ See [entrypoints.md](docs/open_library_api/entrypoints.md) for more information 
 
 ### Output
 
-The processed tables are located at `data/romance_fiction/processed` and loaded in the database with the following sequence:
+The processed tables are located at `data_pipeline/data/romance_fiction/processed` and loaded in the database with the following sequence:
 
 | Table                         | Rows   | Description                                                                                                                                    |
 |-------------------------------|--------|------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -225,7 +231,7 @@ The processed tables are located at `data/romance_fiction/processed` and loaded 
 
 ### Database Schema
 
-In the following image the database's diagram is presented, by grouping the 16 tables in 3 groups:
+In the following image the database's diagram is presented, by grouping the 17 tables in 3 groups:
 
 ![MainDiagram.svg](docs/database/diagrams/MainDiagram.svg)
 
@@ -355,7 +361,7 @@ To evaluate the impact of database indexing on query performance, execution time
 
 #### Summary of Results
 
-Bellow a summary of the results is presented for the queries that use non-primary key indexes:
+Below a summary of the results is presented for the queries that use non-primary key indexes:
 
 | Endpoint                                   | No Index (ms) | With Index (ms) | Improvement (%) |  Speedup |
 |--------------------------------------------|--------------:|----------------:|----------------:|---------:|
