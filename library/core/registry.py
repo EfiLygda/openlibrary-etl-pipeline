@@ -1,12 +1,12 @@
 """
-Central registry of event metadata shared between the producer and consumer
+Central registry of event metadata shared between the producer and system
 """
 from typing import Callable
 
 from library.service.redis.keys import RedisKeys
 from library.core.events import EventType, EventCategory
 from library.producer.simulation import generators
-from library.consumer import handlers
+from library.consumers.system import handlers
 
 class EventSpec:
     """

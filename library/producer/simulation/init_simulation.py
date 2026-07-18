@@ -8,7 +8,7 @@ This script:
 - Stores global simulation parameters into Redis
 - Loads per-edition maximum copy limits using a Redis pipeline for efficiency
 
-Intended to bootstrap the Redis state for the producer/consumer simulation workflow
+Intended to bootstrap the Redis state for the producer/system simulation workflow
 """
 from utilities.logging import set_logger
 

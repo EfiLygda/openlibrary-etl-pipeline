@@ -5,8 +5,8 @@ Handles events involving physical copies of works, such as:
 * Copy purchases
 """
 
-from library.consumer.handlers.paths import INVENTORY_SQL_DIR
-from library.consumer.handlers.dependencies import HandlerDependencies
+from library.consumers.system.handlers.paths import INVENTORY_SQL_DIR
+from library.consumers.system.handlers.dependencies import HandlerDependencies
 from library.database.handler_queries import execute_handler_query
 
 def handle_copy_purchased(

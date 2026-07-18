@@ -20,8 +20,8 @@ from library.service.kafka.publisher import emit_event
 from library.producer.simulation.event_factory import create_event
 from library.producer.simulation.generators.circulation import borrow_available_copy, issue_fine
 
-from library.consumer.handlers.paths import CIRCULATION_SQL_DIR
-from library.consumer.handlers.dependencies import HandlerDependencies
+from library.consumers.system.handlers.paths import CIRCULATION_SQL_DIR
+from library.consumers.system.handlers.dependencies import HandlerDependencies
 
 def handle_copy_borrowed(
         dependencies: HandlerDependencies,

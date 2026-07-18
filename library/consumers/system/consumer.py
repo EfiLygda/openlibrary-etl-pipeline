@@ -1,6 +1,6 @@
 """
 
-Run: python -m library.consumer.consumer.py
+Run: python -m library.system.system.py
 """
 
 from utilities.database import db_connection, DB_NAME
@@ -14,8 +14,8 @@ from library.service.kafka.config import TOPIC, CONSUMER_GROUP_ID
 from library.service.kafka.consumer import create_consumer
 from library.service.kafka.producer import create_producer
 
-from library.consumer.handlers.dependencies import HandlerDependencies
-from library.consumer.handlers_dispatcher import handle_event
+from library.consumers.system.handlers.dependencies import HandlerDependencies
+from library.consumers.system.handlers_dispatcher import handle_event
 
 # Establish database connection
 connection = db_connection(database=DB_NAME)
@@ -33,14 +33,14 @@ handler_dependencies = HandlerDependencies(
     chain_event_producer=chain_event_producer
 )
 
-# Setting up consumer of events
+# Setting up system of events
 consumer = create_consumer(
     topic=TOPIC,
     group_id=CONSUMER_GROUP_ID
 )
 
 # For each message/event in the topic
-# the consumer fetches the event message
+# the system fetches the event message
 # and loads data in the database
 for msg in consumer:
 

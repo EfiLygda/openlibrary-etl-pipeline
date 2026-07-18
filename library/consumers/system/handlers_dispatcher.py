@@ -3,7 +3,7 @@ Module responsible for dispatching events to their corresponding handlers
 """
 
 from library.core.registry import EVENTS
-from library.consumer.handlers.dependencies import HandlerDependencies
+from library.consumers.system.handlers.dependencies import HandlerDependencies
 
 def handle_event(
         dependencies: HandlerDependencies,

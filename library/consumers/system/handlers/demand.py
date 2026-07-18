@@ -5,8 +5,8 @@ Handles events representing user intent to access unavailable resources, such as
 * Reservation requests
 """
 
-from library.consumer.handlers.paths import DEMAND_SQL_DIR
-from library.consumer.handlers.dependencies import HandlerDependencies
+from library.consumers.system.handlers.paths import DEMAND_SQL_DIR
+from library.consumers.system.handlers.dependencies import HandlerDependencies
 from library.database.handler_queries import execute_handler_query
 
 

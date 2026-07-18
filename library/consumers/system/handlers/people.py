@@ -6,8 +6,8 @@ Handles events involving users and librarians, such as:
 * Librarian hiring
 """
 
-from library.consumer.handlers.paths import PEOPLE_SQL_DIR
-from library.consumer.handlers.dependencies import HandlerDependencies
+from library.consumers.system.handlers.paths import PEOPLE_SQL_DIR
+from library.consumers.system.handlers.dependencies import HandlerDependencies
 from library.database.handler_queries import execute_handler_query
 
 def handle_librarian_hired(

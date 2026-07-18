@@ -61,9 +61,9 @@ LIBRARY_TABLES = os.path.join(LIBRARY_DIR, 'tables')
 # Library tables directory (csv)
 LIBRARY_SCHEMA = os.path.join(ROOT_DIR, 'library',  'database', 'schema')
 
-# Directory with the consumer's SQL commands used by the handlers
+# Directory with the system's SQL commands used by the handlers
 PRODUCER_SQL_DIR = os.path.join(LIBRARY_ROOT, 'producer', 'sql')
 
-# Directory with the consumer's SQL commands used by the handlers
-CONSUMER_SQL_DIR = os.path.join(LIBRARY_ROOT, 'consumer', 'sql')
+# Directory with the system's SQL commands used by the handlers
+SYSTEM_CONSUMER_SQL_DIR = os.path.join(LIBRARY_ROOT, 'consumers', 'system', 'sql')
 # ------------------------------------------------------------------------------------
