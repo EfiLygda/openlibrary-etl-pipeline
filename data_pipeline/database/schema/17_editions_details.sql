@@ -1,14 +1,14 @@
-CREATE TABLE IF NOT EXISTS editions_details
+CREATE TABLE IF NOT EXISTS catalog.editions_details
     (
         details_id SERIAL PRIMARY KEY,
-        edition_key VARCHAR,
+        edition_key TEXT,
         number_of_pages INT,
-        physical_format VARCHAR,
-        physical_dimensions VARCHAR,
-        weight VARCHAR,
-        language VARCHAR,
+        physical_format TEXT,
+        physical_dimensions TEXT,
+        weight TEXT,
+        language TEXT,
 
         CONSTRAINT fk_editions_details_edition_key
             FOREIGN KEY (edition_key)
-            REFERENCES editions(edition_key)
+            REFERENCES catalog.editions(edition_key)
     );

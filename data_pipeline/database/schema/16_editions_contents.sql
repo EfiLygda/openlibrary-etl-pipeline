@@ -1,11 +1,11 @@
-CREATE TABLE IF NOT EXISTS editions_contents
+CREATE TABLE IF NOT EXISTS catalog.editions_contents
     (
-        edition_key VARCHAR PRIMARY KEY,
-        description VARCHAR,
-        notes VARCHAR,
-        first_sentence VARCHAR,
+        edition_key TEXT PRIMARY KEY,
+        description TEXT,
+        notes TEXT,
+        first_sentence TEXT,
 
         CONSTRAINT fk_editions_contents_edition_key
             FOREIGN KEY (edition_key)
-            REFERENCES editions(edition_key)
+            REFERENCES catalog.editions(edition_key)
     );

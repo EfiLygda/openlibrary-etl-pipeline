@@ -27,7 +27,7 @@ def build_context() -> dict:
     # Fetch the edition keys
     records, _ = execute_query(
         connection=connection,
-        query="SELECT edition_key FROM editions;",
+        query="SELECT edition_key FROM catalog.editions;",
     )
 
     # Unpack the edition keys

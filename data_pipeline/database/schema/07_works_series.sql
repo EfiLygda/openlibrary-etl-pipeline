@@ -1,11 +1,11 @@
-CREATE TABLE IF NOT EXISTS works_series
+CREATE TABLE IF NOT EXISTS catalog.works_series
     (
-        work_key VARCHAR PRIMARY KEY,
-        series_key VARCHAR,
-        series_position VARCHAR,
-        series_name VARCHAR,
+        work_key TEXT PRIMARY KEY,
+        series_key TEXT,
+        series_position TEXT,
+        series_name TEXT,
 
         CONSTRAINT fk_works_series_work_key
             FOREIGN KEY (work_key)
-            REFERENCES works(work_key)
+            REFERENCES catalog.works(work_key)
     );

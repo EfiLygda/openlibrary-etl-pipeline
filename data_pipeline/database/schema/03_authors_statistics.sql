@@ -1,7 +1,7 @@
-CREATE TABLE IF NOT EXISTS authors_statistics
+CREATE TABLE IF NOT EXISTS catalog.authors_statistics
         (
-            author_key VARCHAR PRIMARY KEY,
-            top_work VARCHAR,
+            author_key TEXT PRIMARY KEY,
+            top_work TEXT,
             work_count INT,
             ratings_count_1 INT,
             ratings_count_2 INT,
@@ -15,5 +15,5 @@ CREATE TABLE IF NOT EXISTS authors_statistics
 
             CONSTRAINT fk_authors_statistics_author_key
                 FOREIGN KEY (author_key)
-                REFERENCES authors(author_key)
+                REFERENCES catalog.authors(author_key)
         );

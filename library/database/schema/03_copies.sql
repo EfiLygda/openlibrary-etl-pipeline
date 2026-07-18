@@ -12,5 +12,5 @@ CREATE TABLE IF NOT EXISTS copies (
 
     CONSTRAINT fk_copies_edition_key
         FOREIGN KEY (edition_key)
-        REFERENCES editions(edition_key)
+        REFERENCES catalog.editions(edition_key)
 );

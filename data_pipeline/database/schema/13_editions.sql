@@ -1,12 +1,12 @@
-CREATE TABLE IF NOT EXISTS editions
+CREATE TABLE IF NOT EXISTS catalog.editions
     (
-        edition_key VARCHAR PRIMARY KEY,
-        work_key VARCHAR,
-        title VARCHAR,
-        subtitle VARCHAR,
-        edition_name VARCHAR,
+        edition_key TEXT PRIMARY KEY,
+        work_key TEXT,
+        title TEXT,
+        subtitle TEXT,
+        edition_name TEXT,
 
         CONSTRAINT fk_editions_work_key
             FOREIGN KEY (work_key)
-            REFERENCES works(work_key)
+            REFERENCES catalog.works(work_key)
     );

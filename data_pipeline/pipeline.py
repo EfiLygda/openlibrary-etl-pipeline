@@ -45,8 +45,8 @@ def run():
     logger.info('PIPELINE_START')
 
     # The pipeline
-    run_extract()
-    run_transform()
+    # run_extract()
+    # run_transform()
     run_load()
 
     logger.info('PIPELINE_COMPLETE')

@@ -1,11 +1,11 @@
-CREATE TABLE IF NOT EXISTS works
+CREATE TABLE IF NOT EXISTS catalog.works
     (
-        work_key VARCHAR PRIMARY KEY,
-        title VARCHAR,
-        subtitle VARCHAR,
+        work_key TEXT PRIMARY KEY,
+        title TEXT,
+        subtitle TEXT,
         description TEXT,
         first_sentence TEXT,
         edition_count INT,
         first_publish_year INT,
-        first_publish_date VARCHAR
+        first_publish_date TEXT
     );

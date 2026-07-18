@@ -65,7 +65,7 @@ def run():
         with open(csv_filepath, mode='r', encoding='utf-8') as file:
             cursor.copy_expert(
             f"""
-                COPY {table_name} ({','.join(df_columns)})
+                COPY catalog.{table_name} ({','.join(df_columns)})
                 FROM STDIN
                 WITH CSV HEADER
                 """,
