@@ -7,7 +7,7 @@ import os
 import numpy as np
 import pandas as pd
 
-from open_library import KeyHandler
+from data_pipeline.open_library import KeyHandler
 
 from config.paths import CSV_DIR, BOOKS_DIR, KEYS_DIR
 

@@ -2,7 +2,7 @@
 Module for validating Open Library entity keys
 """
 
-from open_library import KeyHandler
+from data_pipeline.open_library import KeyHandler
 from api.errors import WorksErrors, AuthorsErrors, EditionsErrors
 
 _Errors = {

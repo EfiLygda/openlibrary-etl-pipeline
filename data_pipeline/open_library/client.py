@@ -17,7 +17,7 @@ The client supports:
 import requests
 import config
 from utilities.io import save_json
-from open_library.keys import KeyHandler
+from data_pipeline.open_library.keys import KeyHandler
 
 class Client:
 

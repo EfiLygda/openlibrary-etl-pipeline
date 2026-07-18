@@ -15,7 +15,7 @@ DETAILS:
 import os
 import re
 
-import open_library
+from data_pipeline import open_library
 
 from config.paths import KEYS_DIR, WORKS_DIR, AUTHORS_DIR, SERIES_DIR
 from config.openlibrary_api import MAX_ATTEMPTS

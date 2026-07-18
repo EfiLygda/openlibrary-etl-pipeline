@@ -18,7 +18,7 @@ import psycopg2
 
 from fastapi import APIRouter
 
-from open_library import KeyHandler
+from data_pipeline.open_library import KeyHandler
 
 from api.dependencies import DB_DEPENDENCY
 import api.repository.navigation as navigation_repo

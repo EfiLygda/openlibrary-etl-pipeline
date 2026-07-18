@@ -6,7 +6,7 @@ import os
 import numpy as np
 import pandas as pd
 
-from open_library import KeyHandler
+from data_pipeline.open_library import KeyHandler
 
 from config.paths import AUTHORS_DIR, AUTHORS_STATISTICS_DIR, WORKS_DIR, CSV_DIR, KEYS_DIR
 from config.openlibrary_api import GENRE_facet

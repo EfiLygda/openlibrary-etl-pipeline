@@ -6,7 +6,7 @@ DETAILS:
 """
 import os
 
-import open_library
+from data_pipeline import open_library
 
 from config.paths import KEYS_DIR, AUTHORS_STATISTICS_DIR
 from config.openlibrary_api import GENRE_facet, MAX_ATTEMPTS
