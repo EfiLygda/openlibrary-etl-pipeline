@@ -11,7 +11,7 @@ Each pipeline is divided into `PHASES`, and each phase contains multiple `STAGES
 
 ## Overview
 
-- [`ETL`](../../data_pipeline/etl.py)
+- [`ETL`](../../data_pipeline/pipeline.py)
 
   - [`EXTRACT`](../../data_pipeline/extract.py)
     - [`FETCH_WORKS`](../../data_pipeline/etl/extract/fetch_works.py)

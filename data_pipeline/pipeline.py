@@ -9,10 +9,9 @@ from dotenv import load_dotenv
 from config.paths import LOG_DIR
 from utilities.logging import config_logger, set_logger
 
-from init_project import run as init_project
-from extract import run as run_extract
-from transform import run as run_transform
-from load import run as run_load
+from data_pipeline.extract import run as run_extract
+from data_pipeline.transform import run as run_transform
+from data_pipeline.load import run as run_load
 
 # ----------------------------------------------------------------------------------
 # --- Load Environment Variables ---
@@ -39,16 +38,16 @@ config_logger(filepath=log_filepath, level=LOG_LEVEL)
 logger = set_logger(stage='ETL')
 # ----------------------------------------------------------------------------------
 
-# ----------------------------------------------------------------------------------
-# --- Run Pipeline (with logging) ---
+def run():
+    # ----------------------------------------------------------------------------------
+    # --- Run Pipeline (with logging) ---
 
-logger.info('PIPELINE_START')
+    logger.info('PIPELINE_START')
 
-# The pipeline
-init_project()
-run_extract()
-run_transform()
-run_load()
+    # The pipeline
+    run_extract()
+    run_transform()
+    run_load()
 
-logger.info('PIPELINE_COMPLETE')
-# ----------------------------------------------------------------------------------
+    logger.info('PIPELINE_COMPLETE')
+    # ----------------------------------------------------------------------------------

@@ -45,37 +45,6 @@ def run():
     # ---------------------------------------------------------------------------------------
 
     # ---------------------------------------------------------------------------------------
-    # --- Drop the Tables (if they already exist)
-
-    drop_sequence = [
-        'authors_alternative_names',
-        'authors_statistics',
-        'authors_works',
-
-        'authors',
-
-        'works_ratings',
-        'works_series',
-        'works_availability',
-        'works_subjects',
-        'works_people',
-        'works_places',
-        'works_time_periods',
-
-        'editions_contributors',
-        'editions_publishing',
-        'editions_contents',
-        'editions_details',
-        'editions',
-
-        'works',
-    ]
-
-    for table_name in drop_sequence:
-        cursor.execute(f"DROP TABLE IF EXISTS {table_name};")
-    # ---------------------------------------------------------------------------------------
-
-    # ---------------------------------------------------------------------------------------
     # --- Create Tables ---
 
     # List with the right sequence of sql files containing the CREATE command for each table

@@ -29,36 +29,6 @@ def run():
     # ---------------------------------------------------------------------------------------
 
     # ---------------------------------------------------------------------------------------
-    # --- Drop the Tables (if they already exist)
-
-    drop_table_sequence = [
-        'fines',
-        'reservations',
-        'loans',
-        'copies',
-        'librarians',
-        'users',
-    ]
-
-    for table_name in drop_table_sequence:
-        cursor.execute(f"DROP TABLE IF EXISTS {table_name};")
-    # ---------------------------------------------------------------------------------------
-
-    # ---------------------------------------------------------------------------------------
-    # --- Drop the Types (if they already exist)
-
-    drop_type_sequence = [
-        'copy_status',
-        'loan_status',
-        'reservation_status',
-        'fine_status',
-    ]
-
-    for type_name in drop_type_sequence:
-        cursor.execute(f"DROP TYPE IF EXISTS {type_name};")
-    # ---------------------------------------------------------------------------------------
-
-    # ---------------------------------------------------------------------------------------
     # --- Create Tables ---
 
     # List with the right sequence of sql files containing the CREATE command for each table

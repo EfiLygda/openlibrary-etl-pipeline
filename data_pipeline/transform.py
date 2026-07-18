@@ -20,9 +20,9 @@ Transform JSON files to tables (CSV files)
 
 from utilities.logging import set_logger
 
-from etl.transform.author_tables import run as author_tables
-from etl.transform.editions_tables import run as editions_tables
-from etl.transform.works_tables import run as works_tables
+from data_pipeline.etl.transform.author_tables import run as author_tables
+from data_pipeline.etl.transform.editions_tables import run as editions_tables
+from data_pipeline.etl.transform.works_tables import run as works_tables
 
 def run():
     # ----------------------------------------------------------------------------------

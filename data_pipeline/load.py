@@ -3,10 +3,10 @@ Load tables to romance_fiction PostgreSQL database
 """
 from utilities.logging import set_logger
 
-from etl.load.create_database import run as create_database
-from etl.load.create_tables import run as create_tables
-from etl.load.load_tables import run as load_tables
-from etl.load.create_indexes import run as create_indexes
+from data_pipeline.etl.load.create_database import run as create_database
+from data_pipeline.etl.load.create_tables import run as create_tables
+from data_pipeline.etl.load.load_tables import run as load_tables
+from data_pipeline.etl.load.create_indexes import run as create_indexes
 
 def run():
     # ----------------------------------------------------------------------------------

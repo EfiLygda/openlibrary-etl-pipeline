@@ -4,7 +4,7 @@ Builds the simulation world once
 
 import numpy as np
 
-from utilities import execute_query
+from utilities.database import execute_query
 from utilities.database import db_connection, DB_NAME
 from library.producer.producer_config import *
 
