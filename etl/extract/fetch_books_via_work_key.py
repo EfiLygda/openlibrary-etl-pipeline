@@ -14,7 +14,7 @@ from config.openlibrary_api import GENRE_facet, MAX_ATTEMPTS
 from utilities.io import load_json, save_json
 from data_pipeline.utils.data.batching import make_batches
 from utilities.rate_limit import wait
-from utilities.retry import retry
+from data_pipeline.utils.retry import retry
 from utilities.logging import set_logger, log_result
 
 logger = set_logger('FETCH_BOOKS_VIA_WORK_KEY')
