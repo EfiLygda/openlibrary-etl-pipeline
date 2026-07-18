@@ -12,8 +12,11 @@ ROOT_DIR = str(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 # Log messages directories
 LOG_DIR = os.path.join(ROOT_DIR, 'logs')
 
+# Data pipeline directory
+DATA_PIPELINE_ROOT = os.path.join(ROOT_DIR, 'data_pipeline')
+
 # Data directory
-DATA_DIR = os.path.join(ROOT_DIR, 'data')
+DATA_DIR = os.path.join(DATA_PIPELINE_ROOT, 'data')
 # ------------------------------------------------------------------------------------
 
 # ------------------------------------------------------------------------------------
@@ -37,10 +40,10 @@ AUTHORS_STATISTICS_DIR = os.path.join(RAW_PAGES_DIR, 'authors_statistics')
 WORKS_RATINGS_DIR = os.path.join(RAW_PAGES_DIR, 'works_ratings')
 
 # Schema directory
-SCHEMA_DIR = os.path.join(ROOT_DIR, 'database', 'schema')
+SCHEMA_DIR = os.path.join(DATA_PIPELINE_ROOT, 'database', 'schema')
 
 # Indexes directory
-INDEXES_DIR = os.path.join(ROOT_DIR, 'database', 'indexes')
+INDEXES_DIR = os.path.join(DATA_PIPELINE_ROOT, 'database', 'indexes')
 # ------------------------------------------------------------------------------------
 
 # ------------------------------------------------------------------------------------

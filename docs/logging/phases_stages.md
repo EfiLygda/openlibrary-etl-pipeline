@@ -11,9 +11,9 @@ Each pipeline is divided into `PHASES`, and each phase contains multiple `STAGES
 
 ## Overview
 
-- [`ETL`](../../data_pipeline/main.py)
+- [`ETL`](../../main.py)
 
-  - [`EXTRACT`](../../data_pipeline/extract.py)
+  - [`EXTRACT`](../../extract.py)
     - [`FETCH_WORKS`](../../etl/extract/fetch_works.py)
     - [`EXPORT_KEYS`](../../etl/extract/export_keys.py)
     - [`FETCH_WORKS_AUTHORS_SERIES`](../../etl/extract/fetch_works_authors_series.py)
@@ -23,12 +23,12 @@ Each pipeline is divided into `PHASES`, and each phase contains multiple `STAGES
     - [`FETCH_AUTHOR_STATISTICS`](../../etl/extract/fetch_author_statistics.py)
     - [`FETCH_WORKS_RATINGS`](../../etl/extract/fetch_works_ratings.py)
     
-  - [`TRANSFORM`](../../data_pipeline/transform.py)
+  - [`TRANSFORM`](../../transform.py)
     - [`TRANSFORM_TO_AUTHORS_TABLES`](../../etl/transform/author_tables.py)
     - [`TRANSFORM_TO_EDITIONS_TABLES`](../../etl/transform/editions_tables.py)
     - [`TRANSFORM_TO_WORKS_TABLES`](../../etl/transform/works_tables.py)
     
-  - [`LOAD`](../../data_pipeline/load.py)
+  - [`LOAD`](../../load.py)
     - [`CREATE_DATABASE`](../../etl/load/create_database.py)
     - [`CREATE_TABLES_AT_DATABASE`](../../etl/load/create_tables.py)
     - [`LOAD_TABLES_AT_DATABASE`](../../etl/load/load_tables.py)
