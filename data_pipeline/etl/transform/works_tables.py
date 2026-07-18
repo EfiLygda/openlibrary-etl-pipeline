@@ -14,14 +14,14 @@ from config.paths import CSV_DIR, WORKS_DIR, SEARCH_DIR, SERIES_DIR, WORKS_RATIN
 from utilities.io import load_json, save_csv
 from data_pipeline.utils.data.parsing import extract_text
 from data_pipeline.utils.data.validation import check_explode
-from etl.transform.dtypes import (works_dtypes,
-                                  ratings_dtypes,
-                                  series_dtypes,
-                                  availability_dtypes,
-                                  subjects_dtypes,
-                                  people_dtypes,
-                                  places_dtypes,
-                                  times_dtypes)
+from data_pipeline.etl.transform.dtypes import (works_dtypes,
+                                                ratings_dtypes,
+                                                series_dtypes,
+                                                availability_dtypes,
+                                                subjects_dtypes,
+                                                people_dtypes,
+                                                places_dtypes,
+                                                times_dtypes)
 from data_pipeline.utils.data.table_prep import prepare_table
 from utilities.logging import set_logger
 

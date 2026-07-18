@@ -14,11 +14,11 @@ from config.paths import CSV_DIR, BOOKS_DIR, KEYS_DIR
 from utilities.io import load_json, save_csv
 from data_pipeline.utils.data.validation import check_explode
 from data_pipeline.utils.data.parsing import get_language, find_year, extract_text
-from etl.transform.dtypes import (editions_dtypes,
-                                  contributors_dtypes,
-                                  publishing_dtypes,
-                                  contents_dtypes,
-                                  details_dtypes)
+from data_pipeline.etl.transform.dtypes import (editions_dtypes,
+                                                contributors_dtypes,
+                                                publishing_dtypes,
+                                                contents_dtypes,
+                                                details_dtypes)
 from data_pipeline.utils.data.table_prep import prepare_table
 from utilities.logging import set_logger
 
