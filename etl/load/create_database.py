@@ -1,7 +1,7 @@
 """
 STEP 1: Create `romance_fiction` database
 """
-from config import GENRE_facet
+from config.openlibrary_api import GENRE_facet
 from utilities.database import db_connection
 from utilities.logging import set_logger
 
