@@ -13,11 +13,11 @@ from config.openlibrary_api import GENRE_facet
 
 from utilities.io import load_json, save_csv
 from etl.transform.dtypes import (authors_dtypes,
-                                   authors_alternative_names_dtypes,
-                                   author_statistics_dtypes,
-                                   authors_works_dtypes)
-from utilities.data.parsing import find_year, extract_text
-from utilities.data.table_prep import prepare_table
+                                  authors_alternative_names_dtypes,
+                                  author_statistics_dtypes,
+                                  authors_works_dtypes)
+from data_pipeline.utils.data.parsing import find_year, extract_text
+from data_pipeline.utils.data.table_prep import prepare_table
 from utilities.logging import set_logger
 
 logger = set_logger('TRANSFORM_TO_AUTHORS_TABLES')

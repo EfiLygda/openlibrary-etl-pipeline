@@ -12,8 +12,8 @@ from open_library import KeyHandler
 from config.paths import CSV_DIR, WORKS_DIR, SEARCH_DIR, SERIES_DIR, WORKS_RATINGS_DIR
 
 from utilities.io import load_json, save_csv
-from utilities.data.parsing import extract_text
-from utilities.data.validation import check_explode
+from data_pipeline.utils.data.parsing import extract_text
+from data_pipeline.utils.data.validation import check_explode
 from etl.transform.dtypes import (works_dtypes,
                                   ratings_dtypes,
                                   series_dtypes,
@@ -22,7 +22,7 @@ from etl.transform.dtypes import (works_dtypes,
                                   people_dtypes,
                                   places_dtypes,
                                   times_dtypes)
-from utilities.data.table_prep import prepare_table
+from data_pipeline.utils.data.table_prep import prepare_table
 from utilities.logging import set_logger
 
 logger = set_logger('TRANSFORM_TO_WORKS_TABLES')

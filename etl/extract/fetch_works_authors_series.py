@@ -22,7 +22,7 @@ from config.openlibrary_api import MAX_ATTEMPTS
 
 from utilities.io import load_json, save_json
 from utilities.rate_limit import wait
-from utilities.data.batching import make_batches
+from data_pipeline.utils.data.batching import make_batches
 from utilities.retry import retry
 from utilities.logging import set_logger, log_result
 

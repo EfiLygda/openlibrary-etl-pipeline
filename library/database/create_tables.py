@@ -9,7 +9,7 @@ import os
 from config.paths import LIBRARY_SCHEMA
 
 from utilities.database import DB_NAME, db_connection
-from utilities.data.validation import check_if_table_exists
+from data_pipeline.utils.data.validation import check_if_table_exists
 from utilities.logging import set_logger
 
 logger = set_logger('CREATE_TABLES_AT_DATABASE')
