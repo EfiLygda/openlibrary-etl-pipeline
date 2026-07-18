@@ -4,7 +4,7 @@ SELECT
     subtitle,
     edition_name
 FROM
-    editions
+    catalog.editions
 WHERE
     work_key = %(filter_key)s
 LIMIT

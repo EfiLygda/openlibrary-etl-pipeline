@@ -1,6 +1,6 @@
 SELECT
     COUNT(DISTINCT edition_key)
 FROM
-    editions
+    catalog.editions
 WHERE
     edition_key = ANY(%(filter_key)s)

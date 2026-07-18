@@ -3,8 +3,8 @@ WITH filtered_alternative_names AS (
         a.author_name,
         altnames.author_alternative_name
     FROM
-        authors a
-        LEFT JOIN authors_alternative_names altnames
+        catalog.authors a
+        LEFT JOIN catalog.authors_alternative_names altnames
         ON a.author_key = altnames.author_key
     WHERE
         a.author_key = %(filter_key)s

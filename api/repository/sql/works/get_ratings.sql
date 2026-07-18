@@ -6,6 +6,6 @@ SELECT
     ratings_count_4,
     ratings_count_5
 FROM
-    works_ratings
+    catalog.works_ratings
 WHERE
     work_key = %(filter_key)s

@@ -1,7 +1,7 @@
 SELECT
     e.*
 FROM
-    editions AS e
+    catalog.editions AS e
     INNER JOIN
     unnest(                                     -- 2. unnest converts list of keys to table with one column of the keys
         %(filter_key)s::text[]                  -- 1. ::text[] converts list of key to SQL array {'key1', 'key2', ...}

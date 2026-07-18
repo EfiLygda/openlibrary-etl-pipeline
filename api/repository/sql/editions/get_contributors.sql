@@ -5,6 +5,6 @@ SELECT
     translated_from,
     translation_of
 FROM
-    editions_contributors
+    catalog.editions_contributors
 WHERE
     edition_key = %(filter_key)s

@@ -3,7 +3,7 @@ SELECT
     series_position,
     series_name
 FROM
-    works_series
+    catalog.works_series
 WHERE
     work_key = %(filter_key)s
 LIMIT

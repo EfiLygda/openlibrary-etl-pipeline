@@ -4,6 +4,6 @@ SELECT
     has_fulltext,
     has_public_scan
 FROM
-    works_availability
+    catalog.works_availability
 WHERE
     work_key = %(filter_key)s

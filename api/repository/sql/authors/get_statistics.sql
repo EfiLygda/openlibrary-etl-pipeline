@@ -15,8 +15,8 @@ SELECT
     astats.currently_reading_count,
     astats.already_read_count
 FROM
-    authors AS a
-    LEFT JOIN authors_statistics AS astats
+    catalog.authors AS a
+    LEFT JOIN catalog.authors_statistics AS astats
     ON a.author_key = astats.author_key
 WHERE
     a.author_key = %(filter_key)s

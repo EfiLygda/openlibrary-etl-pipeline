@@ -25,9 +25,9 @@ def exists_with_filter_key_by_entity_type(
     """
 
     queries = {
-        'work': """SELECT EXISTS ( SELECT 1 FROM works WHERE work_key = %(filter_key)s )""",
-        'author': """SELECT EXISTS ( SELECT 1 FROM authors WHERE author_key = %(filter_key)s )""",
-        'edition': """SELECT EXISTS ( SELECT 1 FROM editions WHERE edition_key = %(filter_key)s )""",
+        'work': """SELECT EXISTS ( SELECT 1 FROM catalog.works WHERE work_key = %(filter_key)s )""",
+        'author': """SELECT EXISTS ( SELECT 1 FROM catalog.authors WHERE author_key = %(filter_key)s )""",
+        'edition': """SELECT EXISTS ( SELECT 1 FROM catalog.editions WHERE edition_key = %(filter_key)s )""",
     }
 
     query = queries[key_type]

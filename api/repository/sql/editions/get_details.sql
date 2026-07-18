@@ -5,6 +5,6 @@ SELECT
     weight,
     language
 FROM
-    editions_details
+    catalog.editions_details
 WHERE
     edition_key = %(filter_key)s

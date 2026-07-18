@@ -75,7 +75,7 @@ weighted_work_results AS (
 	        similarity(subtitle, %(query)s)
         ) AS score
 	FROM    
-	    works
+	    catalog.works
 	WHERE   
 	    title %% %(query)s OR subtitle %% %(query)s -- Filtering out by less than 0.3 similarity score
 
@@ -87,8 +87,8 @@ weighted_work_results AS (
 	        similarity(a.author_name, %(query)s)
 	    ) AS score
 	FROM    
-	    authors_works AS aw
-        INNER JOIN authors AS a
+	    catalog.authors_works AS aw
+        INNER JOIN catalog.authors AS a
         ON aw.author_key = a.author_key
 	WHERE   
 	    a.author_name %% %(query)s
@@ -103,8 +103,8 @@ weighted_work_results AS (
 	        similarity(an.author_alternative_name, %(query)s)
         ) AS score
 	FROM    
-	    authors_works AS aw
-        INNER JOIN authors_alternative_names AS an
+	    catalog.authors_works AS aw
+        INNER JOIN catalog.authors_alternative_names AS an
         ON aw.author_key = an.author_key
 	WHERE   
 	    an.author_alternative_name %% %(query)s
@@ -119,7 +119,7 @@ weighted_work_results AS (
 	        similarity(subject, %(query)s)
 	    ) AS score
 	FROM    
-	    works_subjects
+	    catalog.works_subjects
 	WHERE   
 	    subject %% %(query)s
     GROUP BY
@@ -133,7 +133,7 @@ weighted_work_results AS (
 	        similarity(person, %(query)s)
 	    ) AS score
 	FROM
-	    works_people
+	    catalog.works_people
 	WHERE
 	    person %% %(query)s
     GROUP BY
@@ -147,7 +147,7 @@ weighted_work_results AS (
 	        similarity(place, %(query)s)
 	    ) AS score
 	FROM
-	    works_places
+	    catalog.works_places
 	WHERE
 	    place %% %(query)s
     GROUP BY
@@ -161,7 +161,7 @@ weighted_work_results AS (
 	        similarity(time_period, %(query)s)
         ) AS score
 	FROM
-	    works_time_periods
+	    catalog.works_time_periods
 	WHERE
 	    time_period %% %(query)s
     GROUP BY
@@ -178,7 +178,7 @@ weighted_work_results AS (
 	        )
 	    ) AS score
 	FROM
-	    editions
+	    catalog.editions
 	WHERE
 	    title %% %(query)s OR subtitle %% %(query)s
     GROUP BY
@@ -192,7 +192,7 @@ weighted_work_results AS (
 	        similarity(series_name, %(query)s)
 	    ) AS score
 	FROM
-	    works_series
+	    catalog.works_series
 	WHERE
 	    series_name %% %(query)s
     GROUP BY
@@ -216,7 +216,7 @@ text_relevance_scores AS (
 SELECT
     COUNT(DISTINCT w.work_key)
 FROM
-    works AS w
+    catalog.works AS w
     INNER JOIN text_relevance_scores AS trs
     ON w.work_key = trs.work_key
 WHERE
@@ -243,8 +243,8 @@ WHERE
                 SELECT                                      -- 1. Select only row
                     1
                 FROM
-                    editions AS e                           -- 2. Add to editions, editions_details since it
-                    INNER JOIN editions_details AS ed       --    includes the language field
+                    catalog.editions AS e                           -- 2. Add to editions, editions_details since it
+                    INNER JOIN catalog.editions_details AS ed       --    includes the language field
                     ON e.edition_key = ed.edition_key
                 WHERE
                     e.work_key = w.work_key                 -- 3. Filter for current work
@@ -262,8 +262,8 @@ WHERE
                 SELECT
                     1
                 FROM
-                    editions AS e
-                    INNER JOIN editions_publishing AS ep
+                    catalog.editions AS e
+                    INNER JOIN catalog.editions_publishing AS ep
                     ON e.edition_key = ep.edition_key
                 WHERE
                     e.work_key = w.work_key

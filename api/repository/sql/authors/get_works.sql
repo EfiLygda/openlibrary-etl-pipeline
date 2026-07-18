@@ -5,8 +5,8 @@ SELECT
     w.edition_count,
     w.first_publish_year
 FROM
-    works AS w
-    INNER JOIN authors_works AS aw
+    catalog.works AS w
+    INNER JOIN catalog.authors_works AS aw
     ON w.work_key = aw.work_key
 WHERE
     aw.author_key = %(filter_key)s

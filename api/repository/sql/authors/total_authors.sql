@@ -1,6 +1,6 @@
 SELECT
     COUNT(DISTINCT author_key)
 FROM
-    authors
+    catalog.authors
 WHERE
     author_key = ANY(%(filter_key)s)
