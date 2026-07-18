@@ -131,10 +131,14 @@ def execute_query(
             vars=params
         )
 
-        # Fetch all records as returned
-        data = cursor.fetchall()
+        # If query returns data fetch, else return empty lists
+        if cursor.description:
+            # Fetch all records as returned
+            data = cursor.fetchall()
 
-        # Fetch column names as returned
-        data_column_names = get_column_names(cursor)
+            # Fetch column names as returned
+            data_column_names = get_column_names(cursor)
+        else:
+            data, data_column_names = [], []
 
     return data, data_column_names

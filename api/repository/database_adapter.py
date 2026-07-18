@@ -4,10 +4,9 @@ Contains main function for retrieving records associated with a given key using 
 
 import os
 import psycopg2
-from psycopg2.sql import SQL
 
-from config import ROOT_DIR
-from utilities.database import get_column_names, execute_query
+from config.paths import ROOT_DIR
+from utilities.database import execute_query
 
 def load_query(
         module: str,
