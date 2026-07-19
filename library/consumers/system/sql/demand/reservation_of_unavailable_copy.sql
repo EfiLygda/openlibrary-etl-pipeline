@@ -1,4 +1,4 @@
-INSERT INTO reservations (
+INSERT INTO library.reservations (
     reservation_id,
     user_id,
     copy_id,

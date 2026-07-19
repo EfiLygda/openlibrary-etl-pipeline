@@ -1,4 +1,4 @@
-INSERT INTO librarians (
+INSERT INTO library.librarians (
     librarian_id,
     first_name,
     last_name,

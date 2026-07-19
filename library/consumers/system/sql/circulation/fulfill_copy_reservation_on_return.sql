@@ -1,5 +1,5 @@
 UPDATE
-    reservations
+    library.reservations
 SET
     status = 'FULFILLED',
     fulfilled_at = %(fulfilled_at)s

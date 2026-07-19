@@ -1,4 +1,4 @@
-INSERT INTO fines (
+INSERT INTO library.fines (
     fine_id,
     loan_id,
     overdue_days,

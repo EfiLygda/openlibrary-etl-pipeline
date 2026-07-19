@@ -41,7 +41,7 @@ def run():
     for table_path in table_sql_paths:
 
         # Extract the table name from the filepath
-        table_name = os.path.basename(table_path).replace('.sql', '')[3:]
+        table_name = 'library.' + os.path.basename(table_path).replace('.sql', '')[3:]
 
         # Check if the table already exists (this is mainly for logging)
         table_exists = check_if_table_exists(

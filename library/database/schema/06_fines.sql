@@ -1,10 +1,10 @@
 CREATE TYPE
-    fine_status AS ENUM (
+    library.fine_status AS ENUM (
             'PAID',
             'UNPAID'
         );
 
-CREATE TABLE IF NOT EXISTS fines (
+CREATE TABLE IF NOT EXISTS library.fines (
     fine_id         TEXT PRIMARY KEY,
     loan_id         TEXT NOT NULL,
 
@@ -14,9 +14,9 @@ CREATE TABLE IF NOT EXISTS fines (
     issued_at       TIMESTAMP,
     paid_at         TIMESTAMP,
 
-    status          fine_status,
+    status          library.fine_status,
 
     CONSTRAINT fk_fines_loan_id
         FOREIGN KEY (loan_id)
-        REFERENCES loans(loan_id)
+        REFERENCES library.loans(loan_id)
 );

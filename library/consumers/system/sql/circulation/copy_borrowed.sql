@@ -1,5 +1,5 @@
 -- Insert new loan record
-INSERT INTO loans (
+INSERT INTO library.loans (
     loan_id,
     user_id,
     copy_id,
@@ -21,7 +21,7 @@ RETURNING loan_id;
 
 -- Update copy's status to 'UNAVAILABLE'
 UPDATE
-    copies
+    library.copies
 SET
     status = 'UNAVAILABLE'
 WHERE

@@ -1,5 +1,5 @@
 UPDATE
-    loans
+    library.loans
 SET
     status = 'RETURNED',
     return_date = %(return_date)s,
@@ -10,7 +10,7 @@ RETURNING
     loan_id;
 
 UPDATE
-    copies
+    library.copies
 SET
     status = %(status)s
 WHERE

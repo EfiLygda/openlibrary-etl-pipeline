@@ -1,4 +1,4 @@
-INSERT INTO copies (
+INSERT INTO library.copies (
     copy_id,
     edition_key,
     status,

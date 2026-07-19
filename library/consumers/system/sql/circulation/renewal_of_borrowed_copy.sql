@@ -1,5 +1,5 @@
 UPDATE
-    loans
+    library.loans
 SET
     renewal_count = 1,
     due_date = %(new_due_date)s

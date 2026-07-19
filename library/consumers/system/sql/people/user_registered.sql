@@ -1,4 +1,4 @@
-INSERT INTO users (
+INSERT INTO library.users (
     user_id,
     first_name,
     last_name,

@@ -1,5 +1,5 @@
 UPDATE
-    reservations
+    library.reservations
 SET
     fulfillment_loan_id = %(fulfillment_loan_id)s
 WHERE

@@ -1,5 +1,5 @@
 UPDATE
-    fines
+    library.fines
 SET
     paid_at = %(paid_at)s,
     status = %(status)s
