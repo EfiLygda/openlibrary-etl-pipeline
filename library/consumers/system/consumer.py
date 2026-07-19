@@ -1,6 +1,26 @@
 """
+Main entry point for the library event processing system.
 
-Run: python -m library.system.system.py
+This script consumes library events from Kafka, validates them against the
+current system state, and dispatches accepted events to their corresponding
+handlers. Event handlers update the relational database, maintain Redis state,
+and may emit additional chain events back to Kafka.
+
+Note:
+    Redis is not a cache. It is the current world state that determines whether
+    an event is even possible.
+
+Workflow:
+    1. Establish a database connection.
+    2. Initialize Redis and the Kafka producer used for chain events.
+    3. Create the handler dependency context.
+    4. Subscribe to the configured Kafka topic.
+    5. Consume events continuously.
+    6. Reject invalid events based on business rules.
+    7. Dispatch valid events to the appropriate handler.
+
+Run:
+    python -m library.consumers.system.consumer.py
 """
 
 from utilities.database import db_connection, DB_NAME

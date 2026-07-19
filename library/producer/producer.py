@@ -1,6 +1,26 @@
 """
+Main entry point for the library event producer simulation.
 
-Run: python -m library.producer.producer.py
+This script continuously generates simulated library events, validates them
+against the current system state stored in Redis, and publishes accepted
+events to Kafka. The simulation runs until an event reaches the configured
+end date.
+
+Note:
+    Redis is not a cache. It is the current world state that determines whether
+    an event is even possible.
+
+Workflow:
+    1. Seed the random number generator for reproducible simulations.
+    2. Initialize Redis and the Kafka producer.
+    3. Generate candidate events.
+    4. Reject invalid events based on business rules.
+    5. Publish valid events to Kafka.
+    6. Wait for a short randomized interval before generating the next event.
+    7. Clean up Redis and close connections when the simulation ends.
+
+Run:
+    python -m library.producer.producer.py
 """
 
 from random import seed, uniform
