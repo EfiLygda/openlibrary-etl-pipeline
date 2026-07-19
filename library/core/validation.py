@@ -5,6 +5,8 @@ Event validation module
 from library.core.events import EventType
 from library.core.registry import EVENTS
 from library.service.redis.client import RedisClient
+from library.service.redis.keys import RedisKeys
+
 
 def is_over_max_allowed(
         redis_client: RedisClient,
@@ -70,6 +72,34 @@ def borrowed_copy_does_not_exist(event: dict) -> bool:
 
     return  False
 
+def loan_renewal_over_max_allowable(
+        redis_client: RedisClient,
+        event: dict,
+        max_loans: int = 1,
+) -> bool:
+    """
+    Determine whether a loan renewal exceeds the maximum allowable count.
+
+    :param redis_client: RedisClient, the redis client used to fetch reservation
+        counters
+    :param event: dict, event dictionary from Kafka
+    :param max_loans: int, the maximum allowable times for renewing a loan (default: 1)
+
+    :return: bool, True if the reservation has already been renewed the maximum
+        allowable number of times, False otherwise.
+    """
+
+    # Fetch loan ID
+    loan_id = event['payload']['loan_id']
+
+    # Check if the loan renewal count is >= 1
+    if redis_client.counters.get(
+        name=RedisKeys.Counters.loan_renewals(loan_id)
+    ) >= max_loans:
+        return True
+    else:
+        return False
+
 def reject_event(
         redis_client: RedisClient,
         event: dict
@@ -102,5 +132,12 @@ def reject_event(
     # Check if no copy was available to borrow and reject
     if event_type in [EventType.COPY_BORROWED]:
         return borrowed_copy_does_not_exist(event=event)
+
+    # Check if a loan's renewal count is over the maximum allowable
+    if event_type in [EventType.LOAN_RENEWED]:
+        return loan_renewal_over_max_allowable(
+            redis_client=redis_client,
+            event=event
+        )
 
     return False

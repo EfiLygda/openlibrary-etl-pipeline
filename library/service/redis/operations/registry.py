@@ -205,6 +205,11 @@ class _Loans(RedisOperationsBase):
         :return: str, the new due date
         """
 
+        # Increment total reservation renewals counter
+        self.client.counters.increment(
+            RedisKeys.Counters.loan_renewals(loan_id=loan_id)
+        )
+
         # Fetch current due date for the loan
         current_due_date = str(
             self.client.hashes.get(

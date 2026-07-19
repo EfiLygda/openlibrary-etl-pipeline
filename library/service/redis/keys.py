@@ -71,6 +71,10 @@ class RedisKeys:
         ISSUED_FINES = 'counter:fines:unpaid'
         PAID_FINES = 'counter:fines:paid'
 
+        @staticmethod
+        def loan_renewals(loan_id: str) -> str:
+            return f'counter:loan:{loan_id}:renewals'
+
     class Hashes:
 
         MAX_EDITION_COPIES = 'max:edition:copies'
