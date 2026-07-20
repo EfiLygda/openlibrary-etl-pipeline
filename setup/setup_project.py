@@ -48,12 +48,12 @@ def run(drop_only_library: bool = True) -> None:
     :return: None
     """
 
-    logger.info('PIPELINE_START')
+    logger.info('PHASE_START')
 
     # The pipeline
     create_directories()
     clean_database(drop_only_library=drop_only_library)
 
-    logger.info('PIPELINE_COMPLETE')
+    logger.info('PHASE_COMPLETE')
 
 # ----------------------------------------------------------------------------------
