@@ -21,7 +21,7 @@ def is_over_max_allowed(
 
     :return: bool, true if the event should be rejected, False otherwise
     """
-    print(event)
+
     # Save current event's type
     event_type = event['event_type']
 
