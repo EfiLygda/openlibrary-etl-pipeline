@@ -10,7 +10,7 @@ Handles events involving lending workflows, such as:
 import json
 from datetime import datetime
 
-from library.start_library import TOPIC
+from library.service.kafka.config import TOPIC
 from library.database.handler_queries import execute_handler_query
 from library.core.events import EventType, EventTrigger
 from library.utils.dates import overdue_days
