@@ -55,5 +55,7 @@ def run():
     # Close the client
     redis_client.close()
 
+    logger.info('REDIS_INITIALIZE_SUCCESS')
+
     logger.info('STAGE_COMPLETE')
 
