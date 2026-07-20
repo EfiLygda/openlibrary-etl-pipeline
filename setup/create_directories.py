@@ -3,6 +3,9 @@ Setting up project's directories
 """
 
 from config.paths import *
+from utilities.logging import set_logger
+
+logger = set_logger('DIRECTORY_SETUP')
 
 # List containing all new directories
 NEW_DIRS = [
@@ -24,7 +27,15 @@ NEW_DIRS = [
 ]
 
 def run():
+
+    logger.info('STAGE_START')
+
     # Creating new directories, if they do not already exist
     for directory in NEW_DIRS:
         if not os.path.exists(directory):
             os.makedirs(directory)
+            logger.info(f'DIRECTORY_CREATE_SUCCESS path={directory}')
+        else:
+            logger.debug(f'DIRECTORY_EXISTS path={directory}')
+
+    logger.info('STAGE_COMPLETE')
