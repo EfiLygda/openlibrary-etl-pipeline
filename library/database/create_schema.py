@@ -24,6 +24,8 @@ def run():
         connection=connection,
         query='CREATE SCHEMA IF NOT EXISTS library;'
     )
+
+    logger.info('SCHEMA_CREATE_SUCCESS schema=library')
     # ---------------------------------------------------------------------------------------
 
     # Close the connection
