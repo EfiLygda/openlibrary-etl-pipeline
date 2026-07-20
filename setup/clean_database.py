@@ -3,6 +3,9 @@ Droping tables and types from the database
 """
 
 from utilities.database import db_connection, DB_NAME, execute_query
+from utilities.logging import set_logger
+
+logger = set_logger('CLEAN_DATABASE')
 
 def run(drop_only_library: bool = False) -> None:
     """
@@ -12,6 +15,9 @@ def run(drop_only_library: bool = False) -> None:
 
     :return: None
     """
+
+    logger.info('STAGE_START')
+
     # ---------------------------------------------------------------------------------------
     # --- Set up Connection to Database ---
 
@@ -79,6 +85,9 @@ def run(drop_only_library: bool = False) -> None:
             connection=connection,
             query=f"DROP TABLE IF EXISTS {table_name};",
         )
+        logger.info(
+            f'DROP_TABLE_SUCCESS table={table_name}'
+        )
     # ---------------------------------------------------------------------------------------
 
     # ---------------------------------------------------------------------------------------
@@ -101,4 +110,15 @@ def run(drop_only_library: bool = False) -> None:
             connection=connection,
             query=f"DROP TYPE IF EXISTS {table_type};",
         )
+        logger.info(
+            f'DROP_TYPE_SUCCESS type={table_name}'
+        )
     # ---------------------------------------------------------------------------------------
+
+    # ---------------------------------------------------------------------------------------
+    # --- Close Connection ---
+
+    connection.close()
+    # ---------------------------------------------------------------------------------------
+
+    logger.info('STAGE_COMPLETE')
