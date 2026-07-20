@@ -26,6 +26,7 @@ Run:
 from utilities.database import db_connection, DB_NAME
 
 from library.core.validation import reject_event
+from library.utils.event_display import print_event
 
 from library.service.redis.client import RedisClient
 from library.service.redis.operations.registry import RedisOperations
@@ -72,7 +73,10 @@ for msg in consumer:
         continue
     else:
         # Display event
-        print(event)
+        print_event(
+            source='SYSTEM_CONSUMER',
+            event=event,
+        )
 
     # TODO: add bulk loading of db at end of day
     # If current event type can be handled then use the proper

@@ -29,6 +29,7 @@ from datetime import datetime
 from utilities.rate_limit import wait
 
 from library.core.validation import reject_event
+from library.utils.event_display import print_event
 
 from library.service.kafka.config import TOPIC
 from library.service.kafka.producer import create_producer
@@ -63,7 +64,10 @@ while True:
         continue
 
     # Display allowed event
-    print(event)
+    print_event(
+        source='PRODUCER',
+        event=event,
+    )
 
     # Publish the allowed event to chosen topic
     emit_event(
