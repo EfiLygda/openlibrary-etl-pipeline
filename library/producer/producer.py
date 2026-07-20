@@ -61,6 +61,12 @@ while True:
 
     # Reject event if needed
     if reject_event(redis_client, event):
+        # Display rejected event
+        print_event(
+            source='REJECTED',
+            event=event,
+        )
+
         continue
 
     # Display allowed event

@@ -68,15 +68,11 @@ for msg in consumer:
     # Save the event's message
     event = msg.value
 
-    # Reject the event, if needed, else display it
-    if reject_event(redis_client, event):
-        continue
-    else:
-        # Display event
-        print_event(
-            source='SYSTEM_CONSUMER',
-            event=event,
-        )
+    # Display event
+    print_event(
+        source='SYSTEM_CONSUMER',
+        event=event,
+    )
 
     # TODO: add bulk loading of db at end of day
     # If current event type can be handled then use the proper
