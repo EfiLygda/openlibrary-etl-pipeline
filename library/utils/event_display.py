@@ -2,7 +2,18 @@
 Module for displaying events
 """
 
-import json
+from rich.json import JSON
+from rich.console import Console
+
+# Set up a rich console for using colours
+RICH_CONSOLE = Console(force_terminal=True)
+
+# Dictionary with the colours used for each displayed event
+CONSOLE_COLOURS = {
+    "PRODUCER": "green",
+    "SYSTEM_CONSUMER": "cyan",
+    "REJECTED": "red",
+}
 
 def print_event(
         source: str,
@@ -22,6 +33,21 @@ def print_event(
 
     :return: None
     """
-    print(100*'=')
-    print(f"[{source}] {event['event_type']}")
-    print(json.dumps(event, indent=indent))
+
+    # Fetch the colour to use or use white as default
+    color = CONSOLE_COLOURS.get(source, "white")
+
+    # Print event header
+    RICH_CONSOLE.print(f"[bold {color}][{source}] {event['event_type']} [/bold {color}]")
+
+    # Print event using rich's JSON predermined format
+    RICH_CONSOLE.print(
+        JSON.from_data(
+            data=event,
+            indent=indent,
+        )
+    )
+
+    # Print final new line
+    RICH_CONSOLE.print()
+
