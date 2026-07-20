@@ -1,5 +1,5 @@
 """
-Droping tables and types from the database
+Dropping tables and types from the database
 """
 
 from utilities.database import db_connection, DB_NAME, execute_query
