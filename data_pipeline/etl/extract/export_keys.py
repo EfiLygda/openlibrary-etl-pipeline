@@ -12,7 +12,7 @@ from config.openlibrary_api import GENRE_facet
 from config.paths import KEYS_DIR, SEARCH_DIR
 
 from utilities.io import load_json, save_json
-from utilities.logging import set_logger
+from utilities.logger import set_logger
 
 logger = set_logger('EXPORT_KEYS')
 

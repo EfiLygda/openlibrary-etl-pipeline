@@ -14,7 +14,7 @@ from config.openlibrary_api import GENRE_facet, MAX_ATTEMPTS
 from utilities.io import load_json, save_json
 from utilities.rate_limit import wait
 from data_pipeline.utils.retry import retry
-from utilities.logging import set_logger, log_result
+from utilities.logger import set_logger, log_result
 
 logger = set_logger('FETCH_AUTHOR_STATISTICS')
 

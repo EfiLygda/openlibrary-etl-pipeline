@@ -7,7 +7,7 @@ import logging
 from dotenv import load_dotenv
 
 from config.paths import LOG_DIR
-from utilities.logging import config_logger, set_logger
+from utilities.logger import config_logger, set_logger
 
 from data_pipeline.extract import run as run_extract
 from data_pipeline.transform import run as run_transform
@@ -45,8 +45,8 @@ def run():
     logger.info('PIPELINE_START')
 
     # The pipeline
-    run_extract()
-    run_transform()
+    # run_extract()
+    # run_transform()
     run_load()
 
     logger.info('PIPELINE_COMPLETE')

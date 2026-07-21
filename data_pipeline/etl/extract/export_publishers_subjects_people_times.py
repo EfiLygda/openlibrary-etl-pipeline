@@ -10,7 +10,7 @@ from config.paths import BOOKS_DIR, KEYS_DIR
 from config.openlibrary_api import  GENRE_facet
 
 from utilities.io import load_json, save_json
-from utilities.logging import set_logger
+from utilities.logger import set_logger
 
 logger = set_logger('EXPORT_PUBLISHERS_SUBJECTS_PEOPLE_TIMES')
 

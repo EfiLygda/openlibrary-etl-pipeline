@@ -18,7 +18,7 @@ from data_pipeline.etl.transform.dtypes import (authors_dtypes,
                                                 authors_works_dtypes)
 from data_pipeline.utils.data.parsing import find_year, extract_text
 from data_pipeline.utils.data.table_prep import prepare_table
-from utilities.logging import set_logger
+from utilities.logger import set_logger
 
 logger = set_logger('TRANSFORM_TO_AUTHORS_TABLES')
 

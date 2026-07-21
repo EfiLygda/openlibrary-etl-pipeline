@@ -18,7 +18,7 @@ Transform JSON files to tables (CSV files)
 16. works_time_periods.csv
 """
 
-from utilities.logging import set_logger
+from utilities.logger import set_logger
 
 from data_pipeline.etl.transform.author_tables import run as author_tables
 from data_pipeline.etl.transform.editions_tables import run as editions_tables

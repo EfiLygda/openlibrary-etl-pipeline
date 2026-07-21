@@ -3,7 +3,7 @@ STEP 2: Create the `catalog` schema
 """
 
 from utilities.database import DB_NAME, db_connection, execute_query
-from utilities.logging import set_logger
+from utilities.logger import set_logger
 
 logger = set_logger('CREATE_SCHEMA_AT_DATABASE')
 

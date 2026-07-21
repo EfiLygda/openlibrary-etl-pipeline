@@ -17,7 +17,7 @@ Step 8: Extract all SEARCH_AUTHORS fields from SEARCH_AUTHORS
 """
 import logging
 
-from utilities.logging import set_logger
+from utilities.logger import set_logger
 
 from data_pipeline.etl.extract.fetch_works import run as fetch_works
 from data_pipeline.etl.extract.export_keys import run as export_keys

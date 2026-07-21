@@ -26,7 +26,7 @@ from config.paths import SCHEMA_DIR
 
 from utilities.database import DB_NAME, db_connection
 from data_pipeline.utils.data.validation import check_if_table_exists
-from utilities.logging import set_logger
+from utilities.logger import set_logger
 
 logger = set_logger('CREATE_TABLES_AT_DATABASE')
 

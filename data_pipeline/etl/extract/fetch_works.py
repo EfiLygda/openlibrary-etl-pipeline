@@ -13,7 +13,7 @@ import os
 from data_pipeline import open_library
 
 from utilities.rate_limit import wait
-from utilities.logging import set_logger, log_result
+from utilities.logger import set_logger, log_result
 from data_pipeline.utils.retry import retry
 
 from config.paths import SEARCH_DIR

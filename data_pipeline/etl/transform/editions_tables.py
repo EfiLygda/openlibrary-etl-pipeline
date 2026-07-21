@@ -20,7 +20,7 @@ from data_pipeline.etl.transform.dtypes import (editions_dtypes,
                                                 contents_dtypes,
                                                 details_dtypes)
 from data_pipeline.utils.data.table_prep import prepare_table
-from utilities.logging import set_logger
+from utilities.logger import set_logger
 
 logger = set_logger('TRANSFORM_TO_EDITIONS_TABLES')
 

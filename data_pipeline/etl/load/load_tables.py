@@ -6,7 +6,7 @@ import os
 from config.paths import CSV_DIR
 from utilities.database import DB_NAME, db_connection
 from utilities.io import read_csv
-from utilities.logging import set_logger
+from utilities.logger import set_logger
 
 logger = set_logger('LOAD_TABLES_AT_DATABASE')
 

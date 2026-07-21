@@ -1,7 +1,7 @@
 """
 Load tables to romance_fiction PostgreSQL database
 """
-from utilities.logging import set_logger
+from utilities.logger import set_logger
 
 from data_pipeline.etl.load.create_database import run as create_database
 from data_pipeline.etl.load.create_schema import run as create_schema

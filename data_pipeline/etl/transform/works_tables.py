@@ -23,7 +23,7 @@ from data_pipeline.etl.transform.dtypes import (works_dtypes,
                                                 places_dtypes,
                                                 times_dtypes)
 from data_pipeline.utils.data.table_prep import prepare_table
-from utilities.logging import set_logger
+from utilities.logger import set_logger
 
 logger = set_logger('TRANSFORM_TO_WORKS_TABLES')
 
