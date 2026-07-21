@@ -7,18 +7,19 @@ simulation running until interrupted by the user.
 
 import sys
 import subprocess
-from utilities.rate_limit import wait
 from utilities.logger import set_logger
 
 logger = set_logger('LIBRARY_SIMULATION')
 
-def run():
+def run(display_events: bool = False):
     """
     Runs the library simulation.
 
     Starts the library system consumer before launching the events producer to
     ensure events are consumed as they are produced. The simulation continues
     until interrupted.
+
+    :display_events: bool, whether to display the events or not
 
     :return: None
     """
@@ -31,21 +32,30 @@ def run():
 
     try:
         # Start library's system consumer subprocess
-        library_system_consumer = subprocess.Popen([
+        system_consumer_command = [
             sys.executable,
             "-m",
             "library.consumers.system.consumer"
-        ])
+        ]
 
-        # Wait more than 10 seconds
-        wait(10)
+        if display_events:
+            system_consumer_command.append("--display-events")
 
-        # Start library's events producer subprocess
-        producer = subprocess.Popen([
+        # Start library's system consumer subprocess
+        library_system_consumer = subprocess.Popen(system_consumer_command)
+
+        # Start library's system producer subprocess
+        producer_command = [
             sys.executable,
             "-m",
             "library.producer.producer"
-        ])
+        ]
+
+        if display_events:
+            producer_command.append("--display-events")
+
+        # Start library's events producer subprocess
+        producer = subprocess.Popen(producer_command)
 
         # Producer's subprocess alive in order
         # to use KeyboardInterrupt in console
