@@ -5,7 +5,7 @@ Dropping tables and types from the database
 from utilities.database import db_connection, DB_NAME, execute_query
 from utilities.logger import set_logger
 
-logger = set_logger('CLEAN_DATABASE')
+logger = set_logger('RESET_DATABASE')
 
 def run(drop_only_library: bool = False) -> None:
     """
@@ -114,7 +114,7 @@ def run(drop_only_library: bool = False) -> None:
             f'DROP_TYPE_SUCCESS type={table_name}'
         )
     # ---------------------------------------------------------------------------------------
-
+    # TODO: make stages for tables, types, schemas and the whole database
     # ---------------------------------------------------------------------------------------
     # --- Close Connection ---
 

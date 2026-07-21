@@ -5,7 +5,7 @@ Setting up project's directories
 from config.paths import *
 from utilities.logger import set_logger
 
-logger = set_logger('DIRECTORY_SETUP')
+logger = set_logger('SETUP_DIRECTORIES')
 
 # List containing all new directories
 NEW_DIRS = [
