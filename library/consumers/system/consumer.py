@@ -57,7 +57,13 @@ LOG_LEVEL = os.getenv("LOG_LEVEL")
 # ----------------------------------------------------------------------------------
 # --- Setting up logging ---
 # Log filepath
-log_filepath = os.path.join(LOG_DIR, 'system_consumer.log')
+# log_filepath = os.path.join(LOG_DIR, 'system_consumer.log')
+#
+# # Configure the logger (uses console and file for log records)
+# config_logger(filepath=log_filepath, level=LOG_LEVEL)
+
+# Log filepath
+log_filepath = os.path.join(LOG_DIR, 'application.log')
 
 # Configure the logger (uses console and file for log records)
 config_logger(filepath=log_filepath, level=LOG_LEVEL)

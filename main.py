@@ -34,10 +34,10 @@ LOG_LEVEL = os.getenv("LOG_LEVEL")
 # --- Setting up logging ---
 
 # Log filepath
-log_filepath = os.path.join(LOG_DIR, 'project.log')
+log_filepath = os.path.join(LOG_DIR, 'application.log')
 
 # Configure the logger (uses console and file for log records)
-config_logger(filepath=log_filepath, level=LOG_LEVEL)
+config_logger(filepath=log_filepath, level=LOG_LEVEL, reset_file=True)
 
 # Set up the logger with stage 'APPLICATION'
 logger = set_logger(stage='APPLICATION')

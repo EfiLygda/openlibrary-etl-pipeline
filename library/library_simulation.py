@@ -35,11 +35,11 @@ logging.getLogger("redis.client").setLevel(logging.WARNING)
 # Silencing 'kafka' logging to level 'WARNING'
 logging.getLogger("kafka").setLevel(logging.WARNING)
 
-# Log filepath
-log_filepath = os.path.join(LOG_DIR, 'library.log')
-
-# Configure the logger (uses console and file for log records)
-config_logger(filepath=log_filepath, level=LOG_LEVEL)
+# # Log filepath
+# log_filepath = os.path.join(LOG_DIR, 'library.log')
+#
+# # Configure the logger (uses console and file for log records)
+# config_logger(filepath=log_filepath, level=LOG_LEVEL)
 
 # Set up the logger with stage 'LIBRARY_SIMULATION'
 logger = set_logger(stage='LIBRARY_SIMULATION')

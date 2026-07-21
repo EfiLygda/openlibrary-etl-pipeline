@@ -28,11 +28,11 @@ LOG_LEVEL = os.getenv("LOG_LEVEL")
 # Silencing 'urllib3' logging to level warning
 logging.getLogger("urllib3").setLevel(logging.WARNING)
 
-# Log filepath
-log_filepath = os.path.join(LOG_DIR, 'etl.log')
-
-# Configure the logger (uses console and file for log records)
-config_logger(filepath=log_filepath, level=LOG_LEVEL)
+# # Log filepath
+# log_filepath = os.path.join(LOG_DIR, 'etl.log')
+#
+# # Configure the logger (uses console and file for log records)
+# config_logger(filepath=log_filepath, level=LOG_LEVEL)
 
 # Set up the logger with stage 'ETL'
 logger = set_logger(stage='ETL')
