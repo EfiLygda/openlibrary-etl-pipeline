@@ -22,6 +22,7 @@ Workflow:
 Run:
     python -m library.producer.producer.py
 """
+import argparse
 import os
 from dotenv import load_dotenv
 import logging
@@ -73,15 +74,35 @@ logging.getLogger("redis.client").setLevel(logging.WARNING)
 logging.getLogger("kafka").setLevel(logging.WARNING)
 # ----------------------------------------------------------------------------------
 
+# ----------------------------------------------------------------------------------
+# --- Setting up command line argument parser ---
 
+# Setting up argument parser via the command line
+parser = argparse.ArgumentParser()
+
+# Add `display-events` flag for displaying full event envelope in console
+parser.add_argument(
+    "--display-events",
+    action="store_true",
+    help="Display Kafka events during simulation"
+)
+
+# Parse command line arguments
+args = parser.parse_args()
+# ----------------------------------------------------------------------------------
+
+# ----------------------------------------------------------------------------------
 # Seeding random module
 seed(SEED)
+# ----------------------------------------------------------------------------------
 
+# ----------------------------------------------------------------------------------
 # Setting up redis for live state
 redis_client = RedisClient()
 
 # Setting up the Kafka producer
 producer = create_producer()
+# ----------------------------------------------------------------------------------
 
 # Starting producer simulation
 while True:
@@ -96,19 +117,22 @@ while True:
 
     # Reject event if needed
     if reject_event(redis_client, event):
-        # Display rejected event
-        print_event(
-            source='REJECTED',
-            event=event,
-        )
+
+        if args.display_events:
+            # Display rejected event
+            print_event(
+                source='REJECTED',
+                event=event,
+            )
 
         continue
 
-    # Display allowed event
-    print_event(
-        source='PRODUCER',
-        event=event,
-    )
+    if args.display_events:
+        # Display allowed event
+        print_event(
+            source='PRODUCER',
+            event=event,
+        )
 
     # Publish the allowed event to chosen topic
     emit_event(
