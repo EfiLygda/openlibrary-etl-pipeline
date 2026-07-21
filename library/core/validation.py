@@ -1,12 +1,16 @@
 """
 Event validation module
 """
+from utilities.logger import set_logger
 
 from library.core.events import EventType
 from library.core.registry import EVENTS
+from library.utils.event_display import print_event
 from library.service.redis.client import RedisClient
 from library.service.redis.keys import RedisKeys
 
+# Setting up the logger
+logger = set_logger('EVENT_VALIDATION')
 
 def is_over_max_allowed(
         redis_client: RedisClient,
@@ -102,7 +106,8 @@ def loan_renewal_over_max_allowable(
 
 def reject_event(
         redis_client: RedisClient,
-        event: dict
+        event: dict,
+        display_events: bool = False
 ) -> bool:
     """
     Determine whether an event should be rejected or not
@@ -124,20 +129,73 @@ def reject_event(
         EventType.USER_REGISTERED,
         EventType.COPY_PURCHASED
     ]:
-        return is_over_max_allowed(
+
+        if is_over_max_allowed(
             redis_client=redis_client,
             event=event
-        )
+        ):
+
+            if display_events:
+                # Display rejected event
+                print_event(
+                    source='REJECTED',
+                    event=event,
+                )
+
+            logger.info(
+                f'EVENT_REJECTED '
+                f'event_type={event['event_type']} '
+                f'event_id={event['event_id']} '
+                f'reason=over_max_allowed'
+            )
+
+            return True
+
 
     # Check if no copy was available to borrow and reject
     if event_type in [EventType.COPY_BORROWED]:
-        return borrowed_copy_does_not_exist(event=event)
+
+        if borrowed_copy_does_not_exist(event=event):
+
+            if display_events:
+                # Display rejected event
+                print_event(
+                    source='REJECTED',
+                    event=event,
+                )
+
+            logger.info(
+                f'EVENT_REJECTED '
+                f'event_type={event['event_type']} '
+                f'event_id={event['event_id']} '
+                f'reason=borrowed_copy_does_not_exist'
+            )
+
+            return True
 
     # Check if a loan's renewal count is over the maximum allowable
     if event_type in [EventType.LOAN_RENEWED]:
-        return loan_renewal_over_max_allowable(
+
+        if loan_renewal_over_max_allowable(
             redis_client=redis_client,
             event=event
-        )
+        ):
+
+            if display_events:
+                # Display rejected event
+                print_event(
+                    source='REJECTED',
+                    event=event,
+                )
+
+            logger.info(
+                f'EVENT_REJECTED '
+                f'event_type={event['event_type']} '
+                f'event_id={event['event_id']} '
+                f'reason=over_max_allowable_loan_renewal'
+            )
+
+            return True
+
 
     return False

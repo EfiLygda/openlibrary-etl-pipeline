@@ -92,7 +92,7 @@ args = parser.parse_args()
 # ----------------------------------------------------------------------------------
 
 # ----------------------------------------------------------------------------------
-# Seeding random module
+# Seeding random module for later random jitter
 seed(SEED)
 # ----------------------------------------------------------------------------------
 
@@ -116,15 +116,11 @@ while True:
         break
 
     # Reject event if needed
-    if reject_event(redis_client, event):
-
-        if args.display_events:
-            # Display rejected event
-            print_event(
-                source='REJECTED',
-                event=event,
-            )
-
+    if reject_event(
+            redis_client=redis_client,
+            event=event,
+            display_events=args.display_events
+    ):
         continue
 
     if args.display_events:

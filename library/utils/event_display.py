@@ -41,7 +41,7 @@ def print_event(
     # Print event header
     RICH_CONSOLE.print(f"[bold {color}][{source}] {event['event_type']} [/bold {color}]")
 
-    # Print event using rich's JSON predermined format
+    # Print event using rich's JSON predetermined format
     RICH_CONSOLE.print(
         JSON.from_data(
             data=event,
