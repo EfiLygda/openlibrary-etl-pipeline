@@ -3,8 +3,8 @@ Central simulation of the library
 """
 
 import os
-from dotenv import load_dotenv
 import logging
+from dotenv import load_dotenv
 
 from config.paths import LOG_DIR
 from utilities.logger import config_logger, set_logger
@@ -32,6 +32,9 @@ logging.getLogger("redis").setLevel(logging.WARNING)
 logging.getLogger("redis.connection").setLevel(logging.WARNING)
 logging.getLogger("redis.client").setLevel(logging.WARNING)
 
+# Silencing 'kafka' logging to level 'WARNING'
+logging.getLogger("kafka").setLevel(logging.WARNING)
+
 # Log filepath
 log_filepath = os.path.join(LOG_DIR, 'library.log')
 
@@ -42,18 +45,39 @@ config_logger(filepath=log_filepath, level=LOG_LEVEL)
 logger = set_logger(stage='LIBRARY_SIMULATION')
 # ----------------------------------------------------------------------------------
 
-def run():
+def run(display_events: bool = False) -> None:
+    """
+    Runs the complete library simulation pipeline.
+
+    The pipeline resets the Kafka topic, initializes the database schema and
+    tables, generates the initial simulation data, and starts the library
+    event processing system. The simulation continues until interrupted.
+
+    Pipeline steps:
+        1. Reset the Kafka topic used for library events.
+        2. Create the database schema.
+        3. Create the required database tables.
+        4. Initialize simulation data and publish initial events.
+        5. Start the library system consumer and producer.
+
+    :param display_events: Whether to display full event payloads during the
+        simulation.
+    :return: None
+    """
+
     # ----------------------------------------------------------------------------------
     # --- Run Pipeline (with logging) ---
 
     logger.info('PIPELINE_START')
+    #TODO: add drop database and schemas
+    #TODO: fix serializer
 
     # The pipeline
     reset_kafka_topic()
     create_schema()
     create_tables()
     initialize_simulation()
-    start_library()
+    start_library(display_events=display_events)
 
     logger.info('PIPELINE_COMPLETE')
     # ----------------------------------------------------------------------------------
