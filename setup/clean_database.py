@@ -3,7 +3,7 @@ Dropping tables and types from the database
 """
 
 from utilities.database import db_connection, DB_NAME, execute_query
-from utilities.logging import set_logger
+from utilities.logger import set_logger
 
 logger = set_logger('CLEAN_DATABASE')
 

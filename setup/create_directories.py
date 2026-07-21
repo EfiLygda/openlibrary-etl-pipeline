@@ -3,7 +3,7 @@ Setting up project's directories
 """
 
 from config.paths import *
-from utilities.logging import set_logger
+from utilities.logger import set_logger
 
 logger = set_logger('DIRECTORY_SETUP')
 

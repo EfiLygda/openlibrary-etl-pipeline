@@ -9,7 +9,7 @@ import os
 from dotenv import load_dotenv
 
 from config.paths import LOG_DIR
-from utilities.logging import config_logger, set_logger
+from utilities.logger import config_logger, set_logger
 
 from setup.create_directories import run as create_directories
 from setup.clean_database import run as clean_database
