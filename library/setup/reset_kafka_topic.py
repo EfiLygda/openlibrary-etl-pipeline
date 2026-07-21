@@ -19,7 +19,7 @@ BOOTSTRAP = str(os.getenv('BOOTSTRAP'))
 KAFKA_CONTAINER = str(os.getenv('KAFKA_CONTAINER'))
 KAFKA_TOPICS = str(os.getenv('KAFKA_TOPICS'))
 
-logger = set_logger('CREATE_KAFKA_TOPIC')
+logger = set_logger('RESET_KAFKA_TOPIC')
 
 def run():
     """

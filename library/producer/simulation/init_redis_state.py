@@ -16,7 +16,7 @@ from library.service.redis.keys import RedisKeys
 from library.service.redis.client import RedisClient
 from library.producer.simulation.bootstrap import build_context
 
-logger = set_logger('INITIALIZE_SIMULATION')
+logger = set_logger('INITIALIZE_REDIS_STATE')
 
 def run():
 
@@ -55,7 +55,7 @@ def run():
     # Close the client
     redis_client.close()
 
-    logger.info('REDIS_INITIALIZE_SUCCESS')
+    logger.info('REDIS_STATE_INITIALIZE_SUCCESS')
 
     logger.info('STAGE_COMPLETE')
 

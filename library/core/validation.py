@@ -10,7 +10,7 @@ from library.service.redis.client import RedisClient
 from library.service.redis.keys import RedisKeys
 
 # Setting up the logger
-logger = set_logger('EVENT_VALIDATION')
+logger = set_logger('PRODUCE_EVENTS')
 
 def is_over_max_allowed(
         redis_client: RedisClient,

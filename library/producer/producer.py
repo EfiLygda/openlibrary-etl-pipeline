@@ -69,7 +69,7 @@ log_filepath = os.path.join(LOG_DIR, 'application.log')
 config_logger(filepath=log_filepath, level=LOG_LEVEL)
 
 # Setting up the logger
-logger = set_logger('SYSTEM_CONSUMER')
+logger = set_logger('PRODUCE_EVENTS')
 
 # Silencing 'redis' logging to level 'WARNING'
 logging.getLogger("redis").setLevel(logging.WARNING)
@@ -116,6 +116,13 @@ while True:
     # Generate an event
     event = generate_event(redis_client=redis_client)
 
+    # Log event
+    logger.debug(
+        f'EVENT_GENERATED '
+        f'event_type={event['event_type']} '
+        f'event_id={event['event_id']}'
+    )
+
     # If the event's timestamp is over the end date of the simulation
     # then the simulation stops
     if datetime.fromisoformat(event['timestamp']) >= END_DATE:
@@ -141,6 +148,14 @@ while True:
         producer=producer,
         topic=TOPIC,
         event=event
+    )
+
+    # Log produced event
+    logger.info(
+        f'EVENT_PRODUCED '
+        f'event_type={event["event_type"]} '
+        f'event_id={event["event_id"]} '
+        f'topic={TOPIC}'
     )
 
     # Wait before next event with jitter

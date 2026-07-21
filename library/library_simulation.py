@@ -12,7 +12,7 @@ from utilities.logger import config_logger, set_logger
 from library.database.create_tables import run as create_tables
 from library.database.create_schema import run as create_schema
 from library.setup.reset_kafka_topic import run as reset_kafka_topic
-from library.producer.simulation.init_simulation import run as initialize_simulation
+from library.producer.simulation.init_redis_state import run as initialize_redis_state
 from library.start_library import run as start_library
 
 # ----------------------------------------------------------------------------------
@@ -41,8 +41,8 @@ logging.getLogger("kafka").setLevel(logging.WARNING)
 # # Configure the logger (uses console and file for log records)
 # config_logger(filepath=log_filepath, level=LOG_LEVEL)
 
-# Set up the logger with stage 'LIBRARY_SIMULATION'
-logger = set_logger(stage='LIBRARY_SIMULATION')
+# Set up the logger with stage 'SIMULATE_LIBRARY'
+logger = set_logger(stage='SIMULATE_LIBRARY')
 # ----------------------------------------------------------------------------------
 
 def run(display_events: bool = False) -> None:
@@ -76,7 +76,7 @@ def run(display_events: bool = False) -> None:
     reset_kafka_topic()
     create_schema()
     create_tables()
-    initialize_simulation()
+    initialize_redis_state()
     start_library(display_events=display_events)
 
     logger.info('PIPELINE_COMPLETE')

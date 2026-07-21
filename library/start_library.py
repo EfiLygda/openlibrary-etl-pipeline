@@ -9,7 +9,7 @@ import sys
 import subprocess
 from utilities.logger import set_logger
 
-logger = set_logger('LIBRARY_SIMULATION')
+logger = set_logger('SIMULATE_EVENTS')
 
 def run(display_events: bool = False):
     """
