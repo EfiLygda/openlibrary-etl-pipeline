@@ -11,6 +11,7 @@ Run:
 """
 
 import os
+import argparse
 from dotenv import load_dotenv
 
 from config.paths import LOG_DIR
@@ -43,17 +44,41 @@ logger = set_logger(stage='APPLICATION')
 # ----------------------------------------------------------------------------------
 
 # ----------------------------------------------------------------------------------
-# --- Run Application (with logging) ---
+# --- Setting up command line argument parser ---
+
+# Setting up argument parser via the command line
+parser = argparse.ArgumentParser()
+
+# Add `drop-only-library` flag for dropping only library schema
+parser.add_argument(
+    "--drop-only-library",
+    action="store_true",
+    help="Drop only library schema"
+)
+
+# Add `display-events` flag for displaying full event envelope in console
+parser.add_argument(
+    "--display-events",
+    action="store_true",
+    help="Display Kafka events during simulation"
+)
+# ----------------------------------------------------------------------------------
+
 
 if __name__ == '__main__':
+
+    # Parse command line arguments
+    args = parser.parse_args()
+
+    # ----------------------------------------------------------------------------------
+    # --- Run Application (with logging) ---
 
     logger.info('APPLICATION_START')
 
     # The pipeline
-    setup_project(drop_only_library=True)
+    setup_project(drop_only_library=args.drop_only_library)
     # etl()
-    library_simulation()
+    library_simulation(display_events=args.display_events)
 
     logger.info('APPLICATION_COMPLETE')
-
-# ----------------------------------------------------------------------------------
+    # ----------------------------------------------------------------------------------
