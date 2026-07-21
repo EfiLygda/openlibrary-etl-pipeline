@@ -40,13 +40,18 @@ class SafeFormatter(logging.Formatter):
         # Return the formatted LogRecord using the original logging.Formatter.format
         return super().format(record)
 
-def config_logger(filepath: str | None = None, level='debug') -> None:
+def config_logger(
+        filepath: str | None = None,
+        level='debug',
+        reset_file: bool = False
+) -> None:
     """
     Function for configuring all loggers.
-    Configurations:
-    1.
+
     :param filepath: str | None, the filepath for the log file to be exported, if given
     :param level: str, the logging level (Options: 'debug', 'info', 'warning', 'error', 'critical')
+    :param reset_file: bool, True for resetting the log file, False for appending to it
+
     :return: None
     """
 
@@ -72,7 +77,7 @@ def config_logger(filepath: str | None = None, level='debug') -> None:
         # Setting up a logging file handler for given 'filename'
         file_handler = logging.FileHandler(
             filepath,
-            mode='w',
+            mode='w' if reset_file else 'a',
             encoding="utf-8"
         )
 
