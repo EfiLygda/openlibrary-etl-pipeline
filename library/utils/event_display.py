@@ -13,6 +13,7 @@ CONSOLE_COLOURS = {
     "PRODUCER": "green",
     "SYSTEM_CONSUMER": "cyan",
     "REJECTED": "red",
+    "SYSTEM_CONSUMER_PROCESSING_ERROR": "red",
 }
 
 def print_event(
