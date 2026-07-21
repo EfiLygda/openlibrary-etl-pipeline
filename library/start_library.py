@@ -8,7 +8,7 @@ simulation running until interrupted by the user.
 import sys
 import subprocess
 from utilities.rate_limit import wait
-from utilities.logging import set_logger
+from utilities.logger import set_logger
 
 logger = set_logger('LIBRARY_SIMULATION')
 

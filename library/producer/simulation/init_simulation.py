@@ -10,7 +10,7 @@ This script:
 
 Intended to bootstrap the Redis state for the producer/system simulation workflow
 """
-from utilities.logging import set_logger
+from utilities.logger import set_logger
 
 from library.service.redis.keys import RedisKeys
 from library.service.redis.client import RedisClient

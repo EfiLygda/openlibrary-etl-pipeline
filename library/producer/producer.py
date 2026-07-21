@@ -22,10 +22,15 @@ Workflow:
 Run:
     python -m library.producer.producer.py
 """
+import os
+from dotenv import load_dotenv
+import logging
 
 from random import seed, uniform
 from datetime import datetime
 
+from config.paths import LOG_DIR
+from utilities.logger import config_logger, set_logger
 from utilities.rate_limit import wait
 
 from library.core.validation import reject_event
@@ -38,6 +43,36 @@ from library.service.redis.client import RedisClient
 from library.producer.producer_config import SEED, END_DATE
 from library.service.kafka.publisher import emit_event
 from library.producer.simulation.event_generator import generate_event
+
+# ----------------------------------------------------------------------------------
+# --- Load Environment Variables ---
+# Load variables from the .env file to the environment
+load_dotenv()
+
+# Setting up the genre
+LOG_LEVEL = os.getenv("LOG_LEVEL")
+# ----------------------------------------------------------------------------------
+
+# ----------------------------------------------------------------------------------
+# --- Setting up logging ---
+# Log filepath
+log_filepath = os.path.join(LOG_DIR, 'system_consumer.log')
+
+# Configure the logger (uses console and file for log records)
+config_logger(filepath=log_filepath, level=LOG_LEVEL)
+
+# Setting up the logger
+logger = set_logger('SYSTEM_CONSUMER')
+
+# Silencing 'redis' logging to level 'WARNING'
+logging.getLogger("redis").setLevel(logging.WARNING)
+logging.getLogger("redis.connection").setLevel(logging.WARNING)
+logging.getLogger("redis.client").setLevel(logging.WARNING)
+
+# Silencing 'kafka' logging to level 'WARNING'
+logging.getLogger("kafka").setLevel(logging.WARNING)
+# ----------------------------------------------------------------------------------
+
 
 # Seeding random module
 seed(SEED)

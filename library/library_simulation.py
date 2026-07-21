@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 import logging
 
 from config.paths import LOG_DIR
-from utilities.logging import config_logger, set_logger
+from utilities.logger import config_logger, set_logger
 
 from library.database.create_tables import run as create_tables
 from library.database.create_schema import run as create_schema

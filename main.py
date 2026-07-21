@@ -14,7 +14,7 @@ import os
 from dotenv import load_dotenv
 
 from config.paths import LOG_DIR
-from utilities.logging import config_logger, set_logger
+from utilities.logger import config_logger, set_logger
 
 from setup.setup_project import run as setup_project
 from data_pipeline.pipeline import run as etl

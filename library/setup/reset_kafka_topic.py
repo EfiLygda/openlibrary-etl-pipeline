@@ -8,7 +8,7 @@ configured Kafka broker and topic settings.
 import os
 from dotenv import load_dotenv
 from utilities.command import run_command
-from utilities.logging import set_logger
+from utilities.logger import set_logger
 
 # Load variables from the .env file to the environment
 load_dotenv()
