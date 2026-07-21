@@ -28,5 +28,6 @@ def create_consumer(
         topic,
         bootstrap_servers=BOOTSTRAP,
         group_id=group_id,
+        auto_offset_reset="earliest",
         value_deserializer=lambda v: json.loads(v.decode("utf-8"))
     )
