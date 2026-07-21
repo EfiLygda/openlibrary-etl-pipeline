@@ -12,7 +12,8 @@ from library.service.kafka.config import BOOTSTRAP
 
 def create_consumer(
         topic: str,
-        group_id: str
+        consumer_name: str,
+        group_id: str,
 ) -> KafkaConsumer:
     """
     Create and configure a Kafka system instance
@@ -21,7 +22,9 @@ def create_consumer(
     specified system group
 
     :param topic: str, the Kafka topic to consume events from.
+    :param consumer_name: str, the Kafka consumer identifier.
     :param group_id: str, the Kafka system group identifier.
+
     :return: KafkaConsumer, the configured Kafka system instance.
     """
     return KafkaConsumer(
@@ -29,5 +32,6 @@ def create_consumer(
         bootstrap_servers=BOOTSTRAP,
         group_id=group_id,
         auto_offset_reset="earliest",
+        client_id=consumer_name,
         value_deserializer=lambda v: json.loads(v.decode("utf-8"))
     )

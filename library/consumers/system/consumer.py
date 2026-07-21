@@ -57,6 +57,7 @@ handler_dependencies = HandlerDependencies(
 # Setting up system of events
 consumer = create_consumer(
     topic=TOPIC,
+    consumer_name='library-system-consumer',
     group_id=CONSUMER_GROUP_ID
 )
 
