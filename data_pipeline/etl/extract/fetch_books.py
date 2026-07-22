@@ -73,7 +73,7 @@ def run():
     for i, key_batch in enumerate(key_batches):
 
         # Progress message
-        logger.info(f'({i+1}/{len(key_batches)}) Extracting books editions\' data')
+        # logger.info(f'({i+1}/{len(key_batches)}) Extracting books editions\' data')
 
         # Setting up the path for the file that will contain the data
         filename = f'BOOKS_p{i + 1}.json'

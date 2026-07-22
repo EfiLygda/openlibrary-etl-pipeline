@@ -53,6 +53,6 @@ def run():
         '--replication-factor', '1'
     ])
 
-    logger.info(f'TOPIC_CREATE_SUCCESS topic={TOPIC}')
+    logger.info(f'KAFKA_TOPIC_CREATE_SUCCESS topic={TOPIC}')
 
     logger.info('STAGE_COMPLETE')

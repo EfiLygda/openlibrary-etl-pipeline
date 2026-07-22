@@ -29,11 +29,11 @@ def run():
     cursor.execute("SELECT 1 FROM pg_catalog.pg_database WHERE datname = 'openlibrary_db';")
     exists = cursor.fetchone()
     if not exists:
-        logger.warning(f'DATABASE_NOT_FOUND database={GENRE_facet}')
+        logger.warning(f'DATABASE_NOT_FOUND database=openlibrary_db')
         cursor.execute('CREATE DATABASE openlibrary_db;')
-        logger.info(f'DATABASE_CREATE_SUCCESS database={GENRE_facet}')
+        logger.info(f'DATABASE_CREATE_SUCCESS database=openlibrary_db')
     else:
-        logger.info(f'DATABASE_EXISTS database={GENRE_facet}')
+        logger.info(f'DATABASE_EXISTS database=openlibrary_db')
 
     # Close the cursor
     cursor.close()
