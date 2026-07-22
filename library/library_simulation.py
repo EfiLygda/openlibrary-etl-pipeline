@@ -6,14 +6,13 @@ import os
 import logging
 from dotenv import load_dotenv
 
-from config.paths import LOG_DIR
-from utilities.logger import config_logger, set_logger
+from utilities.logger import set_logger
 
-from library.database.create_tables import run as create_tables
-from library.database.create_schema import run as create_schema
+from library.setup.create_tables import run as create_tables
+from library.setup.create_schema import run as create_schema
 from library.setup.reset_kafka_topic import run as reset_kafka_topic
-from library.producer.simulation.init_redis_state import run as initialize_redis_state
-from library.start_library import run as start_library
+from library.setup.init_redis_state import run as initialize_redis_state
+from library.setup.start_library import run as start_library
 
 # ----------------------------------------------------------------------------------
 # --- Load Environment Variables ---
@@ -70,7 +69,6 @@ def run(display_events: bool = False) -> None:
 
     logger.info('PIPELINE_START')
     #TODO: add drop database and schemas
-    #TODO: fix serializer
 
     # The pipeline
     reset_kafka_topic()
