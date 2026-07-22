@@ -11,7 +11,7 @@ from utilities.database import DB_NAME, db_connection
 from data_pipeline.utils.data.validation import check_if_index_exists
 from utilities.logger import set_logger
 
-logger = set_logger('CREATE_INDEXES_AT_DATABASE')
+logger = set_logger('CREATE_ETL_INDEXES')
 
 def run():
 

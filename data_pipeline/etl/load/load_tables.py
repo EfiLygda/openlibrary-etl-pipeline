@@ -8,7 +8,7 @@ from utilities.database import DB_NAME, db_connection
 from utilities.io import read_csv
 from utilities.logger import set_logger
 
-logger = set_logger('LOAD_TABLES_AT_DATABASE')
+logger = set_logger('LOAD_ETL_TABLES')
 
 def run():
 

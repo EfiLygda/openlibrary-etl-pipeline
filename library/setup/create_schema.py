@@ -5,7 +5,7 @@ Create the `library` schema
 from utilities.database import DB_NAME, db_connection, execute_query
 from utilities.logger import set_logger
 
-logger = set_logger('CREATE_SCHEMA_AT_DATABASE')
+logger = set_logger('CREATE_LIBRARY_SCHEMA')
 
 def run():
 
