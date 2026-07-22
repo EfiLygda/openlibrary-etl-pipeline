@@ -63,7 +63,7 @@ What the project is trying to achieve:
 
 3. `Load`: initialize PostgreSQL database, create schema and tables from SQL definition files, create indexes, and load processed CSV files into the `openlibrary_db` database while enforcing relational constraints.
 
-> **Note:** See [phases_stages.md](docs/logging/phases_stages.md) for more information on the phases and their respective steps.
+> **Note:** See [pipelines_phases_stages.md](docs/logging/pipelines_phases_stages.md) for more information on the phases and their respective steps.
 ---
 
 ### Project Structure
