@@ -2,9 +2,10 @@
 
 ## Event Name Structure
 
-The logging system is divided into four independent event families. 
+The logging system is divided into five independent event families.
 
-Each family defines its own naming rules depending on the type of operation being tracked (execution flow, data processing, system operations, or data integrity).
+Each family defines its own naming rules depending on the type of operation being tracked:
+execution flow, data processing, system operations, event streaming, or data integrity.
 
 All events follow structured naming conventions to ensure consistency, traceability, and easy log filtering.
 
@@ -16,34 +17,41 @@ All events follow structured naming conventions to ensure consistency, traceabil
 * [Events](#events)
   * [Event Name Structure](#event-name-structure)
   * [Table of Contents](#table-of-contents)
-  * [1. Pipeline Lifecycle Events](#1-pipeline-lifecycle-events)
+  * [1. Application & Pipeline Lifecycle Events](#1-application--pipeline-lifecycle-events)
   * [2. Entrypoint-based Data Processing Events](#2-entrypoint-based-data-processing-events)
     * [Attempt-level Execution Events (Retry Layer)](#attempt-level-execution-events-retry-layer)
-  * [3. System Events (Database/Table Layer)](#3-system-events-databasetable-layer)
-  * [4. Validation & Data Integrity Events](#4-validation--data-integrity-events)
-    * [4.1 Validation results](#41-validation-results)
-    * [4.2 Data integrity issues](#42-data-integrity-issues)
-  * [5. Partial Failures (Extraction/Validation Issues)](#5-partial-failures-extractionvalidation-issues)
+  * [3. System Events (Infrastructure Layer)](#3-system-events-infrastructure-layer)
+  * [4. Event Streaming Events](#4-event-streaming-events)
+    * [4.1 Producer Events](#41-producer-events)
+    * [4.2 Consumer Events](#42-consumer-events)
+  * [5. Validation & Data Integrity Events](#5-validation--data-integrity-events)
+    * [5.1 Validation results](#51-validation-results)
+    * [5.2 Data integrity issues](#52-data-integrity-issues)
+  * [6. Partial Failures (Extraction/Validation Issues)](#6-partial-failures-extractionvalidation-issues)
 <!-- TOC -->
 
 ---
 
-## 1. Pipeline Lifecycle Events
+## 1. Application & Pipeline Lifecycle Events
 
-Used to track the execution flow of the ETL pipeline.
+Used to track the execution flow of application workflows, pipelines, phases, and stages.
 
 #### Naming convention
+
 `<LEVEL>_<LIFECYCLE_EVENT>`
 
-- `LEVEL`: execution level (`PIPELINE`, `PHASE`, `STAGE`)
-- `LIFECYCLE_EVENT`: lifecycle event (`START`, `COMPLETE`)
+- `LEVEL`: execution level (`APPLICATION`, `PIPELINE`, `PHASE`, `STAGE`)
+- `LIFECYCLE_EVENT`: lifecycle event (`START`, `COMPLETE`, `STOPPED`)
 
 #### Events
 
 | Event | Description | Log Level |
 |------|-------------|-----------|
+| `APPLICATION_START`    | Application execution starts                 | `INFO`    |
+| `APPLICATION_COMPLETE` | Application execution completes successfully | `INFO`    |
 | `PIPELINE_START` | Pipeline execution starts | `INFO` |
 | `PIPELINE_COMPLETE` | Pipeline execution completes successfully | `INFO` |
+| `PIPELINE_STOPPED`     | Pipeline execution stops before completion   | `INFO`    |
 | `PHASE_START` | A pipeline phase begins execution | `INFO` |
 | `PHASE_COMPLETE` | A pipeline phase completes successfully | `INFO` |
 | `STAGE_START` | A pipeline stage begins execution | `INFO` |
@@ -110,42 +118,87 @@ These events represent transient failures during execution retries and do NOT re
 
 ---
 
-## 3. System Events (Database/Table Layer)
+## 3. System Events (Infrastructure Layer)
 
 Used for infrastructure-level operations such as database and table lifecycle management.
 
 #### Naming convention
 `<SYSTEM>_<ACTION>[_<STATUS>]`
 
-- `SYSTEM`: infrastructure domain (`DATABASE`, `TABLE`)
-- `ACTION`: operation performed (`CREATE`, `LOAD`, `EXISTS`)
-- `STATUS`: result of operation when applicable (`SUCCESS`)
+- `SYSTEM`: infrastructure component (`DATABASE`, `TABLE`, `INDEX`, `SCHEMA`, `REDIS`, `TOPIC`)
+- `ACTION`: operation performed
+- `STATUS`: optional result (`SUCCESS`)
 
 > **Note**: Some actions such as `EXISTS` represent state checks and do not require a status suffix.
 
 #### Events
 
-| Event                     | Description                        | Log Level  | Key Fields             |
-|---------------------------|------------------------------------|------------|------------------------|
-| `DATABASE_CREATE_SUCCESS` | A database is created successfully | `INFO`     | `database`             |
-| `DATABASE_EXISTS`         | A database already exists          | `INFO`     | `database`             |
-| `TABLE_EXISTS`            | A table already exists             | `INFO`     | `table`                |
-| `TABLE_CREATE_REQUIRED`   | Table creation is required         | `INFO`     | `table`                |
-| `TABLE_CREATE_SUCCESS`    | A table is created successfully    | `INFO`     | `table`                |
-| `INDEX_EXISTS`            | Index already exists               | `INFO`     | `table`, `index`       |
-| `INDEX_CREATE_REQUIRED`   | Index creation is required         | `INFO`     | `table`, `index`       |
-| `INDEXES_CREATE_SUCCESS`  | Indexes are created successfully   | `INFO`     | `table`, `index`       |
-| `TABLE_LOAD_SUCCESS`      | Table data is loaded successfully  | `INFO`     | `table`, `rows_loaded` |
+| Event                            | Description                                        | Log Level    | Key Fields             |
+|----------------------------------|----------------------------------------------------|--------------|------------------------|
+| `DIRECTORY_CREATE_SUCCESS`       | A directory is created successfully                | `INFO`       | `path`                 |
+| `DIRECTORY_EXISTS`               | A directory already exists                         | `DEBUG`      | `path`                 |
+| `DATABASE_CREATE_SUCCESS`        | A database is created successfully                 | `INFO`       | `database`             |
+| `DATABASE_EXISTS`                | A database already exists                          | `INFO`       | `database`             |
+| `SCHEMA_CREATE_SUCCESS`          | A database schema is created successfully          | `INFO`       | `schema`               |
+| `TABLE_EXISTS`                   | A table already exists                             | `INFO`       | `table`                |
+| `TABLE_CREATE_REQUIRED`          | Table creation is required                         | `INFO`       | `table`                |
+| `TABLE_CREATE_SUCCESS`           | A table is created successfully                    | `INFO`       | `table`                |
+| `INDEX_EXISTS`                   | Index already exists                               | `INFO`       | `table`, `index`       |
+| `INDEX_CREATE_REQUIRED`          | Index creation is required                         | `INFO`       | `table`, `index`       |
+| `INDEXES_CREATE_SUCCESS`         | Indexes are created successfully                   | `INFO`       | `table`, `index`       |
+| `TABLE_LOAD_SUCCESS`             | Table data is loaded successfully                  | `INFO`       | `table`, `rows_loaded` |
+| `DROP_TABLE_SUCCESS`             | A table is removed successfully                    | `INFO`       | `table`                |
+| `DROP_TYPE_SUCCESS`              | A database type is removed successfully            | `INFO`       | `type`                 |
+| `REDIS_STATE_INITIALIZE_SUCCESS` | Redis simulation state is initialized successfully | `INFO`       |                        |
+| `KAFKA_TOPIC_CREATE_SUCCESS`           | Kafka topic is created successfully                | `INFO`       | `topic`                |
 
 ---
 
-## 4. Validation & Data Integrity Events
+## 4. Event Streaming Events
+
+Used to track the lifecycle of domain events through the Kafka event-driven workflow.
+
+These events describe event creation, publishing, consumption, and processing.
+
+---
+
+### 4.1 Producer Events
+
+#### Naming convention
+
+`EVENT_<ACTION>`
+
+- `EVENT`: fixed prefix identifying domain events
+- `ACTION`: producer lifecycle action
+
+#### Events
+
+| Event             | Description                                                                 | Log Level | Key Fields                         |
+| ----------------- | --------------------------------------------------------------------------- | --------- | ---------------------------------- |
+| `EVENT_GENERATED` | A simulated event is created before validation                              | `DEBUG`   | `event_type`, `event_id`           |
+| `EVENT_REJECTED`  | A generated event is rejected because it violates simulation business rules | `INFO`    | `event_type`, `event_id`, `reason` |
+| `EVENT_PRODUCED`  | A validated event is published to Kafka                                     | `INFO`    | `event_type`, `event_id`, `topic`  |
+
+---
+
+### 4.2 Consumer Events
+
+| Event                     | Description                                                               | Log Level | Key Fields                                                                          |
+| ------------------------- | ------------------------------------------------------------------------- | --------- | ----------------------------------------------------------------------------------- |
+| `EVENT_RECEIVED`          | Consumer receives an event from Kafka                                     | `INFO`    | `event_type`, `event_id`, `topic`, `partition`, `offset`, `group_id`                |
+| `EVENT_PROCESSED`         | Consumer successfully processes an event and applies system state changes | `INFO`    | `event_type`, `event_id`, `topic`, `partition`, `offset`, `group_id`, `duration_ms` |
+| `EVENT_PROCESSING_FAILED` | Consumer fails while processing an event                                  | `ERROR`   | `event_type`, `event_id`, `error_type`                                              |
+
+
+---
+
+## 5. Validation & Data Integrity Events
 
 Used for validating correctness and consistency of data during ingestion and transformation.
 
 ---
 
-### 4.1 Validation results
+### 5.1 Validation results
 
 Validation checks ensure structural and referential correctness of data before further processing.
 
@@ -172,7 +225,7 @@ Validation checks ensure structural and referential correctness of data before f
 
 ---
 
-### 4.2 Data integrity issues
+### 5.2 Data integrity issues
 
 Used when structural or semantic inconsistencies are detected in data.
 
@@ -184,15 +237,15 @@ Used when structural or semantic inconsistencies are detected in data.
 
 #### Events
 
-| Event                      | Description                                             | Log Level  | Key Fields                                         |
-|----------------------------|---------------------------------------------------------|------------|----------------------------------------------------|
-| `AUTHOR_NAME_CONFLICT`     | Multiple conflicting names detected for same author     | `WARNING`  | `author_key`, `old_name`, `new_name`, `resolution` |
-| `WORK_DUPLICATE_FOUND`     | Duplicate work record detected                          | `WARNING`  | `work_key`                                         |
-| `REDUNDANT_COLUMN_DROPPED` | Duplicate or redundant column removed during processing | `WARNING`  | `column`, `duplicate_of`                           |
+| Event                      | Description                                                  | Log Level   | Key Fields                                         |
+|----------------------------|--------------------------------------------------------------|-------------|----------------------------------------------------|
+| `AUTHOR_NAME_CONFLICT`     | Multiple conflicting names detected for same author          | `WARNING`   | `author_key`, `old_name`, `new_name`, `resolution` |
+| `WORK_DUPLICATE_FOUND`     | Duplicate work record detected                               | `WARNING`   | `work_key`                                         |
+| `REDUNDANT_COLUMN_DROPPED` | Duplicate or redundant column removed during processing      | `WARNING`   | `column`, `duplicate_of`                           |
 
 ---
 
-## 5. Partial Failures (Extraction/Validation Issues)
+## 6. Partial Failures (Extraction/Validation Issues)
 
 Used when processing completes but with incomplete, inconsistent, or partially failed results.
 
