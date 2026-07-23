@@ -109,6 +109,7 @@ def get_event_weights(
         borrowed/unavailable copies in the system
     :param has_active_reservations: bool, indicates whether there are currently
         active reservations in the system
+    :param has_unpaid_fines: bool, indicates whether there are unpaid fines in the system
 
     :return: dict, a dictionary mapping event names to their respective probability
         weights within the selected category
