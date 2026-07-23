@@ -4,7 +4,8 @@ INSERT INTO library.fines (
     overdue_days,
     amount,
     issued_at,
-    status
+    status,
+    fine_type
 )
 VALUES (
     %(fine_id)s,
@@ -12,6 +13,7 @@ VALUES (
     %(overdue_days)s,
     %(amount)s,
     %(issued_at)s,
-    %(status)s
+    %(status)s,
+    %(fine_type)s
 )
 RETURNING fine_id;

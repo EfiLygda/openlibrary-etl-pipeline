@@ -120,20 +120,26 @@ def renew_loan(redis_client: RedisClient) -> dict:
 
 def issue_fine(
         loan_id: str,
-        overdue_days: int
+        overdue_days: int | None = None,
 ) -> dict:
     """
-    Simulates the issuing of a fine for an overdue loan
+    Simulates the issuing of a fine for an overdue loan or a lost copy
 
     :param loan_id: str, the loan id for generating the event
-    :param overdue_days: int, number of days the borrowed copy was overdue
+    :param overdue_days: int | None = None, number of days the borrowed copy was overdue
 
     :return: dict, dictionary with the loan_id and the overdue_days
     """
-    return {
+
+    payload = {
         'loan_id': loan_id,
-        'overdue_days': overdue_days,
     }
+
+    # In case the event was triggered from an overdue loan that was returned
+    if overdue_days is not None:
+        payload['overdue_days'] = overdue_days
+
+    return payload
 
 def pay_fine(redis_client: RedisClient) -> dict:
     """

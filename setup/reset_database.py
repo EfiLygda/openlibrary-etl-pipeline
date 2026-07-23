@@ -102,6 +102,7 @@ def run(drop_only_library: bool = False) -> None:
             'loan_status',
             'reservation_status',
             'fine_status',
+            'fine_type',
         ]
     ]
 

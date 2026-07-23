@@ -284,6 +284,41 @@ def handle_return_borrowed_copy(
         }
     )
 
+def issue_fine_on_reported_lost_copy(
+        dependencies: HandlerDependencies,
+        event: dict,
+) -> None:
+    """
+    Emits a new fine issued event for a reported lost copy
+
+    :param dependencies: HandlerDependencies, contains shared resources required
+        by the handler, such as the database connection, Redis operations,
+        and event producer
+    :param event: dict, the event/dictionary used
+
+    :return: None
+    """
+
+    # Generate data for the new issued fine event
+    new_fine_issued_event_data = issue_fine(
+        loan_id=event['payload']['loan_id'],
+    )
+
+    # Create event envelope
+    new_fine_issued_event = create_event(
+        event_type=EventType.FINE_ISSUED,
+        timestamp=datetime.fromisoformat(event['timestamp']),
+        payload=new_fine_issued_event_data,
+        trigger=EventTrigger.LOST_COPY_REPORTED
+    )
+
+    # Finally emit new fine issued event
+    emit_event(
+        producer=dependencies.chain_event_producer,
+        topic=TOPIC,
+        event=new_fine_issued_event
+    )
+
 def handle_reported_lost_copy(
         dependencies: HandlerDependencies,
         counter: int,
@@ -327,6 +362,12 @@ def handle_reported_lost_copy(
             'withdrawn_at': event['timestamp'],
             'copy_id': copy_id,
         }
+    )
+
+    # Emit new fine issued event to be handled later on
+    issue_fine_on_reported_lost_copy(
+        dependencies=dependencies,
+        event=event
     )
 
 def handle_renewal_of_borrowed_copy(
@@ -389,8 +430,16 @@ def handle_fine_issued(
         fine_id=new_fine_id
     )
 
+    # Fetch overdue days (if available)
+    overdue_days = event['payload'].get('overdue_days')
+
     # Calculate fine
-    fine_amount = event['payload']['overdue_days'] * 0.50
+    if overdue_days is not None:
+        fine_amount = event['payload']['overdue_days'] * 0.50
+        fine_type = 'OVERDUE'
+    else:
+        fine_amount = 50
+        fine_type = 'LOST_COPY'
 
     # Execute the query
     execute_handler_query(
@@ -400,10 +449,11 @@ def handle_fine_issued(
         params={
             'fine_id': new_fine_id,
             'loan_id': event['payload']['loan_id'],
-            'overdue_days': event['payload']['overdue_days'],
+            'overdue_days': overdue_days,
             'amount': fine_amount,
             'issued_at': event['timestamp'],
-            'status': 'UNPAID'
+            'status': 'UNPAID',
+            'fine_type': fine_type,
         }
     )
 
