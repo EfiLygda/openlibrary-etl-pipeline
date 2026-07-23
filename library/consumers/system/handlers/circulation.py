@@ -290,7 +290,9 @@ def handle_reported_lost_copy(
         event: dict,
 ) -> None:
     """
-    Updates the loans due date and renewal count in 'loans' table
+    Handles a reported lost copy event.
+
+    Marks the copy as withdrawn in Redis, and updates the database to record the copy as lost.
 
     :param dependencies: HandlerDependencies, contains shared resources required
         by the handler, such as the database connection, Redis operations,
@@ -300,26 +302,32 @@ def handle_reported_lost_copy(
 
     :return: None
     """
-    #
-    # # Fetch the loan it from the even
-    # loan_id = event['payload']['loan_id']
-    #
-    # # Add new due date to loan's hash
-    # new_due_date = dependencies.redis_operations.loans.renew_loan(
-    #     loan_id=loan_id
-    # )
-    #
-    # # Execute the query
-    # execute_handler_query(
-    #     connection=dependencies.connection,
-    #     event_category_dir=CIRCULATION_SQL_DIR,
-    #     sql_filename='renewal_of_borrowed_copy.sql',
-    #     params={
-    #         'loan_id': loan_id,
-    #         'new_due_date': new_due_date,
-    #     }
-    # )
-    return None
+
+    # Fetch the loan it from the event
+    loan_id = event['payload']['loan_id']
+
+    # Fetch the loan's copy ID
+    copy_id = dependencies.redis_operations.loans.get_copy_id(
+        loan_id=loan_id
+    )
+
+    # Mark copy as withdrawn
+    dependencies.redis_operations.copies.withdraw_copy(
+        copy_id=copy_id,
+        loan_id=loan_id
+    )
+
+    # Execute the query
+    execute_handler_query(
+        connection=dependencies.connection,
+        event_category_dir=CIRCULATION_SQL_DIR,
+        sql_filename='report_lost_copy.sql',
+        params={
+            'loan_id': loan_id,
+            'withdrawn_at': event['timestamp'],
+            'copy_id': copy_id,
+        }
+    )
 
 def handle_renewal_of_borrowed_copy(
         dependencies: HandlerDependencies,

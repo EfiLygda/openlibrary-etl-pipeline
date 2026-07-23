@@ -121,6 +121,36 @@ class _Copies(RedisOperationsBase):
                 RedisKeys.Queues.reservation_queue(copy_id)
             ) > 0
 
+    def withdraw_copy(
+            self,
+            copy_id: str,
+            loan_id: str,
+    ) -> None:
+        """
+        Marks a copy as withdrawn.
+
+        Moves copy from unavailable to withdrawn copies.
+
+        :param copy_id: str, the copy ID
+        :param loan_id: str, the loan ID
+
+        :return: None
+        """
+
+        # Move copy from unavailable copies to withdrawn
+        self.client.sets.move(
+            source=RedisKeys.Sets.UNAVAILABLE_COPIES_IDS,
+            destination=RedisKeys.Sets.WITHDRAWN_COPIES_IDS,
+            value=copy_id,
+        )
+
+        # Move loan id from active to lost
+        self.client.sets.move(
+            source=RedisKeys.Sets.ACTIVE_LOANS_IDS,
+            destination=RedisKeys.Sets.LOST_LOANS_IDS,
+            value=loan_id,
+        )
+
 class _Loans(RedisOperationsBase):
     """
     Provides Redis operations related to book loans

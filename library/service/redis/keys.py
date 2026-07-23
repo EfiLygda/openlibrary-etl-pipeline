@@ -48,9 +48,11 @@ class RedisKeys:
 
         AVAILABLE_COPIES_IDS = 'copies:available:ids'
         UNAVAILABLE_COPIES_IDS = 'copies:unavailable:ids'
+        WITHDRAWN_COPIES_IDS = 'copies:withdrawn:ids'
 
         ACTIVE_LOANS_IDS = 'loans:active:ids'
         RETURNED_LOANS_IDS = 'loans:returned:ids'
+        LOST_LOANS_IDS = 'loans:lost:ids'
 
         ACTIVE_RESERVATIONS_IDS = 'reservations:active:ids'
         FULFILLED_RESERVATIONS_IDS = 'reservations:fulfilled:ids'
