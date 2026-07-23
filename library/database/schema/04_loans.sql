@@ -1,7 +1,8 @@
 CREATE TYPE
     library.loan_status AS ENUM (
             'ACTIVE',
-            'RETURNED'
+            'RETURNED',
+            'LOST'
         );
 
 CREATE TABLE IF NOT EXISTS library.loans (
