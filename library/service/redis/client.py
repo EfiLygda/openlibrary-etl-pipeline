@@ -184,6 +184,16 @@ class _RedisSet(_RedisBase):
         """
         return self.redis.srem(name, *values)
 
+    def are_disjoint(self, names: list[str]) -> bool:
+        """
+        Checks whether given sets are disjoint (do not have at least one common element)
+
+        :param names: list[str], names of the sets
+
+        :return: bool, True if they are disjoint, False if not
+        """
+        return len(self.redis.sinter(keys=names)) == 0
+
 class _RedisCounter(_RedisBase):
     """
     Provides Redis counter operations
