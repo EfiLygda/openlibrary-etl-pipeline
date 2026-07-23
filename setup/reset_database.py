@@ -98,6 +98,7 @@ def run(drop_only_library: bool = False) -> None:
         'library.' + table_type
         for table_type in [
             'copy_status',
+            'copy_withdrawal_reason',
             'loan_status',
             'reservation_status',
             'fine_status',

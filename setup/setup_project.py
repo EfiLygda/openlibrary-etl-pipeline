@@ -8,7 +8,7 @@ Pipeline for setting up the project
 from utilities.logger import set_logger
 
 from setup.create_directories import run as create_directories
-from setup.clean_database import run as clean_database
+from setup.reset_database import run as clean_database
 
 logger = set_logger(stage='SETUP_PROJECT')
 
