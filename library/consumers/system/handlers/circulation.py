@@ -159,19 +159,21 @@ def fulfill_copy_reservation_on_return(
         event=new_borrow_event
     )
 
-def issue_fine_on_overdue_return(
+def emit_fine_issued_event(
         dependencies: HandlerDependencies,
-        overdue_days_count: int,
         event: dict,
+        trigger: EventTrigger,
+        overdue_days_count: int | None = None,
 ) -> None:
     """
-    Emits a new fine issued event for an overdue returned copy.
+    Emits a new fine issued event.
 
     :param dependencies: HandlerDependencies, contains shared resources required
         by the handler, such as the database connection, Redis operations,
         and event producer
-    :param overdue_days_count: int, number of days the returned copy was overdue
-    :param event: dict, the event/dictionary used
+    :param event: dict, the source event/dictionary
+    :param trigger: EventTrigger, the event trigger that caused the fine
+    :param overdue_days_count: int | None, number of overdue days if applicable
 
     :return: None
     """
@@ -187,7 +189,7 @@ def issue_fine_on_overdue_return(
         event_type=EventType.FINE_ISSUED,
         timestamp=datetime.fromisoformat(event['timestamp']),
         payload=new_fine_issued_event_data,
-        trigger=EventTrigger.OVERDUE_LOAN_RETURN
+        trigger=trigger,
     )
 
     # Finally emit new fine issued event
@@ -236,10 +238,11 @@ def handle_return_borrowed_copy(
     if overdue_days_count > 0:
 
         # Emit new fine issued event to be handled later on
-        issue_fine_on_overdue_return(
+        emit_fine_issued_event(
             dependencies=dependencies,
             overdue_days_count=overdue_days_count,
-            event=event
+            event=event,
+            trigger = EventTrigger.OVERDUE_LOAN_RETURN
         )
 
     # Check if the copy was reserved
@@ -282,41 +285,6 @@ def handle_return_borrowed_copy(
             'librarian_id': event['payload']['librarian_id'],
             'status': copy_status
         }
-    )
-
-def issue_fine_on_reported_lost_copy(
-        dependencies: HandlerDependencies,
-        event: dict,
-) -> None:
-    """
-    Emits a new fine issued event for a reported lost copy
-
-    :param dependencies: HandlerDependencies, contains shared resources required
-        by the handler, such as the database connection, Redis operations,
-        and event producer
-    :param event: dict, the event/dictionary used
-
-    :return: None
-    """
-
-    # Generate data for the new issued fine event
-    new_fine_issued_event_data = issue_fine(
-        loan_id=event['payload']['loan_id'],
-    )
-
-    # Create event envelope
-    new_fine_issued_event = create_event(
-        event_type=EventType.FINE_ISSUED,
-        timestamp=datetime.fromisoformat(event['timestamp']),
-        payload=new_fine_issued_event_data,
-        trigger=EventTrigger.LOST_COPY_REPORTED
-    )
-
-    # Finally emit new fine issued event
-    emit_event(
-        producer=dependencies.chain_event_producer,
-        topic=TOPIC,
-        event=new_fine_issued_event
     )
 
 def handle_reported_lost_copy(
@@ -365,9 +333,10 @@ def handle_reported_lost_copy(
     )
 
     # Emit new fine issued event to be handled later on
-    issue_fine_on_reported_lost_copy(
+    emit_fine_issued_event(
         dependencies=dependencies,
-        event=event
+        event=event,
+        trigger=EventTrigger.LOST_COPY_REPORTED
     )
 
 def handle_renewal_of_borrowed_copy(
