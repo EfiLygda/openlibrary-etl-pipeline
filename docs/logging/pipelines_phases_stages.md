@@ -19,7 +19,7 @@ A `STAGE` is the smallest execution unit and represents a specific task or opera
 - [`SETUP_PROJECT`](../../setup/setup_project.py)
 
   - [`SETUP_DIRECTORIES`](../../setup/create_directories.py)
-  - [`RESET_DATABASE`](../../setup/clean_database.py)
+  - [`RESET_DATABASE`](../../setup/reset_database.py)
 
 
 - [`ETL`](../../data_pipeline/pipeline.py)
