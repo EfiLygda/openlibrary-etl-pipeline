@@ -183,6 +183,21 @@ EVENTS = {
         produces_event=True,
     ),
 
+    EventType.COPY_REPORTED_LOST: EventSpec(
+        category=EventCategory.CIRCULATION,
+
+        generator=generators.circulation.report_lost_copy,
+        handler=handlers.circulation.handle_reported_lost_copy,
+
+        counter_name=RedisKeys.Counters.REPORTED_LOST_COPIES,
+        counter_hash_key=None,
+
+        max_allowable_name=None,
+        max_allowable_hash_key=None,
+
+        produces_event=True,
+    ),
+
     EventType.LOAN_RENEWED: EventSpec(
         category=EventCategory.CIRCULATION,
 

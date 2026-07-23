@@ -84,7 +84,26 @@ def return_copy(redis_client: RedisClient) -> dict:
         'librarian_id': librarian_id,
     }
 
-def renew_loan(redis_client: RedisClient):
+def report_lost_copy(redis_client: RedisClient) -> dict:
+    """
+    Simulates the reporting of a copy as lost
+
+    :param redis_client: RedisClient, the redis client used to fetch configuration values
+    :return: dict, dictionary with the loan_id, user_id and the copy_id
+    """
+
+    # Choose a random active loan
+    loan_id = redis_client.sets.random(RedisKeys.Sets.ACTIVE_LOANS_IDS)
+
+    # Choose random librarian
+    librarian_id = redis_client.sets.random(RedisKeys.Sets.LIBRARIAN_IDS)
+
+    return {
+        'loan_id': loan_id,
+        'librarian_id': librarian_id,
+    }
+
+def renew_loan(redis_client: RedisClient) -> dict:
     """
     Simulates the renewal of a loaned copy from the same user
 

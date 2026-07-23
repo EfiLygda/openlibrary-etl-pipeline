@@ -197,7 +197,6 @@ def issue_fine_on_overdue_return(
         event=new_fine_issued_event
     )
 
-
 def handle_return_borrowed_copy(
         dependencies: HandlerDependencies,
         counter: int,
@@ -284,6 +283,43 @@ def handle_return_borrowed_copy(
             'status': copy_status
         }
     )
+
+def handle_reported_lost_copy(
+        dependencies: HandlerDependencies,
+        counter: int,
+        event: dict,
+) -> None:
+    """
+    Updates the loans due date and renewal count in 'loans' table
+
+    :param dependencies: HandlerDependencies, contains shared resources required
+        by the handler, such as the database connection, Redis operations,
+        and event producer
+    :param counter: int, the event counter used for generating a record's ID
+    :param event: dict, the event/dictionary used
+
+    :return: None
+    """
+    #
+    # # Fetch the loan it from the even
+    # loan_id = event['payload']['loan_id']
+    #
+    # # Add new due date to loan's hash
+    # new_due_date = dependencies.redis_operations.loans.renew_loan(
+    #     loan_id=loan_id
+    # )
+    #
+    # # Execute the query
+    # execute_handler_query(
+    #     connection=dependencies.connection,
+    #     event_category_dir=CIRCULATION_SQL_DIR,
+    #     sql_filename='renewal_of_borrowed_copy.sql',
+    #     params={
+    #         'loan_id': loan_id,
+    #         'new_due_date': new_due_date,
+    #     }
+    # )
+    return None
 
 def handle_renewal_of_borrowed_copy(
         dependencies: HandlerDependencies,

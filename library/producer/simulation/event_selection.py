@@ -162,8 +162,9 @@ def get_event_weights(
             # ----------------------------
             if has_available_copies and has_unavailable_copies:
                 return {
-                    EventType.COPY_BORROWED: 0.60,
+                    EventType.COPY_BORROWED: 0.55,
                     EventType.COPY_RETURNED: 0.20,
+                    EventType.COPY_REPORTED_LOST: 0.05,
                     EventType.LOAN_RENEWED: 0.10,
                     EventType.FINE_PAID: 0.10,
                 }
@@ -182,8 +183,9 @@ def get_event_weights(
             # ----------------------------
             if not has_available_copies and has_unavailable_copies:
                 return {
-                    EventType.COPY_RETURNED: 0.80,
+                    EventType.COPY_RETURNED: 0.75,
                     EventType.LOAN_RENEWED: 0.10,
+                    EventType.COPY_REPORTED_LOST: 0.05,
                     EventType.FINE_PAID: 0.10,
                 }
 
@@ -193,8 +195,9 @@ def get_event_weights(
             # ----------------------------
             if has_available_copies and has_unavailable_copies:
                 return {
-                    EventType.COPY_BORROWED: 0.61,
-                    EventType.COPY_RETURNED: 0.24,
+                    EventType.COPY_BORROWED: 0.60,
+                    EventType.COPY_RETURNED: 0.20,
+                    EventType.COPY_REPORTED_LOST: 0.05,
                     EventType.LOAN_RENEWED: 0.15,
                 }
 
@@ -211,8 +214,9 @@ def get_event_weights(
             # ----------------------------
             if not has_available_copies and has_unavailable_copies:
                 return {
-                    EventType.COPY_RETURNED: 0.86,
-                    EventType.LOAN_RENEWED: 0.14,
+                    EventType.COPY_RETURNED: 0.85,
+                    EventType.COPY_REPORTED_LOST: 0.05,
+                    EventType.LOAN_RENEWED: 0.10,
                 }
 
     return {}

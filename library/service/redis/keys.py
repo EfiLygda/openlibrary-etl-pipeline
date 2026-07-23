@@ -65,6 +65,7 @@ class RedisKeys:
         LIBRARIANS = 'counter:librarians'
         LOANS = 'counter:loans'
         RETURNS = 'counter:returns'
+        REPORTED_LOST_COPIES = 'counter:copies:lost'
         RENEWALS = 'counter:renewals'
         RESERVATIONS = 'counter:reservations'
         CANCELLED_RESERVATIONS = 'counter:reservations:canceled'
