@@ -7,7 +7,8 @@ CREATE TYPE
 CREATE TYPE
     library.fine_type AS ENUM (
         'OVERDUE',
-        'LOST_COPY'
+        'LOST_COPY',
+        'DAMAGED_COPY'
     );
 
 CREATE TABLE IF NOT EXISTS library.fines (

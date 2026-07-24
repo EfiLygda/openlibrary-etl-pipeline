@@ -199,6 +199,62 @@ def emit_fine_issued_event(
         event=new_fine_issued_event
     )
 
+def withdraw_copy(
+        dependencies: HandlerDependencies,
+        event: dict,
+        withdrawal_trigger: EventTrigger,
+) -> None:
+    """
+    Withdraws a copy from circulation and emits a fine.
+
+    :param dependencies: HandlerDependencies, contains shared resources required
+        by the handler
+    :param loan_id: str, the loan associated with the copy
+
+    :return: str, the withdrawn copy ID
+    """
+
+    # Fetch the loan it from the event
+    loan_id = event['payload']['loan_id']
+
+    # Fetch the loan's copy ID
+    copy_id = dependencies.redis_operations.loans.get_copy_id(
+        loan_id=loan_id
+    )
+
+    # Mark copy as withdrawn
+    dependencies.redis_operations.copies.withdraw_copy(
+        copy_id=copy_id,
+        loan_id=loan_id
+    )
+
+    if withdrawal_trigger == EventTrigger.LOST_COPY_REPORTED:
+        withdrawal_reason = 'LOST'
+    elif withdrawal_trigger == EventTrigger.DAMAGED_COPY_REPORTED:
+        withdrawal_reason = 'DAMAGED'
+    else:
+        withdrawal_reason = None
+
+    # Execute the query
+    execute_handler_query(
+        connection=dependencies.connection,
+        event_category_dir=CIRCULATION_SQL_DIR,
+        sql_filename='withdraw_copy.sql',
+        params={
+            'loan_id': loan_id,
+            'withdrawal_reason': withdrawal_reason,
+            'withdrawn_at': event['timestamp'],
+            'copy_id': copy_id,
+        }
+    )
+
+    # Emit new fine issued event to be handled later on
+    emit_fine_issued_event(
+        dependencies=dependencies,
+        event=event,
+        trigger=withdrawal_trigger
+    )
+
 def handle_return_borrowed_copy(
         dependencies: HandlerDependencies,
         counter: int,
@@ -245,33 +301,50 @@ def handle_return_borrowed_copy(
             trigger = EventTrigger.OVERDUE_LOAN_RETURN
         )
 
-    # Check if the copy was reserved
-    copy_is_reserved = dependencies.redis_operations.copies.has_copy_reservations(
-        copy_id=copy_id
-    )
+    # Check if the copy is damaged upon return
+    copy_is_damaged = event['payload'].get('damaged')
 
-    if copy_is_reserved:
+    # In case the copy was damaged, then withdraw it from circulation
+    if copy_is_damaged:
 
-        # Update reservations table and emit new borrow event for the user
-        # that had reserved the returned copy
-        fulfill_copy_reservation_on_return(
+        # Withdraws the copy and emits a fine
+        withdraw_copy(
             dependencies=dependencies,
-            copy_id=copy_id,
             event=event,
+            withdrawal_trigger=EventTrigger.DAMAGED_COPY_REPORTED,
         )
 
-        # Have to update that the reservation was fulfilled
         # The current status of the copy
-        copy_status = 'UNAVAILABLE'
+        copy_status = 'WITHDRAWN'
 
     else:
-        # Move copy id from unavailable to available in Redis
-        dependencies.redis_operations.copies.return_copy(
+
+        # Check if the copy was reserved
+        copy_is_reserved = dependencies.redis_operations.copies.has_copy_reservations(
             copy_id=copy_id
         )
 
-        # The current status of the copy
-        copy_status = 'AVAILABLE'
+        if copy_is_reserved:
+
+            # Update reservations table and emit new borrow event for the user
+            # that had reserved the returned copy
+            fulfill_copy_reservation_on_return(
+                dependencies=dependencies,
+                copy_id=copy_id,
+                event=event,
+            )
+
+            # The current status of the copy
+            copy_status = 'UNAVAILABLE'
+
+        else:
+            # Move copy id from unavailable to available in Redis
+            dependencies.redis_operations.copies.return_copy(
+                copy_id=copy_id
+            )
+
+            # The current status of the copy
+            copy_status = 'AVAILABLE'
 
     # Execute the query
     execute_handler_query(
@@ -306,37 +379,10 @@ def handle_reported_lost_copy(
     :return: None
     """
 
-    # Fetch the loan it from the event
-    loan_id = event['payload']['loan_id']
-
-    # Fetch the loan's copy ID
-    copy_id = dependencies.redis_operations.loans.get_copy_id(
-        loan_id=loan_id
-    )
-
-    # Mark copy as withdrawn
-    dependencies.redis_operations.copies.withdraw_copy(
-        copy_id=copy_id,
-        loan_id=loan_id
-    )
-
-    # Execute the query
-    execute_handler_query(
-        connection=dependencies.connection,
-        event_category_dir=CIRCULATION_SQL_DIR,
-        sql_filename='report_lost_copy.sql',
-        params={
-            'loan_id': loan_id,
-            'withdrawn_at': event['timestamp'],
-            'copy_id': copy_id,
-        }
-    )
-
-    # Emit new fine issued event to be handled later on
-    emit_fine_issued_event(
+    withdraw_copy(
         dependencies=dependencies,
         event=event,
-        trigger=EventTrigger.LOST_COPY_REPORTED
+        withdrawal_trigger=EventTrigger.LOST_COPY_REPORTED,
     )
 
 def handle_renewal_of_borrowed_copy(
@@ -403,12 +449,20 @@ def handle_fine_issued(
     overdue_days = event['payload'].get('overdue_days')
 
     # Calculate fine
-    if overdue_days is not None:
+    if event['trigger'] == EventTrigger.OVERDUE_LOAN_RETURN:
         fine_amount = event['payload']['overdue_days'] * 0.50
         fine_type = 'OVERDUE'
-    else:
+
+    elif event['trigger'] == EventTrigger.LOST_COPY_REPORTED:
         fine_amount = 50
         fine_type = 'LOST_COPY'
+
+    elif event['trigger'] == EventTrigger.DAMAGED_COPY_REPORTED:
+        fine_amount = 25
+        fine_type = 'DAMAGED_COPY'
+    else:
+        fine_amount = None
+        fine_type = None
 
     # Execute the query
     execute_handler_query(

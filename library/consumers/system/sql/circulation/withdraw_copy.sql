@@ -9,7 +9,7 @@ UPDATE
     library.copies
 SET
     status = 'WITHDRAWN',
-    withdrawal_reason = 'LOST',
+    withdrawal_reason = %(withdrawal_reason)s,
     withdrawn_at = %(withdrawn_at)s
 WHERE
     copy_id = %(copy_id)s;
