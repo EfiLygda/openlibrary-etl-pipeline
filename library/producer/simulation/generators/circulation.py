@@ -9,6 +9,7 @@ Includes events such as:
 
 from faker import Faker
 from datetime import timedelta
+from random import random
 
 from library.service.redis.keys import RedisKeys
 from library.service.redis.client import RedisClient
@@ -79,9 +80,13 @@ def return_copy(redis_client: RedisClient) -> dict:
     # Choose random librarian
     librarian_id = redis_client.sets.random(RedisKeys.Sets.LIBRARIAN_IDS)
 
+    # Whether the returned copy is damaged
+    damaged = random() < 0.05  # 5% chance
+
     return {
         'loan_id': loan_id,
         'librarian_id': librarian_id,
+        'damaged': damaged,
     }
 
 def report_lost_copy(redis_client: RedisClient) -> dict:
