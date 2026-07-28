@@ -1,0 +1,653 @@
+# Event Catalog
+
+## Overview
+
+The library system uses an event-driven architecture with Kafka.
+
+Events represent actions or state changes that occur inside the system.
+Events are either:
+- Generated directly by the simulation producer.
+- Emitted by event handlers as a consequence of processing another event.
+
+Events are grouped by domain:
+
+| Category      | Description                         | Events                                                                                             |
+|---------------|-------------------------------------|----------------------------------------------------------------------------------------------------|
+| `PEOPLE`      | Users and librarians                | `USER_REGISTERED`, `LIBRARIAN_HIRED`                                                               |
+| `INVENTORY`   | Physical library copies             | `COPY_PURCHASED`                                                                                   |
+| `CIRCULATION` | Loans, returns, renewals, and fines | `COPY_BORROWED`, `COPY_RETURNED`, `COPY_REPORTED_LOST`, `LOAN_RENEWED`, `FINE_ISSUED`, `FINE_PAID` |
+| `DEMAND`      | Reservations                        | `RESERVATION_CREATED`, `RESERVATION_CANCELLED`                                                     |
+
+## State Management
+
+Redis is not used as a cache in the library system.
+
+Redis represents the current world state of the system and is used to determine whether an event is valid and can occur. Event generators and handlers use Redis to track entities and their current availability, such as available copies, active loans, reservations, and unpaid fines.
+
+Kafka events represent state changes, while Redis represents the state required to validate and process those changes.
+
+# Business Rules
+
+## Circulation Rules
+
+| Rule              | Description                                                                                           |
+|-------------------|-------------------------------------------------------------------------------------------------------|
+| Loan duration     | A borrowed copy has a due date 7 days after the borrow date                                           |
+| Renewal limit     | A loan can only be renewed once                                                                       |
+| Renewal extension | A successful renewal extends the due date by an additional 7 days                                     |
+| Fine eligibility  | A fine is issued when a copy is returned after the final due date, reported lost, or reported damaged |
+
+## Fine Rules
+
+| Trigger                 | Fine Type      | Amount               | Description                                             |
+|-------------------------|----------------|----------------------|---------------------------------------------------------|
+| `OVERDUE_LOAN_RETURN`   | `OVERDUE`      | `0.50` per overdue day | Issued when a copy is returned after the final due date |
+| `LOST_COPY_REPORTED`    | `LOST_COPY`    | `50`                   | Issued when a borrowed copy is reported lost            |
+| `DAMAGED_COPY_REPORTED` | `DAMAGED_COPY` | `25`                   | Issued when a returned copy is reported damaged         |
+
+## System Architecture
+
+                             +----------------+
+                             | Simulation     |
+                             | Producer       |
+                             +-------+--------+
+                                     |
+                                     v
+                               +-----------+
+                        +------|   Kafka   | < ---+
+                        |      +-----------+      |
+                        |                         |
+                        v                         ^
+                 +-------------+                  |
+                 |   Consumer  |                  |
+                 +------+------+                  |
+                        |                         |
+                        v                         |
+                 +-------------+                  |
+                 |   Handler   |                  |
+                 +------+------+                  |
+                        |                         |
+            +-----------+-----------+             |
+            |                       |             |
+            v                       v             |
+    +-------------------+   +----------------+    |
+    | Redis World State |   |   PostgreSQL   |    |
+    |  (Current State)  |   |   (History)    |    |
+    +-------------------+   +----------------+    ^
+             |                                    |
+             v                                    |
+     +---------------+                            |
+     |  Emit Chained |                            |
+     |     Event     |------------- > ------------+
+     +---------------+
+
+## Event Origins and Triggers
+
+Events can be generated by the simulation producer or emitted by event handlers.
+The trigger field provides additional context for events created as a consequence of another action.
+
+| Event | Origin | Trigger | Description |
+|---|---|---|---|
+| `USER_REGISTERED` | Simulation Producer | - | New user registration |
+| `LIBRARIAN_HIRED` | Simulation Producer | - | New librarian hiring |
+| `COPY_PURCHASED` | Simulation Producer | - | New copy purchase |
+| `COPY_BORROWED` | Simulation Producer | - | User borrows an available copy |
+| `COPY_BORROWED` | Event Handler | `RESERVATION_FULFILLMENT` | Borrow created after reservation fulfillment |
+| `COPY_RETURNED` | Simulation Producer | - | Borrowed copy return |
+| `COPY_REPORTED_LOST` | Simulation Producer | - | Lost copy report |
+| `LOAN_RENEWED` | Simulation Producer | - | Loan renewal |
+| `FINE_ISSUED` | Event Handler | `OVERDUE_LOAN_RETURN` | Fine created after overdue return |
+| `FINE_ISSUED` | Event Handler | `LOST_COPY_REPORTED` | Fine created after lost copy report |
+| `FINE_ISSUED` | Event Handler | `DAMAGED_COPY_REPORTED` | Fine created after damaged copy report |
+| `FINE_PAID` | Simulation Producer | - | Fine payment |
+| `RESERVATION_CREATED` | Simulation Producer | - | Reservation request |
+| `RESERVATION_CANCELLED` | Simulation Producer | - | Reservation cancellation |
+
+---
+
+# Event Envelope
+
+Events share the following structures:
+
+```json
+{
+    "event_type": "USER_REGISTERED",
+    "timestamp": "2020-01-01T00:00:00",
+    "payload": {
+      ...
+    }
+}
+```
+
+```json
+{
+    "event_type": "COPY_BORROWED",
+    "timestamp": "2020-01-01T00:00:00",
+    "payload": {
+      ...
+    },
+    "trigger": "RESERVATION_FULFILLMENT"
+}
+```
+
+## Fields
+
+| Field | Type | Description                                 |
+|---|---|---------------------------------------------|
+| `event_type` | string | Event being processed                       |
+| `timestamp` | datetime | Time the event was created                  |
+| `payload` | object | Data required to handle the event           |
+| `trigger` | string/null | Optional context explaining why the event occurred. Used for events generated as a consequence of another action. |
+ 
+---
+
+# `PEOPLE` Events
+
+## `USER_REGISTERED`
+
+### Description
+
+Generated when a new user is registered.
+
+The handler:
+- Creates a new user ID.
+- Stores the user ID in Redis.
+- Inserts the user into the database.
+
+### Example
+
+```json
+{
+    "event_type": "USER_REGISTERED",
+    "timestamp": "2020-01-01T00:00:00",
+    "payload": {
+        "first_name": "John",
+        "last_name": "Smith",
+        "email": "john.smith@example.com"
+    }
+}
+```
+
+### Payload
+
+| Field | Type | Description |
+|---|---|---|
+| `first_name` | string | User first name |
+| `last_name` | string | User last name |
+| `email` | string | User email |
+
+---
+
+## `LIBRARIAN_HIRED`
+
+### Description
+
+Generated when a librarian is hired.
+
+The handler:
+- Creates a librarian ID.
+- Stores librarian ID in Redis.
+- Inserts librarian into database.
+
+### Example
+
+```json
+{
+    "event_type": "LIBRARIAN_HIRED",
+    "timestamp": "2020-01-01T00:00:00",
+    "payload": {
+        "first_name": "John",
+        "last_name": "Smith",
+        "email": "john.smith@example.com"
+    }
+}
+```
+
+### Payload
+
+| Field | Type | Description |
+|---|---|---|
+| `first_name` | string | Librarian first name |
+| `last_name` | string | Librarian last name |
+| `email` | string | Librarian email |
+
+
+---
+
+# `INVENTORY` Events
+
+## `COPY_PURCHASED`
+
+### Description
+
+Generated when a new copy is purchased.
+
+The handler:
+- Creates copy ID.
+- Registers copy in Redis.
+- Inserts copy into database.
+
+### Example
+
+```json
+{
+    "event_type": "COPY_PURCHASED",
+    "timestamp": "2020-01-01T00:00:00",
+    "payload": {
+        "edition_key": "OL12345E"
+    }
+}
+```
+
+### Payload
+
+| Field | Type | Description |
+|---|---|---|
+| `edition_key` | string | OpenLibrary edition identifier |
+
+---
+
+# `CIRCULATION` Events
+
+## `COPY_BORROWED`
+
+### Description
+
+Generated when a user borrows a copy.
+
+The event can be produced:
+- By the simulation producer when borrowing an available copy.
+- By an event handler when fulfilling a reservation.
+
+The handler processing this event:
+- Moves copy from available to unavailable in Redis.
+- Creates active loan in Redis.
+- Inserts loan into database.
+- Marks reservation as fulfilled when applicable.
+
+### Example:
+
+```json
+{
+    "event_type": "COPY_BORROWED",
+    "timestamp": "2020-01-01T00:00:00",
+    "payload": {
+        "user_id": "USR-1",
+        "copy_id": "OL12345-2",
+        "librarian_id": "LB-4",
+        "due_date": "2020-01-08T00:00:00"
+    }
+}
+```
+
+```json
+{
+    "event_type": "COPY_BORROWED",
+    "timestamp": "2020-01-01T00:00:00",
+    "payload": {
+        "user_id": "USR-1",
+        "copy_id": "OL12345-2",
+        "librarian_id": "LB-4",
+        "due_date": "2020-01-08T00:00:00",
+        "fulfilled_reservation_id": "RSRV-3"
+    },
+    "trigger": "RESERVATION_FULFILLMENT"
+}
+```
+
+### Payload
+
+| Field                      | Type     | Description                                                                              |
+|----------------------------|----------|------------------------------------------------------------------------------------------|
+| `user_id`                  | string   | Borrowing user                                                                           |
+| `copy_id`                  | string   | Borrowed copy                                                                            |
+| `librarian_id`             | string   | Librarian handling loan                                                                  |
+| `due_date`                 | datetime | Expected return date                                                                     |
+| `fulfilled_reservation_id` | string   | Reservation fulfilled by this borrow, exists only when the borrow fulfills a reservation |
+
+### Trigger
+
+| Trigger | Meaning |
+|---|---|
+| `RESERVATION_FULFILLMENT` | Borrow generated after fulfilling reservation |
+
+### Flow
+
+      COPY_RETURNED
+            |
+            v
+         Handler
+            |
+            v
+    Reservation Exists
+            |
+            v
+    Emit COPY_BORROWED
+    trigger=RESERVATION_FULFILLMENT
+
+## `COPY_RETURNED`
+
+### Description
+
+Generated when a user returns a borrowed copy.
+
+The handler:
+- Moves loan to returned state.
+- Calculates overdue days.
+- Generates fine events when required.
+- Returns the copy to available inventory when no further action is required.
+- Fulfills reservations when waiting users exist.
+- Withdraws damaged copies.
+
+### Example:
+
+```json
+{
+    "event_type": "COPY_RETURNED",
+    "timestamp": "2020-01-01T00:00:00",
+    "payload": {
+        "loan_id": "LN-1",
+        "librarian_id": "LB-4",
+        "damaged": false
+    }
+}
+```
+
+### Payload
+
+| Field | Type | Description |
+|---|---|---|
+| `loan_id` | string | Returned loan |
+| `librarian_id` | string | Librarian handling return |
+| `damaged` | boolean | Whether copy is damaged |
+
+### Flow
+
+    COPY_RETURNED
+            |
+            v
+         Handler
+            |
+            +-----------------------+
+            |                       |
+            v                       v
+     Overdue detected        Damaged copy
+            |                       |
+            v                       v
+     Emit FINE_ISSUED         Withdraw Copy
+     trigger=                       |
+     OVERDUE_LOAN_RETURN            v
+            |                 Emit FINE_ISSUED
+            |                 trigger=
+            |                 DAMAGED_COPY_REPORTED
+            v
+     Reservation Exists
+            |
+            v
+     Emit COPY_BORROWED
+     trigger=
+     RESERVATION_FULFILLMENT
+
+---
+
+## `COPY_REPORTED_LOST`
+
+### Description
+
+Generated when a borrowed copy is reported lost.
+
+The handler:
+- Withdraws copy.
+- Updates database.
+- Emits a fine event.
+
+### Example:
+
+```json
+{
+    "event_type": "COPY_REPORTED_LOST",
+    "timestamp": "2020-01-01T00:00:00",
+    "payload": {
+        "loan_id": "LN-1",
+        "librarian_id": "LB-4"
+    }
+}
+```
+
+### Payload
+
+| Field | Type | Description |
+|---|---|---|
+| `loan_id` | string | Lost copy loan |
+| `librarian_id` | string | Reporting librarian |
+
+### Chain Event
+
+| Event | Trigger |
+|---|---|
+| `FINE_ISSUED` | `LOST_COPY_REPORTED` |
+
+### Flow
+    
+    COPY_REPORTED_LOST
+            |
+            v
+         Handler
+            |
+            v
+      Withdraw Copy
+            |
+            v
+      Emit FINE_ISSUED
+      trigger=
+      LOST_COPY_REPORTED
+
+---
+
+## `LOAN_RENEWED`
+
+### Description
+
+Generated when a loan is renewed.
+
+The handler:
+- Updates due date in Redis.
+- Updates database.
+
+### Example:
+
+```json
+{
+    "event_type": "LOAN_RENEWED",
+    "timestamp": "2020-01-01T00:00:00",
+    "payload": {
+        "loan_id": "LN-1"
+    }
+}
+```
+
+### Payload
+
+| Field | Type | Description |
+|---|---|---|
+| `loan_id` | string | Loan being renewed |
+
+---
+
+## `FINE_ISSUED`
+
+### Description
+
+Emitted when the system issues a fine due to an overdue return, lost copy, or damaged copy.
+
+The handler:
+- Creates fine ID.
+- Adds fine to unpaid fines in Redis.
+- Calculates amount.
+- Inserts fine record.
+
+### Example:
+
+```json
+{
+    "event_type": "FINE_ISSUED",
+    "timestamp": "2020-01-01T00:00:00",
+    "payload": {
+        "loan_id": "LN-1",
+        "overdue_days": 5
+    },
+    "trigger": "OVERDUE_LOAN_RETURN"
+}
+```
+
+```json
+{
+    "event_type": "FINE_ISSUED",
+    "timestamp": "2020-01-01T00:00:00",
+    "payload": {
+        "loan_id": "LN-1"
+    },
+    "trigger": "LOST_COPY_REPORTED"
+}
+```
+
+```json
+{
+    "event_type": "FINE_ISSUED",
+    "timestamp": "2020-01-01T00:00:00",
+    "payload": {
+        "loan_id": "LN-1"
+    },
+    "trigger": "DAMAGED_COPY_REPORTED"
+}
+```
+
+### Payload
+
+| Field | Type | Description                                  |
+|---|---|----------------------------------------------|
+| `loan_id` | string | Related loan                                 |
+| `overdue_days` | integer | Days overdue, exists only for overdue fines. |
+
+### Flow
+
+    COPY_RETURNED
+            |
+            v
+         Handler
+            |
+            +-----------------------+
+            |                       |
+            v                       v
+    Emit FINE_ISSUED          Emit FINE_ISSUED
+    trigger=                  trigger=
+    OVERDUE_LOAN_RETURN       DAMAGED_COPY_REPORTED
+    
+    
+    
+    COPY_REPORTED_LOST
+            |
+            v
+         Handler
+            |
+            v
+    Emit FINE_ISSUED
+    trigger=
+    LOST_COPY_REPORTED
+
+---
+
+## `FINE_PAID`
+
+### Description
+
+Generated when a fine is paid.
+
+The handler:
+- Moves fine from unpaid to paid Redis set.
+- Updates database status.
+
+### Example:
+
+```json
+{
+    "event_type": "FINE_PAID",
+    "timestamp": "2020-01-01T00:00:00",
+    "payload": {
+        "fine_id": "FN-1"
+    }
+}
+```
+
+### Payload
+
+| Field | Type | Description |
+|---|---|---|
+| `fine_id` | string | Fine being paid |
+
+---
+
+# `DEMAND` Events
+
+## `RESERVATION_CREATED`
+
+### Description
+
+Generated when a user reserves an unavailable copy.
+
+The handler:
+- Creates reservation ID.
+- Stores reservation in Redis.
+- Inserts reservation into database.
+
+### Example:
+
+```json
+{
+    "event_type": "RESERVATION_CREATED",
+    "timestamp": "2020-01-01T00:00:00",
+    "payload": {
+        "user_id": "USR-1",
+        "copy_id": "OL12345-2"
+    }
+}
+```
+
+### Payload
+
+| Field | Type | Description |
+|---|---|---|
+| `user_id` | string | User creating reservation |
+| `copy_id` | string | Reserved copy |
+
+---
+
+## `RESERVATION_CANCELLED`
+
+### Description
+
+Generated when a reservation is cancelled.
+
+The handler:
+- Moves reservation out of active reservations in Redis.
+- Updates reservation in database.
+
+### Example:
+
+```json
+{
+    "event_type": "RESERVATION_CANCELLED",
+    "timestamp": "2020-01-01T00:00:00",
+    "payload": {
+        "reservation_id": "RSRV-1"
+    }
+}
+```
+
+### Payload
+
+| Field | Type | Description |
+|---|---|---|
+| `reservation_id` | string | Reservation being cancelled |
+
+---
