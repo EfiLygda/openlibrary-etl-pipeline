@@ -1,13 +1,35 @@
 # OpenLibrary ETL Pipeline
 
-An end-to-end data engineering project that ingests book metadata from the Open Library API, transforms and normalizes it into a relational PostgreSQL database, and exposes it through a FastAPI-based REST API featuring search, relationship navigation, and structured response models.
+An end-to-end data engineering project that ingests book metadata from the Open Library API, transforms and normalizes it into a relational PostgreSQL database, exposes the data through a FastAPI-based REST API, and extends it with an event-driven library simulation system.
 
-The project implements a production-style ETL workflow with schema-driven transformations, structured data modeling, indexing, testing, structured logging, and performance benchmarking to provide efficient access to authors, works, editions, ratings, and related metadata.
+The project combines batch data processing and real-time event processing patterns. 
+The ETL pipeline builds a structured bibliographic database containing works, authors, editions, and related metadata, while the library simulation introduces operational workflows such as users, librarians, inventory management, borrowing, returns, reservations, renewals, and fines.
 
-The repository includes a representative dataset for demonstration, testing, and reproducibility.
+The system follows a production-style architecture using schema-driven transformations, relational data modeling, PostgreSQL storage, API development, Kafka-based event streaming, Redis-backed state management, automated testing, structured logging, and database performance benchmarking.
 
-Open Library metadata is provided by the Internet Archive. This project is an independent work and is not affiliated with, endorsed by, or sponsored by Open Library or the Internet Archive.
+The repository includes representative datasets and simulation components for demonstration, testing, and reproducibility.
 
+Open Library metadata are provided by the Internet Archive.
+This project is an independent work and is not affiliated with, endorsed by, or sponsored by Open Library or the Internet Archive.
+
+    OpenLibrary API
+          |
+          v
+    Raw Data Lake (JSON)
+          |
+          v
+    ETL Pipeline
+          |
+          v
+    Normalized PostgreSQL Warehouse
+          |
+          +--> FastAPI REST API
+          |
+          +--> Kafka Event Simulation
+                       |
+                       +--> Redis State
+                       |
+                       +--> PostgreSQL History
 ---
 
 ## Table of Contents
@@ -16,11 +38,14 @@ Open Library metadata is provided by the Internet Archive. This project is an in
 * [OpenLibrary ETL Pipeline](#openlibrary-etl-pipeline)
   * [Table of Contents](#table-of-contents)
   * [Overview](#overview)
-    * [Pipeline Phases](#pipeline-phases)
+    * [ETL Pipeline Phases](#etl-pipeline-phases)
+    * [Library Simulation](#library-simulation)
+      * [System Architecture](#system-architecture)
     * [Project Structure](#project-structure)
   * [Tools](#tools)
     * [Requirements](#requirements)
   * [How to Run](#how-to-run)
+    * [Monitoring and Reports](#monitoring-and-reports)
   * [Data](#data)
     * [Source](#source)
     * [Output](#output)
@@ -44,18 +69,28 @@ Open Library metadata is provided by the Internet Archive. This project is an in
 
 ## Overview
 
-What the project is trying to achieve:
+The project consists of two connected systems:
 
-- Extract structured romance fiction data from OpenLibrary API endpoints
-- Build a relational data model for general works, authors, editions and series
-- Clean and transform raw JSON into normalized tables
-- Load processed data into a PostgreSQL database
-- Ensure reproducibility and modular ETL design
-- Expose processed data through a REST-style API built with FastAPI
+1. **Open Library ETL Pipeline**
+   - Extract structured romance fiction data from OpenLibrary API endpoints
+   - Build a relational data model for general works, authors, editions and series
+   - Clean and transform raw JSON into normalized tables
+   - Load processed data into a PostgreSQL database
+   - Ensure reproducibility and modular ETL design
+   - Expose processed data through a REST-style API built with FastAPI
+
+2. **Library Event Simulation**
+   - Uses the processed Open Library data as the foundation for a simulated library environment
+   - Models real-world operations around physical book copies
+   - Generates and processes events using Kafka
+   - Maintains current operational state using Redis
+   - Stores historical operational records in PostgreSQL
+
+Together, these components demonstrate both batch-oriented data engineering workflows and real-time event-driven system design.
 
 ---
 
-### Pipeline Phases
+### ETL Pipeline Phases
 
 1. `Extract`: fetch data from OpenLibrary API and store raw JSON responses in `data_pipeline/data/romance_fiction/raw/`, preserving original structure for reproducibility and reprocessing.
 
@@ -64,70 +99,163 @@ What the project is trying to achieve:
 3. `Load`: initialize PostgreSQL database, create schema and tables from SQL definition files, create indexes, and load processed CSV files into the `openlibrary_db` database while enforcing relational constraints.
 
 > **Note:** See [pipelines_phases_stages.md](docs/logging/pipelines_phases_stages.md) for more information on the phases and their respective steps.
+
+---
+
+### Library Simulation
+
+The project includes an event-driven library simulation built on top of the Open Library dataset. 
+While the ETL pipeline focuses on collecting and structuring bibliographic metadata, the simulation introduces operational workflows around physical library inventory and circulation.
+
+The simulation models real-world library activities such as:
+
+- User and librarian management
+- Copy inventory tracking
+- Borrowing and returning books
+- Reservations and renewals
+- Fine generation and payments
+
+The system uses Kafka for event streaming and Redis for maintaining the current operational state. 
+Events represent state changes, while PostgreSQL stores the resulting historical records.
+
+The simulation follows an event-driven architecture where events can be generated by the simulation producer or emitted by handlers as consequences of previous actions.
+
+#### System Architecture
+
+                             +----------------+
+                             | Simulation     |
+                             | Producer       |
+                             +-------+--------+
+                                     |
+                                     v
+                               +-----------+
+                        +------|   Kafka   | < ---+
+                        |      +-----------+      |
+                        |                         |
+                        v                         ^
+                 +-------------+                  |
+                 |   Consumer  |                  |
+                 +------+------+                  |
+                        |                         |
+                        v                         |
+                 +-------------+                  |
+                 |   Handler   |                  |
+                 +------+------+                  |
+                        |                         |
+            +-----------+-----------+             |
+            |                       |             |
+            v                       v             |
+    +-------------------+   +----------------+    |
+    | Redis World State |   |   PostgreSQL   |    |
+    |  (Current State)  |   |   (History)    |    |
+    +-------------------+   +----------------+    ^
+             |                                    |
+             v                                    |
+     +---------------+                            |
+     |  Emit Chained |                            |
+     |     Event     |------------- > ------------+
+     +---------------+
+
+> **Note**:
+> For the complete event catalog, payload definitions, business rules, and processing flows, see [event_driven_design.md](docs/event_system/event_driven_design.md)
+
+
 ---
 
 ### Project Structure
 
     .
     ├── api/
-    │   ├── repository/              # Data access layer (DB queries)
-    │   │   └── sql/                 # SQL query modules organized by entity
-    │   │       ├── authors/         # Authors-related queries
-    │   │       ├── editions/        # Editions-related queries
-    │   │       ├── search/          # Search-related queries
-    │   │       └── works/           # Works-related queries
+    │   ├── repository/                 # Data access layer (DB queries)
+    │   │   └── sql/                    # SQL query modules organized by entity
+    │   │       ├── authors/            # Authors-related queries
+    │   │       ├── editions/           # Editions-related queries
+    │   │       ├── search/             # Search-related queries
+    │   │       └── works/              # Works-related queries
     │   │
-    │   ├── response_builders/       # API responses builders
-    │   ├── routers/                 # FastAPI route definitions (endpoint controllers)
-    │   ├── schemas/                 # Pydantic response models
-    │   │   └── entities/            # Entity schemas
+    │   ├── response_builders/          # API responses builders
+    │   ├── routers/                    # FastAPI route definitions (endpoint controllers)
+    │   ├── schemas/                    # Pydantic response models
+    │   │   └── entities/               # Entity schemas
     │   │
-    │   └── utils/                   # Pagination utility functions
+    │   └── utils/                      # Pagination utility functions
     │
-    ├── config/                      # OpenLibrary API configuration and project paths
+    ├── config/                         # OpenLibrary API configuration and project paths
     │
     ├── data_pipeline/
     │   │
     │   ├── data/
     │   │   └── romance_fiction/
-    │   │       ├── raw/             # Raw OpenLibrary API responses
-    │   │       ├── staging/         # Intermediate files used between ETL stages
-    │   │       └── processed/       # Final normalized tables
+    │   │       ├── raw/                # Raw OpenLibrary API responses
+    │   │       ├── staging/            # Intermediate files used between ETL stages
+    │   │       └── processed/          # Final normalized tables
     │   │
     │   ├── database/
-    │   │   ├── indexes/             # SQL index definitions
-    │   │   └── schema/              # SQL table definitions
+    │   │   ├── indexes/                # SQL index definitions
+    │   │   └── schema/                 # SQL table definitions
     │   │
     │   ├── etl/
-    │   │   ├── extract/             # Data extraction scripts
-    │   │   ├── transform/           # Data transformation scripts
-    │   │   └── load/                # PostgreSQL database loading scripts
+    │   │   ├── extract/                # Data extraction scripts
+    │   │   ├── transform/              # Data transformation scripts
+    │   │   └── load/                   # PostgreSQL database loading scripts
     │   │
-    │   ├── open_library/            # Core package for Open Library API access and record management
+    │   ├── open_library/               # Core package for Open Library API access and record management
     │   │
     │   ├── utils/
-    │   │   └── data/                # Data batching, parsing, validation and table preparation scripts
+    │   │   └── data/                   # Data batching, parsing, validation and table preparation scripts
     │   │
-    │   ├── extract.py               # Entry point for extraction stage
-    │   ├── transform.py             # Entry point for transformation stage
-    │   ├── load.py                  # Entry point for loading stage
-    │   └── pipeline.py              # ETL pipeline entry point (orchestrates extract → transform → load)
+    │   ├── extract.py                  # Entry point for extraction stage
+    │   ├── transform.py                # Entry point for transformation stage
+    │   ├── load.py                     # Entry point for loading stage
+    │   └── pipeline.py                 # ETL pipeline entry point (orchestrates extract → transform → load)
     │
-    ├── docs                         # Project documentation
-    │   ├── api                      # API documentation (endpoints, usage, examples)
-    │   ├── database                 # Database-related documentation
-    │   │   └── diagrams             # ER diagrams
-    │   └── logging                  # Logging documentation (event taxonomy, naming conventions, log levels, and examples)
+    ├── docs                            # Project documentation
+    │    ├── api/                       # API usage examples and endpoint documentation
+    │    ├── database/                  # Database schema documentation and ER diagrams
+    │    │   └── diagrams/              # Database relationship diagrams and schema visualizations
+    │    ├── event_system/              # Event-driven architecture, event flows, and business rules documentation
+    │    ├── logging/                   # Logging conventions, event taxonomy, and pipeline documentation
+    │    └── open_library_api/          # Open Library API endpoints and ingestion documentation
+    │
+    ├── library/                        # Event-driven library simulation
+    │   │
+    │   ├── consumers/                  # Kafka consumers
+    │   │   └── system/
+    │   │       ├── handlers/           # Event processing handlers
+    │   │       └── sql/
+    │   │           ├── circulation/    # Loan and return operations
+    │   │           ├── demand/         # Reservation/demand operations
+    │   │           ├── inventory/      # Copy management operations
+    │   │           └── people/         # User/librarian operations
+    │   │
+    │   ├── core/                       # Shared event definitions, schemas, registry, and validation rules
+    │   │
+    │   ├── producer/
+    │   │   ├── simulation/             # Simulation engine
+    │   │   │   └── generators/         # Event generators
+    │   │   └── utils/                  # Producer utilities
+    │   │
+    │   ├── service/
+    │   │   ├── kafka/                  # Kafka integration services
+    │   │   └── redis/                  # Redis integration layer for state management, counters, and key operations
+    │   │       └── operations/         # Redis state operations
+    │   │
+    │   ├── database/
+    │   │   └── schema/                 # Library simulation tables
+    │   │
+    │   ├── monitoring/                 # Runtime reporting utilities for Redis state and library operations
+    │   ├── setup/                      # Simulation setup
+    │   └── utils/                      # Shared library utilities
     │
     ├── tests/
-    │   ├── integration/             # API integration tests
-    │   └── performance/             # Database query benchmarking
-    │       └── results/             # Benchmark outputs and reports
+    │   ├── integration/                # API integration tests
+    │   └── performance/                # Database query benchmarking
+    │       └── results/                # Benchmark outputs and reports
     │
-    ├── logs/                        # Pipeline execution logs
+    ├── logs/                           # Pipeline execution logs
     │
-    └── utilities/                   # Reusable helper functions for ETL operations (I/O, logging, DB, and pipeline utilities)
-        └── io/                      # Input/output utilities for handling CSV and JSON data files
+    └── utilities/                      # Reusable helper functions for ETL operations (I/O, logging, DB, and pipeline utilities)
+        └── io/                         # Input/output utilities for handling CSV and JSON data files
 
 ---
 
@@ -141,6 +269,9 @@ This project leverages the following technologies across the ETL and API layers:
 - `PostgreSQL`: relational database used for structured storage and querying of processed data
 - `FastAPI`: RESTful API framework for exposing structured data
 - `Uvicorn`: ASGI server used to run and serve the FastAPI application
+- `Apache Kafka`: event streaming platform used for asynchronous communication between simulation components
+- `Redis`: in-memory data store used as the simulation's operational state manager for tracking current system state
+- `Pytest`: testing framework used for API and system validation
 
 ---
 
@@ -162,6 +293,11 @@ This project leverages the following technologies across the ETL and API layers:
     pytest==9.1.1
     httpx2==2.4.0
     pycountry==26.2.16
+    kafka-python==3.0.7
+    redis==8.0.1
+    Faker==40.23.0
+    rich==15.0.0
+    truststore==0.10.4
 ---
 
 ## How to Run
@@ -185,9 +321,46 @@ In the same file Open Library's API settings can be changed with options:
 
 **STEP 2**: Run the pipeline
 
-Run the pipeline from the root directory using the following command:
+Run the pipeline (ETL + library simulation) from the root directory using the following command:
 
-    python -m data_pipeline.pipeline
+  ```python -m main```
+
+> **Note**:
+> In case the user need to see the generated events colour coded then the following command can be used:
+> 
+>  ```python -m main --display-events```
+
+---
+
+### Monitoring and Reports
+
+The library simulation includes monitoring utilities for inspecting both infrastructure state and library operational metrics.
+
+To generate a Redis state report:
+
+```console
+python -m library.monitoring.redis_report
+```
+
+This report provides information about:
+- Redis memory usage
+- Key distribution by data type
+- Stored counters
+- Active state collections
+- Inventory and circulation state stored in Redis
+
+To generate a library operation summary:
+
+```console
+python -m library.monitoring.library_report
+```
+
+This report provides high-level metrics about:
+- Registered users and librarians
+- Available, unavailable and withdrawn copies
+- Active, completed and lost loans
+- Reservations
+- Fines and payment status
 
 ---
 
@@ -231,31 +404,41 @@ The processed tables are located at `data_pipeline/data/romance_fiction/processe
 
 ### Database Schema
 
-In the following image the database's diagram is presented, by grouping the 17 tables in 3 groups:
+In the following image the database's diagram is presented, by grouping the 23 tables in 4 groups:
 
-![MainDiagram.svg](docs/database/diagrams/MainDiagram.svg)
+![ER_Diagram.svg](docs/database/diagrams/ER_Diagram.svg)
 
 ---
 
 ### Cardinality
+| Relationship                   | Cardinality                               | Reason                                                                    |
+|--------------------------------|-------------------------------------------|---------------------------------------------------------------------------|
+| Author ↔ Work                  | Many-to-many (`authors_works`)            | Multiple authors can write multiple works                                 |
+| Work ↔ Edition                 | One-to-many                               | A work can have many editions; each edition belongs to one work           |
+| Work ↔ Ratings                 | One-to-one (`works_ratings`)              | `work_key` links ratings directly to one work                             |
+| Work ↔ Subject                 | Many-to-many (`works_subjects`)           | A work can have many subjects and a subject can describe many works       |
+| Work ↔ Person                  | Many-to-many (`works_people`)             | A work can involve many people and a person can appear in many works      |
+| Work ↔ Place                   | Many-to-many (`works_places`)             | A work can have many places and places can appear in many works           |
+| Work ↔ Time Period             | Many-to-many (`works_time_periods`)       | A work can have multiple time periods and periods can apply to many works |
+| Work ↔ Availability            | One-to-one (`works_availability`)         | One availability record per work                                          |
+| Work ↔ Series                  | One-to-one / Zero-or-one (`works_series`) | A work may belong to one series or none                                   |
+| Author ↔ Alternative Names     | One-to-many                               | One author can have multiple alternative names                            |
+| Author ↔ Statistics            | One-to-one                                | One statistics record per author                                          |
+| Edition ↔ Contributors         | One-to-many                               | One edition can have multiple contributor records                         |
+| Edition ↔ Publishing Records   | One-to-many                               | One edition can have multiple publishing records                          |
+| Edition ↔ Contents             | One-to-one                                | One contents record per edition                                           |
+| Edition ↔ Details              | One-to-one                                | One details record per edition                                            |
+| Edition ↔ Copy                 | One-to-many                               | One edition can have many physical copies                                 |
+| Copy ↔ Loan                    | One-to-many                               | A copy can be loaned many times over its lifetime                         |
+| User ↔ Loan                    | One-to-many                               | A user can have many loans                                                |
+| Librarian ↔ Loan (processed)   | One-to-many                               | A librarian can process many loans                                        |
+| Librarian ↔ Loan (returned)    | One-to-many                               | A librarian can process many returns                                      |
+| Loan ↔ Fine                    | One-to-one                                | A loan can have one fine record                                           |
+| User ↔ Reservation             | One-to-many                               | A user can make many reservations                                         |
+| Copy ↔ Reservation             | One-to-many                               | A copy can have many reservations                                         |
+| Loan ↔ Reservation (fulfilled) | One-to-one / Zero-or-one                  | A reservation may be fulfilled by one loan, or none                       |
+| Users ↔ Librarians             | No direct relationship                    | Only connected through loans                                              |
 
-| Relationship                 | Cardinality                    |
-|------------------------------|--------------------------------|
-| Author ↔ Work                | Many-to-many (`authors_works`) |
-| Work ↔ Edition               | One-to-many                    |
-| Work ↔ Ratings               | One-to-one                     |
-| Work ↔ Subject               | One-to-many                    |
-| Work ↔ Person                | One-to-many                    |
-| Work ↔ Place                 | One-to-many                    |
-| Work ↔ Time Period           | One-to-many                    |
-| Work ↔ Availability          | One-to-one                     |
-| Work ↔ Series                | Zero-or-one per work           |
-| Author ↔ Alternative Names   | One-to-many                    |
-| Author ↔ Statistics          | One-to-one                     |
-| Edition ↔ Contributors       | One-to-many                    |
-| Edition ↔ Publishing Records | One-to-many                    |
-| Edition ↔ Contents           | One-to-one                     |
-| Edition ↔ Details            | One-to-one                     |
 
 ---
 
