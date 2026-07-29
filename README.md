@@ -291,24 +291,34 @@ In the following image the database's diagram is presented, by grouping the 23 t
 ---
 
 ### Cardinality
+| Relationship                   | Cardinality                               | Reason                                                                    |
+|--------------------------------|-------------------------------------------|---------------------------------------------------------------------------|
+| Author ↔ Work                  | Many-to-many (`authors_works`)            | Multiple authors can write multiple works                                 |
+| Work ↔ Edition                 | One-to-many                               | A work can have many editions; each edition belongs to one work           |
+| Work ↔ Ratings                 | One-to-one (`works_ratings`)              | `work_key` links ratings directly to one work                             |
+| Work ↔ Subject                 | Many-to-many (`works_subjects`)           | A work can have many subjects and a subject can describe many works       |
+| Work ↔ Person                  | Many-to-many (`works_people`)             | A work can involve many people and a person can appear in many works      |
+| Work ↔ Place                   | Many-to-many (`works_places`)             | A work can have many places and places can appear in many works           |
+| Work ↔ Time Period             | Many-to-many (`works_time_periods`)       | A work can have multiple time periods and periods can apply to many works |
+| Work ↔ Availability            | One-to-one (`works_availability`)         | One availability record per work                                          |
+| Work ↔ Series                  | One-to-one / Zero-or-one (`works_series`) | A work may belong to one series or none                                   |
+| Author ↔ Alternative Names     | One-to-many                               | One author can have multiple alternative names                            |
+| Author ↔ Statistics            | One-to-one                                | One statistics record per author                                          |
+| Edition ↔ Contributors         | One-to-many                               | One edition can have multiple contributor records                         |
+| Edition ↔ Publishing Records   | One-to-many                               | One edition can have multiple publishing records                          |
+| Edition ↔ Contents             | One-to-one                                | One contents record per edition                                           |
+| Edition ↔ Details              | One-to-one                                | One details record per edition                                            |
+| Edition ↔ Copy                 | One-to-many                               | One edition can have many physical copies                                 |
+| Copy ↔ Loan                    | One-to-many                               | A copy can be loaned many times over its lifetime                         |
+| User ↔ Loan                    | One-to-many                               | A user can have many loans                                                |
+| Librarian ↔ Loan (processed)   | One-to-many                               | A librarian can process many loans                                        |
+| Librarian ↔ Loan (returned)    | One-to-many                               | A librarian can process many returns                                      |
+| Loan ↔ Fine                    | One-to-one                                | A loan can have one fine record                                           |
+| User ↔ Reservation             | One-to-many                               | A user can make many reservations                                         |
+| Copy ↔ Reservation             | One-to-many                               | A copy can have many reservations                                         |
+| Loan ↔ Reservation (fulfilled) | One-to-one / Zero-or-one                  | A reservation may be fulfilled by one loan, or none                       |
+| Users ↔ Librarians             | No direct relationship                    | Only connected through loans                                              |
 
-| Relationship                 | Cardinality                    |
-|------------------------------|--------------------------------|
-| Author ↔ Work                | Many-to-many (`authors_works`) |
-| Work ↔ Edition               | One-to-many                    |
-| Work ↔ Ratings               | One-to-one                     |
-| Work ↔ Subject               | One-to-many                    |
-| Work ↔ Person                | One-to-many                    |
-| Work ↔ Place                 | One-to-many                    |
-| Work ↔ Time Period           | One-to-many                    |
-| Work ↔ Availability          | One-to-one                     |
-| Work ↔ Series                | Zero-or-one per work           |
-| Author ↔ Alternative Names   | One-to-many                    |
-| Author ↔ Statistics          | One-to-one                     |
-| Edition ↔ Contributors       | One-to-many                    |
-| Edition ↔ Publishing Records | One-to-many                    |
-| Edition ↔ Contents           | One-to-one                     |
-| Edition ↔ Details            | One-to-one                     |
 
 ---
 
