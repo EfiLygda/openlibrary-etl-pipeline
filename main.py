@@ -77,7 +77,7 @@ if __name__ == '__main__':
 
     # The pipeline
     setup_project(drop_only_library=args.drop_only_library)
-    # etl()
+    etl()
     library_simulation(display_events=args.display_events)
 
     logger.info('APPLICATION_COMPLETE')
