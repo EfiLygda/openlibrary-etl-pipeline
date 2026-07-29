@@ -357,8 +357,8 @@ python -m library.monitoring.library_report
 
 This report provides high-level metrics about:
 - Registered users and librarians
-- Available and unavailable copies
-- Active and completed loans
+- Available, unavailable and withdrawn copies
+- Active, completed and lost loans
 - Reservations
 - Fines and payment status
 

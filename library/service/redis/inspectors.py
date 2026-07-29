@@ -80,10 +80,12 @@ class LibraryInspector(Inspector):
             # Copies
             "available_copies": redis_client.sets.get_size(RedisKeys.Sets.AVAILABLE_COPIES_IDS),
             "unavailable_copies": redis_client.sets.get_size(RedisKeys.Sets.UNAVAILABLE_COPIES_IDS),
+            "withdrawn_copies": redis_client.sets.get_size(RedisKeys.Sets.WITHDRAWN_COPIES_IDS),
 
             # Loans
             "active_loans": redis_client.sets.get_size(RedisKeys.Sets.ACTIVE_LOANS_IDS),
             "returned_loans": redis_client.sets.get_size(RedisKeys.Sets.RETURNED_LOANS_IDS),
+            "lost_loans": redis_client.sets.get_size(RedisKeys.Sets.LOST_LOANS_IDS),
 
             # Reservations
             "active_reservations": redis_client.sets.get_size(RedisKeys.Sets.ACTIVE_RESERVATIONS_IDS),
@@ -139,13 +141,15 @@ Copies
 ------
 Available:              {stats["available_copies"]:{value_format}}
 Unavailable:            {stats["unavailable_copies"]:{value_format}}
-Total Copies:           {stats["available_copies"] + stats["unavailable_copies"]:{value_format}}
+Withdrawn:              {stats["withdrawn_copies"]:{value_format}}
+Total Copies:           {stats["available_copies"] + stats["unavailable_copies"] + stats["withdrawn_copies"]:{value_format}}
 
 Loans
 -----
 Active Loans:           {stats["active_loans"]:{value_format}}
 Returned Loans:         {stats["returned_loans"]:{value_format}}
-Total Loans:            {stats["active_loans"] + stats["returned_loans"]:{value_format}}
+Lost Loans:             {stats["lost_loans"]:{value_format}}
+Total Loans:            {stats["active_loans"] + stats["returned_loans"] + stats["lost_loans"]:{value_format}}
 
 Reservations
 ------------
