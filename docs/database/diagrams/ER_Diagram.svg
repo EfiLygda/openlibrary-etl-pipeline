@@ -237,14 +237,6 @@
      <stop offset='0%' stop-color='#E5E4E3' /> 
      <stop offset='100%' stop-color='#F7F5F4' /> 
   </linearGradient>
-  <linearGradient id='ttl_BED3F4' x1='0%' y1='0%' x2='100%' y2='0%' >
-     <stop offset='0%' stop-color='#6C97DE' /> 
-     <stop offset='100%' stop-color='#A0B7DD' /> 
-  </linearGradient>
-  <linearGradient id='tbg_BED3F4' x1='0%' y1='0%' x2='100%' y2='0%' >
-     <stop offset='0%' stop-color='#E3E3E5' /> 
-     <stop offset='100%' stop-color='#F4F5F7' /> 
-  </linearGradient>
   <linearGradient id='ttl_C7F4BE' x1='0%' y1='0%' x2='100%' y2='0%' >
      <stop offset='0%' stop-color='#7FDE6C' /> 
      <stop offset='100%' stop-color='#AADDA0' /> 
@@ -261,6 +253,14 @@
      <stop offset='0%' stop-color='#E3E3E5' /> 
      <stop offset='100%' stop-color='#F4F4F7' /> 
   </linearGradient>
+  <linearGradient id='ttl_BED3F4' x1='0%' y1='0%' x2='100%' y2='0%' >
+     <stop offset='0%' stop-color='#6C97DE' /> 
+     <stop offset='100%' stop-color='#A0B7DD' /> 
+  </linearGradient>
+  <linearGradient id='tbg_BED3F4' x1='0%' y1='0%' x2='100%' y2='0%' >
+     <stop offset='0%' stop-color='#E3E3E5' /> 
+     <stop offset='100%' stop-color='#F4F5F7' /> 
+  </linearGradient>
 </defs>
 
 <!-- == Shape Colors == -->
@@ -275,10 +275,10 @@
 <rect class='grp' style='fill:#FDFFFD;stroke:#B6E2AE' x='117' y='31' width='507' height='479' rx='8' ry='8' />
 <text x='131' y='50' style='fill:#98C590;'>authors</text>
 <!-- == Group 'editions_details' == -->
-<rect class='grp' style='fill:#FFFEFD;stroke:#E2CBAE' x='687' y='31' width='659' height='593' rx='8' ry='8' />
+<rect class='grp' style='fill:#FFFEFD;stroke:#E2CBAE' x='687' y='31' width='697' height='593' rx='8' ry='8' />
 <text x='701' y='50' style='fill:#C5AE90;'>editions&#95;details</text>
 <!-- == Group 'works' == -->
-<rect class='grp' style='fill:#FDFDFF;stroke:#AEC1E2' x='41' y='696' width='697' height='688' rx='8' ry='8' />
+<rect class='grp' style='fill:#FDFDFF;stroke:#AEC1E2' x='41' y='696' width='754' height='688' rx='8' ry='8' />
 <text x='55' y='715' style='fill:#90A4C5;'>works</text>
 <!-- == Group 'library' == -->
 <rect class='grp' style='fill:#FDFDFF;stroke:#BBAEE2' x='820' y='696' width='773' height='935' rx='8' ry='8' />
@@ -293,76 +293,6 @@ editions_details &#10132; editions ( edition_key )
 editions_details &#10132; editions ( edition_key )
 </title></path>
 <text x='772' y='285' transform='rotate(90 772,285)' class='relName'>edition&#95;key</text>
-<!-- == Fk 'works_ratings_fk_works_ratings_work_key' == -->
-<path id='works_ratings_fk_works_ratings_work_key'  onmouseover="hghl(['works_ratings_fk_works_ratings_work_key','catalog.works_ratings.work_key','catalog.works.work_key'])" onmouseout="uhghl(['works_ratings_fk_works_ratings_work_key','catalog.works_ratings.work_key','catalog.works.work_key'])" transform='translate(10,0)' class='unhighlight' d='M 190,1026L 190,922Q 190,912 200,912L 266,912' >
-	<title>&#x1F517;  Foreign Key fk_works_ratings_work_key
-works_ratings &#10132; works ( work_key )
-</title>
-</path>
-<path transform='translate(10,0)' marker-start='url(#One)' marker-end='url(#One)'    d='M 190,1026L 190,922Q 190,912 200,912L 266,912' ><title>&#x1F517;  Foreign Key fk_works_ratings_work_key
-works_ratings &#10132; works ( work_key )
-</title></path>
-<text x='193' y='1023' transform='rotate(270 193,1023)' class='relName'>work&#95;key</text>
-<!-- == Fk 'works_availability_fk_works_availability_work_key' == -->
-<path id='works_availability_fk_works_availability_work_key'  onmouseover="hghl(['works_availability_fk_works_availability_work_key','catalog.works_availability.work_key','catalog.works.work_key'])" onmouseout="uhghl(['works_availability_fk_works_availability_work_key','catalog.works_availability.work_key','catalog.works.work_key'])" transform='translate(10,0)' class='unhighlight' d='M 304,1026L 304,969' >
-	<title>&#x1F517;  Foreign Key fk_works_availability_work_key
-works_availability &#10132; works ( work_key )
-</title>
-</path>
-<path transform='translate(10,0)' marker-start='url(#One)' marker-end='url(#One)'    d='M 304,1026L 304,969' ><title>&#x1F517;  Foreign Key fk_works_availability_work_key
-works_availability &#10132; works ( work_key )
-</title></path>
-<text x='307' y='1023' transform='rotate(270 307,1023)' class='relName'>work&#95;key</text>
-<!-- == Fk 'works_people_fk_works_people_work_key' == -->
-<path id='works_people_fk_works_people_work_key'  onmouseover="hghl(['works_people_fk_works_people_work_key','catalog.works_people.work_key','catalog.works.work_key'])" onmouseout="uhghl(['works_people_fk_works_people_work_key','catalog.works_people.work_key','catalog.works.work_key'])" transform='translate(10,0)' class='unhighlight' d='M 266,1254L 266,1207Q 266,1197 257,1197L 257,1197Q 247,1197 247,1188L 247,941Q 247,931 257,931L 266,931' >
-	<title>&#x1F517;  Foreign Key fk_works_people_work_key
-works_people &#10132; works ( work_key )
-</title>
-</path>
-<path transform='translate(10,0)' marker-start='url(#OneMore)' marker-end='url(#One)'    d='M 266,1254L 266,1207Q 266,1197 257,1197L 257,1197Q 247,1197 247,1188L 247,941Q 247,931 257,931L 266,931' ><title>&#x1F517;  Foreign Key fk_works_people_work_key
-works_people &#10132; works ( work_key )
-</title></path>
-<text x='269' y='1251' transform='rotate(270 269,1251)' class='relName'>work&#95;key</text>
-<!-- == Fk 'works_subjects_fk_works_subjects_work_key' == -->
-<path id='works_subjects_fk_works_subjects_work_key'  onmouseover="hghl(['works_subjects_fk_works_subjects_work_key','catalog.works_subjects.work_key','catalog.works.work_key'])" onmouseout="uhghl(['works_subjects_fk_works_subjects_work_key','catalog.works_subjects.work_key','catalog.works.work_key'])" transform='translate(10,0)' class='unhighlight' d='M 171,1254L 171,1245Q 171,1235 181,1235L 219,1235Q 228,1235 228,1226L 228,903Q 228,893 238,893L 266,893' >
-	<title>&#x1F517;  Foreign Key fk_works_subjects_work_key
-works_subjects &#10132; works ( work_key )
-</title>
-</path>
-<path transform='translate(10,0)' marker-start='url(#OneMore)' marker-end='url(#One)'    d='M 171,1254L 171,1245Q 171,1235 181,1235L 219,1235Q 228,1235 228,1226L 228,903Q 228,893 238,893L 266,893' ><title>&#x1F517;  Foreign Key fk_works_subjects_work_key
-works_subjects &#10132; works ( work_key )
-</title></path>
-<text x='174' y='1251' transform='rotate(270 174,1251)' class='relName'>work&#95;key</text>
-<!-- == Fk 'works_places_fk_works_places_work_key' == -->
-<path id='works_places_fk_works_places_work_key'  onmouseover="hghl(['works_places_fk_works_places_work_key','catalog.works_places.work_key','catalog.works.work_key'])" onmouseout="uhghl(['works_places_fk_works_places_work_key','catalog.works_places.work_key','catalog.works.work_key'])" transform='translate(10,0)' class='unhighlight' d='M 475,1254L 475,960Q 475,950 466,950L 456,950' >
-	<title>&#x1F517;  Foreign Key fk_works_places_work_key
-works_places &#10132; works ( work_key )
-</title>
-</path>
-<path transform='translate(10,0)' marker-start='url(#OneMore)' marker-end='url(#One)'    d='M 475,1254L 475,960Q 475,950 466,950L 456,950' ><title>&#x1F517;  Foreign Key fk_works_places_work_key
-works_places &#10132; works ( work_key )
-</title></path>
-<text x='478' y='1251' transform='rotate(270 478,1251)' class='relName'>work&#95;key</text>
-<!-- == Fk 'works_time_periods_fk_works_time_periods_work_key' == -->
-<path id='works_time_periods_fk_works_time_periods_work_key'  onmouseover="hghl(['works_time_periods_fk_works_time_periods_work_key','catalog.works_time_periods.work_key','catalog.works.work_key'])" onmouseout="uhghl(['works_time_periods_fk_works_time_periods_work_key','catalog.works_time_periods.work_key','catalog.works.work_key'])" transform='translate(10,0)' class='unhighlight' d='M 703,1254L 703,922Q 703,912 694,912L 456,912' >
-	<title>&#x1F517;  Foreign Key fk_works_time_periods_work_key
-works_time_periods &#10132; works ( work_key )
-</title>
-</path>
-<path transform='translate(10,0)' marker-start='url(#OneMore)' marker-end='url(#One)'    d='M 703,1254L 703,922Q 703,912 694,912L 456,912' ><title>&#x1F517;  Foreign Key fk_works_time_periods_work_key
-works_time_periods &#10132; works ( work_key )
-</title></path>
-<text x='706' y='1251' transform='rotate(270 706,1251)' class='relName'>work&#95;key</text>
-<!-- == Fk 'works_series_fk_works_series_work_key' == -->
-<path id='works_series_fk_works_series_work_key'  onmouseover="hghl(['works_series_fk_works_series_work_key','catalog.works_series.work_key','catalog.works.work_key'])" onmouseout="uhghl(['works_series_fk_works_series_work_key','catalog.works_series.work_key','catalog.works.work_key'])" transform='translate(10,0)' class='unhighlight' d='M 513,1045L 504,1045Q 494,1045 494,1036L 494,941Q 494,931 485,931L 456,931' >
-	<title>&#x1F517;  Foreign Key fk_works_series_work_key
-works_series &#10132; works ( work_key )
-</title>
-</path>
-<path transform='translate(10,0)' marker-start='url(#One)' marker-end='url(#One)'    d='M 513,1045L 504,1045Q 494,1045 494,1036L 494,941Q 494,931 485,931L 456,931' ><title>&#x1F517;  Foreign Key fk_works_series_work_key
-works_series &#10132; works ( work_key )
-</title></path>
-<text x='467' y='1039' transform='rotate(0 467,1039)' class='relName'>work&#95;key</text>
 <!-- == Fk 'editions_fk_editions_work_key' == -->
 <path id='editions_fk_editions_work_key'  onmouseover="hghl(['editions_fk_editions_work_key','catalog.editions.work_key','catalog.works.work_key'])" onmouseout="uhghl(['editions_fk_editions_work_key','catalog.editions.work_key','catalog.works.work_key'])" transform='translate(10,0)' class='unhighlight' d='M 760,551L 760,713Q 760,722 751,722L 447,722Q 437,722 437,732L 437,741' >
 	<title>&#x1F517;  Foreign Key fk_editions_work_key
@@ -533,200 +463,168 @@ reservations &#10132; users ( user_id )
 reservations &#10132; users ( user_id )
 </title></path>
 <text x='1295' y='1384' transform='rotate(270 1295,1384)' class='relName'>user&#95;id</text>
+<!-- == Fk 'works_ratings_fk_works_ratings_work_key' == -->
+<path id='works_ratings_fk_works_ratings_work_key'  onmouseover="hghl(['works_ratings_fk_works_ratings_work_key','catalog.works_ratings.work_key','catalog.works.work_key'])" onmouseout="uhghl(['works_ratings_fk_works_ratings_work_key','catalog.works_ratings.work_key','catalog.works.work_key'])" transform='translate(10,0)' class='unhighlight' d='M 209,1026L 209,922Q 209,912 219,912L 266,912' >
+	<title>&#x1F517;  Foreign Key fk_works_ratings_work_key
+works_ratings &#10132; works ( work_key )
+</title>
+</path>
+<path transform='translate(10,0)' marker-start='url(#One)' marker-end='url(#One)'    d='M 209,1026L 209,922Q 209,912 219,912L 266,912' ><title>&#x1F517;  Foreign Key fk_works_ratings_work_key
+works_ratings &#10132; works ( work_key )
+</title></path>
+<text x='212' y='1023' transform='rotate(270 212,1023)' class='relName'>work&#95;key</text>
+<!-- == Fk 'works_availability_fk_works_availability_work_key' == -->
+<path id='works_availability_fk_works_availability_work_key'  onmouseover="hghl(['works_availability_fk_works_availability_work_key','catalog.works_availability.work_key','catalog.works.work_key'])" onmouseout="uhghl(['works_availability_fk_works_availability_work_key','catalog.works_availability.work_key','catalog.works.work_key'])" transform='translate(10,0)' class='unhighlight' d='M 304,1026L 304,969' >
+	<title>&#x1F517;  Foreign Key fk_works_availability_work_key
+works_availability &#10132; works ( work_key )
+</title>
+</path>
+<path transform='translate(10,0)' marker-start='url(#One)' marker-end='url(#One)'    d='M 304,1026L 304,969' ><title>&#x1F517;  Foreign Key fk_works_availability_work_key
+works_availability &#10132; works ( work_key )
+</title></path>
+<text x='307' y='1023' transform='rotate(270 307,1023)' class='relName'>work&#95;key</text>
+<!-- == Fk 'works_series_fk_works_series_work_key' == -->
+<path id='works_series_fk_works_series_work_key'  onmouseover="hghl(['works_series_fk_works_series_work_key','catalog.works_series.work_key','catalog.works.work_key'])" onmouseout="uhghl(['works_series_fk_works_series_work_key','catalog.works_series.work_key','catalog.works.work_key'])" transform='translate(10,0)' class='unhighlight' d='M 551,1026L 551,941Q 551,931 542,931L 456,931' >
+	<title>&#x1F517;  Foreign Key fk_works_series_work_key
+works_series &#10132; works ( work_key )
+</title>
+</path>
+<path transform='translate(10,0)' marker-start='url(#One)' marker-end='url(#One)'    d='M 551,1026L 551,941Q 551,931 542,931L 456,931' ><title>&#x1F517;  Foreign Key fk_works_series_work_key
+works_series &#10132; works ( work_key )
+</title></path>
+<text x='554' y='1023' transform='rotate(270 554,1023)' class='relName'>work&#95;key</text>
+<!-- == Fk 'works_time_periods_fk_works_time_periods_work_key' == -->
+<path id='works_time_periods_fk_works_time_periods_work_key'  onmouseover="hghl(['works_time_periods_fk_works_time_periods_work_key','catalog.works_time_periods.work_key','catalog.works.work_key'])" onmouseout="uhghl(['works_time_periods_fk_works_time_periods_work_key','catalog.works_time_periods.work_key','catalog.works.work_key'])" transform='translate(10,0)' class='unhighlight' d='M 703,1254L 703,922Q 703,912 694,912L 456,912' >
+	<title>&#x1F517;  Foreign Key fk_works_time_periods_work_key
+works_time_periods &#10132; works ( work_key )
+</title>
+</path>
+<path transform='translate(10,0)' marker-start='url(#OneMore)' marker-end='url(#One)'    d='M 703,1254L 703,922Q 703,912 694,912L 456,912' ><title>&#x1F517;  Foreign Key fk_works_time_periods_work_key
+works_time_periods &#10132; works ( work_key )
+</title></path>
+<text x='706' y='1251' transform='rotate(270 706,1251)' class='relName'>work&#95;key</text>
+<!-- == Fk 'works_places_fk_works_places_work_key' == -->
+<path id='works_places_fk_works_places_work_key'  onmouseover="hghl(['works_places_fk_works_places_work_key','catalog.works_places.work_key','catalog.works.work_key'])" onmouseout="uhghl(['works_places_fk_works_places_work_key','catalog.works_places.work_key','catalog.works.work_key'])" transform='translate(10,0)' class='unhighlight' d='M 494,1254L 494,960Q 494,950 485,950L 456,950' >
+	<title>&#x1F517;  Foreign Key fk_works_places_work_key
+works_places &#10132; works ( work_key )
+</title>
+</path>
+<path transform='translate(10,0)' marker-start='url(#OneMore)' marker-end='url(#One)'    d='M 494,1254L 494,960Q 494,950 485,950L 456,950' ><title>&#x1F517;  Foreign Key fk_works_places_work_key
+works_places &#10132; works ( work_key )
+</title></path>
+<text x='497' y='1251' transform='rotate(270 497,1251)' class='relName'>work&#95;key</text>
+<!-- == Fk 'works_people_fk_works_people_work_key' == -->
+<path id='works_people_fk_works_people_work_key'  onmouseover="hghl(['works_people_fk_works_people_work_key','catalog.works_people.work_key','catalog.works.work_key'])" onmouseout="uhghl(['works_people_fk_works_people_work_key','catalog.works_people.work_key','catalog.works.work_key'])" transform='translate(10,0)' class='unhighlight' d='M 266,1254L 266,1207Q 266,1197 257,1197L 257,1197Q 247,1197 247,1188L 247,941Q 247,931 257,931L 266,931' >
+	<title>&#x1F517;  Foreign Key fk_works_people_work_key
+works_people &#10132; works ( work_key )
+</title>
+</path>
+<path transform='translate(10,0)' marker-start='url(#OneMore)' marker-end='url(#One)'    d='M 266,1254L 266,1207Q 266,1197 257,1197L 257,1197Q 247,1197 247,1188L 247,941Q 247,931 257,931L 266,931' ><title>&#x1F517;  Foreign Key fk_works_people_work_key
+works_people &#10132; works ( work_key )
+</title></path>
+<text x='269' y='1251' transform='rotate(270 269,1251)' class='relName'>work&#95;key</text>
+<!-- == Fk 'works_subjects_fk_works_subjects_work_key' == -->
+<path id='works_subjects_fk_works_subjects_work_key'  onmouseover="hghl(['works_subjects_fk_works_subjects_work_key','catalog.works_subjects.work_key','catalog.works.work_key'])" onmouseout="uhghl(['works_subjects_fk_works_subjects_work_key','catalog.works_subjects.work_key','catalog.works.work_key'])" transform='translate(10,0)' class='unhighlight' d='M 38,1273L 29,1273Q 19,1273 19,1264L 19,903Q 19,893 29,893L 266,893' >
+	<title>&#x1F517;  Foreign Key fk_works_subjects_work_key
+works_subjects &#10132; works ( work_key )
+</title>
+</path>
+<path transform='translate(10,0)' marker-start='url(#OneMore)' marker-end='url(#One)'    d='M 38,1273L 29,1273Q 19,1273 19,1264L 19,903Q 19,893 29,893L 266,893' ><title>&#x1F517;  Foreign Key fk_works_subjects_work_key
+works_subjects &#10132; works ( work_key )
+</title></path>
+<text x='-8' y='1267' transform='rotate(0 -8,1267)' class='relName'>work&#95;key</text>
 <!-- == Table 'editions_details' == -->
 <rect id='depict_catalog&#46;editions&#95;details' class='entity' style='stroke:#FCFAF9' x='703' y='86' width='190' height='190' rx='4' ry='4' />
 <rect x='703' y='86' width='190' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_F4DDBE);'/>
 <rect x='703' y='90' width='190' height='29' style='stroke-width:0;fill:url(#tbg_F4DDBE);'/>
-<g><title>Table catalog.editions_details</title><text id='depict&#45;catalog&#46;editions&#95;details' x='747' y='108' class='tableHeader' style='fill:#484441;'>editions&#95;details</text></g>  <use x='704' y='129' href='#nn'/><g><title>&#x1F511;  Pk editions_details_pkey ( details_id ) </title><use x='705' y='128' href='#pk'/></g><g><title>&#10697;  details_id
+<g><title>Table catalog.editions_details</title><text id='depict&#45;catalog&#46;editions&#95;details' x='724' y='108' class='tableHeader' style='fill:#484441;'>catalog&#46;editions&#95;details</text></g>  <use x='704' y='129' href='#nn'/><g><title>&#x1F511;  Pk editions_details_pkey ( details_id ) </title><use x='705' y='128' href='#pk'/></g><g><title>&#10697;  details_id
      * integer default nextval(&apos;catalog.editions_details_details_id_seq&apos;::regclass)</title><text id='catalog&#46;editions&#95;details&#46;details&#95;id' x='726' y='142' class='colPk'>details&#95;id</text></g><text x='889' y='138' text-anchor='end' class='colType'>&#35;</text>  <g><title>&#x1F50D;  idx_editions_details_edition_key ( edition_key ) </title><use x='705' y='147' href='#idx'/></g><g><title>&#10697;  edition_key
      text
- &#8599; editions( edition_key )</title><text id='catalog&#46;editions&#95;details&#46;edition&#95;key' x='726' y='161' onmouseover="hghl(['editions_details_fk_editions_details_edition_key','catalog.editions.edition_key'])" onmouseout="uhghl(['editions_details_fk_editions_details_edition_key','catalog.editions.edition_key'])">edition&#95;key</text></g><a href='#catalog.editions_details.edition_key'><g><title>&#x1F517;  References editions ( edition_key ) </title><use x='879' y='147' href='#fk'/></g></a>
+ &#8599; editions( edition_key )</title><text id='catalog&#46;editions&#95;details&#46;edition&#95;key' x='726' y='161' onmouseover="hghl(['editions_details_fk_editions_details_edition_key','catalog.editions.edition_key'])" onmouseout="uhghl(['editions_details_fk_editions_details_edition_key','catalog.editions.edition_key'])">edition&#95;key</text></g><a href='#catalog.editions_details.edition_key'><g><title>&#x1F517;  References catalog.editions ( edition_key ) </title><use x='879' y='147' href='#fk'/></g></a>
   <g><title>&#10697;  number_of_pages
      integer</title><text id='catalog&#46;editions&#95;details&#46;number&#95;of&#95;pages' x='726' y='180'>number&#95;of&#95;pages</text></g><text x='889' y='176' text-anchor='end' class='colType'>&#35;</text>  <g><title>&#10697;  physical_format
      text</title><text id='catalog&#46;editions&#95;details&#46;physical&#95;format' x='726' y='199'>physical&#95;format</text></g><text x='889' y='195' text-anchor='end' class='colType'>t</text>  <g><title>&#10697;  physical_dimensions
      text</title><text id='catalog&#46;editions&#95;details&#46;physical&#95;dimensions' x='726' y='218'>physical&#95;dimensions</text></g><text x='889' y='214' text-anchor='end' class='colType'>t</text>  <g><title>&#10697;  weight
      text</title><text id='catalog&#46;editions&#95;details&#46;weight' x='726' y='237'>weight</text></g><text x='889' y='233' text-anchor='end' class='colType'>t</text>  <g><title>&#10697;  language
      text</title><text id='catalog&#46;editions&#95;details&#46;language' x='726' y='256'>language</text></g><text x='889' y='252' text-anchor='end' class='colType'>t</text>
-<!-- == Table 'works' == -->
-<rect id='depict_catalog&#46;works' class='entity' style='stroke:#F9FAFC' x='285' y='751' width='171' height='209' rx='4' ry='4' />
-<rect x='285' y='751' width='171' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_BED3F4);'/>
-<rect x='285' y='755' width='171' height='29' style='stroke-width:0;fill:url(#tbg_BED3F4);'/>
-<g><title>Table catalog.works</title><text id='depict&#45;catalog&#46;works' x='348' y='773' class='tableHeader' style='fill:#414348;'>works</text></g>  <use x='286' y='794' href='#nn'/><g><title>&#x1F511;  Pk works_pkey ( work_key ) </title><use x='287' y='793' href='#pk'/></g><g><title>&#10697;  work_key
-     * text
- &#8601; works_availability( work_key )
- &#8601; works_series( work_key )
- &#8601; authors_works( work_key )
- &#8601; works_ratings( work_key )
- &#8601; works_subjects( work_key )
- &#8601; works_people( work_key )
- &#8601; works_places( work_key )
- &#8601; works_time_periods( work_key )
- &#8601; editions( work_key )</title><text id='catalog&#46;works&#46;work&#95;key' x='308' y='807' onmouseover="hghl(['works_availability_fk_works_availability_work_key','catalog.works_availability.work_key','works_series_fk_works_series_work_key','catalog.works_series.work_key','authors_works_fk_authors_works_work_key','catalog.authors_works.work_key','works_ratings_fk_works_ratings_work_key','catalog.works_ratings.work_key','works_subjects_fk_works_subjects_work_key','catalog.works_subjects.work_key','works_people_fk_works_people_work_key','catalog.works_people.work_key','works_places_fk_works_places_work_key','catalog.works_places.work_key','works_time_periods_fk_works_time_periods_work_key','catalog.works_time_periods.work_key','editions_fk_editions_work_key','catalog.editions.work_key'])" onmouseout="uhghl(['works_availability_fk_works_availability_work_key','catalog.works_availability.work_key','works_series_fk_works_series_work_key','catalog.works_series.work_key','authors_works_fk_authors_works_work_key','catalog.authors_works.work_key','works_ratings_fk_works_ratings_work_key','catalog.works_ratings.work_key','works_subjects_fk_works_subjects_work_key','catalog.works_subjects.work_key','works_people_fk_works_people_work_key','catalog.works_people.work_key','works_places_fk_works_places_work_key','catalog.works_places.work_key','works_time_periods_fk_works_time_periods_work_key','catalog.works_time_periods.work_key','editions_fk_editions_work_key','catalog.editions.work_key'])" class='colPk'>work&#95;key</text></g><a href='#catalog.works.work_key'><g><title>&#x1F517;  Referred by works_availability ( work_key ) 
-Referred by works_series ( work_key ) 
-Referred by authors_works ( work_key ) 
-Referred by works_ratings ( work_key ) 
-Referred by works_subjects ( work_key ) 
-Referred by works_people ( work_key ) 
-Referred by works_places ( work_key ) 
-Referred by works_time_periods ( work_key ) 
-Referred by editions ( work_key ) </title><use x='442' y='793' href='#ref'/></g></a>
-  <g><title>&#x1F50D;  works_title_trgm_idx ( title ) </title><use x='287' y='812' href='#idx'/></g><g><title>&#10697;  title
-     text</title><text id='catalog&#46;works&#46;title' x='308' y='826'>title</text></g><text x='452' y='822' text-anchor='end' class='colType'>t</text>  <g><title>&#x1F50D;  works_subtitle_trgm_idx ( subtitle ) </title><use x='287' y='831' href='#idx'/></g><g><title>&#10697;  subtitle
-     text</title><text id='catalog&#46;works&#46;subtitle' x='308' y='845'>subtitle</text></g><text x='452' y='841' text-anchor='end' class='colType'>t</text>  <g><title>&#10697;  description
-     text</title><text id='catalog&#46;works&#46;description' x='308' y='864'>description</text></g><text x='452' y='860' text-anchor='end' class='colType'>t</text>  <g><title>&#10697;  first_sentence
-     text</title><text id='catalog&#46;works&#46;first&#95;sentence' x='308' y='883'>first&#95;sentence</text></g><text x='452' y='879' text-anchor='end' class='colType'>t</text>  <g><title>&#10697;  edition_count
-     integer</title><text id='catalog&#46;works&#46;edition&#95;count' x='308' y='902'>edition&#95;count</text></g><text x='452' y='898' text-anchor='end' class='colType'>&#35;</text>  <g><title>&#10697;  first_publish_year
-     integer</title><text id='catalog&#46;works&#46;first&#95;publish&#95;year' x='308' y='921'>first&#95;publish&#95;year</text></g><text x='452' y='917' text-anchor='end' class='colType'>&#35;</text>  <g><title>&#10697;  first_publish_date
-     text</title><text id='catalog&#46;works&#46;first&#95;publish&#95;date' x='308' y='940'>first&#95;publish&#95;date</text></g><text x='452' y='936' text-anchor='end' class='colType'>t</text>
-<!-- == Table 'works_ratings' == -->
-<rect id='depict_catalog&#46;works&#95;ratings' class='entity' style='stroke:#F9FAFC' x='57' y='1036' width='152' height='171' rx='4' ry='4' />
-<rect x='57' y='1036' width='152' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_BED3F4);'/>
-<rect x='57' y='1040' width='152' height='29' style='stroke-width:0;fill:url(#tbg_BED3F4);'/>
-<g><title>Table catalog.works_ratings</title><text id='depict&#45;catalog&#46;works&#95;ratings' x='88' y='1058' class='tableHeader' style='fill:#414348;'>works&#95;ratings</text></g>  <use x='58' y='1079' href='#nn'/><g><title>&#x1F511;  Pk works_ratings_pkey ( work_key ) </title><use x='59' y='1078' href='#pk'/></g><g><title>&#10697;  work_key
-     * text
- &#8599; works( work_key )</title><text id='catalog&#46;works&#95;ratings&#46;work&#95;key' x='80' y='1092' onmouseover="hghl(['works_ratings_fk_works_ratings_work_key','catalog.works.work_key'])" onmouseout="uhghl(['works_ratings_fk_works_ratings_work_key','catalog.works.work_key'])" class='colPk'>work&#95;key</text></g><a href='#catalog.works_ratings.work_key'><g><title>&#x1F517;  References works ( work_key ) </title><use x='195' y='1078' href='#fk'/></g></a>
-  <g><title>&#10697;  ratings_count_1
-     integer</title><text id='catalog&#46;works&#95;ratings&#46;ratings&#95;count&#95;1' x='80' y='1111'>ratings&#95;count&#95;1</text></g><text x='205' y='1107' text-anchor='end' class='colType'>&#35;</text>  <g><title>&#10697;  ratings_count_2
-     integer</title><text id='catalog&#46;works&#95;ratings&#46;ratings&#95;count&#95;2' x='80' y='1130'>ratings&#95;count&#95;2</text></g><text x='205' y='1126' text-anchor='end' class='colType'>&#35;</text>  <g><title>&#10697;  ratings_count_3
-     integer</title><text id='catalog&#46;works&#95;ratings&#46;ratings&#95;count&#95;3' x='80' y='1149'>ratings&#95;count&#95;3</text></g><text x='205' y='1145' text-anchor='end' class='colType'>&#35;</text>  <g><title>&#10697;  ratings_count_4
-     integer</title><text id='catalog&#46;works&#95;ratings&#46;ratings&#95;count&#95;4' x='80' y='1168'>ratings&#95;count&#95;4</text></g><text x='205' y='1164' text-anchor='end' class='colType'>&#35;</text>  <g><title>&#10697;  ratings_count_5
-     integer</title><text id='catalog&#46;works&#95;ratings&#46;ratings&#95;count&#95;5' x='80' y='1187'>ratings&#95;count&#95;5</text></g><text x='205' y='1183' text-anchor='end' class='colType'>&#35;</text>
-<!-- == Table 'works_availability' == -->
-<rect id='depict_catalog&#46;works&#95;availability' class='entity' style='stroke:#F9FAFC' x='285' y='1036' width='152' height='133' rx='4' ry='4' />
-<rect x='285' y='1036' width='152' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_BED3F4);'/>
-<rect x='285' y='1040' width='152' height='29' style='stroke-width:0;fill:url(#tbg_BED3F4);'/>
-<g><title>Table catalog.works_availability</title><text id='depict&#45;catalog&#46;works&#95;availability' x='305' y='1058' class='tableHeader' style='fill:#414348;'>works&#95;availability</text></g>  <use x='286' y='1079' href='#nn'/><g><title>&#x1F511;  Pk works_availability_pkey ( work_key ) </title><use x='287' y='1078' href='#pk'/></g><g><title>&#10697;  work_key
-     * text
- &#8599; works( work_key )</title><text id='catalog&#46;works&#95;availability&#46;work&#95;key' x='308' y='1092' onmouseover="hghl(['works_availability_fk_works_availability_work_key','catalog.works.work_key'])" onmouseout="uhghl(['works_availability_fk_works_availability_work_key','catalog.works.work_key'])" class='colPk'>work&#95;key</text></g><a href='#catalog.works_availability.work_key'><g><title>&#x1F517;  References works ( work_key ) </title><use x='423' y='1078' href='#fk'/></g></a>
-  <g><title>&#10697;  ebook_access
-     text</title><text id='catalog&#46;works&#95;availability&#46;ebook&#95;access' x='308' y='1111'>ebook&#95;access</text></g><text x='433' y='1107' text-anchor='end' class='colType'>t</text>  <g><title>&#10697;  has_fulltext
-     boolean</title><text id='catalog&#46;works&#95;availability&#46;has&#95;fulltext' x='308' y='1130'>has&#95;fulltext</text></g><text x='433' y='1126' text-anchor='end' class='colType'>b</text>  <g><title>&#10697;  has_public_scan
-     boolean</title><text id='catalog&#46;works&#95;availability&#46;has&#95;public&#95;scan' x='308' y='1149'>has&#95;public&#95;scan</text></g><text x='433' y='1145' text-anchor='end' class='colType'>b</text>
-<!-- == Table 'works_people' == -->
-<rect id='depict_catalog&#46;works&#95;people' class='entity' style='stroke:#F9FAFC' x='247' y='1264' width='114' height='95' rx='4' ry='4' />
-<rect x='247' y='1264' width='114' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_BED3F4);'/>
-<rect x='247' y='1268' width='114' height='29' style='stroke-width:0;fill:url(#tbg_BED3F4);'/>
-<g><title>Table catalog.works_people</title><text id='depict&#45;catalog&#46;works&#95;people' x='258' y='1286' class='tableHeader' style='fill:#414348;'>works&#95;people</text></g>  <use x='248' y='1307' href='#nn'/><g><title>&#x1F511;  Pk works_people_pkey ( work_key, person ) </title><use x='249' y='1306' href='#pk'/></g><g><title>&#10697;  work_key
-     * text
- &#8599; works( work_key )</title><text id='catalog&#46;works&#95;people&#46;work&#95;key' x='270' y='1320' onmouseover="hghl(['works_people_fk_works_people_work_key','catalog.works.work_key'])" onmouseout="uhghl(['works_people_fk_works_people_work_key','catalog.works.work_key'])" class='colPk'>work&#95;key</text></g><a href='#catalog.works_people.work_key'><g><title>&#x1F517;  References works ( work_key ) </title><use x='347' y='1306' href='#fk'/></g></a>
-  <use x='248' y='1326' href='#nn'/><g><title>&#x1F511;  Pk works_people_pkey ( work_key, person ) &#x1F50D;  works_people_person_trgm_idx ( person ) </title><use x='249' y='1325' href='#pk'/></g><g><title>&#10697;  person
-     * text</title><text id='catalog&#46;works&#95;people&#46;person' x='270' y='1339' class='colPk'>person</text></g><text x='357' y='1335' text-anchor='end' class='colType'>t</text>
-<!-- == Table 'works_subjects' == -->
-<rect id='depict_catalog&#46;works&#95;subjects' class='entity' style='stroke:#F9FAFC' x='57' y='1264' width='133' height='95' rx='4' ry='4' />
-<rect x='57' y='1264' width='133' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_BED3F4);'/>
-<rect x='57' y='1268' width='133' height='29' style='stroke-width:0;fill:url(#tbg_BED3F4);'/>
-<g><title>Table catalog.works_subjects</title><text id='depict&#45;catalog&#46;works&#95;subjects' x='74' y='1286' class='tableHeader' style='fill:#414348;'>works&#95;subjects</text></g>  <use x='58' y='1307' href='#nn'/><g><title>&#x1F511;  Pk works_subjects_pkey ( work_key, subject ) </title><use x='59' y='1306' href='#pk'/></g><g><title>&#10697;  work_key
-     * text
- &#8599; works( work_key )</title><text id='catalog&#46;works&#95;subjects&#46;work&#95;key' x='80' y='1320' onmouseover="hghl(['works_subjects_fk_works_subjects_work_key','catalog.works.work_key'])" onmouseout="uhghl(['works_subjects_fk_works_subjects_work_key','catalog.works.work_key'])" class='colPk'>work&#95;key</text></g><a href='#catalog.works_subjects.work_key'><g><title>&#x1F517;  References works ( work_key ) </title><use x='176' y='1306' href='#fk'/></g></a>
-  <use x='58' y='1326' href='#nn'/><g><title>&#x1F511;  Pk works_subjects_pkey ( work_key, subject ) &#x1F50D;  works_subjects_subject_trgm_idx ( subject ) </title><use x='59' y='1325' href='#pk'/></g><g><title>&#10697;  subject
-     * text</title><text id='catalog&#46;works&#95;subjects&#46;subject' x='80' y='1339' class='colPk'>subject</text></g><text x='186' y='1335' text-anchor='end' class='colType'>t</text>
-<!-- == Table 'works_places' == -->
-<rect id='depict_catalog&#46;works&#95;places' class='entity' style='stroke:#F9FAFC' x='418' y='1264' width='114' height='95' rx='4' ry='4' />
-<rect x='418' y='1264' width='114' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_BED3F4);'/>
-<rect x='418' y='1268' width='114' height='29' style='stroke-width:0;fill:url(#tbg_BED3F4);'/>
-<g><title>Table catalog.works_places</title><text id='depict&#45;catalog&#46;works&#95;places' x='432' y='1286' class='tableHeader' style='fill:#414348;'>works&#95;places</text></g>  <use x='419' y='1307' href='#nn'/><g><title>&#x1F511;  Pk works_places_pkey ( work_key, place ) </title><use x='420' y='1306' href='#pk'/></g><g><title>&#10697;  work_key
-     * text
- &#8599; works( work_key )</title><text id='catalog&#46;works&#95;places&#46;work&#95;key' x='441' y='1320' onmouseover="hghl(['works_places_fk_works_places_work_key','catalog.works.work_key'])" onmouseout="uhghl(['works_places_fk_works_places_work_key','catalog.works.work_key'])" class='colPk'>work&#95;key</text></g><a href='#catalog.works_places.work_key'><g><title>&#x1F517;  References works ( work_key ) </title><use x='518' y='1306' href='#fk'/></g></a>
-  <use x='419' y='1326' href='#nn'/><g><title>&#x1F511;  Pk works_places_pkey ( work_key, place ) &#x1F50D;  works_places_place_trgm_idx ( place ) </title><use x='420' y='1325' href='#pk'/></g><g><title>&#10697;  place
-     * text</title><text id='catalog&#46;works&#95;places&#46;place' x='441' y='1339' class='colPk'>place</text></g><text x='528' y='1335' text-anchor='end' class='colType'>t</text>
-<!-- == Table 'works_time_periods' == -->
-<rect id='depict_catalog&#46;works&#95;time&#95;periods' class='entity' style='stroke:#F9FAFC' x='570' y='1264' width='152' height='95' rx='4' ry='4' />
-<rect x='570' y='1264' width='152' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_BED3F4);'/>
-<rect x='570' y='1268' width='152' height='29' style='stroke-width:0;fill:url(#tbg_BED3F4);'/>
-<g><title>Table catalog.works_time_periods</title><text id='depict&#45;catalog&#46;works&#95;time&#95;periods' x='583' y='1286' class='tableHeader' style='fill:#414348;'>works&#95;time&#95;periods</text></g>  <use x='571' y='1307' href='#nn'/><g><title>&#x1F511;  Pk works_time_periods_pkey ( work_key, time_period ) </title><use x='572' y='1306' href='#pk'/></g><g><title>&#10697;  work_key
-     * text
- &#8599; works( work_key )</title><text id='catalog&#46;works&#95;time&#95;periods&#46;work&#95;key' x='593' y='1320' onmouseover="hghl(['works_time_periods_fk_works_time_periods_work_key','catalog.works.work_key'])" onmouseout="uhghl(['works_time_periods_fk_works_time_periods_work_key','catalog.works.work_key'])" class='colPk'>work&#95;key</text></g><a href='#catalog.works_time_periods.work_key'><g><title>&#x1F517;  References works ( work_key ) </title><use x='708' y='1306' href='#fk'/></g></a>
-  <use x='571' y='1326' href='#nn'/><g><title>&#x1F511;  Pk works_time_periods_pkey ( work_key, time_period ) &#x1F50D;  works_time_periods_trgm_idx ( time_period ) </title><use x='572' y='1325' href='#pk'/></g><g><title>&#10697;  time_period
-     * text</title><text id='catalog&#46;works&#95;time&#95;periods&#46;time&#95;period' x='593' y='1339' class='colPk'>time&#95;period</text></g><text x='718' y='1335' text-anchor='end' class='colType'>t</text>
-<!-- == Table 'works_series' == -->
-<rect id='depict_catalog&#46;works&#95;series' class='entity' style='stroke:#F9FAFC' x='532' y='1036' width='152' height='133' rx='4' ry='4' />
-<rect x='532' y='1036' width='152' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_BED3F4);'/>
-<rect x='532' y='1040' width='152' height='29' style='stroke-width:0;fill:url(#tbg_BED3F4);'/>
-<g><title>Table catalog.works_series</title><text id='depict&#45;catalog&#46;works&#95;series' x='566' y='1058' class='tableHeader' style='fill:#414348;'>works&#95;series</text></g>  <use x='533' y='1079' href='#nn'/><g><title>&#x1F511;  Pk works_series_pkey ( work_key ) </title><use x='534' y='1078' href='#pk'/></g><g><title>&#10697;  work_key
-     * text
- &#8599; works( work_key )</title><text id='catalog&#46;works&#95;series&#46;work&#95;key' x='555' y='1092' onmouseover="hghl(['works_series_fk_works_series_work_key','catalog.works.work_key'])" onmouseout="uhghl(['works_series_fk_works_series_work_key','catalog.works.work_key'])" class='colPk'>work&#95;key</text></g><a href='#catalog.works_series.work_key'><g><title>&#x1F517;  References works ( work_key ) </title><use x='670' y='1078' href='#fk'/></g></a>
-  <g><title>&#10697;  series_key
-     text</title><text id='catalog&#46;works&#95;series&#46;series&#95;key' x='555' y='1111'>series&#95;key</text></g><text x='680' y='1107' text-anchor='end' class='colType'>t</text>  <g><title>&#10697;  series_position
-     text</title><text id='catalog&#46;works&#95;series&#46;series&#95;position' x='555' y='1130'>series&#95;position</text></g><text x='680' y='1126' text-anchor='end' class='colType'>t</text>  <g><title>&#x1F50D;  works_series_name_trgm_idx ( series_name ) </title><use x='534' y='1135' href='#idx'/></g><g><title>&#10697;  series_name
-     text</title><text id='catalog&#46;works&#95;series&#46;series&#95;name' x='555' y='1149'>series&#95;name</text></g><text x='680' y='1145' text-anchor='end' class='colType'>t</text>
 <!-- == Table 'editions' == -->
 <rect id='depict_catalog&#46;editions' class='entity' style='stroke:#FCFAF9' x='741' y='390' width='133' height='152' rx='4' ry='4' />
 <rect x='741' y='390' width='133' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_F4DDBE);'/>
 <rect x='741' y='394' width='133' height='29' style='stroke-width:0;fill:url(#tbg_F4DDBE);'/>
-<g><title>Table catalog.editions</title><text id='depict&#45;catalog&#46;editions' x='779' y='412' class='tableHeader' style='fill:#484441;'>editions</text></g>  <use x='742' y='433' href='#nn'/><g><title>&#x1F511;  Pk editions_pkey ( edition_key ) </title><use x='743' y='432' href='#pk'/></g><g><title>&#10697;  edition_key
+<g><title>Table catalog.editions</title><text id='depict&#45;catalog&#46;editions' x='756' y='412' class='tableHeader' style='fill:#484441;'>catalog&#46;editions</text></g>  <use x='742' y='433' href='#nn'/><g><title>&#x1F511;  Pk editions_pkey ( edition_key ) </title><use x='743' y='432' href='#pk'/></g><g><title>&#10697;  edition_key
      * text
  &#8601; editions_contents( edition_key )
  &#8601; editions_contributors( edition_key )
  &#8601; editions_publishing( edition_key )
  &#8601; editions_details( edition_key )
- &#8601; copies( edition_key )</title><text id='catalog&#46;editions&#46;edition&#95;key' x='764' y='446' onmouseover="hghl(['editions_contents_fk_editions_contents_edition_key','catalog.editions_contents.edition_key','editions_contributors_fk_editions_contributors_edition_key','catalog.editions_contributors.edition_key','editions_publishing_fk_editions_publishing_edition_key','catalog.editions_publishing.edition_key','editions_details_fk_editions_details_edition_key','catalog.editions_details.edition_key','copies_fk_copies_edition_key','library.copies.edition_key'])" onmouseout="uhghl(['editions_contents_fk_editions_contents_edition_key','catalog.editions_contents.edition_key','editions_contributors_fk_editions_contributors_edition_key','catalog.editions_contributors.edition_key','editions_publishing_fk_editions_publishing_edition_key','catalog.editions_publishing.edition_key','editions_details_fk_editions_details_edition_key','catalog.editions_details.edition_key','copies_fk_copies_edition_key','library.copies.edition_key'])" class='colPk'>edition&#95;key</text></g><a href='#catalog.editions.edition_key'><g><title>&#x1F517;  Referred by editions_contents ( edition_key ) 
-Referred by editions_contributors ( edition_key ) 
-Referred by editions_publishing ( edition_key ) 
-Referred by editions_details ( edition_key ) 
-Referred by copies ( edition_key ) </title><use x='860' y='432' href='#ref'/></g></a>
+ &#8601; copies( edition_key )</title><text id='catalog&#46;editions&#46;edition&#95;key' x='764' y='446' onmouseover="hghl(['editions_contents_fk_editions_contents_edition_key','catalog.editions_contents.edition_key','editions_contributors_fk_editions_contributors_edition_key','catalog.editions_contributors.edition_key','editions_publishing_fk_editions_publishing_edition_key','catalog.editions_publishing.edition_key','editions_details_fk_editions_details_edition_key','catalog.editions_details.edition_key','copies_fk_copies_edition_key','library.copies.edition_key'])" onmouseout="uhghl(['editions_contents_fk_editions_contents_edition_key','catalog.editions_contents.edition_key','editions_contributors_fk_editions_contributors_edition_key','catalog.editions_contributors.edition_key','editions_publishing_fk_editions_publishing_edition_key','catalog.editions_publishing.edition_key','editions_details_fk_editions_details_edition_key','catalog.editions_details.edition_key','copies_fk_copies_edition_key','library.copies.edition_key'])" class='colPk'>edition&#95;key</text></g><a href='#catalog.editions.edition_key'><g><title>&#x1F517;  Referred by catalog.editions_contents ( edition_key ) 
+Referred by catalog.editions_contributors ( edition_key ) 
+Referred by catalog.editions_publishing ( edition_key ) 
+Referred by catalog.editions_details ( edition_key ) 
+Referred by library.copies ( edition_key ) </title><use x='860' y='432' href='#ref'/></g></a>
   <g><title>&#x1F50D;  idx_editions_work_key ( work_key ) </title><use x='743' y='451' href='#idx'/></g><g><title>&#10697;  work_key
      text
- &#8599; works( work_key )</title><text id='catalog&#46;editions&#46;work&#95;key' x='764' y='465' onmouseover="hghl(['editions_fk_editions_work_key','catalog.works.work_key'])" onmouseout="uhghl(['editions_fk_editions_work_key','catalog.works.work_key'])">work&#95;key</text></g><a href='#catalog.editions.work_key'><g><title>&#x1F517;  References works ( work_key ) </title><use x='860' y='451' href='#fk'/></g></a>
+ &#8599; works( work_key )</title><text id='catalog&#46;editions&#46;work&#95;key' x='764' y='465' onmouseover="hghl(['editions_fk_editions_work_key','catalog.works.work_key'])" onmouseout="uhghl(['editions_fk_editions_work_key','catalog.works.work_key'])">work&#95;key</text></g><a href='#catalog.editions.work_key'><g><title>&#x1F517;  References catalog.works ( work_key ) </title><use x='860' y='451' href='#fk'/></g></a>
   <g><title>&#x1F50D;  editions_title_trgm_idx ( title ) </title><use x='743' y='470' href='#idx'/></g><g><title>&#10697;  title
      text</title><text id='catalog&#46;editions&#46;title' x='764' y='484'>title</text></g><text x='870' y='480' text-anchor='end' class='colType'>t</text>  <g><title>&#x1F50D;  editions_subtitle_trgm_idx ( subtitle ) </title><use x='743' y='489' href='#idx'/></g><g><title>&#10697;  subtitle
      text</title><text id='catalog&#46;editions&#46;subtitle' x='764' y='503'>subtitle</text></g><text x='870' y='499' text-anchor='end' class='colType'>t</text>  <g><title>&#10697;  edition_name
      text</title><text id='catalog&#46;editions&#46;edition&#95;name' x='764' y='522'>edition&#95;name</text></g><text x='870' y='518' text-anchor='end' class='colType'>t</text>
 <!-- == Table 'editions_contents' == -->
-<rect id='depict_catalog&#46;editions&#95;contents' class='entity' style='stroke:#FCFAF9' x='1178' y='86' width='133' height='133' rx='4' ry='4' />
-<rect x='1178' y='86' width='133' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_F4DDBE);'/>
-<rect x='1178' y='90' width='133' height='29' style='stroke-width:0;fill:url(#tbg_F4DDBE);'/>
-<g><title>Table catalog.editions_contents</title><text id='depict&#45;catalog&#46;editions&#95;contents' x='1188' y='108' class='tableHeader' style='fill:#484441;'>editions&#95;contents</text></g>  <use x='1179' y='129' href='#nn'/><g><title>&#x1F511;  Pk editions_contents_pkey ( edition_key ) </title><use x='1180' y='128' href='#pk'/></g><g><title>&#10697;  edition_key
+<rect id='depict_catalog&#46;editions&#95;contents' class='entity' style='stroke:#FCFAF9' x='1178' y='86' width='190' height='133' rx='4' ry='4' />
+<rect x='1178' y='86' width='190' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_F4DDBE);'/>
+<rect x='1178' y='90' width='190' height='29' style='stroke-width:0;fill:url(#tbg_F4DDBE);'/>
+<g><title>Table catalog.editions_contents</title><text id='depict&#45;catalog&#46;editions&#95;contents' x='1193' y='108' class='tableHeader' style='fill:#484441;'>catalog&#46;editions&#95;contents</text></g>  <use x='1179' y='129' href='#nn'/><g><title>&#x1F511;  Pk editions_contents_pkey ( edition_key ) </title><use x='1180' y='128' href='#pk'/></g><g><title>&#10697;  edition_key
      * text
- &#8599; editions( edition_key )</title><text id='catalog&#46;editions&#95;contents&#46;edition&#95;key' x='1201' y='142' onmouseover="hghl(['editions_contents_fk_editions_contents_edition_key','catalog.editions.edition_key'])" onmouseout="uhghl(['editions_contents_fk_editions_contents_edition_key','catalog.editions.edition_key'])" class='colPk'>edition&#95;key</text></g><a href='#catalog.editions_contents.edition_key'><g><title>&#x1F517;  References editions ( edition_key ) </title><use x='1297' y='128' href='#fk'/></g></a>
+ &#8599; editions( edition_key )</title><text id='catalog&#46;editions&#95;contents&#46;edition&#95;key' x='1201' y='142' onmouseover="hghl(['editions_contents_fk_editions_contents_edition_key','catalog.editions.edition_key'])" onmouseout="uhghl(['editions_contents_fk_editions_contents_edition_key','catalog.editions.edition_key'])" class='colPk'>edition&#95;key</text></g><a href='#catalog.editions_contents.edition_key'><g><title>&#x1F517;  References catalog.editions ( edition_key ) </title><use x='1354' y='128' href='#fk'/></g></a>
   <g><title>&#10697;  description
-     text</title><text id='catalog&#46;editions&#95;contents&#46;description' x='1201' y='161'>description</text></g><text x='1307' y='157' text-anchor='end' class='colType'>t</text>  <g><title>&#10697;  notes
-     text</title><text id='catalog&#46;editions&#95;contents&#46;notes' x='1201' y='180'>notes</text></g><text x='1307' y='176' text-anchor='end' class='colType'>t</text>  <g><title>&#10697;  first_sentence
-     text</title><text id='catalog&#46;editions&#95;contents&#46;first&#95;sentence' x='1201' y='199'>first&#95;sentence</text></g><text x='1307' y='195' text-anchor='end' class='colType'>t</text>
+     text</title><text id='catalog&#46;editions&#95;contents&#46;description' x='1201' y='161'>description</text></g><text x='1364' y='157' text-anchor='end' class='colType'>t</text>  <g><title>&#10697;  notes
+     text</title><text id='catalog&#46;editions&#95;contents&#46;notes' x='1201' y='180'>notes</text></g><text x='1364' y='176' text-anchor='end' class='colType'>t</text>  <g><title>&#10697;  first_sentence
+     text</title><text id='catalog&#46;editions&#95;contents&#46;first&#95;sentence' x='1201' y='199'>first&#95;sentence</text></g><text x='1364' y='195' text-anchor='end' class='colType'>t</text>
 <!-- == Table 'editions_publishing' == -->
-<rect id='depict_catalog&#46;editions&#95;publishing' class='entity' style='stroke:#FCFAF9' x='950' y='86' width='152' height='209' rx='4' ry='4' />
-<rect x='950' y='86' width='152' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_F4DDBE);'/>
-<rect x='950' y='90' width='152' height='29' style='stroke-width:0;fill:url(#tbg_F4DDBE);'/>
-<g><title>Table catalog.editions_publishing</title><text id='depict&#45;catalog&#46;editions&#95;publishing' x='964' y='108' class='tableHeader' style='fill:#484441;'>editions&#95;publishing</text></g>  <use x='951' y='129' href='#nn'/><g><title>&#x1F511;  Pk editions_publishing_pkey ( publishing_id ) </title><use x='952' y='128' href='#pk'/></g><g><title>&#10697;  publishing_id
-     * integer default nextval(&apos;catalog.editions_publishing_publishing_id_seq&apos;::regclass)</title><text id='catalog&#46;editions&#95;publishing&#46;publishing&#95;id' x='973' y='142' class='colPk'>publishing&#95;id</text></g><text x='1098' y='138' text-anchor='end' class='colType'>&#35;</text>  <g><title>&#x1F50D;  idx_editions_publishing_edition_key ( edition_key ) </title><use x='952' y='147' href='#idx'/></g><g><title>&#10697;  edition_key
+<rect id='depict_catalog&#46;editions&#95;publishing' class='entity' style='stroke:#FCFAF9' x='950' y='86' width='190' height='209' rx='4' ry='4' />
+<rect x='950' y='86' width='190' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_F4DDBE);'/>
+<rect x='950' y='90' width='190' height='29' style='stroke-width:0;fill:url(#tbg_F4DDBE);'/>
+<g><title>Table catalog.editions_publishing</title><text id='depict&#45;catalog&#46;editions&#95;publishing' x='959' y='108' class='tableHeader' style='fill:#484441;'>catalog&#46;editions&#95;publishing</text></g>  <use x='951' y='129' href='#nn'/><g><title>&#x1F511;  Pk editions_publishing_pkey ( publishing_id ) </title><use x='952' y='128' href='#pk'/></g><g><title>&#10697;  publishing_id
+     * integer default nextval(&apos;catalog.editions_publishing_publishing_id_seq&apos;::regclass)</title><text id='catalog&#46;editions&#95;publishing&#46;publishing&#95;id' x='973' y='142' class='colPk'>publishing&#95;id</text></g><text x='1136' y='138' text-anchor='end' class='colType'>&#35;</text>  <g><title>&#x1F50D;  idx_editions_publishing_edition_key ( edition_key ) </title><use x='952' y='147' href='#idx'/></g><g><title>&#10697;  edition_key
      text
- &#8599; editions( edition_key )</title><text id='catalog&#46;editions&#95;publishing&#46;edition&#95;key' x='973' y='161' onmouseover="hghl(['editions_publishing_fk_editions_publishing_edition_key','catalog.editions.edition_key'])" onmouseout="uhghl(['editions_publishing_fk_editions_publishing_edition_key','catalog.editions.edition_key'])">edition&#95;key</text></g><a href='#catalog.editions_publishing.edition_key'><g><title>&#x1F517;  References editions ( edition_key ) </title><use x='1088' y='147' href='#fk'/></g></a>
+ &#8599; editions( edition_key )</title><text id='catalog&#46;editions&#95;publishing&#46;edition&#95;key' x='973' y='161' onmouseover="hghl(['editions_publishing_fk_editions_publishing_edition_key','catalog.editions.edition_key'])" onmouseout="uhghl(['editions_publishing_fk_editions_publishing_edition_key','catalog.editions.edition_key'])">edition&#95;key</text></g><a href='#catalog.editions_publishing.edition_key'><g><title>&#x1F517;  References catalog.editions ( edition_key ) </title><use x='1126' y='147' href='#fk'/></g></a>
   <g><title>&#10697;  publish_date
-     text</title><text id='catalog&#46;editions&#95;publishing&#46;publish&#95;date' x='973' y='180'>publish&#95;date</text></g><text x='1098' y='176' text-anchor='end' class='colType'>t</text>  <g><title>&#10697;  publish_year
-     integer</title><text id='catalog&#46;editions&#95;publishing&#46;publish&#95;year' x='973' y='199'>publish&#95;year</text></g><text x='1098' y='195' text-anchor='end' class='colType'>&#35;</text>  <g><title>&#10697;  publisher
-     text</title><text id='catalog&#46;editions&#95;publishing&#46;publisher' x='973' y='218'>publisher</text></g><text x='1098' y='214' text-anchor='end' class='colType'>t</text>  <g><title>&#10697;  publish_place
-     text</title><text id='catalog&#46;editions&#95;publishing&#46;publish&#95;place' x='973' y='237'>publish&#95;place</text></g><text x='1098' y='233' text-anchor='end' class='colType'>t</text>  <g><title>&#10697;  publish_country
-     text</title><text id='catalog&#46;editions&#95;publishing&#46;publish&#95;country' x='973' y='256'>publish&#95;country</text></g><text x='1098' y='252' text-anchor='end' class='colType'>t</text>  <g><title>&#10697;  series
-     text</title><text id='catalog&#46;editions&#95;publishing&#46;series' x='973' y='275'>series</text></g><text x='1098' y='271' text-anchor='end' class='colType'>t</text>
+     text</title><text id='catalog&#46;editions&#95;publishing&#46;publish&#95;date' x='973' y='180'>publish&#95;date</text></g><text x='1136' y='176' text-anchor='end' class='colType'>t</text>  <g><title>&#10697;  publish_year
+     integer</title><text id='catalog&#46;editions&#95;publishing&#46;publish&#95;year' x='973' y='199'>publish&#95;year</text></g><text x='1136' y='195' text-anchor='end' class='colType'>&#35;</text>  <g><title>&#10697;  publisher
+     text</title><text id='catalog&#46;editions&#95;publishing&#46;publisher' x='973' y='218'>publisher</text></g><text x='1136' y='214' text-anchor='end' class='colType'>t</text>  <g><title>&#10697;  publish_place
+     text</title><text id='catalog&#46;editions&#95;publishing&#46;publish&#95;place' x='973' y='237'>publish&#95;place</text></g><text x='1136' y='233' text-anchor='end' class='colType'>t</text>  <g><title>&#10697;  publish_country
+     text</title><text id='catalog&#46;editions&#95;publishing&#46;publish&#95;country' x='973' y='256'>publish&#95;country</text></g><text x='1136' y='252' text-anchor='end' class='colType'>t</text>  <g><title>&#10697;  series
+     text</title><text id='catalog&#46;editions&#95;publishing&#46;series' x='973' y='275'>series</text></g><text x='1136' y='271' text-anchor='end' class='colType'>t</text>
 <!-- == Table 'editions_contributors' == -->
-<rect id='depict_catalog&#46;editions&#95;contributors' class='entity' style='stroke:#FCFAF9' x='1159' y='409' width='171' height='190' rx='4' ry='4' />
-<rect x='1159' y='409' width='171' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_F4DDBE);'/>
-<rect x='1159' y='413' width='171' height='29' style='stroke-width:0;fill:url(#tbg_F4DDBE);'/>
-<g><title>Table catalog.editions_contributors</title><text id='depict&#45;catalog&#46;editions&#95;contributors' x='1177' y='431' class='tableHeader' style='fill:#484441;'>editions&#95;contributors</text></g>  <use x='1160' y='452' href='#nn'/><g><title>&#x1F511;  Pk editions_contributors_pkey ( contribution_id ) </title><use x='1161' y='451' href='#pk'/></g><g><title>&#10697;  contribution_id
-     * integer default nextval(&apos;catalog.editions_contributors_contribution_id_seq&apos;::regclass)</title><text id='catalog&#46;editions&#95;contributors&#46;contribution&#95;id' x='1182' y='465' class='colPk'>contribution&#95;id</text></g><text x='1326' y='461' text-anchor='end' class='colType'>&#35;</text>  <g><title>&#x1F50D;  idx_editions_contributors_edition_key ( edition_key ) </title><use x='1161' y='470' href='#idx'/></g><g><title>&#10697;  edition_key
+<rect id='depict_catalog&#46;editions&#95;contributors' class='entity' style='stroke:#FCFAF9' x='1159' y='409' width='209' height='190' rx='4' ry='4' />
+<rect x='1159' y='409' width='209' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_F4DDBE);'/>
+<rect x='1159' y='413' width='209' height='29' style='stroke-width:0;fill:url(#tbg_F4DDBE);'/>
+<g><title>Table catalog.editions_contributors</title><text id='depict&#45;catalog&#46;editions&#95;contributors' x='1173' y='431' class='tableHeader' style='fill:#484441;'>catalog&#46;editions&#95;contributors</text></g>  <use x='1160' y='452' href='#nn'/><g><title>&#x1F511;  Pk editions_contributors_pkey ( contribution_id ) </title><use x='1161' y='451' href='#pk'/></g><g><title>&#10697;  contribution_id
+     * integer default nextval(&apos;catalog.editions_contributors_contribution_id_seq&apos;::regclass)</title><text id='catalog&#46;editions&#95;contributors&#46;contribution&#95;id' x='1182' y='465' class='colPk'>contribution&#95;id</text></g><text x='1364' y='461' text-anchor='end' class='colType'>&#35;</text>  <g><title>&#x1F50D;  idx_editions_contributors_edition_key ( edition_key ) </title><use x='1161' y='470' href='#idx'/></g><g><title>&#10697;  edition_key
      text
- &#8599; editions( edition_key )</title><text id='catalog&#46;editions&#95;contributors&#46;edition&#95;key' x='1182' y='484' onmouseover="hghl(['editions_contributors_fk_editions_contributors_edition_key','catalog.editions.edition_key'])" onmouseout="uhghl(['editions_contributors_fk_editions_contributors_edition_key','catalog.editions.edition_key'])">edition&#95;key</text></g><a href='#catalog.editions_contributors.edition_key'><g><title>&#x1F517;  References editions ( edition_key ) </title><use x='1316' y='470' href='#fk'/></g></a>
+ &#8599; editions( edition_key )</title><text id='catalog&#46;editions&#95;contributors&#46;edition&#95;key' x='1182' y='484' onmouseover="hghl(['editions_contributors_fk_editions_contributors_edition_key','catalog.editions.edition_key'])" onmouseout="uhghl(['editions_contributors_fk_editions_contributors_edition_key','catalog.editions.edition_key'])">edition&#95;key</text></g><a href='#catalog.editions_contributors.edition_key'><g><title>&#x1F517;  References catalog.editions ( edition_key ) </title><use x='1354' y='470' href='#fk'/></g></a>
   <g><title>&#10697;  contributor_name
-     text</title><text id='catalog&#46;editions&#95;contributors&#46;contributor&#95;name' x='1182' y='503'>contributor&#95;name</text></g><text x='1326' y='499' text-anchor='end' class='colType'>t</text>  <g><title>&#10697;  contributor_role
-     text</title><text id='catalog&#46;editions&#95;contributors&#46;contributor&#95;role' x='1182' y='522'>contributor&#95;role</text></g><text x='1326' y='518' text-anchor='end' class='colType'>t</text>  <g><title>&#10697;  by_statement
-     text</title><text id='catalog&#46;editions&#95;contributors&#46;by&#95;statement' x='1182' y='541'>by&#95;statement</text></g><text x='1326' y='537' text-anchor='end' class='colType'>t</text>  <g><title>&#10697;  translated_from
-     text</title><text id='catalog&#46;editions&#95;contributors&#46;translated&#95;from' x='1182' y='560'>translated&#95;from</text></g><text x='1326' y='556' text-anchor='end' class='colType'>t</text>  <g><title>&#10697;  translation_of
-     text</title><text id='catalog&#46;editions&#95;contributors&#46;translation&#95;of' x='1182' y='579'>translation&#95;of</text></g><text x='1326' y='575' text-anchor='end' class='colType'>t</text>
+     text</title><text id='catalog&#46;editions&#95;contributors&#46;contributor&#95;name' x='1182' y='503'>contributor&#95;name</text></g><text x='1364' y='499' text-anchor='end' class='colType'>t</text>  <g><title>&#10697;  contributor_role
+     text</title><text id='catalog&#46;editions&#95;contributors&#46;contributor&#95;role' x='1182' y='522'>contributor&#95;role</text></g><text x='1364' y='518' text-anchor='end' class='colType'>t</text>  <g><title>&#10697;  by_statement
+     text</title><text id='catalog&#46;editions&#95;contributors&#46;by&#95;statement' x='1182' y='541'>by&#95;statement</text></g><text x='1364' y='537' text-anchor='end' class='colType'>t</text>  <g><title>&#10697;  translated_from
+     text</title><text id='catalog&#46;editions&#95;contributors&#46;translated&#95;from' x='1182' y='560'>translated&#95;from</text></g><text x='1364' y='556' text-anchor='end' class='colType'>t</text>  <g><title>&#10697;  translation_of
+     text</title><text id='catalog&#46;editions&#95;contributors&#46;translation&#95;of' x='1182' y='579'>translation&#95;of</text></g><text x='1364' y='575' text-anchor='end' class='colType'>t</text>
 <!-- == Table 'authors_alternative_names' == -->
-<rect id='depict_catalog&#46;authors&#95;alternative&#95;names' class='entity' style='stroke:#F9FCF9' x='133' y='86' width='209' height='95' rx='4' ry='4' />
-<rect x='133' y='86' width='209' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_C7F4BE);'/>
-<rect x='133' y='90' width='209' height='29' style='stroke-width:0;fill:url(#tbg_C7F4BE);'/>
-<g><title>Table catalog.authors_alternative_names</title><text id='depict&#45;catalog&#46;authors&#95;alternative&#95;names' x='154' y='108' class='tableHeader' style='fill:#424841;'>authors&#95;alternative&#95;names</text></g>  <use x='134' y='129' href='#nn'/><g><title>&#x1F511;  Pk authors_alternative_names_pkey ( author_key, author_alternative_name ) </title><use x='135' y='128' href='#pk'/></g><g><title>&#10697;  author_key
+<rect id='depict_catalog&#46;authors&#95;alternative&#95;names' class='entity' style='stroke:#F9FCF9' x='133' y='86' width='247' height='95' rx='4' ry='4' />
+<rect x='133' y='86' width='247' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_C7F4BE);'/>
+<rect x='133' y='90' width='247' height='29' style='stroke-width:0;fill:url(#tbg_C7F4BE);'/>
+<g><title>Table catalog.authors_alternative_names</title><text id='depict&#45;catalog&#46;authors&#95;alternative&#95;names' x='150' y='108' class='tableHeader' style='fill:#424841;'>catalog&#46;authors&#95;alternative&#95;names</text></g>  <use x='134' y='129' href='#nn'/><g><title>&#x1F511;  Pk authors_alternative_names_pkey ( author_key, author_alternative_name ) </title><use x='135' y='128' href='#pk'/></g><g><title>&#10697;  author_key
      * text
- &#8599; authors( author_key )</title><text id='catalog&#46;authors&#95;alternative&#95;names&#46;author&#95;key' x='156' y='142' onmouseover="hghl(['authors_alternative_names_fk_authors_alternative_names_author_key','catalog.authors.author_key'])" onmouseout="uhghl(['authors_alternative_names_fk_authors_alternative_names_author_key','catalog.authors.author_key'])" class='colPk'>author&#95;key</text></g><a href='#catalog.authors_alternative_names.author_key'><g><title>&#x1F517;  References authors ( author_key ) </title><use x='328' y='128' href='#fk'/></g></a>
+ &#8599; authors( author_key )</title><text id='catalog&#46;authors&#95;alternative&#95;names&#46;author&#95;key' x='156' y='142' onmouseover="hghl(['authors_alternative_names_fk_authors_alternative_names_author_key','catalog.authors.author_key'])" onmouseout="uhghl(['authors_alternative_names_fk_authors_alternative_names_author_key','catalog.authors.author_key'])" class='colPk'>author&#95;key</text></g><a href='#catalog.authors_alternative_names.author_key'><g><title>&#x1F517;  References catalog.authors ( author_key ) </title><use x='366' y='128' href='#fk'/></g></a>
   <use x='134' y='148' href='#nn'/><g><title>&#x1F511;  Pk authors_alternative_names_pkey ( author_key, author_alternative_name ) &#x1F50D;  authors_alternative_names_trgm_idx ( author_alternative_name ) </title><use x='135' y='147' href='#pk'/></g><g><title>&#10697;  author_alternative_name
-     * text</title><text id='catalog&#46;authors&#95;alternative&#95;names&#46;author&#95;alternative&#95;name' x='156' y='161' class='colPk'>author&#95;alternative&#95;name</text></g><text x='338' y='157' text-anchor='end' class='colType'>t</text>
+     * text</title><text id='catalog&#46;authors&#95;alternative&#95;names&#46;author&#95;alternative&#95;name' x='156' y='161' class='colPk'>author&#95;alternative&#95;name</text></g><text x='376' y='157' text-anchor='end' class='colType'>t</text>
 <!-- == Table 'authors_statistics' == -->
 <rect id='depict_catalog&#46;authors&#95;statistics' class='entity' style='stroke:#F9FCF9' x='399' y='86' width='209' height='285' rx='4' ry='4' />
 <rect x='399' y='86' width='209' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_C7F4BE);'/>
 <rect x='399' y='90' width='209' height='29' style='stroke-width:0;fill:url(#tbg_C7F4BE);'/>
-<g><title>Table catalog.authors_statistics</title><text id='depict&#45;catalog&#46;authors&#95;statistics' x='448' y='108' class='tableHeader' style='fill:#424841;'>authors&#95;statistics</text></g>  <use x='400' y='129' href='#nn'/><g><title>&#x1F511;  Pk authors_statistics_pkey ( author_key ) </title><use x='401' y='128' href='#pk'/></g><g><title>&#10697;  author_key
+<g><title>Table catalog.authors_statistics</title><text id='depict&#45;catalog&#46;authors&#95;statistics' x='425' y='108' class='tableHeader' style='fill:#424841;'>catalog&#46;authors&#95;statistics</text></g>  <use x='400' y='129' href='#nn'/><g><title>&#x1F511;  Pk authors_statistics_pkey ( author_key ) </title><use x='401' y='128' href='#pk'/></g><g><title>&#10697;  author_key
      * text
- &#8599; authors( author_key )</title><text id='catalog&#46;authors&#95;statistics&#46;author&#95;key' x='422' y='142' onmouseover="hghl(['authors_statistics_fk_authors_statistics_author_key','catalog.authors.author_key'])" onmouseout="uhghl(['authors_statistics_fk_authors_statistics_author_key','catalog.authors.author_key'])" class='colPk'>author&#95;key</text></g><a href='#catalog.authors_statistics.author_key'><g><title>&#x1F517;  References authors ( author_key ) </title><use x='594' y='128' href='#fk'/></g></a>
+ &#8599; authors( author_key )</title><text id='catalog&#46;authors&#95;statistics&#46;author&#95;key' x='422' y='142' onmouseover="hghl(['authors_statistics_fk_authors_statistics_author_key','catalog.authors.author_key'])" onmouseout="uhghl(['authors_statistics_fk_authors_statistics_author_key','catalog.authors.author_key'])" class='colPk'>author&#95;key</text></g><a href='#catalog.authors_statistics.author_key'><g><title>&#x1F517;  References catalog.authors ( author_key ) </title><use x='594' y='128' href='#fk'/></g></a>
   <g><title>&#10697;  top_work
      text</title><text id='catalog&#46;authors&#95;statistics&#46;top&#95;work' x='422' y='161'>top&#95;work</text></g><text x='604' y='157' text-anchor='end' class='colType'>t</text>  <g><title>&#10697;  work_count
      integer</title><text id='catalog&#46;authors&#95;statistics&#46;work&#95;count' x='422' y='180'>work&#95;count</text></g><text x='604' y='176' text-anchor='end' class='colType'>&#35;</text>  <g><title>&#10697;  ratings_count_1
@@ -743,13 +641,13 @@ Referred by copies ( edition_key ) </title><use x='860' y='432' href='#ref'/></g
 <rect id='depict_catalog&#46;authors' class='entity' style='stroke:#F9FCF9' x='171' y='219' width='133' height='190' rx='4' ry='4' />
 <rect x='171' y='219' width='133' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_C7F4BE);'/>
 <rect x='171' y='223' width='133' height='29' style='stroke-width:0;fill:url(#tbg_C7F4BE);'/>
-<g><title>Table catalog.authors</title><text id='depict&#45;catalog&#46;authors' x='210' y='241' class='tableHeader' style='fill:#424841;'>authors</text></g>  <use x='172' y='262' href='#nn'/><g><title>&#x1F511;  Pk authors_pkey ( author_key ) </title><use x='173' y='261' href='#pk'/></g><g><title>&#10697;  author_key
+<g><title>Table catalog.authors</title><text id='depict&#45;catalog&#46;authors' x='187' y='241' class='tableHeader' style='fill:#424841;'>catalog&#46;authors</text></g>  <use x='172' y='262' href='#nn'/><g><title>&#x1F511;  Pk authors_pkey ( author_key ) </title><use x='173' y='261' href='#pk'/></g><g><title>&#10697;  author_key
      * text
  &#8601; authors_alternative_names( author_key )
  &#8601; authors_statistics( author_key )
- &#8601; authors_works( author_key )</title><text id='catalog&#46;authors&#46;author&#95;key' x='194' y='275' onmouseover="hghl(['authors_alternative_names_fk_authors_alternative_names_author_key','catalog.authors_alternative_names.author_key','authors_statistics_fk_authors_statistics_author_key','catalog.authors_statistics.author_key','authors_works_fk_authors_works_author_key','catalog.authors_works.author_key'])" onmouseout="uhghl(['authors_alternative_names_fk_authors_alternative_names_author_key','catalog.authors_alternative_names.author_key','authors_statistics_fk_authors_statistics_author_key','catalog.authors_statistics.author_key','authors_works_fk_authors_works_author_key','catalog.authors_works.author_key'])" class='colPk'>author&#95;key</text></g><a href='#catalog.authors.author_key'><g><title>&#x1F517;  Referred by authors_alternative_names ( author_key ) 
-Referred by authors_statistics ( author_key ) 
-Referred by authors_works ( author_key ) </title><use x='290' y='261' href='#ref'/></g></a>
+ &#8601; authors_works( author_key )</title><text id='catalog&#46;authors&#46;author&#95;key' x='194' y='275' onmouseover="hghl(['authors_alternative_names_fk_authors_alternative_names_author_key','catalog.authors_alternative_names.author_key','authors_statistics_fk_authors_statistics_author_key','catalog.authors_statistics.author_key','authors_works_fk_authors_works_author_key','catalog.authors_works.author_key'])" onmouseout="uhghl(['authors_alternative_names_fk_authors_alternative_names_author_key','catalog.authors_alternative_names.author_key','authors_statistics_fk_authors_statistics_author_key','catalog.authors_statistics.author_key','authors_works_fk_authors_works_author_key','catalog.authors_works.author_key'])" class='colPk'>author&#95;key</text></g><a href='#catalog.authors.author_key'><g><title>&#x1F517;  Referred by catalog.authors_alternative_names ( author_key ) 
+Referred by catalog.authors_statistics ( author_key ) 
+Referred by catalog.authors_works ( author_key ) </title><use x='290' y='261' href='#ref'/></g></a>
   <g><title>&#x1F50D;  authors_author_name_trgm_idx ( author_name ) </title><use x='173' y='280' href='#idx'/></g><g><title>&#10697;  author_name
      text</title><text id='catalog&#46;authors&#46;author&#95;name' x='194' y='294'>author&#95;name</text></g><text x='300' y='290' text-anchor='end' class='colType'>t</text>  <g><title>&#10697;  bio
      text</title><text id='catalog&#46;authors&#46;bio' x='194' y='313'>bio</text></g><text x='300' y='309' text-anchor='end' class='colType'>t</text>  <g><title>&#10697;  birth_date
@@ -758,31 +656,31 @@ Referred by authors_works ( author_key ) </title><use x='290' y='261' href='#ref
      integer</title><text id='catalog&#46;authors&#46;birth&#95;year' x='194' y='370'>birth&#95;year</text></g><text x='300' y='366' text-anchor='end' class='colType'>&#35;</text>  <g><title>&#10697;  death_year
      integer</title><text id='catalog&#46;authors&#46;death&#95;year' x='194' y='389'>death&#95;year</text></g><text x='300' y='385' text-anchor='end' class='colType'>&#35;</text>
 <!-- == Table 'authors_works' == -->
-<rect id='depict_catalog&#46;authors&#95;works' class='entity' style='stroke:#F9FCF9' x='437' y='390' width='133' height='95' rx='4' ry='4' />
-<rect x='437' y='390' width='133' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_C7F4BE);'/>
-<rect x='437' y='394' width='133' height='29' style='stroke-width:0;fill:url(#tbg_C7F4BE);'/>
-<g><title>Table catalog.authors_works</title><text id='depict&#45;catalog&#46;authors&#95;works' x='456' y='412' class='tableHeader' style='fill:#424841;'>authors&#95;works</text></g>  <use x='438' y='433' href='#nn'/><g><title>&#x1F511;  Pk authors_works_pkey ( author_key, work_key ) </title><use x='439' y='432' href='#pk'/></g><g><title>&#10697;  author_key
+<rect id='depict_catalog&#46;authors&#95;works' class='entity' style='stroke:#F9FCF9' x='437' y='390' width='171' height='95' rx='4' ry='4' />
+<rect x='437' y='390' width='171' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_C7F4BE);'/>
+<rect x='437' y='394' width='171' height='29' style='stroke-width:0;fill:url(#tbg_C7F4BE);'/>
+<g><title>Table catalog.authors_works</title><text id='depict&#45;catalog&#46;authors&#95;works' x='452' y='412' class='tableHeader' style='fill:#424841;'>catalog&#46;authors&#95;works</text></g>  <use x='438' y='433' href='#nn'/><g><title>&#x1F511;  Pk authors_works_pkey ( author_key, work_key ) </title><use x='439' y='432' href='#pk'/></g><g><title>&#10697;  author_key
      * text
- &#8599; authors( author_key )</title><text id='catalog&#46;authors&#95;works&#46;author&#95;key' x='460' y='446' onmouseover="hghl(['authors_works_fk_authors_works_author_key','catalog.authors.author_key'])" onmouseout="uhghl(['authors_works_fk_authors_works_author_key','catalog.authors.author_key'])" class='colPk'>author&#95;key</text></g><a href='#catalog.authors_works.author_key'><g><title>&#x1F517;  References authors ( author_key ) </title><use x='556' y='432' href='#fk'/></g></a>
+ &#8599; authors( author_key )</title><text id='catalog&#46;authors&#95;works&#46;author&#95;key' x='460' y='446' onmouseover="hghl(['authors_works_fk_authors_works_author_key','catalog.authors.author_key'])" onmouseout="uhghl(['authors_works_fk_authors_works_author_key','catalog.authors.author_key'])" class='colPk'>author&#95;key</text></g><a href='#catalog.authors_works.author_key'><g><title>&#x1F517;  References catalog.authors ( author_key ) </title><use x='594' y='432' href='#fk'/></g></a>
   <use x='438' y='452' href='#nn'/><g><title>&#x1F511;  Pk authors_works_pkey ( author_key, work_key ) </title><use x='439' y='451' href='#pk'/></g><g><title>&#10697;  work_key
      * text
- &#8599; works( work_key )</title><text id='catalog&#46;authors&#95;works&#46;work&#95;key' x='460' y='465' onmouseover="hghl(['authors_works_fk_authors_works_work_key','catalog.works.work_key'])" onmouseout="uhghl(['authors_works_fk_authors_works_work_key','catalog.works.work_key'])" class='colPk'>work&#95;key</text></g><a href='#catalog.authors_works.work_key'><g><title>&#x1F517;  References works ( work_key ) </title><use x='556' y='451' href='#fk'/></g></a>
+ &#8599; works( work_key )</title><text id='catalog&#46;authors&#95;works&#46;work&#95;key' x='460' y='465' onmouseover="hghl(['authors_works_fk_authors_works_work_key','catalog.works.work_key'])" onmouseout="uhghl(['authors_works_fk_authors_works_work_key','catalog.works.work_key'])" class='colPk'>work&#95;key</text></g><a href='#catalog.authors_works.work_key'><g><title>&#x1F517;  References catalog.works ( work_key ) </title><use x='594' y='451' href='#fk'/></g></a>
 
 <!-- == Table 'loans' == -->
 <rect id='depict_library&#46;loans' class='entity' style='stroke:#F9F9FC' x='1121' y='1055' width='190' height='247' rx='4' ry='4' />
 <rect x='1121' y='1055' width='190' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_5339C1);'/>
 <rect x='1121' y='1059' width='190' height='29' style='stroke-width:0;fill:url(#tbg_5339C1);'/>
-<g><title>Table library.loans</title><text id='depict&#45;library&#46;loans' x='1196' y='1077' class='tableHeader' style='fill:#424148;'>loans</text></g>  <use x='1122' y='1098' href='#nn'/><g><title>&#x1F511;  Pk loans_pkey ( loan_id ) </title><use x='1123' y='1097' href='#pk'/></g><g><title>&#10697;  loan_id
+<g><title>Table library.loans</title><text id='depict&#45;library&#46;loans' x='1175' y='1077' class='tableHeader' style='fill:#424148;'>library&#46;loans</text></g>  <use x='1122' y='1098' href='#nn'/><g><title>&#x1F511;  Pk loans_pkey ( loan_id ) </title><use x='1123' y='1097' href='#pk'/></g><g><title>&#10697;  loan_id
      * text
  &#8601; reservations( fulfillment_loan_id )
- &#8601; fines( loan_id )</title><text id='library&#46;loans&#46;loan&#95;id' x='1144' y='1111' onmouseover="hghl(['reservations_fk_reservations_fulfillment_loan_id','library.reservations.fulfillment_loan_id','fines_fk_fines_loan_id','library.fines.loan_id'])" onmouseout="uhghl(['reservations_fk_reservations_fulfillment_loan_id','library.reservations.fulfillment_loan_id','fines_fk_fines_loan_id','library.fines.loan_id'])" class='colPk'>loan&#95;id</text></g><a href='#library.loans.loan_id'><g><title>&#x1F517;  Referred by reservations ( fulfillment_loan_id -&gt; loan_id ) 
-Referred by fines ( loan_id ) </title><use x='1297' y='1097' href='#ref'/></g></a>
+ &#8601; fines( loan_id )</title><text id='library&#46;loans&#46;loan&#95;id' x='1144' y='1111' onmouseover="hghl(['reservations_fk_reservations_fulfillment_loan_id','library.reservations.fulfillment_loan_id','fines_fk_fines_loan_id','library.fines.loan_id'])" onmouseout="uhghl(['reservations_fk_reservations_fulfillment_loan_id','library.reservations.fulfillment_loan_id','fines_fk_fines_loan_id','library.fines.loan_id'])" class='colPk'>loan&#95;id</text></g><a href='#library.loans.loan_id'><g><title>&#x1F517;  Referred by library.reservations ( fulfillment_loan_id -&gt; loan_id ) 
+Referred by library.fines ( loan_id ) </title><use x='1297' y='1097' href='#ref'/></g></a>
   <use x='1122' y='1117' href='#nn'/><g><title>&#10697;  user_id
      * text
- &#8599; users( user_id )</title><text id='library&#46;loans&#46;user&#95;id' x='1144' y='1130' onmouseover="hghl(['loans_fk_loans_user_id','library.users.user_id'])" onmouseout="uhghl(['loans_fk_loans_user_id','library.users.user_id'])">user&#95;id</text></g><a href='#library.loans.user_id'><g><title>&#x1F517;  References users ( user_id ) </title><use x='1297' y='1116' href='#fk'/></g></a>
+ &#8599; users( user_id )</title><text id='library&#46;loans&#46;user&#95;id' x='1144' y='1130' onmouseover="hghl(['loans_fk_loans_user_id','library.users.user_id'])" onmouseout="uhghl(['loans_fk_loans_user_id','library.users.user_id'])">user&#95;id</text></g><a href='#library.loans.user_id'><g><title>&#x1F517;  References library.users ( user_id ) </title><use x='1297' y='1116' href='#fk'/></g></a>
   <use x='1122' y='1136' href='#nn'/><g><title>&#10697;  copy_id
      * text
- &#8599; copies( copy_id )</title><text id='library&#46;loans&#46;copy&#95;id' x='1144' y='1149' onmouseover="hghl(['loans_fk_loans_copy_id','library.copies.copy_id'])" onmouseout="uhghl(['loans_fk_loans_copy_id','library.copies.copy_id'])">copy&#95;id</text></g><a href='#library.loans.copy_id'><g><title>&#x1F517;  References copies ( copy_id ) </title><use x='1297' y='1135' href='#fk'/></g></a>
+ &#8599; copies( copy_id )</title><text id='library&#46;loans&#46;copy&#95;id' x='1144' y='1149' onmouseover="hghl(['loans_fk_loans_copy_id','library.copies.copy_id'])" onmouseout="uhghl(['loans_fk_loans_copy_id','library.copies.copy_id'])">copy&#95;id</text></g><a href='#library.loans.copy_id'><g><title>&#x1F517;  References library.copies ( copy_id ) </title><use x='1297' y='1135' href='#fk'/></g></a>
   <g><title>&#10697;  borrow_date
      timestamp</title><text id='library&#46;loans&#46;borrow&#95;date' x='1144' y='1168'>borrow&#95;date</text></g><text x='1307' y='1164' text-anchor='end' class='colType'>t</text>  <g><title>&#10697;  due_date
      timestamp</title><text id='library&#46;loans&#46;due&#95;date' x='1144' y='1187'>due&#95;date</text></g><text x='1307' y='1183' text-anchor='end' class='colType'>t</text>  <g><title>&#10697;  return_date
@@ -790,19 +688,19 @@ Referred by fines ( loan_id ) </title><use x='1297' y='1097' href='#ref'/></g></
      integer default 0</title><text id='library&#46;loans&#46;renewal&#95;count' x='1144' y='1225'>renewal&#95;count</text></g><text x='1307' y='1221' text-anchor='end' class='colType'>&#35;</text>  <g><title>&#10697;  status
      library.loan_status</title><text id='library&#46;loans&#46;status' x='1144' y='1244'>status</text></g><text x='1307' y='1240' text-anchor='end' class='colType'>t</text>  <g><title>&#10697;  loan_processed_by
      text
- &#8599; librarians( librarian_id )</title><text id='library&#46;loans&#46;loan&#95;processed&#95;by' x='1144' y='1263' onmouseover="hghl(['loans_fk_loans_loan_processed_by','library.librarians.librarian_id'])" onmouseout="uhghl(['loans_fk_loans_loan_processed_by','library.librarians.librarian_id'])">loan&#95;processed&#95;by</text></g><a href='#library.loans.loan_processed_by'><g><title>&#x1F517;  References librarians ( loan_processed_by -&gt; librarian_id ) </title><use x='1297' y='1249' href='#fk'/></g></a>
+ &#8599; librarians( librarian_id )</title><text id='library&#46;loans&#46;loan&#95;processed&#95;by' x='1144' y='1263' onmouseover="hghl(['loans_fk_loans_loan_processed_by','library.librarians.librarian_id'])" onmouseout="uhghl(['loans_fk_loans_loan_processed_by','library.librarians.librarian_id'])">loan&#95;processed&#95;by</text></g><a href='#library.loans.loan_processed_by'><g><title>&#x1F517;  References library.librarians ( loan_processed_by -&gt; librarian_id ) </title><use x='1297' y='1249' href='#fk'/></g></a>
   <g><title>&#10697;  return_processed_by
      text
- &#8599; librarians( librarian_id )</title><text id='library&#46;loans&#46;return&#95;processed&#95;by' x='1144' y='1282' onmouseover="hghl(['loans_fk_loans_return_processed_by','library.librarians.librarian_id'])" onmouseout="uhghl(['loans_fk_loans_return_processed_by','library.librarians.librarian_id'])">return&#95;processed&#95;by</text></g><a href='#library.loans.return_processed_by'><g><title>&#x1F517;  References librarians ( return_processed_by -&gt; librarian_id ) </title><use x='1297' y='1268' href='#fk'/></g></a>
+ &#8599; librarians( librarian_id )</title><text id='library&#46;loans&#46;return&#95;processed&#95;by' x='1144' y='1282' onmouseover="hghl(['loans_fk_loans_return_processed_by','library.librarians.librarian_id'])" onmouseout="uhghl(['loans_fk_loans_return_processed_by','library.librarians.librarian_id'])">return&#95;processed&#95;by</text></g><a href='#library.loans.return_processed_by'><g><title>&#x1F517;  References library.librarians ( return_processed_by -&gt; librarian_id ) </title><use x='1297' y='1268' href='#fk'/></g></a>
 
 <!-- == Table 'fines' == -->
 <rect id='depict_library&#46;fines' class='entity' style='stroke:#F9F9FC' x='1102' y='751' width='133' height='209' rx='4' ry='4' />
 <rect x='1102' y='751' width='133' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_5339C1);'/>
 <rect x='1102' y='755' width='133' height='29' style='stroke-width:0;fill:url(#tbg_5339C1);'/>
-<g><title>Table library.fines</title><text id='depict&#45;library&#46;fines' x='1150' y='773' class='tableHeader' style='fill:#424148;'>fines</text></g>  <use x='1103' y='794' href='#nn'/><g><title>&#x1F511;  Pk fines_pkey ( fine_id ) </title><use x='1104' y='793' href='#pk'/></g><g><title>&#10697;  fine_id
+<g><title>Table library.fines</title><text id='depict&#45;library&#46;fines' x='1130' y='773' class='tableHeader' style='fill:#424148;'>library&#46;fines</text></g>  <use x='1103' y='794' href='#nn'/><g><title>&#x1F511;  Pk fines_pkey ( fine_id ) </title><use x='1104' y='793' href='#pk'/></g><g><title>&#10697;  fine_id
      * text</title><text id='library&#46;fines&#46;fine&#95;id' x='1125' y='807' class='colPk'>fine&#95;id</text></g><text x='1231' y='803' text-anchor='end' class='colType'>t</text>  <use x='1103' y='813' href='#nn'/><g><title>&#10697;  loan_id
      * text
- &#8599; loans( loan_id )</title><text id='library&#46;fines&#46;loan&#95;id' x='1125' y='826' onmouseover="hghl(['fines_fk_fines_loan_id','library.loans.loan_id'])" onmouseout="uhghl(['fines_fk_fines_loan_id','library.loans.loan_id'])">loan&#95;id</text></g><a href='#library.fines.loan_id'><g><title>&#x1F517;  References loans ( loan_id ) </title><use x='1221' y='812' href='#fk'/></g></a>
+ &#8599; loans( loan_id )</title><text id='library&#46;fines&#46;loan&#95;id' x='1125' y='826' onmouseover="hghl(['fines_fk_fines_loan_id','library.loans.loan_id'])" onmouseout="uhghl(['fines_fk_fines_loan_id','library.loans.loan_id'])">loan&#95;id</text></g><a href='#library.fines.loan_id'><g><title>&#x1F517;  References library.loans ( loan_id ) </title><use x='1221' y='812' href='#fk'/></g></a>
   <g><title>&#10697;  overdue_days
      integer</title><text id='library&#46;fines&#46;overdue&#95;days' x='1125' y='845'>overdue&#95;days</text></g><text x='1231' y='841' text-anchor='end' class='colType'>&#35;</text>  <g><title>&#10697;  amount
      numeric(8,2)</title><text id='library&#46;fines&#46;amount' x='1125' y='864'>amount</text></g><text x='1231' y='860' text-anchor='end' class='colType'>&#35;</text>  <g><title>&#10697;  issued_at
@@ -814,11 +712,11 @@ Referred by fines ( loan_id ) </title><use x='1297' y='1097' href='#ref'/></g></
 <rect id='depict_library&#46;users' class='entity' style='stroke:#F9F9FC' x='1444' y='1131' width='133' height='152' rx='4' ry='4' />
 <rect x='1444' y='1131' width='133' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_5339C1);'/>
 <rect x='1444' y='1135' width='133' height='29' style='stroke-width:0;fill:url(#tbg_5339C1);'/>
-<g><title>Table library.users</title><text id='depict&#45;library&#46;users' x='1490' y='1153' class='tableHeader' style='fill:#424148;'>users</text></g>  <use x='1445' y='1174' href='#nn'/><g><title>&#x1F511;  Pk users_pkey ( user_id ) </title><use x='1446' y='1173' href='#pk'/></g><g><title>&#10697;  user_id
+<g><title>Table library.users</title><text id='depict&#45;library&#46;users' x='1470' y='1153' class='tableHeader' style='fill:#424148;'>library&#46;users</text></g>  <use x='1445' y='1174' href='#nn'/><g><title>&#x1F511;  Pk users_pkey ( user_id ) </title><use x='1446' y='1173' href='#pk'/></g><g><title>&#10697;  user_id
      * text
  &#8601; reservations( user_id )
- &#8601; loans( user_id )</title><text id='library&#46;users&#46;user&#95;id' x='1467' y='1187' onmouseover="hghl(['reservations_fk_reservations_user_id','library.reservations.user_id','loans_fk_loans_user_id','library.loans.user_id'])" onmouseout="uhghl(['reservations_fk_reservations_user_id','library.reservations.user_id','loans_fk_loans_user_id','library.loans.user_id'])" class='colPk'>user&#95;id</text></g><a href='#library.users.user_id'><g><title>&#x1F517;  Referred by reservations ( user_id ) 
-Referred by loans ( user_id ) </title><use x='1563' y='1173' href='#ref'/></g></a>
+ &#8601; loans( user_id )</title><text id='library&#46;users&#46;user&#95;id' x='1467' y='1187' onmouseover="hghl(['reservations_fk_reservations_user_id','library.reservations.user_id','loans_fk_loans_user_id','library.loans.user_id'])" onmouseout="uhghl(['reservations_fk_reservations_user_id','library.reservations.user_id','loans_fk_loans_user_id','library.loans.user_id'])" class='colPk'>user&#95;id</text></g><a href='#library.users.user_id'><g><title>&#x1F517;  Referred by library.reservations ( user_id ) 
+Referred by library.loans ( user_id ) </title><use x='1563' y='1173' href='#ref'/></g></a>
   <g><title>&#10697;  first_name
      text</title><text id='library&#46;users&#46;first&#95;name' x='1467' y='1206'>first&#95;name</text></g><text x='1573' y='1202' text-anchor='end' class='colType'>t</text>  <g><title>&#10697;  last_name
      text</title><text id='library&#46;users&#46;last&#95;name' x='1467' y='1225'>last&#95;name</text></g><text x='1573' y='1221' text-anchor='end' class='colType'>t</text>  <g><title>&#x1F50D;  Unq users_email_key ( email ) </title><use x='1446' y='1230' href='#unq'/></g><g><title>&#10697;  email
@@ -828,11 +726,11 @@ Referred by loans ( user_id ) </title><use x='1563' y='1173' href='#ref'/></g></
 <rect id='depict_library&#46;librarians' class='entity' style='stroke:#F9F9FC' x='1444' y='808' width='133' height='152' rx='4' ry='4' />
 <rect x='1444' y='808' width='133' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_5339C1);'/>
 <rect x='1444' y='812' width='133' height='29' style='stroke-width:0;fill:url(#tbg_5339C1);'/>
-<g><title>Table library.librarians</title><text id='depict&#45;library&#46;librarians' x='1479' y='830' class='tableHeader' style='fill:#424148;'>librarians</text></g>  <use x='1445' y='851' href='#nn'/><g><title>&#x1F511;  Pk librarians_pkey ( librarian_id ) </title><use x='1446' y='850' href='#pk'/></g><g><title>&#10697;  librarian_id
+<g><title>Table library.librarians</title><text id='depict&#45;library&#46;librarians' x='1459' y='830' class='tableHeader' style='fill:#424148;'>library&#46;librarians</text></g>  <use x='1445' y='851' href='#nn'/><g><title>&#x1F511;  Pk librarians_pkey ( librarian_id ) </title><use x='1446' y='850' href='#pk'/></g><g><title>&#10697;  librarian_id
      * text
  &#8601; loans( return_processed_by )
- &#8601; loans( loan_processed_by )</title><text id='library&#46;librarians&#46;librarian&#95;id' x='1467' y='864' onmouseover="hghl(['loans_fk_loans_return_processed_by','library.loans.return_processed_by','loans_fk_loans_loan_processed_by','library.loans.loan_processed_by'])" onmouseout="uhghl(['loans_fk_loans_return_processed_by','library.loans.return_processed_by','loans_fk_loans_loan_processed_by','library.loans.loan_processed_by'])" class='colPk'>librarian&#95;id</text></g><a href='#library.librarians.librarian_id'><g><title>&#x1F517;  Referred by loans ( return_processed_by -&gt; librarian_id ) 
-Referred by loans ( loan_processed_by -&gt; librarian_id ) </title><use x='1563' y='850' href='#ref'/></g></a>
+ &#8601; loans( loan_processed_by )</title><text id='library&#46;librarians&#46;librarian&#95;id' x='1467' y='864' onmouseover="hghl(['loans_fk_loans_return_processed_by','library.loans.return_processed_by','loans_fk_loans_loan_processed_by','library.loans.loan_processed_by'])" onmouseout="uhghl(['loans_fk_loans_return_processed_by','library.loans.return_processed_by','loans_fk_loans_loan_processed_by','library.loans.loan_processed_by'])" class='colPk'>librarian&#95;id</text></g><a href='#library.librarians.librarian_id'><g><title>&#x1F517;  Referred by library.loans ( return_processed_by -&gt; librarian_id ) 
+Referred by library.loans ( loan_processed_by -&gt; librarian_id ) </title><use x='1563' y='850' href='#ref'/></g></a>
   <g><title>&#10697;  first_name
      text</title><text id='library&#46;librarians&#46;first&#95;name' x='1467' y='883'>first&#95;name</text></g><text x='1573' y='879' text-anchor='end' class='colType'>t</text>  <g><title>&#10697;  last_name
      text</title><text id='library&#46;librarians&#46;last&#95;name' x='1467' y='902'>last&#95;name</text></g><text x='1573' y='898' text-anchor='end' class='colType'>t</text>  <g><title>&#x1F50D;  Unq librarians_email_key ( email ) </title><use x='1446' y='907' href='#unq'/></g><g><title>&#10697;  email
@@ -842,14 +740,14 @@ Referred by loans ( loan_processed_by -&gt; librarian_id ) </title><use x='1563'
 <rect id='depict_library&#46;copies' class='entity' style='stroke:#F9F9FC' x='836' y='1055' width='171' height='171' rx='4' ry='4' />
 <rect x='836' y='1055' width='171' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_5339C1);'/>
 <rect x='836' y='1059' width='171' height='29' style='stroke-width:0;fill:url(#tbg_5339C1);'/>
-<g><title>Table library.copies</title><text id='depict&#45;library&#46;copies' x='898' y='1077' class='tableHeader' style='fill:#424148;'>copies</text></g>  <use x='837' y='1098' href='#nn'/><g><title>&#x1F511;  Pk copies_pkey ( copy_id ) </title><use x='838' y='1097' href='#pk'/></g><g><title>&#10697;  copy_id
+<g><title>Table library.copies</title><text id='depict&#45;library&#46;copies' x='878' y='1077' class='tableHeader' style='fill:#424148;'>library&#46;copies</text></g>  <use x='837' y='1098' href='#nn'/><g><title>&#x1F511;  Pk copies_pkey ( copy_id ) </title><use x='838' y='1097' href='#pk'/></g><g><title>&#10697;  copy_id
      * text
  &#8601; reservations( copy_id )
- &#8601; loans( copy_id )</title><text id='library&#46;copies&#46;copy&#95;id' x='859' y='1111' onmouseover="hghl(['reservations_fk_reservations_copy_id','library.reservations.copy_id','loans_fk_loans_copy_id','library.loans.copy_id'])" onmouseout="uhghl(['reservations_fk_reservations_copy_id','library.reservations.copy_id','loans_fk_loans_copy_id','library.loans.copy_id'])" class='colPk'>copy&#95;id</text></g><a href='#library.copies.copy_id'><g><title>&#x1F517;  Referred by reservations ( copy_id ) 
-Referred by loans ( copy_id ) </title><use x='993' y='1097' href='#ref'/></g></a>
+ &#8601; loans( copy_id )</title><text id='library&#46;copies&#46;copy&#95;id' x='859' y='1111' onmouseover="hghl(['reservations_fk_reservations_copy_id','library.reservations.copy_id','loans_fk_loans_copy_id','library.loans.copy_id'])" onmouseout="uhghl(['reservations_fk_reservations_copy_id','library.reservations.copy_id','loans_fk_loans_copy_id','library.loans.copy_id'])" class='colPk'>copy&#95;id</text></g><a href='#library.copies.copy_id'><g><title>&#x1F517;  Referred by library.reservations ( copy_id ) 
+Referred by library.loans ( copy_id ) </title><use x='993' y='1097' href='#ref'/></g></a>
   <use x='837' y='1117' href='#nn'/><g><title>&#10697;  edition_key
      * text
- &#8599; editions( edition_key )</title><text id='library&#46;copies&#46;edition&#95;key' x='859' y='1130' onmouseover="hghl(['copies_fk_copies_edition_key','catalog.editions.edition_key'])" onmouseout="uhghl(['copies_fk_copies_edition_key','catalog.editions.edition_key'])">edition&#95;key</text></g><a href='#library.copies.edition_key'><g><title>&#x1F517;  References editions ( edition_key ) </title><use x='993' y='1116' href='#fk'/></g></a>
+ &#8599; editions( edition_key )</title><text id='library&#46;copies&#46;edition&#95;key' x='859' y='1130' onmouseover="hghl(['copies_fk_copies_edition_key','catalog.editions.edition_key'])" onmouseout="uhghl(['copies_fk_copies_edition_key','catalog.editions.edition_key'])">edition&#95;key</text></g><a href='#library.copies.edition_key'><g><title>&#x1F517;  References catalog.editions ( edition_key ) </title><use x='993' y='1116' href='#fk'/></g></a>
   <g><title>&#10697;  status
      library.copy_status</title><text id='library&#46;copies&#46;status' x='859' y='1149'>status</text></g><text x='1003' y='1145' text-anchor='end' class='colType'>t</text>  <g><title>&#10697;  registered_at
      timestamp</title><text id='library&#46;copies&#46;registered&#95;at' x='859' y='1168'>registered&#95;at</text></g><text x='1003' y='1164' text-anchor='end' class='colType'>t</text>  <g><title>&#10697;  withdrawn_at
@@ -859,19 +757,121 @@ Referred by loans ( copy_id ) </title><use x='993' y='1097' href='#ref'/></g></a
 <rect id='depict_library&#46;reservations' class='entity' style='stroke:#F9F9FC' x='1140' y='1397' width='171' height='209' rx='4' ry='4' />
 <rect x='1140' y='1397' width='171' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_5339C1);'/>
 <rect x='1140' y='1401' width='171' height='29' style='stroke-width:0;fill:url(#tbg_5339C1);'/>
-<g><title>Table library.reservations</title><text id='depict&#45;library&#46;reservations' x='1185' y='1419' class='tableHeader' style='fill:#424148;'>reservations</text></g>  <use x='1141' y='1440' href='#nn'/><g><title>&#x1F511;  Pk reservations_pkey ( reservation_id ) </title><use x='1142' y='1439' href='#pk'/></g><g><title>&#10697;  reservation_id
+<g><title>Table library.reservations</title><text id='depict&#45;library&#46;reservations' x='1165' y='1419' class='tableHeader' style='fill:#424148;'>library&#46;reservations</text></g>  <use x='1141' y='1440' href='#nn'/><g><title>&#x1F511;  Pk reservations_pkey ( reservation_id ) </title><use x='1142' y='1439' href='#pk'/></g><g><title>&#10697;  reservation_id
      * text</title><text id='library&#46;reservations&#46;reservation&#95;id' x='1163' y='1453' class='colPk'>reservation&#95;id</text></g><text x='1307' y='1449' text-anchor='end' class='colType'>t</text>  <use x='1141' y='1459' href='#nn'/><g><title>&#10697;  user_id
      * text
- &#8599; users( user_id )</title><text id='library&#46;reservations&#46;user&#95;id' x='1163' y='1472' onmouseover="hghl(['reservations_fk_reservations_user_id','library.users.user_id'])" onmouseout="uhghl(['reservations_fk_reservations_user_id','library.users.user_id'])">user&#95;id</text></g><a href='#library.reservations.user_id'><g><title>&#x1F517;  References users ( user_id ) </title><use x='1297' y='1458' href='#fk'/></g></a>
+ &#8599; users( user_id )</title><text id='library&#46;reservations&#46;user&#95;id' x='1163' y='1472' onmouseover="hghl(['reservations_fk_reservations_user_id','library.users.user_id'])" onmouseout="uhghl(['reservations_fk_reservations_user_id','library.users.user_id'])">user&#95;id</text></g><a href='#library.reservations.user_id'><g><title>&#x1F517;  References library.users ( user_id ) </title><use x='1297' y='1458' href='#fk'/></g></a>
   <use x='1141' y='1478' href='#nn'/><g><title>&#10697;  copy_id
      * text
- &#8599; copies( copy_id )</title><text id='library&#46;reservations&#46;copy&#95;id' x='1163' y='1491' onmouseover="hghl(['reservations_fk_reservations_copy_id','library.copies.copy_id'])" onmouseout="uhghl(['reservations_fk_reservations_copy_id','library.copies.copy_id'])">copy&#95;id</text></g><a href='#library.reservations.copy_id'><g><title>&#x1F517;  References copies ( copy_id ) </title><use x='1297' y='1477' href='#fk'/></g></a>
+ &#8599; copies( copy_id )</title><text id='library&#46;reservations&#46;copy&#95;id' x='1163' y='1491' onmouseover="hghl(['reservations_fk_reservations_copy_id','library.copies.copy_id'])" onmouseout="uhghl(['reservations_fk_reservations_copy_id','library.copies.copy_id'])">copy&#95;id</text></g><a href='#library.reservations.copy_id'><g><title>&#x1F517;  References library.copies ( copy_id ) </title><use x='1297' y='1477' href='#fk'/></g></a>
   <g><title>&#10697;  reserved_at
      timestamp</title><text id='library&#46;reservations&#46;reserved&#95;at' x='1163' y='1510'>reserved&#95;at</text></g><text x='1307' y='1506' text-anchor='end' class='colType'>t</text>  <g><title>&#10697;  fulfilled_at
      timestamp</title><text id='library&#46;reservations&#46;fulfilled&#95;at' x='1163' y='1529'>fulfilled&#95;at</text></g><text x='1307' y='1525' text-anchor='end' class='colType'>t</text>  <g><title>&#10697;  fulfillment_loan_id
      text
- &#8599; loans( loan_id )</title><text id='library&#46;reservations&#46;fulfillment&#95;loan&#95;id' x='1163' y='1548' onmouseover="hghl(['reservations_fk_reservations_fulfillment_loan_id','library.loans.loan_id'])" onmouseout="uhghl(['reservations_fk_reservations_fulfillment_loan_id','library.loans.loan_id'])">fulfillment&#95;loan&#95;id</text></g><a href='#library.reservations.fulfillment_loan_id'><g><title>&#x1F517;  References loans ( fulfillment_loan_id -&gt; loan_id ) </title><use x='1297' y='1534' href='#fk'/></g></a>
+ &#8599; loans( loan_id )</title><text id='library&#46;reservations&#46;fulfillment&#95;loan&#95;id' x='1163' y='1548' onmouseover="hghl(['reservations_fk_reservations_fulfillment_loan_id','library.loans.loan_id'])" onmouseout="uhghl(['reservations_fk_reservations_fulfillment_loan_id','library.loans.loan_id'])">fulfillment&#95;loan&#95;id</text></g><a href='#library.reservations.fulfillment_loan_id'><g><title>&#x1F517;  References library.loans ( fulfillment_loan_id -&gt; loan_id ) </title><use x='1297' y='1534' href='#fk'/></g></a>
   <g><title>&#10697;  cancelled_at
      timestamp</title><text id='library&#46;reservations&#46;cancelled&#95;at' x='1163' y='1567'>cancelled&#95;at</text></g><text x='1307' y='1563' text-anchor='end' class='colType'>t</text>  <g><title>&#10697;  status
      library.reservation_status</title><text id='library&#46;reservations&#46;status' x='1163' y='1586'>status</text></g><text x='1307' y='1582' text-anchor='end' class='colType'>t</text>
+<!-- == Table 'works' == -->
+<rect id='depict_catalog&#46;works' class='entity' style='stroke:#F9FAFC' x='285' y='751' width='171' height='209' rx='4' ry='4' />
+<rect x='285' y='751' width='171' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_BED3F4);'/>
+<rect x='285' y='755' width='171' height='29' style='stroke-width:0;fill:url(#tbg_BED3F4);'/>
+<g><title>Table catalog.works</title><text id='depict&#45;catalog&#46;works' x='325' y='773' class='tableHeader' style='fill:#414348;'>catalog&#46;works</text></g>  <use x='286' y='794' href='#nn'/><g><title>&#x1F511;  Pk works_pkey ( work_key ) </title><use x='287' y='793' href='#pk'/></g><g><title>&#10697;  work_key
+     * text
+ &#8601; works_availability( work_key )
+ &#8601; works_series( work_key )
+ &#8601; authors_works( work_key )
+ &#8601; works_ratings( work_key )
+ &#8601; works_subjects( work_key )
+ &#8601; works_people( work_key )
+ &#8601; works_places( work_key )
+ &#8601; works_time_periods( work_key )
+ &#8601; editions( work_key )</title><text id='catalog&#46;works&#46;work&#95;key' x='308' y='807' onmouseover="hghl(['works_availability_fk_works_availability_work_key','catalog.works_availability.work_key','works_series_fk_works_series_work_key','catalog.works_series.work_key','authors_works_fk_authors_works_work_key','catalog.authors_works.work_key','works_ratings_fk_works_ratings_work_key','catalog.works_ratings.work_key','works_subjects_fk_works_subjects_work_key','catalog.works_subjects.work_key','works_people_fk_works_people_work_key','catalog.works_people.work_key','works_places_fk_works_places_work_key','catalog.works_places.work_key','works_time_periods_fk_works_time_periods_work_key','catalog.works_time_periods.work_key','editions_fk_editions_work_key','catalog.editions.work_key'])" onmouseout="uhghl(['works_availability_fk_works_availability_work_key','catalog.works_availability.work_key','works_series_fk_works_series_work_key','catalog.works_series.work_key','authors_works_fk_authors_works_work_key','catalog.authors_works.work_key','works_ratings_fk_works_ratings_work_key','catalog.works_ratings.work_key','works_subjects_fk_works_subjects_work_key','catalog.works_subjects.work_key','works_people_fk_works_people_work_key','catalog.works_people.work_key','works_places_fk_works_places_work_key','catalog.works_places.work_key','works_time_periods_fk_works_time_periods_work_key','catalog.works_time_periods.work_key','editions_fk_editions_work_key','catalog.editions.work_key'])" class='colPk'>work&#95;key</text></g><a href='#catalog.works.work_key'><g><title>&#x1F517;  Referred by catalog.works_availability ( work_key ) 
+Referred by catalog.works_series ( work_key ) 
+Referred by catalog.authors_works ( work_key ) 
+Referred by catalog.works_ratings ( work_key ) 
+Referred by catalog.works_subjects ( work_key ) 
+Referred by catalog.works_people ( work_key ) 
+Referred by catalog.works_places ( work_key ) 
+Referred by catalog.works_time_periods ( work_key ) 
+Referred by catalog.editions ( work_key ) </title><use x='442' y='793' href='#ref'/></g></a>
+  <g><title>&#x1F50D;  works_title_trgm_idx ( title ) </title><use x='287' y='812' href='#idx'/></g><g><title>&#10697;  title
+     text</title><text id='catalog&#46;works&#46;title' x='308' y='826'>title</text></g><text x='452' y='822' text-anchor='end' class='colType'>t</text>  <g><title>&#x1F50D;  works_subtitle_trgm_idx ( subtitle ) </title><use x='287' y='831' href='#idx'/></g><g><title>&#10697;  subtitle
+     text</title><text id='catalog&#46;works&#46;subtitle' x='308' y='845'>subtitle</text></g><text x='452' y='841' text-anchor='end' class='colType'>t</text>  <g><title>&#10697;  description
+     text</title><text id='catalog&#46;works&#46;description' x='308' y='864'>description</text></g><text x='452' y='860' text-anchor='end' class='colType'>t</text>  <g><title>&#10697;  first_sentence
+     text</title><text id='catalog&#46;works&#46;first&#95;sentence' x='308' y='883'>first&#95;sentence</text></g><text x='452' y='879' text-anchor='end' class='colType'>t</text>  <g><title>&#10697;  edition_count
+     integer</title><text id='catalog&#46;works&#46;edition&#95;count' x='308' y='902'>edition&#95;count</text></g><text x='452' y='898' text-anchor='end' class='colType'>&#35;</text>  <g><title>&#10697;  first_publish_year
+     integer</title><text id='catalog&#46;works&#46;first&#95;publish&#95;year' x='308' y='921'>first&#95;publish&#95;year</text></g><text x='452' y='917' text-anchor='end' class='colType'>&#35;</text>  <g><title>&#10697;  first_publish_date
+     text</title><text id='catalog&#46;works&#46;first&#95;publish&#95;date' x='308' y='940'>first&#95;publish&#95;date</text></g><text x='452' y='936' text-anchor='end' class='colType'>t</text>
+<!-- == Table 'works_ratings' == -->
+<rect id='depict_catalog&#46;works&#95;ratings' class='entity' style='stroke:#F9FAFC' x='57' y='1036' width='171' height='171' rx='4' ry='4' />
+<rect x='57' y='1036' width='171' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_BED3F4);'/>
+<rect x='57' y='1040' width='171' height='29' style='stroke-width:0;fill:url(#tbg_BED3F4);'/>
+<g><title>Table catalog.works_ratings</title><text id='depict&#45;catalog&#46;works&#95;ratings' x='74' y='1058' class='tableHeader' style='fill:#414348;'>catalog&#46;works&#95;ratings</text></g>  <use x='58' y='1079' href='#nn'/><g><title>&#x1F511;  Pk works_ratings_pkey ( work_key ) </title><use x='59' y='1078' href='#pk'/></g><g><title>&#10697;  work_key
+     * text
+ &#8599; works( work_key )</title><text id='catalog&#46;works&#95;ratings&#46;work&#95;key' x='80' y='1092' onmouseover="hghl(['works_ratings_fk_works_ratings_work_key','catalog.works.work_key'])" onmouseout="uhghl(['works_ratings_fk_works_ratings_work_key','catalog.works.work_key'])" class='colPk'>work&#95;key</text></g><a href='#catalog.works_ratings.work_key'><g><title>&#x1F517;  References catalog.works ( work_key ) </title><use x='214' y='1078' href='#fk'/></g></a>
+  <g><title>&#10697;  ratings_count_1
+     integer</title><text id='catalog&#46;works&#95;ratings&#46;ratings&#95;count&#95;1' x='80' y='1111'>ratings&#95;count&#95;1</text></g><text x='224' y='1107' text-anchor='end' class='colType'>&#35;</text>  <g><title>&#10697;  ratings_count_2
+     integer</title><text id='catalog&#46;works&#95;ratings&#46;ratings&#95;count&#95;2' x='80' y='1130'>ratings&#95;count&#95;2</text></g><text x='224' y='1126' text-anchor='end' class='colType'>&#35;</text>  <g><title>&#10697;  ratings_count_3
+     integer</title><text id='catalog&#46;works&#95;ratings&#46;ratings&#95;count&#95;3' x='80' y='1149'>ratings&#95;count&#95;3</text></g><text x='224' y='1145' text-anchor='end' class='colType'>&#35;</text>  <g><title>&#10697;  ratings_count_4
+     integer</title><text id='catalog&#46;works&#95;ratings&#46;ratings&#95;count&#95;4' x='80' y='1168'>ratings&#95;count&#95;4</text></g><text x='224' y='1164' text-anchor='end' class='colType'>&#35;</text>  <g><title>&#10697;  ratings_count_5
+     integer</title><text id='catalog&#46;works&#95;ratings&#46;ratings&#95;count&#95;5' x='80' y='1187'>ratings&#95;count&#95;5</text></g><text x='224' y='1183' text-anchor='end' class='colType'>&#35;</text>
+<!-- == Table 'works_availability' == -->
+<rect id='depict_catalog&#46;works&#95;availability' class='entity' style='stroke:#F9FAFC' x='285' y='1036' width='190' height='133' rx='4' ry='4' />
+<rect x='285' y='1036' width='190' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_BED3F4);'/>
+<rect x='285' y='1040' width='190' height='29' style='stroke-width:0;fill:url(#tbg_BED3F4);'/>
+<g><title>Table catalog.works_availability</title><text id='depict&#45;catalog&#46;works&#95;availability' x='301' y='1058' class='tableHeader' style='fill:#414348;'>catalog&#46;works&#95;availability</text></g>  <use x='286' y='1079' href='#nn'/><g><title>&#x1F511;  Pk works_availability_pkey ( work_key ) </title><use x='287' y='1078' href='#pk'/></g><g><title>&#10697;  work_key
+     * text
+ &#8599; works( work_key )</title><text id='catalog&#46;works&#95;availability&#46;work&#95;key' x='308' y='1092' onmouseover="hghl(['works_availability_fk_works_availability_work_key','catalog.works.work_key'])" onmouseout="uhghl(['works_availability_fk_works_availability_work_key','catalog.works.work_key'])" class='colPk'>work&#95;key</text></g><a href='#catalog.works_availability.work_key'><g><title>&#x1F517;  References catalog.works ( work_key ) </title><use x='461' y='1078' href='#fk'/></g></a>
+  <g><title>&#10697;  ebook_access
+     text</title><text id='catalog&#46;works&#95;availability&#46;ebook&#95;access' x='308' y='1111'>ebook&#95;access</text></g><text x='471' y='1107' text-anchor='end' class='colType'>t</text>  <g><title>&#10697;  has_fulltext
+     boolean</title><text id='catalog&#46;works&#95;availability&#46;has&#95;fulltext' x='308' y='1130'>has&#95;fulltext</text></g><text x='471' y='1126' text-anchor='end' class='colType'>b</text>  <g><title>&#10697;  has_public_scan
+     boolean</title><text id='catalog&#46;works&#95;availability&#46;has&#95;public&#95;scan' x='308' y='1149'>has&#95;public&#95;scan</text></g><text x='471' y='1145' text-anchor='end' class='colType'>b</text>
+<!-- == Table 'works_series' == -->
+<rect id='depict_catalog&#46;works&#95;series' class='entity' style='stroke:#F9FAFC' x='532' y='1036' width='152' height='133' rx='4' ry='4' />
+<rect x='532' y='1036' width='152' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_BED3F4);'/>
+<rect x='532' y='1040' width='152' height='29' style='stroke-width:0;fill:url(#tbg_BED3F4);'/>
+<g><title>Table catalog.works_series</title><text id='depict&#45;catalog&#46;works&#95;series' x='543' y='1058' class='tableHeader' style='fill:#414348;'>catalog&#46;works&#95;series</text></g>  <use x='533' y='1079' href='#nn'/><g><title>&#x1F511;  Pk works_series_pkey ( work_key ) </title><use x='534' y='1078' href='#pk'/></g><g><title>&#10697;  work_key
+     * text
+ &#8599; works( work_key )</title><text id='catalog&#46;works&#95;series&#46;work&#95;key' x='555' y='1092' onmouseover="hghl(['works_series_fk_works_series_work_key','catalog.works.work_key'])" onmouseout="uhghl(['works_series_fk_works_series_work_key','catalog.works.work_key'])" class='colPk'>work&#95;key</text></g><a href='#catalog.works_series.work_key'><g><title>&#x1F517;  References catalog.works ( work_key ) </title><use x='670' y='1078' href='#fk'/></g></a>
+  <g><title>&#10697;  series_key
+     text</title><text id='catalog&#46;works&#95;series&#46;series&#95;key' x='555' y='1111'>series&#95;key</text></g><text x='680' y='1107' text-anchor='end' class='colType'>t</text>  <g><title>&#10697;  series_position
+     text</title><text id='catalog&#46;works&#95;series&#46;series&#95;position' x='555' y='1130'>series&#95;position</text></g><text x='680' y='1126' text-anchor='end' class='colType'>t</text>  <g><title>&#x1F50D;  works_series_name_trgm_idx ( series_name ) </title><use x='534' y='1135' href='#idx'/></g><g><title>&#10697;  series_name
+     text</title><text id='catalog&#46;works&#95;series&#46;series&#95;name' x='555' y='1149'>series&#95;name</text></g><text x='680' y='1145' text-anchor='end' class='colType'>t</text>
+<!-- == Table 'works_time_periods' == -->
+<rect id='depict_catalog&#46;works&#95;time&#95;periods' class='entity' style='stroke:#F9FAFC' x='570' y='1264' width='209' height='95' rx='4' ry='4' />
+<rect x='570' y='1264' width='209' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_BED3F4);'/>
+<rect x='570' y='1268' width='209' height='29' style='stroke-width:0;fill:url(#tbg_BED3F4);'/>
+<g><title>Table catalog.works_time_periods</title><text id='depict&#45;catalog&#46;works&#95;time&#95;periods' x='588' y='1286' class='tableHeader' style='fill:#414348;'>catalog&#46;works&#95;time&#95;periods</text></g>  <use x='571' y='1307' href='#nn'/><g><title>&#x1F511;  Pk works_time_periods_pkey ( work_key, time_period ) </title><use x='572' y='1306' href='#pk'/></g><g><title>&#10697;  work_key
+     * text
+ &#8599; works( work_key )</title><text id='catalog&#46;works&#95;time&#95;periods&#46;work&#95;key' x='593' y='1320' onmouseover="hghl(['works_time_periods_fk_works_time_periods_work_key','catalog.works.work_key'])" onmouseout="uhghl(['works_time_periods_fk_works_time_periods_work_key','catalog.works.work_key'])" class='colPk'>work&#95;key</text></g><a href='#catalog.works_time_periods.work_key'><g><title>&#x1F517;  References catalog.works ( work_key ) </title><use x='765' y='1306' href='#fk'/></g></a>
+  <use x='571' y='1326' href='#nn'/><g><title>&#x1F511;  Pk works_time_periods_pkey ( work_key, time_period ) &#x1F50D;  works_time_periods_trgm_idx ( time_period ) </title><use x='572' y='1325' href='#pk'/></g><g><title>&#10697;  time_period
+     * text</title><text id='catalog&#46;works&#95;time&#95;periods&#46;time&#95;period' x='593' y='1339' class='colPk'>time&#95;period</text></g><text x='775' y='1335' text-anchor='end' class='colType'>t</text>
+<!-- == Table 'works_places' == -->
+<rect id='depict_catalog&#46;works&#95;places' class='entity' style='stroke:#F9FAFC' x='418' y='1264' width='152' height='95' rx='4' ry='4' />
+<rect x='418' y='1264' width='152' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_BED3F4);'/>
+<rect x='418' y='1268' width='152' height='29' style='stroke-width:0;fill:url(#tbg_BED3F4);'/>
+<g><title>Table catalog.works_places</title><text id='depict&#45;catalog&#46;works&#95;places' x='427' y='1286' class='tableHeader' style='fill:#414348;'>catalog&#46;works&#95;places</text></g>  <use x='419' y='1307' href='#nn'/><g><title>&#x1F511;  Pk works_places_pkey ( work_key, place ) </title><use x='420' y='1306' href='#pk'/></g><g><title>&#10697;  work_key
+     * text
+ &#8599; works( work_key )</title><text id='catalog&#46;works&#95;places&#46;work&#95;key' x='441' y='1320' onmouseover="hghl(['works_places_fk_works_places_work_key','catalog.works.work_key'])" onmouseout="uhghl(['works_places_fk_works_places_work_key','catalog.works.work_key'])" class='colPk'>work&#95;key</text></g><a href='#catalog.works_places.work_key'><g><title>&#x1F517;  References catalog.works ( work_key ) </title><use x='556' y='1306' href='#fk'/></g></a>
+  <use x='419' y='1326' href='#nn'/><g><title>&#x1F511;  Pk works_places_pkey ( work_key, place ) &#x1F50D;  works_places_place_trgm_idx ( place ) </title><use x='420' y='1325' href='#pk'/></g><g><title>&#10697;  place
+     * text</title><text id='catalog&#46;works&#95;places&#46;place' x='441' y='1339' class='colPk'>place</text></g><text x='566' y='1335' text-anchor='end' class='colType'>t</text>
+<!-- == Table 'works_people' == -->
+<rect id='depict_catalog&#46;works&#95;people' class='entity' style='stroke:#F9FAFC' x='247' y='1264' width='171' height='95' rx='4' ry='4' />
+<rect x='247' y='1264' width='171' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_BED3F4);'/>
+<rect x='247' y='1268' width='171' height='29' style='stroke-width:0;fill:url(#tbg_BED3F4);'/>
+<g><title>Table catalog.works_people</title><text id='depict&#45;catalog&#46;works&#95;people' x='264' y='1286' class='tableHeader' style='fill:#414348;'>catalog&#46;works&#95;people</text></g>  <use x='248' y='1307' href='#nn'/><g><title>&#x1F511;  Pk works_people_pkey ( work_key, person ) </title><use x='249' y='1306' href='#pk'/></g><g><title>&#10697;  work_key
+     * text
+ &#8599; works( work_key )</title><text id='catalog&#46;works&#95;people&#46;work&#95;key' x='270' y='1320' onmouseover="hghl(['works_people_fk_works_people_work_key','catalog.works.work_key'])" onmouseout="uhghl(['works_people_fk_works_people_work_key','catalog.works.work_key'])" class='colPk'>work&#95;key</text></g><a href='#catalog.works_people.work_key'><g><title>&#x1F517;  References catalog.works ( work_key ) </title><use x='404' y='1306' href='#fk'/></g></a>
+  <use x='248' y='1326' href='#nn'/><g><title>&#x1F511;  Pk works_people_pkey ( work_key, person ) &#x1F50D;  works_people_person_trgm_idx ( person ) </title><use x='249' y='1325' href='#pk'/></g><g><title>&#10697;  person
+     * text</title><text id='catalog&#46;works&#95;people&#46;person' x='270' y='1339' class='colPk'>person</text></g><text x='414' y='1335' text-anchor='end' class='colType'>t</text>
+<!-- == Table 'works_subjects' == -->
+<rect id='depict_catalog&#46;works&#95;subjects' class='entity' style='stroke:#F9FAFC' x='57' y='1264' width='171' height='95' rx='4' ry='4' />
+<rect x='57' y='1264' width='171' height='8' rx='4' ry='4' style='stroke-width:0;fill:url(#ttl_BED3F4);'/>
+<rect x='57' y='1268' width='171' height='29' style='stroke-width:0;fill:url(#tbg_BED3F4);'/>
+<g><title>Table catalog.works_subjects</title><text id='depict&#45;catalog&#46;works&#95;subjects' x='70' y='1286' class='tableHeader' style='fill:#414348;'>catalog&#46;works&#95;subjects</text></g>  <use x='58' y='1307' href='#nn'/><g><title>&#x1F511;  Pk works_subjects_pkey ( work_key, subject ) </title><use x='59' y='1306' href='#pk'/></g><g><title>&#10697;  work_key
+     * text
+ &#8599; works( work_key )</title><text id='catalog&#46;works&#95;subjects&#46;work&#95;key' x='80' y='1320' onmouseover="hghl(['works_subjects_fk_works_subjects_work_key','catalog.works.work_key'])" onmouseout="uhghl(['works_subjects_fk_works_subjects_work_key','catalog.works.work_key'])" class='colPk'>work&#95;key</text></g><a href='#catalog.works_subjects.work_key'><g><title>&#x1F517;  References catalog.works ( work_key ) </title><use x='214' y='1306' href='#fk'/></g></a>
+  <use x='58' y='1326' href='#nn'/><g><title>&#x1F511;  Pk works_subjects_pkey ( work_key, subject ) &#x1F50D;  works_subjects_subject_trgm_idx ( subject ) </title><use x='59' y='1325' href='#pk'/></g><g><title>&#10697;  subject
+     * text</title><text id='catalog&#46;works&#95;subjects&#46;subject' x='80' y='1339' class='colPk'>subject</text></g><text x='224' y='1335' text-anchor='end' class='colType'>t</text>
 </g></svg>
