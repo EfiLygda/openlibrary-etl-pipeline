@@ -323,7 +323,9 @@ In the same file Open Library's API settings can be changed with options:
 
 Run the pipeline (ETL + library simulation) from the root directory using the following command:
 
-  ```python -m main```
+```console
+python -m main
+```
 
 > **Note**:
 > In case the user need to see the generated events colour coded then the following command can be used:
