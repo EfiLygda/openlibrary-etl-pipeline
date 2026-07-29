@@ -1,12 +1,16 @@
 # OpenLibrary ETL Pipeline
 
-An end-to-end data engineering project that ingests book metadata from the Open Library API, transforms and normalizes it into a relational PostgreSQL database, and exposes it through a FastAPI-based REST API featuring search, relationship navigation, and structured response models.
+An end-to-end data engineering project that ingests book metadata from the Open Library API, transforms and normalizes it into a relational PostgreSQL database, exposes the data through a FastAPI-based REST API, and extends it with an event-driven library simulation system.
 
-The project implements a production-style ETL workflow with schema-driven transformations, structured data modeling, indexing, testing, structured logging, and performance benchmarking to provide efficient access to authors, works, editions, ratings, and related metadata.
+The project combines batch data processing and real-time event processing patterns. 
+The ETL pipeline builds a structured bibliographic database containing works, authors, editions, and related metadata, while the library simulation introduces operational workflows such as users, librarians, inventory management, borrowing, returns, reservations, renewals, and fines.
 
-The repository includes a representative dataset for demonstration, testing, and reproducibility.
+The system follows a production-style architecture using schema-driven transformations, relational data modeling, PostgreSQL storage, API development, Kafka-based event streaming, Redis-backed state management, automated testing, structured logging, and database performance benchmarking.
 
-Open Library metadata is provided by the Internet Archive. This project is an independent work and is not affiliated with, endorsed by, or sponsored by Open Library or the Internet Archive.
+The repository includes representative datasets and simulation components for demonstration, testing, and reproducibility.
+
+Open Library metadata are provided by the Internet Archive.
+This project is an independent work and is not affiliated with, endorsed by, or sponsored by Open Library or the Internet Archive.
 
 ---
 
@@ -44,18 +48,28 @@ Open Library metadata is provided by the Internet Archive. This project is an in
 
 ## Overview
 
-What the project is trying to achieve:
+The project consists of two connected systems:
 
-- Extract structured romance fiction data from OpenLibrary API endpoints
-- Build a relational data model for general works, authors, editions and series
-- Clean and transform raw JSON into normalized tables
-- Load processed data into a PostgreSQL database
-- Ensure reproducibility and modular ETL design
-- Expose processed data through a REST-style API built with FastAPI
+1. **Open Library ETL Pipeline**
+   - Extract structured romance fiction data from OpenLibrary API endpoints
+   - Build a relational data model for general works, authors, editions and series
+   - Clean and transform raw JSON into normalized tables
+   - Load processed data into a PostgreSQL database
+   - Ensure reproducibility and modular ETL design
+   - Expose processed data through a REST-style API built with FastAPI
+
+2. **Library Event Simulation**
+   - Uses the processed Open Library data as the foundation for a simulated library environment
+   - Models real-world operations around physical book copies
+   - Generates and processes events using Kafka
+   - Maintains current operational state using Redis
+   - Stores historical operational records in PostgreSQL
+
+Together, these components demonstrate both batch-oriented data engineering workflows and real-time event-driven system design.
 
 ---
 
-### Pipeline Phases
+### ETL Pipeline Phases
 
 1. `Extract`: fetch data from OpenLibrary API and store raw JSON responses in `data_pipeline/data/romance_fiction/raw/`, preserving original structure for reproducibility and reprocessing.
 
@@ -64,6 +78,32 @@ What the project is trying to achieve:
 3. `Load`: initialize PostgreSQL database, create schema and tables from SQL definition files, create indexes, and load processed CSV files into the `openlibrary_db` database while enforcing relational constraints.
 
 > **Note:** See [pipelines_phases_stages.md](docs/logging/pipelines_phases_stages.md) for more information on the phases and their respective steps.
+
+---
+
+### Library Simulation
+
+The project includes an event-driven library simulation built on top of the Open Library dataset. 
+While the ETL pipeline focuses on collecting and structuring bibliographic metadata, the simulation introduces operational workflows around physical library inventory and circulation.
+
+The simulation models real-world library activities such as:
+
+- User and librarian management
+- Copy inventory tracking
+- Borrowing and returning books
+- Reservations and renewals
+- Fine generation and payments
+
+The system uses Kafka for event streaming and Redis for maintaining the current operational state. 
+Events represent state changes, while PostgreSQL stores the resulting historical records.
+
+The simulation follows an event-driven architecture where events can be generated by the simulation producer or emitted by handlers as consequences of previous actions.
+
+
+> **Note**:
+> For the complete event catalog, payload definitions, business rules, and processing flows, see [event_driven_design.md](docs/event_system/event_driven_design.md)
+
+
 ---
 
 ### Project Structure
@@ -141,6 +181,9 @@ This project leverages the following technologies across the ETL and API layers:
 - `PostgreSQL`: relational database used for structured storage and querying of processed data
 - `FastAPI`: RESTful API framework for exposing structured data
 - `Uvicorn`: ASGI server used to run and serve the FastAPI application
+- `Apache Kafka`: event streaming platform used for asynchronous communication between simulation components
+- `Redis`: in-memory data store used as the simulation's operational state manager for tracking current system state
+- `Pytest`: testing framework used for API and system validation
 
 ---
 
@@ -162,6 +205,11 @@ This project leverages the following technologies across the ETL and API layers:
     pytest==9.1.1
     httpx2==2.4.0
     pycountry==26.2.16
+    kafka-python==3.0.7
+    redis==8.0.1
+    Faker==40.23.0
+    rich==15.0.0
+    truststore==0.10.4
 ---
 
 ## How to Run
@@ -185,9 +233,14 @@ In the same file Open Library's API settings can be changed with options:
 
 **STEP 2**: Run the pipeline
 
-Run the pipeline from the root directory using the following command:
+Run the pipeline (ETL + library simulation) from the root directory using the following command:
 
-    python -m data_pipeline.pipeline
+  ```python -m main```
+
+> **Note**:
+> In case the user need to see the generated events colour coded then the following command can be used:
+> 
+>  ```python -m main --display-events```
 
 ---
 
@@ -231,9 +284,9 @@ The processed tables are located at `data_pipeline/data/romance_fiction/processe
 
 ### Database Schema
 
-In the following image the database's diagram is presented, by grouping the 17 tables in 3 groups:
+In the following image the database's diagram is presented, by grouping the 23 tables in 4 groups:
 
-![MainDiagram.svg](docs/database/diagrams/MainDiagram.svg)
+![ER_Diagram.svg](docs/database/diagrams/ER_Diagram.svg)
 
 ---
 
